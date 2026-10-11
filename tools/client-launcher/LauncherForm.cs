@@ -20,8 +20,9 @@ namespace Valiant2Launcher
         {
             Text = "VALIANT2 Launcher";
             StartPosition = FormStartPosition.CenterScreen;
-            FormBorderStyle = FormBorderStyle.FixedSingle;
+            FormBorderStyle = FormBorderStyle.None;
             MaximizeBox = false;
+            Padding = new Padding(2);
             ClientSize = new Size(520, 330);
             BackColor = Color.FromArgb(15, 13, 12);
             ForeColor = Color.FromArgb(218, 204, 170);
@@ -34,6 +35,7 @@ namespace Valiant2Launcher
 
         private void BuildInterface()
         {
+            var chrome = CreateTitleBar("VALIANT2 LAUNCHER");
             var title = new Label { Text = "V A L I A N T  II", Font = new Font("Georgia", 28, FontStyle.Bold), ForeColor = Color.FromArgb(218, 174, 76), BackColor = Color.Transparent, TextAlign = ContentAlignment.BottomCenter, Dock = DockStyle.Top, Height = 92 };
             var subtitle = new Label { Text = "DOĞU'NUN SAVAŞI", Font = new Font("Georgia", 9, FontStyle.Italic), ForeColor = Color.FromArgb(151, 131, 94), BackColor = Color.Transparent, TextAlign = ContentAlignment.TopCenter, Dock = DockStyle.Top, Height = 34 };
             status.BackColor = Color.FromArgb(28, 24, 21); status.Font = new Font("Georgia", 9, FontStyle.Bold); status.Height = 40;
@@ -43,7 +45,21 @@ namespace Valiant2Launcher
             play.Click += PlayClick; settings.Click += SettingsClick; folder.Click += FolderClick;
             secondary.Controls.Add(settings); secondary.Controls.Add(folder);
             panel.Controls.Add(play); panel.Controls.Add(secondary);
-            Controls.Add(panel); Controls.Add(status); Controls.Add(subtitle); Controls.Add(title);
+            Controls.Add(panel); Controls.Add(status); Controls.Add(subtitle); Controls.Add(title); Controls.Add(chrome);
+        }
+
+        private Panel CreateTitleBar(string caption)
+        {
+            var bar = new Panel { Dock = DockStyle.Top, Height = 36, BackColor = Color.FromArgb(24, 20, 17) };
+            var text = new Label { Text = caption, Dock = DockStyle.Fill, ForeColor = Color.FromArgb(194, 151, 67), TextAlign = ContentAlignment.MiddleLeft, Padding = new Padding(12, 0, 0, 0), Font = new Font("Georgia", 9F, FontStyle.Bold) };
+            var close = new Button { Text = "×", Dock = DockStyle.Right, Width = 42, FlatStyle = FlatStyle.Flat, BackColor = Color.FromArgb(87, 27, 24), ForeColor = Color.FromArgb(235, 214, 166), Font = new Font("Georgia", 14F) };
+            var minimize = new Button { Text = "—", Dock = DockStyle.Right, Width = 42, FlatStyle = FlatStyle.Flat, BackColor = Color.FromArgb(38, 31, 26), ForeColor = Color.FromArgb(218, 193, 142), Font = new Font("Georgia", 10F) };
+            close.FlatAppearance.BorderSize = 0; minimize.FlatAppearance.BorderSize = 0;
+            close.Click += (s, e) => Close(); minimize.Click += (s, e) => WindowState = FormWindowState.Minimized;
+            MouseEventHandler drag = (s, e) => { if (e.Button == MouseButtons.Left) { ReleaseCapture(); SendMessage(Handle, 0xA1, new IntPtr(2), IntPtr.Zero); } };
+            bar.MouseDown += drag; text.MouseDown += drag;
+            bar.Controls.Add(text); bar.Controls.Add(minimize); bar.Controls.Add(close);
+            return bar;
         }
 
         private static void StyleButton(Button button, bool primary)
@@ -100,6 +116,8 @@ namespace Valiant2Launcher
             Process.Start(new ProcessStartInfo(path) { WorkingDirectory = gameDirectory, UseShellExecute = true });
         }
 
+        [System.Runtime.InteropServices.DllImport("user32.dll")] private static extern bool ReleaseCapture();
+        [System.Runtime.InteropServices.DllImport("user32.dll")] private static extern IntPtr SendMessage(IntPtr hWnd, int message, IntPtr wParam, IntPtr lParam);
         [System.Runtime.InteropServices.DllImport("user32.dll")] private static extern bool SetForegroundWindow(IntPtr hWnd);
         [System.Runtime.InteropServices.DllImport("user32.dll")] private static extern bool ShowWindow(IntPtr hWnd, int command);
     }

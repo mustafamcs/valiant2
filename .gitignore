@@ -21,6 +21,7 @@ runtime/server/**/packet_info.txt
 runtime/server/**/p2p_packet_info.txt
 runtime/server/**/profile.txt
 runtime/server/**/stdout.txt
+runtime/server/**/usage.txt
 database/mysql-data/
 database/legacy-export.sql
 runtime/client/VALIANT2.exe

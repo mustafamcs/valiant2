@@ -140,6 +140,9 @@ namespace Valiant2Config
 
         [DllImport("user32.dll", CharSet = CharSet.Ansi)]
         private static extern bool EnumDisplaySettings(string deviceName, int modeNum, ref DevMode devMode);
+        [DllImport("user32.dll")] private static extern bool ReleaseCapture();
+        [DllImport("user32.dll")] private static extern IntPtr SendMessage(IntPtr hWnd, int message, IntPtr wParam, IntPtr lParam);
+        [DllImport("uxtheme.dll", CharSet = CharSet.Unicode)] private static extern int SetWindowTheme(IntPtr hWnd, string subAppName, string subIdList);
 
         private readonly string path;
         private readonly ClientConfig config;
@@ -152,6 +155,8 @@ namespace Valiant2Config
             config = ClientConfig.Load(path);
             Text = "VALIANT2 Ayarları";
             StartPosition = FormStartPosition.CenterScreen;
+            FormBorderStyle = FormBorderStyle.None;
+            Padding = new Padding(2);
             MinimumSize = new Size(680, 620);
             Size = new Size(780, 840);
             BackColor = Color.FromArgb(18, 16, 14);
@@ -209,7 +214,21 @@ namespace Valiant2Config
             cancel.Click += (s, e) => Close();
             defaults.Click += DefaultsClick;
             buttons.Controls.Add(save); buttons.Controls.Add(cancel); buttons.Controls.Add(defaults);
-            Controls.Add(panel); Controls.Add(buttons);
+            Controls.Add(panel); Controls.Add(buttons); Controls.Add(CreateTitleBar("VALIANT2 AYARLARI"));
+        }
+
+        private Panel CreateTitleBar(string caption)
+        {
+            var bar = new Panel { Dock = DockStyle.Top, Height = 38, BackColor = Color.FromArgb(24, 20, 17) };
+            var text = new Label { Text = caption, Dock = DockStyle.Fill, ForeColor = Color.FromArgb(202, 157, 67), TextAlign = ContentAlignment.MiddleLeft, Padding = new Padding(13, 0, 0, 0), Font = new Font("Georgia", 9F, FontStyle.Bold) };
+            var close = new Button { Text = "×", Dock = DockStyle.Right, Width = 44, FlatStyle = FlatStyle.Flat, BackColor = Color.FromArgb(87, 27, 24), ForeColor = Color.FromArgb(235, 214, 166), Font = new Font("Georgia", 14F) };
+            var minimize = new Button { Text = "—", Dock = DockStyle.Right, Width = 44, FlatStyle = FlatStyle.Flat, BackColor = Color.FromArgb(38, 31, 26), ForeColor = Color.FromArgb(218, 193, 142), Font = new Font("Georgia", 10F) };
+            close.FlatAppearance.BorderSize = 0; minimize.FlatAppearance.BorderSize = 0;
+            close.Click += (s, e) => Close(); minimize.Click += (s, e) => WindowState = FormWindowState.Minimized;
+            MouseEventHandler drag = (s, e) => { if (e.Button == MouseButtons.Left) { ReleaseCapture(); SendMessage(Handle, 0xA1, new IntPtr(2), IntPtr.Zero); } };
+            bar.MouseDown += drag; text.MouseDown += drag;
+            bar.Controls.Add(text); bar.Controls.Add(minimize); bar.Controls.Add(close);
+            return bar;
         }
 
         private static void StyleEditor(Control control)
@@ -218,7 +237,26 @@ namespace Valiant2Config
             control.ForeColor = Color.FromArgb(232, 216, 180);
             control.Font = new Font("Georgia", 9F);
             var combo = control as ComboBox;
-            if (combo != null) combo.FlatStyle = FlatStyle.Flat;
+            if (combo != null) { combo.FlatStyle = FlatStyle.Flat; combo.DrawMode = DrawMode.OwnerDrawFixed; combo.DrawItem += DrawComboItem; combo.HandleCreated += (s, e) => SetWindowTheme(combo.Handle, "DarkMode_Explorer", null); }
+            var check = control as CheckBox;
+            if (check != null)
+            {
+                check.Appearance = Appearance.Button;
+                check.FlatStyle = FlatStyle.Flat;
+                check.FlatAppearance.BorderColor = Color.FromArgb(145, 108, 43);
+                check.FlatAppearance.CheckedBackColor = Color.FromArgb(105, 35, 31);
+                check.FlatAppearance.MouseOverBackColor = Color.FromArgb(74, 50, 35);
+                check.AutoSize = false; check.Width = 112; check.Height = 26; check.TextAlign = ContentAlignment.MiddleCenter;
+            }
+        }
+
+        private static void DrawComboItem(object sender, DrawItemEventArgs e)
+        {
+            if (e.Index < 0) return;
+            var combo = (ComboBox)sender;
+            var selected = (e.State & DrawItemState.Selected) == DrawItemState.Selected;
+            using (var brush = new SolidBrush(selected ? Color.FromArgb(105, 35, 31) : Color.FromArgb(39, 33, 28))) e.Graphics.FillRectangle(brush, e.Bounds);
+            TextRenderer.DrawText(e.Graphics, combo.Items[e.Index].ToString(), combo.Font, new Rectangle(e.Bounds.X + 6, e.Bounds.Y, e.Bounds.Width - 6, e.Bounds.Height), Color.FromArgb(232, 216, 180), TextFormatFlags.VerticalCenter | TextFormatFlags.Left);
         }
 
         private static void StyleButton(Button button, bool primary)
