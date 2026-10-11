@@ -1,1 +1,0 @@
-1011 01:54:09355 :: CPythonBackground::SelectViewDistanceNum(int eNum=0) mc_pcurEnvironmentData is NULL

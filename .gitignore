@@ -3,6 +3,8 @@
 **/.vs/
 artifacts/
 logs/
+*.log
+runtime/client/syserr/
 database/mysql-data/
 database/legacy-export.sql
 runtime/client/M2Client.exe
