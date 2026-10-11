@@ -24,6 +24,7 @@ runtime/server/**/stdout.txt
 database/mysql-data/
 database/legacy-export.sql
 runtime/client/M2Client.exe
+runtime/client/config.exe
 runtime/client/pack/
 runtime/server/.state/
 runtime/server/main/srv1/share/bin/db.exe
@@ -58,5 +59,6 @@ runtime/server/**/*.pid
 source/client/external/projects/CRootLib/Workplace/__cython/
 source/client/external/lib/rootlib.lib
 source/client/external/lib/uiscriptlib.lib
+tools/client-config/obj/
 Thumbs.db
 .DS_Store

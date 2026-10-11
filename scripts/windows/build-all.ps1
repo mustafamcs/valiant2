@@ -12,6 +12,8 @@ $localeFile = Join-Path $runtimeClient 'UserData\loca.cfg'
 if (!(Test-Path $langFile)) { Set-Content $langFile 'tr' -Encoding ascii -NoNewline }
 if (!(Test-Path $localeFile)) { Set-Content $localeFile '1254 tr' -Encoding ascii -NoNewline }
 & (Join-Path $PSScriptRoot 'sync-config.ps1')
+& $msbuild (Join-Path $root 'tools\client-config\Valiant2Config.csproj') /t:Build /p:Configuration=Release /p:Platform=AnyCPU /v:minimal
+if ($LASTEXITCODE -ne 0) { throw "Config build failed with code $LASTEXITCODE." }
 & $msbuild (Join-Path $root 'source\client\Antrum_Client_Global.sln') /m /t:Build /p:Configuration=Release /p:Platform=Win32 /v:minimal
 if ($LASTEXITCODE -ne 0) { throw "Client build failed with code $LASTEXITCODE." }
 & $msbuild (Join-Path $root 'source\server\source\AntrumServer.sln') /m /t:Build /p:Configuration=Release /p:Platform=Win32 /v:minimal

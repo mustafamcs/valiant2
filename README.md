@@ -49,6 +49,14 @@ Client:
 runtime\client\M2Client.exe
 ```
 
+Client ayar aracı:
+
+```text
+runtime\client\config.exe
+```
+
+Ayar aracı `metin2.cfg` içindeki tüm client ayarlarını düzenler ve her build sırasında kaynak koddan yeniden üretilir.
+
 ## Yeniden build
 
 Tüm Release hedefleri ve pack'ler:

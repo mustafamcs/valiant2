@@ -15,6 +15,7 @@ if (!(Get-Command winget -ErrorAction SilentlyContinue)) { throw 'Windows Packag
 Install-Package 'Git.Git'
 Install-Package 'GitHub.GitLFS'
 Install-Package 'Microsoft.VCRedist.2015+.x86'
+Install-Package 'Microsoft.DotNet.Framework.DeveloperPack_4'
 Install-Package 'Microsoft.VisualStudio.2022.BuildTools' @('--override','--wait --passive --norestart --add Microsoft.VisualStudio.Workload.VCTools --includeRecommended')
 $envFile = Join-Path $root '.env'
 if (!(Test-Path $envFile)) {
