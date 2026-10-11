@@ -124,15 +124,34 @@ namespace Valiant2Config
         public override string ToString() { return Width + " x " + Height + "  " + Bpp + " bit  " + Frequency + " Hz"; }
     }
 
-    internal sealed class DarkMenuColors : ProfessionalColorTable
+    internal sealed class ChoicePopup : Form
     {
-        public override Color ToolStripDropDownBackground { get { return Color.FromArgb(29, 24, 20); } }
-        public override Color MenuItemSelected { get { return Color.FromArgb(105, 35, 31); } }
-        public override Color MenuItemBorder { get { return Color.FromArgb(180, 136, 51); } }
-        public override Color ImageMarginGradientBegin { get { return Color.FromArgb(29, 24, 20); } }
-        public override Color ImageMarginGradientMiddle { get { return Color.FromArgb(29, 24, 20); } }
-        public override Color ImageMarginGradientEnd { get { return Color.FromArgb(29, 24, 20); } }
-        public override Color ToolStripBorder { get { return Color.FromArgb(145, 108, 43); } }
+        public int SelectedIndex = -1;
+
+        public ChoicePopup(IList<object> items, int selectedIndex, Point location, int itemWidth)
+        {
+            FormBorderStyle = FormBorderStyle.None;
+            StartPosition = FormStartPosition.Manual;
+            ShowInTaskbar = false;
+            TopMost = true;
+            BackColor = Color.FromArgb(20, 17, 15);
+            var rows = Math.Min(16, Math.Max(1, items.Count));
+            var columns = (int)Math.Ceiling(items.Count / (double)rows);
+            ClientSize = new Size(Math.Max(itemWidth, 180) * columns + 4, rows * 29 + 4);
+            Location = location;
+            var layout = new FlowLayoutPanel { Dock = DockStyle.Fill, FlowDirection = FlowDirection.TopDown, WrapContents = true, Padding = new Padding(2), BackColor = BackColor };
+            for (var i = 0; i < items.Count; i++)
+            {
+                var index = i;
+                var button = new Button { Text = items[i].ToString(), Width = Math.Max(itemWidth, 180) - 2, Height = 27, Margin = new Padding(0), FlatStyle = FlatStyle.Flat, BackColor = i == selectedIndex ? Color.FromArgb(105, 35, 31) : Color.FromArgb(39, 33, 28), ForeColor = Color.FromArgb(232, 216, 180), TextAlign = ContentAlignment.MiddleLeft, Font = new Font("Georgia", 9F) };
+                button.FlatAppearance.BorderColor = Color.FromArgb(116, 88, 43);
+                button.FlatAppearance.MouseOverBackColor = Color.FromArgb(105, 35, 31);
+                button.Click += (s, e) => { SelectedIndex = index; DialogResult = DialogResult.OK; Close(); };
+                layout.Controls.Add(button);
+            }
+            Controls.Add(layout);
+            Deactivate += (s, e) => { if (DialogResult == DialogResult.None) { DialogResult = DialogResult.Cancel; Close(); } };
+        }
     }
 
     internal sealed class DarkChoice : Control
@@ -169,17 +188,11 @@ namespace Valiant2Config
 
         private void ShowDropDown()
         {
-            var menu = new ContextMenuStrip { BackColor = Color.FromArgb(29, 24, 20), ForeColor = Color.FromArgb(232, 216, 180), Font = Font, ShowImageMargin = false, Renderer = new ToolStripProfessionalRenderer(new DarkMenuColors()) };
-            menu.MinimumSize = new Size(Width, 0);
-            for (var i = 0; i < Items.Count; i++)
+            using (var popup = new ChoicePopup(Items, selectedIndex, PointToScreen(new Point(0, Height)), Width))
             {
-                var index = i;
-                var item = new ToolStripMenuItem(Items[i].ToString()) { BackColor = Color.FromArgb(29, 24, 20), ForeColor = Color.FromArgb(232, 216, 180), Checked = i == selectedIndex, CheckOnClick = false, AutoSize = false, Width = Math.Max(Width - 4, 120), Height = 27 };
-                item.Click += (s, e) => SelectedIndex = index;
-                menu.Items.Add(item);
+                if (popup.ShowDialog(FindForm()) == DialogResult.OK) SelectedIndex = popup.SelectedIndex;
             }
-            menu.Closed += (s, e) => menu.Dispose();
-            menu.Show(this, new Point(0, Height));
+            Focus();
         }
 
         protected override void OnMouseWheel(MouseEventArgs e)
