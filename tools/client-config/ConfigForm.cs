@@ -249,6 +249,10 @@ namespace Valiant2Config
         [DllImport("user32.dll")] private static extern bool ReleaseCapture();
         [DllImport("user32.dll")] private static extern IntPtr SendMessage(IntPtr hWnd, int message, IntPtr wParam, IntPtr lParam);
 
+        private static readonly HashSet<string> ExternalKeys = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
+        {
+            "WINDOWED", "GAMMA", "SOFTWARE_CURSOR", "OBJECT_CULLING", "VISIBILITY", "USE_DEFAULT_IME", "SOFTWARE_TILING", "DECOMPRESSED_TEXTURE"
+        };
         private readonly string path;
         private readonly ClientConfig config;
         private readonly Dictionary<string, Control> editors = new Dictionary<string, Control>(StringComparer.OrdinalIgnoreCase);
@@ -262,8 +266,8 @@ namespace Valiant2Config
             StartPosition = FormStartPosition.CenterScreen;
             FormBorderStyle = FormBorderStyle.None;
             Padding = new Padding(2);
-            MinimumSize = new Size(680, 620);
-            Size = new Size(780, 840);
+            MinimumSize = new Size(680, 560);
+            Size = new Size(720, 620);
             BackColor = Color.FromArgb(18, 16, 14);
             ForeColor = Color.FromArgb(218, 204, 170);
             Font = new Font("Georgia", 9F);
@@ -284,8 +288,8 @@ namespace Valiant2Config
             AddRow(table, "Çözünürlük", resolution);
             LoadDisplayModes();
 
-            string category = null;
-            foreach (var spec in ClientConfig.Specs.Where(x => !new[] { "WIDTH", "HEIGHT", "BPP", "FREQUENCY" }.Contains(x.Key)))
+            string category = "Ekran";
+            foreach (var spec in ClientConfig.Specs.Where(x => ExternalKeys.Contains(x.Key)))
             {
                 if (category != spec.Category) { category = spec.Category; AddHeading(table, category); }
                 Control editor;
@@ -313,7 +317,7 @@ namespace Valiant2Config
             }
             panel.Controls.Add(table);
             panel.Controls.Add(scroll);
-            Action syncScroll = () => { scroll.Maximum = table.Height; scroll.Viewport = panel.ClientSize.Height; table.Top = -scroll.Value; table.Width = Math.Max(300, panel.ClientSize.Width - scroll.Width); };
+            Action syncScroll = () => { scroll.Maximum = table.Height; scroll.Viewport = panel.ClientSize.Height; scroll.Visible = table.Height > panel.ClientSize.Height; if (!scroll.Visible) scroll.Value = 0; table.Top = -scroll.Value; table.Width = Math.Max(300, panel.ClientSize.Width - (scroll.Visible ? scroll.Width : 0)); };
             scroll.ValueChanged += (s, e) => table.Top = -scroll.Value;
             panel.Resize += (s, e) => syncScroll();
             table.SizeChanged += (s, e) => syncScroll();
