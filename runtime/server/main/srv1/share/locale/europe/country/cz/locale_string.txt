@@ -1,0 +1,281 @@
+"ARENA_TALK_1";
+"Duel skonèil, protože váš bojovník zmizel. ";
+
+"ARENA_TALK_2";
+"Zde nejsou žádná omezení na lektvary. ";
+
+"ARENA_TALK_3 %d";
+"Mùžete použít %d lektvarù. ";
+
+"ARENA_TALK_4";
+"Bitva zaène za 10 sekund. ";
+
+"ARENA_TALK_5";
+"Duel zaèal. ";
+
+"ARENA_TALK_6";
+"Duel skonèil kvùli problému v arénì. ";
+
+"ARENA_TALK_7";
+"Duel skonèil kvùli vypršení èasu. ";
+
+"ARENA_TALK_8";
+"Budete teleportováni na místo za 10 sekund. ";
+
+"ARENA_TALK_9";
+"Duel skonèil kvùli problému s arénou. ";
+
+"ARENA_TALK_10";
+"Duel skonèil kvùli problému s vaším bojovníkem. ";
+
+"ARENA_TALK_11 %s";
+"%s vyhrál duel. ";
+
+"ARENA_TALK_12 %s";
+"%s vyhrál. ";
+
+"ARENA_TALK_13";
+"Nové kolo zaène za 10 sekund. ";
+
+"ARENA_TALK_14";
+"Bojovníci se oddìlili. Duel skonèil. ";
+
+"ARENA_TALK_15";
+"Vstoupili jste do bitvy. Výstup je zrušen. ";
+
+"ARENA_TALK_16";
+"Zbývá 4 minuty pro útok monster. ";
+
+"ARENA_TALK_17";
+"Zbývá 1 minuta pro útok monster. ";
+
+"ARENA_TALK_18";
+"Monstra zaèala útoèit na hrad.";
+
+"Your time is up, can deliver the next item.";
+"Váš èas vypršel, mùžete doruèit další položku.";
+
+"It clears my mind. I feel something lightening my chest.";
+"Osvìžuje to mé myšlenky. Cítím, jak mi nìco lehne z hrudi.";
+
+"Your alignment is increased %d";
+"Vaše zarovnání se zvýšilo o %d.";
+
+"cItem 5485 %s owner %s";
+"cItem 5485 %s vlastník %s";
+
+"cItem 5486 %s wtf %s";
+"cItem 5486 %s wtf %s";
+
+"SKILL_TALKING_2";
+"Tato metoda je mnohem složitìjší, než jsem si myslel.";
+
+"CMD_TALK_3 %s %s";
+"Cech %s byl dobyt %s. ";
+
+"Shutdown in %d";
+"Vypnutí za %d sekund.";
+
+"The game will shut down after %d seconds.";
+"Hra se vypne za %d sekund.";
+
+"You roll %d. (%d-%d)";
+"Hodil jste %d. (%d-%d)";
+
+"%s rolled the dice, resulting in %d. (%d-%d)";
+"%s hodil kostkou a získal %d. (%d-%d)";
+
+"An error has occurred, report this error to authorities. Fish #s parameter";
+"Došlo k chybì, ohlaste tuto chybu úøadùm. Parametr ryby #s";
+
+"An error has occurred, report this error to authorities. Fish #not arg";
+"Došlo k chybì, ohlaste tuto chybu úøadùm. Parametr ryby #not";
+
+"Cannot set stat under initial stat";
+"Nelze nastavit statistiku pod poèáteèní hodnotu";
+
+"syntax: offshop_change_shop_name <player-id> <new-name>";
+"syntaxe: offshop_change_shop_name <id hráèe> <nové jméno>";
+
+"syntax: offshop_force_close_shop <player-id>";
+"syntaxe: offshop_force_close_shop <id hráèe>";
+
+"Cannot find shop by id %u";
+"Obchod s ID %u nebyl nalezen";
+
+"shop's name changed.";
+"Jméno obchodu bylo zmìnìno.";
+
+"shop closed successfully.";
+"Obchod byl úspìšnì uzavøen.";
+
+"BATTLEPASS_NOT_COMPLETED_ALL_NORMAL_MISSIONS";
+"Nesplnili jste všechny mise v Normálním bojovém prùkazu!";
+
+"BATTLEPASS_NOT_COMPLETED_ALL_PREMIUM_MISSIONS";
+"Nesplnili jste všechny mise v Prémiovém bojovém prùkazu!";
+
+"BATTLEPASS_NOT_COMPLETED_ALL_EVENT_MISSIONS";
+"Nesplnili jste všechny mise v Eventovém bojovém prùkazu!";
+
+"BATTLEPASS_ALREADY_EARNED_BATTLEPASS_REWARD";
+"Již jste si nárok na odmìnu za tento bojový prùkaz uplatnili!";
+
+"BATTLEPASS_COMPLETE_NORMAL_MISSION";
+"Úspìšnì jste dokonèili misi v bojovém prùkazu!";
+
+"BATTLEPASS_COMPLETE_PREMIUM_MISSION";
+"Úspìšnì jste dokonèili misi v Prémiovém bojovém prùkazu!";
+
+"BATTLEPASS_COMPLETE_EVENT_MISSION";
+"Úspìšnì jste dokonèili misi v Eventovém bojovém prùkazu!";
+
+"BATTLEPASS_NOW_IS_ACTIVATED_PREMIUM_BATTLEPASS";
+"Váš pøístup k Prémiovému bojovému prùkazu pro souèasnou sezonu byl aktivován. Hodnì štìstí!";
+
+"BATTLEPASS_NOW_IS_ACTIVATED_PREMIUM_BATTLEPASS_OWN";
+"Aktivovali jste pøístup k Prémiovému bojovému prùkazu pro souèasnou sezonu. Hodnì štìstí!";
+
+"BATTLEPASS_CMDGM_ACTIVATE_PREMIUM_TO_PLAYER";
+"Aktivovali jste Prémiový bojový prùkaz pro souèasnou sezonu u hráèe %s.";
+
+"BATTLEPASS_CMDGM_DEACTIVATE_PREMIUM_PLAYER";
+"Váš Prémiový bojový prùkaz byl deaktivován.";
+
+"BATTLEPASS_CMDGM_DEACTIVATE_PREMIUM_TO_PLAYER";
+"Deaktivovali jste Prémiový bojový prùkaz hráèe %s.";
+
+"BATTLEPASS_CMDGM_DEACTIVATE_PREMIUM_OWN";
+"Deaktivovali jste pøístup k Prémiovému bojovému prùkazu.";
+
+"BATTLEPASS_NEXT_REFRESH_RANKLIST_TIME";
+"Nemùžete obnovit seznam hodnocení po dobu %d sekund.";
+
+"Current remaining number of participants: %d";
+"Aktuální zbývající poèet úèastníkù: %d";
+
+"You can post new comment in: %02d mins and %02d secs";
+"Nový komentáø mùžete napsat za: %02d minut a %02d sekund";
+
+"GUILD_TALK_14 %d";
+"<Guild> Hraè mùže být pozván po %d dnech.";
+
+"GUILD_TALK_17 %d";
+"<Guild> Èlenové mohou být pozváni do %d dní po úpravì.";
+
+"GUILD_TALK_10 %s %s";
+"%s vyhlásil válku cechu %s!";
+
+"GUILD_TALK_5 %s %s";
+"V cechovní bitvì zvítìzil cech %s nad cechem %s.";
+
+"GUILD_TALK_6 %s %s";
+"Bitva mezi cechy %s a %s skonèila remízou.";
+
+"GUILD_TALK_7 %s %s";
+"Cechovní bitva mezi %s a %s zaèala.";
+
+"GUILD_TALK_8 %s %s";
+"Cechovní bitva mezi %s a %s zaène za ménì než minutu!";
+
+"GUILD_TALK_5";
+"<Guild> Cechovní bitva byla zrušena.";
+
+"GUILD_TALK_1 %d";
+"<Guild> Poøadí se zvýšilo na %d bodù.";
+
+"GUILD_TALK_2";
+"Vyhlašujete válku tomuto cechu.";
+
+"GUILD_TALK_3";
+"Cechovní válka nemùže zaèít, když je server offline.";
+
+"%s is not online.";
+"%s není online.";
+
+"Critical server error. The server will reboot automatically.";
+"Kritická chyba serveru. Server se automaticky restartuje.";
+
+"You will be disconnected in 10 seconds.";
+"Budete odpojeni za 10 sekund.";
+
+"You can connect again after 5 minutes.";
+"Znovu se mùžete pøipojit po 5 minutách.";
+
+"The number of bets is invalid, please try again.";
+"Poèet sázek je neplatný, zkuste to znovu.";
+
+"Failed.";
+"Neúspìch.";
+
+"Success.";
+"Úspìch.";
+
+"Pet type changed new type : %d";
+"Typ mazlíèka byl zmìnìn na nový typ: %d";
+
+"Bonus change of %s (Slot: %d) successfully finished.";
+"Zmìna bonusu u %s (Slot: %d) byla úspìšnì dokonèena.";
+
+"OX_TALK_1";
+"Pravda.";
+
+"OX_TALK_2";
+"Otázka.";
+
+"OX_TALK_3";
+"Pokud je to pravda, jdìte na O, pokud ne, jdìte na X.";
+
+"OX_TALK_4";
+"Úèastníci, kteøí odpoví špatnì, budou teleportováni za 5 sekund.";
+
+"OX_TALK_5";
+"Ne (X)";
+
+"OX_TALK_6";
+"Ano (O)";
+
+"OX_TALK_7";
+"Správná odpovìï:";
+
+"OX_TALK_8";
+"Výsledek obdržíte do 10 sekund.";
+
+"OX_TALK_9";
+"Špatnì";
+
+"OX_TALK_10 %d";
+"Celkový poèet otázek: %d";
+
+"OX_TALK_11";
+"Jste pøipraveni na další otázku?";
+
+"%s wants to fight with you.";
+"%s chce s vámi bojovat.";
+
+"Everyone will be teleported to the town.";
+"Všichni budou teleportováni do mìsta.";
+
+"TRANSLATE_CLOSE_QUESTNPC";
+"Zavøít";
+
+"You can join the guild war as a spectator.";
+"Mùžete se pøipojit ke cechovní válce jako divák.";
+
+"If you are a spectator <End View> button to exit will appear.";
+"Pokud jste divák, objeví se tlaèítko <Ukonèit zobrazení> pro ukonèení.";
+
+"No other guild members participated in the Guild War.";
+"Žádní další èlenové cechu se neúèastnili Cechovní války.";
+
+"If no one logs in within 1 minute, the guild battle will end automatically.";
+"Pokud se do 1 minuty nikdo nepøihlásí, cechovní válka skonèí automaticky.";
+
+"The guild battle ended early and it was decided as a draw. (less than 5 minutes)";
+"Cechovní válka skonèila pøedèasnì a rozhodlo se o remíze (ménì než 5 minut).";
+
+"The wedding will be over soon.";
+"Svatba brzy skonèí.";
+
+"When the wedding is over, you will be sent to the village.";
+"Až bude svatba skonèena, budete odesláni do vesnice.";

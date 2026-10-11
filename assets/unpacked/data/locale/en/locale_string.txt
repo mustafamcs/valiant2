@@ -1,0 +1,574 @@
+CLOSE_WINDOWS_ERROR	You have to close all the windows to do this.
+WAIT_TO_USE_AGAIN	You have to wait for %s seconds to do this.
+ARENA_TALK_15	You entered a war, exit is cancelled.
+BATTLEPASS_NOT_COMPLETED_ALL_NORMAL_MISSIONS	You haven't completed all the tasks in the normal battlepass yet!
+BATTLEPASS_NOT_COMPLETED_ALL_PREMIUM_MISSIONS	You haven't completed all the tasks in Premium battlepass yet!
+BATTLEPASS_NOT_COMPLETED_ALL_EVENT_MISSIONS	You haven't completed all the tasks in Event battlepass yet!
+CANT_INCREASE_YOUR_BIOLOG_LEVEL_MORE	You can not upgrade your biolog no more.
+X_SUCCESSFULL_Y_UNSUCCESSFULL	%sx successfull and %sx unsuccessfull.
+BATTLEPASS_ALREADY_EARNED_BATTLEPASS_REWARD	You already received this battlepass reward.
+IT_WAS_FAILED	Operation failed.
+TAKE_OFF_YOUR_ARMOR_TO_OPEN_SHOP	Take your armor to open shop.
+YOU_CARRY_TOO_MUCH_GOLD_TO_OPEN_SHOP	You carry too much gold, you can not open a shop.
+INVALID_SHOP_NAME	Invalid shop name.
+CANT_TRADE_WITH_EQUIPPED_ITEMS	You can not trade with equipped items.
+CANT_TRADE_WITH_THIS_ITEM	You can not trade with this item.
+EQUIP_YOUR_PICKAXE_FIRST	Equip a pickaxe in order to do this.
+CANNOT_FISH_HERE	You can not fish here.
+EQUIP_YOUR_ROD_FIRST	Equip a rod in order to do this.
+PUT_A_BAIT_TO_YOUR_ROD	In order to do this, you need to put a bait to your rod.
+CANT_FISH_WITHOUT_ROD	You can not fish without a rod.
+PROBLEM_OCCURED_TRY_AGAIN_LATER	A problem occured, try again later!
+PARTY_REQ_ERR_0	You can not make a group with other empires.
+PARTY_REQ_ERR_1	You can not invite or join a group in a dungeon.
+PARTY_REQ_ERR_2	You can not invite an observer to a group.
+PARTY_REQ_ERR_3	You can not have a group with someone who has level difference more than 30.
+PARTY_REQ_ERR_4	You can not have a group with someone who has level difference more than 30.
+PARTY_REQ_ERR_5	You can not accept invites.
+PARTY_REQ_ERR_6	Group reached limit, can not invite more.
+PARTY_REQ_ERR_7	Group reached limit, can not join more.
+PARTY_REQ_ERR_8	This player is not the group
+PARTY_REQ_ERR_9	You can not invite, only group leader can.
+PARTY_REQ_ERR_10	You can not join to a group in a dungeon.
+PARTY_REQ_SENT	Group request sent to %s.
+PARTY_REQ_REJECTED	%s rejected your group request.
+PARTY_REQ_REJECTED2	%s rejected your group request.
+PARTY_REQ_ALREADY_IN_PARTY	%s is already in a group.
+PARTY_JOINED_THE_PARTY	%s joined the group.
+PARTY_JOINED_THE_PARTY2	You joined the group of %s.
+MINING_STOPPED	Mining stopped.
+PLAYER_BUSY_RN	This player is busy now.
+GROUP_LEADER_IS_NOT_ACTIVE_CANT_DO_THIS	Group leader is not active, you can not do this.
+SAFEBOX_ERR_1	Safebox is already open.
+SAFEBOX_ERR_2	Wait some time in order to do this again.
+CANT_TELEPORT_THIS_PLAYER	You can not teleport to this player.
+THIS_PLAYER_IS_OFFLINE	This player is offline.
+OTHER_CHANNEL_ERR	Player is not in this channel player's channel %s. (Your channel %s)
+THIS_WINDOW_IS_ALREADY_OPEN	This window is already open.
+CLOSE_OTHER_WINDOWS_TO_DO_THIS	Close all windows in order to do this.
+CANT_ADD_LOCKED_ITEMS	You can not select the item already selected.
+ONLY_SAME_GRADE_CAN_COMBINED	Only same grade can be combined.
+ABSORBPTION_CHANGE_IS_MAX	Item already has the maximum absorption rate.
+ONLY_ARMOR_WEARPON_CAN_BE_ABSORBED	Only weapon and armors can be absorbed.
+NOT_ENOUGH_YANG	Not enough yang.
+INVALID_ACTION	Invalid action!
+NEW_ABSORB_RATE	New absorb rate: %s
+CANT_USE_THIS_WITH_NON_SASH_ITEMS	You cannot do this on objects other than shoulder sashes.
+CANT_USE_THIS_WITH_NON_AURA_ITEMS	You cannot do this on objects other than aura outfits.
+ITEM_HAS_NO_ABSORBTION	There is no object absorbed to this item!
+POLY_BLOCKED_WITH_THIS	You can not do this while you are polymorped.
+CHANNEL_SWITCH_0	After %s seconds the channel will be changed.
+CHANNEL_SWITCH_1	The channel will be changed.
+MULTIFARM_ACTIVATED	Item gaining has been activated.
+MULTIFARM_DEACTIVATED	Item gaining has been deactivated.
+MULTIFARM_MULTIACC_LIMIT	Item gaining cannot be activated with more than 2 accounts.
+GLOBAL_ERR_OCCURED	An error occured, try again later.
+AURA_INVALID_ITEM_TYPE	Invalid item selected, only jewelry can be absorbed.
+AURA_RUNIC_ITEM_NOT_FOUND	You can only do this with Aura Runic.
+AURA_RUNIC_ICE_SHOULD_BE_USED	You can only do this with Aura Ice Rune.
+AURA_RUNIC_FIRE_SHOULD_BE_USED	You can only do this with Aura Fire Rune.
+AURA_ABS_REMOVE_ATTR	Absorbed bonusses deleted successfully.
+YOU_DO_NOT_HAVE_ENOUGH_GEM_SLOT_OPENER	You do not have enough gem slot opener.
+YOUR_BIOLOG_LEVEL_INCREASED	Biolog level increased.
+GM_MESSENGER_IN_YOU_BLOCK	Your chat is prohibited.
+BUFF_MSG_01	%s is not added because your rate is higher, The rate: (%s%%) Your Current Rate: (%s%%)
+BUFF_MSG_02	%s bonus added successfully. New Rate: (%s%%) Older Rate: (%s%%)
+WARNING_DRAGON_GOD	Since you are under the protection of the Dragon God, you have not lost experience.
+WARNING_DRAGON_GOD2	Since you are under the protection of the Dragon God, you have not lost any objects.
+GUILDWAR_WARNING_NO_ADVANTAGE_HUNTING	There is no advantage to hunting during a guild war.
+DS_TALK_1	Dragon Alchemy is not active.
+HORSE_TALK_1	Calling your mount is failed.
+SAFEBOX_ERR	Wrong password.
+REFINE_FREE_UPGRADE_BELLOW_20	Free upgrade items are only available for weapons of level 20 or less.
+CANT_UPGRADE_THIS_ITEM	You can not upgrade this item.
+NOT_ENOUGH_MATERIAL	You do not have enough material.
+CAN_NOT_UPGRADE_WITH_THIS_ITEM_MORE	You can not upgrade this item more.
+CAN_ONLY_UPGRADE_ITEMS_MORE_THAN	You can only upgrade %s or above level objects with this item.
+DEVILTOWER_UPGRADE_MSG	You can only upgrade once in the demon tower.
+CANT_COMBINE_SIMILAR_REFINE_ITEMS	You cannot combine similar upgrade objects.
+MAGIC_STONE_REFINE_CAN_BE_COMBINED	Magical Stone and Blessing Scroll can be combined.
+NO_SPIRIT_STONES_TO_REMOVE	No spirit stones found to remove.
+CANT_SAVE_THIS_POSITION	YOu can not save this position.
+NO_EMPTY_SPACE_IN_INVENTORY	There is no space in your inventory!
+YOU_HAVE_LOWER_LEVEL_THAN_ITEM	You do not have enough level to use this.
+CANT_TELEPORT_SAVEZONE_IN_DIFFERENT_EMPIRE	You can not teleport to a safezone in a different empire.
+AFFECT_IS_ALREADY_ACTIVE	This affect is already active.
+NOT_ENOUGH_HP	You do not have enough health point.
+NOT_ENOUGH_SP	You do not have enough mana point.
+ACTION_NOT_POSSIBLE_ON_THIS_MAP	This action is not possible on this map.
+CANT_SET_A_CAMPFIRE_HERE	You can not set a campfire here.
+CANT_WEAR_SASH_SKIN_IF_NOT_WEAR_SASH	You can not wear sash costume if you not wear sash.
+CANT_WEAR_PET_SKIN_IF_NOT_WEAR_PET	You can not wear pet costume if you not wear pet.
+CANT_WEAR_AURA_SKIN_IF_NOT_WEAR_AURA	You can not wear aura costume if you not wear aura outfit.
+CANT_WEAR_MOUNT_SKIN_IF_NOT_WEAR_MOUNT	You can not wear mount costume if you not wear mount.
+CANT_DO_THIS_WHILE_MOUNTING	You can not do this while riding.
+CANT_DO_THIS_IN_DUEL	You can not do this in a duel.
+WAIT_SOME_TIME_TO_DO_THIS_AGAIN	Operation failed, wait a moment and try again.
+NEED_2SPACE_IN_INVS	To open this chest, you should have 3 slot spaces in your all inventories.
+NEED_2SPACE_IN_DS_INV	To open this chest, you should have 2 slot spaces in your dragon soul inventory.
+LOWERING_YOUR_SKILL_SUCCEDEED	Lowering your skill level was successfull.
+LOWERING_YOUR_SKILL_FAILED	Lowering your skill level was failed.
+YOU_HAVE_NO_SKILL_GROUP	You can not do this if you do not have skill group.
+X_SECONDS_ARE_ADDED	%s seconds added.
+ADDING_TIME_FAILED	Adding time is failed.
+SWITCH_BOT_STOP_INFO_1	You are out of switchers, switchbot is stopped.
+SWITCH_BOT_STOP_INFO_2	You do not enough yang, switchbot is stopped!
+PET_TEXT_1	You should call your pet in order to do this.
+PET_TEXT_2	In order to do this, your pet should be at least level %s
+PET_TEXT_3	New pet slot unlocked.
+OFFLINESHOP_TEXT_1	You need %s yang to open a shop.
+OFFLINESHOP_TEXT_2	You can only create shops in social channel.
+OFFLINESHOP_TEXT_3	You can only create shops in first villages.
+OFFLINESHOP_TEXT_4	You teleported to the shop.
+OFFLINESHOP_TEXT_5	You are teleporting to the shop...
+OFFLINESHOP_TEXT_6	No shop found with the selected name.
+OFFLINESHOP_TEXT_7	The shop time cannot be extended any further.
+OFFLINESHOP_TEXT_8	The shop with the selected name was not found.
+OFFLINESHOP_TEXT_9	If you don't have premium, you can only edit your market while on the same map.
+OFFLINESHOP_TEXT_10	You can not add this item to the shop.
+ACCESSORY_SOCKET_DISSAPEARED	%s ore is vanished.
+WEDDING_TEXT_1	You can't do this if you're not married.
+ITS_NOT_EASY_TO_UNDERSTAND_THIS_BOOK	It is not easy to understand this book.
+CANT_UPGRADE_WITH_THIS_MORE	You can not upgrade with this item more.
+CANT_UPGRADE_YOUR_ABILITY_MORE	You can not upgrade this ability no more.
+UNEQUIP_YOUR_PET	To do this, you have to unequip your pet first.
+PREMIUM_ALREADY_MEMBER	You already have premium.
+THE_ITEM_USAGE_LIMIT_EXCEEDED	The usage limit of this item has been exceeded.
+CANT_UPGRADE_ITEM_WITH_LEVEL3_SPIRITS_STONES	+3 Spirit stones cannot be upgraded with this item.
+CANT_CHANGE_THE_ATTRIBUTE_OF_THIS_ITEM	You can not change attribute of this item.
+NO_ATTRIBUTES_TO_CHANE_ON_THE_ITEM	There is no attribute to change.
+NO_STONE_TO_CLEAR	There is no broken stone to clear.
+CHANGE_ATTRIBUTE_WAS_SUCCESFULL	Changing attribute was successfull.
+YOU_DO_NOT_MEET_THE_NEEDS_OF_THIS_ITEM	You do not meet the needs of this item.
+THIS_CAN_BE_USED_IN_ONLY_WEAPONS_ARMORS	This can be used onlþ with armors and weapons.
+ADDING_ATTRIBUTE_WAS_SUCCESSFULL	Bonus added succesfully.
+ADDING_ATTRIBUTE_WAS_FAILED	Adding bonus failed.
+CANT_ADD_MORE_BONUS_TO_THIS_ITEM	You can not add more bonusses to the item.
+TO_USE_THIS_YOU_NEED_FOR_BONUSSES_ON_THE_ITEM	To do this, item should have 4 bonussess.
+ADDING_SOCKET_SUCCESSFULL	Adding socket was successfull!
+ADDING_SOCKET_UNSUCCESSFULL	Adding socket was failed.
+SOCKET_NOT_ENOUGH_SPACE	You can not add more sockets.
+SOCKET_CANT_BE_ADDED_TO_THIS_ITEM	You can not add sockets to this item.
+ADDING_JEWEL_SUCCESFULL	Adding ore was successfull!
+ADDING_JEWEL_UNSUCCESFULL	Adding ore was failed!
+ADD_JEWEL_INFO_01	In order to add ore, you should open a socket.
+ADD_JEWEL_INFO_02	In order to add ore, you should open socket.
+ADD_JEWEL_INFO_03	In order to add ore, you should open socket.
+ADD_JEWEL_INFO_04	You can not add more ore's to the item.
+PERMANENT_JEWEWL_INFO_01	You can not add permanent ores to this item..
+PERMANENT_JEWEWL_INFO_02	Only permanent ores can be added.
+PERMANENT_JEWEWL_INFO_03	You can not add this ore to this item.
+PERMANENT_JEWEWL_INFO_04	You can not add permanent ores to this item
+FISHING_CANT_CHANGE_BAIT_WHEN_FISHING	You can not change bait while fishing.
+FISHING_CHANGED_BAIT_WITH	You changed the bait with %s.
+FISHING_ADDED_BAIT	The bait called %s added to the rod!
+CANT_ADD_SAME_SPIRIT_STONES	You can not add spirit stones with same grade twice.
+CANT_ADD_THIS_SPIRIT_STONES_TO_THIS_ITEM	You can not add this spirit stone to this item.
+NOT_ENOUGH_SPACE_TO_ADD_SPIRIT_STONE	Not enough space to add this spirit stone!
+ONLY_OTHER_GENDER_CAN_USE_THIS	Only other gender can use this.
+CANNOT_DO_THIS	I can not do this.
+YOU_CANNOT_CARRY_MORE_YANG	You can not carry more yang.
+ITEM_IS_SOLD	%s is sold.
+YOU_CANNOT_DROP_THIS_ITEM	You can not drop this item.
+ITEM_DROPPED_WILL_DISSAPEAR_IN_MINS	[Warning] - Items dropped on the ground will disappear in 3 minutes!
+CANT_DROP_GOLD	You can not drop yang.
+CANT_MOVE_ITEM_TO_THIS_INVENTORY	You can not move this item to that inventory.
+YOU_CANNOT_MOVE_ACTIVE_SWITCHBOT_ITEMS	You can not take active switchbot items.
+YOU_CANNOT_ADD_THIS_ITEM_TO_SWITCHBOT	You can not add this item to the switchbot.
+FULL_SOCKET_WARNING	Socket is full, you need to clear the sockets first.
+YOU_GAINED_ITEM	%s received.
+YOU_GAINED_ITEM_INV_TYPE_01	%s received. Moved to your upgrade inventory.
+YOU_GAINED_ITEM_INV_TYPE_02	%s received. Moved to your book inventory.
+YOU_GAINED_ITEM_INV_TYPE_03	%s received. Moved to your spirit stone inventory.
+YOU_GAINED_ITEM_INV_TYPE_04	%s received. Moved to your general inventory.
+YOU_GAINED_ITEM_INV_TYPE_05	%s received. Moved to your inventory.
+ITEM_DELETED	%s is deleted.
+UNEQUIP_YOUR_SKIN_FIRST	You need to unequip your skin to do this..
+YOU_ALREADY_RIDING_MOUNT	You are already riding.
+ONLY_GROUP_LEADER_CAN_USE_THIS	Only group leader can do this.
+CANT_USE_THIS_WITH_COSTUME	You can't do this while wearing this tuxedo or wedding dress.
+CANT_USE_COSTUME_WITH_THIS	You can't do this while wearing the costume.
+YOU_HAVE_TO_STAND_STILL_TO_DO_THIS	You have to stand still to do this.
+WRONG_EQUIPMENT_MATCH	Your weapon is not compatible with your weapon costume.
+CANT_DO_THIS_IF_NOT_WEAR_PET	You cannot do this without your pet unequipped.
+CANT_DO_THIS_IF_NOT_WEAR_MOUNT	You cannot do this without your mount unequipped.
+CANT_DO_THIS_IF_NOT_WEAR_SASH	You cannot do this without your shoulder sash unequipped.
+CANT_DO_THIS_IF_NOT_WEAR_AURA	You cannot do this without your aura outfit unequipped.
+ALREADY_WEAR_SAME_TYPE_DS	You already wear same type of dragon soul.
+CANT_FEED_HORSE_WITH_DRUGS	You can not heal the horse which is already alive.
+YOU_ALREADY_HAVE_THIS_HAIRSTLE	You already have this hairstyle.
+YOU_ALREADY_POLYMORPHED	You already polymorphed.
+YOU_CANT_POLYMORPH	You can not polymorph.
+CANT_POLYMORPH_HIGHER_LEVEL	You can not polymorph the beast which is higher level than you are.
+THIS_ITEM_CANT_BE_USED	This item can not be used.
+CANT_WEAR_THIS_SECOND_TIME	You can not wear this for the second time.
+DS_DEACTIVATE_REQ	You have to deactivate your dragon soul to do this.
+AFFECTS_ARE_NOT_LOADED_YET	Affects are not loaded yet, please wait for a moment.
+CANT_DO_THIS_IF_NOT_WEAR_BELT	You can not do this if you not wear belt.
+CANT_DO_THIS_IF_NOT_UPGRADE_BELT	You can not do this if not upgrade your belt.
+INGAME_SHOP_MSG_01	You do not have enough dragon coins.
+INGAME_SHOP_MSG_02	You can not buy this item more, you reached the weekly limit, Weekly Limit: %s
+INGAME_SHOP_MSG_03	You can not buy this item more, you reached the monthly limit, Monthly Limit: %s
+INGAME_SHOP_MSG_04	This item is not for sale.
+INGAME_SHOP_MSG_05	You bought %s %sx for %s.
+INGAME_SHOP_MSG_06	You bought %s for %s.
+INGAME_SHOP_MSG_07	Item shop is updated, content might be changed...
+CHEST_GIVE_STOP_DROP	Chest openning is stopped, your inventory is full.
+CHEST_OPEN_COUNT	Total number of chests opened %s
+CMD_TALK_20	Someone has logged into your account. You will be disconnected.
+CANT_FEED_DEAD_HORSE	You can not feed a dead horse.
+HORSE_FEED_TALK_01	You fed the horse.
+DS_TALK_2	You can not extract equipped dragon soul.
+DS_TALK_3	Extraction is successfull.
+DS_TALK_4	Wrong upgrading material.
+DS_TALK_5	Not enough yang for upgrading.
+DS_TALK_6	Extraction is failed, you received %s.
+DS_TALK_7	You can not upgrade with this item.
+DS_TALK_8	Refining is failed.
+FISHING_TALK_01	Fishing point increased. (%s/%s)
+FISHING_TALK_02	You can not upgrade your rod more.
+FISHING_TALK_03	You can visit the Fisherman to upgrade your rod.
+FISHING_TALK_04	Fish is lost in the deep water.
+FISHING_TALK_05	Fish has a clam in it.
+FISHING_TALK_06	Insert %s through the circles.
+GUILD_TALK_1	<Guild> Rank increased to %s Points.
+SAFEBOX_PW_01	Your safebox password is changed.
+SAFEBOX_PW_02	Wrong password.
+CANNOT_CHANGE_CHANNEL	Changing the channel is failed.
+USER_BLOCKED_WARP_REQUESTS	That person is blocked warp requests.
+WINNER_ITEM_01	%sx %s received, Moved to your upgrade inventory.
+WINNER_ITEM_02	%sx %s received, Moved to your book inventory.
+WINNER_ITEM_03	%sx %s received, Moved to your spirit stone inventory.
+WINNER_ITEM_04	%sx %s received, Moved to your general inventory.
+WINNER_ITEM_05	%sx %s received, Moved to your inventory.
+WINNER_ITEM_06	%sx %s received, Moved to your dragon soul inventory.
+YOU_CANNOT_DO_THIS_WHILE_ANOTHER_WINDOW_IS_OPEN	You have to close all the windows to do this.
+ARENA_TALK_5	123
+ARENA_TALK_1	The duel is over because your warrior has disappeared.
+ARENA_TALK_2	There is no limit for potions here.
+ARENA_TALK_3	You can use %s potions.
+ARENA_TALK_4	The battle will begin in 10 seconds.
+ARENA_TALK_6	Due to a problem in the arena, the duel is over.
+ARENA_TALK_7	The duel is over because the time is up.
+ARENA_TALK_8	Within 10 seconds you will be teleported to the city.
+ARENA_TALK_12	%s won.
+ARENA_TALK_13	The next round will start in 10 seconds.
+ARENA_TALK_14	The warriors left. The duel is over.
+SKILL_TALK_1	You cannot upgrade this ability.
+SKILL_TALK_2	You cannot upgrade this skill to Grand Master level.
+SKILL_TALK_4	You are already a master in this skill.
+SKILL_TALK_5	Your skill is not high enough for Grand Master level.
+SKILL_TALK_6	You have successfully completed your training with the book.
+SKILL_TALK_8	You can't read this when you're so inexperienced.
+SKILL_TALK_9	You cannot upgrade this skill by reading a book.
+SKILL_TALK_10	This skill is not at a sufficient level to be able to upgrade it by reading books.
+SKILL_TALK_11	You are freed from the curse of evil spirits with the help of the Evil spirit exorcism paper.
+SKILL_TALK_12	You need to read %s more books to improve this skill.
+SKILL_TALK_13	Education failed. Please try again later.
+SKILL_TALK_14	Teleport failed.
+SKILL_NOT_UPGRADE_ERROR	You cannot upgrade this skill any further.
+SKILL_UPGRADE_SUCCESS	You have succeeded in upgrading the skill.
+SKILL_UPGRADE_FAIL	You failed to upgrade the skill.
+PASSIVE_SKILL_TALK_1	You can't upgrade your skills any further with this book.
+PASSIVE_SKILL_TALK_2	You succeeded in upgrading the passive skill.
+PASSIVE_SKILL_TALK_3	You failed to upgrade the passive skill.
+PASSIVE_SKILL_TALK_4	You have to read %s more books successfully to increase your skill.
+PASSIVE_SKILL_TALK_5	Number of books read: %s.
+CMD_TALK_1	This command is not available.
+CMD_TALK_2	Please enter the full name of the command.
+CMD_TALK_10	You need to consent of partner.
+CMD_TALK_11	This can only be done with the opposite gender.
+CMD_TALK_12	You can't use this in the arena.
+CMD_TALK_13	I can't use the expression.
+CMD_TALK_15	Only females can do this.
+CMD_TALK_16	Person not found.
+CMD_TALK_17	I can't use this skill.
+CMD_TALK_18	You're very close.
+CMD_TALK_19	You're very far away.
+STRING_D1	You're already using a mount.
+STRING_D2	You have to summon your mount first
+STRING_D3	Unsummon your mount.
+STRING_D4	Firstly, you should dismount your mount.
+STRING_D5	While on your mount, you can't feed it.
+STRING_D6	You gave %s to your mount.
+STRING_D7	You need %s item to do this.
+STRING_D8	%s seconds left.
+STRING_D9	Teleportation canceled.
+STRING_D10	Return to the login screen, please wait.
+STRING_D11	Exiting the game. please wait.
+STRING_D12	Changing the character. please wait.
+STRING_D13	I can not resurrect yet. (try again in %s seconds)
+STRING_D14	Resurrecting in town is not possible yet. (try again in %s seconds)
+STRING_D15	You cannot perform this action while polymorped.
+STRING_D16	You can't do this in the arena.
+STRING_D17	You can't do this on this map.
+STRING_D18	This person is already in a battle.
+STRING_D19	You must join a guild to do this.
+STRING_D20	You can't change the guild skill level.
+STRING_D21	The password you entered is incorrect.
+STRING_D22	The storage window is already open.
+STRING_D23	You can do this every 10 seconds.
+STRING_D24	Something went wrong, please try again later!
+STRING_D25	You can't leave the group while in the dungeon.
+STRING_D26	You left the group.
+STRING_D27	The guild is already in battle.
+STRING_D28	No one is authorized for guild battle.
+STRING_D29	Guild not found.
+STRING_D30	This Guild is already participating in a battle.
+STRING_D31	There isn't enough money to participate in guild battle.
+STRING_D32	This guild doesn't have enough money to participate in the battle.
+STRING_D33	You declared war on this guild.
+STRING_D34	This Guild is already registered for another guild battle.
+STRING_D35	Your guild is already participating in another battle.
+STRING_D36	The guild level is too low to participate in battle.
+STRING_D37	At least %s players are required to join the guild battle.
+STRING_D38	The guild doesn't have enough ranking points to participate in battle.
+STRING_D39	The guild doesn't have enough members to participate in the guild battle.
+STRING_D40	The guild leader is not active.
+STRING_D41	%s declined the invitation.
+STRING_D42	There is not enough space in the inventory.
+STRING_D43	You cannot accept the invitation as you already belong to a group.
+STRING_D44	You rolled the dice %s. (%s-%s)
+STRING_D45	You cannot access the storage while in the dungeon or battle.
+STRING_D46	You cannot mount while in this map.
+STRING_D47	You can't do this while mounted.
+STRING_D48	Usage: /channel <new channel number>.
+STRING_D49	Please select a valid channel.
+STRING_D50	You are already connected to channel %s.
+STRING_D51	You are in a party. You can't change channels in a party.
+STRING_D52	You can't change channels while in the dungeon.
+STRING_D53	You must wait a bit to perform this action.
+STRING_D54	You can't change channels on this map.
+STRING_D55	The elixir has been activated, it will be automatically used when needed.
+STRING_D56	The elixir has been deactivated, it will not be automatically used when needed, you must activate it again.
+STRING_D57	This system is under maintenance. It will be activated soon.
+STRING_D58	Your chat settings have been changed.
+STRING_D59	You don't have enough soul stones.
+STRING_D60	You don't have enough materials.
+STRING_D61	You can't do this right now.
+STRING_D62	You don't have enough sage soul stones.
+STRING_D63	You don't have enough legendary soul stones.
+STRING_D64	You don't have enough passive skill soul stones.
+STRING_D65	You don't have enough passive skill sage soul stones.
+STRING_D66	You don't have enough passive skill legendary soul stones.
+STRING_D67	The roulette is spinning.
+STRING_D68	You don't have enough items, you can't do this.
+STRING_D69	You don't have enough dragon coins, you can't do this.
+STRING_D70	You entered an invalid name.
+STRING_D71	You must dismount before changing your mount's name.
+STRING_D72	You already have this effect.
+STRING_D73	Mount name changed successfully!
+STRING_D74	Pet name changed successfully!
+STRING_D75	Not enough space in your special inventory.
+STRING_D76	Not enough space in your inventory.
+STRING_D77	You don't have enough books to read.
+STRING_D78	You cannot further improve this skill.
+STRING_D79	You cannot read books without a skill group.
+STRING_D80	Gaya shop has been refreshed.
+STRING_D81	You don't have the required materials to refresh the Gaya shop.
+STRING_D82	The transformation window must be open to perform this action.
+STRING_D83	You don't have enough yang.
+STRING_D84	The operation failed.
+STRING_D85	If the trade window is open, you cannot initiate another trade.
+STRING_D86	The other player is already trading.
+STRING_D87	The other player canceled the trade.
+STRING_D88	You can't trade with this item.
+STRING_D89	You can't shop while the quest window is open.
+STRING_D90	The other player's inventory doesn't have enough space.
+STRING_D91	Trade with %s completed successfully.
+STRING_D92	You can't do this, you're too far away.
+STRING_D93	You can't trade equipped items.
+STRING_D94	You can't sell for more than 1kkkkk
+STRING_D95	The reward has already been given, you're too late.
+STRING_D96	You gained %s experience points.
+STRING_D97	A mysterious light emanates from the tree.
+STRING_D98	You gained %s yang.
+STRING_D99	%s is inviting you to a battle!
+STRING_D100	Battle with %s has begun.
+STRING_D101	You have completely learned polymorph.
+STRING_D102	The group has been deleted.
+STRING_D103	Target not found.
+STRING_D104	Your group friend is not on the same map as you.
+STRING_D105	You can't summon the target.
+STRING_D106	You can't summon group members to your current position.
+STRING_D107	You will gain more experience due to the cooperation of your group.
+STRING_D108	Your mining points have reached the limit. (%s).
+STRING_D109	The mining points of your pickaxe have reached the highest level.
+STRING_D110	You can increase the level of your pickaxe with the help of the lumberjack.
+STRING_D111	Your mining points increased! (%s/%s)
+STRING_D112	You can't mine without a pickaxe in hand.
+STRING_D113	There is no ore here.
+STRING_D114	%s has been deducted as a sales tax.
+STRING_D115	You removed %s from your friends list.
+STRING_D116	%s has been added as a friend.
+STRING_D117	Chat has been banned by an authority.
+STRING_D118	Chat has been banned for %s hours %s minutes %s seconds by an authority.
+STRING_D119	Chat has been banned for %s hours %s seconds by an authority.
+STRING_D120	Chat has been banned for %s minutes %s seconds by an authority.
+STRING_D121	Chat has been banned for %s seconds by an authority.
+STRING_D122	You must be level %s to shout.
+STRING_D123	You are not a member of a group.
+STRING_D124	You couldn't join the guild.
+STRING_D125	You can't add an authority figure to your friends list.
+STRING_D126	%s is not in the game.
+STRING_D127	The person declined the friendship request.
+STRING_D128	You don't have a sufficient level.
+STRING_D129	%s declined the teleport request.
+STRING_D130	You can't move for %s seconds after trading.
+STRING_D131	You are carrying too much yang.
+STRING_D132	The other player is carrying too much yang.
+STRING_D133	This item cannot be moved to the storage.
+STRING_D134	You can't add items to your special inventory because it's full.
+STRING_D135	You can't move items from your special inventory to the storage.
+STRING_D136	You must empty your belt inventory before removing the belt.
+STRING_D137	You can't do this.
+STRING_D138	You can only add elixirs to the belt inventory.
+STRING_D139	The person you invited is not active.
+STRING_D140	The server couldn't fulfill the group request.
+STRING_D141	Only the group leader can do this.
+STRING_D142	The target is not a member of your group.
+STRING_D143	You can't do this while in the dungeon.
+STRING_D144	You can't do this because a group member is in the dungeon.
+STRING_D145	You have been kicked out of the group.
+STRING_D146	You left the group.
+STRING_D147	You can't kick group members.
+STRING_D148	After a guild is disbanded, you can't create a new guild for %s days.
+STRING_D149	After leaving a guild, you can't create a new guild for %s days.
+STRING_D150	You entered an invalid guild name.
+STRING_D151	Guild [%s] has been successfully established.
+STRING_D152	Failed to establish the guild. Please try again.
+STRING_D153	Only the group leader can use group skills.
+STRING_D154	You are not a member of any guild.
+STRING_D155	<Guild> Invalid amount entered.
+STRING_D156	You cannot kick a guild member during a guild battle.
+STRING_D157	You are not part of the same guild as this player.
+STRING_D158	You do not have the authority to remove guild members.
+STRING_D159	You have removed a member from the guild.
+STRING_D160	You do not have permission to change the location name.
+STRING_D161	You cannot change the title of the guild leader.
+STRING_D162	The provided queue name is invalid.
+STRING_D163	You do not have permission to reorganize positions.
+STRING_D164	You cannot change the authority of the guild leader.
+STRING_D165	You cannot perform this action while your experience gain is deactivated.
+STRING_D166	Your guild has already reached the maximum level possible.
+STRING_D167	Deposited %s experience points.
+STRING_D168	An error occurred while attempting to donate experience to the guild.
+STRING_D169	An error occurred while regenerating dragon power.
+STRING_D170	You do not have the permission to write notifications.
+STRING_D171	You do not have the permission to promote someone to a master.
+STRING_D172	You lack the necessary authority to appoint a general.
+STRING_D173	You are no longer able to appoint any more generals.
+STRING_D174	You cannot engage in trade with this item.
+STRING_D175	You are unable to create a marketplace due to your excessive yang.
+STRING_D176	You are prohibited from updating the ranking list for %s seconds.
+STRING_D177	You have successfully activated the Premium Battle Pass for the current season. Enjoy the game!
+STRING_D178	Your skill color has been changed successfully.
+STRING_D179	To perform this action, you must leave the current group.
+STRING_D180	You require a Leadership skill level of M1 or higher to perform this action.
+STRING_D181	Please wait %s seconds before attempting this action.
+STRING_D182	Auto loot functionality has been enabled.
+STRING_D183	Auto loot functionality has been disabled.
+STRING_D184	You do not possess enough %s items to complete this action.
+STRING_D185	Your time to return to the dungeon has expired.
+GUILD_TALK_5	Guild %s defeated guild %s in a guild battle.
+GUILD_TALK_9	<Guild> Guild %s declined the guild battle.
+GUILD_TALK_11	<Guild> You cannot establish a guild.
+GUILD_TALK_12	<Guild> This guild name is already in use.
+GUILD_TALK_13	<Guild> You entered an invalid guild name.
+GUILD_TALK_15	<Guild> You cannot invite during a battle.
+GUILD_TALK_16	<Guild> This player is already a member of another guild.
+GUILD_TALK_18	<Guild> The guild is already in a battle.
+GUILD_TALK_19	<Guild> Membership applications are currently restricted.
+GUILD_TALK_20	<Guild> You cannot invite players from other Kingdoms.
+GUILD_TALK_21	<Guild> You cannot invite someone to the guild.
+GUILD_TALK_22	<Guild> The player declined the guild invitation.
+GUILD_TALK_23	<Guild> Insufficient Yang.
+GUILD_TALK_24	<Guild> The player is offline.
+GUILD_TALK_25	<Guild> The player is currently in channel %s. (Your channel: %s)
+GUILD_TALK_26	<Guild> You cannot use this skill right now.
+GUILD_TALK_27	<Guild> Message cannot be deleted.
+OX_TALK_1	Correct.
+OX_TALK_10	Total number of questions: %s
+MINING_SUCCESSFULL	Mining successful!
+IT_WAS_SUCCESFULL	Operation successful!
+HORSE_FEED_TALK_02	You fed the horse.
+DUNGEON_CHAT_1	You have 20 minutes remaining to complete the dungeon!
+DUNGEON_CHAT_2	You have 15 minutes remaining to complete the dungeon!
+DUNGEON_CHAT_3	You have 10 minutes remaining to complete the dungeon!
+DUNGEON_CHAT_4	You have 5 minutes remaining to complete the dungeon!
+DUNGEON_CHAT_5	You have 1 minute remaining to complete the dungeon, hurry up!
+DUNGEON_CHAT_6	You failed to complete the dungeon, you will be teleported outside in 5 seconds.
+DUNGEON_CHAT_7	You need to defeat %s more monster.
+DUNGEON_CHAT_8	You have successfully completed the quest, the next quest will start in 5 seconds.
+DUNGEON_CHAT_9	You need to destroy %s more metins.
+DUNGEON_CHAT_10	You have successfully completed the dungeon, you will be teleported outside in 30 seconds.
+DUNGEON_CHAT_11	You need to unlock %s more seals.
+DUNGEON_CHAT_12	Kill all monsters.
+DUNGEON_CHAT_13	Destroy all metins.
+DUNGEON_CHAT_14	Get seal keys from creatures and use the keys.
+DUNGEON_CHAT_15	Boss guardian has appeared, defeat it to reach the Boss!
+DUNGEON_CHAT_16	The boss has emerged, defeat the boss to complete the dungeon!
+DUNGEON_CHAT_17	519
+DUNGEON_CHAT_18	520
+DUNGEON_CHAT_19	521
+DUNGEON_CHAT_20	522
+DUNGEON_CHAT_21	523
+DUNGEON_CHAT_22	524
+DUNGEON_CHAT_23	525
+DUNGEON_CHAT_24	526
+DUNGEON_CHAT_25	527
+DUNGEON_CHAT_26	528
+DUNGEON_CHAT_27	529
+DUNGEON_CHAT_28	530
+DUNGEON_CHAT_29	531
+DUNGEON_CHAT_30	532
+DUNGEON_CHAT_31	533
+DUNGEON_CHAT_32	534
+DUNGEON_CHAT_33	535
+DUNGEON_CHAT_34	536
+DUNGEON_CHAT_35	537
+DUNGEON_CHAT_36	538
+DUNGEON_CHAT_37	539
+DUNGEON_CHAT_38	540
+DUNGEON_CHAT_39	541
+DUNGEON_CHAT_40	542
+STRING_D186	This can only be used on armor and weapons that are level 40 and below.
+STRING_D187	The number of fish remaining to increase your Fishing level is %s!
+STRING_D188	Your Fishing level has increased, you will reach the next level when you catch %s more.
+STRING_D189	If this is an item, you can only upgrade items that are level 90 and below.
+STRING_D190	With this item, you can only upgrade items that are level 90 and above.
+STRING_D191	You need an active cooldown to use the time item.
+STRING_D192	You can only teleport to your friends in villages.
+STRING_D193	This event is not active.
+STRING_D194	Insufficient card sets!
+STRING_D195	Not enough space available!
+STRING_D196	No more cards left!
+STRING_D197	You cannot add more cards to the table.
+STRING_D198	You cannot modify the upgrade of timed costumes.
+STRING_D199	Item purchased. The purchased item was transferred to the market depot because there is no space in the inventory.
+STRING_D200	You cannot remove the last item from the store. (If you want to remove the last item, you must close your market)
+STRING_D201	You cannot search that fast.
+STRING_D202	Bu string boþtur.
+STRING_D203	Bu string boþtur.
+STRING_D204	Bu string boþtur.
+STRING_D205	Bu string boþtur.
+STRING_D206	Bu string boþtur.
+STRING_D207	Bu string boþtur.
+STRING_D208	Bu string boþtur.
+STRING_D209	Bu string boþtur.
+STRING_D210	Bu string boþtur.
+STRING_D211	Bu string boþtur.
+STRING_D212	Bu string boþtur.
+STRING_D213	Bu string boþtur.
+STRING_D214	Bu string boþtur.
+STRING_D215	Bu string boþtur.
+STRING_D216	Bu string boþtur.
+STRING_D217	Bu string boþtur.
+STRING_D218	Bu string boþtur.
+STRING_D219	Bu string boþtur.
+STRING_D220	Bu string boþtur.
+STRING_D221	Bu string boþtur.
+STRING_D222	Bu string boþtur.
+STRING_D223	Bu string boþtur.
+STRING_D224	Bu string boþtur.
+STRING_D225	Bu string boþtur.

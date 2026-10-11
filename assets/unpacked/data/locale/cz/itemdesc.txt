@@ -1,0 +1,594 @@
+11901	Smoking	A suit that men wear at weddings.
+11902	Smoking	A suit that men wear at weddings.
+11903	Svatební šaty	Speciální odìv nošenı enami na svatbách.
+11904	Svatební šaty	Speciální odìv nošenı enami na svatbách.
+22000	Teleportaèní svitek do mìsta	Tento svitek vás teleportuje do vesnice.
+22010	Teleportaèní svitek z mìsta	Tento svitek vám umoní vrátit se z mìsta nebo do oblasti, kde jste.
+25040	Svitkování poehnání	Pøi neúspìšném zlepšení je eliminováno riziko ztráty pøedmìtu, a pouze jeho kvalita klesne o 1 úroveò.
+25041	Oèarovanı kov	Legendární kovová koule, která umoòuje pøedmìtu dosáhnout své nejlepší podoby. Navíc, zlepšenı pøedmìt nemùe bıt znièen nebo sníen na hodnotì.
+25042	Rituální kámen	Záhadnì záøící kámen, kterı nabízí nejlepší šanci na zlepšení pøedmìtu. Zlepšenı pøedmìt nemùe bıt znièen nebo zhoršen. Tento kámen funguje pouze na kameny nad úrovní 105.
+25100	Svitkování kamenù mysli	Tento svitek slouí k odstranìní kamene mysli zbraní a zbroje. Po odebrání kamene zùstává otisk.
+27800	Tìsto	Nejlevnìjší návnada na ryby.
+27801	Èerv	 Pouívá se jako návnada na rybolov.
+27803	Hadec	Podobnì jako ryba, která obvykle ije v jezerech.
+27805	Velkı hadec	Velkı, plnı hadec.
+27990	Obrtlík	Jeho malá velikost umoòuje snadné nošení. Lze pouít rùznımi zpùsoby.
+27992	Bílı perleáè	Èistì bílı perleáè, kterı zamilují dámy.
+27993	Modrı perleáè	Modøe zbarvenı perleáè, kterı zamilují dámy.
+27994	Karmínovı perleáè	Karmínovì èervenı perleáè, kterı zamilují dámy.
+30006	Zub skøeta	Zapáchající zub skøeta.
+30015	Pozùstatek démona	Tmavı pozùstatek démona.
+30047	Kniha kletby	Speciální kniha pouívaná k zatracení nìkoho.
+30050	Ledová koule	Koule z ledu, která se nerozpouští za horkého poèasí.
+30220	Jinunggyho kámen duše	Legendární kámen, kterı obsahuje duše jinungskıch aristokratù.
+30221	Templeskı podpùrnı kámen	Legendární kámen, kterı obsahuje duchy podporovatelù chrámu.
+30222	Sagyého kámen duše	Legendární kámen, kterı obsahuje duše sagyéskıch aristokratù.
+30223	Aurtumryu kámen duše	Legendární kámen, kterı obsahuje duše aurtumryuskıch aristokratù.
+30224	Gyimokùv kámen duše	Legendární kámen, kterı obsahuje duše gyimokskıch aristokratù.
+30225	Tugyiho kámen duše	Legendární kámen, kterı obsahuje duše tugyiho aristokratù.
+30226	Tugyiho kámen duše	Legendární kámen, kterı obsahuje duše lesních aristokratù.
+30227	Tugyiho kámen duše	Legendární kámen, kterı obsahuje duše vùdcovskıch aristokratù.
+30228	Tugyiho kámen duše	Legendární kámen, kterı obsahuje duše kemskıch aristokratù.
+30229	Tugyiho kámen duše	Legendární kámen, kterı obsahuje duše moudrostních aristokratù.
+30230	Tugyiho kámen duše	Legendární kámen, kterı obsahuje duše ohnivıch aristokratù.
+30231	Tugyiho kámen duše	Legendární kámen, kterı obsahuje duše temnıch aristokratù.
+30251	Oèní diamant	Kámen obsidiánové zloby.
+30252	Moudrostnı kámen	Diamant s uklidòujícím a štìdrım záøením.
+31080	Ohnivı lektvar	Magickı lektvar naplnìnı ohnìm.
+31081	Tmavá hmota	Ztìlesnìní temnoty a zla.
+39033	Svitkování opravy	Úspìšnì umístìné kameny mysli lze odstranit ze pøedmìtu tímto svitkem.
+90000	Certifikát o pøemìnì	Na vıbavu s vybavením infiltrovanım do ramenních popruhù nebo aureálu lze z tohoto papíru vyèistit.
+39067	Díl chest	Tato truhla obsahuje náhodnì zbarvenı díl.
+39070	Šedı díl	Šedì zbarvenı díl, kterı pøidá 6. nebo 7. bonus.
+39071	Bílı díl	Bíle zbarvenı díl, kterı pøidá 6. nebo 7. bonus.
+39072	Zelenı díl	Zelenì zbarvenı díl, kterı pøidá 6. nebo 7. bonus.
+39073	lutı díl	luto zbarvenı díl, kterı pøidá 6. nebo 7. bonus.
+39074	Modrı díl	Modøe zbarvenı díl, kterı pøidá 6. nebo 7. bonus.
+39075	Fialovı díl	Fialovì zbarvenı díl, kterı pøidá 6. nebo 7. bonus.
+39076	Èervenı díl	Èervenì zbarvenı díl, kterı pøidá 6. nebo 7. bonus.
+39077	Duha díl	Tmavì zbarvenı díl, kterı pøidá 6. nebo 7. bonus.
+49001	Obecnı aura oblek	Hodnota šperkù mùe bıt pøevedena do aura obleku s urèitou absorpèní rychlostí. Aura oblek lze vylepšit ledu runy aury.
+49002	Jednoduchı aura oblek	Hodnota šperkù mùe bıt pøevedena do aura obleku s urèitou absorpèní rychlostí. Aura oblek lze vylepšit ledu runy aury.
+49003	Velkorysı aura oblek	Hodnota šperkù mùe bıt pøevedena do aura obleku s urèitou absorpèní rychlostí. Aura oblek lze vylepšit ledu runy aury.
+49004	Okázalı aura oblek	Hodnota šperkù mùe bıt pøevedena do aura obleku s urèitou absorpèní rychlostí. Aura oblek lze vylepšit ledu runy aury.
+49005	Svìtlı aura oblek	Hodnota šperkù mùe bıt pøevedena do aura obleku s urèitou absorpèní rychlostí. Aura oblek lze vylepšit ledu runy aury.
+49006	Záøivı aura oblek	Hodnota šperkù mùe bıt pøevedena do aura obleku s urèitou absorpèní rychlostí.
+49990	Levá runa aury	Materiál potøebnı k vylepšení aura obleku. Pøejdìte na Teovahdana, abyste aura oblek vylepšili.
+49991	Levá runa aury	Materiál potøebnı k vylepšení aura obleku. Pøejdìte na Teovahdana, abyste aura oblek vylepšili.
+
+50267	Zlatá Okey truhla	Tento vysokoúrovòovı odmìnu jste získali za skóre 400 nebo více bodù ve høe Okey.
+50268	Støíbrná Okey truhla	Tuto støednì úrovòovou odmìnu jste získali za skóre mezi 300 a 399 body ve høe Okey.
+50269	Bronzová Okey truhla	Tuto nízkou úroveò odmìny jste získali za skóre 299 nebo ménì bodù ve høe Okey.
+50928	Zlatá Kingova koøist	Tuto vysokoúrovòovou odmìnu jste získali za skóre 550 nebo více bodù ve høe Catch the King.
+50929	Støíbrná Kingova koøist	Tuto støednì úrovòovou odmìnu jste získali za skóre mezi 400 a 549 body ve høe Catch the King.
+50930	Bronzová Kingova koøist	Tuto nízkou úroveò odmìny jste získali za skóre 399 nebo ménì bodù ve høe Catch the King.
+83041	Zlatá Prorokova truhla	Tuto vysokoúrovòovou odmìnu jste získali za 7 nebo více bodù ve Soutìi prorokù.
+83042	Støíbrná Prorokova truhla	Tuto støednì úrovòovou odmìnu jste získali za skóre mezi 4 a 6 body ve Soutìi prorokù.
+83043	Bronzová Prorokova truhla	Tuto nízkou úroveò odmìny jste získali za 3 nebo ménì bodù ve Soutìi prorokù.
+200100	Schránka pro události dopisu	Tuto vzácnou odmìnu jste získali za sbírání všech písmen v události Dopis.
+50265	Fotbalová truhla s míèem	Tuto vzácnou odmìnu jste získali za sbírání 20 fotbalovıch míèù v události Fotbalovı míè.
+50401	Pøíruèka Trojitého øezu	Pouívá se k ovládnutí dovednosti Trojitı øez. Kniha zmizí po pøeètení.
+50402	Pøíruèka Míchání meèe	Pouívá se k ovládnutí dovednosti Míchání meèe. Kniha zmizí po pøeètení.
+50403	Pøíruèka Zuøivosti	Pouívá se k ovládnutí dovednosti Zuøivosti. Kniha zmizí po pøeètení.
+50404	Pøíruèka Vzdušného meèe	Pouívá se k ovládnutí dovednosti Vzdušného meèe. Kniha zmizí po pøeètení.
+50405	Pøíruèka Útoku na vıpad	Pouívá se k ovládnutí dovednosti Útoku na vıpad. Kniha zmizí po pøeètení.
+50406	Pøíruèka Vùle k ivotu	Pouívá se k úspìšnému dokonèení úkolu Vùle k ivotu. Kniha zmizí po pøeètení.
+50416	Pøíruèka Dušebního úderu	Pouívá se k ovládnutí dovednosti Dušebního úderu. Kniha zmizí po pøeètení.
+50417	Pøíruèka Tìkého úderu	Pouívá se k ovládnutí dovednosti Tìkého úderu. Kniha zmizí po pøeètení.
+50418	Pøíruèka Úderu moci	Pouívá se k ovládnutí dovednosti Úderu moci. Kniha zmizí po pøeètení.
+50419	Pøíruèka Silného tìla	Pouívá se k ovládnutí dovednosti Silného tìla. Kniha zmizí po pøeètení.
+50420	Pøíruèka Meèového úderu	Pouívá se k ovládnutí dovednosti Meèového úderu. Kniha zmizí po pøeètení.
+50421	Pøíruèka Meèového kruhu	Pouívá se k úspìšnému dokonèení úkolu Meèového kruhu. Kniha zmizí po pøeètení.
+50431	Pøíruèka Zabíjení zákeønıch	Pouívá se k ovládnutí dovednosti Zabíjení zákeønıch. Kniha zmizí po pøeètení.
+50432	Pøíruèka Rychlého útoku	Pouívá se k ovládnutí dovednosti Rychlého útoku. Kniha zmizí po pøeètení.
+50433	Pøíruèka Otoèky noem	Pouívá se k ovládnutí dovednosti Otoèky noem. Kniha zmizí po pøeètení.
+50434	Pøíruèka Maskování	Pouívá se k ovládnutí dovednosti Maskování. Kniha zmizí po pøeètení.
+50435	Pøíruèka Jedovatého mraku	Pouívá se k ovládnutí dovednosti Jedovatého mraku. Kniha zmizí po pøeètení.
+50436	Pøíruèka Úkladného jedu	Pouívá se k úspìšnému dokonèení úkolu Úkladného jedu. Kniha zmizí po pøeètení.
+50446	Pøíruèka Opakovaného vıstøelu	Pouívá se k ovládnutí dovednosti Opakovaného vıstøelu. Kniha zmizí po pøeètení.
+50447	Pøíruèka Déš støel	Pouívá se k ovládnutí dovednosti Déš støel. Kniha zmizí po pøeètení.
+50448	Pøíruèka Ohnivé šípy	Pouívá se k ovládnutí dovednosti Ohnivé šípy. Kniha zmizí po pøeètení.
+50449	Pøíruèka Lehkého kroku	Pouívá se k ovládnutí dovednosti Lehkého kroku. Kniha zmizí po pøeètení.
+50450	Pøíruèka Jedovaté šípy	Pouívá se k ovládnutí dovednosti Jedovaté šípy. Kniha zmizí po pøeètení.
+50451	Pøíruèka Jiskøícího úderu	Pouívá se k úspìšnému dokonèení úkolu Jiskøícího úderu. Kniha zmizí po pøeètení.
+50461	Pøíruèka Úderu prsty	Pouívá se k ovládnutí dovednosti Úderu prsty. Kniha zmizí po pøeètení.
+50462	Pøíruèka Promìny v draka	Pouívá se k ovládnutí dovednosti Promìny v draka. Kniha zmizí po pøeètení.
+50463	Pøíruèka Magické ostrosti	Pouívá se k ovládnutí dovednosti Magické ostrosti. Kniha zmizí po pøeètení.
+50464	Pøíruèka Teroru	Pouívá se k ovládnutí dovednosti Teroru. Kniha zmizí po pøeètení.
+50465	Pøíruèka Magického brnìní	Pouívá se k ovládnutí dovednosti Magického brnìní. Kniha zmizí po pøeètení.
+50466	Pøíruèka Zrušení kouzel	Pouívá se k ovládnutí dovednosti Zrušení kouzel. Kniha zmizí po pøeètení.
+50476	Pøíruèka Temného úderu	Pouívá se k ovládnutí dovednosti Temného úderu. Kniha zmizí po pøeètení.
+50477	Pøíruèka Ohnivého úderu	Pouívá se k ovládnutí dovednosti Ohnivého úderu. Kniha zmizí po pøeètení.
+50478	Pøíruèka Ohnivého ducha	Pouívá se k ovládnutí dovednosti Ohnivého ducha. Kniha zmizí po pøeètení.
+50479	Pøíruèka Temné ochrany	Pouívá se k ovládnutí dovednosti Temné ochrany. Kniha zmizí po pøeètení.
+50480	Pøíruèka Úderu ducha	Pouívá se k ovládnutí dovednosti Úderu ducha. Kniha zmizí po pøeètení.
+50481	Pøíruèka Temné koule	Pouívá se k ovládnutí dovednosti Temné koule. Kniha zmizí po pøeètení.
+50491	Pøíruèka Létajícího talismanu	Pouívá se k ovládnutí dovednosti Létajícího talismanu. Kniha zmizí po pøeètení.
+50492	Pøíruèka Úderu draka	Tato kniha umoòuje ovládnutí dovednosti Úderu draka. Kniha zmizí po pøeètení.
+50493	Pøíruèka Drakova øevu	Pouívá se k ovládnutí dovednosti Drakova øevu. Kniha zmizí po pøeètení.
+50494	Pøíruèka Poehnání	Pouívá se k ovládnutí dovednosti Poehnání. Kniha zmizí po pøeètení.
+50495	Pøíruèka Odrazu	Pouívá se k ovládnutí dovednosti Odrazu. Kniha zmizí po pøeètení.
+50496	Pøíruèka Pomoci draka	Pouívá se k ovládnutí dovednosti Pomoci draka. Kniha zmizí po pøeètení.
+50506	Pøíruèka Bleskového hodu	Pouívá se k ovládnutí dovednosti Bleskového hodu. Kniha zmizí po pøeètení.
+50507	Pøíruèka Pøivolání blesku	Pouívá se k ovládnutí dovednosti Pøivolání blesku. Kniha zmizí po pøeètení.
+50508	Pøíruèka Bleskového drápa	Pouívá se k ovládnutí dovednosti Bleskového drápa. Kniha zmizí po pøeètení.
+50509	Pøíruèka Léèení	Pouívá se k ovládnutí dovednosti Léèení. Kniha zmizí po pøeètení.
+50510	Pøíruèka Rychlosti	Pouívá se k ovládnutí dovednosti Rychlosti. Kniha zmizí po pøeètení.
+50511	Pøíruèka Vysokého útoku	Pouívá se k ovládnutí dovednosti Vysokého útoku. Kniha zmizí po pøeètení.
+50513	Kámen duše	Legendární kámen, kterı zvyšuje dovednosti Grandmaster. Po pouití zmizí.
+18900	Fossil Tree Trunk	Meteoritovı fragment poskytující uivateli extra sílu. Lze pøidat na opasky.
+918900	Fossil Tree Trunk	Meteoritovı fragment poskytující uivateli extra sílu. Lze pøidat na opasky.
+
+50621	Diamant	Pouívá se k odemykání míst na drahocennıch doplòcích.
+50623	Fossil Tree Trunk	Precious døevo, které zvyšuje odolnost doplòkù. Lze pøidat na døevìné doplòky.
+50624	Mìï	Nìkdy pouívána pøi vırobì bronzu a mincí. Lze pøidat na mìdìné doplòky.
+50625	Støíbro	Lesklı vznešenı kov pouívanı pøi vırobì šperkù. Lze pøidat na støíbrné doplòky.
+50626	Zlato	Pouívá se pøi vırobì šperkù. Lze pøidat na zlaté doplòky.
+50627	Jadeit	Drahá surovina pouívaná více ne 5000 let. Lze pøidat na jadesitové doplòky.
+50628	Ebenovník	Nejlesklavìjší a nejsilnìjší ze všech døevin. Lze pøidat na ebenové doplòky.
+50629	Perla	Planoucí elegantnì, klenot moøí. Lze pøidat na perlové doplòky.
+50630	Bílé zlato	Trvanlivı, vybìlenı zlatı klenot. Lze pøidat na doplòky z bílého zlata.
+50631	Køišál	Rùznì zbarvenı køišál. Lze pøidat na køišálové doplòky.
+50632	Amethyst	Fialovı køemen. Lze pøidat na ametystové doplòky.
+50633	Slza nebe	Krystalizovaná kapka spadlá z nebe. Lze pøidat na doplòky se slzou nebe.
+50634	Duševní krystal	Tento køišál je èistı jako duše. Lze pøidat na doplòky se duševním krystalem.
+50635	Rubín	Pozornì vyøezávanı èervenı drahokam. Lze pøidat na rubínové doplòky.
+50636	Granát	Pozornì vyøezávanı oranovı drahokam. Lze pøidat na granátové doplòky.
+50637	Smaragd	Pozornì vyøezávanı zelenı drahokam. Lze pøidat na smaragdové doplòky.
+50638	Safír	Pozornì vyøezávanı modrı drahokam. Lze pøidat na safírové doplòky.
+50639	Turmalín	Tento kámen, záøící duhou barev, okouzluje oèi. Lze pøidat na turmalínové doplòky.
+50640	Èernı drak	Obsahuje energii temného zaklínadla zatemòujícího zrak. Lze pøidat na doplòky s èernım drakem.
+50641	Kyanit	Pozornì vyøezávanı fialovı drahokam. Lze pøidat na kyanitové doplòky.
+950623	Fossil Tree Trunk	Cenné stálé døevo, které zvyšuje odolnost doplòkù. Lze pøidat na døevìné doplòky.
+950624	Mìï	Nìkdy pouívána pøi vırobì stálého bronzu a mincí. Lze pøidat na mìdìné doplòky.
+950625	Støíbro	Stálı lesklı vznešenı kov pouívanı pøi vırobì šperkù. Lze pøidat na støíbrné doplòky.
+950626	Zlato	Pouívá se pøi vırobì stálıch šperkù. Lze pøidat na zlaté doplòky.
+950627	Jadeit	Cenná stálá surovina pouívaná více ne 5000 let. Lze pøidat na jadesitové doplòky.
+950628	Ebenovník	Nejlesklavìjší a nejsilnìjší ze všech druhù døevin, trvale. Lze pøidat na ebenové doplòky.
+950629	Perla	Planoucí elegantnì, klenot moøí, trvale. Lze pøidat na perlové doplòky.
+950630	Bílé zlato	Trvanlivı, vybìlenı zlatı klenot, trvale. Lze pøidat na doplòky z bílého zlata.
+950631	Køišál	Rùznì zbarvenı trvalı køišál. Lze pøidat na køišálové doplòky.
+950632	Amethyst	Trvalı fialovı køemen. Lze pøidat na ametystové doplòky.
+950633	Slza nebe	Krystalizovaná kapka spadlá z nebe, trvale. Lze pøidat na doplòky se slzou nebe.
+950634	Duševní krystal	Tento køišál je èistı jako trvalá duše. Lze pøidat na doplòky se duševním krystalem.
+950635	Rubín	Pozornì vyøezávanı trvalı èervenı drahokam. Lze pøidat na rubínové doplòky.
+950636	Granát	Pozornì vyøezávanı trvalı oranovı drahokam. Lze pøidat na granátové doplòky.
+950637	Smaragd	Pozornì vyøezávanı trvalı zelenı drahokam. Lze pøidat na smaragdové doplòky.
+950638	Safír	Pozornì vyøezávanı trvalı modrı drahokam. Lze pøidat na safírové doplòky.
+950639	Turmalín	Tento trvalı kámen, záøící duhou barev, okouzluje oèi. Lze pøidat na turmalínové doplòky.
+950640	Èernı drak	Obsahuje energii temného zaklínadla zatemòujícího zrak, trvale. Lze pøidat na doplòky s èernım drakem.
+950641	Kyanit	Pozornì vyøezávanı trvalı fialovı drahokam. Lze pøidat na kyanitové doplòky.
+51511	Cor Draconis Diamond	Bílı Cor Draconis. Obsahuje náhodnı drak diamant.
+51512	Cor Draconis Ruby	Èervenı Cor Draconis. Obsahuje náhodnı drak rubín.
+51513	Cor Draconis Jadeite	Zelenı Cor Draconis. Obsahuje náhodnı drak jadeit.
+51514	Cor Draconis Sapphire	Modrı Cor Draconis. Obsahuje náhodnı drak safír.
+51515	Cor Draconis Garnet	Oranovı Cor Draconis. Obsahuje náhodnı drak granát.
+51516	Cor Draconis Atrum	Èernı Cor Draconis. Obsahuje náhodnı drak onyx.
+55003	Young Pet Book	S tímto prùvodcem mùete posunout svého mazlíèka na další úroveò (Wild).
+55004	Wild Pet Book	S tímto prùvodcem mùete posunout svého mazlíèka na další úroveò (Brave).
+55005	Brave Pet Book	S tímto prùvodcem mùete posunout svého mazlíèka na další úroveò (Hero).
+
+55401	Monkey Egg	Chcete-li, aby váš mazlíèek vylíhl ze skoøápky, klepnìte na skoøápku pravım tlaèítkem myši.
+55701	Small Monkey	Zavolejte si svého mazlíèka pravım tlaèítkem myši a poté zobrazte uivatelské rozhraní mazlíèka klávesou P.
+
+70005	Experience Ring (1 hod.)	Po dobu 60 minut poskytuje o 50% více zkušeností. Lze pouít do úrovnì 90.
+970005	Experience Ring (1 hod.)	Po dobu 60 minut poskytuje o 50% více zkušeností. Lze pouít od úrovnì 90 a vıše.
+
+70038	Courage Cloak	Skuteèní váleèníci pøitahují pozornost všech tvorù svımi barevnımi plášti a tím prokazují svùj hrdinskı èin.
+70039	Blacksmith's Handbook	Kniha obsahující duše starovìkıch kováøù. Pøi pouití zvıší úspìšnost vylepšení. Lze pouít na pøedmìty úrovnì 90 a vıše.
+
+70043	Thief's Gloves	Zdvojnásobte šanci na získání pøedmìtù. Lze pouít do úrovnì 90.
+970043	Thief's Gloves	Zdvojnásobte šanci na získání pøedmìtù. Lze pouít od úrovnì 90 a vıše.
+
+70102	Zen Bean	Sníí špatné hodnocení.
+
+71001	Exorcism Paper	Pokud sele uèení, ochrání vás pøed kletbou zlıch duchù.
+71002	Stat Reset Paper	Resetuje bodové hodnocení, umoòuje vıvoj postavy v jiném smìru.
+71054	Mark of Kingdoms	Umoòuje postavì uprchnout do jiného království, zmìnit království.
+
+71032	Dragon Parchment	Pøi neúspìchu vylepšení se kvalita pøedmìtu sníí o jednu úroveò. Také zvyšuje šanci na vylepšení o 10 %. Lze pouít na pøedmìty do úrovnì 90.
+70058	Teleportation Ring	Tento prsten vás teleportuje na poadované místo.
+
+72726	Sun Essence	Po pouití zmizí z èásti efektù v horním levém rohu, je trvalı a neomezenı. Kliknutím na efekt jej zapnete nebo vypnete.
+72730	Moon Essence	Po pouití zmizí z èásti efektù v horním levém rohu, je trvalı a neomezenı. Kliknutím na efekt jej zapnete nebo vypnete.
+71107	Life Fruit	Zvıší body hodnocení o 2 000.
+30629	Biologist's Timer	Resetuje dobu èekání na sbírání vızkumnıch pøedmìtù, usnadòuje jejich doruèení.
+71035	Researcher's Essence	Zvyšuje kvalitu sbíranıch vızkumnıch pøedmìtù, usnadòuje jejich pøijetí.
+
+71083	Stone Art Book	Odstraní rozbité kamenné pøílohy, vytvoøí prázdné sloty pro pøílohy.
+71084	Enchantment Item	Odstraní a nahradí bonusy z pøedmìtu. Platné pouze pro bonusy 1 a 5.
+71085	Enhancement Paper	Pøidá nové bonusy k vašim vlastnìnım pøedmìtùm.
+
+71094	Hermit's Advice	Zdvojnásobí šanci na zlepšení schopností pøi ètení další knihy (nebo dušového kamene).
+
+200221	Dragon Scale	Mezi nejintenzivnìjší materiály patøí draèí šupiny.
+200222	Dragon Claw	Pohled na tuto zlovìstnou dráp vzbuzuje vzpomínky...
+71151	Green Enchantment	Odstraní a nahradí bonusy z pøedmìtu. Platné pouze pro zbroj a zbranì úrovnì 40 a niší.
+71153	Elixir of Wisdom	S tímto elixírem získáte bìhem jednoho hodinového herního sezení 100% více zkušeností.
+71154	Elixir of Ascension	S tímto elixírem získáte bìhem jednoho hodinového herního sezení 100% více zkušeností. Obchod není dostupnı.
+
+72346	Blessing	Odstraní a nahradí bonusy z pøedmìtu. Platné pro bonusy 6 a 7 s nízkou pravdìpodobností.
+72351	Small Blessing	S nízkou šancí zmìní 6. nebo 7. bonus.
+
+79505	Rummy Collection Card	Sbírejte 24 karet Rummy Collection, poté klepnìte pravım tlaèítkem myši, abyste získali sadu karet Rummy.
+79506	Rummy Card Set	S touto sadou karet mùete zaèít hru rummy. Sada karet se po zahájení hry automaticky odejme z inventáøe.
+79512	Tarot Card	Sbírejte 24 tarotovıch karet, poté klepnìte pravım tlaèítkem myši, abyste získali sadu tarotovıch karet.
+79513	Tarot Card Set	S touto sadou karet mùete zaèít soutì v vìštìní. Sada karet se po zahájení hry automaticky odejme z inventáøe.
+79603	King's Card	Sbírejte 25 královskıch karet, poté klepnìte pravım tlaèítkem myši, abyste získali královskı balíèek.
+79604	King's Deck	S touto sadou karet mùete zaèít hru king. Sada karet se po zahájení hry automaticky odejme z inventáøe.
+80008	Zlatı Fragment	Nepropracované zlato. Lze ho prodat za vysokou cenu ve obchodì.
+80014	DC Kupon (100)	Kupon v hodnotì 100 Dragon mincí. Tento pøedmìt lze obchodovat.
+80015	DC Kupon (500)	Kupon v hodnotì 500 Dragon mincí. Tento pøedmìt lze obchodovat.
+80016	DC Kupon (1000)	Kupon v hodnotì 1000 Dragon mincí. Tento pøedmìt lze obchodovat.
+80017	DC Kupon (50)	Kupon v hodnotì 50 Dragon mincí. Tento pøedmìt lze obchodovat.
+80019	Fešnı Látka	Tento materiál se pouívá k vırobì náramkovıch øemínkù.
+
+85001	Pás Rozhodèího (Jednoduchı)	Tento pás bere 1% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+85002	Pás Rozhodèího (fešnı)	Tento pás bere 5% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+85003	Pás Rozhodèího (Noble)	Tento pás bere 10% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+85004	Pás Rozhodèího (vlastní)	Tento pás bere 11-25% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+85005	Mistrovskı Pás (Jednoduchı)	Tento pás bere 1% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+85006	Mistrovskı Pás (fešnı)	Tento pás bere 5% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+85007	Mistrovskı Pás (Noble)	Tento pás bere 10% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+85008	Mistrovskı Pás (vlastní)	Tento pás bere 11-25% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+85011	Pás Pána (Jednoduchı)	Tento pás bere 1% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+85012	Pás Pána (fešnı)	Tento pás bere 5% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+85013	Pás Pána (Noble)	Tento pás bere 10% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+85014	Pás Pána (vlastní)	Tento pás bere 11-25% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+85015	Pás Krále (Jednoduchı)	Tento pás bere 1% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+85016	Pás Krále (fešnı)	Tento pás bere 5% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+85017	Pás Krále (Noble)	Tento pás bere 10% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+85018	Pás Krále (vlastní)	Tento pás bere 11-25% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+85021	Vıroèní Pás (Jednoduchı)	Tento pás bere 1% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+85022	Vıroèní Pás (fešnı)	Tento pás bere 5% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+85023	Vıroèní Pás (Noble)	Tento pás bere 10% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+85024	Vıroèní Pás (vlastní)	Tento pás bere 11-25% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86001	Zi Pás (Jednoduchı)	Tento pás bere 1% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86002	Zi Pás (fešnı)	Tento pás bere 5% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86003	Zi Pás (Noble)	Tento pás bere 10% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86004	Zi Pás (vlastní)	Tento pás bere 11-25% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86005	Chou Pás (Jednoduchı)	Tento pás bere 1% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86006	Chou Pás (fešnı)	Tento pás bere 5% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86007	Chou Pás (Noble)	Tento pás bere 10% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86008	Chou Pás (vlastní)	Tento pás bere 11-25% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86011	Yin Pás (Jednoduchı)	Tento pás bere 1% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86012	Yin Pás (fešnı)	Tento pás bere 5% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86013	Yin Pás (Noble)	Tento pás bere 10% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86014	Yin Pás (vlastní)	Tento pás bere 11-25% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86015	Mao Pás (Jednoduchı)	Tento pás bere 1% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86016	Mao Pás (fešnı)	Tento pás bere 5% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86017	Mao Pás (Noble)	Tento pás bere 10% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86018	Mao Pás (vlastní)	Tento pás bere 11-25% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86021	Chen Pás (Jednoduchı)	Tento pás bere 1% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86022	Chen Pás (fešnı)	Tento pás bere 5% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86023	Chen Pás (Noble)	Tento pás bere 10% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86024	Chen Pás (vlastní)	Tento pás bere 11-25% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86025	Si Pás (Jednoduchı)	Tento pás bere 1% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86026	Si Pás (fešnı)	Tento pás bere 5% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86027	Si Pás (Noble)	Tento pás bere 10% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86028	Si Pás (vlastní)	Tento pás bere 11-25% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86031	Wu Pás (Jednoduchı)	Tento pás bere 1% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86032	Wu Pás (fešnı)	Tento pás bere 5% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86033	Wu Pás (Noble)	Tento pás bere 10% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86034	Wu Pás (vlastní)	Tento pás bere 11-25% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86035	Wei Pás (Jednoduchı)	Tento pás bere 1% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86036	Wei Pás (fešnı)	Tento pás bere 5% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86037	Wei Pás (Noble)	Tento pás bere 10% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86038	Wei Pás (vlastní)	Tento pás bere 11-25% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86041	Shen Pás (Jednoduchı)	Tento pás bere 1% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86042	Shen Pás (fešnı)	Tento pás bere 5% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86043	Shen Pás (Noble)	Tento pás bere 10% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86044	Shen Pás (vlastní)	Tento pás bere 11-25% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86045	Yu Pás (Jednoduchı)	Tento pás bere 1% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86046	Yu Pás (fešnı)	Tento pás bere 5% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86047	Yu Pás (Noble)	Tento pás bere 10% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86048	Yu Pás (vlastní)	Tento pás bere 11-25% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86051	Xu Pás (Jednoduchı)	Tento pás bere 1% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86052	Xu Pás (fešnı)	Tento pás bere 5% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86053	Xu Pás (Noble)	Tento pás bere 10% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86054	Xu Pás (vlastní)	Tento pás bere 11-25% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86055	Hai Pás (Jednoduchı)	Tento pás bere 1% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86056	Hai Pás (fešnı)	Tento pás bere 5% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86057	Hai Pás (Noble)	Tento pás bere 10% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86058	Hai Pás (vlastní)	Tento pás bere 11-25% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86061	Srdcovı Pás (Jednoduchı)	Tento pás bere 1% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86062	Srdcovı Pás (fešnı)	Tento pás bere 5% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86063	Srdcovı Pás (Noble)	Tento pás bere 10% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+86064	Srdcovı Pás (vlastní)	Tento pás bere 11-25% bonusù zbranì nebo zbroje, kterou pouíváte, pro absorpci.
+
+100002	Özüt Süresi (B)	Zeniluje trvání Draèího Kamene.	6 hodin
+
+100300	Zelenı Draèí Bohnen	Magickı fazol zvyšuje úroveò vašeho Draèího Kamene. Posílení mùe selhat.
+100400	Modrı Draèí Bohnen	Šance na úspìšné zvıšení Draèího Kamene o jeden stupeò je o 5% vyšší.
+100500	Rùovı Draèí Bohnen	Šance na úspìšné zvıšení Draèího Kamene o jeden stupeò je o 10% vyšší.
+
+93100	Bitva Pass		Tento pøedmìt aktivuje sezónní úkoly s více odmìnami.
+200000	Skrin Skill Knih		Obsahuje knihy na zlepšení dovedností.
+200001	Skrin Fyzickıch Skill Knih	Obsahuje knihy na zlepšení fyzickıch dovedností.
+200002	Skrin Mentálních Skill Knih	Obsahuje knihy na zlepšení mentálních dovedností.
+200003	Skrin Tìlesnıch Skill Knih	Obsahuje knihy na zlepšení tìlesnıch dovedností.
+200004	Skrin Dálkovıch Skill Knih	Obsahuje knihy na zlepšení dovedností na dálku.
+200005	Skrin Skill Knih Magickıch Zbraní	Obsahuje knihy na zlepšení dovedností s magickımi zbranìmi.
+200006	Skrin Skill Knih Temné Magie	Obsahuje knihy na zlepšení dovedností temné magie.
+200007	Skrin Skill Knih Draèí Moci	Obsahuje knihy na zlepšení dovedností draèí moci.
+200008	Skrin Skill Knih Léèení	Obsahuje knihy na zlepšení léèebnıch dovedností.
+200009	Tréninková Skrin	Obsahuje pomocné pøedmìty na zlepšení dovedností.
+200011	Skrin Cor Draconis	Obsahuje materiály na alchymii draèího kamene.
+200012	Skrin Pokladù	Obsahuje velmi cenné materiály.
+200013	Skrin Pøedmìtù Zaklínání (10 000)	Obsahuje 10 000 zaklínacích pøedmìtù.
+200014	Ustrice	Mùe obsahovat perly nebo kamenné fragmenty.
+200015	Zlatá Ustrice	Mùe obsahovat zbarvené perly nebo kamenné fragmenty.
+200016	Skrin Zlatıch Ryb (Bìná)	Obsahuje bìné ryby.
+200017	Skrin Zlatıch Ryb (Vzácná)	Obsahuje extrémnì vzácné ryby.
+200018	Skrin Skill Knih Pasivních Dovedností	Obsahuje knihy na zlepšení pasivních dovedností.
+200019	Skrin Elysia	Obsahuje velmi cenné materiály.
+200020	Skrin Legendárního Cor	Obsahuje legendární alchymické materiály draèího kamene.
+200021	Skrin Knih Domácího Mazlíèka	Obsahuje knihy na dovednosti domácího mazlíèka.
+200022	Skrin Vylepšení	Obsahuje støednì úrovnì materiálù na vylepšení.
+200023	Pokroèilé Vylepšení	Obsahuje vysoké úrovnì materiálù na vylepšení.
+
+200200	Safírovı Krystal	Obyèejnı krystal vyrobenı z safíru. Pouívá se k vırobì a rafinaci vybavení.
+200202	Safírovı Krystal	Vzácnı krystal vyrobenı z nefritu. Pouívá se k vırobì a rafinaci vybavení.
+200204	Safírovı Krystal	Vzácnı krystal vyrobenı z rubínu. Pouívá se k vırobì a rafinaci vybavení.
+200206	Pergamen Sklepení (Nízkı)	Umoòuje vám zakoupit lístky do nízkıch úrovní sklepù.
+200207	Pergamen Sklepení (Støední)	Umoòuje vám zakoupit lístky do støedních úrovní sklepù.
+200208	Pergamen Sklepení (Vysokı)	Umoòuje vám zakoupit lístky do vysokıch úrovní sklepù.
+200209	Kupón na Vybavení	První šablona pouitá starobylım mistrem pøi vırobì vybavení. Pouívá se pro poèáteèní nákupy, vırobu a rafinaci vybavení.
+200210	Valleycoin	Mincovna pouívaná v minulosti. Obvykle se pouívá pro obchodování s NPC a vırobu vybavení.
+200211	Kámen na Vylepšení Korpání	Tajemnı èernı kámen. Pouívá se pøi rafinaci korpadel.
+200212	Kámen na Vylepšení Rybáøského Prutu	Trhlinovı kus rybáøského prutu. Pouívá se pøi rafinaci rybáøskıch prutù.
+200213	Obrázkovı Fragment (Nízkı)	Bìnı fragment rudy získanı tìbou. Pouívá se pøi nákupu rud niší úrovnì u Rudného Obchodníka.
+200214	Obrázkovı Fragment (Vysokı)	Vzácnı fragment rudy získanı tìbou. Pouívá se pøi nákupu rud vyšší úrovnì u Rudného Obchodníka.
+200215	Elysiumská Mince	Vzácná mìna exkluzivní pro Elysium. Lze pouít k nákupu pøedmìtù na posílení vaší síly z Elysiumského Trhu.
+200216	Pampeliška	Svìí a lutì zbarvenı kvìt, kterı pøináší pocit jara. Pouívá se k nákupu bylinnıch esencí u Huahn-So.
+200217	Pergamen Biologa	Starodávnı pergamen pouívanı k nákupu biologickıch materiálù od Biologa Chaegiraba.
+200218	Øemeslnická Mince	Støíbrná mince pouívaná k vylepšování a vırobì vybavení. Pouívá se pøi vırobì a rafinaci vybavení.
+200221	Draèí Šupina	Draèí šupiny patøí mezi nejpùsobivìjší materiály. Pouívá se pøi vırobì a rafinaci vybavení.
+200222	Draèí Klièka	Chladivı dotek této klièky vyvolává vzpomínky... Pouívá se pøi vırobì a rafinaci vybavení.
+200223	Plamennı Kámen	Okrystalizovaná esence plamene a magmy. Pouívá se pøi vırobì a rafinaci vybavení.
+200224	Kamennı Plamen Ledu	Okrystalizovaná esence chladu a ledu. Pouívá se pøi vırobì a rafinaci vybavení.
+200225	Mithril	Jedinı malı fragment z rozpadlého meteoritu. Pouívá se pøi rafinaci vybavení.
+200226	Titaniovı Dioxid	Prizmatickı krystal. Pouívá se pøi rafinaci vybavení.
+200227	Achat	Tajemnı minerál, kterı záøí jako hvìzdy ve tmì. Pouívá se pøi rafinaci vybavení.
+200228	Opál	Drahı kamínek ve tvaru kapky, kterı záøí jiskrou mìsíèního svìtla. Pouívá se pøi rafinaci vybavení.
+200229	Zelenı Návod na Pøíslušenství	Starodávnı návod pouitı mistrem k vırobì pøíslušenství. Pouívá se pøi vırobì vybavení.
+200230	Tìké Pásy	Pevnì stoèená tenká šòùra. Pouívá se pøi vırobì vybavení.
+200231	Zelenı Návod na Vybavení	Starodávnı návod pouitı mistrem k vırobì vybavení. Pouívá se pøi vırobì vybavení.
+200232	Pevné Nitì	Pevnì stoèenı silnı provaz. Pouívá se pøi vırobì vybavení.
+200233	Magickı Troll Køišál	Køišál naplnìnı mocí Magického Trola. Pouívá se pøi vırobì a rafinaci vybavení.
+200234	Magickı Troll Kámen	Kámen obsahující vzpomínky na Magického Trola. Pouívá se pøi vırobì a rafinaci vybavení.
+200235	Køídlo Královny Meley	Køídlo Meley, oddìlené od tìla. Pouívá se pøi vırobì a rafinaci vybavení.
+200236	Rùek Florauna	Trhlinovı roh Florauna. Pouívá se pøi vırobì a rafinaci vybavení.
+200237	Zvìrokruhovı Návod na Zbroj	Starodávnı návod pouitı mistrem k vırobì zbroje podle zvìrokruhu. Pouívá se pøi vırobì a rafinaci vybavení.
+200238	Zvìrokruhovı Návod na Zbraò	Starodávnı návod pouitı mistrem k vırobì zbraní podle zvìrokruhu. Pouívá se pøi vırobì a rafinaci vybavení.
+200239	Zvìrokruhovı Návod na Pøíslušenství	Starodávnı návod pouitı mistrem k vırobì pøíslušenství podle zvìrokruhu. Pouívá se pøi vırobì a rafinaci vybavení.
+200240	Srdce Alastora	Srdce Alastora pokryté ledem. Pouívá se pøi vırobì a rafinaci vybavení.
+200241	Atlantskı Krystal	Zdroj Poseidonovy boské moci. Pouívá se pøi vırobì a rafinaci vybavení.
+200242	Ocas Škorpióna	Oddìlenı ocas od Krále Škorpiónù. Pouívá se pøi vırobì a rafinaci vybavení.
+200243	Draèí Lebka	Oddìlená lebka od Kostratého Draka. Pouívá se pøi vırobì a rafinaci vybavení.
+200244	Zvìrokruhovı Návod na Temné Draèí Zbroj	Starodávnı návod pouitı mistrem k vırobì temné draèí zbroje podle zvìrokruhu. Pouívá se pøi vırobì a rafinaci vybavení.
+200245	Zvìrokruhovı Návod na Temnou Draèí Zbraò	Starodávnı návod pouitı mistrem k vırobì temnıch draèích zbraní podle zvìrokruhu. Pouívá se pøi vırobì a rafinaci vybavení.
+200246	Zvìrokruhovı Návod na Temné Draèí Pøíslušenství	Starodávnı návod pouitı mistrem k vırobì temnıch draèích pøíslušenství podle zvìrokruhu. Pouívá se pøi vırobì a rafinaci vybavení.
+200265	Zelená Perla	Zelenì zbarvená perla. Pouívá se pøi rafinaci vybavení.
+200266	Rùová Perla	Rùovì zbarvená perla. Pouívá se pøi rafinaci vybavení.
+200267	Zlatá Perla	Zlatì zbarvená perla. Pouívá se pøi rafinaci vybavení.
+200268	Tøpytivá Perla	Perla, která záøí svou brilancí. Pouívá se pøi rafinaci vybavení.
+200269	Námoøní Perla	Námoønicky zbarvená perla. Pouívá se pøi rafinaci vybavení.
+200270	Fialová Perla	Fialovì zbarvená perla. Pouívá se pøi rafinaci vybavení.
+200271	Èerná Perla	Perla s temnou a okouzlující barvou. Pouívá se pøi rafinaci vybavení.
+200272	Zelenı Vyšívanı	Vyšívanı zelenı motiv. Pouívá se pøi rafinaci vybavení.
+200273	Rùovı Vyšívanı	Vyšívanı rùovı motiv. Pouívá se pøi rafinaci vybavení.
+200274	Zlatı Vyšívanı	Vyšívanı zlatı motiv. Pouívá se pøi rafinaci vybavení.
+200275	Tøpytivı Vyšívanı	Vyšívanı tøpytivı motiv. Pouívá se pøi rafinaci vybavení.
+200276	Námoøní Vyšívanı	Vyšívanı námoøní motiv. Pouívá se pøi rafinaci vybavení.
+200277	Fialovı Vyšívanı	Vyšívanı fialovı motiv. Pouívá se pøi rafinaci vybavení.
+200278	Èernı Vyšívanı	Tmavı a okouzlující vyšívanı motiv. Pouívá se pøi rafinaci vybavení.
+200279	Zelená Nit	Knír zelené barvy. Pouívá se pøi rafinaci vybavení.
+200280	Rùová Nit	Knír rùové barvy. Pouívá se pøi rafinaci vybavení.
+200281	Zlatá Nit	Knír zlaté barvy. Pouívá se pøi rafinaci vybavení.
+200282	Tøpytivá Nit	Tøpytivı knír. Pouívá se pøi rafinaci vybavení.
+200283	Námoøní Nit	Knír námoønické modøi. Pouívá se pøi rafinaci vybavení.
+200284	Fialová Nit	Knír fialové barvy. Pouívá se pøi rafinaci vybavení.
+200285	Èerná Nit	Tmavı a okouzlující knír. Pouívá se pøi rafinaci vybavení.
+200286	Zelená Látka	Látka zelené barvy. Pouívá se pøi rafinaci vybavení.
+200287	Rùová Látka	Látka rùové barvy. Pouívá se pøi rafinaci vybavení.
+200288	Zlatá Látka	Látka zlaté barvy. Pouívá se pøi rafinaci vybavení.
+200289	Tøpytivá Látka	Tøpytivá látka. Pouívá se pøi rafinaci vybavení.
+200290	Námoøní Látka	Látka námoønické modøi. Pouívá se pøi rafinaci vybavení.
+200291	Fialová Látka	Látka fialové barvy. Pouívá se pøi rafinaci vybavení.
+200292	Èerná Látka	Tmavá a okouzlující látka. Pouívá se pøi rafinaci vybavení.
+200293	Zelená Barva	Zelená barva. Pouívá se pøi rafinaci vybavení.
+200294	Rùová Barva	Rùová barva. Pouívá se pøi rafinaci vybavení.
+200295	Zlatá Barva	Zlatá barva. Pouívá se pøi rafinaci vybavení.
+200296	Tøpytivá Barva	Tøpytivá barva. Pouívá se pøi rafinaci vybavení.
+200297	Námoøní Barva	Námoønická modø. Pouívá se pøi rafinaci vybavení.
+200298	Fialová Barva	Fialová barva. Pouívá se pøi rafinaci vybavení.
+200299	Èerná Barva	Tmavá a okouzlující barva. Pouívá se pøi rafinaci vybavení.
+
+55107	Otevíraè Skillového Slotu Pro Maska		S tímto pøedmìtem mùete odemknout další slot pro dovednosti vašeho maskota.
+
+55120	Kitabì Pro Maska		S tímto kniním prùvodcem mùete posunout svého maskota na další úroveò (Divokı).
+55121	Kitabì Pro Maska		S tímto kniním prùvodcem mùete posunout svého maskota na další úroveò (Ostateènı).
+55122	Kitabì Pro Maska		S tímto kniním prùvodcem mùete posunout svého maskota na další úroveò (Hrdinskı).
+55125	Zmìna Typu Maskota	S tímto pøedmìtem mùete zmìnit typ svého maskota.
+55127	Enchancování Vlastností Maskota		S tímto pøedmìtem mùete zmìnit atributy svého maskota.
+55128	Hodnocení Maska	S tímto pøedmìtem mùete zvıšit úroveò hvìzdy svého maskota.
+55130	Pet Kùe (Azrail)	S tímto pøedmìtem mùete aktivovat vzhled maskota Azrail.
+55131	Pet Kùe (Baashido)	S tímto pøedmìtem mùete aktivovat vzhled maskota Baashido.
+55132	Pet Kùe (Meley)	S tímto pøedmìtem mùete aktivovat vzhled maskota Meley.
+55133	Pet Kùe (Alastor)	S tímto pøedmìtem mùete aktivovat vzhled maskota Alastor.
+55134	Pet Kùe (Exedyar)	S tímto pøedmìtem mùete aktivovat vzhled maskota Exedyar.
+55140	Zvyšovaè Pet EXP	S tímto prstenem mùete zvıšit získávání EXP vašeho maskota.
+55150	Kitabì Pro Maska (Bojovník)		S tímto kniním prùvodcem mùete zvıšit odolnost vašeho maskota proti bojovníkùm.
+55151	Kitabì Pro Maska (Sura)		S tímto kniním prùvodcem mùete zvıšit odolnost vašeho maskota proti surám.
+55152	Kitabì Pro Maska (Ninja)		S tímto kniním prùvodcem mùete zvıšit odolnost vašeho maskota proti ninjùm.
+55153	Kitabì Pro Maska (Šaman)		S tímto kniním prùvodcem mùete zvıšit odolnost vašeho maskota proti šamanùm.
+55154	Kitabì Pro Maska (Berserker)		S tímto kniním prùvodcem mùete zvıšit dovednost vašeho maskota - Berserker.
+55155	Kitabì Pro Maska (Pùlèlovìk)		S tímto kniním prùvodcem mùete zvıšit dovednost vašeho maskota - Pùlèlovìk.
+55156	Kitabì Pro Maska (Proráecí Útok)		S tímto kniním prùvodcem mùete zvıšit dovednost vašeho maskota - Proráecí Útok.
+55157	Kitabì Pro Maska (Kritickı Útok)		S tímto kniním prùvodcem mùete zvıšit dovednost vašeho maskota - Kritickı Útok.
+55158	Kitabì Pro Maska (Vsaení HP)		S tímto kniním prùvodcem mùete zvıšit dovednost vašeho maskota - Vsaení HP.
+55159	Kitabì Pro Maska (Blokace)		S tímto kniním prùvodcem mùete zvıšit dovednost vašeho maskota - Blokace.
+55160	Kitabì Pro Maska (Monstrum)		S tímto kniním prùvodcem mùete zvıšit dovednost vašeho maskota - Monstrum.
+55161	Kitabì Pro Maska (Metin)		S tímto kniním prùvodcem mùete zvıšit dovednost vašeho maskota - Metin.
+55162	Kitabì Pro Maska (Boss)		S tímto kniním prùvodcem mùete zvıšit dovednost vašeho maskota - Boss.
+55163	Kitabì Pro Maska (Obrana Monstra)		S tímto kniním prùvodcem mùete zvıšit dovednost vašeho maskota - Obrana Monstra.
+55164	Kitabì Pro Maska (Sbìr Yangu)		S tímto kniním prùvodcem mùete zvıšit dovednost vašeho maskota - Sbìr Yangu.
+37000	Premium Uivatelskı (7 dní)	Po aktivaci vám poskytne premium uivatelskı status na 7 dní.
+37001	Premium Uivatelskı (14 dní)	Po aktivaci vám poskytne premium uivatelskı status na 14 dní.
+37002	Premium Uivatelskı (30 dní)	Po aktivaci vám poskytne premium uivatelskı status na 30 dní.
+37003	Premium Uivatelskı (Trvalı)	Po aktivaci vám poskytne trvalı premium uivatelskı status.
+37004	Premium Uivatelskı (7 dní)	Po aktivaci vám poskytne premium uivatelskı status na 7 dní.		Není obchodovatelnı.
+37005	Premium Uivatelskı (14 dní)	Po aktivaci vám poskytne premium uivatelskı status na 14 dní.		Není obchodovatelnı.
+37006	Premium Uivatelskı (30 dní)	Po aktivaci vám poskytne premium uivatelskı status na 30 dní.		Není obchodovatelnı.
+37007	Premium Uivatelskı (Trvalı)	Po aktivaci vám poskytne trvalı premium uivatelskı status.		Není obchodovatelnı.
+37008	Premium Automatickı Zbìr (7 dní)	Po aktivaci vám umoní automaticky sbírat pøedmìty po dobu 7 dní.
+37009	Premium Automatickı Zbìr (14 dní)	Po aktivaci vám umoní automaticky sbírat pøedmìty po dobu 14 dní.
+37010	Premium Automatickı Zbìr (30 dní)	Po aktivaci vám umoní automaticky sbírat pøedmìty po dobu 30 dní.
+37011	Premium Automatickı Zbìr (Trvalı)	Po aktivaci trvale povolí automatické sbírání pøedmìtù.
+37012	Premium Automatickı Zbìr (7 dní)	Po aktivaci vám umoní automaticky sbírat pøedmìty po dobu 7 dní.		Není obchodovatelnı.
+37013	Premium Automatickı Zbìr (14 dní)	Po aktivaci vám umoní automaticky sbírat pøedmìty po dobu 14 dní.	Není obchodovatelnı.
+37014	Premium Automatickı Zbìr (30 dní)	Po aktivaci vám umoní automaticky sbírat pøedmìty po dobu 30 dní.	Není obchodovatelnı.
+37015	Premium Automatickı Zbìr (Trvalı)	Po aktivaci trvale povolí automatické sbírání pøedmìtù.	Není obchodovatelnı.
+
+37016	Premium Znaèkovaè Metinù (7 dní)	Po aktivaci zvıší poèet znaèkovanıch metinù na 6 po dobu 7 dní.
+37017	Premium Znaèkovaè Metinù (14 dní)	Po aktivaci zvıší poèet znaèkovanıch metinù na 6 po dobu 14 dní.
+37018	Premium Znaèkovaè Metinù (30 dní)	Po aktivaci zvıší poèet znaèkovanıch metinù na 6 po dobu 30 dní.
+37019	Premium Znaèkovaè Metinù (Trvalı)	Po aktivaci trvale zvıší poèet znaèkovanıch metinù na 6.
+37020	Premium Znaèkovaè Metinù (7 dní)	Po aktivaci zvıší poèet znaèkovanıch metinù na 6 po dobu 7 dní.	Není obchodovatelnı.
+37021	Premium Znaèkovaè Metinù (14 dní)	Po aktivaci zvıší poèet znaèkovanıch metinù na 6 po dobu 14 dní.	Není obchodovatelnı.
+37022	Premium Znaèkovaè Metinù (30 dní)	Po aktivaci zvıší poèet znaèkovanıch metinù na 6 po dobu 30 dní.	Není obchodovatelnı.
+37023	Premium Znaèkovaè Metinù (Trvalı)	Po aktivaci trvale zvıší poèet znaèkovanıch metinù na 6.	Není obchodovatelnı.
+
+24050	Znaèka Jména Jezdce (7 dní)	Po aktivaci vám umoní dát vašemu jezdci nové jméno a získat extra bonusy po dobu 7 dní.
+24051	Znaèka Jména Jezdce (14 dní)	Po aktivaci vám umoní dát vašemu jezdci nové jméno a získat extra bonusy po dobu 14 dní.
+24052	Znaèka Jména Jezdce (7 dní)	Po aktivaci vám umoní dát vašemu jezdci nové jméno a získat extra bonusy po dobu 7 dní.	Není obchodovatelná.
+24053	Znaèka Jména Jezdce (14 dní)	Po aktivaci vám umoní dát vašemu jezdci nové jméno a získat extra bonusy po dobu 14 dní.	Není obchodovatelná.
+24054	Znaèka Jména Maska (7 dní)	Po aktivaci vám umoní dát vašemu maskotovi nové jméno a získat extra bonusy po dobu 7 dní.
+24055	Znaèka Jména Maska (14 dní)	Po aktivaci vám umoní dát vašemu maskotovi nové jméno a získat extra bonusy po dobu 14 dní.
+24056	Znaèka Jména Maska (7 dní)	Po aktivaci vám umoní dát vašemu maskotovi nové jméno a získat extra bonusy po dobu 7 dní.	Není obchodovatelná.
+24057	Znaèka Jména Maska (14 dní)	Po aktivaci vám umoní dát vašemu maskotovi nové jméno a získat extra bonusy po dobu 14 dní.	Není obchodovatelná.
+24058	Znaèka Jména Buffu (7 dní)	Po aktivaci vám umoní dát vašemu buffu nové jméno a aktivovat léèivé dovednosti po dobu 7 dní.
+24059	Znaèka Jména Buffu (14 dní)	Po aktivaci vám umoní dát vašemu buffu nové jméno a aktivovat léèivé dovednosti po dobu 14 dní.
+24060	Znaèka Jména Buffu (7 dní)	Po aktivaci vám umoní dát vašemu buffu nové jméno a aktivovat léèivé dovednosti po dobu 7 dní.	Není obchodovatelná.
+24061	Znaèka Jména Buffu (14 dní)	Po aktivaci vám umoní dát vašemu buffu nové jméno a aktivovat léèivé dovednosti po dobu 14 dní.	Není obchodovatelná.
+
+64000	Znaèka Jména Jezdce (2 dny)	Po aktivaci vám umoní dát vašemu jezdci nové jméno a získat extra bonusy po dobu 2 dní.
+64001	Znaèka Jména Maska (2 dny)	Po aktivaci vám umoní dát vašemu maskotovi nové jméno a získat extra bonusy po dobu 2 dní.
+64002	Znaèka Jména Buffu (2 dny)	Po aktivaci vám umoní dát vašemu buffu nové jméno a aktivovat léèivé dovednosti po dobu 2 dní.
+
+24102	Pøedmìt Pro Vylepšení Rukavic	Raritní pøedmìt pouitı pro pøidání nového bonusu na rukavicovou vıbavu.
+24103	Pøedmìt Kouzla Rukavic	Raritní pøedmìt pouitı pro zmìnu bonusu na rukavicové vıbavì.
+24104	Pøedmìt Pro Vylepšení Talismanu	Raritní pøedmìt pouitı pro pøidání nového bonusu na talismanovou vıbavu.
+24105	Pøedmìt Kouzla Talismanu	Raritní pøedmìt pouitı pro zmìnu bonusu na talismanové vıbavì.
+200400	Ohnivı Svitek	Tajemnı svitek pøenášející moc ohnivého prvku.
+200401	Ohnivı Krystal	Záøivı krystal sloenı z moci ohnivého prvku.
+200402	Ohnivá Talismanová Truhla	Starodávná truhla obsahující talisman ovládající ohnivı prvek.
+200403	Mrazivı Svitek	Tajemnı svitek pøenášející moc mrazivého prvku.
+200404	Mrazivı Krystal	Záøivı krystal sloenı z moci mrazivého prvku.
+200405	Mrazivá Talismanová Truhla	Starodávná truhla obsahující talisman ovládající mrazivı prvek.
+200406	Zemní Svitek	Tajemnı svitek pøenášející moc zemního prvku.
+200407	Zemní Krystal	Záøivı krystal sloenı z moci zemního prvku.
+200408	Zemní Talismanová Truhla	Starodávná truhla obsahující talisman ovládající zemní prvek.
+200409	Tmavı Svitek	Tajemnı svitek pøenášející moc temného prvku.
+200410	Tmavı Krystal	Záøivı krystal sloenı z moci temného prvku.
+200411	Tmavá Talismanová Truhla	Starodávná truhla obsahující talisman ovládající temnı prvek.
+200412	Vìtrnı Svitek	Tajemnı svitek pøenášející moc vìtrného prvku.
+200413	Vìtrnı Krystal	Záøivı krystal sloenı z moci vìtrného prvku.
+200414	Vìtrná Talismanová Truhla	Starodávná truhla obsahující talisman ovládající vìtrnı prvek.
+200415	Bleskovı Svitek	Tajemnı svitek pøenášející moc bleskového prvku.
+200416	Bleskovı Krystal	Záøivı krystal sloenı z moci bleskového prvku.
+200417	Blesková Talismanová Truhla	Starodávná truhla obsahující talisman ovládající bleskovı prvek.
+200418	Prvkovı Svitek	Tajemnı svitek pøenášející moc prvkù.
+200419	Prvkovı Krystal	Záøivı krystal sloenı z moci prvkù.
+200420	Prvková Talismanová Truhla	Starodávná truhla obsahující talisman ovládající prvky.
+200500	Jedovatı Lucifer Vstupenka	Vstupenka nutná k vstupu do Vìe Jedovatého Ïábla.
+200501	Vstupenka do Baronesovy Jeskynì	Vstupenka nutná k vstupu do Baronesovy Úkrytu.
+200502	Vstupenka k Kouzelnému Dínovi	Vstupenka nutná k vstupu do Dínovy Jeskynì.
+200503	Vstupenka do Ledového Krokodılového Království	Vstupenka nutná k vstupu do Ledové Zemì.
+200504	Vstupenka k Stínovému Azraelovi	Vstupenka nutná k vstupu do Pekelné Krypty.
+200505	Vstupenka k Beranu Setaou	Vstupenka nutná k vstupu do Místnosti Beran-Setaou.
+200506	Vstupenka k Razadorovi	Vstupenka nutná k vstupu do Pevnosti Razador.
+200507	Vstupenka k Naga	Vstupenka nutná k vstupu do Nagova Chrámu.
+200508	Vstupenka ke Krystalovému Vlku	Vstupenka nutná k vstupu do Safírové Jeskynì.
+200509	Vstupenka ke Králi Jotun Thrymovi	Vstupenka nutná k vstupu do Ochao Chrámu.
+200510	Vstupenka k Odinozovi	Vstupenka nutná k vstupu do Odinova Hradu.
+200511	Vstupenka k Kouzelnému Trpaslíkovi	Vstupenka nutná k vstupu do Kouzelníkovy Jeskynì.
+200512	Vstupenka ke Královnì Meley	Vstupenka nutná k vstupu do Hnízda Královny Meley.
+200513	Vstupenka k Floraunovi	Vstupenka nutná k vstupu do Floraunovy Zahrady.
+200514	Vstupenka k Alastorovi	Vstupenka nutná k vstupu do Alastorovy Jeskynì.
+200515	Vstupenka k Poseidonovi	Vstupenka nutná k vstupu do Ztraceného Mìsta Atlantidy.
+200516	Vstupenka ke Králi Škorpionovi	Vstupenka nutná k vstupu do Pusté Škorpioní Zøíceniny.
+200517	Vstupenka ke Kostrèi Draka	Vstupenka nutná k vstupu do Místnosti Kostrèe Draka.
+200518	Vstupenka k Akzadurovi	Vstupenka nutná k vstupu do Místnosti Krále Akzadura.
+200519	Vstupenka ke Královnì Hadù	Vstupenka nutná k vstupu do Hadího Chrámu.
+200540	Jedovatı Lucifer Peèetidlo	Kliknutím pouijete a otevøete Jedovatou Peèe.
+200541	Peèe Barones	Pravım kliknutím pouijete a otevøete Pavouèí Peèe.
+200542	Magická Dinova Peèe	Pravım kliknutím pouijete a otevøete Magickou Peèe.
+200543	Leví Peèe	Pravım kliknutím pouijete a otevøete Ledovou Peèe.
+200544	Stínová Azraelova Peèe	Pravım kliknutím pouijete a otevøete Peèe Noèní Mùry.
+200545	Peèe Beran Setaoua	Pravım kliknutím pouijete a otevøete Modrou Drakova Peèe.
+200546	Razadorova Peèe	Pravım kliknutím pouijete a otevøete Plamennou Peèe.
+200547	Nagova Peèe	Pravım kliknutím pouijete a otevøete Mrazivou Peèe.
+200548	Peèe Krystalového Vlka	Pravım kliknutím pouijete a otevøete Safírovou Peèe.
+200549	Peèe Jotun Thryma	Pravım kliknutím pouijete a otevøete Lesní Peèe.
+200550	Peèe Odina	Pravım kliknutím pouijete a otevøete Asgardskou Peèe.
+200551	Magická Trpaslíkova Peèe	Pravım kliknutím pouijete a otevøete Magickou Peèe.
+200552	Peèe Meley	Pravım kliknutím pouijete a otevøete Èervenou Drakova Peèe.
+200553	Peèe Florauna	Pravım kliknutím pouijete a otevøete Lesní Peèe.
+200554	Peèe Alastora	Pravım kliknutím pouijete a otevøete Severní Peèe.
+200555	Peèe Poseidona	Pravım kliknutím pouijete a otevøete Atlantskou Peèe.
+200556	Peèe Skorpiona Krále	Pravım kliknutím pouijete a otevøete Škorpióní Peèe.
+200557	Peèe Kostrèe Draka	Pravım kliknutím pouijete a otevøete Kostrèovou Peèe.
+200558	Peèe Akzadura	Pravım kliknutím pouijete a otevøete Peèe Krále Drakù.
+200559	Peèe Královny Hadù	Pravım kliknutím pouijete a otevøete Hadí Peèe.
+
+200300	Vstupenka k Záhadnému Koleèku	Vstupenka nutná k otoèení Záhadného Koleèka zdarma. Nasbírejte dostatek bìhem události pro pouití Záhadného Koleèka.
+200301	Písmeno E	Písmeno E. Nasbírejte další písmena bìhem události pro vytvoøení truhly u Kováøe.
+200302	Písmeno L	Písmeno L. Nasbírejte další písmena bìhem události pro vytvoøení truhly u Kováøe.
+200303	Písmeno Y	Písmeno Y. Nasbírejte další písmena bìhem události pro vytvoøení truhly u Kováøe.
+200304	Písmeno S	Písmeno S. Nasbírejte další písmena bìhem události pro vytvoøení truhly u Kováøe.
+200305	Písmeno I	Písmeno I. Nasbírejte další písmena bìhem události pro vytvoøení truhly u Kováøe.
+200306	Písmeno U	Písmeno U. Nasbírejte další písmena bìhem události pro vytvoøení truhly u Kováøe.
+200307	Písmeno M	Písmeno M. Nasbírejte další písmena bìhem události pro vytvoøení truhly u Kováøe.
+
+200600	Premium Balíèek (30 dní)	Legendární truhla obsahující poloky na 30 dní prémiového statusu. Dostupné v obchodì s pøedmìty.
+200601	Premium Balíèek (Trvalı)	Legendární truhla obsahující trvalé prémiové poloky. Dostupné v obchodì s pøedmìty.
+200602	Poøádnı Balíèek	Legendární truhla obsahující poloky, které vás posílí proti pøíšerám. Dostupné v obchodì s pøedmìty.
+200603	Metinovı Balíèek	Legendární truhla obsahující poloky, které vás posílí proti metinùm a bosùm. Dostupné v obchodì s pøedmìty.
+200604	Buff Balíèek	Legendární truhla obsahující trvalé buffy a štítky s názvy buffù. Dostupné v obchodì s pøedmìty.
+200605	Zrychlovací Balíèek (14 dní)	Legendární truhla obsahující zrychlovaèe s 14denním bonusem 15%. Dostupné v obchodì s pøedmìty.
+200606	Vıvojovı Balíèek	Legendární truhla obsahující poloky, které vám pomohou rychleji rozvíjet postavu. Dostupné v obchodì s pøedmìty.
+
+200610	Premium Balíèek (30 dní)	Legendární truhla obsahující poloky na 30 dní prémiového statusu. Dostupné v obchodì s pøedmìty.		Bez obchodování.
+200611	Premium Balíèek (Trvalı)	Legendární truhla obsahující trvalé prémiové poloky. Dostupné v obchodì s pøedmìty.		Bez obchodování.
+200612	Poøádnı Balíèek	Legendární truhla obsahující poloky, které vás posílí proti pøíšerám. Dostupné v obchodì s pøedmìty.		Bez obchodování.
+200613	Metinovı Balíèek	Legendární truhla obsahující poloky, které vás posílí proti metinùm a bosùm. Dostupné v obchodì s pøedmìty.		Bez obchodování.
+200614	Buff Balíèek	Legendární truhla obsahující trvalé buffy a štítky s názvy buffù. Dostupné v obchodì s pøedmìty.		Bez obchodování.
+200615	Zrychlovací Balíèek (14 dní)	Legendární truhla obsahující zrychlovaèe s 14denním bonusem 15%. Dostupné v obchodì s pøedmìty.		Bez obchodování.
+200616	Vıvojovı Balíèek	Legendární truhla obsahující poloky, které vám pomohou rychleji rozvíjet postavu. Dostupné v obchodì s pøedmìty.		Bez obchodování.
+
+24600	Symbol Moudrého Kamene	Po pouití zvıší šanci na pøidání moudrého kamene o 100% jednou.
+24601	Zrychlovaè 6/7 Zaklínání (25%)	Po pouití sníí oèekávanı èas na pøidání zaklínání 6-7 o 25%.
+24602	Zrychlovaè 6/7 Zaklínání (50%)	Po pouití sníí oèekávanı èas na pøidání zaklínání 6-7 o 50%.
+
+24140	Oèista 1. Zaklínání	Kdy pøetáhnete na kostım, vyèistí 1. slot zaklínání.
+24141	Oèista 2. Zaklínání	Kdy pøetáhnete na kostım, vyèistí 2. slot zaklínání.
+24142	Oèista 3. Zaklínání	Kdy pøetáhnete na kostım, vyèistí 3. slot zaklínání.
+24143	Oèista 4. Zaklínání	Kdy pøetáhnete na kostım, vyèistí 4. slot zaklínání.
+24144	Oèista 5. Zaklínání	Kdy pøetáhnete na kostım, vyèistí 5. slot zaklínání.
+
+24000	Kámen Moudré Duše	Kámen duše, naplnìnı mocí velkého mudrce, pouívá se k vylepšení dovednosti Dokonalého Mistra na úroveò Mistra Moudrosti.
+24002	Kniha Dovednosti Lovce Pøíšer	Neobvyklá kniha pouívá se k vylepšení dovednosti Lovce Pøíšer.
+24003	Kniha Dovednosti Lovce Metinù	Neobvyklá kniha pouívá se k vylepšení dovednosti Lovce Metinù.
+24004	Kniha Dovednosti Zbìsilého Váleèníka	Neobvyklá kniha pouívá se k vylepšení dovednosti Zbìsilého Váleèníka.
+24005	Kniha Dovednosti Lovce Lidí	Neobvyklá kniha pouívá se k vylepšení dovednosti Lovce Lidí.
+24006	Kniha Dovednosti Soustøedìní Myšlenek	Neobvyklá kniha pouívá se k vylepšení dovednosti Soustøedìní Myšlenek.
+24007	Kniha Dovednosti Draèího Srdce	Neobvyklá kniha pouívá se k vylepšení dovednosti Draèího Srdce.
+24008	Kniha Dovednosti Bylinkáøství	Neobvyklá kniha pouívá se k vylepšení dovednosti Bylinkáøství.
+24009	Kniha Dovednosti Vıroby Pøedmìtù	Neobvyklá kniha pouívá se k vylepšení dovednosti Vıroby Pøedmìtù.
+24010	Kniha Dovednosti Vedení	Neobvyklá kniha pouívá se k vylepšení dovednosti Vedení.
+24011	Kniha Dovednosti Tìby	Neobvyklá kniha pouívá se k vylepšení dovednosti Tìby.
+24012	Kniha Dovednosti Rybolovu	Neobvyklá kniha pouívá se k vylepšení dovednosti Rybolovu.
+24013	Papír Pro Vyhnání Mocí Moudré Duše	Mocnı papír, kterı vyhání zlé duchy pøi pouívání Kamene Moudré Duše.
+24014	Posilující Moudrım Pouèenı	Obsahuje posilující moc velkého mudrce pøi pouívání Kamene Moudré Duše.

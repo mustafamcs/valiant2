@@ -1,0 +1,594 @@
+11901	Szmoquin	Ez egy öltöny, amelyet férfiak viselnek esküvokön.
+11902	Szmoquin	Ez egy öltöny, amelyet férfiak viselnek esküvokön.
+11903	Esküvoi Ruha	Ez egy különleges viselet, amit nok viselnek esküvokön.
+11904	Esküvoi Ruha	Ez egy különleges viselet, amit nok viselnek esküvokön.
+22000	Visszatéro Tekercs a Városba	Ez a tekercs átteleportál téged a faluba.
+22010	Visszatéro Tekercs a Városból	Ez a tekercs lehetové teszi, hogy visszatérj a városból vagy a területrol, ahol éppen vagy.
+25040	Áldás Tekercs	Amikor a fejlesztés sikertelen, az eszköz eltunésének kockázata megszunik, és csak minosége csökken 1 szinttel.
+25041	Buvözött Fém	Egy legendás fémgolyó, amely lehetové teszi egy tárgy legjobb formájába való fejlesztését. Ráadásul a fejlesztett tárgy nem pusztulhat el vagy csökkentheto értéke.
+25042	Rituálé Köve	Egy misztikusan csillogó ko, amely a legjobb esélyt nyújtja egy tárgy fejlesztésére. A fejlesztett tárgy nem pusztulhat el vagy romolhat el. Ez a ko csak 105. szint feletti köveken muködik.
+25100	Gondolati Ko Tekercs	Ez a tekercs arra szolgál, hogy eltávolítsa a gondolati köveket a fegyverekrol és a páncélokról. Az elképzelés megmarad a ko eltávolítása után.
+27800	Tészta	A legolcsóbb horgászcsali.
+27801	Féreg	Horgászathoz használt csali.
+27803	 Szinkesz	 Egy olyan hal faj, amely általában tavakban él.
+27805	Nagy Szinkesz Egy nagy, kövér szinkesz.
+27990	Kodarab	Kis méretu, könnyen hordozható darab. Különbözo módon használható.
+27992	Fehér Gyöngy	Egy tiszta fehér gyöngy, amit a hölgyek kedvelnek.
+27993	Kék Gyöngy	Kék színu gyöngy, amit a hölgyek kedvelnek.
+27994	Vörös Gyöngy	Égovörös gyöngy, amit a hölgyek kedvelnek.
+30006	Ork Fog	Egy ork büdös fogának.
+30015	Démon Maradvány	Egy sötét démon maradványa.
+30047	Átok Könyv	Egy különleges könyv, amit valakinek átkozni lehet.
+30050	Jég Golyó	Egy jég gömb, ami nem olvad el meleg idoben.
+30220	Jinunggy Lelkiko	Egy legendás ko, amiben a Jinung arisztokraták lelkei vannak.
+30221	Szentháromság Támogatóko	Egy legendás ko, amiben a templom támogatóinak lelkei vannak.
+30222	Sagyi Lelkiko	Egy legendás ko, amiben a Sagyi arisztokraták lelkei vannak.
+30223	Aurtumryu Lelkiko	Egy legendás ko, amiben az Aurtumryu arisztokraták lelkei vannak.
+30224	Gyimok Lelkiko	Egy legendás ko, amiben a Gyimok arisztokraták lelkei vannak.
+30225	Tugyi Lelkiko	Egy legendás ko, amiben a Tugyi arisztokraták lelkei vannak.
+30226	Tugyi Lelkiko	Egy legendás ko, amiben az erdo arisztokratáinak lelkei vannak.
+30227	Tugyi Lelkiko	Egy legendás ko, amiben a vezeto arisztokraták lelkei vannak.
+30228	Tugyi Lelkiko	Egy legendás ko, amiben a kem arisztokraták lelkei vannak.
+30229	Tugyi Lelkiko	Egy legendás ko, amiben a bölcs arisztokraták lelkei vannak.
+30230	Tugyi Lelkiko	Egy legendás ko, amiben a tuz arisztokratáinak lelkei vannak.
+30231	Tugyi Lelkiko	Egy legendás ko, amiben a sötét arisztokraták lelkei vannak.
+30251	Csontszem Drágako	Egy gyémánt, amibe rosszindulat van kódolva.
+30252	Bölcsesség Drágako	Egy gyémánt, ami megnyugtató és nagylelku ragyogással rendelkezik.
+31080	Tuz Elixir	Egy varázslatos elixír, amely tuzzel van megtöltve.
+31081	Sötét Anyag	A sötétség és a gonosz megtestesítoje.
+39033	Korrektúra Tekercs	A sikeresen elhelyezett gondolati kövek eltávolíthatók egy tárgyról ezzel a tekercsel.
+90000	Átalakítási Tanúsítvány	Olyan felszerelés, amelyet vállpántokba vagy auraruhába ágyazott felszereléssel lehet tisztítani ezzel a papírral.
+39067	Rész Láda	Ez a láda véletlenszeruen színezett részt tartalmaz.
+39070	Szürke Rész	Szürke színu rész, amely hozzáadja a 6. vagy 7. bónuszt.
+39071	Fehér Rész	Fehér színu rész, amely hozzáadja a 6. vagy 7. bónuszt.
+39072	Zöld Rész	Zöld színu rész, amely hozzáadja a 6. vagy 7. bónuszt.
+39073	Sárga Rész	Sárga színu rész, amely hozzáadja a 6. vagy 7. bónuszt.
+39074	Kék Rész	Kék színu rész, amely hozzáadja a 6. vagy 7. bónuszt.
+39075	Lila Rész	Lila színu rész, amely hozzáadja a 6. vagy 7. bónuszt.
+39076	Vörös Rész	Vörös színu rész, amely hozzáadja a 6. vagy 7. bónuszt.
+39077	Szivárvány Rész	Marine színu rész, amely hozzáadja a 6. vagy 7. bónuszt.
+49001	Általános Aura öltözet	Az ékszer értékét át lehet vinni az aura öltözetre egy adott felszívási aránnyal. Az Aura öltözetet jég rúnákkal lehet fejleszteni.
+49002	Egyszeru Aura öltözet	Az ékszer értékét át lehet vinni az aura öltözetre egy adott felszívási aránnyal. Az Aura öltözetet jég rúnákkal lehet fejleszteni.
+49003	Nemes Aura öltözet	Az ékszer értékét át lehet vinni az aura öltözetre egy adott felszívási aránnyal. Az Aura öltözetet jég rúnákkal lehet fejleszteni.
+49004	Ragyogó Aura öltözet	Az ékszer értékét át lehet vinni az aura öltözetre egy adott felszívási aránnyal. Az Aura öltözetet jég rúnákkal lehet fejleszteni.
+49005	Különc Aura öltözet	Az ékszer értékét át lehet vinni az aura öltözetre egy adott felszívási aránnyal. Az Aura öltözetet jég rúnákkal lehet fejleszteni.
+49006	Fényes Aura öltözet	Az ékszer értékét át lehet vinni az aura öltözetre egy adott felszívási aránnyal.
+49990	Aura Jég Rúnája	Az Aura öltözet fejlesztéséhez szükséges anyag. Látogass el Teovahdanba, hogy fejleszd az Aura öltözetet.
+49991	Aura Jég Rúnája	Az Aura öltözet fejlesztéséhez szükséges anyag. Látogass el Teovahdanba, hogy fejleszd az Aura öltözetet.
+50267	Arany Okey Láda	Ezt a magas szintu jutalmat kaptad meg, amiért 400 vagy több pontot értél el az Okey játékban.
+50268	Ezüst Okey Láda	Ezt a középso szintu jutalmat kaptad meg, amiért 300 és 399 pont közötti eredményt értél el az Okey játékban.
+50269	Bronz Okey Láda	Ezt a gyenge szintu jutalmat kaptad meg, mert 299 vagy kevesebb pontot értél el az Okey játékban.
+50928	Arany Királyi Kincs	Ezt a magas szintu jutalmat kaptad meg, amiért 550 vagy több pontot értél el a Catch the King játékban.
+50929	Ezüst Királyi Kincs	Ezt a középso szintu jutalmat kaptad meg, amiért 400 és 549 pont közötti eredményt értél el a Catch the King játékban.
+50930	Bronz Királyi Kincs	Ezt a gyenge szintu jutalmat kaptad meg, mert 399 vagy kevesebb pontot értél el a Catch the King játékban.
+83041	Arany Látó Láda	Ezt a magas szintu jutalmat kaptad meg, amiért 7 vagy több pontot értél el a Látó versenyen.
+83042	Ezüst Látó Láda	Ezt a középso szintu jutalmat kaptad meg, amiért 4 és 6 pont közötti eredményt értél el a Látó versenyen.
+83043	Bronz Látó Láda	Ezt a gyenge szintu jutalmat kaptad meg, mert 3 vagy kevesebb pontot értél el a Látó versenyen.
+200100	Levél Esemény Láda	Ezt a ritka jutalmat kaptad meg, mert összegyujtötted az összes levelet a Levél eseményben.
+50265	Foci Labda Láda	Ezt a ritka jutalmat kaptad meg, mert 20 foci labdát gyujtöttél össze a Foci Labda eseményben.
+50401	Háromszoros Vágás Kézikönyv	Használatával elsajátíthatod a Háromszoros Vágás képességet. A könyv eltunik az olvasás után.
+50402	Kardforgás Kézikönyv	Használatával elsajátíthatod a Kardforgás képességet. A könyv eltunik az olvasás után.
+50403	Düh Kézikönyv	Használatával elsajátíthatod a Düh képességet. A könyv eltunik az olvasás után.
+50404	Levego Kard Kézikönyv	Használatával elsajátíthatod a Levego Kard képességet. A könyv eltunik az olvasás után.
+50405	Ugrás Kézikönyv	Használatával elsajátíthatod a Ugrás képességet. A könyv eltunik az olvasás után.
+50406	Az Élet Akarata Könyv	Használatával sikeresen befejezheted az Az Élet Akarata küldetést. A könyv eltunik az olvasás után.
+50416	Lélek Ütés Kézikönyv	Használatával elsajátíthatod a Lélek Ütés képességet. A könyv eltunik az olvasás után.
+50417	Nehéz Ütés Kézikönyv	Használatával elsajátíthatod a Nehéz Ütés képességet. A könyv eltunik az olvasás után.
+50418	Energikus Ütés Kézikönyv	Használatával elsajátíthatod az Energikus Ütés képességet. A könyv eltunik az olvasás után.
+50419	Eros Test Kézikönyv	Használatával elsajátíthatod az Eros Test képességet. A könyv eltunik az olvasás után.
+50420	Kard Ütés Kézikönyv	Használatával elsajátíthatod a Kard Ütés képességet. A könyv eltunik az olvasás után.
+50421	Kard Kör Könyv	Használatával sikeresen befejezheted a Kard Kör küldetést. A könyv eltunik az olvasás után.
+50431	Alkalmi Ölés Kézikönyv	Használatával elsajátíthatod az Alkalmi Ölés képességet. A könyv eltunik az olvasás után.
+50432	Gyors Támadás Kézikönyv	Használatával elsajátíthatod a Gyors Támadás képességet. A könyv eltunik az olvasás után.
+50433	Késforgás Kézikönyv	Használatával elsajátíthatod a Késforgás képességet. A könyv eltunik az olvasás után.
+50434 Álcázás Kézikönyv	Használatával elsajátíthatod az Álcázás képességet. A könyv eltunik az olvasás után.
+50435	Mérges Felho Kézikönyv	Használatával elsajátíthatod a Mérges Felho képességet. A könyv eltunik az olvasás után.
+50436	Lopakodó Méreg Könyv	Használatával sikeresen befejezheted a Lopakodó Méreg küldetést. A könyv eltunik az olvasás után.
+50446	Ismételt Lövés Kézikönyv	Használatával elsajátíthatod az Ismételt Lövés képességet. A könyv eltunik az olvasás után.
+50447	Nyilazás Eso Kézikönyv	Használatával elsajátíthatod a Nyilazás Eso képességet. A könyv eltunik az olvasás után.
+50448	Tuz Nyíl Kézikönyv	Használatával elsajátíthatod a Tuz Nyíl képességet. A könyv eltunik az olvasás után.
+50449	Könnyu Lépés Kézikönyv	Használatával elsajátíthatod a Könnyu Lépés képességet. A könyv eltunik az olvasás után.
+50450	Mérgezett Nyíl Kézikönyv	Használatával elsajátíthatod a Mérgezett Nyíl képességet. A könyv eltunik az olvasás után.
+50451	Vonagló Ütés Könyve	Használatával sikeresen befejezheted a Vonagló Ütés küldetést. A könyv eltunik az olvasás után.
+50461	Ujj Ütés Kézikönyv	Használatával elsajátíthatod az Ujj Ütés képességet. A könyv eltunik az olvasás után.
+50462	Sárkány Átváltozás Kézikönyv	Használatával elsajátíthatod a Sárkány Átváltozás képességet. A könyv eltunik az olvasás után.
+50463	Mágikus Élesség Kézikönyv	Használatával elsajátíthatod a Mágikus Élesség képességet. A könyv eltunik az olvasás után.
+50464	Rémület Kézikönyv	Használatával elsajátíthatod a Rémület képességet. A könyv eltunik az olvasás után.
+50465	Mágikus Páncél Kézikönyv	Használatával elsajátíthatod a Mágikus Páncél képességet. A könyv eltunik az olvasás után.
+50466	Mágikus Visszatartás Kézikönyv	Használatával elsajátíthatod a Mágikus Visszatartás képességet. A könyv eltunik az olvasás után.
+50476	Sötét Ütés Kézikönyv	Használatával elsajátíthatod a Sötét Ütés képességet. A könyv eltunik az olvasás után.
+50477	Tuz Ütés Kézikönyv	Használatával elsajátíthatod a Tuz Ütés képességet. A könyv eltunik az olvasás után.
+50478	Tuz Szelleme Kézikönyv	Használatával elsajátíthatod a Tuz Szelleme képességet. A könyv eltunik az olvasás után.
+50479	Sötét Védelem Kézikönyv	Használatával elsajátíthatod a Sötét Védelem képességet. A könyv eltunik az olvasás után.
+50480	Szellem Ütés Kézikönyv	Használatával elsajátíthatod a Szellem Ütés képességet. A könyv eltunik az olvasás után.
+50481	Sötét Golyó Kézikönyv	Használatával elsajátíthatod a Sötét Golyó képességet. A könyv eltunik az olvasás után.
+50491	Szállító Amulett Kézikönyv	Használatával elsajátíthatod a Szállító Amulett képességet. A könyv eltunik az olvasás után.
+50492	Sárkány Ütés Könyve	Ez a könyv lehetové teszi a Sárkány Ütés képesség elsajátítását. A könyv eltunik az olvasás után.
+50493	Sárkány Üvöltés Kézikönyv	Használatával elsajátíthatod a Sárkány Üvöltés képességet. A könyv eltunik az olvasás után.
+50494	Áldás Kézikönyv	Használatával elsajátíthatod az Áldás képességet. A könyv eltunik az olvasás után.
+50495	Reflexió Kézikönyv	Használatával elsajátíthatod a Reflexió képességet. A könyv eltunik az olvasás után.
+50496	Sárkány Segítség Könyve	Használatával elsajátíthatod a Sárkány Segítség képességet. A könyv eltunik az olvasás után.
+50506	Villám Vetés Kézikönyv	Használatával elsajátíthatod a Villám Vetés képességet. A könyv eltunik az olvasás után.
+50507	Villám Megidézés Kézikönyv	Használatával elsajátíthatod a Villám Megidézés képességet. A könyv eltunik az olvasás után.
+50508	Villám Karma Kézikönyv	Használatával elsajátíthatod a Villám Karma képességet. A könyv eltunik az olvasás után.
+50509	Gyógyítás Kézikönyv	Használatával elsajátíthatod a Gyógyítás képességet. A könyv eltunik az olvasás után.
+50510	Sebesség Kézikönyv	Használatával elsajátíthatod a Sebesség képességet. A könyv eltunik az olvasás után.
+50511	Magas Támadás Kézikönyv	Használatával elsajátíthatod a Magas Támadás képességet. A könyv eltunik az olvasás után.
+50513	Lélek Köve	Egy legendás ko, ami fokozza a Nagyúr képességeket. Használat után eltunik.
+18900	Kövület Fa Törzs	Egy meteor darab, amely extra erot ad a használójának. Övekre helyezheto.
+918900	Kövület Fa Törzs	Egy meteor darab, amely extra erot ad a használójának. Övekre helyezheto.
+
+50621	Diamond	Gyémánt	Használható drágaköves kiegészítõk nyílásainak feloldására.
+50623	Fossil	Fa Törzs	Egy értékes fa, ami tartósságot ad a kiegészítõknek. Hozzáadható fa kiegészítõkhöz.
+50624	Copper	Néha használják bronz és érmek készítéséhez. Hozzáadható réz kiegészítõkhöz.
+50625	Silver	Egy fényes nemesfém, ami ékszerkészítésre használható. Hozzáadható ezüst kiegészítõkhöz.
+50626	Gold	Ezüst ékszerkészítéshez használják. Hozzáadható arany kiegészítõkhöz.
+50627	Jade Stone	Egy értékes ásvány, amit több mint 5000 éve használnak. Hozzáadható jáde kõ kiegészítõkhöz.
+50628	Ebony	A legfényesebb és legerõsebb fafajta. Hozzáadható ebenfa kiegészítõkhöz.
+50629	Pearl	Csillogóan elegáns, a tengerek ékköve. Hozzáadható gyöngy kiegészítõkhöz.
+50630	White Gold	Tartós, fehér arany ékszer. Hozzáadható fehér arany kiegészítõkhöz.
+50631	Crystal	Különbözõ színû kristály kvarc. Hozzáadható kristály kiegészítõkhöz.
+50632	Amethyst	Lila ametiszt. Hozzáadható ametiszt kiegészítõkhöz.
+50633	Tear of Heaven	Az égbõl kristályosan hullott könnycsepp. Hozzáadható Égi Könny kiegészítõkhöz.
+50634	Soul Crystal	Ez a kristály olyan tiszta, mint egy lélek. Hozzáadható Lélek Kristály kiegészítõkhöz.
+50635	Ruby	Gondosan faragott piros drágakõ. Hozzáadható rubin kiegészítõkhöz.
+50636	Garnet	Gondosan faragott narancssárga drágakõ. Hozzáadható garnet kiegészítõkhöz.
+50637	Emerald	Gondosan faragott zöld drágakõ. Hozzáadható smaragd kiegészítõkhöz.
+50638	Sapphire	Gondosan faragott kék drágakõ. Hozzáadható zafír kiegészítõkhöz.
+50639	Tourmaline	Ez a szivárványszínû gyöngy elbûvöli a szemet. Hozzáadható turmalin kiegészítõkhöz.
+50640	Black Dragon	Tartalmazza egy sötét varázslat energiáját, ami elsötétíti a szemet. Hozzáadható Fekete Sárkány kiegészítõkhöz.
+50641	Kyanite	Gondosan faragott lila drágakõ. Hozzáadható kyanit kiegészítõkhöz.
+
+950623	Fa Törzs Fossil	Egy értékes, maradandó fa, ami tartósságot ad a kiegészítõknek. Hozzáadható fa kiegészítõkhöz.
+950624	Réz	Coins és bronzból készült dolgokhoz néha használják maradandóan. Hozzáadható réz kiegészítõkhöz.
+950625	Ezüst	Egy maradandó fényes nemesfém, ami ékszerkészítésre használható. Hozzáadható ezüst kiegészítõkhöz.
+950626	Arany	Maradandó ékszerkészítéshez használt anyag. Hozzáadható arany kiegészítõkhöz.
+950627	Jáde Kõ	Egy értékes maradandó ásvány, ami több mint 5000 éve használják. Hozzáadható Jáde Kõ kiegészítõkhöz.
+950628	Ebenfa	A legfényesebb és legerõsebb maradandó fafajta. Hozzáadható ebenfa kiegészítõkhöz.
+950629	Gyöngy	Csillogóan elegáns, a tengerek ékköve, maradandóan. Hozzáadható gyöngy kiegészítõkhöz.
+950630	Fehér Arany	Tartós, fehér arany ékszer, maradandóan. Hozzáadható fehér arany kiegészítõkhöz.
+950631	Kristály	Különbözõ színû maradandó kristály kvarc. Hozzáadható kristály kiegészítõkhöz.
+950632	Ametiszt	Lila maradandó ametiszt. Hozzáadható ametiszt kiegészítõkhöz.
+950633	Menny Könnycsepp	Az égbõl kristályosan hullott könnycsepp, maradandóan. Hozzáadható Mennyi Könnycsepp kiegészítõkhöz.
+950634	Lélek Kristály	Ez a kristály olyan tiszta, mint egy maradandó lélek. Hozzáadható Lélek Kristály kiegészítõkhöz.
+950635	Rubin	Gondosan faragott maradandó piros drágakõ. Hozzáadható rubin kiegészítõkhöz.
+950636	Garnet	Gondosan faragott maradandó narancssárga drágakõ. Hozzáadható garnet kiegészítõkhöz.
+950637	Smaragd	Gondosan faragott maradandó zöld drágakõ. Hozzáadható smaragd kiegészítõkhöz.
+950638	Zafír	Gondosan faragott maradandó kék drágakõ. Hozzáadható zafír kiegészítõkhöz.
+950639	Turmalin	Ez a maradandó szivárványszínû gyöngy elbûvöli a szemet. Hozzáadható turmalin kiegészítõkhöz.
+950640	Fekete Sárkány	Tartalmazza egy sötét varázslat energiáját, ami maradandóan elsötétíti a szemet. Hozzáadható Fekete Sárkány kiegészítõkhöz.
+950641	Kyanit	Gondosan faragott maradandó lila drágakõ. Hozzáadható kyanit kiegészítõkhöz.
+51511	Cor Draconis Gyémánt	Egy Fehér Cor Draconis. Tartalmaz egy véletlenszerû sárkánygyémántot.
+51512	Cor Draconis Rubin	Egy Piros Cor Draconis. Tartalmaz egy véletlenszerû sárkányrubintot.
+51513	Cor Draconis Jádeit	Egy Zöld Cor Draconis. Tartalmaz egy véletlenszerû sárkányjádét.
+51514	Cor Draconis Zafír	Egy Kék Cor Draconis. Tartalmaz egy véletlenszerû sárkányszafírt.
+51515	Cor Draconis Garnet	Egy Narancssárga Cor Draconis. Tartalmaz egy véletlenszerû sárkánygarnettet.
+51516	Cor Draconis Atrum	Egy Fekete Cor Draconis. Tartalmaz egy véletlenszerû sárkányonyxot.
+55003	Ifjú Háziállat Könyv	Ezzel a könyvvel háziállatát a következõ szintre emelheti (Vad).
+55004	Vad Háziállat Könyv	Ezzel a könyvvel háziállatát a következõ szintre emelheti (Bátor).
+55005	Bátor Háziállat Könyv	Ezzel a könyvvel háziállatát a következõ szintre emelheti (Hõs).
+
+55401	Majom Tojás	Ha azt szeretné, hogy a háziállata kikeljen a tojásból, kattintson jobb gombbal a tojásra.
+55701	Kis Majom	Hívja meg a háziállatát a jobb egérgombbal, majd jelenítse meg a háziállat felhasználói felületét a P gombbal.
+
+70005	Tapasztalati Gyûrû (1 óra)	60 percig 50%-kal több tapasztalatot nyújt. Használható 90. szint alatt.
+970005	Tapasztalati Gyûrû (1 óra)	60 percig 50%-kal több tapasztalatot nyújt. Használható 90. szint felett.
+
+70038	Bátorság Köpeny	Az igazi harcosok színes köpenyükkel minden lény figyelmét magukra vonzzák, ezzel bebizonyítva hõsiességüket.
+70039	Kovács Kézikönyv	Egy könyv az õsi kovácsok lelkeivel. Használatkor növeli a fejlesztés sikerességi arányát. 90. szint feletti tárgyakon használható.
+
+70043	Toportyán Kesztyûk	Duplázza az árucikkek megszerzésének esélyét. Használható 90. szint alatt.
+970043	Toportyán Kesztyûk	Duplázza az árucikkek megszerzésének esélyét. Használható 90. szint felett.
+
+70102	Zen Bab	Enyhíti a rossz ranglistát.
+
+71001	Ördögûzõ Papír	Ha a tanulás nem sikerül, megvédi a gonosz szellemek átkától.
+71002	Státusz Visszaállító Papír	Visszaállítja a státuszpontokat, lehetõvé téve karaktere különbözõ irányba fejlõdését.
+71054	Birodalom Jelzése	Lehetõvé teszi egy karakternek, hogy egy másik birodalomba meneküljön, birodalmat változtasson.
+
+71032	Sárkány Pergamen	Ha a fejlesztés nem sikerül, a tárgy minõsége egy szinttel csökken. Emellett 10%-kal növeli a fejlesztési esélyt. 90. szint alatti tárgyakon használható.
+70058	Teleportációs Gyûrû	Ez a gyûrû a kívánt helyre teleportálja önt.
+
+72726	Nap Esszencia	Használatakor eltûnik a felsõ bal sarokban található hatások részbõl, maradandó és korlátlan. Az effektusra kattintva be- vagy kikapcsolható.
+72730	Hold Esszencia	Használatakor eltûnik a felsõ bal sarokban található hatások részbõl, maradandó és korlátlan. Az effektusra kattintva be- vagy kikapcsolható.
+71107	Élet Gyümölcs	2000 ranglistaponttal növeli a pontjait.
+30629	Biológus Idõzítõ	Visszaállítja a gyûjtött kutatási tárgyak várakozási idejét, így könnyebbé teszi azok kézbesítését.
+71035	Kutató Esszencia	Növeli a gyûjtött kutatási tárgyak minõségét, így könnyebben elfogadhatók.
+
+71083	Kõ Mûvészeti Könyv	Eltávolítja a törött kõ mellékleteket, üres mellékleti helyeket hozva létre.
+71084	Bûbáj Tárgy	Eltávolítja és helyettesíti a tárgyak bónuszait. Csak az 1-tõl 5-ig terjedõ bónuszokra érvényes.
+71085	Fokozás Papír	Új bónuszokat ad hozzá a már meglévõ tárgyaihoz.
+
+71094	Eremita Tanácsa	Megduplázza az esélyt, hogy képességei fejlõdjenek, amikor a következõ könyvet (vagy lélekkövet) olvassa.
+
+200221	Sárkánypikkely	A legintenzívebb anyagok közé tartoznak a sárkánypikkelyek.
+200222	Sárkánymarok	Ez a vészjósló karom emlékeket idéz...
+71151	Zöld Bûbáj	Eltávolítja és helyettesíti a bónuszokat egy tárgyról. Csak 40 vagy annál alacsonyabb szintû páncélokra és fegyverekre alkalmazható.
+71153	Bölcsesség Elixír	Ezzel az elixírrel egy órás játékmenet alatt 100%-kal több tapasztalatot szerezhetsz.
+71154	Felmagasztalás Elixír	Ezzel az elixírrel egy órás játékmenet alatt 100%-kal több tapasztalatot szerezhetsz. A csere nem lehetséges.
+
+72346	Áldás	Eltávolítja és helyettesíti a tárgyak bónuszait. A 6. és 7. bónuszokra érvényes alacsony valószínûséggel.
+72351	Kis Áldás	Alacsony eséllyel megváltoztatja a 6. vagy 7. bónuszt.
+
+79505	Rummy Gyûjtemény Kártya	Gyûjts össze 24 rummy gyûjtemény kártyát, majd jobb gombbal kattintva szerezz egy rummy kártya készletet.
+79506	Rummy Kártya Készlet	Ezzel a kártya készlettel elkezdhetsz egy rummy játékot. A kártya készlet automatikusan eltávolításra kerül a készletedbõl a játék elindulása után.
+79512	Tarot Kártya	Gyûjts össze 24 tarot kártyát, majd jobb gombbal kattintva szerezz egy tarot kártya készletet.
+79513	Tarot Kártya Készlet	Ezzel a kártya készlettel elkezdhetsz egy sorsjóslási versenyt. A kártya készlet automatikusan eltávolításra kerül a készletedbõl a játék elindulása után.
+79603	Király Kártya	Gyûjts össze 25 király kártyát, majd jobb gombbal kattintva szerezz egy király paklit.
+79604	Király Pakli	Ezzel a kártya paklival elkezdhetsz egy király játékot. A kártya pakli automatikusan eltávolításra kerül a készletedbõl a játék elindulása után.
+
+80008	Arany Darab	Kezeletlen arany. Magas áron eladható az üzletben.
+80014	TP Kupon (100)	Egy 100 Dragon Coin értékû kupon. Ez az árucikk eladható.
+80015	TP Kupon (500)	Egy 500 Dragon Coin értékû kupon. Ez az árucikk eladható.
+80016	TP Kupon (1000)	Egy 1000 Dragon Coin értékû kupon. Ez az árucikk eladható.
+80017	TP Kupon (50)	Egy 50 Dragon Coin értékû kupon. Ez az árucikk eladható.
+80019	Szép Szövet	Ez a anyag a vállpántok elõállításához használatos.
+85001	Bíró Öv (Egyszerû)	Ez a kötés 1% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+85002	Bíró Öv (Kiváló)	Ez a kötés 5% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+85003	Bíró Öv (Nemes)	Ez a kötés 10% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+85004	Bíró Öv (egyedi)	Ez a kötés 11-25% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+85005	Mester Öv (Egyszerû)	Ez a kötés 1% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+85006	Mester Öv (Kiváló)	Ez a kötés 5% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+85007	Mester Öv (Nemes)	Ez a kötés 10% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+85008	Mester Öv (egyedi)	Ez a kötés 11-25% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+85011	Uralkodó Öv (Egyszerû)	Ez a kötés 1% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+85012	Uralkodó Öv (Kiváló)	Ez a kötés 5% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+85013	Uralkodó Öv (Nemes)	Ez a kötés 10% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+85014	Uralkodó Öv (egyedi)	Ez a kötés 11-25% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+85015	Királyi Öv (Egyszerû)	Ez a kötés 1% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+85016	Királyi Öv (Kiváló)	Ez a kötés 5% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+85017	Királyi Öv (Nemes)	Ez a kötés 10% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+85018	Királyi Öv (egyedi)	Ez a kötés 11-25% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+85021	Évfordulós Öv (Egyszerû)	Ez a kötés 1% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+85022	Évfordulós Öv (Kiváló)	Ez a kötés 5% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+85023	Évfordulós Öv (Nemes)	Ez a kötés 10% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+85024	Évfordulós Öv (egyedi)	Ez a kötés 11-25% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86001	Zi Szalag (Egyszerû)	Ez a kötés 1% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86002	Zi Szalag (Kiváló)	Ez a kötés 5% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86003	Zi Szalag (Nemes)	Ez a kötés 10% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86004	Zi Szalag (egyedi)	Ez a kötés 11-25% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86005	Chou Szalag (Egyszerû)	Ez a kötés 1% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86006	Chou Szalag (Kiváló)	Ez a kötés 5% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86007	Chou Szalag (Nemes)	Ez a kötés 10% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86008	Chou Szalag (egyedi)	Ez a kötés 11-25% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86011	Yin Szalag (Egyszerû)	Ez a kötés 1% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86012	Yin Szalag (Kiváló)	Ez a kötés 5% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86013	Yin Szalag (Nemes)	Ez a kötés 10% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86014	Yin Szalag (egyedi)	Ez a kötés 11-25% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86015	Mao Szalag (Egyszerû)	Ez a kötés 1% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86016	Mao Szalag (Kiváló)	Ez a kötés 5% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86017	Mao Szalag (Nemes)	Ez a kötés 10% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86018	Mao Szalag (egyedi)	Ez a kötés 11-25% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86021	Chen Szalag (Egyszerû)	Ez a kötés 1% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86022	Chen Szalag (Kiváló)	Ez a kötés 5% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86023	Chen Szalag (Nemes)	Ez a kötés 10% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86024	Chen Szalag (egyedi)	Ez a kötés 11-25% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86025	Si Szalag (Egyszerû)	Ez a kötés 1% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86026	Si Szalag (Kiváló)	Ez a kötés 5% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86027	Si Szalag (Nemes)	Ez a kötés 10% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86028	Si Szalag (egyedi)	Ez a kötés 11-25% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86031	Wu Szalag (Egyszerû)	Ez a kötés 1% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86032	Wu Szalag (Kiváló)	Ez a kötés 5% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86033	Wu Szalag (Nemes)	Ez a kötés 10% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86034	Wu Szalag (egyedi)	Ez a kötés 11-25% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86035	Wei Szalag (Egyszerû)	Ez a kötés 1% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86036	Wei Szalag (Kiváló)	Ez a kötés 5% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86037	Wei Szalag (Nemes)	Ez a kötés 10% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86038	Wei Szalag (egyedi)	Ez a kötés 11-25% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86041	Shen Szalag (Egyszerû)	Ez a kötés 1% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86042	Shen Szalag (Kiváló)	Ez a kötés 5% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86043	Shen Szalag (Nemes)	Ez a kötés 10% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86044	Shen Szalag (egyedi)	Ez a kötés 11-25% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86045	Yu Szalag (Egyszerû)	Ez a kötés 1% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86046	Yu Szalag (Kiváló)	Ez a kötés 5% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86047	Yu Szalag (Nemes)	Ez a kötés 10% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86048	Yu Szalag (egyedi)	Ez a kötés 11-25% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86051	Xu Szalag (Egyszerû)	Ez a kötés 1% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86052	Xu Szalag (Kiváló)	Ez a kötés 5% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86053	Xu Szalag (Nemes)	Ez a kötés 10% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86054	Xu Szalag (egyedi)	Ez a kötés 11-25% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86055	Hai Szalag (Egyszerû)	Ez a kötés 1% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86056	Hai Szalag (Kiváló)	Ez a kötés 5% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86057	Hai Szalag (Nemes)	Ez a kötés 10% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86058	Hai Szalag (egyedi)	Ez a kötés 11-25% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86061	Szív Szalag (Egyszerû)	Ez a kötés 1% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86062	Szív Szalag (Kiváló)	Ez a kötés 5% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86063	Szív Szalag (Nemes)	Ez a kötés 10% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+86064	Szív Szalag (egyedi)	Ez a kötés 11-25% -át veszi el a fegyver vagy páncél bónuszokból az elnyeléshez.
+
+100002	Süre Özütü (B)	Efeltölti a Sárkánykõ idõtartamát.	6 óra
+
+100300	Zöld Sárkánybab	A mágikus bab növeli a Sárkánykõ szintjét. Az erõsítési folyamat sikertelen lehet.
+100400	Kék Sárkánybab	A Sárkánykõ egy szinttel való sikeres fejlesztésének esélye 5% -kal magasabb.
+100500	Rózsaszín Sárkánybab	A Sárkánykõ egy szinttel való sikeres fejlesztésének esélye 10% -kal magasabb.
+
+93100	Harcos Passz		Ez a tárgy szezonális feladatokat aktivál több jutalommal.
+
+200000	Készségkönyv Láda		Tartalmaz készségkönyveket a készségek fejlesztéséhez.
+200001	Fizikai Készségkönyv Láda	Tartalmaz készségkönyveket a fizikai készségek fejlesztéséhez.
+200002	Szellemi Készségkönyv Láda	Tartalmaz készségkönyveket a szellemi készségek fejlesztéséhez.
+200003	Test Készségkönyv Láda	Tartalmaz készségkönyveket a testi készségek fejlesztéséhez.
+200004	Távolsági Készségkönyv Láda	Tartalmaz készségkönyveket a távolsági készségek fejlesztéséhez.
+200005	Mágikus Fegyver Készségkönyv Láda	Tartalmaz készségkönyveket a mágikus fegyver készségek fejlesztéséhez.
+200006	Sötét Mágia Készségkönyv Láda	Tartalmaz készségkönyveket a sötét mágia készségek fejlesztéséhez.
+200007	Sárkányerõ Készségkönyv Láda	Tartalmaz készségkönyveket a sárkányerõ készségek fejlesztéséhez.
+200008	Gyógyító Készségkönyv Láda	Tartalmaz készségkönyveket a gyógyító készségek fejlesztéséhez.
+200009	Edzés Láda		Tartalmaz segédanyagokat a készségek fejlesztéséhez.
+200011	Cor Draconis Láda	Tartalmaz sárkánykõ alkimiai anyagokat.
+200012	Kincses Láda		Tartalmaz rendkívül értékes anyagokat.
+200013	Mágiás Jel Láda (10k)	Tartalmaz 10 000 mágiás jelet.
+200014	Osztriga		Lehet gyöngyöt vagy kõdarabot tartalmaz.
+200015	Aranyos Osztriga		Lehet színes gyöngyöt vagy kõdarabot tartalmaz.
+200016	Aranyhal Láda (Szokásos)	Tartalmaz szokásos halakat.
+200017	Aranyhal Láda (Ritka)	Tartalmaz rendkívül ritka halakat.
+200018	Passzív Készségkönyv Láda	Tartalmaz készségkönyveket a passzív készségek fejlesztéséhez.
+200019	Elysium Láda		Tartalmaz rendkívül értékes anyagokat.
+200020	Legenda Cor Láda	Tartalmaz legendás minõségû sárkánykõ alkimiai anyagokat.
+200021	Háziállat Könyv Láda		Tartalmaz háziállat készségkönyveket.
+200022	Feljebbvaló Láda		Tartalmaz középszintû fejlesztési anyagokat.
+200023	Fejlettebb Fejlesztés	Láda	Tartalmaz magas szintû fejlesztési anyagokat.
+200200	Szafír Kristály	Egy közönséges szafír kristály. Alkalmazza az eszközök készítéséhez és finomításához.
+200202	Szafír Kristály	Egy ritka smaragd kristály. Alkalmazza az eszközök készítéséhez és finomításához.
+200204	Szafír Kristály	Egy ritka rubin kristály. Alkalmazza az eszközök készítéséhez és finomításához.
+200206	Dungeon Pergamen (Alacsony)	Lehetõvé teszi alacsony szintû folyosójegyek vásárlását.
+200207	Dungeon Pergamen (Közepes)	Lehetõvé teszi közepes szintû folyosójegyek vásárlását.
+200208	Dungeon Pergamen (Magas)	Lehetõvé teszi magas szintû folyosójegyek vásárlását.
+200209	Felszerelés Kupon	Az õsi mesterek által használt elsõ sablon a felszerelés készítéséhez. Alkalmazza kezdeti vásárlásokhoz, felszerelések készítéséhez és finomításához.
+200210	Valleycoin	Egy régóta használt érme. Általában NPC-kkel való kereskedéshez és felszereléskészítéshez használják.
+200211	Pickaxe Fokozás Kõ	Egy rejtélyes fekete kõ. Alkalmazza csákányok finomításához.
+200212	Horgászbot Fokozás Kõ	Egy törött horgászbot darab. Alkalmazza horgászbotok finomításához.
+200213	Érc Fragmentum (Alacsony)	Egy közönséges érc fragmentum, ami bányászat során szerezhetõ. Alkalmazza alacsony szintû érc vásárlásához az Érc Kereskedõtõl.
+200214	Érc Fragmentum (Magas)	Egy ritka érc fragmentum, ami bányászat során szerezhetõ. Alkalmazza magas szintû érc vásárlásához az Érc Kereskedõtõl.
+200215	Elysium Érme	Egy ritka valuta, kizárólag az Elysiumhoz. Felhasználható tárgyak vásárlására az Elysium Piacon történõ hatalomnöveléshez.
+200216	Pillangóvirág	Egy friss, sárga színû virág, mely tavasz érzetét hozza. Alkalmazza növényi esszenciák vásárlásához Huahn-So-tól.
+200217	Biológus Pergamen	Egy õsi pergamen, melyet a biológus anyagok vásárlásához Biológus Chaegirabtól használnak.
+200218	Kézmûves Érme	Ezüstérme, amit felszerelés fejlesztéséhez és készítéséhez használnak. Alkalmazza felszerelések készítéséhez és finomításához.
+200221	Sárkánypikkely	A sárkánypikkelyek a legpotensebb ismert anyagok közé tartoznak. Alkalmazza felszerelések készítéséhez és finomításához.
+200222	Sárkánykarmok	A tapintása hideg és hideget idézõ karma emlékeket ébreszt... Alkalmazza felszerelések készítéséhez és finomításához.
+200223	Láva Kõ	Láva és magma kristályos esszenciája. Alkalmazza felszerelések készítéséhez és finomításához.
+200224	Jég Láva Kõ	Hideg és jég kristályos esszenciája. Alkalmazza felszerelések készítéséhez és finomításához.
+200225	Mitil	Kis darab maradt csak egy lezuhant meteorból. Alkalmazza felszerelés finomításához.
+200226	Titán Dioxid	Prizmatikus kristály. Alkalmazza felszerelés finomításához.
+200227	Achat	Egy rejtélyes ásvány, amely a sötétben csillámló csillagokhoz hasonlít. Alkalmazza felszerelés finomításához.
+200228	Holdkõ	Egy értékes csepp alakú kõ, amelyben a holdfény szikrája van. Alkalmazza felszerelés finomításához.
+200229	Zöld Ékszer Tervrajz	Egy õsi tervrajz, amelyet egy mester használt az ékszerek készítéséhez. Alkalmazza felszerelések készítéséhez.
+200230	Nehéz Övek	Egy szorosan tekeredõ vékony zsinór. Alkalmazza felszerelések készítéséhez.
+200231	Zöld Felszerelés Tervrajz	Egy õsi tervrajz, amelyet egy mester használt a felszerelések készítéséhez. Alkalmazza felszerelések készítéséhez.
+200232	Erõs Fonál	Egy szorosan tekeredõ vastag kötél. Alkalmazza felszerelések készítéséhez.
+200233	Mágikus Troll Kristály	Egy kristály, amelyet a Mágikus Troll ereje átitatott. Alkalmazza felszerelések készítéséhez és finomításához.
+200234	Mágikus Troll Kõ	Egy kõ, amely emlékeket tartalmaz a Mágikus Trollról. Alkalmazza felszerelések készítéséhez és finomításához.
+200235	Queen Meley Szárnya	Meley leszakadt szárnya. Alkalmazza felszerelések készítéséhez és finomításához.
+200236	Floraun Szarva	Floraun letört szarva. Alkalmazza felszerelések készítéséhez és finomításához.
+200237	Zodiákus Páncél Tervrajz	Egy õsi tervrajz, amelyet egy mester használt a zodiákus páncél készítéséhez. Alkalmazza felszerelések készítéséhez és finomításához.
+200238	Zodiákus Fegyver Tervrajz	Egy õsi tervrajz, amelyet egy mester használt a zodiákus fegyverek készítéséhez. Alkalmazza felszerelések készítéséhez és finomításához.
+200239	Zodiákus Ékszer Tervrajz	Egy õsi tervrajz, amelyet egy mester használt a zodiákus ékszerek készítéséhez. Alkalmazza felszerelések készítéséhez és finomításához.
+200240	Alastor Szíve	Alastor jégbe borult szíve. Alkalmazza felszerelések készítéséhez és finomításához.
+200241	Atlantisz Kristály	Poseidon isteni erejének forrása. Alkalmazza felszerelések készítéséhez és finomításához.
+200242	Skorpió Farka	A Skorpió Király levágott farok. Alkalmazza felszerelések készítéséhez és finomításához.
+200243	Sárkánycsont	A Sárkánycsont Szörny levágott koponyája. Alkalmazza felszerelések készítéséhez és finomításához.
+200244	Sötét Sárkány Páncél Tervrajz	Egy õsi tervrajz, amelyet egy mester használt a sötét sárkány páncél készítéséhez. Alkalmazza felszerelések készítéséhez és finomításához.
+200245	Sötét Sárkány Fegyver Tervrajz	Egy õsi tervrajz, amelyet egy mester használt a sötét sárkány fegyverek készítéséhez. Alkalmazza felszerelések készítéséhez és finomításához.
+200246	Sötét Sárkány Ékszer Tervrajz	Egy õsi tervrajz, amelyet egy mester használt a sötét sárkány ékszerek készítéséhez. Alkalmazza felszerelések készítéséhez és finomításához.
+200265	Zöld Gyöngy	Egy zöld színû gyöngy. Alkalmazza felszerelések finomításához.
+200266	Rózsaszín Gyöngy	Egy rózsaszín színû gyöngy. Alkalmazza felszerelések finomításához.
+200267	Arany Gyöngy	Egy arany színû gyöngy. Alkalmazza felszerelések finomításához.
+200268	Ragyogó Gyöngy	Egy gyöngy, ami csillog a ragyogásával. Alkalmazza felszerelések finomításához.
+200269	Tengerész Gyöngy	Egy tengerkék színû gyöngy. Alkalmazza felszerelések finomításához.
+200270	Lila Gyöngy	Egy lila színû gyöngy. Alkalmazza felszerelések finomításához.
+200271	Fekete Gyöngy	Egy sötét és lenyûgözõ színû gyöngy. Alkalmazza felszerelések finomításához.
+200272	Zöld Hímzés	Egy zöld színû hímzés. Alkalmazza felszerelések finomításához.
+200273	Rózsaszín Hímzés	Egy rózsaszín színû hímzés. Alkalmazza felszerelések finomításához.
+200274	Arany Hímzés	Egy arany színû hímzés. Alkalmazza felszerelések finomításához.
+200275	Ragyogó Hímzés	Egy csodásan színezett hímzés. Alkalmazza felszerelések finomításához.
+200276	Tengerész Hímzés	Egy tengerkék színû hímzés. Alkalmazza felszerelések finomításához.
+200277	Lila Hímzés	Egy lila színû hímzés. Alkalmazza felszerelések finomításához.
+200278	Fekete Hímzés	Egy sötét és lenyûgözõ hímzés. Alkalmazza felszerelések finomításához.
+200279	Zöld Cérna	Egy zöld színû cérna. Alkalmazza felszerelések finomításához.
+200280	Rózsaszín Cérna	Egy rózsaszín színû cérna. Alkalmazza felszerelések finomításához.
+200281	Arany Cérna	Egy arany színû cérna. Alkalmazza felszerelések finomításához.
+200282	Ragyogó Cérna	Egy csodásan színezett cérna. Alkalmazza felszerelések finomításához.
+200283	Tengerész Cérna	Egy tengerkék színû cérna. Alkalmazza felszerelések finomításához.
+200284	Lila Cérna	Egy lila színû cérna. Alkalmazza felszerelések finomításához.
+200285	Fekete Cérna	Egy sötét és lenyûgözõ cérna. Alkalmazza felszerelések finomításához.
+200286	Zöld Szövet	Egy zöld színû szövet. Alkalmazza felszerelések finomításához.
+200287	Rózsaszín Szövet	Egy rózsaszín színû szövet. Alkalmazza felszerelések finomításához.
+200288	Arany Szövet	Egy arany színû szövet. Alkalmazza felszerelések finomításához.
+200289	Ragyogó Szövet	Egy csodásan színezett szövet. Alkalmazza felszerelések finomításához.
+200290	Tengerész Szövet	Egy tengerkék színû szövet. Alkalmazza felszerelések finomításához.
+200291	Lila Szövet	Egy lila színû szövet. Alkalmazza felszerelések finomításához.
+200292	Fekete Szövet	Egy sötét és lenyûgözõ színû szövet. Alkalmazza felszerelések finomításához.
+200293	Zöld Festék	Egy zöld színû festék. Alkalmazza felszerelések finomításához.
+200294	Rózsaszín Festék	Egy rózsaszín színû festék. Alkalmazza felszerelések finomításához.
+200295	Arany Festék	Egy arany színû festék. Alkalmazza felszerelések finomításához.
+200296	Ragyogó Festék	Egy csodásan színezett festék. Alkalmazza felszerelések finomításához.
+200297	Tengerész Festék	Egy tengerkék színû festék. Alkalmazza felszerelések finomításához.
+200298	Lila Festék	Egy lila színû festék. Alkalmazza felszerelések finomításához.
+200299	Fekete Festék	Egy sötét és lenyûgözõ festék. Alkalmazza felszerelések finomításához.
+
+55107	Háziállat Képességnyitó	Ennek az elemnek segítségével feloldhatod a következõ képességnyílást háziállatod számára.
+
+55120	Ifjúsági Háziállat Kézikönyv	Ezzel a könyvvel háziállatod következõ szintjére (Vad) emelheted.
+55121	Vad Háziállat Kézikönyv	Ezzel a könyvvel háziállatod következõ szintjére (Vitéz) emelheted.
+55122	Vitéz Háziállat Kézikönyv	Ezzel a könyvvel háziállatod következõ szintjére (Hõs) emelheted.
+55125	Háziállat Fajváltó	Ezzel az elemmel megváltoztathatod a háziállatod típusát.
+55127	Háziállat Tulajdonságváltó	Ezzel az elemmel megváltoztathatod a háziállatod tulajdonságait.
+55128	Háziállat Csillag	Ezzel az elemmel növelheted háziállatod csillagszintjét.
+55130	Háziállat Kinézet (Azrail)	Ezzel az elemmel aktiválhatod háziállatod Azrail megjelenését.
+55131	Háziállat Kinézet (Baashido)	Ezzel az elemmel aktiválhatod háziállatod Baashido megjelenését.
+55132	Háziállat Kinézet (Meley)	Ezzel az elemmel aktiválhatod háziállatod Meley megjelenését.
+55133	Háziállat Kinézet (Alastor)	Ezzel az elemmel aktiválhatod háziállatod Alastor megjelenését.
+55134	Háziállat Kinézet (Exedyar)	Ezzel az elemmel aktiválhatod háziállatod Exedyar megjelenését.
+55140	Háziállat EXP Növelõ	Ezzel a gyûrûvel növelheted háziállatod EXP gyûjtését.
+55150	Háziállat Kézikönyv (Harcos)	Ezzel a könyvvel növelheted háziállatod Harcos rezisztencia képességét.
+55151	Háziállat Kézikönyv (Sura)	Ezzel a könyvvel növelheted háziállatod Sura rezisztencia képességét.
+55152	Háziállat Kézikönyv (Nindzsa)	Ezzel a könyvvel növelheted háziállatod Nindzsa rezisztencia képességét.
+55153	Háziállat Kézikönyv (ªaman)	Ezzel a könyvvel növelheted háziállatod ªaman rezisztencia képességét.
+55154	Háziállat Kézikönyv (Harapós)	Ezzel a könyvvel növelheted háziállatod Harapós képességét.
+55155	Háziállat Kézikönyv (Félig Ember)	Ezzel a könyvvel növelheted háziállatod Félig Ember képességét.
+55156	Háziállat Kézikönyv (Átütõ Csapás)	Ezzel a könyvvel növelheted háziállatod Átütõ Csapás képességét.
+55157	Háziállat Kézikönyv (Kritikus Csapás)	Ezzel a könyvvel növelheted háziállatod Kritikus Csapás képességét.
+55158	Háziállat Kézikönyv (HP Elszívás)	Ezzel a könyvvel növelheted háziállatod HP Elszívás képességét.
+55159	Háziállat Kézikönyv (Blokkolás)	Ezzel a könyvvel növelheted háziállatod Blokkolás képességét.
+55160	Háziállat Kézikönyv (Szörny)	Ezzel a könyvvel növelheted háziállatod Szörny képességét.
+55161	Háziállat Kézikönyv (Metin)	Ezzel a könyvvel növelheted háziállatod Metin képességét.
+55162	Háziállat Kézikönyv (Fõnök)	Ezzel a könyvvel növelheted háziállatod Fõnök képességét.
+55163	Háziállat Kézikönyv (Szörny Védelem)	Ezzel a könyvvel növelheted háziállatod Szörny Védelem képességét.
+55164	Háziállat Kézikönyv (Yang Csepp)	Ezzel a könyvvel növelheted háziállatod Yang Csepp képességét.
+
+37000	Premium Felhasználó (7 nap)	Aktiválásakor 7 napig prémium felhasználói státuszt biztosít.
+37001	Premium Felhasználó (14 nap)	Aktiválásakor 14 napig prémium felhasználói státuszt biztosít.
+37002	Premium Felhasználó (30 nap)	Aktiválásakor 30 napig prémium felhasználói státuszt biztosít.
+37003	Premium Felhasználó (Állandó)	Aktiválásakor állandó prémium felhasználói státuszt biztosít.
+37004	Premium Felhasználó (7 nap)	Aktiválásakor 7 napig prémium felhasználói státuszt biztosít.	Nem cserélhetõ.
+37005	Premium Felhasználó (14 nap)	Aktiválásakor 14 napig prémium felhasználói státuszt biztosít.	Nem cserélhetõ.
+37006	Premium Felhasználó (30 nap)	Aktiválásakor 30 napig prémium felhasználói státuszt biztosít.	Nem cserélhetõ.
+37007	Premium Felhasználó (Állandó)	Aktiválásakor állandó prémium felhasználói státuszt biztosít.	Nem cserélhetõ.
+37008	Premium Automatikus Zsákmányszedõ (7 nap)	Aktiválásakor 7 napig automatikusan gyûjtheted a tárgyakat.
+37009	Premium Automatikus Zsákmányszedõ (14 nap)	Aktiválásakor 14 napig automatikusan gyûjtheted a tárgyakat.
+37010	Premium Automatikus Zsákmányszedõ (30 nap)	Aktiválásakor 30 napig automatikusan gyûjtheted a tárgyakat.
+37011	Premium Automatikus Zsákmányszedõ (Állandó)	Aktiválásakor állandóan engedélyezi az automatikus tárgygyûjtést.
+37012	Premium Automatikus Zsákmányszedõ (7 nap)	Aktiválásakor 7 napig automatikusan gyûjtheted a tárgyakat.	Nem cserélhetõ.
+37013	Premium Automatikus Zsákmányszedõ (14 nap)	Aktiválásakor 14 napig automatikusan gyûjtheted a tárgyakat.	Nem cserélhetõ.
+37014	Premium Automatikus Zsákmányszedõ (30 nap)	Aktiválásakor 30 napig automatikusan gyûjtheted a tárgyakat.	Nem cserélhetõ.
+37015	Premium Automatikus Zsákmányszedõ (Állandó)	Aktiválásakor állandóan engedélyezi az automatikus tárgygyûjtést.	Nem cserélhetõ.
+
+37016	Premium Metin Jelölõ (7 nap)	Aktiválásakor 7 napig 6 metint jelölhetsz meg.
+37017	Premium Metin Jelölõ (14 nap)	Aktiválásakor 14 napig 6 metint jelölhetsz meg.
+37018	Premium Metin Jelölõ (30 nap)	Aktiválásakor 30 napig 6 metint jelölhetsz meg.
+37019	Premium Metin Jelölõ (Állandó)	Aktiválásakor állandóan 6 metint jelölhetsz meg.
+37020	Premium Metin Jelölõ (7 nap)	Aktiválásakor 7 napig 6 metint jelölhetsz meg.	Nem cserélhetõ.
+37021	Premium Metin Jelölõ (14 nap)	Aktiválásakor 14 napig 6 metint jelölhetsz meg.	Nem cserélhetõ.
+37022	Premium Metin Jelölõ (30 nap)	Aktiválásakor 30 napig 6 metint jelölhetsz meg.	Nem cserélhetõ.
+37023	Premium Metin Jelölõ (Állandó)	Aktiválásakor állandóan 6 metint jelölhetsz meg.	Nem cserélhetõ.
+
+24050	Mount Nevek Jelölõje (2 nap)	Aktiválásakor 2 napig megváltoztathatod a te állosod nevét és extra bónuszokat kaphatsz.
+24051	Háziállat Nevek Jelölõje (2 nap)	Aktiválásakor 2 napig megváltoztathatod a háziállatod nevét és extra bónuszokat kaphatsz.
+24052	Buff Nevek Jelölõje (2 nap)	Aktiválásakor 2 napig megváltoztathatod a buff nevét és aktiválhatod a gyógyító képességeket.
+24053	Lovas Név Címke (14 nap)	Aktiváláskor 14 napig lehetõvé teszi, hogy új nevet adj a lovadnak és extra bónuszokat szerezz.		Nem cserélhetõ.
+24054	Háziállat Név Címke (7 nap)	Aktiváláskor 7 napig lehetõvé teszi, hogy új nevet adj a háziállatodnak és extra bónuszokat szerezz.
+24055	Háziállat Név Címke (14 nap)	Aktiváláskor 14 napig lehetõvé teszi, hogy új nevet adj a háziállatodnak és extra bónuszokat szerezz.
+24056	Háziállat Név Címke (7 nap)	Aktiváláskor 7 napig lehetõvé teszi, hogy új nevet adj a háziállatodnak és extra bónuszokat szerezz.		Nem cserélhetõ.
+24057	Háziállat Név Címke (14 nap)	Aktiváláskor 14 napig lehetõvé teszi, hogy új nevet adj a háziállatodnak és extra bónuszokat szerezz.	Nem cserélhetõ.
+24058	Buff Név Címke (7 nap)	Aktiváláskor 7 napig lehetõvé teszi, hogy új nevet adj a buffodnak és aktiválja a gyógyító képességeket.
+24059	Buff Név Címke (14 nap)	Aktiváláskor 14 napig lehetõvé teszi, hogy új nevet adj a buffodnak és aktiválja a gyógyító képességeket.
+24060	Buff Név Címke (7 nap)	Aktiváláskor 7 napig lehetõvé teszi, hogy új nevet adj a buffodnak és aktiválja a gyógyító képességeket.		Nem cserélhetõ.
+24061	Buff Név Címke (14 nap)	Aktiváláskor 14 napig lehetõvé teszi, hogy új nevet adj a buffodnak és aktiválja a gyógyító képességeket.	Nem cserélhetõ.
+
+64000	Lovas Név Címke (2 nap)	Aktiváláskor 2 napig lehetõvé teszi, hogy új nevet adj a lovadnak és extra bónuszokat szerezz.
+64001	Háziállat Név Címke (2 nap)	Aktiváláskor 2 napig lehetõvé teszi, hogy új nevet adj a háziállatodnak és extra bónuszokat szerezz.
+64002	Buff Név Címke (2 nap)	Aktiváláskor 2 napig lehetõvé teszi, hogy új nevet adj a buffodnak és aktiválja a gyógyító képességeket.
+
+24102	Kesztyû Fejlesztõ Tárgy	Egy ritka tárgy, amelyet használhatsz egy új bónusz hozzáadásához a kesztyû felszereléshez.
+24103	Kesztyû Varázslat Tárgy	Egy ritka tárgy, amelyet használhatsz a bónusz megváltoztatásához a kesztyû felszerelésen.
+24104	Talisman Fejlesztõ Tárgy	Egy ritka tárgy, amelyet használhatsz egy új bónusz hozzáadásához a talizmán felszereléshez.
+24105	Talisman Varázslat Tárgy	Egy ritka tárgy, amelyet használhatsz a bónusz megváltoztatásához a talizmán felszerelésen.
+200400	Tûz Pergamen	Egy rejtélyes pergamen, amely átadja a tûz elem erejét.
+200401	Tûz Kristály	Egy ragyogó kristály, amely a tûz elem erejébõl áll.
+200402	Tûz Talizmán Láda	Egy õsi láda, amely a tûz elemet irányító talizmánt tartalmazza.
+200403	Jég Pergamen	Egy rejtélyes pergamen, amely átadja a jég elem erejét.
+200404	Jég Kristály	Egy ragyogó kristály, amely a jég elem erejébõl áll.
+200405	Jég Talizmán Láda	Egy õsi láda, amely a jég elemet irányító talizmánt tartalmazza.
+200406	Föld Pergamen	Egy rejtélyes pergamen, amely átadja a föld elem erejét.
+200407	Föld Kristály	Egy ragyogó kristály, amely a föld elem erejébõl áll.
+200408	Föld Talizmán Láda	Egy õsi láda, amely a föld elemet irányító talizmánt tartalmazza.
+200409	Sötét Pergamen	Egy rejtélyes pergamen, amely átadja a sötét elem erejét.
+200410	Sötét Kristály	Egy ragyogó kristály, amely a sötét elem erejébõl áll.
+200411	Sötét Talizmán Láda	Egy õsi láda, amely a sötét elemet irányító talizmánt tartalmazza.
+200412	Szél Pergamen	Egy rejtélyes pergamen, amely átadja a szél elem erejét.
+200413	Szél Kristály	Egy ragyogó kristály, amely a szél elem erejébõl áll.
+200414	Szél Talizmán Láda	Egy õsi láda, amely a szél elemet irányító talizmánt tartalmazza.
+200415	Villám Pergamen	Egy rejtélyes pergamen, amely átadja a villám elem erejét.
+200416	Villám Kristály	Egy ragyogó kristály, amely a villám elem erejébõl áll.
+200417	Villám Talizmán Láda	Egy õsi láda, amely a villám elemet irányító talizmánt tartalmazza.
+200418	Elem Pergamen	Egy rejtélyes pergamen, amely átadja az elemek erejét.
+200419	Elem Kristály	Egy ragyogó kristály, amely az elemek erejébõl áll.
+200420	Elem Talizmán Láda	Egy õsi láda, amely az elemeket irányító talizmánt tartalmazza.
+200500	Méreg Lucifer Jegy	Egy jegy, amely szükséges a Méreg Démon Torony belépéséhez.
+200501	Barones Jegy	Egy jegy, amely szükséges Barones rejtekhelyének belépéséhez.
+200502	Mágikus Dzsinn Jegy	Egy jegy, amely szükséges a Dzsinn Barlang belépéséhez.
+200503	Jég Krokodil Jegy	Egy jegy, amely szükséges a Jég Föld belépéséhez.
+200504	Árny Azrael Jegy	Egy jegy, amely szükséges az Ördög Katakomba belépéséhez.
+200505	Beran Setaou Jegy	Egy jegy, amely szükséges Beran-Setaou Szobájához.
+200506	Razador Jegy	Egy jegy, amely szükséges Razador Erõdjéhez.
+200507	Naga Jegy	Egy jegy, amely szükséges a Naga Templom belépéséhez.
+200508	Kristály Farkas Jegy	Egy jegy, amely szükséges a Zafír Barlang belépéséhez.
+200509	Jotun Thrym Jegy	Egy jegy, amely szükséges az Ochao Templom belépéséhez.
+200510	Ódin Jegy	Egy jegy, amely szükséges Ódin Kastélyához.
+200511	Mágikus Troll Jegy	Egy jegy, amely szükséges a Mágikus Troll Barlang belépéséhez.
+200512	Meley Jegy	Egy jegy, amely szükséges Meley Királynõ Fészke belépéséhez.
+200513	Floraun Jegy	Egy jegy, amely szükséges Floraun Kertjéhez.
+200514	Alastor Jegy	Egy jegy, amely szükséges Alastor Barlangjához.
+200515	Poseidon Jegy	Egy jegy, amely szükséges Atlantisz Elveszett Városához.
+200516	Skorpió Király Jegy	Egy jegy, amely szükséges az Aszályos Skorpió Romjaihoz.
+200517	Vázsárkány Jegy	Egy jegy, amely szükséges a Vázsárkány Kamrájához.
+200518	Akzadur Jegy	Egy jegy, amely szükséges Akzadur Király Szobájához.
+200519	Kígyó Királynõ Jegy	Egy jegy, amely szükséges a Kígyó Templom belépéséhez.
+200540	Mérgezõ Lucifer Gyûrû	Jobb kattintás a használathoz és a Mérgezõ Gyûrû megnyitásához.
+200541	Barones Gyûrû	Jobb kattintás a használathoz és a Pók Gyûrû megnyitásához.
+200542	Mágikus Dzsinnes Gyûrû	Jobb kattintás a használathoz és a Mágikus Gyûrû megnyitásához.
+200543	Jeges Krokodil Gyûrû	Jobb kattintás a használathoz és a Jég Gyûrû megnyitásához.
+200544	Árnyék Azrael Gyûrû	Jobb kattintás a használathoz és a Lidérc Gyûrû megnyitásához.
+200545	Beran Setaou Gyûrû	Jobb kattintás a használathoz és a Kék Sárkány Gyûrû megnyitásához.
+200546	Razador Gyûrû	Jobb kattintás a használathoz és a Láng Gyûrû megnyitásához.
+200547	Naga Gyûrû	Jobb kattintás a használathoz és a Fagy Gyûrû megnyitásához.
+200548	Kristály Farkas Gyûrû	Jobb kattintás a használathoz és a Zafír Gyûrû megnyitásához.
+200549	Jotun Thrym Gyûrû	Jobb kattintás a használathoz és az Erdõ Gyûrû megnyitásához.
+200550	Odin Gyûrû	Jobb kattintás a használathoz és az Asgard Gyûrû megnyitásához.
+200551	Mágikus Troll Gyûrû	Jobb kattintás a használathoz és a Mágikus Gyûrû megnyitásához.
+200552	Meley Gyûrû	Jobb kattintás a használathoz és a Vörös Sárkány Gyûrû megnyitásához.
+200553	Floraun Gyûrû	Jobb kattintás a használathoz és az Erdõ Gyûrû megnyitásához.
+200554	Alastor Gyûrû	Jobb kattintás a használathoz és a Északi Gyûrû megnyitásához.
+200555	Poseidon Gyûrû	Jobb kattintás a használathoz és az Atlantisz Gyûrû megnyitásához.
+200556	Skorpiókirály Gyûrû	Jobb kattintás a használathoz és a Skorpió Gyûrû megnyitásához.
+200557	Szkeleton Sárkány Gyûrû	Jobb kattintás a használathoz és a Csontváz Gyûrû megnyitásához.
+200558	Akzadur Gyûrû	Jobb kattintás a használathoz és a Sárkánykirály Gyûrû megnyitásához.
+200559	Szörnykirálynõ Gyûrû	Jobb kattintás a használathoz és a Kígyó Gyûrû megnyitásához.
+
+200300	Kerekes Jegy	Ingynélküli sorsoláshoz szükséges jegy. Szerezd be õket az esemény során, hogy használni tudd a Sorsoló Kereket.
+200301	E Betû	E betû. Szerezd be az esemény során a többi betûvel együtt, hogy egy ládát készíts a Kovácsnál.
+200302	L Betû	L betû. Szerezd be az esemény során a többi betûvel együtt, hogy egy ládát készíts a Kovácsnál.
+200303	Y Betû	Y betû. Szerezd be az esemény során a többi betûvel együtt, hogy egy ládát készíts a Kovácsnál.
+200304	S Betû	S betû. Szerezd be az esemény során a többi betûvel együtt, hogy egy ládát készíts a Kovácsnál.
+200305	I Betû	I betû. Szerezd be az esemény során a többi betûvel együtt, hogy egy ládát készíts a Kovácsnál.
+200306	U Betû	U betû. Szerezd be az esemény során a többi betûvel együtt, hogy egy ládát készíts a Kovácsnál.
+200307	M Betû	M betû. Szerezd be az esemény során a többi betûvel együtt, hogy egy ládát készíts a Kovácsnál.
+
+200600	Premium Csomag (30 nap)	Egy legendás láda, amely tartalmaz 30 napos prémium tárgyakat. Beszerezhetõ az item boltból.
+200601	Premium Csomag (Állandó)	Egy legendás láda, amely tartalmaz állandó prémium tárgyakat. Beszerezhetõ az item boltból.
+200602	Szörny Csomag	Egy legendás láda, amely olyan tárgyakat tartalmaz, amelyek erõsebbé tesznek a szörnyekkel szemben. Beszerezhetõ az item boltból.
+200603	Metin Csomag	Egy legendás láda, amely olyan tárgyakat tartalmaz, amelyek erõsebbé tesznek a metinek és fõnökökkel szemben. Beszerezhetõ az item boltból.
+200604	Buff Csomag	Egy legendás láda, amely tartalmaz állandó buffokat és buff név címkéket. Beszerezhetõ az item boltból.
+200605	Booster Csomag (14 nap)	Egy legendás láda, amely olyan erõsítõket tartalmaz, amelyek 14 napos 15%-os bónuszt biztosítanak. Beszerezhetõ az item boltból.
+200606	Fejlesztõ Csomag	Egy legendás láda, amely olyan tárgyakat tartalmaz, amelyek segítenek gyorsabban fejleszteni a karakteredet. Beszerezhetõ az item boltból.
+200610	Premium Csomag (30 nap)	Egy legendás láda, amely tartalmaz 30 napos prémium tárgyakat. Beszerezhetõ az item boltból.		Nem cserélhetõ.
+200611	Premium Csomag (Állandó)	Egy legendás láda, amely tartalmaz állandó prémium tárgyakat. Beszerezhetõ az item boltból.		Nem cserélhetõ.
+200612	Szörny Csomag	Egy legendás láda, amely olyan tárgyakat tartalmaz, amelyek erõsebbé tesznek a szörnyekkel szemben. Beszerezhetõ az item boltból.		Nem cserélhetõ.
+200613	Metin Csomag	Egy legendás láda, amely olyan tárgyakat tartalmaz, amelyek erõsebbé tesznek a metinek és fõnökökkel szemben. Beszerezhetõ az item boltból.		Nem cserélhetõ.
+200614	Buff Csomag	Egy legendás láda, amely tartalmaz állandó buffokat és buff név címkéket. Beszerezhetõ az item boltból.		Nem cserélhetõ.
+200615	Booster Csomag (14 nap)	Egy legendás láda, amely olyan erõsítõket tartalmaz, amelyek 14 napig 15%-os bónuszt nyújtanak. Beszerezhetõ az item boltból.		Nem cserélhetõ.
+200616	Fejlesztõ Csomag	Egy legendás láda, amely olyan tárgyakat tartalmaz, amelyek segítenek gyorsabban fejleszteni a karakteredet. Beszerezhetõ az item boltból.		Nem cserélhetõ.
+
+24600	Elme Köve Szimbólum	Használatkor 100%-kal növeli az elme kõ hozzáadásának esélyét egyszer.
+24601	6/7 Bûvölés Gyorsító (25%)	Használatkor 25%-kal csökkenti az 6-7 bûvölés hozzáadásának várható idejét.
+24602	6/7 Bûvölés Gyorsító (50%)	Használatkor 50%-kal csökkenti az 6-7 bûvölés hozzáadásának várható idejét.
+
+24140	1. Bûvölés Tisztító	Amikor egy kosztra húzva használod, megtisztítja az 1. bûvölési slotot.
+24141	2. Bûvölés Tisztító	Amikor egy kosztra húzva használod, megtisztítja a 2. bûvölési slotot.
+24142	3. Bûvölés Tisztító	Amikor egy kosztra húzva használod, megtisztítja a 3. bûvölési slotot.
+24143	4. Bûvölés Tisztító	Amikor egy kosztra húzva használod, megtisztítja a 4. bûvölési slotot.
+24144	5. Bûvölés Tisztító	Amikor egy kosztra húzva használod, megtisztítja az 5. bûvölési slotot.
+
+24000	Bölcsesség Lelk Köve	Egy nagy bölcs erejével megszentelt lelkõ, amely a Tökéletes Mester képesség fejlesztéséhez használatos Bölcs Mester szintre.
+24002	Szörny Vadász Kézikönyv	Egy ritka könyv, amely a Szörny Vadász képesség fejlesztéséhez használatos.
+24003	Metin Vadász Kézikönyv	Egy ritka könyv, amely a Metin Vadász képesség fejlesztéséhez használatos.
+24004	Dühös Harcos Kézikönyv	Egy ritka könyv, amely a Dühös Harcos képesség fejlesztéséhez használatos.
+24005	Ember Vadász Kézikönyv	Egy ritka könyv, amely az Ember Vadász képesség fejlesztéséhez használatos.
+24006	Elme Fókusz Kézikönyv	Egy ritka könyv, amely az Elme Fókusz képesség fejlesztéséhez használatos.
+24007	Sárkány Szív Kézikönyv	Egy ritka könyv, amely a Sárkány Szív képesség fejlesztéséhez használatos.
+24008	Gyógynövény Tanulmány Kézikönyv	Egy ritka könyv, amely a Gyógynövény Tanulmány képesség fejlesztéséhez használatos.
+24009	Tárgy Készítés Kézikönyv	Egy ritka könyv, amely a Tárgy Készítés képesség fejlesztéséhez használatos.
+24010	Vezetés Kézikönyv	Egy ritka könyv, amely a Vezetés képesség fejlesztéséhez használatos.
+24011	Bányászat Kézikönyv	Egy ritka könyv, amely a Bányászat képesség fejlesztéséhez használatos.
+24012	Horgászat Kézikönyv	Egy ritka könyv, amely a Horgászat képesség fejlesztéséhez használatos.
+24013	Bölcsesség Lelk Kiûzõ Papír	Egy erõs papír, amely a rossz szellemeket ûzi el, amikor a Bölcsesség Lelk Követ használod.
+24014	Bölcsesség Remete Erõsítés	Tartalmaz egy nagy bölcs megerõsítõ erejét, amikor a Bölcsesség Lelk Követ használod.

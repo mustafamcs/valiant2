@@ -1,0 +1,47 @@
+
+[BANNER_IMG = d:/ymir work/ui/game/wiki/category/wikipedia.png]
+[CENTER_ALIGN;FONT_SIZE=20]* The shortcuts you might need:
+[CENTER_ALIGN]The most needed shortcuts are listed bellow!
+
+[X_PADDING=135;FONT_SIZE=15]* Private Offline Shop & Trade Log
+
+[X_PADDING=135;FONT_SIZE=15]* Event Calender
+
+[X_PADDING=135;FONT_SIZE=15]* Special Inventory
+
+[X_PADDING=135;FONT_SIZE=15]* Dragon Soul Alchemy
+
+[X_PADDING=135;FONT_SIZE=15]* Pet Interface
+
+[X_PADDING=135;FONT_SIZE=15]* Private Offline Shop
+
+[X_PADDING=135;FONT_SIZE=15]* Private Shop Search
+
+[X_PADDING=135;FONT_SIZE=15]* Wikipedia
+
+[X_PADDING=135;FONT_SIZE=15]* To mount/dismount
+
+[X_PADDING=135;FONT_SIZE=15]* Activate the first page of Dragon Soul Alchemy
+
+[X_PADDING=135;FONT_SIZE=15]* Activate the second page of Dragon Soul Alchemy
+
+[X_PADDING=135;FONT_SIZE=15]* Activate the consumables
+
+[IMG=icon/emoji/others/key_f6.png; Y=80; X=10]
+[IMG=icon/emoji/others/key_f8.png; Y=107; X=10]
+[IMG=icon/emoji/others/key_u.png; Y=135; X=10]
+[IMG=icon/emoji/others/key_o.png; Y=164; X=10]
+[IMG=icon/emoji/others/key_p.png; Y=190; X=10]
+[IMG=icon/emoji/others/key_k.png; Y=220; X=10]
+[IMG=icon/emoji/others/key_j.png; Y=246; X=10]
+[IMG=icon/emoji/others/key_h.png; Y=272; X=10]
+[IMG=icon/emoji/others/key_g.png; Y=301; X=10]
+
+[IMG=icon/emoji/others/key_ctrl.png; Y=328; X=10]
+[IMG=icon/emoji/others/key_o.png; Y=328; X=60]
+
+[IMG=icon/emoji/others/key_ctrl.png; Y=356; X=10]
+[IMG=icon/emoji/others/key_p.png; Y=356; X=60]
+
+[IMG=icon/emoji/others/key_ctrl.png; Y=383; X=10]
+[IMG=icon/emoji/others/key_e.png; Y=383; X=60]

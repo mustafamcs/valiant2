@@ -1,0 +1,339 @@
+19	Omuz kuþaðý nedir?
+20	Omuz kuþaðý nedir?
+21	Omuz kuþaðý sana iki imkan sunar: Kombinasyon ve[ENTER]emiþ.[ENTER][ENTER]Kombinasyon ayný derecedeki iki kuþakla[ENTER]gerçekleþtirilebilir. Kombine edilen iki kuþak[ENTER]daha deðerli bir kuþak meydana getirir.[ENTER][ENTER]Emiþ iþleminde bir silah veya zýrh üzerinde[ENTER]bulunan bonuslar çeþitli oranlarla omuz kuþaðýna[ENTER]aktarýlýr.[ENTER][ENTER]Emiþ oraný (%) kuþaðýn derecesine baðlýdýr. Bonus[ENTER]emiþi iþlemi için seçilen silah ve zýrh geri[ENTER]döndürülemez þekilde yok edilir.
+22	Kombinasyon
+23	Ýki kuþaðý kombine mi etmek istiyorsun?
+24	Bonus Emiþi
+25	Silah veya zýrhýndan bonus mu emmek istersin?
+39	Kapat
+40	Hayýr
+114	Bilgi:
+126	Eðer þimdi evlenirsen, krallýðýný[ENTER]deðiþtiremezsin. Yalnýzca evli olmayan oyuncular[ENTER]krallýk deðiþtirebilirler.
+127	Eðer krallýk deðiþtirmek istiyorsan, boþanmalýsýn.
+128	Dönüþmüþken krallýk deðiþtiremezsin.
+129	Bu eþyayý, dönüþmüþ halden çýkýnca kullan.
+130	Bir loncanýn üyesiyken krallýk deðiþtiremezsin.
+131	Bu eþyayý ancak lonca üyesi deðilken[ENTER]kullanabilirsin.
+132	Eðer yeterli Yang'a sahip deðilsen, kralllýk[ENTER]deðiþtiremezsin.
+133	Bu nesneyi, elinizde 500.000 Yang varken kullanýn.
+134	Hangi krallýða geçmek istiyorsun?
+135	Shinsoo
+139	Gerçekten krallýk deðiþtirmek istediðine emin[ENTER]misin? Bu iþlemi geri alamazsýn.
+140	Ýmparatorluk Deðiþtir:
+141	Lütfen bu olayýn tamamlanmasý için tamamen çýkýþ[ENTER]ve giriþ yapýn.
+143	Krallýðýn seçildi.[ENTER][ENTER]Zaten içinde bulunduðun krallýðý seçmiþ[ENTER]durumdasýn. Deðiþtirmek istemiyor muydun?
+144	Krallýk seçildi[ENTER]Þu an bir loncaya üyesin, kralllýk[ENTER]deðiþtirdiðinde loncadan çýkarýlacaksýn.
+145	Krallýk seçildi[ENTER]Þu an evlisin. Yeni krallýða geçtiðinde evliliðin[ENTER]silinecek.
+147	Bu nesne sayesinde krallýk deðiþtirmen mümkün[ENTER]olacak.
+148	Bu nesneyi kullanamazsýn!
+149	Yalnýzca bir kez krallýk deðiþtirebilirsin.
+150	GM - Geri sayýmý bitirsin mi (Direkt Ýþleme[ENTER]Almak)?
+151	Ýhtiyaç duyulan süre sýfýrlandý.
+152	Evli oyuncular krallýk deðiþtiremezler.
+153	Bu nesneyi þu anda kullanamazsýn.
+689	Yaþlý kadýn:
+961	Ejderha Taþý Arýndýrma
+962	Ejderha taþý mý arýndýrmak istiyorsun? Hay hay.[ENTER]Bu iþlemin baþarýsýz geçebileceðini de önceden[ENTER]bilmeni isterim.[ENTER]Duyduðuma göre dönen paranýn arkasýnda bulunan[ENTER]ejderha fasulyeleri baþarý olasýlýðýný[ENTER]yükseltiyormuþ.
+1278	Köy Gardiyaný
+1294	Köy Gardiyaný:
+1298	BILINMEYEN TUÞ [%s]
+1301	Marketi aç
+1408	Yaþlý Kadýn:
+1692	GM: Tekrar kaydet
+1693	GM: Lonca bilgilerini kontrol et
+1694	pc.has_guild: %s
+1695	Þu an mensubu olduðun loncayý terk mi edeceksin.[ENTER]Sanýrým orada gerçek arkadaþlar edinemedin. Bu[ENTER]senin kararýn. Gerçekten loncayý terk etmek[ENTER]istiyor musun?
+1696	Tamam. Loncadan senin adýný sileceðim.
+1697	Ne?[DELAY value;150] [/DELAY][ENTER][ENTER]Ben loncayý oluþturabilmek için o kadar[ENTER]uðraþtýktan sonra, þimdi loncayý iptal etmekten[ENTER]mi bahsediyorsun? Senin ve arkadaþlarýnýn tüm[ENTER]deneyimleri ve hatýralarý sonsuza dek yok olacak![ENTER]Gerçekten loncaný kapatmayý istiyor musun?
+1698	Peki o zaman... Loncaný iptal ediyorum.
+1699	Lonca kur
+1700	Lonca kur
+1701	Loncaný terk ettiðin ilk günler itibari ile yeni[ENTER]bir lonca kuramazsýn.
+1702	kur...
+1703	Lütfen hakkýnda bilgi istediðin kullanýcý adýný[ENTER]yaz.
+1704	Zaten loncaný iptal ettin![ENTER]Hemen yeni lonca kuramazsýn.
+1705	Bir lonca mý kuracaksýn?[ENTER]Yeni bir lonca kurabilmek için 200.000 Yang ve en[ENTER]az seviye 40 olmalýsýn.[ENTER]Hala bir lonca kurmak istiyor musun?
+1706	Yeterince Yang'ýn yok!
+1707	Lonca kurmak için yeterli seviyede deðilsin.
+1710	Bu kullanýcý mevcut deðil.
+1711	En yakýn zamanda kayýt için yeniden dene.
+1712	Loncadan þu kadar gün önce çýktýn: %s gün
+1714	Kapanýþa kadar kalan süre: %s gün
+1716	Deneyi tekrarlamak için en erken olasýlýk: %s sa.
+1718	Acil düzenleme
+1719	Hýzlý kayýt mümkün
+1749	Burada loncaný, sýralamada loncana yakýn olan[ENTER]diðer loncalarý görebilirsin:[ENTER][DELAY value;0][ENTER]|Lonca adý |Puaný |Zaferleri |Beraberlikleri[ENTER]|Yenilgileri[ENTER]%s[/DELAY][ENTER]
+1750	Burada sýralamada en yüksek sekiz loncayý ve[ENTER]istatistiklerini görebilirsin:[ENTER][DELAY value;0][ENTER]|Lonca adý |Puaný |Zaferleri |Beraberlikleri[ENTER]|Yenilgileri[ENTER]%s[/DELAY][ENTER]
+1751	Kendi lonca sýralaman %s.
+1752	Puan miktarý : %s
+1911	%s Sen savaþta yer almak istiyor musun?
+2090	Seyis:
+2191	Yeni at resmi
+2192	Asker At kitabýný kaybetmiþsin.[ENTER]Sana yeni bir tanesini 500.000 Yang karþýlýðýnda[ENTER]verebilirim.
+2193	Bu asker at kitabý. Onu tekrar kaybetme.
+2194	Acemi atý çaðýrabilmek için, önce sýnavý[ENTER]geçmelisin.
+2195	Acemi at çaðýrýldý.
+2196	Olmadý! Acemi atýný çaðýramadýn. At çaðýrma[ENTER]yeteneðini geliþtirerek atýný çaðýrabilme þansýný[ENTER]artýrabilirsin.
+2197	Zihinsel gücün acemi binici atýný çaðýrmaya[ENTER]yetmiyor.[ENTER]Bunun için en az 100 Mana Puanýna sahip olman[ENTER]gerek.
+2198	Ýleri seviye binici atýný çaðýrabilmen için[ENTER]zýrhlý at kitabýna ihtiyacýn var.
+2200	Atý çaðýrabilmek için sýnavdan geçmelisin.
+2201	Acemi atý çaðýrabilmek için, at resmine ihtiyacýn[ENTER]var.
+2202	At resmini kaybettin! Sana yeni bir at resmini[ENTER]400.000 Yang'a verebilirim.
+2203	Ýleri seviye binici atý çaðýrýldý.
+2204	Zýrhlý atý çaðýrma baþarýsýz oldu. At çaðýrma[ENTER]yeteneðini geliþtirerek çaðýrma þansýný[ENTER]arttýrabilirsin.
+2205	Zihinsel gücün ileri seviye binici atýný[ENTER]çaðýrmaya yetmiyor.[ENTER]Bunun için en az 200 Mana Puanýna sahip olman[ENTER]gerek.
+2206	Uzman binici atý çaðýrmak için, asker at kitabýna[ENTER]ihtiyacýn var.
+2207	Ýleri seviye binici atýný çaðýrabilmek için[ENTER]sýnavdan geçmelisin.
+2208	Ýleri seviye binici atýný çaðýrmak için, zýrhlý[ENTER]at kitabýna ihtiyacýn var.
+2209	Uzman binici atý çaðýrýldý.
+2210	Olmadý - Asker at çaðýrma baþarýsýz.[ENTER]At Çaðýrma yeteneðini geliþtirerek çaðýrma[ENTER]þansýný arttýrabilirsin.
+2211	Zihinsel gücün az. Uzman atý çaðýrabilmen için en[ENTER]az 300 Mana Puanýna sahip olman gerekir.
+2213	Bu yeni at resmi. Onu tekrar kaybetme.
+2215	Yeterince Yang'ýn yok.
+2216	Yeni zýrhlý at kitabý
+2217	Zýrhlý at kitabýný kaybetmiþsin![ENTER]Sana yeni bir kitabý 500.000 Yang'a verebilirim.
+2218	Bu yeni zýrhlý at kitabý. Onu tekrar kaybetme.
+2219	Yeterince Yang'ýn yok.
+2220	Yeni asker at kitabý
+2263	Evet.
+2316	Sadece seviye 50 üzerindeki oyuncular[ENTER]cinsiyetlerini deðiþtirebilirler.
+2317	%s
+2318	GM - süre sýfýrlansýn mý?
+2319	Cinsiyet deðiþtirme:
+2320	Bu nesne ile karakterinin cinsiyetini[ENTER]deðiþtirebilirsin. Her 3 günde bir yeniden bu[ENTER]iþlemi yapabilirsin.
+2321	Bunu dikkatlice düþündün mü?[ENTER]Cinsiyetini gerçekten deðiþtirmek istiyor musun?[ENTER]Ardýndan otomatik olarak þehre ýþýnlanýrsýn.
+2322	Cinsiyetin deðiþti. Tüm yeteneklerin ve[ENTER]becerilerin ayný kalacak.
+2323	Cinsiyet deðiþimin iptal edildi.
+2324	Lütfen kostüm, saç stili ve zýrhý çýkar.
+2325	Bu nesneyi seviye 50'ye ulaþtýktan sonra tekrar[ENTER]kullanmayý denemelisin.
+2326	Evli oyuncular cinsiyet deðiþtiremezler. Bu[ENTER]seçenek sadece bekar oyuncular içindir.
+2327	Eðer evliysen, cinsiyet deðiþtiremezsin. Sadece[ENTER]bekar oyuncular cinsiyet deðiþtirebilirler.
+2328	Cinsiyet deðiþtirmek için boþanmalýsýn.
+2329	Dönüþmüþken cinsiyet deðiþtiremezsin.
+2331	Cinsiyet deðiþtirmeyi sadece üç günde bir[ENTER]yapabilirsin.
+2332	Cinsiyetini tekrar deðiþtirebileceðin tarih:
+2594	Loncayý daðýt
+2617	Katýlmak için izin iste
+2618	Lonca savaþlarýnýn listesine bak
+2619	Aþaðýdaki loncalar þu an savaþtalar: Eðer izlemek[ENTER]istersen, katýlan loncalardan birini seç.
+2620	Þu an, savaþmakta olan lonca yok.
+2621	Savaþlar zaten bitti.
+2622	Loncayý terket
+2625	Evet
+4298	Kendi lonca puanýmý göster
+4299	Kendi lonca sýralamamý göster
+4300	En iyi lonca sýralamasýný göster(1-8)
+4473	Evet.
+6491	Evlenmek istiyorum
+6492	Smokin
+6493	Evlilik töreni listesi
+6494	Þu an devam eden nikah töreni yok.
+6496	Nikah töreninde misafirsin! Eðlenmeye bak!
+6497	Mürekkep henüz kurumadý! Kendine daha çok zaman[ENTER]ver.
+6499	Eðer evlenmek istiyorsan, smokin giymelisin.
+6500	Gelinlik
+6501	Evlenmek istiyorsan gelinlik giymelisin.
+6502	Sevgin, tek baþýna bir düðün için yeterli olamaz,[ENTER]bir miktar Yang'a ihtiyacýn olacak. Þu anda[ENTER]yeterince Yang'ýn yok. En az 1 milyon yang[ENTER]biriktirdiðinde, senin için düðün planý yapmaktan[ENTER]mutluluk duyacaðým.
+6503	1 milyon Yang'a ihtiyacýn var.
+6504	Artýk yeterince olgunlaþtýn ve kararlý[ENTER]görünüyorsun. Kiminle evlenmek istiyorsun?
+6505	Lütfen evlenmek istediðin kiþinin ismini belirt.
+6506	Çok heyecanlý olduðundan mý ismi yazamýyorsun?[ENTER]Tekrar dene.
+6507	Ýsmi bilmiyor musun... Evlenmek istediðinden emin[ENTER]misin?
+6508	Þu anda baþka bir nikah yapýlýyor. Biraz bekle ya[ENTER]da daha sonra gel!
+6509	%s þu an online deðil.
+6510	Partnerin yanýnda olmalý ki töreni[ENTER]düzenleyebileyim. Lütfen partnerini buraya getir.
+6511	%s çok uzakta.
+6512	Kendi adýn deðil, partnerinin adý.
+6513	Partnerinin adýný yaz.
+6514	Üzgünüm. Ayný cinsiyete sahip biriyle[ENTER]evlenemezsin.
+6515	Sadece ayný krallýðýn insanlarý evlenebilir.
+6516	Evlenmek istediðin kiþi zaten bir baþkasýyla[ENTER]evli. Bilmiyor muydun? Bekar birini bul.
+6517	%s zaten evli.
+6518	Bu kiþi yeterince olgunlaþmamýþ. Partnerin en az[ENTER]seviye 25 olmalý.
+6519	Evlenmek için çok gençsin... Evlilik birçok[ENTER]sorumluluk anlamýna gelir ve sen bunlara henüz[ENTER]hazýr deðilsin. Genç insanlar hýzlý boþanýrlar.[ENTER]Bunu onaylamýyorum. Öncesinde git ve biraz[ENTER]deneyim kazan.
+6520	Siz iyi bir çift deðilsiniz. Bu evliliðe izin[ENTER]veremem.[ENTER]Evlenecek kiþiler arasýndaki seviye farký en[ENTER]fazla 15 olabilir. Daha fazla ise evlendirilemez.[ENTER]Bu sebeple þu an evlenemiyorsunuz.
+6521	Þimdi, yüzükleri deðiþtirebilirsiniz.
+6522	Yaþlý bayan:[ENTER]Evlilik insan hayatýndaki en önemli adýmlardan[ENTER]biridir. Partnerin evlilik yüzüðü almadý mý?
+6523	Partnerinin de evlilik yüzüðü almasý gerekiyor.
+6524	Partnerin evlilik kýyafetlerinden giyinmemiþ. Bu[ENTER]þekilde durmaktan utanmýyor musunuz?
+6525	Partnerin smokin giymeli.
+6526	Partnerin gelinlik giymeli.
+6528	Evet... Hazýrýz. Artýk baþlayabiliriz. Sizi[ENTER]aþýklar adasýna gönderiyorum. Size uzun ve mutlu[ENTER]bir evlilik dilerim. Tebrikler![ENTER][ENTER]Akabinde, otomatik olarak aþýklar adasýna[ENTER]gönderileceksiniz.
+6529	Partnerin seninle evlenmek istemiyor.[ENTER]Önce bu sorunu halletmelisin.
+6530	Nikah odasýna geri dön
+6531	Bilgi:
+6532	Neden hala buradasýn? Partnerin þimdiden seni[ENTER]özlüyor. Seni oraya gönderiyorum.
+6533	Evlilik izni.
+6534	Evlenme tasarýmcýsý:
+6535	Partnerinle konuþuyorum. Bir dakika, lütfen.
+6536	Ben sizin evlilik asistanýnýzým. Ýlk olarak,[ENTER]partnerinin adýný yaz.
+6537	Böyle bir isim kayýtlý deðil. Bilgilerini tekrar[ENTER]kontrol etmek ister misin?
+6538	Üzgünüm. Partnerini buraya getir. Kendisiyle[ENTER]birkaç þey konuþmalýyým.
+6539	%s yanýnda olmalý.
+6540	Lütfen kendi adýný yazma. Partnerinin adýný[ENTER]yazmalýsýn.
+6542	Evlilik, ancak seviye 25'e eriþildiðinde[ENTER]yapýlabilir.
+6543	Birþeyler yanlýþ... Bu doðru kiþi deðil. Tekrar[ENTER]kontrol eder misin?
+6544	Partnerin evlilik için hazýr deðil. Birbirinizle[ENTER]konuþun.
+6545	Artýk herþey hazýr, tören baþlayabilir!
+6546	Çok hoþ bir düðün olacak!
+6547	Nikah müziðine baþla
+6548	Nikah müziðini durdur
+6549	Gece
+6550	Kar
+6551	Nikah törenini bitir
+6552	Bir dakika bekle. Partnerinle görüþüyorum.
+6553	Nikah yüzüðü olmadan mý evlenmek istiyorsun?
+6554	Evliliðini devam ettirmek istiyor musun?
+6555	Evet
+6557	Partnerin de evlenmeyi kabul etmeli.[ENTER][ENTER]Tören devam edemez, çünkü partnerin online deðil.
+6558	Partnerinin de kabul etmesini beklemeliyiz. Henüz[ENTER]bir yanýt almadýk.
+6560	Partnerin istemiyor!
+6561	Boþanma
+6562	Boþanma
+6563	Partnerin olmadan, resmen boþanamazsýn.[ENTER]Partnerine geri dön! Boþanmak ciddi bir iþtir,[ENTER]deðil mi...?
+6564	Söz yüzüðü
+6565	Resmi bir boþanma için, 500.00 Yang ve partnerine[ENTER]ihtiyacýn var. Partnerin de boþanmayý kabul[ENTER]etmeli. Gerçekten boþanmak istiyor musun?
+6567	Nikah yüzüklerini getir.
+6568	Partnerinin de yüzüðü olmalý.
+6569	Boþanma için yeterince Yang'ýn yok.
+6570	Boþanmak için, %s Yang'a ihtiyacýn var.
+6571	Boþanmak için 500.000 Yang gerekli.
+6572	Gerçekten boþanmak istiyor musun? Bu büyük bir[ENTER]hata olabilir.[ENTER][ENTER]Gerçekten emin misin?
+6574	Fikrimi deðiþtirdim, boþanmak istemiyorum.
+6575	Önce söz yüzüðü almalýsýn. Ancak ondan sonra[ENTER]evlenebilirsin.
+6576	Böyle daha iyi. Uzun ve huzurlu bir hayat[ENTER]diliyorum.
+6577	Boþandýn.
+6579	Boþanma iþlemin geçekleþti.[ENTER]Artýk boþandýn.
+6580	Belgelerin henüz tamamlanmadý. Lütfen daha sonra[ENTER]gel.
+6581	Boþanma iþlemi iptal etildi.
+6582	Partnerin boþanmak istemiyor. Önce anlaþýn.
+6583	Nikah yüzüklerini kaldýr
+6584	Nikah yüzüklerini kaldýr
+6585	Kötü hatýralarý en kýsa zamanda unutmalýsýn.
+6586	Nikah yüzükleri çýkarýldý.
+6587	Gerçekten bu þekilde evlenmek istediðinden emin[ENTER]misin? Hayatýn boyunca bir defa evleneceksin.[ENTER]Gerektiði gibi giyinmelisin.
+6588	Tek-taraflý boþanma
+6589	Köy gardiyaný:
+6590	Tek taraflý boþanma için 1 milyon Yang'a[ENTER]ihtiyacýn var. Gerçekten hala boþanmak istiyor[ENTER]musun?
+6592	Yeterince Yang'ýn yok. Evliliðin için çok Yang'a[ENTER]ihtiyacýn var. Belki de yeniden düþünmelisin.
+6593	Gerçekten boþanmak istiyor musun? Bunu tekrar[ENTER]düþün.
+6594	Evet, istiyorum.
+6596	Peki...[ENTER]Bu daha iyi bir yol olabilir. Bu gerçekten iyi[ENTER]düþünüp karar vermen gereken bir mesele, ciddi[ENTER]ciddi düþünüp tekrar gel.
+6597	Emin olduðun zaman, tamamdýr: Artýk devam[ENTER]edebiliriz. Senin için en iyisini diliyorum.[ENTER][ENTER]Tek-taraflý boþanma uygulandý.
+7443	Sessiz ve disiplinli ol. Kendine hakim ol.[ENTER]Herhangi bir sorun baþlatma. Yoldaþlarýna saygýlý[ENTER]olmayý öðrenmelisin. Anladýn mý?
+7444	Ben gerçekten yaþlý bir adamým, ancak hala[ENTER]saðlýklý ve dincim. Çünkü bir sýrrým var.[ENTER]Gango Kökü Suyu ve Tue Mantarýndan yapýlan ömür[ENTER]uzatýcý bir karýþým buldum. Eðer bu karýþýmdan[ENTER]istersen, malzemeleri Yu-Hwan'a götürmelisin,[ENTER]senin için o iksiri yapacaktýr.
+7445	Çok güçlü görünüyorsun...
+7446	Yýllardan beridir, gücümüzün sýrrý ailemiz için[ENTER]nesilden nesile geçer. Babam bana demiþti ki,[ENTER]eðer çan çiçeðini doðru þekilde karýþtýrýrsan[ENTER]sana güç verecek bir iksir yapabilirsin. Bildiðim[ENTER]kadarýyla Baek-Go bu iksiri yapabiliyor. Tek[ENTER]ihtiyacýn ona çan çiçeði götürmek.
+7447	Git, onu daðlara söyle...
+7448	Müzisyen Yu-Hwan:
+7449	...tepelere ve her yere...[ENTER]Sen de müziði sever misin? Burada her tür parçayý[ENTER]söylerim, savaþa dahil olmuyorum. Ancak eðer[ENTER]ülkem beni korumazsa, sevdiðim bu iþi yapmaya[ENTER]devam edemem.
+7450	Neden bu kadar çok okuyorsun?
+7451	Kitapkurdu Soon:
+7452	Ah, maceracý. Dünya sorunlarla dolu, ve tek[ENTER]kurtuluþ yolu bilgi. Her zaman kitaplarýna saygý[ENTER]göstermelisin. Onlar sana kötü zamanlarda yardým[ENTER]ederler. Ýnan bana!
+7453	Çocuklarýn var mý?
+7454	Mmm, burasý harika kokuyor...
+7455	Aslýnda hiç çocuk istemiyordum, ancak... Sihir[ENTER]enerjimi arttýrmak için Kaki Çiçekleri toplayýp[ENTER]doðru þekilde hazýrlýyorum. Bunu Baek-Go buldu.[ENTER]100 adet iksir yapmak için bir tane çiçeðe[ENTER]ihtiyacý var.Ancak Kaki çiçeðinin bir de yan[ENTER]etkisi var. Eðer bir kadýn bu çiçekten yapýlmýþ[ENTER]bir kolye takarsa kýsa zamanda oðlu olur.[ENTER]Aramýzda kalsýn, karým utanmazca kullandý bunu.
+7456	Ayaðýna ne oldu?
+7457	Handu-Up:
+7458	Ýyileþiyor. Yürürken bir Gango Köküne takýldým ve[ENTER]ayaðým burkuldu.Neyse ki doktor Baek-Go'yu[ENTER]tanýyorum, beni muayene etti ve bir tavsiye[ENTER]verdi: Küçük yaralarý iyileþtirmek için Gango[ENTER]Kökü suyu kullanabilirmiþim.[ENTER]Böylece suçlu kökleri çaya karýþtýrdým ve yol[ENTER]açtýklarý acýyý dindirdiler...
+7459	Sen kimsin?
+7460	Wonda-Rim:
+7461	Ben Wonda-Rim, Chaegirab'ýn yeðeniyim. Amcam çok[ENTER]meþhur! Onu tanýyor musun? Bir çok iksiri ve[ENTER]bitkiyi araþtýrýyor. Araþtýrmalarý sýrasýnda 100[ENTER]Bo suyu ile Dutu karýþtýrýnca büyülü enerjilere[ENTER]karþý çok güçlü bir savunma elde ettiren bir[ENTER]iksir bulmayý baþardý. Bildiðim kadarýyla bu[ENTER]iksiri Huahn-So yapabiliyor.[ENTER]Kendisine gereken malzemeleri götür.
+7462	Bu kadar yara izi nasýl oldu?
+7463	Hain Balso:
+7464	Çok iyi bir savaþçý deðilim ve savaþlarda çok sýk[ENTER]yaralanýrým. Dövüþlerde yaralandýktan sonra[ENTER]Yu-Hwan'a beni yaralardan korumasý için bir iksir[ENTER]yapmasýný söylemiþtim. Bana Çançiçeði ve[ENTER]Leylaktan oluþan bir iksir yaptý, ancak pek iþe[ENTER]yaramadý. Belki de benim beceriksizliðim. Senin[ENTER]iþine yarayacaktýr.
+7465	Restoran sahibi Octavio:
+7466	Neden insanlar sana hain diyor?
+7467	Bir savaþtan kaçtým ve Siyah Rüzgar Çetesine[ENTER]katýldým. Yoldaþlarým bu yüzden beni asla[ENTER]affetmiyorlar. Sonradan Siyah Rüzgar Çetesinin[ENTER]masum insanlarý öldürdüðünü anladým ve hemen[ENTER]onlarý terk ettim. Korkunçtu!
+7468	Masum insanlarýn vebalini mi taþýyorsun?[ENTER]Öyleyse ismini gerçekten hakediyorsun. Onlarý[ENTER]güzel bir hayattan kopartmýþsýn.
+7469	Burasý adaletsiz bir dünya. Ama artýk asla kötü[ENTER]birþey yapmayacaðým.[ENTER]insanlarýn beni hain olarak çaðýrmasýný[ENTER]istemiyorum.[ENTER]Bana biraz Yang verebilir misin?
+7470	Sana neden bilge diyorlar?
+7471	Bilge Uriel:
+7472	Bu engin dünyada öðrenecek çok þey var. Cehalet[ENTER]ve silahlý kuvvetleri birleþtirmek çok berbat bir[ENTER]karýþým. Cahil askerlerle yaþamak istemiyorsun[ENTER]deðil mi? Bilgelik güçtür!
+7473	Kaynaklarým senin ilaç yaptýðýný söyledi?
+7474	Elimden geleni yapýyorum. Bu tehlikeli dünyada[ENTER]birçok insan her gün yaralanýyor. Bizim o kadar[ENTER]ilaç ve doktorumuz yok. Zaman çok zor![ENTER]Bana daha sonra yardým edebilir misin?
+7475	Av iþleri nasýl gidiyor?
+7476	Hoþgeldin! Restoranýmýz uluslararasý bir zincirin[ENTER]parçasýdýr. Gel ve bizi bir dene.
+7477	Avcý Yang-Shin:
+7478	Hmm, Metin taþlarýnýn düþmesiyle birlikte[ENTER]hayvanlar vahþileþti. Bugünlerde, tavuk avlamak[ENTER]bile seni öldürebilir. Avcýlarýn iþi çok zor.[ENTER]Neyse ki ben en iyilerden biriyim!
+7479	Bu dikkatini neye borçlusun?
+7480	Ben baþarýlý bir okçuyum çünkü benim özel bir[ENTER]reçetem var, hehe! Þeftali Çiçeði Suyu ve Leylak[ENTER]karýþtýrýrsan elde edeceðin iksir senin niþan[ENTER]alma kabiliyetini inanýlmaz artýrýr. Eðer bu[ENTER]saydýklarýmý Yu-Hwan'a götürürsen senin için[ENTER]iksiri yapacaktýr.
+7481	Ne güzel bir çiçek tacý...
+7482	Ben kardeþimle birlikte þeftali çiçeði[ENTER]topluyorum. Ama bugün yalnýzdým. Çok güzel[ENTER]deðiller ama özel bir etkileri var. Eðer sen de[ENTER]onlardan birini alýp Baek-Go'ya götürebilirsen,[ENTER]seni çevikleþtirecek bir iksir yapabilir.
+7483	Kardeþin nerede?
+7484	Bu günlerde, kardeþim çok seyahat ediyor, onu[ENTER]artýk göremiyorum ve endiþeleniyorum.
+7485	Pirinç pastasý mý satýyorsun?
+7486	Pirinç hamuru satýcýsý Yu-Rang:
+7487	Bu büyük bir restoran, ancak dekorasyonu çok[ENTER]basit.
+7488	Savaþ yüzünden, pirinç hamuru satmak çok[ENTER]zorlaþtý. Haydutlara çok teþekkür etmek lazým,[ENTER]sayelerinde bütün müþterilerimi kaybettim. Sadece[ENTER]artýk hayatýmý sürdürebilmek için ne yapacaðýmý[ENTER]bilmiyorum.
+7489	Senden kimler alýþveriþ ediyor?
+7490	Pastalarýmýn çoðunu seyyahlara satýyorum.[ENTER]Bir gün, gizemli bir süvari geldi ve benden[ENTER]pirinç pastasý almak istediðini söyledi. Fakat[ENTER]bana para yerine Zin Suyunun reçetesini verdi. Bu[ENTER]iksir saldýrý gücünü arttýrabiliyormuþ.[ENTER]Reçeteyi Huhan-Son'a sattým. Ona Sim-suyu ve Alp[ENTER]gülü götürürsen senin için Zin Suyu yapabilir.
+7491	Neden bu kadar üzgünsün?
+7492	Yeni evli çift olarak tatlý rüyalarýmýz[ENTER]merhametsizçe paramparça edileceðini bilmeliydim.[ENTER][ENTER]Ühü, ühü... lütfen bu cinayetin intikamýný al.
+7493	Savaþta çok kiþi öldü...
+7494	Savaþta birçok adam kaybettik, biz kadýnlar[ENTER]olarak toplandýk ve Huahn-So'dan savunmamýzý[ENTER]güçlendirecek olan Dok-suyunu geliþtirmesini[ENTER]istedik. Uzun araþtýrmalardan sonra, eðer[ENTER]Dok-suyuna alp gülü eklenirse çok daha güçlü[ENTER]olacaðýný buldu. Kendisine git, o Sambo-suyu[ENTER]yapabiliyor. Gerekli þeyleri götürmeyi de unutma.
+7495	Ah, ne þirin bir çocuk...
+7496	Ah-Yu:
+7497	Bir kez daha çýðlýk atýyor... Ne istediðini[ENTER]çözemiyorum þeker falan mý acaba... Ahh hayýr!
+7498	Bana çömlekçilik hakkýnda birþeyler anlat.
+7499	Siz ikiniz kimsiniz?
+7500	Evladým! Kocam savaþta düþtü, artýk ben kendime[ENTER]bakmak zorundayým. Artýk çoçuðuma ve kendime ben[ENTER]bakmaya çalýþýyorum. Bo-suyu ile hayatýmý[ENTER]geliþtirebileceðimi öðrendim. Yu-Hwan'a 100[ENTER]kakiçiçeði suyu ve Tue mantarý götürmeliyim ki[ENTER]bana ondan yapsýn.[ENTER]Þimdi bir þekilde bu malzemeleri bulmalýyým...
+7501	Senin kocan kim?
+7502	Aranyo:
+7503	Benim kocam olacak adam, kitaplarýyla evli. O[ENTER]artýk benimle ilgilenmiyor. Ama ben çirkin bir[ENTER]kadýn deðilim.
+7504	Ýþler nasýl?
+7505	Savaþ baþladýðýndan beri ticaret artýk çok[ENTER]kötüleþti. Tüccarlar birliði birliðinin çok güçlü[ENTER]olduðu zamanlar artýk geride kaldý. Artýk vahþi[ENTER]hayvanlarý görmezden gelemiyoruz, ayrýca Beyaz[ENTER]Yeminliler çetesi ve Siyah Rüzgar çetesi de[ENTER]cabasý.
+7506	Neden moralin bozuk?
+7507	Taurean:
+7508	Harang kötü bir kýz! Ondan nefret ediyorum! Ben[ENTER]zayýfým ve o hep bana çatýyor!
+7509	Çömlekçi Yonah:
+7510	Sen erkeksin, kaslarýn var. Arasýra onlara çalýþ!
+7511	Þu anda ne yapýyorsun?
+7512	Harang:
+7513	Taurean'ý bekliyorum. Beraber oyun oynarýz ve çok[ENTER]da kavga ederiz. Ne korkak ama! Eðer kendi[ENTER]isteðiyle gelmezse onu çok fena yapacaðým!
+7514	Taurean senden korkuyor.
+7515	Taurean benden daha güçlü. Bu yüzden onu yenmek[ENTER]için bir yol düþündüm. Beyaz bir Ninja Yöng Suyu[ENTER]ile Dutu karýþtýrýrsam saldýrý hýzýmýn artacaðýný[ENTER]söyledi.[ENTER]Sonunda Taurean'ý yenebileceðim! Eðer sen de[ENTER]hýzlý saldýrmak istiyorsan, malzemeleri[ENTER]Huahn-So'ya götür. Sana iksir yapacaktýr.
+7516	Yeni görüþ...
+7517	Seon-Pyeong:
+7518	Arkadaþým, dünya cevaplanmamýþ sorularla dolu. Ve[ENTER]ben cevap ve bilgi arýyorum. Destansý Silahlarý[ENTER]ve zihin taþlarýný hiç duydun mu?
+7519	Ne yapýyorsun?
+7520	Çömlekçiliði seviyorum. Ellerinle çamuru[ENTER]þekillendirmek ve birþey yaratmak çok tatmin[ENTER]edici... Genelde basit þeyler yapýyorum.[ENTER]Doðudaki daðlarýn eteklerinde yöntemler çok daha[ENTER]geliþmiþ. Bir defasýnda, orada bazý çömlekçiler[ENTER]görmüþ ve çok etkilenmiþtim.[ENTER]Zamaným olduðunda deneyler yapýyorum. Ama hala[ENTER]ustalýklarýný çözemedim.
+7521	Bilinmeyeni araþtýrdýðýmý zaten biliyorsundur. Þu[ENTER]anda iyi silahlar yapmanýn ve zihin taþlarýnýn[ENTER]gücünü arttýrmanýn yolunu arýyorum.
+7522	Silah araþtýrmasý...
+7523	Ýlginç, deðil mi? Bununla ilgili daha fazla[ENTER]þeyler mi öðrenmek istiyorsun? Öyleyse bana[ENTER]65'lik silahlardan bir +9 silah getir: Bunun[ENTER]dýþýnda bir adet eskrim broþürü ve iki adet[ENTER]kutsama kaðýdý lâzým. Onlardan sana destansý bir[ENTER]silah yapmaya çalýþacaðým.
+7524	Ancak, iþe yarayacaðýný garanti edemem.
+7525	Zihin Taþlarý...
+7526	Zihin Taþlarý çok kullanýlýyor ancak buna raðmen[ENTER]çoðu kiþi gerçek güçlerini bilmiyor.[ENTER]Araþtýrmalarým sonucunda bilgiler elde ettim.[ENTER]Eðer bana baþka bir Zihin Taþý getirirsen, onu[ENTER]senin için geliþtirebilirim.
+7527	Yaþýna göre çok hayat dolusun...
+8004	Statü sýfýrla
+8015	Bu kaðýt önceki tüm statü geliþimlerini[ENTER]sýfýrlamaný saðlar. VIT, INT, STR ve DEX[ENTER]deðerlerinin tümü etkilenerek 1e düþecek.[ENTER]Kazandýðýn puanlarý tekrar daðýtabileceksin.[ENTER][ENTER]Kaðýdý þimdi kullanmak istiyor musun?
+8153	Becerileri sýfýrla.
+8154	Eðer fikrini deðiþtirirsen, tekrar ziyaretime gel.
+8155	Yeterince Yang'ýn yok. Sana yardýmcý olamam;[ENTER]benim de kendime bakabilmek için paraya ihtiyacým[ENTER]var.
+8159	Hala bir eðitime baþlamamýþsýn! Beceri puanlarýný[ENTER]harcamadýðýn sürece onlarý sýfýrlayamazsýn. Eðer[ENTER]eðitiminde bir hata yaparsan gel, sana[ENTER]memnuniyetle yardýmcý olurum.
+8161	Ne sýfýrlanabilecek bir eðitim almýþsýn ne de[ENTER]sýfýrlanacak beceri puanýn var.
+8162	Merhaba, doðru adrese geldin. Gözlerinden bir çok[ENTER]acý okuyabiliyorum. Ben insanlarýn bildiklerini[ENTER]ve becerilerini unutup yeniden bir baþlangýç[ENTER]yapabilmelerini saðlayabiliyorum. Becerilerini[ENTER]unutup, yeniden baþlamak istiyor musun? Ücreti[ENTER]sadece %s Yang.
+8164	Ha ha, iyi hissetmiyor olabilir misin? Yüz ifaden[ENTER]bana yardýma ihtiyacýn olduðunu haykýrýyor.[ENTER]Becerilerinden memnun deðil misin yoksa?[ENTER]Büyülere teþekkür etmeli, becerilerini unutmaný[ENTER]saðlayabilirim.
+8165	Bunun anlamý yeni beceriler seçebilip yeniden[ENTER]baþlayabilecek olmandýr. Ancak ne yazýk ki[ENTER]kitaplardan kazandýðýn bütün puanlarý[ENTER]kaybedeceksin. Herþeye yeniden baþlamak[ENTER]istediðine emin misin? Ücreti %s Yang.
+8166	Becerileri sýfýrla
+8618	Marketi aç
+10928	Elbette!
+11825	Aura Giysisi: Deðerleri aktar
+11829	Aura giysisi: Geliþim
+11830	BUNDAN SONRASI ÇEVÝRÝLECEK
+200	Kusursuz %s karþýlýðýnda
+201	Mükemmel %s almak ister misin?
+202	Ýþine yaramayan Kusursuz simyalarýn varsa bana verip [ENTER] Mükemmel haline dönüþtürebilirsin.[ENTER] Bunu yapmak için Kusursuz olan simyaný üstüme [ENTER] sürüklemen yeterli.
+203	Eþya Üretimi
+204	6. ve 7. bonusu ekle
+205	Efsunlama iþlemi baþarýlý.
+206	Efsunlama iþlemi baþarýsýz.
+207	Sürenin dolmasýna : %s kaldý.
+208	Simya dönüþümü nasýl yapýlýr?
+209	Ýstediðiniz bonusu belirleyin:
+210	Canavarlara karþý güçlü +%10
+211	Seçilen Max HP. +1000
+212	Seçilen Canavarlara karþý güçlü +%10
+213	Seçilen EXP +%20
+4473	Evet
+2426	Iptal

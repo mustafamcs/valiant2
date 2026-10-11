@@ -1,0 +1,280 @@
+"ARENA_TALK_1";
+"Das Duell endete, weil dein Krieger verschwunden ist. ";
+
+"ARENA_TALK_2";
+"Hier gibt es keine Beschränkungen für Elixiere. ";
+
+"ARENA_TALK_3 %d";
+"Du kannst %d Elixiere verwenden. ";
+
+"ARENA_TALK_4";
+"Der Kampf wird innerhalb von 10 Sekunden beginnen. ";
+
+"ARENA_TALK_5";
+"Das Duell hat begonnen. ";
+
+"ARENA_TALK_6";
+"Das Duell endete aufgrund eines Problems in der Arena. ";
+
+"ARENA_TALK_7";
+"Das Duell endete aufgrund abgelaufener Zeit. ";
+
+"ARENA_TALK_8";
+"Du wirst innerhalb von 10 Sekunden in die Stadt teleportiert. ";
+
+"ARENA_TALK_9";
+"Das Duell endete aufgrund eines Problems mit der Arena. ";
+
+"ARENA_TALK_10";
+"Das Duell endete aufgrund eines Problems mit deinem Krieger. ";
+
+"ARENA_TALK_11 %s";
+"%s hat das Duell gewonnen. ";
+
+"ARENA_TALK_12 %s";
+"%s hat gewonnen. ";
+
+"ARENA_TALK_13";
+"Die nächste Runde beginnt in 10 Sekunden. ";
+
+"ARENA_TALK_14";
+"Die Kämpfer haben sich getrennt. Das Duell ist vorbei. ";
+
+"ARENA_TALK_15";
+"Du hast einen Kampf betreten. Das Verlassen ist abgebrochen. ";
+
+"ARENA_TALK_16";
+"Noch 4 Minuten, bis die Monster angreifen. ";
+
+"ARENA_TALK_17";
+"Noch 1 Minute, bis die Monster angreifen. ";
+
+"ARENA_TALK_18";
+"Die Monster haben begonnen, das Schloss anzugreifen.";
+
+"Your time is up, can deliver the next item.";
+"Deine Wartezeit ist abgelaufen, du kannst den nächsten Gegenstand liefern.";
+
+"It clears my mind. I feel something lightening my chest.";
+"Es klärt meinen Geist. Ich spüre, wie sich etwas von meiner Brust löst.";
+
+"Your alignment is increased %d";
+"Deine Ausrichtung wurde um %d erhöht.";
+
+"cItem 5485 %s owner %s";
+"cItem 5485 %s Besitzer %s";
+
+"cItem 5486 %s wtf %s";
+"cItem 5486 %s wtf %s";
+
+"SKILL_TALKING_2";
+"Diese Methode ist viel komplizierter als ich dachte.";
+
+"CMD_TALK_3 %s %s";
+"Die Gilde %s wurde von %s erobert. ";
+
+"Shutdown in %d";
+"Herunterfahren in %d Sekunden.";
+
+"The game will shut down after %d seconds.";
+"Das Spiel wird nach %d Sekunden heruntergefahren.";
+
+"You roll %d. (%d-%d)";
+"Du hast %d geworfen. (%d-%d)";
+
+"%s rolled the dice, resulting in %d. (%d-%d)";
+"%s hat %d geworfen. (%d-%d)";
+
+"An error has occurred, report this error to authorities. Fish #s parameter";
+"Ein Fehler ist aufgetreten. Bitte melden Sie diesen Fehler den Behörden. Fisch #s Parameter";
+
+"An error has occurred, report this error to authorities. Fish #not arg";
+"Ein Fehler ist aufgetreten. Bitte melden Sie diesen Fehler den Behörden. Fisch #not arg";
+
+"Cannot set stat under initial stat";
+"Statistik kann nicht unter den Anfangswert gesetzt werden";
+
+"syntax: offshop_change_shop_name <player-id> <new-name>";
+"Syntax: offshop_change_shop_name <Spieler-ID> <neuer-Name>";
+
+"syntax: offshop_force_close_shop <player-id>";
+"Syntax: offshop_force_close_shop <Spieler-ID>";
+
+"Cannot find shop by id %u";
+"Shop kann nicht anhand der ID %u gefunden werden";
+
+"shop's name changed.";
+"Der Name des Shops wurde geändert.";
+
+"shop closed successfully.";
+"Shop erfolgreich geschlossen.";
+
+"BATTLEPASS_NOT_COMPLETED_ALL_NORMAL_MISSIONS";
+"Du hast noch nicht alle Missionen im Normalen Battle Pass abgeschlossen!";
+
+"BATTLEPASS_NOT_COMPLETED_ALL_PREMIUM_MISSIONS";
+"Du hast noch nicht alle Missionen im Premium Battle Pass abgeschlossen!";
+
+"BATTLEPASS_NOT_COMPLETED_ALL_EVENT_MISSIONS";
+"Du hast noch nicht alle Missionen im Event Battle Pass abgeschlossen!";
+
+"BATTLEPASS_ALREADY_EARNED_BATTLEPASS_REWARD";
+"Du hast bereits deine Belohnung für diesen Battle Pass beansprucht!";
+
+"BATTLEPASS_COMPLETE_NORMAL_MISSION";
+"Du hast eine Mission im Battle Pass erfolgreich abgeschlossen!";
+
+"BATTLEPASS_COMPLETE_PREMIUM_MISSION";
+"Du hast eine Mission im Premium Battle Pass erfolgreich abgeschlossen!";
+
+"BATTLEPASS_COMPLETE_EVENT_MISSION";
+"Du hast eine Mission im Event Battle Pass erfolgreich abgeschlossen!";
+
+"BATTLEPASS_NOW_IS_ACTIVATED_PREMIUM_BATTLEPASS";
+"Dein Zugang zum Premium Battle Pass für die aktuelle Saison wurde aktiviert. Viel Glück!";
+
+"BATTLEPASS_NOW_IS_ACTIVATED_PREMIUM_BATTLEPASS_OWN";
+"Du hast den Zugang zum Premium Battle Pass für die aktuelle Saison aktiviert. Viel Glück!";
+
+"BATTLEPASS_CMDGM_ACTIVATE_PREMIUM_TO_PLAYER";
+"Du hast den Premium Battle Pass für die aktuelle Saison auf %s aktiviert.";
+
+"BATTLEPASS_CMDGM_DEACTIVATE_PREMIUM_PLAYER";
+"Dein Premium Battle Pass wurde deaktiviert.";
+
+"BATTLEPASS_CMDGM_DEACTIVATE_PREMIUM_TO_PLAYER";
+"Du hast den Premium Battle Pass auf %s deaktiviert.";
+
+"BATTLEPASS_CMDGM_DEACTIVATE_PREMIUM_OWN";
+"Der Zugang zum Premium Battle Pass wurde von dir deaktiviert.";
+
+"BATTLEPASS_NEXT_REFRESH_RANKLIST_TIME";
+"Du kannst die Rangliste erst in %d Sekunden aktualisieren.";
+
+"Current remaining number of participants: %d";
+"Aktuelle verbleibende Anzahl der Teilnehmer: %d";
+
+"You can post new comment in: %02d mins and %02d secs";
+"Du kannst in: %02d Minuten und %02d Sekunden einen neuen Kommentar posten";
+
+"GUILD_TALK_14 %d";
+"<Gilde> Spieler kann nach %d Tagen eingeladen werden.";
+
+"GUILD_TALK_17 %d";
+"<Gilde> Du kannst Mitglieder innerhalb von %d Tagen nach der Anpassung einladen.";
+
+"GUILD_TALK_10 %s %s";
+"%s hat der Gilde %s den Krieg erklärt!";
+
+"GUILD_TALK_5 %s %s";
+"In der Gilden-Schlacht hat die Gilde %s gegen die Gilde %s gewonnen.";
+
+"GUILD_TALK_6 %s %s";
+"Der Kampf zwischen %s und %s endete unentschieden.";
+
+"GUILD_TALK_7 %s %s";
+"Die Gilden-Schlacht zwischen %s und %s hat begonnen.";
+
+"GUILD_TALK_8 %s %s";
+"Die Gilden-Schlacht zwischen %s und %s beginnt in einer Minute!";
+
+"GUILD_TALK_5";
+"<Gilde> Die Gilden-Schlacht wurde abgesagt.";
+
+"GUILD_TALK_1 %d";
+"<Gilde> Das Ranking wurde auf %d Punkte erhöht.";
+
+"GUILD_TALK_2";
+"Du hast der Gilde den Krieg erklärt.";
+
+"GUILD_TALK_3";
+"Der Gildenkrieg kann nicht starten, solange der Server offline ist.";
+
+"%s is not online.";
+"%s ist nicht online.";
+
+"Critical server error. The server will reboot automatically.";
+"Kritischer Serverfehler. Der Server wird automatisch neu gestartet.";
+
+"You will be disconnected in 10 seconds.";
+"Du wirst in 10 Sekunden getrennt.";
+
+"You can connect again after 5 minutes.";
+"Du kannst dich nach 5 Minuten wieder verbinden.";
+
+"The number of bets is invalid, please try again.";
+"Die Anzahl der Wetten ist ungültig. Bitte versuche es erneut.";
+
+"Failed.";
+"Fehlgeschlagen.";
+
+"Success.";
+"Erfolg.";
+
+"Pet type changed new type : %d";
+"Haustier-Typ geändert auf neuen Typ: %d";
+
+"Bonuschange of %s (Slot: %d) erfolgreich abgeschlossen.";
+"Bonusrückgabe von %s (Slot: %d) erfolgreich abgeschlossen.";
+
+"OX_TALK_1";
+"Wahr.";
+
+"OX_TALK_2";
+"Frage.";
+
+"OX_TALK_3";
+"Gehe zu O, wenn es wahr ist, gehe zu X, wenn es falsch ist.";
+
+"OX_TALK_4";
+"Teilnehmer, die falsch antworten, werden in 5 Sekunden teleportiert.";
+
+"OX_TALK_5";
+"Nein (X)";
+
+"OX_TALK_6";
+"Ja (O)";
+
+"OX_TALK_7";
+"Richtige Antwort:";
+
+"OX_TALK_8";
+"Du erhältst das Ergebnis innerhalb von 10 Sekunden.";
+
+"OX_TALK_9";
+"Falsch";
+
+"OX_TALK_10 %d";
+"Gesamtzahl der Fragen: %d";
+
+"OX_TALK_11";
+"Bist du bereit für die nächste Frage?";
+
+"%s wants to fight with you.";
+"%s möchte gegen dich kämpfen.";
+
+"Everyone will be teleported to the town.";
+"Alle werden in die Stadt teleportiert.";
+
+"TRANSLATE_CLOSE_QUESTNPC";
+"Schließen";
+
+"You can join the guild war as a spectator.";
+"Du kannst der Gilden-Schlacht als Zuschauer beitreten.";
+
+"If you are a spectator <End View>-Button zum Beenden.";
+
+"No other guild members participated in the Guild War.";
+"Keine anderen Gildenmitglieder haben an der Gilden-Schlacht teilgenommen.";
+
+"If no one logs in within 1 minute, the guild battle will end automatically.";
+"Wenn sich innerhalb von 1 Minute niemand einloggt, wird die Gilden-Schlacht automatisch beendet.";
+
+"The guild battle ended early and it was decided as a draw. (less than 5 minutes)";
+"Die Gilden-Schlacht endete frühzeitig und wurde als unentschieden entschieden (weniger als 5 Minuten).";
+
+"The wedding will be over soon.";
+"Die Hochzeit wird bald enden.";
+
+"When the wedding is over, you will be sent to the village.";
+"Nachdem die Hochzeit vorbei ist, wirst du ins Dorf geschickt.";

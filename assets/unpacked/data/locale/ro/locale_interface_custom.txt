@@ -1,0 +1,339 @@
+DRAGONSOUL_GRADE_0	Brut
+DRAGONSOUL_GRADE_1	Taiat
+DRAGONSOUL_GRADE_2	Rar
+DRAGONSOUL_GRADE_3	Antic
+DRAGONSOUL_GRADE_4	Legendar
+DRAGONSOUL_GRADE_5	Mitic
+LOGIN_PIN	PIN
+LOGIN_ID	ID de autentificare
+LOGIN_PW	Parolã
+SPECIAL_INVENTORY_TITLE	Inventar Special
+SPECIAL_STORAGE_ARRANGE	Ordonare Inventar
+DRAGONSOUL_NEWREFINE	Rafinare
+DO_ALL_REFINE	Rafinare Rapidã
+REFINE_ALL_PAGES	Rafinare Toate Paginile
+INVENTORY_PAGE_BUTTON_TOOLTIP_5	Al 5-lea Inventar
+SPLIT_ITEMS_WINDOW_TITLE	Divizare Obiecte
+
+HIDE_COSTUME	Ascunde costumul
+
+GAMEOPTION_CAT_02	Setãri Grafice
+GAMEOPTION_CAT_03	Setãri Sunet
+
+GAMEOPTION_CAT_02_SUBCAT_1	Interfa?ã
+GAMEOPTION_CAT_02_SUBCAT_2	Performan?ã
+
+GAMEOPTION_OUTLINE_TEXT	Umbra Textului
+GAMEOPTION_AFFECT_TEXT	Pictograme
+GAMEOPTION_HIGHLIGHT_TEXT	Anima?ie Obiect Nou
+GAMEOPTION_ENTITY_RANGE	Distan?a Obiectelor
+
+GAMEOPTION_ENTITY_RANGE0	Scurtã
+GAMEOPTION_ENTITY_RANGE1	Medie
+GAMEOPTION_ENTITY_RANGE2	Lungã
+
+GAMEOPTION_HIDE_TEXT	Ascunde modelele
+GAMEOPTION_HIDE_NPC	NPC
+GAMEOPTION_HIDE_PET	Animale de Companie
+GAMEOPTION_HIDE_MOUNT	Monturi
+GAMEOPTION_HIDE_SHOPS	Magazine
+GAMEOPTION_WINDOW_ANIMATIONS	Anima?ii ferestre
+GAMEOPTION_ANIMATIONS_OFF	Dezactivat
+GAMEOPTION_ANIMATIONS1	Tip 1
+GAMEOPTION_ANIMATIONS2	Tip 2
+GAMEOPTION_ANIMATIONS3	Tip 3
+GAMEOPTION_ANIMATIONS4	Tip 4
+GAMEOPTION_ANIMATIONS5	Tip 5
+GAMEOPTION_ANIMATIONS6	Tip 6
+GAMEOPTION_ANIMATIONS7	Tip 7
+
+GAMEOPTION_FONT_WARNING	Reporni?i clientul pentru a vedea schimbãrile.
+
+GAMEOPTION_EFFECT_TEXT	Efecte
+
+GAMEOPTION_STONE_SCALE	Scalare Piatrã Metin
+GAMEOPTION_DAMAGE_SCALE	Scalare Afi?aj Daune
+GAMEOPTION_OBJECT_SCALE	Distan?ã Obiecte
+
+GAMEOPTION_DAMAGE_TYPE	Imagine Daune
+GAMEOPTION_DAMAGE_TYPE0	TIP 1
+GAMEOPTION_DAMAGE_TYPE1	TIP 2
+GAMEOPTION_DAMAGE_TYPE2	TIP 3
+
+GAMEOPTION_DAMAGE_RENEWED_TYPE	Design Daune
+GAMEOPTION_DAMAGE_RENEWED_TYPE0	Normal
+GAMEOPTION_DAMAGE_RENEWED_TYPE1	Nou
+
+GAMEOPTION_EVENT_MINI_ICON	Iconi?ã Mini Calendar Evenimente
+
+GAMEOPTION_LOADING_TYPE	Îmagine de încãrcare
+GAMEOPTION_LOADING_TYPE_BUTTON	Nou
+GAMEOPTION_LOADING_TYPE_BUTTON2	Veche
+
+MINIMAP_BUTTON_01	Cãutare Obiecte
+MINIMAP_BUTTON_02	Biolog
+MINIMAP_BUTTON_03	Clasament
+HIDE_COSTUME	Ascunde costumul
+
+SEND_WHISPER_ADMIN_INFO	Introduce?i mesajul pentru a-l trimite jucãtorilor.
+SEND_WHISPER_ADMIN_TITLE	Manager Mesaje în Masã
+
+OPTION_FOV	Câmp vizual
+
+OPTION_SKYBOX	Imagine Cer
+OPTION_SKYBOX_0	Normalã 
+OPTION_SKYBOX_1	Mod 1
+OPTION_SKYBOX_2	Mod 2
+OPTION_SKYBOX_3	Mod 3
+OPTION_SKYBOX_4	Mod 4
+OPTION_SKYBOX_5	Mod 5
+OPTION_SKYBOX_6	Mod 6
+OPTION_SKYBOX_7	Mod 7
+
+CHARACTER_STATS_PAGE	Statistici
+STATICS_01	Daune maxime într-un jucãtor
+STATICS_02	Daune maxime într-un monstru
+STATICS_03	Daune maxime într-o piatrã
+STATICS_04	Daune maxime într-un lider
+STATICS_05	Numãrul total de mon?trii uci?i
+STATICS_06	Numãrul total de pietre metine
+STATICS_07	Numãrul total de lideri uci?i
+STATICS_08	Numãrul total de jucãtori uci?i
+STATICS_09	Numãrul total de rafinãri importante
+STATICS_10	Numãrul total de temni?e finalizate
+STATICS_11	Numãrul total de pe?ti captura?i
+STATICS_12	Numãrul total de minereuri
+STATICS_13	Numãrul total de cufere deschise
+STATICS_14	Numãrul total de atribute schimbate
+STATICS_15	Puncte de bãtãlie
+STATICS_16	Aliniere
+STATICS_17	Timp de Joc
+
+PLAYER_IS_ONLINE_NOW	%s este online acum.
+
+PET_ATTR_CHANGE_ITEM_TEXT	Schimbã Atributul
+PET_ATTR_CHANGE_TITLE	Schimbã tipul înso?itorului
+PET_ATTR_CONFIRMATION	Schimbã
+PET_ATTR_DETERMINE_TITLE	Noul tip al înso?itorului
+PET_ATTR_OK	OK
+PET_CHANGE_TEXT	Animal de companie
+PET_FEED_TITLE	Hrãnire
+PET_FFED_BUTTON_TEXT	Hrãne?te
+PET_HATCHING_BUTTON	Nume înso?itor
+PET_HATCHING_NIK	Nume înso?itor
+PET_HATCHING_WINDOW_TITLE	Încubare
+PET_INFORMATION_ABILITIES	Bonusuri
+PET_INFORMATION_AGE	Vârstã
+PET_INFORMATION_COSTUME_BONUS	Bonusuri costum
+PET_INFORMATION_DEFENCE	Apãrare
+PET_INFORMATION_EVOL_BUTTON	Evolueazã
+PET_INFORMATION_EXP	Experien?ã
+PET_INFORMATION_EXP_BUTTON	Experien?ã obiect
+PET_INFORMATION_HP	Via?ã
+PET_INFORMATION_LEVEL	Nivel
+PET_INFORMATION_LIFE	Duratã de Via?ã
+PET_INFORMATION_LIFETIME_BUTTON	Hrãne?te
+PET_INFORMATION_LIFE_TIME	Timp
+PET_INFORMATION_SKILL	Skill
+PET_INFORMATION_SP	Putere
+PET_INFORMATION_TITLE	Animal de companie
+PET_NAME_CHANGE_BUTTON	Schimbã
+PET_NAME_CHANGE_WINDOW_TITLE	Denume?te-?i înso?itorul
+PET_SYSTEM_FEED	Hrãnire
+PET_SYSTEM_PET_NAME	Numele înso?itorului
+PET_SYSTEM_HATCH	Încubare
+PET_SYSTEM_LEVEL	Nivel
+PET_SYSTEM_EXP	Experien?ã
+PET_SYSTEM_EXP22	Legendar (16)
+PET_SYSTEM_AGE	Vârstã
+PET_SYSTEM_DURATION	Duratã
+PET_SYSTEM_EVOLVE	Evolueazã
+PET_SYSTEM_ITEM_EXP	Experien?ã obiect
+PET_SYSTEM_BONUSES	Bonusuri
+PET_SYSTEM_INCUBATOR	Incubator
+PET_SYSTEM_HP	Via?ã (Procent)
+PET_SYSTEM_DEF	Apãrare (Procent)
+PET_SYSTEM_ATTACK	Atac (Procent)
+PET_BESLE	Hrãnire
+SELECT_JOB_TITLE	Selecta?i grupul de abilitã?i
+
+SKILL_COLOR_TITLE	Alege?i culoarea
+SKILL_COLOR_PRESET_TITLE	Presetãri Salvate
+SKILL_COLOR_PRESET_SELECT	Selecta?i
+SKILL_COLOR_PRESET_SAVE	Salva?i-vã presetul
+SKILL_COLOR_PRESET_CLEAR	Curã?a?i
+SKILL_COLOR_CUSTOM_COLOR_CODE_TITLE	Cod Culoare
+SKILL_COLOR_DEFAULT	Culoare Implicitã
+SKILL_COLOR_CHANGE	Schimbã culoarea
+SKILL_COLOR_CANCEL	Anuleazã
+
+AURA_ACCEPT	Rafinare
+AURA_ACCEPT2	Rafinare (x10)
+AURA_ACCEPT_REFINE_MAX_ABS	Aura are deja rata maximã de absorb?ie, nu o pute?i îmbunãtã?i mai mult!
+AURA_ACCEPT_REFINE_ITEM	Nu ave?i materialele necesare.
+AURA_DRAIN_PER	Ratã Absorb?ie %.1f%%
+AURA_LEVEL_STEP	Niv. %d (Nivel %d)
+AURA_TITLE_ABSORB	Transfera?i bonusurile echipamentului la costumul aurã.
+AURA_TITLE_EVOLUTION	Evolu?ie
+AURA_TITLE_GROWTH	Îmbunãtã?ire costum aurã
+AURA_TOOLTIP_EXP	EXP (%%%d / %%100)
+AURA_TOOLTIP_LEVEL	Niv. %d (Nivel %d) (Ratã Absorb?ie %%%.1f)
+AURA_TOOLTIP_NEED_YANG	10.000.000 Yang
+AURA_TOOLTIP_NEED_YANG2	20.000.000 Yang
+AURA_TOOLTIP_NEXT	Urmãtorul
+AURA_TOOLTIP_NOW	Acum
+AURA_TOOLTIP_RESOURCE	Resursã
+AURA_TOOLTIP_RESOURCE_ITEM	%s * %d
+ACCE_FAILURE_CLEAN_TYPE_EROR	Acest obiect poate fi utilizat doar slot-ul special sau costum aurã.
+EXTENDET_BATTLE_PASS_TITLE	BattlePass
+EXTENDET_BATTLE_PASS_RANK_ICON_RANK	Clasament
+EXTENDET_BATTLE_PASS_RANK_ICON_NAME	Nume jucãtor
+EXTENDET_BATTLE_PASS_RANK_ICON_TIME	Timp rãmas
+EXTENDET_BATTLE_PASS_NO_PLANNED_NORMAL_BATTLEPASS	Battlepass-ul este deja activ.
+EXTENDET_BATTLE_PASS_PLANNED_NEXT_NORMAL_BATTLEPASS	Nu sunt planificate bilete pentru battlepass în viitor.
+EXTENDET_BATTLE_PASS_TIME_TO_NEXT_NORMAL_BATTLEPASS	Timp pânã la urmãtorul Battlepass: %s
+EXTENDET_BATTLE_PASS_NO_PLANNED_PREMIUM_BATTLEPASS	Battlepass Premium este momentan inactiv.
+EXTENDET_BATTLE_PASS_PLANNED_NEXT_PREMIUM_BATTLEPASS	Nu sunt planificate bilete pentru battlepass în prezent.
+EXTENDET_BATTLE_PASS_TIME_TO_NEXT_PREMIUM_BATTLEPASS	Timp pânã la urmãtorul Battlepass Premium: %s
+EXTENDET_BATTLE_PASS_NO_PLANNED_EVENT_BATTLEPASS	Battlepass-ul pentru eveniment este momentan inactiv.
+EXTENDET_BATTLE_PASS_PLANNED_NEXT_EVENT_BATTLEPASS	Nu sunt planificate bilete pentru battlepass pentru Eveniment în prezent.
+EXTENDET_BATTLE_PASS_TIME_TO_NEXT_EVENT_BATTLEPASS	Timp pânã la urmãtorul Battlepass de Eveniment: %s
+EXTENDET_BATTLE_PASS_SEASON_TITLE	Informa?ii despre urmãtorul sezon din battlepass
+EXTENDET_BATTLE_PASS_SEASON_NAME	Sezon: %s
+EXTENDET_BATTLE_PASS_SEASON_TOTAL_MISSIONS	Misiuni totale: %d
+EXTENDET_BATTLE_PASS_SEASON_CURRENT_MISSIONS	Completate: %d / %d
+EXTENDET_BATTLE_PASS_SEASON_DATE_FROM	Data de început
+EXTENDET_BATTLE_PASS_SEASON_DATE_TO	Data de sfâr?it
+EXTENDET_BATTLE_PASS_SEASON_REST_TIME	Timp rãmas: %s
+EXTENDET_BATTLE_PASS_SEASON_PROGRESS	Progres
+EXTENDET_BATTLE_PASS_MISSION_MISSION_NAME	Nume misiune
+EXTENDET_BATTLE_PASS_MISSION_NAME	Nume misiune
+EXTENDET_BATTLE_PASS_MISSION_STATUS	Stare misiune
+EXTENDET_BATTLE_PASS_MISSION_INFO	Informa?ii
+EXTENDET_BATTLE_PASS_MISSION_STATUS_IN_PROGRESS	|cfffeff7d|H|h În progres!|h|r
+EXTENDET_BATTLE_PASS_MISSION_STATUS_FINISH	|cff82ff7d|H|hCompletat!|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION	Informa?ii:
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_MONSTER	Monstru: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_MINLEVEL	Nivel Min.: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_ITEM	Obiect: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_ORE	Minerale: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_FISH	Pe?te: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_MAPNAME	Hartã: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_GUILDWARTYPE	Rãzboi de Ghildã: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_PET_MINTYPE	Tip Min. pentru animal: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_DUNGEON	Temni?e: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_MINIGAME	Minigame: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_COUNT	Rãmas: |cfffeff7d|H|h%s|h|r / |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_COUNT_GOLD	Rãmas: |cfffeff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_PERCENT	Completat |cfffeff7d|H|h%.2f%%|h|r
+EXTENDET_BATTLE_PASS_DESCRIPTION	Descriere:
+EXTENDET_BATTLE_PASS_MISSION_COMPLETED	Completatã
+EXTENDET_BATTLE_PASS_NONE_COND_TITLE_MOB	Monstru
+EXTENDET_BATTLE_PASS_NONE_COND_TITLE_ITEM	Obiect
+EXTENDET_BATTLE_PASS_NONE_COND_TITLE_FISH	Pe?te
+EXTENDET_BATTLE_PASS_NONE_COND_TITLE_DUNGEON	Completeazã temni?e
+EXTENDET_BATTLE_PASS_NONE_COND_TITLE_MINIGAME	Minigame
+EXTENDET_BATTLE_PASS_TYPENAME_1	Distruge %s
+EXTENDET_BATTLE_PASS_TYPENAME_1_DESC_1	Ucide %sx %s.
+EXTENDET_BATTLE_PASS_TYPENAME_1_DESC_2	Ucide %sx
+EXTENDET_BATTLE_PASS_TYPENAME_2	Ucide %s jucãtori!
+EXTENDET_BATTLE_PASS_TYPENAME_2_DESC_1	Omoarã %s jucãtori! (Cel pu?in nivelul %s)
+EXTENDET_BATTLE_PASS_TYPENAME_2_DESC_2	Omoarã %s jucãtori! (Fãrã limitã de nivel)
+EXTENDET_BATTLE_PASS_TYPENAME_3	Atacã mon?trii
+EXTENDET_BATTLE_PASS_TYPENAME_3_DESC_1	Atinge damage maxim la %s %s.
+EXTENDET_BATTLE_PASS_TYPENAME_3_DESC_2	Cauzeazã un total de %s daune mon?trilor. (valabil pentru toate creaturile)
+EXTENDET_BATTLE_PASS_TYPENAME_4	Atacã jucãtori
+EXTENDET_BATTLE_PASS_TYPENAME_4_DESC_1	Realizeazã un total de %s daune la jucãtori de nivel minim %d. Jucãtori din orice regat sunt lua?i în considerare.
+EXTENDET_BATTLE_PASS_TYPENAME_4_DESC_2	Realizeazã un total de %s daune la jucãtori. Jucãtori din orice regat sunt lua?i în considerare.
+EXTENDET_BATTLE_PASS_TYPENAME_5	Folose?te %s
+EXTENDET_BATTLE_PASS_TYPENAME_5_DESC_1	Trebuie sã folose?ti %sx %s pentru a completa aceastã sarcinã.
+EXTENDET_BATTLE_PASS_TYPENAME_5_DESC_2	Trebuie sã folose?ti sau sã deschizi %sx obiecte pentru a completa aceastã sarcinã.
+EXTENDET_BATTLE_PASS_TYPENAME_6	Vinde %s
+EXTENDET_BATTLE_PASS_TYPENAME_6_DESC_1	Vinde %sx %s la NPC-uri pentru a completa aceastã misiune.
+EXTENDET_BATTLE_PASS_TYPENAME_6_DESC_2	Vinde %sx obiecte la NPC-uri pentru a completa aceastã misiune.
+EXTENDET_BATTLE_PASS_TYPENAME_7	Fã %s
+EXTENDET_BATTLE_PASS_TYPENAME_7_DESC_1	Pentru a completa aceastã misiune, trebuie sã faci %sx %s.
+EXTENDET_BATTLE_PASS_TYPENAME_7_DESC_2	Pentru a completa aceastã misiune, trebuie sã faci %sx (orice obiect)
+EXTENDET_BATTLE_PASS_TYPENAME_8	Upgrade %s
+EXTENDET_BATTLE_PASS_TYPENAME_8_DESC_1	Pentru a completa aceastã misiune, trebuie sã upgradezi %sx la nivelul urmãtor al %s.
+EXTENDET_BATTLE_PASS_TYPENAME_8_DESC_2	Pentru a completa aceastã misiune, trebuie sã upgradezi %s la nivelul urmãtor.
+EXTENDET_BATTLE_PASS_TYPENAME_9	Distruge %s
+EXTENDET_BATTLE_PASS_TYPENAME_9_DESC_1	Distruge %sx %s pentru a completa aceastã misiune.
+EXTENDET_BATTLE_PASS_TYPENAME_9_DESC_2	Distruge %s pentru a completa aceastã misiune.
+EXTENDET_BATTLE_PASS_TYPENAME_10_1	Colecteazã %s
+EXTENDET_BATTLE_PASS_TYPENAME_10_2	Extrage %s
+EXTENDET_BATTLE_PASS_TYPENAME_10_1_DESC_1	Trebuie sã colectezi %sx %s pentru a completa aceastã misiune.
+EXTENDET_BATTLE_PASS_TYPENAME_10_2_DESC_1	Trebuie sã extragi %sx %s pentru a completa aceastã misiune.
+EXTENDET_BATTLE_PASS_TYPENAME_10_DESC_2	Trebuie sã colectezi %s obiecte pentru a completa aceastã misiune.
+EXTENDET_BATTLE_PASS_TYPENAME_11	Prinde %s
+EXTENDET_BATTLE_PASS_TYPENAME_11_DESC_1	Prinde %sx %s din apã pentru a completa aceastã misiune.
+EXTENDET_BATTLE_PASS_TYPENAME_11_DESC_2	Prinde %sx orice pe?te din apã pentru a completa aceastã misiune.
+EXTENDET_BATTLE_PASS_TYPENAME_12	Gãte?te %s
+EXTENDET_BATTLE_PASS_TYPENAME_12_DESC_1	Gãte?te %sx %s în jurul focului de tabãrã pentru a completa aceastã misiune.
+EXTENDET_BATTLE_PASS_TYPENAME_12_DESC_2	Terminã %sx orice fel de mâncare pe grãtar într-un foc de tabãrã.
+EXTENDET_BATTLE_PASS_TYPENAME_13	Colecteazã %s
+EXTENDET_BATTLE_PASS_TYPENAME_13_DESC_1	Omoarã %sx %s pentru a completa aceastã misiune.
+EXTENDET_BATTLE_PASS_TYPENAME_13_DESC_2	Omoarã orice pe?te de %s ori pentru a completa aceastã misiune.
+EXTENDET_BATTLE_PASS_TYPENAME_14	Adunã %s experien?ã
+EXTENDET_BATTLE_PASS_TYPENAME_14_DESC_1	Pentru a completa aceastã misiune, trebuie sã ob?ii %s EXP de la %s.
+EXTENDET_BATTLE_PASS_TYPENAME_14_DESC_2	Ob?ine %s EXP de la orice monstru pentru a completa aceastã misiune.
+EXTENDET_BATTLE_PASS_TYPENAME_15	Colecteazã %s yang
+EXTENDET_BATTLE_PASS_TYPENAME_15_DESC_1	Pentru a completa aceastã misiune, trebuie sã ob?ii %s Yang de la creaturile de pe harta %s.
+EXTENDET_BATTLE_PASS_TYPENAME_15_DESC_2	Trebuie sã colectezi %s Yang de la mon?tri pentru a completa aceastã misiune.
+EXTENDET_BATTLE_PASS_TYPENAME_16	Participã la Rãzboiul Ghildelor
+EXTENDET_BATTLE_PASS_TYPENAME_16_DESC_1	Completeazã %sx cu tipul de rãzboi de ghildã %s.
+EXTENDET_BATTLE_PASS_TYPENAME_16_DESC_2	Terminã %sx orice tip de rãzboi al ghildelor.
+EXTENDET_BATTLE_PASS_TYPENAME_17	Doneazã EXP unei Ghilde
+EXTENDET_BATTLE_PASS_TYPENAME_17_DESC_1	Doneazã %s EXP unei Ghilde.
+EXTENDET_BATTLE_PASS_TYPENAME_18	Crafteazã %s gaya
+EXTENDET_BATTLE_PASS_TYPENAME_18_DESC_1	Crafteazã %s gaya
+EXTENDET_BATTLE_PASS_TYPENAME_19	Cumpãrã din Magazinul Gaya
+EXTENDET_BATTLE_PASS_TYPENAME_19_DESC_1	Cumpãrã obiecte din Magazinul Gaya în valoare totalã de %s Gaya.
+EXTENDET_BATTLE_PASS_TYPENAME_20	Încânte un Animal de companie %s ori
+EXTENDET_BATTLE_PASS_TYPENAME_20_DESC_1	Încânte un Animal de companie %sx. Animalul trebuie sã aibã cel pu?in tipul de Pet %s.
+EXTENDET_BATTLE_PASS_TYPENAME_20_DESC_2	Încânte un Animal de companie %sx.
+EXTENDET_BATTLE_PASS_TYPENAME_21	%s
+EXTENDET_BATTLE_PASS_TYPENAME_21_DESC_1	Pentru a completa %s, trebuie sã termini %sx temni?e.
+EXTENDET_BATTLE_PASS_TYPENAME_21_DESC_2	Terminã orice temni?ã de %sx ori.
+EXTENDET_BATTLE_PASS_TYPENAME_22	Joacã %s
+EXTENDET_BATTLE_PASS_TYPENAME_22_DESC_1	Joacã ?i completeazã %sx minigame %s.
+EXTENDET_BATTLE_PASS_TYPENAME_22_DESC_2	Completeazã orice minigame de %sx ori.
+EXTENDET_BATTLE_PASS_MAP_NAME_BY_IDX_64	Valea Seungryong
+EXTENDET_BATTLE_PASS_MAP_NAME_BY_IDX_65	Templul Hwang
+EXTENDET_BATTLE_PASS_MAP_NAME_BY_IDX_72	Ma?ina 1
+EXTENDET_BATTLE_PASS_GUILDWAR_TYPE_NAME_1	Zonã Rãzboi Ghildã
+EXTENDET_BATTLE_PASS_GUILDWAR_TYPE_NAME_2	Arena Rãzboi Ghildã
+EXTENDET_BATTLE_PASS_GUILDWAR_TYPE_NAME_3	Rãzboi Ghildã Steaguri
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_1	Terminã Turnul Diavolului
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_2	Omoarã Zmeul Albastru
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_3	Terminã Catacombele Diavolului
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_4	Omoarã Zmeul Ro?u
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_5	Omoarã Nemere
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_6	Omoarã Baronul Pãianjen
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_7	Omoarã Meley
+EXTENDET_BATTLE_PASS_MINIGAME_NAME_1	Carduri Okey 
+EXTENDET_BATTLE_PASS_MINIGAME_NAME_2	Prinde regele
+EXTENDET_BATTLE_PASS_MINIGAME_NAME_3	Yutnori
+EXTENDET_BATTLE_PASS_MINIGAME_NAME_4	Alba / Neagra
+EXTENDET_BATTLE_PASS_MINIGAME_NAME_5	Pescuit
+EXTENDET_BATTLE_PASS_SEND_SHOUT	Strigã de %s ori!
+EXTENDET_BATTLE_PASS_SEND_SHOUT2	%s: Pentru a completa misiunea trebuie sã strigi de %sx ori!
+EXTENDET_BATTLE_PASS_SEND_SHOUT3	Trimite mesaje pe strigã de %sx ori ?i completeazã misiunea!
+
+EXTENDET_BATTLE_PASS_MINING	Extrage minereu!
+EXTENDET_BATTLE_PASS_MINING2	%s: Pentru a completa misiunea trebuie sã extragi minereu de %sx ori!
+EXTENDET_BATTLE_PASS_MINING3	Extrage minereu de %sx ori ?i completeazã misiunea!
+
+EXTENDET_BATTLE_PASS_DAMAGE_METIN	Cauzeazã în total %s de daune în metine!
+EXTENDET_BATTLE_PASS_DAMAGE_METIN2	%s: Pentru a completa misiunea trebuie sã cauzezi %sx de daune în metine!
+EXTENDET_BATTLE_PASS_DAMAGE_METIN3	Cauzeazã %sx de daune în metine ?i completeazã misiunea!
+
+EXTENDET_BATTLE_PASS_DAMAGE_METIN_REACH	Atinge %s de daune în metine!
+EXTENDET_BATTLE_PASS_DAMAGE_METIN_REACH2	%s: Pentru a completa misiunea trebuie sã atingi %sx de daune în metine!
+EXTENDET_BATTLE_PASS_DAMAGE_METIN_REACH3	Atinge %sx de daune în metine ?i completeazã misiunea!
+
+OPTION_BLOCK_WARP_REQUEST	Cerere de Teleport
+NEW_EXCHANGE_YOU	Tu
+
+GLOBAL_RANKING_TITLE	Clasamentul Jucãtorilor
+

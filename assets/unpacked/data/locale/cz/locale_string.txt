@@ -1,0 +1,574 @@
+CLOSE_WINDOWS_ERROR	Provedte zavrení všech oken pro provedení této akce.
+WAIT_TO_USE_AGAIN	Pockejte %s sekund, abyste mohli tuto akci provést znovu.
+ARENA_TALK_15	Vstoupil(a) jsi do války, vystup je zrušen.
+BATTLEPASS_NOT_COMPLETED_ALL_NORMAL_MISSIONS	Nevyplnil(a) jsi všechny úkoly v normálním pruchodu battlepassem!
+BATTLEPASS_NOT_COMPLETED_ALL_PREMIUM_MISSIONS	Nevyplnil(a) jsi všechny úkoly v prémiovém pruchodu battlepassem!
+BATTLEPASS_NOT_COMPLETED_ALL_EVENT_MISSIONS	Nevyplnil(a) jsi všechny úkoly v eventovém pruchodu battlepassem!
+CANT_INCREASE_YOUR_BIOLOG_LEVEL_MORE	Uz nemuzeš vylepšit svou biologii.
+X_SUCCESSFULL_Y_UNSUCCESSFULL	%sx úspešne a %sx neúspešne.
+BATTLEPASS_ALREADY_EARNED_BATTLEPASS_REWARD	Tuto odmenu z battlepasu jsi jiz obdrzel(a).
+IT_WAS_FAILED	Operace se nezdarila.
+TAKE_OFF_YOUR_ARMOR_TO_OPEN_SHOP	Pro otevrení obchodu si sundej svou zbroj.
+YOU_CARRY_TOO_MUCH_GOLD_TO_OPEN_SHOP	Neseš príliš mnoho zlata, nemuzeš otevrít obchod.
+INVALID_SHOP_NAME	Neplatny název obchodu.
+CANT_TRADE_WITH_EQUIPPED_ITEMS	Nemuzeš obchodovat s vybavenymi predmety.
+CANT_TRADE_WITH_THIS_ITEM	S tímto predmetem nemuzeš obchodovat.
+EQUIP_YOUR_PICKAXE_FIRST	Nejprve si osad krumpác, abys mohl(a) provést tuto akci.
+CANNOT_FISH_HERE	Tady nemuzeš rybarit.
+EQUIP_YOUR_ROD_FIRST	Nejprve si osad prut, abys mohl(a) provést tuto akci.
+PUT_A_BAIT_TO_YOUR_ROD	Chceš-li tuto akci provést, musíš na svuj prut nasadit návnadu.
+CANT_FISH_WITHOUT_ROD	Bez prutu nemuzeš rybarit.
+PROBLEM_OCCURED_TRY_AGAIN_LATER	Došlo k problému, zkuste to prosím pozdeji!
+PARTY_REQ_ERR_0	Nemuzete vytvorit skupinu s jinymi ríšemi.
+PARTY_REQ_ERR_1	Nemuzete pozvat nebo se pripojit ke skupine v dungeonu.
+PARTY_REQ_ERR_2	Nemuzete pozvat pozorovatele do skupiny.
+PARTY_REQ_ERR_3	Nemuzete mít skupinu s nekym, kdo má rozdíl úrovní vetší nez 30.
+PARTY_REQ_ERR_4	Nemuzete mít skupinu s nekym, kdo má rozdíl úrovní vetší nez 30.
+PARTY_REQ_ERR_5	Nemuzete prijmout pozvánky.
+PARTY_REQ_ERR_6	Skupina dosáhla limitu, nelze pozvat více.
+PARTY_REQ_ERR_7	Skupina dosáhla limitu, nelze se pripojit více.
+PARTY_REQ_ERR_8	Tento hrác není ve skupine.
+PARTY_REQ_ERR_9	Nemuzete pozvat, pouze vudce skupiny muze.
+PARTY_REQ_ERR_10	Nemuzete se pripojit ke skupine v dungeonu.
+PARTY_REQ_SENT	Zádost o skupinu byla odeslána k hráci %s.
+PARTY_REQ_REJECTED	%s zamítl(a) vaši zádost o skupinu.
+PARTY_REQ_REJECTED2	%s zamítl(a) vaši zádost o skupinu.
+PARTY_REQ_ALREADY_IN_PARTY	%s je jiz ve skupine.
+PARTY_JOINED_THE_PARTY	%s se pripojil(a) ke skupine.
+PARTY_JOINED_THE_PARTY2	Pripojili jste se ke skupine hráce %s.
+MINING_STOPPED	Tezba byla zastavena.
+PLAYER_BUSY_RN	Tento hrác je nyní zaneprázdneny.
+GROUP_LEADER_IS_NOT_ACTIVE_CANT_DO_THIS	Vudce skupiny není aktivní, nemuzete to udelat.
+SAFEBOX_ERR_1	Treasure box je jiz otevreny.
+SAFEBOX_ERR_2	Pockejte chvíli, nez to muzete udelat znovu.
+CANT_TELEPORT_THIS_PLAYER	Nemuzete teleportovat k tomuto hráci.
+THIS_PLAYER_IS_OFFLINE	Tento hrác je offline.
+OTHER_CHANNEL_ERR	Hrác není na tomto kanálu, hrác je na kanálu %s. (Váš kanál %s)
+THIS_WINDOW_IS_ALREADY_OPEN	Toto okno je jiz otevrené.
+CLOSE_OTHER_WINDOWS_TO_DO_THIS	Zavrete všechna okna, abyste mohli provést tuto akci.
+CANT_ADD_LOCKED_ITEMS	Nemuzete vybrat jiz vybrany predmet.
+ONLY_SAME_GRADE_CAN_COMBINED	Pouze stejná kvalita se muze kombinovat.
+ABSORBPTION_CHANGE_IS_MAX	Predmet jiz má maximální absorpcní míru.
+ONLY_ARMOR_WEARPON_CAN_BE_ABSORBED	Pouze zbrane a brnení mohou byt absorbovány.
+NOT_ENOUGH_YANG	Nedostatek yang.
+INVALID_ACTION	Neplatná akce!
+NEW_ABSORB_RATE	Nová absorpcní míra: %s
+CANT_USE_THIS_WITH_NON_SASH_ITEMS	Nemuzete to udelat s predmety jinymi nez pláštem.
+CANT_USE_THIS_WITH_NON_AURA_ITEMS	Nemuzete to udelat s predmety jinymi nez s ozdobami.
+ITEM_HAS_NO_ABSORBTION	K tomuto predmetu není nic absorbováno!
+POLY_BLOCKED_WITH_THIS	Nemuzete to udelat, kdyz jste promenení.
+CHANNEL_SWITCH_0	Po %s sekundách se kanál zmení.
+CHANNEL_SWITCH_1	Kanál se zmení.
+MULTIFARM_ACTIVATED	Zisk predmetu byl aktivován.
+MULTIFARM_DEACTIVATED	Zisk predmetu byl deaktivován.
+MULTIFARM_MULTIACC_LIMIT	Zisk predmetu nemuze byt aktivován s více nez 2 úcty.
+GLOBAL_ERR_OCCURED	Došlo k chybe, zkuste to prosím pozdeji.
+AURA_INVALID_ITEM_TYPE	Byl vybrán neplatny predmet, pouze šperky mohou byt absorbovány.
+AURA_RUNIC_ITEM_NOT_FOUND	Muzete to udelat pouze s Aura runy.
+AURA_RUNIC_ICE_SHOULD_BE_USED	Muzete to udelat pouze s ledovou Aurovou runou.
+AURA_RUNIC_FIRE_SHOULD_BE_USED	Muzete to udelat pouze s ohnivou Aurovou runou.
+AURA_ABS_REMOVE_ATTR	Pridané bonusy byly úspešne smazány.
+YOU_DO_NOT_HAVE_ENOUGH_GEM_SLOT_OPENER	Nemáte dostatek otevíracu pro drahokamy.
+YOUR_BIOLOG_LEVEL_INCREASED	Vaše úroven biologie byla zvyšena.
+GM_MESSENGER_IN_YOU_BLOCK	Váš chat je zakázán.
+BUFF_MSG_01	%s nebyl pridán, protoze vaše míra je vyšší. Míra: (%s%%) Vaše stávající míra: (%s%%)
+BUFF_MSG_02	Bonus %s byl úspešne pridán. Nová míra: (%s%%) Stará míra: (%s%%)
+WARNING_DRAGON_GOD	Vzhledem k ochrane Dracího boha jste neprišli o zkušenosti.
+WARNING_DRAGON_GOD2	Vzhledem k ochrane Dracího boha jste neprišli o zádné predmety.
+GUILDWAR_WARNING_NO_ADVANTAGE_HUNTING	V dobe gildovní války nemá lovení zádnou vyhodu.
+DS_TALK_1	Dragon Alchemy není aktivní.
+HORSE_TALK_1	Nepodarilo se zavolat vašeho jezdce.
+SAFEBOX_ERR	Nesprávné heslo.
+REFINE_FREE_UPGRADE_BELLOW_20	Predmety s volnou aktualizací jsou k dispozici pouze pro zbrane úrovne 20 nebo nizší.
+CANT_UPGRADE_THIS_ITEM	Tento predmet nelze vylepšit.
+NOT_ENOUGH_MATERIAL	Nemáte dostatek materiálu.
+CAN_NOT_UPGRADE_WITH_THIS_ITEM_MORE	Tento predmet nemuzete vylepšit více.
+CAN_ONLY_UPGRADE_ITEMS_MORE_THAN	Tento predmet muzete vylepšit pouze u objektu %s nebo vyšší úrovne.
+DEVILTOWER_UPGRADE_MSG	Vez démonu lze vylepšit pouze jednou.
+CANT_COMBINE_SIMILAR_REFINE_ITEMS	Nemuzete kombinovat podobné vylepšené predmety.
+MAGIC_STONE_REFINE_CAN_BE_COMBINED	Byl kouzelny kámen a posvátny svitek mohou byt kombinovány.
+NO_SPIRIT_STONES_TO_REMOVE	Nebyly nalezeny zádné duševní kameny k odebrání.
+CANT_SAVE_THIS_POSITION	Tuto pozici nemuzete ulozit.
+NO_EMPTY_SPACE_IN_INVENTORY	Vaše inventár je plny!
+YOU_HAVE_LOWER_LEVEL_THAN_ITEM	Nemáte dostatecnou úroven pro pouzití tohoto predmetu.
+CANT_TELEPORT_SAVEZONE_IN_DIFFERENT_EMPIRE	Nemuzete se teleportovat do bezpecné zóny v jiné ríši.
+AFFECT_IS_ALREADY_ACTIVE	Tento úcinek je jiz aktivní.
+NOT_ENOUGH_HP	Nemáte dostatek zdraví.
+NOT_ENOUGH_SP	Nemáte dostatek many.
+ACTION_NOT_POSSIBLE_ON_THIS_MAP	Tato akce není na této mape mozná.
+CANT_SET_A_CAMPFIRE_HERE	Nemuzete tady postavit táborák.
+CANT_WEAR_SASH_SKIN_IF_NOT_WEAR_SASH	Nemuzete nosit kostym s opaskem, pokud nemáte opasek.
+CANT_WEAR_PET_SKIN_IF_NOT_WEAR_PET	Nemuzete nosit kostym zvírete, pokud nemáte zvíre.
+CANT_WEAR_AURA_SKIN_IF_NOT_WEAR_AURA	Nemuzete nosit kostym aury, pokud nemáte ozdobu aury.
+CANT_WEAR_MOUNT_SKIN_IF_NOT_WEAR_MOUNT	Nemuzete nosit kostym jezdce, pokud nemáte jezdce.
+CANT_DO_THIS_WHILE_MOUNTING	Toto nemuzete delat behem jízdy na jezdci.
+CANT_DO_THIS_IN_DUEL	Toto nemuzete delat behem souboje.
+WAIT_SOME_TIME_TO_DO_THIS_AGAIN	Operace se nezdarila, pockejte chvíli a zkuste to znovu.
+NEED_2SPACE_IN_INVS	Pro otevrení tohoto truhly musíte mít 3 volné sloty ve všech svych inventárích.
+NEED_2SPACE_IN_DS_INV	Pro otevrení této truhly musíte mít 2 volné sloty ve vašem inventári drací duše.
+LOWERING_YOUR_SKILL_SUCCEDEED	Snízení úrovne vašeho dovednosti bylo úspešné.
+LOWERING_YOUR_SKILL_FAILED	Snízení úrovne vašeho dovednosti se nezdarilo.
+YOU_HAVE_NO_SKILL_GROUP	Nemuzete to udelat, pokud nemáte skupinu dovedností.
+X_SECONDS_ARE_ADDED	%s sekund bylo pridáno.
+ADDING_TIME_FAILED	Pridání casu se nezdarilo.
+SWITCH_BOT_STOP_INFO_1	Máte vycerpané prepínace, switchbot je zastaven.
+SWITCH_BOT_STOP_INFO_2	Nemáte dostatek yang, switchbot je zastaven!
+PET_TEXT_1	Abyste to udelali, musíte zavolat své zvíre.
+PET_TEXT_2	Pro provedení této akce musí byt vaše zvíre minimálne úrovne %s.
+PET_TEXT_3	Novy slot pro zvíre odemknut.
+OFFLINESHOP_TEXT_1	K otevrení obchodu potrebujete %s yangu.
+OFFLINESHOP_TEXT_2	Muzete vytváret obchody pouze na spolecenském kanálu.
+OFFLINESHOP_TEXT_3	Muzete vytváret obchody pouze ve vesnicích prvního stupne.
+OFFLINESHOP_TEXT_4	Teleportoval(a) jste se do obchodu.
+OFFLINESHOP_TEXT_5	Teleportujete se do obchodu...
+OFFLINESHOP_TEXT_6	Nenalezen obchod se zadanym názvem.
+OFFLINESHOP_TEXT_7	Doba obchodu jiz nemuze byt prodlouzena.
+OFFLINESHOP_TEXT_8	Obchod se zadanym názvem nebyl nalezen.
+OFFLINESHOP_TEXT_9	Pokud nemáte prémium, muzete upravovat svuj trh pouze na stejné mape.
+OFFLINESHOP_TEXT_10	Tento predmet nemuzete pridat do obchodu.
+ACCESSORY_SOCKET_DISSAPEARED	Predmet %s se ztratil.
+WEDDING_TEXT_1	Nemuzete to udelat, pokud nejste zenatí/svobodní.
+ITS_NOT_EASY_TO_UNDERSTAND_THIS_BOOK	Není snadné pochopit tuto knihu.
+CANT_UPGRADE_WITH_THIS_MORE	Nemuzete vylepšit tento predmet více.
+CANT_UPGRADE_YOUR_ABILITY_MORE	Toto schopnost nemuzete vylepšit více.
+UNEQUIP_YOUR_PET	Abyste to provedli, musíte nejprve odstranit své zvíre.
+PREMIUM_ALREADY_MEMBER	Jiz máte prémiové clenství.
+THE_ITEM_USAGE_LIMIT_EXCEEDED	Bylo dosazeno omezení pouzití tohoto predmetu.
+CANT_UPGRADE_ITEM_WITH_LEVEL3_SPIRITS_STONES	+3 Spirit stones nelze vylepšit tímto predmetem.
+CANT_CHANGE_THE_ATTRIBUTE_OF_THIS_ITEM	Nelze zmenit atribut tohoto predmetu.
+NO_ATTRIBUTES_TO_CHANE_ON_THE_ITEM	K tomuto predmetu není co zmenit.
+NO_STONE_TO_CLEAR	Není zádny rozbity kámen ke smazání.
+CHANGE_ATTRIBUTE_WAS_SUCCESFULL	Zmena atributu byla úspešná.
+YOU_DO_NOT_MEET_THE_NEEDS_OF_THIS_ITEM	Nesplnujete pozadavky tohoto predmetu.
+THIS_CAN_BE_USED_IN_ONLY_WEAPONS_ARMORS	Toto lze pouzít pouze na brnení a zbrane.
+ADDING_ATTRIBUTE_WAS_SUCCESSFULL	Pridání bonusu bylo úspešné.
+ADDING_ATTRIBUTE_WAS_FAILED	Pridání bonusu se nezdarilo.
+CANT_ADD_MORE_BONUS_TO_THIS_ITEM	Nemuzete pridat více bonusu k predmetu.
+TO_USE_THIS_YOU_NEED_FOR_BONUSSES_ON_THE_ITEM	K tomu potrebujete na predmetu mít 4 bonusy.
+ADDING_SOCKET_SUCCESSFULL	Pridání zásuvky bylo úspešné!
+ADDING_SOCKET_UNSUCCESSFULL	Pridání zásuvky se nezdarilo.
+SOCKET_NOT_ENOUGH_SPACE	Zásuvka je plná, nejprve musíte smazat zásuvky.
+SOCKET_CANT_BE_ADDED_TO_THIS_ITEM	K tomuto predmetu nemuzete pridat zásuvku.
+ADDING_JEWEL_SUCCESFULL	Pridání drahokamu bylo úspešné!
+ADDING_JEWEL_UNSUCCESFULL	Pridání drahokamu se nezdarilo!
+ADD_JEWEL_INFO_01	Pro pridání drahokamu musíte otevrít zásuvku.
+ADD_JEWEL_INFO_02	Pro pridání drahokamu musíte otevrít zásuvku.
+ADD_JEWEL_INFO_03	Pro pridání drahokamu musíte otevrít zásuvku.
+ADD_JEWEL_INFO_04	Nemuzete pridat více drahokamu k predmetu.
+PERMANENT_JEWEWL_INFO_01	K tomuto predmetu nemuzete pridat trvalé drahokamy.
+PERMANENT_JEWEWL_INFO_02	Pouze trvalé drahokamy lze pridat.
+PERMANENT_JEWEWL_INFO_03	Tento drahokam nemuzete k tomuto predmetu pridat.
+PERMANENT_JEWEWL_INFO_04	K tomuto predmetu nemuzete pridat trvalé drahokamy
+FISHING_CANT_CHANGE_BAIT_WHEN_FISHING	Behem rybarení nemuzete menit návnadu.
+FISHING_CHANGED_BAIT_WITH	Zmenili jste návnadu za %s.
+FISHING_ADDED_BAIT	Návnada s názvem %s byla pridána na prut!
+CANT_ADD_SAME_SPIRIT_STONES	Nemuzete pridat spirit stones stejné úrovne dvakrát.
+CANT_ADD_THIS_SPIRIT_STONES_TO_THIS_ITEM	Tento spirit stone nemuzete pridat k tomuto predmetu.
+NOT_ENOUGH_SPACE_TO_ADD_SPIRIT_STONE	Nedostatek místa pro pridání tohoto spirit stone!
+ONLY_OTHER_GENDER_CAN_USE_THIS	Pouze opacné pohlaví to muze pouzít.
+CANNOT_DO_THIS	Toto nemohu provést.
+YOU_CANNOT_CARRY_MORE_YANG	Nemuzete unést více yangu.
+ITEM_IS_SOLD	%s byl prodán.
+YOU_CANNOT_DROP_THIS_ITEM	Tento predmet nemuzete zahodit.
+ITEM_DROPPED_WILL_DISSAPEAR_IN_MINS	[Varování] - Predmety zanechané na zemi zmizí za 3 minuty!
+CANT_DROP_GOLD	Nemuzete zahodit yang.
+CANT_MOVE_ITEM_TO_THIS_INVENTORY	Nemuzete presunout tento predmet do tohoto inventáre.
+YOU_CANNOT_MOVE_ACTIVE_SWITCHBOT_ITEMS	Nemuzete prenést aktivní predmety switchbotu.
+YOU_CANNOT_ADD_THIS_ITEM_TO_SWITCHBOT	Nemuzete pridat tento predmet do switchbotu.
+FULL_SOCKET_WARNING	Zásuvka je plná, nejprve musíte smazat zásuvky.
+YOU_GAINED_ITEM	%s obdrzen.
+YOU_GAINED_ITEM_INV_TYPE_01	%s obdrzen. Presunuto do vašeho vylepšovacího inventáre.
+YOU_GAINED_ITEM_INV_TYPE_02	%s obdrzen. Presunuto do vašeho inventáre knih.
+YOU_GAINED_ITEM_INV_TYPE_03	%s obdrzen. Presunuto do vašeho inventáre spirit stone.
+YOU_GAINED_ITEM_INV_TYPE_04	%s obdrzen. Presunuto do vašeho bezného inventáre.
+YOU_GAINED_ITEM_INV_TYPE_05	%s obdrzen. Presunuto do vašeho inventáre.
+ITEM_DELETED	%s smazán.
+UNEQUIP_YOUR_SKIN_FIRST	Pro provedení této akce musíte nejprve odstranit svuj kostym.
+YOU_ALREADY_RIDING_MOUNT	Jiz jezdíte na jezdci.
+ONLY_GROUP_LEADER_CAN_USE_THIS	Pouze vudce skupiny to muze udelat.
+CANT_USE_THIS_WITH_COSTUME	Toto nemuzete udelat, kdyz máte tento smoking nebo svatební šaty.
+CANT_USE_COSTUME_WITH_THIS	Toto nemuzete udelat, kdyz máte tento kostym.
+YOU_HAVE_TO_STAND_STILL_TO_DO_THIS	Musíte stát stále, abyste to mohli udelat.
+WRONG_EQUIPMENT_MATCH	Váš zbran není kompatibilní s vaším zbranovym kostymem.
+CANT_DO_THIS_IF_NOT_WEAR_PET	Nemuzete to udelat, pokud nemáte zvíre.
+CANT_DO_THIS_IF_NOT_WEAR_MOUNT	Nemuzete to udelat, pokud nemáte jezdce.
+CANT_DO_THIS_IF_NOT_WEAR_SASH	Nemuzete to udelat, pokud nemáte narameníckovy pás.
+CANT_DO_THIS_IF_NOT_WEAR_AURA	Nemuzete to udelat, pokud nemáte aurovy oblek.
+ALREADY_WEAR_SAME_TYPE_DS	Jiz nosíte stejny typ drací duše.
+CANT_FEED_HORSE_WITH_DRUGS	Nemuzete vylécit kone, ktery je jiz nazivu.
+YOU_ALREADY_HAVE_THIS_HAIRSTLE	Jiz máte tento úces.
+YOU_ALREADY_POLYMORPHED	Jiz jste polymorfováni.
+YOU_CANT_POLYMORPH	Nemuzete polymorfovat.
+CANT_POLYMORPH_HIGHER_LEVEL	Nemuzete polymorfovat stvorení, které je vyšší úrovne nez jste vy.
+THIS_ITEM_CANT_BE_USED	Tento predmet nelze pouzít.
+CANT_WEAR_THIS_SECOND_TIME	Nemuzete toto nosit podruhé.
+DS_DEACTIVATE_REQ	Musíte deaktivovat svou drakou duši, abyste to mohli udelat.
+AFFECTS_ARE_NOT_LOADED_YET	Ucinky ješte nejsou nacteny, prosím, vyckejte chvíli.
+CANT_DO_THIS_IF_NOT_WEAR_BELT	Nemuzete to udelat, pokud nemáte pripnuty pásek.
+CANT_DO_THIS_IF_NOT_UPGRADE_BELT	Nemuzete to udelat, pokud neprovedete upgrade svého pásku.
+INGAME_SHOP_MSG_01	Nemáte dostatek dracích mincí.
+INGAME_SHOP_MSG_02	Nemuzete koupit tento predmet vícekrát, dosáhli jste tydenního limitu: %s
+INGAME_SHOP_MSG_03	Nemuzete koupit tento predmet vícekrát, dosáhli jste mesícního limitu: %s
+INGAME_SHOP_MSG_04	Tento predmet není na prodej.
+INGAME_SHOP_MSG_05	Koupili jste %s %sx za %s.
+INGAME_SHOP_MSG_06	Koupili jste %s za %s.
+INGAME_SHOP_MSG_07	Obchodník byl aktualizován, obsah se muze zmenit...
+CHEST_GIVE_STOP_DROP	Otevírání truhly bylo zastaveno, váš inventár je plny.
+CHEST_OPEN_COUNT	Celkovy pocet otevrenych truhel: %s
+CMD_TALK_20	Nekdo se prihlásil do vašeho úctu. Budete odpojeni.
+CANT_FEED_DEAD_HORSE	Nemuzete krmit mrtvého kone.
+HORSE_FEED_TALK_01	Nakrmili jste kone.
+DS_TALK_2	Nemuzete extrahovat vybavenou drakou duši.
+DS_TALK_3	Extrakce probehla úspešne.
+DS_TALK_4	Chybny materiál pro vylepšení.
+DS_TALK_5	Nedostatek yangu pro vylepšení.
+DS_TALK_6	Extrakce selhala, obdrzeli jste %s.
+DS_TALK_7	Nemuzete provést upgrade s tímto predmetem.
+DS_TALK_8	Rafinace selhala.
+FISHING_TALK_01	Zvyšen pocet rybárskych bodu. (%s/%s)
+FISHING_TALK_02	Nemuzete více vylepšit svuj prut.
+FISHING_TALK_03	Muzete navštívit Rybáre a vylepšit váš prut.
+FISHING_TALK_04	Ryba se ztratila v hluboké vode.
+FISHING_TALK_05	Ryba má v sobe lasturu.
+FISHING_TALK_06	Vlozte %s skrz kruhy.
+GUILD_TALK_1	<Guild> Hodnocení zvyšeno na %s bodu.
+SAFEBOX_PW_01	Vaše heslo pro trezor bylo zmeneno.
+SAFEBOX_PW_02	Chybné heslo.
+CANNOT_CHANGE_CHANNEL	Zmena kanálu se nezdarila.
+USER_BLOCKED_WARP_REQUESTS	Tento hrác blokuje zádosti o presun.
+WINNER_ITEM_01	%sx %s obdrzeno, presunuto do inventáre na vylepšení.
+WINNER_ITEM_02	%sx %s obdrzeno, presunuto do knizního inventáre.
+WINNER_ITEM_03	%sx %s obdrzeno, presunuto do inventáre kamennych duchu.
+WINNER_ITEM_04	%sx %s obdrzeno, presunuto do obecného inventáre.
+WINNER_ITEM_05	%sx %s obdrzeno, presunuto do vašeho inventáre.
+WINNER_ITEM_06	%sx %s obdrzeno, presunuto do inventáre drakych duší.
+YOU_CANNOT_DO_THIS_WHILE_ANOTHER_WINDOW_IS_OPEN	Pro provedení této akce musíte zavrít všechna okna.
+ARENA_TALK_5	123
+ARENA_TALK_1	Duel skoncil, protoze váš bojovník zmizel.
+ARENA_TALK_2	Zde není omezení pro lektvary.
+ARENA_TALK_3	Muzete pouzít %s lektvaru.
+ARENA_TALK_4	Bitva zacne za 10 sekund.
+ARENA_TALK_6	Z duvodu problému na aréne se duel skoncil.
+ARENA_TALK_7	Duel skoncil, protoze vypršel cas.
+ARENA_TALK_8	V prubehu 10 sekund budete preneseni do mesta.
+ARENA_TALK_12	%s vyhrál.
+ARENA_TALK_13	Další kolo zacne za 10 sekund.
+ARENA_TALK_14	Bojovníci odešli. Duel skoncil.
+SKILL_TALK_1	Tuto schopnost nemuzete vylepšit.
+SKILL_TALK_2	Tuto dovednost nemuzete vylepšit na úroven Velkého mistra.
+SKILL_TALK_4	Jiz jste mistrem této dovednosti.
+SKILL_TALK_5	Vaše dovednost není dostatecne vysoká pro úroven Velkého mistra.
+SKILL_TALK_6	Úspešne jste dokoncili trénink s knihou.
+SKILL_TALK_8	Tuto knihu
+SKILL_TALK_9	Nemuzete tuto dovednost vylepšit ctením knihy.
+SKILL_TALK_10	Tato dovednost není na dostatecné úrovni pro vylepšení ctením knihy.
+SKILL_TALK_11	Jste osvobozeni od kletby zlych duchu s pomocí papíru na vyhnání zlych duchu.
+SKILL_TALK_12	Abyste zlepšili tuto dovednost, musíte precíst ješte %s knih.
+SKILL_TALK_13	Vzdelání selhalo. Prosím, zkuste to pozdeji znovu.
+SKILL_TALK_14	Teleportace selhala.
+SKILL_NOT_UPGRADE_ERROR	Tuto dovednost jiz nemuzete dále vylepšit.
+SKILL_UPGRADE_SUCCESS	Podarilo se vám vylepšit dovednost.
+SKILL_UPGRADE_FAIL	Vylepšení dovednosti se nezdarilo.
+PASSIVE_SKILL_TALK_1	Nemuzete dále vylepšovat své dovednosti pomocí této knihy.
+PASSIVE_SKILL_TALK_2	Podarilo se vám vylepšit pasivní dovednost.
+PASSIVE_SKILL_TALK_3	Nezdarilo se vám vylepšení pasivní dovednosti.
+PASSIVE_SKILL_TALK_4	Musíte úspešne precíst ješte %s knih k zvyšení své dovednosti.
+PASSIVE_SKILL_TALK_5	Pocet prectenych knih: %s.
+CMD_TALK_1	Tento príkaz není dostupny.
+CMD_TALK_2	Prosím, zadejte cely název príkazu.
+CMD_TALK_10	Potrebujete souhlas partnera.
+CMD_TALK_11	Toto muze byt provedeno pouze s opacnym pohlavím.
+CMD_TALK_12	Nemuzete to pouzít na aréne.
+CMD_TALK_13	Nemohu pouzít vyraz.
+CMD_TALK_15	Toto mohou provést pouze zeny.
+CMD_TALK_16	Osoba nenalezena.
+CMD_TALK_17	Tuto schopnost nemohu pouzít.
+CMD_TALK_18	Jste velmi blízko.
+CMD_TALK_19	Jste velmi daleko.
+STRING_D1	Jiz pouzíváte jezdce.
+STRING_D2	Musíte nejprve povolat svého jezdce.
+STRING_D3	Zrušit povolání jezdce.
+STRING_D4	Nejprve byste meli z jezdce sesednout.
+STRING_D5	Zatímco jste na svém jezdci, nemuzete ho krmit.
+STRING_D6	Dali jste %s svému jezdci.
+STRING_D7	K provedení této akce potrebujete %s predmet.
+STRING_D8	Zbyvající cas: %s sekund.
+STRING_D9	Teleportace zrušena.
+STRING_D10	Vratte se na prihlašovací obrazovku, prosím, vyckejte.
+STRING_D11	Odchod z hry. Prosím, vyckejte.
+STRING_D12	Zmena postavy. Prosím, vyckejte.
+STRING_D13	Nemohu vás ozivit ješte. (zkuste to znovu za %s sekund)
+STRING_D14	Ozivení ve meste ješte není mozné. (zkuste to znovu za %s sekund)
+STRING_D15	Tuto akci nemuzete provést behem polymorfování.
+STRING_D16	Nemuzete to provést na aréne.
+STRING_D17	Nemuzete to provést na této mape.
+STRING_D18	Tato osoba je jiz v bitve.
+STRING_D19	Musíte se pripojit k cechu, abyste to mohli udelat.
+STRING_D20	Nemuzete menit úroven cechovní dovednosti.
+STRING_D21	Zadali jste nesprávné heslo.
+STRING_D22	Okno úlozište je jiz otevreno.
+STRING_D23	Tuto akci muzete provést kazdych 10 sekund.
+STRING_D24	Neco se pokazilo, zkuste to prosím pozdeji znovu!
+STRING_D25	Nemuzete opustit skupinu behem dobytka nebo bitvy.
+STRING_D26	Odešli jste ze skupiny.
+STRING_D27	Cech je jiz v bitve.
+STRING_D28	Nikdo nemá oprávnení k boji cechu.
+STRING_D29	Cech nenalezen.
+STRING_D30	Tento cech jiz úcastní jiné bitvy.
+STRING_D31	Není dost penez na úcast v cechové bitve.
+STRING_D32	Tento cech nemá dostatek penez na úcast v bitve.
+STRING_D33	Vyhlásili jste válku tomuto cechu.
+STRING_D34	Tento cech je jiz registrován pro jinou cechovou bitvu.
+STRING_D35	Váš cech jiz úcastní jiné bitvy.
+STRING_D36	Úroven cechu je príliš nízká na úcast v bitve.
+STRING_D37	Na úcast v cechové bitve je potreba minimálne %s hrácu.
+STRING_D38	Cech nemá dost bodu pro úcast v bitve.
+STRING_D39	Cech nemá dost clenu pro úcast v cechové bitve.
+STRING_D40	Vudce cechu není aktivní.
+STRING_D41	%s odmítl/a pozvání.
+STRING_D42	V inventári není dostatek místa.
+STRING_D43	Nemuzete prijmout pozvání, protoze jiz patríte do skupiny.
+STRING_D44	%s hodil/a kostkou %s. (%s-%s)
+STRING_D45	Behem dobytka nebo bitvy nemuzete pristupovat k úlozišti.
+STRING_D46	Behem této mapy nemuzete povolat jezdce.
+STRING_D47	Nemuzete to provést, pokud jste na jezdci.
+STRING_D48	Pouzití: /channel <nové císlo kanálu>.
+STRING_D49	Vyberte prosím platny kanál.
+STRING_D50	Jiz jste pripojeni na kanál %s.
+STRING_D51	Jste v parte. Nemuzete zmenit kanály v parte.
+STRING_D52	Nemuzete menit kanály behem pobytu v dungeonu.
+STRING_D53	Musíte chvíli pockat, nez provedete tuto akci.
+STRING_D54	Nemuzete menit kanály na této mape.
+STRING_D55	Elixír byl aktivován, bude automaticky pouzit, az bude treba.
+STRING_D56	Elixír byl deaktivován, nebude automaticky pouzit, az bude treba, musíte ho znovu aktivovat.
+STRING_D57	Tento systém je ve stavu údrzby. Brzy bude aktivován.
+STRING_D58	Byla zmenena nastavení chatu.
+STRING_D59	Nemáte dost duševních kamenu.
+STRING_D60	Nemáte dostatek materiálu.
+STRING_D61	Nemuzete to udelat práve ted.
+STRING_D62	Nemáte dostatek moudrych duševních kamenu.
+STRING_D63	Nemáte dostatek legendárních duševních kamenu.
+STRING_D64	Nemáte dostatek duševních kamenu pro pasivní dovednosti.
+STRING_D65	Nemáte dostatek moudrych duševních kamenu pro pasivní dovednosti.
+STRING_D66	Nemáte dostatek legendárních duševních kamenu pro pasivní dovednosti.
+STRING_D67	Ruleta se tocí.
+STRING_D68	Nemáte dost predmetu, nemuzete to udelat.
+STRING_D69	Nemáte dost dracích mincí, nemuzete to udelat.
+STRING_D70	Zadali jste neplatné jméno.
+STRING_D71	Musíte sesednout z jezdce pred zmenou jména.
+STRING_D72	Tento efekt jiz máte.
+STRING_D73	Jméno jezdce bylo úspešne zmeneno!
+STRING_D74	Jméno mazlícka bylo úspešne zmeneno!
+STRING_D75	Vašeho speciálního inventáre je nedostatek místa.
+STRING_D76	Váš inventár je plny.
+STRING_D77	Nemáte dost knih k prectení.
+STRING_D78	Nemuzete tuto dovednost dále zlepšit.
+STRING_D79	Nemuzete císt knihy bez skupiny dovedností.
+STRING_D80	Gaya shop byl obnovován.
+STRING_D81	Nemáte dostatek materiálu k obnovení Gaya shopu.
+STRING_D82	K provádení této akce musí byt otevreno okno transformace.
+STRING_D83	Nemáte dost yang.
+STRING_D84	Akce se nezdarila.
+STRING_D85	Pokud je otevreno obchodní okno, nemuzete zahájit další obchod.
+STRING_D86	Druhy hrác jiz obchoduje.
+STRING_D87	Druhy hrác zrušil obchod.
+STRING_D88	Tímto predmetem nemuzete obchodovat.
+STRING_D89	Nemuzete nakupovat, kdyz je otevreno okno úkolu.
+STRING_D90	Inventár druhého hráce nemá dost místa.
+STRING_D91	Obchod s %s dokoncen úspešne.
+STRING_D92	Nemuzete to udelat, jste príliš daleko.
+STRING_D93	Nemuzete obchodovat s vybavenymi predmety.
+STRING_D94	Nemuzete prodávat za více nez 1kkkkk
+STRING_D95	Odmena jiz byla udelena, jste pozde.
+STRING_D96	Získali jste %s bodu zkušeností.
+STRING_D97	Ze stromu zárí tajemná svetelná záre.
+STRING_D98	Získali jste %s yang.
+STRING_D99	%s vás zve na souboj!
+STRING_D100	Boj s %s zacal.
+STRING_D101	Zdokonalil/a jste úplne polymorfii.
+STRING_D102	Skupina byla smazána.
+STRING_D103	Cíl nenalezen.
+STRING_D104	Váš skupinovy prítel není na stejné mape jako vy.
+STRING_D105	Nemuzete privolat cíl.
+STRING_D106	Clenové skupiny nemuzete privolat na vaši aktuální pozici.
+STRING_D107	Získáte více zkušeností díky spolupráci vaší skupiny.
+STRING_D108	Vaše tezební body dosáhly limitu. (%s).
+STRING_D109	Tezební body vaší krumpáce dosáhly nejvyšší úrovne.
+STRING_D110	Muzete zvyšit úroven svého krumpáce s pomocí drevorubce.
+STRING_D111	Vaše tezební body se zvyšily! (%s/%s)
+STRING_D112	Nemuzete tezit bez krumpáce v ruce.
+STRING_D113	Zde není zádná ruda.
+STRING_D114	%s bylo odecteno jako dan z prodeje.
+STRING_D115	Odstranili jste %s ze svého seznamu prátel.
+STRING_D116	%s byl/a pridán/a jako prítel.
+STRING_D117	Chat byl zakázán autoritou.
+STRING_D118	Chat byl zakázán na %s hodin %s minut %s sekund autoritou.
+STRING_D119	Chat byl zakázán na %s hodin %s sekund autoritou.
+STRING_D120	Chat byl zakázán na %s minut %s sekund autoritou.
+STRING_D121	Chat nemuzete provádet, dokud nemáte úroven %s k revu.
+STRING_D122	Musíte byt úrovne %s, abyste mohl/a kricet.
+STRING_D123	Nejste clenem skupiny.
+STRING_D124	Nepodarilo se vám pripojit k cechu.
+STRING_D125	Nemuzete pridat osobu s autoritou do seznamu prátel.
+STRING_D126	%s není ve hre.
+STRING_D127	Osoba odmítla zádost o prátelství.
+STRING_D128	Nemáte dostatecnou úroven.
+STRING_D129	%s odmítl/a zádost o teleportaci.
+STRING_D130	Po obchodování se nemuzete pohybovat po dobu %s sekund.
+STRING_D131	Nesete príliš mnoho yang.
+STRING_D132	Druhy hrác nese príliš mnoho yang.
+STRING_D133	Tento predmet nelze presunout do úlozište.
+STRING_D134	Nemuzete pridávat predmety do svého speciálního inventáre, protoze je plny.
+STRING_D135	Nemuzete presouvat predmety ze svého speciálního inventáre do úlozište.
+STRING_D136	Musíte vyprázdnit svuj pás pred odstranením pásu.
+STRING_D137	Toto nemuzete udelat.
+STRING_D138	Do pásu muzete pridávat pouze lektvary.
+STRING_D139	Osoba, kterou jste pozvali, není aktivní.
+STRING_D140	Server nemohl splnit zádost o skupinu.
+STRING_D141	Pouze vedoucí skupiny to muze udelat.
+STRING_D142	Cíl není clenem vaší skupiny.
+STRING_D143	Nemuzete to udelat, kdyz jste v dungeonu.
+STRING_D144	Nemuzete to udelat, protoze clen skupiny je v dungeonu.
+STRING_D145	Byli jste vyhozeni ze skupiny.
+STRING_D146	Skupinu jste opustili.
+STRING_D147	Nemuzete vyhodit cleny skupiny.
+STRING_D148	Po rozpuštení cechu nemuzete po dobu %s dnu vytvorit novy cech.
+STRING_D149	Po opuštení cechu nemuzete po dobu %s dnu vytvorit novy cech.
+STRING_D150	Zadali jste neplatné jméno cechu.
+STRING_D151	Cech [%s] byl úspešne zalozen.
+STRING_D152	Nezdarilo se zalozit cech. Prosím, zkuste to znovu.
+STRING_D153	Pouze vedoucí skupiny muze pouzívat dovednosti skupiny.
+STRING_D154	Nejste clenem zádného cechu.
+STRING_D155	<Cech> Zadán neplatny cástka.
+STRING_D156	Behem cechovní bitvy nemuzete vyhodit clena cechu.
+STRING_D157	Nejste clenem stejného cechu jako tento hrác.
+STRING_D158	Nemáte oprávnení odstranit cleny cechu.
+STRING_D159	Z cechu byl odstranen clen.
+STRING_D160	Nemáte oprávnení zmenit název lokace.
+STRING_D161	Nemuzete zmenit titul vedoucího cechu.
+STRING_D162	Zadané jméno fronty je neplatné.
+STRING_D163	Nemáte oprávnení reorganizovat pozice.
+STRING_D164	Nemuzete zmenit autoritu vedoucího cechu.
+STRING_D165	Tuto akci nemuzete provést, pokud je vaše získávání zkušeností deaktivováno.
+STRING_D166	Váš cech jiz dosáhl maximální mozné úrovne.
+STRING_D167	Vlozeno %s bodu zkušeností.
+STRING_D168	Pri pokusu o darování zkušeností cechu došlo k chybe.
+STRING_D169	Pri regeneraci draku došlo k chybe.
+STRING_D170	Nemáte oprávnení psát oznámení.
+STRING_D171	Nemáte oprávnení povyšit nekoho na mistra.
+STRING_D172	Nemáte dostatecnou autoritu jmenovat generála.
+STRING_D173	Jiz nemuzete jmenovat další generály.
+STRING_D174	S tímto predmetem nelze obchodovat.
+STRING_D175	Nemuzete vytvorit trzište kvuli nadmernému mnozství yang.
+STRING_D176	Nemuzete aktualizovat seznam zebrícku po dobu %s sekund.
+STRING_D177	Úspešne jste aktivoval/a prémiovy bojovy prukaz pro aktuální sezónu. Uzijte si hru!
+STRING_D178	Zmena barvy vaší dovednosti byla úspešne provedena.
+STRING_D179	K provedení této akce musíte opustit soucasnou skupinu.
+STRING_D180	K provedení této akce potrebujete úroven dovednosti Leadership M1 nebo vyšší.
+STRING_D181	Prosím, pockejte %s sekund pred pokusem o tuto akci.
+STRING_D182	Funkce automatického sberu byla aktivována.
+STRING_D183	Funkce automatického sberu byla deaktivována.
+STRING_D184	Nemáte dostatek predmetu %s k provedení této akce.
+STRING_D185	Váš cas na návrat do dungeonu vypršel.
+GUILD_TALK_5	Cech %s porazil cech %s v cechovní bitve.
+GUILD_TALK_9	<Cech> Cech %s odmítl cechovní bitvu.
+GUILD_TALK_11	<Cech> Nemuzete zalozit cech.
+GUILD_TALK_12	<Cech> Toto jméno cechu je jiz pouzíváno.
+GUILD_TALK_13	<Cech> Zadali jste neplatné jméno cechu.
+GUILD_TALK_15	<Cech> Behem bitvy nemuzete pozvat.
+GUILD_TALK_16	<Cech> Tento hrác je jiz clenem jiného cechu.
+GUILD_TALK_18	<Cech> Cech je jiz ve stavu bitvy.
+GUILD_TALK_19	<Cech> Prihlášky do cechu jsou aktuálne omezeny.
+GUILD_TALK_20	<Cech> Nemuzete pozvat hráce z jinych království.
+GUILD_TALK_21	<Cech> Nemuzete pozvat nekoho do cechu.
+GUILD_TALK_22	<Cech> Hrác odmítl pozvání do cechu.
+GUILD_TALK_23	<Cech> Nedostatek Yang.
+GUILD_TALK_24	<Cech> Hrác je offline.
+GUILD_TALK_25	<Cech> Hrác je momentálne v kanálu %s. (Váš kanál: %s)
+GUILD_TALK_26	<Cech> Tuto dovednost nemuzete nyní pouzít.
+GUILD_TALK_27	<Cech> Zprávu nelze smazat.
+OX_TALK_1	Správne.
+OX_TALK_10	Celkovy pocet otázek: %s
+MINING_SUCCESSFULL	Dobyvání bylo úspešné!
+IT_WAS_SUCCESFULL	Operace byla úspešná!
+HORSE_FEED_TALK_02	Krmili jste kone.
+DUNGEON_CHAT_1	Máte zbyvajících 20 minut k dokoncení dungeonu!
+DUNGEON_CHAT_2	Máte zbyvajících 15 minut k dokoncení dungeonu!
+DUNGEON_CHAT_3	Máte zbyvajících 10 minut k dokoncení dungeonu!
+DUNGEON_CHAT_4	Máte zbyvajících 5 minut k dokoncení dungeonu!
+DUNGEON_CHAT_5	Máte zbyvajících 1 minutu k dokoncení dungeonu, pospešte si!
+DUNGEON_CHAT_6	Nepodarilo se vám dokoncit dungeon, budete teleportováni ven za 5 sekund.
+DUNGEON_CHAT_7	Potrebujete porazit %s dalších monster.
+DUNGEON_CHAT_8	Úspešne jste dokoncili úkol, další úkol zacne za 5 sekund.
+DUNGEON_CHAT_9	Potrebujete znicit %s dalších metinu.
+DUNGEON_CHAT_10	Úspešne jste dokoncili dungeon, budete teleportováni ven za 30 sekund.
+DUNGEON_CHAT_11	Potrebujete odemknout %s dalších pecetí.
+DUNGEON_CHAT_12	Zabijte všechna monstra.
+DUNGEON_CHAT_13	Znicte všechny metiny.
+DUNGEON_CHAT_14	Získat klíce od pecetí od tvoru a pouzít klíce.
+DUNGEON_CHAT_15	Boss Guardian se objevil, porazte ho, abyste dosáhli Bosse!
+DUNGEON_CHAT_16	Boss se objevil, porazte Bosse, abyste dokoncili dungeon!
+DUNGEON_CHAT_17	519
+DUNGEON_CHAT_18	520
+DUNGEON_CHAT_19	521
+DUNGEON_CHAT_20	522
+DUNGEON_CHAT_21	523
+DUNGEON_CHAT_22	524
+DUNGEON_CHAT_23	525
+DUNGEON_CHAT_24	526
+DUNGEON_CHAT_25	527
+DUNGEON_CHAT_26	528
+DUNGEON_CHAT_27	529
+DUNGEON_CHAT_28	530
+DUNGEON_CHAT_29	531
+DUNGEON_CHAT_30	532
+DUNGEON_CHAT_31	533
+DUNGEON_CHAT_32	534
+DUNGEON_CHAT_33	535
+DUNGEON_CHAT_34	536
+DUNGEON_CHAT_35	537
+DUNGEON_CHAT_36	538
+DUNGEON_CHAT_37	539
+DUNGEON_CHAT_38	540
+DUNGEON_CHAT_39	541
+DUNGEON_CHAT_40	542
+STRING_D186	Toto muze byt pouzito pouze na zbroj a zbrane do úrovne 40 a níze.
+STRING_D187	Pocet zbyvajících ryb k zvyšení úrovne rybolovu je %s!
+STRING_D188	Vaše úroven rybolovu se zvyšila, dosáhnete další úrovne, az ulovíte %s dalších ryb.
+STRING_D189	Pokud se jedná o predmet, muzete vylepšovat pouze predmety do úrovne 90 a níze.
+STRING_D190	Tímto predmetem muzete vylepšovat pouze predmety do úrovne 90 a vyšší.
+STRING_D191	Potrebujete aktivní dobu do zkušebního pouzití polozky casu.
+STRING_D192	Muzete se teleportovat pouze ke svym prátelum ve vesnicích.
+STRING_D193	Tato událost není aktivní.
+STRING_D194	Nedostatek sad karet!
+STRING_D195	Není k dispozici dostatek místa!
+STRING_D196	Uz nejsou k dispozici zádné karty!
+STRING_D197	Nemuzete pridat více karet na stul.
+STRING_D198	Nelze upravit vylepšení casove omezenych kostymu.
+STRING_D199	Polozka zakoupena. Zakoupeny predmet byl presunut do trzištního depa, protoze v inventári není místo.
+STRING_D200	Nelze odebrat poslední polozku ze seznamu. (Pokud chcete odebrat poslední polozku, musíte uzavrít vaše trzište)
+STRING_D201	Nemuzete hledat tak rychle.
+STRING_D202	Bu string boþtur.
+STRING_D203	Bu string boþtur.
+STRING_D204	Bu string boþtur.
+STRING_D205	Bu string boþtur.
+STRING_D206	Bu string boþtur.
+STRING_D207	Bu string boþtur.
+STRING_D208	Bu string boþtur.
+STRING_D209	Bu string boþtur.
+STRING_D210	Bu string boþtur.
+STRING_D211	Bu string boþtur.
+STRING_D212	Bu string boþtur.
+STRING_D213	Bu string boþtur.
+STRING_D214	Bu string boþtur.
+STRING_D215	Bu string boþtur.
+STRING_D216	Bu string boþtur.
+STRING_D217	Bu string boþtur.
+STRING_D218	Bu string boþtur.
+STRING_D219	Bu string boþtur.
+STRING_D220	Bu string boþtur.
+STRING_D221	Bu string boþtur.
+STRING_D222	Bu string boþtur.
+STRING_D223	Bu string boþtur.
+STRING_D224	Bu string boþtur.
+STRING_D225	Bu string boþtur.

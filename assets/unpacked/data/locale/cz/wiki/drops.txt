@@ -1,0 +1,47 @@
+
+[BANNER_IMG = d:/ymir work/ui/game/wiki/drops.tga]
+[CENTER_ALIGN;FONT_SIZE=30]Temel Drop Bilgileri
+
+[COLOR=0xffd700;FONT_SIZE=18]Giriþ:
+
+[X_PADDING=5;FONT_SIZE=14]* 1. Ortak Drop bilgisi
+[X_PADDING=5;FONT_SIZE=14]* 2. Drop Özellikleri
+
+[IMG=d:/ymir work/ui/game/wiki/divider_long.tga; Y=160; CENTER_ALIGN]
+
+
+
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]1. Ortak Drop bilgisi
+
+[CENTER_ALIGN;FONT_SIZE=14]Ava2 dünyasýnda, çok sayýda ekipman parçasý vardýr.
+[CENTER_ALIGN;FONT_SIZE=14]Dünyamýzýn derinliklerine indikçe canavarlar üzerinize düþecek. Bu öðeler olacak
+[CENTER_ALIGN;FONT_SIZE=14]karakterinizi geliþtirmek için ihtiyaç duyacaðýnýz silahlar, zýrhlar ve aksesuarlar.
+
+
+
+
+
+[IMG=d:/ymir work/ui/game/wiki/emoji/drop1.tga; Y=310; CENTER_ALIGN]
+
+[IMG=d:/ymir work/ui/game/wiki/divider_long.tga; Y=440; CENTER_ALIGN]
+
+
+
+
+
+
+
+
+
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]2.Drop Özellikleri
+
+[X_PADDING=15;FONT_SIZE=14]* Alacaðýnýz eþyalar her zaman yaklaþýk olarak eþyanýzýn seviyesinde olacaktýr.
+[X_PADDING=15;FONT_SIZE=14] karakter.
+[X_PADDING=15;FONT_SIZE=14]* Bir canavarýn size item düþürmesi için sizden 10 Lv düþük veya yüksek olmasý gerekmez.
+[X_PADDING=15;FONT_SIZE=14]* Herhangi bir canavar, yukarýdaki kurallarý izleyerek size herhangi bir nesneyi býrakabilir.
+[X_PADDING=15;FONT_SIZE=14]* Tbu sistemden elde edilen damla, ekipman parçalarý olacaktýr.
+[X_PADDING=15;FONT_SIZE=14] seviye 1'den seviye 65'e.
+[X_PADDING=15;FONT_SIZE=14]*65 üstü seviye ekipman parçalarý sadece Bosslardan alýnýr.
+

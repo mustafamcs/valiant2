@@ -1,0 +1,574 @@
+CLOSE_WINDOWS_ERROR	Minden ablakot be kell zárnod ehhez.
+WAIT_TO_USE_AGAIN	Még %s másodpercig várnod kell ehhez.
+ARENA_TALK_15	Háborúba léptél be, a kilépés megszakítva.
+BATTLEPASS_NOT_COMPLETED_ALL_NORMAL_MISSIONS	Még nem végeztél el minden feladatot a normál csatapasszban!
+BATTLEPASS_NOT_COMPLETED_ALL_PREMIUM_MISSIONS	Még nem végeztél el minden feladatot a prémium csatapasszban!
+BATTLEPASS_NOT_COMPLETED_ALL_EVENT_MISSIONS	Még nem végeztél el minden feladatot az esemény csatapasszban!
+CANT_INCREASE_YOUR_BIOLOG_LEVEL_MORE	Nem tudod tovább fejleszteni a biológusodat.
+X_SUCCESSFULL_Y_UNSUCCESSFULL	%sx sikeres és %sx sikertelen.
+BATTLEPASS_ALREADY_EARNED_BATTLEPASS_REWARD	Már megkaptad ezt a csatapassz jutalmat.
+IT_WAS_FAILED	Muvelet sikertelen.
+TAKE_OFF_YOUR_ARMOR_TO_OPEN_SHOP	Vedd le a páncélodat a bolt nyitásához.
+YOU_CARRY_TOO_MUCH_GOLD_TO_OPEN_SHOP	Túl sok arannyal rendelkezel, nem nyithatsz boltot.
+INVALID_SHOP_NAME	Érvénytelen bolt neve.
+CANT_TRADE_WITH_EQUIPPED_ITEMS	Nem kereskedhetsz felszerelt tárgyakkal.
+CANT_TRADE_WITH_THIS_ITEM	Ezzel a tárggyal nem kereskedhetsz.
+EQUIP_YOUR_PICKAXE_FIRST	Egy kapa felszerelése szükséges ehhez.
+CANNOT_FISH_HERE	Itt nem horgászhatsz.
+EQUIP_YOUR_ROD_FIRST	Szerelj fel egy botot ehhez.
+PUT_A_BAIT_TO_YOUR_ROD	A botodra kell tenned egy csalit ehhez.
+CANT_FISH_WITHOUT_ROD	Horgászbot nélkül nem horgászhatsz.
+PROBLEM_OCCURED_TRY_AGAIN_LATER	Egy probléma lépett fel, próbáld újra késobb!
+PARTY_REQ_ERR_0	Nem hozhatsz létre csoportot más birodalmak játékosaival.
+PARTY_REQ_ERR_1	Nem hívhatsz meg vagy csatlakozhatsz csoportba a szintakna alatt.
+PARTY_REQ_ERR_2	Nem hívhatod meg az észlelot csoportba.
+PARTY_REQ_ERR_3	Nem hozhatsz létre csoportot olyannal, akinek a szintkülönbsége több, mint 30.
+PARTY_REQ_ERR_4	Nem hozhatsz létre csoportot olyannal, akinek a szintkülönbsége több, mint 30.
+PARTY_REQ_ERR_5	Nem fogadhatsz el meghívásokat.
+PARTY_REQ_ERR_6	A csoport elérte a limitet, nem hívhatsz meg többet.
+PARTY_REQ_ERR_7	A csoport elérte a limitet, nem csatlakozhatsz többhez.
+PARTY_REQ_ERR_8	Ez a játékos nem a csoport.
+PARTY_REQ_ERR_9	Nem hívhatsz meg, csak a csoportvezeto teheti meg.
+PARTY_REQ_ERR_10	Nem csatlakozhatsz csoportba a szintakna alatt.
+PARTY_REQ_SENT	Csoportkérés elküldve neki: %s.
+PARTY_REQ_REJECTED	%s visszautasította a csoportkérést.
+PARTY_REQ_REJECTED2	%s visszautasította a csoportkérést.
+PARTY_REQ_ALREADY_IN_PARTY	%s már csoportban van.
+PARTY_JOINED_THE_PARTY	%s csatlakozott a csoportba.
+PARTY_JOINED_THE_PARTY2	Te csatlakoztál %s csoportjához.
+MINING_STOPPED	Bányászat leállítva.
+PLAYER_BUSY_RN	Ez a játékos jelenleg foglalt.
+GROUP_LEADER_IS_NOT_ACTIVE_CANT_DO_THIS	A csoportvezeto nem aktív, nem teheted meg ezt.
+SAFEBOX_ERR_1	A biztonsági doboz már nyitva van.
+SAFEBOX_ERR_2	Várj egy kicsit, hogy újra megtehesd.
+CANT_TELEPORT_THIS_PLAYER	Ezt a játékost nem teleportálhatod.
+THIS_PLAYER_IS_OFFLINE	Ez a játékos offline.
+OTHER_CHANNEL_ERR	A játékos nincs ebben a csatornán, a játékos csatornja: %s. (A te csatornád: %s)
+THIS_WINDOW_IS_ALREADY_OPEN	Ez az ablak már nyitva van.
+CLOSE_OTHER_WINDOWS_TO_DO_THIS	Zárd be az összes ablakot, hogy megtehesd ezt.
+CANT_ADD_LOCKED_ITEMS	Nem választhatod ki a már kiválasztott tárgyat.
+ONLY_SAME_GRADE_CAN_COMBINED	Csak azonos osztályba tartozó tárgyakat lehet kombinálni.
+ABSORBPTION_CHANGE_IS_MAX	A tárgy maximális abszorpciós arányú.
+ONLY_ARMOR_WEARPON_CAN_BE_ABSORBED	Csak fegyverek és páncélok abszorbeálhatóak.
+NOT_ENOUGH_YANG	Nincs elég yang.
+INVALID_ACTION	Érvénytelen muvelet!
+NEW_ABSORB_RATE	Új abszorpciós arány: %s
+CANT_USE_THIS_WITH_NON_SASH_ITEMS	Csak vállpántokon lehet ezt csinálni.
+CANT_USE_THIS_WITH_NON_AURA_ITEMS	Csak aurakellékeken lehet ezt csinálni.
+ITEM_HAS_NO_ABSORBTION	Ehhez a tárgyhoz nincs abszorpció.
+POLY_BLOCKED_WITH_THIS	Nem teheted meg ezt, amíg polimorfból vagy.
+CHANNEL_SWITCH_0	%s másodperc múlva a csatorna megváltozik.
+CHANNEL_SWITCH_1	A csatorna megváltozik.
+MULTIFARM_ACTIVATED	A tárgygyujtés aktiválva lett.
+MULTIFARM_DEACTIVATED	A tárgygyujtés deaktiválva lett.
+MULTIFARM_MULTIACC_LIMIT	A tárgygyujtés nem aktiválható több, mint 2 fiókkal.
+GLOBAL_ERR_OCCURED	Hiba történt, próbáld újra késobb.
+AURA_INVALID_ITEM_TYPE	Érvénytelen tárgy lett kiválasztva, csak ékszerek szívhatók fel.
+AURA_RUNIC_ITEM_NOT_FOUND	Ezt csak Aura Runiccal tudod csinálni.
+AURA_RUNIC_ICE_SHOULD_BE_USED	Ezt csak Aura Jégruniccal tudod csinálni.
+AURA_RUNIC_FIRE_SHOULD_BE_USED	Ezt csak Aura Tuzruniccal tudod csinálni.
+AURA_ABS_REMOVE_ATTR	Elvont bónuszok sikeresen törölve.
+YOU_DO_NOT_HAVE_ENOUGH_GEM_SLOT_OPENER	Nincs elég gemnyitód.
+YOUR_BIOLOG_LEVEL_INCREASED	Biológiai szinted nott.
+GM_MESSENGER_IN_YOU_BLOCK	A csevegésed letiltva van.
+BUFF_MSG_01	%s nincs hozzáadva, mert a százalékod magasabb, A százalék: (%s%%) Jelenlegi százalékod: (%s%%)
+BUFF_MSG_02	%s bónusz sikeresen hozzáadva. Új százalék: (%s%%) Régebbi százalék: (%s%%)
+WARNING_DRAGON_GOD	Mivel a Sárkányisten védelme alatt állsz, nem vesztettél tapasztalatot.
+WARNING_DRAGON_GOD2	Mivel a Sárkányisten védelme alatt állsz, nem vesztettél tárgyakat.
+GUILDWAR_WARNING_NO_ADVANTAGE_HUNTING	Nincs elonye a vadászatnak egy guild háború alatt.
+DS_TALK_1	Sárkány Alkímia nincs aktív.
+HORSE_TALK_1	A lovad hívása sikertelen.
+SAFEBOX_ERR	Rossz jelszó.
+REFINE_FREE_UPGRADE_BELLOW_20	Ingyenes fejlesztés csak 20 vagy alacsonyabb szintu fegyverekhez érheto el.
+CANT_UPGRADE_THIS_ITEM	Ezt a tárgyat nem fejlesztheted.
+NOT_ENOUGH_MATERIAL	Nincs elég anyagod.
+CAN_NOT_UPGRADE_WITH_THIS_ITEM_MORE	Ezt a tárgyat nem fejlesztheted tovább.
+CAN_ONLY_UPGRADE_ITEMS_MORE_THAN	Ezzel a tárggyal csak %s vagy magasabb szintu tárgyakat fejleszthetsz.
+DEVILTOWER_UPGRADE_MSG	Csak egyszer tudsz fejleszteni a démon tornyában.
+CANT_COMBINE_SIMILAR_REFINE_ITEMS	Hasonló fejlesztési tárgyakat nem kombinálhatsz.
+MAGIC_STONE_REFINE_CAN_BE_COMBINED	Mágikus ko és Áldás tekercs kombinálható.
+NO_SPIRIT_STONES_TO_REMOVE	Nem található szellemkövet az eltávolításhoz.
+CANT_SAVE_THIS_POSITION	Ezt a pozíciót nem mentheted.
+NO_EMPTY_SPACE_IN_INVENTORY	Nincs elég hely a táskádban!
+YOU_HAVE_LOWER_LEVEL_THAN_ITEM	Nincs elég szinted ehhez.
+CANT_TELEPORT_SAVEZONE_IN_DIFFERENT_EMPIRE	Egy másik birodalom biztonsági zónájába nem teleportálhatsz.
+AFFECT_IS_ALREADY_ACTIVE	Ez a hatás már aktív.
+NOT_ENOUGH_HP	Nincs elég életerod.
+NOT_ENOUGH_SP	Nincs elég manád.
+ACTION_NOT_POSSIBLE_ON_THIS_MAP	Ez a muvelet nem lehetséges ezen a térképen.
+CANT_SET_A_CAMPFIRE_HERE	Itt nem állíthatsz fel tábortüzet.
+CANT_WEAR_SASH_SKIN_IF_NOT_WEAR_SASH	Nem viselhetsz vállpántos kinézetet, ha nem viselsz vállpántot.
+CANT_WEAR_PET_SKIN_IF_NOT_WEAR_PET	Nem viselhetsz pet kinézetet, ha nem viselsz petet.
+CANT_WEAR_AURA_SKIN_IF_NOT_WEAR_AURA	Nem viselhetsz aurás kinézetet, ha nem viselsz aura öltözéket.
+CANT_WEAR_MOUNT_SKIN_IF_NOT_WEAR_MOUNT	Nem viselhetsz lovaskinézetet, ha nem ülsz lovon.
+CANT_DO_THIS_WHILE_MOUNTING	Ezt nem teheted meg lovaglás közben.
+CANT_DO_THIS_IN_DUEL	Ezt nem teheted meg egy párbajban.
+WAIT_SOME_TIME_TO_DO_THIS_AGAIN	Muvelet sikertelen, várj egy kicsit és próbáld újra.
+NEED_2SPACE_IN_INVS	Ennek a ládának kinyitásához 3 helyre van szükséged az összes táskádban.
+NEED_2SPACE_IN_DS_INV	Ennek a ládának kinyitásához 2 helyre van szükséged a sárkánylelked táskájában.
+LOWERING_YOUR_SKILL_SUCCEDEED	Sikeresen csökkentetted a képességed szintjét.
+LOWERING_YOUR_SKILL_FAILED	Nem sikerült csökkenteni a képességed szintjét.
+YOU_HAVE_NO_SKILL_GROUP	Nem teheted meg ezt, ha nincs képességcsoportod.
+X_SECONDS_ARE_ADDED	%s másodperc hozzáadva.
+ADDING_TIME_FAILED	Ido hozzáadása sikertelen.
+SWITCH_BOT_STOP_INFO_1	Kifogytál a váltókból, a váltóbot leállt.
+SWITCH_BOT_STOP_INFO_2	Nincs elég yangod, a váltóbot leállt!
+PET_TEXT_1	Ehhez eloször hívnod kell a házikedvencedet.
+PET_TEXT_2	Ehhez legalább %s szintunek kell lennie a házikedvencednek.
+PET_TEXT_3	Új házikedvenc hely nyílt meg.
+OFFLINESHOP_TEXT_1	Az üzlet megnyitásához %s yangra van szükséged.
+OFFLINESHOP_TEXT_2	Csak szociális csatornában hozhatsz létre üzletet.
+OFFLINESHOP_TEXT_3	Csak az elso falvakban hozhatsz létre üzletet.
+OFFLINESHOP_TEXT_4	Átteleportáltál az üzlethez.
+OFFLINESHOP_TEXT_5	Átteleportálsz az üzlethez...
+OFFLINESHOP_TEXT_6	Nem található üzlet a kiválasztott névvel.
+OFFLINESHOP_TEXT_7	Az üzlet idotartama tovább nem hosszabbítható.
+OFFLINESHOP_TEXT_8	A kiválasztott névvel rendelkezo üzlet nem található.
+OFFLINESHOP_TEXT_9	Ha nincs prémiumod, csak akkor szerkesztheted a piacodat, ha ugyanazon a térképen vagy.
+OFFLINESHOP_TEXT_10	Nem adhatsz hozzá ezt a tárgyat az üzlethez.
+ACCESSORY_SOCKET_DISSAPEARED	%s ásvány eltunt.
+WEDDING_TEXT_1	Nem teheted meg ezt, ha nem vagy házas.
+ITS_NOT_EASY_TO_UNDERSTAND_THIS_BOOK	Ezt a könyvet nem könnyu megérteni.
+CANT_UPGRADE_WITH_THIS_MORE	Nem fejlesztheted ezzel a tárggyal tovább.
+CANT_UPGRADE_YOUR_ABILITY_MORE	Nem fejlesztheted tovább ezt a képességet.
+UNEQUIP_YOUR_PET	Ehhez eloször le kell venned a házikedvencedet.
+PREMIUM_ALREADY_MEMBER	Már van prémiumod.
+THE_ITEM_USAGE_LIMIT_EXCEEDED	Ezen tárgy használati limitje túllépve.
+CANT_UPGRADE_ITEM_WITH_LEVEL3_SPIRITS_STONES	+3 szintu szellemkövekkel nem fejlesztheted ezt a tárgyat.
+CANT_CHANGE_THE_ATTRIBUTE_OF_THIS_ITEM	Nem változtathatod meg ezen tárgy attribútumát.
+NO_ATTRIBUTES_TO_CHANE_ON_THE_ITEM	Nincs attribútum, amit megváltoztathatnál.
+NO_STONE_TO_CLEAR	Nincs eltörött ko, amit eltávolíthatsz.
+CHANGE_ATTRIBUTE_WAS_SUCCESFULL	Attribútumváltoztatás sikeres volt.
+YOU_DO_NOT_MEET_THE_NEEDS_OF_THIS_ITEM	Nem felelsz meg ennek a tárgynak a követelményeinek.
+THIS_CAN_BE_USED_IN_ONLY_WEAPONS_ARMORS	Ezt csak fegyverekre és páncélokra lehet használni.
+ADDING_ATTRIBUTE_WAS_SUCCESSFULL	Bónusz hozzáadása sikeres volt.
+ADDING_ATTRIBUTE_WAS_FAILED	Bónusz hozzáadása sikertelen volt.
+CANT_ADD_MORE_BONUS_TO_THIS_ITEM	Nem adhatsz hozzá több bónuszt ehhez a tárgyhoz.
+TO_USE_THIS_YOU_NEED_FOR_BONUSSES_ON_THE_ITEM	Ehhez az itemhez 4 bónusz szükséges.
+ADDING_SOCKET_SUCCESSFULL	Socket hozzáadása sikeres volt!
+ADDING_SOCKET_UNSUCCESSFULL	Socket hozzáadása sikertelen volt.
+SOCKET_NOT_ENOUGH_SPACE	Nincs elég hely a socket hozzáadásához.
+SOCKET_CANT_BE_ADDED_TO_THIS_ITEM	Nem adhatsz hozzá socketet ehhez a tárgyhoz.
+ADDING_JEWEL_SUCCESFULL	Ásvány hozzáadása sikeres volt!
+ADDING_JEWEL_UNSUCCESFULL	Ásvány hozzáadása sikertelen volt!
+ADD_JEWEL_INFO_01	Ehhez eloször egy socketet kell kinyitnod.
+ADD_JEWEL_INFO_02	Ehhez eloször egy socketet kell kinyitnod.
+ADD_JEWEL_INFO_03	Ehhez eloször egy socketet kell kinyitnod.
+ADD_JEWEL_INFO_04	Nem adhatsz hozzá több ásványt ehhez a tárgyhoz.
+PERMANENT_JEWEWL_INFO_01	Nem adhatsz hozzá állandó ásványt ehhez a tárgyhoz.
+PERMANENT_JEWEWL_INFO_02	Csak állandó ásványt adhatsz hozzá.
+PERMANENT_JEWEWL_INFO_03	Nem adhatsz hozzá ezt az ásványt ehhez a tárgyhoz.
+PERMANENT_JEWEWL_INFO_04	Nem adhatsz hozzá állandó ásványt ehhez a tárgyhoz.
+FISHING_CANT_CHANGE_BAIT_WHEN_FISHING	Nem változtathatod meg az etetot, amikor halászol.
+FISHING_CHANGED_BAIT_WITH	Változtattad az etetot erre: %s.
+FISHING_ADDED_BAIT	Hozzáadtad a(z) %s nevu etetot a botodhoz!
+CANT_ADD_SAME_SPIRIT_STONES	Nem adhatsz hozzá ugyanolyan osztályú szellemköveket kétszer.
+CANT_ADD_THIS_SPIRIT_STONES_TO_THIS_ITEM	Nem adhatsz hozzá ilyen szellemkövet ehhez a tárgyhoz.
+NOT_ENOUGH_SPACE_TO_ADD_SPIRIT_STONE	Nincs elég hely ehhez a szellemkövhöz.
+ONLY_OTHER_GENDER_CAN_USE_THIS	Csak másik nem használhatja ezt.
+CANNOT_DO_THIS	Nem tudom ezt megtenni.
+YOU_CANNOT_CARRY_MORE_YANG	Nem vihetsz magaddal több yangot.
+ITEM_IS_SOLD	%s eladva.
+YOU_CANNOT_DROP_THIS_ITEM	Ezt a tárgyat nem dobhatod el.
+ITEM_DROPPED_WILL_DISSAPEAR_IN_MINS	[Figyelem] - A földre dobott tárgyak 3 perc múlva eltunnek!
+CANT_DROP_GOLD	Nem dobhatod el a yangot.
+CANT_MOVE_ITEM_TO_THIS_INVENTORY	Nem mozgathatod ezt a tárgyat abba az inventáriumba.
+YOU_CANNOT_MOVE_ACTIVE_SWITCHBOT_ITEMS	Nem mozgathatod a muködo váltóbot tárgyakat.
+YOU_CANNOT_ADD_THIS_ITEM_TO_SWITCHBOT	Ezt a tárgyat nem adhatod hozzá a váltóbothoz.
+FULL_SOCKET_WARNING	A socket megtelt, eloször törölnöd kell a socketeket.
+YOU_GAINED_ITEM	%s megszerzése.
+YOU_GAINED_ITEM_INV_TYPE_01	%s megszerzése. Áthelyezve a fejlesztési inventaridba.
+YOU_GAINED_ITEM_INV_TYPE_02	%s megszerzése. Áthelyezve a könyv inventaridba.
+YOU_GAINED_ITEM_INV_TYPE_03	%s megszerzése. Áthelyezve a szellemko inventaridba.
+YOU_GAINED_ITEM_INV_TYPE_04	%s megszerzése. Áthelyezve a generális inventaridba.
+YOU_GAINED_ITEM_INV_TYPE_05	%s megszerzése. Áthelyezve az inventaridba.
+ITEM_DELETED	%s törölve.
+UNEQUIP_YOUR_SKIN_FIRST	Ehhez eloször le kell vetkoznöd a kinézetedet.
+YOU_ALREADY_RIDING_MOUNT	Már lovon ülsz.
+ONLY_GROUP_LEADER_CAN_USE_THIS	Csak a csoportvezeto használhatja ezt.
+CANT_USE_THIS_WITH_COSTUME	Ezt nem teheted meg ebben a tuxedo vagy esküvoi ruhában.
+CANT_USE_COSTUME_WITH_THIS	Ezt nem teheted meg ebben a kinézetben.
+YOU_HAVE_TO_STAND_STILL_TO_DO_THIS	Ehhez mozdulatlannak kell lenned.
+WRONG_EQUIPMENT_MATCH	A fegyvered nem kompatibilis a fegyver kinézetével.
+CANT_DO_THIS_IF_NOT_WEAR_PET	Nem teheted meg ezt, ha nincs házikedvenced felszerelve.
+CANT_DO_THIS_IF_NOT_WEAR_MOUNT	Nem teheted meg ezt, ha nincs lovod felszerelve.
+CANT_DO_THIS_IF_NOT_WEAR_SASH	Nem teheted meg ezt, ha nincs vállpántod felszerelve.
+CANT_DO_THIS_IF_NOT_WEAR_AURA	Nem teheted meg ezt, ha nincs aura öltözeted felszerelve.
+ALREADY_WEAR_SAME_TYPE_DS	Már viselsz ugyanazon típusú sárkánylelket.
+CANT_FEED_HORSE_WITH_DRUGS	Nem gyógyíthatod meg a lovadat, ha már életben van.
+YOU_ALREADY_HAVE_THIS_HAIRSTLE	Már megvan ez a hajviselet.
+YOU_ALREADY_POLYMORPHED	Már változol.
+YOU_CANT_POLYMORPH	Nem változhatsz.
+CANT_POLYMORPH_HIGHER_LEVEL	Nem változtathatod a magasabb szintu szörnyeket.
+THIS_ITEM_CANT_BE_USED	Ezt a tárgyat nem lehet használni.
+CANT_WEAR_THIS_SECOND_TIME	Ezt nem viselheted újra másodszor.
+DS_DEACTIVATE_REQ	Ennek deaktiválásához le kell állítanod a sárkánylelked.
+AFFECTS_ARE_NOT_LOADED_YET	A hatások még nincsenek betöltve, kérlek várj egy kicsit.
+CANT_DO_THIS_IF_NOT_WEAR_BELT	Nem teheted meg ezt, ha nincs öved felszerelve.
+CANT_DO_THIS_IF_NOT_UPGRADE_BELT	Nem teheted meg ezt, ha nem fejlesztetted a szíjat.
+INGAME_SHOP_MSG_01	Nincs elég sárkányérméd.
+INGAME_SHOP_MSG_02	Ezt a tárgyat már nem veheted meg többször, elérted a heti limitet, heti limit: %s
+INGAME_SHOP_MSG_03	Ezt a tárgyat már nem veheted meg többször, elérted a havi limitet, havi limit: %s
+INGAME_SHOP_MSG_04	Ez a tárgy nem eladó.
+INGAME_SHOP_MSG_05	%s %sx-t vetted meg %s árért.
+INGAME_SHOP_MSG_06	%s-t vetted meg %s árért.
+INGAME_SHOP_MSG_07	Az áruház frissítve lett, a tartalom változhat...
+CHEST_GIVE_STOP_DROP	A láda kinyitása leállítva, a raktárad tele van.
+CHEST_OPEN_COUNT	A megnyitott ládák összesen: %s
+CMD_TALK_20	Valaki belépett a fiókodba. Lekapcsolnak a kapcsolatod.
+CANT_FEED_DEAD_HORSE	Nem etethetsz meg egy halott lovat.
+HORSE_FEED_TALK_01	Megöregedett a lovat.
+DS_TALK_2	Nem tudod kinyerni a felszerelt sárkánylelkeket.
+DS_TALK_3	Kinyerés sikeres.
+DS_TALK_4	Rossz fejlesztoanyag.
+DS_TALK_5	Nincs elég yang a fejlesztéshez.
+DS_TALK_6	Kinyerés sikertelen, %s-t kaptál.
+DS_TALK_7	Ezt a tárgyat nem fejlesztheted ezzel a tárggyal.
+DS_TALK_8	A finomítás sikertelen.
+FISHING_TALK_01	Horgász pont növekedett. (%s/%s)
+FISHING_TALK_02	Nem fejlesztheted tovább a botodat.
+FISHING_TALK_03	Látogasd meg a Horgászt a botod fejlesztéséhez.
+FISHING_TALK_04	A hal elveszett a mély vízben.
+FISHING_TALK_05	A halban kagyló van.
+FISHING_TALK_06	%st a körökön keresztül told be.
+GUILD_TALK_1	<Guild> Rang emelkedett %s ponttal.
+SAFEBOX_PW_01	Megváltoztattad a széf jelszavad.
+SAFEBOX_PW_02	Rossz jelszó.
+CANNOT_CHANGE_CHANNEL	A csatorna váltása sikertelen.
+USER_BLOCKED_WARP_REQUESTS	Ez a személy tiltotta a teleportálási kérelmeket.
+WINNER_ITEM_01	%s %sx-t kapott, áthelyezve a fejlesztési inventaridba.
+WINNER_ITEM_02	%s %sx-t kapott, áthelyezve a könyv inventaridba.
+WINNER_ITEM_03	%s %sx-t kapott, áthelyezve a szellemko inventaridba.
+WINNER_ITEM_04	%s %sx-t kapott, áthelyezve a generális inventaridba.
+WINNER_ITEM_05	%s %sx-t kapott, áthelyezve az inventaridba.
+WINNER_ITEM_06	%s %sx-t kapott, áthelyezve a sárkánylelke inventaridba.
+YOU_CANNOT_DO_THIS_WHILE_ANOTHER_WINDOW_IS_OPEN	Minden ablakot be kell zárnod ehhez.
+ARENA_TALK_5	123
+ARENA_TALK_1	A párbaj véget ért, mert a harcosod eltunt.
+ARENA_TALK_2	Itt nincs határa a fozeteknek.
+ARENA_TALK_3	Használhatsz %s fozetet.
+ARENA_TALK_4	A csata 10 másodpercen belül kezdodik.
+ARENA_TALK_6	Arena hiba miatt a párbaj véget ért.
+ARENA_TALK_7	A párbaj véget ért, mert lejárt az ido.
+ARENA_TALK_8	10 másodpercen belül át leszel teleportálva a városba.
+ARENA_TALK_12	%s gyozött.
+ARENA_TALK_13	A következo kör 10 másodpercen belül kezdodik.
+ARENA_TALK_14	A harcosok elhagyták. A párbaj véget ért.
+SKILL_TALK_1	Ezt a képességet nem tudod fejleszteni.
+SKILL_TALK_2	Ezt a képességet nem tudod fejleszteni a Nagy Mester szintjére.
+SKILL_TALK_4	Már mester vagy ebben a képességben.
+SKILL_TALK_5	A képességed nem elég magas a Nagy Mester szintjének eléréséhez.
+SKILL_TALK_6	Sikeresen elvégezted a képzést a könyv segítségével.
+SKILL_TALK_8	Nem olvashatod el ezt, amikor még ilyen tapasztalatlan vagy.
+SKILL_TALK_9	Ezt a képességet nem tudod fejleszteni a könyvek olvasása révén.
+SKILL_TALK_10	Ez a képesség nem elég magas szintu ahhoz, hogy könyvek olvasásával fejleszd.
+SKILL_TALK_11	A gonosz szellemek átka felszabadításra került a Gonosz szellemuzo papír segítségével.
+SKILL_TALK_12	%s könyvet kell még elolvasnod e képesség fejlesztéséhez.
+SKILL_TALK_13	A képzés sikertelen. Kérlek, próbáld újra késobb.
+SKILL_TALK_14	A teleportálás sikertelen.
+SKILL_NOT_UPGRADE_ERROR	Ezt a képességet már nem tudod tovább fejleszteni.
+SKILL_UPGRADE_SUCCESS	Sikeresen fejlesztetted a képességet.
+SKILL_UPGRADE_FAIL	Nem sikerült fejleszteni a képességet.
+PASSIVE_SKILL_TALK_1	Ezzel a könyvvel nem tudod tovább fejleszteni a képességeidet.
+PASSIVE_SKILL_TALK_2	Sikeresen fejlesztetted a passzív képességet.
+PASSIVE_SKILL_TALK_3	Nem sikerült fejleszteni a passzív képességet.
+PASSIVE_SKILL_TALK_4	Még %s könyvet kell sikeresen elolvasnod a képesség fejlesztéséhez.
+PASSIVE_SKILL_TALK_5	Elolvasott könyvek száma: %s.
+CMD_TALK_1	Ez a parancs nem elérheto.
+CMD_TALK_2	Kérlek, add meg a parancs teljes nevét.
+CMD_TALK_10	Szükséged van a partner jóváhagyására.
+CMD_TALK_11	Ezt csak az ellenkezo nemu partnerrel teheted meg.
+CMD_TALK_12	Ezt nem teheted meg az arénában.
+CMD_TALK_13	Nem tudom használni ezt a kifejezést.
+CMD_TALK_15	Csak a nok tehetik meg ezt.
+CMD_TALK_16	Személy nem található.
+CMD_TALK_17	Ezt a képességet nem tudom használni.
+CMD_TALK_18	Túl közel vagy.
+CMD_TALK_19	Túl messze vagy.
+STRING_D1	Már használsz egy tárgyat.
+STRING_D2 Elobb fel kell szólítanod a lovadat.
+STRING_D3	Vonja vissza a lovát.
+STRING_D4	Elsoként leszállnod kell a lovadról.
+STRING_D5	Amíg a lovadon ülsz, nem etetheted meg.
+STRING_D6	%s-t adtál a lovadnak.
+STRING_D7	Erre a muveletre %s tárgyra van szükséged.
+STRING_D8	%s másodperc van hátra.
+STRING_D9	A teleportálást megszakítottad.
+STRING_D10	Menj vissza a bejelentkezo képernyore, kérlek várj.
+STRING_D11	Kilépés a játékból. Kérlek várj.
+STRING_D12	Karakterváltás. Kérlek várj.
+STRING_D13	Még nem tudlak feltámasztani. (próbáld újra %s másodperc múlva)
+STRING_D14	Feltámasztás a városban még nem lehetséges. (próbáld újra %s másodperc múlva)
+STRING_D15	Nem hajthatod végre ezt a muveletet, amíg átalakult vagy.
+STRING_D16	Ezt nem teheted meg az arénában.
+STRING_D17	Ezt nem teheted meg ezen a térképen.
+STRING_D18	Ez a személy már csatában van.
+STRING_D19	Ehhez csatlakoznod kell egy guildhez.
+STRING_D20	Nem változtathatod meg a guild képesség szintjét.
+STRING_D21	A megadott jelszó helytelen.
+STRING_D22	A tároló ablak már nyitva van.
+STRING_D23	Ezt minden 10 másodpercenként megteheted.
+STRING_D24	Valami hiba történt, kérlek próbáld újra késobb!
+STRING_D25	Nem hagyhatod el a csoportot a dungeonban.
+STRING_D26	Elhagytad a csoportot.
+STRING_D27	A guild már csatában van.
+STRING_D28	Nincs jogosultság senki sem a guild csatához.
+STRING_D29	Guild nem található.
+STRING_D30	Ez a guild már részt vesz egy csatában.
+STRING_D31	Nincs elég pénzed a guild csatához.
+STRING_D32	Ez a guild nem rendelkezik elég pénzzel a csatához.
+STRING_D33	Háborút hirdettél ennek a guildnek.
+STRING_D34	Ez a guild már regisztrált egy másik guild csatára.
+STRING_D35	A guilded már részt vesz egy másik csatában.
+STRING_D36	A guild szintje túl alacsony a csatához.
+STRING_D37	Minimum %s játékosra van szükség a guild csatához.
+STRING_D38	A guildnek nincs elég ranglistapontja a csatához.
+STRING_D39	A guildnek nincs elég tagja a guild csatához.
+STRING_D40	A guild vezetoje nem aktív.
+STRING_D41	%s elutasította a meghívást.
+STRING_D42	Nincs elég hely az inventoryban.
+STRING_D43	Nem fogadhatod el a meghívást, mert már tartozol egy csoportba.
+STRING_D44	Dobtál egy kockát %s. (%s-%s)
+STRING_D45	Nem férhetsz hozzá a tárolóhoz a dungeon vagy csata során.
+STRING_D46	Nem tudsz lovagolni ezen a térképen.
+STRING_D47	Ezt nem teheted meg, amíg lovagolsz.
+STRING_D48	Használat: /channel <új csatornaszám>.
+STRING_D49	Kérlek, válassz egy érvényes csatornát.
+STRING_D50	Már csatlakoztál a %s csatornához.
+STRING_D51	Csoportban vagy. Nem változtathatod meg a csatornát csoportban.
+STRING_D52	Nem változtathatod meg a csatornát a dungeonban tartózkodva.
+STRING_D53	Kicsit várnod kell, hogy végrehajtsd ezt a muveletet.
+STRING_D54	Ezen a térképen nem változtathatod meg a csatornát.
+STRING_D55	A bájital aktiválódott, automatikusan használatra kerül, amikor szükséges.
+STRING_D56	A bájital deaktiválódott, nem fog automatikusan használódni, amikor szükség van rá, újra aktiválnod kell.
+STRING_D57	Ez a rendszer karbantartás alatt van. Hamarosan aktiválódik.
+STRING_D58	A csevegési beállításaid megváltoztak.
+STRING_D59	Nincs elég lélekköved.
+STRING_D60	Nincs elég anyagod.
+STRING_D61	Ezt most nem teheted meg.
+STRING_D62	Nincs elég bölcs lélekköved.
+STRING_D63	Nincs elég legendás lélekköved.
+STRING_D64	Nincs elég passzív képesség lélekköved.
+STRING_D65	Nincs elég passzív képesség bölcs lélekköved.
+STRING_D66	Nincs elég passzív képesség legendás lélekköved.
+STRING_D67	A rulett forog.
+STRING_D68	Nincs elég tárgyad, ezt nem teheted meg.
+STRING_D69	Nincs elég sárkány érméd, ezt nem teheted meg.
+STRING_D70	Megadott név érvénytelen.
+STRING_D71	Leszállás elott le kell szedned a lovadat.
+STRING_D72	Már rendelkezel ezzel a hatással.
+STRING_D73	Lovad neve sikeresen megváltozott!
+STRING_D74	Kisállatod neve sikeresen megváltozott!
+STRING_D75	Nincs elég hely a speciális inventorydben.
+STRING_D76	Nincs elég hely az inventorydben.
+STRING_D77	Nincs elég könyved az olvasáshoz.
+STRING_D78	Nem tudod tovább fejleszteni ezt a képességet.
+STRING_D79	Nem olvashatsz könyveket képességcsoport nélkül.
+STRING_D80	A Gaya bolt frissült.
+STRING_D81	Nincsenek meg a szükséges anyagok a Gaya bolt frissítéséhez.
+STRING_D82	A transzformációs ablaknak nyitva kell lennie ahhoz, hogy ezt a muveletet végrehajtsd.
+STRING_D83	Nincs elég yangod.
+STRING_D84	A muvelet sikertelen.
+STRING_D85	Ha a kereskedelmi ablak nyitva van, nem kezdeményezhetsz másik kereskedést.
+STRING_D86	A másik játékos már kereskedik.
+STRING_D87	A másik játékos megszakította a kereskedést.
+STRING_D88	Nem kereskedhetsz ezzel a tárggyal.
+STRING_D89	Nem vásárolhatsz, amíg a quest ablak nyitva van.
+STRING_D90	A másik játékos inventoryjában nincs elég hely.
+STRING_D91	Kereskedés %s-vel sikeresen befejezodött.
+STRING_D92	Ezt nem teheted meg, túl messze vagy.
+STRING_D93	Nem kereskedhetsz felszerelt tárgyakkal.
+STRING_D94	Nem adhatsz el többet 1kkkkk-nál
+STRING_D95	A jutalmat már kiadták, már túl késo.
+STRING_D96	%s tapasztalati pontot szereztél.
+STRING_D97	Egy rejtélyes fény sugárzik a fáról.
+STRING_D98	%s yangot szereztél.
+STRING_D99	%s meghív téged egy csatára!
+STRING_D100	Harc %s ellen elkezdodött.
+STRING_D101	Megtanultad a teljes polymorphot.
+STRING_D102	A csoport törölve lett.
+STRING_D103	Cél nem található.
+STRING_D104	A csoporttársad nincs ugyanazon a térképen, mint te.
+STRING_D105	Nem hívhatod meg a célt.
+STRING_D106	Nem hívhatod meg a csoporttagokat a jelenlegi pozíciódba.
+STRING_D107	Több tapasztalati pontot szerezhetsz a csoport együttmuködésének köszönhetoen.
+STRING_D108	Bányászati pontjaid elérte a limitet. (%s).
+STRING_D109	A bányászati pontok a csákányodnál elérte a legmagasabb szintet.
+STRING_D110	A bányászati pontjaidat a favágó segítségével növelheted meg.
+STRING_D111	Bányászati pontjaid megnottek! (%s/%s)
+STRING_D112	Nem bányászhatsz csákány nélkül a kezedben.
+STRING_D113	Nincs itt oslény.
+STRING_D114	%s levonásra került mint eladási adó.
+STRING_D115	Eltávolítottad %s-t a barátlistádról.
+STRING_D116	%s hozzá lett adva barátnak.
+STRING_D117	A csetet egy hatóság letiltotta.
+STRING_D118	A csetet egy hatóság %s óra %s perc %s másodpercig letiltotta.
+STRING_D119	A csetet egy hatóság %s óráig %s másodpercig letiltotta.
+STRING_D120	A csetet egy hatóság %s perc %s másodpercig letiltotta.
+STRING_D121	A csetet egy hatóság %s másodpercig letiltotta.
+STRING_D122	Üvölteni csak %s szintunek lehet.
+STRING_D123	Nem vagy egy csoport tagja.
+STRING_D124	Nem sikerült csatlakoznod a guildhez.
+STRING_D125	Nem adhatsz hozzá hatóság személyt a barátlistádhoz.
+STRING_D126	%s nincs a játékban.
+STRING_D127	A személy elutasította a barátságkérést.
+STRING_D128	Nincs elegendo szinted.
+STRING_D129	%s visszautasította a teleport kérést.
+STRING_D130	Kereskedés után %s másodpercig nem tudsz mozogni.
+STRING_D131	Túl sok yangot cipelsz.
+STRING_D132	A másik játékos túl sok yangot cipel.
+STRING_D133	Ezt a tárgyat nem lehet a tárolóba tenni.
+STRING_D134	Nem adhatsz hozzá tárgyakat a speciális inventorydban, mert tele van.
+STRING_D135	Nem mozgathatsz tárgyakat a speciális inventorydból a tárolóba.
+STRING_D136	Üresítsd ki a öved inventoryját, mielott eltávolítod az övet.
+STRING_D137	Ezt nem teheted meg.
+STRING_D138	Csak bájitalokat adhatsz a öv inventoryjához.
+STRING_D139	A meghívott személy nem aktív.
+STRING_D140	A szerver nem tudta teljesíteni a csoportkérést.
+STRING_D141	Csak a csoportvezeto teheti meg ezt.
+STRING_D142	A célpont nem a csoportod tagja.
+STRING_D143	Ezt nem teheted meg a dungeonban.
+STRING_D144	Ezt nem teheted meg, mert a csoport egyik tagja a dungeonban van.
+STRING_D145	Kirúgtak a csoportból.
+STRING_D146	Kiléptél a csoportból.
+STRING_D147	Nem rúghatsz ki csoporttagokat.
+STRING_D148	Egy guild feloszlatása után %s napig nem hozhatsz létre új guildet.
+STRING_D149	Egy guild elhagyása után %s napig nem hozhatsz létre új guildet.
+STRING_D150	Megadott guild név érvénytelen.
+STRING_D151	<Guild> A %s guild sikeresen létrejött.
+STRING_D152	<Guild> Nem sikerült létrehozni a guildet. Kérlek, próbáld újra.
+STRING_D153	Csak a csoportvezeto használhatja a csoportképességeket.
+STRING_D154	Nem vagy egyetlen guild tagja sem.
+STRING_D155	<Guild> Érvénytelen összeg lett megadva.
+STRING_D156	Nem rúghatsz ki guild tagot egy guild csatában.
+STRING_D157	Nem ugyanazon a guilden belül vagy, mint ez a játékos.
+STRING_D158	Nincs jogod eltávolítani guild tagokat.
+STRING_D159	Eltávolítottál egy tagot a guildbol.
+STRING_D160	Nincs jogod megváltoztatni a helyszín nevét.
+STRING_D161	Nincs jogod megváltoztatni a guild vezeto címét.
+STRING_D162	A megadott sor név érvénytelen.
+STRING_D163	Nincs jogod újrarendezni a pozíciókat.
+STRING_D164	Nincs jogod megváltoztatni a guild vezeto jogosultságait.
+STRING_D165	Ezt a muveletet nem hajthatod végre, amíg a tapasztalatszerzés inaktív.
+STRING_D166	A guilded már elérte a lehetséges maximális szintet.
+STRING_D167	Depozitáltál %s tapasztalati pontot.
+STRING_D168	Hiba történt, amikor a guildnek tapasztalatot próbáltál adni.
+STRING_D169	Hiba történt a sárkányero újragenerálása során.
+STRING_D170	Nincs jogod értesítéseket írni.
+STRING_D171	Nincs jogod valakit mesterré nevezni.
+STRING_D172	Nincs jogod tábornaggyá kinevezni.
+STRING_D173	Nem tudsz több tábornagyot kinevezni.
+STRING_D174	Ez a tárgy nem cserélheto.
+STRING_D175	Nem hozhatsz létre piacteret a túlzott yang miatt.
+STRING_D176	Túl sokáig vagy tilalom alatt a ranglista frissítésétol.
+STRING_D177	Sikeresen aktiváltad a Prémium Csatapasszt az aktuális szezonra. Jó játékot!
+STRING_D178	A képességed színe sikeresen megváltozott.
+STRING_D179	Ehhez a muvelethez el kell hagynod a jelenlegi csoportot.
+STRING_D180	A muvelethez legalább M1 vezetoi képesség szintre van szükséged.
+STRING_D181	Kérlek, várj %s másodpercet, mielott újra megpróbálod ezt a muveletet.
+STRING_D182	Automatikus zsákmányolási funkció aktiválva.
+STRING_D183	Automatikus zsákmányolási funkció inaktív.
+STRING_D184	Nincs elég %s tárgyad ehhez a muvelethez.
+STRING_D185	A dungeonba való visszatérési idod lejárt.
+GUILD_TALK_5	A %s guild legyozte a %s guildet egy guild csatában.
+GUILD_TALK_9	<Guild> A %s guild elutasította a guild csatát.
+GUILD_TALK_11	<Guild> Nem hozhatsz létre guildet.
+GUILD_TALK_12	<Guild> Ez a guild név már foglalt.
+GUILD_TALK_13	<Guild> Érvénytelen guild név lett megadva.
+GUILD_TALK_15	<Guild> Nem hívhatod meg csatában.
+GUILD_TALK_16	<Guild> Ez a játékos már egy másik guild tagja.
+GUILD_TALK_18	<Guild> A guild már egy csatában van.
+GUILD_TALK_19	<Guild> Tagfelvételi kérelmek jelenleg korlátozva vannak.
+GUILD_TALK_20	<Guild> Nem hívhatod meg más Királyságból származó játékosokat.
+GUILD_TALK_21	<Guild> Nem hívhatod meg a játékost a guildbe.
+GUILD_TALK_22	<Guild> A játékos visszautasította a guild meghívót.
+GUILD_TALK_23	<Guild> Nem áll rendelkezésre elegendo yang.
+GUILD_TALK_24	<Guild> A játékos offline.
+GUILD_TALK_25	<Guild> A játékos a %s csatornában van. (A te csatornád: %s)
+GUILD_TALK_26	<Guild> Jelenleg nem használhatod ezt a képességet.
+GUILD_TALK_27	<Guild> Az üzenetet nem lehet törölni.
+OX_TALK_1	Helyes.
+OX_TALK_10	A kérdések összes száma: %s
+MINING_SUCCESSFULL	Bányászat sikeres!
+IT_WAS_SUCCESFULL	Muvelet sikeres!
+HORSE_FEED_TALK_02	Megetetted a lovat.
+DUNGEON_CHAT_1	Még 20 perc van hátra a dungeon befejezéséhez!
+DUNGEON_CHAT_2	Még 15 perc van hátra a dungeon befejezéséhez!
+DUNGEON_CHAT_3	Még 10 perc van hátra a dungeon befejezéséhez!
+DUNGEON_CHAT_4	Még 5 perc van hátra a dungeon befejezéséhez!
+DUNGEON_CHAT_5	Még 1 perc van hátra a dungeon befejezéséhez, siess!
+DUNGEON_CHAT_6	Nem sikerült befejezni a dungeont, 5 másodperc múlva ki leszel teleportálva kívülre.
+DUNGEON_CHAT_7	%s több szörnyet kell legyoznöd.
+DUNGEON_CHAT_8	Sikeresen teljesítetted a küldetést, a következo küldetés 5 másodpercen belül kezdodik.
+DUNGEON_CHAT_9	Még %s metint kell lerombolnod.
+DUNGEON_CHAT_10	Sikeresen befejezted a dungeont, 30 másodpercen belül ki leszel teleportálva kívülre.
+DUNGEON_CHAT_11	%s pecsétet kell még feloldanod.
+DUNGEON_CHAT_12	Öld meg az összes szörnyet.
+DUNGEON_CHAT_13	Rombold le az összes metintet.
+DUNGEON_CHAT_14	Szerezd be a kulcsokat a lényektol és használd a kulcsokat.
+DUNGEON_CHAT_15	Boss védo jelent meg, gyozd le hogy elérj a Boss-hoz!
+DUNGEON_CHAT_16	A fonök megjelent, gyozd le hogy befejezd a dungeont!
+DUNGEON_CHAT_17	519
+DUNGEON_CHAT_18	520
+DUNGEON_CHAT_19	521
+DUNGEON_CHAT_20	522
+DUNGEON_CHAT_21	523
+DUNGEON_CHAT_22	524
+DUNGEON_CHAT_23	525
+DUNGEON_CHAT_24	526
+DUNGEON_CHAT_25	527
+DUNGEON_CHAT_26	528
+DUNGEON_CHAT_27	529
+DUNGEON_CHAT_28	530
+DUNGEON_CHAT_29	531
+DUNGEON_CHAT_30	532
+DUNGEON_CHAT_31	533
+DUNGEON_CHAT_32	534
+DUNGEON_CHAT_33	535
+DUNGEON_CHAT_34	536
+DUNGEON_CHAT_35	537
+DUNGEON_CHAT_36	538
+DUNGEON_CHAT_37	539
+DUNGEON_CHAT_38	540
+DUNGEON_CHAT_39	541
+DUNGEON_CHAT_40	542
+STRING_D186	Csak olyan páncélokra és fegyverekre használható, amelyek 40 szint alatt vannak.
+STRING_D187	Az elérheto halak száma a Horgász szinted növeléséhez: %s!
+STRING_D188	A Horgász szinted növekedett, elérheted a következo szintet, amikor még %s halat fogsz el.
+STRING_D189	Ha ez egy tárgy, csak olyan tárgyakat tudsz fejleszteni, amelyek 90 szint alatt vannak.
+STRING_D190	Ezzel a tárggyal csak olyan tárgyakat fejleszthetsz, amelyek 90 szint felett vannak.
+STRING_D191	Az idotárgy használatához aktív visszahutésre van szükséged.
+STRING_D192	Csak a falvakban lévo barátaidhoz tudsz teleportálni.
+STRING_D193	Ez az esemény nem aktív.
+STRING_D194	Hiányzó kártyakészletek!
+STRING_D195	Nincs elegendo hely!
+STRING_D196	Nincs több kártya!
+STRING_D197	Nem adhatsz hozzá több kártyát az asztalhoz.
+STRING_D198	Nem módosíthatod az idozített jelmezek fejlesztését.
+STRING_D199	Tárgy megvásárolva. A megvásárolt tárgy átkerült a piaci depóba, mert nincs hely a tárolódban.
+STRING_D200	Nem távolíthatod el az utolsó tárgyat az üzletbol. (Ha eltávolítod az utolsó tárgyat, be kell zárnod a piacodat)
+STRING_D201	Nem kereshetsz ilyen gyorsan.
+STRING_D202	Bu string boþtur.
+STRING_D203	Bu string boþtur.
+STRING_D204	Bu string boþtur.
+STRING_D205	Bu string boþtur.
+STRING_D206	Bu string boþtur.
+STRING_D207	Bu string boþtur.
+STRING_D208	Bu string boþtur.
+STRING_D209	Bu string boþtur.
+STRING_D210	Bu string boþtur.
+STRING_D211	Bu string boþtur.
+STRING_D212	Bu string boþtur.
+STRING_D213	Bu string boþtur.
+STRING_D214	Bu string boþtur.
+STRING_D215	Bu string boþtur.
+STRING_D216	Bu string boþtur.
+STRING_D217	Bu string boþtur.
+STRING_D218	Bu string boþtur.
+STRING_D219	Bu string boþtur.
+STRING_D220	Bu string boþtur.
+STRING_D221	Bu string boþtur.
+STRING_D222	Bu string boþtur.
+STRING_D223	Bu string boþtur.
+STRING_D224	Bu string boþtur.
+STRING_D225	Bu string boþtur.

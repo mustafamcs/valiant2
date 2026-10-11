@@ -1,0 +1,337 @@
+19	Ce este o Esarfa?
+20	Ce este o Esarfa?
+21	Esarfele iti ofera doua optiuni: Combinatie si[ENTER]Absorbtie.[ENTER][ENTER]Poti incerca numai combinatii cu esarfe de[ENTER]acelasi grad. Doua esarfe combinate pot genera o[ENTER]esarfa de grad mai mare.[ENTER][ENTER]In absorbtie, bonusurile sunt luate de la arma[ENTER]sau armura intr-un procent care variaza si sunt[ENTER]aplicate pe Esarfa.[ENTER][ENTER]Rata de absorbtie (%) depinde de gradul esarfei[ENTER]folosite. Cand se absorb bonusurile, arma sau[ENTER]armura selectata se distruge.
+22	Combinatie
+23	Doresti sa combini doua Esarfe?
+24	Absorbtie Bonusuri
+25	Doresti sa absorbi bonusurile de pe arma sau de[ENTER]pe armura?
+39	Inchide
+114	Informatie:
+126	Daca te casatoreþti acum, nu poti schimba[ENTER]regatul. Doar jucatori necasatoriti pot schimba[ENTER]regatul
+127	Divorteaza daca doreþti sa schimbi regatul.
+128	Nu poti schimba regatul daca eþti transformat.
+129	Foloseþte acest obiect dupa ce nu mai eþti[ENTER]transformat.
+130	Nu poti schimba regatul daca eþti membru al unei[ENTER]bresle.
+131	Foloseþte acest obiect dupa ce ai parasit breasla.
+132	Nu poti schimba regatul, deoarece nu ai destul[ENTER]Yang.
+133	Foloseþte acest obiect când ai 500.000 Yang la[ENTER]tine
+134	În care regat doreþti sa te muti?
+135	Shinsoo
+139	Sigur doreþti sa schimbi regatul? Nu vei mai[ENTER]putea da înapoi
+140	Schimb de regat:
+141	Logout þi login pentru ca procesul sa poata fi[ENTER]încheiat.
+143	Ai ales acelaþ regat în care te afli. Nu doreai[ENTER]sa il schimbi?
+144	Regatul este ales.[ENTER]Erai membru într-o breasla. În noul regat îti[ENTER]lipseþte breasla.
+145	Regatul este ales[ENTER]Erai casatorit cu un caracter.[ENTER]În noul regat îti lipseþte partenerul.
+147	Cu acest obiect poti sa îti schimbi regatul.
+148	Nu poti folosi acest obiect!
+149	Poti schimba regatul o singura data.
+150	GM - Sa aducem timpul de blocare la zero?
+151	Timpul necesar a fost pus pe 0.
+152	Jucatori casatoriti nu pot schimba regatul.
+153	Nu poti folosi acest obiect acum.
+689	Batrâna:
+961	Rafinare Piatra Dragon
+962	Doreþti sa rafinezi o Piatra Dragon? Mi se pare[ENTER]corect. Trebuie sa þtii însa ca acest proces[ENTER]poate eþua. Am auzit ca aceste boabe de Fasole[ENTER]Dragon pe care le gaseþti în spatele monedei care[ENTER]se învârte cresc þansa de succes.
+1278	Gardianul
+1294	Gardianul din Centrul Oraþului
+1298	Tasta necunoscuta [%s]
+1301	Deschide magazinul
+1408	Femeia Batrana:
+1692	GM: Reînscriere
+1693	GM: Citeþte informatia breslei
+1694	pc.has_guild: %s
+1695	Vrei sa paraseþti breasla careia îi apartii?[ENTER]Presupun ca ti-ai facut putini prieteni acolo.[ENTER]Depinde de tine. Doreþti deci într-adevar sa[ENTER]paraseþti breasla?
+1696	Bine.[ENTER][ENTER]Am sa te exclud din breasla.
+1697	Ce?[DELAY value;150] [/DELAY][ENTER][ENTER]Dupa ce m-am chinuit sa o formez, tu vrei sa o[ENTER]desfiintezi? Toata experienta þi toate amintirile[ENTER]prietenilor voþtri se vor pierde pentru[ENTER]totdeauna![ENTER]Vrei cu adevarat sa o desfiintezi?
+1698	Bine.[ENTER][ENTER]Am sa desfiintez breasla al carei conducator eþti.
+1699	Formeaza o breasla
+1700	Formeaza o breasla
+1701	În urmatoarele zile de la parasirea breslei nu[ENTER]poti
+1702	forma una noua..
+1703	Introdu numele utilizatorului ale carui[ENTER]informatii le doreþti.
+1704	Ai desfiintat deja o breasla![ENTER]În urmatoarele zile nu poti
+1705	Vrei sa formezi o breasla?[ENTER][ENTER]Vei primi un ID pentru formarea de bresle abia[ENTER]dupa ce vei fi atins nivelul 40, iar atunci vei[ENTER]avea nevoie de 200.000 Yang pentru formarea ei.[ENTER][ENTER]Vrei sa formezi o breasla?
+1706	Nu ai destul Yang!
+1707	Nivelul tau este prea scazut pentru a forma o[ENTER]breasla
+1710	Acest utilizator nu exista.
+1711	Verifica cea mai apropiata data de reînscriere.
+1712	Parasire breasla: acum %s zile
+1714	Timp pâna la dizolvare: %s zile
+1716	Cea mai apropiata þansa de a repeta încercarea:[ENTER]%s ore
+1718	Adaptare imediata
+1719	Posibila înscrierea imediata.
+1749	Aici poti vedea rangul breslei tale in comparatie[ENTER]cu celelalte bresle clasate pe aceeasi lista:[ENTER][DELAY value;0][ENTER]|Nume Breasla |Puncte |Victorii |Remize[ENTER]|Infrangeri[ENTER]%s[/DELAY][ENTER]
+1750	Aici poti vedea cele mai bine clasate opt bresle[ENTER]si statisticile acestora:[ENTER][DELAY value;0][ENTER]|Nume Breasla|Puncte |Victorii |Remize |Infrangeri%s[/DELAY][ENTER]
+1751	Rangul breslei tale este %s.
+1752	Numarul punctelor: %s
+1911	%s Vrei sa participi la o lupta?
+2090	Grajdar:
+2191	Imagine de cal noua
+2192	Ai pierdut Cartea Cailor Militari! O copie costa[ENTER]500,000 Yang.
+2193	Aceasta e o versiune noua a Cartii Cailor[ENTER]Militari. Incearca sa nu o pierzi din nou.
+2194	Pentru a putea chema calul începatorilor trebuie[ENTER]mai întâi sa reuþeþti la examenul de calificare.
+2195	Calul începator a fost strigat.
+2196	Nu ai reuþit sa chemi calul începatorilor. Poti[ENTER]sa îti mareþti þansa de a chema calul exersând[ENTER]abilitatea de chemare a calului.
+2197	Forta ta mentala nu îti este de ajuns. Pentru a[ENTER]putea chema calul începatorilor, ai nevoie de cel[ENTER]putin 100 de Mana.
+2198	Pentru a chema calul calaretilor intermediari ai[ENTER]nevoie de Cartea Cailor Armati.
+2200	Pentru a putea chema calul, trebuie mai întâi sa[ENTER]reuþeþti la examenul de callificare.
+2201	Pentru a striga calul începator ai nevoie de[ENTER]imaginea calului.
+2202	Ai pierdut imaginea calului![ENTER]Pentru 400.000 Yang îti dau una noua.
+2203	Calul pentru calareti cu capacitati medii a fost[ENTER]strigat.
+2204	Nu ai reuþit sa îl chemi pe calul celor cu[ENTER]cunoþtinte medii de calarie. Poti sa îti sporeþti[ENTER]þansa de a-l putea chema exersând abilitatea de[ENTER]chemare a calului.
+2205	Forta ta mentala nu îti este suficienta. Pentru a[ENTER]putea chema calul celor cu cunoþtinte medii de[ENTER]calarie, ai nevoie de cel putin 200 de Mana.
+2206	Sa chemi un cal pentru avansati, ai nevoie de[ENTER]Cartea Cailor Militari.
+2207	Pentru a putea chema calul pentru avansati,[ENTER]trebuie mai întâi sa reuþeþti la examenul de[ENTER]calificare.
+2208	Pentru a chema calul calaretilor intermediari ai[ENTER]nevoie de Manualul Calului Armat.
+2209	Calul pentru avansati a fost strigat.
+2210	Nu ai reusit - Calul Militar nu a putut fi[ENTER]chemat. Poti sa-ti maresti sansele de reusita[ENTER]exersand abilitatea de chemare a calului.
+2211	Forta ta mentala nu este suficienta. Pentru a[ENTER]putea chema calul pentru avansati, ai nevoie de[ENTER]cel putin 300 de Mana.
+2213	Aceasta este noua imagine a calului.[ENTER]Sa nu o mai pierzi.
+2215	Nu ai destul Yang.
+2216	Noua Carte a Cailor Armati
+2217	Ai pierdut cartea Arme þi Cai.[ENTER]Pentru 500.000 Yang îti dau una noua.
+2218	Acesta este noul Manual al Calului Armat.[ENTER]Incearca sa nu o pierzi din nou.
+2219	Nu ai destul Yang.
+2220	Noua Carte a Cailor Militari
+2263	Da.
+2316	Doar jucatorii cu un nivel peste 50 pot schimba[ENTER]sexul
+2317	%s
+2318	GM - Sa reducem timpul de blocare a jucatorilor[ENTER]la Zero?
+2319	Schimb de sex:
+2320	Acest obiect schimba sexul caracterului tau. Poti[ENTER]sa-l schimbi la fiecare 3 zile.
+2321	Te-ai gândit bine înainte sa faci acest pas?[ENTER]Vrei într-adevar sa-ti schimbi sexul?[ENTER]Dupa aceea vei fi teleportat automat în oraþ.
+2322	Sexul a fost schimbat. Toate skillurile si[ENTER]abilitatile vor ramane la fel.
+2323	Sexul a fost schimbat.
+2324	Dezechipeaza toate costumele, coafurile þi armura.
+2325	Te rog încearca sa foloseþti acest obiect, când[ENTER]ai atins nivelul 50.
+2326	Jucatori casatoriti nu pot schimba sexul. Acest[ENTER]lucru se poate doar daca nu sunteti casatoriti.
+2327	Daca te casatoreþti acuma, nu-ti mai poti schimba[ENTER]sexul, deoarece numai jucatorii necasatoriti îþi[ENTER]pot schimba sexul.
+2328	Divorteaza daca vrei sa schimbi sexul.
+2329	Nu poti sa îti schimbi sexul daca eþti[ENTER]transformat.
+2331	Poti schimba sexul doar o data la 3 zile
+2332	Poti abia sa schimbi din nou:
+2594	Desfiinteaza breasla
+2617	Cere permisiunea de a participa
+2618	Lista razboaielor dintre bresle
+2619	Acum au loc urmatoarele razboaie: Daca doresti sa[ENTER]participi ca spectator alege una dintre breslele[ENTER]participante.
+2620	Deocamdata nu participa nicio breasla la vreo[ENTER]lupta.
+2621	Luptele s-au sfârþit deja.
+2622	Paraseþte breasla.
+2625	Da
+4298	Vezi scorul breslei tale
+4299	Arata rangul breslei tale
+4300	Vezi cele mai mari ranguri ale breslelor (1-8)
+4473	Da
+6491	Aþ dori sa ma casatoresc
+6492	Smoking
+6493	Lista nuntii
+6494	Deocamdata nu are loc nicio nunta.
+6496	Eþti invitat la nunta![ENTER]Distractie placuta.
+6497	Inca nu s-a uscat cerneala! Estre nevoie de timp.
+6499	Pentru a te casatori trebuie sa îmbraci un[ENTER]smoking.
+6500	Rochie de mireasa
+6501	Pentru a te casatori trebuie sa porti rochie de[ENTER]mireasa.
+6502	Ai nevoie de Ynag pentru a planifica o nunta.[ENTER]Momentan banii tai nu ajung. Cand vei avea 1[ENTER]milion de Yang te poti casatori fericit.
+6503	Trebuie sa ai 1 Mil. Yang
+6504	Esti destul de matur si arati bine.[ENTER]Cu cine doresti sa te casatoresti?
+6505	Scrie numele celui cu care doresti sa te[ENTER]casatoresti.
+6506	Eþti aþa emotionat, ca nu mai poti scrie nici[ENTER]numele corect? Mai încearca odata
+6507	Nu þtii cum se numeþte persoana...[ENTER]Aþa ceva, eþti sigur ca vrei sa te casatoreþti?
+6508	O alta nunta are loc tocmai acum; aþteapta un[ENTER]moment sau revino mai târziu.
+6509	%s nu este online
+6510	Partenerul tau trebuie sa fie aici pentru a putea[ENTER]tine ceremonia. Adu-l incoace.
+6511	%s se afla prea departe.
+6512	Nu numele tau, ci numele partenerului.
+6513	Scrie numele partenerului.
+6514	Îmi pare rau.[ENTER][ENTER]Perechi de acelaþi sex nu pot cununa.
+6515	Doar perechi din acelaþi regat se pot casatori.
+6516	Persoana cu care vrei sa te casatoreþti, este[ENTER]înca casatorita; nu þtiai asta? Gaseþte-ti un[ENTER]partener necasatorit.
+6517	%s este casatorit.
+6518	Persoana nu este destul de matura pentru[ENTER]casatorie.[ENTER]Partenerul tau trebuie sa aiba cel putin nivelul[ENTER]25.
+6519	Tu eþti prea tânar ca sa te casatoreþti ...[ENTER]Pentru asta ai nevoie de mult simt de raspundere,[ENTER]þi tu nu eþti destul de matur. Tinerii divorteaza[ENTER]prea repede în zilele noastre. Nu îti voi aproba[ENTER]casatoria. Du-te înapoi þi acumuleaza experienta.
+6520	Voi doi nu va potriviti. Nu pot aproba nunta,[ENTER]când partenerii nu se potrivesc.[ENTER][ENTER]Diferenta de nivel e mai mare de 15; de aceea nu[ENTER]va puteti casatori.
+6521	Schimbati inelele.
+6522	femeia batrâna: Casatoria este un eveniment aþa[ENTER]de important al vietii; partenerul tau ar fi[ENTER]trebuit sa contribuie macar cu un inel de[ENTER]cununie.
+6523	Partenerul tau trebuie sa aiba þi el un inel de[ENTER]cununie la îndemâna.
+6524	Partenerul tau nici macar nu poarta haine de[ENTER]nunta! Nu ti-e penibil sa apari aþa cu el?
+6525	Partenerul tau trebuie sa poarte un smoking.
+6526	Partenerul tau trebuie sa poarte o rochie de[ENTER]mireasa.
+6528	Ok, a sosit vremea. Putem începe. Va voi trimite[ENTER]pe Insula Îndragostitilor. Va doresc o casnicie[ENTER]lunga þi fericita! Felicitari![ENTER][ENTER]Vei fi trimis automat pe Insula Îndragostitilor.
+6529	Partenerul tau nici nu vrea sa se casatoreasca cu[ENTER]tine. Clarifica întâi situatia.
+6530	Înapoi la încaperea nuntii
+6531	Informatii:
+6532	De ce mai esti aici?[ENTER]Partenerul tau te aþteapta cu mult dor þi[ENTER]nerabdare. Te trimit repede într-acolo.
+6533	Aprobare pentru nunta
+6534	Organizatoarea de nunti:
+6535	Vorbesc cu partenerul tau. O secunda
+6536	Eu sunt asistent de nunti. Noteaza numele[ENTER]partenerului aici jos.
+6537	Aþa un nume nici macar nu-i înregistrat. Verifica[ENTER]înca o data datele.
+6538	Scuze. Adu-ti partenerul încoace. Trebuie sa-l[ENTER]anunt þi sa-l verific.
+6539	%s trebuie sa fie þi mai aproape.
+6540	Te rog, nu scrie numele tau.[ENTER]Trebuie sa scrii numele partenerului tau.
+6542	Cununia se poate realiza doar de la nivelul 25 în[ENTER]sus.
+6543	Aici ceva nu este în regula. Nu este aceeaþi[ENTER]persoana. Vrei te rog sa verifici?
+6544	Partenerul tau nu este pregatit pentru nunta.[ENTER]Mai vorbiti odata.
+6545	Acum ca totul este pregatit, ceremonia poate[ENTER]incepe!
+6546	Va fi o nunta frumoasa!
+6547	Începutul marþului nuptial
+6548	Sfârþitul marþului nuptial
+6549	Noapte
+6550	Zapada
+6551	Terminarea nuntii
+6552	Aþteapta un moment. Vorbesc cu partenerul tau.
+6553	Vrei sa te casatoresti fara Inel de Logodna?
+6554	Doreþti sa continui cu aceasta nunta?
+6555	da
+6557	Partenerul tau trebuie sa fie de acord cu[ENTER]anularea casatoriei.[ENTER]Casatoria nu poate fi anulata acum, deoarece[ENTER]persoana nu este on-line.
+6558	Aþteptam consimtamântul partenerului tau; înca nu[ENTER]am primit nici un raspuns.
+6560	Partenerul tau nu vrea.
+6561	Divort
+6562	Divort
+6563	Fara partener nu poti divorta legal. Vino cu[ENTER]partenerul tau. Divortul este foarte important.
+6564	Inel de Logodna
+6565	Pentru divortul legal ai nevoie de 500.000 de[ENTER]yang þi de consimtamântul partenerului.[ENTER]Chiar vrei sa divortezi?
+6567	Adu inelul de cununie.
+6568	Partenerul trebuie sa aiba un inel de cununie la[ENTER]el.
+6569	Yang-ul nu ajunge pentru divort.
+6570	Pentru a divorta, ai nevoie de %s Yang.
+6571	E nevoie de 500.000 pentru divort.
+6572	Vrei sa divortezi cu adevarat?[ENTER]E totuþi o pierdere mare.[ENTER][ENTER]Vrei cu adevarat?
+6574	M-am razgândit.[ENTER]Nu vreau sa divortez.
+6575	Ai nevoie de un Inel de Logodna mai intai. Apoi[ENTER]te poti casatori.
+6576	E mai bine aþa.[ENTER]Îti doresc o viata lunga þi frumoasa.
+6577	Divortul a fost realizat.
+6579	Divortul a avut loc.[ENTER]Acum esti divortat.
+6580	Actele nu sunt complete.[ENTER]Revino mai târziu.
+6581	Divortul a fost retras.
+6582	Partenerul nu vrea sa divorteze.[ENTER]Hotarâti-va.
+6583	Fa inelul de cununie sa dispara
+6584	Fa inelul de cununie sa dispara
+6585	Amintirile neplacute trebuie uitate cât mai repede
+6586	Inelul de cununie a disparut
+6587	Chiar vrei sa te casatoreþti aþa?[ENTER]Te casatoreþti o data în viata þi ai putea macar[ENTER]sa te îmbraci în mod adecvat.
+6588	Divort unilateral
+6589	Gardian:
+6590	Ai nevoie de 1 milion de Yang pentru pronuntarea[ENTER]divortului fara acordul comun al ambilor[ENTER]parteneri. Vrei sa divortezi?
+6592	Nu-ti ajunge pentru divort cantitatea de yang pe[ENTER]care o ai. Ai nevoie de tot atâtia yang ca þi[ENTER]pentru o nunta. Mai gândeþte-te.
+6593	Chiar vrei sa divortezi? Mai gândeþte-te.
+6594	Da, vreau
+6596	Ei bine, poate ca este mai bine aþa. Revino[ENTER]atunci când eþti sigur ca doreþti cu adevarat[ENTER]asta.
+6597	Daca eþti sigur, atunci divorteaza.[ENTER]În ciuda tuturor, îti doresc toate cele bune![ENTER][ENTER]Divortul fara acordul bilateral al partenerilor a[ENTER]fost pronuntat.
+7443	Stai drepti þi tine-ti gura! Comporta-te adecvat[ENTER]þi nu fii certaret! Fii respectuos fata de toata[ENTER]lumea! Ai înteles?
+7444	Eu sunt un om foarte batrân, dar sunt înca[ENTER]sanatos þi în forma, deoarece detin un secret[ENTER]deosebit. Am descoperit ca o licoare facuta din[ENTER]suc de radacini de Gango þi ciuperci Tue îti[ENTER]prelungeþte viata. Daca vrei sa încerci þi tu[ENTER]aceasta licoare, du-te cu ingredientele la[ENTER]Yu-Hwan, cu siguranta ca el îti va face o[ENTER]asemenea licoare.
+7445	Pari destul de puternic ...
+7446	De multi ani secretul puterii se transmite în[ENTER]familia noastra. Tatal meu mi-a povestit ca prin[ENTER]prelucrarea adecvata a florii de cloptel se[ENTER]obtine o licoare care, pentru un timp scurt, îti[ENTER]da putere. Din câte þtiu, Beak-Go þtie sa prepare[ENTER]aceasta licoare. Trebuie numai sa-i duci o floare[ENTER]de clopotel.
+7447	Du-te, spune-o pe munte ...
+7448	Yu-Hwan, muzicianul:
+7449	...peste dealuri þi pretutindeni... Îti place[ENTER]muzica? Cânt tot felul de melodii în singuratate[ENTER]aici, asa ca nu trebuie sa ma implic în razboi.[ENTER]Dar fara o tara care sa ma apere nu voi mai putea[ENTER]face ceea ce-mi place.
+7450	De ce citesti atat de mult?
+7451	Soon, þoarecele de biblioteca:
+7452	Oh, aventurierule![ENTER]Lumea e plina de probleme, þi numai prin þtiinta[ENTER]se poate supravietui.[ENTER]Cinsteþte-ti mereu cartile. Crede-ma, în momente[ENTER]de ananghie îti vor fi de ajutor.
+7453	Ai copii?
+7454	Mmm, ce miros placut ...
+7455	Actualmente eu nu doresc copii, dar ...[ENTER]Eu adun mereu flori de Kaki, deoarece, daca sunt[ENTER]prelucrate adecvat, acestea îti pot mari[ENTER]inteligenta magica. Baek-Go a descoperit o metoda[ENTER]de a produce licori din flori; are nevoie numai[ENTER]de o floare pentru a produce 100 licori.[ENTER]Din pacate, floarea de kaki are þi un efect[ENTER]secundar: daca este purtata de femei în jurul[ENTER]gâtului, acestea nasc un fecior, þi nevasta mea[ENTER]s-a folosit de acest truc cu neruþinare.
+7456	Ce ai patit la picior?
+7457	Handu-Up:
+7458	Devine din ce in ce mai bine. La ultima mea[ENTER]plimbare m-am împiedicat de o radacina de Gango.[ENTER]Deoarece mi-am scrântit piciorul, m-am dus la[ENTER]doctorul Baek-Go. El mi-a spus ca din radacina de[ENTER]Gango se pot face licori care vindeca ranile[ENTER]uþoare.
+7459	Cine esti?
+7460	Wonda-Rim:
+7461	Eu sunt Wonda-Rim, nepotul lui Chaegirab.[ENTER]Unchiul meu e faimos. Il cunosti? Face multe[ENTER]experimente cu licori si ierburi. A descoperit ca[ENTER]poti primi o cantitate mare de protectie daca[ENTER]amesteci 100 Apa Bo cu o Duda. Din cate stiu[ENTER]Huahn-So poate produce licoarea daca ii duci[ENTER]ingredientele necesare.
+7462	De ce ai atatea cicatrici?
+7463	Tradatorul Balso:
+7464	Deoarece nu rezistam prea mult în lupte, l-am[ENTER]întrebat pe Yu-Hwan daca nu poate face o licoare[ENTER]pentru mine, care sa-mi apere corpul de leziuni.[ENTER]El mi-a fiert o licoare din suc de flori de[ENTER]clopotel þi liliac, aceasta nu m-a aparat însa în[ENTER]lupta aþa cum m-am aþteptat eu.[ENTER]Tie însa, aceasta licoare îti va folosi cu[ENTER]siguranta.
+7465	Octavio, gastronomul:
+7466	De ce atata lume te considera tradator?
+7467	Am parasit razboiul þi m-am înrolat în banda[ENTER]Vântul Negru. Fapt pentru care tovaraþii mei nu[ENTER]m-au iertat.[ENTER]Cu timpul am aflat ca razboinicii Vântului Negru[ENTER]omoara oameni nevinovati, atunci i-am parasit[ENTER]imediat. A fost îngrozitor!
+7468	Ai pe constiinta oameni nevinovati? Atunci chiar[ENTER]ca iti meriti numele de tradator.
+7469	Traim intr-o lume fara legi. Am decis sa nu mai[ENTER]fac nimic ilegal niciodata. Nu mai vreau ca lumea[ENTER]sa ma considere tradator.[ENTER][ENTER]Ai ceva Yang pentru mine?[ENTER][ENTER][ENTER]Eu
+7470	Tie iti spun toti savantul?
+7471	Uriel, învatatul:
+7472	Sunt atâtea lucruri de învatat în aceasta lume[ENTER]larga. Ignoranta echipata cu forta militara nu[ENTER]face bine. Tu nu vrei doar sa traieþti ca aceþti[ENTER]soldati ignoranti, nu-i aþa?[ENTER]Þtiinta e putere!
+7473	Sursele mele imi spun ca tu te ocupi cu medicina?
+7474	Fac tot ce pot dar in aceasta lume sunt din ce in[ENTER]ce mai multe victime. Nu avem destule medicamente[ENTER]si ajutoare. Vremurile sunt grele. Poate ma ajuti[ENTER]mai tarziu.
+7475	Cum decurge vanatoarea?
+7476	Bine ai venit! Restaurantul nostru apartine unui[ENTER]lant international de restaurante. Vino la noi o[ENTER]data sa manânci.
+7477	Yang-Shin, vânatorul:
+7478	Hmm, de când au început sa cada pietre de metin,[ENTER]s-au salbaticit animalele. În zilele noastre îti[ENTER]riþti viata chiar þi la prinsul gainilor. Este o[ENTER]perioada foarte periculoasa pentru un vânator.[ENTER]Noroc ca sunt unul dintre cei mai buni.
+7479	De unde provii cu exacticitate?
+7480	Sunt bun cu arcul deoarece am o reteta speciala,[ENTER]hehe! Când amesteci Sucul de floare de piersic cu[ENTER]Liliac obtii o licoare care îti mareþte[ENTER]acuratetea. Du ingredientele la Yu-Hwan, sunt[ENTER]sigur ca va produce licoarea.
+7481	Ce coroana de flori frumoasa ...
+7482	Obisnuiam sa strang flori de piersic cu fratele[ENTER]meu, dar acum trebuie s-o fac singur. Nu arata[ENTER]bine dar au un efect special. Daca duci o Floare[ENTER]de Piersic lui Baek-Go, el iti va produce o[ENTER]licoare care te face sa te misti mai repede.
+7483	Unde este fratele tau?
+7484	In ultimul timp fratele meu calatoreste mult.[ENTER]Abia il mai vad pe acasa si imi fac griji pentru[ENTER]el.
+7485	Vinzi prajituri cu orez?
+7486	Yu-Rang, vânzatoarea de placinte de orez:
+7487	Deþi este un restaurant mare, amenajarea lui este[ENTER]simpla.
+7488	Din cauza razboiului este greu sa faci placinta[ENTER]cu orez. Datorita banditilor, am pierdut þi eu[ENTER]multi clienti. Nici nu mai þtiu din ce sa[ENTER]traiesc.
+7489	De obicei, cine cumpara bunuri de la tine?
+7490	Cele mai multe prajituri le vand calatorilor.[ENTER]Intr`o zi un cavaler misterios imbracat in negru[ENTER]a venit sa ma vada. Ca plata mi`a dat o reteta pe[ENTER]care o faci cu Apa Zin. Este o licoare care iti[ENTER]imbunatateste puterea de atac. Am vandut reteta[ENTER]lui Huahn-So. Daca ii ducii putina apa Sim si un[ENTER]Trandafir de munte lui Huahn-So, el iti va[ENTER]produce Apa Zin.
+7491	De ce esti asa de trist?
+7492	Nu puteam banui ca visurile noastre frumoase ca[ENTER]proaspat casatoriti, vor fi distruse cu atâta[ENTER]cruzime. Dragul meu sot, a pierit in lupta. Of,[ENTER]of ... te rog, razbuna-imoartea.
+7493	Multi au pierit în razboi...
+7494	Deoarece pierdem tot mai multi barbati în razboi,[ENTER]noi, femeile satului, ne-am adunat þi l-am rugat[ENTER]pe Huahn-So sa faca o licoare de vindecare.[ENTER]Dupa o lunga cercetare a facut o licoare care[ENTER]mareþte apararea, aþa ca mai putine licori de[ENTER]vindecare sunt folosite. Viziteaza-l! Sunt sigur[ENTER]ca poate produce licoarea pe care o numeþte[ENTER]Apa-SamBo. Are nevoie doar de apa Dok þi[ENTER]Trandafir Alpin.
+7495	Oh, ce copil dragut ...
+7496	Ah-Yu:
+7497	Iaraþi striga ...[ENTER]Daca vrea ceva gustos sau ... oh nu!
+7498	Spune-mi cate ceva despre olarit.
+7499	Cum o mai duci?
+7500	Copilul meu! of ...[ENTER]Acum, daca barbatul meu a murit în razboi,[ENTER]trebuie sa vad cum ma descurc. Încerc singura sa[ENTER]ma hranesc pe mine þi pe copil. Prin apa-Bo am[ENTER]gasit o modalitate de a-mi îmbunatati venitul.[ENTER]Trebuie sa-i duc lui Yu-Hwan 100 de sucuri de[ENTER]floare de kaki þi o ciuperca Tue. El fierbe din[ENTER]astea apa-Bo pe care eu pot sa o vând cu[ENTER]uþurinta. Trebuie sa ma descurc þi eu cumva.
+7501	Cum se simte sotul tau?
+7502	Aranyo:
+7503	Aþa-numitul meu sot s-a însurat cu cartile lui.[ENTER]Nici macar nu se mai uita la mine. Þi-apoi eu nu[ENTER]sunt o femeie urâta.
+7504	Afacerile cum mai merg?
+7505	De când a început razboiul, afacerea noastra nu[ENTER]mai prea merge. Sindicatul negustorilor era[ENTER]foarte puternic odinioara, dar vremurile acelea[ENTER]au trecut. Nu-i mai putem ignora pe salbatici, pe[ENTER]soldatii profesioniþti albi þi pe banda vântului[ENTER]negru, aþa cum am facut-o pâna acum.
+7506	De ce esti in starea asta nasoala?
+7507	Taurean:
+7508	Harang este o fata rea![ENTER]O urasc! Eu sunt slaba, þi ea îmi face mereu[ENTER]viata grea.
+7509	Yonah, olarul:
+7510	Tu eþti barbat þi ai muþchi. Antreneaza-i un pic!
+7511	Ce faci in acest moment?
+7512	Harang:
+7513	Il astept pe Taurean. In mare parte ne jucam[ENTER]impreuna dar si luptam. Ce las! Daca nu vine de[ENTER]buna voie ii voi face zilele amare!
+7514	Taurean este speriat de tine.
+7515	Actualmente Taurean este mai puternic decat mine.[ENTER]Asa ca m-am gandit la o modalitate de a castiga.[ENTER]Un Ninja alb mi-a zis ca poti amesteca Apa Young[ENTER]cu o Duda incat sa produci o licoare care te[ENTER]ajuta sa lovesti mai repede. Atunci voi putea[ENTER]sa-l inving pe Taurean. Daca doresti sa ataci mai[ENTER]repede atunci du ingredientele la Huahn-So. Sunt[ENTER]sigur ca iti va produce licoarea.
+7516	O noua intelegere ...
+7517	Seon-Pyeong:
+7518	Prietene, lumea este plina de intrebari fara[ENTER]raspunsuri. Eu sunt un cautator de raspunsuri si[ENTER]cunoastere. Ai auzit vreodata de arme epice si[ENTER]Pietre ale Spiritului?
+7519	Ce faci?
+7520	Imi place sa fiu lar. Este satisfactor sa[ENTER]modelezi lutul cu propriile maini si sa vezi cum[ENTER]ceva ia nastere ... De obieci creez lucruri[ENTER]simple. In est, la periferia continentului[ENTER]metodele de productie sunt mai evoluate. Am vazut[ENTER]acolo o olarie care m-a inspirat. Cand voi avea[ENTER]timp voi experimenta, da inca nu am aflat ce[ENTER]smecherie folosesc.
+7521	Poate deja stii ca cercetez necunoscute[ENTER]cunostinte. In momentul de fata caut o metoda de[ENTER]a inbunatatii armele si Pietrele Spiritelor.
+7522	Cercetarea armei ...
+7523	Interesant nu? Vrei sa stii mai multe? Atunci te[ENTER]rog sa-mi aduci arma potrivita +9 de nivel 65. De[ENTER]asemenea mai am nevoie de un 
+7524	Totusi, nu promit ca functioneaza.
+7525	Pietrele Spiritului...
+7526	Pietrele Spiritelor sunt rar folosite dar la[ENTER]nevoie sunt des folosiye, multi nu cunosc[ENTER]adevarata lor putere. Dar cercetarile mele m-au[ENTER]ajutat sa aflu mai multe detalii despre ele.[ENTER]Daca-mi aduci inca o piatra o pot inbunatatii[ENTER]pentru tine.
+7527	Esti tare vioi pentru varsta ta ...
+8004	Deprecierea statutului
+8015	Acest pergament iti da posibilitatea resetarii[ENTER]tuturor statusurilor. Toate punctele de status[ENTER]vor fi resetate la 1: VIT, INT, STR si DEX. Le[ENTER]poti apoi redistribui asa cum doresti.[ENTER][ENTER]Doresti sa folosesti pergamentul acum?
+8153	Deprecierea abilitatilor
+8154	Daca te razgândeþti, mai vino o data pe la mine[ENTER]mai târziu.
+8155	Tu nu ai destui Yang. Fara aceþtia, nu te pot[ENTER]ajuta, deoarece þi eu trebuie sa traiesc din[ENTER]ceva.
+8159	Nu ai urmat nicio Învatatura! Atâta timp cât nu[ENTER]ai folosit niciun punct de status nici nu le poti[ENTER]reseta. Revino atunci când vei pune un punct[ENTER]greþit de status în timpul învataturii þi te voi[ENTER]ajuta cu placere.
+8161	Nu urmezi nicio Învatatura þi nu ai puncte de[ENTER]abilitate de resetat!
+8162	E bine ca ai venit la mine.[ENTER]Ochii tai exprima o mare îngrijorare. Eu îi ajut[ENTER]pe oameni sa-þi uite învatatura pentru a putea[ENTER]începe totul de la capat.[ENTER]Vrei sa-ti uiti învatatura þi sa iei totul de la[ENTER]început?[ENTER]Asta te costa %s yang.
+8164	Ho, ho, nu-i aþa ca nu-ti merge bine? Fata ta îmi[ENTER]spune ca ai nevoie de ajutor.[ENTER]Nu esti multumit cu învatatura ta?[ENTER]Eu aþ putea sa te fac sa-ti uiti învatatura, ca[ENTER]prin minune.
+8165	Asta înseamna ca te poti implica într-o alta[ENTER]învatatura. Din pacate însa, pierzi toate[ENTER]punctele pe care le-ai acumulat prin citirea[ENTER]cartilor. Vrei într-adevar sa uiti totul þi sa o[ENTER]iei de la capat?[ENTER]Atunci da-mi %s yang.
+8166	Deprecierea abilitatilor
+8618	Deschide magazinul
+10928	Da!
+11825	Costum Aura: Transmiterea valorilor
+11829	Costum Aura: Evolutie
+200	Pentru un suflet de dragon excelent: %s.
+201	Dori?i sa ob?ine?i stralucitorul %s?
+202	Pute?i sa-mi da?i sufletele inutile, excelente de dragon [ENTER] ?i astfel le pot transforma în stralucitoare pentru dumneavoastra, pentru a le putea folosi din nou, [ENTER] pur ?i simplu trage?i sufletul de dragon peste mine [ENTER].
+203	Produc?ie de obiecte
+204	Adauga bonusurile 6 ?i 7
+205	Opera?ia de încântare a fost realizata cu succes.
+206	Opera?ia de încântare a e?uat.
+207	Timpul ramas: %s.
+208	Cum se face transformarea alchimica?
+209	Alege?i bonusul dorit:
+210	Putere +10% împotriva mon?trilor.
+211	HP Max selectat +1000.
+212	Putere +10% împotriva mon?trilor selecta?i.
+213	EXP +20% la mon?trii selecta?i.
+4473	Da
+2426	Anuleazã

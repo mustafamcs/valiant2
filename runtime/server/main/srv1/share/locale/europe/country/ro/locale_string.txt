@@ -1,0 +1,290 @@
+"ARENA_TALK_1";
+"Duelul s-a încheiat pentru că luptătorul tău a dispărut. ";
+
+"ARENA_TALK_2";
+"Aici nu există restricții pentru elixire. ";
+
+"ARENA_TALK_3 %d";
+"Poți folosi %d elixire. ";
+
+"ARENA_TALK_4";
+"Bătălia va începe în decurs de 10 secunde. ";
+
+"ARENA_TALK_5";
+"Duelul a început. ";
+
+"ARENA_TALK_6";
+"Duelul s-a încheiat din cauza unei probleme în arenă. ";
+
+"ARENA_TALK_7";
+"Duelul s-a încheiat din cauza scurgerii timpului. ";
+
+"ARENA_TALK_8";
+"Vei fi teleportat în oraș în decurs de 10 secunde. ";
+
+"ARENA_TALK_9";
+"Duelul s-a încheiat din cauza unei probleme cu arena. ";
+
+"ARENA_TALK_10";
+"Duelul s-a încheiat din cauza unei probleme cu luptătorul tău. ";
+
+"ARENA_TALK_11 %s";
+"%s a câștigat duelul. ";
+
+"ARENA_TALK_12 %s";
+"%s a câștigat. ";
+
+"ARENA_TALK_13";
+"Următoarea rundă va începe în decurs de 10 secunde. ";
+
+"ARENA_TALK_14";
+"Luptătorii s-au separat. Duelul s-a încheiat. ";
+
+"ARENA_TALK_15";
+"Te-ai angajat într-o luptă. Ieșirea este anulată. ";
+
+"ARENA_TALK_16";
+"Mai sunt 4 minute până la atacul monstrilor. ";
+
+"ARENA_TALK_17";
+"Mai este 1 minut până la atacul monstrilor. ";
+
+"ARENA_TALK_18";
+"Monștrii au început să atace castelul.";
+
+"Your time is up, can deliver the next item.";
+"Timpul tău a expirat, poți livra următorul obiect.";
+
+"Your waiting time has ended, you can deliver the next item.";
+"Timpul tău de așteptare a expirat, poți livra următorul obiect.";
+
+"It clears my mind. I feel something lightening my chest.";
+"Îmi limpezește mintea. Simt ceva ce-mi ușurează pieptul.";
+
+"It clears my mind. Now you can concentrate better.";
+"Îmi limpezește mintea. Acum te poți concentra mai bine.";
+
+"Your alignment is increased %d";
+"Alinierea ta a crescut cu %d";
+
+"Your alignment has increased by %d.";
+"Alinierea ta a crescut cu %d.";
+
+"cItem 5485 %s owner %s";
+"cItem 5485 %s proprietar %s";
+
+"cItem 5486 %s wtf %s";
+"cItem 5486 %s wtf %s";
+
+"SKILL_TALKING_2";
+"Această metodă este mult mai complicată decât credeam.";
+
+"CMD_TALK_3 %s %s";
+"Gilda %s a fost capturată de %s. ";
+
+"Shutdown in %d";
+"Oprire în %d secunde.";
+
+"The game will shut down after %d seconds.";
+"Jocul se va închide în %d secunde.";
+
+"You roll %d. (%d-%d)";
+"Arunci %d. (%d-%d)";
+
+"%s rolled the dice, resulting in %d. (%d-%d)";
+"%s a aruncat zarurile, rezultând în %d. (%d-%d)";
+
+"An error has occured, report this error to authorities. Fish #s parameter";
+"A apărut o eroare, vă rugăm să raportați această eroare autorităților. Parametrul Fish #s";
+
+"An error has occured, report this error to authorities. Fish #not arg";
+"A apărut o eroare, vă rugăm să raportați această eroare autorităților. Parametrul Fish #not arg";
+
+"Cannot set stat under initial stat";
+"Nu se poate seta statistica sub valoarea inițială";
+
+"syntax: offshop_change_shop_name <player-id> <new-name>";
+"sintaxă: offshop_change_shop_name <player-id> <nume-nou>";
+
+"syntax: offshop_force_close_shop <player-id>";
+"sintaxă: offshop_force_close_shop <player-id>";
+
+"Cannot find shop by id %u";
+"Nu se poate găsi magazinul cu ID-ul %u";
+
+"shop's name changed.";
+"Numele magazinului a fost schimbat.";
+
+"shop closed successfully.";
+"Magazinul a fost închis cu succes.";
+
+"BATTLEPASS_NOT_COMPLETED_ALL_NORMAL_MISSIONS";
+"Nu ai completat încă toate misiunile din Battle Pass-ul Normal!";
+
+"BATTLEPASS_NOT_COMPLETED_ALL_PREMIUM_MISSIONS";
+"Nu ai completat încă toate misiunile din Battle Pass-ul Premium!";
+
+"BATTLEPASS_NOT_COMPLETED_ALL_EVENT_MISSIONS";
+"Nu ai completat încă toate misiunile din Battle Pass-ul pentru Evenimente!";
+
+"BATTLEPASS_ALREADY_EARNED_BATTLEPASS_REWARD";
+"Deja ai revendicat recompensa pentru acest Battle Pass!";
+
+"BATTLEPASS_COMPLETE_NORMAL_MISSION";
+"Ți-ai finalizat cu succes o misiune în Battle Pass!";
+
+"BATTLEPASS_COMPLETE_PREMIUM_MISSION";
+"Ți-ai finalizat cu succes o misiune în Battle Pass-ul Premium!";
+
+"BATTLEPASS_COMPLETE_EVENT_MISSION";
+"Ți-ai finalizat cu succes o misiune în Battle Pass-ul pentru Evenimente!";
+
+"BATTLEPASS_NOW_IS_ACTIVATED_PREMIUM_BATTLEPASS";
+"Accesul tău la Battle Pass-ul Premium pentru sezonul curent a fost activat. Succes!";
+
+"BATTLEPASS_NOW_IS_ACTIVATED_PREMIUM_BATTLEPASS_OWN";
+"Ai activat accesul la Battle Pass-ul Premium pentru sezonul curent. Succes!";
+
+"BATTLEPASS_CMDGM_ACTIVATE_PREMIUM_TO_PLAYER";
+"Ai activat Battle Pass-ul Premium pentru sezonul curent pe %s.";
+
+"BATTLEPASS_CMDGM_DEACTIVATE_PREMIUM_PLAYER";
+"Battle Pass-ul tău Premium a fost dezactivat.";
+
+"BATTLEPASS_CMDGM_DEACTIVATE_PREMIUM_TO_PLAYER";
+"Ai dezactivat Battle Pass-ul Premium pentru %s.";
+
+"BATTLEPASS_CMDGM_DEACTIVATE_PREMIUM_OWN";
+"Ai dezactivat accesul la Battle Pass-ul Premium.";
+
+"BATTLEPASS_NEXT_REFRESH_RANKLIST_TIME";
+"Nu poți reîmprospăta lista de clasament pentru încă %d secunde.";
+
+"Current remaining number of participants: %d";
+"Numărul actual de participanți rămași: %d";
+
+"You can post new comment in: %02d mins and %02d secs";
+"Poți posta un comentariu nou în: %02d minute și %02d secunde";
+
+"GUILD_TALK_14 %d";
+"<Gilda> Jucătorul poate fi invitat după %d zile.";
+
+"GUILD_TALK_17 %d";
+"<Gilda> Poți invita membri în decurs de %d zile după ajustare.";
+
+"GUILD_TALK_10 %s %s";
+"%s a declarat război gildei %s!";
+
+"GUILD_TALK_5 %s %s";
+"În bătălia gildei, gilda %s a ieșit victorioasă în fața gildei %s.";
+
+"GUILD_TALK_6 %s %s";
+"Bătălia dintre %s și %s s-a încheiat cu un rezultat egal.";
+
+"GUILD_TALK_7 %s %s";
+"Bătălia dintre gildele %s și %s a început.";
+
+"GUILD_TALK_8 %s %s";
+"Bătălia dintre gildele %s și %s va începe în mai puțin de un minut!";
+
+"GUILD_TALK_5";
+"<Gilda> Bătălia gildiei a fost anulată.";
+
+"GUILD_TALK_1 %d";
+"<Gilda> Clasamentul a crescut la %d puncte.";
+
+"GUILD_TALK_2";
+"Ai declarat război acestei Gildii.";
+
+"GUILD_TALK_3";
+"Războiul Gildiilor nu poate începe când serverul este offline.";
+
+"%s is not online.";
+"%s nu este online.";
+
+"Critical server error. The server will reboot automatically.";
+"Eroare critică a serverului. Serverul se va reporni automat.";
+
+"You will be disconnected in 10 seconds.";
+"Vei fi deconectat în 10 secunde.";
+
+"You can connect again after 5 minutes.";
+"Poți să te reconectezi după 5 minute.";
+
+"The number of bets is invalid, please try again.";
+"Numărul de pariuri nu este valid, te rugăm să încerci din nou.";
+
+"Failed.";
+"Eșuat.";
+
+"Success.";
+"Succes.";
+
+"Pet type changed new type : %d";
+"Tipul animalului tău de companie s-a schimbat în: %d";
+
+"Bonuschange of %s (Slot: %d) successfully finished.";
+"Schimbarea bonusului pentru %s (Slot: %d) a fost finalizată cu succes.";
+
+"OX_TALK_1";
+"Adevărat.";
+
+"OX_TALK_2";
+"Întrebare.";
+
+"OX_TALK_3";
+"Mergi la O dacă e adevărat, mergi la X dacă e fals.";
+
+"OX_TALK_4";
+"Participanții care răspund greșit vor fi teleportați în 5 secunde.";
+
+"OX_TALK_5";
+"Nu (X)";
+
+"OX_TALK_6";
+"Da (O)";
+
+"OX_TALK_7";
+"Răspuns corect:";
+
+"OX_TALK_8";
+"Vei primi rezultatul în decurs de 10 secunde.";
+
+"OX_TALK_9";
+"Gresit";
+
+"OX_TALK_10 %d";
+"Numărul total de întrebări: %d";
+
+"OX_TALK_11";
+"Ești pregătit pentru următoarea întrebare?";
+
+"%s wants to fight with you.";
+"%s vrea să lupte cu tine.";
+
+"Everyone will be teleported to the town.";
+"Toată lumea va fi teleportată în oraș.";
+
+"TRANSLATE_CLOSE_QUESTNPC";
+"Închide";
+
+"You can join the guild war as a spectator.";
+"Poți să te alături războiului dintre gilde ca spectatori.";
+
+"If you are a spectator <End View> button to exit will appear.";
+"Dacă ești un spectator, butonul <Sfârșit Vizualizare> va apărea pentru a ieși.";
+
+"No other guild members participated in the Guild War.";
+"Niciun alt membru al gildei nu a participat la Războiul Gildiilor.";
+
+"If no one logs in within 1 minute, the guild battle will end automatically.";
+"Dacă nimeni nu se autentifică în decurs de 1 minut, războiul gildiei se va încheia automat.";
+
+"The guild battle ended early and it was decided as a draw. (less than 5 minutes)";
+"Războiul gildiei s-a încheiat mai devreme și a fost decis ca un rezultat egal (mai puțin de 5 minute).";
+
+"The wedding will be over soon.";
+"Nunta se va încheia în curând.";
+
+"When the wedding is over, you will be sent to the village.";
+"Când nunta se va încheia, vei fi trimis în sat.";

@@ -1,0 +1,3593 @@
+section
+npc	20016
+item	200011	200
+item	200210	50
+reward	24600	1
+gold	100000000
+percent	100
+category UPGRADE
+end
+section
+npc	20016
+item	25040	500
+item	200210	50
+item	200011	50
+reward	25041	1
+gold	100000000
+percent	100
+category UPGRADE
+end
+section
+npc	20016
+item	25041	3
+item	200210	100
+item	200011	100
+reward	25042	1
+gold	500000000
+percent	100
+category UPGRADE
+end
+section
+npc	20016
+item	25040	50
+item	200210	20
+reward	70039	1
+gold	50000000
+percent	100
+category UPGRADE
+end
+section
+npc	20016
+item	71032	3
+reward	70039	1
+gold	0
+percent	100
+category UPGRADE
+end
+section
+npc	20016
+item	25040	25
+item	200210	10
+reward	71032	1
+gold	15000000
+percent	100
+category UPGRADE
+end
+section
+npc	20016
+item	200200	3000
+item	200210	100
+item	200209	5
+reward	24200	1
+gold	500000000
+percent	100
+category UNIQUE
+end
+section
+npc	20016
+item	200200	3000
+item	200210	100
+item	200209	5
+reward	24202	1
+gold	500000000
+percent	100
+category UNIQUE
+end
+section
+npc	20016
+item	200200	3000
+item	200210	100
+item	200209	5
+reward	24204	1
+gold	500000000
+percent	100
+category UNIQUE
+end
+section
+npc	20016
+item	24200	1
+item	200202	4000
+item	200210	150
+item	200218	2
+reward	24207	1
+gold	1000000000
+percent	100
+category UNIQUE
+end
+section
+npc	20016
+item	24202	1
+item	200202	4000
+item	200210	150
+item	200218	2
+reward	24209	1
+gold	1000000000
+percent	100
+category UNIQUE
+end
+section
+npc	20016
+item	24204	1
+item	200202	4000
+item	200210	150
+item	200218	2
+reward	24211	1
+gold	1000000000
+percent	100
+category UNIQUE
+end
+section
+npc	20016
+item	24207	1
+item	200204	5000
+item	200210	250
+item	200218	5
+reward	24213	1
+gold	5000000000
+percent	100
+category UNIQUE
+end
+section
+npc	20016
+item	24209	1
+item	200204	5000
+item	200210	250
+item	200218	5
+reward	24215	1
+gold	5000000000
+percent	100
+category UNIQUE
+end
+section
+npc	20016
+item	24211	1
+item	200204	5000
+item	200210	250
+item	200218	5
+reward	24217	1
+gold	5000000000
+percent	100
+category UNIQUE
+end
+section
+npc	20016
+item	28012	500
+item	28112	400
+item	28212	300
+item	28312	200
+item	28412	100
+reward	28512	1
+gold	2500000000
+percent	100
+category STONE
+end
+section
+npc	20016
+item	28030	500
+item	28130	400
+item	28230	300
+item	28330	200
+item	28430	100
+reward	28530	1
+gold	2500000000
+percent	100
+category STONE
+end
+section
+npc	20016
+item	28031	500
+item	28131	400
+item	28231	300
+item	28331	200
+item	28431	100
+reward	28531	1
+gold	2500000000
+percent	100
+category STONE
+end
+section
+npc	20016
+item	28032	500
+item	28132	400
+item	28232	300
+item	28332	200
+item	28432	100
+reward	28532	1
+gold	2500000000
+percent	100
+category STONE
+end
+section
+npc	20016
+item	28033	500
+item	28133	400
+item	28233	300
+item	28333	200
+item	28433	100
+reward	28533	1
+gold	2500000000
+percent	100
+category STONE
+end
+section
+npc	20016
+item	28034	500
+item	28134	400
+item	28234	300
+item	28334	200
+item	28434	100
+reward	28534	1
+gold	2500000000
+percent	100
+category STONE
+end
+section
+npc	20016
+item	28035	500
+item	28135	400
+item	28235	300
+item	28335	200
+item	28435	100
+reward	28535	1
+gold	2500000000
+percent	100
+category STONE
+end
+section
+npc	20016
+item	28036	500
+item	28136	400
+item	28236	300
+item	28336	200
+item	28436	100
+reward	28536	1
+gold	2500000000
+percent	100
+category STONE
+end
+section
+npc	20016
+item	28037	500
+item	28137	400
+item	28237	300
+item	28337	200
+item	28437	100
+reward	28537	1
+gold	2500000000
+percent	100
+category STONE
+end
+section
+npc	20016
+item	28038	500
+item	28138	400
+item	28238	300
+item	28338	200
+item	28438	100
+reward	28538	1
+gold	2500000000
+percent	100
+category STONE
+end
+section
+npc	20016
+item	28039	500
+item	28139	400
+item	28239	300
+item	28339	200
+item	28439	100
+reward	28539	1
+gold	2500000000
+percent	100
+category STONE
+end
+section
+npc	20016
+item	28040	500
+item	28140	400
+item	28240	300
+item	28340	200
+item	28440	100
+reward	28540	1
+gold	2500000000
+percent	100
+category STONE
+end
+section
+npc	20016
+item	28041	500
+item	28141	400
+item	28241	300
+item	28341	200
+item	28441	100
+reward	28541	1
+gold	2500000000
+percent	100
+category STONE
+end
+section
+npc	20016
+item	28042	500
+item	28142	400
+item	28242	300
+item	28342	200
+item	28442	100
+reward	28542	1
+gold	2500000000
+percent	100
+category STONE
+end
+section
+npc	20016
+item	28043	500
+item	28143	400
+item	28243	300
+item	28343	200
+item	28443	100
+reward	28543	1
+gold	2500000000
+percent	100
+category STONE
+end
+section
+npc	20016
+item	200301	7
+item	200302	7
+item	200303	7
+item	200304	7
+item	200305	7
+item	200306	7
+item	200307	7
+reward	200100	1
+gold	1000000
+percent	100
+category OTHER
+end
+section
+npc	45021
+item	50513	100
+reward	24000	1
+gold	2000000
+percent	100
+category BOOKS
+end
+section
+npc	45021
+item	71001	1000
+reward	24013	1
+gold	2000000
+percent	100
+category BOOKS
+end
+section
+npc	45021
+item	71094	1000
+reward	24014	1
+gold	2000000
+percent	100
+category BOOKS
+end
+section
+npc	45021
+item	200000	50
+reward	200018	1
+gold	2000000
+percent	100
+category BOOKS
+end
+section
+npc	45021
+item	200001	400
+reward	200018	1
+gold	2000000
+percent	100
+category BOOKS
+end
+section
+npc	45021
+item	200002	400
+reward	200018	1
+gold	2000000
+percent	100
+category BOOKS
+end
+section
+npc	45021
+item	200003	400
+reward	200018	1
+gold	2000000
+percent	100
+category BOOKS
+end
+section
+npc	45021
+item	200004	400
+reward	200018	1
+gold	2000000
+percent	100
+category BOOKS
+end
+section
+npc	45021
+item	200005	400
+reward	200018	1
+gold	2000000
+percent	100
+category BOOKS
+end
+section
+npc	45021
+item	200006	400
+reward	200018	1
+gold	2000000
+percent	100
+category BOOKS
+end
+section
+npc	45021
+item	200007	400
+reward	200018	1
+gold	2000000
+percent	100
+category BOOKS
+end
+section
+npc	45021
+item	200008	400
+reward	200018	1
+gold	2000000
+percent	100
+category BOOKS
+end
+section
+npc	45021
+item	200018	4
+reward	24002	1
+gold	2000000
+percent	100
+category BOOKS
+end
+section
+npc	45021
+item	200018	4
+reward	24003	1
+gold	2000000
+percent	100
+category BOOKS
+end
+section
+npc	45021
+item	200018	4
+reward	24004	1
+gold	2000000
+percent	100
+category BOOKS
+end
+section
+npc	45021
+item	200018	4
+reward	24005	1
+gold	2000000
+percent	100
+category BOOKS
+end
+section
+npc	45021
+item	200018	4
+reward	24006	1
+gold	2000000
+percent	100
+category BOOKS
+end
+section
+npc	45021
+item	200018	4
+reward	24007	1
+gold	2000000
+percent	100
+category BOOKS
+end
+section
+npc	45021
+item	200018	4
+reward	24008	1
+gold	2000000
+percent	100
+category BOOKS
+end
+section
+npc	45021
+item	200018	4
+reward	24009	1
+gold	2000000
+percent	100
+category BOOKS
+end
+section
+npc	20095
+item	39071	3
+reward	39070	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39072	3
+reward	39070	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39073	3
+reward	39070	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39074	3
+reward	39070	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39075	3
+reward	39070	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39076	3
+reward	39070	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39077	3
+reward	39070	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39070	3
+reward	39071	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39072	3
+reward	39071	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39073	3
+reward	39071	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39074	3
+reward	39071	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39075	3
+reward	39071	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39076	3
+reward	39071	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39077	3
+reward	39071	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39070	3
+reward	39072	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39071	3
+reward	39072	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39073	3
+reward	39072	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39074	3
+reward	39072	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39075	3
+reward	39072	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39076	3
+reward	39072	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39077	3
+reward	39072	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39070	3
+reward	39073	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39071	3
+reward	39073	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39072	3
+reward	39073	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39074	3
+reward	39073	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39075	3
+reward	39073	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39076	3
+reward	39073	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39077	3
+reward	39073	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39070	3
+reward	39074	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39071	3
+reward	39074	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39072	3
+reward	39074	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39073	3
+reward	39074	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39075	3
+reward	39074	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39076	3
+reward	39074	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39077	3
+reward	39074	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39070	3
+reward	39075	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39071	3
+reward	39075	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39072	3
+reward	39075	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39073	3
+reward	39075	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39074	3
+reward	39075	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39076	3
+reward	39075	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39077	3
+reward	39075	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39070	3
+reward	39076	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39071	3
+reward	39076	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39072	3
+reward	39076	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39073	3
+reward	39076	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39074	3
+reward	39076	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39075	3
+reward	39076	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39077	3
+reward	39076	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39070	3
+reward	39077	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39071	3
+reward	39077	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39072	3
+reward	39077	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39073	3
+reward	39077	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39074	3
+reward	39077	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39075	3
+reward	39077	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	39076	3
+reward	39077	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	71084	5000
+reward	72064	1
+gold	5000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	72064	2
+reward	72065	1
+gold	10000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	72065	2
+reward	72066	1
+gold	15000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	72066	2
+reward	72067	1
+gold	25000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	71084	2000
+reward	72351	1
+gold	25000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	72351	3
+reward	72346	1
+gold	50000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	71084	7500
+reward	24102	1
+gold	50000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	71084	5000
+reward	24103	1
+gold	35000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	71084	7500
+reward	24104	1
+gold	50000000
+percent	100
+category ENCHANT
+end
+section
+npc	20095
+item	71084	5000
+reward	24105	1
+gold	35000000
+percent	100
+category ENCHANT
+end
+section
+npc	20001
+item	200011	10
+item	200210	5
+reward	100300	1
+gold	2000000
+percent	100
+category ALCHEMYUPGRADE
+end
+section
+npc	20001
+item	100300	2
+reward	100400	1
+gold	5000000
+percent	100
+category ALCHEMYUPGRADE
+end
+section
+npc	20001
+item	100400	2
+reward	100500	1
+gold	10000000
+percent	100
+category ALCHEMYUPGRADE
+end
+section
+npc	20001
+item	200011	20
+item	200210	5
+reward	100002	1
+gold	10000000
+percent	100
+category ALCHEMYUPGRADE
+end
+section
+npc	20413
+item	50513	25
+item	200209	5
+item	200210	25
+item	200011	50
+item	200200	100
+reward	200218	1
+gold	25000000
+percent	100
+category UPGRADE
+end
+section
+npc	20413
+item	200265	3
+item	200266	3
+item	200267	3
+item	200202	50
+reward	200268	1
+gold	25000000
+percent	100
+category UPGRADE
+end
+section
+npc	20413
+item	200272	3
+item	200273	3
+item	200274	3
+item	200202	50
+reward	200275	1
+gold	25000000
+percent	100
+category UPGRADE
+end
+section
+npc	20413
+item	200279	3
+item	200280	3
+item	200281	3
+item	200202	50
+reward	200282	1
+gold	25000000
+percent	100
+category UPGRADE
+end
+section
+npc	20413
+item	200286	3
+item	200287	3
+item	200288	3
+item	200202	50
+reward	200289	1
+gold	25000000
+percent	100
+category UPGRADE
+end
+section
+npc	20413
+item	200293	3
+item	200294	3
+item	200295	3
+item	200202	50
+reward	200296	1
+gold	25000000
+percent	100
+category UPGRADE
+end
+section
+npc	20413
+item	27992	3
+item	27993	3
+item	27994	3
+item	200200	40
+item	200202	75
+reward	200269	1
+gold	25000000
+percent	100
+category UPGRADE
+end
+section
+npc	20413
+item	27992	3
+item	27993	3
+item	27994	3
+item	200200	40
+item	200202	75
+reward	200270	1
+gold	25000000
+percent	100
+category UPGRADE
+end
+section
+npc	20413
+item	200268	3
+item	200269	3
+item	200270	3
+item	200204	75
+reward	200271	1
+gold	50000000
+percent	100
+category UPGRADE
+end
+section
+npc	20413
+item	200275	3
+item	200276	3
+item	200277	3
+item	200204	75
+reward	200278	1
+gold	50000000
+percent	100
+category UPGRADE
+end
+section
+npc	20413
+item	200282	3
+item	200283	3
+item	200284	3
+item	200204	75
+reward	200285	1
+gold	50000000
+percent	100
+category UPGRADE
+end
+section
+npc	20413
+item	200289	3
+item	200290	3
+item	200291	3
+item	200204	75
+reward	200292	1
+gold	50000000
+percent	100
+category UPGRADE
+end
+section
+npc	20413
+item	200296	3
+item	200297	3
+item	200298	3
+item	200204	75
+reward	200299	1
+gold	50000000
+percent	100
+category UPGRADE
+end
+section
+npc	20413
+item	200231	2
+item	200232	2
+item	200237	1
+reward	200244	1
+gold	150000000
+percent	100
+category UPGRADE
+end
+section
+npc	20413
+item	200231	2
+item	200232	2
+item	200238	1
+reward	200245	1
+gold	150000000
+percent	100
+category UPGRADE
+end
+section
+npc	20413
+item	200229	2
+item	200230	2
+item	200239	1
+reward	200246	1
+gold	150000000
+percent	100
+category UPGRADE
+end
+section
+npc	20413
+item	200231	2
+item	200232	2
+item	200239	1
+reward	200246	1
+gold	150000000
+percent	100
+category UPGRADE
+end
+section
+npc	20413
+item	200400	1
+item	200403	1
+item	200406	1
+item	200409	1
+item	200412	1
+item	200415	1
+reward	200418	1
+gold	25000000
+percent	100
+category UPGRADE
+end
+section
+npc	20413
+item	200401	1
+item	200404	1
+item	200407	1
+item	200410	1
+item	200413	1
+item	200416	1
+reward	200419	1
+gold	25000000
+percent	100
+category UPGRADE
+end
+section
+npc	20413
+item	200402	1
+item	200405	1
+item	200408	1
+item	200411	1
+item	200414	1
+item	200417	1
+reward	200420	1
+gold	25000000
+percent	100
+category UPGRADE
+end
+section
+npc	20413
+item	12289	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200231	5
+item	200232	5
+item	200218	5
+item	50639	5
+reward	12730	1
+gold	5000000000
+percent	100
+category HELMET
+end
+section
+npc	20413
+item	12409	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200231	5
+item	200232	5
+item	200218	5
+item	50639	5
+reward	12740	1
+gold	5000000000
+percent	100
+category HELMET
+end
+section
+npc	20413
+item	12549	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200231	5
+item	200232	5
+item	200218	5
+item	50639	5
+reward	12750	1
+gold	5000000000
+percent	100
+category HELMET
+end
+section
+npc	20413
+item	12689	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200231	5
+item	200232	5
+item	200218	5
+item	50639	5
+reward	12760	1
+gold	5000000000
+percent	100
+category HELMET
+end
+section
+npc	20413
+item	12739	1
+item	200235	25
+item	200236	25
+item	200240	20
+item	200241	20
+item	200244	15
+item	200218	15
+reward	12780	1
+gold	10000000000
+percent	100
+category HELMET
+end
+section
+npc	20413
+item	12749	1
+item	200235	25
+item	200236	25
+item	200240	20
+item	200241	20
+item	200244	15
+item	200218	15
+reward	12800	1
+gold	10000000000
+percent	100
+category HELMET
+end
+section
+npc	20413
+item	12759	1
+item	200235	25
+item	200236	25
+item	200240	20
+item	200241	20
+item	200244	15
+item	200218	15
+reward	12820	1
+gold	10000000000
+percent	100
+category HELMET
+end
+section
+npc	20413
+item	12769	1
+item	200235	25
+item	200236	25
+item	200240	20
+item	200241	20
+item	200244	15
+item	200218	15
+reward	12840	1
+gold	10000000000
+percent	100
+category HELMET
+end
+section
+npc	20413
+item	11299	1
+item	200221	5
+item	200222	5
+reward	12010	1
+gold	250000000
+percent	100
+category ARMOR
+end
+section
+npc	20413
+item	12019	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200218	2
+reward	20000	1
+gold	500000000
+percent	100
+category ARMOR
+end
+section
+npc	20413
+item	20009	1
+item	200231	5
+item	200232	5
+item	200218	5
+reward	20760	1
+gold	1000000000
+percent	100
+category ARMOR
+end
+section
+npc	20413
+item	20009	1
+item	200231	5
+item	200232	5
+item	200218	5
+reward	20860	1
+gold	1000000000
+percent	100
+category ARMOR
+end
+section
+npc	20413
+item	20769	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200237	10
+item	200239	5
+item	200218	10
+reward	19290	1
+gold	5000000000
+percent	100
+category ARMOR
+end
+section
+npc	20413
+item	20869	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200237	10
+item	200239	5
+item	200218	10
+reward	19290	1
+gold	5000000000
+percent	100
+category ARMOR
+end
+section
+npc	20413
+item	19299	1
+item	200235	25
+item	200236	25
+item	200240	20
+item	200241	20
+item	200244	15
+item	200218	15
+reward	21210	1
+gold	10000000000
+percent	100
+category ARMOR
+end
+section
+npc	20413
+item	11499	1
+item	200221	5
+item	200222	5
+reward	12020	1
+gold	250000000
+percent	100
+category ARMOR
+end
+section
+npc	20413
+item	12029	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200218	2
+reward	20250	1
+gold	500000000
+percent	100
+category ARMOR
+end
+section
+npc	20413
+item	20259	1
+item	200231	5
+item	200232	5
+item	200218	5
+reward	20770	1
+gold	1000000000
+percent	100
+category ARMOR
+end
+section
+npc	20413
+item	20259	1
+item	200231	5
+item	200232	5
+item	200218	5
+reward	20870	1
+gold	1000000000
+percent	100
+category ARMOR
+end
+section
+npc	20413
+item	20779	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200237	10
+item	200239	5
+item	200218	10
+reward	19490	1
+gold	5000000000
+percent	100
+category ARMOR
+end
+section
+npc	20413
+item	20879	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200237	10
+item	200239	5
+item	200218	10
+reward	19490	1
+gold	5000000000
+percent	100
+category ARMOR
+end
+section
+npc	20413
+item	19499	1
+item	200235	25
+item	200236	25
+item	200240	20
+item	200241	20
+item	200244	15
+item	200218	15
+reward	21230	1
+gold	10000000000
+percent	100
+category ARMOR
+end
+section
+npc	20413
+item	11699	1
+item	200221	5
+item	200222	5
+reward	12030	1
+gold	250000000
+percent	100
+category ARMOR
+end
+section
+npc	20413
+item	12039	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200218	2
+reward	20500	1
+gold	500000000
+percent	100
+category ARMOR
+end
+section
+npc	20413
+item	20509	1
+item	200231	5
+item	200232	5
+item	200218	5
+reward	20780	1
+gold	1000000000
+percent	100
+category ARMOR
+end
+section
+npc	20413
+item	20509	1
+item	200231	5
+item	200232	5
+item	200218	5
+reward	20880	1
+gold	1000000000
+percent	100
+category ARMOR
+end
+section
+npc	20413
+item	20789	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200237	10
+item	200239	5
+item	200218	10
+reward	19690	1
+gold	5000000000
+percent	100
+category ARMOR
+end
+section
+npc	20413
+item	20889	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200237	10
+item	200239	5
+item	200218	10
+reward	19690	1
+gold	5000000000
+percent	100
+category ARMOR
+end
+section
+npc	20413
+item	19699	1
+item	200235	25
+item	200236	25
+item	200240	20
+item	200241	20
+item	200244	15
+item	200218	15
+reward	21250	1
+gold	10000000000
+percent	100
+category ARMOR
+end
+section
+npc	20413
+item	11899	1
+item	200221	5
+item	200222	5
+reward	12040	1
+gold	250000000
+percent	100
+category ARMOR
+end
+section
+npc	20413
+item	12049	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200218	2
+reward	20750	1
+gold	500000000
+percent	100
+category ARMOR
+end
+section
+npc	20413
+item	20759	1
+item	200231	5
+item	200232	5
+item	200218	5
+reward	20790	1
+gold	1000000000
+percent	100
+category ARMOR
+end
+section
+npc	20413
+item	20759	1
+item	200231	5
+item	200232	5
+item	200218	5
+reward	20890	1
+gold	1000000000
+percent	100
+category ARMOR
+end
+section
+npc	20413
+item	20799	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200237	10
+item	200239	5
+item	200218	10
+reward	19890	1
+gold	5000000000
+percent	100
+category ARMOR
+end
+section
+npc	20413
+item	20899	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200237	10
+item	200239	5
+item	200218	10
+reward	19890	1
+gold	5000000000
+percent	100
+category ARMOR
+end
+section
+npc	20413
+item	19899	1
+item	200235	25
+item	200236	25
+item	200240	20
+item	200241	20
+item	200244	15
+item	200218	15
+reward	21270	1
+gold	10000000000
+percent	100
+category ARMOR
+end
+section
+npc	20413
+item	189	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200218	3
+reward	24500	1
+gold	1000000000
+percent	100
+category WEAPON
+end
+section
+npc	20413
+item	199	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200218	3
+reward	24510	1
+gold	1000000000
+percent	100
+category WEAPON
+end
+section
+npc	20413
+item	1139	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200218	3
+reward	24520	1
+gold	1000000000
+percent	100
+category WEAPON
+end
+section
+npc	20413
+item	2179	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200218	3
+reward	24530	1
+gold	1000000000
+percent	100
+category WEAPON
+end
+section
+npc	20413
+item	3169	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200218	3
+reward	24540	1
+gold	1000000000
+percent	100
+category WEAPON
+end
+section
+npc	20413
+item	5129	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200218	3
+reward	24550	1
+gold	1000000000
+percent	100
+category WEAPON
+end
+section
+npc	20413
+item	24509	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200238	10
+item	200239	5
+item	200218	10
+reward	310	1
+gold	5000000000
+percent	100
+category WEAPON
+end
+section
+npc	20413
+item	24519	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200238	10
+item	200239	5
+item	200218	10
+reward	300	1
+gold	5000000000
+percent	100
+category WEAPON
+end
+section
+npc	20413
+item	24529	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200238	10
+item	200239	5
+item	200218	10
+reward	1180	1
+gold	5000000000
+percent	100
+category WEAPON
+end
+section
+npc	20413
+item	24539	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200238	10
+item	200239	5
+item	200218	10
+reward	2200	1
+gold	5000000000
+percent	100
+category WEAPON
+end
+section
+npc	20413
+item	24549	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200238	10
+item	200239	5
+item	200218	10
+reward	3220	1
+gold	5000000000
+percent	100
+category WEAPON
+end
+section
+npc	20413
+item	24559	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200238	10
+item	200239	5
+item	200218	10
+reward	5160	1
+gold	5000000000
+percent	100
+category WEAPON
+end
+section
+npc	20413
+item	319	1
+item	200235	25
+item	200236	25
+item	200240	20
+item	200241	20
+item	200245	15
+item	200218	15
+reward	320	1
+gold	10000000000
+percent	100
+category WEAPON
+end
+section
+npc	20413
+item	309	1
+item	200235	25
+item	200236	25
+item	200240	20
+item	200241	20
+item	200245	15
+item	200218	15
+reward	340	1
+gold	10000000000
+percent	100
+category WEAPON
+end
+section
+npc	20413
+item	1189	1
+item	200235	25
+item	200236	25
+item	200240	20
+item	200241	20
+item	200245	15
+item	200218	15
+reward	1190	1
+gold	10000000000
+percent	100
+category WEAPON
+end
+section
+npc	20413
+item	2209	1
+item	200235	25
+item	200236	25
+item	200240	20
+item	200241	20
+item	200245	15
+item	200218	15
+reward	2210	1
+gold	10000000000
+percent	100
+category WEAPON
+end
+section
+npc	20413
+item	3229	1
+item	200235	25
+item	200236	25
+item	200240	20
+item	200241	20
+item	200245	15
+item	200218	15
+reward	3230	1
+gold	10000000000
+percent	100
+category WEAPON
+end
+section
+npc	20413
+item	5169	1
+item	200235	25
+item	200236	25
+item	200240	20
+item	200241	20
+item	200245	15
+item	200218	15
+reward	5170	1
+gold	10000000000
+percent	100
+category WEAPON
+end
+section
+npc	20413
+item	13169	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200231	5
+item	200232	5
+item	200218	5
+item	50639	5
+reward	13180	1
+gold	5000000000
+percent	100
+category SHIELD
+end
+section
+npc	20413
+item	13189	1
+item	200235	25
+item	200236	25
+item	200240	20
+item	200241	20
+item	200246	15
+item	200218	15
+reward	13190	1
+gold	10000000000
+percent	100
+category SHIELD
+end
+section
+npc	20413
+item	14229	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200229	5
+item	200230	5
+item	200218	5
+item	50639	5
+reward	14570	1
+gold	5000000000
+percent	100
+category BRACELET
+end
+section
+npc	20413
+item	14579	1
+item	200235	25
+item	200236	25
+item	200240	20
+item	200241	20
+item	200246	15
+item	200218	15
+reward	14580	1
+gold	10000000000
+percent	100
+category BRACELET
+end
+section
+npc	20413
+item	16229	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200229	5
+item	200230	5
+item	200218	5
+item	50639	5
+reward	16570	1
+gold	5000000000
+percent	100
+category NECKLACE
+end
+section
+npc	20413
+item	16579	1
+item	200235	25
+item	200236	25
+item	200240	20
+item	200241	20
+item	200246	15
+item	200218	15
+reward	16580	1
+gold	10000000000
+percent	100
+category NECKLACE
+end
+section
+npc	20413
+item	17229	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200229	5
+item	200230	5
+item	200218	5
+item	50639	5
+reward	17570	1
+gold	5000000000
+percent	100
+category EARRINGS
+end
+section
+npc	20413
+item	17579	1
+item	200235	25
+item	200236	25
+item	200240	20
+item	200241	20
+item	200246	15
+item	200218	15
+reward	17580	1
+gold	10000000000
+percent	100
+category EARRINGS
+end
+section
+npc	20413
+item	15469	1
+item	200229	5
+item	200230	5
+item	200218	5
+item	50639	5
+reward	15470	1
+gold	5000000000
+percent	100
+category SHOE
+end
+section
+npc	20413
+item	15479	1
+item	200235	25
+item	200236	25
+item	200240	20
+item	200241	20
+item	200246	15
+item	200218	15
+reward	15480	1
+gold	10000000000
+percent	100
+category SHOE
+end
+section
+npc	20413
+item	200221	15
+item	200222	15
+item	200223	5
+item	200224	5
+item	200209	5
+reward	24400	1
+gold	1000000000
+percent	100
+category GLOVE
+end
+section
+npc	20413
+item	24409	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200229	5
+item	200230	5
+item	200218	5
+item	50639	5
+reward	24410	1
+gold	5000000000
+percent	100
+category GLOVE
+end
+section
+npc	20413
+item	24419	1
+item	200235	25
+item	200236	25
+item	200240	20
+item	200241	20
+item	200242	15
+item	200243	15
+item	200246	15
+item	200218	15
+reward	24420	1
+gold	10000000000
+percent	100
+category GLOVE
+end
+section
+npc	20413
+item	200221	15
+item	200222	15
+item	200223	5
+item	200224	5
+item	200209	5
+reward	18080	1
+gold	1000000000
+percent	100
+category BELT
+end
+section
+npc	20413
+item	18089	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200231	5
+item	200232	5
+item	200218	5
+item	50639	5
+reward	18090	1
+gold	5000000000
+percent	100
+category BELT
+end
+section
+npc	20413
+item	18099	1
+item	200235	25
+item	200236	25
+item	200240	20
+item	200241	20
+item	200242	15
+item	200243	15
+item	200246	15
+item	200218	15
+reward	18100	1
+gold	10000000000
+percent	100
+category BELT
+end
+section
+npc	20413
+item	200400	5
+item	200401	5
+item	200402	5
+item	200218	1
+reward	9600	1
+gold	1000000000
+percent	100
+category PENDANT
+end
+section
+npc	20413
+item	200403	5
+item	200404	5
+item	200405	5
+item	200218	1
+reward	9830	1
+gold	1000000000
+percent	100
+category PENDANT
+end
+section
+npc	20413
+item	200406	5
+item	200407	5
+item	200408	5
+item	200218	1
+reward	10060	1
+gold	1000000000
+percent	100
+category PENDANT
+end
+section
+npc	20413
+item	200409	5
+item	200410	5
+item	200411	5
+item	200218	1
+reward	10290	1
+gold	1000000000
+percent	100
+category PENDANT
+end
+section
+npc	20413
+item	200412	5
+item	200413	5
+item	200414	5
+item	200218	1
+reward	10520	1
+gold	1000000000
+percent	100
+category PENDANT
+end
+section
+npc	20413
+item	200415	5
+item	200416	5
+item	200417	5
+item	200218	1
+reward	10750	1
+gold	1000000000
+percent	100
+category PENDANT
+end
+section
+npc	20413
+item	9625	1
+item	9855	1
+item	10085	1
+item	10315	1
+item	10545	1
+item	10775	1
+item	200418	5
+item	200419	5
+item	200420	5
+item	200218	5
+reward	10960	1
+gold	10000000000
+percent	100
+category PENDANT
+end
+section
+npc	20414
+item	50513	25
+item	200209	5
+item	200210	25
+item	200011	50
+item	200200	100
+reward	200218	1
+gold	25000000
+percent	100
+category UPGRADE
+end
+section
+npc	20414
+item	200265	3
+item	200266	3
+item	200267	3
+item	200202	50
+reward	200268	1
+gold	25000000
+percent	100
+category UPGRADE
+end
+section
+npc	20414
+item	200272	3
+item	200273	3
+item	200274	3
+item	200202	50
+reward	200275	1
+gold	25000000
+percent	100
+category UPGRADE
+end
+section
+npc	20414
+item	200279	3
+item	200280	3
+item	200281	3
+item	200202	50
+reward	200282	1
+gold	25000000
+percent	100
+category UPGRADE
+end
+section
+npc	20414
+item	200286	3
+item	200287	3
+item	200288	3
+item	200202	50
+reward	200289	1
+gold	25000000
+percent	100
+category UPGRADE
+end
+section
+npc	20414
+item	200293	3
+item	200294	3
+item	200295	3
+item	200202	50
+reward	200296	1
+gold	25000000
+percent	100
+category UPGRADE
+end
+section
+npc	20414
+item	12269	1
+item	200218	1
+item	50635	5
+reward	12690	1
+gold	1000000000
+percent	100
+category HELMET
+end
+section
+npc	20414
+item	12699	1
+item	200229	5
+item	200230	5
+item	200218	5
+item	50641	5
+reward	12870	1
+gold	5000000000
+percent	100
+category HELMET
+end
+section
+npc	20414
+item	12399	1
+item	200218	1
+item	50635	5
+reward	12700	1
+gold	1000000000
+percent	100
+category HELMET
+end
+section
+npc	20414
+item	12709	1
+item	200229	5
+item	200230	5
+item	200218	5
+item	50641	5
+reward	12880	1
+gold	5000000000
+percent	100
+category HELMET
+end
+section
+npc	20414
+item	12539	1
+item	200218	1
+item	50635	5
+reward	12710	1
+gold	1000000000
+percent	100
+category HELMET
+end
+section
+npc	20414
+item	12719	1
+item	200229	5
+item	200230	5
+item	200218	5
+item	50641	5
+reward	12890	1
+gold	5000000000
+percent	100
+category HELMET
+end
+section
+npc	20414
+item	12679	1
+item	200218	1
+item	50635	5
+reward	12720	1
+gold	1000000000
+percent	100
+category HELMET
+end
+section
+npc	20414
+item	12729	1
+item	200229	5
+item	200230	5
+item	200218	5
+item	50641	5
+reward	12900	1
+gold	5000000000
+percent	100
+category HELMET
+end
+section
+npc	20414
+item	11299	1
+item	200221	5
+item	200222	5
+reward	12010	1
+gold	250000000
+percent	100
+category ARMOR
+end
+section
+npc	20414
+item	12019	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200218	2
+reward	20000	1
+gold	500000000
+percent	100
+category ARMOR
+end
+section
+npc	20414
+item	20009	1
+item	200231	5
+item	200232	5
+item	200218	5
+reward	20810	1
+gold	1000000000
+percent	100
+category ARMOR
+end
+section
+npc	20414
+item	20009	1
+item	200231	5
+item	200232	5
+item	200218	5
+reward	20910	1
+gold	1000000000
+percent	100
+category ARMOR
+end
+section
+npc	20414
+item	20819	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200237	10
+item	200239	5
+item	200218	10
+reward	12050	1
+gold	5000000000
+percent	100
+category ARMOR
+end
+section
+npc	20414
+item	20919	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200237	10
+item	200239	5
+item	200218	10
+reward	12050	1
+gold	5000000000
+percent	100
+category ARMOR
+end
+section
+npc	20414
+item	11499	1
+item	200221	5
+item	200222	5
+reward	12020	1
+gold	250000000
+percent	100
+category ARMOR
+end
+section
+npc	20414
+item	12029	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200218	2
+reward	20250	1
+gold	500000000
+percent	100
+category ARMOR
+end
+section
+npc	20414
+item	20259	1
+item	200231	5
+item	200232	5
+item	200218	5
+reward	20820	1
+gold	1000000000
+percent	100
+category ARMOR
+end
+section
+npc	20414
+item	20259	1
+item	200231	5
+item	200232	5
+item	200218	5
+reward	20920	1
+gold	1000000000
+percent	100
+category ARMOR
+end
+section
+npc	20414
+item	20829	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200237	10
+item	200239	5
+item	200218	10
+reward	12060	1
+gold	5000000000
+percent	100
+category ARMOR
+end
+section
+npc	20414
+item	20929	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200237	10
+item	200239	5
+item	200218	10
+reward	12060	1
+gold	5000000000
+percent	100
+category ARMOR
+end
+section
+npc	20414
+item	11699	1
+item	200221	5
+item	200222	5
+reward	12030	1
+gold	250000000
+percent	100
+category ARMOR
+end
+section
+npc	20414
+item	12039	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200218	2
+reward	20500	1
+gold	500000000
+percent	100
+category ARMOR
+end
+section
+npc	20414
+item	20509	1
+item	200231	5
+item	200232	5
+item	200218	5
+reward	20830	1
+gold	1000000000
+percent	100
+category ARMOR
+end
+section
+npc	20414
+item	20509	1
+item	200231	5
+item	200232	5
+item	200218	5
+reward	20930	1
+gold	1000000000
+percent	100
+category ARMOR
+end
+section
+npc	20414
+item	20839	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200237	10
+item	200239	5
+item	200218	10
+reward	12070	1
+gold	5000000000
+percent	100
+category ARMOR
+end
+section
+npc	20414
+item	20939	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200237	10
+item	200239	5
+item	200218	10
+reward	12070	1
+gold	5000000000
+percent	100
+category ARMOR
+end
+section
+npc	20414
+item	11899	1
+item	200221	5
+item	200222	5
+reward	12040	1
+gold	250000000
+percent	100
+category ARMOR
+end
+section
+npc	20414
+item	12049	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200218	2
+reward	20750	1
+gold	500000000
+percent	100
+category ARMOR
+end
+section
+npc	20414
+item	20759	1
+item	200231	5
+item	200232	5
+item	200218	5
+reward	20840	1
+gold	1000000000
+percent	100
+category ARMOR
+end
+section
+npc	20414
+item	20759	1
+item	200231	5
+item	200232	5
+item	200218	5
+reward	20940	1
+gold	1000000000
+percent	100
+category ARMOR
+end
+section
+npc	20414
+item	20849	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200237	10
+item	200239	5
+item	200218	10
+reward	12080	1
+gold	5000000000
+percent	100
+category ARMOR
+end
+section
+npc	20414
+item	20949	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200237	10
+item	200239	5
+item	200218	10
+reward	12080	1
+gold	5000000000
+percent	100
+category ARMOR
+end
+section
+npc	20414
+item	149	1
+item	200221	5
+item	200222	5
+reward	270	1
+gold	250000000
+percent	100
+category WEAPON
+end
+section
+npc	20414
+item	159	1
+item	200221	5
+item	200222	5
+reward	280	1
+gold	250000000
+percent	100
+category WEAPON
+end
+section
+npc	20414
+item	279	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200218	2
+reward	460	1
+gold	500000000
+percent	100
+category WEAPON
+end
+section
+npc	20414
+item	289	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200218	2
+reward	470	1
+gold	500000000
+percent	100
+category WEAPON
+end
+section
+npc	20414
+item	469	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200238	10
+item	200239	5
+item	200218	10
+reward	500	1
+gold	5000000000
+percent	100
+category WEAPON
+end
+section
+npc	20414
+item	479	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200238	10
+item	200239	5
+item	200218	10
+reward	500	1
+gold	5000000000
+percent	100
+category WEAPON
+end
+section
+npc	20414
+item	3139	1
+item	200221	5
+item	200222	5
+reward	3170	1
+gold	250000000
+percent	100
+category WEAPON
+end
+section
+npc	20414
+item	3179	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200218	2
+reward	3190	1
+gold	500000000
+percent	100
+category WEAPON
+end
+section
+npc	20414
+item	3199	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200238	10
+item	200239	5
+item	200218	10
+reward	3500	1
+gold	5000000000
+percent	100
+category WEAPON
+end
+section
+npc	20414
+item	1109	1
+item	200221	5
+item	200222	5
+reward	4040	1
+gold	250000000
+percent	100
+category WEAPON
+end
+section
+npc	20414
+item	4049	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200218	2
+reward	1340	1
+gold	500000000
+percent	100
+category WEAPON
+end
+section
+npc	20414
+item	1349	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200238	10
+item	200239	5
+item	200218	10
+reward	1500	1
+gold	5000000000
+percent	100
+category WEAPON
+end
+section
+npc	20414
+item	2149	1
+item	200221	5
+item	200222	5
+reward	2160	1
+gold	250000000
+percent	100
+category WEAPON
+end
+section
+npc	20414
+item	2169	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200218	2
+reward	2370	1
+gold	500000000
+percent	100
+category WEAPON
+end
+section
+npc	20414
+item	2379	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200238	10
+item	200239	5
+item	200218	10
+reward	2500	1
+gold	5000000000
+percent	100
+category WEAPON
+end
+section
+npc	20414
+item	5109	1
+item	200221	5
+item	200222	5
+reward	5330	1
+gold	250000000
+percent	100
+category WEAPON
+end
+section
+npc	20414
+item	5339	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200218	2
+reward	5340	1
+gold	500000000
+percent	100
+category WEAPON
+end
+section
+npc	20414
+item	5349	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200238	10
+item	200239	5
+item	200218	10
+reward	5500	1
+gold	5000000000
+percent	100
+category WEAPON
+end
+section
+npc	20414
+item	7149	1
+item	200221	5
+item	200222	5
+reward	7190	1
+gold	250000000
+percent	100
+category WEAPON
+end
+section
+npc	20414
+item	7199	1
+item	200221	25
+item	200222	25
+item	200223	15
+item	200224	15
+item	200218	2
+reward	7370	1
+gold	500000000
+percent	100
+category WEAPON
+end
+section
+npc	20414
+item	7379	1
+item	200223	20
+item	200224	20
+item	200233	15
+item	200234	15
+item	200238	10
+item	200239	5
+item	200218	10
+reward	7500	1
+gold	5000000000
+percent	100
+category WEAPON
+end
+section
+npc	20414
+item	13069	1
+item	13089	1
+item	13109	1
+item	13129	1
+item	200229	5
+item	200230	5
+item	200218	5
+item	50641	5
+reward	13140	1
+gold	5000000000
+percent	100
+category SHIELD
+end
+section
+npc	20414
+item	14209	1
+item	200218	1
+item	50635	5
+reward	14500	1
+gold	1000000000
+percent	100
+category BRACELET
+end
+section
+npc	20414
+item	14209	1
+item	200218	1
+item	50636	5
+reward	14520	1
+gold	1000000000
+percent	100
+category BRACELET
+end
+section
+npc	20414
+item	14209	1
+item	200218	1
+item	50637	5
+reward	14540	1
+gold	1000000000
+percent	100
+category BRACELET
+end
+section
+npc	20414
+item	14209	1
+item	200218	1
+item	50638	5
+reward	14560	1
+gold	1000000000
+percent	100
+category BRACELET
+end
+section
+npc	20414
+item	14509	1
+item	14529	1
+item	14549	1
+item	14569	1
+item	200229	5
+item	200230	5
+item	200218	5
+item	50641	5
+reward	14600	1
+gold	5000000000
+percent	100
+category BRACELET
+end
+section
+npc	20414
+item	16209	1
+item	200218	1
+item	50635	5
+reward	16500	1
+gold	1000000000
+percent	100
+category NECKLACE
+end
+section
+npc	20414
+item	16209	1
+item	200218	1
+item	50636	5
+reward	16520	1
+gold	1000000000
+percent	100
+category NECKLACE
+end
+section
+npc	20414
+item	16209	1
+item	200218	1
+item	50637	5
+reward	16540	1
+gold	1000000000
+percent	100
+category NECKLACE
+end
+section
+npc	20414
+item	16209	1
+item	200218	1
+item	50638	5
+reward	16560	1
+gold	1000000000
+percent	100
+category NECKLACE
+end
+section
+npc	20414
+item	16509	1
+item	16529	1
+item	16549	1
+item	16569	1
+item	200229	5
+item	200230	5
+item	200218	5
+item	50641	5
+reward	16600	1
+gold	5000000000
+percent	100
+category NECKLACE
+end
+section
+npc	20414
+item	17209	1
+item	200218	1
+item	50635	5
+reward	17500	1
+gold	1000000000
+percent	100
+category EARRINGS
+end
+section
+npc	20414
+item	17209	1
+item	200218	1
+item	50636	5
+reward	17520	1
+gold	1000000000
+percent	100
+category EARRINGS
+end
+section
+npc	20414
+item	17209	1
+item	200218	1
+item	50637	5
+reward	17540	1
+gold	1000000000
+percent	100
+category EARRINGS
+end
+section
+npc	20414
+item	17209	1
+item	200218	1
+item	50638	5
+reward	17560	1
+gold	1000000000
+percent	100
+category EARRINGS
+end
+section
+npc	20414
+item	17509	1
+item	17529	1
+item	17549	1
+item	17569	1
+item	200229	5
+item	200230	5
+item	200218	5
+item	50641	5
+reward	17600	1
+gold	5000000000
+percent	100
+category EARRINGS
+end
+section
+npc	20414
+item	200221	15
+item	200222	15
+item	200223	5
+item	200224	5
+item	200218	1
+reward	18040	1
+gold	1000000000
+percent	100
+category BELT
+end
+section
+npc	20414
+item	200221	15
+item	200222	15
+item	200223	5
+item	200224	5
+item	200218	1
+reward	18050	1
+gold	1000000000
+percent	100
+category BELT
+end
+section
+npc	20414
+item	200221	15
+item	200222	15
+item	200223	5
+item	200224	5
+item	200218	1
+reward	18060	1
+gold	1000000000
+percent	100
+category BELT
+end
+section
+npc	20414
+item	200221	15
+item	200222	15
+item	200223	5
+item	200224	5
+item	200218	1
+reward	18070	1
+gold	1000000000
+percent	100
+category BELT
+end
+section
+npc	20414
+item	18049	1
+item	18059	1
+item	18069	1
+item	18079	1
+item	200231	5
+item	200232	5
+item	200233	15
+item	200234	15
+item	200218	5
+item	50641	5
+reward	18120	1
+gold	5000000000
+percent	100
+category BELT
+end
+section
+npc	20414
+item	15189	1
+item	200221	15
+item	200222	15
+item	200223	5
+item	200224	5
+item	200218	1
+reward	15440	1
+gold	1000000000
+percent	100
+category SHOE
+end
+section
+npc	20414
+item	15449	1
+item	200231	5
+item	200232	5
+item	200233	15
+item	200234	15
+item	200218	5
+item	50641	5
+reward	15450	1
+gold	5000000000
+percent	100
+category SHOE
+end
+section
+npc	20414
+item	200231	5
+item	200232	5
+item	200233	15
+item	200234	15
+item	200218	5
+item	50641	5
+reward	24440	1
+gold	5000000000
+percent	100
+category GLOVE
+end
+section
+npc	62001
+item	201006	1
+item	201022	1
+item	200210	300
+item	200011	3000
+item	200218	5
+reward	201038	1
+gold	5000000000
+percent	100
+category MOUNT
+end
+section
+npc	62001
+item	201014	1
+item	201030	1
+item	200210	300
+item	200011	3000
+item	200218	5
+reward	201046	1
+gold	5000000000
+percent	100
+category MOUNT
+end
+section
+npc	62001
+item	201006	1
+item	201022	1
+item	200210	300
+item	200011	3000
+item	200218	5
+reward	201054	1
+gold	5000000000
+percent	100
+category MOUNT
+end
+section
+npc	62001
+item	201014	1
+item	201030	1
+item	200210	300
+item	200011	3000
+item	200218	5
+reward	201062	1
+gold	5000000000
+percent	100
+category MOUNT
+end
+section
+npc	62001
+item	201038	1
+item	201054	1
+item	200210	500
+item	200011	5000
+item	200218	10
+reward	201070	1
+gold	10000000000
+percent	100
+category MOUNT
+end
+section
+npc	62001
+item	201046	1
+item	201062	1
+item	200210	500
+item	200011	5000
+item	200218	10
+reward	201078	1
+gold	10000000000
+percent	100
+category MOUNT
+end
+section
+npc	62001
+item	201007	1
+item	201023	1
+item	200210	300
+item	200011	3000
+item	200218	5
+reward	201039	1
+gold	5000000000
+percent	100
+category PET
+end
+section
+npc	62001
+item	201015	1
+item	201031	1
+item	200210	300
+item	200011	3000
+item	200218	5
+reward	201047	1
+gold	5000000000
+percent	100
+category PET
+end
+section
+npc	62001
+item	201007	1
+item	201023	1
+item	200210	300
+item	200011	3000
+item	200218	5
+reward	201055	1
+gold	5000000000
+percent	100
+category PET
+end
+section
+npc	62001
+item	201015	1
+item	201031	1
+item	200210	300
+item	200011	3000
+item	200218	5
+reward	201063	1
+gold	5000000000
+percent	100
+category PET
+end
+section
+npc	62001
+item	201039	1
+item	201055	1
+item	200210	500
+item	200011	5000
+item	200218	10
+reward	201071	1
+gold	10000000000
+percent	100
+category PET
+end
+section
+npc	62001
+item	201047	1
+item	201063	1
+item	200210	500
+item	200011	5000
+item	200218	10
+reward	201079	1
+gold	10000000000
+percent	100
+category PET
+end
+section
+npc	62001
+item	55120	20
+item	55121	20
+item	55122	20
+item	200210	100
+item	200011	1000
+reward	55107	1
+gold	500000000
+percent	100
+category OTHER
+end
+section
+npc	20421
+item	200200	20
+reward	29101	1
+gold	10000000
+percent	100
+category OTHER
+end
+section
+npc	20421
+item	29101	1
+item	200211	8500
+item	200200	50
+item	50513	20
+item	200011	10
+item	200210	50
+reward	29102	1
+gold	50000000
+percent	100
+category OTHER
+end
+section
+npc	20421
+item	29102	1
+item	200211	16500
+item	200200	100
+item	50513	30
+item	200011	25
+item	200210	100
+reward	29103	1
+gold	100000000
+percent	100
+category OTHER
+end
+section
+npc	20421
+item	29103	1
+item	200211	23500
+item	200202	50
+item	50513	40
+item	200011	50
+item	200210	150
+reward	29104	1
+gold	5000000000
+percent	100
+category OTHER
+end
+section
+npc	20013
+item	200200	20
+reward	27400	1
+gold	10000000
+percent	100
+category OTHER
+end
+section
+npc	20013
+item	27400	1
+item	200212	1050
+item	200200	50
+item	50513	20
+item	200011	10
+item	200210	50
+reward	27401	1
+gold	50000000
+percent	100
+category OTHER
+end
+section
+npc	20013
+item	27401	1
+item	200212	1200
+item	200200	100
+item	50513	30
+item	200011	25
+item	200210	100
+reward	27402	1
+gold	100000000
+percent	100
+category OTHER
+end
+section
+npc	20013
+item	27402	1
+item	200212	1350
+item	200202	50
+item	50513	40
+item	200011	50
+item	200210	150
+reward	27403	1
+gold	5000000000
+percent	100
+category OTHER
+end

@@ -1,0 +1,106 @@
+ScriptType         EnvironmentData
+ScriptVersion      1.0000
+
+Group DirectionalLight
+{
+    Direction     0.096307 -0.158352 -0.982675
+
+    Group Background
+    {
+        Enable        1
+        Diffuse       1.000000 1.000000 1.000000 1.000000
+        Ambient       0.411765 0.352941 0.290196 1.000000
+    }
+    
+    Group Character
+    {
+        Enable        1
+        Diffuse       1.000000 1.000000 1.000000 1.000000
+        Ambient       0.561765 0.502941 0.440196 1.000000
+    }
+}
+Group Material
+{
+    Diffuse       1.000000 0.984314 0.984314 1.000000
+    Ambient       0.647059 0.658824 0.784314 1.000000
+    Emissive      0.356863 0.337255 0.203922 1.000000
+}
+
+Group Wind
+{
+    Enable    1
+    Strength  0.250000
+    Random    0.000000
+}
+
+Group Fog
+{
+    Enable        1
+    NearDistance  4000.000000
+    FarDistance   20000.000000
+    Color         0.329412 0.258824 0.137255 1.000000
+}
+
+Group Filter
+{
+    Enable        0
+    Color         0.294118 0.094118 0.094118 0.020000
+    AlphaSrc      2
+    AlphaDest     2
+}
+
+Group SkyBox
+{
+    bTextureRenderMode    1
+    Scale                 1500.000000 1500.000000 1500.000000
+    GradientLevelUpper    0
+    GradientLevelLower    0
+    FrontFaceFileName	   "D:\ymir work\environment\ervelia_m1\f.dds"
+    BackFaceFileName	   "D:\ymir work\environment\ervelia_m1\b.dds"
+    LeftFaceFileName	   "D:\ymir work\environment\ervelia_m1\r.dds"
+    RightFaceFileName	   "D:\ymir work\environment\ervelia_m1\l.dds"
+    TopFaceFileName	   "D:\ymir work\environment\ervelia_m1\t.dds"
+    BottomFaceFileName	   "D:\ymir work\environment\ervelia_m1\d.dds"
+    
+    CloudScale            300000.000000 300000.000000
+    CloudHeight           15000.000000
+    CloudTextureScale     14.000000 14.000000
+    CloudSpeed            0.020000 0.005000
+    CloudTextureFileName  "D:\ymir work\environment\clouds_zone01.tga"
+    List CloudColor
+    {
+        0.000000 0.000000 0.000000 0.000000
+        0.000000 0.000000 0.000000 0.000000
+    }
+    List Gradient
+    {
+        0.000000 0.000000 0.000000 0.000000
+        0.000000 0.000000 0.000000 0.000000
+        
+        0.180392 0.035294 0.388235 0.000000
+        0.207843 0.086275 0.388235 0.000000
+        
+        0.203922 0.086275 0.384314 0.000000
+        0.329412 0.349020 0.584314 0.000000
+        
+        0.329412 0.349020 0.584314 0.000000
+        0.596078 0.611765 0.811765 0.000000
+        
+        0.592157 0.611765 0.811765 0.000000
+        0.803922 0.811765 0.921569 0.000000
+        
+        0.803922 0.811765 0.921569 0.000000
+        1.000000 1.000000 1.000000 0.000000
+    }
+}
+
+Group LensFlare
+{
+    Enable                     1
+    BrightnessColor            0.976471 0.976471 0.976471 1.000000
+    MaxBrightness              0.320000
+    MainFlareEnable            0
+    MainFlareTextureFileName   ""
+    MainFlareSize              0.200000
+}
+

@@ -1,0 +1,1198 @@
+PVP_LEVEL_19	Semmi
+PVP_LEVEL_18	Semmi
+PVP_LEVEL_17	Semmi
+PVP_LEVEL_16	Semmi
+PVP_LEVEL_15	Semmi
+PVP_LEVEL_14	Semmi
+PVP_LEVEL_13	Semmi
+PVP_LEVEL_12	Semmi
+PVP_LEVEL_11	Semmi
+PVP_LEVEL_10	Semmi
+PVP_LEVEL_9	Semmi
+CANT_GET_FROM_STONE_TARGET	Nem kapsz cseppet ebbol a metinkobol.
+CANT_GET_FROM_MONSTER_TARGET	Nem kapsz cseppet ebbol a szörnybol.
+CANT_GET_FROM_SMT_CUZ	Ok: A szintkülönbségnek 15-nél kisebbnek kell lennie.
+INFORMATIONS_TARGET	|cffBEB47D < Cél információk >
+POISONED_YES	Nem
+POISONED_NO	Igen
+POSSIBLE_DROPS_FROM_TARGET	|cffBEB47DLehetséges gyujtheto tárgyak:
+TARGET_INFO_RESISTS	Rezisztencia:
+TARGET_INFO_RESIS	Rezisztencia:
+TARGET_INFO_RESIS_1	Kard: %s%% Kézifegyver: %s%% Tor: %s%%
+TARGET_INFO_RESIS_2	Íj: %s%% Ventilátor: %s%% Harang: %s%%
+TARGET_INFO_RESIS_3	Tuz: %s%% Villám: %s%%
+TARGET_INFO_RESIS_4	Mágia: %s%% Szél: %s%%
+TARGET_INFO_RESIS_5	Mérgezheto: %s
+TARGET_INFO_RESISTS_LINE0	Kard: %d%% Kézifegyver: %d%% Harang: %d%%
+TARGET_INFO_RESISTS_LINE1	Tor: %d%% Ventilátor: %d%% Íj: %d%%
+TARGET_INFO_RESISTS_LINE2	           Karma: %d%%
+TARGET_INFO_REGEN_INFO	Életero regenerálódik %d%%-kal minden %d másodpercben.
+TARGET_INFO_GOLD_MIN_MAX	Yang: %s ~ %s
+TARGET_INFO_NEWRACE_INSECT	Rovar
+TARGET_INFO_NEWRACE_FIRE	Tuz
+TARGET_INFO_NEWRACE_ICE	Jég
+TARGET_INFO_NEWRACE_DESERT	Sivatag
+TARGET_INFO_NEWRACE_TREE	Fa
+TARGET_INFO_DAMAGE	Sérülés : %s - %s
+TARGET_INFO_DEFENSE	Védelem : %s
+TARGET_INFO_EXP	Tapasztalat : %s
+TARGET_INFO_MAINRACE	Faj : %s
+TARGET_INFO_MAX_HP	Max ÉP: %s
+TARGET_INFO_NO_ITEM_TEXT	Ebbol az lénybol nem lehet tárgyat gyujteni.
+TARGET_INFO_NO_RACE	Meghatározatlan
+TARGET_INFO_RACE_METIN	Metinko
+TARGET_INFO_RACE_ANIMAL	Állat
+TARGET_INFO_RACE_DARK	Sötét
+TARGET_INFO_RACE_DEVIL	Ördög
+TARGET_INFO_RACE_EARTH	Föld
+TARGET_INFO_RACE_ELEC	Villám
+TARGET_INFO_RACE_FIRE	Tuz
+TARGET_INFO_RACE_HUMAN	Ember
+TARGET_INFO_RACE_ICE	Jég
+TARGET_INFO_RACE_MILGYO	Milgyo
+TARGET_INFO_RACE_INSECT	Rovar
+TARGET_INFO_RACE_DESERT	Sivatag
+TARGET_INFO_RACE_ZODIAC	Állatövi
+TARGET_INFO_RACE_TREE	Fa
+TARGET_INFO_RACE_ORC	Ork
+TARGET_INFO_RACE_UNDEAD	Holtak
+TARGET_INFO_RACE_WIND	Szél
+TARGET_INFO_STONE_NAME	Szellemko
+TARGET_INFO_RESIST_SWORD	Kard rezisztencia %d%%
+TARGET_INFO_RESIST_TWOHAND	Kézifegyver rezisztencia %d%%
+TARGET_INFO_RESIST_DAGGER	Tor rezisztencia %d%%
+TARGET_INFO_RESIST_BELL	Harang rezisztencia %d%%
+TARGET_INFO_RESIST_FAN	Ventilátor rezisztencia %d%%
+TARGET_INFO_RESIST_BOW	Íj rezisztencia %d%%
+TARGET_INFO_RESIST_MAGIC	Mágia rezisztencia %d%%
+TARGET_INFO_RESIST_FIRE	Tuz rezisztencia %d%%
+TARGET_INFO_RESIST_ELECT	Villám rezisztencia %d%%
+TARGET_INFO_RESIST_WIND	Szél rezisztencia %d%%
+TARGET_INFO_RESIST_POISON	Mérgezés rezisztencia %d%%
+TARGET_INFO_SUBRACE	Alfaj : %s
+AFFECT_UNLIMITED_DURATION	|cffffcc00(Állandó)
+CHANNEL_STATUS_NOT_KNOWN	Ismeretlen
+CHANNEL_STATUS_BUSY	Foglalt
+CHANNEL_STATUS_FULL	Telített
+NOID_OR_PASSWORD	Ellenorizd az azonosítót vagy jelszót.
+ACCOUNT_HAS_REGISTERED	Fiók információk mentve.
+NO_DELETE_ACCOUNT	Nincs fiók törlésére.
+ACCOUNT_HAS_DELETED	A fiók törölve lett.
+NEW_EXCHANGE_ADDED	%s hozzáadva %s.
+NEW_EXCHANGE_YOU_READY	%s kész a kereskedéshez.
+NEW_EXCHANGE_YOU_ACCEPT	%s elfogadta a kereskedést.
+NEW_EXCHANGE_ACCEPT	%s %s elfogadta a kereskedést.
+NEW_EXCHANGE_YOU_ABORT	%s megszakította a kereskedést.
+NEW_EXCHANGE_ABORT	%s %s megszakította a kereskedést.
+NEW_EXCHANGE_LEVEL	%d. szint
+NEW_EXCHANGE_ALERT1	Ezeket az elemeket adsz, de semmit nem kapsz érte,
+NEW_EXCHANGE_ALERT2	Biztos vagy benne, hogy elfogadod a kereskedést?
+EXCHANGE_TITLE	Kereskedés %s-vel
+EXCHANGE_TITLE_LEVEL	Kereskedés %s-vel (Szint: %d)
+EXCHANGE_NOT_SPACE_QUICK_ADD	Nincs hely a kereskedési ablakban erre az elemre.
+TEXT_CHANNEL	%s, Csatorna %d
+TEXT_CHANNEL2	Csatorna %d
+REFINE_KEEP_WINDOW_OPEN	Tartsd nyitva az ablakot
+CUBE_CAT_01	Páncél Készítés
+CUBE_CAT_02	Fegyver Készítés
+CUBE_CAT_03	Karköto Készítés
+CUBE_CAT_04	Medál Készítés
+CUBE_CAT_05	Sisak Készítés
+CUBE_CAT_06	Vállszalag Készítés
+CUBE_CAT_07	Aura Készítés
+CUBE_CAT_08	Speciális Tárgy Készítés
+CUBE_CAT_09	Gyuru Készítés
+CUBE_CAT_10	Mount Készítés
+CUBE_CAT_11	Háziállat Készítés
+CUBE_CAT_12	Mount-Skin Készítés
+CUBE_CAT_13	Pet-Skin Készítés
+CUBE_CAT_14	Szellem-Ko Készítés
+CUBE_CAT_15	Nyaklánc Készítés
+CUBE_CAT_16	Fülbevaló Készítés
+CUBE_CAT_17	Pajzs Készítés
+CUBE_CAT_18	Cipo Készítés
+CUBE_CAT_19	Kesztyu Készítés
+CUBE_CAT_20	Öv Készítés
+CUBE_CAT_21	Támogató Felszerelés Készítés
+CUBE_CAT_22	Felturbózott Tárgy Készítés
+CUBE_CAT_23	Vállszalag-Skin Készítés
+CUBE_CAT_24	Aura-Skin Készítés
+CUBE_CAT_25	Könyv Készítés
+CUBE_CAT_26	Alkimia Készítés
+CUBE_CAT_27	Egyéb Alkimia Tárgyak
+CUBE_CAT_28	Attribútum Tárgy Készítés
+CUBE_CAT_999	Egyéb
+SPLIT_MULTIPLE_ITEMS	Több tétel szétválasztása
+ARRANGE_INFO_1	Az inventárium rendezése nem fordítható vissza,
+ARRANGE_INFO_2	Biztos vagy benne, hogy meg akarod ezt tenni?
+YOU_CANNOT_OPEN_CHEST_IN_CITY	Nem nyithatsz ládát a városban.
+SPECIAL_STORAGE_PAGE_PLEASE_WAIT	Várj egy kicsit...
+TOOLTIP_DS_SET	Sárkány Lélek Készlet Bónusz	SNA
+TOOLTIP_NAMING_SCROLL_MOUNT	Mount Nevezo Pergamen	SNA
+TOOLTIP_NAMING_SCROLL_PET	Háziállat Nevezo Pergamen	SNA
+TOOLTIP_NAMING_SCROLL_BUFFI	Buffi Nevezo Pergamen	SNA
+BUFF_AFFECT_REMOVE_QUESTION	Biztosan el akarod távolítani a következo hatást: %s?
+BUFF_AFFECT_REMOVE_QUESTION2	Biztosan be akarod/ki akarod kapcsolni a következo hatást: %s?
+
+OFFLINESHOP_TOOLTIP_RIGHT_CLICK_FOR_SALE	|Eothers/key_rc|e - Tétel hozzáadása az üzletedhez
+CONVER_TO_CARD_SET	|Eothers/key_rc|e - Kártya készletre váltás (szükséges x{} tétel)
+OFFLINE_SHOP_NOTIFICATION_TITLE	Eladási értesítés
+OFFLINESHOP_TOOLTIP_RIGHT_CLICK_FOR_SALE2	|Eothers/key_ctrl|e + |Eothers/key_rc|e - Tétel hozzáadása gyorsan az üzletedhez
+OFFLINESHOP_NO_MONEY_TO_WITHDRAW	Nincs yang a kivételhez.
+
+OFFLINESHOP_NOTIF_ITEM_INFO	%s x%d eladva %d yangért.
+OFFLINESHOP_NOTIF_CLOSE_ALL	Minden bezárása
+CHEST_PREVIEW	Láda Elõnézet
+OFFLINESHOP_SET_NAME	       <- Nevezze el az üzletét ->
+OFFLINESHOP_SHOP_DECO_TITLE	Üzlet díszítés
+OFFLINESHOP_SHOP_DECO_0	Általános
+OFFLINESHOP_SHOP_DECO_1	1001 Éjszaka
+OFFLINESHOP_SHOP_DECO_2	BBQ Király
+OFFLINESHOP_SHOP_DECO_3	Kincsvadász
+OFFLINESHOP_SHOP_DECO_4	Tûzzel a Vevõ
+OFFLINESHOP_SHOP_DECO_5	Fegyverkovács
+SHOP_SEARCH_TITLE	Keresse a tárgyakat az üzletekben
+SHOP_SEARCH_BUY_SELECTED_ITEMS	Válassza ki a kiválasztott tárgyakat
+SHOP_SEARCH_ENTER_ITEMNAME	Keresés tárgy névvel
+SHOP_SEARCH_SEARCH_BY_PLAYERNAME	Játékos név
+SHOP_SEARCH_SEARCH_BY_PLAYERNAME2	Keresés játékos névvel
+SHOP_SEARCH_ALL	Minden kategória
+SHOP_SEARCH_BUY_SELECTED_ITEMS_CONFIRM	Tényleg meg szeretné vásárolni a kiválasztott %d tételt?
+SHOP_SEARCH_BUY_CONFIRM	Tényleg meg szeretné vásárolni a következõt: %s?
+SHOP_SEARCH_BUY_CONFIRM2	Szeretné átteleportálni magát a következõ üzlethez: %s?
+SHOP_SEARCH_WAIT	Várjon %d másodpercet, hogy újra megtehesse ezt.
+OFFLINE_SHOP_TOTAL_PRICE	Összesen: |cFF20B2AA Yang
+OFFLINE_SHOP_TOTAL_YANG	Az összes tétel összes ára
+OFFLINE_SHOP_REMAINING_TIME	Maradt idõ: 0 nap
+OFFLINE_SHOP_HISTORY	Üzleti Elõzmények
+OFFLINE_SHOP_WITHDRAW_YANG	Pénz kivétele
+OFFLINE_SHOP_HISTORY_NO_INFORMATION	Nincs információ.
+OFFLINE_SHOP_LEFT_TIME	Maradt idõ: %s
+OFFLINE_SHOP_EMOJI_TOOLTIP	|Eothers/key_ctrl|e + |Eothers/key_rc|e - Tétel eltávolítása
+OFFLINE_SHOP_EMOJI_TOOLTIP2	|Eothers/key_rc|e - Tétel ár(ak) frissítése
+OFFLINE_SHOP_EMOJI_TOOLTIP3	|Eothers/key_rc|e - Tétel elvétele
+OFFLINE_SHOP_WARNING	Amennyiben a keresett tétel nem látható itt, mivel megtelt a raktár, más tételek is láthatóvá válnak, ahogy a raktárat kiveszed.
+OFFLINE_SHOP_TOTAL_PRICE2	|cFFF1E6C0Összesen: |cFF20B2AA
+OFFLINE_SHOP_BUY_ITEM	Szeretne vásárolni %s %dx-t ennyiért: %s?
+OFFLINE_SHOP_BUY_ITEM2	Szeretne vásárolni %s ennyiért: %s?
+OFFLINE_SHOP_NO_ITEMS_IN_SHOP	Létre kell hoznod egy üzletet tárgyak elhelyezéséhez!
+OFFLINESHOP_INPUT_INFO	Mennyi az ára annak, hogy
+OFFLINESHOP_INPUT_INFO2	eladod ezt a tárgyat?
+OFFLINESHOP_TIME_TOOLTIP	Maradt idõ
+OFFLINESHOP_TOTAL_PRICE_OF_SHOP	Az összes tétel összes ára
+
+MOVE_ITEM_TO_SAFEBOX	|Eothers/key_rc|e - Tétel mozgatása a biztonságos fiókba
+MOVE_ITEM_TO_SAFEBOX_TO_INVEN	|Eothers/key_rc|e - Tétel mozgatása az inventárba
+MOVE_ITEM_TO_EXCHANGE	|Eothers/key_rc|e - Tétel mozgatása a cserélõ ablakba
+SWITCHBOT_TITLE	Switchbot
+SWITCHBOT_START	Indítás
+SWITCHBOT_STOP	Leállítás
+SWITCHBOT_EMPTY_ATTR	- Nincs -
+SWITCHBOT_SELECT_ATTR	Válasszon attribútumot
+SWITCHBOT_CLEAR_ATTR	Törlés
+SWITCHBOT_CONFIGURATION_TITLE	Mentett Beállítások
+SWITCHBOT_SAVE_BUTTON	Saját Beállítások
+SWITCHBOT_SAVE	Mentés
+SWITCHBOT_LOAD_CONFIGURATION	Betöltés
+SWITCHBOT_CLEAR_CONFIGURATION	Törlés
+MULTIPLE_BUY_TOOLTIP	|Eothers/key_ctrl|e + |Eothers/key_rc|e - Többszörös vásárlás
+SHOP_NOT_ENOUGH_ITEM	Nincs elég tétel.
+ITEM_PRICE_TITLE	[ Tétel Ár ]
+ITEM_IS_WORTH	x%d  - |Eemoji/%s|e (%s)
+FREE_ITEM	[Ingyenes]
+MULTIPLE_BUYS_TITLE	Többszörös vásárlás
+MULTIPLE_BUY_PRICE	 %s darab/Yang
+DO_YOU_BUY_ITEM_NORMAL	Szeretne vásárolni %d db %s-t?
+ITEM_EXACT_SEARCH	Pontos keresés
+SHOP_SEARCH_ITEM_PRICE_PER_COUNT	Darabonkénti ár: %s
+SHOP_MONEY_NOT_ENOUGH	Nincs elég yang!
+SHOP_MONEY_NOT_ENOUGH2	A termékek kosárba tételének összes ára nem lehet több a rendelkezésre álló pénznél.
+SHOP_SEARCH_ADD_ITEMS_TO_THE_CART_FIRST	Ehhez elõször ki kell választania a tételeket.
+SHOP_SEARCH_CLEAR_CART_FIRST	Ezt csak akkor teheti meg, ha nincsenek kiválasztott tételek.
+SHOP_SEARCH_SHORTCUT_SEARCH	|Eothers/key_shift|e + |Eothers/key_j|e - Tétel keresése az üzletekben
+SHOP_SEARCH_MULTIBUY_ACTIVATED	Az egyedi vásárlás aktiválva lett, az elemre kattintva kiválaszthatja.
+SHOP_SEARCH_NOT_RESULT_FOUND	Nincs találat!
+SHOP_SEARCH_ADD_TO_BASKET	Tétel hozzáadása a kosárhoz
+SHOP_SEARCH_REMOVE_FROM_THE_BASKET	Tétel eltávolítása a kosárból
+SHOP_SEARCH_ACCE_GRADE_FILTER_TITLE	Zsinór minõsége
+SHOP_SEARCH_ACCE_GRADE_FILTER_0	Alap
+SHOP_SEARCH_ACCE_GRADE_FILTER_1	Jó
+SHOP_SEARCH_ACCE_GRADE_FILTER_2	Nemes
+SHOP_SEARCH_ACCE_GRADE_FILTER_3	Egyedi
+
+SHOP_SEARCH_FILTER_0_0	Min. Mennyiség
+SHOP_SEARCH_FILTER_0_1	Max. Mennyiség
+
+SHOP_SEARCH_FILTER_1_0	Min. Szint
+SHOP_SEARCH_FILTER_1_1	Max. Szint
+
+SHOP_SEARCH_FILTER_2_0	Min. Abs.
+SHOP_SEARCH_FILTER_2_1	Max. Abs.
+
+SHOP_SEARCH_FILTER_3_0	Min. Átlag
+
+SHOP_SEARCH_FILTER_4_0	Min. Ár
+SHOP_SEARCH_FILTER_4_1	Max. Ár
+SHOP_SEARCH_DS_GRADE_FILTER_TITLE	Sárkány Lélek Minõsége
+SHOP_SEARCH_DS_GRADE_FILTER_0	Sárkánygyémánt
+SHOP_SEARCH_DS_GRADE_FILTER_1	Sárkányrubin
+SHOP_SEARCH_DS_GRADE_FILTER_2	Sárkányjáde
+SHOP_SEARCH_DS_GRADE_FILTER_3	Sárkányzafír
+SHOP_SEARCH_DS_GRADE_FILTER_4	Sárkánygránát
+SHOP_SEARCH_DS_GRADE_FILTER_5	Sárkányónix
+
+SHOP_SEARCH_DS_CLARITY_FILTER_TITLE	Sárkány Lélek Tisztasága
+SHOP_SEARCH_DS_CLARITY_FILTER_0	Matt
+SHOP_SEARCH_DS_CLARITY_FILTER_1	Tiszta
+SHOP_SEARCH_DS_CLARITY_FILTER_2	Hibátlan
+SHOP_SEARCH_DS_CLARITY_FILTER_3	Ragyogó
+SHOP_SEARCH_DS_CLARITY_FILTER_4	Kiváló
+SHOP_SEARCH_PREMIUM_NEEDED_FOR_THIS_ACTION	Ehhez az akcióhoz prémiumra van szükség.
+
+FAST_OPEN_CHEST_TOOLTIP	|Eothers/key_alt|e + |Eothers/key_rc|e - Nyisson ki {} alkalommal
+GIFTBOX_VIEW_CHEST_DROP_TOOLTIP	|Eothers/key_shift|e + |Eothers/key_rc|e - Elõnézet
+
+BONUS_TABLE_ENTER_BONUSNAME	Bónusz Neve
+DETAILS_TITLE	Bónusz Tábla
+MODEL_PREVIEW	Elõnézet
+MODEL_ITEM_PREVIEW	|Eothers/key_shift|e + |Eothers/key_p|e - Elõnézet
+MODEL_ITEM_PREVIEW_MOVE	Áthelyezés -  |Eothers/key_rc|e
+MODEL_ITEM_PREVIEW_ZOOM	Beállítás nagyításhoz - |Eothers/key_mc|e
+
+RANKING_PLAYER_RANK	Helyezés
+RANKING_PLAYER_NAME	Játékos
+RANKING_PLAYER_COUNTRY	Ország
+RANKING_PLAYER_SCORE	Pontszám
+RANKING_REFRESH_TIME_INFORMATION	A ranglista 30 percenként frissül.
+
+SELECTED_FONT_02	Arial:14
+SELECTED_FONT_02_LARGE	Arial:16
+SELECTED_FONT_02_SMALL	Arial:12
+SELECTED_FONT_02_FONT	Arial:14b
+
+SELECTED_FONT_03	Tahoma:14
+SELECTED_FONT_03_LARGE	Tahoma:16
+SELECTED_FONT_03_SMALL	Tahoma:12
+SELECTED_FONT_03_FONT	Tahoma:14b
+
+SELECTED_FONT_04	Verdana:12
+SELECTED_FONT_04_LARGE	Verdana:14
+SELECTED_FONT_04_SMALL	Verdana:10
+SELECTED_FONT_04_FONT	Verdana:12b
+
+SELECTED_FONT_TYPE1	Típus 1
+SELECTED_FONT_TYPE2	Típus 2
+SELECTED_FONT_TYPE3	Típus 3
+SELECTED_FONT_TYPE4	Típus 4
+
+WIKI_SEARCH_SHORTCUT_SEARCH	|Eothers/key_shift|e + |Eothers/key_h|e - Tétel keresése a Wikipédiában
+DELETE_AFFECT_TOOLTIP	|Eothers/key_lc|e - Törölje ezt a hatást
+DELETE_AFFECT_TOOLTIP2	|Eothers/key_lc|e - Aktiválja/Deaktiválja ezt a hatást
+INVENTORYSLOT_TOOLTIP_WEAPON_SKIN	Fegyver Kinézet
+INVENTORYSLOT_TOOLTIP_BODY	Test Kinézet
+INVENTORYSLOT_TOOLTIP_HAIR	Frizura
+INVENTORYSLOT_TOOLTIP_GLOVE	Kesztyû
+INVENTORYSLOT_TOOLTIP_CROWN	Korona
+INVENTORYSLOT_TOOLTIP_RING1	Gyûrû
+INVENTORYSLOT_TOOLTIP_RING2	Gyûrû
+INVENTORYSLOT_TOOLTIP_RING3	Gyûrû
+INVENTORYSLOT_TOOLTIP_RING4	Gyûrû
+INVENTORYSLOT_TOOLTIP_ARROW	Nyíl
+INVENTORYSLOT_TOOLTIP_SHIELD	Pajzs
+INVENTORYSLOT_TOOLTIP_AURA	Aura
+INVENTORYSLOT_TOOLTIP_MOUNT_SKIN	Mount Kinézet
+INVENTORYSLOT_TOOLTIP_PET_SKIN	Háziállat Kinézet
+INVENTORYSLOT_TOOLTIP_ACCE_SKIN	Vállszíj Kinézet
+INVENTORYSLOT_TOOLTIP_AURA_SKIN	Aura Kinézet
+
+INVENTORYSLOT_TOOLTIP_BOOSTER	Booster (Fegyver)
+INVENTORYSLOT_TOOLTIP_BOOSTER2	Booster (Páncél)
+INVENTORYSLOT_TOOLTIP_BOOSTER3	Booster (Sisak)
+
+INVENTORYSLOT_TOOLTIP_PET_SYSTEM	Társ
+
+INVENTORYSLOT_TOOLTIP_DREAMSOUL_RED	Vörös Álomlélek
+INVENTORYSLOT_TOOLTIP_DREAMSOUL_BLUE	Kék Álomlélek
+
+INVENTORYSLOT_TOOLTIP_RING	Gyûrû 1
+INVENTORYSLOT_TOOLTIP_RING2	Gyûrû 2
+INVENTORYSLOT_TOOLTIP_RING3	Gyûrû 3
+INVENTORYSLOT_TOOLTIP_RING4	Gyûrû 4
+
+WIKI_CLEAR_SEARCH	Keresés törlése
+SHOP_BUY_NOTIF_0	eladásra került.
+SHOP_BUY_NOTIF_1	yang hozzáadva a raktárához.
+
+INGAME_LOG_TITLE_01	Offlineshop elõzményei
+INGAME_LOG_TITLE_02	Cseresztori elõzményei
+
+INGAME_LOG_OFFLINESHOP_ITEM_INFO_0	Tétel Neve
+INGAME_LOG_OFFLINESHOP_ITEM_INFO_1	Ár
+INGAME_LOG_OFFLINESHOP_ITEM_INFO_2	Vevõ
+INGAME_LOG_OFFLINESHOP_ITEM_INFO_3	Tranzakció dátuma
+
+INGAME_LOG_EXCHANGE_ITEM_INFO_0	Cserélve Vele
+INGAME_LOG_EXCHANGE_ITEM_INFO_1	Részletes Információ
+
+INGAME_TRADELOG_YOU	Te
+INGAME_TRADELOG_PLAYERNAME	JátékosNév
+INGAME_LOG_INFORMATION	Itt láthatja korábbi mûveleteit. Ha nem találja a keresett naplót, jelentkezzen be újra.
+
+TEXTTAIL_CANT_INTERACT	Ehhez mozdulatlannak kell lenned.
+SYSTEM_MESSAGE	[RENDSZER ÜZENET]
+YOU_CANT_ANSWER_TO_THIS_MESSAGE	Nem válaszolhatsz erre az üzenetre.
+STOP_CHAT_BUTTON	Chat leállítása
+
+MESSENGER_SUPPORT	|Ee/m|e Támogatás
+
+AUTO_SHOUT_BUTTON	Automatikus Üzenet (Kiáltás)
+AUTO_SHOUT_INFO	Automatikus üzenet aktiválva, az utolsó kiáltás üzenetét fogja küldeni, amíg le nem állítja.
+AUTO_SHOUT_INFO2	Automatikus üzenet letiltva.
+AUTO_SHOUT_INFO3	Az utolsó kiáltás üzenetet nem találták, a küldés akkor kezdõdik, amikor kiáltás üzenetet küld.
+
+BUTTON_TOOLTIP_WHISPER_CLOSE	|Eothers/key_ctrl|e + |Eothers/key_lc|e - Levelezés bezárása
+
+SHOP_CANNOT_DO_THIS_WHILE_SEARCHING	Ezt nem teheti meg a keresés közben.
+ITEM_TRANSACTIONS_TITLE	Tétel tranzakciók
+ITEM_TRANSACTIONS_ALREADY_IN_LIST	A tétel már szerepel a listában.
+ITEM_TRANSACTIONS_QUESTION_DIALOG_1	Biztosan el akarja adni a kiválasztott tételeket?
+ITEM_TRANSACTIONS_QUESTION_DIALOG_2	Biztosan törölni szeretné a kiválasztott tételeket?
+ITEM_TRANSACTIONS_SELECTED_COUNT	Kiválasztott tétel száma: %d
+ITEM_TRANSACTIONS_ADD_ITEMS	|Eothers/key_x|e + |Eothers/key_lc|e - Tétel hozzáadása a listához
+ITEM_TRANSACTIONS_FAST_ITEMS_TOOLTIP	|Eothers/key_x|e + |Eothers/key_lc|e - Tétel tranzakciók
+FAST_MOVE_ITEM_BETWEEN_INV	|Eothers/key_ctrl|e + |Eothers/key_rc|e - Mozgatás a speciális tárolóba
+
+BIOLOG_WINDOW_TITLE	Biológia
+BIOLOG_BONUS_TITLE	Bónuszok
+BIOLOG_ITEM_0	A siker esélye 100% lesz
+BIOLOG_ITEM_1	Visszaállítási idõ
+BIOLOG_DELIVER_ITEM	Szállítás
+BIOLOG_NOT_ENOUGH_MATERIAL	Nincs elegendõ alapanyag ehhez.
+BIOLOG_COOLDOWN_NOT_FINISHED	A lehûtés még nem fejezõdött be.
+BIOLOG_COOLDOWN_CANT_RESET_CUZ_NO_COOLDOWN	Az alvállalást nem lehet használni, amíg nincs lehûtés.
+BIOLOG_CAN_DELIVER_ITEM	Kiszállítható
+BIOLOG_FINISHED	Ezt nem teheti meg, mert a biológus feladatok befejezõdtek.
+
+BIOLOG_CURRENT_MISSION	Jelenlegi feladat: {}
+BIOLOG_SOULSTONE_INFO	Ezt a tételt megszerezheti innen: {}
+BIOLOG_REMAINING_TIME	Hátralévõ idõ: 
+BIOLOG_PROGRESS_STATE	Elõrehaladási állapot
+BIOLOG_CAN_DELIVER_NEXT_ITEM	Kiszállíthatja a következõ tételt
+YOU_NEED_LEVEL	Erre legalább {} szintnek kell lennie.
+
+DISTANCE_NPC_TITLE	Távolsági Vásárlás
+
+INVENTORY_SIDEBAR_BUTTON_1	Speciális Tároló
+INVENTORY_SIDEBAR_BUTTON_2	Wikipédia
+INVENTORY_SIDEBAR_BUTTON_3	Offline Bolt
+INVENTORY_SIDEBAR_BUTTON_4	Switchbot
+INVENTORY_SIDEBAR_BUTTON_5	Buffi
+
+SKILL_SET_BONUS_TOOLTIP_AVAIL_FOR_SAGE	Minden aktív készség bölcsesség esetén a következõ hatásokat adja \nMax HP +1000\nFélemberek elleni erõ +10\n Erõs ellen szörnyek +10\n Erõs ellen metinkõ +5\n Erõs ellen fõnökök +5
+
+SKILL_SET_BONUS_TOOLTIP	Készség Készlet Bónusz [Bölcsesség]
+SKILL_SET_BONUS_TOOLTIP2	Készség Készlet Bónusz [Legendás]
+SKILL_SET_BONUS_AFFECT_TOOLTIP	Erõs ellen szörny +%500
+SKILL_SET_BONUS_AFFECT2_TOOLTIP	Támadási Érték (PvM) +100
+SKILL_SET_BONUS_AFFECT3_TOOLTIP	Erõs ellen szörny +%1000
+SKILL_SET_BONUS_AFFECT4_TOOLTIP	Támadási Érték (PvM) +250
+SKILL_SET_BONUS_AFFECT5_TOOLTIP	B/Y Harci Támadás +%10
+
+SKILL_PASSIVE_NOT_LEVEL	Ennek a képességnek fejlõdnie kell, hogy használhassa.
+
+SKILL_MONSTER_DESCRIPTION	Erõs ellen szörny +%.1f%%
+SKILL_METIN_DESCRIPTION	Erõs ellen metinkõ +%.1f%%
+SKILL_BERSERKER_DESCRIPTION	Mágikus/melee támadás +%.1f%%
+SKILL_HUMAN_DESCRIPTION	Erõs ellen ember +%.1f%%
+SKILL_COOLDOWN_DESCRIPTION	Készség lehûtése +%.1f%%
+SKILL_DRAGON_HEARTH_DESCRIPTION	Max. HP +%.1f%%
+SKILL_RESIST_HERBOLOGY_DESCRIPTION	Növelt Keverés Attribútumok +%.1f%%
+SKILL_RESIST_UPGRADING_DESCRIPTION	Növelt Fejlesztési Esély +%.1f%%
+SKILL_RESIST_FISHING_DESCRIPTION	Dupla Horgászati Bónusz +%.1f%%
+
+TOOLTIP_NEXT_SKILL_LEVEL	Következõ Szint: {}
+
+FAST_SOUL_STONE_1	Válassza ki az elsõdlegesen fejleszteni kívánt képességet.
+FAST_SOUL_STONE_2	Csak a Nagy Mester szintû képességeket választhatja ki.
+FAST_SOUL_STONE_3	Most kezdheti el a tanulást.
+FAST_SOUL_STONE_4	Csak a tökéletes szintû képességeket választhatja ki.
+FAST_SOUL_STONE_5	Csak a BÖLCS szintû képességeket választhatja ki.
+
+DUNGEON_TIMER_TITLE	Dungeon Információk
+DUNGEON_TIMER_MINLVL	Szint tartomány
+DUNGEON_TIMER_GROUPREQ	Csoport állapota
+DUNGEON_TIMER_COOLDOWN	Lehûtés
+DUNGEON_TIMER_TICKET	Bejárat jegy
+
+DUNGEON_TIMER_RESET_COOLDOWN	Lehûtés visszaállítása
+DUNGEON_TIMER_TP	Teleport
+
+DUNGEON_TIMER_CONFIRM	Megerõsítés
+DUNGEON_TIMER_DECLINE	Elnutasítás
+TIMER_WARP_QUESTION	Szeretne teleportálni a(z) %s átjáróba?
+
+DUNGEON_TIMER_GROUP_REQ_NO	Szóló
+DUNGEON_TIMER_GROUP_REQ_YES	Csoporttal
+DUNGEON_TIMER_AVAILABLE	Elérhetõ
+DUNGEON_TIMER_NOT_AVAILABLE	Nem elérhetõ
+DUNGEON_TIME_NO_ITEM	Nincs tárgy
+DUNGEON_TIMER_COOLDOWN	Lehûtés
+DUNGEON_TIMER_BOSS_DROP	Dungeon esélyek
+DUNGEON_TIMER_MIN_MAX_LEVEL	min. {} - max. {}
+
+DUNGEON_TIMER_WIKI_BUTTON	Wikipédia
+
+DUNGEON_TIMER_ERROR_LEVEL	A szinttartománya nem megfelelõ.
+DUNGEON_TIMER_ERROR_TICKET	Nincs elegendõ bejárat jegye.
+DUNGEON_TIMER_ERROR_QTIME	A lehûtés még nem fejezõdött be.
+DUNGEON_TIMER_ERROR_HTIME	A számítógép lehûtési ideje még nem fejezõdött be.
+DUNGEON_TIMER_ERROR_BUSY	Egyszerre nem hívhat több fõnököt.
+DUNGEON_TIMER_ERROR_UNKNOWN	Ismeretlen hiba történt.
+DUNGEON_NOTIFICATION_TITLE	[DUNGEONS]
+DUNGEON_NOTIFICATION_MESSAGE	A(z) {} dungeon lehûtése véget ért!
+
+REFINE_ALL_QUESTION_DIALOG	Az összes lapot és minõséget finomítja, biztosan?
+REFINE_ALL_ITEMS_FINISHED	Kész, az összes lap finomítva lett.
+REFINE_FAST_UPGRADE_INFO	Ugrás a fejlesztési kérdés felett
+REFINE_FAST_UPGRADE_CHECKBOX_TEXT	Gyors finomítás
+
+BLUE_KINGDOM	|cFF8CADDBJinno:|h|r
+RED_KINGDOM	|cFFFBB497Shinsoo:|h|r
+YELLOW_KINGDOM	|cFFFDE696Chunjo:|h|r	
+BONUS_END_IN	Vége: %s
+BONUS_EVENT	Bónusz esemény:
+BONUS_NEXT_EVENT	|Eothers/key_rc|e - Következõ esemény
+BONUS_START_IN	Kezdõdik: %s
+BONUS_TABLE_1	Jinno Játékosok
+BONUS_TABLE_2	Shinsoo Játékosok
+BONUS_TABLE_3	Chunjo Játékosok
+BONUS_TABLE_4	Játékos
+BONUS_TABLE_5	Nyerési Párbajok
+BONUS_TABLE_TITLE_1	Támadási Bónuszok
+BONUS_TABLE_TITLE_2	Elem Bónuszok
+BONUS_TABLE_TITLE_4	Karakter & Védelem Bónuszok
+BONUS_TABLE_TITLE_5	Egyéb
+
+ALL_CHANNEL	Mind az összes csatornából begyûjthetõ	
+ALL_KINGDOMS	|cFF97AE99Az összes birodalom:|h|r	
+
+DOUBLE_METIN_LOOT_EVENT	 Dupla Metinkõ Bevétel
+DOUBLE_BOSS_LOOT_EVENT	 Dupla Boss Loot
+WHELL_OF_FORTUNE_EVENT	  Sorskerék
+EXP_EVENT	 Tapasztalati Esemény: %100
+LETTER_EVENT	 Levél Esemény
+CARD_EVENT	 Kártya Esemény
+CATCH_KING_EVENT	 Keresd meg a Királyt Esemény
+BLACK_N_WHITE_EVENT	 Fekete 'N Fehér Esemény
+YUTNORI_EVENT	 Yutnori Esemény
+MOONLIGHT_EVENT	 Holdfény Esemény
+SOCCER_BALL_EVENT	 Foci Esemény
+
+HALLOWEEN_EVENT	 Halloween Esemény
+RAMADAN_EVENT	 Ramadan Esemény
+SUMMER_EVENT	 Nyári Esemény
+CHRISTMAS_EVENT	 Karácsonyi Esemény
+EASTER_EVENT	 Húsvéti Esemény
+VALENTINES_EVENT	 Valentin Nap Esemény
+
+BEGGINER_EVENT	 Kezdõ Esemény
+
+EMPIRE_WAR_EVENT	 Birodalom Háború (Szv. %d - Szv. %d)
+EVENT_CALENDAR_TITLE	Esemény Naptár: %s
+EVENT_COLORFULL_TEXT	|cFF84A5B%s|h|r
+EVENT_DURATION	Tartamány:
+EVENT_END_AT	Vége:
+EVENT_MANAGER_WINDOW_TITLE	Esemény Naptár: %s - %d
+EVENT_MONTH_1	Január
+EVENT_MONTH_2	Február
+EVENT_MONTH_3	Március
+EVENT_MONTH_4	Április
+EVENT_MONTH_5	Május
+EVENT_MONTH_6	Június
+EVENT_MONTH_7	Július
+EVENT_MONTH_8	Augusztus
+EVENT_MONTH_9	Szeptember
+EVENT_MONTH_10	Október
+EVENT_MONTH_11	November
+EVENT_MONTH_12	December
+EVENT_START_AT	Kezdõdik:
+EVENT_TOOLTIP_DOESNT_HAVE_EVENT	Nincs meghatározott esemény erre a dátumra.
+EVENT_TOOLTIP_TITLE	Események ezen a dátumon: %s
+MOUNT_DOYUMHWAN_MAP_NAME	Doyumhwan
+MOUNT_SOHAN_MAP_NAME	Sohan
+MOUNT_YONGBI_MAP_NAME	Yongbi
+NORMAL_EVENT_TIME	Kezdés: %s Vége: %s
+PVP_EVENT_TIME	Kezdés: %s
+
+CATEGORY_0_NAME	Különleges Ajánlatok
+CATEGORY_1_NAME	Különleges Tárgyak
+CATEGORY_1_SUB_1_NAME	Premium Tárgyak
+CATEGORY_1_SUB_2_NAME	Csomagok
+CATEGORY_2_NAME	Kozmetikai
+CATEGORY_2_SUB_1_NAME	Fegyverruha
+CATEGORY_2_SUB_2_NAME	Testruha
+CATEGORY_2_SUB_3_NAME	Frizurák
+CATEGORY_2_SUB_4_NAME	Pászta Bõrök
+CATEGORY_2_SUB_5_NAME	Aura Bõrök
+CATEGORY_3_NAME	Társak
+CATEGORY_3_SUB_1_NAME	Patkányok
+CATEGORY_3_SUB_2_NAME	Háziállatok
+CATEGORY_3_SUB_3_NAME	Patkány Bõr
+CATEGORY_3_SUB_4_NAME	Háziállat Bõr
+CATEGORY_4_NAME	Támogató Tárgyak
+CATEGORY_4_SUB_1_NAME	Támogatók
+CATEGORY_4_SUB_2_NAME	Ruhabûvölés
+CATEGORY_4_SUB_3_NAME	Gyûrûk
+CATEGORY_4_SUB_4_NAME	Támogató
+
+ITEMSHOP_ACCEPT_CHANGE_PRICE	Elfogadás
+ITEMSHOP_ADD_DISCOUNT_DISCOUNT_TITLE	Kedvezmény:
+ITEMSHOP_ADD_DISCOUNT_HOUR	óra
+ITEMSHOP_ADD_DISCOUNT_MINUTE	perc
+ITEMSHOP_ADD_DISCOUNT_SECOND	mp
+ITEMSHOP_ADD_ITEM_ACCEPT_TEXT_BUTTON	Elfogadás
+ITEMSHOP_ADD_ITEM_PRICE_TITLE	Ár:
+ITEMSHOP_BUY	Megvásárlás
+ITEMSHOP_BUY_BUTTON	Megvásárlás
+ITEMSHOP_BUY_BUTTON2	Megvásárlás\n(Nem cserélhetõ)
+ITEMSHOP_BUY_COIN	Kezdõlap
+ITEMSHOP_BUY_ITEM_WITHOUT_AMOUNT_QUESTION	Meg szeretnéd vásárolni a %s %d-t %sért?
+ITEMSHOP_BUY_ITEM_WITH_AMOUNT_QUESTION	Meg szeretnéd vásárolni %d %s %sx-t %sért?
+ITEMSHOP_BUY_TEXT	Meg akarod vásárolni |cffF7BD48%s|r-t?
+ITEMSHOP_BUY_TEXT_COUNT	Meg akarod vásárolni |cffF7BD48%sx%d|r-t?
+ITEMSHOP_CANCEL_CHANGE_PRICE	Mégse
+ITEMSHOP_COINS	Sárkányérme:
+ITEMSHOP_COUNT	Darab
+ITEMSHOP_DATE	Dátum: %s
+ITEMSHOP_DRAGONCOINT	Jelenlegi DC
+ITEMSHOP_DRSSHOP_COIN	DC
+ITEMSHOP_HOME_NAME	Kezdõlap
+ITEMSHOP_HOTITEMS	|Eothers/hot_icon|e Népszerû
+ITEMSHOP_HOUR	Óra: %s
+ITEMSHOP_HOURS_MINUTES_SECONDS	%dó %dp %dmás
+ITEMSHOP_LAST_COUNT	Maradék mennyiség: %d
+ITEMSHOP_PRICE	Ár
+ITEMSHOP_PRICE_NEW	|Eothers/mini_coin|e %s DC
+ITEMSHOP_PRICE_ONLY_TEXT	%s DC
+ITEMSHOP_PRICE_TITLE_BOX	Ár: %d %s
+ITEMSHOP_PRICE_WITH_DISCOUNT	|Eothers/mini_coin|e |cffFF7B7B%s DC (%d%%)
+ITEMSHOP_BUYDC	|Eothers/mini_coin|e DC VÁSÁRLÁS
+ITEMSHOP_PURCHASES	Vásárlások
+ITEMSHOP_SEARCH_TEXT	Keresés
+ITEMSHOP_WHEEL	|Eothers/wheel_icon|e Sorskerék	
+ITEMSHOP_WHEEL_BACK_ISHOP	Menj a kezdõlapra
+ITEMSHOP_WHEEL_COIN_TEXT	|Eothers/coin|e Ár: 15 DC
+ITEMSHOP_WHEEL_COIN_TEXT_INFO	|cffF7BD48DC|r-t használsz a sorskerék forgatásához.
+ITEMSHOP_WHEEL_NAME	Sorskerék
+ITEMSHOP_WHEEL_PRICE1	Ár
+ITEMSHOP_WHEEL_PRICE2	5 DC	
+ITEMSHOP_WHEEL_PURCHASE	|Eothers/wheel_icon|e |cffF7BD48Sorskerék|r
+ITEMSHOP_WHEEL_SKIP_ANIMATION	Animáció kihagyása
+ITEMSHOP_WHEEL_TICKET_TEXT	ért |Esystem/pass|e x50
+ITEMSHOP_WHEEL_TICKET_TEXT_INFO	|cffF7BD48{}|r-t használsz a sorskerék forgatásához.
+
+PURCHASES_ACCOUNTID	Fiók
+PURCHASES_DATE	Dátum
+PURCHASES_IP	IP Cím
+PURCHASES_ITEMBOUGHT	Megvásárolt Tárgy
+PURCHASES_PRICE	Ár
+PURCHASES_PRICE_TEXT	|Eothers/mini_coin|e |cffF7BD48%s DC
+WHEEL_REWARD_TEXT	Megszerzett
+WHEEL_REWARD_TEXT_1	Hozzáadva a raktáradhoz
+WHEEL_REWARD_TITLE	Sorskerék Jutalom
+WHELL_OF_FORTUNE_EVENT	Sorskerék
+LOG_ITEM_INFO_0	|cffF7BD48%s | %d darab |r
+
+TOTAL_ATTACK_COUNT	Összes találat: {}
+ACCEPT_WARP_FROM_YOUR_FRIEND_REQUEST	%s szeretne hozzád teleportálni, elfogadod?
+WARP_TO_THIS_PLAYER	Teleport kérés
+
+
+NEW_PET_SYSTEM_PERCANTAGE_RATE	: (Százalék) +
+PET_INFORMATION_SKILL_AND_SKILLLEVEL	%s (Szint %d)
+PET_INFORMATION_PETSTAR_INFO	Csillag Szint: %d
+PET_TYPE1	Ügyetlen (1)
+PET_TYPE2	Kíváncsi (2)
+PET_TYPE3	Bátor (3)
+PET_TYPE4	Vitéz (4)
+PET_TYPE5	Vakmerõ (5)
+PET_TYPE6	Legenda (6)
+PET_TYPE7	Mítosz (7)
+PET_TYPE8	Prizmás (8)
+PET_TYPE9	Hûséges (9)
+PET_TYPE10	Társ (10)
+PET_TYPE11	Legenda (11)
+PET_TYPE12	Vadász (12)
+PET_TYPE13	Tökéletes (13)
+PET_TYPE14	Kiváló (14)
+PET_TYPE15	Titán (15)
+PET_TYPE16	Epikus (16)
+CALL_PET_FIRST	Meg kell hívnod a kisállatodat ehhez.
+MISSING_PET_ITEM	Nincs elég tárgyad.
+PET_SYSTEM_CAN_OPEN_SKILL	%d. fejleszthetõ
+PET_SYSTEM_CAN_NOT_OPEN_SKILL	%d. nem fejleszthetõ
+PET_SYSTEM_SKILL_TOOLTIP	%d. képesség: %d
+PET_SYSTEM_SKILL_COOLDOWN	Képesség lehûtése:
+PET_SYSTEM_ORE	 Óra
+PET_SYSTEM_ZILE	 Nap
+PET_EVO_NAME_1	Ifjú
+PET_EVO_NAME_2	Vad
+PET_EVO_NAME_3	Bátor
+PET_EVO_NAME_4	Hõs
+PET_EVO_NAME_5	Epikus
+PET_EVO_NAME_6	Legenda
+PET_EVO_NAME_7	Misztikus
+PET_SKILL_EFFECT_1	Erõálló (Harcos)
+PET_SKILL_EFFECT_2	Erõálló (Sura)
+PET_SKILL_EFFECT_3	Erõálló (Assassin)
+PET_SKILL_EFFECT_4	Erõálló (Þaman)
+PET_SKILL_EFFECT_5	Mágikus/Melee
+PET_SKILL_EFFECT_6	Ember Vadász
+PET_SKILL_EFFECT_7	Fúrás
+PET_SKILL_EFFECT_8	Kritikus
+PET_SKILL_EFFECT_9	HP Regen
+PET_SKILL_EFFECT_10	Blokád
+PET_SKILL_EFFECT_11	Szörny Vadász
+PET_SKILL_EFFECT_12	Metin Kõ Vadász
+PET_SKILL_EFFECT_13	Fõnix Vadász
+PET_SKILL_EFFECT_14	Vadász Védelem
+PET_SKILL_EFFECT_15	Dupla Yang
+
+QUEST_ROAM_AROUND_PAGES	Lapok körüljárása - |Eothers/key_mc|e
+TP_RING_DESC1	Elõzõ
+TP_RING_DESC2	Következõ
+TP_RING_DESC3	Elsõ
+TP_RING_DESC4	Utolsó
+
+DISTANCE_NPC_SHOP_TITLE_0	NEM HASZNÁLT
+DISTANCE_NPC_SHOP_TITLE_1	NEM HASZNÁLT
+DISTANCE_NPC_SHOP_TITLE_2	NEM HASZNÁLT
+DISTANCE_NPC_SHOP_TITLE_3	NEM HASZNÁLT
+DISTANCE_NPC_SHOP_TITLE_4	NEM HASZNÁLT
+DISTANCE_NPC_SHOP_TITLE_5	NEM HASZNÁLT
+
+SELECT_JOB_ACCEPT_SKILL	Biztosan ezt a képességcsoportot választod: %s ?
+SELECT_JOB_CLOSE_WINDOW	Nem zárhatod be az ablakot, mielõtt kiválasztod a foglalkozásod.
+SELECT_JOB_INFO	Válassz foglalkozást!
+
+SKILL_COLOR_SELECT_FIRST	Elõször válassz színt
+SKILL_COLOR_PICK_TOOLTIP	Válassz egy színt%s-hoz. (Hexa kód a színhez:%s)
+SKILL_COLOR_PRESET_TOOLTIP_TITLE	Szín
+SKILL_COLOR_PRESET_TOOLTIP_1	Mentheted a képesség színét.
+SKILL_COLOR_PRESET_TOOLTIP_2	Ha újra akarod változtatni
+SKILL_COLOR_PRESET_TOOLTIP_3	Választhatod a színt a színtáblán
+SKILL_COLOR_CUSTOM_HEX_CODE_TOOLTIP_TITLE	Színkód
+SKILL_COLOR_CUSTOM_HEX_CODE_TOOLTIP_1	Beírhatsz egy speciális számot a színhez
+SKILL_COLOR_CUSTOM_HEX_CODE_TOOLTIP_2	Példa: #FFFFFF (fehér)
+SKILL_COLOR_DO_YOU_RESET	Szeretnéd visszaállítani a színt?
+SKILL_COLOR_DO_YOU_CHANGE	Szeretnéd megváltoztatni a színt?
+SKILL_COLOR_SELECT_PRESET	Válassz egy színt
+SKILL_COLOR_SELECT_PRESET_NONE	Nincs mentett elõre beállítás
+SKILL_COLOR_CANNOT_SAVE	Nem mentheted el többé a színeket.
+SKILL_COLOR_SELECT_COLOR	Kérlek válassz elõször egy színt!
+SKILL_COLOR_CHOOSE_TOOLTIP	Válassz színt %s-hoz (Szín Hexa:%s)
+
+
+AURA_ACCEPT_REFINE_MAX_ABS	Az Aura már elérte a maximális abszorpciós arányt, nem lehet tovább fejleszteni.
+AURA_ACCEPT_REFINE_ITEM	Nincs elég anyag.
+AURA_TOOLTIP_NEED_YANG	10.000.000 Yang
+AURA_TOOLTIP_NEED_YANG2	20.000.000 Yang
+WIKI_100	Lv 121-?
+WIKI_1_75	Lv 1-99
+WIKI_76_100	Lv 99-120
+WIKI_DUNGEON	Dungeonek
+WIKI_DUNGEON_METIN	Dungeon Metinkövek
+WIKI_DUNGEON_MINI_BOSS	Dungeon Mini-Fõnixek
+WIKI_DUNGEON_BOSS	Dungeon Fõnixek
+WIKI_ATTR_RARE	6-7. bónuszok
+WIKI_AVAIBLE_AT	Eredet
+WIKI_BASIC	Kezdet
+WIKI_ALCHEMY	Sárkány Lélek Alkímia
+WIKI_EVENTS	Események
+WIKI_BASIC_DROP	Leesések
+WIKI_BIOLOGO	Biológus
+WIKI_BODY_COSTUME	Test Kinézetek
+WIKI_BOSSES	Fõnixek
+WIKI_BOSSES_EVENT	Esemény Fõnixek
+WIKI_CATEGORY	Kategóriák
+WIKI_CHESTS	Ládák
+WIKI_CHESTS_ALTERNATIVE	Alternatív ládák
+WIKI_CHESTS_BOSS	Fõnix Ládák
+WIKI_CHESTS_DUNGEON	Dungeony Ládák
+WIKI_CHESTS_EVENT	Esemény Ládák
+WIKI_CHESTS_OTHER	Farm Ládák
+WIKI_CHANGE_SEARCH_TYPE	Változtasd meg a keresés típusát
+WIKI_CHANGE_SEARCH_BTN	Keresés
+WIKI_CONTENT_INFO	%s tartalom
+WIKI_CONTENT_INFO2	%s craft követelmények
+WIKI_COSTUMES	Kinézetek
+WIKI_DROPLIST_INFO	%s droplista
+WIKI_EQUIPMENT	Felszerelések
+WIKI_EQUIPMENT_ARMOR	Páncél
+WIKI_EQUIPMENT_BELT	Öv
+WIKI_EQUIPMENT_BRACELET	Karkötõ
+WIKI_EQUIPMENT_EARRING	Fülbevaló
+WIKI_EQUIPMENT_HELMET	Sisak
+WIKI_EQUIPMENT_NECKLACE	Nyaklánc
+WIKI_EQUIPMENT_RINGS	Gyûrû
+WIKI_EQUIPMENT_SHIELD	Pajzs
+WIKI_EQUIPMENT_SHOES	Cipõ
+WIKI_EQUIPMENT_TALISMAN	Talisman
+WIKI_EQUIPMENT_GLOVE	Kesztyû
+WIKI_EQUIPMENT_DREAMSOUL	Álomlélek
+WIKI_EQUIPMENT_WEAPONS	Fegyver
+WIKI_GAMERULES	Játékszabályok
+WIKI_GAME_RULES	Játékszabályok
+WIKI_GUIDES	Irányítások
+WIKI_HAIR_COSTUME	Frizurák
+WIKI_ITEM_NAME	Keresés tárgyra
+WIKI_LEVEL_MOB_TEXT	Szint %d
+WIKI_LEVEL_TEXT	Szint tartomány %d - Frissítés tartomány +%d~%d
+WIKI_LEVEL_TEXT2	Szint tartomány %d~%d - Frissítés tartomány +%d~%d
+WIKI_CUBE_PERCENT	Siker esélye: {}%
+WIKI_METINSTONE	Metinkövek
+WIKI_MOB_NAME	Keresés szörnyre
+WIKI_MONSTER	Szörny
+WIKI_MOUNT	Lovak és Kísérõk
+WIKI_MOUNT_ITEM	Lovak
+WIKI_ORIGIN	Forrás
+WIKI_PETS	Kísérõk
+WIKI_PET_ITEM	Kísérõk
+WIKI_PET_LEVEABLE_ITEM	Társak
+WIKI_SASH	Vállkendõ
+WIKI_SASH_COSTUME	Vállkendõ Kinézetek
+WIKI_AURA_COSTUME	Aura Kinézetek
+WIKI_SHINING	Csillogások
+WIKI_STATICS_INFO	%s statisztika
+WIKI_STATICS_INFO_DEFENSES	Védelmek:
+WIKI_STATICS_INFO_DMG	Min. Sebzés: %d | Max. Sebzés: %d | Max HP: %d
+WIKI_STATICS_INFO_TYPE	Faj: %s | Altípus: %s
+WIKI_STATICS_INFO_YNG	Min. Yang: %d | Max. Yang: %d | EXP: %d
+WIKI_SYSTEM2	Rendszerek
+WIKI_TITLE	Wikipédia
+WIKI_TITLE2	[H] Wikipédia
+WIKI_UNKOWN_ITEM	Ismeretlen Tárgy: %d
+WIKI_UNKOWN_MOB	Ismeretlen Szörny: %d
+WIKI_UPGRADE_COSTS	Frissítés
+WIKI_WEAPON_SKIN	Fegyver Kinézetek
+WIKI_YANG_COSTS	Költség
+PERMANENT_ACCESSORY_SOCKET	Tartós
+NAMING_SCROLL_TITLE	Nevezd el a társadat
+NAMING_SCROLL_TEXT	Szeretnéd elnevezni:
+NAMING_SCROLL_ERROR	Helytelen karaktert adtál meg.
+
+NAMING_SCROLL_PERCANTAGE_INCREASE_IN_BONUS_MOUNT	A hegyi jellemzõkön kívül %{} a hegy tulajdonságából hozzáadódik a karakterhez.
+NAMING_SCROLL_PERCANTAGE_INCREASE_IN_BONUS_PET	A kísérõ tulajdonságaihoz %{} a kísérõ tulajdonságából hozzáadódik a karakterhez.
+NAMING_SCROLL_PERCANTAGE_INCREASE_IN_BONUS_BUFFI	A Buffi 4. és 5. képessége aktiválva lett.
+NAMING_SCROLL_AFFECT_TITLE	A Nevezési pergamen aktív, a tárgy tulajdonságai +%{}.
+
+JEWEL_TYPE_TEXT	Réz: {}
+JEWEL_BONUSSES	Réz Bónuszok:
+
+MINING_TITLE	Bányászás
+MINING_EVENT_RENEWAL_HIT_DELAY	Nem mehet olyan gyorsan.
+MINING_POINT_TOOLTIP	Bányászati Pontok
+MINING_DOUBLE_TOOLTIP	Dupla Bányászati Esély
+MINING_FRACTION_COUNT	Megtört Frakciós Szám
+MINING_NEXT_BONUS_SKILL_LEVEL	Következõ Szint:
+MINING_NEXT_BONUS	Következõ Szint Bónusz:
+MINING_NEXT_BONUS2	Még nem értél el bónuszt.
+FISHING_BETTER_CHANCE	Aranyhal Esély
+
+PET_INFORMATIONS_TITLE	Kísérõ Információk
+PET_INFORMATIONS_TITLE2	|Esystem/peticon|e Részletes Információk
+
+PET_INFORMATION_SUMMARY	|Esystem/peticon|e Kísérõ Összefoglaló
+PET_INFORMATION_SUMMARY_INFO	|Esystem/xpicon|e Kísérõ Szint: {}
+PET_INFORMATION_SUMMARY_INFO2	|Esystem/pettype|e Kísérõ Típus: {}
+PET_INFORMATION_SUMMARY_INFO3	|Esystem/wildpet|e Kísérõ Fejlõdés: {}
+PET_INFORMATION_SUMMARY_INFO4	|Esystem/petstar|e Kísérõ Csillag Szint: {}
+PET_INFORMATION_SUMMARY_INFO5	|Esystem/increase|e Kísérõ Növekedési Arány: 0.{}~0.{}
+PET_INFORMATION_SUMMARY_INFO6	|Esystem/skinicon|e Kísérõ Bõr Szint: {}
+
+PET_INFORMATION_EXPERIENCE	Tapasztalat %{:.02f}
+
+PET_INFORMATION_BUTTON_TEXT_0	Típus Változtatás
+PET_INFORMATION_BUTTON_TEXT_1	Tulajdonság Változtatás
+PET_INFORMATION_BUTTON_TEXT_2	Csillag Szint Növelés
+PET_INFORMATION_BUTTON_TEXT_3	Fejlõdés
+PET_INFORMATION_BUTTON_TEXT_4	Bõr Szint Növelés
+PET_INFORMATION_BUTTON_TEXT_5	Bolt
+
+PET_TYPE_EVENT_ERROR_0	A típus már elérte a maximális szintet.
+PET_TYPE_EVENT_ERROR_1	Nincs elég anyag erre.
+PET_TYPE_EVENT_ERROR_2	A kísérõ típusának frissítéséhez 120 szintnél magasabbnak kell lennie.
+PET_TYPE_EVENT_ERROR_3	Nincs elég anyag erre.
+
+PET_STAR_EVENT_ERROR_0	Elérted a maximális csillagot.
+PET_STAR_EVENT_ERROR_1	A kísérõ csillagának frissítéséhez 80 szintnél magasabbnak kell lennie.
+PET_STAR_EVENT_ERROR_2	Nincs elég anyag erre.
+
+PET_EVOLUTION_EVENT_ERROR_0	Elérted a maximális fejlõdést.
+PET_EVOLUTION_EVENT_ERROR_1	A fejlõdéshez nem elég a szint.
+PET_EVOLUTION_EVENT_ERROR_2	A kísérõ fejlõdéséhez {}x {} szükséges.
+
+PET_SKIN_ACTIVATE_EVENT_ERROR_0	Elérted a maximális bõrt.
+PET_SKIN_ACTIVATE_EVENT_ERROR_1	Még {} szükséges a további bõrök kinyitásához.
+
+PET_CHANGE_EVENT_ERROR_0	Nincs elég tárgyad.
+PET_CHANGE_EVENT_ERROR_1	Nem lehet megváltoztatni a kísérõ tulajdonságát, ha az szintje 40 alatt van.
+
+PET_INFORMATION_ATTR_0	Max. HP
+PET_INFORMATION_ATTR_1	Támadási Érték(%)
+PET_INFORMATION_ATTR_2	Védelem(%)
+
+PET_STAR_BONUS_TOOLTIP	Ez a csillag aktiválva van, Jelenlegi Kísérõ Képesség Arányok: +%{}
+PET_STAR_BONUS_TOOLTIP2	Ha ez a csillag aktiválódik, a csillag képesség arányok +5%-kal nõnek.
+
+MINIMAP_BOSS_TOOLTIP	[Újraéledési Idõ: %s]
+
+SECURITY_SELECT_ANSWER	Írd be a fentebb lévõ számokat!
+SECURITY_REMAINING_TIME	Maradék Idõ : {:.1f}
+SECURITY_FIND_THE_DIFFERENT	Kattints a képre, ami más, mint a többi!
+SECURITY_SORT_IMAGES	Számok rendezése húzás segítségével {} felé!
+SECURITY_SORT_IMAGES2	kicsitõl a nagyig
+SECURITY_SORT_IMAGES3	nagyítól a kicsiig
+SECURITY_ANSWER_IS_WRONG	A válasz helytelen, próbáld újra! Megjegyzés: A maradék idõ minden helytelen bejegyzésért 5 másodperccel csökken.
+SECURITY_ANSWER_SUCCESS	Biztonsági ellenõrzés sikeresen lezajlott, folytathatod a játékot.
+SECURITY_YOU_HAVE_ONE_MORE_CHANGE	Rossz választ adtál, próbáld újra! A következõ helytelen bejegyzésnél le leszel kapcsolva.
+SECURITY_CONFIRM	Megerõsít
+SECURITY_CLEAR	Törlés
+SECURITY_NUMBERS_RESET_POS	Nyomd meg ezt a gombot, ha kijött a szám a képbõl, és nem tudsz rákattintani!
+REFINE_COST	Feljesztési Költés:
+TOOLTIP_SYSTEM_METIN_QUEUE	Premium Metin Sor	SNA
+TOOLTIP_SYSTEM_PREMIUM	Premium Tagság	SNA
+TOOLTIP_SYSTEM_AUTO_PICKUP	Automatikus Felveszés	SNA
+TOOLTIP_SYSTEM_V4B	Vote4Buff	SNA
+
+BLEND_ITEM_TOOLTIP_APPLY	Hatás aktiválva
+BLEND_ITEM_TOOLTIP_UNAPPLIED	Hatás inaktív
+BLEND_ITEM_TOOLTIP_NO_TIME	Lejárt idõ
+INFINITE_USE	[Örökös]
+TIME_RED_INFO	perc
+TIME_RED_INFO2	óra
+TIME_RED_INFO3	nap
+TIME_RED_INFO4	mp.
+TOOLTIP_AFFECT_BLEND_POTION_1	Vörös Harmat	SNA
+TOOLTIP_AFFECT_BLEND_POTION_2	Narancssárga Harmat	SNA
+TOOLTIP_AFFECT_BLEND_POTION_3	Sárga Harmat	SNA
+TOOLTIP_AFFECT_BLEND_POTION_4	Zöld Harmat	SNA
+TOOLTIP_AFFECT_BLEND_POTION_5	Kék Harmat	SNA
+TOOLTIP_AFFECT_BLEND_POTION_6	Fehér Harmat	SNA
+
+TOOLTIP_AFFECT_BLEND_POTION_7	Rózsaszín Harmat	SNA
+TOOLTIP_AFFECT_BLEND_POTION_8	Türkizkék Harmat	SNA
+TOOLTIP_AFFECT_BLEND_POTION_9	Fekete Harmat	SNA
+
+TOOLTIP_AFFECT_ENERGY	Energia Kristály	SNA
+TOOLTIP_AFFECT_DRAGON_GOD_1	Sárkány Áldás Egészség	SNA
+TOOLTIP_AFFECT_DRAGON_GOD_2	Sárkány Áldás Támadás	SNA
+TOOLTIP_AFFECT_DRAGON_GOD_3	Sárkány Áldás Intelligencia	SNA
+TOOLTIP_AFFECT_DRAGON_GOD_4	Sárkány Áldás Védelem	SNA
+TOOLTIP_AFFECT_CRITICAL	Kritikus Találat	SNA
+TOOLTIP_AFFECT_PENETRATE	Átütõ Találat	SNA
+TOOLTIP_AFFECT_ATTACK_SPEED	Zöld Készítmény	SNA
+TOOLTIP_AFFECT_MOVE_SPEED	Lila Készítmény	SNA
+TOOLTIP_AFFECT_WATER_POTION_1	Zin Víz	SNA
+TOOLTIP_AFFECT_WATER_POTION_2	Sambo Víz	SNA
+
+TOOLTIP_AFFECT_ELEMENT_ICE	Jég Ellenállás Esszencia	SNA
+TOOLTIP_AFFECT_ELEMENT_FIRE	Tûz Ellenállás Esszencia	SNA
+TOOLTIP_AFFECT_ELEMENT_WIND	Szél Ellenállás Esszencia	SNA
+TOOLTIP_AFFECT_ELEMENT_DARK	Sötét Ellenállás Esszencia	SNA
+TOOLTIP_AFFECT_ELEMENT_ELEC	Villám Ellenállás Esszencia	SNA
+TOOLTIP_AFFECT_ELEMENT_EARTH	Föld Ellenállás Esszencia	SNA
+
+TOOLTIP_AFFECT_FISH_ITEM_01	Ügyességi Hal	SNA
+TOOLTIP_AFFECT_FISH_ITEM_02	Erõ Hal	SNA
+TOOLTIP_AFFECT_FISH_ITEM_03	Intelligens Hal	SNA
+TOOLTIP_AFFECT_FISH_ITEM_04	Szörny Hal	SNA
+TOOLTIP_AFFECT_FISH_ITEM_05	Metinkõ Hal	SNA
+TOOLTIP_AFFECT_FISH_ITEM_06	Holt Hal	SNA
+TOOLTIP_AFFECT_FISH_ITEM_07	Ördög Hal	SNA
+TOOLTIP_AFFECT_FISH_ITEM_08	Milgyo Hal	SNA
+TOOLTIP_AFFECT_FISH_ITEM_09	Állat Hal	SNA
+TOOLTIP_AFFECT_FISH_ITEM_10	Ork Hal	SNA
+TOOLTIP_AFFECT_FISH_ITEM_11	Ember Hal	SNA
+TOOLTIP_AFFECT_FISH_ITEM_12	Átlagos Sebzés Hal	SNA
+
+BLEND_STATE	[Ez az effekt aktív]
+BLEND_STATE2	[Ez az effekt inaktív]
+
+DECS_DEW_TEST	Növelheted az idõt az idõtartamhúzásával
+DECS_DEW_TEST2	a másik idõtartam-fogyasztható tárgyra
+DECS_DEW_TEST3	ráhúzva.
+USE_CONSUMABLE_TOOLTIP	|Eothers/key_ctrl|e + |Eothers/key_e|e - Aktiválás fogyasztható tárgyak
+USE_DS_PAGE	|Eothers/key_ctrl|e + |Eothers/key_o|e - Aktiválás elsõ oldal
+USE_DS_PAGE2	|Eothers/key_ctrl|e + |Eothers/key_p|e - Aktiválás második oldal
+
+MAINTENANCE_TITLE	Karbantartás Hirdetmény!
+MAINTENANCE_TEXT_1	|cffffffffA karbantartás |cffADFF2F%s lesz!
+MAINTENANCE_TEXT_2	%d perc
+MAINTENANCE_TEXT_3	%d perc %02d másodperc
+MAINTENANCE_TEXT_4	%d óra
+MAINTENANCE_TEXT_5	%d óra %02d perc
+MAINTENANCE_TEXT_6	%d óra %02d perc %02d másodperc
+MAINTENANCE_TEXT_7	%d nap %d óra %02d perc %02d másodperc
+MAINTENANCE_TEXT_8	|cffffffffMaradék Idõ: |cffADFF2F|h%s
+
+EXTENDET_BATTLE_PASS_ITS_NOT_BATTLEPASS_ITEM	Ez nem egy harci bónusz, nem tudsz ezzel tenni!
+EXTENDET_BATTLE_PASS_RANKLIST_REFRESH	Ranglista frissítve.
+EXTENDET_BATTLE_PASS_RANKLIST_WAIT_TO_REFRESH	Várnod kell %d másodpercet a ranglista frissítéséhez.
+BATTLEPASS_DESC	Premium Harci Bónusz	SNA
+ADDSTONE_PREMIUM_DESC	A következõ szellemkõ hozzáadás 100% -osan sikeres lesz!	SNA
+
+FAST_SKILL_BOOK_SYSTEM_TOOLTIP	|Eothers/key_rc|e - Nyitott képességtár
+
+TOOLTIP_ATTBONUS_BOSS	Erõs a fõnökök ellen +%d	SA
+TOOLTIP_ATTBONUS_ELEMENT	Erõs az elemek ellen +%d	SA
+TOOLTIP_DEFBONUS_ELEMENT	Ellenállás az elemek ellen +%d	SA
+TOOLTIP_DEFBONUS_PVM	Ellenállás a szörnyek ellen +%d	SA
+TOOLTIP_ATTBONUS_PVP	Erõs az összes karakter ellen +%d	SA
+TOOLTIP_DEFBONUS_PVP	Ellenállás az összes karakter ellen +%d	SA
+
+TOOLTIP_ATTBONUS_PVM_STR	Támadási Érték (PvM) +%d	SA
+TOOLTIP_ATTBONUS_PVM_AVG	Átlagos Sebzés (PvM) +%%%d	SA
+TOOLTIP_ATTBONUS_PVM_BERSERKER	Mágikus & Támadási Érték (PvM) +%%%d	SA
+TOOLTIP_ATTBONUS_FIRE	Erõs a tûz ellen %%%d	SA
+TOOLTIP_ATTBONUS_ICE	Erõs a jég ellen %%%d	SA
+TOOLTIP_ATTBONUS_EARTH	Erõs a föld ellen %%%d	SA
+TOOLTIP_ATTBONUS_DARK	Erõs a sötét ellen %%%d	SA
+TOOLTIP_ATTBONUS_WIND	Erõs a szél ellen %%%d	SA
+TOOLTIP_ATTBONUS_ELEC	Erõs a villám ellen %%%d	SA
+
+LOGIN_FAILURE_ACCOUNT_BAN	Ez a fiók blokkolva van!
+LOGIN_FAILURE_CLIENT_VERSION	Ez a kliens lejárt, lépj ki és indítsd újra a patchert.
+LOGIN_FAILURE_HWIDERROR	Hiba történt, kérj segítséget a @HWIDERR címen.
+LOGIN_FAILURE_HWIDFULL	Ez a számítógép nem léphet be ezzel a fiókkal.
+LOGIN_FAILURE_HWIDBAN	Ez a számítógép letiltva van.
+LOGIN_INPUT_PIN	Kérlek add meg a PIN kódot.
+LOGIN_FAILURE_PIN	A fiók jelszava vagy PIN kódja helytelen
+LOGIN_FAILURE_SERVER	A szerver még nem nyitott meg.
+SAVE_ACCOUNT_BUTTON	 < Ingyenes >
+QUEST_CATEGORY_00	Fõ Küldetések
+QUEST_CATEGORY_01	Mellékküldetések
+QUEST_CATEGORY_02	Kutatási Küldetések
+QUEST_CATEGORY_03	Vadászati Küldetések
+QUEST_CATEGORY_04	Figyelmeztetések
+QUEST_CATEGORY_05	Információk
+QUEST_CATEGORY_06	Egyéb Küldetések
+QUEST_CATEGORY_07	Napi Küldetések
+CHEQUE_SYSTEM_UNIT_GAYA	Dolom
+
+TOOLTIP_ANTIFLAG_DROP	Esemény
+TOOLTIP_ANTIFLAG_STACK	Egymásra rakható
+
+ACCE_REFINE_COST	Költség: %d
+ACCE_ABSORB_CHANCE	Felszívási arány: %d%%
+ACCE_ABSORB_CHANCE2	Felszívási arány: %d%% ~ %d%%
+ACCE_DO_YOU_CLEAN	Szeretnéd törölni minden bónuszt ennek a tárgynak?
+ACCE_FAILURE_CLEAN	Nem találtam bónuszt a törléshez.
+POLYMORPH_AFFECT_TOOLTIP	Polimorf	SNA
+BUFF_AFFECT_REMOVE_QUESTION3	Szeretnéd eltávolítani a polimorf effekteket?
+NOT_POSSIBLE	Ezeket a tárgyakkal nem tudod megtenni:
+
+GAYA_BUY	Szeretnél vásárolni {}-t {} gayáért?
+GAYA_BOUGHT	Már megvásároltad!
+GAYA_OPEN_SLOT	Szeretnél nyitni egy helyet?
+GAYA_NO_GEM	Nincs elég Gaya-d!
+GAYA_REFRESH	Szeretnél frissíteni az elemeken?
+DUNGEONTIMER_WAVE	%d. Hullám
+DUNGEONTIMER_FLOOR	%d. Szint
+
+INVENTORY_GENERAL_ITEMS	Általános
+
+TRADE_CONFIRMATION_TITLE	Kereskedési megerõsítés
+TRADE_CONFIRMATION_DESC	Kérlek add meg annak a személynek a nevét, akivel kereskedni akarsz
+TRADE_CONFIRMATION_ERROR	Rossz nevet adtál meg, még {} esélyed van.
+TRADE_CONFIRMATION_ERROR2	Háromszor rossz adatot adtál meg, a kereskedelem törölve.
+
+OFFLINESHOP_AVERAGE_PRICE_NO_INFO	Nincs átlagos ár információ!
+OFFLINESHOP_AVERAGE_PRICE_INFO	<Átlagos Ár Információ>
+OFFLINESHOP_AVERAGE_PRICE	Egyes: {}
+OFFLINESHOP_AVERAGE_PRICE2	Minden: {}
+OFFLINESHOP_SELL_WITH_AVG_PRICE	Átlagos áron eladás
+OFFLINESHOP_SELL_WITH_AVG_PRICE2	Eladás több mint +%10 az átlagos ár
+OFFLINESHOP_SELL_WITH_AVG_PRICE3	Eladás kevesebb mint +%10 az átlagos ár
+OFFLINESHOP_CHANGE_ALL_PRICE	Minden azonos elem árának frissítése
+OFFLINESHOP_EDIT_SHOPNAME_DESCRIPTION	Válassz új bolt nevet
+OFFLINESHOP_EDIT_SHOPNAME_DESCRIPTION2	Új név:
+OFFLINESHOP_RESULT_PER_PAGE	Eredmények száma oldalanként
+OFFLINESHOP_RESULT_PER_PAGE_ITEM	25 elem oldalanként
+OFFLINESHOP_RESULT_PER_PAGE_ITEM2	50 elem oldalanként
+OFFLINESHOP_RESULT_PER_PAGE_ITEM3	100 elem oldalanként
+OFFLINESHOP_FILTER_TITLE	Szûrõk
+OFFLINESHOP_TOTAL_YANG_AMOUNT	Összesen: {}
+OFFLINESHOP_SHOP_COLOR	Bolt nevének színének beállítása
+
+OFFLINESHOP_TITLE_NAME	Név
+OFFLINESHOP_TITLE_PRICE	Ár
+OFFLINESHOP_TITLE_OTHER	Egyéb
+
+ACCE_ABSORBED_ITEM_NAME	[Felszívott Tárgy]
+ACCE_ABSORBED_ITEM_NAME2	{}
+ACCE_ABSORBED_BONUSSES	Bónuszok
+CUBE_NPC_NAME	Kézmûvesek
+
+NONE_AFFECT	Nem kapsz bónuszt.
+
+CHATTING_CHAT_COLOR	Beállítás kiáltás színt
+
+BUFFI_WINDOW_TITLE	Buffi Ablak
+BUFFI_SKILL_LOCKED_TOOLTIP	Ezt a képességet fejlesztheted.\nFel kell használnod egy név pergamentot a feloldáshoz!
+
+BATTLEPONT_TEXT	Harc Pont: 
+CHAT_OPEN_LINK_DANGER	FIGYELEM! Ez a link veszélyes lehet!
+CHAT_OPEN_LINK	Szeretnéd megnyitni ezt a linket?
+
+PREMIUM_EXTRA_SHOP_SEARCH_TOOLTIP	Premium nem aktív!\n-- Prémium elõnyök --\n *Távoli vásárlás\n *Többszöri vásárlás
+PREMIUM_EXTRA_SHOP_SEARCH_TOOLTIP2	Premium aktív!\n-- Prémium elõnyök --\n *Távoli vásárlás\n *Többszöri vásárlás
+LOGIN_INFO_ID	AZONOSÍTÓ
+LOGIN_INFO_PW	Jelszó
+
+READ_FAST_BTN_01	Könyv
+READ_FAST_BTN_02	Lélek Kõ
+READ_FAST_BTN_03	Bölcsesség Lélek Kõ
+READ_FAST_BTN_04	Passzív Képességek
+READ_FAST_BTN_05	Buffi Képességek
+READ_FAST_BTN_06	Buffi Lélek Kõ
+READ_FAST_BTN_07	Buffi Bölcsesség Lélek Kõ
+
+READ_FAST_TITLE_01	Képességek fejlesztése
+READ_FAST_TITLE_02	Képességek fejlesztése (Lélek Kõ)
+READ_FAST_TITLE_03	Képességek fejlesztése (Bölcsesség Lélek Kõ)
+READ_FAST_TITLE_04	Képességek fejlesztése (Passzív Képességek)
+READ_FAST_TITLE_05	Képességek fejlesztése (Buffi Képességek)
+READ_FAST_TITLE_06	Képességek fejlesztése (Buffi Lélek Kõ)
+READ_FAST_TITLE_07	Képességek fejlesztése (Buffi Bölcsesség Lélek Kõ)
+
+READ_FAST_BTN_TEXT_01	Olvasás
+READ_FAST_BTN_TEXT_02	Gyors Olvasás
+READ_FAST_SKILL_READ_STATE_NOT_READY	Válaszd ki elõször a képességet!
+READ_FAST_SKILL_READ_STATE_READY	Most már elkezdhetsz.
+READ_FAST_CANT_IMPROVE_THIS_SKILL	Ezt a képességet nem tudod fejleszteni.
+READ_FAST_ZEN_BEAN_TOOLTIP	Ha ezt aktiválod, nem veszítesz rangot 50 zen babért (50 zen babát kapsz tranzakciónként, de a rangod megmarad.)
+
+TARGET_ELEMENT_ICE	|cffaab5aeJég|r
+TARGET_ELEMENT_FIRE	|cffed4242Tûz|r
+TARGET_ELEMENT_ELEC	|cff47abc9Villám|r
+TARGET_ELEMENT_EARTH	|cfffce303Föld|r
+TARGET_ELEMENT_DARK	|cff8e0fbdSötét|r
+TARGET_ELEMENT_WIND	|cff0aa33dSzél|r
+
+TARGET_ATTBONUS_FIRE	|cffed4242Erõs a tûz ellen|r
+TARGET_ATTBONUS_ICE	|cffaab5aeErõs a jég ellen|r
+TARGET_ATTBONUS_EARTH	|cfffce303Erõs a föld ellen|r
+TARGET_ATTBONUS_DARK	|cff8e0fbdErõs a sötét ellen|r
+TARGET_ATTBONUS_WIND	|cff0aa33dErõs a szél ellen|r
+TARGET_ATTBONUS_ELEC	|cff47abc9Erõs a villám ellen|r
+
+TARGET_DEF_FIRE	|cffed4242Ellenállás a tûz ellen|r
+TARGET_DEF_ICE	|cffaab5aeEllenállás a jég ellen|r
+TARGET_DEF_EARTH	|cfffce303Ellenállás a föld ellen|r
+TARGET_DEF_DARK	|cff8e0fbdEllenállás a sötét ellen|r
+TARGET_DEF_WIND	|cff0aa33dEllenállás a szél ellen|r
+TARGET_DEF_ELEC	|cff47abc9Ellenállás a villám ellen|r
+
+TARGET_ELEMENT_INFO	Elem: {}
+TARGET_ELEMENT_INFO2	Elem Erõ: {}
+TARGET_ELEMENT_INFO3	Elem Védelem: {}
+
+DUNGEON_NAME_1	Mérgezõ ördög torony
+DUNGEON_NAME_2	Barones fészke
+DUNGEON_NAME_3	Gin barlang
+DUNGEON_NAME_4	Jégföld
+DUNGEON_NAME_5	Ördög Katakomba
+DUNGEON_NAME_6	Beran-Setaou szobája
+DUNGEON_NAME_7	Razadör kastélya
+DUNGEON_NAME_8	Naga templom
+DUNGEON_NAME_9	Szafír barlang
+DUNGEON_NAME_10	Ochao Templom
+DUNGEON_NAME_11	Odin Kastélya
+DUNGEON_NAME_12	Mágikus Troll Barlang
+DUNGEON_NAME_13	Meley Királynõ
+DUNGEON_NAME_14	Floraun kertje
+DUNGEON_NAME_15	Alastor Barlang
+DUNGEON_NAME_16	Veszett Atlantisz
+DUNGEON_NAME_17	Száraz skorpió romok
+DUNGEON_NAME_18	Váz Sárkány Terem
+DUNGEON_NAME_19	Akzadur Király Szobája
+DUNGEON_NAME_20	Kígyó Templom
+
+INVENTORY_TITLE_01	Equipments
+INVENTORY_TITLE_02	Costumes
+INVENTORY_TITLE_03	Boosters
+ITEM_QUESTION_DIAGLOG_1	Mit szeretnél tenni {} x{}-val?
+ITEM_QUESTION_DIAGLOG_2	Mit szeretnél tenni {}-val?
+ITEM_QUESTION_DIAGLOG_3	(Ár: {})
+
+ITEM_BOOSTER_TOOLTIP	Amíg ez a tárgy fel van szerelve, kapod a
+ITEM_BOOSTER_TOOLTIP2	következõ hatásokat.
+ITEM_BOOSTER_TOOLTIP3	Használatkor +{}% kapsz
+ITEM_BOOSTER_TOOLTIP4	a tárgyad értékébõl.
+ITEM_BOOSTER_TOOLTIP5	Nem aktív az Összeállítás Bónusz.
+ITEM_BOOSTER_TOOLTIP6	Az Összeállítás Bónusz aktív,
+ITEM_BOOSTER_TOOLTIP7	további +%5-öt kapsz.
+
+NEED_AT_LEAST_M1	A bónusz kiválasztásához legalább mesternek kell lennie.
+NEED_AT_LEAST_M1_2	A bónusz kiválasztásához elõször hozzá kell adnia az elsõ szintû attribútumot.
+CLICK_TO_GET_BONUS	|Eothers/key_lc|e - Bónusz kiválasztása
+
+PREMIUM_OVERIN_TOOLTIP	Csak prémium felhasználók használhatják ezt a funkciót.
+PREMIUM_OVERIN_TOOLTIP2	Ezt a funkciót aktiválhatod {}-val.
+
+OFFSHOP_DECORATION_SET	Üzlet dekoráció beállítása
+
+ITEM_BONUSSES	[Bónuszok]
+ITEM_HAS_NO_BONUS	[Nincs Bónusz]
+
+TO_ADD_THIS_YOU_NEED_TO_ADD_FIRST_ONE	Második szintû attribútum hozzáadásához
+TO_ADD_THIS_YOU_NEED_TO_ADD_FIRST_ONE2	elõször hozzá kell adnia az elsõ szintû attribútumot.
+
+
+PET_EVO_NAME_TOOLTIP	Kisállat Fejlesztés: {}
+PET_TOOLTIP4	Kisállat Típusa:  
+
+TOOLTIP_ALIGNMENT_INFO	Jelenlegi Igazodás
+TOOLTIP_ALIGNMENT_INFO2	Következõ Igazodás
+OFFLINESHOP_NO_NAME	Az üzletednek nincs neve!
+
+YOU_CANNOT_SELECT_UNLOCKED_SKIN	Nem választhatja ki a feloldott kinézetet.
+
+ADD_METIN_QUEUE	Metin sor hozzáadása {}
+
+PRIVATESHOPSEARCH_GLOVE	Kesztyûk
+PRIVATESHOPSEARCH_OTHER_COSTUMES	Egyéb Kosztümök
+PRIVATESHOPSEARCH_SKIN_MOUNT	Mount Kosztüm
+PRIVATESHOPSEARCH_SKIN_PET	Kisállat Kosztüm
+PRIVATESHOPSEARCH_SKIN_SASH	Zászló Kosztüm
+PRIVATESHOPSEARCH_SKIN_AURA	Aura Kosztüm
+
+PVP_LEVEL0	Legendás
+PVP_LEVEL1	Fearless
+PVP_LEVEL2	Hatalmas
+PVP_LEVEL3	Bátor
+PVP_LEVEL4	Nemes
+PVP_LEVEL5	Chivalric
+PVP_LEVEL6	Nemes
+PVP_LEVEL7	Jó
+PVP_LEVEL8	Barátságos
+PVP_LEVEL9	Neutrális
+PVP_LEVEL10	Agresszív
+PVP_LEVEL11	Csaló
+PVP_LEVEL12	Rosszindulatú
+PVP_LEVEL13	Kegyetlen
+TOOLTIP_AUTO_PICK_UP	Automatikus Felvétel
+TOOLTIP_MALL_EXPBONUS2	Bölcsesség Bájital +%%%d	SA
+EMPIRE_SELECT	Válassz Birodalmat
+PRIVATESHOPSEARCH_COSTUME_AURA	Aura Kiegészítõ
+YOUR_NEXT_DS_INVENTORY_FULL	A következo készleted megtelt! A gyors finomítás megszakadt.
+SWITCHBOT_IN_PROGRESS	A kapcsolórobot aktív...
+SWITCHBOT_IN_PROGRESS2	Értesítést kapsz, amikor a folyamat befejezõdik.
+
+DUNGEON_TIME_BONUS_TITLE	Verseny
+DUNGEON_TIME_BONUS_NAME_01	Orkok
+DUNGEON_TIME_BONUS_NAME_02	Ezoterikusok
+DUNGEON_TIME_BONUS_NAME_03	Ördögök
+DUNGEON_TIME_BONUS_NAME_04	Éloholtak
+DUNGEON_TIME_BONUS_NAME_05	Állatok

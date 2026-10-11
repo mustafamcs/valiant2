@@ -1,0 +1,15 @@
+1	Dayanýklýlýk (Savaþçý)	jijoong	PASSIVE	Savaþçý ataklarýna karþý dayanýklýlýk (pasif)	0
+2	Dayanýklýlýk (Sura)	jijoong	PASSIVE	Sura ataklarýna karþý dayanýklýlýk (pasif)	0
+3	Dayanýklýlýk (Ninja)	jijoong	PASSIVE	Ninja ataklarýna karþý dayanýklýlýk (pasif)	0
+4	Dayanýklýlýk (Þaman)	jijoong	PASSIVE	Þaman ataklarýna karþý dayanýklýlýk (pasif)	0
+5	Berserker	pacheon	PASSIVE	Saldýrý deðeri artar (pasif)	0
+6	Ýnsan Avcýsý	insan	PASSIVE	Yarý insanlara karþý gücünü arttýrýr (pasif)	0
+7	Talim	choehoenbimu	PASSIVE	Delici isabet þansý artar (pasif)	0
+8	Kritik	cheonryeong	PASSIVE	Kritik isabet þansý artar (pasif)	0
+9	HP Yenileme	banya	PASSIVE	HP yenilemeyi arttýrýr (pasif)	0
+10	Bloklama	block	PASSIVE	Bloklama þansýný arttýrýr. (pasif)	0
+11	Canavar Avcýsý	mob_bonus	PASSIVE	Canavarlara karþý hasarýný arttýrýr (pasif)	0
+12	Metin Avcýsý	metin	PASSIVE	Metinlere karþý hasarýný arttýrýr. (pasif)	0
+13	Patron Avcýsý	patron	PASSIVE	Patronlara karþý hasarýný arttýrýr. (pasif)	0
+14	Avcý Savunmasý	reflect_melee	PASSIVE	Canavarlara karþý savunma verir (pasif)	0
+15	Ýki Kat Yang	gold_drop	PASSIVE	Yang kazanma oranýný arttýrýr. (pasif)	0

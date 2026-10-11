@@ -1,0 +1,11 @@
+if ice_land_dungeon . InDungeon ( ) and pc . getf ( "dungeon" , "floor" ) == 3 then if d . getf ( "totemCount" ) < 1 then 
+return 
+end 
+local setting = ice_land_dungeon . setting ( ) 
+pc . remove_item ( setting . totem_item_vnum , 1 ) 
+ice_land_dungeon . purge_totem ( ) 
+if d . getf ( "totemCount" ) > 0 then 
+d . zodiac_notice_clear ( ) 
+pc . zodiac_chat ( 513 , "%s" , d . getf ( "totemCount" ) ) 
+end 
+ return end 

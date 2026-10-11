@@ -1,0 +1,1282 @@
+ScriptType            RaceDataScript
+
+BaseModelFileName     "d:/ymir work/pc2/warrior/warrior_novice.GR2"
+
+Group HairData
+{
+	PathName	"d:/ymir Work/pc2/warrior/"
+
+	HairDataCount 			999
+	Group HairData00
+	{
+		HairIndex			0
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"warrior_hair_01.dds"
+	}
+	Group HairData01
+	{
+		HairIndex			1
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"warrior_hair_01_white.dds"
+	}
+	Group HairData02
+	{
+		HairIndex			2
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"warrior_hair_01_gold.dds"
+	}
+	Group HairData03
+	{
+		HairIndex			3
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"warrior_hair_01_red.dds"
+	}
+	Group HairData04
+	{
+		HairIndex			4
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"warrior_hair_01_brown.dds"
+	}
+	Group HairData05
+	{
+		HairIndex			5
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"warrior_hair_01_black.dds"
+	}
+	Group HairData06
+	{
+		HairIndex			6
+		Model				"hair/hair_2_1.gr2"
+		SourceSkin			"hair/hair_2_1.dds"
+		TargetSkin			"hair/hair_2_1.dds"
+	}
+	Group HairData07
+	{
+		HairIndex			7
+		Model				"hair/hair_2_1.gr2"
+		SourceSkin			"hair/hair_2_1.dds"
+		TargetSkin			"hair/hair_2_2.dds"
+	}
+	Group HairData08
+	{
+		HairIndex			8
+		Model				"hair/hair_2_1.gr2"
+		SourceSkin			"hair/hair_2_1.dds"
+		TargetSkin			"hair/hair_2_3.dds"
+	}
+	Group HairData09
+	{
+		HairIndex			9
+		Model				"hair/hair_2_1.gr2"
+		SourceSkin			"hair/hair_2_1.dds"
+		TargetSkin			"hair/hair_2_4.dds"
+	}
+	Group HairData10
+	{
+		HairIndex			10
+		Model				"hair/hair_3_1.gr2"
+		SourceSkin			"hair/hair_3_1.dds"
+		TargetSkin			"hair/hair_3_1.dds"
+	}
+	Group HairData11
+	{
+		HairIndex			11
+		Model				"hair/hair_3_1.gr2"
+		SourceSkin			"hair/hair_3_1.dds"
+		TargetSkin			"hair/hair_3_2.dds"
+	}
+	Group HairData12
+	{
+		HairIndex			12
+		Model				"hair/hair_3_1.gr2"
+		SourceSkin			"hair/hair_3_1.dds"
+		TargetSkin			"hair/hair_3_3.dds"
+	}
+	Group HairData13
+	{
+		HairIndex			13
+		Model				"hair/hair_3_1.gr2"
+		SourceSkin			"hair/hair_3_1.dds"
+		TargetSkin			"hair/hair_3_4.dds"
+	}
+	Group HairData14
+	{
+		HairIndex			14
+		Model				"hair/hair_4_1.gr2"
+		SourceSkin			"hair/hair_4_1.dds"
+		TargetSkin			"hair/hair_4_1.dds"
+	}
+	Group HairData15
+	{
+		HairIndex			15
+		Model				"hair/hair_4_1.gr2"
+		SourceSkin			"hair/hair_4_1.dds"
+		TargetSkin			"hair/hair_4_2.dds"
+	}
+	Group HairData16
+	{
+		HairIndex			16
+		Model				"hair/hair_4_1.gr2"
+		SourceSkin			"hair/hair_4_1.dds"
+		TargetSkin			"hair/hair_4_3.dds"
+	}
+	Group HairData17
+	{
+		HairIndex			17
+		Model				"hair/hair_4_1.gr2"
+		SourceSkin			"hair/hair_4_1.dds"
+		TargetSkin			"hair/hair_4_4.dds"
+	}
+	Group HairData18
+	{
+		HairIndex			18
+		Model				"hair/hair_4_1.gr2"
+		SourceSkin			"hair/hair_4_1.dds"
+		TargetSkin			"hair/hair_4_4.dds"
+	}
+	Group HairData19
+	{
+		HairIndex			24
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_coin/"
+		Model				"warrior_h_w.gr2"
+		SourceSkin			"dane_body_fwa.dds"
+		TargetSkin			"dane_body_fwa.dds"
+	}
+	Group HairData20
+	{
+		SpecialPath			"d:/ymir work/pc2/warrior/"
+		HairIndex			25
+		Model				"hair/hair_80_1.gr2"
+		SourceSkin			"hair/hair_80_1.dds"
+		TargetSkin			"hair/hair_80_1.dds"
+	}
+	Group HairData21
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/stpatrick_costumes/"
+		HairIndex			250
+		Model				"hair/warrior_w.gr2"
+		SourceSkin			"hair/plechito_tex_w.dds"
+		TargetSkin			"hair/plechito_tex_w.dds"
+	}
+	Group HairData22
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/halfmoon_mage/"
+		HairIndex			251
+		Model				"hair/warrior_w.gr2"
+		SourceSkin			"hair/plechito_tex_w.dds"
+		TargetSkin			"hair/plechito_tex_w.dds"
+	}
+	Group HairData23
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/valentine2022_1/"
+		HairIndex			252
+		Model				"hair/warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group HairData24
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/valentine2022_2/"
+		HairIndex			253
+		Model				"hair/warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group HairData25
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/easter2022_1/"
+		HairIndex			254
+		Model				"hair/warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group HairData26
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/easter2022_2/"
+		HairIndex			255
+		Model				"hair/warrior_w.gr2"
+		SourceSkin			"hair/plechito_tex_w.dds"
+		TargetSkin			"hair/plechito_tex_w.dds"
+	}
+	Group HairData27
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_1/"
+		HairIndex			256
+		Model				"warrior_angel_hair_w.gr2"
+		SourceSkin			"angel_hair_w.dds"
+		TargetSkin			"angel_hair_w.dds"
+	}
+	Group HairData28
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/ancient_egypt/"
+		HairIndex			257
+		Model				"hair/warrior_w.gr2"
+		SourceSkin			"hair/plechito_tex_w1.dds"
+		TargetSkin			"hair/plechito_tex_w1.dds"
+	}
+	Group HairData29
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/dark_cult_costume/"
+		HairIndex			258
+		Model				"hair/warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group HairData30
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/royal_phoenix/"
+		HairIndex			259
+		Model				"hair/warrior_w.gr2"
+		SourceSkin			"hair/plechito_tex_w.dds"
+		TargetSkin			"hair/plechito_tex_w.dds"
+	}
+	Group HairData31
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_2/"
+		HairIndex			260
+		Model				"warrior_argane_f_hair.gr2"
+		SourceSkin			"body_fw.dds"
+		TargetSkin			"body_fw.dds"
+	}
+	Group HairData32
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/halloween2021_2/hair/"
+		HairIndex			261
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w.dds"
+		TargetSkin			"plechito_tex_w.dds"
+	}
+	Group HairData33
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_3/"
+		HairIndex			262
+		Model				"warrior_undertalker_hair_02.gr2"
+		SourceSkin			"dane_undertaker_helmet_w.dds"
+		TargetSkin			"dane_undertaker_helmet_w.dds"
+	}
+	Group HairData34
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_4/"
+		HairIndex			263
+		Model				"warrior_dese_hair_f.gr2"
+		SourceSkin			"destert_hair_w.dds"
+		TargetSkin			"destert_hair_w.dds"
+	}
+	Group HairData35
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_5/"
+		HairIndex			264
+		Model				"warrior_diving_f_hair.gr2"
+		SourceSkin			"hair_f.dds"
+		TargetSkin			"hair_f.dds"
+	}
+	Group HairData36
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_8/"
+		HairIndex			265
+		Model				"arcane_warrior_hair_f.gr2"
+		SourceSkin			"dane_hair_w.dds"
+		TargetSkin			"dane_hair_w.dds"
+	}
+	Group HairData37
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/christmas2021_1/"
+		HairIndex			266
+		Model				"hair/warrior_w.gr2"
+		SourceSkin			"hair/plechito_tex_w.dds"
+		TargetSkin			"hair/plechito_tex_w.dds"
+	}
+	Group HairData38
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/valentine2023_1/hair/"
+		HairIndex			267
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w.dds"
+		TargetSkin			"plechito_tex_w.dds"
+	}
+	Group HairData39
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/forst_dragon/"
+		HairIndex			268
+		Model				"hair/warrior_w.gr2"
+		SourceSkin			"hair/plechito_tex_w.dds"
+		TargetSkin			"hair/plechito_tex_w.dds"
+	}
+	Group HairData40
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/set_4/"
+		HairIndex			269
+		Model				"f_warrior_hair.gr2"
+		SourceSkin			"hair_f.dds"
+		TargetSkin			"hair_f.dds"
+	}
+	Group HairData41
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/christmas2021_2/"
+		HairIndex			270
+		Model				"hair/warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group HairData42
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/easter2022_1/"
+		HairIndex			271
+		Model				"hair/warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w2.dds"
+	}
+	Group HairData43
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/frost_bird_costume/hair/"
+		HairIndex			272
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w.dds"
+		TargetSkin			"plechito_tex_w.dds"
+	}
+	Group HairData44
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/halloween2022_3/"
+		HairIndex			273
+		Model				"hair/warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group HairData45
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/summer2022_1/hair/"
+		HairIndex			274
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w.dds"
+		TargetSkin			"plechito_tex_w.dds"
+	}
+	Group HairData46
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/new_year_2023/hair/"
+		HairIndex			275
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w.dds"
+		TargetSkin			"plechito_tex_w.dds"
+	}
+	Group HairData47
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/halloween2022_1/hair/"
+		HairIndex			276
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w.dds"
+		TargetSkin			"plechito_tex_w.dds"
+	}
+	Group HairData48
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/christmas2022_2/"
+		HairIndex			277
+		Model				"hair/warrior_w.gr2"
+		SourceSkin			"plechito_tex_w.dds"
+		TargetSkin			"plechito_tex_w.dds"
+	}
+	Group HairData49
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/valentine2023_2/"
+		HairIndex			278
+		Model				"hair/warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group HairData50
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/valentine2023_3/hair/"
+		HairIndex			279
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w.dds"
+		TargetSkin			"plechito_tex_w.dds"
+	}
+	Group HairData51
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/doctor_death_costumes/"
+		HairIndex			280
+		Model				"hair/warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group HairData52
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/easter2023_1/"
+		HairIndex			281
+		Model				"hair/warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group HairData53
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_9/"
+		HairIndex			282
+		Model				"warrior_winter_hair_f.gr2"
+		SourceSkin			"dane_snow_hair_w.dds"
+		TargetSkin			"dane_snow_hair_w.dds"
+	}
+	Group HairData54
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_6/"
+		HairIndex			283
+		Model				"f_warrior_hair.gr2"
+		SourceSkin			"hair_f.dds"
+		TargetSkin			"hair_f.dds"
+	}
+	Group HairData55
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/ramadan2023/"
+		HairIndex			284
+		Model				"hair/warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group HairData56
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/wukong/"
+		HairIndex			285
+		Model				"hair/warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group HairData57
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/summer2023/"
+		HairIndex			286
+		Model				"hair/warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group HairData58
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/pirates_2/hair/"
+		HairIndex			287
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w.dds"
+		TargetSkin			"plechito_tex_w.dds"
+	}
+	Group HairData59
+	{
+		SpecialPath			"d:/ymir work/pc/frost_bird_costume/hair/"
+		HairIndex			288
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_b&w.dds"
+		TargetSkin			"plechito_tex_w_b&w.dds"
+	}
+	Group HairData60
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/necromancer_robe/hair/"
+		HairIndex			289
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w.dds"
+		TargetSkin			"plechito_tex_w.dds"
+	}
+	Group HairData61
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_7/"
+		HairIndex			290
+		Model				"warrior_hair_w.gr2"
+		SourceSkin			"hair_f.dds"
+		TargetSkin			"hair_f.dds"
+	}
+	Group HairData62
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_10/"
+		HairIndex			291
+		Model				"warrior_h_w.gr2"
+		SourceSkin			"hair_f.dds"
+		TargetSkin			"hair_f.dds"
+	}
+	Group HairData63
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_11/"
+		HairIndex			292
+		Model				"warrior_judg_hair_f.gr2"
+		SourceSkin			"hair_f.dds"
+		TargetSkin			"hair_f.dds"
+	}
+	Group HairData64
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/andun_glory/hair/"
+		HairIndex			293
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w.dds"
+		TargetSkin			"plechito_tex_w.dds"
+	}
+	Group HairData65
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_12/"
+		HairIndex			295
+		Model				"hair/warrior_w.gr2"
+		SourceSkin			"demonvoid_tex_f.dds"
+		TargetSkin			"demonvoid_tex_f.dds"
+	}
+	Group HairData66
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_14/"
+		HairIndex			294
+		Model				"warrior_fire_hair_f.gr2"
+		SourceSkin			"hair_f.dds"
+		TargetSkin			"hair_f.dds"
+	}
+	Group HairData67
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_15/"
+		HairIndex			296
+		Model				"warrior_h_w.gr2"
+		SourceSkin			"dane_hair_f.dds"
+		TargetSkin			"dane_hair_f.dds"
+	}
+	Group HairData68
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_16/"
+		HairIndex			297
+		Model				"warrior_h_w.gr2"
+		SourceSkin			"dane_hair_f.dds"
+		TargetSkin			"dane_hair_f.dds"
+	}
+	Group HairData69
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_17/"
+		HairIndex			298
+		Model				"warrior_h_w.gr2"
+		SourceSkin			"hair_f.dds"
+		TargetSkin			"hair_f.dds"
+	}
+	Group HairData70
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/night_butterfly/hair/"
+		HairIndex			299
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w.dds"
+		TargetSkin			"plechito_tex_w.dds"
+	}
+}
+Group ShapeData
+{
+	PathName	"d:/ymir Work/pc2/warrior/"
+	ShapeDataCount			999
+
+	Group ShapeData00
+	{
+		ShapeIndex			0
+
+		Model				"warrior_novice.gr2"
+		SourceSkin			"warrior_novice_red.dds"
+		TargetSkin			"warrior_novice_red.dds"
+	}
+	Group ShapeData01
+	{
+		ShapeIndex			1
+		Model				"warrior_novice.gr2"
+		SourceSkin			"warrior_novice_red.dds"
+		TargetSkin			"warrior_novice_blue.dds"
+	}
+	Group ShapeData02
+	{
+		ShapeIndex			3
+		Model				"warrior_nahan.gr2"
+		SourceSkin			"warrior_nahan.dds"
+		TargetSkin			"warrior_nahan.dds"
+	}
+	Group ShapeData03
+	{
+		ShapeIndex			4
+		Model				"warrior_nahan.gr2"
+		SourceSkin			"warrior_nahan.dds"
+		TargetSkin			"warrior_giryung.dds"
+	}
+	Group ShapeData04
+	{
+		ShapeIndex			5
+		Model				"warrior_nahan.gr2"
+		SourceSkin			"warrior_nahan.dds"
+		TargetSkin			"warrior_jaho.dds"
+	}
+	Group ShapeData05
+	{
+		ShapeIndex			6
+		Model				"warrior_saja.gr2"
+		SourceSkin			"warrior_saja.dds"
+		TargetSkin			"warrior_saja.dds"
+
+	}
+	Group ShapeData06
+	{
+		ShapeIndex			7
+		Model				"warrior_saja.gr2"
+		SourceSkin			"warrior_saja.dds"
+		TargetSkin			"warrior_jain.dds"
+	}
+	Group ShapeData07
+	{
+		ShapeIndex			8
+		Model				"warrior_saja.gr2"
+		SourceSkin			"warrior_saja.dds"
+		TargetSkin			"warrior_moryong.dds"
+	}
+	Group ShapeData08
+	{
+		ShapeIndex			9
+		Model				"warrior_cheongrin.gr2"
+		SourceSkin			"warrior_cheongrin.dds"
+		TargetSkin			"warrior_cheongrin.dds"
+	}
+	Group ShapeData09
+	{
+		ShapeIndex			10
+		Model				"warrior_cheongrin.gr2"
+		SourceSkin			"warrior_cheongrin.dds"
+		TargetSkin			"warrior_geumrin.dds"
+	}
+	Group ShapeData10
+	{
+		ShapeIndex			11
+		Model				"warrior_yongsin.GR2"
+		SourceSkin			"warrior_yongsin.dds"
+		TargetSkin			"warrior_yongsin.dds"
+	}
+	Group ShapeData11
+	{
+		ShapeIndex			201
+		Model				"warrior_marry_01.gr2"
+		SourceSkin			"warrior_marry_01.dds"
+		TargetSkin			"warrior_marry_01.dds"
+	}
+	Group ShapeData12
+	{
+		ShapeIndex			12
+		Model				"warrior_4-1.GR2"
+		SourceSkin			"warrior_4-1.dds"
+		TargetSkin			"warrior_4-1.dds"
+	}
+	Group ShapeData13
+	{
+		ShapeIndex			13
+		Model				"warrior_4-1.GR2"
+		SourceSkin			"warrior_4-1.dds"
+		TargetSkin			"warrior_4-2.dds"
+	}
+	Group ShapeData14
+	{
+		ShapeIndex			14
+		Model				"warrior_5_1.GR2"
+		SourceSkin			"warrior_5_1.DDS"
+		TargetSkin			"warrior_5_1.DDS"
+	}
+	Group ShapeData15
+	{
+		ShapeIndex			15
+		Model				"warrior_5_1.GR2"
+		SourceSkin			"warrior_5_1.dds"
+		TargetSkin			"warrior_5_1_black.dds"
+	}
+	Group ShapeData16
+	{
+		ShapeIndex			16
+		Model				"warrior_5_1.GR2"
+		SourceSkin			"warrior_5_1.dds"
+		TargetSkin			"warrior_5_1_blue.dds"
+	}
+	Group ShapeData17
+	{
+		ShapeIndex			17
+		Model				"warrior_5_1.GR2"
+		SourceSkin			"warrior_5_1.dds"
+		TargetSkin			"warrior_5_1_jin.dds"
+	}
+	Group ShapeData18
+	{
+		ShapeIndex			18
+		Model				"warrior_5_1.GR2"
+		SourceSkin			"warrior_5_1.dds"
+		TargetSkin			"warrior_5_1_red.dds"
+	}
+	Group ShapeData19
+	{
+		ShapeIndex			19
+		Model				"warrior_5_1.GR2"
+		SourceSkin			"warrior_5_1.dds"
+		TargetSkin			"warrior_5_1_white.dds"
+	}
+	Group ShapeData20
+	{
+		ShapeIndex			20
+		Model				"warrior_6_1.gr2"
+		SourceSkin			"warrior_6_1.dds"
+		TargetSkin			"warrior_6_1.dds"
+	}
+	Group ShapeData21
+	{
+		ShapeIndex			21
+		Model				"warrior_7_1.GR2"
+		SourceSkin			"warrior_7_1.dds"
+		TargetSkin			"warrior_7_1.dds"
+	}
+	Group ShapeData22
+	{
+		ShapeIndex			22
+		Model				"warrior_8_1.GR2"
+		SourceSkin			"warrior_8_1.dds"
+		TargetSkin			"warrior_8_1.dds"
+	}
+	Group ShapeData23
+	{
+		ShapeIndex			23
+		Model				"warrior_8_1.GR2"
+		SourceSkin			"warrior_8_1.dds"
+		TargetSkin			"warrior_8_1.dds"
+	}
+	Group ShapeData24
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_coin/"
+		ShapeIndex			24
+		Model				"warrior_w.gr2"
+		SourceSkin			"dane_body_fwa.dds"
+		TargetSkin			"dane_body_fwa.dds"
+	}
+	Group ShapeData25
+	{
+		SpecialPath			"d:/ymir work/pc2/warrior/"
+		ShapeIndex			25
+		Model				"warrior_ramadan_2022.gr2"
+		SourceSkin			"warrior_ramadan_2022_1.dds"
+		TargetSkin			"warrior_ramadan_2022_1.dds"
+	}
+	Group ShapeData26
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/stpatrick_costumes/"
+		ShapeIndex			250
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData27
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/halfmoon_mage/"
+		ShapeIndex			251
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData28
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/valentine2022_1/"
+		ShapeIndex			252
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData29
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/valentine2022_2/"
+		ShapeIndex			253
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData30
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/easter2022_1/"
+		ShapeIndex			254
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData31
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/easter2022_2/"
+		ShapeIndex			255
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData32
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_1/"
+		ShapeIndex			256
+		Model				"warrior_angel_w.gr2"
+		SourceSkin			"angel_body_ww.dds"
+		TargetSkin			"angel_body_ww.dds"
+	}
+	Group ShapeData33
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/ancient_egypt/"
+		ShapeIndex			257
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData34
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/dark_cult_costume/"
+		ShapeIndex			258
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData35
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/royal_phoenix/"
+		ShapeIndex			259
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData36
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_2/"
+		ShapeIndex			260
+		Model				"warrior_argane_f.gr2"
+		SourceSkin			"body_fw.dds"
+		TargetSkin			"body_fw.dds"
+	}
+	Group ShapeData37
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/halloween2021_2/"
+		ShapeIndex			261
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData38
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_3/"
+		ShapeIndex			262
+		Model				"warrior_undertalker_01.gr2"
+		SourceSkin			"dane_undertaker_body_warrior_w.dds"
+		TargetSkin			"dane_undertaker_body_warrior_w.dds"
+		SourceSkin2			"dane_shoulder_tex_m.dds"
+		TargetSkin2			"dane_shoulder_tex_m.dds"
+		SourceSkin3			"dane_ex_tex_m.dds"
+		TargetSkin3			"dane_ex_tex_m.dds"
+		SourceSkin4			"dane_undertaker_gloves_w.dds"
+		TargetSkin4			"dane_undertaker_gloves_w.dds"
+		SourceSkin5			"dane_undertaker_boot_w.dds"
+		TargetSkin5			"dane_undertaker_boot_w.dds"
+	}
+	Group ShapeData39
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_4/"
+		ShapeIndex			263
+		Model				"warrior_dese_f.gr2"
+		SourceSkin			"destert_body_ww.dds"
+		TargetSkin			"destert_body_ww.dds"
+	}
+	Group ShapeData40
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_5/"
+		ShapeIndex			264
+		Model				"warrior_diving_f.gr2"
+		SourceSkin			"body_f_wa.dds"
+		TargetSkin			"body_f_wa.dds"
+	}
+	Group ShapeData41
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_8/"
+		ShapeIndex			265
+		Model				"arcane_warrior_f.gr2"
+		SourceSkin			"dane_body_ww.dds"
+		TargetSkin			"dane_body_ww.dds"
+	}
+	Group ShapeData42
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/christmas2021_1/"
+		ShapeIndex			266
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData43
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/valentine2023_1/"
+		ShapeIndex			267
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData44
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/forst_dragon/"
+		ShapeIndex			268
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData45
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/set_4/"
+		ShapeIndex			269
+		Model				"f_warrior.gr2"
+		SourceSkin			"base_f_warrior.dds"
+		TargetSkin			"base_f_warrior.dds"
+	}
+	Group ShapeData46
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/christmas2021_2/"
+		ShapeIndex			270
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData47
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/easter2022_1/"
+		ShapeIndex			271
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w2.dds"
+	}
+	Group ShapeData48
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/frost_bird_costume/"
+		ShapeIndex			272
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData49
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/halloween2022_3/"
+		ShapeIndex			273
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData50
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/summer2022_1/"
+		ShapeIndex			274
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData51
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/new_year_2023/"
+		ShapeIndex			275
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData52
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/halloween2022_1/"
+		ShapeIndex			276
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData53
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/christmas2022_2/"
+		ShapeIndex			277
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w.dds"
+		TargetSkin			"plechito_tex_w.dds"
+	}
+	Group ShapeData54
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/valentine2023_2/"
+		ShapeIndex			278
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData55
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/valentine2023_3/"
+		ShapeIndex			279
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData56
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/doctor_death_costumes/"
+		ShapeIndex			280
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData57
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/easter2023_1/"
+		ShapeIndex			281
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData58
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_9/"
+		ShapeIndex			282
+		Model				"warrior_winter_f.gr2"
+		SourceSkin			"dane_snow_body_wwa.dds"
+		TargetSkin			"dane_snow_body_wwa.dds"
+	}
+	Group ShapeData59
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_6/"
+		ShapeIndex			283
+		Model				"f_warrior.gr2"
+		SourceSkin			"base_warrior_f.dds"
+		TargetSkin			"base_warrior_f.dds"
+	}
+	Group ShapeData60
+	{
+		SpecialPath			"d:/ymir work/pc2/warrior/"
+		ShapeIndex			300
+		Model				"warrior_lord.GR2"
+		SourceSkin			"warrior_king01.dds"
+		TargetSkin			"warrior_king01.tga"
+	}
+	Group ShapeData61
+	{
+		SpecialPath			"d:/ymir work/pc2/warrior/"
+		ShapeIndex			301
+		Model				"warrior_lord.GR2"
+		SourceSkin			"warrior_king01.dds"
+		TargetSkin			"gri_warrior_king01.tga"
+	}
+	Group ShapeData62
+	{
+		SpecialPath			"d:/ymir work/pc2/warrior/"
+		ShapeIndex			302
+		Model				"warrior_lord.GR2"
+		SourceSkin			"warrior_king01.dds"
+		TargetSkin			"kirmizi_warrior_king01.tga"
+	}
+	Group ShapeData63
+	{
+		SpecialPath			"d:/ymir work/pc2/warrior/"
+		ShapeIndex			303
+		Model				"warrior_lord.GR2"
+		SourceSkin			"warrior_king01.dds"
+		TargetSkin			"mavi_warrior_king01.tga"
+	}
+	Group ShapeData64
+	{
+		SpecialPath			"d:/ymir work/pc2/warrior/"
+		ShapeIndex			304
+		Model				"warrior_lord.GR2"
+		SourceSkin			"warrior_king01.dds"
+		TargetSkin			"mor_warrior_king01.tga"
+	}
+	Group ShapeData65
+	{
+		SpecialPath			"d:/ymir work/pc2/warrior/"
+		ShapeIndex			305
+		Model				"warrior_lord.GR2"
+		SourceSkin			"warrior_king01.dds"
+		TargetSkin			"turkuaz_warrior_king01.tga"
+	}
+	Group ShapeData66
+	{
+		SpecialPath			"d:/ymir work/pc2/warrior/"
+		ShapeIndex			306
+		Model				"warrior_lord.GR2"
+		SourceSkin			"warrior_king01.dds"
+		TargetSkin			"turuncu_warrior_king01.tga"
+	}
+	Group ShapeData67
+	{
+		SpecialPath			"d:/ymir work/pc2/warrior/"
+		ShapeIndex			307
+		Model				"warrior_lord.GR2"
+		SourceSkin			"warrior_king01.dds"
+		TargetSkin			"yesil_warrior_king01.tga"
+	}
+	Group ShapeData68
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/ramadan2023/"
+		ShapeIndex			284
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData69
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/wukong/"
+		ShapeIndex			285
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData70
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/summer2023/"
+		ShapeIndex			286
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData71
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/pirates_2/"
+		ShapeIndex			287
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData72
+	{
+		SpecialPath			"d:/ymir work/pc/frost_bird_costume/"
+		ShapeIndex			288
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w_b&w.dds"
+		TargetSkin			"plechito_tex_w_w_b&w.dds"
+	}
+	Group ShapeData73
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/necromancer_robe/"
+		ShapeIndex			289
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData74
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_7/"
+		ShapeIndex			290
+		Model				"warrior_glory_w.gr2"
+		SourceSkin			"body_fwa.dds"
+		TargetSkin			"body_fwa.dds"
+	}
+	Group ShapeData75
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_10/"
+		ShapeIndex			291
+		Model				"warrior_w.gr2"
+		SourceSkin			"body_fwa.dds"
+		TargetSkin			"body_fwa.dds"
+	}
+	Group ShapeData76
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_11/"
+		ShapeIndex			292
+		Model				"warrior_judg_f.gr2"
+		SourceSkin			"body_f_wa.dds"
+		TargetSkin			"body_f_wa.dds"
+	}
+	Group ShapeData77
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/andun_glory/"
+		ShapeIndex			293
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+	Group ShapeData78
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_12/"
+		ShapeIndex			295
+		Model				"warrior_w.gr2"
+		SourceSkin			"demonvoid_tex_f.dds"
+		TargetSkin			"demonvoid_tex_f.dds"
+	}
+	Group ShapeData79
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_14/"
+		ShapeIndex			294
+		Model				"warrior_fire_f.gr2"
+		SourceSkin			"body_f_wa.dds"
+		TargetSkin			"body_f_wa.dds"
+	}
+	Group ShapeData80
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_15/"
+		ShapeIndex			296
+		Model				"warrior_w.gr2"
+		SourceSkin			"dane_body_fwa.dds"
+		TargetSkin			"dane_body_fwa.dds"
+	}
+	Group ShapeData81
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_16/"
+		ShapeIndex			297
+		Model				"warrior_w.gr2"
+		SourceSkin			"dane_body_fwa.dds"
+		TargetSkin			"dane_body_fwa.dds"
+	}
+	Group ShapeData82
+	{
+		SpecialPath			"d:/ymir work/pc/furkan_set/costume_17/"
+		ShapeIndex			298
+		Model				"warrior_w.gr2"
+		SourceSkin			"body_fwa.dds"
+		TargetSkin			"body_fwa.dds"
+	}
+	Group ShapeData83
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/night_butterfly/"
+		ShapeIndex			299
+		Model				"warrior_w.gr2"
+		SourceSkin			"plechito_tex_w_w.dds"
+		TargetSkin			"plechito_tex_w_w.dds"
+	}
+}
+Group CrownData
+{
+	PathName	"d:/ymir work/item/crown/"
+	CrownDataCount			20
+	Group CrownData00
+	{
+		CrownIndex			0
+		Model				""
+		SourceSkin			""
+		TargetSkin			""
+	}
+	Group CrownData01
+	{
+		CrownIndex			1
+		Model				"warrior_f.gr2"
+		SourceSkin			"laleci_helmet_female.dds"
+		TargetSkin			"laleci_helmet_female.dds"
+	}
+}
+Group AttachingData
+{
+    AttachingDataCount       2
+
+    Group AttachingData00
+    {
+        AttachingDataType    1
+
+        isAttaching          0
+        AttachingModelIndex  0
+        AttachingBoneName    "Bip01"
+
+        CollisionType        1
+
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           40.000000
+            Position         0.000000 0.000000 100.000000
+        }
+    }
+
+    Group AttachingData01
+    {
+        AttachingDataType    1
+
+        isAttaching          0
+        AttachingModelIndex  0
+        AttachingBoneName    "Bip01"
+
+        CollisionType        3
+
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           70.000000
+            Position         0.000000 0.000000 100.000000
+        }
+    }
+}

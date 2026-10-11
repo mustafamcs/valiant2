@@ -1,0 +1,338 @@
+DRAGONSOUL_GRADE_0	Roh
+DRAGONSOUL_GRADE_1	Schliff
+DRAGONSOUL_GRADE_2	Rar
+DRAGONSOUL_GRADE_3	Antik
+DRAGONSOUL_GRADE_4	Legendär
+DRAGONSOUL_GRADE_5	Mythisch
+LOGIN_PIN	PIN
+LOGIN_ID	Anmelde-ID
+LOGIN_PW	Passwort
+SPECIAL_INVENTORY_TITLE	Spezielles Inventar
+SPECIAL_STORAGE_ARRANGE	Inventar sortieren
+DRAGONSOUL_NEWREFINE	Veredeln
+DO_ALL_REFINE	Schnell veredeln
+REFINE_ALL_PAGES	Alle Seiten veredeln
+INVENTORY_PAGE_BUTTON_TOOLTIP_5	5. Inventar
+SPLIT_ITEMS_WINDOW_TITLE	Gegenstände aufteilen
+
+HIDE_COSTUME	Kostüm verstecken
+
+GAMEOPTION_CAT_02	Grafikeinstellungen
+GAMEOPTION_CAT_03	Toneinstellungen
+
+GAMEOPTION_CAT_02_SUBCAT_1	Schnittstelle
+GAMEOPTION_CAT_02_SUBCAT_2	Leistung
+
+GAMEOPTION_OUTLINE_TEXT	Textschatten
+GAMEOPTION_AFFECT_TEXT	Symbole anzeigen
+GAMEOPTION_HIGHLIGHT_TEXT	Neue Objektanimation
+GAMEOPTION_ENTITY_RANGE	Objektabstand
+
+GAMEOPTION_ENTITY_RANGE0	Kurz
+GAMEOPTION_ENTITY_RANGE1	Mittel
+GAMEOPTION_ENTITY_RANGE2	Lang
+
+GAMEOPTION_HIDE_TEXT	Modelle verstecken
+GAMEOPTION_HIDE_NPC	NPC
+GAMEOPTION_HIDE_PET	Haustier
+GAMEOPTION_HIDE_MOUNT	Mount
+GAMEOPTION_HIDE_SHOPS	Läden
+GAMEOPTION_WINDOW_ANIMATIONS	Fensteranimationen
+GAMEOPTION_ANIMATIONS_OFF	Aus
+GAMEOPTION_ANIMATIONS1	Typ 1
+GAMEOPTION_ANIMATIONS2	Typ 2
+GAMEOPTION_ANIMATIONS3	Typ 3
+GAMEOPTION_ANIMATIONS4	Typ 4
+GAMEOPTION_ANIMATIONS5	Typ 5
+GAMEOPTION_ANIMATIONS6	Typ 6
+GAMEOPTION_ANIMATIONS7	Typ 7
+
+GAMEOPTION_FONT_WARNING	Starte den Client neu, um die Änderungen anzuzeigen.
+
+GAMEOPTION_EFFECT_TEXT	Effekte
+
+GAMEOPTION_STONE_SCALE	Metinstein-Skala
+GAMEOPTION_DAMAGE_SCALE	Schadensbild-Skala
+GAMEOPTION_OBJECT_SCALE	Objektabstand
+
+GAMEOPTION_DAMAGE_TYPE	Schadensbild
+GAMEOPTION_DAMAGE_TYPE0	Normal
+GAMEOPTION_DAMAGE_TYPE1	Punkte
+GAMEOPTION_DAMAGE_TYPE2	Buchstaben
+
+GAMEOPTION_DAMAGE_RENEWED_TYPE	Schadensdesign
+GAMEOPTION_DAMAGE_RENEWED_TYPE0	Normal
+GAMEOPTION_DAMAGE_RENEWED_TYPE1	Neu
+
+GAMEOPTION_EVENT_MINI_ICON	Minikalender-Symbol
+
+GAMEOPTION_LOADING_TYPE	Ladebildschirmtyp
+GAMEOPTION_LOADING_TYPE_BUTTON	Neu
+GAMEOPTION_LOADING_TYPE_BUTTON2	Alt
+
+MINIMAP_BUTTON_01	Gegenstandssuche
+MINIMAP_BUTTON_02	Biologe
+MINIMAP_BUTTON_03	Rangliste
+HIDE_COSTUME	Kostüm verstecken
+
+SEND_WHISPER_ADMIN_INFO	Gib die Nachricht ein, um sie an die Spieler zu senden.
+SEND_WHISPER_ADMIN_TITLE	Massen-Nachrichtenmanager
+
+OPTION_FOV	Sichtfeld
+
+OPTION_SKYBOX	Himmelkastenbild
+OPTION_SKYBOX_0	Normal 
+OPTION_SKYBOX_1	Modus 1
+OPTION_SKYBOX_2	Modus 2
+OPTION_SKYBOX_3	Modus 3
+OPTION_SKYBOX_4	Modus 4
+OPTION_SKYBOX_5	Modus 5
+OPTION_SKYBOX_6	Modus 6
+OPTION_SKYBOX_7	Modus 7
+
+CHARACTER_STATS_PAGE	Statistiken
+STATICS_01	Max. Spieler-Schaden
+STATICS_02	Max. Monster-Schaden
+STATICS_03	Max. Metinstein-Schaden
+STATICS_04	Max. Boss-Schaden
+STATICS_05	Getötete Monster
+STATICS_06	Zerstörte Metinsteine
+STATICS_07	Getötete Bosse
+STATICS_08	Getötete Spieler
+STATICS_09	Veredelte & hergestellte Gegenstände
+STATICS_10	Abgeschlossene Dungeons
+STATICS_11	Gefangene Fische
+STATICS_12	Erfolgreich abgebaute Erze
+STATICS_13	Geöffnete Truhen
+STATICS_14	Verwendete Attribut-Wechsler
+STATICS_15	Kampfpunkte
+STATICS_16	Ausrichtung
+STATICS_17	Spielzeit
+PLAYER_IS_ONLINE_NOW	%s ist jetzt online.
+
+PET_ATTR_CHANGE_ITEM_TEXT	Attribut ändern
+PET_ATTR_CHANGE_TITLE	Pet-Typ ändern
+PET_ATTR_CONFIRMATION	Ändern
+PET_ATTR_DETERMINE_TITLE	Neuer Pet-Typ
+PET_ATTR_OK	OK
+PET_CHANGE_TEXT	Haustier
+PET_FEED_TITLE	Füttern
+PET_FFED_BUTTON_TEXT	Füttern
+PET_HATCHING_BUTTON	Namen geben
+PET_HATCHING_NIK	Pet-Name
+PET_HATCHING_WINDOW_TITLE	Ausbrüten
+PET_INFORMATION_ABILITIES	Boni
+PET_INFORMATION_AGE	Alter
+PET_INFORMATION_COSTUME_BONUS	Kostümbonus
+PET_INFORMATION_DEFENCE	Verteidigung
+PET_INFORMATION_EVOL_BUTTON	Entwickeln
+PET_INFORMATION_EXP	Erfahrung
+PET_INFORMATION_EXP_BUTTON	Gegenstandserfahrung
+PET_INFORMATION_HP	HP
+PET_INFORMATION_LEVEL	Stufe
+PET_INFORMATION_LIFE	Lebensdauer
+PET_INFORMATION_LIFETIME_BUTTON	Füttern
+PET_INFORMATION_LIFE_TIME	Zeit
+PET_INFORMATION_SKILL	Fähigkeit
+PET_INFORMATION_SP	STR
+PET_INFORMATION_TITLE	Haustier
+PET_NAME_CHANGE_BUTTON	Ändern
+PET_NAME_CHANGE_WINDOW_TITLE	Benennung deines Begleiters
+PET_SYSTEM_FEED	Füttern
+PET_SYSTEM_PET_NAME	Name des Begleiters
+PET_SYSTEM_HATCH	Ausbrüten
+PET_SYSTEM_LEVEL	Stufe
+PET_SYSTEM_EXP	Erfahrung
+PET_SYSTEM_EXP22	Legendär (16)
+PET_SYSTEM_AGE	Alter
+PET_SYSTEM_DURATION	Dauer
+PET_SYSTEM_EVOLVE	Entwickeln
+PET_SYSTEM_ITEM_EXP	Gegenstandserfahrung
+PET_SYSTEM_BONUSES	Boni
+PET_SYSTEM_INCUBATOR	Inkubator
+PET_SYSTEM_HP	HP (Prozentsatz)
+PET_SYSTEM_DEF	PvM STR (Prozentsatz)
+PET_SYSTEM_ATTACK	STR (Prozentsatz)
+PET_BESLE	Füttern
+SELECT_JOB_TITLE	Fähigkeitsgruppe auswählen
+
+SKILL_COLOR_TITLE	Farbe wählen
+SKILL_COLOR_PRESET_TITLE	Gespeicherte Voreinstellungen
+SKILL_COLOR_PRESET_SELECT	Auswählen
+SKILL_COLOR_PRESET_SAVE	Voreinstellung speichern
+SKILL_COLOR_PRESET_CLEAR	Löschen
+SKILL_COLOR_CUSTOM_COLOR_CODE_TITLE	Farbencode
+SKILL_COLOR_DEFAULT	Standardfarbe
+SKILL_COLOR_CHANGE	Farbe ändern
+SKILL_COLOR_CANCEL	Abbrechen
+
+AURA_ACCEPT	Verfeinern
+AURA_ACCEPT2	Verfeinern (x10)
+AURA_ACCEPT_REFINE_MAX_ABS	Die Aura hat bereits die maximale Absorptionsrate erreicht, du kannst nicht weiter aufrüsten!
+AURA_ACCEPT_REFINE_ITEM	Du hast nicht die erforderlichen Materialien.
+AURA_DRAIN_PER	Absorptionsrate %.1f%%
+AURA_LEVEL_STEP	St. %d (Stufe %d)
+AURA_TITLE_ABSORB	Ausrüstungsboni auf das Aurakostüm übertragen.
+AURA_TITLE_EVOLUTION	Evolution
+AURA_TITLE_GROWTH	Aurakostüm verbessern
+AURA_TOOLTIP_EXP	EXP (%%%d / %%100)
+AURA_TOOLTIP_LEVEL	St. %d (Stufe %d) (Absorptionsrate %%%.1f)
+AURA_TOOLTIP_NEED_YANG	10.000.000 Yang
+AURA_TOOLTIP_NEED_YANG2	20.000.000 Yang
+AURA_TOOLTIP_NEXT	Weiter
+AURA_TOOLTIP_NOW	Jetzt
+AURA_TOOLTIP_RESOURCE	Ressource
+AURA_TOOLTIP_RESOURCE_ITEM	%s * %d
+ACCE_FAILURE_CLEAN_TYPE_EROR	Dieser Gegenstand kann nur für Schulterriemen oder Aurakostüm verwendet werden.
+EXTENDET_BATTLE_PASS_TITLE	BattlePass
+EXTENDET_BATTLE_PASS_RANK_ICON_RANK	Rang
+EXTENDET_BATTLE_PASS_RANK_ICON_NAME	Spielername
+EXTENDET_BATTLE_PASS_RANK_ICON_TIME	Verbleibende Zeit
+EXTENDET_BATTLE_PASS_NO_PLANNED_NORMAL_BATTLEPASS	Der Battle Pass ist derzeit inaktiv.
+EXTENDET_BATTLE_PASS_PLANNED_NEXT_NORMAL_BATTLEPASS	Keine Battle-Pass-Tickets sind derzeit geplant.
+EXTENDET_BATTLE_PASS_TIME_TO_NEXT_NORMAL_BATTLEPASS	Zeit bis zum Beginn des nächsten Battle Pass: %s
+EXTENDET_BATTLE_PASS_NO_PLANNED_PREMIUM_BATTLEPASS	Der Premium-Battle-Pass ist derzeit inaktiv.
+EXTENDET_BATTLE_PASS_PLANNED_NEXT_PREMIUM_BATTLEPASS	Keine Battle-Pass-Tickets sind derzeit geplant.
+EXTENDET_BATTLE_PASS_TIME_TO_NEXT_PREMIUM_BATTLEPASS	Zeit bis zum Beginn des nächsten Premium-Battle-Pass: %s
+EXTENDET_BATTLE_PASS_NO_PLANNED_EVENT_BATTLEPASS	Der Event-Battle-Pass ist derzeit nicht aktiv.
+EXTENDET_BATTLE_PASS_PLANNED_NEXT_EVENT_BATTLEPASS	Keine Event-Battle-Pass-Tickets sind derzeit geplant.
+EXTENDET_BATTLE_PASS_TIME_TO_NEXT_EVENT_BATTLEPASS	Zeit bis zum Beginn des nächsten Event-Battle-Pass: %s
+EXTENDET_BATTLE_PASS_SEASON_TITLE	Battle-Pass-Informationsseite
+EXTENDET_BATTLE_PASS_SEASON_NAME	Saison: %s
+EXTENDET_BATTLE_PASS_SEASON_TOTAL_MISSIONS	Gesamtaufgaben: %d
+EXTENDET_BATTLE_PASS_SEASON_CURRENT_MISSIONS	Fortschrittsstatus: %d / %d
+EXTENDET_BATTLE_PASS_SEASON_DATE_FROM	Startdatum
+EXTENDET_BATTLE_PASS_SEASON_DATE_TO	Enddatum
+EXTENDET_BATTLE_PASS_SEASON_REST_TIME	Verbleibende Zeit: %s
+EXTENDET_BATTLE_PASS_SEASON_PROGRESS	Fortschritt
+EXTENDET_BATTLE_PASS_MISSION_MISSION_NAME	Aufgabenname
+EXTENDET_BATTLE_PASS_MISSION_NAME	Aufgabenname
+EXTENDET_BATTLE_PASS_MISSION_STATUS	Aufgabenstatus
+EXTENDET_BATTLE_PASS_MISSION_INFO	Information
+EXTENDET_BATTLE_PASS_MISSION_STATUS_IN_PROGRESS	|cfffeff7d|H|h In Bearbeitung!|h|r
+EXTENDET_BATTLE_PASS_MISSION_STATUS_FINISH	|cff82ff7d|H|hAbgeschlossen!|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION	Information:
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_MONSTER	Monster: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_MINLEVEL	Mindeststufe: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_ITEM	Gegenstand: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_ORE	Erz: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_FISH	Fisch: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_MAPNAME	Karte: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_GUILDWARTYPE	Gildenkrieg: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_PET_MINTYPE	Min. Pet-Typ: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_DUNGEON	Dungeon: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_MINIGAME	Minispiel: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_COUNT	Verbleibend: |cfffeff7d|H|h%s|h|r / |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_COUNT_GOLD	Verbleibend: |cfffeff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_PERCENT	Abgeschlossen |cfffeff7d|H|h%.2f%%|h|r
+EXTENDET_BATTLE_PASS_DESCRIPTION	Beschreibung:
+EXTENDET_BATTLE_PASS_MISSION_COMPLEDET	Abgeschlossen
+EXTENDET_BATTLE_PASS_NONE_COND_TITLE_MOB	Monster
+EXTENDET_BATTLE_PASS_NONE_COND_TITLE_ITEM	Gegenstand
+EXTENDET_BATTLE_PASS_NONE_COND_TITLE_FISH	Fisch
+EXTENDET_BATTLE_PASS_NONE_COND_TITLE_DUNGEON	Dungeons abschließen
+EXTENDET_BATTLE_PASS_NONE_COND_TITLE_MINIGAME	Minispiele
+
+EXTENDET_BATTLE_PASS_TYPENAME_1	Zerstöre %s
+EXTENDET_BATTLE_PASS_TYPENAME_1_DESC_1	Töte %sx %s.
+EXTENDET_BATTLE_PASS_TYPENAME_1_DESC_2	Töte %sx
+EXTENDET_BATTLE_PASS_TYPENAME_2	Töte %s Spieler!
+EXTENDET_BATTLE_PASS_TYPENAME_2_DESC_1	Töte %s Spieler! (Mindestens Stufe %s)
+EXTENDET_BATTLE_PASS_TYPENAME_2_DESC_2	Töte %s Spieler! (Keine Stufenbegrenzung)
+EXTENDET_BATTLE_PASS_TYPENAME_3	Greife Monster an
+EXTENDET_BATTLE_PASS_TYPENAME_3_DESC_1	Erreiche den maximalen Schaden bei %s %s.
+EXTENDET_BATTLE_PASS_TYPENAME_3_DESC_2	Füge insgesamt %s Schaden bei Monstern zu. (gilt für alle Kreaturen)
+EXTENDET_BATTLE_PASS_TYPENAME_4	Greife Spieler an
+EXTENDET_BATTLE_PASS_TYPENAME_4_DESC_1	Erreiche einen Gesamtschaden von %s bei Spielern der Stufe %d. Spieler aller Reiche zählen.
+EXTENDET_BATTLE_PASS_TYPENAME_4_DESC_2	Erreiche einen Gesamtschaden von %s bei Spielern. Spieler aller Reiche zählen.
+EXTENDET_BATTLE_PASS_TYPENAME_5	Verwende %s
+EXTENDET_BATTLE_PASS_TYPENAME_5_DESC_1	Du musst %sx %s verwenden, um diese Aufgabe abzuschließen.
+EXTENDET_BATTLE_PASS_TYPENAME_5_DESC_2	Du musst %sx einen Gegenstand %s verwenden oder öffnen, um diese Aufgabe abzuschließen.
+EXTENDET_BATTLE_PASS_TYPENAME_6	Verkaufe %s
+EXTENDET_BATTLE_PASS_TYPENAME_6_DESC_1	Verkaufe %sx %s an NPCs, um diese Quest abzuschließen.
+EXTENDET_BATTLE_PASS_TYPENAME_6_DESC_2	Verkaufe %sx Gegenstände von NPCs, um diese Quest abzuschließen.
+EXTENDET_BATTLE_PASS_TYPENAME_7	Herstelle %s
+EXTENDET_BATTLE_PASS_TYPENAME_7_DESC_1	Um diese Quest abzuschließen, musst du %sx %s herstellen.
+EXTENDET_BATTLE_PASS_TYPENAME_7_DESC_2	Um diese Quest abzuschließen, musst du %sx (jeden beliebigen Gegenstand) herstellen.
+EXTENDET_BATTLE_PASS_TYPENAME_8	Verbessere %s
+EXTENDET_BATTLE_PASS_TYPENAME_8_DESC_1	Um diese Quest abzuschließen, musst du %sx auf die nächste Stufe von %s verbessern.
+EXTENDET_BATTLE_PASS_TYPENAME_8_DESC_2	Um diese Quest abzuschließen, musst du %s auf die nächste Stufe verbessern.
+EXTENDET_BATTLE_PASS_TYPENAME_9	Zerstöre %s
+EXTENDET_BATTLE_PASS_TYPENAME_9_DESC_1	Zerstöre %sx %s, um diese Quest abzuschließen.
+EXTENDET_BATTLE_PASS_TYPENAME_9_DESC_2	Zerstöre %s, um diese Quest abzuschließen.
+EXTENDET_BATTLE_PASS_TYPENAME_10_1	Sammle %s
+EXTENDET_BATTLE_PASS_TYPENAME_10_2	Sammle %s %s
+EXTENDET_BATTLE_PASS_TYPENAME_10_1_DESC_1	Du musst %sx %s sammeln, um diese Quest abzuschließen.
+EXTENDET_BATTLE_PASS_TYPENAME_10_2_DESC_1	Du musst %sx %s abbauen, um diese Quest abzuschließen.
+EXTENDET_BATTLE_PASS_TYPENAME_10_DESC_2	Du musst %s Gegenstände sammeln, um diese Quest abzuschließen.
+EXTENDET_BATTLE_PASS_TYPENAME_11	Fange %s
+EXTENDET_BATTLE_PASS_TYPENAME_11_DESC_1	Ziehe %sx %s aus dem Wasser, um diese Mission abzuschließen.
+EXTENDET_BATTLE_PASS_TYPENAME_11_DESC_2	Ziehe %sx einen beliebigen Fisch aus dem Wasser, um diese Mission abzuschließen.
+EXTENDET_BATTLE_PASS_TYPENAME_12	Koche %s
+EXTENDET_BATTLE_PASS_TYPENAME_12_DESC_1	Grille %sx %s am Lagerfeuer, um diese Quest abzuschließen.
+EXTENDET_BATTLE_PASS_TYPENAME_12_DESC_2	Koche %sx einen beliebigen Fisch am Lagerfeuer, um diese Quest abzuschließen.
+EXTENDET_BATTLE_PASS_TYPENAME_13	Sammle %s
+EXTENDET_BATTLE_PASS_TYPENAME_13_DESC_1	Töte %sx %s, um diese Quest abzuschließen.
+EXTENDET_BATTLE_PASS_TYPENAME_13_DESC_2	Töte %s Fische %s-mal, um diese Quest abzuschließen.
+EXTENDET_BATTLE_PASS_TYPENAME_14	Sammle %s Erfahrung
+EXTENDET_BATTLE_PASS_TYPENAME_14_DESC_1	Um diese Quest abzuschließen, musst du %s EP von %s sammeln.
+EXTENDET_BATTLE_PASS_TYPENAME_14_DESC_2	Sammle %s EP von jedem beliebigen Monster, um diese Quest abzuschließen.
+EXTENDET_BATTLE_PASS_TYPENAME_15	Sammle %s Yang
+EXTENDET_BATTLE_PASS_TYPENAME_15_DESC_1	Um diese Quest abzuschließen, musst du %s Yang von den Kreaturen auf der %s Karte erhalten.
+EXTENDET_BATTLE_PASS_TYPENAME_15_DESC_2	Du musst %s Yang von Monstern sammeln, um diese Quest abzuschließen.
+EXTENDET_BATTLE_PASS_TYPENAME_16	Nimm am Gildenkrieg teil
+EXTENDET_BATTLE_PASS_TYPENAME_16_DESC_1	Schließe %sx Gildenkriege des Typs %s ab.
+EXTENDET_BATTLE_PASS_TYPENAME_16_DESC_2	Schließe %sx beliebige Gildenkriege ab, um diese Quest abzuschließen.
+EXTENDET_BATTLE_PASS_TYPENAME_17	Spende EP an eine Gilde
+EXTENDET_BATTLE_PASS_TYPENAME_17_DESC_1	Spende %s EP an eine Gilde.
+EXTENDET_BATTLE_PASS_TYPENAME_18	Stelle %s Gaya her
+EXTENDET_BATTLE_PASS_TYPENAME_18_DESC_1	Stelle %s Gaya her.
+EXTENDET_BATTLE_PASS_TYPENAME_19	Kaufe im Gaya-Shop ein
+EXTENDET_BATTLE_PASS_TYPENAME_19_DESC_1	Kaufe im Gaya-Shop Gegenstände im Wert von %s Gaya.
+EXTENDET_BATTLE_PASS_TYPENAME_20	Verzaubere ein Haustier %s Mal
+EXTENDET_BATTLE_PASS_TYPENAME_20_DESC_1	Verzaubere ein Haustier %sx. Das Haustier muss mindestens den Haustiertyp %s erreichen.
+EXTENDET_BATTLE_PASS_TYPENAME_20_DESC_2	Verzaubere ein Haustier %sx.
+EXTENDET_BATTLE_PASS_TYPENAME_21	%s
+EXTENDET_BATTLE_PASS_TYPENAME_21_DESC_1	Um %s abzuschließen, musst du %sx Dungeons abschließen.
+EXTENDET_BATTLE_PASS_TYPENAME_21_DESC_2	Schließe beliebige Dungeons %sx Mal ab, um diese Quest abzuschließen.
+EXTENDET_BATTLE_PASS_TYPENAME_22	Spiele %s
+EXTENDET_BATTLE_PASS_TYPENAME_22_DESC_1	Spiele und beende das Minispiel %s %sx.
+EXTENDET_BATTLE_PASS_TYPENAME_22_DESC_2	Schließe beliebige Minispiele %sx Mal ab, um diese Quest abzuschließen.
+EXTENDET_BATTLE_PASS_MAP_NAME_BY_IDX_64	Seungryong-Tal
+EXTENDET_BATTLE_PASS_MAP_NAME_BY_IDX_65	Hwang-Tempel
+EXTENDET_BATTLE_PASS_MAP_NAME_BY_IDX_72	Höhle 1
+EXTENDET_BATTLE_PASS_GUILDWAR_TYPE_NAME_1	Gildenkriegsgebiet
+EXTENDET_BATTLE_PASS_GUILDWAR_TYPE_NAME_2	Gildenkampfarena
+EXTENDET_BATTLE_PASS_GUILDWAR_TYPE_NAME_3	Flaggen-Gildenkrieg
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_1	Tower des Teufels abschließen
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_2	Blaudrache töten
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_3	Devil's Catacomb abschließen
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_4	Rotdrache töten
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_5	Nemere töten
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_6	Spinnenbaroness töten
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_7	Meley töten
+EXTENDET_BATTLE_PASS_MINIGAME_NAME_1	Okey Kartenspiel
+EXTENDET_BATTLE_PASS_MINIGAME_NAME_2	Catch The King
+EXTENDET_BATTLE_PASS_MINIGAME_NAME_3	Yutnori
+EXTENDET_BATTLE_PASS_MINIGAME_NAME_4	Black 'n White
+EXTENDET_BATTLE_PASS_MINIGAME_NAME_5	Angeln
+EXTENDET_BATTLE_PASS_SEND_SHOUT	Rufe %s Mal!
+EXTENDET_BATTLE_PASS_SEND_SHOUT2	%s: Um die Quest abzuschließen, musst du %sx rufen!
+EXTENDET_BATTLE_PASS_SEND_SHOUT3	Sende %sx Mal eine Rufnachricht und schließe die Quest ab!
+
+EXTENDET_BATTLE_PASS_MINING	Bergbau betreiben!
+EXTENDET_BATTLE_PASS_MINING2	%s: Um die Quest abzuschließen, musst du %sx abbauen!
+EXTENDET_BATTLE_PASS_MINING3	Baue %sx Mal ab und schließe die Quest ab!
+
+EXTENDET_BATTLE_PASS_DAMAGE_METIN	Füge insgesamt %s Schaden bei Metins zu!
+EXTENDET_BATTLE_PASS_DAMAGE_METIN2	%s: Um die Quest abzuschließen, musst du %sx Schaden bei Metins verursachen!
+EXTENDET_BATTLE_PASS_DAMAGE_METIN3	Füge %sx Schaden bei Metins zu und schließe die Quest ab!
+
+EXTENDET_BATTLE_PASS_DAMAGE_METIN_REACH	Erreiche %s Schaden bei Metins!
+EXTENDET_BATTLE_PASS_DAMAGE_METIN_REACH2	%s: Um die Quest abzuschließen, musst du %sx Schaden bei Metins erreichen!
+EXTENDET_BATTLE_PASS_DAMAGE_METIN_REACH3	Erreiche %sx Schaden bei Metins und schließe die Quest ab!
+
+OPTION_BLOCK_WARP_REQUEST	Warp-Anfrage
+NEW_EXCHANGE_YOU	Du
+
+GLOBAL_RANKING_TITLE	Spieler-Rangliste

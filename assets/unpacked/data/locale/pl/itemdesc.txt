@@ -1,0 +1,586 @@
+11901	Smoking	Strój, który mezczyzni nosza na slubach.
+11902	Smoking	Strój, który mezczyzni nosza na slubach.
+11903	Suknia Slubna	 Specjalny strój noszony przez kobiety na slubach.
+11904	Suknia Slubna	 Specjalny strój noszony przez kobiety na slubach.
+22000	Pergamin Powrotu do Miasta	Ten pergamin teleportuje cie do wioski.
+22010	Pergamin Powrotu z Miasta	Ten pergamin pozwala ci wrócic z miasta lub do obszaru, w którym sie znajdujesz.
+25040	Pergamin Blogoslawienstwa	Gdy poprawa sie nie powiedzie, ryzyko znikniecia przedmiotu jest eliminowane, a tylko jego jakosc spada o 1 poziom.
+25041	Zaczarowany Metal	 Legendarna metalowa kula, która pozwala wzmocnic przedmiot do jego najlepszej formy. Ponadto wzmocniony przedmiot nie moze zostac zniszczony ani utracic na wartosci.
+25042	Kamien Rytualu	 Mystycznie mieniacy sie kamien, który oferuje najlepsza szanse na wzmocnienie przedmiotu. Wzmocniony przedmiot nie moze byc zniszczony ani pogorszony. Ten kamien dziala tylko na kamienie powyzej poziomu 105.
+25100	Pergamin Kamienia Umyslu	Ten Pergamin sluzy do usuwania kamieni umyslu z broni i zbroi. Pozostaje odcisk po usunieciu kamienia.
+27800	Ciasto	Najtansa przyneta wedkarska.
+27801	Ciaglo	Stosowany jako przyneta do wedkowania.
+27803	Okon	 Rodzaj ryby, który zazwyczaj zyje w jeziorach.
+27805	Duzy Okon	 Duzy, pulchny okon.
+27990	Obsydian	 Jego maly rozmiar ulatwia noszenie. Moze byc uzywany na rózne sposoby.
+27992	Biala Perla	 Czysta biala perla, która kobiety uwielbiaja.
+27993	Niebieska Perla	 Niebieska perla, która kobiety uwielbiaja.
+27994	Czerwona Perla	 Czerwona perla, która kobiety uwielbiaja.
+30006	Zab Orka	 Nieprzyjemnie pachnacy zab orka.
+30015	Pozostalosc Demona	 Ciemny pozostalosc demona.
+30047	Ksiazka Klatwy	 Specjalna ksiazka uzywana do rzuconej klatwy na kogos.
+30050	Kula Lodu	Sfera lodowa, która nie topnieje w goracej pogodzie.
+30220	Kamien Ducha Jinunggy	 Legendarny kamien wierzacy w zawieranie dusz arystokratów Jinung.
+30221	Kamien Wsparcia Swiatyni	Legandarny kamien wierzacy w zawieranie dusz zwolenników swiatyni.
+30222	Kamien Ducha Sagyi	 Legendarny kamien wierzacy w zawieranie dusz arystokratów Sagyi.
+30223	Kamien Ducha Aurtumryu	 Legendarny kamien wierzacy w zawieranie dusz arystokratów Aurtumryu.
+30224	Kamien Ducha Gyimok	Legendarny kamien wierzacy w zawieranie dusz arystokratów Gyimok.
+30225	Kamien Ducha Tugyi	 Legendarny kamien wierzacy w zawieranie dusz arystokratów Tugyi.
+30226	Kamien Ducha Tugyi	Legendarny kamien wierzacy w zawieranie dusz arystokratów lasu.
+30227	Kamien Ducha Tugyi	Legendarny kamien wierzacy w zawieranie dusz przywódców arystokratów.
+30228	Kamien Ducha Tugyi	Legendarny kamien wierzacy w zawieranie dusz arystokratów kem.
+30229	Kamien Ducha Tugyi	Legendarny kamien wierzacy w zawieranie dusz arystokratów madrosci.
+30230	Kamien Ducha Tugyi	Legendarny kamien wierzacy w zawieranie dusz arystokratów ognia.
+30231	Kamien Ducha Tugyi	Legendarny kamien wierzacy w zawieranie dusz arystokratów mroku.
+30251	Szkieletowa Klejnotowa Perla	 Diament nacechowany zlosliwoscia.
+30252	Szkieletowa Klejnotowa Perla	 Diament o uspokajajacym i hojnym blasku.
+31080	Eliksir Ognia	 Magiczny eliksir wypelniony ogniem.
+31081	Ciemna Materia	Materializacja ciemnosci i zla.
+39033	Pergamin Korekty	 Poprawnie umieszczone kamienie umyslu mozna usunac z przedmiotu za pomoca tego pergaminu.
+90000	Certyfikat Transformacji	 Sprzet z zalaczona opaska na ramie lub ubiorem aury mozna oczyscic z przedmiotu tym papierem.
+39067	Skrzynka na Czesci	 Ta skrzynka zawiera losowo kolorowana czesc.
+39070	Szara Czesc	Szara czesc dodajaca 6. lub 7. bonus.
+39071	Biala Czesc	Biala czesc dodajaca 6. lub 7. bonus.
+39072	Zielona Czesc	Zielona czesc dodajaca 6. lub 7. bonus.
+39073	Zólta Czesc	Zólta czesc dodajaca 6. lub 7. bonus.
+39074	Niebieska Czesc	 Niebieska czesc dodajaca 6. lub 7. bonus.
+39075	Fioletowa Czesc	Fioletowa czesc dodajaca 6. lub 7. bonus.
+39076	Czerwona Czesc	Czerwona czesc dodajaca 6. lub 7. bonus.
+39077	Teczowa Czesc	Morska czesc dodajaca 6. lub 7. bonus.
+49001	Strój Ogólnego Aura	 Mozesz przeniesc wartosc bizuterii do ubioru aury z okreslona stopa absorpcji. Mozesz ulepszyc strój Aury za pomoca run lodu Aury.
+49002	Prosty Strój Aura	Mozesz przeniesc wartosc bizuterii do ubioru aury z okreslona stopa absorpcji. Mozesz ulepszyc strój Aury za pomoca run lodu Aury.
+49003	Szlachetny Strój Aura	Mozesz przeniesc wartosc bizuterii do ubioru aury z okreslona stopa absorpcji. Mozesz ulepszyc strój Aury za pomoca run lodu Aury.
+49004	Lsniacy Strój Aura	Mozesz przeniesc wartosc bizuterii do ubioru aury z okreslona stopa absorpcji. Mozesz ulepszyc strój Aury za pomoca run lodu Aury.
+49005	Wystawny Strój Aura	Mozesz przeniesc wartosc bizuterii do ubioru aury z okreslona stopa absorpcji. Mozesz ulepszyc strój Aury za pomoca run lodu Aury.
+49006	Jasny Strój Aura	Mozesz przeniesc wartosc bizuterii do ubioru aury z okreslona stopa absorpcji.
+49990	Lodowa Runa Aury	 Material potrzebny do ulepszenia stroju Aury. Udaj sie do Teovahdan, aby ulepszyc strój Aury.
+49991	Lodowa Runa Aury	 Material potrzebny do ulepszenia stroju Aury. Udaj50267	Skrzynia Z³otego Okey	Zdoby³eœ tê nagrodê wysokiego poziomu za zdobycie 400 lub wiêcej punktów w grze Okey.
+50268	Skrzynia Srebrnego Okey	Zdoby³eœ tê nagrodê œredniego poziomu za zdobycie miêdzy 300 a 399 punktami w grze Okey.
+50269	Skrzynia Br¹zowego Okey	Zdoby³eœ tê nagrodê niskiego poziomu za zdobycie 299 lub mniej punktów w grze Okey.
+50928	Z³ote Bezludny Skarb	Zdoby³eœ tê nagrodê wysokiego poziomu za zdobycie 550 lub wiêcej punktów w grze Z³ap Króla.
+50929	Srebrne Bezludny Skarb	Zdoby³eœ tê nagrodê œredniego poziomu za zdobycie miêdzy 400 a 549 punktami w grze Z³ap Króla.
+50930	Br¹zowe Bezludny Skarb	Zdoby³eœ tê nagrodê niskiego poziomu za zdobycie 399 lub mniej punktów w grze Z³ap Króla.
+83041	Z³ota Skrzynia Proroka	Zdoby³eœ tê nagrodê wysokiego poziomu za zdobycie 7 lub wiêcej punktów w konkursie Proroka.
+83042	Srebrna Skrzynia Proroka	Zdoby³eœ tê nagrodê œredniego poziomu za zdobycie miêdzy 4 a 6 punktami w konkursie Proroka.
+83043	Br¹zowa Skrzynia Proroka	Zdoby³eœ tê nagrodê niskiego poziomu za zdobycie 3 lub mniej punktów w konkursie Proroka.
+200100	Skrzynia Wydarzenia Listowego	Zdoby³eœ tê rzadk¹ nagrodê za zebranie wszystkich liter w wydarzeniu Listowym.
+50265	Skrzynia Pi³ki No¿nej	Zdoby³eœ tê rzadk¹ nagrodê za zebranie 20 pi³ek no¿nych w wydarzeniu Pi³ka No¿na.
+50401	Przewodnik Potrójnego Ciêcia	 U¿ywany do opanowania umiejêtnoœci Potrójnego Ciêcia. Ksi¹¿ka znika po przeczytaniu.
+50402	Przewodnik Obracaj¹cej Siê Miecza	 U¿ywany do opanowania umiejêtnoœci Obracaj¹cej Siê Miecza. Ksi¹¿ka znika po przeczytaniu.
+50403	Przewodnik Wœciek³oœci	 U¿ywany do opanowania umiejêtnoœci Wœciek³oœci. Ksi¹¿ka znika po przeczytaniu.
+50404	Przewodnik Powietrznego Ostrza	 U¿ywany do opanowania umiejêtnoœci Powietrznego Ostrza. Ksi¹¿ka znika po przeczytaniu.
+50405	Przewodnik Skoku	 U¿ywany do opanowania umiejêtnoœci Skoku. Ksi¹¿ka znika po przeczytaniu.
+50406	Ksiêga Woli ¯ycia	 U¿ywana do pomyœlnego ukoñczenia zadania Wola ¯ycia. Ksi¹¿ka znika po przeczytaniu.
+50416	Przewodnik Uderzenia Dusz	 U¿ywany do opanowania umiejêtnoœci Uderzenia Dusz. Ksi¹¿ka znika po przeczytaniu.
+50417	Przewodnik Ciê¿kiego Uderzenia	U¿ywany do opanowania umiejêtnoœci Ciê¿kiego Uderzenia. Ksi¹¿ka znika po przeczytaniu.
+50418	Przewodnik Uderzenia Mocy	U¿ywany do opanowania umiejêtnoœci Uderzenia Mocy. Ksi¹¿ka znika po przeczytaniu.
+50419	Przewodnik Silnego Cia³a	U¿ywany do opanowania umiejêtnoœci Silnego Cia³a. Ksi¹¿ka znika po przeczytaniu.
+50420	Przewodnik Uderzenia Miecza	 U¿ywany do opanowania umiejêtnoœci Uderzenia Miecza. Ksi¹¿ka znika po przeczytaniu.
+50421	Ksiêga Krêgu Miecza	 U¿ywana do pomyœlnego ukoñczenia zadania Kr¹g Miecza. Ksi¹¿ka znika po przeczytaniu.
+50431	Przewodnik Zabójstwa	 U¿ywany do opanowania umiejêtnoœci Zabójstwa. Ksi¹¿ka znika po przeczytaniu.
+50432	Przewodnik Szybkiego Ataku	U¿ywany do opanowania umiejêtnoœci Szybkiego Ataku. Ksi¹¿ka znika po przeczytaniu.
+50433	Przewodnik Obracaj¹cego No¿a	 U¿ywany do opanowania umiejêtnoœci Obracaj¹cego No¿a. Ksi¹¿ka znika po przeczytaniu.
+50434	Przewodnik Maskowania	 U¿ywany do opanowania umiejêtnoœci Maskowania. Ksi¹¿ka znika po przeczytaniu.
+50435	Przewodnik Truj¹cego Chmura	 U¿ywany do opanowania umiejêtnoœci Truj¹cego Chmura. Ksi¹¿ka znika po przeczytaniu.
+50436	Ksiêga Cichego Trucizny	 U¿ywana do pomyœlnego ukoñczenia zadania Cicha Trucizna. Ksi¹¿ka znika po przeczytaniu.
+50446	Przewodnik Powtarzaj¹cego Strza³u	 U¿ywany do opanowania umiejêtnoœci Powtarzaj¹cego Strza³u. Ksi¹¿ka znika po przeczytaniu.
+50447	Przewodnik Deszczu Strza³	U¿ywany do opanowania umiejêtnoœci Deszczu Strza³. Ksi¹¿ka znika po przeczytaniu.
+50448	Przewodnik Ognistego Strza³u	U¿ywany do opanowania umiejêtnoœci Ognistego Strza³u. Ksi¹¿ka znika po przeczytaniu.
+50449	Przewodnik Lekkiego Kroku	 U¿ywany do opanowania umiejêtnoœci Lekkiego Kroku. Ksi¹¿ka znika po przeczytaniu.
+50450	Przewodnik Truj¹cego Strza³u	U¿ywany do opanowania umiejêtnoœci Truj¹cego Strza³u. Ksi¹¿ka znika po przeczytaniu.
+50451	Ksiêga Iskry	 U¿ywana do pomyœlnego ukoñczenia zadania Iskra. Ksi¹¿ka znika po przeczytaniu.
+50461	Przewodnik Uderzenia Palca	 U¿ywany do opanowania umiejêtnoœci Uderzenia Palca. Ksi¹¿ka znika po przeczytaniu.
+50462	Przewodnik Przemiany Smoka	 U¿ywany do opanowania umiejêtnoœci Przemiany Smoka. Ksi¹¿ka znika po przeczytaniu.
+50463	Przewodnik Magicznej Ostrzoœci	 U¿ywany do opanowania umiejêtnoœci Magicznej Ostrzoœci. Ksi¹¿ka znika po przeczytaniu.
+50464	Przewodnik Terroru	 U¿ywany do opanowania umiejêtnoœci Terroru. Ksi¹¿ka znika po przeczytaniu.
+50465	Przewodnik Magicznej Zbroi	 U¿ywany do opanowania umiejêtnoœci Magicznej Zbroi. Ksi¹¿ka znika po przeczytaniu.
+50466	Przewodnik Rozproszenia Magii	U¿ywany do opanowania umiejêtnoœci Rozproszenia Magii. Ksi¹¿ka znika po przeczytaniu.
+50476	Przewodnik Ciemnego Uderzenia	U¿ywany do opanowania umiejêtnoœci Ciemnego Uderzenia. Ksi¹¿ka znika po przeczytaniu.
+50477	Przewodnik Ognistego Uderzenia	U¿ywany do opanowania umiejêtnoœci Ognistego Uderzenia. Ksi¹¿ka znika po przeczytaniu.
+50478	Przewodnik Ognistego Widma	 U¿ywany do opanowania umiejêtnoœci Ognistego Widma. Ksi¹¿ka znika po przeczytaniu.
+50479	Przewodnik Ciemnej Ochrony	U¿ywany do opanowania umiejêtnoœci Ciemnej Ochrony. Ksi¹¿ka znika po przeczytaniu.
+50480	Przewodnik Uderzenia Duchów	U¿ywany do opanowania umiejêtnoœci Uderzenia Duchów. Ksi¹¿ka znika po przeczytaniu.
+50481	Przewodnik Ciemnej Kuli	U¿ywany do opanowania umiejêtnoœci Ciemnej Kuli. Ksi¹¿ka znika po przeczytaniu.
+50491	Przewodnik Lataj¹cego Talizmanu	 U¿ywany do opanowania umiejêtnoœci Lataj¹cego Talizmanu. Ksi¹¿ka znika po przeczytaniu.
+50492	Ksiêga Uderzenia Smoka	 Ta ksi¹¿ka umo¿liwia opanowanie umiejêtnoœci Uderzenia Smoka. Ksi¹¿ka znika po przeczytaniu.
+50493	Przewodnik Ryku Smoka	 U¿ywany do opanowania umiejêtnoœci Ryku Smoka. Ksi¹¿ka znika po przeczytaniu.
+50494	Przewodnik B³ogos³awieñstwa	 U¿ywany do opanowania umiejêtnoœci B³ogos³awieñstwa. Ksi¹¿ka znika po przeczytaniu.
+50495	Przewodnik Odbicia	 U¿ywany do opanowania umiejêtnoœci Odbicia. Ksi¹¿ka znika po przeczytaniu.
+50496	Ksiêga Pomocy Smoka	 U¿ywana do pomyœlnego ukoñczenia zadania Pomoc Smoka. Ksi¹¿ka znika po przeczytaniu.
+50506	Przewodnik Rzutu B³yskawicznego	 U¿ywany do opanowania umiejêtnoœci Rzutu B³yskawicznego. Ksi¹¿ka znika po przeczytaniu.
+50507	Przewodnik Przywo³ania B³yskawicy	 U¿ywany do opanowania umiejêtnoœci Przywo³ania B³yskawicy. Ksi¹¿ka znika po przeczytaniu.
+50508	Przewodnik Pazura B³yskawicy	 U¿ywany do opanowania umiejêtnoœci Pazura B³yskawicy. Ksi¹¿ka znika po przeczytaniu.
+50509	Przewodnik Leczenia	 U¿ywany do opanowania umiejêtnoœci Leczenia. Ksi¹¿ka znika po przeczytaniu.
+50510	Przewodnik Prêdkoœci	 U¿ywany do opanowania umiejêtnoœci Prêdkoœci. Ksi¹¿ka znika po przeczytaniu.
+50511	Przewodnik Wysokiego Ataku	 U¿ywany do opanowania umiejêtnoœci Wysokiego Ataku. Ksi¹¿ka znika po przeczytaniu.
+50513	Kamieñ Dusz	 Legendarny kamieñ wzmacniaj¹cy umiejêtnoœci Wielkiego Mistrza. Znika po u¿yciu.
+
+18900	Fragment Drzewa Skamienia³ego	Kawa³ek meteorytu, który nadaje u¿ytkownikowi dodatkow¹ moc. Mo¿e zostaæ dodany do pasków.
+918900	Fragment Drzewa Skamienia³ego	Kawa³ek meteorytu, który nadaje u¿ytkownikowi dodatkow¹ moc. Mo¿e zostaæ dodany do pasków.
+
+50621	Diament	Wykorzystywany do odblokowywania miejsc na klejnoty w cennych akcesoriach.
+50623	Fragment Drzewa Skamienia³ego	Cenny drewniany materia³, który zwiêksza trwa³oœæ akcesoriów. Mo¿e byæ dodany do drewnianych akcesoriów.
+50624	MiedŸ	Czasami u¿ywana do produkcji br¹zu i monet. Mo¿e byæ dodana do miedzianych akcesoriów.
+50625	Srebro	B³yszcz¹cy szlachetny metal u¿ywany do produkcji bi¿uterii. Mo¿e byæ dodane do srebrnych akcesoriów.
+50626	Z³oto	Wykorzystywane do produkcji bi¿uterii. Mo¿e byæ dodane do z³otych akcesoriów.
+50627	Kamieñ Jadeitowy	Cenny minera³ u¿ywany od ponad 5000 lat. Mo¿e byæ dodany do akcesoriów z kamieniem jadeitowym.
+50628	Heban	Najjaœniejsze i najsilniejsze z drewna. Mo¿e byæ dodany do akcesoriów z hebanu.
+50629	Per³a	B³yszcz¹ca elegancko, klejnot mórz. Mo¿e byæ dodana do per³owych akcesoriów.
+50630	Bia³e Z³oto	Trwa³a bi¿uteria z bia³ego z³ota. Mo¿e byæ dodane do akcesoriów z bia³ego z³ota.
+50631	Kryszta³	Ró¿nokolorowy kryszta³ kwarcu. Mo¿e byæ dodany do kryszta³owych akcesoriów.
+50632	Ametyst	Purpurowy kryszta³ kwarcu. Mo¿e byæ dodany do ametystowych akcesoriów.
+50633	£za Nieba	Krystalizowana kropla spad³a z nieba. Mo¿e byæ dodana do akcesoriów ze £z¹ Nieba.
+50634	Krystal Duszy	Ten kryszta³ jest czysty jak dusza. Mo¿e byæ dodany do akcesoriów z Krystal Duszy.
+50635	Szafir	Starannie rzeŸbiony czerwony kamieñ szlachetny. Mo¿e byæ dodany do akcesoriów ze szafirem.
+50636	Granat	Starannie rzeŸbiony pomarañczowy kamieñ szlachetny. Mo¿e byæ dodany do akcesoriów z granatem.
+50637	Szmaragd	Starannie rzeŸbiony zielony kamieñ szlachetny. Mo¿e byæ dodany do akcesoriów ze szmaragdem.
+50638	Sapfir	Starannie rzeŸbiony niebieski kamieñ szlachetny. Mo¿e byæ dodany do akcesoriów ze szafirem.
+50639	Turmalin	Ten klejnot, mieni¹cy siê barwami têczy, oczarowuje wzrok. Mo¿e byæ dodany do akcesoriów z turmalinem.
+50640	Czarny Smok	Zawiera energiê mrocznego zaklêcia, które przyciemnia oczy. Mo¿e byæ dodany do akcesoriów z Czarnym Smokiem.
+50641	Kyanit	Starannie rzeŸbiony fioletowy kamieñ szlachetny. Mo¿e byæ dodany do akcesoriów z kyanitem.
+950623	Fragment Drzewa Skamienia³ego	Cenny, trwa³y materia³ drewniany, który zwiêksza trwa³oœæ akcesoriów. Mo¿e byæ dodany do drewnianych akcesoriów.
+950624	MiedŸ	Czasami u¿ywana do trwa³ego tworzenia br¹zu i monet. Mo¿e byæ dodana do miedzianych akcesoriów.
+950625	Srebro	Trwa³y, b³yszcz¹cy szlachetny metal u¿ywany do produkcji bi¿uterii. Mo¿e byæ dodane do srebrnych akcesoriów.
+950626	Z³oto	Wykorzystywane do trwa³ej produkcji bi¿uterii. Mo¿e byæ dodane do z³otych akcesoriów.
+950627	Kamieñ Jadeitowy	Cenny, trwa³y minera³ u¿ywany od ponad 5000 lat. Mo¿e byæ dodany do akcesoriów z kamieniem jadeitowym.
+950628	Heban	Najjaœniejsze i najsilniejsze z drewna, trwale. Mo¿e byæ dodany do akcesoriów z hebanu.
+950629	Per³a	B³yszcz¹ca elegancko, klejnot mórz, trwale. Mo¿e byæ dodana do per³owych akcesoriów.
+950630	Bia³e Z³oto	Trwa³a bi¿uteria z bia³ego z³ota, trwale. Mo¿e byæ dodane do akcesoriów z bia³ego z³ota.
+950631	Kryszta³	Ró¿nokolorowy trwa³y kryszta³ kwarcu. Mo¿e byæ dodany do kryszta³owych akcesoriów.
+950632	Ametyst	Trwa³y, fioletowy kryszta³ kwarcu. Mo¿e byæ dodany do ametystowych akcesoriów.
+950633	£za Nieba	Trwa³a krystalizowana kropla spad³a z nieba. Mo¿e byæ dodana do akcesoriów ze £z¹ Nieba.
+950634	Krystal Duszy	Ten trwa³y kryszta³ jest czysty jak dusza. Mo¿e byæ dodany do akcesoriów z Krystal Duszy.
+950635	Szafir	Starannie rzeŸbiony trwa³y czerwony kamieñ szlachetny. Mo¿e byæ dodany do akcesoriów ze szafirem.
+950636	Granat	Starannie rzeŸbiony trwa³y pomarañczowy kamieñ szlachetny. Mo¿e byæ dodany do akcesoriów z granatem.
+950637	Szmaragd	Starannie rzeŸbiony trwa³y zielony kamieñ szlachetny. Mo¿e byæ dodany do akcesoriów ze szmaragdem.
+950638	Sapfir	Starannie rzeŸbiony trwa³y niebieski kamieñ szlachetny. Mo¿e byæ dodany do akcesoriów ze szafirem.
+950639	Turmalin	Ten trwa³y klejnot, mieni¹cy siê barwami têczy, oczarowuje wzrok. Mo¿e byæ dodany do akcesoriów z turmalinem.
+950640	Czarny Smok	Zawiera energiê mrocznego zaklêcia, które przyciemnia oczy, trwale. Mo¿e byæ dodany do akcesoriów z Czarnym Smokiem.
+950641	Kyanit	Starannie rzeŸbiony trwa³y fioletowy kamieñ szlachetny. Mo¿e byæ dodany do akcesoriów z kyanitem.
+51511	Kor Draconis Diament	Bia³y Kor Draconis. Zawiera losowy diament smoka.
+51512	Kor Draconis Rubin	Czerwony Kor Draconis. Zawiera losowy rubin smoka.
+51513	Kor Draconis Jadeit	Zielony Kor Draconis. Zawiera losowy jadeit smoka.
+51514	Kor Draconis Szafir	Niebieski Kor Draconis. Zawiera losowy szafir smoka.
+51515	Kor Draconis Granat	Pomarañczowy Kor Draconis. Zawiera losowy granat smoka.
+51516	Kor Draconis Atrum	Czarny Kor Draconis. Zawiera losowy onyks smoka.
+55003	Ksiêga M³odego Peta	Z t¹ ksi¹¿k¹ mo¿esz podnieœæ poziom swojego peta o jeden poziom (Dziki).
+55004	Ksiêga Dzikiego Peta	Z t¹ ksi¹¿k¹ mo¿esz podnieœæ poziom swojego peta o jeden poziom (Odwa¿ny).
+55005	Ksiêga Odwa¿nego Peta	Z t¹ ksi¹¿k¹ mo¿esz podnieœæ poziom swojego peta o jeden poziom (Bohaterski).
+
+55401	Jajko Ma³py	Jeœli chcesz, aby twój pupil wyklu³ siê z jajka, kliknij prawym przyciskiem myszy na jajko.
+55701	Ma³a Ma³pka	Zawo³aj swojego pupila, klikaj¹c prawym przyciskiem myszy, a nastêpnie otwórz interfejs u¿ytkownika pupila klawiszem P.
+
+70005	Pierœcieñ Doœwiadczenia (1 godz.)	Zwiêksza zdobywane doœwiadczenie o 50% przez 60 minut. Mo¿e byæ u¿ywany poni¿ej poziomu 90.
+970005	Pierœcieñ Doœwiadczenia (1 godz.)	Zwiêksza zdobywane doœwiadczenie o 50% przez 60 minut. Mo¿e byæ u¿ywany na poziomie 90 i wy¿szym.
+
+70038	P³aszcz Odwagi	Prawdziwi wojownicy przyci¹gaj¹ uwagê wszystkich istot swoimi kolorowymi p³aszczami, dowodz¹c tym swojego bohaterstwa.
+70039	Przewodnik Kowala	Ksi¹¿ka zawieraj¹ca dusze staro¿ytnych kowali. Po u¿yciu zwiêksza szansê na powodzenie ulepszeñ. Mo¿e byæ u¿ywany na przedmiotach na poziomie 90 i wy¿szym.
+
+70043	Rêkawice Z³odzieja	Podwaja szansê na zdobycie przedmiotów. Mo¿e byæ u¿ywane poni¿ej poziomu 90.
+970043	Rêkawice Z³odzieja	Podwaja szansê na zdobycie przedmiotów. Mo¿e byæ u¿ywane na poziomie 90 i wy¿szym.
+
+70102	Zen Bean	Zmniejsza z³e rankingi.
+
+71001	Papier Egzorcyzmu	Jeœli nauka zawiedzie, chroni przed kl¹tw¹ z³ych duchów.
+71002	Papier Resetu Statystyk	Resetuje punkty statusu, pozwalaj¹c na rozwiniêcie postaci w innym kierunku.
+71054	Znak Królestw	Pozwala postaci uciec do innego królestwa, zmieniaj¹c królestwa.
+
+71032	Pergamin Smoka	Jeœli ulepszenie siê nie powiedzie, jakoœæ przedmiotu spada o jeden poziom. Zwiêksza te¿ szansê na ulepszenie o 10%. Mo¿e byæ u¿ywany na przedmiotach poni¿ej poziomu 90.
+70058	Pierœcieñ Teleportacyjny	Ten pierœcieñ teleportuje ciê w wybrane miejsce.
+
+72726	S³oneczna Esencja	Po u¿yciu znika z sekcji efektów w górnym lewym rogu, jest trwa³a i nieograniczona. Klikniêcie na efekt w³¹cza lub wy³¹cza go.
+72730	Ksiê¿ycowa Esencja	Po u¿yciu znika z sekcji efektów w górnym lewym rogu, jest trwa³a i nieograniczona. Klikniêcie na efekt w³¹cza lub wy³¹cza go.
+71107	Owoc ¯ycia	Zwiêksza punkty rankingowe o 2000.
+30629	Zegar Biologa	Resetuje czas oczekiwania na zebrane przedmioty badawcze, u³atwiaj¹c ich dostarczenie.
+71035	Esencja Badacza	Zwiêksza jakoœæ zebranych przedmiotów badawczych, u³atwiaj¹c ich akceptacjê.
+
+71083	Ksiêga Sztuki Kamienia	Usuwa z³amane kamienne przy³¹czenia, tworz¹c puste miejsca na przy³¹czenia.
+71084	Przedmiot Zaklêcia	Usuwa i zastêpuje bonusy z przedmiotu. Dotyczy tylko bonusów 1 do 5.
+71085	Papier Ulepszenia	Dodaje nowe bonusy do twoich posiadanych przedmiotów.
+
+71094	Porada Pustelnika	Podwaja szansê na poprawê zdolnoœci podczas czytania nastêpnej ksi¹¿ki (lub kamienia duszy).
+
+200221	£uska Smoka	Jednym z najintensywniejszych materia³ów s¹ ³uski smoka.
+200222	Pazur Smoka	Widok tego z³owrogiego pazura przywo³uje wspomnienia...
+71151	Zielone Zaklêcie	Usuwa i zastêpuje premie z przedmiotu. Dotyczy tylko zbroi i broni o poziomie 40 i ni¿szym.
+71153	Eliksir M¹droœci	Dziêki temu eliksirowi zdobêdziesz 100% wiêcej doœwiadczenia podczas jednogodzinnej sesji gry.
+71154	Eliksir Wzniesienia	Dziêki temu eliksirowi zdobêdziesz 100% wiêcej doœwiadczenia podczas jednogodzinnej sesji gry. Handel jest niedostêpny.
+
+72346	B³ogos³awieñstwo	Usuwa i zastêpuje bonusy z przedmiotu. Dotyczy bonusów 6 i 7 z niskim prawdopodobieñstwem.
+72351	Ma³e B³ogos³awieñstwo	Z niskim prawdopodobieñstwem zmienia 6. lub 7. bonus.
+79505	Karta Kolekcji Rummy	Zbierz 24 karty kolekcji Rummy, a nastêpnie kliknij prawym przyciskiem myszy, aby otrzymaæ zestaw kart Rummy.
+79506	Zestaw Kart Rummy	Z tym zestawem kart mo¿esz rozpocz¹æ grê w Rummy. Zestaw kart zostanie automatycznie usuniêty z twojego inwentarza po rozpoczêciu gry.
+79512	Karta Tarota	Zbierz 24 karty tarota, a nastêpnie kliknij prawym przyciskiem myszy, aby otrzymaæ zestaw kart tarota.
+79513	Zestaw Kart Tarota	Z tym zestawem kart mo¿esz rozpocz¹æ konkurs wró¿enia z tarota. Zestaw kart zostanie automatycznie usuniêty z twojego inwentarza po rozpoczêciu gry.
+79603	Karta Króla	Zbierz 25 kart króla, a nastêpnie kliknij prawym przyciskiem myszy, aby otrzymaæ talie króla.
+79604	Talia Króla	Z t¹ tali¹ kart mo¿esz rozpocz¹æ grê w Króla. Talia kart zostanie automatycznie usuniêta z twojego inwentarza po rozpoczêciu gry.
+
+80008	Fragment Z³ota	Nieprzetworzone z³oto. Mo¿e byæ sprzedane w sklepie po wysokiej cenie.
+80014	Kupon PD (100)	Kupon o wartoœci 100 Monet Smoka. Ten przedmiot mo¿na wymieniaæ.
+80015	Kupon PD (500)	Kupon o wartoœci 500 Monet Smoka. Ten przedmiot mo¿na wymieniaæ.
+80016	Kupon PD (1000)	Kupon o wartoœci 1000 Monet Smoka. Ten przedmiot mo¿na wymieniaæ.
+80017	Kupon PD (50)	Kupon o wartoœci 50 Monet Smoka. Ten przedmiot mo¿na wymieniaæ.
+80019	Delikatna Tkanina	Ten materia³ jest u¿ywany do produkcji pasów na ramiê.
+85001	Pasek Sêdziego (Prosty)	Ten pas absorbuje 1% bonusów z broni lub zbroi, które u¿ywasz.
+85002	Pasek Sêdziego (Dobry)	Ten pas absorbuje 5% bonusów z broni lub zbroi, które u¿ywasz.
+85003	Pasek Sêdziego (Szlachetny)	Ten pas absorbuje 10% bonusów z broni lub zbroi, które u¿ywasz.
+85004	Pasek Sêdziego (niestandardowy)	Ten pas absorbuje 11-25% bonusów z broni lub zbroi, które u¿ywasz.
+85005	Pasek Mistrza (Prosty)	Ten pas absorbuje 1% bonusów z broni lub zbroi, które u¿ywasz.
+85006	Pasek Mistrza (Dobry)	Ten pas absorbuje 5% bonusów z broni lub zbroi, które u¿ywasz.
+85007	Pasek Mistrza (Szlachetny)	Ten pas absorbuje 10% bonusów z broni lub zbroi, które u¿ywasz.
+85008	Pasek Mistrza (niestandardowy)	Ten pas absorbuje 11-25% bonusów z broni lub zbroi, które u¿ywasz.
+85011	Pasek Lorda (Prosty)	Ten pas absorbuje 1% bonusów z broni lub zbroi, które u¿ywasz.
+85012	Pasek Lorda (Dobry)	Ten pas absorbuje 5% bonusów z broni lub zbroi, które u¿ywasz.
+85013	Pasek Lorda (Szlachetny)	Ten pas absorbuje 10% bonusów z broni lub zbroi, które u¿ywasz.
+85014	Pasek Lorda (niestandardowy)	Ten pas absorbuje 11-25% bonusów z broni lub zbroi, które u¿ywasz.
+85015	Pasek Króla (Prosty)	Ten pas absorbuje 1% bonusów z broni lub zbroi, które u¿ywasz.
+85016	Pasek Króla (Dobry)	Ten pas absorbuje 5% bonusów z broni lub zbroi, które u¿ywasz.
+85017	Pasek Króla (Szlachetny)	Ten pas absorbuje 10% bonusów z broni lub zbroi, które u¿ywasz.
+85018	Pasek Króla (niestandardowy)	Ten pas absorbuje 11-25% bonusów z broni lub zbroi, które u¿ywasz.
+85021	Pasek Rocznicy (Prosty)	Ten pas absorbuje 1% bonusów z broni lub zbroi, które u¿ywasz.
+85022	Pasek Rocznicy (Dobry)	Ten pas absorbuje 5% bonusów z broni lub zbroi, które u¿ywasz.
+85023	Pasek Rocznicy (Szlachetny)	Ten pas absorbuje 10% bonusów z broni lub zbroi, które u¿ywasz.
+85024	Pasek Rocznicy (niestandardowy)	Ten pas absorbuje 11-25% bonusów z broni lub zbroi, które u¿ywasz.
+86001	Pasek Zi (Prosty)	Ten pas absorbuje 1% bonusów z broni lub zbroi, które u¿ywasz.
+86002	Pasek Zi (Dobry)	Ten pas absorbuje 5% bonusów z broni lub zbroi, które u¿ywasz.
+86003	Pasek Zi (Szlachetny)	Ten pas absorbuje 10% bonusów z broni lub zbroi, które u¿ywasz.
+86004	Pasek Zi (niestandardowy)	Ten pas absorbuje 11-25% bonusów z broni lub zbroi, które u¿ywasz.
+86005	Pasek Chou (Prosty)	Ten pas absorbuje 1% bonusów z broni lub zbroi, które u¿ywasz.
+86006	Pasek Chou (Dobry)	Ten pas absorbuje 5% bonusów z broni lub zbroi, które u¿ywasz.
+86007	Pasek Chou (Szlachetny)	Ten pas absorbuje 10% bonusów z broni lub zbroi, które u¿ywasz.
+86008	Pasek Chou (niestandardowy)	Ten pas absorbuje 11-25% bonusów z broni lub zbroi, które u¿ywasz.
+86011	Pasek Yin (Prosty)	Ten pas absorbuje 1% bonusów z broni lub zbroi, które u¿ywasz.
+86012	Pasek Yin (Dobry)	Ten pas absorbuje 5% bonusów z broni lub zbroi, które u¿ywasz.
+86013	Pasek Yin (Szlachetny)	Ten pas absorbuje 10% bonusów z broni lub zbroi, które u¿ywasz.
+86014	Pasek Yin (niestandardowy)	Ten pas absorbuje 11-25% bonusów z broni lub zbroi, które u¿ywasz.
+86015	Pasek Mao (Prosty)	Ten pas absorbuje 1% bonusów z broni lub zbroi, które u¿ywasz.
+86016	Pasek Mao (Dobry)	Ten pas absorbuje 5% bonusów z broni lub zbroi, które u¿ywasz.
+86017	Pasek Mao (Szlachetny)	Ten pas absorbuje 10% bonusów z broni lub zbroi, które u¿ywasz.
+86018	Pasek Mao (niestandardowy)	Ten pas absorbuje 11-25% bonusów z broni lub zbroi, które u¿ywasz.
+86021	Pasek Chen (Prosty)	Ten pas absorbuje 1% bonusów z broni lub zbroi, które u¿ywasz.
+86022	Pasek Chen (Dobry)	Ten pas absorbuje 5% bonusów z broni lub zbroi, które u¿ywasz.
+86023	Pasek Chen (Szlachetny)	Ten pas absorbuje 10% bonusów z broni lub zbroi, które u¿ywasz.
+86024	Pasek Chen (niestandardowy)	Ten pas absorbuje 11-25% bonusów z broni lub zbroi, które u¿ywasz.
+86025	Pasek Si (Prosty)	Ten pas absorbuje 1% bonusów z broni lub zbroi, które u¿ywasz.
+86026	Pasek Si (Dobry)	Ten pas absorbuje 5% bonusów z broni lub zbroi, które u¿ywasz.
+86027	Pasek Si (Szlachetny)	Ten pas absorbuje 10% bonusów z broni lub zbroi, które u¿ywasz.
+86028	Pasek Si (niestandardowy)	Ten pas absorbuje 11-25% bonusów z broni lub zbroi, które u¿ywasz.
+86031	Pasek Wu (Prosty)	Ten pas absorbuje 1% bonusów z broni lub zbroi, które u¿ywasz.
+86032	Pasek Wu (Dobry)	Ten pas absorbuje 5% bonusów z broni lub zbroi, które u¿ywasz.
+86033	Pasek Wu (Szlachetny)	Ten pas absorbuje 10% bonusów z broni lub zbroi, które u¿ywasz.
+86034	Pasek Wu (niestandardowy)	Ten pas absorbuje 11-25% bonusów z broni lub zbroi, które u¿ywasz.
+86035	Pasek Wei (Prosty)	Ten pas absorbuje 1% bonusów z broni lub zbroi, które u¿ywasz.
+86036	Pasek Wei (Dobry)	Ten pas absorbuje 5% bonusów z broni lub zbroi, które u¿ywasz.
+86037	Pasek Wei (Szlachetny)	Ten pas absorbuje 10% bonusów z broni lub zbroi, które u¿ywasz.
+86038	Pasek Wei (niestandardowy)	Ten pas absorbuje 11-25% bonusów z broni lub zbroi, które u¿ywasz.
+86041	Pasek Shen (Prosty)	Ten pas absorbuje 1% bonusów z broni lub zbroi, które u¿ywasz.
+86042	Pasek Shen (Dobry)	Ten pas absorbuje 5% bonusów z broni lub zbroi, które u¿ywasz.
+86043	Pasek Shen (Szlachetny)	Ten pas absorbuje 10% bonusów z broni lub zbroi, które u¿ywasz.
+86044	Pasek Shen (niestandardowy)	Ten pas absorbuje 11-25% bonusów z broni lub zbroi, które u¿ywasz.
+86045	Pasek Yu (Prosty)	Ten pas absorbuje 1% bonusów z broni lub zbroi, które u¿ywasz.
+86046	Pasek Yu (Dobry)	Ten pas absorbuje 5% bonusów z broni lub zbroi, które u¿ywasz.
+86047	Pasek Yu (Szlachetny)	Ten pas absorbuje 10% bonusów z broni lub zbroi, które u¿ywasz.
+86048	Pasek Yu (niestandardowy)	Ten pas absorbuje 11-25% bonusów z broni lub zbroi, które u¿ywasz.
+86051	Pasek Xu (Prosty)	Ten pas absorbuje 1% bonusów z broni lub zbroi, które u¿ywasz.
+86052	Pasek Xu (Dobry)	Ten pas absorbuje 5% bonusów z broni lub zbroi, które u¿ywasz.
+86053	Pasek Xu (Szlachetny)	Ten pas absorbuje 10% bonusów z broni lub zbroi, które u¿ywasz.
+86054	Pasek Xu (niestandardowy)	Ten pas absorbuje 11-25% bonusów z broni lub zbroi, które u¿ywasz.
+86055	Pasek Hai (Prosty)	Ten pas absorbuje 1% bonusów z broni lub zbroi, które u¿ywasz.
+86056	Pasek Hai (Dobry)	Ten pas absorbuje 5% bonusów z broni lub zbroi, które u¿ywasz.
+86057	Pasek Hai (Szlachetny)	Ten pas absorbuje 10% bonusów z broni lub zbroi, które u¿ywasz.
+86058	Pasek Hai (niestandardowy)	Ten pas absorbuje 11-25% bonusów z broni lub zbroi, które u¿ywasz.
+86061	Pasek Heart (Prosty)	Ten pas absorbuje 1% bonusów z broni lub zbroi, które u¿ywasz.
+86062	Pasek Heart (Dobry)	Ten pas absorbuje 5% bonusów z broni lub zbroi, które u¿ywasz.
+86063	Pasek Heart (Szlachetny)	Ten pas absorbuje 10% bonusów z broni lub zbroi, które u¿ywasz.
+86064	Pasek Heart (niestandardowy)	Ten pas absorbuje 11-25% bonusów z broni lub zbroi, które u¿ywasz.
+100002	Olejek Czasowy (B)	Odnowienie czasu trwania Kamienia Smoka.	6 godzin
+
+100300	Zielona Magiczna Fasola	Te magiczne fasolki zwiêkszaj¹ poziom Kamienia Smoka. Proces wzmocnienia mo¿e siê nie powieœæ.
+100400	Niebieska Magiczna Fasola	Szansa na pomyœlne podniesienie poziomu Kamienia Smoka o jeden stopieñ jest wy¿sza o 5%.
+100500	Ró¿owa Magiczna Fasola	Szansa na pomyœlne podniesienie poziomu Kamienia Smoka o jeden stopieñ jest wy¿sza o 10%.
+
+93100	Przebieg Bitwy		Ten przedmiot aktywuje zadania sezonowe z wieloma nagrodami.
+
+200000	Skrzynia ze Zwojami Umiejêtnoœci		Zawiera zwoje umiejêtnoœci do poprawy zdolnoœci.
+200001	Skrzynia ze Zwojami Umiejêtnoœci Fizycznych		Zawiera zwoje umiejêtnoœci do poprawy zdolnoœci fizycznych.
+200002	Skrzynia ze Zwojami Umiejêtnoœci Mentalnych		Zawiera zwoje umiejêtnoœci do poprawy zdolnoœci mentalnych.
+200003	Skrzynia ze Zwojami Umiejêtnoœci Cia³a		Zawiera zwoje umiejêtnoœci do poprawy zdolnoœci cia³a.
+200004	Skrzynia ze Zwojami Umiejêtnoœci na Odleg³oœæ		Zawiera zwoje umiejêtnoœci do poprawy zdolnoœci na odleg³oœæ.
+200005	Skrzynia ze Zwojami Umiejêtnoœci do Broni Magicznej		Zawiera zwoje umiejêtnoœci do poprawy zdolnoœci broni magicznej.
+200006	Skrzynia ze Zwojami Mrocznej Magii		Zawiera zwoje umiejêtnoœci do poprawy zdolnoœci mrocznej magii.
+200007	Skrzynia ze Zwojami Mocy Smoka		Zawiera zwoje umiejêtnoœci do poprawy zdolnoœci mocy smoka.
+200008	Skrzynia ze Zwojami Uzdrowienia		Zawiera zwoje umiejêtnoœci do poprawy zdolnoœci uzdrowienia.
+200009	Skrzynia Treningowa		Zawiera przedmioty pomocnicze do poprawy umiejêtnoœci.
+200011	Skrzynia Cor Draconis		Zawiera materia³y alchemiczne Kamienia Smoka.
+200012	Skrzynia Skarbów		Zawiera bardzo cenne materia³y.
+200013	Skrzynia przedmiotów Zaklêcia (10k)		Zawiera 10 000 przedmiotów zaklêcia.
+200014	Ostryga		Mo¿e zawieraæ per³y lub fragmenty kamieni.
+200015	Z³ota Ostryga		Mo¿e zawieraæ kolorowe per³y lub fragmenty kamieni.
+200016	Z³ota Skrzynia Ryb (Zwyk³a)		Zawiera zwyk³e ryby.
+200017	Z³ota Skrzynia Ryb (Rzadka)		Zawiera wyj¹tkowo rzadkie ryby.
+200018	Skrzynia ze Zwojami Umiejêtnoœci Pasywnych		Zawiera zwoje umiejêtnoœci do poprawy zdolnoœci pasywnych.
+200019	Skrzynia Elysium		Zawiera bardzo cenne materia³y.
+200020	Legendarne Skrzynia Cor		Zawiera materia³y alchemiczne Kamienia Smoka legendarnego stopnia.
+200021	Skrzynia Ksi¹¿ek o P³aszczkach		Zawiera ksi¹¿ki umiejêtnoœci dla p³aszczków.
+200022	Skrzynia Ulepszeñ		Zawiera materia³y ulepszania œredniego poziomu.
+200023	Zaawansowana Skrzynia Ulepszeñ	Zawiera materia³y ulepszania wysokiego poziomu.
+200200	Szafirowy Kryszta³	Wspólny kryszta³ wykonany ze szmaragdu. U¿ywany do kraftowania i udoskonalania ekwipunku.
+200202	Szafirowy Kryszta³	Rzadki kryszta³ wykonany z szmaragdu. U¿ywany do kraftowania i udoskonalania ekwipunku.
+200204	Szafirowy Kryszta³	Rzadki kryszta³ wykonany z rubinu. U¿ywany do kraftowania i udoskonalania ekwipunku.
+200206	Pergamin Lochów (Niski)	Pozwala na zakup biletów do lochów niskiego poziomu.
+200207	Pergamin Lochów (Œredni)	Pozwala na zakup biletów do lochów œredniego poziomu.
+200208	Pergamin Lochów (Wysoki)	Pozwala na zakup biletów do lochów wysokiego poziomu.
+200209	Kupon na Ekwipunek	Pierwsza szablonu u¿ywana przez staro¿ytnego mistrza w kraftowaniu ekwipunku. U¿ywana do pierwszych zakupów, kraftowania i udoskonalania ekwipunku.
+200210	Dolina Monet	Moneta u¿ywana w staro¿ytnoœci. Zazwyczaj u¿ywana do handlu z NPC i kraftowania ekwipunku.
+200211	Kamieñ Udoskonalenia Kilofa	Tajemniczy czarny kamieñ. U¿ywany do udoskonalania kilofów.
+200212	Kamieñ Udoskonalenia Wêdki	Z³amany kawa³ek wêdki. U¿ywany do udoskonalania wêdek.
+200213	Fragment Rudy (Niski)	Wspólny fragment rudy uzyskany poprzez wydobycie. U¿ywany podczas zakupu rud niskiego poziomu od Kupca Rudy.
+200214	Fragment Rudy (Wysoki)	Rzadki fragment rudy uzyskany poprzez wydobycie. U¿ywany podczas zakupu rud wysokiego poziomu od Kupca Rudy.
+200215	Moneta Elysium	Rzadka waluta ekskluzywna dla Elysium. Mo¿e byæ u¿ywana do zakupu przedmiotów zwiêkszaj¹cych twoj¹ moc na Elysium Market.
+200216	Mlecznik	Œwie¿y i ¿ó³ty kwiat, który przynosi uczucie wiosny. U¿ywany do zakupu esencji zió³ u Huahn-So.
+200217	Pergamin Biologa	Staro¿ytny pergamin u¿ywany do zakupu materia³ów biologa od Biologa Chaegirab.
+200218	Moneta Rzemios³a	Srebrna moneta u¿ywana w udoskonalaniu i kraftowaniu ekwipunku. U¿ywana w kraftowaniu i udoskonalaniu ekwipunku.
+200221	Skala Smoka	Skale smoka s¹ jednym z najpotê¿niejszych znanych materia³ów. U¿ywane do kraftowania i udoskonalania ekwipunku.
+200222	Pazur Smoka	Ch³odny w dotyku, ten pazur wywo³uje wspomnienia... U¿ywany do kraftowania i udoskonalania ekwipunku.
+200223	Kamieñ P³omienia	Skrystalizowana esencja p³omienia i magmy. U¿ywany do kraftowania i udoskonalania ekwipunku.
+200224	Kamieñ P³omienia Lodowego	Skrystalizowana esencja zimna i lodu. U¿ywany do kraftowania i udoskonalania ekwipunku.
+200225	Mitrylit	Zosta³ tylko ma³y fragment spad³ej meteorytu. U¿ywany do udoskonalania ekwipunku.
+200226	Dwutlenek tytanu	Kryszta³ o pryzmatycznym zabarwieniu. U¿ywany do udoskonalania ekwipunku.
+200227	Agat	Tajemniczy minera³, który iskrzy jak gwiazdy na ciemnoœci. U¿ywany do udoskonalania ekwipunku.
+200228	Kamieñ Ksiê¿ycowy	Precyzyjnie wykrojony kamieñ w kszta³cie kropli, trzymaj¹cy iskierkê œwiat³a ksiê¿yca. U¿ywany do udoskonalania ekwipunku.
+200229	Szablon Akcesoriów Zielonych	Staro¿ytny szablon u¿ywany przez mistrza do kraftowania akcesoriów. U¿ywany do kraftowania ekwipunku.
+200230	Ciê¿kie Paski	Przylegaj¹cy cienki sznur. U¿ywany do kraftowania ekwipunku.
+200231	Szablon Ekwipunku Zielonego	Staro¿ytny szablon u¿ywany przez mistrza do kraftowania ekwipunku. U¿ywany do kraftowania ekwipunku.
+200232	Mocne Nici	Przylegaj¹cy gruby sznur. U¿ywany do kraftowania ekwipunku.
+200233	Magiczny Kamieñ Trolla	Krystalicznie przesycony moc¹ Magicznego Trolla. U¿ywany do kraftowania i udoskonalania ekwipunku.
+200234	Kamieñ Trolla Magicznego	Kamieñ zawieraj¹cy wspomnienia Magicznego Trolla. U¿ywany do kraftowania i udoskonalania ekwipunku.
+200235	Skrzyd³o Królowej Meley	Skrzyd³o Królowej Meley. U¿ywane do kraftowania i udoskonalania ekwipunku.
+200236	Róg Florauna	Z³amany róg Florauna. U¿ywany do kraftowania i udoskonalania ekwipunku.
+200237	Szablon Zbroi Zodiaku	Staro¿ytny szablon u¿ywany przez mistrza do kraftowania zbroi zodiaku. U¿ywany do kraftowania i udoskonalania ekwipunku.
+200238	Szablon Broni Zodiaku	Staro¿ytny szablon u¿ywany przez mistrza do kraftowania broni zodiaku. U¿ywany do kraftowania i udoskonalania ekwipunku.
+200239	Szablon Akcesoriów Zodiaku	Staro¿ytny szablon u¿ywany przez mistrza do kraftowania akcesoriów zodiaku. U¿ywany do kraftowania i udoskonalania ekwipunku.
+200240	Serce Alastora	Serce Alastora pokryte lodem. U¿ywane do kraftowania i udoskonalania ekwipunku.
+200241	Kryszta³ Atlantis	ród³o boskiej mocy Posejdona. U¿ywany do kraftowania i udoskonalania ekwipunku.
+200242	Ogon Skorpiona	Przeciêty ogon Króla Skorpionów. U¿ywany do kraftowania i udoskonalania ekwipunku.
+200243	Czaszka Smoka	Czaszka odciêtego Szkieletowego Smoka. U¿ywana do kraftowania i udoskonalania ekwipunku.
+200244	Szablon Zbroi Ciemnego Smoka	Staro¿ytny szablon u¿ywany przez mistrza do kraftowania zbroi ciemnego smoka. U¿ywany do kraftowania i udoskonalania ekwipunku.
+200245	Szablon Broni Ciemnego Smoka	Staro¿ytny szablon u¿ywany przez mistrza do kraftowania broni ciemnego smoka. U¿ywany do kraftowania i udoskonalania ekwipunku.
+200246	Szablon Akcesoriów Ciemnego Smoka	Staro¿ytny szablon u¿ywany przez mistrza do kraftowania akcesoriów ciemnego smoka. U¿ywany do kraftowania i udoskonalania ekwipunku.
+200265	Zielona Per³a	Zielona per³a. U¿ywana do udoskonalania ekwipunku.
+200266	Ró¿owa Per³a	Ró¿owa per³a. U¿ywana do udoskonalania ekwipunku.
+200267	Z³ota Per³a	Z³ota per³a. U¿ywana do udoskonalania ekwipunku.
+200268	Migocz¹ca Per³a	Per³a, która olœniewa swoim blaskiem. U¿ywana do udoskonalania ekwipunku.
+200269	Marynarska Per³a	Marynarska per³a. U¿ywana do udoskonalania ekwipunku.
+200270	Fioletowa Per³a	Fioletowa per³a. U¿ywana do udoskonalania ekwipunku.
+200271	Czarna Per³a	Czarna per³a o mrocznym, hipnotyzuj¹cym kolorze. U¿ywana do udoskonalania ekwipunku.
+200272	Zielone Hafty	Zielone hafty. U¿ywane do udoskonalania ekwipunku.
+200273	Ró¿owe Hafty	Ró¿owe hafty. U¿ywane do udoskonalania ekwipunku.
+200274	Z³ote Hafty	Z³ote hafty. U¿ywane do udoskonalania ekwipunku.
+200275	Migocz¹ce Hafty	Hafty o olœniewaj¹cym kolorze. U¿ywane do udoskonalania ekwipunku.
+200276	Marynarskie Hafty	Marynarskie hafty. U¿ywane do udoskonalania ekwipunku.
+200277	Fioletowe Hafty	Fioletowe hafty. U¿ywane do udoskonalania ekwipunku.
+200278	Czarne Hafty	Czarne hafty. U¿ywane do udoskonalania ekwipunku.
+200279	Zielony Niæ	Zielona niæ. U¿ywana do udoskonalania ekwipunku.
+200280	Ró¿owa Niæ	Ró¿owa niæ. U¿ywana do udoskonalania ekwipunku.
+200281	Z³ota Niæ	Z³ota niæ. U¿ywana do udoskonalania ekwipunku.
+200282	Migocz¹ca Niæ	Niæ o olœniewaj¹cym kolorze. U¿ywana do udoskonalania ekwipunku.
+200283	Marynarska Niæ	Marynarska niæ. U¿ywana do udoskonalania ekwipunku.
+200284	Fioletowa Niæ	Fioletowa niæ. U¿ywana do udoskonalania ekwipunku.
+200285	Czarna Niæ	Czarna niæ. U¿ywana do udoskonalania ekwipunku.
+200286	Zielany Materia³	Zielany materia³. U¿ywany do udoskonalania ekwipunku.
+200287	Ró¿owy Materia³	Ró¿owy materia³. U¿ywany do udoskonalania ekwipunku.
+200288	Z³oty Materia³	Z³oty materia³. U¿ywany do udoskonalania ekwipunku.
+200289	Migocz¹cy Materia³	Materia³ o olœniewaj¹cym kolorze. U¿ywany do udoskonalania ekwipunku.
+200290	Marynarski Materia³	Marynarski materia³. U¿ywany do udoskonalania ekwipunku.
+200291	Fioletowy Materia³	Fioletowy materia³. U¿ywany do udoskonalania ekwipunku.
+200292	Czarny Materia³	Czarny materia³. U¿ywany do udoskonalania ekwipunku.
+200293	Zielona Farba	Zielona farba. U¿ywana do udoskonalania ekwipunku.
+200294	Ró¿owa Farba	Ró¿owa farba. U¿ywana do udoskonalania ekwipunku.
+200295	Z³ota Farba	Z³ota farba. U¿ywana do udoskonalania ekwipunku.
+200296	Migocz¹ca Farba	Farba o olœniewaj¹cym kolorze. U¿ywana do udoskonalania ekwipunku.
+200297	Marynarska Farba	Marynarska farba. U¿ywana do udoskonalania ekwipunku.
+200298	Fioletowa Farba	Fioletowa farba. U¿ywana do udoskonalania ekwipunku.
+200299	Czarna Farba	Czarna farba. U¿ywana do udoskonalania ekwipunku.
+
+55107	Otwieracz Slotu Umiejêtnoœci Zwierzaka	Z tym przedmiotem mo¿esz odblokowaæ kolejny slot umiejêtnoœci dla swojego zwierzaka.
+55120	Ksiêga M³odego Peta	Za pomoc¹ tej ksiêgi mo¿esz podnieœæ poziom swojego peta do nastêpnego etapu (Dziki).
+55121	Ksiêga Dzikiego Peta	Za pomoc¹ tej ksiêgi mo¿esz podnieœæ poziom swojego peta do nastêpnego etapu (Odwa¿ny).
+55122	Ksiêga Heroicznego Peta	Za pomoc¹ tej ksiêgi mo¿esz podnieœæ poziom swojego peta do nastêpnego etapu (Heroiczny).
+55125	Zmieniacz Typu Peta	Mo¿esz zmieniæ typ swojego peta przy u¿yciu tego przedmiotu.
+55127	PetrzeŸniacz Peta	Mo¿esz zmieniæ atrybuty swojego peta przy u¿yciu tego przedmiotu.
+55128	Gwiazdka Peta	Mo¿esz zwiêkszyæ poziom gwiazdki swojego peta przy u¿yciu tego przedmiotu.
+55130	Skóra Peta (Azrail)	Mo¿esz aktywowaæ wygl¹d swojego peta jako Azrail przy u¿yciu tego przedmiotu.
+55131	Skóra Peta (Baashido)	Mo¿esz aktywowaæ wygl¹d swojego peta jako Baashido przy u¿yciu tego przedmiotu.
+55132	Skóra Peta (Meley)	Mo¿esz aktywowaæ wygl¹d swojego peta jako Meley przy u¿yciu tego przedmiotu.
+55133	Skóra Peta (Alastor)	Mo¿esz aktywowaæ wygl¹d swojego peta jako Alastor przy u¿yciu tego przedmiotu.
+55134	Skóra Peta (Exedyar)	Mo¿esz aktywowaæ wygl¹d swojego peta jako Exedyar przy u¿yciu tego przedmiotu.
+55140	Zwiêkszacz EXP Peta	Mo¿esz zwiêkszyæ zdobywane doœwiadczenie przez swojego peta za pomoc¹ tej obr¹czki.
+55150	Ksiêga Peta (Wojownik)	Za pomoc¹ tej ksiêgi mo¿esz wzmocniæ zdolnoœæ oporu peta na Wojowników.
+55151	Ksiêga Peta (Sura)	Za pomoc¹ tej ksiêgi mo¿esz wzmocniæ zdolnoœæ oporu peta na Surê.
+55152	Ksiêga Peta (Ninja)	Za pomoc¹ tej ksiêgi mo¿esz wzmocniæ zdolnoœæ oporu peta na Ninja.
+55153	Ksiêga Peta (Szaman)	Za pomoc¹ tej ksiêgi mo¿esz wzmocniæ zdolnoœæ oporu peta na Szamana.
+55154	Ksiêga Peta (Berserker)	Za pomoc¹ tej ksiêgi mo¿esz wzmocniæ zdolnoœæ Berserka swojego peta.
+55155	Ksiêga Peta (Pó³cz³owiek)	Za pomoc¹ tej ksiêgi mo¿esz wzmocniæ zdolnoœæ Pó³cz³owieka swojego peta.
+55156	Ksiêga Peta (Przenikliwe Uderzenie)	Za pomoc¹ tej ksiêgi mo¿esz wzmocniæ zdolnoœæ Przenikliwego Uderzenia swojego peta.
+55157	Ksiêga Peta (Krytyczny Cios)	Za pomoc¹ tej ksiêgi mo¿esz wzmocniæ zdolnoœæ Krytycznego Ciosu swojego peta.
+55158	Ksiêga Peta (Wch³anianie HP)	Za pomoc¹ tej ksiêgi mo¿esz wzmocniæ zdolnoœæ Wch³aniania HP swojego peta.
+55159	Ksiêga Peta (Blokowanie)	Za pomoc¹ tej ksiêgi mo¿esz wzmocniæ zdolnoœæ Blokowania swojego peta.
+55160	Ksiêga Peta (Potwór)	Za pomoc¹ tej ksiêgi mo¿esz wzmocniæ zdolnoœæ Potwora swojego peta.
+55161	Ksiêga Peta (Metin)	Za pomoc¹ tej ksiêgi mo¿esz wzmocniæ zdolnoœæ Metinu swojego peta.
+55162	Ksiêga Peta (Boss)	Za pomoc¹ tej ksiêgi mo¿esz wzmocniæ zdolnoœæ Bossa swojego peta.
+55163	Ksiêga Peta (Obrona Przed Potworem)	Za pomoc¹ tej ksiêgi mo¿esz wzmocniæ zdolnoœæ Obrony przed Potworem swojego peta.
+55164	Ksiêga Peta (Upuszczenie Yang)	Za pomoc¹ tej ksiêgi mo¿esz wzmocniæ zdolnoœæ Upuszczania Yang swojego peta.
+
+37000	Premium U¿ytkownik (7 dni)	Po aktywacji zapewnia status premium przez 7 dni.
+37001	Premium U¿ytkownik (14 dni)	Po aktywacji zapewnia status premium przez 14 dni.
+37002	Premium U¿ytkownik (30 dni)	Po aktywacji zapewnia status premium przez 30 dni.
+37003	Premium U¿ytkownik (Na sta³e)	Po aktywacji zapewnia sta³y status premium.
+37004	Premium U¿ytkownik (7 dni)	Po aktywacji zapewnia status premium przez 7 dni.	Niemo¿liwy do wymiany.
+37005	Premium U¿ytkownik (14 dni)	Po aktywacji zapewnia status premium przez 14 dni.	Niemo¿liwy do wymiany.
+37006	Premium U¿ytkownik (30 dni)	Po aktywacji zapewnia status premium przez 30 dni.	Niemo¿liwy do wymiany.
+37007	Premium U¿ytkownik (Na sta³e)	Po aktywacji zapewnia sta³y status premium.	Niemo¿liwy do wymiany.
+37008	Premium Automatyczne Zbieranie (7 dni)	Po aktywacji umo¿liwia automatyczne zbieranie przedmiotów przez 7 dni.
+37009	Premium Automatyczne Zbieranie (14 dni)	Po aktywacji umo¿liwia automatyczne zbieranie przedmiotów przez 14 dni.
+37010	Premium Automatyczne Zbieranie (30 dni)	Po aktywacji umo¿liwia automatyczne zbieranie przedmiotów przez 30 dni.
+37011	Premium Automatyczne Zbieranie (Na sta³e)	Po aktywacji trwale umo¿liwia automatyczne zbieranie przedmiotów.
+37012	Premium Automatyczne Zbieranie (7 dni)	Po aktywacji umo¿liwia automatyczne zbieranie przedmiotów przez 7 dni.	Niemo¿liwy do wymiany.
+37013	Premium Automatyczne Zbieranie (14 dni)	Po aktywacji umo¿liwia automatyczne zbieranie przedmiotów przez 14 dni.	Niemo¿liwy do wymiany.
+37014	Premium Automatyczne Zbieranie (30 dni)	Po aktywacji umo¿liwia automatyczne zbieranie przedmiotów przez 30 dni.	Niemo¿liwy do wymiany.
+37015	Premium Automatyczne Zbieranie (Na sta³e)	Po aktywacji trwale umo¿liwia automatyczne zbieranie przedmiotów.	Niemo¿liwy do wymiany.
+
+37016	Premium Metin Marker (7 dni)	Po aktywacji zwiêksza liczbê oznaczonych metinów do 6 na 7 dni.
+37017	Premium Metin Marker (14 dni)	Po aktywacji zwiêksza liczbê oznaczonych metinów do 6 na 14 dni.
+37018	Premium Metin Marker (30 dni)	Po aktywacji zwiêksza liczbê oznaczonych metinów do 6 na 30 dni.
+37019	Premium Metin Marker (Sta³y)	Po aktywacji na sta³e zwiêksza liczbê oznaczonych metinów do 6.
+37020	Premium Metin Marker (7 dni)	Po aktywacji zwiêksza liczbê oznaczonych metinów do 6 na 7 dni.	Nie do wymiany.
+37021	Premium Metin Marker (14 dni)	Po aktywacji zwiêksza liczbê oznaczonych metinów do 6 na 14 dni.	Nie do wymiany.
+37022	Premium Metin Marker (30 dni)	Po aktywacji zwiêksza liczbê oznaczonych metinów do 6 na 30 dni.	Nie do wymiany.
+37023	Premium Metin Marker (Sta³y)	Po aktywacji na sta³e zwiêksza liczbê oznaczonych metinów do 6.	Nie do wymiany.
+
+24050	Etykieta na Imiê Wierzchowca (7 dni)	Po aktywacji umo¿liwia nadanie nowego imienia wierzchowcowi i zdobycie dodatkowych bonusów na 7 dni.
+24051	Etykieta na Imiê Wierzchowca (14 dni)	Po aktywacji umo¿liwia nadanie nowego imienia wierzchowcowi i zdobycie dodatkowych bonusów na 14 dni.
+24052	Etykieta na Imiê Wierzchowca (7 dni)	Po aktywacji umo¿liwia nadanie nowego imienia wierzchowcowi i zdobycie dodatkowych bonusów na 7 dni.		Niemo¿liwy do wymiany.
+24053	Etykieta na Imiê Wierzchowca (14 dni)	Po aktywacji umo¿liwia nadanie nowego imienia wierzchowcowi i zdobycie dodatkowych bonusów na 14 dni.	Niemo¿liwy do wymiany.
+24054	Etykieta na Imiê Peta (7 dni)	Po aktywacji umo¿liwia nadanie nowego imienia swojemu pupilowi i zdobycie dodatkowych bonusów na 7 dni.
+24055	Etykieta na Imiê Peta (14 dni)	Po aktywacji umo¿liwia nadanie nowego imienia swojemu pupilowi i zdobycie dodatkowych bonusów na 14 dni.
+24056	Etykieta na Imiê Peta (7 dni)	Po aktywacji umo¿liwia nadanie nowego imienia swojemu pupilowi i zdobycie dodatkowych bonusów na 7 dni.	Niemo¿liwy do wymiany.
+24057	Etykieta na Imiê Peta (14 dni)	Po aktywacji umo¿liwia nadanie nowego imienia swojemu pupilowi i zdobycie dodatkowych bonusów na 14 dni.	Niemo¿liwy do wymiany.
+24058	Etykieta na Imiê Buffa (7 dni)	Po aktywacji umo¿liwia nadanie nowego imienia swojemu buffowi i aktywacjê umiejêtnoœci lecz¹cych przez 7 dni.
+24059	Etykieta na Imiê Buffa (14 dni)	Po aktywacji umo¿liwia nadanie nowego imienia swojemu buffowi i aktywacjê umiejêtnoœci lecz¹cych przez 14 dni.
+24060	Etykieta na Imiê Buffa (7 dni)	Po aktywacji umo¿liwia nadanie nowego imienia swojemu buffowi i aktywacjê umiejêtnoœci lecz¹cych przez 7 dni.	Niemo¿liwy do wymiany.
+24061	Etykieta na Imiê Buffa (14 dni)	Po aktywacji umo¿liwia nadanie nowego imienia swojemu buffowi i aktywacjê umiejêtnoœci lecz¹cych przez 14 dni.	Niemo¿liwy do wymiany.
+
+64000	Etykieta na Imiê Wierzchowca (2 dni)	Po aktywacji umo¿liwia nadanie nowego imienia wierzchowcowi i zdobycie dodatkowych bonusów na 2 dni.
+64001	Etykieta na Imiê Peta (2 dni)	Po aktywacji umo¿liwia nadanie nowego imienia swojemu pupilowi i zdobycie dodatkowych bonusów na 2 dni.
+64002	Etykieta na Imiê Buffa (2 dni)	Po aktywacji umo¿liwia nadanie nowego imienia swojemu buffowi i aktywacjê umiejêtnoœci lecz¹cych na 2 dni.
+
+24102	Przedmiot Wzmocnienia Rêkawic	Rzadki przedmiot u¿ywany do dodania nowego bonusu do rêkawic.
+24103	Przedmiot Zaklêcia Rêkawic	Rzadki przedmiot u¿ywany do zmiany bonusu na rêkawicach.
+24104	Przedmiot Wzmocnienia Talizmanu	Rzadki przedmiot u¿ywany do dodania nowego bonusu do talizmanów.
+24105	Przedmiot Zaklêcia Talizmanu	Rzadki przedmiot u¿ywany do zmiany bonusu na talizmanach.
+
+200400	Pergamin Ognia	Tajemniczy pergamin przenosz¹cy moc ¿ywio³u ognia.
+200401	Krystal Ognia	B³yszcz¹cy kryszta³ z mocy ¿ywio³u ognia.
+200402	Skrzynia Talizmanu Ognia	Staro¿ytna skrzynia zawieraj¹ca talizman kontroluj¹cy ¿ywio³ ognia.
+200403	Pergamin Lodu	Tajemniczy pergamin przenosz¹cy moc ¿ywio³u lodu.
+200404	Krystal Lodu	B³yszcz¹cy kryszta³ z mocy ¿ywio³u lodu.
+200405	Skrzynia Talizmanu Lodu	Staro¿ytna skrzynia zawieraj¹ca talizman kontroluj¹cy ¿ywio³ lodu.
+200406	Pergamin Ziemi	Tajemniczy pergamin przenosz¹cy moc ¿ywio³u ziemi.
+200407	Krystal Ziemi	B³yszcz¹cy kryszta³ z mocy ¿ywio³u ziemi.
+200408	Skrzynia Talizmanu Ziemi	Staro¿ytna skrzynia zawieraj¹ca talizman kontroluj¹cy ¿ywio³ ziemi.
+200409	Pergamin Ciemnoœci	Tajemniczy pergamin przenosz¹cy moc ¿ywio³u ciemnoœci.
+200410	Krystal Ciemnoœci	B³yszcz¹cy kryszta³ z mocy ¿ywio³u ciemnoœci.
+200411	Skrzynia Talizmanu Ciemnoœci	Staro¿ytna skrzynia zawieraj¹ca talizman kontroluj¹cy ¿ywio³ ciemnoœci.
+200412	Pergamin Wiatru	Tajemniczy pergamin przenosz¹cy moc ¿ywio³u wiatru.
+200413	Krystal Wiatru	B³yszcz¹cy kryszta³ z mocy ¿ywio³u wiatru.
+200414	Skrzynia Talizmanu Wiatru	Staro¿ytna skrzynia zawieraj¹ca talizman kontroluj¹cy ¿ywio³ wiatru.
+200415	Pergamin B³yskawic	Tajemniczy pergamin przenosz¹cy moc ¿ywio³u b³yskawic.
+200416	Krystal B³yskawic	B³yszcz¹cy kryszta³ z mocy ¿ywio³u b³yskawic.
+200417	Skrzynia Talizmanu B³yskawic	Staro¿ytna skrzynia zawieraj¹ca talizman kontroluj¹cy ¿ywio³ b³yskawic.
+200418	Pergamin ¯ywio³ów	Tajemniczy pergamin przenosz¹cy moc ¿ywio³ów.
+200419	Krystal ¯ywio³ów	B³yszcz¹cy kryszta³ z mocy ¿ywio³ów.
+200420	Skrzynia Talizmanu ¯ywio³ów	Staro¿ytna skrzynia zawieraj¹ca talizman kontroluj¹cy ¿ywio³y.
+200500	Jad¹cy Lucyfer Bilet	Bilet wymagany do wejœcia do Wie¿y Jad¹cego Diab³a.
+200501	Bilet Baronesa	Bilet wymagany do wejœcia do Legowiska Baronesa.
+200502	Bilet Magicznego D¿ina	Bilet wymagany do wejœcia do Jaskini D¿ina.
+200503	Bilet Lodowego Krokodyla	Bilet wymagany do wejœcia do Krainy Lodu.
+200504	Bilet Cienia Azraela	Bilet wymagany do wejœcia do Katakomb Diab³a.
+200505	Bilet Beran Setaou	Bilet wymagany do wejœcia do Komnaty Beran-Setaou.
+200506	Bilet Razadora	Bilet wymagany do wejœcia do Fortecy Razadora.
+200507	Bilet Nagi	Bilet wymagany do wejœcia do Œwi¹tyni Naga.
+200508	Bilet Kryszta³owego Wilka	Bilet wymagany do wejœcia do Szafirowej Jaskini.
+200509	Bilet Jotun Thryma	Bilet wymagany do wejœcia do Œwi¹tyni Ochao.
+200510	Bilet Odyna	Bilet wymagany do wejœcia do Zamku Odyna.
+200511	Bilet Magicznego Trola	Bilet wymagany do wejœcia do Jaskini Magicznego Trola.
+200512	Bilet Meley	Bilet wymagany do wejœcia do Gniazda Królowej Meley.
+200513	Bilet Florauna	Bilet wymagany do wejœcia do Ogrodu Florauna.
+200514	Bilet Alastora	Bilet wymagany do wejœcia do Jaskini Alastora.
+200515	Bilet Posejdona	Bilet wymagany do wejœcia do Zaginionej Atlantydy.
+200516	Bilet Króla Skorpiona	Bilet wymagany do wejœcia do Ruin Arid Skorpiona.
+200517	Bilet Szkieletowego Smoka	Bilet wymagany do wejœcia do Komnaty Szkieletowego Smoka.
+200518	Bilet Akzadura	Bilet wymagany do wejœcia do Komnaty Króla Akzadura.
+200519	Bilet Królowej Wê¿a	Bilet wymagany do wejœcia do Œwi¹tyni Wê¿a.
+200540	Poisonous Lucifer Seal	Kliknij prawym przyciskiem myszy, aby u¿yæ i otworzyæ Truj¹cy Pieczêæ Lucifera.
+200541	Pieczêæ Baronesa	Kliknij prawym przyciskiem myszy, aby u¿yæ i otworzyæ Pieczêæ Paj¹ka Baronesa.
+200542	Magiczna Pieczêæ D¿ina	Kliknij prawym przyciskiem myszy, aby u¿yæ i otworzyæ Magiczn¹ Pieczêæ.
+200543	Lodowy Pieczêæ Krokodyla	Kliknij prawym przyciskiem myszy, aby u¿yæ i otworzyæ Lodowaty Pieczêæ.
+200544	Shadow Azrael Seal	Kliknij prawym przyciskiem myszy, aby u¿yæ i otworzyæ Pieczêæ Koszmaru Shadow Azrael.
+200545	Beran Setaou Seal	Kliknij prawym przyciskiem myszy, aby u¿yæ i otworzyæ Niebiesk¹ Pieczêæ Smoka Beran Setaou.
+200546	Pieczêæ Razadora	Kliknij prawym przyciskiem myszy, aby u¿yæ i otworzyæ Pieczêæ P³omienia Razadora.
+200547	Pieczêæ Nagi	Kliknij prawym przyciskiem myszy, aby u¿yæ i otworzyæ Pieczêæ Mrozu Nagi.
+200548	Pieczêæ Krystalicznego Wilka	Kliknij prawym przyciskiem myszy, aby u¿yæ i otworzyæ Krystaliczn¹ Pieczêæ Szafiru.
+200549	Pieczêæ Jotun Thryma	Kliknij prawym przyciskiem myszy, aby u¿yæ i otworzyæ Pieczêæ Lasu Jotun Thryma.
+200550	Pieczêæ Odyna	Kliknij prawym przyciskiem myszy, aby u¿yæ i otworzyæ Pieczêæ Asgardu Odyna.
+200551	Magiczna Pieczêæ Trolla	Kliknij prawym przyciskiem myszy, aby u¿yæ i otworzyæ Magiczn¹ Pieczêæ.
+200552	Pieczêæ Meley	Kliknij prawym przyciskiem myszy, aby u¿yæ i otworzyæ Czerwon¹ Pieczêæ Smoka Meley.
+200553	Pieczêæ Florauna	Kliknij prawym przyciskiem myszy, aby u¿yæ i otworzyæ Pieczêæ Lasu Florauna.
+200554	Pieczêæ Alastora	Kliknij prawym przyciskiem myszy, aby u¿yæ i otworzyæ Pó³nocn¹ Pieczêæ Alastora.
+200555	Pieczêæ Posejdona	Kliknij prawym przyciskiem myszy, aby u¿yæ i otworzyæ Pieczêæ Atlantydy Posejdona.
+200556	Pieczêæ Króla Skorpionów	Kliknij prawym przyciskiem myszy, aby u¿yæ i otworzyæ Pieczêæ Skorpiona Króla.
+200557	Pieczêæ Szkieletowego Smoka	Kliknij prawym przyciskiem myszy, aby u¿yæ i otworzyæ Pieczêæ Szkieletu.
+200558	Pieczêæ Akzadura	Kliknij prawym przyciskiem myszy, aby u¿yæ i otworzyæ Pieczêæ Króla Smoków.
+200559	Pieczêæ Królowej Wê¿y	Kliknij prawym przyciskiem myszy, aby u¿yæ i otworzyæ Pieczêæ Wê¿a.
+200300	Bilet do Ko³a Losu	Bilet wymagany do darmowego obracania Ko³em Przeznaczenia. Zebranie wystarczaj¹cej iloœci w trakcie wydarzenia umo¿liwi u¿ycie Ko³a Przeznaczenia.
+200301	Litera E	Litera E. Zebrane inne litery podczas wydarzenia umo¿liwiaj¹ wytworzenie skrzyni u Kowala.
+200302	Litera L	Litera L. Zebrane inne litery podczas wydarzenia umo¿liwiaj¹ wytworzenie skrzyni u Kowala.
+200303	Litera Y	Litera Y. Zebrane inne litery podczas wydarzenia umo¿liwiaj¹ wytworzenie skrzyni u Kowala.
+200304	Litera S	Litera S. Zebrane inne litery podczas wydarzenia umo¿liwiaj¹ wytworzenie skrzyni u Kowala.
+200305	Litera I	Litera I. Zebrane inne litery podczas wydarzenia umo¿liwiaj¹ wytworzenie skrzyni u Kowala.
+200306	Litera U	Litera U. Zebrane inne litery podczas wydarzenia umo¿liwiaj¹ wytworzenie skrzyni u Kowala.
+200307	Litera M	Litera M. Zebrane inne litery podczas wydarzenia umo¿liwiaj¹ wytworzenie skrzyni u Kowala.
+200600	Pakiet Premium (30 dni)	Legendarna skrzynia zawieraj¹ca przedmioty premium na 30 dni. Dostêpna w sklepie przedmiotów.
+200601	Pakiet Premium (Sta³y)	Legendarna skrzynia zawieraj¹ca sta³e przedmioty premium. Dostêpna w sklepie przedmiotów.
+200602	Pakiet Potworów	Legendarna skrzynia zawieraj¹ca przedmioty zwiêkszaj¹ce twoj¹ si³ê przeciwko potworom. Dostêpna w sklepie przedmiotów.
+200603	Pakiet Metinów	Legendarna skrzynia zawieraj¹ca przedmioty zwiêkszaj¹ce twoj¹ si³ê przeciwko metinom i bossom. Dostêpna w sklepie przedmiotów.
+200604	Pakiet Buf		Legendarna skrzynia zawieraj¹ca sta³e bufy i etykiety nazw bufów. Dostêpna w sklepie przedmiotów.
+200605	Pakiet Wzmacniaczy (14 dni)	Legendarna skrzynia zawieraj¹ca wzmacniacze zapewniaj¹ce 14-dniowy bonus 15%. Dostêpna w sklepie przedmiotów.
+200606	Pakiet Rozwoju	Legendarna skrzynia zawieraj¹ca przedmioty pomagaj¹ce szybciej rozwijaæ twoj¹ postaæ. Dostêpna w sklepie przedmiotów.
+200610	Pakiet Premium (30 dni)	Legendarna skrzynia zawieraj¹ca przedmioty premium na 30 dni. Dostêpna w sklepie przedmiotów.		Brak mo¿liwoœci handlu.
+200611	Pakiet Premium (Sta³y)	Legendarna skrzynia zawieraj¹ca sta³e przedmioty premium. Dostêpna w sklepie przedmiotów.		Brak mo¿liwoœci handlu.
+200612	Pakiet Potworów	Legendarna skrzynia zawieraj¹ca przedmioty zwiêkszaj¹ce twoj¹ si³ê przeciwko potworom. Dostêpna w sklepie przedmiotów.		Brak mo¿liwoœci handlu.
+200613	Pakiet Metinów	Legendarna skrzynia zawieraj¹ca przedmioty zwiêkszaj¹ce twoj¹ si³ê przeciwko metinom i bossom. Dostêpna w sklepie przedmiotów.		Brak mo¿liwoœci handlu.
+200614	Pakiet Buf		Legendarna skrzynia zawieraj¹ca sta³e bufy i etykiety nazw bufów. Dostêpna w sklepie przedmiotów.		Brak mo¿liwoœci handlu.
+200615	Pakiet Wzmacniaczy (14 dni)	Legendarna skrzynia zawieraj¹ca wzmacniacze zapewniaj¹ce 14-dniowy bonus 15%. Dostêpna w sklepie przedmiotów.		Brak mo¿liwoœci handlu.
+200616	Pakiet Rozwoju	Legendarna skrzynia zawieraj¹ca przedmioty pomagaj¹ce szybciej rozwijaæ twoj¹ postaæ. Dostêpna w sklepie przedmiotów.		Brak mo¿liwoœci handlu.
+24600	Symbol Kamienia Umys³u	Po u¿yciu zwiêksza szansê na dodanie kamienia umys³u o 100% na jedno u¿ycie.
+24601	Wzmacniacz Prêdkoœci Enchantowania 6/7 (25%)	Po u¿yciu zmniejsza oczekiwany czas dodawania zaklêæ 6-7 o 25%.
+24602	Wzmacniacz Prêdkoœci Enchantowania 6/7 (50%)	Po u¿yciu zmniejsza oczekiwany czas dodawania zaklêæ 6-7 o 50%.
+24140	Czyszczenie 1. Zaklêcia	Po przeci¹gniêciu na kostium czyœci pierwszy slot zaklêcia.
+24141	Czyszczenie 2. Zaklêcia	Po przeci¹gniêciu na kostium czyœci drugi slot zaklêcia.
+24142	Czyszczenie 3. Zaklêcia	Po przeci¹gniêciu na kostium czyœci trzeci slot zaklêcia.
+24143	Czyszczenie 4. Zaklêcia	Po przeci¹gniêciu na kostium czyœci czwarty slot zaklêcia.
+24144	Czyszczenie 5. Zaklêcia	Po przeci¹gniêciu na kostium czyœci pi¹ty slot zaklêcia.
+24000	M¹droœciowy Kamieñ Dusz	Kamieñ duszy nas¹czony moc¹ wielkiego mêdrca, u¿ywany do ulepszania umiejêtnoœci Doskona³ego Mistrza na poziom Mistrza M¹droœci.
+24002	Ksi¹¿ka Umiejêtnoœci £owcy Potworów	Niezwyk³a ksi¹¿ka u¿ywana do poprawy umiejêtnoœci £owcy Potworów.
+24003	Ksi¹¿ka Umiejêtnoœci £owcy Metinów	Niezwyk³a ksi¹¿ka u¿ywana do poprawy umiejêtnoœci £owcy Metinów.
+24004	Ksi¹¿ka Umiejêtnoœci Wœciek³ego Wojownika	Niezwyk³a ksi¹¿ka u¿ywana do poprawy umiejêtnoœci Wœciek³ego Wojownika.
+24005	Ksi¹¿ka Umiejêtnoœci £owcy Ludzi	Niezwyk³a ksi¹¿ka u¿ywana do poprawy umiejêtnoœci £owcy Ludzi.
+24006	Ksi¹¿ka Umiejêtnoœci Skupienia Umys³u	Niezwyk³a ksi¹¿ka u¿ywana do poprawy umiejêtnoœci Skupienia Umys³u.
+24007	Ksi¹¿ka Umiejêtnoœci Serca Smoka	Niezwyk³a ksi¹¿ka u¿ywana do poprawy umiejêtnoœci Serca Smoka.
+24008	Ksi¹¿ka Umiejêtnoœci Zielarstwa	Niezwyk³a ksi¹¿ka u¿ywana do poprawy umiejêtnoœci Zielarstwa.
+24009	Ksi¹¿ka Umiejêtnoœci Tworzenia Przedmiotów	Niezwyk³a ksi¹¿ka u¿ywana do poprawy umiejêtnoœci Tworzenia Przedmiotów.
+24010	Ksi¹¿ka Umiejêtnoœci Przywództwa	Niezwyk³a ksi¹¿ka u¿ywana do poprawy umiejêtnoœci Przywództwa.
+24011	Ksi¹¿ka Umiejêtnoœci Górnictwa	Niezwyk³a ksi¹¿ka u¿ywana do poprawy umiejêtnoœci Górnictwa.
+24012	Ksi¹¿ka Umiejêtnoœci Wêdkarstwa	Niezwyk³a ksi¹¿ka u¿ywana do poprawy umiejêtnoœci Wêdkarstwa.
+24013	Papier Wydalenia Ducha M¹droœci	Potê¿ny papier usuwaj¹cy z³e duchy przy u¿yciu Kamienia Dusz M¹droœci.
+24014	Podniesienie Ermita¿u M¹droœci	Zawiera wzmocnion¹ moc wielkiego mêdrca przy u¿yciu Kamienia Dusz M¹droœci.

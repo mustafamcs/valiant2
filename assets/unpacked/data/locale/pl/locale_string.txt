@@ -1,0 +1,574 @@
+CLOSE_WINDOWS_ERROR	Musisz zamknac wszystkie okna, aby to zrobic.
+WAIT_TO_USE_AGAIN	Musisz poczekac %s sekund, aby to zrobic ponownie.
+ARENA_TALK_15	Weszles do wojny, anulowano wyjscie.
+BATTLEPASS_NOT_COMPLETED_ALL_NORMAL_MISSIONS	Nie ukonczyles wszystkich zadan w normalnym battlepassie!
+BATTLEPASS_NOT_COMPLETED_ALL_PREMIUM_MISSIONS	Nie ukonczyles wszystkich zadan w premium battlepassie!
+BATTLEPASS_NOT_COMPLETED_ALL_EVENT_MISSIONS	Nie ukonczyles wszystkich zadan w eventowym battlepassie!
+CANT_INCREASE_YOUR_BIOLOG_LEVEL_MORE	Nie mozesz podniesc wiecej swojego poziomu biologii.
+X_SUCCESSFULL_Y_UNSUCCESSFULL	%sx udanych i %sx nieudanych.
+BATTLEPASS_ALREADY_EARNED_BATTLEPASS_REWARD	Juz otrzymales te nagrode z battlepassa.
+IT_WAS_FAILED	Operacja nieudana.
+TAKE_OFF_YOUR_ARMOR_TO_OPEN_SHOP	Zdejmij zbroje, aby otworzyc sklep.
+YOU_CARRY_TOO_MUCH_GOLD_TO_OPEN_SHOP	Niesiesz zbyt wiele zlota, nie mozesz otworzyc sklepu.
+INVALID_SHOP_NAME	Nieprawidlowa nazwa sklepu.
+CANT_TRADE_WITH_EQUIPPED_ITEMS	Nie mozesz handlowac przedmiotami, które sa zalozone.
+CANT_TRADE_WITH_THIS_ITEM	Nie mozesz handlowac tym przedmiotem.
+EQUIP_YOUR_PICKAXE_FIRST	Wybierz kilof, aby to zrobic.
+CANNOT_FISH_HERE	Nie mozesz lowic ryb tutaj.
+EQUIP_YOUR_ROD_FIRST	Wybierz wedke, aby to zrobic.
+PUT_A_BAIT_TO_YOUR_ROD	Aby to zrobic, musisz umiescic przynete na swojej wedce.
+CANT_FISH_WITHOUT_ROD	Nie mozesz lowic ryb bez wedki.
+PROBLEM_OCCURED_TRY_AGAIN_LATER	Wystapil problem, spróbuj ponownie pózniej!
+PARTY_REQ_ERR_0	Nie mozesz tworzyc grupy z innymi imperiami.
+PARTY_REQ_ERR_1	Nie mozesz zapraszac lub dolaczac do grupy w podziemiach.
+PARTY_REQ_ERR_2	Nie mozesz zaprosic obserwatora do grupy.
+PARTY_REQ_ERR_3	Nie mozesz tworzyc grupy z kims, kto ma róznice w poziomie wieksza niz 30.
+PARTY_REQ_ERR_4	Nie mozesz tworzyc grupy z kims, kto ma róznice w poziomie wieksza niz 30.
+PARTY_REQ_ERR_5	Nie mozesz akceptowac zaproszen.
+PARTY_REQ_ERR_6	Grupa osiagnela limit, nie mozna zaprosic wiecej.
+PARTY_REQ_ERR_7	Grupa osiagnela limit, nie mozna dolaczyc wiecej.
+PARTY_REQ_ERR_8	Ten gracz nie jest w grupie.
+PARTY_REQ_ERR_9	Nie mozesz zaprosic, tylko lider grupy moze.
+PARTY_REQ_ERR_10	Nie mozesz dolaczyc do grupy w podziemiach.
+PARTY_REQ_SENT	Zaproszenie do grupy wyslane do %s.
+PARTY_REQ_REJECTED	%s odrzucil twoje zaproszenie do grupy.
+PARTY_REQ_REJECTED2	%s odrzucil twoje zaproszenie do grupy.
+PARTY_REQ_ALREADY_IN_PARTY	%s jest juz w grupie.
+PARTY_JOINED_THE_PARTY	%s dolaczyl do grupy.
+PARTY_JOINED_THE_PARTY2	Dolaczyles do grupy %s.
+MINING_STOPPED	Kopanie zostalo zatrzymane.
+PLAYER_BUSY_RN	Ten gracz jest teraz zajety.
+GROUP_LEADER_IS_NOT_ACTIVE_CANT_DO_THIS	Lider grupy nie jest aktywny, nie mozesz tego zrobic.
+SAFEBOX_ERR_1	Sejf jest juz otwarty.
+SAFEBOX_ERR_2	Poczekaj chwile, aby to zrobic ponownie.
+CANT_TELEPORT_THIS_PLAYER	Nie mozesz teleportowac sie do tego gracza.
+THIS_PLAYER_IS_OFFLINE	Ten gracz jest offline.
+OTHER_CHANNEL_ERR	Gracz nie jest na tej samej mapie, kanal gracza to %s. (Twój kanal to %s)
+THIS_WINDOW_IS_ALREADY_OPEN	To okno jest juz otwarte.
+CLOSE_OTHER_WINDOWS_TO_DO_THIS	Zamknij wszystkie inne okna, aby to zrobic.
+CANT_ADD_LOCKED_ITEMS	Nie mozesz wybrac przedmiotu, który jest juz wybrany.
+ONLY_SAME_GRADE_CAN_COMBINED	Tylko ten sam poziom mozna polaczyc.
+ABSORBPTION_CHANGE_IS_MAX	Przedmiot ma juz maksymalny wspólczynnik absorpcji.
+ONLY_ARMOR_WEARPON_CAN_BE_ABSORBED	Mozna pochlaniac tylko bronie i zbroje.
+NOT_ENOUGH_YANG	Za malo yang.
+INVALID_ACTION	Nieprawidlowa akcja!
+NEW_ABSORB_RATE	Nowy wspólczynnik absorpcji: %s
+CANT_USE_THIS_WITH_NON_SASH_ITEMS	Nie mozesz tego zrobic na innych przedmiotach niz chusty ramienne.
+CANT_USE_THIS_WITH_NON_AURA_ITEMS	Nie mozesz tego zrobic na innych przedmiotach niz aura.
+ITEM_HAS_NO_ABSORBTION	Nie ma przedmiotu pochlonietego przez ten przedmiot!
+POLY_BLOCKED_WITH_THIS	Nie mozesz tego zrobic, kiedy jestes w formie transformacji.
+CHANNEL_SWITCH_0	Po %s sekundach nastapi zmiana kanalu.
+CHANNEL_SWITCH_1	Nastapi zmiana kanalu.
+MULTIFARM_ACTIVATED	Aktywowano zdobywanie przedmiotów.
+MULTIFARM_DEACTIVATED	Dezaktywowano zdobywanie przedmiotów.
+MULTIFARM_MULTIACC_LIMIT	Zdobywanie przedmiotów nie moze byc aktywowane na wiecej niz 2 kontach.
+GLOBAL_ERR_OCCURED	Wystapil blad, spróbuj ponownie pózniej.
+AURA_INVALID_ITEM_TYPE	Nieprawidlowy przedmiot wybrany, tylko bizuteria moze byc pochlonieta.
+AURA_RUNIC_ITEM_NOT_FOUND	Mozesz to zrobic tylko z Aura Runic.
+AURA_RUNIC_ICE_SHOULD_BE_USED	Mozesz to zrobic tylko z Aura Ice Rune.
+AURA_RUNIC_FIRE_SHOULD_BE_USED	Mozesz to zrobic tylko z Aura Fire Rune.
+AURA_ABS_REMOVE_ATTR	Usunieto sukcesywnie pochloniete bonusy.
+YOU_DO_NOT_HAVE_ENOUGH_GEM_SLOT_OPENER	Nie masz wystarczajaco duzo otwieraczy gniazd klejnotów.
+YOUR_BIOLOG_LEVEL_INCREASED	Poziom biologii zostal zwiekszony.
+GM_MESSENGER_IN_YOU_BLOCK	Twój czat jest zablokowany.
+BUFF_MSG_01	%s nie zostal dodany, poniewaz twój wskaznik jest wyzszy, Wskaznik: (%s%%) Twój obecny wskaznik: (%s%%)
+BUFF_MSG_02	%s bonus zostal dodany pomyslnie. Nowy wskaznik: (%s%%) Stary wskaznik: (%s%%)
+WARNING_DRAGON_GOD	Poniewaz jestes pod ochrona Boga Smoka, nie straciles doswiadczenia.
+WARNING_DRAGON_GOD2	Poniewaz jestes pod ochrona Boga Smoka, nie straciles zadnych przedmiotów.
+GUILDWAR_WARNING_NO_ADVANTAGE_HUNTING	Nie ma korzysci z polowania podczas wojny gildii.
+DS_TALK_1	Alchemia Smoka nie jest aktywna.
+HORSE_TALK_1	Nie udalo sie przywolac twojego wierzchowca.
+SAFEBOX_ERR	Nieprawidlowe haslo.
+REFINE_FREE_UPGRADE_BELLOW_20	Darmowe ulepszenia sa dostepne tylko dla broni o poziomie 20 lub nizszym.
+CANT_UPGRADE_THIS_ITEM	Nie mozesz ulepszyc tego przedmiotu.
+NOT_ENOUGH_MATERIAL	Nie masz wystarczajaco duzo materialów.
+CAN_NOT_UPGRADE_WITH_THIS_ITEM_MORE	Nie mozesz ulepszyc tego przedmiotu wiecej.
+CAN_ONLY_UPGRADE_ITEMS_MORE_THAN	Mozesz ulepszyc tylko przedmioty o poziomie %s lub wyzszym za pomoca tego przedmiotu.
+DEVILTOWER_UPGRADE_MSG	Mozesz ulepszyc tylko raz w wiezy diabla.
+CANT_COMBINE_SIMILAR_REFINE_ITEMS	Nie mozesz laczyc podobnych przedmiotów ulepszania.
+MAGIC_STONE_REFINE_CAN_BE_COMBINED	Kamienie magiczne i Pergamin Blogoslawienstwa moga byc laczone.
+NO_SPIRIT_STONES_TO_REMOVE	Nie znaleziono kamieni duchowych do usuniecia.
+CANT_SAVE_THIS_POSITION	Nie mozesz zapisac tej pozycji.
+NO_EMPTY_SPACE_IN_INVENTORY	Brak miejsca w twoim inwentarzu!
+YOU_HAVE_LOWER_LEVEL_THAN_ITEM	Nie masz wystarczajacego poziomu, aby to uzyc.
+CANT_TELEPORT_SAVEZONE_IN_DIFFERENT_EMPIRE	Nie mozesz teleportowac sie do strefy bezpiecznej w innym imperium.
+AFFECT_IS_ALREADY_ACTIVE	Ten efekt jest juz aktywny.
+NOT_ENOUGH_HP	Nie masz wystarczajaco duzo punktów zdrowia.
+NOT_ENOUGH_SP	Nie masz wystarczajaco duzo punktów many.
+ACTION_NOT_POSSIBLE_ON_THIS_MAP	Nie mozna tego zrobic na tej mapie.
+CANT_SET_A_CAMPFIRE_HERE	Nie mozesz ustawic ogniska tutaj.
+CANT_WEAR_SASH_SKIN_IF_NOT_WEAR_SASH	Nie mozesz nosic skórki na chuste, jesli nie nosisz chusty.
+CANT_WEAR_PET_SKIN_IF_NOT_WEAR_PET	Nie mozesz nosic skórki na zwierze, jesli nie nosisz zwierzecia.
+CANT_WEAR_AURA_SKIN_IF_NOT_WEAR_AURA	Nie mozesz nosic skórki na aure, jesli nie nosisz stroju aury.
+CANT_WEAR_MOUNT_SKIN_IF_NOT_WEAR_MOUNT	Nie mozesz nosic skórki na wierzchowca, jesli nie nosisz wierzchowca.
+CANT_DO_THIS_WHILE_MOUNTING	Nie mozesz tego zrobic podczas jazdy.
+CANT_DO_THIS_IN_DUEL	Nie mozesz tego zrobic podczas pojedynku.
+WAIT_SOME_TIME_TO_DO_THIS_AGAIN	Operacja nieudana, poczekaj chwile i spróbuj ponownie.
+NEED_2SPACE_IN_INVS	Aby otworzyc te skrzynie, musisz miec 3 miejsca w swoich wszystkich inwentarzach.
+NEED_2SPACE_IN_DS_INV	Aby otworzyc te skrzynie, musisz miec 2 miejsca w swoim inwentarzu smoczego duszy.
+LOWERING_YOUR_SKILL_SUCCEDEED	Zmniejszenie poziomu umiejetnosci powiodlo sie.
+LOWERING_YOUR_SKILL_FAILED	Zmniejszenie poziomu umiejetnosci nie powiodlo sie.
+YOU_HAVE_NO_SKILL_GROUP	Nie mozesz tego zrobic, jesli nie masz grupy umiejetnosci.
+X_SECONDS_ARE_ADDED	Dodano %s sekundy.
+ADDING_TIME_FAILED	Dodawanie czasu nie powiodlo sie.
+SWITCH_BOT_STOP_INFO_1	Skonczyly ci sie przelaczniki, switchbot zostal zatrzymany.
+SWITCH_BOT_STOP_INFO_2	Nie masz wystarczajaco duzo yang, switchbot zostal zatrzymany!
+PET_TEXT_1	Musisz przywolac swoje zwierze, aby to zrobic.
+PET_TEXT_2	Aby to zrobic, twoje zwierze powinno miec co najmniej %s poziomu.
+PET_TEXT_3	Odblokowano nowy slot na zwierze.
+OFFLINESHOP_TEXT_1	Potrzebujesz %s yang, aby otworzyc sklep.
+OFFLINESHOP_TEXT_2	Mozesz tworzyc sklepy tylko w kanale spolecznym.
+OFFLINESHOP_TEXT_3	Mozesz tworzyc sklepy tylko w pierwszych wioskach.
+OFFLINESHOP_TEXT_4	Teleportowales sie do sklepu.
+OFFLINESHOP_TEXT_5	Teleportujesz sie do sklepu...
+OFFLINESHOP_TEXT_6	Nie znaleziono sklepu o wybranej nazwie.
+OFFLINESHOP_TEXT_7	Czas sklepu nie moze byc przedluzany dluzej.
+OFFLINESHOP_TEXT_8	Sklepu o wybranej nazwie nie znaleziono.
+OFFLINESHOP_TEXT_9	Jesli nie masz konta premium, mozesz edytowac swoje ogloszenie rynkowe tylko na tej samej mapie.
+OFFLINESHOP_TEXT_10	Nie mozesz dodac tego przedmiotu do sklepu.
+ACCESSORY_SOCKET_DISSAPEARED	Ore %s zniknelo.
+WEDDING_TEXT_1	Nie mozesz tego zrobic, jesli nie jestes zonaty.
+ITS_NOT_EASY_TO_UNDERSTAND_THIS_BOOK	Nie jest latwo zrozumiec te ksiazke.
+CANT_UPGRADE_WITH_THIS_MORE	Nie mozesz ulepszac wiecej za pomoca tego przedmiotu.
+CANT_UPGRADE_YOUR_ABILITY_MORE	Nie mozesz wiecej ulepszyc tej zdolnosci.
+UNEQUIP_YOUR_PET	Aby to zrobic, musisz najpierw zdjac zwierze.
+PREMIUM_ALREADY_MEMBER	Juz masz konto premium.
+THE_ITEM_USAGE_LIMIT_EXCEEDED	Przekroczono limit uzycia tego przedmiotu.
+CANT_UPGRADE_ITEM_WITH_LEVEL3_SPIRITS_STONES	Kamienie ducha +3 nie moga byc ulepszane tym przedmiotem.
+CANT_CHANGE_THE_ATTRIBUTE_OF_THIS_ITEM	Nie mozesz zmieniac atrybutu tego przedmiotu.
+NO_ATTRIBUTES_TO_CHANE_ON_THE_ITEM	Brak atrybutów do zmiany.
+NO_STONE_TO_CLEAR	Nie znaleziono uszkodzonego kamienia do usuniecia.
+CHANGE_ATTRIBUTE_WAS_SUCCESFULL	Zmiana atrybutu zakonczyla sie pomyslnie.
+YOU_DO_NOT_MEET_THE_NEEDS_OF_THIS_ITEM	Nie spelniasz wymagan tego przedmiotu.
+THIS_CAN_BE_USED_IN_ONLY_WEAPONS_ARMORS	Mozna to zrobic tylko z bronia i zbrojami.
+ADDING_ATTRIBUTE_WAS_SUCCESSFULL	Pomyslnie dodano bonus.
+ADDING_ATTRIBUTE_WAS_FAILED	Dodawanie bonusu nie powiodlo sie.
+CANT_ADD_MORE_BONUS_TO_THIS_ITEM	Nie mozesz dodac wiecej bonusów do tego przedmiotu.
+TO_USE_THIS_YOU_NEED_FOR_BONUSSES_ON_THE_ITEM	Do zrobienia tego przedmiot musi miec 4 bonusy.
+ADDING_SOCKET_SUCCESSFULL	Pomyslnie dodano gniazdo!
+ADDING_SOCKET_UNSUCCESSFULL	Dodawanie gniazda nie powiodlo sie.
+SOCKET_NOT_ENOUGH_SPACE	Nie mozna dodac wiecej gniazd.
+SOCKET_CANT_BE_ADDED_TO_THIS_ITEM	Nie mozna dodac gniazd do tego przedmiotu.
+ADDING_JEWEL_SUCCESFULL	Dodawanie rudy bylo udane!
+ADDING_JEWEL_UNSUCCESFULL	Dodawanie rudy nie powiodlo sie!
+ADD_JEWEL_INFO_01	Aby dodac rude, powinienes otworzyc gniazdo.
+ADD_JEWEL_INFO_02	Aby dodac rude, powinienes otworzyc gniazdo.
+ADD_JEWEL_INFO_03	Aby dodac rude, powinienes otworzyc gniazdo.
+ADD_JEWEL_INFO_04	Nie mozesz dodac wiecej rud do tego przedmiotu.
+PERMANENT_JEWEWL_INFO_01	Nie mozna dodac stalych rud do tego przedmiotu.
+PERMANENT_JEWEWL_INFO_02	Tylko stale rudy mozna dodac.
+PERMANENT_JEWEWL_INFO_03	Nie mozna dodac tej rudy do tego przedmiotu.
+PERMANENT_JEWEWL_INFO_04	Nie mozna dodac stalych rud do tego przedmiotu.
+FISHING_CANT_CHANGE_BAIT_WHEN_FISHING	Nie mozesz zmieniac przynety podczas wedkowania.
+FISHING_CHANGED_BAIT_WITH	Zmieniles przynete na %s.
+FISHING_ADDED_BAIT	Przyneta o nazwie %s zostala dodana do wedki!
+CANT_ADD_SAME_SPIRIT_STONES	Nie mozna dodac kamieni ducha tego samego stopnia dwukrotnie.
+CANT_ADD_THIS_SPIRIT_STONES_TO_THIS_ITEM	Nie mozna dodac tego kamienia ducha do tego przedmiotu.
+NOT_ENOUGH_SPACE_TO_ADD_SPIRIT_STONE	Nie masz wystarczajaco miejsca, aby dodac ten kamien ducha!
+ONLY_OTHER_GENDER_CAN_USE_THIS	Tylko osoba innego plci moze tego uzywac.
+CANNOT_DO_THIS	Nie moge tego zrobic.
+YOU_CANNOT_CARRY_MORE_YANG	Nie mozesz uniesc wiecej yang.
+ITEM_IS_SOLD	%s jest sprzedane.
+YOU_CANNOT_DROP_THIS_ITEM	Nie mozesz upuscic tego przedmiotu.
+ITEM_DROPPED_WILL_DISSAPEAR_IN_MINS	[Ostrzezenie] - Przedmioty upuszczone na ziemie znikna za 3 minuty!
+CANT_DROP_GOLD	Nie mozesz upuscic yang.
+CANT_MOVE_ITEM_TO_THIS_INVENTORY	Nie mozesz przeniesc tego przedmiotu do tej przestrzeni.
+YOU_CANNOT_MOVE_ACTIVE_SWITCHBOT_ITEMS	Nie mozesz zabrac aktywnych przedmiotów switchbota.
+YOU_CANNOT_ADD_THIS_ITEM_TO_SWITCHBOT	Nie mozesz dodac tego przedmiotu do switchbota.
+FULL_SOCKET_WARNING	Gniazdo jest pelne, musisz najpierw oczyscic gniazda.
+YOU_GAINED_ITEM	Otrzymales %s.
+YOU_GAINED_ITEM_INV_TYPE_01	Otrzymales %s. Przeniesiono do twojej przestrzeni ulepszen.
+YOU_GAINED_ITEM_INV_TYPE_02	Otrzymales %s. Przeniesiono do twojej przestrzeni ksiazek.
+YOU_GAINED_ITEM_INV_TYPE_03	Otrzymales %s. Przeniesiono do twojej przestrzeni kamieni ducha.
+YOU_GAINED_ITEM_INV_TYPE_04	Otrzymales %s. Przeniesiono do twojej przestrzeni ogólnej.
+YOU_GAINED_ITEM_INV_TYPE_05	Otrzymales %s. Przeniesiono do twojej przestrzeni.
+ITEM_DELETED	%s zostal usuniety.
+UNEQUIP_YOUR_SKIN_FIRST	Najpierw musisz zdjac swój skór, aby to zrobic.
+YOU_ALREADY_RIDING_MOUNT	Juz jezdzisz.
+ONLY_GROUP_LEADER_CAN_USE_THIS	Tylko lider grupy moze tego uzywac.
+CANT_USE_THIS_WITH_COSTUME	Nie mozesz tego zrobic, gdy masz na sobie smoking lub suknie slubna.
+CANT_USE_COSTUME_WITH_THIS	Nie mozesz tego zrobic, gdy masz na sobie kostium.
+YOU_HAVE_TO_STAND_STILL_TO_DO_THIS	Musisz stac w miejscu, aby to zrobic.
+WRONG_EQUIPMENT_MATCH	Twoja bron nie pasuje do twojego kostiumu broni.
+CANT_DO_THIS_IF_NOT_WEAR_PET	Nie mozesz tego zrobic, jesli nie masz odlozonego zwierzaka.
+CANT_DO_THIS_IF_NOT_WEAR_MOUNT	Nie mozesz tego zrobic, jesli nie masz odlozonego wierzchowca.
+CANT_DO_THIS_IF_NOT_WEAR_SASH	Nie mozesz tego zrobic, jesli nie masz odlozonej chusty na ramie.
+CANT_DO_THIS_IF_NOT_WEAR_AURA	Nie mozesz tego zrobic, jesli nie masz odlozonej aury.
+ALREADY_WEAR_SAME_TYPE_DS	Juz nosisz ten sam rodzaj duszy smoka.
+CANT_FEED_HORSE_WITH_DRUGS	Nie mozesz uleczyc konia, który juz zyje.
+YOU_ALREADY_HAVE_THIS_HAIRSTLE	Juz masz te fryzure.
+YOU_ALREADY_POLYMORPHED	Juz zmieniles postac.
+YOU_CANT_POLYMORPH	Nie mozesz zmienic postaci.
+CANT_POLYMORPH_HIGHER_LEVEL	Nie mozesz zmienic bestii, która ma wyzszy poziom niz ty.
+THIS_ITEM_CANT_BE_USED	Tego przedmiotu nie mozna uzyc.
+CANT_WEAR_THIS_SECOND_TIME	Nie mozesz tego nosic po raz drugi.
+DS_DEACTIVATE_REQ	Musisz dezaktywowac dusze smoka, aby to zrobic.
+AFFECTS_ARE_NOT_LOADED_YET	Efekty nie zostaly jeszcze zaladowane, prosze poczekac chwile.
+CANT_DO_THIS_IF_NOT_WEAR_BELT	Nie mozesz tego zrobic, jesli nie masz nalozonego pasa.
+CANT_DO_THIS_IF_NOT_UPGRADE_BELT	Nie mozesz tego zrobic, jesli nie ulepszysz pasa.
+INGAME_SHOP_MSG_01	Nie masz wystarczajaco monet smoka.
+INGAME_SHOP_MSG_02	Nie mozesz kupic wiecej tego przedmiotu, osiagnales limit tygodniowy: %s
+INGAME_SHOP_MSG_03	Nie mozesz kupic wiecej tego przedmiotu, osiagnales limit miesieczny: %s
+INGAME_SHOP_MSG_04	Ten przedmiot nie jest na sprzedaz.
+INGAME_SHOP_MSG_05	Kupiles %s %sx za %s.
+INGAME_SHOP_MSG_06	Kupiles %s za %s.
+INGAME_SHOP_MSG_07	Sklep zostanie zaktualizowany, zawartosc moze ulec zmianie...
+CHEST_GIVE_STOP_DROP	Otwieranie skrzyni zostalo zatrzymane, twoja przestrzen jest pelna.
+CHEST_OPEN_COUNT	Laczna liczba otwartych skrzyn: %s
+CMD_TALK_20	Ktos zalogowal sie na twoje konto. Zostaniesz rozlaczony.
+CANT_FEED_DEAD_HORSE	Nie mozesz nakarmic martwego konia.
+HORSE_FEED_TALK_01	Nakarmiles konia.
+DS_TALK_2	Nie mozesz wyjac zalozonej duszy smoka.
+DS_TALK_3	Ekstrakcja zakonczona powodzeniem.
+DS_TALK_4	Niewlasciwy material ulepszenia.
+DS_TALK_5	Niewystarczajaca ilosc yang do ulepszenia.
+DS_TALK_6	Ekstrakcja nie powiodla sie, otrzymales %s.
+DS_TALK_7	Nie mozesz ulepszyc tego przedmiotu tym przedmiotem.
+DS_TALK_8	Urafinowanie nie powiodlo sie.
+FISHING_TALK_01	Zwiekszono punkty wedkowania. (%s/%s)
+FISHING_TALK_02	Nie mozesz dluzej ulepszac swojej wedki.
+FISHING_TALK_03	Mozesz odwiedzic Rybaka, aby ulepszyc swoja wedke.
+FISHING_TALK_04	Ryba utonela gleboko w wodzie.
+FISHING_TALK_05	Ryba ma malza w sobie.
+FISHING_TALK_06	Wlóz %s przez kregi.
+GUILD_TALK_1	<Gildia> Rank zwiekszony do %s punktów.
+SAFEBOX_PW_01	Twoje haslo do sejfu zostalo zmienione.
+SAFEBOX_PW_02	Niepoprawne haslo.
+CANNOT_CHANGE_CHANNEL	Zmiana kanalu nie powiodla sie.
+USER_BLOCKED_WARP_REQUESTS	Ta osoba ma zablokowane prosby o teleportacje.
+WINNER_ITEM_01	Otrzymales %sx %s, przeniesiono do twojej przestrzeni ulepszen.
+WINNER_ITEM_02	Otrzymales %sx %s, przeniesiono do twojej przestrzeni ksiazek.
+WINNER_ITEM_03	Otrzymales %sx %s, przeniesiono do twojej przestrzeni kamieni ducha.
+WINNER_ITEM_04	Otrzymales %sx %s, przeniesiono do twojej przestrzeni ogólnej.
+WINNER_ITEM_05	Otrzymales %sx %s, przeniesiono do twojej przestrzeni.
+WINNER_ITEM_06	Otrzymales %sx %s, przeniesiono do twojej przestrzeni dusz smoka.
+YOU_CANNOT_DO_THIS_WHILE_ANOTHER_WINDOW_IS_OPEN	Musisz zamknac wszystkie okna, aby to zrobic.
+ARENA_TALK_5	123
+ARENA_TALK_1	Duel sie zakonczyl, poniewaz twój wojownik zniknal.
+ARENA_TALK_2	Nie ma tutaj limitu na mikstury.
+ARENA_TALK_3	Mozesz uzyc %s mikstur.
+ARENA_TALK_4	Bitwa rozpocznie sie za 10 sekund.
+ARENA_TALK_6	Z powodu problemu na arenie, duel sie zakonczyl.
+ARENA_TALK_7	Duel sie zakonczyl, poniewaz skonczyl sie czas.
+ARENA_TALK_8	W ciagu 10 sekund zostaniesz przeniesiony do miasta.
+ARENA_TALK_12	%s wygral.
+ARENA_TALK_13	Kolejna runda rozpocznie sie za 10 sekund.
+ARENA_TALK_14	Wojownicy odeszli. Duel sie zakonczyl.
+SKILL_TALK_1	Nie mozesz ulepszyc tej umiejetnosci.
+SKILL_TALK_2	Nie mozesz ulepszyc tej umiejetnosci do poziomu Wielkiego Mistrza.
+SKILL_TALK_4	Jestes juz mistrzem w tej umiejetnosci.
+SKILL_TALK_5	Twoja umiejetnosc nie jest wystarczajaco wysoka, aby osiagnac poziom Wielkiego Mistrza.
+SKILL_TALK_6	Pomyslnie ukonczyles szkolenie z ksiazka.
+SKILL_TALK_8	Nie mozesz tego przeczytac, gdy jestes tak malo doswiadczony.
+SKILL_TALK_9	Nie mozesz ulepszyc tej umiejetnosci, czytajac ksiazke.
+SKILL_TALK_10	Ta umiejetnosc nie ma wystarczajacego poziomu, aby mozna ja bylo ulepszyc, czytajac ksiazki.
+SKILL_TALK_11	Jestes wolny od klatwy zlych duchów za pomoca papieru egzorcyzmu ducha zla.
+SKILL_TALK_12	Musisz przeczytac %s wiecej ksiazek, aby poprawic te umiejetnosc.
+SKILL_TALK_13	Nieudane szkolenie. Spróbuj ponownie pózniej.
+SKILL_TALK_14	Teleportacja nie powiodla sie.
+SKILL_NOT_UPGRADE_ERROR	Nie mozesz juz dalej ulepszac tej umiejetnosci.
+SKILL_UPGRADE_SUCCESS	Udalo ci sie ulepszyc umiejetnosc.
+SKILL_UPGRADE_FAIL	Nie udalo ci sie ulepszyc umiejetnosci.
+PASSIVE_SKILL_TALK_1	Nie mozesz juz dalej ulepszac swoich umiejetnosci przy uzyciu tej ksiazki.
+PASSIVE_SKILL_TALK_2	Udalo ci sie ulepszyc umiejetnosc pasywna.
+PASSIVE_SKILL_TALK_3	Nie udalo ci sie ulepszyc umiejetnosci pasywnej.
+PASSIVE_SKILL_TALK_4	Musisz przeczytac %s wiecej ksiazek, aby zwiekszyc swoja umiejetnosc.
+PASSIVE_SKILL_TALK_5	Liczba przeczytanych ksiazek: %s.
+CMD_TALK_1	Ta komenda jest niedostepna.
+CMD_TALK_2	Prosze wprowadzic pelna nazwe komendy.
+CMD_TALK_10	Musisz miec zgode partnera.
+CMD_TALK_11	Mozna to zrobic tylko z przeciwna plcia.
+CMD_TALK_12	Nie mozesz tego uzyc na arenie.
+CMD_TALK_13	Nie moge uzyc tego wyrazenia.
+CMD_TALK_15	Tylko kobiety moga to zrobic.
+CMD_TALK_16	Osoba nie znaleziona.
+CMD_TALK_17	Nie moge uzyc tej umiejetnosci.
+CMD_TALK_18	Jestes bardzo blisko.
+CMD_TALK_19	Jestes bardzo daleko.
+STRING_D1	Juz uzywasz wierzchowca.
+STRING_D2	Musisz przyzwac swojego wierzchowca najpierw.
+STRING_D3	Przywolaj swojego wierzchowca.
+STRING_D4	Najpierw zsiadz z wierzchowca.
+STRING_D5	Nie mozesz karmic wierzchowca, gdy na nim jestes.
+STRING_D6	Podales %s swojemu wierzchowcowi.
+STRING_D7	Potrzebujesz przedmiotu %s, aby to zrobic.
+STRING_D8	Pozostalo %s sekund.
+STRING_D9	Teleportacja anulowana.
+STRING_D10	Wróc do ekranu logowania, prosze czekac.
+STRING_D11	Opuszczanie gry. Prosze czekac.
+STRING_D12	Zmiana postaci. Prosze czekac.
+STRING_D13	Nie moge jeszcze przywrócic. (spróbuj ponownie za %s sekund)
+STRING_D14	Wskrzeszenie w miescie jeszcze nie jest mozliwe. (spróbuj ponownie za %s sekund)
+STRING_D15	Nie mozesz wykonac tej czynnosci podczas polimorfii.
+STRING_D16	Nie mozesz tego zrobic na arenie.
+STRING_D17	Nie mozesz tego zrobic na tej mapie.
+STRING_D18	Ta osoba juz jest w bitwie.
+STRING_D19	Musisz dolaczyc do gildii, aby to zrobic.
+STRING_D20	Nie mozesz zmienic poziomu umiejetnosci gildii.
+STRING_D21	Wprowadzone haslo jest niepoprawne.
+STRING_D22	Okno skladu jest juz otwarte.
+STRING_D23	Mozesz to zrobic co 10 sekund.
+STRING_D24	Cos poszlo nie tak, spróbuj ponownie pózniej!
+STRING_D25	Nie mozesz opuscic grupy podczas przebywania w lochu.
+STRING_D26	Opusciles grupe.
+STRING_D27	Gildia jest juz w bitwie.
+STRING_D28	Nikt nie ma uprawnien do bitwy gildii.
+STRING_D29	Gildia nie znaleziona.
+STRING_D30	Ta Gildia juz bierze udzial w innej bitwie gildii.
+STRING_D31	Ta Gildia juz jest zarejestrowana do innej bitwy gildii.
+STRING_D32	Twoja gildia nie ma wystarczajaco pieniedzy, aby wziac udzial w bitwie gildii.
+STRING_D33	Wypowiedziales wojne tej gildii.
+STRING_D34	Ta Gildia juz jest zarejestrowana do innej bitwy gildii.
+STRING_D35	Twoja gildia juz bierze udzial w innej bitwie gildii.
+STRING_D36	Poziom gildii jest zbyt niski, aby wziac udzial w bitwie gildii.
+STRING_D37	Do udzialu w bitwie gildii wymaganych jest co najmniej %s graczy.
+STRING_D38	Gildia nie ma wystarczajacej liczby punktów rankingowych, aby wziac udzial w bitwie gildii.
+STRING_D39	Gildia nie ma wystarczajacej liczby czlonków, aby wziac udzial w bitwie gildii.
+STRING_D40	Lider gildii nie jest aktywny.
+STRING_D41	%s odrzucil zaproszenie.
+STRING_D42	Nie ma wystarczajaco miejsca w ekwipunku.
+STRING_D43	Nie mozesz zaakceptowac zaproszenia, poniewaz juz nalezysz do grupy.
+STRING_D44	Rzuciles kostka %s. (%s-%s)
+STRING_D45	Nie mozesz uzyskac dostepu do magazynu podczas przebywania w lochu lub bitwie.
+STRING_D46	Nie mozesz dosiasc wierzchowca na tej mapie.
+STRING_D47	Nie mozesz tego zrobic, bedac na wierzchowcu.
+STRING_D48	Uzycie: /channel <nowy numer kanalu>.
+STRING_D49	Prosze wybrac prawidlowy kanal.
+STRING_D50	Jestes juz podlaczony do kanalu %s.
+STRING_D51	Jestes w grupie. Nie mozesz zmieniac kanalów bedac w grupie.
+STRING_D52	Nie mozesz zmieniac kanalów bedac w lochu.
+STRING_D53	Musisz troche poczekac, aby wykonac te czynnosc.
+STRING_D54	Nie mozesz zmieniac kanalów na tej mapie.
+STRING_D55	Eliksir zostal aktywowany i zostanie automatycznie uzyty w razie potrzeby.
+STRING_D56	Eliksir zostal dezaktywowany, nie bedzie automatycznie uzywany w razie potrzeby, musisz go ponownie aktywowac.
+STRING_D57	Ten system jest w trakcie konserwacji. Wkrótce zostanie aktywowany.
+STRING_D58	Twoje ustawienia czatu zostaly zmienione.
+STRING_D59	Nie masz wystarczajacej liczby kamieni duszy.
+STRING_D60	Nie masz wystarczajacej liczby materialów.
+STRING_D61	Nie mozesz tego teraz zrobic.
+STRING_D62	Nie masz wystarczajacej liczby kamieni duszy medrcy.
+STRING_D63	Nie masz wystarczajacej liczby kamieni duszy legendarnych.
+STRING_D64	Nie masz wystarczajacej liczby kamieni duszy umiejetnosci pasywnych.
+STRING_D65	Nie masz wystarczajacej liczby kamieni duszy medrcy umiejetnosci pasywnych.
+STRING_D66	Nie masz wystarczajacej liczby kamieni duszy legendarnych umiejetnosci pasywnych.
+STRING_D67	Ruletka sie kreci.
+STRING_D68	Nie masz wystarczajacej liczby przedmiotów, nie mozesz tego zrobic.
+STRING_D69	Nie masz wystarczajacej liczby monet smoka, nie mozesz tego zrobic.
+STRING_D70	Wprowadzono nieprawidlowa nazwe.
+STRING_D71	Musisz zsiasc z wierzchowca przed zmiana jego nazwy.
+STRING_D72	Masz juz ten efekt.
+STRING_D73	Nazwa wierzchowca pomyslnie zmieniona!
+STRING_D74	Nazwa zwierzaka pomyslnie zmieniona!
+STRING_D75	Brak miejsca w twoim specjalnym ekwipunku.
+STRING_D76	Brak miejsca w twoim ekwipunku.
+STRING_D77	Nie masz wystarczajacej liczby ksiazek do przeczytania.
+STRING_D78	Nie mozesz dalej ulepszac tej umiejetnosci.
+STRING_D79	Nie mozesz czytac ksiazek bez grupy umiejetnosci.
+STRING_D80	Sklep Gaya zostal odswiezony.
+STRING_D81	Nie masz wymaganych materialów, aby odswiezyc sklep Gaya.
+STRING_D82	Okno transformacji musi byc otwarte, aby wykonac te czynnosc.
+STRING_D83	Nie masz wystarczajacej liczby yang.
+STRING_D84	Operacja nie powiodla sie.
+STRING_D85	Jesli okno handlu jest otwarte, nie mozesz zainicjowac kolejnego handlu.
+STRING_D86	Inny gracz juz handluje.
+STRING_D87	Inny gracz anulowal handel.
+STRING_D88	Nie mozesz handlowac tym przedmiotem.
+STRING_D89	Nie mozesz robic zakupów, kiedy otwarte jest okno zadan.
+STRING_D90	Inwentarz innego gracza nie ma wystarczajaco miejsca.
+STRING_D91	Handel z %s zakonczony pomyslnie.
+STRING_D92	Nie mozesz tego zrobic, jestes za daleko.
+STRING_D93	Nie mozesz handlowac wyposazonymi przedmiotami.
+STRING_D94	Nie mozesz sprzedawac za wiecej niz 1kkkkk
+STRING_D95	Nagroda zostala juz przyznana, jestes za pózno.
+STRING_D96	Zdobyles %s punktów doswiadczenia.
+STRING_D97	Tajemnicze swiatlo wydobywa sie z drzewa.
+STRING_D98	Zdobyles %s yang.
+STRING_D99	%s zaprasza cie do walki!
+STRING_D100	Walka z %s rozpoczela sie.
+STRING_D101	Udalo ci sie calkowicie opanowac polimorfizm.
+STRING_D102	Grupa zostala usunieta.
+STRING_D103	Cel nie zostal znaleziony.
+STRING_D104	Przyjaciel twojej grupy nie jest na tej samej mapie co ty.
+STRING_D105	Nie mozesz przywolac celu.
+STRING_D106	Nie mozesz przywolac czlonków grupy do swojej obecnej pozycji.
+STRING_D107	Zyskasz wiecej doswiadczenia dzieki wspólpracy w grupie.
+STRING_D108	Twoje punkty wydobywania osiagnely limit. (%s).
+STRING_D109	Punkty wydobywania twojego kilofa osiagnely najwyzszy poziom.
+STRING_D110	Mozesz zwiekszyc poziom swojego kilofa za pomoca drwala.
+STRING_D111	Twoje punkty wydobywania wzrosly! (%s/%s)
+STRING_D112	Nie mozesz wydobywac bez kilofa w rece.
+STRING_D113	Tutaj nie ma rudy.
+STRING_D114	%s zostalo potracone jako podatek od sprzedazy.
+STRING_D115	Usunales %s z listy znajomych.
+STRING_D116	%s zostal dodany jako znajomy.
+STRING_D117	Czat zostal zablokowany przez wladze.
+STRING_D118	Czat zostal zablokowany na %s godzin %s minut %s sekund przez wladze.
+STRING_D119	Czat zostal zablokowany na %s godzin %s sekund przez wladze.
+STRING_D120	Czat zostal zablokowany na %s minut %s sekund przez wladze.
+STRING_D121	Czat zostal zablokowany na %s sekund przez wladze.
+STRING_D122	Musisz miec poziom %s, aby krzyczec.
+STRING_D123	Nie jestes czlonkiem grupy.
+STRING_D124	Nie udalo ci sie dolaczyc do gildii.
+STRING_D125	Nie mozesz dodac osoby pelniacej wladze do listy znajomych.
+STRING_D126	%s nie jest w grze.
+STRING_D127	Osoba odrzucila prosbe o przyjazn.
+STRING_D128	Nie masz wystarczajacego poziomu.
+STRING_D129	%s odrzucil prosbe o teleportacje.
+STRING_D130	Nie mozesz sie poruszac przez %s sekund po handlu.
+STRING_D131	Niesiesz zbyt duzo yang.
+STRING_D132	Inny gracz niesie zbyt duzo yang.
+STRING_D133	Ten przedmiot nie moze byc przeniesiony do magazynu.
+STRING_D134	Nie mozesz dodawac przedmiotów do swojego specjalnego ekwipunku, bo jest pelny.
+STRING_D135	Nie mozesz przenosic przedmiotów ze swojego specjalnego ekwipunku do magazynu.
+STRING_D136	Musisz opróznic swój pas przed usunieciem pasa.
+STRING_D137	Nie mozesz tego zrobic.
+STRING_D138	Mozesz dodawac tylko eliksiry do ekwipunku pasa.
+STRING_D139	Osoba, która zaprosiles, nie jest aktywna.
+STRING_D140	Serwer nie mógl zrealizowac zadania grupy.
+STRING_D141	Tylko lider grupy moze to zrobic.
+STRING_D142	Cel nie jest czlonkiem twojej grupy.
+STRING_D143	Nie mozesz tego zrobic bedac w lochu.
+STRING_D144	Nie mozesz tego zrobic, poniewaz czlonek grupy jest w lochu.
+STRING_D145	Zostales wyrzucony z grupy.
+STRING_D146	Opusciles grupe.
+STRING_D147	Nie mozesz wyrzucac czlonków grupy.
+STRING_D148	Po rozwiazaniu gildii nie mozesz tworzyc nowej gildii przez %s dni.
+STRING_D149	Po opuszczeniu gildii nie mozesz tworzyc nowej gildii przez %s dni.
+STRING_D150	Wprowadzono nieprawidlowa nazwe gildii.
+STRING_D151	Gildia [%s] zostala pomyslnie zalozona.
+STRING_D152	Nie udalo sie zalozyc gildii. Prosze spróbowac ponownie.
+STRING_D153	Tylko lider grupy moze uzywac umiejetnosci grupy.
+STRING_D154	Nie jestes czlonkiem zadnej gildii.
+STRING_D155	<Gildia> Wprowadzono nieprawidlowa ilosc.
+STRING_D156	Nie mozesz wyrzucic czlonka gildii podczas bitwy gildii.
+STRING_D157	Nie jestes czescia tej samej gildii co ten gracz.
+STRING_D158	Nie masz uprawnien do usuwania czlonków gildii.
+STRING_D159	Usunales czlonka z gildii.
+STRING_D160	Nie masz uprawnien do zmiany nazwy lokalizacji.
+STRING_D161	Nie mozesz zmieniac tytulu lidera gildii.
+STRING_D162	Podana nazwa kolejki jest nieprawidlowa.
+STRING_D163	Nie masz uprawnien do reorganizacji stanowisk.
+STRING_D164	Nie mozesz zmieniac wladzy lidera gildii.
+STRING_D165	Nie mozesz wykonywac tej akcji, kiedy jest wylaczony przyrost doswiadczenia.
+STRING_D166	Twoja gildia osiagnela juz maksymalny mozliwy poziom.
+STRING_D167	Odkladowano %s punktów doswiadczenia.
+STRING_D168	Wystapil blad podczas próby przekazania doswiadczenia do gildii.
+STRING_D169	Wystapil blad podczas regeneracji sily smoka.
+STRING_D170	Nie masz uprawnienia do pisania powiadomien.
+STRING_D171	Nie masz uprawnienia do awansowania kogos na mistrza.
+STRING_D172	Nie masz wystarczajacych uprawnien do mianowania generala.
+STRING_D173	Nie masz juz uprawnienia do mianowania wiecej generalów.
+STRING_D174	Nie mozesz handlowac tym przedmiotem.
+STRING_D175	Nie mozesz utworzyc rynku z powodu nadmiernego yanga.
+STRING_D176	Zakazano aktualizacji listy rankingowej przez %s sekund.
+STRING_D177	Pomyslnie aktywowano Premium Battle Pass dla biezacego sezonu. Baw sie dobrze w grze!
+STRING_D178	Pomyslnie zmieniono kolor umiejetnosci.
+STRING_D179	Aby wykonac te akcje, musisz opuscic obecna grupe.
+STRING_D180	Potrzebujesz poziomu umiejetnosci Przywództwa M1 lub wyzszego, aby wykonac te akcje.
+STRING_D181	Prosze poczekac %s sekund przed podjeciem tej akcji.
+STRING_D182	Funkcja automatycznego lupienia zostala wlaczona.
+STRING_D183	Funkcja automatycznego lupienia zostala wylaczona.
+STRING_D184	Nie masz wystarczajacej ilosci przedmiotów %s, aby wykonac te akcje.
+STRING_D185	Twój czas na powrót do lochu wygasl.
+GUILD_TALK_5	Gildia %s pokonala gildie %s w bitwie gildii.
+GUILD_TALK_9	<Gildia> Gildia %s odrzucila bitwe gildii.
+GUILD_TALK_11	<Gildia> Nie mozesz zalozyc gildii.
+GUILD_TALK_12	<Gildia> Ta nazwa gildii jest juz uzywana.
+GUILD_TALK_13	<Gildia> Wprowadzono nieprawidlowa nazwe gildii.
+GUILD_TALK_15	<Gildia> Nie mozesz zaprosic podczas bitwy.
+GUILD_TALK_16	<Gildia> Ten gracz jest juz czlonkiem innej gildii.
+GUILD_TALK_18	<Gildia> Gildia jest juz w bitwie.
+GUILD_TALK_19	<Gildia> Zgloszenia czlonkostwa sa obecnie ograniczone.
+GUILD_TALK_20	<Gildia> Nie mozesz zapraszac graczy z innych Królestw.
+GUILD_TALK_21	<Gildia> Nie mozesz zaprosic kogos do gildii.
+GUILD_TALK_22	<Gildia> Gracz odrzucil zaproszenie do gildii.
+GUILD_TALK_23	<Gildia> Niewystarczajace yang.
+GUILD_TALK_24	<Gildia> Gracz jest offline.
+GUILD_TALK_25	<Gildia> Gracz jest obecnie na kanale %s. (Twój kanal: %s)
+GUILD_TALK_26	<Gildia> Nie mozesz teraz uzyc tej umiejetnosci.
+GUILD_TALK_27	<Gildia> Nie mozna usunac wiadomosci.
+OX_TALK_1	Poprawna odpowiedz.
+OX_TALK_10	Laczna liczba pytan: %s
+MINING_SUCCESSFULL	Wydobycie zakonczone sukcesem!
+IT_WAS_SUCCESFULL	Operacja zakonczona sukcesem!
+HORSE_FEED_TALK_02	Nakarmiles konia.
+DUNGEON_CHAT_1	Masz jeszcze 20 minut na ukonczenie lochu!
+DUNGEON_CHAT_2	Masz jeszcze 15 minut na ukonczenie lochu!
+DUNGEON_CHAT_3	Masz jeszcze 10 minut na ukonczenie lochu!
+DUNGEON_CHAT_4	Masz jeszcze 5 minut na ukonczenie lochu!
+DUNGEON_CHAT_5	Masz jeszcze 1 minute na ukonczenie lochu, pospiesz sie!
+DUNGEON_CHAT_6	Nie udalo ci sie ukonczyc lochu, zostaniesz teleportowany na zewnatrz za 5 sekund.
+DUNGEON_CHAT_7	Musisz pokonac jeszcze %s potworów.
+DUNGEON_CHAT_8	Pomyslnie ukonczono zadanie, nastepne zadanie rozpocznie sie za 5 sekund.
+DUNGEON_CHAT_9	Musisz zniszczyc jeszcze %s metinów.
+DUNGEON_CHAT_10	Pomyslnie ukonczono loch, zostaniesz teleportowany na zewnatrz za 30 sekund.
+DUNGEON_CHAT_11	Musisz odblokowac jeszcze %s pieczeci.
+DUNGEON_CHAT_12	Zabij wszystkie potwory.
+DUNGEON_CHAT_13	Zniszcz wszystkie metiny.
+DUNGEON_CHAT_14	Zdobadz klucze do pieczeci od stworzen i uzyj ich.
+DUNGEON_CHAT_15	Pojawil sie straznik bossa, pokonaj go, aby dotrzec do Bossa!
+DUNGEON_CHAT_16	Boss pojawil sie, pokonaj bossa, aby ukonczyc loch!
+DUNGEON_CHAT_17	519
+DUNGEON_CHAT_18	520
+DUNGEON_CHAT_19	521
+DUNGEON_CHAT_20	522
+DUNGEON_CHAT_21	523
+DUNGEON_CHAT_22	524
+DUNGEON_CHAT_23	525
+DUNGEON_CHAT_24	526
+DUNGEON_CHAT_25	527
+DUNGEON_CHAT_26	528
+DUNGEON_CHAT_27	529
+DUNGEON_CHAT_28	530
+DUNGEON_CHAT_29	531
+DUNGEON_CHAT_30	532
+DUNGEON_CHAT_31	533
+DUNGEON_CHAT_32	534
+DUNGEON_CHAT_33	535
+DUNGEON_CHAT_34	536
+DUNGEON_CHAT_35	537
+DUNGEON_CHAT_36	538
+DUNGEON_CHAT_37	539
+DUNGEON_CHAT_38	540
+DUNGEON_CHAT_39	541
+DUNGEON_CHAT_40	542
+STRING_D186	Mozna to stosowac tylko na zbroje i bronie o poziomie 40 i ponizej.
+STRING_D187	Liczba pozostalych ryb do zwiekszenia twojego poziomu wedkarstwa to %s!
+STRING_D188	Twój poziom wedkarstwa sie zwiekszyl, osiagniesz nastepny poziom, lowiac jeszcze %s.
+STRING_D189	Jesli to jest przedmiot, mozesz ulepszac tylko przedmioty o poziomie 90 i ponizej.
+STRING_D190	Tym przedmiotem mozna ulepszac tylko przedmioty o poziomie 90 i wyzej.
+STRING_D191	Potrzebujesz aktywnego odliczenia, aby uzyc przedmiotu czasu.
+STRING_D192	Mozesz teleportowac sie tylko do swoich przyjaciól w wioskach.
+STRING_D193	To wydarzenie nie jest aktywne.
+STRING_D194	Niewystarczajaca liczba zestawów kart!
+STRING_D195	Brak miejsca dostepnego!
+STRING_D196	Nie ma juz wiecej kart!
+STRING_D197	Nie mozesz dodac wiecej kart na stól.
+STRING_D198	Nie mozesz modyfikowac ulepszenia kostiumów czasowych.
+STRING_D199	Przedmiot zakupiony. Zakupiony przedmiot zostal przetransferowany do depozytu rynkowego, poniewaz nie ma miejsca w inwentarzu.
+STRING_D200	Nie mozesz usunac ostatniego przedmiotu ze sklepu. (Jesli chcesz usunac ostatni przedmiot, musisz zamknac swój rynek)
+STRING_D201	Nie mozesz tak szybko przeszukiwac.
+STRING_D202	EMPTY
+STRING_D203	EMPTY
+STRING_D204	EMPTY
+STRING_D205	EMPTY
+STRING_D206	EMPTY
+STRING_D207	EMPTY
+STRING_D208	EMPTY
+STRING_D209	EMPTY
+STRING_D210	EMPTY
+STRING_D211	EMPTY
+STRING_D212	EMPTY
+STRING_D213	EMPTY
+STRING_D214	EMPTY
+STRING_D215	EMPTY
+STRING_D216	EMPTY
+STRING_D217	EMPTY
+STRING_D218	EMPTY
+STRING_D219	EMPTY
+STRING_D220	EMPTY
+STRING_D221	EMPTY
+STRING_D222	EMPTY
+STRING_D223	EMPTY
+STRING_D224	EMPTY
+STRING_D225	EMPTY

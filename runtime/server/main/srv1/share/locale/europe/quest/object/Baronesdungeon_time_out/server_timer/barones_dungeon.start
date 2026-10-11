@@ -1,0 +1,10 @@
+if d . select ( get_server_timer_arg ( ) ) then 
+d . kill_all ( ) 
+d . kill_all ( ) 
+d . clear_regen ( ) 
+d . zodiac_notice_clear ( ) 
+d . zodiac_chat ( 508 ) 
+server_timer ( "Baronesdungeon_exit" , 5 , d . get_map_index ( ) ) 
+pc . setf ( "dungeon" , "complete" , 1 ) 
+d . setf ( "complete" , 1 ) 
+end 

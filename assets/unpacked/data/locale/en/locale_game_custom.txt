@@ -1,0 +1,1209 @@
+PVP_LEVEL_19	None
+PVP_LEVEL_18	None
+PVP_LEVEL_17	None
+PVP_LEVEL_16	None
+PVP_LEVEL_15	None
+PVP_LEVEL_14	None
+PVP_LEVEL_13	None
+PVP_LEVEL_12	None
+PVP_LEVEL_11	None
+PVP_LEVEL_10	None
+PVP_LEVEL_9	None
+CANT_GET_FROM_STONE_TARGET	You can not get drop from this metinstone.
+CANT_GET_FROM_MONSTER_TARGET	You can not get drop from this monster.
+CANT_GET_FROM_SMT_CUZ	Reason: Level differece must be less than or equal to 15.
+INFORMATIONS_TARGET	|cffBEB47D < Target Information >
+POISONED_YES	No
+POISONED_NO	Yes
+POSSIBLE_DROPS_FROM_TARGET	|cffBEB47DPossible collectable items:
+TARGET_INFO_RESISTS	Resistance:
+TARGET_INFO_RESIS	Resistance:
+TARGET_INFO_RESIS_1	Sword: %s%% Two-Handed: %s%% Dagger: %s%%
+TARGET_INFO_RESIS_2	Bow: %s%% Fan: %s%% Bell: %s%%
+TARGET_INFO_RESIS_3	Fire: %s%% Elec: %s%%
+TARGET_INFO_RESIS_4	Magic: %s%% Wind: %s%%
+TARGET_INFO_RESIS_5	Can be poisoned: %s
+TARGET_INFO_RESISTS_LINE0	Sword: %d%% Two-Handed: %d%% Bell: %d%%
+TARGET_INFO_RESISTS_LINE1	Dagger: %d%% Fan: %d%% Bow: %d%%
+TARGET_INFO_RESISTS_LINE2	           Claw: %d%%
+TARGET_INFO_REGEN_INFO	Health Regen %d%% in every %d seconds.
+TARGET_INFO_GOLD_MIN_MAX	Yang: %s ~ %s
+TARGET_INFO_NEWRACE_INSECT	Insect
+TARGET_INFO_NEWRACE_FIRE	Fire
+TARGET_INFO_NEWRACE_ICE	Ice
+TARGET_INFO_NEWRACE_DESERT	Desert
+TARGET_INFO_NEWRACE_TREE	Tree
+TARGET_INFO_DAMAGE	Damage : %s - %s
+TARGET_INFO_DEFENSE	Defance : %s
+TARGET_INFO_EXP	Experience : %s
+TARGET_INFO_MAINRACE	Race : %s
+TARGET_INFO_MAX_HP	Max HP: %s
+TARGET_INFO_NO_ITEM_TEXT	No item is collectable from this being.
+TARGET_INFO_NO_RACE	Undefined
+TARGET_INFO_RACE_METIN	Metinstone
+TARGET_INFO_RACE_ANIMAL	Animal
+TARGET_INFO_RACE_DARK	Dark
+TARGET_INFO_RACE_DEVIL	Devil
+TARGET_INFO_RACE_EARTH	Earth
+TARGET_INFO_RACE_ELEC	Elec
+TARGET_INFO_RACE_FIRE	Fire
+TARGET_INFO_RACE_HUMAN	Human
+TARGET_INFO_RACE_ICE	Ice
+TARGET_INFO_RACE_MILGYO	Milgyo
+TARGET_INFO_RACE_INSECT	Insect
+TARGET_INFO_RACE_DESERT	Desert
+TARGET_INFO_RACE_ZODIAC	Zodiac
+TARGET_INFO_RACE_TREE	Tree
+TARGET_INFO_RACE_ORC	Orc
+TARGET_INFO_RACE_UNDEAD	Undead
+TARGET_INFO_RACE_WIND	Wind
+TARGET_INFO_STONE_NAME	Ghost Stone
+TARGET_INFO_RESIST_SWORD	Sword resistance %d%%
+TARGET_INFO_RESIST_TWOHAND	Two-Hand resistance %d%%
+TARGET_INFO_RESIST_DAGGER	Dagger resistance %d%%
+TARGET_INFO_RESIST_BELL	Bell resistance %d%%
+TARGET_INFO_RESIST_FAN	Fan resistance %d%%
+TARGET_INFO_RESIST_BOW	Bow resistance %d%%
+TARGET_INFO_RESIST_MAGIC	Magic resistance %d%%
+TARGET_INFO_RESIST_FIRE	Fire resistance %d%%
+TARGET_INFO_RESIST_ELECT	Elect resistance %d%%
+TARGET_INFO_RESIST_WIND	Wind resistance %d%%
+TARGET_INFO_RESIST_POISON	Poison resistance %d%%
+TARGET_INFO_SUBRACE	Subrace : %s
+AFFECT_UNLIMITED_DURATION	|cffffcc00(Permanent)
+CHANNEL_STATUS_NOT_KNOWN	Unknown
+CHANNEL_STATUS_BUSY	Busy
+CHANNEL_STATUS_FULL	Full
+NOID_OR_PASSWORD	Check your id or password.
+ACCOUNT_HAS_REGISTERED	Account informations saved.
+NO_DELETE_ACCOUNT	No account to delete.
+ACCOUNT_HAS_DELETED	Account has deleted.
+NEW_EXCHANGE_ADDED	%s added %s.
+NEW_EXCHANGE_YOU_READY	%s ready to trade.
+NEW_EXCHANGE_YOU_ACCEPT	%s accepted the trade.
+NEW_EXCHANGE_ACCEPT	%s %s accepted the trade.
+NEW_EXCHANGE_YOU_ABORT	%s cancelled the trade.
+NEW_EXCHANGE_ABORT	%s %s cancelled the trade.
+NEW_EXCHANGE_LEVEL	Lv. %d
+NEW_EXCHANGE_ALERT1	You are giving this items for without getting any items,
+NEW_EXCHANGE_ALERT2	Are you sure you want to accept this trade?
+EXCHANGE_TITLE	Trading with %s
+EXCHANGE_TITLE_LEVEL	Trading with %s (Lv.%d)
+EXCHANGE_NOT_SPACE_QUICK_ADD	You do not have room in your trade window to add this item.
+TEXT_CHANNEL	%s, Channel %d
+TEXT_CHANNEL2	Channel %d
+REFINE_KEEP_WINDOW_OPEN	Keep the window open
+CUBE_CAT_01	Armor Crafting
+CUBE_CAT_02	Weapon Crafting
+CUBE_CAT_03	Bracelet Crafting
+CUBE_CAT_04	Pendant Crafting
+CUBE_CAT_05	Helmet Crafting
+CUBE_CAT_06	Shoulder Sash Crafting
+CUBE_CAT_07	Aura Crafting
+CUBE_CAT_08	Special Item Crafting
+CUBE_CAT_09	Ring Crafting
+CUBE_CAT_10	Mount Crafting
+CUBE_CAT_11	Pet Crafting
+CUBE_CAT_12	Mount-Skin Crafting
+CUBE_CAT_13	Pet-Skin Crafting
+CUBE_CAT_14	Spirit-Stone Crafting
+CUBE_CAT_15	Necklace Crafting
+CUBE_CAT_16	Earring Crafting
+CUBE_CAT_17	Shield Crafting
+CUBE_CAT_18	Shoe Crafting
+CUBE_CAT_19	Glove Crafting
+CUBE_CAT_20	Belt Crafting
+CUBE_CAT_21	Assistive Equipment Crafting
+CUBE_CAT_22	Upgrade Item Crafting
+CUBE_CAT_23	Sash-Skin Crafting
+CUBE_CAT_24	Aura-Skin Crafting
+CUBE_CAT_25	Book Crafting
+CUBE_CAT_26	Alchemy Crafting
+CUBE_CAT_27	Other Alchemy Items
+CUBE_CAT_28	Attribute Items Crafting
+CUBE_CAT_999	Others
+SPLIT_MULTIPLE_ITEMS	Split multiple
+ARRANGE_INFO_1	Inventory arrangement can't be reversed,
+ARRANGE_INFO_2	Are you sure you want to do this?
+YOU_CANNOT_OPEN_CHEST_IN_CITY	You can not open a chest in the city.
+SPECIAL_STORAGE_PAGE_PLEASE_WAIT	Wait a second...
+TOOLTIP_DS_SET	Dragon Soul Set Bonus	SNA
+TOOLTIP_NAMING_SCROLL_MOUNT	Mount Naming Scroll	SNA
+TOOLTIP_NAMING_SCROLL_PET	Pet Naming Scroll	SNA
+TOOLTIP_NAMING_SCROLL_BUFFI	Buffi Naming Scroll	SNA
+BUFF_AFFECT_REMOVE_QUESTION	Do you want to remove the affect called %s?
+BUFF_AFFECT_REMOVE_QUESTION2	Do you want to open/close the affect called %s?
+
+OFFLINESHOP_TOOLTIP_RIGHT_CLICK_FOR_SALE	|Eothers/key_rc|e - Add item to the shop
+CONVER_TO_CARD_SET	|Eothers/key_rc|e - Convert to card set (x{} item needed)
+OFFLINE_SHOP_NOTIFICATION_TITLE	Sales notification
+OFFLINESHOP_TOOLTIP_RIGHT_CLICK_FOR_SALE2	|Eothers/key_ctrl|e + |Eothers/key_rc|e - Add item to the shop fast
+OFFLINESHOP_NO_MONEY_TO_WITHDRAW	No yang to withdraw.
+
+OFFLINESHOP_NOTIF_ITEM_INFO	%s x%d sold for %d.
+OFFLINESHOP_NOTIF_CLOSE_ALL	Close all
+
+CHEST_PREVIEW	Chest Preview
+OFFLINESHOP_SET_NAME	       <- Name your shop ->
+OFFLINESHOP_SHOP_DECO_TITLE	Shop decoration
+OFFLINESHOP_SHOP_DECO_0	Normal
+OFFLINESHOP_SHOP_DECO_1	1001 Nights
+OFFLINESHOP_SHOP_DECO_2	BBQ King
+OFFLINESHOP_SHOP_DECO_3	Treasure Hunter
+OFFLINESHOP_SHOP_DECO_4	Fire the Seller
+OFFLINESHOP_SHOP_DECO_5	Weaponsmith
+SHOP_SEARCH_TITLE	Search Items in Shops
+SHOP_SEARCH_BUY_SELECTED_ITEMS	Buy selected items
+SHOP_SEARCH_ENTER_ITEMNAME	Search with item name
+SHOP_SEARCH_SEARCH_BY_PLAYERNAME	Player name
+SHOP_SEARCH_SEARCH_BY_PLAYERNAME2	Search with player name
+SHOP_SEARCH_ALL	All categories
+SHOP_SEARCH_BUY_SELECTED_ITEMS_CONFIRM	Do you really want to buy selected %d items?
+SHOP_SEARCH_BUY_CONFIRM	Do you really want to buy %s?
+SHOP_SEARCH_BUY_CONFIRM2	Do you want to teleport to the shop which contains %s?
+SHOP_SEARCH_WAIT	Wait %d seconds to do this again.
+OFFLINE_SHOP_TOTAL_PRICE	Total: |cFF20B2AA Yang
+OFFLINE_SHOP_TOTAL_YANG	Total price of all items
+OFFLINE_SHOP_REMAINING_TIME	Remaining Time: 0 Gün
+OFFLINE_SHOP_HISTORY	Shop History
+OFFLINE_SHOP_WITHDRAW_YANG	Withdraw
+OFFLINE_SHOP_HISTORY_NO_INFORMATION	No information.
+OFFLINE_SHOP_LEFT_TIME	Left Time: %s
+OFFLINE_SHOP_EMOJI_TOOLTIP	|Eothers/key_ctrl|e + |Eothers/key_rc|e - Remove Item
+OFFLINE_SHOP_EMOJI_TOOLTIP2	|Eothers/key_rc|e - Update Item Price(s)
+OFFLINE_SHOP_EMOJI_TOOLTIP3	|Eothers/key_rc|e - Take item
+OFFLINE_SHOP_WARNING	If the item you are looking for is not visible here, because the storeroom is full, you will be able to see other items as you collect items from the storeroom.
+OFFLINE_SHOP_TOTAL_PRICE2	|cFFF1E6C0Total: |cFF20B2AA
+OFFLINE_SHOP_BUY_ITEM	Do you want to buy %s %dx for %s?
+OFFLINE_SHOP_BUY_ITEM2	Do you want to buy %s for %s?
+OFFLINE_SHOP_NO_ITEMS_IN_SHOP	You have to put items to create a shop!
+OFFLINESHOP_INPUT_INFO	What is the price for you to
+OFFLINESHOP_INPUT_INFO2	sell this item?
+OFFLINESHOP_TIME_TOOLTIP	Remaining Time
+OFFLINESHOP_TOTAL_PRICE_OF_SHOP	Total price of all items
+
+MOVE_ITEM_TO_SAFEBOX	|Eothers/key_rc|e - Move item to safebox
+MOVE_ITEM_TO_SAFEBOX_TO_INVEN	|Eothers/key_rc|e - Move item to inventory
+MOVE_ITEM_TO_EXCHANGE	|Eothers/key_rc|e - Move item to exchange window
+SWITCHBOT_TITLE	Switchbot
+SWITCHBOT_START	Start
+SWITCHBOT_STOP	Stop
+SWITCHBOT_EMPTY_ATTR	- None -
+SWITCHBOT_SELECT_ATTR	Select Attribute
+SWITCHBOT_CLEAR_ATTR	Clear
+SWITCHBOT_CONFIGURATION_TITLE	Saved Settings
+SWITCHBOT_SAVE_BUTTON	My Settings
+SWITCHBOT_SAVE	Save
+SWITCHBOT_LOAD_CONFIGURATION	Load
+SWITCHBOT_CLEAR_CONFIGURATION	Clear
+MULTIPLE_BUY_TOOLTIP	|Eothers/key_ctrl|e + |Eothers/key_rc|e - Multiple buy
+SHOP_NOT_ENOUGH_ITEM	You do not have enough items.
+ITEM_PRICE_TITLE	[ Item Price ]
+ITEM_IS_WORTH	x%d  - |Eemoji/%s|e (%s)
+FREE_ITEM	[Free]
+MULTIPLE_BUYS_TITLE	Multiple buy
+MULTIPLE_BUY_PRICE	 %s count/Yang
+DO_YOU_BUY_ITEM_NORMAL	Do you want to buy %d %s?
+ITEM_EXACT_SEARCH	Exact Search
+SHOP_SEARCH_ITEM_PRICE_PER_COUNT	Price Per Count: %s
+SHOP_MONEY_NOT_ENOUGH	Not enough yang!
+SHOP_MONEY_NOT_ENOUGH2	The total price of the products you want to add to the cart cannot be more than your money.
+SHOP_SEARCH_ADD_ITEMS_TO_THE_CART_FIRST	In order to do this, you have to first select the items.
+SHOP_SEARCH_CLEAR_CART_FIRST	You can only do this when there are no items selected.
+SHOP_SEARCH_SHORTCUT_SEARCH	|Eothers/key_shift|e + |Eothers/key_j|e - Search item in shops
+SHOP_SEARCH_MULTIBUY_ACTIVATED	Selective purchase has been activated, you can select it by clicking on the item.
+SHOP_SEARCH_NOT_RESULT_FOUND	No result found!
+SHOP_SEARCH_ADD_TO_BASKET	Add item to the cart
+SHOP_SEARCH_REMOVE_FROM_THE_BASKET	Remove item from the cart
+SHOP_SEARCH_ACCE_GRADE_FILTER_TITLE	Sash Grade
+SHOP_SEARCH_ACCE_GRADE_FILTER_0	Basic
+SHOP_SEARCH_ACCE_GRADE_FILTER_1	Fine
+SHOP_SEARCH_ACCE_GRADE_FILTER_2	Nobel
+SHOP_SEARCH_ACCE_GRADE_FILTER_3	Custom
+
+SHOP_SEARCH_FILTER_0_0	Min. Count
+SHOP_SEARCH_FILTER_0_1	Max. Count
+
+SHOP_SEARCH_FILTER_1_0	Min. Level
+SHOP_SEARCH_FILTER_1_1	Max. Level
+
+SHOP_SEARCH_FILTER_2_0	Min. Abs.
+SHOP_SEARCH_FILTER_2_1	Max. Abs.
+
+SHOP_SEARCH_FILTER_3_0	Min. Average
+
+SHOP_SEARCH_FILTER_4_0	Min. Price
+SHOP_SEARCH_FILTER_4_1	Max. Price
+
+SHOP_SEARCH_DS_GRADE_FILTER_TITLE	Dragon Soul Grade
+SHOP_SEARCH_DS_GRADE_FILTER_0	Diamond
+SHOP_SEARCH_DS_GRADE_FILTER_1	Ruby
+SHOP_SEARCH_DS_GRADE_FILTER_2	Jade
+SHOP_SEARCH_DS_GRADE_FILTER_3	Sapphire
+SHOP_SEARCH_DS_GRADE_FILTER_4	Garnet
+SHOP_SEARCH_DS_GRADE_FILTER_5	Onyx
+
+SHOP_SEARCH_DS_CLARITY_FILTER_TITLE	Dragon Soul Clarity
+SHOP_SEARCH_DS_CLARITY_FILTER_0	Matt
+SHOP_SEARCH_DS_CLARITY_FILTER_1	Clear
+SHOP_SEARCH_DS_CLARITY_FILTER_2	Flawless
+SHOP_SEARCH_DS_CLARITY_FILTER_3	Brilliant
+SHOP_SEARCH_DS_CLARITY_FILTER_4	Excellent
+SHOP_SEARCH_PREMIUM_NEEDED_FOR_THIS_ACTION	You need premium for this action.
+
+FAST_OPEN_CHEST_TOOLTIP	|Eothers/key_alt|e + |Eothers/key_rc|e - Open {} times
+GIFTBOX_VIEW_CHEST_DROP_TOOLTIP	|Eothers/key_shift|e + |Eothers/key_rc|e - Preview
+
+BONUS_TABLE_ENTER_BONUSNAME	Bonus Name
+DETAILS_TITLE	Bonus Table
+MODEL_PREVIEW	Preview
+MODEL_ITEM_PREVIEW	|Eothers/key_shift|e + |Eothers/key_p|e - Preview
+MODEL_ITEM_PREVIEW_MOVE	To Move -  |Eothers/key_rc|e
+MODEL_ITEM_PREVIEW_ZOOM	To Zoom - |Eothers/key_mc|e
+
+RANKING_PLAYER_RANK	Ranking
+RANKING_PLAYER_NAME	Player
+RANKING_PLAYER_COUNTRY	Country
+RANKING_PLAYER_SCORE	Score
+RANKING_REFRESH_TIME_INFORMATION	Sýralama tablosu 30 dakikada bir yenilenmektedir.
+
+SELECTED_FONT_02	Arial:14
+SELECTED_FONT_02_LARGE	Arial:16
+SELECTED_FONT_02_SMALL	Arial:12
+SELECTED_FONT_02_FONT	Arial:14b
+
+SELECTED_FONT_03	Tahoma:14
+SELECTED_FONT_03_LARGE	Tahoma:16
+SELECTED_FONT_03_SMALL	Tahoma:12
+SELECTED_FONT_03_FONT	Tahoma:14b
+
+SELECTED_FONT_04	Verdana:12
+SELECTED_FONT_04_LARGE	Verdana:14
+SELECTED_FONT_04_SMALL	Verdana:10
+SELECTED_FONT_04_FONT	Verdana:12b
+
+SELECTED_FONT_TYPE1	Type 1
+SELECTED_FONT_TYPE2	Type 2
+SELECTED_FONT_TYPE3	Type 3
+SELECTED_FONT_TYPE4	Type 4
+
+WIKI_SEARCH_SHORTCUT_SEARCH	|Eothers/key_shift|e + |Eothers/key_h|e - Search item in wikipedia
+DELETE_AFFECT_TOOLTIP	|Eothers/key_lc|e - Remove this affect
+DELETE_AFFECT_TOOLTIP2	|Eothers/key_lc|e - Active/Deactive this affect
+INVENTORYSLOT_TOOLTIP_WEAPON_SKIN	Weapon Costume
+INVENTORYSLOT_TOOLTIP_BODY	Body Costume
+INVENTORYSLOT_TOOLTIP_HAIR	Hairstyle
+INVENTORYSLOT_TOOLTIP_GLOVE	Glove
+INVENTORYSLOT_TOOLTIP_CROWN	Crown
+INVENTORYSLOT_TOOLTIP_RING1	Rnig
+INVENTORYSLOT_TOOLTIP_RING2	Rnig
+INVENTORYSLOT_TOOLTIP_RING3	Rnig
+INVENTORYSLOT_TOOLTIP_RING4	Rnig
+INVENTORYSLOT_TOOLTIP_ARROW	Arrow
+INVENTORYSLOT_TOOLTIP_SHIELD	Shield
+INVENTORYSLOT_TOOLTIP_AURA	Aura
+INVENTORYSLOT_TOOLTIP_MOUNT_SKIN	Mount Costume
+INVENTORYSLOT_TOOLTIP_PET_SKIN	Pet Costume
+INVENTORYSLOT_TOOLTIP_ACCE_SKIN	Shoulder Sash Costume
+INVENTORYSLOT_TOOLTIP_AURA_SKIN	Aura Costume
+
+INVENTORYSLOT_TOOLTIP_BOOSTER	Booster (Weapon)
+INVENTORYSLOT_TOOLTIP_BOOSTER2	Booster (Armor)
+INVENTORYSLOT_TOOLTIP_BOOSTER3	Booster (Helmet)
+
+INVENTORYSLOT_TOOLTIP_PET_SYSTEM	Companion
+
+INVENTORYSLOT_TOOLTIP_DREAMSOUL_RED	Rüya Ruhu
+INVENTORYSLOT_TOOLTIP_DREAMSOUL_BLUE	Gök Ruhu
+
+INVENTORYSLOT_TOOLTIP_RING	Ring 1
+INVENTORYSLOT_TOOLTIP_RING2	Ring 2
+INVENTORYSLOT_TOOLTIP_RING3	Ring 3
+INVENTORYSLOT_TOOLTIP_RING4	Ring 4
+
+WIKI_CLEAR_SEARCH	Clear search
+SHOP_BUY_NOTIF_0	is sold.
+SHOP_BUY_NOTIF_1	yang added to your storeroom.
+
+INGAME_LOG_TITLE_01	Offlineshop history
+INGAME_LOG_TITLE_02	Exchange history
+
+INGAME_LOG_OFFLINESHOP_ITEM_INFO_0	Item Name
+INGAME_LOG_OFFLINESHOP_ITEM_INFO_1	Price
+INGAME_LOG_OFFLINESHOP_ITEM_INFO_2	Buyer
+INGAME_LOG_OFFLINESHOP_ITEM_INFO_3	Transaction date
+
+INGAME_LOG_EXCHANGE_ITEM_INFO_0	Traded With
+INGAME_LOG_EXCHANGE_ITEM_INFO_1	Detailed Information
+
+INGAME_TRADELOG_YOU	You
+INGAME_TRADELOG_PLAYERNAME	PlayerName
+INGAME_LOG_INFORMATION	You can see your past actions here, if you cannot find the log you are looking for, log in again.
+
+TEXTTAIL_CANT_INTERACT	You have to stand still to do this.
+SYSTEM_MESSAGE	[SYSTEM MESSAGE]
+YOU_CANT_ANSWER_TO_THIS_MESSAGE	You can not answer to this message.
+STOP_CHAT_BUTTON	Stop the chat
+
+MESSENGER_SUPPORT	|Ee/m|e Support
+
+AUTO_SHOUT_BUTTON	Auto Message (Shout)
+AUTO_SHOUT_INFO	Automatic message activated, your last shout message will be sent until you stop it.
+AUTO_SHOUT_INFO2	Automatic message disabled.
+AUTO_SHOUT_INFO3	The last shout message was not found, sending will start when you send a shout message.
+
+BUTTON_TOOLTIP_WHISPER_CLOSE	|Eothers/key_ctrl|e + |Eothers/key_lc|e - Close the whisper
+
+SHOP_CANNOT_DO_THIS_WHILE_SEARCHING	You can't do this while searching.
+
+ITEM_TRANSACTIONS_TITLE	Item transactions
+ITEM_TRANSACTIONS_ALREADY_IN_LIST	Item is already in the list.
+ITEM_TRANSACTIONS_QUESTION_DIALOG_1	Are you sure you want to sell the selected items?
+ITEM_TRANSACTIONS_QUESTION_DIALOG_2	Are you sure you want to delete the selected items?
+ITEM_TRANSACTIONS_SELECTED_COUNT	Selected item count %d
+ITEM_TRANSACTIONS_ADD_ITEMS	|Eothers/key_x|e + |Eothers/key_lc|e - Add item to the list
+ITEM_TRANSACTIONS_FAST_ITEMS_TOOLTIP	|Eothers/key_x|e + |Eothers/key_lc|e - Item transactions
+FAST_MOVE_ITEM_BETWEEN_INV	|Eothers/key_ctrl|e + |Eothers/key_rc|e - Move to the special inventory
+
+
+BIOLOG_WINDOW_TITLE	Biolog
+BIOLOG_BONUS_TITLE	Bonusses
+BIOLOG_ITEM_0	Chance for success will be 100%
+BIOLOG_ITEM_1	Reset Time
+BIOLOG_DELIVER_ITEM	Deliver
+BIOLOG_NOT_ENOUGH_MATERIAL	Not enough item to do this.
+BIOLOG_COOLDOWN_NOT_FINISHED	Cooldown has not finished yet.
+BIOLOG_COOLDOWN_CANT_RESET_CUZ_NO_COOLDOWN	You cannot use reset while there is no cooldown.
+BIOLOG_CAN_DELIVER_ITEM	You can deliver
+BIOLOG_FINISHED	You can't do this because your biologist tasks are finished.
+
+BIOLOG_CURRENT_MISSION	Current Mission: {}
+BIOLOG_SOULSTONE_INFO	You can get this item from: {}
+BIOLOG_REMAINING_TIME	Remaining Time: 
+BIOLOG_PROGRESS_STATE	Progress State
+BIOLOG_CAN_DELIVER_NEXT_ITEM	You can deliver the next item
+YOU_NEED_LEVEL	You have to be at least {} levels to do this.
+
+DISTANCE_NPC_TITLE	Distance Shopping
+
+INVENTORY_SIDEBAR_BUTTON_1	Special Inventory
+INVENTORY_SIDEBAR_BUTTON_2	Wikipedia
+INVENTORY_SIDEBAR_BUTTON_3	Offlineshop
+INVENTORY_SIDEBAR_BUTTON_4	Switchbot
+INVENTORY_SIDEBAR_BUTTON_5	Buffi
+
+SKILL_SET_BONUS_TOOLTIP_AVAIL_FOR_SAGE	When all the active skills are sage, you get the following effects \nMax HP +1000\nStrong against Half Humans +10\n Strong against monsters +10\n Strong against Metinstones +5\n Strong against Bosses +5
+
+SKILL_SET_BONUS_TOOLTIP	Skill Set Bonus [Sage]
+SKILL_SET_BONUS_TOOLTIP2	Skill Set Bonus [Legendary]
+SKILL_SET_BONUS_AFFECT_TOOLTIP	Strong against monster +%500
+SKILL_SET_BONUS_AFFECT2_TOOLTIP	Attack Value (PvM) +100
+SKILL_SET_BONUS_AFFECT3_TOOLTIP	Strong against monster +%1000
+SKILL_SET_BONUS_AFFECT4_TOOLTIP	Attack Value (PvM) +250
+SKILL_SET_BONUS_AFFECT5_TOOLTIP	B/Y Dövüþ Saldýrýsý +%10
+
+SKILL_PASSIVE_NOT_LEVEL	You need to level up this skill to use it.
+
+SKILL_MONSTER_DESCRIPTION	Strong against Monsters +%.1f%%
+SKILL_METIN_DESCRIPTION	Strong against Metin stones +%.1f%%
+SKILL_BERSERKER_DESCRIPTION	Magic/melee attack +%.1f%%
+SKILL_HUMAN_DESCRIPTION	Strong against Humans +%.1f%%
+SKILL_COOLDOWN_DESCRIPTION	Skill Cooldown +%.1f%%
+SKILL_DRAGON_HEARTH_DESCRIPTION	Max. HP +%.1f%%
+SKILL_RESIST_HERBOLOGY_DESCRIPTION	Increased Blend Attributes +%.1f%%
+SKILL_RESIST_UPGRADING_DESCRIPTION	Increased Upgrading Chance +%.1f%%
+SKILL_RESIST_FISHING_DESCRIPTION	Double Fishing Bonus +%.1f%%
+
+TOOLTIP_NEXT_SKILL_LEVEL	Next Level: {}
+
+FAST_SOUL_STONE_1	Choose the skill you want to improve first.
+FAST_SOUL_STONE_2	You can only choose skills at the Grand Master level.
+FAST_SOUL_STONE_3	You can start reading now.
+FAST_SOUL_STONE_4	You can only choose the skills at the perfect level.
+FAST_SOUL_STONE_5	You can only choose the skills at SAGE level.
+
+DUNGEON_TIMER_TITLE	Dungeon Informations
+
+DUNGEON_TIMER_MINLVL	Level range
+DUNGEON_TIMER_GROUPREQ	Group State
+DUNGEON_TIMER_COOLDOWN	Cooldown
+DUNGEON_TIMER_TICKET	Entrance ticket
+
+DUNGEON_TIMER_RESET_COOLDOWN	Reset Cooldown
+DUNGEON_TIMER_TP	Teleport
+
+DUNGEON_TIMER_CONFIRM	Confirm
+DUNGEON_TIMER_DECLINE	Decline
+TIMER_WARP_QUESTION	Do you want to teleport to %s dungeon?
+
+DUNGEON_TIMER_GROUP_REQ_NO	Solo
+DUNGEON_TIMER_GROUP_REQ_YES	With group
+DUNGEON_TIMER_AVAILABLE	Available
+DUNGEON_TIMER_NOT_AVAILABLE	Not available
+DUNGEON_TIME_NO_ITEM	No item
+DUNGEON_TIMER_COOLDOWN	Cooldown
+DUNGEON_TIMER_BOSS_DROP	Dungeon drops
+DUNGEON_TIMER_MIN_MAX_LEVEL	min. {} - max. {}
+
+DUNGEON_TIMER_WIKI_BUTTON	Wikipedia
+
+DUNGEON_TIMER_ERROR_LEVEL	Your level range is not suitable.
+DUNGEON_TIMER_ERROR_TICKET	You don't have enough entrance tickets.
+DUNGEON_TIMER_ERROR_QTIME	Cooldown has not finished yet.
+DUNGEON_TIMER_ERROR_HTIME	The cooling time of the computer has not yet finished.
+DUNGEON_TIMER_ERROR_BUSY	You can't call more than one boss at the same time.
+DUNGEON_TIMER_ERROR_UNKNOWN	There was an unknown error.
+DUNGEON_NOTIFICATION_TITLE	[DUNGEONS]
+DUNGEON_NOTIFICATION_MESSAGE	The cooldown of the dungeon {} has ended!
+
+REFINE_ALL_QUESTION_DIALOG	It will refine all the pages and grades, are you sure?
+REFINE_ALL_ITEMS_FINISHED	Completed, all the pages are refined.
+REFINE_FAST_UPGRADE_INFO	Skip the upgrading question
+REFINE_FAST_UPGRADE_CHECKBOX_TEXT	Fast refine
+
+BLUE_KINGDOM	|cFF8CADDBJinno:|h|r
+RED_KINGDOM	|cFFFBB497Shinsoo:|h|r
+YELLOW_KINGDOM	|cFFFDE696Chunjo:|h|r	
+BONUS_END_IN	Ends in: %s
+BONUS_EVENT	Bonus Event:
+BONUS_NEXT_EVENT	|Eothers/key_rc|e - Next Event
+BONUS_START_IN	Starts in: %s
+BONUS_TABLE_1	Jinno Players
+BONUS_TABLE_2	Shinsoo Players
+BONUS_TABLE_3	Chunjo Players
+BONUS_TABLE_4	Player
+BONUS_TABLE_5	Won Duels
+BONUS_TABLE_TITLE_1	Attack Bonusses
+BONUS_TABLE_TITLE_2	Element Bonusses
+BONUS_TABLE_TITLE_4	Character & Defance Bonusses
+BONUS_TABLE_TITLE_5	Others
+ALL_CHANNEL	Can be gathered from all channels	
+ALL_KINGDOMS	|cFF97AE99All kingdoms :|h|r	
+
+DOUBLE_METIN_LOOT_EVENT	 Double Loot Metinstones
+DOUBLE_BOSS_LOOT_EVENT	 Double Loot Boss
+WHELL_OF_FORTUNE_EVENT	  Wheel Of Fortune
+EXP_EVENT	 Experience Event: %100
+LETTER_EVENT	 Letter Event
+CARD_EVENT	 Okey Card Event
+CATCH_KING_EVENT	 Catch The King Event
+BLACK_N_WHITE_EVENT	 Black 'N White Event
+YUTNORI_EVENT	 Yutnori Event
+MOONLIGHT_EVENT	 Moonlight Event
+SOCCER_BALL_EVENT	 Football Event
+
+HALLOWEEN_EVENT	 Halloween Event
+RAMADAN_EVENT	 Ramadan Event
+SUMMER_EVENT	 Summer Event
+CHRISTMAS_EVENT	 Christmas Event
+EASTER_EVENT	 Easter Event
+VALENTINES_EVENT	 Valentines Event
+
+BEGGINER_EVENT	 Beginner Event
+
+EMPIRE_WAR_EVENT	 Leinos Savaþý (Sv %d - Sv %d)
+EVENT_CALENDAR_TITLE	Event Calendar : %s
+EVENT_COLORFULL_TEXT	|cFF84A5B%s|h|r
+EVENT_DURATION	Duration:
+EVENT_END_AT	Ends at:
+EVENT_MANAGER_WINDOW_TITLE	Event Calendar: %s - %d
+EVENT_MONTH_1	January
+EVENT_MONTH_2	February
+EVENT_MONTH_3	March
+EVENT_MONTH_4	April
+EVENT_MONTH_5	May
+EVENT_MONTH_6	June
+EVENT_MONTH_7	July
+EVENT_MONTH_8	August
+EVENT_MONTH_9	September
+EVENT_MONTH_10	October
+EVENT_MONTH_11	November
+EVENT_MONTH_12	December
+EVENT_START_AT	Starts at:
+EVENT_TOOLTIP_DOESNT_HAVE_EVENT	No designated event for this date.
+EVENT_TOOLTIP_TITLE	Events in this date: %s
+MOUNT_DOYUMHWAN_MAP_NAME	Doyumhwan
+MOUNT_SOHAN_MAP_NAME	Sohan
+MOUNT_YONGBI_MAP_NAME	Yongbi
+NORMAL_EVENT_TIME	Start: %s End %s
+PVP_EVENT_TIME	Starts: %s
+
+CATEGORY_0_NAME	Special Offers
+CATEGORY_1_NAME	Special Items
+CATEGORY_1_SUB_1_NAME	Premium Items
+CATEGORY_1_SUB_2_NAME	Packages
+CATEGORY_2_NAME	Cosmetic
+CATEGORY_2_SUB_1_NAME	Weapon Costume
+CATEGORY_2_SUB_2_NAME	Body Costume
+CATEGORY_2_SUB_3_NAME	Hairstyles
+CATEGORY_2_SUB_4_NAME	Sash Skins
+CATEGORY_2_SUB_5_NAME	Aura Skins
+CATEGORY_3_NAME	Companions
+CATEGORY_3_SUB_1_NAME	Mounts
+CATEGORY_3_SUB_2_NAME	Pets
+CATEGORY_3_SUB_3_NAME	Mount Skin
+CATEGORY_3_SUB_4_NAME	Pet Skin
+CATEGORY_4_NAME	Supportive Items
+CATEGORY_4_SUB_1_NAME	Boosters
+CATEGORY_4_SUB_2_NAME	Costume Enchantment
+CATEGORY_4_SUB_3_NAME	Rings
+CATEGORY_4_SUB_4_NAME	Supportive
+
+ITEMSHOP_ACCEPT_CHANGE_PRICE	Accept
+ITEMSHOP_ADD_DISCOUNT_DISCOUNT_TITLE	Discount:
+ITEMSHOP_ADD_DISCOUNT_HOUR	hour
+ITEMSHOP_ADD_DISCOUNT_MINUTE	min
+ITEMSHOP_ADD_DISCOUNT_SECOND	sec
+ITEMSHOP_ADD_ITEM_ACCEPT_TEXT_BUTTON	Accept
+ITEMSHOP_ADD_ITEM_PRICE_TITLE	Price:
+ITEMSHOP_BUY	Buy
+ITEMSHOP_BUY_BUTTON	Buy
+ITEMSHOP_BUY_BUTTON2	Buy\n(Untradeable)
+ITEMSHOP_BUY_COIN	Home Page
+ITEMSHOP_BUY_ITEM_WITHOUT_AMOUNT_QUESTION	Do you want to buy %s %d for %s?
+ITEMSHOP_BUY_ITEM_WITH_AMOUNT_QUESTION	Do you want to buy %d %s %sx for %s?
+ITEMSHOP_BUY_TEXT	Do you want to buy |cffF7BD48%s|r?
+ITEMSHOP_BUY_TEXT_COUNT	Do you want to buy |cffF7BD48%sx%d|r?
+ITEMSHOP_CANCEL_CHANGE_PRICE	Cancel
+ITEMSHOP_COINS	Dragon Coins:
+ITEMSHOP_COUNT	Count
+ITEMSHOP_DATE	Date: %s
+ITEMSHOP_DRAGONCOINT	Current DC
+ITEMSHOP_DRSSHOP_COIN	DC
+ITEMSHOP_HOME_NAME	Home Page
+ITEMSHOP_HOTITEMS	|Eothers/hot_icon|ePopular
+ITEMSHOP_HOUR	Hour: %s
+ITEMSHOP_HOURS_MINUTES_SECONDS	%dh %dm %ds
+ITEMSHOP_LAST_COUNT	Remaining Count: %d
+ITEMSHOP_PRICE	Price
+ITEMSHOP_PRICE_NEW	|Eothers/mini_coin|e %s DC
+ITEMSHOP_PRICE_ONLY_TEXT	%s DC
+ITEMSHOP_PRICE_TITLE_BOX	Price: %d %s
+ITEMSHOP_PRICE_WITH_DISCOUNT	|Eothers/mini_coin|e |cffFF7B7B%s DC (%d%%)
+ITEMSHOP_BUYDC	|Eothers/mini_coin|e BUY DC
+ITEMSHOP_PURCHASES	Purchases
+ITEMSHOP_SEARCH_TEXT	Search
+ITEMSHOP_WHEEL	|Eothers/wheel_icon|e Wheel	
+ITEMSHOP_WHEEL_BACK_ISHOP	Go to home page
+ITEMSHOP_WHEEL_COIN_TEXT	|Eothers/coin|e Price: 15 DC
+ITEMSHOP_WHEEL_COIN_TEXT_INFO	You are using |cffF7BD48DC|r to spin the wheel.
+ITEMSHOP_WHEEL_NAME	Wheel
+ITEMSHOP_WHEEL_PRICE1	Price
+ITEMSHOP_WHEEL_PRICE2	5 DC	
+ITEMSHOP_WHEEL_PURCHASE	|Eothers/wheel_icon|e |cffF7BD48Wheel|r
+ITEMSHOP_WHEEL_SKIP_ANIMATION	Skip the animation
+ITEMSHOP_WHEEL_TICKET_TEXT	for |Esystem/pass|e x50
+ITEMSHOP_WHEEL_TICKET_TEXT_INFO	You are using |cffF7BD48{}|r to spin the wheel.
+
+PURCHASES_ACCOUNTID	Account
+PURCHASES_DATE	Date
+PURCHASES_IP	Ip Adress
+PURCHASES_ITEMBOUGHT	Bought Item
+PURCHASES_PRICE	Price
+PURCHASES_PRICE_TEXT	|Eothers/mini_coin|e |cffF7BD48%s DC
+WHEEL_REWARD_TEXT	You gained
+WHEEL_REWARD_TEXT_1	Added to your inventory
+WHEEL_REWARD_TITLE	Wheel of Fortune Reward
+WHELL_OF_FORTUNE_EVENT	 Wheel of Fortune
+LOG_ITEM_INFO_0	|cffF7BD48%s | %d count |r
+
+TOTAL_ATTACK_COUNT	Total hit count: {}
+ACCEPT_WARP_FROM_YOUR_FRIEND_REQUEST	%s wants to teleport to you, do you want to accept it?
+WARP_TO_THIS_PLAYER	Teleport request
+
+
+NEW_PET_SYSTEM_PERCANTAGE_RATE	: (Percentage) +
+PET_INFORMATION_SKILL_AND_SKILLLEVEL	%s (Level %d)
+PET_INFORMATION_PETSTAR_INFO	Star Level: %d
+PET_TYPE1	Clumsy (1)
+PET_TYPE2	Curious (2)
+PET_TYPE3	Valiant (3)
+PET_TYPE4	Brave (4)
+PET_TYPE5	Reckless (5)
+PET_TYPE6	Legendary (6)
+PET_TYPE7	Mythic (7)
+PET_TYPE8	Prismatic (8)
+PET_TYPE9	Loyal (9)
+PET_TYPE10	Companion (10)
+PET_TYPE11	Legend (11)
+PET_TYPE12	Hunter (12)
+PET_TYPE13	Perfect (13)
+PET_TYPE14	Excellent (14)
+PET_TYPE15	Titan (15)
+PET_TYPE16	Epic (16)
+CALL_PET_FIRST	You have to summon your pet to do this.
+MISSING_PET_ITEM	You do not have enough item.
+PET_SYSTEM_CAN_OPEN_SKILL	%d. can be upgradable
+PET_SYSTEM_CAN_NOT_OPEN_SKILL	%d. cant be upgradable
+PET_SYSTEM_SKILL_TOOLTIP	%d. skill: %d
+PET_SYSTEM_SKILL_COOLDOWN	Skill Cooldown:
+PET_SYSTEM_ORE	 Hour
+PET_SYSTEM_ZILE	 Days
+
+PET_EVO_NAME_1	Young
+PET_EVO_NAME_2	Wild
+PET_EVO_NAME_3	Brave
+PET_EVO_NAME_4	Hero
+PET_EVO_NAME_5	Epic
+PET_EVO_NAME_6	Legendary
+PET_EVO_NAME_7	Mystic
+PET_SKILL_EFFECT_1	Resistance (Warrior)
+PET_SKILL_EFFECT_2	Resistance (Sura)
+PET_SKILL_EFFECT_3	Resistance (Assassin)
+PET_SKILL_EFFECT_4	Resistance (Shaman)
+PET_SKILL_EFFECT_5	Magic/melee
+PET_SKILL_EFFECT_6	Human Hunter
+PET_SKILL_EFFECT_7	Drill
+PET_SKILL_EFFECT_8	Critic
+PET_SKILL_EFFECT_9	HP Regen
+PET_SKILL_EFFECT_10	Block
+PET_SKILL_EFFECT_11	Monster Hunter
+PET_SKILL_EFFECT_12	Metinstone Hunter
+PET_SKILL_EFFECT_13	Boss Hunter
+PET_SKILL_EFFECT_14	Hunter Defance
+PET_SKILL_EFFECT_15	Double Yang
+
+QUEST_ROAM_AROUND_PAGES	Roam around pages - |Eothers/key_mc|e
+TP_RING_DESC1	Previous
+TP_RING_DESC2	Next
+TP_RING_DESC3	First
+TP_RING_DESC4	Last
+
+DISTANCE_NPC_SHOP_TITLE_0	UNUSED
+DISTANCE_NPC_SHOP_TITLE_1	UNUSED
+DISTANCE_NPC_SHOP_TITLE_2	UNUSED
+DISTANCE_NPC_SHOP_TITLE_3	UNUSED
+DISTANCE_NPC_SHOP_TITLE_4	UNUSED
+DISTANCE_NPC_SHOP_TITLE_5	UNUSED
+
+SELECT_JOB_ACCEPT_SKILL	Do you really want to select this skill group %s ?
+SELECT_JOB_CLOSE_WINDOW	You can not close window before selecting you job.
+SELECT_JOB_INFO	Select your job!
+
+SKILL_COLOR_SELECT_FIRST	Pick a color first
+SKILL_COLOR_PICK_TOOLTIP	Pick a color for%s. (Hex for color :%s)
+SKILL_COLOR_PRESET_TOOLTIP_TITLE	Color
+SKILL_COLOR_PRESET_TOOLTIP_1	You can save the color for your skill.
+SKILL_COLOR_PRESET_TOOLTIP_2	If you want to change again
+SKILL_COLOR_PRESET_TOOLTIP_3	you can choose the color on the color table
+SKILL_COLOR_CUSTOM_HEX_CODE_TOOLTIP_TITLE	Color code
+SKILL_COLOR_CUSTOM_HEX_CODE_TOOLTIP_1	You can enter a special color number
+SKILL_COLOR_CUSTOM_HEX_CODE_TOOLTIP_2	For example: #FFFFFF (white)
+SKILL_COLOR_DO_YOU_RESET	Do you want to reset the color?
+SKILL_COLOR_DO_YOU_CHANGE	Do you want to change the color?
+SKILL_COLOR_SELECT_PRESET	Pick a color
+SKILL_COLOR_SELECT_PRESET_NONE	No saved preset
+SKILL_COLOR_CANNOT_SAVE	Artýk renkleri kaydedemezsiniz.
+SKILL_COLOR_SELECT_COLOR	Please select color first!
+SKILL_COLOR_CHOOSE_TOOLTIP	Select color for %s (Color Hex:%s)
+
+
+AURA_ACCEPT_REFINE_MAX_ABS	Aura already has the maxium Absorption rate, you can not upgrade it more.
+AURA_ACCEPT_REFINE_ITEM	Not enough materials.
+AURA_TOOLTIP_NEED_YANG	10.000.000 Yang
+AURA_TOOLTIP_NEED_YANG2	20.000.000 Yang
+WIKI_100	Lv 121-?
+WIKI_1_75	Lv 1-99
+WIKI_76_100	Lv 99-120
+WIKI_DUNGEON	Dungeons
+WIKI_DUNGEON_METIN	Dungeon Metinstones
+WIKI_DUNGEON_MINI_BOSS	Dungeon Mini-Bosses
+WIKI_DUNGEON_BOSS	Dungeon Bosses
+WIKI_ATTR_RARE	6-7th bonusses
+WIKI_AVAIBLE_AT	Origin
+WIKI_BASIC	Start
+WIKI_ALCHEMY	Dragon Soul Alchemy
+WIKI_EVENTS	Events
+WIKI_BASIC_DROP	Drops
+WIKI_BIOLOGO	Biyolog
+WIKI_BODY_COSTUME	Body Costume
+WIKI_BOSSES	Bosses
+WIKI_BOSSES_EVENT	Event Bosses
+WIKI_CATEGORY	Categories
+WIKI_CHESTS	Chests
+WIKI_CHESTS_ALTERNATIVE	Alternative Chests
+WIKI_CHESTS_BOSS	Boss Chests
+WIKI_CHESTS_DUNGEON	Dungeon Chests
+WIKI_CHESTS_EVENT	Event Chests
+WIKI_CHESTS_OTHER	Farm Chests
+WIKI_CHANGE_SEARCH_TYPE	Change search type
+WIKI_CHANGE_SEARCH_BTN	Search
+WIKI_CONTENT_INFO	%s content
+WIKI_CONTENT_INFO2	%s's craft requirements
+WIKI_COSTUMES	Costumes
+WIKI_DROPLIST_INFO	%s droplist
+WIKI_EQUIPMENT	Equipments
+WIKI_EQUIPMENT_ARMOR	Armor
+WIKI_EQUIPMENT_BELT	Belt
+WIKI_EQUIPMENT_BRACELET	Bracelet
+WIKI_EQUIPMENT_EARRING	Earring
+WIKI_EQUIPMENT_HELMET	Helmet
+WIKI_EQUIPMENT_NECKLACE	Necklace
+WIKI_EQUIPMENT_RINGS	Ring
+WIKI_EQUIPMENT_SHIELD	Shield
+WIKI_EQUIPMENT_SHOES	Shoe
+WIKI_EQUIPMENT_TALISMAN	Talisman
+WIKI_EQUIPMENT_GLOVE	Glove
+WIKI_EQUIPMENT_DREAMSOUL	Dreamsouls
+WIKI_EQUIPMENT_WEAPONS	Weapon
+WIKI_GAMERULES	Game Rules
+WIKI_GAME_RULES	Game Rules
+WIKI_GUIDES	Guides
+WIKI_HAIR_COSTUME	Hairstyles
+WIKI_ITEM_NAME	Search item
+WIKI_LEVEL_MOB_TEXT	Level %d
+WIKI_LEVEL_TEXT	Level Range %d - Upgrade Range +%d~%d
+WIKI_LEVEL_TEXT2	Level Range %d~%d - Upgrade Range +%d~%d
+WIKI_CUBE_PERCENT	Success Chance: {}%
+WIKI_METINSTONE	Metinstones
+WIKI_MOB_NAME	Search monster
+WIKI_MONSTER	Monster
+WIKI_MOUNT	Mounts and Pets
+WIKI_MOUNT_ITEM	Mounts
+WIKI_ORIGIN	Origin
+WIKI_PETS	Pets
+WIKI_PET_ITEM	Pets
+WIKI_PET_LEVEABLE_ITEM	Companions
+WIKI_SASH	Shoulder Sash
+WIKI_SASH_COSTUME	Shoulder Sash Costumes
+WIKI_AURA_COSTUME	Aura Outfit Costumes
+WIKI_SHINING	Shinings
+WIKI_STATICS_INFO	Statistics of %s
+WIKI_STATICS_INFO_DEFENSES	Defances :
+WIKI_STATICS_INFO_DMG	Min. Dam: %d | Max. Dam: %d | Max HP: %d
+WIKI_STATICS_INFO_TYPE	Race: %s | SubRace: %s
+WIKI_STATICS_INFO_YNG	Min. Yang: %d | Max. Yang: %d | EXP: %d
+WIKI_SYSTEM2	Systems
+WIKI_TITLE	Wikipedia
+WIKI_TITLE2	[H] Wikipedia
+WIKI_UNKOWN_ITEM	Unknown Item: %d
+WIKI_UNKOWN_MOB	Unknown Monster: %d
+WIKI_UPGRADE_COSTS	Upgrade
+WIKI_WEAPON_SKIN	Weapon Costumes
+WIKI_YANG_COSTS	Cost
+PERMANENT_ACCESSORY_SOCKET	Permanent
+
+NAMING_SCROLL_TITLE	Name your companion
+NAMING_SCROLL_TEXT	You want to name it to:
+NAMING_SCROLL_ERROR	Invalid character entered.
+
+NAMING_SCROLL_PERCANTAGE_INCREASE_IN_BONUS_MOUNT	In addition to your mount attributes, %{} of the mount's attribute has been added to the character.
+NAMING_SCROLL_PERCANTAGE_INCREASE_IN_BONUS_PET	In addition to your pet attributes, %{} of the pet's attribute has been added to the character.
+NAMING_SCROLL_PERCANTAGE_INCREASE_IN_BONUS_BUFFI	Buffi's 4th and 5th skills have been activated.
+NAMING_SCROLL_AFFECT_TITLE	Naming scroll is active, item's attributes increased by +%{}.
+
+JEWEL_TYPE_TEXT	Ore: {}
+JEWEL_BONUSSES	Ore Bonusses:
+
+MINING_TITLE	Mining
+MINING_EVENT_RENEWAL_HIT_DELAY	Can't do it that fast.
+MINING_POINT_TOOLTIP	Mining Points
+MINING_DOUBLE_TOOLTIP	Double Mining Chance
+MINING_FRACTION_COUNT	Earned Fraction Count
+MINING_NEXT_BONUS_SKILL_LEVEL	Next Level:
+MINING_NEXT_BONUS	Next Level Bonus:
+MINING_NEXT_BONUS2	You do not earn a bonus yet.
+FISHING_BETTER_CHANCE	Golden Fish Chance
+
+PET_INFORMATIONS_TITLE	Pet Informations
+PET_INFORMATIONS_TITLE2	|Esystem/peticon|e Detailed Informations
+
+PET_INFORMATION_SUMMARY	|Esystem/peticon|e Pet Summary
+PET_INFORMATION_SUMMARY_INFO	|Esystem/xpicon|e Pet Level: {}
+PET_INFORMATION_SUMMARY_INFO2	|Esystem/pettype|e Pet Type: {}
+PET_INFORMATION_SUMMARY_INFO3	|Esystem/wildpet|e Pet Evolution: {}
+PET_INFORMATION_SUMMARY_INFO4	|Esystem/petstar|e Pet Star Level: {}
+PET_INFORMATION_SUMMARY_INFO5	|Esystem/increase|e Pet Increase Rate: 0.{}~0.{}
+PET_INFORMATION_SUMMARY_INFO6	|Esystem/skinicon|e Pet Skin Level: {}
+
+PET_INFORMATION_EXPERIENCE	Experience %{:.02f}
+
+PET_INFORMATION_BUTTON_TEXT_0	Change Type
+PET_INFORMATION_BUTTON_TEXT_1	Change Attributes
+PET_INFORMATION_BUTTON_TEXT_2	Upgrade Star
+PET_INFORMATION_BUTTON_TEXT_3	Evolution
+PET_INFORMATION_BUTTON_TEXT_4	Upgrade Skin
+PET_INFORMATION_BUTTON_TEXT_5	Shop
+
+PET_TYPE_EVENT_ERROR_0	Type is already at the maximum level.
+PET_TYPE_EVENT_ERROR_1	Not enough material for this.
+PET_TYPE_EVENT_ERROR_2	To upgrade your pets type more, it has to be more than level 120.
+PET_TYPE_EVENT_ERROR_3	Not enough material for this.
+
+PET_STAR_EVENT_ERROR_0	Maximum star is reached.
+PET_STAR_EVENT_ERROR_1	To upgrade your pets star more, it has to be more than level 80.
+PET_STAR_EVENT_ERROR_2	Not enough material for this.
+
+PET_EVOLUTION_EVENT_ERROR_0	Maximum evolution is reached.
+PET_EVOLUTION_EVENT_ERROR_1	Level is not enough for the evolution.
+PET_EVOLUTION_EVENT_ERROR_2	To evolve your pet you need {}x {}.
+
+PET_SKIN_ACTIVATE_EVENT_ERROR_0	Maximum skin is reached.
+PET_SKIN_ACTIVATE_EVENT_ERROR_1	You need {} to open more skins.
+
+PET_CHANGE_EVENT_ERROR_0	You do not have enough item.
+PET_CHANGE_EVENT_ERROR_1	Can not change attribute of pet which is less than level 40.
+
+PET_INFORMATION_ATTR_0	Max. HP
+PET_INFORMATION_ATTR_1	Attack Value(%)
+PET_INFORMATION_ATTR_2	Defance(%)
+
+PET_STAR_BONUS_TOOLTIP	This star is active, Current Pet Skill Rates: +%{}
+PET_STAR_BONUS_TOOLTIP2	Star skill rates will be increased by +5% if this star is activated.
+
+MINIMAP_BOSS_TOOLTIP	[Respawn Time: %s]
+
+SECURITY_SELECT_ANSWER	Write the numbers above!
+SECURITY_REMAINING_TIME	Remaining Time : {:.1f}
+SECURITY_FIND_THE_DIFFERENT	Click on the photo that is different from the others!
+SECURITY_SORT_IMAGES	Sort numbers by dragging towards {}!
+SECURITY_SORT_IMAGES2	small to big
+SECURITY_SORT_IMAGES3	big to small
+SECURITY_ANSWER_IS_WRONG	The answer is wrong, try again! Note: Remaining time decreases by 5 seconds for each incorrect entry.
+SECURITY_ANSWER_SUCCESS	Bot verification successfully passed, you can continue playing.
+SECURITY_YOU_HAVE_ONE_MORE_CHANGE	Wrong choice, try again! You will be disconnected on the next wrong entry.
+SECURITY_CONFIRM	Confirm
+SECURITY_CLEAR	Clear
+SECURITY_NUMBERS_RESET_POS	Press this button if you've got the numbers out of the window and can't click!
+REFINE_COST	Refinement Cost:
+TOOLTIP_SYSTEM_METIN_QUEUE	Premium Metin Queue	SNA
+TOOLTIP_SYSTEM_PREMIUM	Premium Membership	SNA
+TOOLTIP_SYSTEM_AUTO_PICKUP	Auto Pick-Up	SNA
+TOOLTIP_SYSTEM_V4B	Vote4Buff	SNA
+
+BLEND_ITEM_TOOLTIP_APPLY	Effect activated
+BLEND_ITEM_TOOLTIP_UNAPPLIED	Effect not activated
+BLEND_ITEM_TOOLTIP_NO_TIME	Expired time
+INFINITE_USE	[Permanent]
+
+TIME_RED_INFO	min.
+TIME_RED_INFO2	h.
+TIME_RED_INFO3	d.
+TIME_RED_INFO4	sec.
+
+TOOLTIP_AFFECT_BLEND_POTION_1	Red Dew	SNA
+TOOLTIP_AFFECT_BLEND_POTION_2	Orange Dew	SNA
+TOOLTIP_AFFECT_BLEND_POTION_3	Yellow Dew	SNA
+TOOLTIP_AFFECT_BLEND_POTION_4	Green Dew	SNA
+TOOLTIP_AFFECT_BLEND_POTION_5	Blue Dew	SNA
+TOOLTIP_AFFECT_BLEND_POTION_6	White Dew	SNA
+
+TOOLTIP_AFFECT_BLEND_POTION_7	Pink Dew	SNA
+TOOLTIP_AFFECT_BLEND_POTION_8	Turquoise Dew	SNA
+TOOLTIP_AFFECT_BLEND_POTION_9	Black Dew	SNA
+
+TOOLTIP_AFFECT_ENERGY	Energy Cystal	SNA
+TOOLTIP_AFFECT_DRAGON_GOD_1	Dragon Blessing Health	SNA
+TOOLTIP_AFFECT_DRAGON_GOD_2	Dragon Blessing Attack	SNA
+TOOLTIP_AFFECT_DRAGON_GOD_3	Dragon Blessing Intelligence	SNA
+TOOLTIP_AFFECT_DRAGON_GOD_4	Dragon Blessing Defance	SNA
+TOOLTIP_AFFECT_CRITICAL	Critical Strike	SNA
+TOOLTIP_AFFECT_PENETRATE	Piercing Strike	SNA
+TOOLTIP_AFFECT_ATTACK_SPEED	Green Potion	SNA
+TOOLTIP_AFFECT_MOVE_SPEED	Purple Potion	SNA
+TOOLTIP_AFFECT_WATER_POTION_1	Zin Water	SNA
+TOOLTIP_AFFECT_WATER_POTION_2	Sambo Water	SNA
+
+TOOLTIP_AFFECT_ELEMENT_ICE	Ice Resistance Essence	SNA
+TOOLTIP_AFFECT_ELEMENT_FIRE	Fire Resistance Essence	SNA
+TOOLTIP_AFFECT_ELEMENT_WIND	Wind Resistance Essence	SNA
+TOOLTIP_AFFECT_ELEMENT_DARK	Dark Resistance Essence	SNA
+TOOLTIP_AFFECT_ELEMENT_ELEC	Elect Resistance Essence	SNA
+TOOLTIP_AFFECT_ELEMENT_EARTH	Earth Resistance Essence	SNA
+
+TOOLTIP_AFFECT_FISH_ITEM_01	Dexterity Fish	SNA
+TOOLTIP_AFFECT_FISH_ITEM_02	Strength Fish	SNA
+TOOLTIP_AFFECT_FISH_ITEM_03	Intelligent Fish	SNA
+TOOLTIP_AFFECT_FISH_ITEM_04	Monster Fish	SNA
+TOOLTIP_AFFECT_FISH_ITEM_05	Metinstone Fish	SNA
+TOOLTIP_AFFECT_FISH_ITEM_06	Undead Fish	SNA
+TOOLTIP_AFFECT_FISH_ITEM_07	Devil Fish	SNA
+TOOLTIP_AFFECT_FISH_ITEM_08	Milgyo Fish	SNA
+TOOLTIP_AFFECT_FISH_ITEM_09	Animal Fish	SNA
+TOOLTIP_AFFECT_FISH_ITEM_10	Orc Fish	SNA
+TOOLTIP_AFFECT_FISH_ITEM_11	Human Fish	SNA
+TOOLTIP_AFFECT_FISH_ITEM_12	Average Damage Fish	SNA
+
+BLEND_STATE	[This effect is active]
+BLEND_STATE2	[This effect is deactive]
+
+
+DECS_DEW_TEST	You can increase its duration by dragging
+DECS_DEW_TEST2	the other time consumable on top of the time
+DECS_DEW_TEST3	consumable.
+USE_CONSUMABLE_TOOLTIP	|Eothers/key_ctrl|e + |Eothers/key_e|e - Activate consumables
+USE_DS_PAGE	|Eothers/key_ctrl|e + |Eothers/key_o|e - Activate first page
+USE_DS_PAGE2	|Eothers/key_ctrl|e + |Eothers/key_p|e - Activate second page
+
+MAINTENANCE_TITLE	Maintenance Announcement!
+MAINTENANCE_TEXT_1	|cffffffffMaintenance will take |cffADFF2F%s!
+MAINTENANCE_TEXT_2	%d minutes
+MAINTENANCE_TEXT_3	%d minutes %02d seconds
+MAINTENANCE_TEXT_4	%d hours
+MAINTENANCE_TEXT_5	%d hours %02d minutes
+MAINTENANCE_TEXT_6	%d hours %02d minutes %02d seconds
+MAINTENANCE_TEXT_7	%d days %d hours %02d minutes %02d seconds
+MAINTENANCE_TEXT_8	|cffffffffRemaining Time: |cffADFF2F|h%s
+
+EXTENDET_BATTLE_PASS_ITS_NOT_BATTLEPASS_ITEM	It's not a battle pass, you can't do that!
+EXTENDET_BATTLE_PASS_RANKLIST_REFRESH	Ranking Updated.
+EXTENDET_BATTLE_PASS_RANKLIST_WAIT_TO_REFRESH	You have to wait %d seconds to update the ranking list.
+BATTLEPASS_DESC	Premium Battlepass	SNA
+ADDSTONE_PREMIUM_DESC	The next spirit stone adding will be 100% successful!	SNA
+
+FAST_SKILL_BOOK_SYSTEM_TOOLTIP	|Eothers/key_rc|e - Open skill reader
+
+TOOLTIP_ATTBONUS_BOSS	Strong against bosses +%%%d	SA
+TOOLTIP_ATTBONUS_ELEMENT	Strong against elements +%%%d	SA
+TOOLTIP_DEFBONUS_ELEMENT	Resistance against elements +%%%d	SA
+TOOLTIP_DEFBONUS_PVM	Resistance against monsters +%%%d	SA
+TOOLTIP_ATTBONUS_PVP	Strong against all characters +%%%d	SA
+TOOLTIP_DEFBONUS_PVP	Resistance against all characters +%%%d	SA
+
+TOOLTIP_ATTBONUS_PVM_STR	Attack Value (PvM) +%d	SA
+TOOLTIP_ATTBONUS_PVM_AVG	Average Damage (PvM) +%%%d	SA
+TOOLTIP_ATTBONUS_PVM_BERSERKER	Magic & Attack Value (PvM) +%%%d	SA
+TOOLTIP_ATTBONUS_FIRE	Strong against fire %%%d	SA
+TOOLTIP_ATTBONUS_ICE	Strong against ice %%%d	SA
+TOOLTIP_ATTBONUS_EARTH	Strong against earth %%%d	SA
+TOOLTIP_ATTBONUS_DARK	Strong against dark %%%d	SA
+TOOLTIP_ATTBONUS_WIND	Strong against wind %%%d	SA
+TOOLTIP_ATTBONUS_ELEC	Strong against elec %%%d	SA
+
+LOGIN_FAILURE_ACCOUNT_BAN	This account is banned!
+LOGIN_FAILURE_CLIENT_VERSION	This client is out of date, log out and run the patcher again.
+LOGIN_FAILURE_HWIDERROR	Problem occured, ask for support @HWIDERR.
+LOGIN_FAILURE_HWIDFULL	You cannot log into this account from this computer.
+LOGIN_FAILURE_HWIDBAN	This computer has been blocked.
+LOGIN_INPUT_PIN	Please enter your pin.
+LOGIN_FAILURE_PIN	Account password or pin incorrect
+LOGIN_FAILURE_SERVER	Server is not opened yet.
+SAVE_ACCOUNT_BUTTON	 < Free >
+QUEST_CATEGORY_00	Main Quests
+QUEST_CATEGORY_01	Side Quests
+QUEST_CATEGORY_02	Research Quests
+QUEST_CATEGORY_03	Hunt Quests
+QUEST_CATEGORY_04	Warnings
+QUEST_CATEGORY_05	Informations
+QUEST_CATEGORY_06	Other Quests
+QUEST_CATEGORY_07	Daily Quests
+CHEQUE_SYSTEM_UNIT_GAYA	Valleycoin
+
+TOOLTIP_ANTIFLAG_DROP	Drop
+TOOLTIP_ANTIFLAG_STACK	Stacking
+
+ACCE_REFINE_COST	Cost: %d
+ACCE_ABSORB_CHANCE	Absorption Rate: %d%%
+ACCE_ABSORB_CHANCE2	Absorption Rate: %d%% ~ %d%%
+ACCE_DO_YOU_CLEAN	Do you want to clear all bonuses for this item?
+ACCE_FAILURE_CLEAN	No bonus found to clear.
+POLYMORPH_AFFECT_TOOLTIP	Polymorph	SNA
+BUFF_AFFECT_REMOVE_QUESTION3	Do you want to remove polymorp effects?
+NOT_POSSIBLE	You cannot do these with this item:
+
+GAYA_BUY	Do you want buy {} for {} gaya?
+GAYA_BOUGHT	You already buyed!
+GAYA_OPEN_SLOT	Do you want open slot?
+GAYA_NO_GEM	You don't has enought Gaya!
+GAYA_REFRESH	Do you want refresh items?
+DUNGEONTIMER_WAVE	%d.Wave
+DUNGEONTIMER_FLOOR	%d.Floor
+
+INVENTORY_GENERAL_ITEMS	General
+
+TRADE_CONFIRMATION_TITLE	Trade confirmation
+TRADE_CONFIRMATION_DESC	Enter the name of the person you trade with
+TRADE_CONFIRMATION_ERROR	You entered a wrong name, you have {} more chances.
+TRADE_CONFIRMATION_ERROR2	Incorrect data entered three times, trade cancelled.
+
+OFFLINESHOP_AVERAGE_PRICE_NO_INFO	No average price found!
+OFFLINESHOP_AVERAGE_PRICE_INFO	<Average Price Info>
+OFFLINESHOP_AVERAGE_PRICE	Single: {}
+OFFLINESHOP_AVERAGE_PRICE2	All: {}
+OFFLINESHOP_SELL_WITH_AVG_PRICE	Sell for average price
+OFFLINESHOP_SELL_WITH_AVG_PRICE2	Sell more than +%10 of the average price
+OFFLINESHOP_SELL_WITH_AVG_PRICE3	Sell less than +%10 of the average price
+OFFLINESHOP_CHANGE_ALL_PRICE	Update all prices of the same item
+OFFLINESHOP_EDIT_SHOPNAME_DESCRIPTION	Determine new shop name
+OFFLINESHOP_EDIT_SHOPNAME_DESCRIPTION2	New name:
+OFFLINESHOP_RESULT_PER_PAGE	Number of results per page
+OFFLINESHOP_RESULT_PER_PAGE_ITEM	25 items per page
+OFFLINESHOP_RESULT_PER_PAGE_ITEM2	50 items per page
+OFFLINESHOP_RESULT_PER_PAGE_ITEM3	100 items per page
+OFFLINESHOP_FILTER_TITLE	Filters
+OFFLINESHOP_TOTAL_YANG_AMOUNT	Total: {}
+OFFLINESHOP_SHOP_COLOR	Set shop name color
+
+OFFLINESHOP_TITLE_NAME	Name
+OFFLINESHOP_TITLE_PRICE	Price
+OFFLINESHOP_TITLE_OTHER	Other
+
+ACCE_ABSORBED_ITEM_NAME	[Absorbed Item]
+ACCE_ABSORBED_ITEM_NAME2	{}
+ACCE_ABSORBED_BONUSSES	Bonusses
+CUBE_NPC_NAME	Crafts
+
+NONE_AFFECT	You do not earn any bonus.
+
+CHATTING_CHAT_COLOR	Set shout color
+
+BUFFI_WINDOW_TITLE	Buffi Window
+BUFFI_SKILL_LOCKED_TOOLTIP	This skill can be upgraded.\nYou have to use naming scroll to unlock it!
+
+BATTLEPONT_TEXT	Battle Point: 
+
+CHAT_OPEN_LINK_DANGER	Attention! This link can be dangerous!
+CHAT_OPEN_LINK	Would you like to open this link?
+
+PREMIUM_EXTRA_SHOP_SEARCH_TOOLTIP	Premium is not active!\n-- Premium Benefits --\n *Remote purchase\n *Multiple purchase
+PREMIUM_EXTRA_SHOP_SEARCH_TOOLTIP2	Premium active!\n-- Premium Benefits --\n *Remote purchase\n *Multiple purchase
+LOGIN_INFO_ID	ID
+LOGIN_INFO_PW	Password
+
+READ_FAST_BTN_01	Book
+READ_FAST_BTN_02	Soul Stone
+READ_FAST_BTN_03	Sage Soul Stone
+READ_FAST_BTN_04	Passive Skills
+READ_FAST_BTN_05	Buffi Skills
+READ_FAST_BTN_06	Buffi Soul Stone
+READ_FAST_BTN_07	Buffi Sage Soul Stone
+
+READ_FAST_TITLE_01	Upgrade skills
+READ_FAST_TITLE_02	Upgrade skills (Soul Stone)
+READ_FAST_TITLE_03	Upgrade skills (Sage Soul Stone)
+READ_FAST_TITLE_04	Upgrade skills (Passive Skills)
+READ_FAST_TITLE_05	Upgrade skills (Buffi Skills)
+READ_FAST_TITLE_06	Upgrade skills (Buffi Soul Stone)
+READ_FAST_TITLE_07	Upgrade skills (Buffi Sage Soul Stone)
+
+READ_FAST_BTN_TEXT_01	Read
+READ_FAST_BTN_TEXT_02	Read Fast
+READ_FAST_SKILL_READ_STATE_NOT_READY	Select the skill first!
+READ_FAST_SKILL_READ_STATE_READY	You can start now.
+READ_FAST_CANT_IMPROVE_THIS_SKILL	You can not improve this skill.
+READ_FAST_ZEN_BEAN_TOOLTIP	If you activate this, you won't lose rank for 50 zen beans (You will get 50 zen per transaction, but your rank will remain.)
+
+TARGET_ELEMENT_ICE	|cffaab5aeIce|r
+TARGET_ELEMENT_FIRE	|cffed4242Fire|r
+TARGET_ELEMENT_ELEC	|cff47abc9Elec|r
+TARGET_ELEMENT_EARTH	|cfffce303Earth|r
+TARGET_ELEMENT_DARK	|cff8e0fbdDark|r
+TARGET_ELEMENT_WIND	|cff0aa33dWind|r
+
+TARGET_ATTBONUS_FIRE	|cffed4242Strong against fire|r
+TARGET_ATTBONUS_ICE	|cffaab5aeStrong against ice|r
+TARGET_ATTBONUS_EARTH	|cfffce303Strong against earth|r
+TARGET_ATTBONUS_DARK	|cff8e0fbdStrong against dark|r
+TARGET_ATTBONUS_WIND	|cff0aa33dStrong against wind|r
+TARGET_ATTBONUS_ELEC	|cff47abc9Strong against elec|r
+
+TARGET_DEF_FIRE	|cffed4242Resistance against fire|r
+TARGET_DEF_ICE	|cffaab5aeResistance against ice|r
+TARGET_DEF_EARTH	|cfffce303Resistance against earth|r
+TARGET_DEF_DARK	|cff8e0fbdResistance against dark|r
+TARGET_DEF_WIND	|cff0aa33dResistance against wind|r
+TARGET_DEF_ELEC	|cff47abc9Resistance against elect|r
+
+TARGET_ELEMENT_INFO	Element: {}
+TARGET_ELEMENT_INFO2	Element Power: {}
+TARGET_ELEMENT_INFO3	Element Defance: {}
+
+DUNGEON_NAME_1	Poisonous devil tower
+DUNGEON_NAME_2	Barones' nest
+DUNGEON_NAME_3	Gin cave
+DUNGEON_NAME_4	Ice Land
+DUNGEON_NAME_5	Devil's Catacomb
+DUNGEON_NAME_6	Beran-Setaou's Room
+DUNGEON_NAME_7	Razadör's Castle
+DUNGEON_NAME_8	Naga temple
+DUNGEON_NAME_9	Sapphire Cave
+DUNGEON_NAME_10	Ochao Temple
+DUNGEON_NAME_11	Odin's Castle
+DUNGEON_NAME_12	Magic Troll Cave
+DUNGEON_NAME_13	Queen Meley
+DUNGEON_NAME_14	Floraun's garden
+DUNGEON_NAME_15	Alastor's Cave
+DUNGEON_NAME_16	Lost City Atlantis
+DUNGEON_NAME_17	Dry scorpion ruins
+DUNGEON_NAME_18	Skeleton Dragon Hall
+DUNGEON_NAME_19	King Akzadur's Room
+DUNGEON_NAME_20	Snake Temple
+
+INVENTORY_TITLE_01	Equipments
+INVENTORY_TITLE_02	Costumes
+INVENTORY_TITLE_03	Boosters
+
+ITEM_QUESTION_DIAGLOG_1	What do you want to do with {} x{}?
+ITEM_QUESTION_DIAGLOG_2	What do you want to do to {}?
+ITEM_QUESTION_DIAGLOG_3	(Price: {})
+
+ITEM_BOOSTER_TOOLTIP	While this item is equipped, you get
+ITEM_BOOSTER_TOOLTIP2	the following effects.
+ITEM_BOOSTER_TOOLTIP3	When used, you get +{}%
+ITEM_BOOSTER_TOOLTIP4	of your item.
+ITEM_BOOSTER_TOOLTIP5	Set Bonus is not active.
+ITEM_BOOSTER_TOOLTIP6	Set Bonus is active,
+ITEM_BOOSTER_TOOLTIP7	you earn extra +%5 more.
+
+NEED_AT_LEAST_M1	To select bonus, this skill has to be
+NEED_AT_LEAST_M1_2	at least master.
+CLICK_TO_GET_BONUS	|Eothers/key_lc|e - Select bonus
+
+PREMIUM_OVERIN_TOOLTIP	Only premium users can use this feature.
+PREMIUM_OVERIN_TOOLTIP2	You can use {} to activate this feature.
+
+OFFSHOP_DECORATION_SET	Set shop decoration
+
+ITEM_BONUSSES	[Bonusses]
+ITEM_HAS_NO_BONUS	[No Bonus]
+
+TO_ADD_THIS_YOU_NEED_TO_ADD_FIRST_ONE	To add second level attribute
+TO_ADD_THIS_YOU_NEED_TO_ADD_FIRST_ONE2	you have to add level one attribute first.
+
+
+PET_EVO_NAME_TOOLTIP	Pet Evolution: {}
+PET_TOOLTIP4	Pet Type:  
+
+TOOLTIP_ALIGNMENT_INFO	Current Alignment
+TOOLTIP_ALIGNMENT_INFO2	Next Alignment
+OFFLINESHOP_NO_NAME	Your shop does not have a name!
+
+YOU_CANNOT_SELECT_UNLOCKED_SKIN	You can not select the locked skin.
+
+ADD_METIN_QUEUE	Add metin queue with {}
+
+PRIVATESHOPSEARCH_GLOVE	Gloves
+PRIVATESHOPSEARCH_OTHER_COSTUMES	Other Costumes
+PRIVATESHOPSEARCH_SKIN_MOUNT	Mount Costume
+PRIVATESHOPSEARCH_SKIN_PET	Pet Costume
+PRIVATESHOPSEARCH_SKIN_SASH	Sash Costume
+PRIVATESHOPSEARCH_SKIN_AURA	Aura Costume
+
+PVP_LEVEL0	Legendary
+PVP_LEVEL1	Fearless
+PVP_LEVEL2	Mighty
+PVP_LEVEL3	Courageous
+PVP_LEVEL4	Noble
+PVP_LEVEL5	Chivalric
+PVP_LEVEL6	Noble
+PVP_LEVEL7	Good
+PVP_LEVEL8	Friendly
+PVP_LEVEL9	Neutral
+PVP_LEVEL10	Aggressive
+PVP_LEVEL11	Fraudulent
+PVP_LEVEL12	Malicious
+PVP_LEVEL13	Cruel
+TOOLTIP_AUTO_PICK_UP	Auto Pickup
+TOOLTIP_MALL_EXPBONUS2	Potion of Wisdom +%%%d	SA
+EMPIRE_SELECT	Select Empire
+PRIVATESHOPSEARCH_COSTUME_AURA	Aura Outfit
+
+YOUR_NEXT_DS_INVENTORY_FULL	Your next inventory is full!, Fast refining is cancelled.
+SWITCHBOT_IN_PROGRESS	The switchbot in active...
+SWITCHBOT_IN_PROGRESS2	You will get a notification when process finishes.
+DUNGEON_TIME_BONUS_TITLE	Race
+DUNGEON_TIME_BONUS_NAME_01	Orc
+DUNGEON_TIME_BONUS_NAME_02	Mystic
+DUNGEON_TIME_BONUS_NAME_03	Devil
+DUNGEON_TIME_BONUS_NAME_04	Undead
+DUNGEON_TIME_BONUS_NAME_05	Animal

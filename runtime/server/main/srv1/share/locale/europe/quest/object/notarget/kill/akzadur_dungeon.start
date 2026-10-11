@@ -1,0 +1,38 @@
+if akzadur_dungeon . InDungeon ( ) and pc . getf ( "dungeon" , "floor" ) == 1 then local count = d . getf ( "killcount" ) + 1 
+if count < 100 then 
+d . setf ( "killcount" , count ) 
+pc . zodiac_chat ( 509 , "%s" , 100 - count ) 
+else 
+akzadur_dungeon . NextFloor ( ) 
+d . setf ( "killcount" , 0 ) 
+end 
+ return end if akzadur_dungeon . InDungeon ( ) and pc . getf ( "dungeon" , "floor" ) == 2 then local setting = akzadur_dungeon . setting ( ) 
+if npc . get_race ( ) == setting . mob_vnum [ 1 ] then 
+local count = d . getf ( "killcount" ) + 1 
+if count < 6 then 
+d . setf ( "killcount" , count ) 
+pc . zodiac_chat ( 511 , "%s" , 6 - count ) 
+else 
+akzadur_dungeon . NextFloor ( ) 
+d . setf ( "killcount" , 0 ) 
+end 
+end 
+ return end if akzadur_dungeon . InDungeon ( ) and pc . getf ( "dungeon" , "floor" ) == 3 then if number ( 1 , 100 ) < 5 then 
+local setting = akzadur_dungeon . setting ( ) 
+game . drop_item ( setting . totem_item_vnum , 1 ) 
+end 
+ return end if akzadur_dungeon . InDungeon ( ) and pc . getf ( "dungeon" , "floor" ) == 4 then local setting = akzadur_dungeon . setting ( ) 
+if npc . get_race ( ) == setting . mob_vnum [ 3 ] then 
+akzadur_dungeon . NextFloor ( ) 
+end 
+ return end if akzadur_dungeon . InDungeon ( ) and pc . getf ( "dungeon" , "floor" ) == 5 then local setting = akzadur_dungeon . setting ( ) 
+if npc . get_race ( ) == setting . mob_vnum [ 4 ] then 
+d . zodiac_notice_clear ( ) 
+pc . zodiac_chat ( 512 ) 
+pc . setf ( "dungeon" , "complete" , 1 ) 
+d . setf ( "complete" , 1 ) 
+pc . complete_dungeon ( ) 
+d . battlepass_update_progress ( setting . map_index ) 
+server_timer ( "Akzadurdungeon_exit" , 30 , d . get_map_index ( ) ) 
+end 
+ return end 

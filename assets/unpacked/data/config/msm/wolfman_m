@@ -1,0 +1,875 @@
+ScriptType            RaceDataScript
+
+BaseModelFileName     "d:/ymir work/pc3/wolfman/wolfman_novice.GR2"
+
+Group HairData
+{
+	PathName	"d:/ymir Work/pc3/wolfman/"
+
+	HairDataCount 			999
+	Group HairData00
+	{
+		HairIndex			0
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"hair/hair_1_1.dds"
+	}
+	Group HairData01
+	{
+		HairIndex			1
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"hair/wolfman_hair_01_white.dds"
+	}
+	Group HairData02
+	{
+		HairIndex			2
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"hair/wolfman_hair_01_gold.dds"
+	}
+	Group HairData03
+	{
+		HairIndex			3
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"hair/wolfman_hair_01_red.dds"
+	}
+	Group HairData04
+	{
+		HairIndex			4
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"hair/wolfman_hair_01_brown.dds"
+	}
+	Group HairData05
+	{
+		HairIndex			5
+		Model				"hair/hair_1_1.gr2"
+		SourceSkin			"hair/hair_1_1.dds"
+		TargetSkin			"hair/wolfman_hair_01_black.dds"
+	}
+	Group HairData06
+	{
+		HairIndex			21
+		Model				"hair/hair_2_1.gr2"
+		SourceSkin			"hair/hair_2_1.dds"
+		TargetSkin			"hair/hair_2_1.dds"
+	}
+	Group HairData07
+	{
+		HairIndex			22
+		Model				"hair/hair_2_1.gr2"
+		SourceSkin			"hair/hair_2_1.dds"
+		TargetSkin			"hair/hair_2_2.dds"
+	}
+	Group HairData08
+	{
+		HairIndex			23
+		Model				"hair/hair_2_1.gr2"
+		SourceSkin			"hair/hair_2_1.dds"
+		TargetSkin			"hair/hair_2_3.dds"
+	}
+	Group HairData09
+	{
+		HairIndex			24
+		Model				"hair/hair_2_1.gr2"
+		SourceSkin			"hair/hair_2_1.dds"
+		TargetSkin			"hair/hair_2_4.dds"
+	}
+	Group HairData10
+	{
+		HairIndex			25
+		Model				"hair/hair_2_1.gr2"
+		SourceSkin			"hair/hair_2_1.dds"
+		TargetSkin			"hair/hair_2_5.dds"
+	}
+	Group HairData11
+	{
+		HairIndex			31
+		Model				"hair/hair_3_1.gr2"
+		SourceSkin			"hair/hair_3_1.dds"
+		TargetSkin			"hair/hair_3_1.dds"
+	}
+	Group HairData12
+	{
+		HairIndex			32
+		Model				"hair/hair_3_1.gr2"
+		SourceSkin			"hair/hair_3_1.dds"
+		TargetSkin			"hair/hair_3_2.dds"
+	}
+	Group HairData13
+	{
+		HairIndex			33
+		Model				"hair/hair_3_1.gr2"
+		SourceSkin			"hair/hair_3_1.dds"
+		TargetSkin			"hair/hair_3_3.dds"
+	}
+	Group HairData14
+	{
+		HairIndex			34
+		Model				"hair/hair_3_1.gr2"
+		SourceSkin			"hair/hair_3_1.dds"
+		TargetSkin			"hair/hair_3_4.dds"
+	}
+	Group HairData15
+	{
+		HairIndex			35
+		Model				"hair/hair_3_1.gr2"
+		SourceSkin			"hair/hair_3_1.dds"
+		TargetSkin			"hair/hair_3_5.dds"
+	}
+	Group HairData16
+	{
+		HairIndex			41
+		Model				"hair/hair_4_1.gr2"
+		SourceSkin			"hair/hair_4_1.dds"
+		TargetSkin			"hair/hair_4_1.dds"
+	}
+	Group HairData17
+	{
+		HairIndex			42
+		Model				"hair/hair_4_1.gr2"
+		SourceSkin			"hair/hair_4_1.dds"
+		TargetSkin			"hair/hair_4_2.dds"
+	}
+	Group HairData18
+	{
+		HairIndex			43
+		Model				"hair/hair_4_1.gr2"
+		SourceSkin			"hair/hair_4_1.dds"
+		TargetSkin			"hair/hair_4_3.dds"
+	}
+	Group HairData19
+	{
+		HairIndex			44
+		Model				"hair/hair_4_1.gr2"
+		SourceSkin			"hair/hair_4_1.dds"
+		TargetSkin			"hair/hair_4_4.dds"
+	}
+	Group HairData20
+	{
+		HairIndex			45
+		Model				"hair/hair_4_1.gr2"
+		SourceSkin			"hair/hair_4_1.dds"
+		TargetSkin			"hair/hair_4_5.dds"
+	}
+	Group HairData21
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/stpatrick_costumes/"
+		HairIndex			250
+		Model				"hair/wolfman_m.gr2"
+		SourceSkin			"hair/plechito_tex_m.dds"
+		TargetSkin			"hair/plechito_tex_m.dds"
+	}
+	Group HairData22
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/halfmoon_mage/"
+		HairIndex			251
+		Model				"hair/wolfman_m.gr2"
+		SourceSkin			"hair/plechito_tex_m.dds"
+		TargetSkin			"hair/plechito_tex_m.dds"
+	}
+	Group HairData23
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/valentine2022_1/"
+		HairIndex			252
+		Model				"hair/wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m.dds"
+		TargetSkin			"plechito_tex_m.dds"
+	}
+	Group HairData24
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/valentine2022_2/"
+		HairIndex			253
+		Model				"hair/wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m.dds"
+		TargetSkin			"plechito_tex_m.dds"
+	}
+	Group HairData25
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/easter2022_1/"
+		HairIndex			254
+		Model				"hair/wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m.dds"
+		TargetSkin			"plechito_tex_m.dds"
+	}
+	Group HairData26
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/easter2022_2/"
+		HairIndex			255
+		Model				"hair/wolfman_m.gr2"
+		SourceSkin			"hair/plechito_tex_m.dds"
+		TargetSkin			"hair/plechito_tex_m.dds"
+	}
+	Group HairData27
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/adventure_bandit/"
+		HairIndex			256
+		Model				"hair/wolfman_m.gr2"
+		SourceSkin			"plechito_tex.dds"
+		TargetSkin			"plechito_tex.dds"
+	}
+	Group HairData28
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/ancient_egypt/"
+		HairIndex			257
+		Model				"hair/wolfman_m.gr2"
+		SourceSkin			"hair/plechito_tex_m1.dds"
+		TargetSkin			"hair/plechito_tex_m1.dds"
+	}
+	Group HairData29
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/dark_cult_costume/"
+		HairIndex			258
+		Model				"hair/wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m.dds"
+		TargetSkin			"plechito_tex_m.dds"
+	}
+	Group HairData30
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/royal_phoenix/"
+		HairIndex			259
+		Model				"hair/wolfman_m.gr2"
+		SourceSkin			"hair/plechito_tex_m.dds"
+		TargetSkin			"hair/plechito_tex_m.dds"
+	}
+	Group HairData31
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/egyptian_costumes/"
+		HairIndex			260
+		Model				"hair/wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m2.dds"
+		TargetSkin			"plechito_tex_m2.dds"
+	}
+	Group HairData32
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/halloween2021_2/"
+		HairIndex			261
+		Model				"hair/wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m.dds"
+		TargetSkin			"plechito_tex_m.dds"
+	}
+	Group HairData33
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/steampunk_costume/hair/"
+		HairIndex			262
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m.dds"
+		TargetSkin			"plechito_tex_m.dds"
+	}
+	Group HairData34
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/android_costume/"
+		HairIndex			263
+		Model				"hair/wolfman_m.gr2"
+		SourceSkin			"hair/plechito_tex_m.dds"
+		TargetSkin			"hair/plechito_tex_m.dds"
+	}
+	Group HairData35
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/android_costume/"
+		HairIndex			264
+		Model				"hair/wolfman_m2.gr2"
+		SourceSkin			"hair/plechito_tex_m2.dds"
+		TargetSkin			"hair/plechito_tex_m2.dds"
+	}
+	Group HairData36
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/christmas2020_1/"
+		HairIndex			265
+		Model				"hair/wolfman_m.gr2"
+		SourceSkin			"hair/plechito_tex_m.dds"
+		TargetSkin			"hair/plechito_tex_m.dds"
+	}
+	Group HairData37
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/christmas2021_1/"
+		HairIndex			266
+		Model				"hair/wolfman_m.gr2"
+		SourceSkin			"hair/plechito_tex_m.dds"
+		TargetSkin			"hair/plechito_tex_m.dds"
+	}
+	Group HairData38
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/demonic_costumes/"
+		HairIndex			267
+		Model				"hair/wolfman_m.gr2"
+		SourceSkin			"hair/plechito_tex_m.dds"
+		TargetSkin			"hair/plechito_tex_m.dds"
+	}
+	Group HairData39
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/forst_dragon/"
+		HairIndex			268
+		Model				"hair/wolfman_m.gr2"
+		SourceSkin			"hair/plechito_tex_m.dds"
+		TargetSkin			"hair/plechito_tex_m.dds"
+	}
+	Group HairData40
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/gold_dragon_costume/hair/"
+		HairIndex			269
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex.dds"
+		TargetSkin			"plechito_tex.dds"
+	}
+	Group HairData41
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/christmas2021_2/"
+		HairIndex			270
+		Model				"hair/wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m.dds"
+		TargetSkin			"plechito_tex_m.dds"
+	}
+	Group HairData42
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/magic_costumes/hair/"
+		HairIndex			271
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex_w.dds"
+		TargetSkin			"plechito_tex_w.dds"
+	}
+	Group HairData43
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/magic_costumes/hair/"
+		HairIndex			272
+		Model				"wolfman_m2.gr2"
+		SourceSkin			"plechito_tex_w2.dds"
+		TargetSkin			"plechito_tex_w2.dds"
+	}
+	Group HairData44
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/demon_hunter_costume/"
+		HairIndex			273
+		Model				"hair/wolfman_m.gr2"
+		SourceSkin			"hair/plechito_tex_m.dds"
+		TargetSkin			"hair/plechito_tex_m.dds"
+	}
+	Group HairData45
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/christmas2022_1/hair/"
+		HairIndex			274
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m.dds"
+		TargetSkin			"plechito_tex_m.dds"
+	}
+	Group HairData46
+	{
+		SpecialPath			"d:/ymir work/ibrahimgokalp/set_5/m/hair/"
+		HairIndex			275
+		Model				"wolfman.gr2"
+		SourceSkin			"helment.dds"
+		TargetSkin			"helment.dds"
+	}
+	Group HairData47
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/halloween2022_1/hair/"
+		HairIndex			276
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m.dds"
+		TargetSkin			"plechito_tex_m.dds"
+	}
+	Group HairData48
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/christmas2022_2/"
+		HairIndex			277
+		Model				"hair/wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m.dds"
+		TargetSkin			"plechito_tex_m.dds"
+	}
+	Group HairData49
+	{
+		SpecialPath			"d:/ymir work/dane_tex/christmas_all_star_tex/www.daneservice.com/"
+		HairIndex			278
+		Model				"wolfman_christmas_hair_m.gr2"
+		SourceSkin			"dane_christmas_hair_m.dds"
+		TargetSkin			"dane_christmas_hair_m.dds"
+	}
+}
+
+Group ShapeData
+{
+	PathName	"d:/ymir Work/pc3/wolfman/"
+
+	ShapeDataCount			999
+	Group ShapeData00
+	{
+		ShapeIndex			0
+
+		Model				"wolfman_novice.gr2"
+		SourceSkin			"wolfman_novice.dds"
+		TargetSkin			"wolfman_novice.dds"
+	}
+	Group ShapeData01
+	{
+		ShapeIndex			1
+		Model				"wolfman_novice.gr2"
+		SourceSkin			"wolfman_novice.dds"
+		TargetSkin			"wolfman_novice_1.dds"
+	}
+	Group ShapeData02
+	{
+		ShapeIndex			3
+		Model				"wolfman_2_1.GR2"
+		SourceSkin			"wolfman_2_1.dds"
+		TargetSkin			"wolfman_2_1.dds"
+	}
+	Group ShapeData03
+	{
+		ShapeIndex			4
+		Model				"wolfman_2_1.GR2"
+		SourceSkin			"wolfman_2_1.dds"
+		TargetSkin			"wolfman_2_4.dds"
+	}
+	Group ShapeData04
+	{
+		ShapeIndex			5
+		Model				"wolfman_2_1.GR2"
+		SourceSkin			"wolfman_2_1.dds"
+		TargetSkin			"wolfman_2_5.dds"
+	}
+	Group ShapeData05
+	{
+		ShapeIndex			6
+		Model				"wolfman_2_1.GR2"
+		SourceSkin			"wolfman_2_1.dds"
+		TargetSkin			"wolfman_2_2.dds"
+	}
+	Group ShapeData06
+	{
+		ShapeIndex			7
+		Model				"wolfman_2_1.GR2"
+		SourceSkin			"wolfman_2_1.dds"
+		TargetSkin			"wolfman_2_3.dds"
+	}
+	Group ShapeData07
+	{
+		ShapeIndex			8
+		Model				"wolfman_3_1.GR2"
+		SourceSkin			"wolfman_3_1.dds"
+		TargetSkin			"wolfman_3_1.dds"
+	}
+	Group ShapeData08
+	{
+		ShapeIndex			9
+		Model				"wolfman_3_1.GR2"
+		SourceSkin			"wolfman_3_1.dds"
+		TargetSkin			"wolfman_3_2.dds"
+	}
+	Group ShapeData09
+	{
+		ShapeIndex			10
+		Model				"wolfman_3_1.GR2"
+		SourceSkin			"wolfman_3_1.dds"
+		TargetSkin			"wolfman_3_3.dds"
+	}
+	Group ShapeData10
+	{
+		ShapeIndex			13
+		Model				"wolfman_4_1.GR2"
+		SourceSkin			"wolfman_4_1.dds"
+		TargetSkin			"wolfman_4_1.dds"
+	}
+	Group ShapeData11
+	{
+		ShapeIndex			12
+		Model				"wolfman_4_1.GR2"
+		SourceSkin			"wolfman_4_1.dds"
+		TargetSkin			"wolfman_4_2.dds"
+	}
+	Group ShapeData12
+	{
+		ShapeIndex			11
+		Model				"wolfman_4_3.GR2"
+		SourceSkin			"wolfman_4_3.dds"
+		TargetSkin			"wolfman_4_3.dds"
+	}
+	Group ShapeData13
+	{
+		ShapeIndex			14
+		Model				"wolfman_5_1.gr2"
+		SourceSkin			"wolfman_5_1.dds"
+		TargetSkin			"wolfman_5_1.dds"
+	}
+	Group ShapeData14
+	{
+		ShapeIndex			201
+		Model				"wolfman_marry.GR2"
+		SourceSkin			"wolfman_marry.dds"
+		TargetSkin			"wolfman_marry.dds"
+	}
+	Group ShapeData15
+	{
+		ShapeIndex			15
+		Model				"wolfman_5_1.GR2"
+		SourceSkin			"wolfman_5_1.dds"
+		TargetSkin			"wolfman_5_1_blue.dds"
+	}
+	Group ShapeData16
+	{
+		ShapeIndex			16
+		Model				"wolfman_5_1.GR2"
+		SourceSkin			"wolfman_5_1.dds"
+		TargetSkin			"wolfman_5_1_red.dds"
+	}
+	Group ShapeData17
+	{
+		ShapeIndex			17
+		Model				"wolfman_5_1.GR2"
+		SourceSkin			"wolfman_5_1.dds"
+		TargetSkin			"wolfman_5_1_white.dds"
+	}
+	Group ShapeData18
+	{
+		ShapeIndex			18
+		Model				"wolfman_5_1.GR2"
+		SourceSkin			"wolfman_5_1.dds"
+		TargetSkin			"wolfman_5_1_black.dds"
+	}
+	Group ShapeData19
+	{
+		ShapeIndex			19
+		Model				"wolfman_5_1.GR2"
+		SourceSkin			"wolfman_5_1.dds"
+		TargetSkin			"wolfman_5_1_jin.dds"
+	}
+	Group ShapeData20
+	{
+		ShapeIndex			20
+		Model				"wolfman_6_1.GR2"
+		SourceSkin			"wolfman_6_1.dds"
+		TargetSkin			"wolfman_6_1.dds"
+	}
+	Group ShapeData21
+	{
+		ShapeIndex			21
+		Model				"wolfman_7_1.GR2"
+		SourceSkin			"wolfman_7_1.dds"
+		TargetSkin			"wolfman_7_1.dds"
+	}
+	Group ShapeData22
+	{
+		ShapeIndex			22
+		Model				"wolfman_8_1.GR2"
+		SourceSkin			"wolfman_8_1.dds"
+		TargetSkin			"wolfman_8_1.dds"
+	}
+	Group ShapeData23
+	{
+		ShapeIndex			23
+		Model				"wolfman_5_1.GR2"
+		SourceSkin			"wolfman_5_1.dds"
+		TargetSkin			"wolfman_5_1_green.dds"
+	}
+	Group ShapeData24
+	{
+		ShapeIndex			40112
+		Model				"wolfman_assassin1.GR2"
+		SourceSkin			"wolfman_assassin1.dds"
+		TargetSkin			"wolfman_assassin1.dds"
+	}
+	Group ShapeData25
+	{
+		ShapeIndex			40118
+		Model				"wolfman_assassin1.GR2"
+		SourceSkin			"wolfman_assassin1.dds"
+		TargetSkin			"wolfman_assassin2.dds"
+	}
+	Group ShapeData26
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/stpatrick_costumes/"
+		ShapeIndex			250
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m.dds"
+		TargetSkin			"plechito_tex_m.dds"
+	}
+	Group ShapeData27
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/halfmoon_mage/"
+		ShapeIndex			251
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m.dds"
+		TargetSkin			"plechito_tex_m.dds"
+	}
+	Group ShapeData28
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/valentine2022_1/"
+		ShapeIndex			252
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m.dds"
+		TargetSkin			"plechito_tex_m.dds"
+	}
+	Group ShapeData29
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/valentine2022_2/"
+		ShapeIndex			253
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m.dds"
+		TargetSkin			"plechito_tex_m.dds"
+	}
+	Group ShapeData30
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/easter2022_1/"
+		ShapeIndex			254
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m.dds"
+		TargetSkin			"plechito_tex_m.dds"
+	}
+	Group ShapeData31
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/easter2022_2/"
+		ShapeIndex			255
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m_a.dds"
+		TargetSkin			"plechito_tex_m_a.dds"
+	}
+	Group ShapeData32
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/adventure_bandit/"
+		ShapeIndex			256
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex.dds"
+		TargetSkin			"plechito_tex.dds"
+	}
+	Group ShapeData33
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/ancient_egypt/"
+		ShapeIndex			257
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m_su.dds"
+		TargetSkin			"plechito_tex_m_su.dds"
+	}
+	Group ShapeData34
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/dark_cult_costume/"
+		ShapeIndex			258
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m.dds"
+		TargetSkin			"plechito_tex_m.dds"
+	}
+	Group ShapeData35
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/royal_phoenix/"
+		ShapeIndex			259
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m.dds"
+		TargetSkin			"plechito_tex_m.dds"
+	}
+	Group ShapeData36
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/egyptian_costumes/"
+		ShapeIndex			260
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m1.dds"
+		TargetSkin			"plechito_tex_m1.dds"
+		SourceSkin2			"plechito_tex_m2.dds"
+		TargetSkin2			"plechito_tex_m2.dds"
+	}
+	Group ShapeData37
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/halloween2021_2/"
+		ShapeIndex			261
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m.dds"
+		TargetSkin			"plechito_tex_m.dds"
+	}
+	Group ShapeData38
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/steampunk_costume/"
+		ShapeIndex			262
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m.dds"
+		TargetSkin			"plechito_tex_m.dds"
+	}
+	Group ShapeData39
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/android_costume/"
+		ShapeIndex			263
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m.dds"
+		TargetSkin			"plechito_tex_m.dds"
+	}
+	Group ShapeData40
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/android_costume/"
+		ShapeIndex			264
+		Model				"wolfman_m2.gr2"
+		SourceSkin			"plechito_tex_m2.dds"
+		TargetSkin			"plechito_tex_m2.dds"
+	}
+	Group ShapeData41
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/christmas2020_1/"
+		ShapeIndex			265
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m_a.dds"
+		TargetSkin			"plechito_tex_m_a.dds"
+	}
+	Group ShapeData42
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/christmas2021_1/"
+		ShapeIndex			266
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m.dds"
+		TargetSkin			"plechito_tex_m.dds"
+	}
+	Group ShapeData43
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/demonic_costumes/"
+		ShapeIndex			267
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m_as.dds"
+		TargetSkin			"plechito_tex_m_as.dds"
+	}
+	Group ShapeData44
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/forst_dragon/"
+		ShapeIndex			268
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m.dds"
+		TargetSkin			"plechito_tex_m.dds"
+	}
+	Group ShapeData45
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/gold_dragon_costume/"
+		ShapeIndex			269
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex.dds"
+		TargetSkin			"plechito_tex.dds"
+	}
+	Group ShapeData46
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/christmas2021_2/"
+		ShapeIndex			270
+		Model				"wolfman_m.GR2"
+		SourceSkin			"plechito_tex_m.dds"
+		TargetSkin			"plechito_tex_m.dds"
+	}
+	Group ShapeData47
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/magic_costumes/"
+		ShapeIndex			271
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m.dds"
+		TargetSkin			"plechito_tex_m.dds"
+	}
+	Group ShapeData48
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/magic_costumes/"
+		ShapeIndex			272
+		Model				"wolfman_m2.gr2"
+		SourceSkin			"plechito_tex_m2.dds"
+		TargetSkin			"plechito_tex_m2.dds"
+	}
+	Group ShapeData49
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/demon_hunter_costume/"
+		ShapeIndex			273
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m_a.dds"
+		TargetSkin			"plechito_tex_m_a.dds"
+		SourceSkin2			"plechito_tex_m1.dds"
+		TargetSkin2			"plechito_tex_m1.dds"
+	}
+	Group ShapeData50
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/christmas2022_1/"
+		ShapeIndex			274
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m.dds"
+		TargetSkin			"plechito_tex_m.dds"
+	}
+	Group ShapeData51
+	{
+		SpecialPath			"d:/ymir work/ibrahimgokalp/set_5/m/"
+		ShapeIndex			275
+		Model				"wolfman.gr2"
+		SourceSkin			"hand.dds"
+		TargetSkin			"hand.dds"
+		SourceSkin2			"upper.dds"
+		TargetSkin2			"upper.dds"
+		SourceSkin3			"foot.dds"
+		TargetSkin3			"foot.dds"
+		SourceSkin4			"lower.dds"
+		TargetSkin4			"lower.dds"
+	}
+	Group ShapeData52
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/halloween2022_1/"
+		ShapeIndex			276
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m.dds"
+		TargetSkin			"plechito_tex_m.dds"
+	}
+	Group ShapeData53
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/christmas2022_2/"
+		ShapeIndex			277
+		Model				"wolfman_m.gr2"
+		SourceSkin			"plechito_tex_m.dds"
+		TargetSkin			"plechito_tex_m.dds"
+	}
+	Group ShapeData54
+	{
+		SpecialPath			"d:/ymir work/dane_tex/christmas_all_star_tex/www.daneservice.com/"
+		ShapeIndex			278
+		Model				"wolf_christmas_m.gr2"
+		SourceSkin			"dane_christmas_body_msh.dds"
+		TargetSkin			"dane_christmas_body_msh.dds"
+	}
+}
+Group CrownData
+{
+	PathName	"d:/ymir work/item/crown/"
+
+	CrownDataCount 			20
+	Group CrownData00
+	{
+		SpecialPath			"d:/ymir work/pc/plechito/gold_armors/"
+		CrownIndex			1
+		Model				"hair/likan.gr2"
+		SourceSkin			"hair/plechito_tex.dds"
+		TargetSkin			"hair/plechito_tex.dds"
+	}
+}
+Group AttachingData
+{
+    AttachingDataCount       2
+
+    Group AttachingData00
+    {
+        AttachingDataType    1
+
+        isAttaching          0
+        AttachingModelIndex  0
+        AttachingBoneName    "Bip01"
+
+        CollisionType        1
+
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           40.000000
+            Position         0.000000 0.000000 100.000000
+        }
+    }
+
+    Group AttachingData01
+    {
+        AttachingDataType    1
+
+        isAttaching          0
+        AttachingModelIndex  0
+        AttachingBoneName    "Bip01"
+
+        CollisionType        3
+
+        SphereDataCount      1
+        Group SphereData00
+        {
+            Radius           70.000000
+            Position         0.000000 0.000000 100.000000
+        }
+    }
+}

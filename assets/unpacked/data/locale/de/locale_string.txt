@@ -1,0 +1,573 @@
+CLOSE_WINDOWS_ERROR	Alle Fenster müssen geschlossen werden, um dies zu tun.
+WAIT_TO_USE_AGAIN	Sie müssen %s Sekunden warten, um dies zu tun.
+ARENA_TALK_15	Sie haben eine Schlacht betreten, der Ausgang wurde abgebrochen.
+BATTLEPASS_NOT_COMPLETED_ALL_NORMAL_MISSIONS	Sie haben noch nicht alle Aufgaben im normalen Battle Pass abgeschlossen!
+BATTLEPASS_NOT_COMPLETED_ALL_PREMIUM_MISSIONS	Sie haben noch nicht alle Aufgaben im Premium Battle Pass abgeschlossen!
+BATTLEPASS_NOT_COMPLETED_ALL_EVENT_MISSIONS	Sie haben noch nicht alle Aufgaben im Event Battle Pass abgeschlossen!
+CANT_INCREASE_YOUR_BIOLOG_LEVEL_MORE	Sie können Ihre Biologiestufe nicht weiter erhöhen.
+X_SUCCESSFULL_Y_UNSUCCESSFULL	%sx erfolgreich und %sx erfolglos.
+BATTLEPASS_ALREADY_EARNED_BATTLEPASS_REWARD	Sie haben diese Battle Pass Belohnung bereits erhalten.
+IT_WAS_FAILED	Operation fehlgeschlagen.
+TAKE_OFF_YOUR_ARMOR_TO_OPEN_SHOP	Ziehen Sie Ihre Rüstung aus, um den Shop zu öffnen.
+YOU_CARRY_TOO_MUCH_GOLD_TO_OPEN_SHOP	Sie tragen zu viel Gold bei sich, Sie können keinen Shop öffnen.
+INVALID_SHOP_NAME	Ungültiger Shop-Name.
+CANT_TRADE_WITH_EQUIPPED_ITEMS	Sie können nicht mit ausgerüsteten Gegenständen handeln.
+CANT_TRADE_WITH_THIS_ITEM	Sie können mit diesem Gegenstand nicht handeln.
+EQUIP_YOUR_PICKAXE_FIRST	Rüsten Sie zuerst eine Spitzhacke aus, um dies zu tun.
+CANNOT_FISH_HERE	Sie können hier nicht angeln.
+EQUIP_YOUR_ROD_FIRST	Rüsten Sie zuerst eine Angelrute aus, um dies zu tun.
+PUT_A_BAIT_TO_YOUR_ROD	Um dies zu tun, müssen Sie einen Köder an Ihre Angelrute anbringen.
+CANT_FISH_WITHOUT_ROD	Sie können nicht ohne Angelrute angeln.
+PROBLEM_OCCURED_TRY_AGAIN_LATER	Ein Problem ist aufgetreten, versuchen Sie es später erneut!
+PARTY_REQ_ERR_0	Sie können keine Gruppe mit anderen Reichen bilden.
+PARTY_REQ_ERR_1	Sie können keine Gruppe in einem Dungeon einladen oder beitreten.
+PARTY_REQ_ERR_2	Sie können keinen Beobachter in eine Gruppe einladen.
+PARTY_REQ_ERR_3	Sie können keine Gruppe mit jemandem bilden, der einen Levelunterschied von mehr als 30 hat.
+PARTY_REQ_ERR_4	Sie können keine Gruppe mit jemandem bilden, der einen Levelunterschied von mehr als 30 hat.
+PARTY_REQ_ERR_5	Sie können Einladungen nicht akzeptieren.
+PARTY_REQ_ERR_6	Die Gruppe hat das Limit erreicht, es können keine weiteren Einladungen verschickt werden.
+PARTY_REQ_ERR_7	Die Gruppe hat das Limit erreicht, es können keine weiteren Mitglieder beitreten.
+PARTY_REQ_ERR_8	Dieser Spieler ist nicht in der Gruppe.
+PARTY_REQ_ERR_9	Sie können nicht einladen, nur der Gruppenleiter kann das.
+PARTY_REQ_ERR_10	Sie können in einem Dungeon keiner Gruppe beitreten.
+PARTY_REQ_SENT	Gruppenanfrage an %s gesendet.
+PARTY_REQ_REJECTED	%s hat Ihre Gruppenanfrage abgelehnt.
+PARTY_REQ_REJECTED2	%s hat Ihre Gruppenanfrage abgelehnt.
+PARTY_REQ_ALREADY_IN_PARTY	%s ist bereits in einer Gruppe.
+PARTY_JOINED_THE_PARTY	%s ist der Gruppe beigetreten.
+PARTY_JOINED_THE_PARTY2	Sie sind der Gruppe von %s beigetreten.
+MINING_STOPPED	Bergbau gestoppt.
+PLAYER_BUSY_RN	Dieser Spieler ist gerade beschäftigt.
+GROUP_LEADER_IS_NOT_ACTIVE_CANT_DO_THIS	Gruppenleiter ist nicht aktiv, Sie können dies nicht tun.
+SAFEBOX_ERR_1	Der Safe ist bereits geöffnet.
+SAFEBOX_ERR_2	Warten Sie eine Weile, um dies erneut zu tun.
+CANT_TELEPORT_THIS_PLAYER	Sie können sich nicht zu diesem Spieler teleportieren.
+THIS_PLAYER_IS_OFFLINE	Dieser Spieler ist offline.
+OTHER_CHANNEL_ERR	Dieser Spieler ist nicht in diesem Kanal, Spielerkanal %s. (Ihr Kanal %s)
+THIS_WINDOW_IS_ALREADY_OPEN	Dieses Fenster ist bereits geöffnet.
+CLOSE_OTHER_WINDOWS_TO_DO_THIS	Schließen Sie alle Fenster, um dies zu tun.
+CANT_ADD_LOCKED_ITEMS	Sie können den bereits ausgewählten Gegenstand nicht auswählen.
+ONLY_SAME_GRADE_CAN_COMBINED	Nur der gleiche Rang kann kombiniert werden.
+ABSORBPTION_CHANGE_IS_MAX	Dieser Gegenstand hat bereits die maximale Absorptionsrate.
+ONLY_ARMOR_WEARPON_CAN_BE_ABSORBED	Nur Waffen und Rüstungen können absorbiert werden.
+NOT_ENOUGH_YANG	Nicht genug Yang.
+INVALID_ACTION	Ungültige Aktion!
+NEW_ABSORB_RATE	Neue Absorptionsrate: %s
+CANT_USE_THIS_WITH_NON_SASH_ITEMS	Sie können dies nur bei Schultergurten verwenden.
+CANT_USE_THIS_WITH_NON_AURA_ITEMS	Sie können dies nur bei Aura-Kostümen verwenden.
+ITEM_HAS_NO_ABSORBTION	An diesem Gegenstand ist keine Absorption vorhanden!
+POLY_BLOCKED_WITH_THIS	Sie können dies nicht tun, während Sie polymorph sind.
+CHANNEL_SWITCH_0	Nach %s Sekunden wird der Kanal gewechselt.
+CHANNEL_SWITCH_1	Der Kanal wird gewechselt.
+MULTIFARM_ACTIVATED	Das Sammeln von Gegenständen wurde aktiviert.
+MULTIFARM_DEACTIVATED	Das Sammeln von Gegenständen wurde deaktiviert.
+MULTIFARM_MULTIACC_LIMIT	Das Sammeln von Gegenständen kann nicht mit mehr als 2 Konten aktiviert werden.
+GLOBAL_ERR_OCCURED	Ein Fehler ist aufgetreten, versuchen Sie es später erneut.
+AURA_INVALID_ITEM_TYPE	Ungültiger Gegenstand ausgewählt, nur Schmuck kann absorbiert werden.
+AURA_RUNIC_ITEM_NOT_FOUND	Sie können dies nur mit Aura Runic tun.
+AURA_RUNIC_ICE_SHOULD_BE_USED	Sie können dies nur mit Aura Ice Rune tun.
+AURA_RUNIC_FIRE_SHOULD_BE_USED	Sie können dies nur mit Aura Fire Rune tun.
+AURA_ABS_REMOVE_ATTR	Absorbierte Boni erfolgreich gelöscht.
+YOU_DO_NOT_HAVE_ENOUGH_GEM_SLOT_OPENER	Sie haben nicht genug Edelsteinschlüsselöffner.
+YOUR_BIOLOG_LEVEL_INCREASED	Ihre Biologiestufe wurde erhöht.
+GM_MESSENGER_IN_YOU_BLOCK	Ihr Chat ist verboten.
+BUFF_MSG_01	%s wurde nicht hinzugefügt, da Ihre Rate höher ist. Rate: (%s%%) Ihre aktuelle Rate: (%s%%)
+BUFF_MSG_02	%s Bonus erfolgreich hinzugefügt. Neue Rate: (%s%%) Alte Rate: (%s%%)
+WARNING_DRAGON_GOD	Da Sie unter dem Schutz des Drachengottes stehen, haben Sie keine Erfahrung verloren.
+WARNING_DRAGON_GOD2	Da Sie unter dem Schutz des Drachengottes stehen, haben Sie keine Gegenstände verloren.
+GUILDWAR_WARNING_NO_ADVANTAGE_HUNTING	Es gibt keinen Vorteil beim Jagen während eines Gildenkriegs.
+DS_TALK_1	Die Drachen-Alchemie ist nicht aktiv.
+HORSE_TALK_1	Das Rufen Ihres Reittiers ist fehlgeschlagen.
+SAFEBOX_ERR	Falsches Passwort.
+REFINE_FREE_UPGRADE_BELLOW_20	Kostenlose Upgrade-Gegenstände sind nur für Waffen bis Stufe 20 oder weniger verfügbar.
+CANT_UPGRADE_THIS_ITEM	Sie können diesen Gegenstand nicht aufwerten.
+NOT_ENOUGH_MATERIAL	Sie haben nicht genug Material.
+CAN_NOT_UPGRADE_WITH_THIS_ITEM_MORE	Sie können diesen Gegenstand nicht weiter aufwerten.
+CAN_ONLY_UPGRADE_ITEMS_MORE_THAN	Sie können nur Objekte der Stufe %s oder höher mit diesem Gegenstand aufwerten.
+DEVILTOWER_UPGRADE_MSG	Sie können im Dämonenturm nur einmal aufwerten.
+CANT_COMBINE_SIMILAR_REFINE_ITEMS	Sie können ähnliche Upgrade-Objekte nicht kombinieren.
+MAGIC_STONE_REFINE_CAN_BE_COMBINED	Magical Stone und Blessing Scroll können kombiniert werden.
+NO_SPIRIT_STONES_TO_REMOVE	Keine Spirit Stones gefunden, die entfernt werden können.
+CANT_SAVE_THIS_POSITION	Sie können diese Position nicht speichern.
+NO_EMPTY_SPACE_IN_INVENTORY	In Ihrem Inventar ist kein Platz mehr!
+YOU_HAVE_LOWER_LEVEL_THAN_ITEM	Sie haben nicht genug Level, um dies zu verwenden.
+CANT_TELEPORT_SAVEZONE_IN_DIFFERENT_EMPIRE	Sie können sich nicht zu einer Sicherheitszone in einem anderen Reich teleportieren.
+AFFECT_IS_ALREADY_ACTIVE	Dieser Effekt ist bereits aktiv.
+NOT_ENOUGH_HP	Sie haben nicht genug Gesundheit.
+NOT_ENOUGH_SP	Sie haben nicht genug Mana.
+ACTION_NOT_POSSIBLE_ON_THIS_MAP	Diese Aktion ist auf dieser Karte nicht möglich.
+CANT_SET_A_CAMPFIRE_HERE	Sie können hier kein Lagerfeuer aufstellen.
+CANT_WEAR_SASH_SKIN_IF_NOT_WEAR_SASH	Sie können keine Schultergurt-Haut tragen, wenn Sie keinen Schultergurt tragen.
+CANT_WEAR_PET_SKIN_IF_NOT_WEAR_PET	Sie können keine Haustier-Haut tragen, wenn Sie kein Haustier tragen.
+CANT_WEAR_AURA_SKIN_IF_NOT_WEAR_AURA	Sie können keine Aura-Kostüm-Haut tragen, wenn Sie kein Aura-Kostüm tragen.
+CANT_WEAR_MOUNT_SKIN_IF_NOT_WEAR_MOUNT	Sie können keine Reittier-Haut tragen, wenn Sie kein Reittier tragen.
+CANT_DO_THIS_WHILE_MOUNTING	Sie können dies nicht tun, während Sie reiten.
+CANT_DO_THIS_IN_DUEL	Sie können dies nicht im Duell tun.
+WAIT_SOME_TIME_TO_DO_THIS_AGAIN	Operation fehlgeschlagen, warten Sie einen Moment und versuchen Sie es erneut.
+NEED_2SPACE_IN_INVS	Um diese Truhe zu öffnen, sollten Sie 3 Slot-Plätze in allen Ihren Inventaren haben.
+NEED_2SPACE_IN_DS_INV	Um diese Truhe zu öffnen, sollten Sie 2 Slot-Plätze im Dragon Soul-Inventar haben.
+LOWERING_YOUR_SKILL_SUCCEDEED	Das Herabsetzen Ihrer Fertigkeitsstufe war erfolgreich.
+LOWERING_YOUR_SKILL_FAILED	Das Herabsetzen Ihrer Fertigkeitsstufe ist fehlgeschlagen.
+YOU_HAVE_NO_SKILL_GROUP	Sie können dies nicht tun, wenn Sie keine Fertigkeitsgruppe haben.
+X_SECONDS_ARE_ADDED	%s Sekunden hinzugefügt.
+ADDING_TIME_FAILED	Hinzufügen von Zeit ist fehlgeschlagen.
+SWITCH_BOT_STOP_INFO_1	Ihnen gehen die Schalter aus, der Switch-Bot wird gestoppt.
+SWITCH_BOT_STOP_INFO_2	Sie haben nicht genug Yang, der Switch-Bot wird gestoppt!
+PET_TEXT_1	Sie sollten Ihr Haustier rufen, um dies zu tun.
+PET_TEXT_2	Dazu muss Ihr Haustier mindestens Stufe %s haben.
+PET_TEXT_3	Neuer Haustierplatz freigeschaltet.
+OFFLINESHOP_TEXT_1	Sie benötigen %s Yang, um einen Shop zu eröffnen.
+OFFLINESHOP_TEXT_2	Sie können nur in sozialen Kanälen Geschäfte eröffnen.
+OFFLINESHOP_TEXT_3	Sie können nur in den ersten Dörfern Geschäfte eröffnen.
+OFFLINESHOP_TEXT_4	Sie wurden in den Shop teleportiert.
+OFFLINESHOP_TEXT_5	Sie teleportieren sich zum Shop...
+OFFLINESHOP_TEXT_6	Kein Shop mit dem ausgewählten Namen gefunden.
+OFFLINESHOP_TEXT_7	Die Shop-Zeit kann nicht weiter verlängert werden.
+OFFLINESHOP_TEXT_8	Der Shop mit dem ausgewählten Namen wurde nicht gefunden.
+OFFLINESHOP_TEXT_9	Wenn Sie kein Premium haben, können Sie Ihren Markt nur bearbeiten, wenn Sie sich auf derselben Karte befinden.
+OFFLINESHOP_TEXT_10	Sie können diesen Gegenstand nicht zum Shop hinzufügen.
+ACCESSORY_SOCKET_DISSAPEARED	%s Erz ist verschwunden.
+WEDDING_TEXT_1	Sie können dies nicht tun, wenn Sie nicht verheiratet sind.
+ITS_NOT_EASY_TO_UNDERSTAND_THIS_BOOK	Es ist nicht leicht, dieses Buch zu verstehen.
+CANT_UPGRADE_WITH_THIS_MORE	Sie können nicht weiterhin mit diesem Gegenstand aufwerten.
+CANT_UPGRADE_YOUR_ABILITY_MORE	Sie können diese Fähigkeit nicht weiter verbessern.
+UNEQUIP_YOUR_PET	Um dies zu tun, müssen Sie zuerst Ihr Haustier ablegen.
+PREMIUM_ALREADY_MEMBER	Sie haben bereits Premium.
+THE_ITEM_USAGE_LIMIT_EXCEEDED	Das Verwendungslimit für diesen Gegenstand wurde überschritten.
+CANT_UPGRADE_ITEM_WITH_LEVEL3_SPIRITS_STONES	+3 Spirit Stones können nicht mit diesem Gegenstand aufgewertet werden.
+CANT_CHANGE_THE_ATTRIBUTE_OF_THIS_ITEM	Sie können das Attribut dieses Gegenstands nicht ändern.
+NO_ATTRIBUTES_TO_CHANE_ON_THE_ITEM	Es gibt kein Attribut, das geändert werden kann.
+NO_STONE_TO_CLEAR	Es gibt keinen zerbrochenen Stein, der gereinigt werden kann.
+CHANGE_ATTRIBUTE_WAS_SUCCESFULL	Das Ändern des Attributs war erfolgreich.
+YOU_DO_NOT_MEET_THE_NEEDS_OF_THIS_ITEM	Sie erfüllen nicht die Anforderungen dieses Gegenstands.
+THIS_CAN_BE_USED_IN_ONLY_WEAPONS_ARMORS	Dies kann nur auf Rüstungen und Waffen angewendet werden.
+ADDING_ATTRIBUTE_WAS_SUCCESSFULL	Bonus erfolgreich hinzugefügt.
+ADDING_ATTRIBUTE_WAS_FAILED	Hinzufügen des Bonus fehlgeschlagen.
+CANT_ADD_MORE_BONUS_TO_THIS_ITEM	Sie können dem Gegenstand keine weiteren Boni hinzufügen.
+TO_USE_THIS_YOU_NEED_FOR_BONUSSES_ON_THE_ITEM	Um dies zu tun, sollte der Gegenstand 4 Boni haben.
+ADDING_SOCKET_SUCCESSFULL	Sockel erfolgreich hinzugefügt!
+ADDING_SOCKET_UNSUCCESSFULL	Hinzufügen des Sockels ist fehlgeschlagen.
+SOCKET_NOT_ENOUGH_SPACE	Sockel ist voll, Sie müssen zuerst die Sockel leeren.
+SOCKET_CANT_BE_ADDED_TO_THIS_ITEM	Sie können diesem Gegenstand keinen Sockel hinzufügen.
+ADDING_JEWEL_SUCCESFULL	Erz erfolgreich hinzugefügt!
+ADDING_JEWEL_UNSUCCESFULL	Hinzufügen des Erzes ist fehlgeschlagen!
+ADD_JEWEL_INFO_01	Sie sollten einen Sockel öffnen, um Erz hinzuzufügen.
+ADD_JEWEL_INFO_02	Sie sollten einen Sockel öffnen, um Erz hinzuzufügen.
+ADD_JEWEL_INFO_03	Sie sollten einen Sockel öffnen, um Erz hinzuzufügen.
+ADD_JEWEL_INFO_04	Sie können diesem Gegenstand kein weiteres Erz hinzufügen.
+PERMANENT_JEWEWL_INFO_01	Sie können keine permanenten Erze zu diesem Gegenstand hinzufügen.
+PERMANENT_JEWEWL_INFO_02	Nur permanente Erze können hinzugefügt werden.
+PERMANENT_JEWEWL_INFO_03	Sie können diesem Gegenstand kein Erz hinzufügen.
+PERMANENT_JEWEWL_INFO_04	Sie können diesem Gegenstand keine permanenten Erze hinzufügen.
+FISHING_CANT_CHANGE_BAIT_WHEN_FISHING	Sie können den Köder beim Angeln nicht wechseln.
+FISHING_CHANGED_BAIT_WITH	Sie haben den Köder gegen %s gewechselt.
+FISHING_ADDED_BAIT	Der Köder namens %s wurde zur Angelrute hinzugefügt!
+CANT_ADD_SAME_SPIRIT_STONES	Sie können keine Spirit Stones mit dem gleichen Grad zweimal hinzufügen.
+CANT_ADD_THIS_SPIRIT_STONES_TO_THIS_ITEM	Sie können diesem Gegenstand keine Spirit Stones hinzufügen.
+NOT_ENOUGH_SPACE_TO_ADD_SPIRIT_STONE	Nicht genügend Platz, um diese Spirit Stone hinzuzufügen!
+ONLY_OTHER_GENDER_CAN_USE_THIS	Nur das andere Geschlecht kann dies verwenden.
+CANNOT_DO_THIS	Das kann ich nicht tun.
+YOU_CANNOT_CARRY_MORE_YANG	Sie können nicht mehr Yang tragen.
+ITEM_IS_SOLD	%s wurde verkauft.
+YOU_CANNOT_DROP_THIS_ITEM	Sie können diesen Gegenstand nicht ablegen.
+ITEM_DROPPED_WILL_DISSAPEAR_IN_MINS	[Achtung] - Gegenstände, die auf dem Boden abgelegt wurden, verschwinden in 3 Minuten!
+CANT_DROP_GOLD	Sie können kein Yang ablegen.
+CANT_MOVE_ITEM_TO_THIS_INVENTORY	Sie können diesen Gegenstand nicht in dieses Inventar verschieben.
+YOU_CANNOT_MOVE_ACTIVE_SWITCHBOT_ITEMS	Sie können keine aktiven Switchbot-Gegenstände nehmen.
+YOU_CANNOT_ADD_THIS_ITEM_TO_SWITCHBOT	Sie können diesen Gegenstand nicht zum Switchbot hinzufügen.
+FULL_SOCKET_WARNING	Der Sockel ist voll, Sie müssen zuerst die Sockel leeren.
+YOU_GAINED_ITEM	%s erhalten.
+YOU_GAINED_ITEM_INV_TYPE_01	%s erhalten. Verschoben in Ihr Upgrade-Inventar.
+YOU_GAINED_ITEM_INV_TYPE_02	%s erhalten. Verschoben in Ihr Buch-Inventar.
+YOU_GAINED_ITEM_INV_TYPE_03	%s erhalten. Verschoben in Ihr Spirit Stone-Inventar.
+YOU_GAINED_ITEM_INV_TYPE_04	%s erhalten. Verschoben in Ihr allgemeines Inventar.
+YOU_GAINED_ITEM_INV_TYPE_05	%s erhalten. Verschoben in Ihr Inventar.
+ITEM_DELETED	%s wurde gelöscht.
+UNEQUIP_YOUR_SKIN_FIRST	Sie müssen zuerst Ihre Haut ablegen, um dies zu tun.
+YOU_ALREADY_RIDING_MOUNT	Sie reiten bereits.
+ONLY_GROUP_LEADER_CAN_USE_THIS	Nur der Gruppenleiter kann dies tun.
+CANT_USE_THIS_WITH_COSTUME	Sie können dies nicht tun, während Sie einen Smoking oder ein Hochzeitskleid tragen.
+CANT_USE_COSTUME_WITH_THIS	Sie können dies nicht tun, während Sie das Kostüm tragen.
+YOU_HAVE_TO_STAND_STILL_TO_DO_THIS	Sie müssen stillstehen, um dies zu tun.
+WRONG_EQUIPMENT_MATCH	Ihre Waffe passt nicht zu Ihrem Waffenkostüm.
+CANT_DO_THIS_IF_NOT_WEAR_PET	Sie können dies nicht tun, wenn Sie Ihr Haustier nicht abgelegt haben.
+CANT_DO_THIS_IF_NOT_WEAR_MOUNT	Sie können dies nicht tun, wenn Sie Ihr Reittier nicht abgelegt haben.
+CANT_DO_THIS_IF_NOT_WEAR_SASH	Sie können dies nicht tun, wenn Sie Ihren Schultergurt nicht abgelegt haben.
+CANT_DO_THIS_IF_NOT_WEAR_AURA	Sie können dies nicht tun, wenn Sie Ihr Aura-Kostüm nicht abgelegt haben.
+ALREADY_WEAR_SAME_TYPE_DS	Sie tragen bereits denselben Typ des Drachensteins.
+CANT_FEED_HORSE_WITH_DRUGS	Sie können das Pferd, das bereits lebt, nicht heilen.
+YOU_ALREADY_HAVE_THIS_HAIRSTLE	Sie haben bereits diese Frisur.
+YOU_ALREADY_POLYMORPHED	Sie sind bereits polymorph.
+YOU_CANT_POLYMORPH	 Du kannst nicht polymorphieren.
+CANT_POLYMORPH_HIGHER_LEVEL	 Du kannst das Tier nicht polymorphieren, das ein höheres Level hat als du.
+THIS_ITEM_CANT_BE_USED	 Dieses Item kann nicht benutzt werden.
+CANT_WEAR_THIS_SECOND_TIME	 Du kannst dies nicht zum zweiten Mal tragen.
+DS_DEACTIVATE_REQ	 Du musst deine Drachenseele deaktivieren, um dies zu tun.
+AFFECTS_ARE_NOT_LOADED_YET	 Effekte sind noch nicht geladen, bitte warte einen Moment.
+CANT_DO_THIS_IF_NOT_WEAR_BELT	 Du kannst dies nicht tun, wenn du keinen Gürtel trägst.
+CANT_DO_THIS_IF_NOT_UPGRADE_BELT	 Du kannst dies nicht tun, wenn du deinen Gürtel nicht aufgerüstet hast.
+INGAME_SHOP_MSG_01	 Du hast nicht genügend Drachenmünzen.
+INGAME_SHOP_MSG_02	 Du kannst dieses Item nicht mehr kaufen, du hast das wöchentliche Limit erreicht. Wöchentliches Limit: %s
+INGAME_SHOP_MSG_03	 Du kannst dieses Item nicht mehr kaufen, du hast das monatliche Limit erreicht. Monatliches Limit: %s
+INGAME_SHOP_MSG_04	 Dieses Item ist nicht zum Verkauf.
+INGAME_SHOP_MSG_05	 Du hast %s %sx für %s gekauft.
+INGAME_SHOP_MSG_06	 Du hast %s für %s gekauft.
+INGAME_SHOP_MSG_07	 Der Item-Shop wurde aktualisiert, der Inhalt kann sich geändert haben...
+CHEST_GIVE_STOP_DROP	 Das Öffnen der Truhe wurde gestoppt, dein Inventar ist voll.
+CHEST_OPEN_COUNT	 Gesamtzahl der geöffneten Truhen %s
+CMD_TALK_20	 Jemand hat sich in deinen Account eingeloggt. Du wirst getrennt.
+CANT_FEED_DEAD_HORSE	 Du kannst kein totes Pferd füttern.
+HORSE_FEED_TALK_01	 Du hast das Pferd gefüttert.
+DS_TALK_2	 Du kannst die ausgerüstete Drachenseele nicht extrahieren.
+DS_TALK_3	 Die Extraktion war erfolgreich.
+DS_TALK_4	 Falsches Upgrade-Material.
+DS_TALK_5	 Nicht genügend Yang für das Upgrade.
+DS_TALK_6	 Die Extraktion ist fehlgeschlagen, du hast %s erhalten.
+DS_TALK_7	 Du kannst damit nicht upgraden.
+DS_TALK_8	 Die Verfeinerung ist fehlgeschlagen.
+FISHING_TALK_01	 Angelplatz erhöht. (%s/%s)
+FISHING_TALK_02	 Du kannst deine Angel nicht weiter verbessern.
+FISHING_TALK_03	 Du kannst den Fischer besuchen, um deine Angel zu verbessern.
+FISHING_TALK_04	 Der Fisch ist im tiefen Wasser verloren gegangen.
+FISHING_TALK_05	 Der Fisch hat eine Muschel darin.
+FISHING_TALK_06	 Setze %s durch die Kreise ein.
+GUILD_TALK_1	<Gilde> Rang erhöht auf %s Punkte.
+SAFEBOX_PW_01	 Dein Safebox-Passwort wurde geändert.
+SAFEBOX_PW_02	 Falsches Passwort.
+CANNOT_CHANGE_CHANNEL	 Das Wechseln des Kanals ist fehlgeschlagen.
+USER_BLOCKED_WARP_REQUESTS	 Diese Person blockiert Warp-Anfragen.
+WINNER_ITEM_01	%sx %s erhalten, verschoben in dein Upgrade-Inventar.
+WINNER_ITEM_02	%sx %s erhalten, verschoben in dein Buch-Inventar.
+WINNER_ITEM_03	%sx %s erhalten, verschoben in dein Spirit Stone-Inventar.
+WINNER_ITEM_04	%sx %s erhalten, verschoben in dein allgemeines Inventar.
+WINNER_ITEM_05	%sx %s erhalten, verschoben in dein Inventar.
+WINNER_ITEM_06	%sx %s erhalten, verschoben in dein Drachenseelen-Inventar.
+YOU_CANNOT_DO_THIS_WHILE_ANOTHER_WINDOW_IS_OPEN	 Du musst alle Fenster schließen, um dies zu tun.
+ARENA_TALK_5	 123
+ARENA_TALK_1	 Das Duell ist vorbei, weil dein Krieger verschwunden ist.
+ARENA_TALK_2	 Es gibt keine Begrenzung für Tränke hier.
+ARENA_TALK_3	 Du kannst %s Tränke verwenden.
+ARENA_TALK_4	 Der Kampf beginnt in 10 Sekunden.
+ARENA_TALK_6	 Aufgrund eines Problems in der Arena ist das Duell vorbei.
+ARENA_TALK_7	 Das Duell ist vorbei, weil die Zeit abgelaufen ist.
+ARENA_TALK_8	 Innerhalb von 10 Sekunden wirst du in die Stadt teleportiert.
+ARENA_TALK_12	%s hat gewonnen.
+ARENA_TALK_13	 Die nächste Runde beginnt in 10 Sekunden.
+ARENA_TALK_14	 Die Krieger haben die Arena verlassen. Das Duell ist vorbei.
+SKILL_TALK_1	 Du kannst diese Fähigkeit nicht verbessern.
+SKILL_TALK_2	 Du kannst diese Fertigkeit nicht auf Großmeister-Niveau verbessern.
+SKILL_TALK_4	 Du bist bereits ein Meister in dieser Fertigkeit.
+SKILL_TALK_5	 Deine Fertigkeit ist nicht hoch genug für das Großmeister-Niveau.
+SKILL_TALK_6	 Du hast dein Training erfolgreich mit dem Buch abgeschlossen.
+SKILL_TALK_8	 Du kannst das nicht lesen, wenn du so unerfahren bist.
+SKILL_TALK_9	 Du kannst diese Fertigkeit nicht durch das Lesen eines Buches verbessern.
+SKILL_TALK_10	 Diese Fertigkeit hat nicht das erforderliche Level, um durch das Lesen von Büchern verbessert zu werden.
+SKILL_TALK_11	 Du bist mithilfe des Bannungspapiers von den bösen Geistern befreit.
+SKILL_TALK_12	 Du musst noch %s Bücher lesen, um diese Fertigkeit zu verbessern.
+SKILL_TALK_13	 Die Ausbildung ist fehlgeschlagen. Bitte versuche es später erneut.
+SKILL_TALK_14	 Die Teleportation ist fehlgeschlagen.
+SKILL_NOT_UPGRADE_ERROR	 Du kannst diese Fertigkeit nicht weiter verbessern.
+SKILL_UPGRADE_SUCCESS	 Dir ist die Verbesserung der Fertigkeit gelungen.
+SKILL_UPGRADE_FAIL	 Die Verbesserung der Fertigkeit ist fehlgeschlagen.
+PASSIVE_SKILL_TALK_1	 Du kannst deine Fertigkeiten nicht weiter mit diesem Buch verbessern.
+PASSIVE_SKILL_TALK_2	 Du hast die passive Fertigkeit erfolgreich verbessert.
+PASSIVE_SKILL_TALK_3	 Die Verbesserung der passiven Fertigkeit ist fehlgeschlagen.
+PASSIVE_SKILL_TALK_4	 Du musst noch %s Bücher erfolgreich lesen, um deine Fertigkeit zu steigern.
+PASSIVE_SKILL_TALK_5	 Anzahl der gelesenen Bücher: %s.
+CMD_TALK_1	 Dieser Befehl ist nicht verfügbar.
+CMD_TALK_2	 Bitte gib den vollen Namen des Befehls ein.
+CMD_TALK_10	 Du benötigst die Zustimmung des Partners.
+CMD_TALK_11	 Dies ist nur mit dem anderen Geschlecht möglich.
+CMD_TALK_12	 Du kannst dies nicht in der Arena verwenden.
+CMD_TALK_13	 Ich kann den Ausdruck nicht verwenden.
+CMD_TALK_15	 Nur Frauen können dies tun.
+CMD_TALK_16	 Person nicht gefunden.
+CMD_TALK_17	 Ich kann diese Fertigkeit nicht verwenden.
+CMD_TALK_18	 Du bist sehr nah dran.
+CMD_TALK_19	 Du bist sehr weit weg.
+STRING_D1	 Du benutzt bereits ein Reittier.
+STRING_D2	 Du musst dein Reittier zuerst beschwören.
+STRING_D3	 Hebe deine Reittier-Beschwörung auf.
+STRING_D4	 Du solltest zuerst dein Reittier absteigen.
+STRING_D5	 Während du auf deinem Reittier sitzt, kannst du es nicht füttern.
+STRING_D6	 Du hast %s an dein Reittier gegeben.
+STRING_D7	 Du benötigst %s, um dies zu tun.
+STRING_D8	 %s Sekunden verbleiben.
+STRING_D9	 Die Teleportation wurde abgebrochen.
+STRING_D10	 Kehre zum Anmeldebildschirm zurück, bitte warten.
+STRING_D11	 Das Spiel wird beendet, bitte warten.
+STRING_D12	 Charakterwechsel, bitte warten.
+STRING_D13	 Ich kann noch nicht wiederbeleben. (Versuche es in %s Sekunden erneut)
+STRING_D14	 Eine Wiederbelebung in der Stadt ist noch nicht möglich. (Versuche es in %s Sekunden erneut)
+STRING_D15	 Du kannst diese Aktion nicht ausführen, während du polymorphiert bist.
+STRING_D16	 Du kannst dies nicht in der Arena tun.
+STRING_D17	 Du kannst dies auf dieser Karte nicht tun.
+STRING_D18	 Diese Person ist bereits im Kampf.
+STRING_D19	 Du musst einer Gilde beitreten, um dies zu tun.
+STRING_D20	 Du kannst das Gildenfertigkeits-Level nicht ändern.
+STRING_D21	Das eingegebene Passwort ist falsch.
+STRING_D22	Das Lagerfenster ist bereits geöffnet.
+STRING_D23	Du kannst dies alle 10 Sekunden tun.
+STRING_D24	Etwas ist schiefgegangen, bitte versuche es später erneut!
+STRING_D25	Du kannst die Gruppe nicht verlassen, während du im Dungeon bist.
+STRING_D26	Du hast die Gruppe verlassen.
+STRING_D27	Die Gilde ist bereits im Kampf.
+STRING_D28	Niemand ist für den Gildenkampf autorisiert.
+STRING_D29	Gilde nicht gefunden.
+STRING_D30	Diese Gilde nimmt bereits an einem anderen Gildenkampf teil.
+STRING_D31	Deine Gilde nimmt bereits an einem anderen Kampf teil.
+STRING_D32	Das Gilden-Level ist zu niedrig, um am Kampf teilzunehmen.
+STRING_D33	Für den Gildenkampf sind mindestens %s Spieler erforderlich.
+STRING_D34	Du hast Krieg gegen diese Gilde erklärt.
+STRING_D35	Diese Gilde ist bereits für einen anderen Gildenkampf registriert.
+STRING_D36	Deine Gilde nimmt bereits an einem anderen Kampf teil.
+STRING_D37	Die Gilde hat nicht genügend Rangpunkte, um am Kampf teilzunehmen.
+STRING_D38	Die Gilde hat nicht genügend Mitglieder, um am Gildenkampf teilzunehmen.
+STRING_D39	Der Gildenführer ist nicht aktiv.
+STRING_D40	%s hat die Einladung abgelehnt.
+STRING_D41	Im Inventar ist nicht genügend Platz.
+STRING_D42	Du kannst die Einladung nicht annehmen, da du bereits zu einer Gruppe gehörst.
+STRING_D43	Du hast %s geworfen. (%s-%s)
+STRING_D44	Du kannst nicht auf den Lagerplatz zugreifen, während du im Dungeon oder im Kampf bist.
+STRING_D45	Du kannst dich nicht auf deinem Reittier befinden, während du auf dieser Karte bist.
+STRING_D46	Du kannst dies nicht tun, während du auf deinem Reittier sitzt.
+STRING_D47	Verwendung: /channel <neue Kanalnummer>.
+STRING_D48	Wähle bitte einen gültigen Kanal aus.
+STRING_D49	Du bist bereits mit Kanal %s verbunden.
+STRING_D50	Du bist in einer Gruppe. Du kannst in einer Gruppe keine Kanäle wechseln.
+STRING_D51	Du kannst die Kanäle nicht wechseln, während du im Dungeon bist.
+STRING_D52	Du musst etwas warten, um diese Aktion auszuführen.
+STRING_D53	Du kannst die Kanäle auf dieser Karte nicht wechseln.
+STRING_D54	Der Elixier wurde aktiviert und wird automatisch verwendet, wenn nötig.
+STRING_D55	Der Elixier wurde deaktiviert und wird nicht mehr automatisch verwendet. Du musst ihn erneut aktivieren.
+STRING_D56	Dieses System wird gewartet. Es wird bald aktiviert.
+STRING_D57	Deine Chat-Einstellungen wurden geändert.
+STRING_D59	Du hast nicht genügend Seelensteine.
+STRING_D60	Du hast nicht genügend Materialien.
+STRING_D61	Du kannst dies gerade nicht tun.
+STRING_D62	Du hast nicht genügend weise Seelensteine.
+STRING_D63	Du hast nicht genügend legendäre Seelensteine.
+STRING_D64	Dir fehlen nicht genug Seelensteine für passive Fertigkeiten.
+STRING_D65	Dir fehlen nicht genug weise Seelensteine für passive Fertigkeiten.
+STRING_D66	Dir fehlen nicht genug legendäre Seelensteine für passive Fertigkeiten.
+STRING_D67	Das Rouletterad dreht sich.
+STRING_D68	Du hast nicht genügend Items, du kannst das nicht tun.
+STRING_D69	Du hast nicht genügend Drachenmünzen, du kannst das nicht tun.
+STRING_D70	Du hast einen ungültigen Namen eingegeben.
+STRING_D71	Du musst absteigen, bevor du den Namen deines Reittiers änderst.
+STRING_D72	Du hast diesen Effekt bereits.
+STRING_D73	Reittiername erfolgreich geändert!
+STRING_D74	Tiername erfolgreich geändert!
+STRING_D75	Nicht genügend Platz in deinem speziellen Inventar.
+STRING_D76	Nicht genügend Platz in deinem Inventar.
+STRING_D77	Du hast nicht genügend Bücher zum Lesen.
+STRING_D78	Du kannst diese Fertigkeit nicht weiter verbessern.
+STRING_D79	Du kannst keine Bücher lesen, ohne eine Fertigkeitsgruppe zu haben.
+STRING_D80	Gaya-Shop wurde aktualisiert.
+STRING_D81	Du hast nicht genügend Materialien, um den Gaya-Shop zu aktualisieren.
+STRING_D82	Das Transformationsfenster muss geöffnet sein, um diese Aktion auszuführen.
+STRING_D83	Du hast nicht genügend Yang.
+STRING_D84	Die Operation ist fehlgeschlagen.
+STRING_D85	Wenn das Handelsfenster geöffnet ist, kannst du keinen weiteren Handel initiieren.
+STRING_D86	Der andere Spieler handelt bereits.
+STRING_D87	Der andere Spieler hat den Handel abgebrochen.
+STRING_D88	Du kannst nicht mit diesem Item handeln.
+STRING_D89	Du kannst nicht einkaufen, während das Quest-Fenster geöffnet ist.
+STRING_D90	Das Inventar des anderen Spielers hat nicht genügend Platz.
+STRING_D91	Handel mit %s erfolgreich abgeschlossen.
+STRING_D92	Du kannst das nicht tun, du bist zu weit weg.
+STRING_D93	Du kannst keine ausgerüsteten Items handeln.
+STRING_D94	Du kannst nicht für mehr als 1kkkkk verkaufen.
+STRING_D95	Die Belohnung wurde bereits gegeben, du bist zu spät.
+STRING_D96	Du hast %s Erfahrungspunkte gewonnen.
+STRING_D97	Ein geheimnisvolles Licht strahlt vom Baum aus.
+STRING_D98	Du hast %s Yang gewonnen.
+STRING_D99	%s lädt dich zu einem Kampf ein!
+STRING_D100	Der Kampf gegen %s hat begonnen.
+STRING_D101	Du hast die Verwandlung vollständig erlernt.
+STRING_D102	Die Gruppe wurde gelöscht.
+STRING_D103	Ziel nicht gefunden.
+STRING_D104	Dein Gruppenfreund ist nicht auf derselben Karte wie du.
+STRING_D105	Du kannst das Ziel nicht beschwören.
+STRING_D106	Du kannst Gruppenmitglieder nicht zu deiner aktuellen Position beschwören.
+STRING_D107	Du wirst aufgrund der Zusammenarbeit deiner Gruppe mehr Erfahrungspunkte erhalten.
+STRING_D108	Deine Abbau-Punkte haben das Limit erreicht. (%s).
+STRING_D109	Die Abbau-Punkte deines Spitzhackens haben das höchste Level erreicht.
+STRING_D110	Du kannst das Level deines Spitzhackens mithilfe des Holzfällers erhöhen.
+STRING_D111	Deine Abbau-Punkte sind gestiegen! (%s/%s)
+STRING_D112	Du kannst nicht abbauen, ohne eine Spitzhacke in der Hand zu haben.
+STRING_D113	Hier gibt es kein Erz.
+STRING_D114	%s wurde als Verkaufssteuer abgezogen.
+STRING_D115	Du hast %s aus deiner Freundesliste entfernt.
+STRING_D116	%s wurde als Freund hinzugefügt.
+STRING_D117	Chat wurde von einer Autorität gesperrt.
+STRING_D118	Chat wurde für %s Stunden %s Minuten %s Sekunden von einer Autorität gesperrt.
+STRING_D119	Chat wurde für %s Stunden %s Sekunden von einer Autorität gesperrt.
+STRING_D120	Chat wurde für %s Minuten %s Sekunden von einer Autorität gesperrt.
+STRING_D121	Chat wurde für %s Sekunden von einer Autorität gesperrt.
+STRING_D122	Du musst Level %s haben, um zu schreien.
+STRING_D123	Du bist kein Mitglied einer Gruppe.
+STRING_D124	Du konntest der Gilde nicht beitreten.
+STRING_D125	Du kannst eine Autoritätsperson nicht zu deiner Freundesliste hinzufügen.
+STRING_D126	%s ist nicht im Spiel.
+STRING_D127	Die Person hat die Freundschaftsanfrage abgelehnt.
+STRING_D128	Du hast nicht genügend Level.
+STRING_D129	%s hat die Teleport-Anfrage abgelehnt.
+STRING_D130	Du kannst dich %s Sekunden lang nach dem Handel nicht bewegen.
+STRING_D131	Du trägst zu viel Yang bei dir.
+STRING_D132	Der andere Spieler trägt zu viel Yang bei sich.
+STRING_D133	Dieses Item kann nicht ins Lager verschoben werden.
+STRING_D134	Du kannst keine Items in dein spezielles Inventar hinzufügen, da es voll ist.
+STRING_D135	Du kannst keine Items von deinem speziellen Inventar ins Lager verschieben.
+STRING_D136	Du musst dein Gürtel-Inventar leeren, bevor du den Gürtel entfernst.
+STRING_D137	Das kannst du nicht tun.
+STRING_D138	Du kannst nur Elixiere ins Gürtel-Inventar legen.
+STRING_D139	Die eingeladene Person ist nicht aktiv.
+STRING_D140	Der Server konnte die Gruppenanfrage nicht erfüllen.
+STRING_D141	Nur der Gruppenleiter kann das tun.
+STRING_D142	Das Ziel ist kein Mitglied deiner Gruppe.
+STRING_D143	Das kannst du nicht tun, während du im Dungeon bist.
+STRING_D144	Das kannst du nicht tun, weil ein Gruppenmitglied im Dungeon ist.
+STRING_D145	Du wurdest aus der Gruppe geworfen.
+STRING_D146	Du hast die Gruppe verlassen.
+STRING_D147	Du kannst keine Gruppenmitglieder werfen.
+STRING_D148	Nachdem eine Gilde aufgelöst wurde, kannst du für %s Tage keine neue Gilde gründen.
+STRING_D149	Nachdem du eine Gilde verlassen hast, kannst du für %s Tage keine neue Gilde gründen.
+STRING_D150	Du hast einen ungültigen Gildennamen eingegeben.
+STRING_D151	Die Gilde [%s] wurde erfolgreich gegründet.
+STRING_D152	Das Gründen der Gilde ist fehlgeschlagen. Bitte versuche es erneut.
+STRING_D153	Nur der Gruppenleiter kann Gruppenfertigkeiten verwenden.
+STRING_D154	Du bist kein Mitglied einer Gilde.
+STRING_D155	<Gilde> Ungültige Menge eingegeben.
+STRING_D156	Du hast nicht die Berechtigung, Benachrichtigungen zu schreiben.
+STRING_D157	Du hast nicht die Berechtigung, jemanden zum Meister zu befördern.
+STRING_D158	Dir fehlt die notwendige Berechtigung, einen General zu ernennen.
+STRING_D159	Du kannst nicht mehr Generäle ernennen.
+STRING_D160	Du kannst mit diesem Item keinen Handel betreiben.
+STRING_D161	Du kannst den Titel des Gildenführers nicht ändern.
+STRING_D162	Der bereitgestellte Warteschlangenname ist ungültig.
+STRING_D163	Du hast nicht die Berechtigung, Positionen neu zu organisieren.
+STRING_D164	Du kannst die Autorität des Gildenführers nicht ändern.
+STRING_D165	Du kannst diese Aktion nicht ausführen, während dein Erfahrungsgewinn deaktiviert ist.
+STRING_D166	Deine Gilde hat bereits das maximal mögliche Level erreicht.
+STRING_D167	%s Erfahrungspunkte wurden eingezahlt.
+STRING_D168	Es ist ein Fehler aufgetreten, während du versucht hast, Erfahrung an die Gilde zu spenden.
+STRING_D169	Es ist ein Fehler aufgetreten, während die Drachenkraft regeneriert wurde.
+STRING_D170	Du hast nicht die Erlaubnis, Benachrichtigungen zu schreiben.
+STRING_D171	Du hast nicht die Erlaubnis, jemanden zum Meister zu befördern.
+STRING_D172	Du hast nicht die Berechtigung, jemanden zum General zu ernennen.
+STRING_D173	Du kannst keine weiteren Generäle mehr ernennen.
+STRING_D174	Du kannst mit diesem Item keinen Handel betreiben.
+STRING_D175	Du kannst keinen Marktplatz erstellen, da du zu viel Yang hast.
+STRING_D176	Du darfst die Rangliste für %s Sekunden nicht aktualisieren.
+STRING_D177	Du hast erfolgreich den Premium-Battle-Pass für die aktuelle Saison aktiviert. Viel Spaß im Spiel!
+STRING_D178	Deine Fertigkeitsfarbe wurde erfolgreich geändert.
+STRING_D179	Um diese Aktion auszuführen, musst du die aktuelle Gruppe verlassen.
+STRING_D180	Du benötigst eine Fertigkeitsstufe von M1 oder höher, um diese Aktion auszuführen.
+STRING_D181	Bitte warte %s Sekunden, bevor du diese Aktion versuchst.
+STRING_D182	Die Auto-Beute-Funktion wurde aktiviert.
+STRING_D183	Die Auto-Beute-Funktion wurde deaktiviert.
+STRING_D184	Du besitzt nicht genügend %s Items, um diese Aktion abzuschließen.
+STRING_D185	Deine Zeit, um in den Dungeon zurückzukehren, ist abgelaufen.
+GUILD_TALK_5	<Gilde> Gilde %s hat Gilde %s in einer Gilden-Schlacht besiegt.
+GUILD_TALK_9	<Gilde> Gilde %s hat die Gilden-Schlacht abgelehnt.
+GUILD_TALK_11	<Gilde> Du kannst keine Gilde gründen.
+GUILD_TALK_12	<Gilde> Dieser Gildenname wird bereits verwendet.
+GUILD_TALK_13	<Gilde> Du hast einen ungültigen Gildennamen eingegeben.
+GUILD_TALK_15	<Gilde> Du kannst während einer Schlacht niemanden einladen.
+GUILD_TALK_16	<Gilde> Dieser Spieler ist bereits Mitglied einer anderen Gilde.
+GUILD_TALK_18	<Gilde> Die Gilde befindet sich bereits in einer Schlacht.
+GUILD_TALK_19	<Gilde> Die Mitgliedschaftsanträge sind derzeit eingeschränkt.
+GUILD_TALK_20	<Gilde> Du kannst keine Spieler aus anderen Königreichen einladen.
+GUILD_TALK_21	<Gilde> Du kannst niemanden in die Gilde einladen.
+GUILD_TALK_22	<Gilde> Der Spieler hat die Gildeneinladung abgelehnt.
+GUILD_TALK_23	<Gilde> Unzureichendes Yang.
+GUILD_TALK_24	<Gilde> Der Spieler ist offline.
+GUILD_TALK_25	<Gilde> Der Spieler ist derzeit im Kanal %s. (Dein Kanal: %s)
+GUILD_TALK_26	<Gilde> Du kannst diese Fertigkeit derzeit nicht verwenden.
+GUILD_TALK_27	<Gilde> Die Nachricht kann nicht gelöscht werden.
+OX_TALK_1	Korrekt.
+OX_TALK_10	Gesamtzahl der Fragen: %s
+MINING_SUCCESSFULL	Abbau erfolgreich!
+IT_WAS_SUCCESFULL	Aktion erfolgreich!
+HORSE_FEED_TALK_02	Du hast das Pferd gefüttert.
+DUNGEON_CHAT_1	Du hast noch 20 Minuten, um den Dungeon abzuschließen!
+DUNGEON_CHAT_2	Du hast noch 15 Minuten, um den Dungeon abzuschließen!
+DUNGEON_CHAT_3	Du hast noch 10 Minuten, um den Dungeon abzuschließen!
+DUNGEON_CHAT_4	Du hast noch 5 Minuten, um den Dungeon abzuschließen!
+DUNGEON_CHAT_5	Du hast noch 1 Minute, um den Dungeon abzuschließen, beeil dich!
+DUNGEON_CHAT_6	Du hast den Dungeon nicht abgeschlossen, du wirst in 5 Sekunden nach draußen teleportiert.
+DUNGEON_CHAT_7	Du musst noch %s weitere Monster besiegen.
+DUNGEON_CHAT_8	Du hast die Quest erfolgreich abgeschlossen, die nächste Quest startet in 5 Sekunden.
+DUNGEON_CHAT_9	Du musst noch %s weitere Metins zerstören.
+DUNGEON_CHAT_10	Du hast den Dungeon erfolgreich abgeschlossen, du wirst in 30 Sekunden nach draußen teleportiert.
+DUNGEON_CHAT_11	Du musst noch %s weitere Siegel freischalten.
+DUNGEON_CHAT_12	Töte alle Monster.
+DUNGEON_CHAT_13	Zerstöre alle Metins.
+DUNGEON_CHAT_14	Bekomme Siegelschlüssel von Kreaturen und benutze die Schlüssel.
+DUNGEON_CHAT_15	Boss-Wächter ist aufgetaucht, besiege ihn, um den Boss zu erreichen!
+DUNGEON_CHAT_16	Der Boss ist aufgetaucht, besiege den Boss, um den Dungeon abzuschließen!
+DUNGEON_CHAT_17	519
+DUNGEON_CHAT_18	520
+DUNGEON_CHAT_19	521
+DUNGEON_CHAT_20	522
+DUNGEON_CHAT_21	523
+DUNGEON_CHAT_22	524
+DUNGEON_CHAT_23	525
+DUNGEON_CHAT_24	526
+DUNGEON_CHAT_25	527
+DUNGEON_CHAT_26	528
+DUNGEON_CHAT_27	529
+DUNGEON_CHAT_28	530
+DUNGEON_CHAT_29	531
+DUNGEON_CHAT_30	532
+DUNGEON_CHAT_31	533
+DUNGEON_CHAT_32	534
+DUNGEON_CHAT_33	535
+DUNGEON_CHAT_34	536
+DUNGEON_CHAT_35	537
+DUNGEON_CHAT_36	538
+DUNGEON_CHAT_37	539
+DUNGEON_CHAT_38	540
+DUNGEON_CHAT_39	541
+DUNGEON_CHAT_40	542
+STRING_D186	Dies kann nur auf Rüstungen und Waffen verwendet werden, die Stufe 40 und darunter sind.
+STRING_D187	Die verbleibende Anzahl an Fischen, um deine Angelstufe zu erhöhen, beträgt %s!
+STRING_D188	Deine Angelstufe hat sich erhöht, du wirst das nächste Level erreichen, wenn du %s weitere Fische fängst.
+STRING_D189	Wenn dies ein Item ist, kannst du nur Items aufwerten, die Stufe 90 und darunter sind.
+STRING_D190	Mit diesem Item kannst du nur Items aufwerten, die Stufe 90 und höher sind.
+STRING_D191	Du benötigst eine aktive Abklingzeit, um das Zeit-Item zu verwenden.
+STRING_D192	Du kannst dich nur zu deinen Freunden in Dörfern teleportieren.
+STRING_D193	Dieses Event ist nicht aktiv.
+STRING_D194	Unzureichende Kartensätze!
+STRING_D195	Nicht genügend verfügbarer Platz!
+STRING_D196	Keine Karten mehr übrig!
+STRING_D197	Du kannst keine weiteren Karten auf den Tisch legen.
+STRING_D198	Du kannst die Verbesserung von zeitlich begrenzten Kostümen nicht ändern.
+STRING_D199	Item gekauft. Das gekaufte Item wurde in das Marktdepot übertragen, da im Inventar kein Platz mehr ist.
+STRING_D200	Du kannst das letzte Item nicht aus dem Geschäft entfernen. (Wenn du das letzte Item entfernen möchtest, musst du deinen Markt schließen)
+STRING_D201	Du kannst nicht so schnell suchen.
+STRING_D202	Bu string boþtur.
+STRING_D203	Bu string boþtur.
+STRING_D204	Bu string boþtur.
+STRING_D205	Bu string boþtur.
+STRING_D206	Bu string boþtur.
+STRING_D207	Bu string boþtur.
+STRING_D208	Bu string boþtur.
+STRING_D209	Bu string boþtur.
+STRING_D210	Bu string boþtur.
+STRING_D211	Bu string boþtur.
+STRING_D212	Bu string boþtur.
+STRING_D213	Bu string boþtur.
+STRING_D214	Bu string boþtur.
+STRING_D215	Bu string boþtur.
+STRING_D216	Bu string boþtur.
+STRING_D217	Bu string boþtur.
+STRING_D218	Bu string boþtur.
+STRING_D219	Bu string boþtur.
+STRING_D220	Bu string boþtur.
+STRING_D221	Bu string boþtur.
+STRING_D222	Bu string boþtur.
+STRING_D223	Bu string boþtur.
+STRING_D224	Bu string boþtur.
+STRING_D225	Bu string boþtur.

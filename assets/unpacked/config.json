@@ -1,0 +1,529 @@
+[
+	{
+		"dir": "data/root",
+		"file": "../../runtime/client/pack/root.pak",
+		"visual_dir": "",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6,
+		"cython_enabled": false,
+		"ignores": [
+			"*.exe",
+			"*.csv",
+			"*error_lookup.pyc",
+			"*test*.pyc"
+		],
+		"patches": {
+			"Py2Lib\\": ""
+		}
+	},
+	{
+		"dir": "data/effect",
+		"file": "../../runtime/client/pack/effect.pak",
+		"visual_dir": "d:/ymir work/effect/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/environment",
+		"file": "../../runtime/client/pack/environment.pak",
+		"visual_dir": "d:/ymir work/environment/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/icon",
+		"file": "../../runtime/client/pack/icon.pak",
+		"visual_dir": "icon/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/item",
+		"file": "../../runtime/client/pack/item.pak",
+		"visual_dir": "d:/ymir work/item/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/locale",
+		"file": "../../runtime/client/pack/locale.pak",
+		"visual_dir": "locale/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/map",
+		"file": "../../runtime/client/pack/map.pak",
+		"visual_dir": "",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/monster",
+		"file": "../../runtime/client/pack/monster.pak",
+		"visual_dir": "d:/ymir work/monster/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/monster2",
+		"file": "../../runtime/client/pack/monster2.pak",
+		"visual_dir": "d:/ymir work/monster2/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/npc",
+		"file": "../../runtime/client/pack/npc.pak",
+		"visual_dir": "d:/ymir work/npc/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/npc2",
+		"file": "../../runtime/client/pack/npc2.pak",
+		"visual_dir": "d:/ymir work/npc2/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/pc",
+		"file": "../../runtime/client/pack/pc.pak",
+		"visual_dir": "d:/ymir work/pc/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/pc2",
+		"file": "../../runtime/client/pack/pc2.pak",
+		"visual_dir": "d:/ymir work/pc2/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/terrain",
+		"file": "../../runtime/client/pack/terrain.pak",
+		"visual_dir": "d:/ymir work/terrainmaps/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/textureset",
+		"file": "../../runtime/client/pack/textureset.pak",
+		"visual_dir": "textureset/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/tree",
+		"file": "../../runtime/client/pack/tree.pak",
+		"visual_dir": "d:/ymir work/tree/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/zone",
+		"file": "../../runtime/client/pack/zone.pak",
+		"visual_dir": "d:/ymir work/zone/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/config",
+		"file": "../../runtime/client/pack/config.pak",
+		"visual_dir": "",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/patch",
+		"file": "../../runtime/client/pack/patch.pak",
+		"visual_dir": "",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/patch_effect",
+		"file": "../../runtime/client/pack/patch_effect.pak",
+		"visual_dir": "d:/ymir work/effect/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/patch_effect2",
+		"file": "../../runtime/client/pack/patch_effect2.pak",
+		"visual_dir": "d:/ymir work/effect/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/patch_effect3",
+		"file": "../../runtime/client/pack/patch_effect3.pak",
+		"visual_dir": "d:/ymir work/effect/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/patch_effect4",
+		"file": "../../runtime/client/pack/patch_effect4.pak",
+		"visual_dir": "d:/ymir work/effect/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/patch_effect5",
+		"file": "../../runtime/client/pack/patch_effect5.pak",
+		"visual_dir": "d:/ymir work/effect/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/patch_effect6",
+		"file": "../../runtime/client/pack/patch_effect6.pak",
+		"visual_dir": "d:/ymir work/effect/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/patch_item",
+		"file": "../../runtime/client/pack/patch_item.pak",
+		"visual_dir": "d:/ymir work/item/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/patch_item2",
+		"file": "../../runtime/client/pack/patch_item2.pak",
+		"visual_dir": "d:/ymir work/item/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/patch_npc",
+		"file": "../../runtime/client/pack/patch_npc.pak",
+		"visual_dir": "d:/ymir work/npc/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/patch_monster2",
+		"file": "../../runtime/client/pack/patch_monster2.pak",
+		"visual_dir": "d:/ymir work/monster2/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/patch_pc",
+		"file": "../../runtime/client/pack/patch_pc.pak",
+		"visual_dir": "d:/ymir work/pc/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/patch_pc_2",
+		"file": "../../runtime/client/pack/patch_pc_2.pak",
+		"visual_dir": "d:/ymir work/pc/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/patch_pc_3",
+		"file": "../../runtime/client/pack/patch_pc_3.pak",
+		"visual_dir": "d:/ymir work/pc/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/patch_pc_4",
+		"file": "../../runtime/client/pack/patch_pc_4.pak",
+		"visual_dir": "d:/ymir work/pc/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/patch_pc_5",
+		"file": "../../runtime/client/pack/patch_pc_5.pak",
+		"visual_dir": "d:/ymir work/pc/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/patch_pc_6",
+		"file": "../../runtime/client/pack/patch_pc_6.pak",
+		"visual_dir": "d:/ymir work/pc/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/patch_pc2",
+		"file": "../../runtime/client/pack/patch_pc2.pak",
+		"visual_dir": "d:/ymir work/pc2/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/patch_pc2_2",
+		"file": "../../runtime/client/pack/patch_pc2_2.pak",
+		"visual_dir": "d:/ymir work/pc2/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/patch_zone",
+		"file": "../../runtime/client/pack/patch_zone.pak",
+		"visual_dir": "d:/ymir work/zone/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/patch_zone2",
+		"file": "../../runtime/client/pack/patch_zone2.pak",
+		"visual_dir": "d:/ymir work/zone/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/patch_zone3",
+		"file": "../../runtime/client/pack/patch_zone3.pak",
+		"visual_dir": "d:/ymir work/zone/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/patch_zone4",
+		"file": "../../runtime/client/pack/patch_zone4.pak",
+		"visual_dir": "d:/ymir work/zone/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/patch2",
+		"file": "../../runtime/client/pack/patch2.pak",
+		"visual_dir": "d:/ymir work/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/patch3",
+		"file": "../../runtime/client/pack/patch3.pak",
+		"visual_dir": "d:/ymir work/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/patch4",
+		"file": "../../runtime/client/pack/patch4.pak",
+		"visual_dir": "d:/ymir work/",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/sound_etc",
+		"file": "../../runtime/client/pack/sound_etc.pak",
+		"visual_dir": "",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/sound_npc",
+		"file": "../../runtime/client/pack/sound_npc.pak",
+		"visual_dir": "",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	},
+	{
+		"dir": "data/sound_pc",
+		"file": "../../runtime/client/pack/sound_pc.pak",
+		"visual_dir": "",
+		"key": [
+			0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3,
+			0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2
+		],
+		"type": ["archive_flag_lz4", "archive_flag_aes256"],
+		"version": 6
+	}
+]

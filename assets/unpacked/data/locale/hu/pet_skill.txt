@@ -1,0 +1,15 @@
+1	Resistance (Warrior)	jijoong	PASSIVE	Resistance to Warrior attacks (passive)	0
+2	Resistance (Sura)	jijoong	PASSIVE	Resistance to Sura attacks (passive)	0
+3	Resistance (Ninja)	jijoong	PASSIVE	Resistance to Ninja attacks (passive)	0
+4	Resistance (Shaman)	jijoong	PASSIVE	Resistance to Shaman attacks (passive)	0
+5	Magic/melee	pacheon	PASSIVE	Attack value increased (passive)	0
+6	Human Hunter	insan	PASSIVE	Increases strength against humans effect  (passive)	0
+7	Drill	choehoenbimu	PASSIVE	Increased chance of piercing hits (passive)	0
+8	Critic	cheonryeong	PASSIVE	Increased chance of critical hits (passive)	0
+9	HP Regen	banya	PASSIVE	Increased hp regeneration (passive)	0
+10	Block	block	PASSIVE	Increased blocking chance. (passive)	0
+11	Monster Hunter	mob_bonus	PASSIVE	Increases strength against monsters (passive)	0
+12	Metinstone Hunter	metin	PASSIVE	Increases strength against metin stones (passive)	0
+13	Boss Hunter	patron	PASSIVE	Increases strength against bosses (passive)	0
+14	Hunter Defance	reflect_melee	PASSIVE	Increases defance against monsters (passive)	0
+15	Double Yang	gold_drop	PASSIVE	Increases rate for earning gold. (passive)	0

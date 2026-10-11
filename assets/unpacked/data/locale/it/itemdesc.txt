@@ -1,0 +1,592 @@
+11901	Smoking	Un abito che gli uomini indossano ai matrimoni.
+11902	Smoking	Un abito che gli uomini indossano ai matrimoni.
+11903	Vestito da Sposa	Vestito speciale indossato dalle donne ai matrimoni.
+11904	Vestito da Sposa	Vestito speciale indossato dalle donne ai matrimoni.
+22000	Pergamena di Ritorno alla Citta	Questa pergamena ti teletrasporta al villaggio.
+22010	Pergamena di Ritorno dalla Citta	Questa pergamena ti consente di tornare dalla citta o all'area in cui ti trovi.
+25040	Pergamena della Benedizione	Quando il potenziamento fallisce, viene eliminato il rischio che l'oggetto scompaia, e solo la sua qualita diminuisce di 1 livello.
+25041	Metallo Incantato	Una leggendaria palla di metallo che consente di potenziare un oggetto alla sua miglior forma. Inoltre, l'oggetto potenziato non puo essere distrutto o ridotto di valore.
+25042	Pietra del Rituale	Una pietra che brilla misticamente e offre la migliore possibilita di potenziamento dell'oggetto. L'oggetto potenziato non puo essere distrutto o peggiorato. Questa pietra funziona solo su pietre al di sopra del livello 105.
+25100	Pergamena della Pietra Mentale	Questa pergamena e usata per rimuovere le pietre mentali dalle armi e dall'armatura. Rimane un'impronta dopo la rimozione della pietra.
+27800	Impasto	L'esca per pesci piu economica.
+27801	Verme	Usato come esca per la pesca.
+27803	Perca	Un tipo di pesce che vive tipicamente nei laghi.
+27805	Grande Perca	Una grande perca cicciottella.
+27990	Frammento di Pietra	Le sue dimensioni ridotte la rendono facile da trasportare. Puo essere usato in vari modi.
+27992	Perla Bianca	Una perla bianca pura che piace alle signore.
+27993	Perla Blu	Perla di colore blu che piace alle signore.
+27994	Perla Cremisi	Una perla cremisi rossa che piace alle signore.
+30006	Dente di Orco	Un dente puzzolente di un orco.
+30015	Rimasto di Demone	Un oscuro rimasto di un demone.
+30047	Libro della Maledizione	Un libro speciale usato per maledire qualcuno.
+30050	Palla di Ghiaccio	Una sfera di ghiaccio che non si scioglie nel clima caldo.
+30220	Pietra dell'Anima di Jinunggy	Una pietra leggendaria che si crede contenga le anime degli aristocratici Jinung.
+30221	Pietra di Supporto del Tempio	Una pietra leggendaria che si crede contenga gli spiriti dei sostenitori del tempio.
+30222	Pietra dell'Anima di Sagyi	Una pietra leggendaria che si crede contenga le anime degli aristocratici Sagyi.
+30223	Pietra dell'Anima di Aurtumryu	Una pietra leggendaria che si crede contenga le anime degli aristocratici Aurtumryu.
+30224	Pietra dell'Anima di Gyimok	Una pietra leggendaria che si crede contenga le anime degli aristocratici Gyimok.
+30225	Pietra dell'Anima di Tugyi	Una pietra leggendaria che si crede contenga le anime degli aristocratici Tugyi.
+30226	Pietra dell'Anima di Tugyi	Una pietra leggendaria che si crede contenga le anime degli aristocratici del bosco.
+30227	Pietra dell'Anima di Tugyi	Una pietra leggendaria che si crede contenga le anime degli aristocratici capi.
+30228	Pietra dell'Anima di Tugyi	Una pietra leggendaria che si crede contenga le anime degli aristocratici kem.
+30229	Pietra dell'Anima di Tugyi	Una pietra leggendaria che si crede contenga le anime degli aristocratici della saggezza.
+30230	Pietra dell'Anima di Tugyi	Una pietra leggendaria che si crede contenga le anime degli aristocratici del fuoco.
+30231	Pietra dell'Anima di Tugyi	Una pietra leggendaria che si crede contenga le anime degli aristocratici oscuri.
+30251	Gemma dell'occhio d'osso	Un diamante impregnato di malevolenza.
+30252	Gemma della Saggezza	Un diamante con un bagliore lenitivo e generoso.
+31080	Essenza di Fuoco	Un elisir magico pieno di fuoco.
+31081	Materia Oscura	La manifestazione dell'oscurita e del male.
+39033	Pergamena di Correzione	Le pietre mentali posizionate con successo possono essere rimosse da un oggetto con questa pergamena.
+90000	Certificato di Trasformazione	L'equipaggiamento con equipaggiamento infuso in spalline o abiti d'aura puo essere rimosso dall'oggetto con questa carta.
+39067	Cassa di Parti	Questa cassa contiene una parte di colore casuale.
+39070	Parte Grigia	Parte di colore grigio che aggiunge il 6o o 7o bonus.
+39071	Parte Bianca	Parte di colore bianco che aggiunge il 6o o 7o bonus.
+39072	Parte Verde	Parte di colore verde che aggiunge il 6o o 7o bonus.
+39073	Parte Gialla	Parte di colore giallo che aggiunge il 6o o 7o bonus.
+39074	Parte Blu	Parte di colore blu che aggiunge il 6o o 7o bonus.
+39075	Parte Viola	Parte di colore viola che aggiunge il 6o o 7o bonus.
+39076	Parte Rossa	Parte di colore rosso che aggiunge il 6o o 7o bonus.
+39077	Parte Arcobaleno	Parte di colore blu scuro che aggiunge il 6o o 7o bonus.
+49001	Completo Aura Generale	E possibile trasferire il valore dei gioielli all'abito d'aura con un tasso di assorbimento specifico. E possibile migliorare l'abito Aura con rune di ghiaccio dell'Aura.
+49002	Completo Aura Semplice	E possibile trasferire il valore dei gioielli all'abito d'aura con un tasso di assorbimento specifico. E possibile migliorare l'abito Aura con rune di ghiaccio dell'Aura.
+49003	Completo Aura Nobile	E possibile trasferire il valore dei gioielli all'abito d'aura con un tasso di assorbimento specifico. E possibile migliorare l'abito Aura con rune di ghiaccio dell'Aura.
+49004	Completo Aura Lucente	E possibile trasferire il valore dei gioielli all'abito d'aura con un tasso di assorbimento specifico. E possibile migliorare l'abito Aura con rune di ghiaccio dell'Aura.
+49005	Completo Aura Vistoso	E possibile trasferire il valore dei gioielli all'abito d'aura con un tasso di assorbimento specifico. E possibile migliorare l'abito Aura con rune di ghiaccio dell'Aura.
+49006	Completo Aura Luminoso	E possibile trasferire il valore dei gioielli all'abito d'aura con un tasso di assorbimento specifico.
+49990	Rune di Ghiaccio dell'Aura	 Materiale necessario per migliorare l'abito Aura. Vai da Teovahdan per migliorare l'abito Aura.
+49991	Rune di Ghiaccio dell'Aura	 Materiale necessario per migliorare l'abito Aura. Vai da Teovahdan per migliorare l'abito Aura.
+50267	Cassa d'Oro Okey	Hai guadagnato questa ricompensa di alto livello per aver totalizzato 400 o piu punti nel gioco Okey.
+50268	Cassa d'Argento Okey	Hai guadagnato questa ricompensa di livello intermedio per aver totalizzato tra i 300 e i 399 punti nel gioco Okey.
+50269	Cassa di Bronzo Okey	Hai guadagnato questa ricompensa di basso livello per aver totalizzato 299 o meno punti nel gioco Okey.
+50928	Sacca d'Oro del Re	Hai guadagnato questa ricompensa di alto livello per aver totalizzato 550 o piu punti nel gioco Cattura il Re.
+50929	Sacca d'Argento del Re	Hai guadagnato questa ricompensa di livello intermedio per aver totalizzato tra i 400 e i 549 punti nel gioco Cattura il Re.
+50930	Sacca di Bronzo del Re	Hai guadagnato questa ricompensa di basso livello per aver totalizzato 399 o meno punti nel gioco Cattura il Re.
+83041	Cassa dell'Indovino d'Oro	Hai guadagnato questa ricompensa di alto livello per aver totalizzato 7 o piu punti nella competizione dell'Indovino.
+83042	Cassa dell'Indovino d'Argento	Hai guadagnato questa ricompensa di livello intermedio per aver totalizzato tra 4 e 6 punti nella competizione dell'Indovino.
+83043	Cassa dell'Indovino di Bronzo	Hai guadagnato questa ricompensa di basso livello per aver totalizzato 3 o meno punti nella competizione dell'Indovino.
+200100	Cassa dell'Evento delle Lettere	Hai guadagnato questa ricompensa rara per aver collezionato tutte le lettere nell'evento delle Lettere.
+50265	Cassa della Palla da Calcio	Hai guadagnato questa ricompensa rara per aver collezionato 20 palloni da calcio nell'evento della Palla da Calcio.
+50401	Manuale della Fendente Tripla	Usato per padroneggiare la skill della Fendente Tripla. Il libro scompare dopo la lettura.
+50402	Manuale della Rotazione della Spada	Usato per padroneggiare la skill della Rotazione della Spada. Il libro scompare dopo la lettura.
+50403	Manuale della Furia	Usato per padroneggiare la skill della Furia. Il libro scompare dopo la lettura.
+50404	Manuale della Lama d'Aria	Usato per padroneggiare la skill della Lama d'Aria. Il libro scompare dopo la lettura.
+50405	Manuale dello Schiocco	Usato per padroneggiare la skill dello Schiocco. Il libro scompare dopo la lettura.
+50406	Libro della Volonta di Vivere	Usato per completare con successo la quest della Volonta di Vivere. Il libro scompare dopo la lettura.
+50416	Manuale dello Schiocco dell'Anima	Usato per padroneggiare la skill dello Schiocco dell'Anima. Il libro scompare dopo la lettura.
+50417	Manuale dello Schiocco Pesante	Usato per padroneggiare la skill dello Schiocco Pesante. Il libro scompare dopo la lettura.
+50418	Manuale dello Schiocco Potente	Usato per padroneggiare la skill dello Schiocco Potente. Il libro scompare dopo la lettura.
+50419	Manuale del Corpo Forte	Usato per padroneggiare la skill del Corpo Forte. Il libro scompare dopo la lettura.
+50420	Manuale della Fendente della Spada	Usato per padroneggiare la skill della Fendente della Spada. Il libro scompare dopo la lettura.
+50421	Libro del Cerchio della Spada	Usato per completare con successo la quest del Cerchio della Spada. Il libro scompare dopo la lettura.
+50431	Manuale dell'Assassinio	Usato per padroneggiare la skill dell'Assassinio. Il libro scompare dopo la lettura.
+50432	Manuale dell'Attacco Rapido	Usato per padroneggiare la skill dell'Attacco Rapido. Il libro scompare dopo la lettura.
+50433	Manuale della Rotazione del Pugnale	Usato per padroneggiare la skill della Rotazione del Pugnale. Il libro scompare dopo la lettura.
+50434	Manuale del Camuffamento	Usato per padroneggiare la skill del Camuffamento. Il libro scompare dopo la lettura.
+50435	Manuale della Nube Velenosa	Usato per padroneggiare la skill della Nube Velenosa. Il libro scompare dopo la lettura.
+50436	Libro del Veleno Silenzioso	Usato per completare con successo la quest del Veleno Silenzioso. Il libro scompare dopo la lettura.
+50446	Manuale del Colpo Ripetuto	Usato per padroneggiare la skill del Colpo Ripetuto. Il libro scompare dopo la lettura.
+50447	Manuale della Pioggia di Frecce	Usato per padroneggiare la skill della Pioggia di Frecce. Il libro scompare dopo la lettura.
+50448	Manuale della Freccia Infuocata	Usato per padroneggiare la skill della Freccia Infuocata. Il libro scompare dopo la lettura.
+50449	Manuale del Passo Leggero	Usato per padroneggiare la skill del Passo Leggero. Il libro scompare dopo la lettura.
+50450	Manuale della Freccia Avvelenata	Usato per padroneggiare la skill della Freccia Avvelenata. Il libro scompare dopo la lettura.
+50451	Libro dello Sciocco Scintillante	Usato per completare con successo la quest dello Sciocco Scintillante. Il libro scompare dopo la lettura.
+50461	Manuale dello Schiocco delle Dita	Usato per padroneggiare la skill dello Schiocco delle Dita. Il libro scompare dopo la lettura.
+50462	Manuale della Trasformazione del Drago	Usato per padroneggiare la skill della Trasformazione del Drago. Il libro scompare dopo la lettura.
+50463	Manuale della Precisione Magica	Usato per padroneggiare la skill della Precisione Magica. Il libro scompare dopo la lettura.
+50464	Manuale del Terrore	Usato per padroneggiare la skill del Terrore. Il libro scompare dopo la lettura.
+50465	Manuale dell'Armatura Magica	Usato per padroneggiare la skill dell'Armatura Magica. Il libro scompare dopo la lettura.
+50466	Manuale della Dissoluzione Magica	Usato per padroneggiare la skill della Dissoluzione Magica. Il libro scompare dopo la lettura.
+50476	Manuale dello Schiocco Oscuro	Usato per padroneggiare la skill dello Schiocco Oscuro. Il libro scompare dopo la lettura.
+50477	Manuale dello Schiocco Infuocato	Usato per padroneggiare la skill dello Schiocco Infuocato. Il libro scompare dopo la lettura.
+50478	Manuale dello Spettro Infuocato	Usato per padroneggiare la skill dello Spettro Infuocato. Il libro scompare dopo la lettura.
+50479	Manuale della Protezione Oscura	Usato per padroneggiare la skill della Protezione Oscura. Il libro scompare dopo la lettura.
+50480	Manuale dello Schiocco Fantasma	Usato per padroneggiare la skill dello Schiocco Fantasma. Il libro scompare dopo la lettura.
+50481	Manuale della Sfera Oscura	Usato per padroneggiare la skill della Sfera Oscura. Il libro scompare dopo la lettura.
+50491	Manuale del Talismano Volante	Usato per padroneggiare la skill del Talismano Volante. Il libro scompare dopo la lettura.
+50492	Libro dello Schiocco del Drago	Questo libro consente di padroneggiare la skill dello Schiocco del Drago. Il libro scompare dopo la lettura.
+50493	Manuale del Ruggito del Drago	Usato per padroneggiare la skill del Ruggito del Drago. Il libro scompare dopo la lettura.
+50494	Manuale della Benedizione	Usato per padroneggiare la skill della Benedizione. Il libro scompare dopo la lettura.
+50495	Manuale del Riflesso	Usato per padroneggiare la skill del Riflesso. Il libro scompare dopo la lettura.
+50496	Libro dell'Aiuto del Drago	Usato per padroneggiare la skill dell'Aiuto del Drago. Il libro scompare dopo la lettura.
+50506	Manuale del Lancio del Fulmine	Usato per padroneggiare la skill del Lancio del Fulmine. Il libro scompare dopo la lettura.
+50507	Manuale dell'Evocazione del Fulmine	Usato per padroneggiare la skill dell'Evocazione del Fulmine. Il libro scompare dopo la lettura.
+50508	Manuale della Zampa del Fulmine	Usato per padroneggiare la skill della Zampa del Fulmine. Il libro scompare dopo la lettura.
+50509	Manuale della Guarigione	Usato per padroneggiare la skill della Guarigione. Il libro scompare dopo la lettura.
+50510	Manuale della Velocita	Usato per padroneggiare la skill della Velocita. Il libro scompare dopo la lettura.
+50511	Manuale dell'Attacco Potente	Usato per padroneggiare la skill dell'Attacco Potente. Il libro scompare dopo la lettura.
+50513	Pietra dell'Anima	Una pietra leggendaria che potenzia le skill del Grandmaster. Scompare dopo l'uso.
+
+18900	Tronco d'Albero Fossile	Un frammento di meteorite che conferisce potere aggiuntivo all'utente. Puo essere aggiunto alle cinture.
+918900	Tronco d'Albero Fossile	Un frammento di meteorite che conferisce potere aggiuntivo all'utente. Puo essere aggiunto alle cinture.
+50621	Diamante	Usato per sbloccare gli slot delle gemme su accessori preziosi.
+50623	Tronco d'Albero Fossile	Un legno prezioso che aggiunge durata agli accessori. Puo essere aggiunto agli accessori in legno.
+50624	Rame	Usato talvolta nella creazione di bronzo e monete. Puo essere aggiunto agli accessori in rame.
+50625	Argento	Un nobile metallo lucente usato nella creazione di gioielli. Puo essere aggiunto agli accessori in argento.
+50626	Oro	Usato nella creazione di gioielli. Puo essere aggiunto agli accessori in oro.
+50627	Pietra di Giada	Un prezioso minerale usato da oltre 5000 anni. Puo essere aggiunto agli accessori con Pietra di Giada.
+50628	Ebano	Il piu lucente e resistente di tutti i legni. Puo essere aggiunto agli accessori in ebano.
+50629	Perla	Brillando elegantemente, il gioiello dei mari. Puo essere aggiunto agli accessori con perla.
+50630	Oro Bianco	Oro resistente imbiancato. Puo essere aggiunto agli accessori in oro bianco.
+50631	Cristallo	Cristallo di quarzo di diversi colori. Puo essere aggiunto agli accessori in cristallo.
+50632	Ametista	Quarzo viola. Puo essere aggiunto agli accessori con ametista.
+50633	Lacrima del Cielo	Goccia cristallizzata caduta dal cielo. Puo essere aggiunto agli accessori con Lacrima del Cielo.
+50634	Cristallo dell'Anima	Questo cristallo e puro come un'anima. Puo essere aggiunto agli accessori con Cristallo dell'Anima.
+50635	Rubino	Gemma rossa intagliata con cura. Puo essere aggiunto agli accessori con rubino.
+50636	Granato	Gemma arancione intagliata con cura. Puo essere aggiunto agli accessori con granato.
+50637	Smeraldo	Gemma verde intagliata con cura. Puo essere aggiunto agli accessori con smeraldo.
+50638	Zaffiro	Gemma blu intagliata con cura. Puo essere aggiunto agli accessori con zaffiro.
+50639	Tormalina	Questa gemma, abbagliante di colori arcobaleno, incanta gli occhi. Puo essere aggiunto agli accessori con tormalina.
+50640	Drago Nero	Contiene l'energia di un incantesimo oscuro che oscura gli occhi. Puo essere aggiunto agli accessori con Drago Nero.
+50641	Cianite	Gemma viola intagliata con cura. Puo essere aggiunto agli accessori con cianite.
+950623	Tronco di Albero Fossile	Un legno prezioso permanente che aumenta la durabilita degli accessori. Puo essere aggiunto agli accessori di legno.
+950624	Rame	A volte usato nella creazione permanente di bronzo e monete. Puo essere aggiunto agli accessori di rame.
+950625	Argento	Un nobile metallo permanente e lucente usato nella creazione di gioielli. Puo essere aggiunto agli accessori d'argento.
+950626	Oro	Usato nella creazione permanente di gioielli. Puo essere aggiunto agli accessori d'oro.
+950627	Pietra di Giada	Un minerale prezioso permanente usato da oltre 5000 anni. Puo essere aggiunto agli accessori con pietra di giada.
+950628	Ebano	Il legno piu lucente e resistente di tutti, in modo permanente. Puo essere aggiunto agli accessori in ebano.
+950629	Perla	Brillante ed elegante, il gioiello dei mari, in modo permanente. Puo essere aggiunto agli accessori di perla.
+950630	Oro Bianco	Un gioiello di oro bianco resistente, in modo permanente. Puo essere aggiunto agli accessori d'oro bianco.
+950631	Cristallo	Quarzi di cristallo permanenti di diversi colori. Puo essere aggiunto agli accessori di cristallo.
+950632	Ametista	Una ametista permanente di colore viola. Puo essere aggiunta agli accessori di ametista.
+950633	Lacrima del Cielo	Una goccia cristallizzata caduta dal cielo, in modo permanente. Puo essere aggiunta agli accessori con lacrima del cielo.
+950634	Cristallo dell'Anima	Questo cristallo e puro come un'anima permanente. Puo essere aggiunto agli accessori con cristallo dell'anima.
+950635	Rubino	Gemme rossa permanentemente intagliata con cura. Puo essere aggiunto agli accessori di rubino.
+950636	Granato	Gemme arancione permanentemente intagliata con cura. Puo essere aggiunto agli accessori di granato.
+950637	Smeraldo	Gemme verde permanentemente intagliata con cura. Puo essere aggiunto agli accessori di smeraldo.
+950638	Zaffiro	Gemme blu permanentemente intagliata con cura. Puo essere aggiunto agli accessori di zaffiro.
+950639	Tormalina	Questa gemma permanente, abbagliante di colori dell'arcobaleno, incanta gli occhi. Puo essere aggiunto agli accessori di tormalina.
+950640	Drago Nero	Contiene l'energia di un incantesimo oscuro che oscura gli occhi, in modo permanente. Puo essere aggiunto agli accessori del Drago Nero.
+950641	Cianite	Gemma viola permanentemente intagliata con cura. Puo essere aggiunta agli accessori di cianite.
+51511	Diamante Cor Draconis	Un Cor Draconis Bianco. Contiene un diamante del drago casuale.
+51512	Rubino Cor Draconis	Un Cor Draconis Rosso. Contiene un rubino del drago casuale.
+51513	Giada Cor Draconis	Un Cor Draconis Verde. Contiene una giada del drago casuale.
+51514	Zaffiro Cor Draconis	Un Cor Draconis Blu. Contiene uno zaffiro del drago casuale.
+51515	Granato Cor Draconis	Un Cor Draconis Arancione. Contiene un granato del drago casuale.
+51516	Atrum Cor Draconis	Un Cor Draconis Nero. Contiene un onice del drago casuale.
+
+55003	Manuale Pet Giovane	Con questo libro puoi far salire di livello il tuo animale domestico al livello successivo (Selvaggio).
+55004	Manuale Pet Selvaggio	Con questo libro puoi far salire di livello il tuo animale domestico al livello successivo (Coraggioso).
+55005	Manuale Pet Coraggioso	Con questo libro puoi far salire di livello il tuo animale domestico al livello successivo (Eroe).
+55401	Uovo di Scimmia	Se vuoi far schiudere il tuo animale domestico dall'uovo, fai clic destro sull'uovo.
+55701	Piccola Scimmia	Chiama il tuo animale domestico con il pulsante destro del mouse e poi visualizza l'interfaccia utente dell'animale domestico con il tasto P.
+
+70005	Anello dell'Esperienza (1 ora)	Fornisce il 50% in piu di esperienza per 60 minuti. Puo essere utilizzato al di sotto del livello 90.
+970005	Anello dell'Esperienza (1 ora)	Fornisce il 50% in piu di esperienza per 60 minuti. Puo essere utilizzato al livello 90 e successivo.
+
+70038	Mantello del Coraggio	I veri guerrieri attirano l'attenzione di tutte le creature con i loro mantelli colorati dimostrando cosi il loro eroismo.
+70039	Manuale dell'Armaiolo	Un libro contenente le anime degli antichi armaioli. Quando usato, aumenta la probabilita di successo dell'aggiornamento. Puo essere usato su oggetti di livello 90 e superiore.
+
+70043	Guanti del Ladro	Raddoppia la probabilita di ottenere oggetti. Puo essere utilizzato al di sotto del livello 90.
+970043	Guanti del Ladro	Raddoppia la probabilita di ottenere oggetti. Puo essere utilizzato al livello 90 e successivo.
+
+70102	Fagiolo Zen	Riduce i ranking negativi.
+
+71001	Carta dell'Esorcismo	Se l'apprendimento fallisce, ti protegge dalla maledizione degli spiriti maligni.
+71002	Carta del Reset dello Stato	Reimposta i punti di status, consentendoti di sviluppare il tuo personaggio in una direzione diversa.
+71054	Marchio dei Regni	Permette a un personaggio di fuggire in un altro regno, cambiando regno.
+
+71032	Pergamena del Drago	Quando l'aggiornamento fallisce, la qualita di un oggetto diminuisce di un livello. Aumenta anche la probabilita di miglioramento del 10%. Puo essere usato su oggetti di livello inferiore al 90.
+70058	Anello di Teletrasporto	Questo anello ti teletrasporta in una posizione desiderata.
+
+72726	Essenza del Sole	Quando usata, scompare dalla sezione degli effetti nell'angolo in alto a sinistra, e permanente e illimitata. Cliccando sull'effetto lo attiva o lo disattiva.
+72730	Essenza della Luna	Quando usata, scompare dalla sezione degli effetti nell'angolo in alto a sinistra, e permanente e illimitata. Cliccando sull'effetto lo attiva o lo disattiva.
+71107	Frutto della Vita	Aumenta i punti del ranking di 2.000.
+30629	Cronometro del Biologo	Resetta il tempo di attesa per gli oggetti di ricerca raccolti, rendendoli piu facili da consegnare.
+71035	Essenza del Ricercatore	Aumenta la qualita degli oggetti di ricerca raccolti, rendendoli piu facili da accettare.
+
+71083	Libro d'Arte della Pietra	Rimuove le pietre rotte, creando spazi per pietre vuote.
+71084	Oggetto d'Incantesimo	Rimuove e sostituisce i bonus da un oggetto. Valido solo per i bonus da 1 a 5.
+71085	Carta di Potenziamento	Aggiunge nuovi bonus ai tuoi oggetti posseduti.
+
+71094	Consiglio dell'Eremita	Raddoppia la possibilita di migliorare le tue abilita quando leggi il prossimo libro (o pietra dell'anima).
+
+200221	Scaglia di Drago	Tra i materiali piu intensi ci sono le scaglie di drago.
+200222	Zampa di Drago	Vedere questa zampa inquietante riporta alla mente ricordi...
+71151	Incantesimo Verde	Rimuove e sostituisce i bonus da un oggetto. Applicabile solo per armature e armi di livello 40 e inferiore.
+71153	Essenza della Saggezza	Con questo elisir, guadagnerai il 100% in piu di esperienza durante una sessione di gioco di un'ora.
+71154	Essenza dell'Ascensione	Con questo elisir, guadagnerai il 100% in piu di esperienza durante una sessione di gioco di un'ora. Il commercio non e disponibile.
+
+72346	Benedizione	Rimuove e sostituisce i bonus da un oggetto. Valido per i bonus 6 e 7 con bassa probabilita.
+72351	Piccola Benedizione	Con una bassa probabilita, cambia il 6° o 7° bonus.
+
+79505	Carta da Collezione Rummy	Raccogli 24 carte da collezione rummy, quindi fai clic destro per ottenere un set di carte rummy.
+79506	Set di Carte Rummy	Con questo set di carte puoi iniziare una partita a rummy. Il set di carte verra automaticamente rimosso dal tuo inventario dopo l'inizio della partita.
+79512	Carta dei Tarocchi	Raccogli 24 carte dei tarocchi, quindi fai clic destro per ottenere un set di carte dei tarocchi.
+79513	Set di Carte dei Tarocchi	Con questo set di carte puoi iniziare una competizione di cartomanzia. Il set di carte verra automaticamente rimosso dal tuo inventario dopo l'inizio della partita.
+79603	Carta del Re	Raccogli 25 carte del re, quindi fai clic destro per ottenere un mazzo del re.
+79604	Mazzo del Re	Con questo mazzo di carte puoi iniziare una partita a king. Il mazzo di carte verra automaticamente rimosso dal tuo inventario dopo l'inizio della partita.
+
+80008	Frammento d'Oro	Oro non lavorato. Puo essere venduto a un alto prezzo nel negozio.
+80014	Coupon MD (100)	Un coupon del valore di 100 Monete del Drago. Questo oggetto puo essere scambiato.
+80015	Coupon MD (500)	Un coupon del valore di 500 Monete del Drago. Questo oggetto puo essere scambiato.
+80016	Coupon MD (1000)	Un coupon del valore di 1000 Monete del Drago. Questo oggetto puo essere scambiato.
+80017	Coupon MD (50)	Un coupon del valore di 50 Monete del Drago. Questo oggetto puo essere scambiato.
+80019	Tessuto Prezioso	Questo materiale e utilizzato per produrre cinghie per spallacci.
+85001	Cintura del Giudice (Semplice)	Questa cintura assorbe l'1% dei bonus dell'arma o dell'armatura che usi.
+85002	Cintura del Giudice (Buona)	Questa cintura assorbe il 5% dei bonus dell'arma o dell'armatura che usi.
+85003	Cintura del Giudice (Nobile)	Questa cintura assorbe il 10% dei bonus dell'arma o dell'armatura che usi.
+85004	Cintura del Giudice (Personalizzata)	Questa cintura assorbe l'11-25% dei bonus dell'arma o dell'armatura che usi.
+85005	Cintura del Maestro (Semplice)	Questa cintura assorbe l'1% dei bonus dell'arma o dell'armatura che usi.
+85006	Cintura del Maestro (Buona)	Questa cintura assorbe il 5% dei bonus dell'arma o dell'armatura che usi.
+85007	Cintura del Maestro (Nobile)	Questa cintura assorbe il 10% dei bonus dell'arma o dell'armatura che usi.
+85008	Cintura del Maestro (Personalizzata)	Questa cintura assorbe l'11-25% dei bonus dell'arma o dell'armatura che usi.
+85011	Cintura del Signore (Semplice)	Questa cintura assorbe l'1% dei bonus dell'arma o dell'armatura che usi.
+85012	Cintura del Signore (Buona)	Questa cintura assorbe il 5% dei bonus dell'arma o dell'armatura che usi.
+85013	Cintura del Signore (Nobile)	Questa cintura assorbe il 10% dei bonus dell'arma o dell'armatura che usi.
+85014	Cintura del Signore (Personalizzata)	Questa cintura assorbe l'11-25% dei bonus dell'arma o dell'armatura che usi.
+85015	Cintura del Re (Semplice)	Questa cintura assorbe l'1% dei bonus dell'arma o dell'armatura che usi.
+85016	Cintura del Re (Buona)	Questa cintura assorbe il 5% dei bonus dell'arma o dell'armatura che usi.
+85017	Cintura del Re (Nobile)	Questa cintura assorbe il 10% dei bonus dell'arma o dell'armatura che usi.
+85018	Cintura del Re (Personalizzata)	Questa cintura assorbe l'11-25% dei bonus dell'arma o dell'armatura che usi.
+85021	Cintura dell'Anniversario (Semplice)	Questa cintura assorbe l'1% dei bonus dell'arma o dell'armatura che usi.
+85022	Cintura dell'Anniversario (Buona)	Questa cintura assorbe il 5% dei bonus dell'arma o dell'armatura che usi.
+85023	Cintura dell'Anniversario (Nobile)	Questa cintura assorbe il 10% dei bonus dell'arma o dell'armatura che usi.
+85024	Cintura dell'Anniversario (Personalizzata)	Questa cintura assorbe l'11-25% dei bonus dell'arma o dell'armatura che usi.
+86001	Benda di Zi (Semplice)	Questa benda assorbe l'1% dei bonus dell'arma o dell'armatura che usi.
+86002	Benda di Zi (Buona)	Questa benda assorbe il 5% dei bonus dell'arma o dell'armatura che usi.
+86003	Benda di Zi (Nobile)	Questa benda assorbe il 10% dei bonus dell'arma o dell'armatura che usi.
+86004	Benda di Zi (Personalizzata)	Questa benda assorbe l'11-25% dei bonus dell'arma o dell'armatura che usi.
+86005	Benda di Chou (Semplice)	Questa benda assorbe l'1% dei bonus dell'arma o dell'armatura che usi.
+86006	Benda di Chou (Buona)	Questa benda assorbe il 5% dei bonus dell'arma o dell'armatura che usi.
+86007	Benda di Chou (Nobile)	Questa benda assorbe il 10% dei bonus dell'arma o dell'armatura che usi.
+86008	Benda di Chou (Personalizzata)	Questa benda assorbe l'11-25% dei bonus dell'arma o dell'armatura che usi.
+86011	Benda di Yin (Semplice)	Questa benda assorbe l'1% dei bonus dell'arma o dell'armatura che usi.
+86012	Benda di Yin (Buona)	Questa benda assorbe il 5% dei bonus dell'arma o dell'armatura che usi.
+86013	Benda di Yin (Nobile)	Questa benda assorbe il 10% dei bonus dell'arma o dell'armatura che usi.
+86014	Benda di Yin (Personalizzata)	Questa benda assorbe l'11-25% dei bonus dell'arma o dell'armatura che usi.
+86015	Benda di Mao (Semplice)	Questa benda assorbe l'1% dei bonus dell'arma o dell'armatura che usi.
+86016	Benda di Mao (Buona)	Questa benda assorbe il 5% dei bonus dell'arma o dell'armatura che usi.
+86017	Benda di Mao (Nobile)	Questa benda assorbe il 10% dei bonus dell'arma o dell'armatura che usi.
+86018	Benda di Mao (Personalizzata)	Questa benda assorbe l'11-25% dei bonus dell'arma o dell'armatura che usi.
+86021	Benda di Chen (Semplice)	Questa benda assorbe l'1% dei bonus dell'arma o dell'armatura che usi.
+86022	Benda di Chen (Buona)	Questa benda assorbe il 5% dei bonus dell'arma o dell'armatura che usi.
+86023	Benda di Chen (Nobile)	Questa benda assorbe il 10% dei bonus dell'arma o dell'armatura che usi.
+86024	Benda di Chen (Personalizzata)	Questa benda assorbe l'11-25% dei bonus dell'arma o dell'armatura che usi.
+86025	Benda di Si (Semplice)	Questa benda assorbe l'1% dei bonus dell'arma o dell'armatura che usi.
+86026	Benda di Si (Buona)	Questa benda assorbe il 5% dei bonus dell'arma o dell'armatura che usi.
+86027	Benda di Si (Nobile)	Questa benda assorbe il 10% dei bonus dell'arma o dell'armatura che usi.
+86028	Benda di Si (Personalizzata)	Questa benda assorbe l'11-25% dei bonus dell'arma o dell'armatura che usi.
+86031	Benda di Wu (Semplice)	Questa benda assorbe l'1% dei bonus dell'arma o dell'armatura che usi.
+86032	Benda di Wu (Buona)	Questa benda assorbe il 5% dei bonus dell'arma o dell'armatura che usi.
+86033	Benda di Wu (Nobile)	Questa benda assorbe il 10% dei bonus dell'arma o dell'armatura che usi.
+86034	Benda di Wu (Personalizzata)	Questa benda assorbe l'11-25% dei bonus dell'arma o dell'armatura che usi.
+86035	Benda di Wei (Semplice)	Questa benda assorbe l'1% dei bonus dell'arma o dell'armatura che usi.
+86036	Benda di Wei (Buona)	Questa benda assorbe il 5% dei bonus dell'arma o dell'armatura che usi.
+86037	Benda di Wei (Nobile)	Questa benda assorbe il 10% dei bonus dell'arma o dell'armatura che usi.
+86038	Benda di Wei (Personalizzata)	Questa benda assorbe l'11-25% dei bonus dell'arma o dell'armatura che usi.
+86041	Benda di Shen (Semplice)	Questa benda assorbe l'1% dei bonus dell'arma o dell'armatura che usi.
+86042	Benda di Shen (Buona)	Questa benda assorbe il 5% dei bonus dell'arma o dell'armatura che usi.
+86043	Benda di Shen (Nobile)	Questa benda assorbe il 10% dei bonus dell'arma o dell'armatura che usi.
+86044	Benda di Shen (Personalizzata)	Questa benda assorbe l'11-25% dei bonus dell'arma o dell'armatura che usi.
+86045	Benda di Yu (Semplice)	Questa benda assorbe l'1% dei bonus dell'arma o dell'armatura che usi.
+86046	Benda di Yu (Buona)	Questa benda assorbe il 5% dei bonus dell'arma o dell'armatura che usi.
+86047	Benda di Yu (Nobile)	Questa benda assorbe il 10% dei bonus dell'arma o dell'armatura che usi.
+86048	Benda di Yu (Personalizzata)	Questa benda assorbe l'11-25% dei bonus dell'arma o dell'armatura che usi.
+86051	Benda di Xu (Semplice)	Questa benda assorbe l'1% dei bonus dell'arma o dell'armatura che usi.
+86052	Benda di Xu (Buona)	Questa benda assorbe il 5% dei bonus dell'arma o dell'armatura che usi.
+86053	Benda di Xu (Nobile)	Questa benda assorbe il 10% dei bonus dell'arma o dell'armatura che usi.
+86054	Benda di Xu (Personalizzata)	Questa benda assorbe l'11-25% dei bonus dell'arma o dell'armatura che usi.
+86055	Benda di Hai (Semplice)	Questa benda assorbe l'1% dei bonus dell'arma o dell'armatura che usi.
+86056	Benda di Hai (Buona)	Questa benda assorbe il 5% dei bonus dell'arma o dell'armatura che usi.
+86057	Benda di Hai (Nobile)	Questa benda assorbe il 10% dei bonus dell'arma o dell'armatura che usi.
+86058	Benda di Hai (Personalizzata)	Questa benda assorbe l'11-25% dei bonus dell'arma o dell'armatura che usi.
+86061	Benda di Cuore (Semplice)	Questa benda assorbe l'1% dei bonus dell'arma o dell'armatura che usi.
+86062	Benda di Cuore (Buona)	Questa benda assorbe il 5% dei bonus dell'arma o dell'armatura che usi.
+86063	Benda di Cuore (Nobile)	Questa benda assorbe il 10% dei bonus dell'arma o dell'armatura che usi.
+86064	Benda di Cuore (Personalizzata)	Questa benda assorbe l'11-25% dei bonus dell'arma o dell'armatura che usi.
+
+100002	Süre Özütü (B)	Ricarica la durata di una Pietra del Drago.	Durata: 6 ore
+
+100300	Fagiolo del Drago Verde	Il fagiolo magico aumenta il livello della tua Pietra del Drago. Il processo di potenziamento potrebbe fallire.
+100400	Fagiolo del Drago Blu	La probabilita di un miglioramento riuscito della Pietra del Drago di un livello e superiore del 5%.
+100500	Fagiolo del Drago Rosa	La probabilita di un miglioramento riuscito della Pietra del Drago di un livello e superiore del 10%.
+
+93100	Pass di Battaglia	Questo oggetto attiva compiti stagionali con molteplici ricompense.
+
+200000	Cofanetto Libro delle Abilita	Contiene libri delle abilita per migliorare le competenze.
+200001	Cofanetto Libro Abilita Fisiche	Contiene libri delle abilita per migliorare le competenze fisiche.
+200002	Cofanetto Libro Abilita Mentali	Contiene libri delle abilita per migliorare le competenze mentali.
+200003	Cofanetto Libro Abilita Corporee	Contiene libri delle abilita per migliorare le competenze corporee.
+200004	Cofanetto Libro Abilita a Distanza	Contiene libri delle abilita per migliorare le competenze a distanza.
+200005	Cofanetto Libro Abilita Arma Magica	Contiene libri delle abilita per migliorare le competenze con armi magiche.
+200006	Cofanetto Libro Abilita Magia Oscura	Contiene libri delle abilita per migliorare le competenze in magia oscura.
+200007	Cofanetto Libro Abilita Potere del Drago	Contiene libri delle abilita per migliorare le competenze con il potere del drago.
+200008	Cofanetto Libro Abilita Guarigione	Contiene libri delle abilita per migliorare le competenze di guarigione.
+200009	Cofanetto di Allenamento	Contiene oggetti ausiliari per migliorare le competenze.
+200011	Cofanetto Cor Draconis	Contiene materiali per l'alchimia della pietra del drago.
+200012	Cofanetto del Tesoro	Contiene materiali di grande valore.
+200013	Cofanetto Oggetto di Incantesimo (10k)	Contiene 10.000 oggetti di incantesimo.
+200014	Ostrica		Potrebbe contenere perle o frammenti di pietra.
+200015	Ostrica Dorata		Potrebbe contenere perle colorate o frammenti di pietra.
+200016	Cofanetto Pesce Dorato (Comune)	Contiene pesci comuni.
+200017	Cofanetto Pesce Dorato (Raro)	Contiene pesci estremamente rari.
+200018	Cofanetto Libro Abilita Passive	Contiene libri delle abilita per migliorare le competenze passive.
+200019	Cofanetto Elysium		Contiene materiali di grande valore.
+200020	Cofanetto Leggendario Cor	Contiene materiali per l'alchimia della pietra del drago di grado leggendario.
+200021	Cofanetto Libro Pet		Contiene libri delle abilita per i pet.
+200022	Cofanetto di Potenziamento	Contiene materiali di potenziamento di livello intermedio.
+200023	Potenziamento Avanzato	Contiene materiali di potenziamento di alto livello.
+200200	Cristallo di Zaffiro	Un comune cristallo fatto di zaffiro. Usato nella creazione e rifinitura di equipaggiamenti.
+200202	Cristallo di Smeraldo	Un raro cristallo fatto di smeraldo. Usato nella creazione e rifinitura di equipaggiamenti.
+200204	Cristallo di Rubino	Un raro cristallo fatto di rubino. Usato nella creazione e rifinitura di equipaggiamenti.
+200206	Pergamena del Dungeon (Bassa)	Permette di acquistare biglietti per dungeon a basso livello.
+200207	Pergamena del Dungeon (Media)	Permette di acquistare biglietti per dungeon a livello medio.
+200208	Pergamena del Dungeon (Alta)	Permette di acquistare biglietti per dungeon ad alto livello.
+200209	Coupon Equipaggiamento	Il primo modello usato da un antico maestro nella creazione di equipaggiamento. Usato per acquisti iniziali, creazione e rifinitura di equipaggiamenti.
+200210	Valleycoin	Una moneta usata in tempi antichi. Generalmente utilizzata per il commercio con PNG e la creazione di equipaggiamenti.
+200211	Pietra di Potenziamento Piccone	Una misteriosa pietra nera. Usata nella rifinitura dei picconi.
+200212	Pietra di Potenziamento Canna da Pesca	Un pezzo rotto di una canna da pesca. Usato nella rifinitura delle canne da pesca.
+200213	Frammento di Minerale (Basso)	Un frammento comune di minerale ottenuto tramite l'estrazione. Usato per l'acquisto di minerali a basso livello dal Mercante di Minerali.
+200214	Frammento di Minerale (Alto)	Un frammento raro di minerale ottenuto tramite l'estrazione. Usato per l'acquisto di minerali ad alto livello dal Mercante di Minerali.
+200215	Moneta di Elysium	Una moneta rara esclusiva di Elysium. Puo essere utilizzata per acquistare oggetti per potenziare il tuo potere dal Mercato di Elysium.
+200216	Pirottino	Un fiore fresco e giallo che porta la sensazione di primavera. Usato per l'acquisto di essenze vegetali da Huahn-So.
+200217	Pergamena del Biologo	Una pergamena antica utilizzata per l'acquisto di materiali biologici da Biologo Chaegirab.
+200218	Moneta da Artigianato	Moneta d'argento usata per il potenziamento e la creazione di equipaggiamenti. Usata nella creazione e rifinitura di equipaggiamenti.
+200221	Scaglia del Drago	Le scaglie del drago sono tra i materiali piu potenti conosciuti. Usate nella creazione e rifinitura di equipaggiamenti.
+200222	Zampa del Drago	Al tocco ghiacciato, questa zampa fa rivivere ricordi... Usata nella creazione e rifinitura di equipaggiamenti.
+200223	Pietra Fiamma	Essenza cristallizzata della fiamma e del magma. Usata nella creazione e rifinitura di equipaggiamenti.
+200224	Pietra di Ghiaccio e Fiamma	Essenza cristallizzata del freddo e del ghiaccio. Usata nella creazione e rifinitura di equipaggiamenti.
+200225	Mithril	Ne rimane solo un piccolo frammento da una meteora caduta. Usato nella rifinitura di equipaggiamenti.
+200226	Diossido di Titanio	Cristallo prismatico. Usato nella rifinitura di equipaggiamenti.
+200227	Agata	Un misterioso minerale che brilla come stelle nell'oscurita. Usato nella rifinitura di equipaggiamenti.
+200228	Pietra di Luna	Una preziosa pietra a forma di goccia che custodisce una scintilla di luce lunare. Usata nella rifinitura di equipaggiamenti.
+200229	Progetto Accessorio Verde	Un antico progetto utilizzato da un maestro per creare accessori. Usato nella creazione di equipaggiamenti.
+200230	Cinture Pesanti	Un sottile filo stretto. Usato nella creazione di equipaggiamenti.
+200231	Progetto Equipaggiamento Verde	Un antico progetto utilizzato da un maestro per creare equipaggiamento. Usato nella creazione di equipaggiamenti.
+200232	Fili Forti	Una corda spessa avvolta strettamente. Usata nella creazione di equipaggiamenti.
+200233	Cristallo Troll Magico	Un cristallo infuso con il potere del Troll Magico. Usato nella creazione e rifinitura di equipaggiamenti.
+200234	Pietra Troll Magico	Una pietra che contiene i ricordi del Troll Magico. Usata nella creazione e rifinitura di equipaggiamenti.
+200235	Ala della Regina Meley	L'ala recisa di Meley. Usata nella creazione e rifinitura di equipaggiamenti.
+200236	Corno di Floraun	Un corno spezzato di Floraun. Usato nella creazione e rifinitura di equipaggiamenti.
+200237	Progetto Armatura dello Zodiaco	Un antico progetto utilizzato da un maestro per creare armature dello zodiaco. Usato nella creazione e rifinitura di equipaggiamenti.
+200238	Progetto Arma dello Zodiaco	Un antico progetto utilizzato da un maestro per creare armi dello zodiaco. Usato nella creazione e rifinitura di equipaggiamenti.
+200239	Progetto Accessorio dello Zodiaco	Un antico progetto utilizzato da un maestro per creare accessori dello zodiaco. Usato nella creazione e rifinitura di equipaggiamenti.
+200240	Cuore di Alastor	Il cuore di Alastor coperto di ghiaccio. Usato nella creazione e rifinitura di equipaggiamenti.
+200241	Cristallo di Atlantide	La fonte del potere divino di Poseidone. Usato nella creazione e rifinitura di equipaggiamenti.
+200242	Coda di Scorpione	La coda recisa del Re Scorpione. Usata nella creazione e rifinitura di equipaggiamenti.
+200243	Cranio del Drago	Il cranio reciso dello Scheletro del Drago. Usato nella creazione e rifinitura di equipaggiamenti.
+200244	Progetto Armatura del Drago Oscuro	Un antico progetto utilizzato da un maestro per creare armature del drago oscuro. Usato nella creazione e rifinitura di equipaggiamenti.
+200245	Progetto Arma del Drago Oscuro	Un antico progetto utilizzato da un maestro per creare armi del drago oscuro. Usato nella creazione e rifinitura di equipaggiamenti.
+200246	Progetto Accessorio del Drago Oscuro	Un antico progetto utilizzato da un maestro per creare accessori del drago oscuro. Usato nella creazione e rifinitura di equipaggiamenti.
+200265	Perla Verde	Una perla di colore verde. Usata nella rifinitura di equipaggiamenti.
+200266	Perla Rosa	Una perla di colore rosa. Usata nella rifinitura di equipaggiamenti.
+200267	Perla Dorata	Una perla di colore oro. Usata nella rifinitura di equipaggiamenti.
+200268	Perla Scintillante	Una perla che abbaglia con la sua brillantezza. Usata nella rifinitura di equipaggiamenti.
+200269	Perla Marina	Una perla di colore blu navy. Usata nella rifinitura di equipaggiamenti.
+200270	Perla Viola	Una perla di colore viola. Usata nella rifinitura di equipaggiamenti.
+200271	Perla Nera	Una perla dal colore scuro e affascinante. Usata nella rifinitura di equipaggiamenti.
+200272	Ricamo Verde	Un ricamo di colore verde. Usato nella rifinitura di equipaggiamenti.
+200273	Ricamo Rosa	Un ricamo di colore rosa. Usato nella rifinitura di equipaggiamenti.
+200274	Ricamo Oro	Un ricamo di colore oro. Usato nella rifinitura di equipaggiamenti.
+200275	Ricamo Scintillante	Un ricamo di colore abbagliante. Usato nella rifinitura di equipaggiamenti.
+200276	Ricamo Blu Navy	Un ricamo di colore blu navy. Usato nella rifinitura di equipaggiamenti.
+200277	Ricamo Viola	Un ricamo di colore viola. Usato nella rifinitura di equipaggiamenti.
+200278	Ricamo Nero	Un ricamo scuro e affascinante. Usato nella rifinitura di equipaggiamenti.
+200279	Filo Verde	Un filo di colore verde. Usato nella rifinitura di equipaggiamenti.
+200280	Filo Rosa	Un filo di colore rosa. Usato nella rifinitura di equipaggiamenti.
+200281	Filo Oro	Un filo di colore oro. Usato nella rifinitura di equipaggiamenti.
+200282	Filo Scintillante	Un filo di colore abbagliante. Usato nella rifinitura di equipaggiamenti.
+200283	Filo Blu Navy	Un filo di colore blu navy. Usato nella rifinitura di equipaggiamenti.
+200284	Filo Viola	Un filo di colore viola. Usato nella rifinitura di equipaggiamenti.
+200285	Filo Nero	Un filo scuro e affascinante. Usato nella rifinitura di equipaggiamenti.
+200286	Tessuto Verde	Un tessuto di colore verde. Usato nella rifinitura di equipaggiamenti.
+200287	Tessuto Rosa	Un tessuto di colore rosa. Usato nella rifinitura di equipaggiamenti.
+200288	Tessuto Oro	Un tessuto di colore oro. Usato nella rifinitura di equipaggiamenti.
+200289	Tessuto Scintillante	Un tessuto di colore abbagliante. Usato nella rifinitura di equipaggiamenti.
+200290	Tessuto Blu Navy	Un tessuto di colore blu navy. Usato nella rifinitura di equipaggiamenti.
+200291	Tessuto Viola	Un tessuto di colore viola. Usato nella rifinitura di equipaggiamenti.
+200292	Tessuto Nero	Un tessuto scuro e affascinante. Usato nella rifinitura di equipaggiamenti.
+200293	Tintura Verde	Una tintura di colore verde. Usata nella rifinitura di equipaggiamenti.
+200294	Tintura Rosa	Una tintura di colore rosa. Usata nella rifinitura di equipaggiamenti.
+200295	Tintura Oro	Una tintura di colore oro. Usata nella rifinitura di equipaggiamenti.
+200296	Tintura Scintillante	Una tintura di colore abbagliante. Usata nella rifinitura di equipaggiamenti.
+200297	Tintura Blu Navy	Una tintura di colore blu navy. Usata nella rifinitura di equipaggiamenti.
+200298	Tintura Viola	Una tintura di colore viola. Usata nella rifinitura di equipaggiamenti.
+200299	Tintura Nera	Una tintura scura e affascinante. Usata nella rifinitura di equipaggiamenti.
+
+55107	Apri Slot Abilita Animale Domestico	Con questo oggetto, puoi sbloccare lo slot abilita successivo per il tuo animale domestico.
+55120	Manuale Pet Genç	Con questo manuale, puoi far salire di livello il tuo animale domestico alla prossima fase (Selvaggio).
+55121	Manuale Pet Yabani	Con questo manuale, puoi far salire di livello il tuo animale domestico alla prossima fase (Coraggioso).
+55122	Manuale Pet Cesur	Con questo manuale, puoi far salire di livello il tuo animale domestico alla prossima fase (Eroico).
+55125	Cambia Tipo Animale Domestico	Con questo oggetto puoi cambiare il tipo del tuo animale domestico.
+55127	Modifica Attributi Animale Domestico	Con questo oggetto puoi modificare gli attributi del tuo animale domestico.
+55128	Stella dell'Animale Domestico	Con questo oggetto puoi aumentare il livello stella del tuo animale domestico.
+55130	Skin Animale Domestico (Azrail)	Con questo oggetto puoi attivare l'aspetto Azrail del tuo animale domestico.
+55131	Skin Animale Domestico (Baashido)	Con questo oggetto puoi attivare l'aspetto Baashido del tuo animale domestico.
+55132	Skin Animale Domestico (Meley)	Con questo oggetto puoi attivare l'aspetto Meley del tuo animale domestico.
+55133	Skin Animale Domestico (Alastor)	Con questo oggetto puoi attivare l'aspetto Alastor del tuo animale domestico.
+55134	Skin Animale Domestico (Exedyar)	Con questo oggetto puoi attivare l'aspetto Exedyar del tuo animale domestico.
+55140	Aumenta EXP Animale Domestico	Con questo anello puoi aumentare l'acquisizione di esperienza del tuo animale domestico.
+55150	Manuale Pet (Combattente)	Con questo manuale puoi potenziare l'abilita di resistenza del tuo animale domestico Combattente.
+55151	Manuale Pet (Sura)	Con questo manuale puoi potenziare l'abilita di resistenza del tuo animale domestico Sura.
+55152	Manuale Pet (Ninja)	Con questo manuale puoi potenziare l'abilita di resistenza del tuo animale domestico Ninja.
+55153	Manuale Pet (Sciamano)	Con questo manuale puoi potenziare l'abilita di resistenza del tuo animale domestico Sciamano.
+55154	Manuale Pet (Berserker)	Con questo manuale puoi potenziare l'abilita Berserker del tuo animale domestico.
+55155	Manuale Pet (Mezzo Umano)	Con questo manuale puoi potenziare l'abilita Mezzo Umano del tuo animale domestico.
+55156	Manuale Pet (Colpo Penetrante)	Con questo manuale puoi potenziare l'abilita Colpo Penetrante del tuo animale domestico.
+55157	Manuale Pet (Colpo Critico)	Con questo manuale puoi potenziare l'abilita Colpo Critico del tuo animale domestico.
+55158	Manuale Pet (Assorbimento HP)	Con questo manuale puoi potenziare l'abilita Assorbimento HP del tuo animale domestico.
+55159	Manuale Pet (Blocco)	Con questo manuale puoi potenziare l'abilita Blocco del tuo animale domestico.
+55160	Manuale Pet (Mostro)	Con questo manuale puoi potenziare l'abilita Mostro del tuo animale domestico.
+55161	Manuale Pet (Metin)	Con questo manuale puoi potenziare l'abilita Metin del tuo animale domestico.
+55162	Manuale Pet (Boss)	Con questo manuale puoi potenziare l'abilita Boss del tuo animale domestico.
+55163	Manuale Pet (Difesa Mostro)	Con questo manuale puoi potenziare l'abilita Difesa Mostro del tuo animale domestico.
+55164	Manuale Pet (Caduta Yang)	Con questo manuale puoi potenziare l'abilita Caduta Yang del tuo animale domestico.
+
+37000	Utente Premium (7g)	Quando attivato, ti fornisce lo stato di utente premium per 7 giorni.
+37001	Utente Premium (14g)	Quando attivato, ti fornisce lo stato di utente premium per 14 giorni.
+37002	Utente Premium (30g)	Quando attivato, ti fornisce lo stato di utente premium per 30 giorni.
+37003	Utente Premium (Permanente)	Quando attivato, ti fornisce lo stato di utente premium permanente.
+37004	Utente Premium (7g)	Quando attivato, ti fornisce lo stato di utente premium per 7 giorni.		Nessun commercio.
+37005	Utente Premium (14g)	Quando attivato, ti fornisce lo stato di utente premium per 14 giorni.		Nessun commercio.
+37006	Utente Premium (30g)	Quando attivato, ti fornisce lo stato di utente premium per 30 giorni.		Nessun commercio.
+37007	Utente Premium (Permanente)	Quando attivato, ti fornisce lo stato di utente premium permanente.		Nessun commercio.
+37008	Auto Raccolta Premium (7gg)	Quando attivato, ti consente di raccogliere automaticamente gli oggetti per 7 giorni.
+37009	Auto Raccolta Premium (14gg)	Quando attivato, ti consente di raccogliere automaticamente gli oggetti per 14 giorni.
+37010	Auto Raccolta Premium (30gg)	Quando attivato, ti consente di raccogliere automaticamente gli oggetti per 30 giorni.
+37011	Auto Raccolta Premium (Permanente)	Quando attivato, abilita permanentemente la raccolta automatica degli oggetti.
+37012	Auto Raccolta Premium (7gg)	Quando attivato, ti consente di raccogliere automaticamente gli oggetti per 7 giorni.		Nessun commercio.
+37013	Auto Raccolta Premium (14gg)	Quando attivato, ti consente di raccogliere automaticamente gli oggetti per 14 giorni.		Nessun commercio.
+37014	Auto Raccolta Premium (30gg)	Quando attivato, ti consente di raccogliere automaticamente gli oggetti per 30 giorni.		Nessun commercio.
+37015	Auto Raccolta Premium (Permanente)	Quando attivato, abilita permanentemente la raccolta automatica degli oggetti.		Nessun commercio.
+
+37016	Indicatore Metin Premium (7gg)	Quando attivato, aumenta il numero di Metin contrassegnati a 6 per 7 giorni.
+37017	Indicatore Metin Premium (14gg)	Quando attivato, aumenta il numero di Metin contrassegnati a 6 per 14 giorni.
+37018	Indicatore Metin Premium (30gg)	Quando attivato, aumenta il numero di Metin contrassegnati a 6 per 30 giorni.
+37019	Indicatore Metin Premium (Permanente)	Quando attivato, aumenta permanentemente il numero di Metin contrassegnati a 6.
+37020	Indicatore Metin Premium (7gg)	Quando attivato, aumenta il numero di Metin contrassegnati a 6 per 7 giorni.	Nessun commercio.
+37021	Indicatore Metin Premium (14gg)	Quando attivato, aumenta il numero di Metin contrassegnati a 6 per 14 giorni.	Nessun commercio.
+37022	Indicatore Metin Premium (30gg)	Quando attivato, aumenta il numero di Metin contrassegnati a 6 per 30 giorni.	Nessun commercio.
+37023	Indicatore Metin Premium (Permanente)	Quando attivato, aumenta permanentemente il numero di Metin contrassegnati a 6.	Nessun commercio.
+
+24050	Tag Nome Cavalcatura (7gg)	Quando attivato, ti consente di dare un nuovo nome alla tua cavalcatura e ottenere bonus extra per 7 giorni.
+24051	Tag Nome Cavalcatura (14gg)	Quando attivato, ti consente di dare un nuovo nome alla tua cavalcatura e ottenere bonus extra per 14 giorni.
+24052	Tag Nome Cavalcatura (7gg)	Quando attivato, ti consente di dare un nuovo nome alla tua cavalcatura e ottenere bonus extra per 7 giorni.		Nessun commercio.
+24053	Tag Nome Cavalcatura (14gg)	Quando attivato, ti consente di dare un nuovo nome alla tua cavalcatura e ottenere bonus extra per 14 giorni.		Nessun commercio.
+24054	Tag Nome Animale Domestico (7gg)	Quando attivato, ti consente di dare un nuovo nome al tuo animale domestico e ottenere bonus extra per 7 giorni.
+24055	Tag Nome Animale Domestico (14gg)	Quando attivato, ti consente di dare un nuovo nome al tuo animale domestico e ottenere bonus extra per 14 giorni.
+24056	Tag Nome Animale Domestico (7gg)	Quando attivato, ti consente di dare un nuovo nome al tuo animale domestico e ottenere bonus extra per 7 giorni.		Nessun commercio.
+24057	Tag Nome Animale Domestico (14gg)	Quando attivato, ti consente di dare un nuovo nome al tuo animale domestico e ottenere bonus extra per 14 giorni.		Nessun commercio.
+24058	Tag Nome Buff (7gg)	Quando attivato, ti consente di dare un nuovo nome al tuo buff e attivare abilita di guarigione per 7 giorni.
+24059	Tag Nome Buff (14gg)	Quando attivato, ti consente di dare un nuovo nome al tuo buff e attivare abilita di guarigione per 14 giorni.
+24060	Tag Nome Buff (7gg)	Quando attivato, ti consente di dare un nuovo nome al tuo buff e attivare abilita di guarigione per 7 giorni.		Nessun commercio.
+24061	Tag Nome Buff (14gg)	Quando attivato, ti consente di dare un nuovo nome al tuo buff e attivare abilita di guarigione per 14 giorni.		Nessun commercio.
+
+64000	Tag Nome Cavalcatura (2gg)	Quando attivato, ti consente di dare un nuovo nome alla tua cavalcatura e ottenere bonus extra per 2 giorni.
+64001	Tag Nome Animale Domestico (2gg)	Quando attivato, ti consente di dare un nuovo nome al tuo animale domestico e ottenere bonus extra per 2 giorni.
+64002	Tag Nome Buff (2gg)	Quando attivato, ti consente di dare un nuovo nome al tuo buff e attivare abilita di guarigione per 2 giorni.
+
+24102	Oggetto Potenziamento Guanto	Un oggetto raro usato per aggiungere un nuovo bonus agli equipaggiamenti guanto.
+24103	Oggetto Incantamento Guanto	Un oggetto raro usato per cambiare il bonus sugli equipaggiamenti guanto.
+24104	Oggetto Potenziamento Talismano	Un oggetto raro usato per aggiungere un nuovo bonus agli equipaggiamenti talismano.
+24105	Oggetto Incantamento Talismano	Un oggetto raro usato per cambiare il bonus sugli equipaggiamenti talismano.
+200400	PerGamena del Fuoco	Una pergamena misteriosa che trasferisce il potere dell'elemento fuoco.
+200401	Cristallo del Fuoco	Un cristallo scintillante composto dal potere dell'elemento fuoco.
+200402	Cofanetto Talismano del Fuoco	Un antico cofanetto contenente il talismano che controlla l'elemento fuoco.
+200403	PerGamena del Gelo	Una pergamena misteriosa che trasferisce il potere dell'elemento ghiaccio.
+200404	Cristallo del Gelo	Un cristallo scintillante composto dal potere dell'elemento ghiaccio.
+200405	Cofanetto Talismano del Gelo	Un antico cofanetto contenente il talismano che controlla l'elemento ghiaccio.
+200406	PerGamena della Terra	Una pergamena misteriosa che trasferisce il potere dell'elemento terra.
+200407	Cristallo della Terra	Un cristallo scintillante composto dal potere dell'elemento terra.
+200408	Cofanetto Talismano della Terra	Un antico cofanetto contenente il talismano che controlla l'elemento terra.
+200409	PerGamena dell'Oscurita	Una pergamena misteriosa che trasferisce il potere dell'elemento oscurita.
+200410	Cristallo dell'Oscurita	Un cristallo scintillante composto dal potere dell'elemento oscurita.
+200411	Cofanetto Talismano dell'Oscurita	Un antico cofanetto contenente il talismano che controlla l'elemento oscurita.
+200412	PerGamena del Vento	Una pergamena misteriosa che trasferisce il potere dell'elemento vento.
+200413	Cristallo del Vento	Un cristallo scintillante composto dal potere dell'elemento vento.
+200414	Cofanetto Talismano del Vento	Un antico cofanetto contenente il talismano che controlla l'elemento vento.
+200415	PerGamena del Fulmine	Una pergamena misteriosa che trasferisce il potere dell'elemento fulmine.
+200416	Cristallo del Fulmine	Un cristallo scintillante composto dal potere dell'elemento fulmine.
+200417	Cofanetto Talismano del Fulmine	Un antico cofanetto contenente il talismano che controlla l'elemento fulmine.
+200418	PerGamena degli Elementi	Una pergamena misteriosa che trasferisce il potere degli elementi.
+200419	Cristallo degli Elementi	Un cristallo scintillante composto dal potere degli elementi.
+200420	Cofanetto Talismano degli Elementi	Un antico cofanetto contenente il talismano che controlla gli elementi.
+200500	Ticket Lucifer Velenoso	Un biglietto necessario per entrare nella Torre del Diavolo Velenoso.
+200501	Ticket Barones	Un biglietto necessario per entrare nell'Antro di Barones.
+200502	Ticket Genio Magico	Un biglietto necessario per entrare nella Grotta del Genio.
+200503	Ticket Coccodrillo del Ghiaccio	Un biglietto necessario per entrare nella Terra del Ghiaccio.
+200504	Ticket Azrael dell'Ombra	Un biglietto necessario per entrare nel Catacomba del Diavolo.
+200505	Ticket Beran Setaou	Un biglietto necessario per entrare nella Stanza di Beran-Setaou.
+200506	Ticket Razador	Un biglietto necessario per entrare nella Fortezza di Razador.
+200507	Ticket Naga	Un biglietto necessario per entrare nel Tempio dei Naga.
+200508	Ticket Lupo di Cristallo	Un biglietto necessario per entrare nella Grotta Zaffiro.
+200509	Ticket Jotun Thrym	Un biglietto necessario per entrare nel Tempio Ochao.
+200510	Ticket Odin	Un biglietto necessario per entrare nel Castello di Odin.
+200511	Ticket Troll Magico	Un biglietto necessario per entrare nella Caverna del Troll Magico.
+200512	Ticket Meley	Un biglietto necessario per entrare nel Nido della Regina Meley.
+200513	Ticket Floraun	Un biglietto necessario per entrare nel Giardino di Floraun.
+200514	Ticket Alastor	Un biglietto necessario per entrare nella Caverna di Alastor.
+200515	Ticket Poseidone	Un biglietto necessario per entrare nella Citta Perduta di Atlantide.
+200516	Ticket Re Scorpione	Un biglietto necessario per entrare nelle Rovine del Re Scorpione.
+200517	Ticket Drago Scheletro	Un biglietto necessario per entrare nella Camera del Drago Scheletro.
+200518	Ticket Akzadur	Un biglietto necessario per entrare nella Stanza del Re Akzadur.
+200519	Ticket Regina Serpente	Un biglietto necessario per entrare nel Tempio della Regina Serpente.
+200540	Sigillo Velenoso Lucifer	Fai clic destro per usare ed aprire il Sigillo Velenoso.
+200541	Sigillo di Barones	Fai clic destro per usare ed aprire il Sigillo del Ragno.
+200542	Sigillo del Genio Magico	Fai clic destro per usare ed aprire il Sigillo Magico.
+200543	Sigillo del Coccodrillo del Ghiaccio	Fai clic destro per usare ed aprire il Sigillo del Ghiaccio.
+200544	Sigillo di Azrael dell'Ombra	Fai clic destro per usare ed aprire il Sigillo dell'Incubo.
+200545	Sigillo di Beran Setaou	Fai clic destro per usare ed aprire il Sigillo del Drago Blu.
+200546	Sigillo di Razador	Fai clic destro per usare ed aprire il Sigillo della Fiamma.
+200547	Sigillo di Naga	Fai clic destro per usare ed aprire il Sigillo del Gelo.
+200548	Sigillo del Lupo di Cristallo	Fai clic destro per usare ed aprire il Sigillo Zaffiro.
+200549	Sigillo di Jotun Thrym	Fai clic destro per usare ed aprire il Sigillo della Foresta.
+200550	Sigillo di Odin	Fai clic destro per usare ed aprire il Sigillo di Asgard.
+200551	Sigillo del Troll Magico	Fai clic destro per usare ed aprire il Sigillo Magico.
+200552	Sigillo di Meley	Fai clic destro per usare ed aprire il Sigillo del Drago Rosso.
+200553	Sigillo di Floraun	Fai clic destro per usare ed aprire il Sigillo della Foresta.
+200554	Sigillo di Alastor	Fai clic destro per usare ed aprire il Sigillo del Nord.
+200555	Sigillo di Poseidone	Fai clic destro per usare ed aprire il Sigillo di Atlantide.
+200556	Sigillo del Re Scorpione	Fai clic destro per usare ed aprire il Sigillo dello Scorpione.
+200557	Sigillo del Drago Scheletro	Fai clic destro per usare ed aprire il Sigillo dello Scheletro.
+200558	Sigillo di Akzadur	Fai clic destro per usare ed aprire il Sigillo del Re Drago.
+200559	Sigillo della Regina Serpente	Fai clic destro per usare ed aprire il Sigillo del Serpente.
+
+200300	Ticket Ruota	Un biglietto necessario per girare la Ruota del Destino gratuitamente. Raccoglione abbastanza durante l'evento per usare la Ruota del Destino.
+200301	Lettera E	Una lettera E. Raccogli altre lettere durante l'evento per creare un cofanetto dal Fabbro.
+200302	Lettera L	Una lettera L. Raccogli altre lettere durante l'evento per creare un cofanetto dal Fabbro.
+200303	Lettera Y	Una lettera Y. Raccogli altre lettere durante l'evento per creare un cofanetto dal Fabbro.
+200304	Lettera S	Una lettera S. Raccogli altre lettere durante l'evento per creare un cofanetto dal Fabbro.
+200305	Lettera I	Una lettera I. Raccogli altre lettere durante l'evento per creare un cofanetto dal Fabbro.
+200306	Lettera U	Una lettera U. Raccogli altre lettere durante l'evento per creare un cofanetto dal Fabbro.
+200307	Lettera M	Una lettera M. Raccogli altre lettere durante l'evento per creare un cofanetto dal Fabbro.
+200600	Pacchetto Premium (30 Giorni)	Un leggendario baule contenente oggetti premium validi per 30 giorni. Ottenibile dal negozio degli oggetti.
+200601	Pacchetto Premium (Permanente)	Un leggendario baule contenente oggetti premium permanenti. Ottenibile dal negozio degli oggetti.
+200602	Pacchetto Mostri	Un leggendario baule contenente oggetti che ti rendono piu forte contro i mostri. Ottenibile dal negozio degli oggetti.
+200603	Pacchetto Metin	Un leggendario baule contenente oggetti che ti rendono piu forte contro i metin e i boss. Ottenibile dal negozio degli oggetti.
+200604	Pacchetto Buff	Un leggendario baule contenente buff permanenti e etichette per i buff. Ottenibile dal negozio degli oggetti.
+200605	Pacchetto Potenziatore (14 Giorni)	Un leggendario baule contenente potenziatori che forniscono un bonus del 15% per 14 giorni. Ottenibile dal negozio degli oggetti.
+200606	Pacchetto Sviluppo	Un leggendario baule contenente oggetti che ti aiutano a sviluppare il tuo personaggio piu velocemente. Ottenibile dal negozio degli oggetti.
+
+200610	Pacchetto Premium (30 Giorni)	Un leggendario baule contenente oggetti premium validi per 30 giorni. Ottenibile dal negozio degli oggetti.		Non commerciabile.
+200611	Pacchetto Premium (Permanente)	Un leggendario baule contenente oggetti premium permanenti. Ottenibile dal negozio degli oggetti.		Non commerciabile.
+200612	Pacchetto Mostri	Un leggendario baule contenente oggetti che ti rendono piu forte contro i mostri. Ottenibile dal negozio degli oggetti.		Non commerciabile.
+200613	Pacchetto Metin	Un leggendario baule contenente oggetti che ti rendono piu forte contro i metin e i boss. Ottenibile dal negozio degli oggetti.		Non commerciabile.
+200614	Pacchetto Buff	Un leggendario baule contenente buff permanenti e etichette per i buff. Ottenibile dal negozio degli oggetti.		Non commerciabile.
+200615	Pacchetto Potenziatore (14 Giorni)	Un leggendario baule contenente potenziatori che forniscono un bonus del 15% per 14 giorni. Ottenibile dal negozio degli oggetti.		Non commerciabile.
+200616	Pacchetto Sviluppo	Un leggendario baule contenente oggetti che ti aiutano a sviluppare il tuo personaggio piu velocemente. Ottenibile dal negozio degli oggetti.		Non commerciabile.
+
+24600	Simbolo Pietra Mentale	Quando usato, aumenta la probabilita di aggiungere una pietra mentale del 100% per una volta.
+24601	Potenziatore Velocita Incantesimo 6/7 (25%)	Quando usato, riduce il tempo previsto per aggiungere incantesimi 6-7 del 25%.
+24602	Potenziatore Velocita Incantesimo 6/7 (50%)	Quando usato, riduce il tempo previsto per aggiungere incantesimi 6-7 del 50%.
+
+24140	Pulitore Incantesimo 1° Slot	Quando trascinato su un costume, pulisce il 1° slot dell'incantesimo.
+24141	Pulitore Incantesimo 2° Slot	Quando trascinato su un costume, pulisce il 2° slot dell'incantesimo.
+24142	Pulitore Incantesimo 3° Slot	Quando trascinato su un costume, pulisce il 3° slot dell'incantesimo.
+24143	Pulitore Incantesimo 4° Slot	Quando trascinato su un costume, pulisce il 4° slot dell'incantesimo.
+24144	Pulitore Incantesimo 5° Slot	Quando trascinato su un costume, pulisce il 5° slot dell'incantesimo.
+
+24000	Pietra Anima Saggezza	Una pietra anima imbevuta del potere di un grande saggio, usata per migliorare la competenza Maestro Perfetto a livello di Maestro Saggio.
+24002	Libro Competenza Cacciatore di Mostri	Un libro non comune usato per migliorare la competenza Cacciatore di Mostri.
+24003	Libro Competenza Cacciatore di Metin	Un libro non comune usato per migliorare la competenza Cacciatore di Metin.
+24004	Libro Competenza Guerriero Furioso	Un libro non comune usato per migliorare la competenza Guerriero Furioso.
+24005	Libro Competenza Cacciatore di Umani	Un libro non comune usato per migliorare la competenza Cacciatore di Umani.
+24006	Libro Competenza Focalizzazione Mentale	Un libro non comune usato per migliorare la competenza Focalizzazione Mentale.
+24007	Libro Competenza Cuore del Drago	Un libro non comune usato per migliorare la competenza Cuore del Drago.
+24008	Libro Competenza Erboristeria	Un libro non comune usato per migliorare la competenza Erboristeria.
+24009	Libro Competenza Creazione Oggetti	Un libro non comune usato per migliorare la competenza Creazione Oggetti.
+24010	Libro Competenza Leadership	Un libro non comune usato per migliorare la competenza Leadership.
+24011	Libro Competenza Estrazione Minerale	Un libro non comune usato per migliorare la competenza Estrazione Minerale.
+24012	Libro Competenza Pesca	Un libro non comune usato per migliorare la competenza Pesca.
+24013	Carta Espulsione Spirito Saggezza	Una potente carta che scaccia gli spiriti maligni quando si usa la Pietra Anima Saggezza.
+24014	Incremento Eretico Saggezza	Contiene il potere di rinforzo di un grande saggio quando si usa la Pietra Anima Saggezza.

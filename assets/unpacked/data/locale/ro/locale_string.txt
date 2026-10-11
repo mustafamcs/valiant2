@@ -1,0 +1,526 @@
+CLOSE_WINDOWS_ERROR	Fereste toate ferestrele pentru a face asta.
+WAIT_TO_USE_AGAIN	Trebuie sa astepti %s secunde pentru a face asta din nou.
+ARENA_TALK_15	Ai intrat in rãzboi, iesirea este anulata.
+BATTLEPASS_NOT_COMPLETED_ALL_NORMAL_MISSIONS	Nu ai completat toate sarcinile din Battlepassul normal inca!
+BATTLEPASS_NOT_COMPLETED_ALL_PREMIUM_MISSIONS	Nu ai completat toate sarcinile din Battlepassul Premium inca!
+BATTLEPASS_NOT_COMPLETED_ALL_EVENT_MISSIONS	Nu ai completat toate sarcinile din Battlepassul de Eveniment inca!
+CANT_INCREASE_YOUR_BIOLOG_LEVEL_MORE	Nu poti sa-ti cresti nivelul biologic mai mult.
+X_SUCCESSFULL_Y_UNSUCCESSFULL	%sx reusite si %sx nereusite.
+BATTLEPASS_ALREADY_EARNED_BATTLEPASS_REWARD	Ai primit deja aceasta recompensa Battlepass.
+IT_WAS_FAILED	Operatia a esuat.
+TAKE_OFF_YOUR_ARMOR_TO_OPEN_SHOP	Scoate-ti armura pentru a deschide magazinul.
+YOU_CARRY_TOO_MUCH_GOLD_TO_OPEN_SHOP	Porti prea mult aur, nu poti deschide un magazin.
+INVALID_SHOP_NAME	Nume de magazin invalid.
+CANT_TRADE_WITH_EQUIPPED_ITEMS	Nu poti face comert cu obiecte echipate.
+CANT_TRADE_WITH_THIS_ITEM	Nu poti face comert cu acest obiect.
+EQUIP_YOUR_PICKAXE_FIRST	Echipeaza o alegatoare pentru a face asta.
+CANNOT_FISH_HERE	Nu poti pescui aici.
+EQUIP_YOUR_ROD_FIRST	Echipeaza o undita pentru a face asta.
+PUT_A_BAIT_TO_YOUR_ROD	Pentru a face asta, trebuie sa pui o momeala la undita.
+CANT_FISH_WITHOUT_ROD	Nu poti pescui fara o undita.
+PROBLEM_OCCURED_TRY_AGAIN_LATER	A aparut o problema, incearca din nou mai tarziu!
+PARTY_REQ_ERR_0	Nu poti forma un grup cu alte imperii.
+PARTY_REQ_ERR_1	Nu poti invita sau alatura unui grup intr-un dungeon.
+PARTY_REQ_ERR_2	Nu poti invita un observator intr-un grup.
+PARTY_REQ_ERR_3	Nu poti forma un grup cu cineva care are o diferenta de nivel mai mare de 30.
+PARTY_REQ_ERR_4	Nu poti forma un grup cu cineva care are o diferenta de nivel mai mare de 30.
+PARTY_REQ_ERR_5	Nu poti accepta invitatiile.
+PARTY_REQ_ERR_6	Grupul a atins limita, nu mai poti invita.
+PARTY_REQ_ERR_7	Grupul a atins limita, nu mai poti alatura.
+PARTY_REQ_ERR_8	Acest jucator nu face parte din grup.
+PARTY_REQ_ERR_9	Nu poti invita, doar liderul grupului poate.
+PARTY_REQ_ERR_10	Nu poti alatura unui grup intr-un dungeon.
+PARTY_REQ_SENT	Cerere de grup trimisa catre %s.
+PARTY_REQ_REJECTED	%s a respins cererea ta de grup.
+PARTY_REQ_REJECTED2	%s a respins cererea ta de grup.
+PARTY_REQ_ALREADY_IN_PARTY	%s este deja intr-un grup.
+PARTY_JOINED_THE_PARTY	%s s-a alaturat grupului.
+PARTY_JOINED_THE_PARTY2	Ti-ai alaturat grupului lui %s.
+MINING_STOPPED	Minatul a fost oprit.
+PLAYER_BUSY_RN	Acest jucator este ocupat acum.
+GROUP_LEADER_IS_NOT_ACTIVE_CANT_DO_THIS	Liderul grupului nu este activ, nu poti face asta.
+SAFEBOX_ERR_1	Cufarul de depozitare este deja deschis.
+SAFEBOX_ERR_2	Asteapta putin timp pentru a face asta din nou.
+CANT_TELEPORT_THIS_PLAYER	Nu poti teleporta acest jucator.
+THIS_PLAYER_IS_OFFLINE	Acest jucator este offline.
+OTHER_CHANNEL_ERR	Jucatorul nu se afla in acest canal, canalul jucatorului %s. (Canalul tau %s)
+THIS_WINDOW_IS_ALREADY_OPEN	Aceasta fereastra este deja deschisa.
+CLOSE_OTHER_WINDOWS_TO_DO_THIS	Inchide toate ferestrele pentru a face asta.
+CANT_ADD_LOCKED_ITEMS	Nu poti selecta obiectul deja selectat.
+ONLY_SAME_GRADE_CAN_COMBINED	Doar aceeasi calificare poate fi combinata.
+ABSORBPTION_CHANGE_IS_MAX	Absorbtia maxima a fost deja atinsa pentru acest obiect.
+ONLY_ARMOR_WEARPON_CAN_BE_ABSORBED	Doar armele si armurile pot fi absorbite.
+NOT_ENOUGH_YANG	Nu ai suficient yang.
+INVALID_ACTION	Actiune invalida!
+NEW_ABSORB_RATE	Noua rata de absorbtie: %s
+CANT_USE_THIS_WITH_NON_SASH_ITEMS	Nu poti face asta cu obiecte in afara de curele de umar.
+CANT_USE_THIS_WITH_NON_AURA_ITEMS	Nu poti face asta cu obiecte in afara de costume aura.
+ITEM_HAS_NO_ABSORBTION	Nu exista obiecte absorbite pe acest obiect!
+POLY_BLOCKED_WITH_THIS	Nu poti face asta in timp ce esti transformat.
+CHANNEL_SWITCH_0	Dupa %s secunde, canalul se va schimba.
+CHANNEL_SWITCH_1	Canalul se va schimba.
+MULTIFARM_ACTIVATED	Castigul de obiecte a fost activat.
+MULTIFARM_DEACTIVATED	Castigul de obiecte a fost dezactivat.
+MULTIFARM_MULTIACC_LIMIT	Castigul de obiecte nu poate fi activat cu mai mult de 2 conturi.
+GLOBAL_ERR_OCCURED	A aparut o eroare, incearca din nou mai tarziu.
+AURA_INVALID_ITEM_TYPE	Obiect invalid selectat, doar bijuteriile pot fi absorbite.
+AURA_RUNIC_ITEM_NOT_FOUND	Poti face asta doar cu Aura Runic.
+AURA_RUNIC_ICE_SHOULD_BE_USED	Poti face asta doar cu Rune Ice Aura.
+AURA_RUNIC_FIRE_SHOULD_BE_USED	Poti face asta doar cu Rune Fire Aura.
+AURA_ABS_REMOVE_ATTR	Bonusurile absorbite au fost sterse cu succes.
+YOU_DO_NOT_HAVE_ENOUGH_GEM_SLOT_OPENER	Nu ai suficient deschizator de sloturi pentru bijuterii.
+YOUR_BIOLOG_LEVEL_INCREASED	Nivelul tau biologic a crescut.
+GM_MESSENGER_IN_YOU_BLOCK	Chatul tau este interzis.
+BUFF_MSG_01	%s nu a fost adaugat deoarece rata ta este mai mare, Rata: (%s%%) Rata ta curenta: (%s%%)
+BUFF_MSG_02	Bonusul %s a fost adaugat cu succes. Rata noua: (%s%%) Rata anterioara: (%s%%)
+WARNING_DRAGON_GOD	Deoarece esti sub protectia Zeului Dragon, nu ai pierdut experienta.
+WARNING_DRAGON_GOD2	Deoarece esti sub protectia Zeului Dragon, nu ai pierdut obiecte.
+GUILDWAR_WARNING_NO_ADVANTAGE_HUNTING	Nu exista avantaj sa vannezi in timpul unui razboi al gildelor.
+DS_TALK_1	Alchimia Dragonului nu este activa.
+HORSE_TALK_1	A aparut o eroare la chemarea muntelui tau.
+SAFEBOX_ERR	Parola gresita.
+REFINE_FREE_UPGRADE_BELLOW_20	Obiectele cu upgrade gratuit sunt disponibile doar pentru arme de nivel 20 sau mai mic.
+CANT_UPGRADE_THIS_ITEM	Nu poti face upgrade acestui obiect.
+NOT_ENOUGH_MATERIAL	Nu ai suficient material.
+CAN_NOT_UPGRADE_WITH_THIS_ITEM_MORE	Nu poti face upgrade acestui obiect in continuare.
+CAN_ONLY_UPGRADE_ITEMS_MORE_THAN	Poti face upgrade doar la obiectele de nivel %s sau mai mare cu acest obiect.
+DEVILTOWER_UPGRADE_MSG	Poti face upgrade doar o data in Turnul Demonului.
+CANT_COMBINE_SIMILAR_REFINE_ITEMS	Nu poti combina obiecte de upgrade similare.
+MAGIC_STONE_REFINE_CAN_BE_COMBINED	Piatra magica si pergamentul binecuvantarii pot fi combinate.
+NO_SPIRIT_STONES_TO_REMOVE	Nu s-au gasit pietre spirit pentru a fi indepartate.
+CANT_SAVE_THIS_POSITION	Nu poti salva aceasta pozitie.
+NO_EMPTY_SPACE_IN_INVENTORY	Nu exista spatiu in inventarul tau!
+YOU_HAVE_LOWER_LEVEL_THAN_ITEM	Nu ai suficient nivel pentru a folosi acest obiect.
+CANT_TELEPORT_SAVEZONE_IN_DIFFERENT_EMPIRE	Nu poti teleporta intr-o zona de siguranta dintr-un alt imperiu.
+AFFECT_IS_ALREADY_ACTIVE	Acest efect este deja activ.
+NOT_ENOUGH_HP	Nu ai suficienta viata.
+NOT_ENOUGH_SP	Nu ai suficienta energie.
+ACTION_NOT_POSSIBLE_ON_THIS_MAP	Aceasta actiune nu este posibila pe aceasta harta.
+CANT_SET_A_CAMPFIRE_HERE	Nu poti seta un foc de tabara aici.
+CANT_WEAR_SASH_SKIN_IF_NOT_WEAR_SASH	Nu poti purta costumul de curea daca nu porti o curea.
+CANT_WEAR_PET_SKIN_IF_NOT_WEAR_PET	Nu po?i purta costumul de animal de companie dacã nu por?i un animal de companie.
+CANT_WEAR_AURA_SKIN_IF_NOT_WEAR_AURA	Nu po?i purta costumul de aurã dacã nu por?i o ?inutã aurã.
+CANT_WEAR_MOUNT_SKIN_IF_NOT_WEAR_MOUNT	Nu po?i purta costumul de monturã dacã nu por?i o monturã.
+CANT_DO_THIS_WHILE_MOUNTING	Nu po?i face asta în timp ce cãlãre?ti.
+CANT_DO_THIS_IN_DUEL	Nu po?i face asta într-o duelã.
+WAIT_SOME_TIME_TO_DO_THIS_AGAIN	Opera?ie e?uatã, a?teaptã un moment ?i încearcã din nou.
+NEED_2SPACE_IN_INVS	Pentru a deschide acest cufãr, trebuie sã ai 3 spa?ii disponibile în toate inventarele tale.
+NEED_2SPACE_IN_DS_INV	Pentru a deschide acest cufãr, trebuie sã ai 2 spa?ii disponibile în inventarul sufletului de dragon.
+LOWERING_YOUR_SKILL_SUCCEDEED	Coborârea nivelului abilitã?ii a fost reu?itã.
+LOWERING_YOUR_SKILL_FAILED	Coborârea nivelului abilitã?ii a e?uat.
+YOU_HAVE_NO_SKILL_GROUP	Nu po?i face asta dacã nu ai un grup de abilitã?i.
+X_SECONDS_ARE_ADDED	Au fost adãugate %s secunde.
+ADDING_TIME_FAILED	Adãugarea timpului a e?uat.
+SWITCH_BOT_STOP_INFO_1	Ai rãmas fãrã schimbãtoare, switchbotul a fost oprit.
+SWITCH_BOT_STOP_INFO_2	Nu ai suficient yang, switchbotul a fost oprit!
+PET_TEXT_1	Trebuie sã chemi animalul de companie pentru a face asta.
+PET_TEXT_2	Pentru a face asta, animalul tãu de companie trebuie sã fie de cel pu?in nivelul %s.
+PET_TEXT_3	Un nou slot pentru animalul de companie a fost deblocat.
+OFFLINESHOP_TEXT_1	Ai nevoie de %s yang pentru a deschide un magazin.
+OFFLINESHOP_TEXT_2	Po?i crea doar magazine în canalul social.
+OFFLINESHOP_TEXT_3	Po?i crea doar magazine în primele sate.
+OFFLINESHOP_TEXT_4	Te-ai teleportat la magazin.
+OFFLINESHOP_TEXT_5	Te teleportezi la magazin...
+OFFLINESHOP_TEXT_6	Niciun magazin gãsit cu numele selectat.
+OFFLINESHOP_TEXT_7	Timpul magazinului nu poate fi extins mai mult.
+OFFLINESHOP_TEXT_8	Magazinul cu numele selectat nu a fost gãsit.
+OFFLINESHOP_TEXT_9	Dacã nu ai premium, po?i edita pia?a doar atunci când te afli pe aceea?i hartã.
+OFFLINESHOP_TEXT_10	Nu po?i adãuga acest obiect în magazin.
+ACCESSORY_SOCKET_DISSAPEARED	Orele pentru %s au dispãrut.
+WEDDING_TEXT_1	Nu po?i face asta dacã nu e?ti cãsãtorit.
+ITS_NOT_EASY_TO_UNDERSTAND_THIS_BOOK	Nu este u?or sã în?elegi aceastã carte.
+CANT_UPGRADE_WITH_THIS_MORE	Nu po?i face upgrade cu acest obiect în continuare.
+CANT_UPGRADE_YOUR_ABILITY_MORE	Nu po?i face upgrade la aceastã abilitate în continuare.
+UNEQUIP_YOUR_PET	Pentru a face asta, trebuie sã-?i dezarmezi animalul de companie mai întâi.
+PREMIUM_ALREADY_MEMBER	Deja ai premium.
+THE_ITEM_USAGE_LIMIT_EXCEEDED	Limita de utilizare a acestui obiect a fost depã?itã.
+CANT_UPGRADE_ITEM_WITH_LEVEL3_SPIRITS_STONES	+3 Pietre spirit nu pot fi upgrade-ate cu acest obiect.
+CANT_CHANGE_THE_ATTRIBUTE_OF_THIS_ITEM	Nu po?i schimba atributul acestui obiect.
+NO_ATTRIBUTES_TO_CHANE_ON_THE_ITEM	Nu existã atribut de schimbat.
+NO_STONE_TO_CLEAR	Nu existã piatrã spartã de curã?at.
+CHANGE_ATTRIBUTE_WAS_SUCCESFULL	Schimbarea atributului a fost reu?itã.
+YOU_DO_NOT_MEET_THE_NEEDS_OF_THIS_ITEM	Nu îndepline?ti cerin?ele acestui obiect.
+THIS_CAN_BE_USED_IN_ONLY_WEAPONS_ARMORS	Acest lucru poate fi folosit doar pe armuri ?i arme.
+ADDING_ATTRIBUTE_WAS_SUCCESSFULL	Bonusul a fost adãugat cu succes.
+ADDING_ATTRIBUTE_WAS_FAILED	Adãugarea bonusului a e?uat.
+CANT_ADD_MORE_BONUS_TO_THIS_ITEM	Nu po?i adãuga mai multe bonusuri obiectului.
+TO_USE_THIS_YOU_NEED_FOR_BONUSSES_ON_THE_ITEM	Pentru a face asta, obiectul trebuie sã aibã 4 bonusuri.
+ADDING_SOCKET_SUCCESSFULL	Adãugarea prizelor a fost reu?itã!
+ADDING_SOCKET_UNSUCCESSFULL	Adãugarea prizelor a e?uat.
+SOCKET_NOT_ENOUGH_SPACE	Nu po?i adãuga mai multe prize.
+SOCKET_CANT_BE_ADDED_TO_THIS_ITEM	Nu po?i adãuga prize la acest obiect.
+ADDING_JEWEL_SUCCESFULL	Adãugarea minereului a fost reu?itã!
+ADDING_JEWEL_UNSUCCESFULL	Adãugarea minereului a e?uat!
+ADD_JEWEL_INFO_01	Pentru a adãuga minereu, trebuie sã deschizi o prizã.
+ADD_JEWEL_INFO_02	Pentru a adãuga minereu, trebuie sã deschizi o prizã.
+ADD_JEWEL_INFO_03	Pentru a adãuga minereu, trebuie sã deschizi o prizã.
+ADD_JEWEL_INFO_04	Nu po?i adãuga mai multe minerale la obiect.
+PERMANENT_JEWEWL_INFO_01	Nu po?i adãuga minerale permanente la acest obiect.
+PERMANENT_JEWEWL_INFO_02	Doar minerale permanente pot fi adãugate.
+PERMANENT_JEWEWL_INFO_03	Nu po?i adãuga acest mineral la acest obiect.
+PERMANENT_JEWEWL_INFO_04	Nu po?i adãuga minerale permanente la acest obiect.
+FISHING_CANT_CHANGE_BAIT_WHEN_FISHING	Nu po?i schimba momeala în timp ce pescuie?ti.
+FISHING_CHANGED_BAIT_WITH	Ai schimbat momeala cu %s.
+FISHING_ADDED_BAIT	Momeala numitã %s a fost adãugatã la undi?ã!
+CANT_ADD_SAME_SPIRIT_STONES	Nu po?i adãuga pietre spirit de aceea?i calitate de douã ori.
+CANT_ADD_THIS_SPIRIT_STONES_TO_THIS_ITEM	Nu po?i adãuga aceastã piatrã spirit la acest obiect.
+NOT_ENOUGH_SPACE_TO_ADD_SPIRIT_STONE	Nu existã suficient spa?iu pentru a adãuga aceastã piatrã spirit!
+ONLY_OTHER_GENDER_CAN_USE_THIS	Doar genul opus poate folosi asta.
+CANNOT_DO_THIS	Nu pot face asta.
+YOU_CANNOT_CARRY_MORE_YANG	Nu po?i transporta mai mult yang.
+ITEM_IS_SOLD	%s este vândut.
+YOU_CANNOT_DROP_THIS_ITEM	Nu po?i arunca acest obiect.
+ITEM_DROPPED_WILL_DISSAPEAR_IN_MINS	[Avertisment] - Obiectele aruncate pe sol vor dispãrea în 3 minute!
+CANT_DROP_GOLD	Nu po?i arunca yang.
+CANT_MOVE_ITEM_TO_THIS_INVENTORY	Nu po?i muta acest obiect în acest inventar.
+YOU_CANNOT_MOVE_ACTIVE_SWITCHBOT_ITEMS	Nu po?i lua obiectele switchbot active.
+YOU_CANNOT_ADD_THIS_ITEM_TO_SWITCHBOT	Nu po?i adãuga acest obiect la switchbot.
+FULL_SOCKET_WARNING	Priza este plinã, trebuie sã cure?i prizele mai întâi.
+YOU_GAINED_ITEM	Ai primit %s.
+YOU_GAINED_ITEM_INV_TYPE_01	Ai primit %s. Mutat în inventarul de upgrade.
+YOU_GAINED_ITEM_INV_TYPE_02	Ai primit %s. Mutat în inventarul de cãr?i.
+YOU_GAINED_ITEM_INV_TYPE_03	Ai primit %s. Mutat în inventarul de pietre spirit.
+YOU_GAINED_ITEM_INV_TYPE_04	Ai primit %s. Mutat în inventarul general.
+YOU_GAINED_ITEM_INV_TYPE_05	Ai primit %s. Mutat în inventar.
+ITEM_DELETED	%s a fost ?ters.
+UNEQUIP_YOUR_SKIN_FIRST	Trebuie sã-?i dezarmezi costumul pentru a face asta.
+YOU_ALREADY_RIDING_MOUNT	Deja cãlãre?ti.
+ONLY_GROUP_LEADER_CAN_USE_THIS	Doar liderul grupului poate face asta.
+CANT_USE_THIS_WITH_COSTUME	Nu po?i face asta când por?i costumul tuxedo sau rochia de mireasã.
+CANT_USE_COSTUME_WITH_THIS	Nu po?i face asta când por?i costumul.
+YOU_HAVE_TO_STAND_STILL_TO_DO_THIS	Trebuie sã stai pe loc pentru a face asta.
+WRONG_EQUIPMENT_MATCH	Arma ta nu este compatibilã cu costumul tãu de armã.
+CANT_DO_THIS_IF_NOT_WEAR_PET	Nu po?i face asta fãrã sã-?i dezarmezi animalul de companie.
+CANT_DO_THIS_IF_NOT_WEAR_MOUNT	Nu po?i face asta fãrã sã-?i dezarmezi montura.
+CANT_DO_THIS_IF_NOT_WEAR_SASH	Nu po?i face asta fãrã sã-?i dezarmezi e?arfã pe umãr.
+CANT_DO_THIS_IF_NOT_WEAR_AURA	Nu po?i face asta fãrã sã-?i dezarmezi costumul de aurã.
+ALREADY_WEAR_SAME_TYPE_DS	Deja por?i acela?i tip de suflet de dragon.
+CANT_FEED_HORSE_WITH_DRUGS	Nu po?i vindeca calul care este deja în via?ã.
+YOU_ALREADY_HAVE_THIS_HAIRSTLE	Deja ai aceastã coafurã.
+YOU_ALREADY_POLYMORPHED	Deja te-ai polymorphed.
+YOU_CANT_POLYMORPH	Nu po?i face polymorph.
+CANT_POLYMORPH_HIGHER_LEVEL	Nu po?i face polymorph asupra unei fiin?e mai avansate decât tine.
+THIS_ITEM_CANT_BE_USED	Acest obiect nu poate fi folosit.
+CANT_WEAR_THIS_SECOND_TIME	Nu po?i purta asta pentru a doua oarã.
+DS_DEACTIVATE_REQ	Trebuie sã dezactivezi sufletul de dragon pentru a face asta.
+AFFECTS_ARE_NOT_LOADED_YET	Afectele nu au fost încã încãrcate, te rog a?teaptã un moment.
+CANT_DO_THIS_IF_NOT_WEAR_BELT	Nu po?i face asta dacã nu por?i curea.
+CANT_DO_THIS_IF_NOT_UPGRADE_BELT	Nu po?i face asta dacã nu faci upgrade la curea.
+INGAME_SHOP_MSG_01	Nu ai suficient yang de dragon.
+INGAME_SHOP_MSG_02	Nu po?i cumpãra acest obiect în continuare, ai atins limita sãptãmânalã, Limita sãptãmânalã: %s
+INGAME_SHOP_MSG_03	Nu po?i cumpãra acest obiect în continuare, ai atins limita lunarã, Limita lunarã: %s
+INGAME_SHOP_MSG_04	Acest obiect nu este de vânzare.
+INGAME_SHOP_MSG_05	Ai cumpãrat %s %sx pentru %s.
+INGAME_SHOP_MSG_06	Ai cumpãrat %s pentru %s.
+INGAME_SHOP_MSG_07	Magazinul de obiecte a fost actualizat, con?inutul poate fi schimbat...
+CHEST_GIVE_STOP_DROP	Deschiderea cufãrului este opritã, inventarul tãu este plin.
+CHEST_OPEN_COUNT	Numãrul total de cufere deschise %s
+CMD_TALK_20	Cineva s-a conectat la contul tãu. Vei fi deconectat.
+CANT_FEED_DEAD_HORSE	Nu po?i hrãni un cal mort.
+HORSE_FEED_TALK_01	Te-ai hrãnit cu calul.
+DS_TALK_2	Nu po?i extrage sufletul de dragon echipat.
+DS_TALK_3	Extragerea a reu?it.
+DS_TALK_4	Materialul de upgrade gre?it.
+DS_TALK_5	Nu ai suficient yang pentru upgrade.
+DS_TALK_6	Extragerea a e?uat, ai primit %s.
+DS_TALK_7	Nu po?i face upgrade cu acest obiect.
+DS_TALK_8	Rafinarea a e?uat.
+FISHING_TALK_01	Punctele de pescuit au crescut. (%s/%s)
+FISHING_TALK_02	Nu po?i face upgrade la undi?a ta în continuare.
+FISHING_TALK_03	Po?i vizita Pescarul pentru a-?i face upgrade la undi?ã.
+FISHING_TALK_04	Pe?tele s-a pierdut în ape adânci.
+FISHING_TALK_05	Pe?tele are o scoicã în el.
+FISHING_TALK_06	Insereazã %s prin cercuri.
+GUILD_TALK_1	<Guild> Clasamentul a crescut la %s Puncte.
+SAFEBOX_PW_01	Parola seifului tãu a fost schimbatã.
+SAFEBOX_PW_02	Parolã gre?itã.
+CANNOT_CHANGE_CHANNEL	Schimbarea canalului a e?uat.
+USER_BLOCKED_WARP_REQUESTS	Persoana respectivã are cererile de teleportare blocate.
+WINNER_ITEM_01	Ai primit %sx %s, mutat în inventarul de upgrade.
+WINNER_ITEM_02	Ai primit %sx %s, mutat în inventarul de cãr?i.
+WINNER_ITEM_03	Ai primit %sx %s, mutat în inventarul de pietre spirit.
+WINNER_ITEM_04	Ai primit %sx %s, mutat în inventarul general.
+WINNER_ITEM_05	Ai primit %sx %s, mutat în inventar.
+WINNER_ITEM_06	Ai primit %sx %s, mutat în inventarul sufletului de dragon.
+YOU_CANNOT_DO_THIS_WHILE_ANOTHER_WINDOW_IS_OPEN	Trebuie sã închizi toate ferestrele pentru a face asta.
+ARENA_TALK_5	123
+ARENA_TALK_1	Duelul s-a terminat pentru cã rãzboinicul tãu a dispãrut.
+ARENA_TALK_2	Nu existã limitã pentru pocnitori aici.
+ARENA_TALK_3	Po?i folosi %s pocnitori.
+ARENA_TALK_4	Lupta va începe în 10 secunde.
+ARENA_TALK_6	Datoritã unei probleme în arenã, duelul s-a încheiat.
+ARENA_TALK_7	Duelul s-a încheiat pentru cã timpul a expirat.
+ARENA_TALK_8	În decurs de 10 secunde vei fi teleportat în ora?.
+ARENA_TALK_12	%s a câ?tigat.
+ARENA_TALK_13	Urmãtoarea rundã va începe în 10 secunde.
+ARENA_TALK_14	Rãzboinicii au plecat. Duelul s-a încheiat.
+SKILL_TALK_1	Nu po?i face upgrade la aceastã abilitate.
+SKILL_TALK_2	Nu po?i face upgrade la aceastã abilitate la nivelul de Maestru Mare.
+SKILL_TALK_4	E?ti deja un maestru în aceastã abilitate.
+SKILL_TALK_5	Abilitatea ta nu este suficient de avansatã pentru nivelul de Maestru Mare.
+SKILL_TALK_6	Ai finalizat cu succes antrenamentul cu cartea.
+SKILL_TALK_8	Nu po?i citi asta când e?ti atât de neexperimentat.
+SKILL_TALK_9	Nu po?i face upgrade la aceastã abilitate citind o carte.
+SKILL_TALK_10	Aceastã abilitate nu are un nivel suficient pentru a putea fi îmbunãtã?itã citind cãr?i.
+SKILL_TALK_11	E?ti eliberat de blestemul spiritelor malefice cu ajutorul hârtiei de exorcizare a spiritelor malefice.
+SKILL_TALK_12	Trebuie sã cite?ti încã %s cãr?i pentru a îmbunãtã?i aceastã abilitate.
+SKILL_TALK_13	Educa?ia a e?uat. Te rog încearcã din nou mai târziu.
+SKILL_TALK_14	Teleportarea a e?uat.
+SKILL_NOT_UPGRADE_ERROR	Nu po?i face upgrade la aceastã abilitate în continuare.
+SKILL_UPGRADE_SUCCESS	Ai reu?it sã faci upgrade la abilitatea.
+SKILL_UPGRADE_FAIL	?i-a e?uat upgrade-ul abilitã?ii.
+PASSIVE_SKILL_TALK_1	Nu po?i face upgrade la abilitã?ile tale în continuare cu aceastã carte.
+PASSIVE_SKILL_TALK_2	Ai reu?it sã faci upgrade la abilitatea pasivã.
+PASSIVE_SKILL_TALK_3	?i-a e?uat upgrade-ul abilitã?ii pasive.
+PASSIVE_SKILL_TALK_4	Trebuie sã cite?ti încã %s cãr?i cu succes pentru a-?i cre?te abilitatea.
+PASSIVE_SKILL_TALK_5	Numãrul de cãr?i citite: %s.
+CMD_TALK_1	Aceastã comandã nu este disponibilã.
+CMD_TALK_2	Vã rugãm sã introduce?i numele complet al comenzii.
+CMD_TALK_10	Trebuie sã ai acordul partenerului.
+CMD_TALK_11	Aceasta poate fi fãcutã doar cu sexul opus.
+CMD_TALK_12	Nu po?i folosi asta în arenã.
+CMD_TALK_13	Nu pot folosi expresia.
+CMD_TALK_15	Doar femeile pot face asta.
+CMD_TALK_16	Persoana nu a fost gãsitã.
+CMD_TALK_17	Nu pot folosi aceastã abilitate.
+CMD_TALK_18	E?ti foarte aproape.
+CMD_TALK_19	E?ti foarte departe.
+STRING_D1	Deja folose?ti o monturã.
+STRING_D2	Trebuie sã chemi montura mai întâi.
+STRING_D3	Dezactiveazã-?i montura.
+STRING_D4	Mai întâi, ar trebui sã dezmotezi montura.
+STRING_D5	În timp ce e?ti pe monturã, nu po?i hrãni.
+STRING_D6	Ai dat %s monturii tale.
+STRING_D7	Ai nevoie de %s obiect pentru asta.
+STRING_D8	Au rãmas %s secunde.
+STRING_D9	Teleportarea a fost anulatã.
+STRING_D10	Întoarce-te la ecranul de autentificare, te rog a?teaptã.
+STRING_D11	Ies din joc. Te rog a?teaptã.
+STRING_D12	Se schimbã personajul. Te rog a?teaptã.
+STRING_D13	Nu pot sã mã reînvie încã. (încearcã din nou în %s secunde)
+STRING_D14	Reînvierea în ora? nu este încã posibilã. (încearcã din nou în %s secunde)
+STRING_D15	Nu po?i efectua aceastã ac?iune în timp ce e?ti polymorpat.
+STRING_D16	Nu po?i face asta în arenã.
+STRING_D17	Nu po?i face asta pe aceastã hartã.
+STRING_D18	Aceastã persoanã este deja într-o luptã.
+STRING_D19	Trebuie sã te alãturi unei guild pentru asta.
+STRING_D20	Nu po?i schimba nivelul abilitã?ii în guild.
+STRING_D21	Parola pe care ai introdus-o este incorectã.
+STRING_D22	Fereastra de stocare este deja deschisã.
+STRING_D23	Po?i face asta la fiecare 10 secunde.
+STRING_D24	Ceva a mers gre?it, te rog încearcã din nou mai târziu!
+STRING_D25	Nu po?i pãrãsi grupul în timp ce e?ti în dungeon.
+STRING_D26	Ai pãrãsit grupul.
+STRING_D27	Guilda este deja într-o bãtãlie.
+STRING_D28	Nimeni nu este autorizat pentru bãtãlia de guildã.
+STRING_D29	Guilda nu a fost gãsitã.
+STRING_D30	Aceastã Guildã este deja înscrisã pentru o altã bãtãlie de guildã.
+STRING_D31	Guilda ta este deja implicatã într-o altã bãtãlie.
+STRING_D32	Nivelul gildei este prea scãzut pentru a participa la bãtãlie.
+STRING_D33	Sunt necesari cel pu?in %s jucãtori pentru a se alãtura bãtãliei de guildã.
+STRING_D34	Ai declarat rãzboi acestei guilde.
+STRING_D35	Aceastã Guildã este deja înregistratã pentru o altã bãtãlie de guildã.
+STRING_D36	Gilda ta este deja implicatã într-o altã bãtãlie.
+STRING_D37	Nivelul gildei nu are suficiente puncte de clasament pentru a participa la bãtãlie.
+STRING_D38	Gilda nu are suficiente puncte de clasament pentru a participa la bãtãlie.
+STRING_D39	Guilda nu are suficien?i membri pentru a participa la bãtãlia de guildã.
+STRING_D40	Liderul gildei nu este activ.
+STRING_D41	%s a respins invita?ia.
+STRING_D42	Nu existã suficient spa?iu în inventar.
+STRING_D43	Nu po?i accepta invita?ia deoarece deja apar?ii unui grup.
+STRING_D44	Ai aruncat zarul %s. (%s-%s)
+STRING_D45	Nu po?i accesa stocarea în timp ce e?ti în dungeon sau bãtãlie.
+STRING_D46	Nu po?i monta în timp ce e?ti pe aceastã hartã.
+STRING_D47	Nu po?i face asta în timp ce e?ti pe monturã.
+STRING_D48	Utilizare: /channel <numãrul noului canal>.
+STRING_D49	Selecteazã un canal valid, te rog.
+STRING_D50	E?ti deja conectat la canalul %s.
+STRING_D51	E?ti într-un grup. Nu po?i schimba canalele într-un grup.
+STRING_D52	Nu po?i schimba canalele în timp ce e?ti în dungeon.
+STRING_D53	Trebuie sã a?tep?i pu?in pentru a efectua aceastã ac?iune.
+STRING_D54	Nu po?i schimba canalele pe aceastã hartã.
+STRING_D55	Elixirul a fost activat, va fi folosit automat când este necesar.
+STRING_D56	Elixirul a fost dezactivat, nu va mai fi folosit automat când este necesar, trebuie sã-l activezi din nou.
+STRING_D57	Acest sistem este în mentenan?ã. Va fi activat în curând.
+STRING_D58	Setãrile de chat au fost modificate.
+STRING_D59	Nu ai suficiente pietre suflet.
+STRING_D60	Nu ai suficiente materiale.
+STRING_D61	Nu po?i face asta chiar acum.
+STRING_D62	Nu ai suficiente pietre suflet sage.
+STRING_D63	Nu ai suficiente pietre suflet legendare.
+STRING_D64	Nu ai suficiente pietre suflet pentru abilitã?i pasive.
+STRING_D65	Nu ai suficiente pietre suflet sage pentru abilitã?i pasive.
+STRING_D66	Nu ai suficiente pietre suflet legendar pentru abilitã?i pasive.
+STRING_D67	Roata ruletei se învârte.
+STRING_D68	Nu ai suficiente obiecte, nu po?i face asta.
+STRING_D69	Nu ai suficiente monede de dragon, nu po?i face asta.
+STRING_D70	Ai introdus un nume invalid.
+STRING_D71	Trebuie sã dezmotezi înainte de a schimba numele monturii tale.
+STRING_D72	Deja ai acest efect.
+STRING_D73	Numele monturii schimbat cu succes!
+STRING_D74	Numele petului schimbat cu succes!
+STRING_D75	Nu existã suficient spa?iu în inventarul tãu special.
+STRING_D76	Nu existã suficient spa?iu în inventarul tãu.
+STRING_D77	Nu ai suficiente cãr?i pentru a citi.
+STRING_D78	Nu po?i îmbunãtã?i mai mult aceastã abilitate.
+STRING_D79	Nu po?i citi cãr?i fãrã un grup de abilitã?i.
+STRING_D80	Magazinul Gaya a fost reîmprospãtat.
+STRING_D81	Nu ai materialele necesare pentru a reîmprospãta magazinul Gaya.
+STRING_D82	Fereastra de transformare trebuie sã fie deschisã pentru a efectua aceastã ac?iune.
+STRING_D83	Nu ai suficient yang.
+STRING_D84	Opera?iunea a e?uat.
+STRING_D85	Dacã fereastra de tranzac?ionare este deschisã, nu po?i ini?ia o altã tranzac?ie.
+STRING_D86	Al doilea jucãtor este deja în tranzac?ie.
+STRING_D87	Al doilea jucãtor a anulat tranzac?ia.
+STRING_D88	Nu po?i face tranzac?ie cu acest obiect.
+STRING_D89	Nu po?i cumpãra din magazin în timp ce fereastra de quest este deschisã.
+STRING_D90	Inventarul celuilalt jucãtor nu are suficient spa?iu.
+STRING_D91	Tranzac?ia cu %s a fost finalizatã cu succes.
+STRING_D92	Nu po?i face asta, e?ti prea departe.
+STRING_D93	Nu po?i face tranzac?ii cu obiecte echipate.
+STRING_D94	Nu po?i vinde pentru mai mult de 1kkkkk
+STRING_D95	Rewards au fost deja date, ai întârziat prea mult.
+STRING_D96	Ai câ?tigat %s puncte de experien?ã.
+STRING_D97	O luminã misterioasã emanã din copac.
+STRING_D98	Ai câ?tigat %s yang.
+STRING_D99	%s te invitã la o luptã!
+STRING_D100	Lupta cu %s a început.
+STRING_D101	Ai învã?at complet polymorph.
+STRING_D102	Grupul a fost ?ters.
+STRING_D103	?inta nu a fost gãsitã.
+STRING_D104	Prietenul din grup nu se aflã pe aceea?i hartã cu tine.
+STRING_D105	Nu po?i chema ?inta.
+STRING_D106	Nu po?i chema membrii grupului în pozi?ia ta actualã.
+STRING_D107	Vei câ?tiga mai multã experien?ã datoritã cooperãrii grupului tãu.
+STRING_D108	Punctele tale de minat au atins limita. (%s).
+STRING_D109	Punctele de minat ale ciocanului tãu au atins nivelul maxim.
+STRING_D110	Po?i cre?te nivelul ciocanului tãu cu ajutorul tãietorului de lemne.
+STRING_D111	Punctele tale de minat au crescut! (%s/%s)
+STRING_D112	Nu po?i sã sapi fãrã un ciocan în mânã.
+STRING_D113	Nu existã minereuri aici.
+STRING_D114	%s has been deducted as a sales tax.
+STRING_D115	You removed %s from your friends list.
+STRING_D116	%s has been added as a friend.
+STRING_D117	Chat has been banned by an authority.
+STRING_D118	Chat has been banned for %s hours %s minutes %s seconds by an authority.
+STRING_D119	Chat has been banned for %s hours %s seconds by an authority.
+STRING_D120	Chat has been banned for %s minutes %s seconds by an authority.
+STRING_D121	Chat has been banned for %s seconds by an authority.
+STRING_D122	You must be level %s to shout.
+STRING_D123	You are not a member of a group.
+STRING_D124	You couldn't join the guild.
+STRING_D125	You can't add an authority figure to your friends list.
+STRING_D126	%s is not in the game.
+STRING_D127	The person declined the friendship request.
+STRING_D128	You don't have a sufficient level.
+STRING_D129	%s declined the teleport request.
+STRING_D130	You can't move for %s seconds after trading.
+STRING_D131	You are carrying too much yang.
+STRING_D132	The other player is carrying too much yang.
+STRING_D133	This item cannot be moved to the storage.
+STRING_D134	You can't add items to your special inventory because it's full.
+STRING_D135	You can't move items from your special inventory to the storage.
+STRING_D136	You must empty your belt inventory before removing the belt.
+STRING_D137	You can't do this.
+STRING_D138	You can only add elixirs to the belt inventory.
+STRING_D139	The person you invited is not active.
+STRING_D140	The server couldn't fulfill the group request.
+STRING_D141	Only the group leader can do this.
+STRING_D142	The target is not a member of your group.
+STRING_D143	You can't do this while in the dungeon.
+STRING_D144	You can't do this because a group member is in the dungeon.
+STRING_D145	You have been kicked out of the group.
+STRING_D146	You left the group.
+STRING_D147	You can't kick group members.
+STRING_D148	After a guild is disbanded, you can't create a new guild for %s days.
+STRING_D149	After leaving a guild, you can't create a new guild for %s days.
+STRING_D150	You entered an invalid guild name.
+STRING_D151	Guild [%s] has been successfully established.
+STRING_D152	Failed to establish the guild. Please try again.
+STRING_D153	Only the group leader can use group skills.
+STRING_D154	You are not a member of any guild.
+STRING_D155	<Guild> Invalid amount entered.
+STRING_D156	You cannot kick a guild member during a guild battle.
+STRING_D157	You are not part of the same guild as this player.
+STRING_D158	You do not have the authority to remove guild members.
+STRING_D159	You have removed a member from the guild.
+STRING_D160	You do not have permission to change the location name.
+STRING_D161	You cannot change the title of the guild leader.
+STRING_D162	The provided queue name is invalid.
+STRING_D163	You do not have permission to reorganize positions.
+STRING_D164	You cannot change the authority of the guild leader.
+STRING_D165	You cannot perform this action while your experience gain is deactivated.
+STRING_D166	Your guild has already reached the maximum level possible.
+STRING_D167	Deposited %s experience points.
+STRING_D168	An error occurred while attempting to donate experience to the guild.
+STRING_D169	An error occurred while regenerating dragon power.
+STRING_D170	You do not have the permission to write notifications.
+STRING_D171	You do not have the permission to promote someone to a master.
+STRING_D172	You lack the necessary authority to appoint a general.
+STRING_D173	You are no longer able to appoint any more generals.
+STRING_D174	You cannot engage in trade with this item.
+STRING_D175	You are unable to create a marketplace due to your excessive yang.
+STRING_D176	You are prohibited from updating the ranking list for %s seconds.
+STRING_D177	You have successfully activated the Premium Battle Pass for the current season. Enjoy the game!
+STRING_D178	Your skill color has been changed successfully.
+STRING_D179	To perform this action, you must leave the current group.
+STRING_D180	You require a Leadership skill level of M1 or higher to perform this action.
+STRING_D181	Please wait %s seconds before attempting this action.
+STRING_D182	Auto loot functionality has been enabled.
+STRING_D183	Auto loot functionality has been disabled.
+STRING_D184	You do not possess enough %s items to complete this action.
+STRING_D185	Your time to return to the dungeon has expired.
+GUILD_TALK_5	Guild %s defeated guild %s in a guild battle.
+GUILD_TALK_9	<Guild> Guild %s declined the guild battle.
+GUILD_TALK_11	<Guild> You cannot establish a guild.
+GUILD_TALK_12	<Guild> This guild name is already in use.
+GUILD_TALK_13	<Guild> You entered an invalid guild name.
+GUILD_TALK_15	<Guild> You cannot invite during a battle.
+GUILD_TALK_16	<Guild> This player is already a member of another guild.
+GUILD_TALK_18	<Guild> The guild is already in a battle.
+GUILD_TALK_19	<Guild> Membership applications are currently restricted.
+GUILD_TALK_20	<Guild> You cannot invite players from other Kingdoms.
+GUILD_TALK_21	<Guild> You cannot invite someone to the guild.
+GUILD_TALK_22	<Guild> The player declined the guild invitation.
+GUILD_TALK_23	<Guild> Insufficient Yang.
+GUILD_TALK_24	<Guild> The player is offline.
+GUILD_TALK_25	<Guild> The player is currently in channel %s. (Your channel: %s)
+GUILD_TALK_26	<Guild> You cannot use this skill right now.
+GUILD_TALK_27	<Guild> Message cannot be deleted.
+OX_TALK_1	Correct.
+OX_TALK_10	Total number of questions: %s
+MINING_SUCCESSFULL	Mining successful!
+IT_WAS_SUCCESFULL	Operation successful!
+HORSE_FEED_TALK_02	You fed the horse.
+DUNGEON_CHAT_1	You have 20 minutes remaining to complete the dungeon!
+DUNGEON_CHAT_2	You have 15 minutes remaining to complete the dungeon!
+DUNGEON_CHAT_3	You have 10 minutes remaining to complete the dungeon!
+DUNGEON_CHAT_4	You have 5 minutes remaining to complete the dungeon!
+DUNGEON_CHAT_5	You have 1 minute remaining to complete the dungeon, hurry up!
+DUNGEON_CHAT_6	You failed to complete the dungeon, you will be teleported outside in 5 seconds.
+DUNGEON_CHAT_7	You need to defeat %s more monster.
+DUNGEON_CHAT_8	You have successfully completed the quest, the next quest will start in 5 seconds.
+DUNGEON_CHAT_9	You need to destroy %s more metins.
+DUNGEON_CHAT_10	You have successfully completed the dungeon, you will be teleported outside in 30 seconds.
+DUNGEON_CHAT_11	You need to unlock %s more seals.
+DUNGEON_CHAT_12	Kill all monsters.
+DUNGEON_CHAT_13	Destroy all metins.
+DUNGEON_CHAT_14	Get seal keys from creatures and use the keys.
+DUNGEON_CHAT_15	Boss guardian has appeared, defeat it to reach the Boss!
+DUNGEON_CHAT_16	The boss has emerged, defeat the boss to complete the dungeon!
+STRING_D186	Aceasta ac?iune poate fi folositã doar pe armuri ?i arme cu nivelul 40 ?i mai mic.
+STRING_D187	Numãrul de pe?ti rãma?i pentru a-?i cre?te nivelul de Pescuit este %s!
+STRING_D188	Nivelul tãu de Pescuit a crescut, vei atinge urmãtorul nivel atunci când vei prinde încã %s.
+STRING_D189	Dacã este un obiect, po?i face upgrade doar la obiecte cu nivelul 90 sau mai mic.
+STRING_D190	Cu acest obiect, po?i face upgrade doar la obiecte cu nivelul 90 sau mai mare.
+STRING_D191	Ai nevoie de o perioadã de rãcire activã pentru a folosi obiectul de timp.
+STRING_D192	Po?i teleporta doar la prietenii tãi în sate.
+STRING_D193	Acest eveniment nu este activ.
+STRING_D194	Seturi de cãr?i insuficiente!
+STRING_D195	Spa?iu insuficient disponibil!
+STRING_D196	Nu mai sunt cãr?i disponibile!
+STRING_D197	Nu po?i adãuga mai multe cãr?i pe masã.
+STRING_D198	Nu po?i modifica upgrade-ul costumelor temporare.
+STRING_D199	Obiect achizi?ionat. Obiectul achizi?ionat a fost transferat la depozitul pie?ei deoarece nu este spa?iu în inventar.
+STRING_D200	Nu po?i scoate ultimul obiect din magazin. (Dacã vrei sã sco?i ultimul obiect, trebuie sã închizi pia?a)
+STRING_D201	Nu po?i cãuta atât de repede.

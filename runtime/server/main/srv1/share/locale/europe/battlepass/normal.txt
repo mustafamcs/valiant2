@@ -1,0 +1,121 @@
+ Group BattlePass
+{
+	#--#	BattlePassName	BattlePassID	StartTime	EndTime
+	1	normal_november_2021_week_1	1	1694196000	1697371200
+}
+
+Group normal_november_2021_week_1
+{
+	Group Reward
+	{
+		#--#	ItemVnum	ItemCount
+		1	55401	1
+		2	55140	1
+	}
+
+	Group Mission_1
+	{
+		#--#	InfoDesc	InfoName
+		1	type	KILL_MONSTER
+		2	mob_vnum	0
+		3	value	50000
+		#--#	Rewards
+		4	28412	1
+		5	50828	1
+	}
+
+	Group Mission_2
+	{
+		#--#	InfoDesc	InfoName
+		1	type	BP_ITEM_USE
+		2	item_vnum	70038
+		3	count	20000
+		#--#	Rewards
+		4	28437	1
+		5	50827	1
+	}
+
+	Group Mission_3
+	{
+		#--#	InfoDesc	InfoName
+		1	type	BP_ITEM_CRAFT
+		2	item_vnum	0
+		3	count	10
+		#--#	Rewards
+		4	80019	20
+	}
+
+	Group Mission_4
+	{
+		#--#	InfoDesc	InfoName
+		1	type	COMPLETE_DUNGEON
+		2	dungeon_id	0
+		3	count	20
+		#--#	Rewards
+		4	28440	1
+		5	50829	1
+	}
+
+	Group Mission_5
+	{
+		#--#	InfoDesc	InfoName
+		1	type	YANG_COLLECT
+		2	map_idx	0
+		3	value	500000000
+		#--#	Rewards
+		4	80008	200
+	}
+
+	Group Mission_6
+	{
+		#--#	InfoDesc	InfoName
+		1	type	BP_ITEM_USE
+		2	item_vnum	71084
+		3	count	20000
+		#--#	Rewards
+		4	72064	1
+		5	72351	1
+	}
+
+	Group Mission_7
+	{
+		#--#	InfoDesc	InfoName
+		1	type	BP_ITEM_COLLECT
+		2	item_vnum	50513
+		3	count	20
+		#--#	Rewards
+		4	70043	2
+	}
+
+	Group Mission_8
+	{
+		#--#	InfoDesc	InfoName
+		1	type	FISH_FISHING
+		2	item_vnum	0
+		3	count	50
+		#--#	Rewards
+		4	200016	2
+	}
+
+	Group Mission_9
+	{
+		#--#	InfoDesc	InfoName
+		1	type	BP_ITEM_REFINE
+		2	item_vnum	0
+		3	count	100
+		#--#	Rewards
+		4	71032	3
+		5	70039	1
+	}
+
+	Group Mission_10
+	{
+		#--#	InfoDesc	InfoName
+		1	type	BP_MINING
+		2	item_vnum	0
+		3	count	50
+		#--#	Rewards
+		4	50634	2
+	}
+
+}

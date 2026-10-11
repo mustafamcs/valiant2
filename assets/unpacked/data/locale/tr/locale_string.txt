@@ -1,0 +1,576 @@
+CLOSE_WINDOWS_ERROR	Bu iþlemi yapmak için pencereleri kapatmalýsýn.
+WAIT_TO_USE_AGAIN	Bu iþlemi yapabilmek için %s saniye beklemelisin.
+ARENA_TALK_15	Bir savaþa girdiniz. Çýkýþ iptal edildi.
+BATTLEPASS_NOT_COMPLETED_ALL_NORMAL_MISSIONS	Henüz Normal Savaþ Biletindeki tüm görevleri tamamlamadýnýz!
+BATTLEPASS_NOT_COMPLETED_ALL_PREMIUM_MISSIONS	Premium Battle Pass'taki tüm görevleri henüz tamamlamadýnýz!
+BATTLEPASS_NOT_COMPLETED_ALL_EVENT_MISSIONS	Event Battle Pass'taki tüm görevleri henüz tamamlamadýnýz!
+CANT_INCREASE_YOUR_BIOLOG_LEVEL_MORE	Biyolog seviyeni daha fazla geliþtiremezsin.
+X_SUCCESSFULL_Y_UNSUCCESSFULL	%s adet baþarýlý ve %s adet baþarýsýz.
+BATTLEPASS_ALREADY_EARNED_BATTLEPASS_REWARD	Bu Battle Pass için ödülünüzü zaten aldýnýz!
+IT_WAS_FAILED	Ýþlem baþarýsýz oldu.
+TAKE_OFF_YOUR_ARMOR_TO_OPEN_SHOP	Pazar kurabilmek için öncelikle zýrhýný çýkartmalýsýn.
+YOU_CARRY_TOO_MUCH_GOLD_TO_OPEN_SHOP	Üstünde çok fazla para var o sebepten dolayý pazar açamýyorum.
+INVALID_SHOP_NAME	Pazar tabelanýz argo veya küfür içeremez.
+CANT_TRADE_WITH_EQUIPPED_ITEMS	Giyili eþyalarla ticaret yapamazsýn.
+CANT_TRADE_WITH_THIS_ITEM	Bu eþya ile ticaret yapamazsýn.
+EQUIP_YOUR_PICKAXE_FIRST	Öncelikle Kazma takmalýsýn.
+CANNOT_FISH_HERE	Burada balýk tutamazsýn.
+EQUIP_YOUR_ROD_FIRST	Öncelikle Olta takmalýsýn.
+PUT_A_BAIT_TO_YOUR_ROD	Oltada yem takýlý deðil, bunu yapabilmek için yem takmalýsýn.
+CANT_FISH_WITHOUT_ROD	Oltan yokken balýk tutamazsýn.
+PROBLEM_OCCURED_TRY_AGAIN_LATER	Bir sorun oluþtu, daha sonra tekrar deneyin!
+PARTY_REQ_ERR_0	Diðer krallýklarla birlikte grup kuramaz veya ayný gruba katýlamazsýnýz.
+PARTY_REQ_ERR_1	Zindandayken grup oluþturamaz veya birini gruba davet edemezsin.
+PARTY_REQ_ERR_2	Ýzleyici olan bir kiþiyi gruba davet edemezsin.
+PARTY_REQ_ERR_3	Senden 30 seviye yüksek veya düþük biriyle grup olamazsýn.
+PARTY_REQ_ERR_4	Bu kiþiyi gruba davet edemezsin, arada +30 seviye farký var.
+PARTY_REQ_ERR_5	Grup daveti kabul edemezsin.
+PARTY_REQ_ERR_6	Gruba daha fazla üye davet edemezsin.
+PARTY_REQ_ERR_7	Grup limiti aþýldý, bu gruba katýlamazsýn.
+PARTY_REQ_ERR_8	Oyuncu bu grupta deðil.
+PARTY_REQ_ERR_9	Gruba davet etme yetkiniz yok. Sadece grup lideri yollayabilir.
+PARTY_REQ_ERR_10	Zindandeyken gruba katýlamazsýn.
+PARTY_REQ_SENT	%s adlý kiþiye grup isteði gönderdiniz.
+PARTY_REQ_REJECTED	%s kiþisi grup davetini reddetti.
+PARTY_REQ_REJECTED2	%s grup istediðinizi reddetti.
+PARTY_REQ_ALREADY_IN_PARTY	%s kiþisi zaten bir gruba sahip.
+PARTY_JOINED_THE_PARTY	%s gruba katýldý.
+PARTY_JOINED_THE_PARTY2	%s kiþisinin grubuna katýldýn.
+MINING_STOPPED	Kazým durduruldu.
+PLAYER_BUSY_RN	Bu oyuncu þu an meþgul.
+GROUP_LEADER_IS_NOT_ACTIVE_CANT_DO_THIS	Grup lideri aktif deðil, bunu yapamazsýn.
+SAFEBOX_ERR_1	Depo penceresi zaten açýk.
+SAFEBOX_ERR_2	Bunu her 10 saniye'de bir yapabilirsin.
+CANT_TELEPORT_THIS_PLAYER	Bu oyuncuya ýþýnlanamazsýnýz.
+THIS_PLAYER_IS_OFFLINE	Oyuncu çevrýmdýþý.
+OTHER_CHANNEL_ERR	Oyuncu bu kanalda deðil, bulunduðu kanal %s. (Sizin bulunduðunuz kanal %s)
+THIS_WINDOW_IS_ALREADY_OPEN	Bu pencere zaten açýk!
+CLOSE_OTHER_WINDOWS_TO_DO_THIS	Bunu yapmak için diðer pencereleri kapatmalýsýn.
+CANT_ADD_LOCKED_ITEMS	Kullanýlan nesneyi seçemezsin.
+ONLY_SAME_GRADE_CAN_COMBINED	Sadece ayný sýnýfa sahip kuþaklar birleþtirilebilir.
+ABSORBPTION_CHANGE_IS_MAX	Nesne zaten maksimum emiþe sahip, daha fazla yükseltemezsin.
+ONLY_ARMOR_WEARPON_CAN_BE_ABSORBED	Bu nesneye sadece silah ve zýrh emdirilebilir.
+NOT_ENOUGH_YANG	Yeterli yanga sahip deðilsin.
+INVALID_ACTION	Geçersiz iþlem!
+NEW_ABSORB_RATE	Yeni emiþ oraný: %s
+CANT_USE_THIS_WITH_NON_SASH_ITEMS	Bu iþlemi omuz kuþaðý dýþýndaki nesnelere yapamazsýn.
+CANT_USE_THIS_WITH_NON_AURA_ITEMS	Bu iþlemi aura dýþýndaki nesnelere yapamazsýn.
+ITEM_HAS_NO_ABSORBTION	Bu eþyaya emdirilen bir nesne yok!
+POLY_BLOCKED_WITH_THIS	Dönüþümdeyken bunu yapamazsýn.
+CHANNEL_SWITCH_0	%s saniye sonra kanal deðiþtirilecek.
+CHANNEL_SWITCH_1	Kanal deðiþtiriliyor.
+MULTIFARM_ACTIVATED	Eþya kazanýmý aktif edildi.
+MULTIFARM_DEACTIVATED	Eþya kazanýmý aktif edildi.
+MULTIFARM_MULTIACC_LIMIT	Eþya kazanýmýný 2 hesaptan fazla hesapla aktifleþtirilemez.
+GLOBAL_ERR_OCCURED	Bir hata oluþtu lütfen tekrar deneyin.
+AURA_INVALID_ITEM_TYPE	Geçersiz eþya seçildi, sadece iç ekipmanlar emdirilebilir.
+AURA_RUNIC_ITEM_NOT_FOUND	Sadece aura runiði ile bunu yapabilirsin.
+AURA_RUNIC_ICE_SHOULD_BE_USED	Bu iþlem için Auranýn buz runiði kullanmalýsýn.
+AURA_RUNIC_FIRE_SHOULD_BE_USED	Bu iþlem için Auranýn ateþ runiði kullanmalýsýn.
+AURA_ABS_REMOVE_ATTR	Emdirilen bonuslar baþarýyla silindi.
+YOU_DO_NOT_HAVE_ENOUGH_GEM_SLOT_OPENER	Gaya açýcýsýna sahip deðilsin.
+YOUR_BIOLOG_LEVEL_INCREASED	Biyolog seviyeniz yükseldi.
+GM_MESSENGER_IN_YOU_BLOCK	Sohbetiniz yetkili tarafýndan bloklandý.
+BUFF_MSG_01	%s bonusu üstünüzdeki orandan az olduðu için eklenemedi. Eklenilmeye çalýþýlan oran: (%s%%) Üzerinizdeki oran: (%s%%)
+BUFF_MSG_02	%s bonusu baþarýyla eklendi. Yeni oran: (%s%%) Eski oran: (%s%%)
+WARNING_DRAGON_GOD	Ejderha Tanrýnýn korumasýnda olduðun için tecrübe kaybetmedin.
+WARNING_DRAGON_GOD2	Ejderha Tanrýnýn korumasýnda olduðun için hiç bir nesne kaybetmedin.
+GUILDWAR_WARNING_NO_ADVANTAGE_HUNTING	Lonca savaþý sýrasýnda avlanmanýn herhangi bir avantajý yok.
+DS_TALK_1	Ejderha Simyasý þu an aktif deðil.
+HORSE_TALK_1	Bineði çaðýrma iþlemi baþarýsýz oldu.
+SAFEBOX_ERR	Girdiðiniz þifre yanlýþ.
+REFINE_FREE_UPGRADE_BELLOW_20	Ücretsiz yükseltme öðeleri yalnýzca 20 veya daha az seviyeli silahlar için mevcuttur.
+CANT_UPGRADE_THIS_ITEM	Bu eþyayý yükseltemezsin.
+NOT_ENOUGH_MATERIAL	Yeterli malzemeye sahip deðilsin.
+CAN_NOT_UPGRADE_WITH_THIS_ITEM_MORE	Bu eþyayla daha fazla yükseltme yapamazsýn.
+CAN_ONLY_UPGRADE_ITEMS_MORE_THAN	Bu nesneyle sadece %s seviye üstü nesneleri yükseltebilirsin.
+DEVILTOWER_UPGRADE_MSG	Þeytan kulesinde sadece bir kez yükseltme yapabilirsin.
+CANT_COMBINE_SIMILAR_REFINE_ITEMS	Benzer yükseltme nesnelerini birleþtiremezsin.
+MAGIC_STONE_REFINE_CAN_BE_COMBINED	Büyülü Metal ve Kutsama Kaðýdý birleþtirilebilir.
+NO_SPIRIT_STONES_TO_REMOVE	Çýkartýlacak zihin taþý bulunamadý.
+CANT_SAVE_THIS_POSITION	Bu bölgeyi kaydedemezsiniz.
+NO_EMPTY_SPACE_IN_INVENTORY	Bunu yapabilmek envanterinde yer olmasý lazým!
+YOU_HAVE_LOWER_LEVEL_THAN_ITEM	Seviyeniz nesnenin gerekli seviyesinden daha düþük.
+CANT_TELEPORT_SAVEZONE_IN_DIFFERENT_EMPIRE	Yabancý Krallýkta güvenli bir yere ýþýnlanamazsýn
+AFFECT_IS_ALREADY_ACTIVE	Bu etki zaten aktif.
+NOT_ENOUGH_HP	Yeterli yaþam puanýna sahip deðilsin.
+NOT_ENOUGH_SP	Yeterli mana puanýna sahip deðilsin.
+ACTION_NOT_POSSIBLE_ON_THIS_MAP	Bu iþlem bu haritada yapýlamaz.
+CANT_SET_A_CAMPFIRE_HERE	Burada kamp ateþi yakamazsýnýz.
+CANT_WEAR_SASH_SKIN_IF_NOT_WEAR_SASH	Omuz kuþaðý takýlý deðilken omuz kuþaðý kostümü takýlamaz.
+CANT_WEAR_PET_SKIN_IF_NOT_WEAR_PET	Evcil hayvanýn takýlý deðilken evcil hayvan kostümü takýlamaz.
+CANT_WEAR_AURA_SKIN_IF_NOT_WEAR_AURA	Aura kýyafeti takýlý deðilken aura kýyafeti kostümü takýlamaz.
+CANT_WEAR_MOUNT_SKIN_IF_NOT_WEAR_MOUNT	Binek takýlý deðilken binek kostümü takýlamaz.
+CANT_DO_THIS_WHILE_MOUNTING	Binekteyken bu iþlemi yapamazsýn.
+CANT_DO_THIS_IN_DUEL	Savaþtayken bunu yapamazsýn.
+WAIT_SOME_TIME_TO_DO_THIS_AGAIN	Ýþlem baþarýsýz. Lütfen bu iþlemi birkaç saniye bekleyip tekrar deneyin.
+NEED_2SPACE_IN_INVS	Sandýðý açabilmek için tüm envanterlerinde en az 3 slotluk boþ alana sahip olmalýsýn.
+NEED_2SPACE_IN_DS_INV	Sandýðý açabilmek için simya envanterlerinde 2 slotluk boþluða sahip olmalýsýn.
+LOWERING_YOUR_SKILL_SUCCEDEED	Baþarýyla beceri seviyeni düþürdün.
+LOWERING_YOUR_SKILL_FAILED	Beceri seviyesi düþürme baþarýsýz oldu.
+YOU_HAVE_NO_SKILL_GROUP	Beceri grubu seçmeden bu iþlemi yapamazsýn.
+X_SECONDS_ARE_ADDED	%s saniye eklendi.
+ADDING_TIME_FAILED	Süre eklemesi baþarýsýz oldu.
+SWITCH_BOT_STOP_INFO_1	Efsun nesneniz bittiðinden dolayý efsun botu durduruldu
+SWITCH_BOT_STOP_INFO_2	Yeterli yanga sahip olmadýðýnýzdan dolayý efsun botu durduruldu!
+PET_TEXT_1	Bunu yapabilmek için evcil hayvanýnýzý çaðýrmalýsýnýz.
+PET_TEXT_2	Evcil hayvan seviyesi %s olmadan bunu yapamazsýn.
+PET_TEXT_3	Yeni beceri slotu açýldý.
+OFFLINESHOP_TEXT_1	Pazar oluþturmak için en az %s yang'a ihtiyacýn var.
+OFFLINESHOP_TEXT_2	Sadece ortak kanalda pazar oluþturabilirsin.
+OFFLINESHOP_TEXT_3	Sadece birinci köylerde pazar oluþturabilirsin.
+OFFLINESHOP_TEXT_4	Seçili eþyayý içeren pazara ýþýnlandýn.
+OFFLINESHOP_TEXT_5	Seçili eþyayý içeren pazara ýþýnlanýyorsun...
+OFFLINESHOP_TEXT_6	Seçili isme sahip pazar bulunamadý.
+OFFLINESHOP_TEXT_7	Pazar süresi daha fazla uzatýlamaz.
+OFFLINESHOP_TEXT_8	Seçili isme sahip pazar bulunamadý.
+OFFLINESHOP_TEXT_9	Premiuma sahip deðilsen pazarýný sadece ayný haritadayken düzenleyebilirsin.
+OFFLINESHOP_TEXT_10	Bu eþya pazara eklenemez.
+ACCESSORY_SOCKET_DISSAPEARED	%s cevherinin süresi bitti.
+WEDDING_TEXT_1	Evli deðilsen bunu yapamazsýn.
+ITS_NOT_EASY_TO_UNDERSTAND_THIS_BOOK	Bu kitabý anlamak kolay deðil.
+CANT_UPGRADE_WITH_THIS_MORE	Bu eþyayla daha fazla yükseltme yapamazsýn.
+CANT_UPGRADE_YOUR_ABILITY_MORE	Bu becerini daha fazla geliþtiremezsin.
+UNEQUIP_YOUR_PET	Bu iþlemi yapmak için önce evcil hayvanýný çýkartmalýsýn.
+PREMIUM_ALREADY_MEMBER	Zaten premiuma sahipsin.
+THE_ITEM_USAGE_LIMIT_EXCEEDED	Bu eþyanýn kullaným limiti aþýldý.
+CANT_UPGRADE_ITEM_WITH_LEVEL3_SPIRITS_STONES	+3 Zihin taþlarý bu eþya ile yükseltilemez.
+CANT_CHANGE_THE_ATTRIBUTE_OF_THIS_ITEM	Bu eþyanýn yükseltilmesini deðiþtiremezsin.
+NO_ATTRIBUTES_TO_CHANE_ON_THE_ITEM	Öðenin deðiþtirebileceðiniz hiçbir efsunu yok.
+NO_STONE_TO_CLEAR	Burada temizlenebilir taþ yok.
+CHANGE_ATTRIBUTE_WAS_SUCCESFULL	Öðenin efsunu baþarýyla deðiþtirildi.
+YOU_DO_NOT_MEET_THE_NEEDS_OF_THIS_ITEM	Bu eþya için gerekli özellikleri karþýlamýyorsunuz.
+THIS_CAN_BE_USED_IN_ONLY_WEAPONS_ARMORS	Bu nesne sadece silahlarda ve zýrhlarda kullanýlabilir.
+ADDING_ATTRIBUTE_WAS_SUCCESSFULL	Bonus baþarýyla eklendi.
+ADDING_ATTRIBUTE_WAS_FAILED	Bonus eklemesi baþarýsýz oldu.
+CANT_ADD_MORE_BONUS_TO_THIS_ITEM	Bu nesneye daha fazla yükseltme ekleyemezsin.
+TO_USE_THIS_YOU_NEED_FOR_BONUSSES_ON_THE_ITEM	Bunu yapabilmek için nesnenin dört bonusa sahip olmasý gerek.
+ADDING_SOCKET_SUCCESSFULL	Soket açma baþarýlý!
+ADDING_SOCKET_UNSUCCESSFULL	Soket açma baþarýsýz oldu.
+SOCKET_NOT_ENOUGH_SPACE	Bu nesneye daha fazla soket ekleyemezsin.
+SOCKET_CANT_BE_ADDED_TO_THIS_ITEM	Bu nesneye soket ekleyemezsin.
+ADDING_JEWEL_SUCCESFULL	Cevher ekleme baþarýlý!
+ADDING_JEWEL_UNSUCCESFULL	Cevher ekleme baþarýsýz oldu!
+ADD_JEWEL_INFO_01	Cevher ekleyebilmek için öncelikle nesneye soket açmalýsýnýz.
+ADD_JEWEL_INFO_02	Nesneye soket açmadan cevher ekleyemezsin.
+ADD_JEWEL_INFO_03	Cevher eklemeden önce soket açmalýsýnýz.
+ADD_JEWEL_INFO_04	Bu eþyaya daha fazla cevher ekleyemezsin.
+PERMANENT_JEWEWL_INFO_01	Ekipmana süresiz cevher ekleyemezsin.
+PERMANENT_JEWEWL_INFO_02	Ekipmana sadece süresiz cevher eklenebilir.
+PERMANENT_JEWEWL_INFO_03	Bu nesneye bu cevheri ekleyemezsin.
+PERMANENT_JEWEWL_INFO_04	Ekipmana süresiz cevher ekleyemezsin.
+FISHING_CANT_CHANGE_BAIT_WHEN_FISHING	Balýk tutarken yemi deðiþtiremezsin.
+FISHING_CHANGED_BAIT_WITH	Yemi %s ile deðiþtirdin.
+FISHING_ADDED_BAIT	%s isimli yem oltaya takýldý!
+CANT_ADD_SAME_SPIRIT_STONES	Ayný tipe sahip çok sayýda zihin taþý ekleyemezsin.
+CANT_ADD_THIS_SPIRIT_STONES_TO_THIS_ITEM	Bu zihin taþý bu nesneye eklenemez.
+NOT_ENOUGH_SPACE_TO_ADD_SPIRIT_STONE	Zihin taþýný eklemek için yeterli alan yok!
+ONLY_OTHER_GENDER_CAN_USE_THIS	Bu nesneyi sadece diðer cinsiyete sahip kiþiler kullanabilir.
+CANNOT_DO_THIS	Bu iþlemi yapamam.
+YOU_CANNOT_CARRY_MORE_YANG	Daha fazla yang taþýyamazsýnýz.
+ITEM_IS_SOLD	%s adlý eþya satýldý.
+YOU_CANNOT_DROP_THIS_ITEM	Bu eþyayý yere atamazsýnýz.
+ITEM_DROPPED_WILL_DISSAPEAR_IN_MINS	[Uyarý] - Yere atýlan eþyalar 3 dakika içerisinde yerden yok olacak!
+CANT_DROP_GOLD	Yere yang atamazsýn.
+CANT_MOVE_ITEM_TO_THIS_INVENTORY	Bu eþya bu envantere taþýnamaz.
+YOU_CANNOT_MOVE_ACTIVE_SWITCHBOT_ITEMS	Aktif olarak efsunlanan nesneyi alamazsýn.
+YOU_CANNOT_ADD_THIS_ITEM_TO_SWITCHBOT	Bu eþyayý efsunlayamazsýn.
+FULL_SOCKET_WARNING	Soket dolu, ilk önce soketi boþaltmalýsýn.
+YOU_GAINED_ITEM	%s nesnesini kazandýn.
+YOU_GAINED_ITEM_INV_TYPE_01	%s nesnesini kazandýn. Yükseltme envanterine eklendi.
+YOU_GAINED_ITEM_INV_TYPE_02	%s nesnesini kazandýn. Kitap envanterine eklendi.
+YOU_GAINED_ITEM_INV_TYPE_03	%s nesnesini kazandýn. Taþ envanterine eklendi.
+YOU_GAINED_ITEM_INV_TYPE_04	%s nesnesini kazandýn. Genel eþya envanterine eklendi.
+YOU_GAINED_ITEM_INV_TYPE_05	%s nesnesini kazandýn. Normal envanterine eklendi.
+ITEM_DELETED	%s nesnesi silindi.
+UNEQUIP_YOUR_SKIN_FIRST	Bunu yapabilmek için önce bu nesnenin kostümünü çýkarmalýsýn.
+YOU_ALREADY_RIDING_MOUNT	Zaten binek kullanýyorsun.
+ONLY_GROUP_LEADER_CAN_USE_THIS	Sadece grup lideri bunu yapabilir.
+CANT_USE_THIS_WITH_COSTUME	Bu smokin veya gelinlik giyiliyken bunu yapamazsýn.
+CANT_USE_COSTUME_WITH_THIS	Kostüm giyiliyken bunu yapamazsýn.
+YOU_HAVE_TO_STAND_STILL_TO_DO_THIS	Bunu yapabilmek için hareketsiz olmalýsýn.
+WRONG_EQUIPMENT_MATCH	Silahýnýzla, silah kostümünüz uyumlu deðil.
+CANT_DO_THIS_IF_NOT_WEAR_PET	Evcil hayvan takýlý deðilken bunu yapamazsýn.
+CANT_DO_THIS_IF_NOT_WEAR_MOUNT	Bineðin takýlý deðilken bunu yapamazsýn.
+CANT_DO_THIS_IF_NOT_WEAR_SASH	Omuz kuþaðý takýlý deðilken bunu yapamazsýn.
+CANT_DO_THIS_IF_NOT_WEAR_AURA	Aura kýyafeti takýlý deðilken bunu yapamazsýn.
+ALREADY_WEAR_SAME_TYPE_DS	Ayný türde simya taþý zaten takýlý.
+CANT_FEED_HORSE_WITH_DRUGS	Canlý bir atý ilaçlarla besleyemezsin.
+YOU_ALREADY_HAVE_THIS_HAIRSTLE	Bu saç stiline zaten sahipsin.
+YOU_ALREADY_POLYMORPHED	Zaten dönüþmüþ haldesin.
+YOU_CANT_POLYMORPH	Þu an dönüþemezsin.
+CANT_POLYMORPH_HIGHER_LEVEL	Senden yüksek seviyeye sahip bir yaratýða dönüþemezsin.
+THIS_ITEM_CANT_BE_USED	Bu nesne kullanýlamaz.
+CANT_WEAR_THIS_SECOND_TIME	Ayný türe sahip bir eþya zaten giyili.
+DS_DEACTIVATE_REQ	Öncelikle simyaný devre dýþý býrakmalýsýn.
+AFFECTS_ARE_NOT_LOADED_YET	Etkiler henüz yüklenmedi, lütfen biraz bekleyin.
+CANT_DO_THIS_IF_NOT_WEAR_BELT	Kemer takýlý deðilken bunu yapamazsýn.
+CANT_DO_THIS_IF_NOT_UPGRADE_BELT	Kemerini yükseltmeden bunu yapamazsýn.
+INGAME_SHOP_MSG_01	Yeterli ejderha parasýna sahip deðilsin.
+INGAME_SHOP_MSG_02	Bu eþyadan daha fazla alamazsýnýz, haftalýk limiti aþtýnýz, Haftalýk limit: %s
+INGAME_SHOP_MSG_03	Bu eþyadan daha fazla alamazsýnýz, aylýk limiti aþtýnýz, Aylýk limit: %s
+INGAME_SHOP_MSG_04	Bu eþya satýlýk deðil.
+INGAME_SHOP_MSG_05	%s nesnesinden %s adet %s karþýlýðýnda satýn alýndý.
+INGAME_SHOP_MSG_06	%s nesnesinden %s karþýlýðýnda satýn alýndý.
+INGAME_SHOP_MSG_07	Nesne market güncellendi! Ýçeriði deðiþmiþ olabilir...
+CHEST_GIVE_STOP_DROP	Envanterinde yeterli alan olmadýðýndan dolayý sandýk açýmý durduruldu.
+CHEST_OPEN_COUNT	Açýlan toplam sandýk sayýsý %s
+CMD_TALK_20	Biri hesabýnýza giriþ yaptý. Baðlantýnýz kesilecek.
+CANT_FEED_DEAD_HORSE	Ölü atý besleyemezsin.
+HORSE_FEED_TALK_01	Atý otlarla beslediniz.
+DS_TALK_2	Ejderha Ruhu giyili olduðu için çýkartýlamaz.
+DS_TALK_3	Simya çýkartma baþarýlý.
+DS_TALK_4	Yanlýþ güçlendirme materyali.
+DS_TALK_5	Yükseltme için yeterli Yang yok.
+DS_TALK_6	Çýkartmayý baþaramadýn ve %s kazandýn.
+DS_TALK_7	Bu nesne ile yüseltemezsin.
+DS_TALK_8	Simya arýndýrma baþarýsýz.
+FISHING_TALK_01	Balýkçýlýk puaný yükseltdi. (%s/%s)
+FISHING_TALK_02	Oltaný daha fazla yükseltemezsin.
+FISHING_TALK_03	Oltaný yükseltmek için balýkçýyý ziyaret edebilirsin.
+FISHING_TALK_04	Balýk derin suda kayboldu.
+FISHING_TALK_05	Balýðýn içinde bir istiridye var.
+FISHING_TALK_06	Çemberlerden geçerek %s yerleþtir.
+GUILD_TALK_1	<Lonca> Sýralama %s Puana yükseldi.
+SAFEBOX_PW_01	Depo þifren deðiþtirildi.
+SAFEBOX_PW_02	Girilen þifre yanlýþ.
+CANNOT_CHANGE_CHANNEL	Kanal deðiþtirme iþlemi baþarýsýz.
+USER_BLOCKED_WARP_REQUESTS	Bu kiþi ýþýnlanma isteklerini bloklamýþ.
+WINNER_ITEM_01	%s adet %s nesnesinden kazandýn, nesne yükseltme envanterine aktarýldý.
+WINNER_ITEM_02	%s adet %s nesnesinden kazandýn, nesne kitap envanterine aktarýldý.
+WINNER_ITEM_03	%s adet %s nesnesinden kazandýn, nesne taþ envanterine aktarýldý.
+WINNER_ITEM_04	%s adet %s nesnesinden kazandýn, nesne genel eþya envanterine aktarýldý.
+WINNER_ITEM_05	%s adet %s nesnesinden kazandýn, nesne envanterine aktarýldý.
+WINNER_ITEM_06	%s adet %s nesnesinden kazandýn, nesne simya envanterine aktarýldý.
+CLOSE_WINDOWS_ERROR	Bu iþlemi yapmak için pencereleri kapatmalýsýn.
+WAIT_TO_USE_AGAIN	Bu iþlemi yapabilmek için %s saniye beklemelisin.
+YOU_CANNOT_DO_THIS_WHILE_ANOTHER_WINDOW_IS_OPEN	Baþka pencere açýkken bunu yapamazsýn.
+ARENA_TALK_5	123
+ARENA_TALK_1	Düello bitti çünkü savaþçýnýz gözden kayboldu.
+ARENA_TALK_2	Burada iksirler için herhangi bir sýnýrlama yok.
+ARENA_TALK_3	%s iksir kullanabilirsiniz.
+ARENA_TALK_4	Savaþ 10 saniye içerisinde baþlayacak.
+ARENA_TALK_6	Arenadaki bir problemlemden dolayý düello bitti.
+ARENA_TALK_7	Süre bittiði için düello sona erdi.
+ARENA_TALK_8	10 saniye içerisinde þehre ýþýnlanmýþ olacaksýnýz.
+ARENA_TALK_12	%s kazandý.
+ARENA_TALK_13	Bir sonraki raund 10 saniye içerisinde baþlayacak.
+ARENA_TALK_14	Savaþçýlar ayrýldý. Düello sona erdi.
+SKILL_TALK_1	Bu beceriyi geliþtiremezsiniz.
+SKILL_TALK_2	Bu beceriyi Grand Master seviyesine geliþtiremezsiniz.
+SKILL_TALK_4	Zaten bu beceride master konumundasýn.
+SKILL_TALK_5	Becerin Grand Master seviyesi için yeterince yüksek deðil.
+SKILL_TALK_6	Kitapla olan eðitimini baþarýyla tamamladýn.
+SKILL_TALK_8	Bu kadar tecrübesizken bunu okuyamazsýn.
+SKILL_TALK_9	Bu beceriyi kitap okuyarak geliþtiremezsin.
+SKILL_TALK_10	Bu becerin kitap okuyarak geliþtirebilmek için yeterli seviyede deðil.
+SKILL_TALK_11	Kötü ruhlarýn lanetinden Kötü ruh kovma kaðýdý yardýmýyla kurtuldun.
+SKILL_TALK_12	Bu beceriyi geliþtirebilmek için %s kitap daha okumalýsýn.
+SKILL_TALK_13	Eðitim baþarýsýz. Lütfen sonra tekrar deneyin.
+SKILL_TALK_14	Iþýnlama baþarýsýz.
+SKILL_NOT_UPGRADE_ERROR	Bu beceriyi daha fazla yükseltemezsin.
+SKILL_UPGRADE_SUCCESS	Beceriyi yükseltmede baþarýlý oldun.
+SKILL_UPGRADE_FAIL	Beceriyi yükseltmede baþarýsýz oldun.
+PASSIVE_SKILL_TALK_1	Bu kitapla daha fazla becerini yükseltemezsin.
+PASSIVE_SKILL_TALK_2	Pasif beceriyi yükseltmede baþarýlý oldun.
+PASSIVE_SKILL_TALK_3	Pasif beceriyi yükseltmede baþarýsýz oldun.
+PASSIVE_SKILL_TALK_4	Becerinin yükseltilmesi için %s kitap daha baþarýyla okumalýsýn.
+PASSIVE_SKILL_TALK_5	Okunan kitap sayýsý: %s .
+CMD_TALK_1	Bu düzenleme mevcut deðil.
+CMD_TALK_2	Lütfen düzenlemenin tam ismini giriniz.
+CMD_TALK_10	Bunun için eþinin onayý gerekli.
+CMD_TALK_11	Bu sadece diðer cinsle birlikte yapýlabilir.
+CMD_TALK_12	Bunu arenada kullanamazsýn.
+CMD_TALK_13	Ýfadeyi kullanamam.
+CMD_TALK_15	Bunu sadece bayanlar yapabilir.
+CMD_TALK_16	Kiþi bulunamadý.
+CMD_TALK_17	Bu beceriyi kullanamam.
+CMD_TALK_18	Çok yakýnsýn.
+CMD_TALK_19	Çok uzaksýn.
+STRING_D1	Zaten bir binek kullanýyorsun.
+STRING_D2	Öncelikle bineðini çaðýrmalýsýn.
+STRING_D3	Bineðini geri gönder.
+STRING_D4	Öncelikle bineðinden inmelisin.
+STRING_D5	Bineðin üzerindeyken bineði besleyemezsin.
+STRING_D6	Bineðine %s verdin.
+STRING_D7	Bunu yapmak için %s nesnesine ihtiyacýn var.
+STRING_D8	%s saniye kaldý.
+STRING_D9	Iþýnlanma iptal edildi.
+STRING_D10	Giriþ ekranýna dön, Lütfen bekleyin.
+STRING_D11	Oyun sonu yap. Lütfen bekleyin.
+STRING_D12	Karakter ekranýna geri dön. Lütfen bekleyin.
+STRING_D13	Henüz yeniden doðamam. (%s saniye sonra tekrar deneyin)
+STRING_D14	Þu an þehirde doðmam mümkün deðil. (%s saniye sonra tekrar deneyin)
+STRING_D15	Bu iþlemi dönüþmüþken yapamazsýnýz.
+STRING_D16	Bunu arenada yapamazsýn.
+STRING_D17	Bunu bu haritada yapamazsýn.
+STRING_D18	Bu kiþi zaten savaþta.
+STRING_D19	Bunu yapabilmek için bir loncaya üye olmalýsýn.
+STRING_D20	Lonca becerilerinin seviyesini deðiþtiremezsin.
+STRING_D21	Girdiðiniz þifre yanlýþ.
+STRING_D22	Depo penceren zaten açýk.
+STRING_D23	Bunu 10 saniyede bir yapabilirsin.
+STRING_D24	Bir sorun oluþtu, daha sonra tekrar deneyin!
+STRING_D25	Zindandayken gruptan ayrýlamazsýn.
+STRING_D26	Gruptan ayrýldýn.
+STRING_D27	Loncan zaten savaþta.
+STRING_D28	Lonca savaþý için kimse yetkilendirilmedi.
+STRING_D29	Lonca bulunamadý.
+STRING_D30	Bu Lonca zaten savaþa katýlýyor.
+STRING_D31	Lonca savaþýna katýlmak için yeterli para yok.
+STRING_D32	Bu loncanýn savaþa katýlmak için yeterli parasý yok.
+STRING_D33	Bu loncaya savaþ ilan ettin.
+STRING_D34	Bu Lonca zaten baþka bir lonca savaþý için kayýt edilmiþ.
+STRING_D35	Loncanýz zaten baþka bir savaþa katýlýyor.
+STRING_D36	Lonca seviyesi savaþa katýlabilmek için çok düþük.
+STRING_D37	En az %s oyuncu Lonca savaþýna katýlmalý.
+STRING_D38	Lonca bir savaþta yer almak için yeterince sýralama puanýna sahip deðil.
+STRING_D39	Lonca, lonca savaþýna katýlabilmek için yeterli üyeye sahip deðil.
+STRING_D40	Lonca lideri aktif deðil.
+STRING_D41	%s daveti reddetti.
+STRING_D42	Envanterde yeterli alan yok.
+STRING_D43	Daveti kabul edemezsin zaten bir grubun var.
+STRING_D44	Zar attýn %s. (%s-%s)
+STRING_D45	Zindandayken yada savaþtayken depoyu açamazsýn.
+STRING_D46	Bu haritada bineðe binemezsiniz.
+STRING_D47	Binekteyken bunu yapamazsýnýz.
+STRING_D48	Kullaným: /channel <yeni kanal numarasý>.
+STRING_D49	Lütfen geçerli bir kanal seçin.
+STRING_D50	Zaten %s kanalýna baðlýsýnýz.
+STRING_D51	Ortak kanaldasýn. Ortak kanalda ch deðiþtiremezsin.
+STRING_D52	Zindandayken kanal deðiþtiremezsin.
+STRING_D53	Bu iþlemi yapmak için biraz beklemelisin.
+STRING_D54	Bu haritada kanal deðiþtiremezsiniz.
+STRING_D55	Ýksir aktif edildi, ihtiyacýn olduðunda otomatik kullanýlacak.
+STRING_D56	Ýksir deaktif edildi, ihtiyacýn olduðunda otomatik kullanýlmayacak, tekrar aktif etmelisin.
+STRING_D57	Bu sistem bakýmda. En kýsa süre içerisinde aktif edilecektir.
+STRING_D58	Sohbet ayarlarýnýz deðiþtirildi.
+STRING_D59	Yeterli ruh taþýna sahip deðilsin.
+STRING_D60	Yeterli malzemen yok.
+STRING_D61	Þimdi bunu yapamazsýn.
+STRING_D62	Yeterli sage ruh taþýna sahip deðilsin.
+STRING_D63	Yeterli legendary ruh taþýna sahip deðilsin.
+STRING_D64	Yeterli pasif beceri ruh taþýna sahip deðilsin.
+STRING_D65	Yeterli pasif beceri sage ruh taþýna sahip deðilsin.
+STRING_D66	Yeterli pasif beceri legendary ruh taþýna sahip deðilsin.
+STRING_D67	Rulet dönüyor.
+STRING_D68	Yeterli nesne yok, bunu yapamazsýn.
+STRING_D69	Yeterli ejderha parasý yok, bunu yapamazsýn.
+STRING_D70	Geçersiz isim girdiniz.
+STRING_D71	Bineðin ismini deðiþtirmeden önce binekten inmelisin.
+STRING_D72	Zaten bu etkiye sahipsin.
+STRING_D73	Binek ismi baþarýyla deðiþtirildi!
+STRING_D74	Pet ismi baþarýyla deðiþtirildi!
+STRING_D75	Özel envanterinde yeterli alan yok.
+STRING_D76	Envanterinde yeterli alan yok.
+STRING_D77	Okumak için yeterli kitaba sahip deðilsin.
+STRING_D78	Bu beceriyi daha fazla geliþtiremezsin.
+STRING_D79	Beceri grubun yokken kitap okuyamazsýn.
+STRING_D80	Gaya maðazan yenilendi.
+STRING_D81	Gaya maðazasýný yenilemek için gerekli malzemeye sahip deðilsin.
+STRING_D82	Bu iþlemi yapmak için dönüþüm penceresi açýk olmalý.
+STRING_D83	Yeterli yanga sahip deðilsin.
+STRING_D84	Ýþlem baþarýsýz oldu.
+STRING_D85	Eðer ticaret penceren açýk ise, baþka ticaret yapamazsýn.
+STRING_D86	Diðer oyuncu zaten ticaret yapýyor.
+STRING_D87	Diðer oyuncu ticareti iptal etti.
+STRING_D88	Bu nesneyle ticaret yapamazsýn.
+STRING_D89	Quest penceresi açýkken alýþveriþ yapamazsýn.
+STRING_D90	Diðer kiþinin envanterinde yeterli alan yok.
+STRING_D91	%s ile olan ticaret baþarýyla gerçekleþti.
+STRING_D92	Bunu yapamazsýn, çok uzaksýn.
+STRING_D93	Giyili eþyalarla ticaret yapamazsýn.
+STRING_D94	1kkkkk (1000KT) fiyatýndan daha fazlaya satamazsýn.
+STRING_D95	Ödül zaten verildi, çok geç kaldýn.
+STRING_D96	%s tecrübe puaný kazandýn.
+STRING_D97	Aðaçtan gizemli bir ýþýk yayýlýyor.
+STRING_D98	%s yang kazandýn.
+STRING_D99	%s seni savaþa davet ediyor!
+STRING_D100	%s ile olan savaþ baþladý.
+STRING_D101	Dönüþümü tamamen öðrendin.
+STRING_D102	Grup silindi.
+STRING_D103	Hedef bulunamadý.
+STRING_D104	Grup arkadaþýn seninle ayný haritada deðil.
+STRING_D105	Hedefi çaðýramazsýn.
+STRING_D106	Bulunduðun pozisyona grup üyelerini çaðýramazsýn.
+STRING_D107	Grubunuz birlikte çalýþtýðý için daha fazla tecrübe kazanacaksýn.
+STRING_D108	Madencilik puanýnýz sýnýra ulaþtý. (%s).
+STRING_D109	Kazmanýn madencilik puaný en üst seviyeye ulaþtý.
+STRING_D110	Oduncunun yardýmýyla kazmanýn seviyesini yükseltebilirsin.
+STRING_D111	Madencilik puanýn arttý! (%s/%s)
+STRING_D112	Elinde kazma olmadan madencilik yapamazsýn.
+STRING_D113	Burada maden yok.
+STRING_D114	Satýþ vergisi olarak %s kesildi.
+STRING_D115	%s arkadaþ listenden sildin.
+STRING_D116	%s arkadaþ olarak eklendi.
+STRING_D117	Yetkili tarafýndan sohbetin yasaklandý.
+STRING_D118	Yetkili tarafýndan sohbetin %s saat %s dakika %s saniyeliðine yasaklandý.
+STRING_D119	Yetkili tarafýndan sohbetin %s saat %s saniyeliðine yasaklandý.
+STRING_D120	Yetkili tarafýndan sohbetin %s dakika %s saniyeliðine yasaklandý.
+STRING_D121	Yetkili tarafýndan sohbetin %s saniyeliðine yasaklandý.
+STRING_D122	Baðýrmak için %s seviye olmalýsýnýz.
+STRING_D123	Bir gruba üye deðilsin.
+STRING_D124	Loncaya katýlamadýn.
+STRING_D125	Arkadaþ listenize yetkili birini ekleyemezsiniz.
+STRING_D126	%s oyunda deðil.
+STRING_D127	Kiþi, arkadaþlýk isteðini reddetti.
+STRING_D128	Yeterli seviyeye sahip deðilsin.
+STRING_D129	%s, ýþýnlanma isteðini reddetti.
+STRING_D130	Ticaretten sonra %s saniye bir yere gidemezsin.
+STRING_D131	Çok fazla yang taþýyorsun.
+STRING_D132	Diðer oyuncu üstünde çok yang taþýyor.
+STRING_D133	Bu eþya depoya taþýnamaz.
+STRING_D134	Özel depon dolu olduðu için eþya ekleyemezsin.
+STRING_D135	Özel envanterinizdeki nesneleri depoya taþýyamazsýnýz.
+STRING_D136	Kemeri çýkartmak için önce kemer envanterini boþaltmalýsýnýz.
+STRING_D137	Bunu yapamazsýn.
+STRING_D138	Kemer envanterine sadece iksir ekleyebilirsin.
+STRING_D139	Davet ettiðiniz kiþi aktif deðil.
+STRING_D140	Sunucu grup isteðini gerçekleþtiremedi.
+STRING_D141	Bunu sadece grup lideri yapabilir.
+STRING_D142	Hedef grubunuzun üyesi deðil.
+STRING_D143	Zindandayken bunu yapamazsýn.
+STRING_D144	Grup üyesi zindanda olduðu için bunu yapamazsýnýz.
+STRING_D145	Gruptan atýldýn.
+STRING_D146	Gruptan ayrýldýn.
+STRING_D147	Grup üyelerini atamazsýn.
+STRING_D148	Lonca silindikten sonra, %s gün boyunca yeni lonca kuramazsýn.
+STRING_D149	Bir loncadan ayrýldýktan sonra %s gün yeni lonca kuramazsýn.
+STRING_D150	Geçersiz bir lonca ismi girdin.
+STRING_D151	[%s] Lonca kuruldu.
+STRING_D152	Lonca kurulamadý.
+STRING_D153	Grup Becerilerini sadece grup lideri kullanabilir.
+STRING_D154	Bir loncaya kayýtlý deðilsin.
+STRING_D155	<Lonca> Geçersiz miktar.
+STRING_D156	Lonca savaþý sýrasýnda üyeyi loncadan atamazsýn.
+STRING_D157	Oyuncu ile ayný loncada deðilsin.
+STRING_D158	Lonca üyelerini atamazsýn.
+STRING_D159	Bir üyeyi loncadan kovdun.
+STRING_D160	Konum adýný deðiþtirme yetkiniz yok.
+STRING_D161	Lonca liderinin unvaný deðiþtirilemez.
+STRING_D162	Bu sýra ismi geçersiz.
+STRING_D163	Pozisyonlarý deðiþtirme yetkiniz yok.
+STRING_D164	Lonca liderinin yetkisi deðiþtirilemez.
+STRING_D165	Tecrübe kazancýn deaktifken bunu yapamazsýn.
+STRING_D166	Loncan zaten en üst seviyeye ulaþtý.
+STRING_D167	%s tecrübe yatýrýldý.
+STRING_D168	Loncaya tecrübe baðýþlarken hata oluþtu.
+STRING_D169	Ejderha gücü geri yüklenirken hata oluþtu.
+STRING_D170	Bildirim yazma izniniz yok.
+STRING_D171	Master yapma yetkin yok
+STRING_D172	General atamak için gerekli yetkiye sahip deðilsin.
+STRING_D173	Artýk bir general atayamazsýn.
+STRING_D174	Bu eþya ile ticaret yapamazsýn.
+STRING_D175	Çok fazla yang taþýdýðýn için pazar oluþturamazsýn.
+STRING_D176	Sýralama listesini %s saniye boyunca güncelleyemezsin.
+STRING_D177	Mevcut sezonun Premium Battle Pass'ýný aktifleþtirdiniz. Ýyi oyunlar!
+STRING_D178	Beceri rengin baþarýyla deðiþtirildi.
+STRING_D179	Bunu yapmak için gruptan ayrýlmalýsýn.
+STRING_D180	Bunu yapabilmek için Liderlik becerin M1 veya üzerinde olmalý.
+STRING_D181	Bunu yapabilmek için %s saniye beklemelisin.
+STRING_D182	Otomatik toplama aktif edildi.
+STRING_D183	Otomatik toplama deaktif edildi.
+STRING_D184	Yeterli %s nesnesine sahip deðilsin.
+STRING_D185	Zindana geri dönmek için zamanýn doldu.
+GUILD_TALK_5	Lonca savaþýnda %s loncasý, %s loncasýný maðlup etti. 
+GUILD_TALK_9	<Lonca> %s lonca savaþýný reddetti.
+GUILD_TALK_11	<Lonca> Lonca kuramazsýn.
+GUILD_TALK_12	<Lonca> Bu Lonca adý zaten kullanýlýyor.
+GUILD_TALK_13	<Lonca> Geçersiz bir lonca ismi girdiniz.
+GUILD_TALK_15	<Lonca> Savaþ varken davet edemezsin.
+GUILD_TALK_16	<Lonca> Bu oyuncu zaten baþka bir loncaya üye.
+GUILD_TALK_18	<Lonca> Lonca þu an zaten savaþ içerisinde.
+GUILD_TALK_19	<Lonca> Þu anda üye alýmlarý kýsýtlanmýþtýr.
+GUILD_TALK_20	<Lonca> Diðer Krallýklardan olan oyuncularý Loncaya davet edemezsin.
+GUILD_TALK_21	<Lonca> Loncaya birini davet edemezsin.
+GUILD_TALK_22	<Lonca> Oyuncu Lonca davetini reddetti.
+GUILD_TALK_23	<Lonca> Yeterli Yang yok.
+GUILD_TALK_24	<Lonca> Oyuncu çevrimdýþý.
+GUILD_TALK_25	<Lonca> Oyuncu þu an %s kanalýnda. (Bulunulan kanal: %s)
+GUILD_TALK_26	<Lonca> Þu anda bu beceriyi kullanamam.
+GUILD_TALK_27	<Lonca> Mesaj silinemez.
+OX_TALK_1	Doðru.
+OX_TALK_10	Toplam soru sayýsý %s
+MINING_SUCCESSFULL	Kazým baþarýlý!
+IT_WAS_SUCCESFULL	Ýþlem baþarýlý!
+HORSE_FEED_TALK_02	Atý besledin.
+DUNGEON_CHAT_1	Zindaný tamamlamak için 20 dakika süren var!
+DUNGEON_CHAT_2	Zindaný tamamlamak için 15 dakika süren kaldý!
+DUNGEON_CHAT_3	Zindaný tamamlamak için 10 dakika süren kaldý!
+DUNGEON_CHAT_4	Zindaný tamamlamak için 5 dakika süren kaldý!
+DUNGEON_CHAT_5	Zindaný tamamlamak için 1 dakika süren kaldý acele et!
+DUNGEON_CHAT_6	Zindaný tamamlayamadýn, 5 saniye içinde dýþarý ýþýnlanacaksýn.
+DUNGEON_CHAT_7	Öldürmen gereken yaratýk sayýsý %s .
+DUNGEON_CHAT_8	Görevi baþarýyla tamamladýn, 5 saniye sonra bir sonraki görev baþlayacak.
+DUNGEON_CHAT_9	Yok etmen gereken metin sayýsý %s .
+DUNGEON_CHAT_10	Zindaný baþarýyla tamamladýn, 30 saniye içinde dýþarý ýþýnlanacaksýn.
+DUNGEON_CHAT_11	Açman gereken kilitli mühür sayýsý %s .
+DUNGEON_CHAT_12	Tüm yaratýklarý öldür.
+DUNGEON_CHAT_13	Tüm metinleri yok et.
+DUNGEON_CHAT_14	Yaratýklardan mühür anahtarlarýný elde et ve anahtarlarý kullan.
+DUNGEON_CHAT_15	Patronun koruyucusu ortaya çýktý, patrona ulaþmak için onu yok et!
+DUNGEON_CHAT_16	Patron belirdi, zindaný tamamlamak için patronu yok et!
+DUNGEON_CHAT_17	519
+DUNGEON_CHAT_18	520
+DUNGEON_CHAT_19	521
+DUNGEON_CHAT_20	522
+DUNGEON_CHAT_21	523
+DUNGEON_CHAT_22	524
+DUNGEON_CHAT_23	525
+DUNGEON_CHAT_24	526
+DUNGEON_CHAT_25	527
+DUNGEON_CHAT_26	528
+DUNGEON_CHAT_27	529
+DUNGEON_CHAT_28	530
+DUNGEON_CHAT_29	531
+DUNGEON_CHAT_30	532
+DUNGEON_CHAT_31	533
+DUNGEON_CHAT_32	534
+DUNGEON_CHAT_33	535
+DUNGEON_CHAT_34	536
+DUNGEON_CHAT_35	537
+DUNGEON_CHAT_36	538
+DUNGEON_CHAT_37	539
+DUNGEON_CHAT_38	540
+DUNGEON_CHAT_39	541
+DUNGEON_CHAT_40	542
+STRING_D186	Bu sadece nesne 40 seviye ve altý zýrhlara ve silahlarda kullanýlabilir.
+STRING_D187	Balýkçýlýk seviyenizin yükseltmesine kalan balýk sayýsý %s!
+STRING_D188	Balýkçýlýk seviyeniz yükseldi, sonraki seviyeye %s daha yakaladýðýnda ulaþacaksýn.
+STRING_D189	Bu nesneyse sadece 90 seviye altý nesneleri yükseltebilirsin.
+STRING_D190	Bu nesneyle sadece 90 seviye ve üstü nesneleri yükseltebilirsin.
+STRING_D191	Süre nesnesini kullanmak için aktif bir bekleme süren olmasý gerek.
+STRING_D192	Sadece köylerdeki arkadaþlarýnýza ýþýnlanabilirsiniz.
+STRING_D193	Bu etkinlik aktif deðil.
+STRING_D194	Yeterli kart seti yok!
+STRING_D195	Yeterli alan yok!
+STRING_D196	Kart kalmadý!
+STRING_D197	Masadaya daha fazla kart ekleyemezsin.
+STRING_D198	Süreli kostümlerin yükseltmesini deðiþtiremezsin.
+STRING_D199	Eþya satýn alýndý. Envanterde yer olmadýðý için satýn alýnan eþya pazar deposuna aktarýldý.
+STRING_D200	Maðazadaki son öðeyi kaldýramazsýnýz. (Son ögeyi de kaldýrmak istiyorsanýz pazarýnýzý kapatmalýsýnýz)
+STRING_D201	Bu kadar hýzlý arama yapamazsýnýz.
+STRING_D202	Maðaza ismi deðiþtirirken hata oluþtu.
+STRING_D203	Maðaza oluþtururken hata oluþtu.
+STRING_D204	Maðaza kapatýlýrken hata oluþtu.
+STRING_D205	Maðaza süresi arttýrýrken hata oluþtu.
+STRING_D206	Maðaza oluþtururken hata oluþtu.
+STRING_D207	Maðaza açýlýrken hata oluþtu.
+STRING_D208	Eþya satýn alýmý sýrasýnda hata oluþtu.
+STRING_D209	Maðaza eþya eklerken hata oluþtu.
+STRING_D210	Maðaza eþya kaldýrýrken hata oluþtu.
+STRING_D211	Maðaza eþya düzenlerken hata oluþtu.
+STRING_D212	Eþya aramasý baþarýsýz oldu.
+STRING_D213	Maðaza ismi deðiþtirirken hata oluþtu.
+STRING_D214	Maðaza deposunu açarken hata oluþtu.
+STRING_D215	Depodan eþya alýrken hata oluþtu.
+STRING_D216	Depodan yang alýrken hata oluþtu.
+STRING_D217	Depo kapatýlýrken hata oluþtu.
+STRING_D218	Bu string boþtur.
+STRING_D219	Bu string boþtur.
+STRING_D220	Bu string boþtur.
+STRING_D221	Bu string boþtur.
+STRING_D222	Bu string boþtur.
+STRING_D223	Bu string boþtur.
+STRING_D224	Bu string boþtur.
+STRING_D225	Bu string boþtur.

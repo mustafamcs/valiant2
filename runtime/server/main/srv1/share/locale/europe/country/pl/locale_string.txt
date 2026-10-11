@@ -1,0 +1,290 @@
+"ARENA_TALK_1";
+"Duel zakoÒczy≥ siÍ, poniewaø twÛj wojownik zniknπ≥. ";
+
+"ARENA_TALK_2";
+"Nie ma tutaj ograniczeÒ dotyczπcych eliksirÛw. ";
+
+"ARENA_TALK_3 %d";
+"Moøesz uøyÊ %d eliksirÛw. ";
+
+"ARENA_TALK_4";
+"Bitwa rozpocznie siÍ za 10 sekund. ";
+
+"ARENA_TALK_5";
+"Duel rozpoczπ≥ siÍ. ";
+
+"ARENA_TALK_6";
+"Duel zakoÒczy≥ siÍ z powodu problemu na arenie. ";
+
+"ARENA_TALK_7";
+"Duel zakoÒczy≥ siÍ z powodu up≥ywu czasu. ";
+
+"ARENA_TALK_8";
+"Zostaniesz przeniesiony do miasta za 10 sekund. ";
+
+"ARENA_TALK_9";
+"Duel zakoÒczy≥ siÍ z powodu problemu z arenπ. ";
+
+"ARENA_TALK_10";
+"Duel zakoÒczy≥ siÍ z powodu problemu z twoim wojownikiem. ";
+
+"ARENA_TALK_11 %s";
+"%s wygra≥ pojedynek. ";
+
+"ARENA_TALK_12 %s";
+"%s wygra≥. ";
+
+"ARENA_TALK_13";
+"NastÍpna runda rozpocznie siÍ za 10 sekund. ";
+
+"ARENA_TALK_14";
+"Wojownicy siÍ rozdzieli, pojedynek zakoÒczy≥ siÍ. ";
+
+"ARENA_TALK_15";
+"Wszed≥eú do bitwy. Wyjúcie jest anulowane. ";
+
+"ARENA_TALK_16";
+"Pozosta≥o 4 minuty do ataku potworÛw. ";
+
+"ARENA_TALK_17";
+"Pozosta≥a 1 minuta do ataku potworÛw. ";
+
+"ARENA_TALK_18";
+"Potwory rozpoczÍ≥y atak na zamek.";
+
+"Your time is up, can deliver the next item.";
+"TwÛj czas minπ≥, moøesz dostarczyÊ nastÍpny przedmiot.";
+
+"Your waiting time has ended, you can deliver the next item.";
+"TwÛj czas oczekiwania siÍ zakoÒczy≥, moøesz dostarczyÊ nastÍpny przedmiot.";
+
+"It clears my mind. I feel something lightening my chest.";
+"To oczyúci≥o mi umys≥. CzujÍ, øe coú mi siÍ uløy≥o na klatce piersiowej.";
+
+"It clears my mind. Now you can concentrate better.";
+"To oczyúci≥o mi umys≥. Teraz moøesz siÍ lepiej skoncentrowaÊ.";
+
+"Your alignment is increased %d";
+"Twoje wywaøenie wzros≥o o %d";
+
+"Your alignment has increased by %d.";
+"Twoje wywaøenie wzros≥o o %d.";
+
+"cItem 5485 %s owner %s";
+"cItem 5485 %s w≥aúciciel %s";
+
+"cItem 5486 %s wtf %s";
+"cItem 5486 %s wtf %s";
+
+"SKILL_TALKING_2";
+"Ta metoda jest znacznie bardziej skomplikowana, niø myúla≥em.";
+
+"CMD_TALK_3 %s %s";
+"Gildia %s zosta≥a zdobyta przez %s. ";
+
+"Shutdown in %d";
+"Wy≥πczenie za %d sekund.";
+
+"The game will shut down after %d seconds.";
+"Gra zostanie wy≥πczona za %d sekund.";
+
+"You roll %d. (%d-%d)";
+"Rzucasz %d. (%d-%d)";
+
+"%s rolled the dice, resulting in %d. (%d-%d)";
+"%s rzuci≥ koúÊmi i uzyska≥ %d. (%d-%d)";
+
+"An error has occured, report this error to authorities. Fish #s parameter";
+"Wystπpi≥ b≥πd, proszÍ zg≥osiÊ ten b≥πd w≥adzom. Parametr Fish #s";
+
+"An error has occured, report this error to authorities. Fish #not arg";
+"Wystπpi≥ b≥πd, proszÍ zg≥osiÊ ten b≥πd w≥adzom. Parametr Fish #not arg";
+
+"Cannot set stat under initial stat";
+"Nie moøna ustawiÊ statystyki poniøej poczπtkowej statystyki";
+
+"syntax: offshop_change_shop_name <player-id> <new-name>";
+"syntax: offshop_change_shop_name <player-id> <nowa-nazwa>";
+
+"syntax: offshop_force_close_shop <player-id>";
+"syntax: offshop_force_close_shop <player-id>";
+
+"Cannot find shop by id %u";
+"Nie moøna znaleüÊ sklepu o identyfikatorze %u";
+
+"shop's name changed.";
+"Nazwa sklepu zosta≥a zmieniona.";
+
+"shop closed successfully.";
+"Sklep zosta≥ pomyúlnie zamkniÍty.";
+
+"BATTLEPASS_NOT_COMPLETED_ALL_NORMAL_MISSIONS";
+"Nie ukoÒczy≥eú jeszcze wszystkich zwyk≥ych misji w Battle Pass!";
+
+"BATTLEPASS_NOT_COMPLETED_ALL_PREMIUM_MISSIONS";
+"Nie ukoÒczy≥eú jeszcze wszystkich misji premium w Battle Pass!";
+
+"BATTLEPASS_NOT_COMPLETED_ALL_EVENT_MISSIONS";
+"Nie ukoÒczy≥eú jeszcze wszystkich misji eventowych w Battle Pass!";
+
+"BATTLEPASS_ALREADY_EARNED_BATTLEPASS_REWARD";
+"Juø odebra≥eú swojπ nagrodÍ za ten Battle Pass!";
+
+"BATTLEPASS_COMPLETE_NORMAL_MISSION";
+"UkoÒczy≥eú pomyúlnie misjÍ w Battle Pass!";
+
+"BATTLEPASS_COMPLETE_PREMIUM_MISSION";
+"UkoÒczy≥eú pomyúlnie misjÍ premium w Battle Pass!";
+
+"BATTLEPASS_COMPLETE_EVENT_MISSION";
+"UkoÒczy≥eú pomyúlnie misjÍ eventowπ w Battle Pass!";
+
+"BATTLEPASS_NOW_IS_ACTIVATED_PREMIUM_BATTLEPASS";
+"TwÛj dostÍp do Battle Pass premium na aktualny sezon zosta≥ aktywowany. Powodzenia!";
+
+"BATTLEPASS_NOW_IS_ACTIVATED_PREMIUM_BATTLEPASS_OWN";
+"Aktywowa≥eú dostÍp do Battle Pass premium na aktualny sezon. Powodzenia!";
+
+"BATTLEPASS_CMDGM_ACTIVATE_PREMIUM_TO_PLAYER";
+"Aktywowa≥eú Battle Pass premium na aktualny sezon dla gracza %s.";
+
+"BATTLEPASS_CMDGM_DEACTIVATE_PREMIUM_PLAYER";
+"Twoje Battle Pass premium zosta≥o dezaktywowane.";
+
+"BATTLEPASS_CMDGM_DEACTIVATE_PREMIUM_TO_PLAYER";
+"Dezaktywowa≥eú Battle Pass premium dla gracza %s.";
+
+"BATTLEPASS_CMDGM_DEACTIVATE_PREMIUM_OWN";
+"Dezaktywowa≥eú dostÍp do Battle Pass premium.";
+
+"BATTLEPASS_NEXT_REFRESH_RANKLIST_TIME";
+"Nie moøesz odúwieøyÊ listy rankingowej przez %d sekund.";
+
+"Current remaining number of participants: %d";
+"Aktualna liczba pozosta≥ych uczestnikÛw: %d";
+
+"You can post new comment in: %02d mins and %02d secs";
+"Moøesz zamieúciÊ nowy komentarz za: %02d minut i %02d sekund";
+
+"GUILD_TALK_14 %d";
+"<Gildia> Gracz moøe zostaÊ zaproszony za %d dni.";
+
+"GUILD_TALK_17 %d";
+"<Gildia> Moøesz zapraszaÊ cz≥onkÛw przez %d dni po dostosowaniu.";
+
+"GUILD_TALK_10 %s %s";
+"%s og≥osi≥ wojnÍ gildii %s!";
+
+"GUILD_TALK_5 %s %s";
+"W bitwie gildii, gildia %s zwyciÍøy≥a nad gildiπ %s.";
+
+"GUILD_TALK_6 %s %s";
+"Bitwa miÍdzy %s a %s zakoÒczy≥a siÍ remisem.";
+
+"GUILD_TALK_7 %s %s";
+"Bitwa gildii miÍdzy %s a %s rozpoczÍ≥a siÍ.";
+
+"GUILD_TALK_8 %s %s";
+"Bitwa gildii miÍdzy %s a %s rozpocznie siÍ za minutÍ!";
+
+"GUILD_TALK_5";
+"<Gildia> Bitwa gildii zosta≥a anulowana.";
+
+"GUILD_TALK_1 %d";
+"<Gildia> Ranking wzrÛs≥ do %d punktÛw.";
+
+"GUILD_TALK_2";
+"Zadeklarowa≥eú wojnÍ tej Gildii.";
+
+"GUILD_TALK_3";
+"Bitwa Gildii nie moøe rozpoczπÊ siÍ, gdy serwer jest wy≥πczony.";
+
+"%s is not online.";
+"%s nie jest online.";
+
+"Critical server error. The server will reboot automatically.";
+"Krytyczny b≥πd serwera. Serwer zostanie automatycznie zrestartowany.";
+
+"You will be disconnected in 10 seconds.";
+"Zostaniesz roz≥πczony za 10 sekund.";
+
+"You can connect again after 5 minutes.";
+"Moøesz ponownie po≥πczyÊ siÍ po 5 minutach.";
+
+"The number of bets is invalid, please try again.";
+"Liczba zak≥adÛw jest nieprawid≥owa, sprÛbuj ponownie.";
+
+"Failed.";
+"Niepowodzenie.";
+
+"Success.";
+"Sukces.";
+
+"Pet type changed new type : %d";
+"Zmieniono typ zwierzaka na nowy: %d";
+
+"Bonuschange of %s (Slot: %d) successfully finished.";
+"Zmiana premii dla %s (Slot: %d) zakoÒczona sukcesem.";
+
+"OX_TALK_1";
+"Prawda.";
+
+"OX_TALK_2";
+"Pytanie.";
+
+"OX_TALK_3";
+"Idü do O, jeúli to prawda, idü do X, jeúli to fa≥sz.";
+
+"OX_TALK_4";
+"Uczestnicy, ktÛrzy odpowiedzπ niepoprawnie, zostanπ przeniesieni za 5 sekund.";
+
+"OX_TALK_5";
+"Nie (X)";
+
+"OX_TALK_6";
+"Tak (O)";
+
+"OX_TALK_7";
+"Prawid≥owa odpowiedü:";
+
+"OX_TALK_8";
+"Otrzymasz wynik za 10 sekund.";
+
+"OX_TALK_9";
+"èle";
+
+"OX_TALK_10 %d";
+"Ca≥kowita liczba pytaÒ: %d";
+
+"OX_TALK_11";
+"Jesteú gotowy na nastÍpne pytanie?";
+
+"%s wants to fight with you.";
+"%s chce siÍ z tobπ zmierzyÊ.";
+
+"Everyone will be teleported to the town.";
+"Wszyscy zostanπ przeniesieni do miasta.";
+
+"TRANSLATE_CLOSE_QUESTNPC";
+"Zamknij";
+
+"You can join the guild war as a spectator.";
+"Moøesz do≥πczyÊ do wojny gildii jako widz.";
+
+"If you are a spectator <End View> button to exit will appear.";
+"Jeúli jesteú widzem, pojawi siÍ przycisk <ZakoÒcz wyúwietlanie>, aby wyjúÊ.";
+
+"No other guild members participated in the Guild War.";
+"Øaden inny cz≥onek gildii nie wziπ≥ udzia≥u w Wojnie Gildii.";
+
+"If no one logs in within 1 minute, the guild battle will end automatically.";
+"Jeúli nikt nie zaloguje siÍ w ciπgu 1 minuty, bitwa gildii zakoÒczy siÍ automatycznie.";
+
+"The guild battle ended early and it was decided as a draw. (less than 5 minutes)";
+"Bitwa gildii zakoÒczy≥a siÍ przedwczeúnie i zosta≥a uznana za remis (mniej niø 5 minut).";
+
+"The wedding will be over soon.";
+"ålub nied≥ugo siÍ zakoÒczy.";
+
+"When the wedding is over, you will be sent to the village.";
+"Po zakoÒczeniu úlubu zostaniesz przeniesiony do wioski.";

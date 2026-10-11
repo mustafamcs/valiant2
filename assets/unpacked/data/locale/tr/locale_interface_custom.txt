@@ -1,0 +1,372 @@
+DRAGONSOUL_GRADE_0	Ýþlenmemiþ
+DRAGONSOUL_GRADE_1	Yontulmuþ
+DRAGONSOUL_GRADE_2	Ender
+DRAGONSOUL_GRADE_3	Antika
+DRAGONSOUL_GRADE_4	Efsanevi
+DRAGONSOUL_GRADE_5	Mitsi
+LOGIN_PIN	Pin
+LOGIN_ID	Kullanýcý adý
+LOGIN_PW	Þifre
+SPECIAL_INVENTORY_TITLE	Envanter+
+SPECIAL_STORAGE_ARRANGE	Envanteri düzenle
+DRAGONSOUL_NEWREFINE	Arýndýr
+DO_ALL_REFINE	Hýzlý arýndýr
+REFINE_ALL_PAGES	Tümünü arýndýr
+INVENTORY_PAGE_BUTTON_TOOLTIP_5	5. Envanter
+SPLIT_ITEMS_WINDOW_TITLE	Eþyayý ayýr
+
+HIDE_COSTUME	Kostümü gizle
+
+GAMEOPTION_CAT_02	Grafik Seçenekleri
+GAMEOPTION_CAT_03	Ses Seçenekleri
+
+GAMEOPTION_CAT_02_SUBCAT_1	Arayüz
+GAMEOPTION_CAT_02_SUBCAT_2	Performans
+
+GAMEOPTION_OUTLINE_TEXT	Yazý Gölgesi
+GAMEOPTION_AFFECT_TEXT	Üst Bilgi Ýconlarý
+GAMEOPTION_HIGHLIGHT_TEXT	Yeni Eþya Animasyonu
+GAMEOPTION_ENTITY_RANGE	Nesne mesafesi (Performans++)
+
+GAMEOPTION_ENTITY_RANGE0	Kýsa
+GAMEOPTION_ENTITY_RANGE1	Orta
+GAMEOPTION_ENTITY_RANGE2	Uzun
+
+GAMEOPTION_HIDE_TEXT	Modelleri Gizle
+GAMEOPTION_HIDE_NPC	NPC
+GAMEOPTION_HIDE_PET	Pet
+GAMEOPTION_HIDE_MOUNT	Binek
+GAMEOPTION_HIDE_SHOPS	Pazar
+GAMEOPTION_WINDOW_ANIMATIONS	Pencere Animasyonlarý
+GAMEOPTION_ANIMATIONS_OFF	Kapalý
+GAMEOPTION_ANIMATIONS1	Tip 1
+GAMEOPTION_ANIMATIONS2	Tip 2
+GAMEOPTION_ANIMATIONS3	Tip 3
+GAMEOPTION_ANIMATIONS4	Tip 4
+GAMEOPTION_ANIMATIONS5	Tip 5
+GAMEOPTION_ANIMATIONS6	Tip 6
+GAMEOPTION_ANIMATIONS7	Tip 7
+
+GAMEOPTION_FONT_WARNING	Deðiþikleri görmek için istemciyi tekrar baþlatýn.
+
+GAMEOPTION_EFFECT_TEXT	Efektler
+
+GAMEOPTION_STONE_SCALE	Metin taþý boyutu
+GAMEOPTION_DAMAGE_SCALE	Hasar efekti boyutu
+GAMEOPTION_OBJECT_SCALE	Obje mesafesi
+
+GAMEOPTION_DAMAGE_TYPE	Hasar görüntüsü
+GAMEOPTION_DAMAGE_TYPE0	Normal
+GAMEOPTION_DAMAGE_TYPE1	Noktalý
+GAMEOPTION_DAMAGE_TYPE2	Harfli
+
+GAMEOPTION_DAMAGE_RENEWED_TYPE	Hasar Tasarýmý
+GAMEOPTION_DAMAGE_RENEWED_TYPE0	Normal
+GAMEOPTION_DAMAGE_RENEWED_TYPE1	Yeni
+
+GAMEOPTION_EVENT_MINI_ICON	Aktif Etkinlik Göstergesi
+
+GAMEOPTION_LOADING_TYPE	Yükleme Ekraný
+GAMEOPTION_LOADING_TYPE_BUTTON	Yok
+GAMEOPTION_LOADING_TYPE_BUTTON2	Normal
+
+MINIMAP_BUTTON_01	Pazarlarda Eþya Arama
+MINIMAP_BUTTON_02	Biyolog Yöneticisi
+MINIMAP_BUTTON_03	Sýralama
+HIDE_COSTUME	Kostümü gizle
+
+SEND_WHISPER_ADMIN_INFO	Göndermek istediðiniz mesajý buraya girebilirsiniz. !!! Dikkat !!! Girilen mesaj tüm oyunculara gönderilir!
+SEND_WHISPER_ADMIN_TITLE	Toplu mesaj paneli
+
+OPTION_FOV	Görüþ Açýsý
+
+OPTION_SKYBOX	Hava Durumu Görseli
+OPTION_SKYBOX_0	Normal 
+OPTION_SKYBOX_1	Mod 1
+OPTION_SKYBOX_2	Mod 2
+OPTION_SKYBOX_3	Mod 3
+OPTION_SKYBOX_4	Mod 4
+OPTION_SKYBOX_5	Mod 5
+OPTION_SKYBOX_6	Mod 6
+OPTION_SKYBOX_7	Mod 7
+
+LEGENDARY_SOUL_STONE_TITLE	Legendary Ruh Taþý Okuma Penceresi
+SAGE_SOUL_STONE_TITLE	Sage Ruh Taþý Okuma Penceresi
+SOUL_STONE_TITLE	Sage Ruh Taþý Okuma Penceresi
+
+CHARACTER_STATS_PAGE	Öldürme Ýst.
+STATICS_01	Maks. Oyuncu Hasarý
+STATICS_02	Maks. Canavar Hasarý
+STATICS_03	Maks. Metin Taþý Hasarý
+STATICS_04	Maks. Patron Hasarý
+STATICS_05	Öldürülen Canavar
+STATICS_06	Kýrýlan Metin Taþý
+STATICS_07	Öldürülen Patron
+STATICS_08	Öldürülen Oyuncu
+STATICS_09	Yükseltilen & Üretilen Eþya
+STATICS_10	Tamamlanan Zindan
+STATICS_11	Yakalanan Balýk
+STATICS_12	Baþarýlý Maden Kazým
+STATICS_13	Açýlan Sandýk
+STATICS_14	Kullanýlan Efsun Nesnesi
+STATICS_15	Savaþ Gücü
+STATICS_16	Derece Puaný
+STATICS_17	Oyun Süresi
+
+PLAYER_IS_ONLINE_NOW	%s þu an aktif!
+
+PET_ATTR_CHANGE_ITEM_TEXT	Pet efsunla
+PET_ATTR_CHANGE_TITLE	Pet tipini deðiþtir
+PET_ATTR_CONFIRMATION	Deðiþtir
+PET_ATTR_DETERMINE_TITLE	Yeni pet tipi
+PET_ATTR_OK	Kapat
+PET_CHANGE_TEXT	Pet
+PET_FEED_TITLE	Beslenme Çantasý
+PET_FFED_BUTTON_TEXT	Besle
+PET_HATCHING_BUTTON	Adlandýr
+PET_HATCHING_NIK	Pet Ýsmi
+PET_HATCHING_WINDOW_TITLE	Kuluçka
+PET_INFORMATION_ABILITIES	Bonuslar
+PET_INFORMATION_AGE	Yaþ
+PET_INFORMATION_COSTUME_BONUS	Kostüm Bonusu
+PET_INFORMATION_DEFENCE	Defans
+PET_INFORMATION_EVOL_BUTTON	Geliþtir
+PET_INFORMATION_EXP	Deneyim Puaný
+PET_INFORMATION_EXP_BUTTON	Nesne Tecrübesi
+PET_INFORMATION_HP	HP
+PET_INFORMATION_LEVEL	Seviye
+PET_INFORMATION_LIFE	Süre
+PET_INFORMATION_LIFETIME_BUTTON	Besle
+PET_INFORMATION_LIFE_TIME	Saat
+PET_INFORMATION_SKILL	Beceri
+PET_INFORMATION_SP	STR
+PET_INFORMATION_TITLE	Pet
+PET_NAME_CHANGE_BUTTON	Deðiþtir
+PET_NAME_CHANGE_WINDOW_TITLE	Pet Ýsim Ýzi
+PET_SYSTEM_FEED	Besle
+PET_SYSTEM_PET_NAME	Evcil Hayvan Ýsmi
+PET_SYSTEM_HATCH	Oluþtur
+PET_SYSTEM_LEVEL	Seviye
+PET_SYSTEM_EXP	Deneyim Puaný
+PET_SYSTEM_EXP22	Efsane(16)
+PET_SYSTEM_AGE	Yaþ
+PET_SYSTEM_DURATION	Süre
+PET_SYSTEM_EVOLVE	Geliþtir
+PET_SYSTEM_ITEM_EXP	Nesne Tecrübesi
+PET_SYSTEM_BONUSES	Bonuslar
+PET_SYSTEM_INCUBATOR	Kuluçka Makinesi
+PET_SYSTEM_HP	HP (Yüzdelik)
+PET_SYSTEM_DEF	PvM STR (Yüzdelik)
+PET_SYSTEM_ATTACK	STR (Yüzdelik)
+PET_BESLE	Besle
+PET_CELIK_TOPLA	Sadece Çelikleri toplamanýzý saðlar.
+PET_COR_TOPLA	Sadece Cor Draconis toplamanýzý saðlar.
+PET_DENEYIM	Tecrübe
+PET_EVENT_TOPLA	Sadece Etkinlik itemlerini toplamanýzý saðlar.
+PET_EVRIM	Geliþme
+PET_FIYAT	Fiyat: 100.000 Yang
+PET_GIZLE	Petlerin gizlenmesini saðlar.
+PET_HEPSINI_TOPLA	Tüm itemleri toplamanýzý saðlar.
+PET_ISMI	Pet Ýsmi
+PET_KITAP_TOPLA	Sadece Beceri Kitaplarýný toplamanýzý saðlar.
+PET_KOSTUM_TOPLA	Sadece Kostümleri toplamanýzý saðlar.
+PET_KULUCKA	Kuluçka
+PET_LV3_SPECIAL_EVO	Seviye 3 (Özel Evrim)
+PET_NESNE_EXP	Nesne EXP
+PET_RUH_TASI_TOPLA	Sadece Ruh Taþlarýný toplamanýzý saðlar.
+PET_SANDIK_TOPLA	Sadece Sandýklarý toplamanýzý saðlar.
+PET_SILAH_TOPLA	Sadece 75Lvl silahlarý toplamanýzý saðlar.
+PET_SUPER_BABY_WHITE_DRAGON	Süper Beyaz Bebek Ejder
+PET_SURE	Süre
+PET_TAKI_TOPLA	Sadece Takýlarý toplamanýzý saðlar.
+PET_YAS	Yaþ
+PET_YUKSELTME_TOPLA	Sadece Yükseltme Ýtemlerini toplamanýzý saðlar.
+PET_YUMURTADAN_CIK	Yumurtadan Çýk
+PET_SYSTEM_INFO	Nesne tecrübesi hakkýnda.
+PET_SYSTEM_INFO1	Petinizi sadece yukarýdaki
+PET_SYSTEM_INFO2	pet mamalarý ile besleyebilirsiniz.
+PET_HATCING_WINDOW_TITLE	Kuluçka Makinesi
+PET_HATCING_WINDOW_TITLE2	Yumurtadan Çýk
+SELECT_JOB_TITLE	Beceri Seçimi
+
+SKILL_COLOR_TITLE	Renk seç
+SKILL_COLOR_PRESET_TITLE	Kayýtlý Renkler
+SKILL_COLOR_PRESET_SELECT	Bir renk seçin
+SKILL_COLOR_PRESET_SAVE	Seçilen renk kodunu kaydet
+SKILL_COLOR_PRESET_CLEAR	Seçilen renk kodunu temizle
+SKILL_COLOR_CUSTOM_COLOR_CODE_TITLE	Renk kodu
+SKILL_COLOR_DEFAULT	Varsayýlan rengi kullan
+SKILL_COLOR_CHANGE	Rengi deðiþtir
+SKILL_COLOR_CANCEL	Ýptal
+
+AURA_ACCEPT	Geliþtir
+AURA_ACCEPT2	Geliþtir (x10)
+AURA_ACCEPT_REFINE_MAX_ABS	Aura zaten maks. emiþe sahip, daha fazla geliþtiremezsin!
+AURA_ACCEPT_REFINE_ITEM	Gerekli malzemelere sahip deðilsin!
+AURA_DRAIN_PER	Emiþ bonusu %.1f%%
+AURA_LEVEL_STEP	Sv %d (Seviye %d)
+AURA_TITLE_ABSORB	Ekipman bonuslarýný aura giysisine aktar.
+AURA_TITLE_EVOLUTION	Aura giysisini geliþtir.
+AURA_TITLE_GROWTH	Aura giysisini geliþtir
+AURA_TOOLTIP_EXP	EXP (%%%d / %%100)
+AURA_TOOLTIP_LEVEL	Sv %d (Seviye %d) (Emiþ oraný %%%.1f)
+AURA_TOOLTIP_NEED_YANG	10.000.000 Yang
+AURA_TOOLTIP_NEED_YANG2	20.000.000 Yang
+AURA_TOOLTIP_NEXT	Yeni
+AURA_TOOLTIP_NOW	Güncel
+AURA_TOOLTIP_RESOURCE	Tüketim nesnesi
+AURA_TOOLTIP_RESOURCE_ITEM	%s * %d
+ACCE_FAILURE_CLEAN_TYPE_EROR	Bu nesne sadece kuþak ve aura için kullanýlabilir.
+
+EXTENDET_BATTLE_PASS_TITLE	Savaþ Bileti
+EXTENDET_BATTLE_PASS_RANK_ICON_RANK	Sýralama
+EXTENDET_BATTLE_PASS_RANK_ICON_NAME	Oyuncu Ýsmi
+EXTENDET_BATTLE_PASS_RANK_ICON_TIME	Kalan Süre
+EXTENDET_BATTLE_PASS_NO_PLANNED_NORMAL_BATTLEPASS	Savaþ bileti þu an aktif deðil.
+EXTENDET_BATTLE_PASS_PLANNED_NEXT_NORMAL_BATTLEPASS	Þu an planlanan bir savaþ bileti gözükmüyor.
+EXTENDET_BATTLE_PASS_TIME_TO_NEXT_NORMAL_BATTLEPASS	Savaþ biletinin baþlamasýna kalan süre: %s
+EXTENDET_BATTLE_PASS_NO_PLANNED_PREMIUM_BATTLEPASS	Premium Savaþ bileti þu an aktif deðil.
+EXTENDET_BATTLE_PASS_PLANNED_NEXT_PREMIUM_BATTLEPASS	Þu an planlanan bir premium savaþ bileti gözükmüyor.
+EXTENDET_BATTLE_PASS_TIME_TO_NEXT_PREMIUM_BATTLEPASS	Premium Savaþ biletinin baþlamasýna kalan süre: %s
+EXTENDET_BATTLE_PASS_NO_PLANNED_EVENT_BATTLEPASS	Etkinlik Savaþ bileti þu an aktif deðil.
+EXTENDET_BATTLE_PASS_PLANNED_NEXT_EVENT_BATTLEPASS	Þu an planlanan bir etkinlik savaþ bileti gözükmüyor.
+EXTENDET_BATTLE_PASS_TIME_TO_NEXT_EVENT_BATTLEPASS	Etkinlik Savaþ biletinin baþlamasýna kalan süre: %s
+EXTENDET_BATTLE_PASS_SEASON_TITLE	Savaþ Bileti Bilgilendirme
+EXTENDET_BATTLE_PASS_SEASON_NAME	Sezon: %s
+EXTENDET_BATTLE_PASS_SEASON_TOTAL_MISSIONS	Toplam görevler: %d
+EXTENDET_BATTLE_PASS_SEASON_CURRENT_MISSIONS	Tamamlanma durumu: %d / %d
+EXTENDET_BATTLE_PASS_SEASON_DATE_FROM	Baþlangýç tarihi
+EXTENDET_BATTLE_PASS_SEASON_DATE_TO	Bitiþ tarihi
+EXTENDET_BATTLE_PASS_SEASON_REST_TIME	Kalan Süre: %s
+EXTENDET_BATTLE_PASS_SEASON_PROGRESS	Tüm Görevlerin tamamlanma oraný
+EXTENDET_BATTLE_PASS_MISSION_MISSION_NAME	Görev Adý
+EXTENDET_BATTLE_PASS_MISSION_NAME	Görev Adý
+EXTENDET_BATTLE_PASS_MISSION_STATUS	Görev Bilgisi 
+EXTENDET_BATTLE_PASS_MISSION_INFO	Bilgilendirme
+EXTENDET_BATTLE_PASS_MISSION_STATUS_IN_PROGRESS	|cfffeff7d|H|h Henüz tamamlanmadý!|h|r
+EXTENDET_BATTLE_PASS_MISSION_STATUS_FINISH	|cff82ff7d|H|hTamamlandý!|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION	Görev Bilgisi:
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_MONSTER	Canavar: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_MINLEVEL	En düþük seviye.: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_ITEM	Nesne: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_ORE	Cevher: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_FISH	Balýk: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_MAPNAME	Harita: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_GUILDWARTYPE	Lonca Savaþý: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_PET_MINTYPE	Min. Evcil Hayvan Sev.: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_DUNGEON	Zindan: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_MINIGAME	Mini Oyun: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_COUNT	Kalan: |cfffeff7d|H|h%s|h|r / |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_COUNT_GOLD	Kalan: |cfffeff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_PERCENT	Tamamlandý |cfffeff7d|H|h%.2f%%|h|r
+EXTENDET_BATTLE_PASS_DESCRIPTION	Görev Tanýmý:
+EXTENDET_BATTLE_PASS_MISSION_COMPLEDET	Görev Tamamlandý
+EXTENDET_BATTLE_PASS_NONE_COND_TITLE_MOB	Yaratýk
+EXTENDET_BATTLE_PASS_NONE_COND_TITLE_ITEM	Nesne
+EXTENDET_BATTLE_PASS_NONE_COND_TITLE_FISH	Balýk
+EXTENDET_BATTLE_PASS_NONE_COND_TITLE_DUNGEON	Zindanlarý Tamamla
+EXTENDET_BATTLE_PASS_NONE_COND_TITLE_MINIGAME	Mini Games
+EXTENDET_BATTLE_PASS_TYPENAME_1	%s Yok Et
+EXTENDET_BATTLE_PASS_TYPENAME_1_DESC_1	%sx %s. Öldür
+EXTENDET_BATTLE_PASS_TYPENAME_1_DESC_2	%sx yaratýk öldür
+EXTENDET_BATTLE_PASS_TYPENAME_2	%s Oyuncu Öldür
+EXTENDET_BATTLE_PASS_TYPENAME_2_DESC_1	%s oyuncu öldür. (Oyuncu en az %s seviye olmalý)
+EXTENDET_BATTLE_PASS_TYPENAME_2_DESC_2	%s oyuncu öldür. (Seviye sýnýrý yok)
+EXTENDET_BATTLE_PASS_TYPENAME_3	Yaratýklara hasar ver
+EXTENDET_BATTLE_PASS_TYPENAME_3_DESC_1	%s de %s. Toplam hasara ulaþ
+EXTENDET_BATTLE_PASS_TYPENAME_3_DESC_2	Yaratýklara toplam %s. hasar ver. (Tüm yaratýklar için geçerli)
+EXTENDET_BATTLE_PASS_TYPENAME_4	Oyunculara hasar ver
+EXTENDET_BATTLE_PASS_TYPENAME_4_DESC_1	Erreiche einen Gesamten Schaden von %s bei Spielern mit Min-Lv %d. Spieler aus jedem Reich zählen.
+EXTENDET_BATTLE_PASS_TYPENAME_4_DESC_2	Erreiche einen Gesamten Schaden von %s bei Spielern. Spieler aus jedem Reich zählen.
+EXTENDET_BATTLE_PASS_TYPENAME_5	%s Kullan
+EXTENDET_BATTLE_PASS_TYPENAME_5_DESC_1	Bu görevi tamamlamak için %sx adet %s kullanmalýsýn.
+EXTENDET_BATTLE_PASS_TYPENAME_5_DESC_2	Bu görevi tamamlamak için bir öðeyi %sx kullanmalý veya açmalýsýnýz.
+EXTENDET_BATTLE_PASS_TYPENAME_6	%s Sat
+EXTENDET_BATTLE_PASS_TYPENAME_6_DESC_1	Bu görevi tamamlamak için NPC'lere %sx adet %s sat.
+EXTENDET_BATTLE_PASS_TYPENAME_6_DESC_2	Bu görevi tamamlamak için NPC'lerde %sx bir öðe satýn.
+EXTENDET_BATTLE_PASS_TYPENAME_7	%s Üret
+EXTENDET_BATTLE_PASS_TYPENAME_7_DESC_1	Bu görevi tamamlamak için %sx adet %s üretmelisin.
+EXTENDET_BATTLE_PASS_TYPENAME_7_DESC_2	Bu görevi tamamlamak için %sx üretmelisin.
+EXTENDET_BATTLE_PASS_TYPENAME_8	%s Geliþtir
+EXTENDET_BATTLE_PASS_TYPENAME_8_DESC_1	Bu görevi tamamlamak için %sx adet %s nesnesini sonraki seviyeye yüksetmelisin.
+EXTENDET_BATTLE_PASS_TYPENAME_8_DESC_2	Bu görevi tamamlamak için %s adet eþyayý yüksetmelisin.
+EXTENDET_BATTLE_PASS_TYPENAME_9	%s Yok Et
+EXTENDET_BATTLE_PASS_TYPENAME_9_DESC_1	Bu görevi tamamlamak için %sx adet %s yok et.
+EXTENDET_BATTLE_PASS_TYPENAME_9_DESC_2	Bu görevi tamamlamak için %s öðeyi yok edin.
+EXTENDET_BATTLE_PASS_TYPENAME_10_1	%s Elde Et
+EXTENDET_BATTLE_PASS_TYPENAME_10_2	Baue %s ab
+EXTENDET_BATTLE_PASS_TYPENAME_10_1_DESC_1	Bu görevi tamamlamak için %sx adet %s düþürmen gerekiyor.
+EXTENDET_BATTLE_PASS_TYPENAME_10_2_DESC_1	Bu görevi tamamlamak için %sx adet %s madenciliði yapmalýsýn.
+EXTENDET_BATTLE_PASS_TYPENAME_10_DESC_2	Bu görevi tamamlamak için %s adet eþya düþürmen gerekiyor.
+EXTENDET_BATTLE_PASS_TYPENAME_11	%s Yakala
+EXTENDET_BATTLE_PASS_TYPENAME_11_DESC_1	Görevi tamamlamak için %sx adet %s yakala!
+EXTENDET_BATTLE_PASS_TYPENAME_11_DESC_2	Görevi tamamlamak için %sx adet herhangi bir balýk yakala!
+EXTENDET_BATTLE_PASS_TYPENAME_12	%s Piþir
+EXTENDET_BATTLE_PASS_TYPENAME_12_DESC_1	Bu görevi tamamlamak için kamp ateþinin etrafýnda %sx adet %s ýzgara yapýn.
+EXTENDET_BATTLE_PASS_TYPENAME_12_DESC_2	Bu görevi tamamlamak için herhangi bir balýðý kamp ateþinde %sx adet ýzgara yapýn.
+EXTENDET_BATTLE_PASS_TYPENAME_13	%s Elde Et
+EXTENDET_BATTLE_PASS_TYPENAME_13_DESC_1	Bu görevi tamamlamak için %sx adet %s öldürün.
+EXTENDET_BATTLE_PASS_TYPENAME_13_DESC_2	Bu görevi tamamlamak için herhangi bir balýðý %s kez öldür.
+EXTENDET_BATTLE_PASS_TYPENAME_14	%s EXP Kazan
+EXTENDET_BATTLE_PASS_TYPENAME_14_DESC_1	Bu görevi tamamlamak için %s ten %s EXP elde etmelisin.
+EXTENDET_BATTLE_PASS_TYPENAME_14_DESC_2	Bu görevi tamamlamak için herhangi bir canavardan %s EXP kazan.
+EXTENDET_BATTLE_PASS_TYPENAME_15	%s Yang Topla
+EXTENDET_BATTLE_PASS_TYPENAME_15_DESC_1	Bu görevi tamamlamak için %s haritasýndaki yaratýklardan %s Yang elde etmelisin.
+EXTENDET_BATTLE_PASS_TYPENAME_15_DESC_2	Bu görevi tamamlamak için canavarlardan %s yang elde etmelisin.
+EXTENDET_BATTLE_PASS_TYPENAME_16	Lonca Savaþýna Katýl
+EXTENDET_BATTLE_PASS_TYPENAME_16_DESC_1	%sx Türünde %s. Adet Lonca Savaþý Tamamla.
+EXTENDET_BATTLE_PASS_TYPENAME_16_DESC_2	Beende %sx einen Gildenkrieg eines Beliebigen Typs.
+EXTENDET_BATTLE_PASS_TYPENAME_17	Loncaya EXP Baðýþla
+EXTENDET_BATTLE_PASS_TYPENAME_17_DESC_1	Loncaya %s EXP Baðýþýnda bulun.
+EXTENDET_BATTLE_PASS_TYPENAME_18	%s Gaya Üret
+EXTENDET_BATTLE_PASS_TYPENAME_18_DESC_1	%s Gaya Üret
+EXTENDET_BATTLE_PASS_TYPENAME_19	Kaufe im Gaya-Shop ein
+EXTENDET_BATTLE_PASS_TYPENAME_19_DESC_1	Kaufe im Gaya-Shop Gegenstände im Gesamtwert von %s Gaya.
+EXTENDET_BATTLE_PASS_TYPENAME_20	Verzaubere ein Pet %s mal
+EXTENDET_BATTLE_PASS_TYPENAME_20_DESC_1	Verzaubere ein Pet %sx. Das Pet muss dabei mindestens Pettyp %s erreichen.
+EXTENDET_BATTLE_PASS_TYPENAME_20_DESC_2	Verzaubere ein Pet %sx.
+EXTENDET_BATTLE_PASS_TYPENAME_21	%s
+EXTENDET_BATTLE_PASS_TYPENAME_21_DESC_1	%s: görevini tamamlamak için bu zindaný %sx kez tamamla
+EXTENDET_BATTLE_PASS_TYPENAME_21_DESC_2	Herhangi bir zindaný %sx kez tamamla!
+EXTENDET_BATTLE_PASS_TYPENAME_22	Spiele %s
+EXTENDET_BATTLE_PASS_TYPENAME_22_DESC_1	Spiele und Beende %sx das Mini-Game %s.
+EXTENDET_BATTLE_PASS_TYPENAME_22_DESC_2	Herhangi Bir Mini Oyunu %sx Kez Tamamla.
+EXTENDET_BATTLE_PASS_MAP_NAME_BY_IDX_64	Seungryong Vadisi
+EXTENDET_BATTLE_PASS_MAP_NAME_BY_IDX_65	Hwang-Tempel
+EXTENDET_BATTLE_PASS_MAP_NAME_BY_IDX_72	Maðara 1
+EXTENDET_BATTLE_PASS_GUILDWAR_TYPE_NAME_1	Lonca Savaio Alan
+EXTENDET_BATTLE_PASS_GUILDWAR_TYPE_NAME_2	Lonca Savaþý Arena
+EXTENDET_BATTLE_PASS_GUILDWAR_TYPE_NAME_3	Flaggen-Gildenkrieg
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_1	Þeytan Kulesi Tamamla
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_2	Mavi Ejderha Ödlür
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_3	Devil's Catacomb Tamamla
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_4	Kýrmýzý Ejderha Öldür
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_5	Nemere Öldür
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_6	Örümcek Barones Öldür
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_7	Meley Öldür
+EXTENDET_BATTLE_PASS_MINIGAME_NAME_1	Okey Kart
+EXTENDET_BATTLE_PASS_MINIGAME_NAME_2	Kralý Yakala
+EXTENDET_BATTLE_PASS_MINIGAME_NAME_3	Yutnori
+EXTENDET_BATTLE_PASS_MINIGAME_NAME_4	Kahin Oyunu
+EXTENDET_BATTLE_PASS_MINIGAME_NAME_5	Balýk Bulmaca
+EXTENDET_BATTLE_PASS_SEND_SHOUT	%s kez baðýr!
+EXTENDET_BATTLE_PASS_SEND_SHOUT2	%s: Görevini tamamlamak için %sx kez baðýrmalýsýn!
+EXTENDET_BATTLE_PASS_SEND_SHOUT3	%sx kez baðýrma mesajý gönder ve görevi tamamla!
+
+EXTENDET_BATTLE_PASS_MINING_	Maden Kaz %s!
+EXTENDET_BATTLE_PASS_MINING	Maden Kaz!
+EXTENDET_BATTLE_PASS_MINING2	%s: Görevini tamamlamak için %sx kez madencilik yapmalýsýn!
+EXTENDET_BATTLE_PASS_MINING3	%sx kez madencilik yap ve görevi tamamla!
+
+EXTENDET_BATTLE_PASS_DAMAGE_METIN	Metinlere toplam %s hasar ver!
+EXTENDET_BATTLE_PASS_DAMAGE_METIN2	%s: Görevini tamamlamak için metinlere toplam %s hasar vermelisin!
+EXTENDET_BATTLE_PASS_DAMAGE_METIN3	Metinlere toplam %s hasar vererek görevi tamamla!
+
+EXTENDET_BATTLE_PASS_DAMAGE_METIN_REACH	Metinlere %s hasara ulaþ!
+EXTENDET_BATTLE_PASS_DAMAGE_METIN_REACH2	%s: Görevini tamamlamak için metinlere en az %s hasar atmalýsýn!
+EXTENDET_BATTLE_PASS_DAMAGE_METIN_REACH3	%s veya üstü hasar atarak görevi tamamla.!
+
+OPTION_BLOCK_WARP_REQUEST	Iþýnlanma
+NEW_EXCHANGE_YOU	Sen
+
+GLOBAL_RANKING_TITLE	En Ýyiler Sýralama Listesi

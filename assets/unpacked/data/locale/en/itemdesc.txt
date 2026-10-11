@@ -1,0 +1,603 @@
+11901	Tuxedo	A suit that men wear at weddings.
+11902	Tuxedo	A suit that men wear at weddings.
+11903	Wedding Dress	 Special attire worn by women at weddings.
+11904	Wedding Dress	 Special attire worn by women at weddings.
+22000	Return Scroll to City	This scroll teleports you to the village.
+22010	Return Scroll from City	This scroll allows you to return from the city or to the area where you are.
+25040	Blessing Scroll When enhancement fails, the risk of the item disappearing is eliminated, and only its quality drops by 1 level.
+25041	Enchanted Metal A legendary metal ball that allows an object to be enhanced to its best form. Furthermore, the enhanced item cannot be destroyed or reduced in value.
+25042	Ritual Stone	A mystically shimmering stone that offers the best chance for object enhancement. The enhanced item cannot be destroyed or worsened. This stone only works on stones above level 105.
+25100	Mind Stone Scroll	 This Scroll is used to remove mind stones from weapons and armor. An imprint remains after the stone is removed.
+27800	Dough	 The cheapest fish bait.
+27801	Worm	Used as bait for fishing.
+27803	Perch	 A type of fish that typically lives in lakes.
+27805	Large Perch A big, chubby perch.
+27990	Stone Fragment	Its small size makes it easy to carry. Can be used in various ways.
+27992	White Pearl	A pure white pearl that ladies love.
+27993	Blue Pearl	Blue-colored pearl that ladies love.
+27994	Crimson Pearl	 Crimson red pearl that ladies love.
+30006	Orc Tooth	 An orc's foul-smelling tooth.
+30015	Demon Remnant	 A dark remnant of a demon.
+30047	Curse Book	A special book used for cursing someone.
+30050	Ice Ball	A sphere made of ice that doesn't melt in hot weather.
+30220	Jinunggy's Soul Stone	 A legendary stone believed to contain the souls of Jinung aristocrats.
+30221	Temple Support Stone	A legendary stone believed to contain the spirits of temple supporters.
+30222	Sagyi's Soul Stone	A legendary stone believed to contain the souls of Sagyi aristocrats.
+30223	Aurtumryu's Soul Stone	 A legendary stone believed to contain the souls of Aurtumryu aristocrats.
+30224	Gyimok's Soul Stone A legendary stone believed to contain the souls of Gyimok aristocrats.
+30225	Tugyi's Soul Stone	A legendary stone believed to contain the souls of Tugyi aristocrats.
+30226	Tugyi's Soul Stone	A legendary stone believed to contain the souls of forest aristocrats.
+30227	Tugyi's Soul Stone	A legendary stone believed to contain the souls of leader aristocrats.
+30228	Tugyi's Soul Stone	A legendary stone believed to contain the souls of kem aristocrats.
+30229	Tugyi's Soul Stone	A legendary stone believed to contain the souls of wisdom aristocrats.
+30230	Tugyi's Soul Stone	A legendary stone believed to contain the souls of fire aristocrats.
+30231	Tugyi's Soul Stone	A legendary stone believed to contain the souls of dark aristocrats.
+30251	Bone Eye Gem	 A diamond imbued with malevolence.
+30252	Wisdom Gem A diamond with a soothing and generous glow.
+31080	Fire Elixir	A magical elixir filled with fire.
+31081	Dark Matter	The embodiment of darkness and evil.
+39033	Correction Scroll	Successfully placed mind stones can be removed from an item with this scroll.
+90000	Transformation Certificate	Equipment with equipment infused into shoulder straps or aura outfit can be cleaned from the item with this paper.
+39067	Part Chest	This chest contains a randomly colored part.
+39070	Gray Part	 Gray-colored part that adds the 6th or 7th bonus.
+39071	White Part	White-colored part that adds the 6th or 7th bonus.
+39072	Green Part	Green-colored part that adds the 6th or 7th bonus.
+39073	Yellow Part Yellow-colored part that adds the 6th or 7th bonus.
+39074	Blue Part	 Blue-colored part that adds the 6th or 7th bonus.
+39075	Purple Part Purple-colored part that adds the 6th or 7th bonus.
+39076	Red Part	Red-colored part that adds the 6th or 7th bonus.
+39077	Rainbow Part	Navy-colored part that adds the 6th or 7th bonus.
+49001	General Aura outfit	 You can transfer the value of jewelry to aura outfit with a specific absorption rate. You can upgrade the Aura outfit with ice runes of the Aura.
+49002	Simple Aura outfit	You can transfer the value of jewelry to aura outfit with a specific absorption rate. You can upgrade the Aura outfit with ice runes of the Aura.
+49003	Noble Aura outfit You can transfer the value of jewelry to aura outfit with a specific absorption rate. You can upgrade the Aura outfit with ice runes of the Aura.
+49004	Shiny Aura outfit You can transfer the value of jewelry to aura outfit with a specific absorption rate. You can upgrade the Aura outfit with ice runes of the Aura.
+49005	Showy Aura outfit You can transfer the value of jewelry to aura outfit with a specific absorption rate. You can upgrade the Aura outfit with ice runes of the Aura.
+49006	Bright Aura outfit You can transfer the value of jewelry to aura outfit with a specific absorption rate.
+49990	Ice Rune of the Aura	 Material needed to upgrade the Aura outfit. Go to Teovahdan to upgrade the Aura outfit.
+49991	Ice Rune of the Aura	 Material needed to upgrade the Aura outfit. Go to Teovahdan to upgrade the Aura outfit.
+
+50267	Gold Okey Chest	You have earned this high-level reward for scoring 400 or more points in Okey game.
+50268	Silver Okey Chest	You have earned this mid-level reward for scoring between 300 and 399 points in Okey game.
+50269	Bronze Okey Chest	You have earned this low-level reward for scoring 299 or fewer points in Okey game.
+50928	Gold King's Loot	 You have earned this high-level reward for scoring 550 or more points in Catch the King game.
+50929	Silver King's Loot You have earned this mid-level reward for scoring between 400 and 549 points in Catch the King game.
+50930	Bronze King's Loot You have earned this low-level reward for scoring 399 or fewer points in Catch the King game.
+83041	Gold Seer's Chest	You have earned this high-level reward for scoring 7 or more points in Seer competition.
+83042	Silver Seer's Chest	You have earned this mid-level reward for scoring between 4 and 6 points in Seer competition.
+83043	Bronze Seer's Chest	You have earned this low-level reward for scoring 3 or fewer points in Seer competition.
+200100	Letter Event Chest	You have earned this rare reward for collecting all the letters in the Letter event.
+50265	 Soccer Ball Chest	You have earned this rare reward for collecting 20 soccer balls in the Soccer Ball event.
+50401	Triple Slash Manual	 Used to master the Triple Slash skill. The book disappears after reading.
+50402	Sword Spin Manual	 Used to master the Sword Spin skill. The book disappears after reading.
+50403	Rage Manual	 Used to master the Rage skill. The book disappears after reading.
+50404	Air Blade Manual	Used to master the Air Blade skill. The book disappears after reading.
+50405	Lunge Manual	Used to master the Lunge skill. The book disappears after reading.
+50406	Will to Live Book	 Used to successfully complete the Will to Live quest. The book disappears after reading.
+50416	Soul Strike Manual	Used to master the Soul Strike skill. The book disappears after reading.
+50417	Heavy Strike Manual Used to master the Heavy Strike skill. The book disappears after reading.
+50418	Power Strike Manual Used to master the Power Strike skill. The book disappears after reading.
+50419	Strong Body Manual	Used to master the Strong Body skill. The book disappears after reading.
+50420	Sword Blow Manual	 Used to master the Sword Blow skill. The book disappears after reading.
+50421	Sword Circle Book	 Used to successfully complete the Sword Circle quest. The book disappears after reading.
+50431	Assassination Manual	Used to master the Assassination skill. The book disappears after reading.
+50432	Quick Attack Manual Used to master the Quick Attack skill. The book disappears after reading.
+50433	Knife Spin Manual	 Used to master the Knife Spin skill. The book disappears after reading.
+50434	Camouflage Manual	 Used to master the Camouflage skill. The book disappears after reading.
+50435	Poisonous Cloud Manual	 Used to master the Poisonous Cloud skill. The book disappears after reading.
+50436	Sneak Poison Book	 Used to successfully complete the Sneak Poison quest. The book disappears after reading.
+50446	Repeated Shot Manual	Used to master the Repeated Shot skill. The book disappears after reading.
+50447	Rain of Arrows Manual	Used to master the Rain of Arrows skill. The book disappears after reading.
+50448	Fiery Arrow Manual	Used to master the Fiery Arrow skill. The book disappears after reading.
+50449	Light Step Manual	 Used to master the Light Step skill. The book disappears after reading.
+50450	Poisoned Arrow Manual	Used to master the Poisoned Arrow skill. The book disappears after reading.
+50451	Spark Strike Book	 Used to successfully complete the Spark Strike quest. The book disappears after reading.
+50461	Finger Strike Manual	Used to master the Finger Strike skill. The book disappears after reading.
+50462	Dragon Transformation Manual	 Used to master the Dragon Transformation skill. The book disappears after reading.
+50463	Magical Sharpness Manual	Used to master the Magical Sharpness skill. The book disappears after reading.
+50464	Terror Manual	 Used to master the Terror skill. The book disappears after reading.
+50465	Magical Armor Manual	 Used to master the Magical Armor skill. The book disappears after reading.
+50466	Dispel Magic Manual	Used to master the Dispel Magic skill. The book disappears after reading.
+50476	Dark Strike Manual Used to master the Dark Strike skill. The book disappears after reading.
+50477	Fire Strike Manual Used to master the Fire Strike skill. The book disappears after reading.
+50478	Fire Ghost Manual	 Used to master the Fire Ghost skill. The book disappears after reading.
+50479	Dark Protection Manual Used to master the Dark Protection skill. The book disappears after reading.
+50480	Ghost Strike Manual Used to master the Ghost Strike skill. The book disappears after reading.
+50481	Dark Sphere Manual	Used to master the Dark Sphere skill. The book disappears after reading.
+50491	Flying Talisman Manual	 Used to master the Flying Talisman skill. The book disappears after reading.
+50492	Dragon Strike Book	This book enables mastery of the Dragon Strike skill. The book disappears after reading.
+50493	Dragon Roar Manual	Used to master the Dragon Roar skill. The book disappears after reading.
+50494	Blessing Manual Used to master the Blessing skill. The book disappears after reading.
+50495	Reflection Manual	 Used to master the Reflection skill. The book disappears after reading.
+50496	Dragon's Aid Book	 Used to master the Dragon's Aid skill. The book disappears after reading.
+50506	Lightning Throw Manual	 Used to master the Lightning Throw skill. The book disappears after reading.
+50507	Summon Lightning Manual	Used to master the Summon Lightning skill. The book disappears after reading.
+50508	Lightning Claw Manual	Used to master the Lightning Claw skill. The book disappears after reading.
+50509	Healing Manual	Used to master the Healing skill. The book disappears after reading.
+50510	Speed Manual	Used to master the Speed skill. The book disappears after reading.
+50511	High Attack Manual	Used to master the High Attack skill. The book disappears after reading.
+50513	Soul Stone	A legendary stone that enhances Grandmaster skills. It disappears after use.
+
+18900	Fossil Tree Trunk	A meteor fragment that grants extra power to the user. Can be added to belts.
+918900	Fossil Tree Trunk	A meteor fragment that grants extra power to the user. Can be added to belts.
+
+50621	Diamond	Used to unlock gem slots on valuable accessories.
+50623	Fossil	Tree Trunk   A precious wood that adds durability to accessories. Can be added to wooden accessories.
+50624	Copper	Sometimes used in bronze and coin making. Can be added to copper accessories.
+50625	Silver	A shiny noble metal used in jewelry making. Can be added to silver accessories.
+50626	Gold	Used in jewelry making. Can be added to gold accessories.
+50627	Jade Stone	A precious mineral used for over 5000 years. Can be added to Jade Stone accessories.
+50628	Ebony	The shiniest and strongest of all woods. Can be added to ebony accessories.
+50629	Pearl	Shining elegantly, the jewel of the seas. Can be added to pearl accessories.
+50630	White Gold	Durable, whitened gold jewel. Can be added to white gold accessories.
+50631	Crystal	Different colored crystal quartz. Can be added to crystal accessories.
+50632	Amethyst	Purple quartz. Can be added to amethyst accessories.
+50633	Tear of Heaven	Crystalized droplet fallen from heaven. Can be added to Tear of Heaven accessories.
+50634	Soul Crystal	This crystal is as pure as a soul. Can be added to Soul Crystal accessories.
+50635	Ruby	Carefully carved red gemstone. Can be added to ruby accessories.
+50636	Garnet	Carefully carved orange gemstone. Can be added to garnet accessories.
+50637	Emerald	Carefully carved green gemstone. Can be added to emerald accessories.
+50638	Sapphire	Carefully carved blue gemstone. Can be added to sapphire accessories.
+50639	Tourmaline	This gem, dazzling with rainbow colors, enchants the eyes. Can be added to tourmaline accessories.
+50640	Black Dragon	Contains the energy of a dark spell that darkens the eyes. Can be added to Black Dragon accessories.
+50641	Kyanite	Carefully carved purple gemstone. Can be added to kyanite accessories.
+
+950623	Fossil Tree Trunk	A valuable permanent wood that adds durability to accessories. Can be added to wooden accessories.
+950624	Copper	Sometimes used in permanent bronze and coin making. Can be added to copper accessories.
+950625	Silver	A permanent shiny noble metal used in jewelry making. Can be added to silver accessories.
+950626	Gold	Used in permanent jewelry making. Can be added to gold accessories.
+950627	Jade Stone	A valuable permanent mineral used for over 5000 years. Can be added to Jade Stone accessories.
+950628	Ebony	The shiniest and strongest of all woods, permanently. Can be added to ebony accessories.
+950629	Pearl	Shining elegantly, the jewel of the seas, permanently. Can be added to pearl accessories.
+950630	White Gold	A durable, whitened gold jewel, permanently. Can be added to white gold accessories.
+950631	Crystal	Different colored permanent crystal quartz. Can be added to crystal accessories.
+950632	Amethyst	Permanent purple quartz. Can be added to amethyst accessories.
+950633	Tear of Heaven	Crystalized droplet fallen from heaven, permanently. Can be added to Tear of Heaven accessories.
+950634	Soul Crystal	This crystal is as pure as a permanent soul. Can be added to Soul Crystal accessories.
+950635	Ruby	Carefully carved permanent red gemstone. Can be added to ruby accessories.
+950636	Garnet	Carefully carved permanent orange gemstone. Can be added to garnet accessories.
+950637	Emerald	Carefully carved permanent green gemstone. Can be added to emerald accessories.
+950638	Sapphire	Carefully carved permanent blue gemstone. Can be added to sapphire accessories.
+950639	Tourmaline	This permanent gem, dazzling with rainbow colors, enchants the eyes. Can be added to tourmaline accessories.
+950640	Black Dragon	Contains the energy of a dark spell that darkens the eyes, permanently. Can be added to Black Dragon accessories.
+950641	Kyanite	Carefully carved permanent purple gemstone. Can be added to kyanite accessories.
+51511	Cor Draconis Diamond	A White Cor Draconis. Contains a random dragon diamond.
+51512	Cor Draconis Ruby	A Red Cor Draconis. Contains a random dragon ruby.
+51513	Cor Draconis Jadeite	A Green Cor Draconis. Contains a random dragon jadeite.
+51514	Cor Draconis Sapphire	A Blue Cor Draconis. Contains a random dragon sapphire.
+51515	Cor Draconis Garnet	An Orange Cor Draconis. Contains a random dragon garnet.
+51516	Cor Draconis Atrum	A Black Cor Draconis. Contains a random dragon onyx.
+
+55003	Young Pet Book	With this book, you can level up your pet to the next level (Wild).
+55004	Wild Pet Book	With this book, you can level up your pet to the next level (Brave).
+55005	Brave Pet Book	With this book, you can level up your pet to the next level (Hero).
+
+55401	Monkey Egg	If you want your pet to hatch from the egg, right-click the egg.
+55701	Small Monkey	Call your pet with the right mouse button and then display the pet user interface with the P key.
+
+70005	Experience Ring (1 hr.)	Provides 50% more experience for 60 minutes. Can be used under level 90.
+970005	Experience Ring (1 hr.)	Provides 50% more experience for 60 minutes. Can be used at level 90 and above.
+
+70038	Courage Cloak	True warriors draw the attention of all creatures with their colorful cloaks and thus prove their heroism.
+70039	Blacksmith's Handbook	A book containing the souls of ancient blacksmiths. When used, it increases the upgrade success rate. Can be used on items level 90 and above.
+
+70043	Thief's Gloves	Double the chance of obtaining items. Can be used under level 90.
+970043	Thief's Gloves	Double the chance of obtaining items. Can be used at level 90 and above.
+
+70102	Zen Bean	Reduces bad rankings.
+
+71001	Exorcism Paper	If learning fails, it protects you from the curse of evil spirits.
+71002	Stat Reset Paper	Resets status points, allowing you to develop your character in a different direction.
+71054	Mark of Kingdoms	Allows a character to escape to another kingdom, changing kingdoms.
+
+71032	Dragon Parchment	When enhancement fails, the quality of an item drops by one level. Also increases the enhancement chance by 10%. Can be used on items below level 90.
+70058	Teleportation Ring	This ring teleports you to a desired location.
+
+72726	Sun Essence	When used, it disappears from the effects section in the upper left corner, it's permanent and unlimited. Clicking on the effect toggles it on or off.
+72730	Moon Essence	When used, it disappears from the effects section in the upper left corner, it's permanent and unlimited. Clicking on the effect toggles it on or off.
+71107	Life Fruit	Increases ranking points by 2,000.
+30629	Biologist's Timer	Resets the waiting time for collected research items, making them easier to deliver.
+71035	Researcher's Essence	Increases the quality of collected research items, making them easier to be accepted.
+
+71083	Stone Art Book	Removes broken stone attachments, creating empty attachment slots.
+71084	Enchantment Item	Removes and replaces bonuses from an item. Only valid for bonuses 1 to 5.
+71085	Enhancement Paper	Adds new bonuses to your owned items.
+
+71094	Hermit's Advice	Doubles your chance to improve your abilities when reading the next book (or soul stone).
+
+200221	Dragon Scale	Among the most intense materials are dragon scales.
+200222	Dragon Claw	Seeing this ominous claw brings back memories...
+71151	Green Enchantment	Removes and replaces bonuses from an item. Applicable only to armor and weapons level 40 and below.
+71153	Elixir of Wisdom	With this elixir, you will gain 100% more experience during a one-hour gaming session.
+71154	Elixir of Ascension	With this elixir, you will gain 100% more experience during a one-hour gaming session. Trade is not available.
+
+72346	Blessing	Removes and replaces bonuses from an item. Valid for bonuses 6 and 7 with low probability.
+72351	Small Blessing	With a low chance, changes the 6th or 7th bonus.
+
+79505	Rummy Collection Card	Collect 24 rummy collection cards, then right-click to obtain a rummy card set.
+79506	Rummy Card Set	With this card set, you can start a game of rummy. The card set will be automatically removed from your inventory after the game starts.
+79512	Tarot Card	Collect 24 tarot cards, then right-click to obtain a tarot card set.
+79513	Tarot Card Set	With this card set, you can start a fortune-telling competition. The card set will be automatically removed from your inventory after the game starts.
+79603	King's Card	Collect 25 king's cards, then right-click to obtain a king's deck.
+79604	King's Deck	With this card deck, you can start a game of king. The card deck will be automatically removed from your inventory after the game starts.
+
+80008	Gold Fragment	Unprocessed gold. Can be sold at a high price in the store.
+80014	EP Coupon (100)	A coupon worth 100 Dragon Coins. This item can be traded.
+80015	EP Coupon (500)	A coupon worth 500 Dragon Coins. This item can be traded.
+80016	EP Coupon (1000)	A coupon worth 1000 Dragon Coins. This item can be traded.
+80017	EP Coupon (50)	A coupon worth 50 Dragon Coins. This item can be traded.
+80019	Fine Cloth	This material is used to produce shoulder straps.
+
+85001	Judge's Belt (Simple)	This sash takes 1% of the bonuses from the weapon or armour that you use for absorption.
+85002	Judge's Belt ((fine)	This sash takes 5% of the bonuses from the weapon or armour that you use for absorption.
+85003	Judge's Belt (Noble)	This sash takes 10% of the bonuses from the weapon or armour that you use for absorption.
+85004	Judge's Belt (custom)	This sash takes 11-25% of the bonuses from the weapon or armour that you use for absorption.
+85005	Master's Belt (Simple)	This sash takes 1% of the bonuses from the weapon or armour that you use for absorption.
+85006	Master's Belt ((fine)	This sash takes 5% of the bonuses from the weapon or armour that you use for absorption.
+85007	Master's Belt (Noble)	This sash takes 10% of the bonuses from the weapon or armour that you use for absorption.
+85008	Master's Belt (custom)	This sash takes 11-25% of the bonuses from the weapon or armour that you use for absorption.
+85011	Lord's Belt (Simple)	This sash takes 1% of the bonuses from the weapon or armour that you use for absorption.
+85012	Lord's Belt ((fine)	This sash takes 5% of the bonuses from the weapon or armour that you use for absorption.
+85013	Lord's Belt (Noble)	This sash takes 10% of the bonuses from the weapon or armour that you use for absorption.
+85014	Lord's Belt (custom)	This sash takes 11-25% of the bonuses from the weapon or armour that you use for absorption.
+85015	King's Belt (Simple)	This sash takes 1% of the bonuses from the weapon or armour that you use for absorption.
+85016	King's Belt ((fine)	This sash takes 5% of the bonuses from the weapon or armour that you use for absorption.
+85017	King's Belt (Noble)	This sash takes 10% of the bonuses from the weapon or armour that you use for absorption.
+85018	King's Belt (custom)	This sash takes 11-25% of the bonuses from the weapon or armour that you use for absorption.
+85021	Anniversary Belt (Simple)	This sash takes 1% of the bonuses from the weapon or armour that you use for absorption.
+85022	Anniversary Belt ((fine)	This sash takes 5% of the bonuses from the weapon or armour that you use for absorption.
+85023	Anniversary Belt (Noble)	This sash takes 10% of the bonuses from the weapon or armour that you use for absorption.
+85024	Anniversary Belt (custom)	This sash takes 11-25% of the bonuses from the weapon or armour that you use for absorption.
+86001	Zi Band (Simple)	This sash takes 1% of the bonuses from the weapon or armour that you use for absorption.
+86002	Zi Band ((fine)	This sash takes 5% of the bonuses from the weapon or armour that you use for absorption.
+86003	Zi Band (Noble)	This sash takes 10% of the bonuses from the weapon or armour that you use for absorption.
+86004	Zi Band (custom)	This sash takes 11-25% of the bonuses from the weapon or armour that you use for absorption.
+86005	Chou Band (Simple)	This sash takes 1% of the bonuses from the weapon or armour that you use for absorption.
+86006	Chou Band ((fine)	This sash takes 5% of the bonuses from the weapon or armour that you use for absorption.
+86007	Chou Band (Noble)	This sash takes 10% of the bonuses from the weapon or armour that you use for absorption.
+86008	Chou Band (custom)	This sash takes 11-25% of the bonuses from the weapon or armour that you use for absorption.
+86011	Yin Band (Simple)	This sash takes 1% of the bonuses from the weapon or armour that you use for absorption.
+86012	Yin Band ((fine)	This sash takes 5% of the bonuses from the weapon or armour that you use for absorption.
+86013	Yin Band (Noble)	This sash takes 10% of the bonuses from the weapon or armour that you use for absorption.
+86014	Yin Band (custom)	This sash takes 11-25% of the bonuses from the weapon or armour that you use for absorption.
+86015	Mao Band (Simple)	This sash takes 1% of the bonuses from the weapon or armour that you use for absorption.
+86016	Mao Band ((fine)	This sash takes 5% of the bonuses from the weapon or armour that you use for absorption.
+86017	Mao Band (Noble)	This sash takes 10% of the bonuses from the weapon or armour that you use for absorption.
+86018	Mao Band (custom)	This sash takes 11-25% of the bonuses from the weapon or armour that you use for absorption.
+86021	Chen Band (Simple)	This sash takes 1% of the bonuses from the weapon or armour that you use for absorption.
+86022	Chen Band ((fine)	This sash takes 5% of the bonuses from the weapon or armour that you use for absorption.
+86023	Chen Band (Noble)	This sash takes 10% of the bonuses from the weapon or armour that you use for absorption.
+86024	Chen Band (custom)	This sash takes 11-25% of the bonuses from the weapon or armour that you use for absorption.
+86025	Si Band (Simple)	This sash takes 1% of the bonuses from the weapon or armour that you use for absorption.
+86026	Si Band ((fine)	This sash takes 5% of the bonuses from the weapon or armour that you use for absorption.
+86027	Si Band (Noble)	This sash takes 10% of the bonuses from the weapon or armour that you use for absorption.
+86028	Si Band (custom)	This sash takes 11-25% of the bonuses from the weapon or armour that you use for absorption.
+86031	Wu Band (Simple)	This sash takes 1% of the bonuses from the weapon or armour that you use for absorption.
+86032	Wu Band ((fine)	This sash takes 5% of the bonuses from the weapon or armour that you use for absorption.
+86033	Wu Band (Noble)	This sash takes 10% of the bonuses from the weapon or armour that you use for absorption.
+86034	Wu Band (custom)	This sash takes 11-25% of the bonuses from the weapon or armour that you use for absorption.
+86035	Wei Band (Simple)	This sash takes 1% of the bonuses from the weapon or armour that you use for absorption.
+86036	Wei Band ((fine)	This sash takes 5% of the bonuses from the weapon or armour that you use for absorption.
+86037	Wei Band (Noble)	This sash takes 10% of the bonuses from the weapon or armour that you use for absorption.
+86038	Wei Band (custom)	This sash takes 11-25% of the bonuses from the weapon or armour that you use for absorption.
+86041	Shen Band (Simple)	This sash takes 1% of the bonuses from the weapon or armour that you use for absorption.
+86042	Shen Band ((fine)	This sash takes 5% of the bonuses from the weapon or armour that you use for absorption.
+86043	Shen Band (Noble)	This sash takes 10% of the bonuses from the weapon or armour that you use for absorption.
+86044	Shen Band (custom)	This sash takes 11-25% of the bonuses from the weapon or armour that you use for absorption.
+86045	Yu Band (Simple)	This sash takes 1% of the bonuses from the weapon or armour that you use for absorption.
+86046	Yu Band ((fine)	This sash takes 5% of the bonuses from the weapon or armour that you use for absorption.
+86047	Yu Band (Noble)	This sash takes 10% of the bonuses from the weapon or armour that you use for absorption.
+86048	Yu Band (custom)	This sash takes 11-25% of the bonuses from the weapon or armour that you use for absorption.
+86051	Xu Band (Simple)	This sash takes 1% of the bonuses from the weapon or armour that you use for absorption.
+86052	Xu Band ((fine)	This sash takes 5% of the bonuses from the weapon or armour that you use for absorption.
+86053	Xu Band (Noble)	This sash takes 10% of the bonuses from the weapon or armour that you use for absorption.
+86054	Xu Band (custom)	This sash takes 11-25% of the bonuses from the weapon or armour that you use for absorption.
+86055	Hai Band (Simple)	This sash takes 1% of the bonuses from the weapon or armour that you use for absorption.
+86056	Hai Band ((fine)	This sash takes 5% of the bonuses from the weapon or armour that you use for absorption.
+86057	Hai Band (Noble)	This sash takes 10% of the bonuses from the weapon or armour that you use for absorption.
+86058	Hai Band (custom)	This sash takes 11-25% of the bonuses from the weapon or armour that you use for absorption.
+86061	Heart Band (Simple)	This sash takes 1% of the bonuses from the weapon or armour that you use for absorption.
+86062	Heart Band ((fine)	This sash takes 5% of the bonuses from the weapon or armour that you use for absorption.
+86063	Heart Band (Noble)	This sash takes 10% of the bonuses from the weapon or armour that you use for absorption.
+86064	Heart Band (custom)	This sash takes 11-25% of the bonuses from the weapon or armour that you use for absorption.
+
+100002	Süre Özütü (B)	Refills the duration of a Dragon Stone.	6 hours
+
+100300	Green Dragon Bean	The magical bean increases your Dragon Stone's level. The strengthening process may fail.
+100400	Blue Dragon Bean	The chance of a successful improvement of the Dragon Stone by one level is 5% higher.
+100500	Pink Dragon Bean	The chance of a successful improvement of the Dragon Stone by one level is 10% higher.
+
+93100	Battle Pass		This item activates seasonal tasks with multiple rewards.
+
+200000	Skill Book Chest		Contains skill books to improve skills.
+200001	Physical Skill Book Chest	Contains skill books to improve physical skills.
+200002	Mental Skill Book Chest	Contains skill books to improve mental skills.
+200003	Body Skill Book Chest	Contains skill books to improve body skills.
+200004	Ranged Skill Book Chest	Contains skill books to improve ranged skills.
+200005	Magical Weapon Skill Book Chest	Contains skill books to improve magical weapon skills.
+200006	Dark Magic Skill Book Chest	Contains skill books to improve dark magic skills.
+200007	Dragon Power Skill Book Chest	Contains skill books to improve dragon power skills.
+200008	Healing Skill Book Chest	Contains skill books to improve healing skills.
+200009	Training Chest		Contains auxiliary items to improve skills.
+200011	Cor Draconis Chest	Contains dragon stone alchemy materials.
+200012	Treasure Chest		Contains highly valuable materials.
+200013	Enchantment Item Chest (10k)	Contains 10,000 enchantment items.
+200014	Oyster		May contain pearls or stone fragments.
+200015	Golden Oyster		May contain colored pearls or stone fragments.
+200016	Golden Fish Chest (Common)	Contains common fish.
+200017	Golden Fish Chest (Rare)	Contains extremely rare fish.
+200018	Passive Skill Book Chest	Contains skill books to improve passive skills.
+200019	Elysium Chest		Contains highly valuable materials.
+200020	Legendary Cor Chest	Contains legendary-grade dragon stone alchemy materials.
+200021	Pet Book Chest		Contains pet skill books.
+200022	Upgrade Chest		Contains mid-level upgrade materials.
+200023	Advanced Upgrade	Contains high-level upgrade materials.
+
+200200	Sapphire Crystal	A common crystal made of sapphire. Used in crafting and refining equipment.
+200202	Sapphire Crystal	A rare crystal made of emerald. Used in crafting and refining equipment.
+200204	Sapphire Crystal	A rare crystal made of ruby. Used in crafting and refining equipment.
+200206	Dungeon Vellum (Low)	Allows you to purchase tickets for low-level dungeons.
+200207	Dungeon Vellum (Medium)	Allows you to purchase tickets for medium-level dungeons.
+200208	Dungeon Vellum (High)	Allows you to purchase tickets for high-level dungeons.
+200209	Equipment Coupon	The first template used by an ancient master in equipment crafting. Used for initial purchases, crafting, and refining equipment.
+200210	Valleycoin	A coin used in ancient times. Generally used for trading with NPCs and equipment crafting.
+200211	Pickaxe Enhancement Stone	A mysterious black stone. Used in refining pickaxes.
+200212	Fishing Rod Enhancement Stone	A broken piece of a fishing rod. Used in refining fishing rods.
+200213	Ore Fragment (Low)	A common ore fragment obtained through mining. Used when purchasing low-level ore from the Ore Merchant.
+200214	Ore Fragment (High)	A rare ore fragment obtained through mining. Used when purchasing high-level ore from the Ore Merchant.
+200215	Elysium Coin	A rare currency exclusive to Elysium. Can be used to purchase items to enhance your power from the Elysium Market.
+200216	Dandelion	A fresh and yellow-colored flower that brings the feeling of spring. Used to purchase herbal essences from Huahn-So.
+200217	Biologist Vellum	An ancient vellum used to purchase biologist materials from Biologist Chaegirab.
+200218	Craft Coin	Silver coin used in equipment enhancement and crafting. Used in equipment crafting and refining.
+200221	Dragon Scale	Dragon scales are among the most potent materials known. Used in equipment crafting and refining.
+200222	Dragon Claw	Chilling to the touch, this claw triggers memories... Used in equipment crafting and refining.
+200223	Flame Stone	Crystallized essence of flame and magma. Used in equipment crafting and refining.
+200224	Ice Flame Stone	Crystallized essence of cold and ice. Used in equipment crafting and refining.
+200225	Mithril	Only a small fragment remains from a fallen meteor. Used in refining equipment.
+200226	Titanium Dioxide	Prismatic crystal. Used in refining equipment.
+200227	Agate	A mysterious mineral that sparkles like stars in the darkness. Used in refining equipment.
+200228	Moonstone	A precious droplet-shaped stone that holds a spark of moonlight. Used in refining equipment.
+200229	Green Accessory Blueprint	An ancient blueprint used by a master to craft accessories. Used in equipment crafting.
+200230	Heavy Belts	A tightly wound thin string. Used in equipment crafting.
+200231	Green Equipment Blueprint	An ancient blueprint used by a master to craft equipment. Used in equipment crafting.
+200232	Strong Threads	A tightly wound thick rope. Used in equipment crafting.
+200233	Magical Troll Crystal	A crystal infused with the power of the Magical Troll. Used in equipment crafting and refining.
+200234	Magical Troll Stone	A stone containing memories of the Magical Troll. Used in equipment crafting and refining.
+200235	Queen Meley's Wing	Meley's severed wing. Used in equipment crafting and refining.
+200236	Floraun's Horn	A broken horn of Floraun. Used in equipment crafting and refining.
+200237	Zodiac Armor Blueprint	An ancient blueprint used by a master to craft zodiac armor. Used in equipment crafting and refining.
+200238	Zodiac Weapon Blueprint	An ancient blueprint used by a master to craft zodiac weapons. Used in equipment crafting and refining.
+200239	Zodiac Accessory Blueprint	An ancient blueprint used by a master to craft zodiac accessories. Used in equipment crafting and refining.
+200240	Alastor's Heart	Alastor's heart covered in ice. Used in equipment crafting and refining.
+200241	Atlantis Crystal	The source of Poseidon's divine power. Used in equipment crafting and refining.
+200242	Scorpion Tail	The severed tail of the Scorpion King. Used in equipment crafting and refining.
+200243	Dragon Skull	The severed skull of the Skeleton Dragon. Used in equipment crafting and refining.
+200244	Dark Dragon Armor Blueprint	An ancient blueprint used by a master to craft dark dragon armor. Used in equipment crafting and refining.
+200245	Dark Dragon Weapon Blueprint	An ancient blueprint used by a master to craft dark dragon weapons. Used in equipment crafting and refining.
+200246	Dark Dragon Accessory Blueprint	An ancient blueprint used by a master to craft dark dragon accessories. Used in equipment crafting and refining.
+
+200265	Green Pearl	A green-colored pearl. Used in refining equipment.
+200266	Pink Pearl	A pink-colored pearl. Used in refining equipment.
+200267	Gold Pearl	A gold-colored pearl. Used in refining equipment.
+200268	Shimmering Pearl	A pearl that dazzles with its brilliance. Used in refining equipment.
+200269	Navy Pearl	A navy-colored pearl. Used in refining equipment.
+200270	Purple Pearl	A purple-colored pearl. Used in refining equipment.
+200271	Black Pearl	A pearl with a dark, mesmerizing color. Used in refining equipment.
+200272	Green Embroidery	A green-colored embroidery. Used in refining equipment.
+200273	Pink Embroidery	A pink-colored embroidery. Used in refining equipment.
+200274	Gold Embroidery	A gold-colored embroidery. Used in refining equipment.
+200275	Shimmering Embroidery	A dazzlingly colored embroidery. Used in refining equipment.
+200276	Navy Embroidery	A navy-colored embroidery. Used in refining equipment.
+200277	Purple Embroidery	A purple-colored embroidery. Used in refining equipment.
+200278	Black Embroidery	A dark and captivating embroidery. Used in refining equipment.
+200279	Green Thread	A green-colored thread. Used in refining equipment.
+200280	Pink Thread	A pink-colored thread. Used in refining equipment.
+200281	Gold Thread	A gold-colored thread. Used in refining equipment.
+200282	Shimmering Thread	A dazzlingly colored thread. Used in refining equipment.
+200283	Navy Thread	A navy-colored thread. Used in refining equipment.
+200284	Purple Thread	A purple-colored thread. Used in refining equipment.
+200285	Black Thread	A dark and captivating thread. Used in refining equipment.
+200286	Green Fabric	A green-colored fabric. Used in refining equipment.
+200287	Pink Fabric	A pink-colored fabric. Used in refining equipment.
+200288	Gold Fabric	A gold-colored fabric. Used in refining equipment.
+200289	Shimmering Fabric	A dazzlingly colored fabric. Used in refining equipment.
+200290	Navy Fabric	A navy-colored fabric. Used in refining equipment.
+200291	Purple Fabric	A purple-colored fabric. Used in refining equipment.
+200292	Black Fabric	A dark and captivating fabric. Used in refining equipment.
+200293	Green Dye	A green-colored dye. Used in refining equipment.
+200294	Pink Dye	A pink-colored dye. Used in refining equipment.
+200295	Gold Dye	A gold-colored dye. Used in refining equipment.
+200296	Shimmering Dye	A dazzlingly colored dye. Used in refining equipment.
+200297	Navy Dye	A navy-colored dye. Used in refining equipment.
+200298	Purple Dye	A purple-colored dye. Used in refining equipment.
+200299	Black Dye	A dark and captivating dye. Used in refining equipment.
+
+55107	Pet Skill Slot Opener	With this item, you can unlock the next skill slot for your pet.
+
+55120	Genç Pet Kitabý	With this book, you can level up your pet to the next stage (Wild).
+55121	Yabani Pet Kitabý	With this book, you can level up your pet to the next stage (Brave).
+55122	Cesur Pet Kitabý	With this book, you can level up your pet to the next stage (Heroic).
+55125	Pet Tip Deðiþtirici	You can change your pet's type with this item.
+55127	Pet Efsunlayýcý	You can change your pet's attributes with this item.
+55128	Pet Yýldýzý	You can increase your pet's star level with this item.
+55130	Pet Skin (Azrail)	You can activate your pet's Azrail appearance with this item.
+55131	Pet Skin (Baashido)	You can activate your pet's Baashido appearance with this item.
+55132	Pet Skin (Meley)	You can activate your pet's Meley appearance with this item.
+55133	Pet Skin (Alastor)	You can activate your pet's Alastor appearance with this item.
+55134	Pet Skin (Exedyar)	You can activate your pet's Exedyar appearance with this item.
+55140	Pet EXP Yüzüðü	You can increase your pet's EXP gain with this ring.
+55150	Pet Kitabý (Savaþçý)	With this book, you can enhance your pet's Warrior resistance skill.
+55151	Pet Kitabý (Sura)	With this book, you can enhance your pet's Sura resistance skill.
+55152	Pet Kitabý (Ninja)	With this book, you can enhance your pet's Ninja resistance skill.
+55153	Pet Kitabý (Þaman)	With this book, you can enhance your pet's Shaman resistance skill.
+55154	Pet Kitabý (Berserker)	With this book, you can enhance your pet's Berserker skill.
+55155	Pet Kitabý (Yarý Ýnsan)	With this book, you can enhance your pet's Half Human skill.
+55156	Pet Kitabý (Delici Vuruþ)	With this book, you can enhance your pet's Piercing Strike skill.
+55157	Pet Kitabý (Kritik Vuruþ)	With this book, you can enhance your pet's Critical Strike skill.
+55158	Pet Kitabý (HP Absorbe)	With this book, you can enhance your pet's HP Absorb skill.
+55159	Pet Kitabý (Bloklama Þansý)	With this book, you can enhance your pet's Blocking skill.
+55160	Pet Kitabý (Canavar)	With this book, you can enhance your pet's Monster skill.
+55161	Pet Kitabý (Metin)	With this book, you can enhance your pet's Metin skill.
+55162	Pet Kitabý (Patron)	With this book, you can enhance your pet's Boss skill.
+55163	Pet Kitabý (Canavar Savunmasý)	With this book, you can enhance your pet's Monster Defense skill.
+55164	Pet Kitabý (Yang Düþme)	With this book, you can enhance your pet's Yang Drop skill.
+
+37000	Premium Kullanýcý (7g)	When activated, provides you with premium user status for 7 days.
+37001	Premium Kullanýcý (14g)	When activated, provides you with premium user status for 14 days.
+37002	Premium Kullanýcý (30g)	When activated, provides you with premium user status for 30 days.
+37003	Premium Kullanýcý (Kalýcý)	When activated, provides you with permanent premium user status.
+37004	Premium Kullanýcý (7g)	When activated, provides you with premium user status for 7 days.		No trading.
+37005	Premium Kullanýcý (14g)	When activated, provides you with premium user status for 14 days.		No trading.
+37006	Premium Kullanýcý (30g)	When activated, provides you with premium user status for 30 days.		No trading.
+37007	Premium Kullanýcý (Kalýcý)	When activated, provides you with permanent premium user status.		No trading.
+37008	Premium Auto Loot (7d)	When activated, allows you to automatically collect items for 7 days.
+37009	Premium Auto Loot (14d)	When activated, allows you to automatically collect items for 14 days.
+37010	Premium Auto Loot (30d)	When activated, allows you to automatically collect items for 30 days.
+37011	Premium Auto Loot (Permanent)	When activated, permanently enables automatic item collection.
+37012	Premium Auto Loot (7d)	When activated, allows you to automatically collect items for 7 days.		No trading.
+37013	Premium Auto Loot (14d)	When activated, allows you to automatically collect items for 14 days.		No trading.
+37014	Premium Auto Loot (30d)	When activated, allows you to automatically collect items for 30 days.		No trading.
+37015	Premium Auto Loot (Permanent)	When activated, permanently enables automatic item collection.		No trading.
+
+37016	Premium Metin Marker (7d)	When activated, increases the number of marked metins to 6 for 7 days.
+37017	Premium Metin Marker (14d)	When activated, increases the number of marked metins to 6 for 14 days.
+37018	Premium Metin Marker (30d)	When activated, increases the number of marked metins to 6 for 30 days.
+37019	Premium Metin Marker (Permanent)	When activated, permanently increases the number of marked metins to 6.
+37020	Premium Metin Marker (7d)	When activated, increases the number of marked metins to 6 for 7 days.	Not tradeable.
+37021	Premium Metin Marker (14d)	When activated, increases the number of marked metins to 6 for 14 days.	Not tradeable.
+37022	Premium Metin Marker (30d)	When activated, increases the number of marked metins to 6 for 30 days.	Not tradeable.
+37023	Premium Metin Marker (Permanent)	When activated, permanently increases the number of marked metins to 6.	Not tradeable.
+
+24050	Mount Name Tag (7d)	When activated, allows you to give your mount a new name and gain extra bonuses for 7 days.
+24051	Mount Name Tag (14d)	When activated, allows you to give your mount a new name and gain extra bonuses for 14 days.
+24052	Mount Name Tag (7d)	When activated, allows you to give your mount a new name and gain extra bonuses for 7 days.		No trading.
+24053	Mount Name Tag (14d)	When activated, allows you to give your mount a new name and gain extra bonuses for 14 days.		No trading.
+24054	Pet Name Tag (7d)	When activated, allows you to give your pet a new name and gain extra bonuses for 7 days.
+24055	Pet Name Tag (14d)	When activated, allows you to give your pet a new name and gain extra bonuses for 14 days.
+24056	Pet Name Tag (7d)	When activated, allows you to give your pet a new name and gain extra bonuses for 7 days.		No trading.
+24057	Pet Name Tag (14d)	When activated, allows you to give your pet a new name and gain extra bonuses for 14 days.		No trading.
+24058	Buff Name Tag (7d)	When activated, allows you to give your buff a new name and activate healing skills for 7 days.
+24059	Buff Name Tag (14d)	When activated, allows you to give your buff a new name and activate healing skills for 14 days.
+24060	Buff Name Tag (7d)	When activated, allows you to give your buff a new name and activate healing skills for 7 days.		No trading.
+24061	Buff Name Tag (14d)	When activated, allows you to give your buff a new name and activate healing skills for 14 days.		No trading.
+
+64000	Mount Name Tag (2d)	When activated, allows you to give your mount a new name and gain extra bonuses for 2 days.
+64001	Pet Name Tag (2d)	When activated, allows you to give your pet a new name and gain extra bonuses for 2 days.
+64002	Buff Name Tag (2d)	When activated, allows you to give your buff a new name and activate healing skills for 2 days.
+
+24102	Glove Enhancement Item	A rare item used to add a new bonus to glove equipment.
+24103	Glove Enchantment Item	A rare item used to change the bonus on glove equipment.
+24104	Talisman Enhancement Item	A rare item used to add a new bonus to talisman equipment.
+24105	Talisman Enchantment Item	A rare item used to change the bonus on talisman equipment.
+
+200400	Fire Scroll	A mysterious scroll that transfers the power of fire element.
+200401	Fire Crystal	A shining crystal composed of the power of fire element.
+200402	Fire Talisman Chest	An ancient chest containing the talisman that controls the fire element.
+200403	Ice Scroll	A mysterious scroll that transfers the power of ice element.
+200404	Ice Crystal	A shining crystal composed of the power of ice element.
+200405	Ice Talisman Chest	An ancient chest containing the talisman that controls the ice element.
+200406	Earth Scroll	A mysterious scroll that transfers the power of earth element.
+200407	Earth Crystal	A shining crystal composed of the power of earth element.
+200408	Earth Talisman Chest	An ancient chest containing the talisman that controls the earth element.
+200409	Dark Scroll	A mysterious scroll that transfers the power of dark element.
+200410	Dark Crystal	A shining crystal composed of the power of dark element.
+200411	Dark Talisman Chest	An ancient chest containing the talisman that controls the dark element.
+200412	Wind Scroll	A mysterious scroll that transfers the power of wind element.
+200413	Wind Crystal	A shining crystal composed of the power of wind element.
+200414	Wind Talisman Chest	An ancient chest containing the talisman that controls the wind element.
+200415	Lightning Scroll	A mysterious scroll that transfers the power of lightning element.
+200416	Lightning Crystal	A shining crystal composed of the power of lightning element.
+200417	Lightning Talisman Chest	An ancient chest containing the talisman that controls the lightning element.
+200418	Element Scroll	A mysterious scroll that transfers the power of elements.
+200419	Element Crystal	A shining crystal composed of the power of elements.
+200420	Element Talisman Chest	An ancient chest containing the talisman that controls the elements.
+200500	Poisonous Lucifer Ticket	A ticket required to enter the Poisonous Devil's Tower.
+200501	Barones Ticket	A ticket required to enter Barones' Lair.
+200502	Magical Genie Ticket	A ticket required to enter the Genie's Cave.
+200503	Ice Crocodile Ticket	A ticket required to enter the Ice Land.
+200504	Shadow Azrael Ticket	A ticket required to enter the Devil's Catacomb.
+200505	Beran Setaou Ticket	A ticket required to enter Beran-Setaou's Room.
+200506	Razador Ticket	A ticket required to enter Razador's Fortress.
+200507	Naga Ticket	A ticket required to enter the Naga Temple.
+200508	Crystal Wolf Ticket	A ticket required to enter the Sapphire Cave.
+200509	Jotun Thrym Ticket	A ticket required to enter the Ochao Temple.
+200510	Odin Ticket	A ticket required to enter Odin's Castle.
+200511	Magical Troll Ticket	A ticket required to enter the Magical Troll Cave.
+200512	Meley Ticket	A ticket required to enter Queen Meley's Nest.
+200513	Floraun Ticket	A ticket required to enter Floraun's Garden.
+200514	Alastor Ticket	A ticket required to enter Alastor's Cave.
+200515	Poseidon Ticket	A ticket required to enter the Lost City of Atlantis.
+200516	Scorpion King Ticket	A ticket required to enter the Arid Scorpion Ruins.
+200517	Skeleton Dragon Ticket	A ticket required to enter the Skeleton Dragon Chamber.
+200518	Akzadur Ticket	A ticket required to enter King Akzadur's Room.
+200519	Serpent Queen Ticket	A ticket required to enter the Serpent Temple.
+
+200540	Poisonous Lucifer Seal	Right-click to use and open the Poisonous Seal.
+200541	Barones Seal	Right-click to use and open the Spider Seal.
+200542	Magical Genie Seal	Right-click to use and open the Magical Seal.
+200543	Ice Crocodile Seal	Right-click to use and open the Ice Seal.
+200544	Shadow Azrael Seal	Right-click to use and open the Nightmare Seal.
+200545	Beran Setaou Seal	Right-click to use and open the Blue Dragon Seal.
+200546	Razador Seal	Right-click to use and open the Flame Seal.
+200547	Naga Seal	Right-click to use and open the Frost Seal.
+200548	Crystal Wolf Seal	Right-click to use and open the Sapphire Seal.
+200549	Jotun Thrym Seal	Right-click to use and open the Forest Seal.
+200550	Odin Seal	Right-click to use and open the Asgard Seal.
+200551	Magical Troll Seal	Right-click to use and open the Magical Seal.
+200552	Meley Seal	Right-click to use and open the Red Dragon Seal.
+200553	Floraun Seal	Right-click to use and open the Forest Seal.
+200554	Alastor Seal	Right-click to use and open the Northern Seal.
+200555	Poseidon Seal	Right-click to use and open the Atlantis Seal.
+200556	Scorpion King Seal	Right-click to use and open the Scorpion Seal.
+200557	Skeleton Dragon Seal	Right-click to use and open the Skeleton Seal.
+200558	Akzadur Seal	Right-click to use and open the Dragon King's Seal.
+200559	Serpent Queen Seal	Right-click to use and open the Serpent Seal.
+
+200300	Wheel Ticket	A ticket required to spin the Wheel of Destiny for free. Collect enough during the event process to use the Wheel of Destiny.
+200301	Letter E	A letter E. Collect other letters during the event process to craft a chest from the Blacksmith.
+200302	Letter L	A letter L. Collect other letters during the event process to craft a chest from the Blacksmith.
+200303	Letter Y	A letter Y. Collect other letters during the event process to craft a chest from the Blacksmith.
+200304	Letter S	A letter S. Collect other letters during the event process to craft a chest from the Blacksmith.
+200305	Letter I	A letter I. Collect other letters during the event process to craft a chest from the Blacksmith.
+200306	Letter U	A letter U. Collect other letters during the event process to craft a chest from the Blacksmith.
+200307	Letter M	A letter M. Collect other letters during the event process to craft a chest from the Blacksmith.
+
+200600	Premium Package (30 Days)	A legendary chest containing 30-day premium items. Obtainable from the item shop.
+200601	Premium Package (Permanent)	A legendary chest containing permanent premium items. Obtainable from the item shop.
+200602	Monster Package	A legendary chest containing items that make you stronger against monsters. Obtainable from the item shop.
+200603	Metin Package	A legendary chest containing items that make you stronger against metins and bosses. Obtainable from the item shop.
+200604	Buff Package	A legendary chest containing permanent buffs and buff name tags. Obtainable from the item shop.
+200605	Booster Package (14 Days)	A legendary chest containing boosters that provide a 14-day 15% bonus. Obtainable from the item shop.
+200606	Development Package	A legendary chest containing items that help you develop your character faster. Obtainable from the item shop.
+
+200610	Premium Package (30 Days)	A legendary chest containing 30-day premium items. Obtainable from the item shop.		No trading.
+200611	Premium Package (Permanent)	A legendary chest containing permanent premium items. Obtainable from the item shop.		No trading.
+200612	Monster Package	A legendary chest containing items that make you stronger against monsters. Obtainable from the item shop.		No trading.
+200613	Metin Package	A legendary chest containing items that make you stronger against metins and bosses. Obtainable from the item shop.		No trading.
+200614	Buff Package	A legendary chest containing permanent buffs and buff name tags. Obtainable from the item shop.		No trading.
+200615	Booster Package (14 Days)	A legendary chest containing boosters that provide a 14-day 15% bonus. Obtainable from the item shop.		No trading.
+200616	Development Package	A legendary chest containing items that help you develop your character faster. Obtainable from the item shop.		No trading.
+
+24600	Mind Stone Symbol	When used, it increases the chance of adding a mind stone by 100% for one time.
+24601	6/7 Enchantment Speed Booster (25%)	When used, it reduces the expected time to add 6-7 enchantments by 25%.
+24602	6/7 Enchantment Speed Booster (50%)	When used, it reduces the expected time to add 6-7 enchantments by 50%.
+
+24140	1st Enchantment Cleaner	When dragged onto a costume, it cleans the 1st enchantment slot.
+24141	2nd Enchantment Cleaner	When dragged onto a costume, it cleans the 2nd enchantment slot.
+24142	3rd Enchantment Cleaner	When dragged onto a costume, it cleans the 3rd enchantment slot.
+24143	4th Enchantment Cleaner	When dragged onto a costume, it cleans the 4th enchantment slot.
+24144	5th Enchantment Cleaner	When dragged onto a costume, it cleans the 5th enchantment slot.
+
+24000	Wisdom Soul Stone	A soul stone imbued with the power of a great sage, used to upgrade the Perfect Master skill to Sage Master level.
+24002	Monster Hunter Skill Book	An uncommon book used to improve the Monster Hunter skill.
+24003	Metin Hunter Skill Book	An uncommon book used to improve the Metin Hunter skill.
+24004	Furious Warrior Skill Book	An uncommon book used to improve the Furious Warrior skill.
+24005	Human Hunter Skill Book	An uncommon book used to improve the Human Hunter skill.
+24006	Mind Focus Skill Book	An uncommon book used to improve the Mind Focus skill.
+24007	Dragon Heart Skill Book	An uncommon book used to improve the Dragon Heart skill.
+24008	Herbology Skill Book	An uncommon book used to improve the Herbology skill.
+24009	Item Crafting Skill Book	An uncommon book used to improve the Item Crafting skill.
+24010	Leadership Skill Book	An uncommon book used to improve the Leadership skill.
+24011	Mining Skill Book	An uncommon book used to improve the Mining skill.
+24012	Fishing Skill Book	An uncommon book used to improve the Fishing skill.
+24013	Wisdom Soul Eviction Paper	A powerful paper that dispels malicious spirits when using the Wisdom Soul Stone.
+24014	Wisdom Hermit Boost	Contains the reinforcement power of a great sage when using the Wisdom Soul Stone.

@@ -1,0 +1,337 @@
+19	Mi az a Vállpánt?
+20	Mi az a Vállpánt?
+21	A Vállpánt két lehetõséget biztosít: Kombináció[ENTER]és Abszorpció.[ENTER][ENTER]Kombinációt csak két, azonos minõségû Vállpánt[ENTER]között lehet elvégezni. Két pánt kombinálásával[ENTER]magasabb minõségû pánt jöhet létre.[ENTER][ENTER]Abszorpciónál változatos százalékos értékû[ENTER]bónuszok kerülnek kivonásra egy fegyverbõl vagy[ENTER]páncéldarabból, melyek aztán hozzáadódnak a[ENTER]Vállpánthoz.[ENTER][ENTER]Az abszorpció mértéke (%) a pánt minõségétõl függ.Bónuszok abszorbeálásakor a kiválasztott fegyver[ENTER]vagy páncéldarab meg fog semmisülni.
+22	Kombináció
+23	Szeretnél kombinálni két pántot?
+24	Bónuszok abszorpciója
+25	Abszorbeálni szeretnéd a bónuszokat fegyveredbõl[ENTER]vagy páncélodból?
+39	Zárni
+114	Információ:
+126	Ha házas vagy, nem válthatsz birodalmat. Csak a[ENTER]nem házas játékosok tudnak birodalmat váltani.
+127	El kell válnod, ha birodalmat akarsz váltani.
+128	Nem válthatsz birodalmat, amíg át vagy változva.
+129	Csak akkor használd ezt a tárgyat, ha már nem[ENTER]vagy átváltozva.
+130	Nem válthatsz birodalmat, ha egy céh tagja vagy.
+131	Csak akkor használhatod ezt a tárgyat, ha[ENTER]kiléptél a céhbõl.
+132	Nem válthatsz birodalmat, mert nincs elég Yangod.
+133	Nem használhatod ezt a tárgyat, amíg nincs nálad[ENTER]500.000 Yang.
+134	Melyik birodalomba szeretnél váltani?
+135	Shinsoo
+139	Biztosan meg akarod változtatni a birodalmad? Ha[ENTER]egyszer megtetted, nem tudod visszavonni.
+140	Birodalomváltás:
+141	Lépj ki teljesen, majd újra lépj be, hogy a[ENTER]folyamat befejezõdhessen.
+143	Ugyanazt választottad, mint amiben most vagy. Nem[ENTER]akarsz másik birodalomra váltani?
+144	Kiválasztottál egy birodalmat.[ENTER]Eddig céhtag voltál, jegyezd meg, hogy az a céh[ENTER]nem lesz ott az új birodalmadban.
+145	Kiválasztottál egy birodalmat.[ENTER]Eddig házas voltál.[ENTER]Jegyezd meg, hogy a házastársad nem lesz ott az[ENTER]új birodalmadban.
+147	Ezzel a tárggyal megváltoztathatod a birodalmad.
+148	Nem használhatod ezt a tárgyat.
+149	Csak egyszer válthatsz birodalmat.
+150	GM - Az idõkorlát legyen nullára állítva?
+151	A szükséges idõ nullára lett állítva.
+152	Házas játékosok nem válthatnak birodalmat.
+153	Jelenleg nem használhatod ezt a tárgyat.
+689	Öregasszony:
+961	Sárkánykõ nemesítés
+962	Nemesíteni szeretnél egy Sárkánykövet? Hát[ENTER]legyen. Ugyanakkor tudnod kell, hogy az eljárás[ENTER]sikertelen is lehet. Hallottam, hogy azok a[ENTER]Sárkánybabok, amiket a forgó érme mögött[ENTER]találhatsz, növelik a sikeresség esélyét.
+1278	Gondnok
+1294	Gondnok:
+1298	ISMERETLEN BILLENTYÛ [%s]
+1301	Bolt megnyitása
+1408	Öregasszony:
+1692	GM: újra regisztrálás
+1693	GM: Céhinformációkat megnézni
+1694	pc.has_guild: %s
+1695	Szeretnél kilépni a céhbõl, amihez tartozol?[ENTER]Feltételezem, hogy kevés barátod van ott. Tõled[ENTER]függ. Szóval tényleg szeretnél kilépni a céhbõl?
+1696	Rendben, tehát ez a végsõ döntésed. Kiveszlek a[ENTER]céhbõl.
+1697	Micsoda?[DELAY value;150] [/DELAY][ENTER][ENTER]Sok fáradsággal hoztam létre a céhet, és te most[ENTER]fel akarod oszlatni? Minden tapasztalat, emlék és[ENTER]barátság örökre kárba vész![ENTER]Tényleg fel akarod oszlatni?
+1698	Na jó. Feloszlatom a céhed.
+1699	Céhet alapítani
+1700	Céhet alapítani
+1701	A céhed elhagyása utáni néhány napban nem tudsz[ENTER]új céhet létrehozni.
+1702	alapítani
+1703	Add meg a felhasználó nevét, akirõl információkat[ENTER]szeretnél.
+1704	Feloszlattál egy Céhet! A következõ néhány napban[ENTER]nem hozhatsz létre újat.
+1705	Céhet szeretnél létrehozni?[ENTER]Csak akkor alapíthatsz céhet, ha már elérted a[ENTER]40-es szintet, és 200.000 Yangot kell fizetned[ENTER]érte.[ENTER]Szeretnél céhet alapítani?
+1706	Nincs elég Yangod!
+1707	Túl alacsony szinten vagy a céh alapításhoz.
+1710	A felhasználó nem létezik.
+1711	Ellenõrizd az újra regisztrálás legkorábbi[ENTER]dátumát.
+1712	Elhagytad a céhet: %s napja
+1714	Idõ a feloszlatásig: %s nap
+1716	Legkorábbi lehetõség a próbálkozás[ENTER]megismétlésére: %s óra
+1718	Azonnali hozzáigazítás
+1719	Azonnali regisztrálás lehetséges.
+1749	Itt láthatod céhed helyezését a feletted és[ENTER]alattad lévõ ranghelyû céhekkel kapcsolatban:[ENTER][DELAY value;0][ENTER]|Céh név |Pontok |Gyõzelem |Döntetlen |Vereség[ENTER]%s[/DELAY][ENTER]
+1750	Itt láthatod az elsõ 8 legtöbb ponttal rendelkezõ[ENTER]céh rangját és a céh statisztikájukat:[ENTER][DELAY value;0][ENTER]|Céh név |Pont |Gyõzelem |Döntetlen |Vereség[ENTER]%s[/DELAY][ENTER]
+1751	Céhed a %s. a rangsorban.
+1752	Céh pontszám: %s
+1911	%s szeretnél részt venni egy csatában?
+2090	Lovászinas:
+2191	Új Ló kép
+2192	Elveszítetted a Katonai ló könyvet! Az új kiadás[ENTER]ára 500.000 Yang.
+2193	Ez az új kiadású Katonai ló könyv. Próbálj[ENTER]vigyázni rá.
+2194	A kezdõ ló hívásához elõször a kiképzési vizsgán[ENTER]kell átmenned.
+2195	A kezdõ ló hívva lett.
+2196	Nem sikerült a kezdõ ló hívása. Növelheted az[ENTER]esélyed a ló sikeres hívására, ha a ló hívási[ENTER]készséget gyakorlod.
+2197	A mentális erõd túl alacsony. A kezdõ ló[ENTER]hívásához legalább 100 Manára van szükséged.
+2198	A közepes lovak hívásához szükséged van a[ENTER]Felfegyverzett ló könyvre.
+2200	A ló hívásának tudásához, elõször a szakvizsgát[ENTER]kell letenned.
+2201	A kezdõ ló hívásának tudásához a Ló képre van[ENTER]szükséged.
+2202	Elveszítetted a Ló képet! Adhatok neked egy újat[ENTER]400.000 Yangért.
+2203	A közepes tudású lovasnak való ló hívása[ENTER]megtörtént.
+2204	Nem sikerült a közepes ló hívása. Növelheted az[ENTER]esélyed a ló sikeres hívására, ha a ló hívási[ENTER]készséget gyakorlod.
+2205	A mentális erõd túl alacsony. A közepes ló[ENTER]hívásához legalább 200 Manára van szükséged.
+2206	A haladó ló hívásához szükséged van a Katonai ló[ENTER]könyvre.
+2207	A haladó ló hívásának tudásához elõször a[ENTER]szakvizsgát kell letenned.
+2208	A közepes ló hívásához szükséged van a[ENTER]Felfegyverzett ló könyvre.
+2209	A haladó tudású lovasnak való ló hívása[ENTER]megtörtént.
+2210	Nem mûködik - nem sikerült a haladóknak való ló[ENTER]hívása. Növelheted a sikeres lóhívás esélyét, ha[ENTER]fejleszted a lóhívási készséged.
+2211	A mentális erõd túl alacsony. A haladóknak való[ENTER]ló hívásához legalább 300 Manára van szükséged.
+2213	Ez az újonnan kibocsátott Ló kép. Ne veszítsd el[ENTER]ismét.
+2215	Nincs elég Yangod.
+2216	Új Felfegyverzett ló könyv
+2217	Elveszítetted a Felfegyverzett ló könyvet![ENTER]Adhatok neked egy újat 500.000 Yangért.
+2218	Ez az új kiadású Felfegyverzett ló könyv.[ENTER]Igyekezz, hogy ne veszítsd el megint!
+2219	Nincs elég Yangod.
+2220	Új Katonai ló könyv
+2263	Igen
+2316	Csak a minimum 50-es szint feletti játékosok[ENTER]változtathatják meg a nemüket.
+2317	%s
+2318	GM - A letiltás idejét nullára kellene állítani?
+2319	Nem változtatás:
+2320	Ez a tárgy megváltoztatja a karaktered nemét. 3[ENTER]naponta változtathatod meg.
+2321	Tényleg jól átgondoltad ezt?[ENTER]Biztos megváltoztatod a nemed?[ENTER]Ezután automatikusan a városba leszel[ENTER]teleportálva.
+2322	Megváltozott a nemed. A készségeid és képességeid[ENTER]ugyanazok maradnak.
+2323	Vissza lett vonva a nemváltoztatás.
+2324	Kérlek, vegyél le minden öltözéket, hajviseletet[ENTER]és páncélt.
+2325	Csak akkor próbáld használni ezt a tárgyat, ha[ENTER]elérted az 50-es szintet.
+2326	Házas játékosok nem tudják megváltoztattatni a[ENTER]nemüket. Ez a lehetõség csak egyedülálló[ENTER]játékosok számára nyitott.
+2327	Ha most megházasodsz, nem változtathatod meg a[ENTER]nemed. Csak a nem házas játékosok válthatnak[ENTER]nemet.
+2328	El kell válnod, ha meg akarod változtattatni a[ENTER]nemed.
+2329	Nem változtathatod meg a nemed, ha át vagy[ENTER]változva.
+2331	Csak 3 naponta változtathatsz nemet.
+2332	Újra válhatsz:
+2594	Céhet feloszlatni
+2617	Belépési engedély kérése
+2618	Céhháborúk listájának megtekintése
+2619	A következõ céhháborúk zajlanak éppen: Ha meg[ENTER]szeretnéd nézni, válassz egyet a résztvevõ céhek[ENTER]közül.
+2620	Pillanatnyilag nem háborúzik egy céh sem.
+2621	A harcok épp befejezõdtek.
+2622	Kilépni a céhbõl.
+2625	Igen
+4298	Saját céheredmény kiírása
+4299	Saját céhrang mutatása
+4300	Legjobb céhek listázása (1-8 ranghely)
+4473	Igen
+6491	Meg szeretnék házasodni
+6492	Szmoking
+6493	Az esküvõ listája
+6494	Pillanatnyilag nincs esküvõ.
+6496	Az esküvõre hivatalos vendég vagy![ENTER]Jó szórakozást.
+6497	A tinta még meg sem száradt! Adj magadnak még egy[ENTER]kis idõt.
+6499	Hogy meg tudj házasodni, egy szmokingot kell[ENTER]felvenned.
+6500	Menyasszonyi ruha
+6501	Ha házasodni akarsz, esküvõi ruhát kell felvenned
+6502	Persze hogy kell neked Yang. Viszont nincs nálad[ENTER]elég. Szerezz többet, legalább 1 milliót.
+6503	1 milllió Yangra van szükséged
+6504	Most már elég érett vagy és jól is nézel ki.[ENTER]Kihez akarsz hozzámenni?
+6505	Írd le a személy nevét.
+6506	Olyan izgatott vagy, hogy még a nevet sem tudod[ENTER]leírni? Próbáld meg még egyszer
+6507	Nem tudod, hogy hogy hívják a személyt...[ENTER]Nahát ilyent, biztos vagy még, hogy meg akarsz[ENTER]házasodni?
+6508	Egy másik esküvõ zajlik most, vár egy pillanatot,[ENTER]vagy gyere vissza késõbb!
+6509	%s nincs online
+6510	A partnerednek közel kell lennie hogy tudjak[ENTER]foglalkozni a gondoddal. Hozd ide a partneredet.
+6511	%s túl messze van.
+6512	Nem a te nevedet, hanem a partnered nevét.
+6513	Írd fel a partnered nevét.
+6514	Sajnálom.[ENTER][ENTER]Azonos nemû párokat nem tudok[ENTER]összeadni.---LOCA::SPACE--
+6515	Csak ugyanazon birodalomból való párok tudnak[ENTER]házasságot kötni.
+6516	A személy, akit te el akarsz venni, még házas,[ENTER]tudtad te ezt? Keress egy hajadont, ill. nõtlen[ENTER]embert.
+6517	%s házas, ill. férjezett.
+6518	A személy még nem elég érett.[ENTER]A te partnerednek is legalább 25 szintet kell[ENTER]birtokolnia.
+6519	Te még túl fiatal vagy, hogy házasodjál...[ENTER]Sok felelõsségre van szükség és erre te még nem[ENTER]értél meg. Fiatal emberek manapság nagyon hamar[ENTER]válnak . A házasságodat nem engedélyezem. Menj[ENTER]vissza és gyûjts még több tapasztalatot
+6520	Ti ketten nem illetek egymáshoz. Ha õk ketten nem[ENTER]illenek egymáshoz, akkor nem engedhetem meg a[ENTER]esküvõt.[ENTER]A szintkülönbség több mint 15 szintet tesz ki,[ENTER]ezért nem köthettek házasságot.
+6521	Adjátok át a gyûrûket.
+6522	Öreg asszony:[ENTER]A házasságkötés az életben olyan fontos mozzanat,[ENTER]nem tudott volna a partnered legalább egy[ENTER]jegygyûrût hozni?
+6523	A partnerednek egy jegygyûrût is kell hoznia.
+6524	A partnered nem visel esküvõi ruhát! Te nem[ENTER]szégyenled, hogy így megjelensz vele itt?
+6525	A partnerednek egy szmokingot kell viselnie.
+6526	A partnerednek egy menyasszonyi ruhát kell[ENTER]viselnie.
+6528	Szóval a helyzet a következõ: Ti ketten úgy[ENTER]döntöttetek, hogy egyesültök a házasság[ENTER]szentségében, és most már több idõt tudtok együtt[ENTER]tölteni. A Szerelmesek szigetére küldelek[ENTER]benneteket. Hosszú, boldog házasságot kívánok[ENTER]nektek, gratulálok![ENTER][ENTER]Nemsokára automatikusan a Szerelmesek szigetére[ENTER]leszel küldve.
+6529	A partnered nem is akar veled házasságot kötni.[ENTER]Tisztázd a dolgot elõször.
+6530	Vissza a házasságkötési teremhez
+6531	Információk:
+6532	Miért vagy még most is itt?[ENTER]A partnered vágyakozva vár rád. Gyorsan oda[ENTER]küldelek.
+6533	A esküvõ engedélyezése
+6534	Esküvõszervezõ:
+6535	Beszélek a partnereddel. Egy pillanat
+6536	Én az esküvõnek csak egy asszisztense vagyok, írd[ENTER]le ott alul a partnered nevét.
+6537	Egy ilyen nevet nem is tartunk nyilván,[ENTER]ellenõrizd le még egyszer az adataidat?
+6538	Elnézést. Hozd ide a partneredet, nekem[ENTER]értesítenem kell õt és át kell vizsgálnom.
+6539	%s közelebb kell lenni.
+6540	A partnered nevét kell leírnod, nem a saját neved.
+6542	Esküvõ a 25. szinttõl lehetséges.
+6543	Itt valami nem stimmel. Ez nem az a személy,[ENTER]leellenõriznéd kérlek?
+6544	A partnered még nem kész az esküvõre. Beszéljetek[ENTER]egymással.
+6545	Most, hogy minden elõ van készítve, kezdõdhet a[ENTER]ceremónia!
+6546	Ez egy nagyon szép esküvõ lesz!
+6547	Az esküvõi induló kezdete
+6548	Az esküvõi induló vége
+6549	Éjszaka
+6550	Hó
+6551	Az esküvõ vége
+6552	Várj egy pillanatot. Én beszélek a partnereddel?
+6553	Gyûrû nélkül akarsz házasságot kötni?
+6554	Szeretnéd folytatni az esküvõt?
+6555	igen
+6557	Partnerednek az esküvõ befejezésével egyet kell[ENTER]érteni. Az esküvõt most nem lehet befejezni, mert[ENTER]a személy nincs online.
+6558	A partnered beleegyezésére várunk, a válasz még[ENTER]nem érkezett meg.
+6560	A partnered nem akar.
+6561	Válás
+6562	Válás
+6563	A partner nélkül nem lehet jogerõsen elválni.[ENTER]Gyere partnereddel. Egy válás nagyon fontos.
+6564	Eljegyzési gyûrû
+6565	A jogerõs váláshoz szükséged van 500.000 Yangra[ENTER]és a partnered beleegyezésére. Tényleg el akarsz[ENTER]válni?
+6567	Hozd a jegygyûrût.
+6568	A partnerednek egy gyûrût kell hoznia.
+6569	Nincs elég Yangod a válásra.
+6570	A váláshoz szükséged van %s Yangra.
+6571	A váláshoz 500.000 Yangra van szükség.
+6572	Tényleg el akarsz válni. Ez egy nagy veszteség.[ENTER][ENTER]Valóban akarod?
+6574	Megváltoztattam a véleményemet. Nem akarok[ENTER]elválni.
+6575	Elõször egy eljegyzési gyûrût kell beszerezned.[ENTER]Utána házasodhatsz.
+6576	Ez így jobb.[ENTER]Egy hosszú és boldog életet kívánok neked.
+6577	A válás le van zárva.
+6579	A válás megtörtént. Most te egy elvált ember vagy.
+6580	A papírok még nem teljesek. Gyere újra.
+6581	A válást visszavonták.
+6582	A partner nem akar válni, egyezzetek meg.
+6583	Jegygyûrût eltûntetni
+6584	Jegygyûrût eltûntetni
+6585	Kellemetlen emlékeket gyorsan el kell felejteni
+6586	Jegygyûrû eltûnt
+6587	Tényleg így akarsz megesküdni?[ENTER]Csak egyszer házasodik meg az ember életben és[ENTER]neked legalább ennek megfelelõen kellene[ENTER]felöltöznöd?
+6588	Egyoldalú válás
+6589	A falutér õre:
+6590	Neked 1 millióra van szükséged a váláshoz, el[ENTER]akarsz válni?
+6592	Nincs elég Yangod a váláshoz. Annyi Yangra van[ENTER]szükséged, mint amennyit az esküvõdért fizettél.
+6593	Tényleg el akarsz válni. Gondold meg még egyszer.
+6594	Igen, akarom
+6596	Jól van.[ENTER]Talán így jobb lesz.[ENTER]Ha tényleg akarsz, akkor gyere el még egyszer, de[ENTER]akkor komolynak kell lenni a szándékodnak.
+6597	Ha biztos vagy benne, akkor válj el.[ENTER]Ennek ellenére minden jót kívánok neked.[ENTER][ENTER]Az egyoldalú válás le van zárva.
+7443	Állj mozdulatlanul és õrizd meg a tartásodat.[ENTER]Viselkedj és ne kezdj el veszekedni. Tisztelettel[ENTER]viszonyulj embertársaidhoz.[ENTER]Megértetted?
+7444	Én egy nagyon öreg ember vagyok, de fitt és[ENTER]egészséges, mert van egy különleges titkom. Arra[ENTER]jöttem rá, hogy a Gango-gyökér lébõl és Tue[ENTER]gombából készült ital meghosszabbítja az életed.[ENTER]Ha szeretnéd kipróbálni az italt, vidd el a[ENTER]hozzávalókat Yu-Hwan-nak. Õ el tudja neked[ENTER]készíteni.
+7445	Könnyen vedd...
+7446	Sok éven át az erõ titka apáról fiúra szállt a[ENTER]családunkban. Apám mesélte, hogy ha a[ENTER]harangvirágot jól kevered az italba, akkor az[ENTER]ital extra erõt ad neked egy rövid idõre. Ha jól[ENTER]tudom, Baek-Go el tudja készíteni ezt az italt.[ENTER]Csak egy harangvirágot kell vinned neki.
+7447	Menj mondd el a hegyen...
+7448	Yu-Hwan, a zenész:
+7449	...A dombok fölött és mindenütt... Te is szereted[ENTER]a zenét? Én mindenféle dalt éneklek magányomban,[ENTER]hogy ne keveredjek bele a háborúba. De egy ország[ENTER]nélkül ami megvédene, nem tudnám folytatni ezt a[ENTER]tevékenységet.
+7450	Miért olvasol ilyen sokat?
+7451	Soon, a könyvmoly:
+7452	Oh, kalandor.[ENTER]A világ tele van problémákkal, és csak a tudás[ENTER]segítségével nem lehet túlélni. Mindig tiszteld a[ENTER]könyveidet. Rossz idõkben segítenek. Hidd el[ENTER]nekem!
+7453	Vannak gyerekeid?
+7454	Hmm, jó illat van itt...
+7455	Igazából nem szerettem volna saját gyereket,[ENTER]de... Nos, gyûjtöm a Datolyaszilva Virágokat mert[ENTER]ha jól elõkészíted õket, növelheted a mágikus[ENTER]energiáidat velük. Baek-Go jött erre rá. Csak egy[ENTER]sziromra van szüksége hogy elkészíthessen 100[ENTER]italt. Sajnos a Datolyaszilva Virágnak van egy[ENTER]mellékhatása is. Ha egy nõ visel egy nyakláncot[ENTER]ezekbõl szirmokból akkor születik egy fia.[ENTER]Köztünk legyen mondva, a feleségem vissza is élt[ENTER]ezzel a lehetõséggel.
+7456	Mi a gond a lábaddal?
+7457	Handu-Up:
+7458	Ez egyre jobb. Ahogy sétáltam mostanában,[ENTER]megbotlottam egy Gango-gyökérben és kificamodott[ENTER]a bokám. Szerencsére ismerem Baek-Go doktort aki[ENTER]ellátott és adott egy tanácsot: Ahhoz hogy ilyen[ENTER]egyszerû sérüléseket meggyógyíts, készíthetsz egy[ENTER]italt ebbõl a Gango-gyökérbõl. Tehát csináltam[ENTER]egy teát ezekbõl a gyökerekbõl és meggyógyították[ENTER]a sérülést amit okoztak...
+7459	Te ki vagy?
+7460	Wonda-Rim:
+7461	Én Wonda-Rim vagyok, Chaegirab unokaöccse. A[ENTER]bácsikám híres! Te ismered õt? Sokat kísérletezik[ENTER]italokkal és gyógynövényekkel. Így fedezte fel[ENTER]azt is, hogy ha összekeversz 100 Bo-vizet egy[ENTER]Szederfával, akkor nagy védelmet kapsz a mágikus[ENTER]energiákkal szemben. Tudtommal Huahn-So el tudja[ENTER]készíteni az italt, ha elviszed neki a[ENTER]hozzávalókat.
+7462	Miért van neked ennyi sebhelyed?
+7463	Áruló Balso:
+7464	Nem vagyok jó harcos és rendszeresen megsérültem[ENTER]a csatákban. Egyszer megkérdeztem Yu-Hwan-t hogy[ENTER]tud-e készíteni nekem egy italt ami megvéd a[ENTER]sérülésektõl. Csinált nekem valamit[ENTER]Harangvirágból és Orgonából, de sajnos a védelem[ENTER]nem volt elegendõ. De az is lehet hogy csak én[ENTER]vagyok túl béna. De biztos vagyok benne hogy az[ENTER]ital a hasznodra válik majd.
+7465	Octavio, a vendéglátó:
+7466	Miért hív téged olyan sok ember árulónak?
+7467	Elmenekültem a háborúból és csatlakoztam a[ENTER]Feketeszél Bandához. A bajtársaim sosem[ENTER]bocsátottak meg nekem ezért. Nem sokkal késõbb[ENTER]rájöttem, hogy a Feketeszél harcosok ártatlan[ENTER]embereket ölnek, ezért azonnal otthagytam õket.[ENTER]Szörnyû volt!
+7468	Ártatlan emberek lelkei száradnak a te[ENTER]lelkiismereteden? Akkor tényleg megérdemled az[ENTER]áruló nevet. Megtagadtad a normális életet nekik.
+7469	Törvény nélküli világban élünk. De eldöntöttem,[ENTER]hogy soha többé nem csinálok semmi rosszat. Nem[ENTER]akarom, hogy az emberek árulónak tartsanak.[ENTER][ENTER]Van egy kis Yangod a számomra?
+7470	Téged hívnak a tudósnak?
+7471	Uriel, a tudós:
+7472	Olyan sok mindent kell tanulni ebben a nagy[ENTER]világban. Ha tudatlanság katonai hatalommal[ENTER]párosul, akkor ez nem jó. Te csak nem így akarsz[ENTER]élni, mint ezek a tudatlan katonák! Vagy igen? A[ENTER]tudás hatalom!
+7473	A forrásaim azt mondják hogy te gyógyítással foglalkozol.
+7474	Megteszem amit tudok. De egyre több és több élet[ENTER]hal meg naponta ebben a veszélyes világban. Nincs[ENTER]elég gyógyszerünk vagy segítõnk. Nehéz idõket[ENTER]élünk! Talán tudnál nekem késõbb segíteni?
+7475	Hogy megy a vadászat?
+7476	Üdvözöllek! A mi éttermünk egy nagy nemzetközi[ENTER]lánchoz tartozik. Gyere egyszer el hozzánk és[ENTER]egyél nálunk.
+7477	Yang-Shin, a vadász:
+7478	Hmm, mióta a Metin kövek lehullottak, az állatok[ENTER]nagyon vadak lettek. Manapság az életedet[ENTER]kockáztatod még akkor is ha csak csirkét mész[ENTER]vadászni. Nagyon veszélyes mostanában a[ENTER]vadászoknak. Szerencsére én az egyik legjobb[ENTER]vagyok!
+7479	Honnan ez a haláli pontosság?
+7480	Nagyon ügyes vagyok az íjjal, mert van egy titkos[ENTER]receptem, hehe! Amikor Barackvirág levet keversz[ENTER]össze Orgonával, egy olyan italt kapsz ami[ENTER]megnöveli a pontosságodat. Vidd el ezeket a[ENTER]hozzávalókat Yu-Hwan-nak, biztos vagyok benne,[ENTER]hogy elkészíti neked az italt.
+7481	Milyen szép virágok...
+7482	Régen Barackvirág szirmokat gyûjtöttem a[ENTER]testvéremmel. De ma már egyedül csinálom. Nem[ENTER]néznek ki olyan jól, de speciális hatásuk van. Ha[ENTER]viszel Barackvirág Szirmokat Baek-Go-nak, készít[ENTER]neked egy italt ami fürge-lábúvá tesz téged!
+7483	Hol van a testvéred?
+7484	Ebben a napokban a fivérem sokat van úton. Alig[ENTER]látom õt mostanában és sokat aggódom érte.
+7485	A háború idején
+7486	Yu-Rang, a rizs süti eladónõ:
+7487	Annak ellenére, hogy ez egy nagy étterem,[ENTER]meglepõen egyszerû a berendezés.
+7488	Nehéz eladni a rizs-sütiket a háború idején. A[ENTER]banditák miatt nagyon sok vásárlót elvesztettem.[ENTER]Én már sajnos nem tudom hogy mit tehetnék a[ENTER]túlélésért.
+7489	Ki vásárol gyakran tõled?
+7490	A legtöbb sütimet utazóknak adom el. Egy nap egy[ENTER]fekete lovas jött el hozzám. Fizetésként egy[ENTER]receptet adott amihez Zin-víz szükséges. Ez egy[ENTER]ital ami a támadó erõdet növeli. Eladtam a[ENTER]receptet Huahn-So-nak. Ha viszel egy kis[ENTER]Sim-vizet és egy Alpesi Rózsát Huahn-So-nak,[ENTER]készít neked Zin-vizet belõlük.
+7491	Miért vagy ilyen szomorú?
+7492	Ki gondolta volna hogy a vágyaink ilyen könnyen[ENTER]és könyörtelenül elvésznek... Szegény férjem a[ENTER]csatában esett el! ... Kérlek bosszuld meg a[ENTER]halálát.
+7493	Olyan sok ember esett el a háborúban...
+7494	Egyre több embert veszítünk el a háborúban, ezért[ENTER]az asszonyok a faluban összegyûltek és megkérték[ENTER]Huahn-So-t, készítsen egy jobb gyógyitalt. Hosszú[ENTER]kutatás után létrehozott egy olyan italt, ami[ENTER]megnöveli a védelmet, így kevesebb élet-italt[ENTER]kell használni. Menj, látogasd meg õt. Biztos[ENTER]vagyok benne, hogy elkészíti neked az italt, amit[ENTER]õ SamBo-víznek hív. Csak egy kis Dok-vízre és[ENTER]Alpesi rózsára van szüksége ehhez.
+7495	Oh, milyen aranyos gyerek...
+7496	Ah-Yu:
+7497	Már megint ordít ...[ENTER]Valami finomságra fáj a foga, vagy ... oh nem!
+7498	Mondj valamit a cserépáruról.
+7499	Hogy vagytok?
+7500	Gyermekem! Most, hogy a férjem elesett a[ENTER]háborúban, nekem kell gondoskodnom magamról.[ENTER]Saját erõbõl próbálom eltartani magam és[ENTER]gyermekemet, és a Bo-víznek köszönhetõen találtam[ENTER]egy módot a túlélésre. Vinnem kell Yu-Hwan-nak[ENTER]100 Datolyaszilva-virág levet és egy Tue gombát.[ENTER]Ebbõl õ Bo-vizet fõz, amit könnyen el lehet adni.[ENTER]Végtére is, valamibõl meg kell élnem...
+7501	Hogy van a férjed?
+7502	Aranyo:
+7503	Az én úgynevezett férjem a könyveivel él[ENTER]házasságban. Rám már rám se néz. És én nem vagyok[ENTER]egy csúf asszony.
+7504	Hogy megy az üzlet?
+7505	Amióta kitört a háború, az üzlet nagyon rosszul[ENTER]megy. A kereskedõk egyesülete egykor nagyon[ENTER]gazdag és erõs volt, de azoknak az idõknek vége.[ENTER]Nem hagyhatjuk figyelmen kívül a vadakat, a fehér[ENTER]eskü harcosokat és a sötét szél katonákat sem.
+7506	Miért vagy ilyen rosszkedvû?
+7507	Taurean:
+7508	Harang egy gonosz lány![ENTER]Én utálom õt! Gyenge vagyok, és õ az életemet[ENTER]gyakran megkeseríti!
+7509	Yonah, a fazekas:
+7510	Te egy férfi vagy és izmos vagy. Edz egy kicsit!
+7511	Mit csinálsz most éppen?
+7512	Harang:
+7513	Taurean-ra várok. Sokat játszunk és harcolunk is[ENTER]együtt. Micsoda gyáva alak! Ha nem jön önként[ENTER]akkor megnehezítem az életét!
+7514	Taurean megijedt tõled.
+7515	Taurean valójában erõsebb nálam. Tehát most[ENTER]kitaláltam egy taktikát, amivel én nyerek. Egy[ENTER]fehér nindzsától hallottam, hogy összekeverhetsz[ENTER]Young-vizet Szederfával. Így készítesz egy italt,[ENTER]ami lehetõvé teszi, hogy gyorsabban üss. Akkor[ENTER]végre le fogom tudni gyõzni Taurean-t! Ha te is[ENTER]gyorsabban szeretnél támadni, vidd el az említett[ENTER]hozzávalókat Huahn-So-nak. Biztos megcsinálja[ENTER]neked az italt.
+7516	Új belátás...
+7517	Seon-Pyeong
+7518	Barátom, a világ tele van megválaszolatlan[ENTER]kérdésekkel. És én a válaszokat és a tudást[ENTER]kutatom. Hallottál már epikus fegyverekrõl és[ENTER]szellemkövekrõl?
+7519	Mit csinálsz?
+7520	Szeretek agyagmunkás lenni. Nagyon kielégítõ[ENTER]látni ahogy megformálom az agyagot a kezeimmel és[ENTER]egy formát készítek belõle... Általában egyszerû[ENTER]dolgokat csinálok. Keleten a kontinens külsõ[ENTER]peremén a gyártási módszerek jóval[ENTER]kifinomultabbak. Láttam néhány alkotást ott, és[ENTER]nagyon tetszettek. Néha amikor idõm engedi, én is[ENTER]kísérletezek. De még nem jöttem rá hogy milyen[ENTER]trükköt használnak.
+7521	Lehet, hogy már tudod, én az ismeretlen tudást[ENTER]kutatom. És jelenleg a fegyverek további[ENTER]megerõsítésén és szellemkövek erejének[ENTER]fejlesztésén dolgozom.
+7522	A fegyver kutatás...
+7523	Érdekes, ugye? Szeretnél többet tudni róla? Akkor[ENTER]hozd el nekem a megfelelõ 65-ös fegyver +9-et.[ENTER]Szükségem van egy Megerõsítõ iratra és két[ENTER]Áldástekercsre is. Megpróbálok ezekbõl egy epikus[ENTER]fegyvert készíteni.
+7524	De nem ígérhetem hogy mûködni fog.
+7525	A Szellemkövek...
+7526	A szellemköveket sokan használják, de annak[ENTER]ellenére hogy gyakran használtak, a legtöbben nem[ENTER]ismerik ezeknek a valódi erejét. De a kutatásom[ENTER]során többre is rájöttem. Ha hozol nekem még egy[ENTER]szellemkövet, jobbá tehetem azt neked.
+7527	Nagyon élénk vagy a korodhoz képest...
+8004	Állapot visszaállító
+8015	Ez a tekercs lehetõvé teszi, hogy visszaállítsd[ENTER]az eredeti állapotodat. Az egész állapotodat[ENTER]érinti ez: a VIT, INT, Erõ és ÜGY vissza lesz[ENTER]állítva 1-re. A visszakapott pontokat újra[ENTER]eloszthatod.[ENTER][ENTER]Akarod most használni a tekercset?
+8153	Készségeket visszaállítani
+8154	Ahogy gondolod. Ha meggondolnád magad, gyere el[ENTER]még egyszer.
+8155	Nincs elég Yangod. Sajnálom, de nem segíthetek.[ENTER]Végtére is, nekem is élnem kell valamibõl.
+8159	Még nem kezdtél el semmilyen képzést sem! Amíg[ENTER]nem osztod el a képességpontjaidat, nem tudod[ENTER]õket visszaállítani sem. Gyere vissza miután[ENTER]hibát követtél el a képzésed során, és akkor[ENTER]boldogan segítek.
+8161	Nem választottál oktatót, és nincs[ENTER]képességpontod, amit vissza lehetne állítani!
+8162	Nahát, mi a helyzet? Nagy bánatot látok a[ENTER]szemeidben... Várj, tudok neked segíteni. El[ENTER]tudom intézni, hogy az emberek elfelejtsék[ENTER]készségeiket, így újakat tudnak tanulni. Mit[ENTER]gondolsz? Ez csak %s Yangodba fog kerülni.
+8164	Nézd azt a komor arcot! Nem jól érzed magad? Ha[ENTER]nem vagy megelégedve tudományoddal: tudok[ENTER]segíteni, hogy elfeledj mindent egy szempillantás[ENTER]alatt.
+8165	Ez azt jelenti, hogy vissza lesz állítva minden[ENTER]készségpontod, és újra kioszthatod majd azokat.[ENTER]Sajnos azonban nem tudom visszaadni azokat a[ENTER]pontokat, melyeket könyvek olvasásáért kaptál,[ENTER]ezek elvesznek a visszaállítás után. Tényleg ezt[ENTER]akarod? Elfelejteni és elölrõl kezdeni mindent?[ENTER]Akkor adj nekem %s Yangot.
+8166	Készséget visszaállítani
+8618	Bolt megnyitása
+10928	Igen!
+11825	Aura öltözék: Értékek átvitele
+11829	Aura öltözék: Feljavítás
+200	Kiváló sárkánylélek esetén: %s.
+201	Szeretnél ragyogó %s-t kapni?
+202	Odaadhatod nekem a haszontalan kiváló sárkánylelkeket [ENTER], így ragyogóvá tehetem oket számodra, hogy újra használhasd, [ENTER] csak húzd át rajtam a sárkánylelket [ENTER].
+203	Kézmuveskedés
+204	Add hozzá a 6. és 7. bónuszt
+205	A bónusz hozzáadása sikeresen megtörtént.
+206	A varázslat muvelete sikertelen volt.
+207	Maradt ido: %s.
+208	Hogyan muködik az alkímiai átalakítás?
+209	Válassza ki a kívánt bónuszt:
+210	Eros a szörnyek ellen +10%.
+211	Max HP+1000 lett kiválasztva.
+212	Eros a szörnyek ellen +10% lett kiválasztva.
+213	EXP +20% lett kiválasztva
+4473	Igen
+2426	Mégse

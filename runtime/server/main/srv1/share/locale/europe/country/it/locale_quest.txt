@@ -1,0 +1,337 @@
+19	Cos'è una stola?
+20	Cos'è una stola?
+21	La stola offre due possibilità: la fusione e[ENTER]l'assorbimento.[ENTER][ENTER]La fusione può avvenire solo tra stole dello[ENTER]stesso grado. Combinando tra loro due stole è[ENTER]possibile ottenere una stola migliore.[ENTER][ENTER]L'assorbimento permette di trasferire alla stola[ENTER]una certa percentuale dei bonus presenti su[ENTER]un'arma o su un'armatura.[ENTER][ENTER]Il tasso di assorbimento (%) dipende dal grado[ENTER]della stola. L'assorbimento dei bonus comporta la[ENTER]distruzione dell'arma o dell'armatura[ENTER]interessata.
+22	Fusione
+23	Vuoi fondere le due stole?
+24	Assorbimento dei bonus
+25	Vuoi assorbire i bonus della tua arma o della tua[ENTER]armatura?
+39	Chiudi
+114	Informazione:
+126	Se ti sposi non puoi cambiare Regno. Solo i[ENTER]giocatori non sposati possono farlo.
+127	Se vuoi cambiare il Regno, devi divorziare.
+128	Non puoi cambiare Regno se sei trasformato.
+129	Usa questo Item quando non sarai più trasformato.
+130	Non puoi cambiare Regno se sei membro di una[ENTER]Gilda.
+131	Usa questo Item quando sarai uscito dalla Gilda.
+132	Non puoi cambiare Regno perché non possiedi[ENTER]abbastanza Yang.
+133	Usa questo Item quando possiederai 500.000 Yang.
+134	In quale Regno desideri andare?
+135	Shinsoo
+139	Pensaci bene se vuoi cambiare Regno.[ENTER]Non potrai ritornare sui tuoi passi.
+140	Cambia Regno:
+141	Sei pregato di uscire completamente dal gioco e[ENTER]loggare nuovamente per completare la procedura.
+143	Hai scelto il Regno in cui già ti trovi, non[ENTER]avevi forse intenzione di cambiare?
+144	Il Regno è scelto[ENTER]Fino ad ora eri membro di una Gilda.[ENTER]Rifletti, nel nuovo Regno non ti mancherà questa[ENTER]Gilda?
+145	Il Regno è scelto[ENTER]Fino ad ora eri sposato.[ENTER]Rifletti, non ti mancherà il tuo partner nel[ENTER]nuovo Regno?
+147	Con queso Item puoi cambiare Regno.
+148	Non puoi usare questo Item!
+149	Puoi cambiare Regno solo una volta.
+150	GM - Il divieto deve essere azzerato?
+151	Il tempo necessario è stato azzerato.
+152	I giocatori sposati non possono cambiare Regno.
+153	Al momento non puoi utilizzare questo oggetto.
+689	Vecchietta:
+961	Raffinamento Pietra del Drago
+962	Vorresti raffinare una Pietra del Drago?[ENTER]D'accordo.[ENTER]Prima però, dovresti sapere che questo processo[ENTER]potrebbe anche fallire.[ENTER]Ho sentito che i cosiddetti Chicchi di Drago, che[ENTER]si trovano dietro la Moneta rotante, migliorano[ENTER]le probabilità.
+1278	Il guardiano
+1294	Guardiano:
+1298	TASTO SCONOSCIUTO [%s]
+1301	Apri il negozio
+1408	Vecchietta:
+1692	GM: Iscrivi di nuovo
+1693	GM: guarda informazioni di gilda
+1694	pc.has_guild: %s
+1695	Vuoi lasciare la gilda in cui sei stato finora?[ENTER]Immagino non ti sia fatto tanti amici lì. Sta a[ENTER]te decidere. Vuoi davvero lasciare la gilda?
+1696	Ok.[ENTER][ENTER]Cancellerò il tuo nome dalla gilda.
+1697	Cosa?[DELAY value;150] [/DELAY][ENTER][ENTER]Ci ho messo tanta cura a crearla, ed ora vuoi[ENTER]cancellarla? Tutte le esperienze e tutti i[ENTER]ricordi dei tuoi amici verranno cancellati per[ENTER]sempre![ENTER]Vuoi davvero scioglierla?
+1698	Bene allora.[ENTER][ENTER]Scioglierò la tua gilda.
+1699	Fondare gilda
+1700	Fondare gilda
+1701	[ENTER]Nei primi giorni che seguono la tua uscita dalla gilda non ne potrai fondare una nuova.
+1702	Fondare...
+1703	Prego, inserisci il nome del membro di cui vuoi[ENTER]informazioni.
+1704	Hai già sciolto una gilda, per i prossimi giorni[ENTER]non ne potrai fondare altre.
+1705	Vuoi fondare una gilda?[ENTER][ENTER]Potrai fondare una gilda quando avrai raggiunto[ENTER]almeno il livello 40, e avrai pagato 200.000[ENTER]Yang.[ENTER][ENTER]Vuoi fondare una gilda?
+1706	Non hai abbastanza Yang
+1707	Il tuo livello è troppo basso per fondare una[ENTER]gilda.
+1710	Questa persona non esiste.
+1711	Controlla la data più prossima per la nuova[ENTER]registrazione
+1712	Ha lasciato la gilda da: %s giorno/i
+1714	Tempo rimanente fino allo scioglimento: %s[ENTER]giorno/i
+1716	Prossima possibilità di riprovare:%s ora/e
+1718	Immediata sistemazione
+1719	Registrazione immediata possibile.
+1749	Qui puoi visualizzare la posizione della tua[ENTER]gilda rispetto alle gilde che la precedono o la[ENTER]seguono:[ENTER][DELAY value;0][ENTER]|Nome gilda |Punteggio| Vittorie| Pareggi[ENTER]|Sconfitte[ENTER]%s[/DELAY][ENTER]
+1750	Qui puoi visualizzare le gilde che occupano le[ENTER]prime otto posizioni e i relativi risultati[ENTER]conseguiti nelle guerre tra gilde:[ENTER][DELAY value;0][ENTER]|Nome gilda |Punti |Vittorie |Pareggi |Sconfitte[ENTER]%s[/DELAY][ENTER]
+1751	La posizione della tua gilda: %s
+1752	Il risultato dei punti è: %s
+1911	%s Vuoi unirti alla guerra?
+2090	Stalliere:
+2191	La nuova licenza per cavalcare
+2192	Hai perso il libro Militare a Cavallo! Una copia[ENTER]nuova costa 500.000 Yang.
+2193	È una nuova versione del libro Militare a[ENTER]Cavallo. Cerca di non perderlo di nuovo.
+2194	Prima di poter chiamere il cavallo principiante,[ENTER]dovrai superare la prova per principianti.
+2195	Il cavallo principianti è stato chiamato.
+2196	Non sei riuscito a chiamare il cavallo. Puoi[ENTER]aumentare le possibilità di chiamarlo allenando[ENTER]l'abilità chiama cavallo.
+2197	La tua forza mentale è troppo bassa. È richiesto[ENTER]un minimo di 100 di mana per chiamare il cavallo
+2198	Per chiamare un Cavallo per Cavalieri Intermedi[ENTER]ti serve il libro Armi a Cavallo.
+2200	Devi superare una prova per essere in grado di[ENTER]chiamare il cavallo.
+2201	Per chiamare il cavallo principianti ti serve una[ENTER]Licenza per cavalcare.
+2202	Hai perso la Licenza per cavalcare![ENTER]Posso dartene una nuova per 400.000 Yang.
+2203	Il Cavallo per Cavalieri Intermedi è stato[ENTER]chiamato.
+2204	Non sei riuscito a chiamare il cavallo intermedi.[ENTER]Puoi aumentare la possibilità evocazione[ENTER]allenando l'abilità chiama cavallo.
+2205	La tua forza mentale è troppo bassa. È richiesto[ENTER]un minimo di 200 di mana per chiamare il Cavallo[ENTER]per Cavalieri Intermedi.
+2206	Per chiamare un Cavallo per Cavalieri Esperti, ti[ENTER]serve il libro Militare a Cavallo.
+2207	Hai superato la prova per il Cavallo per[ENTER]Cavalieri Intermedi.
+2208	Per chiamare un Cavallo per Cavalieri Intermedi[ENTER]ti serve il libro Armi a Cavallo.
+2209	Il Cavallo per Cavalieri Esperti è stato chiamato.
+2210	Non ha funzionato - non sei riuscito a chiamare[ENTER]il Cavallo militare. Puoi migliorare le tue[ENTER]possibilità di chiamare con successo tale cavallo[ENTER]allenandoti sull'abilità di chiamare cavalli.
+2211	La tua forza mentale è troppo bassa. È richiesto[ENTER]un minimo di 300 di mana per chiamare il Cavallo[ENTER]per Cavalieri Esperti.
+2213	È la nuova Licenza per cavalcare.[ENTER]Non perderla di nuovo!
+2215	Non hai abbastanza Yang.
+2216	Nuovo libro Armi a Cavallo.
+2217	Hai perso il libro armi a cavallo.[ENTER]Posso dartene uno nuovo per 500.000 Yang.
+2218	Ecco il nuovo libro Armi a Cavallo. Cerca di non[ENTER]perderlo più.
+2219	Non hai abbastanza Yang
+2220	Nuovo libro Militare a Cavallo.
+2263	Si.
+2316	Soltanto i livelli 50 o superiori possono[ENTER]cambiare sesso.
+2317	%s
+2318	GM - Il tempo deve essere portato a zero?
+2319	Cambia sesso:
+2320	Questo item cambia il sesso del tuo personaggio.[ENTER]Puoi cambiarlo ogni 3 giorni.
+2321	Ci hai pensato bene?[ENTER]Vuoi davvero cambiare il tuo sesso?[ENTER]Subito dopo, sarai teletrasportato[ENTER]automaticamente in città.
+2322	Il tuo sesso è stato cambiato. Le tue skill e le[ENTER]abilità rimarranno invariate.
+2323	Il tuo cambio di sesso è stato interrotto.
+2324	Togliti costume, pettinatura e armatura.
+2325	Usa questo item una volta che avrai raggiunto il[ENTER]livello 50 o superiore.
+2326	I giocatori sposati non possono cambiare sesso.[ENTER]Quest'opzione è disponibile solo per giocatori[ENTER]non sposati.
+2327	Se ti sposerai, non potrai cambiare sesso. Solo i[ENTER]personaggi non sposati possono farlo.
+2328	Divorzia se vuoi cambiare sesso.
+2329	Non potrai cambiare sesso finchè sarai[ENTER]trasformato.
+2331	Potrai cambiare sesso solo tra 3 giorni
+2332	Potrai cambiarlo ancora tra:
+2594	Sciogli la gilda.
+2617	Richiedi un permesso d'adesione.
+2618	Guarda la lista gilde in guerra.
+2619	Le seguenti gilde si stanno per accingere alla[ENTER]lotta. Se vuoi guardare, scegline una.
+2620	Al momento, nessuna gilda è in guerra.
+2621	Le battaglie sono già finite.
+2622	Lascia la gilda.
+2625	Si
+4298	Mostra il risultato della propria gilda
+4299	Mostra la posizione della propria gilda
+4300	Mostra le gilde migliori (posizioni 1-8)
+4473	Si
+6491	Voglio sposarmi
+6492	Smoking
+6493	Lista delle cerimonie nuziali
+6494	Non ci sono matrimoni in corso
+6496	Sei invitato al matrimonio. Divertiti!
+6497	L'inchiostro è ancora fresco, prenditi più tempo.
+6499	Se vuoi sposarti, dovrai indossare uno smoking
+6500	Abito da sposa
+6501	Se vuoi sposarti, dovrai indossare l'abito da[ENTER]sposa.
+6502	Non basta l'amore per celebrare un matrimonio, ti[ENTER]servono anche un po' di Yang. Quello che hai[ENTER]risparmiato sino ad ora non è sufficiente.[ENTER]Torna quando avrai risparmiato 1 milione di Yang,[ENTER]sarò lieta di organizzare la cerimonia.
+6503	Ti serve 1 milione di yang
+6504	Sì, hai l'età giusta e sei anche deciso a[ENTER]compiere questo importante passo.[ENTER]Chi desideri sposare?
+6505	Sei pregato di inserire il nome della persona che[ENTER]desideri sposare.
+6506	Sei talmente emozionato da non riuscire a[ENTER]scrivere il nome del tuo partner?Riprova
+6507	Non sai il nome del tuo partner?[ENTER]Sei davvero sicuro di volerti sposare?
+6508	Un altro matrimonio è già in corso.[ENTER]Attendi un momento, o torna dopo!
+6509	%s non è on line
+6510	Il tuo partner deve essere vicino, affinché possa[ENTER]occuparmi del vostro matrimonio.[ENTER]Fallo venire qui.
+6511	%s è troppo lontano
+6512	Non il tuo nome, ma quello del tuo partner.
+6513	Scrivi il nome del tuo partner
+6514	Mi dispiace.[ENTER][ENTER]Non puoi sposare persone dello stesso sesso
+6515	Possono sposarsi solo persone dello stesso regno
+6516	La persona che vorresti sposare è già sposata,[ENTER]non lo sapevi?Trova un single
+6517	%s è sposato
+6518	Questa persona non è ancora pronta a sposarsi. Il[ENTER]tuo partner dev'essere almeno livello 25 per[ENTER]potersi sposare.
+6519	Sei troppo giovane per sposarti...[ENTER]Il matrimonio porta grandi responsabilità, e tu[ENTER]non sei ancora pronto.Le coppie giovani[ENTER]divorziano velocemente. Non lo posso permettere.[ENTER][ENTER]Dovrai prima avere più esperienza.
+6520	Voi due non formate una buona coppia. Per questo[ENTER]motivo, non posso permettere il matrimonio.[ENTER][ENTER]La differenza di livello non dev'essere superiore[ENTER]a 15, ecco perché non potete sposarvi.
+6521	Ora, scambierete gli anelli
+6522	Il matrimonio è un passo davvero importante della[ENTER]vita. Anche il tuo partner dovrebbe portare una[ENTER]fede.
+6523	Anche il tuo partner deve avere una fede.
+6524	Il tuo partner non indossa un abito nuziale. Non[ENTER]ti imbarazza questa situazione?
+6525	Il tuo partner deve indossare uno smoking
+6526	Il tuo partner deve indossare l'abito nuziale.
+6528	Allora... siamo pronti. Possiamo iniziare. Vi[ENTER]manderò sull'isola degli innamorati. Vi auguro un[ENTER]lungo e felice matrimonio. Auguri.[ENTER][ENTER]Stai per essere teleportato sull'isola degli[ENTER]innamorati automaticamente.
+6529	Il tuo partner non ha dato l'approvazione al[ENTER]matrimonio. Cerca prima di chiarire.
+6530	Torna alla stanza dei matrimoni
+6531	Informazione:
+6532	Perché sei ancora qui? Il tuo partner sente già[ENTER]la tua mancanza. Ti teleporterò subito.
+6533	Permesso per il matrimonio
+6534	Org. di matrimoni:
+6535	Sto parlando con il tuo partner. Un momento per[ENTER]favore.
+6536	Sono la tua assistente al matrimonio.[ENTER]Per prima cosa scrivi il nome del tuo partner
+6537	Non esiste nessuno con questo nome. Vuoi[ENTER]controllare ancora?
+6538	Scusami.Porta il tuo partner qui.[ENTER]Devo parlargli per chiarire alcune cose.
+6539	%s deve trovarsi più vicino
+6540	Non scrivere il tuo stesso nome.[ENTER][ENTER]Devi scrivere quello del tuo partner
+6542	Il matrimonio è possibilie solo per i livelli 25[ENTER]o successivi.
+6543	Qualcosa non va.Non è la persona giusta. Potresti[ENTER]controllare?
+6544	Il tuo partner non è ancora pronto,parlagli.
+6545	Tutti i preparativi sono stai ultimati. La[ENTER]cerimonia può iniziare.
+6546	Sarà un matrimonio magnifico!
+6547	Inizia la marcia nuziale
+6548	Ferma la marcia nuziale
+6549	Notte
+6550	Neve
+6551	Fine del rito nuziale.
+6552	Aspetta per favore. Sto parlando con il tuo[ENTER]partner
+6553	Vorresti sposarti senza un anello?
+6554	Vuoi continuare il matrimonio?
+6555	Si
+6557	Il tuo partner deve dare la sua approvazione per[ENTER]il matrimonio.[ENTER][ENTER]Il matrimonio non può aver luogo, perchè il tuo[ENTER]partner non è on line.
+6558	Dobbiamo aspettare che il tuo partner dia la sua[ENTER]approvazione. Non abbiamo ancora la risposta.
+6560	Il tuo partner non vuole!
+6561	Divorzia
+6562	Divorzia
+6563	Senza il tuo partner, non puoi divorziarti[ENTER]legalmente. Torna con il tuo partner! Un divorzio[ENTER]è una cosa seria, non credi?
+6564	Anello di fidanzamento
+6565	Per un divorzio consensuale, vi servono 500.000[ENTER]yang, ed anche il tuo partner deve acconsentire.[ENTER]Vuoi davvero divorziare?
+6567	Porta la fede nuziale
+6568	Il tuo partner deve avere la fede nuziale con sé.
+6569	Non hai abbastanza yang per il divorzio.
+6570	Per il divorzio, ti servono %s yang.
+6571	Ti servono 500.000 yang per il divorzio.
+6572	Vuoi davvero divorziare?Sarebbe un vero peccato.[ENTER][ENTER]Sei sicuro?
+6574	Ho cambiato idea. Non voglio divorziare.
+6575	Devi avere un Anello di Fidanzamento.[ENTER]Solo allora potrai sposarti.
+6576	Meglio così. Ti auguro una vita lunga e felice.
+6577	Ora sei divorziato.
+6579	Il divorzio è stato stabilito.[ENTER]Ora siete divorziati.
+6580	I tuoi documenti non sono completi.[ENTER]Torna dopo per favore.
+6581	Il divorzio è stato annullato
+6582	Il tuo partner non vuole divorziare.[ENTER]Chiaritevi prima.
+6583	Rimuovere la fede
+6584	Rimuovere la fede
+6585	Dovresti lasciarti alle spalle i brutti ricordi[ENTER]il più presto possibile.
+6586	La fede è stata annullata.
+6587	Vuoi davvero sposarti? Ci si sposa una sola volta[ENTER]nella vita. Dovresti almeno vestirti[ENTER]adeguatamente.
+6588	Divorzio unilaterale
+6589	Guardiano piazza villaggio:
+6590	Ti serve 1 milione di yang per il divorzio[ENTER]unilaterale. Vuoi ancora divorziare?
+6592	Non hai abbastanza yang per il divorzio. Ti[ENTER]servono tanti yang quanti ne hai usati per il[ENTER]matrimonio.[ENTER]Dovresti rifletterci...
+6593	Vuoi davvero divorziare? Pensaci bene.
+6594	Si, lo voglio.
+6596	Bene, meglio così. Se dovrai ripensarci, torna[ENTER]pure, ma dovrai esserne sicuro.
+6597	Visto che sei così convinto, ti accontento.[ENTER]Procediamo. Ti auguro il meglio![ENTER][ENTER]Il divorzio unilaterale è stato effettuato.
+7443	Stai calmo e resta disciplinato.[ENTER]Comportati bene e non essere in pensiero. Devi[ENTER]rispettare il tuo prossimo, hai capito?
+7444	Sono davvero anziano, ma mi sento ancora bene,[ENTER]perché ho un segreto speciale. Ho scoperto che le[ENTER]pozioni fatte con il succo delle radici di gango[ENTER]e con i funghi tue allungano la vita. Se vuoi[ENTER]provare anche tu questa pozione, porta gli[ENTER]ingredienti a Yu-Hwan. Te la produrrà[ENTER]sicuramente.
+7445	Sembri piuttosto forte...
+7446	Da molti anni nella nostra famiglia viene[ENTER]tramandato il segreto della forza. Mio padre mi[ENTER]ha sempre detto che, mischiando correttamente le[ENTER]campanule alla pozione, quest'ultima è in grado[ENTER]di conferire una forza maggiore per un certo[ENTER]lasso di tempo. Se non ricordo male, Baek-Go è in[ENTER]grado di produrre queste pozioni. Devi solo[ENTER]portargli una campanula.
+7447	All'alba andiam per i monti, trallalà
+7448	Yu-Hwan il musicista:
+7449	...tra i verdeggianti boschi...trallalà...[ENTER]anche a te piace la musica? Io canto le mie[ENTER]canzoni qui in disparte, per non essere coinvolto[ENTER]nella guerra.[ENTER]Ma senza una terra che mi protegge, non potrò[ENTER]continuare a fare ciò che amo
+7450	Perché leggi così tanto?
+7451	Soon, il topo di biblioteca:
+7452	Oh avventuriero. Il mondo è pieno di pericoli, e[ENTER]solo attraverso la conoscenza si può[ENTER]sopravvivere.[ENTER]Onora sempre i libri. Ti aiuteranno in tempi[ENTER]difficili, credimi!
+7453	Hai dei figli?
+7454	Ma che buon profumo...
+7455	In realtà non volevo bambini, ma...[ENTER]raccolgo sempre fiori di caco, se preparati nel[ENTER]modo corretto aiutano a rafforzare l'energia[ENTER]magica. È stato Baek-go a trovare la ricetta. Con[ENTER]un fiore di caco è in grado di produrre 100[ENTER]pozioni. Tuttavia, sfortunatamente i fiori di[ENTER]caco hanno un effetto collaterale. Se una donna[ENTER]indossa una collana fatta di questi fiori, presto[ENTER]ella avrà un bambino. In confidenza: mia moglie[ENTER]l'ha usata a mia insaputa.
+7456	Cosa è successo con il mio piede?
+7457	Handu-Up:
+7458	Adesso va meglio. Durante una passeggiata sono[ENTER]inciampato in una radice di gango e mi sono[ENTER]slogato il piede. Per fortuna conosco l'esperto[ENTER]di guarigione Baek-Go. Mi ha curato e mi ha dato[ENTER]un consiglio: per guarire le piccole ferite basta[ENTER]produrre delle pozioni a base di radici di gango.[ENTER]Ho trasformato la malvagia radice in una tisana,[ENTER]e in poco tempo la radice ha curato il danno che[ENTER]essa stessa ha provocato...
+7459	E tu chi sei?
+7460	Wonda-Rim:
+7461	Sono Wonda-Rim, il nipote di Chaegirab. Mio zio è[ENTER]famosissimo! Lo conosci? Fa molti esperimenti con[ENTER]pozioni ed erbe. Durante uno dei suoi esperimenti[ENTER]ha scoperto che, mischiando 100 unità di acqua Bo[ENTER]con un albero di more, si ottiene una pozione in[ENTER]grado di proteggere dall'energia magica. A quanto[ENTER]pare, se gli porti gli ingredienti giusti,[ENTER]Huahn-So è in grado di produrre pozioni di questo[ENTER]tipo.
+7462	Perché hai così tante cicatrici?
+7463	Traditore Balso
+7464	Non sono un buon combattente, per questo in[ENTER]guerra sono stato ferito più volte. Ho chiesto a[ENTER]Yu-Hwan di farmi una pozione in grado di[ENTER]proteggere il mio corpo da eventuali lesioni. Mi[ENTER]ha preparato una pozione fatta di Succo di[ENTER]Campanule e Lillà. Ma purtroppo non ha funzionato[ENTER]come mi aspettavo. Forse anche a causa della mia[ENTER]scarsa abilità. Sicuramente questa pozione ti[ENTER]aiuterà durante le tue battaglie.
+7465	Octavio il gastronomo:
+7466	Perchè ti chiamano traditore?
+7467	Sono fuggito dalla guerra e mi sono unito alla[ENTER]banda del vento oscuro. I miei compagno non me lo[ENTER]hanno mai perdonato. Poi ho scoperto che la banda[ENTER]del vento nero uccide persone innocenti: ho[ENTER]abbandonato subito la banda. È stato terribile!
+7468	Hai sulla coscienza delle persone innocenti?[ENTER]Allora rendi onore al tuo titolo. Hai impedito[ENTER]loro di condurre una bella vita.
+7469	Questo mondo non conosce legge. Ma mi sono[ENTER]ripromesso di non fare mai più qualcosa di male.[ENTER]Non voglio che la gente mi consideri un traditore.Hai qualche yang per me?
+7470	Ti chiamano Lo Studioso?
+7471	Il saggio Uriel:
+7472	Ci sono così tante cose da imparare in questo[ENTER]grande mondo. L'ignoranza unita alla potenza[ENTER]militare è una pessima combinazione. Non vuoi[ENTER]vivere come quei soldati ignoranti, vero?[ENTER]La conoscenza è potere!
+7473	Mi han detto che sei un esperto di guarigione?
+7474	Faccio quello che posso. Ma, in questo mondo[ENTER]pericoloso, ogni giorno sempre più persone[ENTER]vengono ferite. Non abbiamo abbastanza medicine e[ENTER]anche i dottori scarseggiano. Sono tempi duri![ENTER]Non è che più tardi potresti darmi una mano?
+7475	Come procede la caccia?
+7476	Benvenuto! Il nostro ristorante fa parte di una[ENTER]catena internazionale. Entra e prova!
+7477	Yang-Shin il cacciatore:
+7478	Mmm, da quando cadono le rocce metin, gli animali[ENTER]sono impazziti. Al giorno d'oggi persino cacciare[ENTER]le galline è diventato pericoloso! Sono tempi[ENTER]difficili per i cacciatori. Per fortuna io sono[ENTER]uno dei migliori!
+7479	Qual è il segreto della tua mira precisa?
+7480	Con l'arco sono imbattibile, perché ho una[ENTER]ricetta segreta, hehe! Mischiando il succo di[ENTER]fiori di pesco con i lillà si ottiene una pozione[ENTER]che aumenta la precisione dei tuoi colpi. Porta[ENTER]gli ingredienti a Yu-Hwan, sicuramente te la[ENTER]produrrà.
+7481	Una corona di fiori così bella...
+7482	Ero solito raccogliere fiori di pesco con mio[ENTER]fratello. Adesso devo farlo da solo. Questi fiori[ENTER]non solo sono belli, ma hanno anche un effetto[ENTER]speciale. Se porti un fiore a Baek-Go, ne farà[ENTER]una pozione che ti renderà agile e scattante.
+7483	Dov'è tuo fratello?
+7484	In questo periodo mio fratello è sempre in[ENTER]viaggio. Lo vedo pochissimo e sono in pensiero[ENTER]per lui.
+7485	Vendi torte di riso?
+7486	Yu-Rang, commerciante di torte:
+7487	Anche se si tratta di un grande ristorante,[ENTER]l'arredamento è sorprendentemente semplice.
+7488	In periodo di guerra è difficile vendere torte di[ENTER]riso.[ENTER]inoltre, per colpa dei banditi ho perso molti[ENTER]clienti. Non so più di cos'altro vivere ormai.
+7489	E chi compra da te?
+7490	Vendo la maggior parte delle mie torte ai[ENTER]viaggiatori. Un giorno venne da me un cavaliere[ENTER]misterioso vestito di nero, voleva comprare da me[ENTER]una torta di riso. Siccome non aveva con sé alcun[ENTER]Yang, mi pagò dandomi una ricetta. Si trattava[ENTER]della ricetta per produrre l'acqua Zin, una[ENTER]pozione che serve per migliorare la tua forza[ENTER]d'attacco. Ho venduto la ricetta a Huahn-So. Se[ENTER]gli porti un'Acqua Sim e una Rosa Alpina,[ENTER]Huhan-Son ti preparerà l'Acqua Zin.
+7491	Perchè guardi così triste?
+7492	Oh, chi lo avrebbe mai detto che i nostri dolci[ENTER]sogni sarebbero stati infranti così presto ed in[ENTER]modo così spietato...il mio povero marito è[ENTER]caduto in guerra! ...Vendica la sua morte!
+7493	Sono tante le persone che muoiono in guerra...
+7494	Siccome stiamo perdendo sempre più uomini in[ENTER]guerra, noi donne del villaggio ci siamo riunite[ENTER]e abbiamo chiesto a Huhan-So di produrre una[ENTER]pozione migliore. Dopo una lunga ricerca egli ha[ENTER]messo a punto una pozione in grado si migliorare[ENTER]notevolmente la difesa, in modo che servano meno[ENTER]pozioni curative.[ENTER]Vai da lui e chiedigli di prepararti questa nuova[ENTER]pozione, che lui stesso chiama Acqua SamBo. Per[ENTER]farlo gli serviranno un'Acqua Dok e una Rosa[ENTER]Alpina.
+7495	Oh, ma che bel bimbo...
+7496	Ah-Yu:
+7497	Sta piangendo di nuovo...non so se è perchè vuole[ENTER]qualche coccola oppure...oh no!
+7498	Raccontami qualcosa sul lavoro del vasaio.
+7499	E come state voi due?
+7500	Il mio bambino! Ora che mio marito è caduto in[ENTER]guerra, devo badare a me stessa da sola. Provo a[ENTER]farcela con le mie forze. Con l'acqua Bo, ho la[ENTER]possibilità di migliorare la mia vita. Devo[ENTER]portare 100 succhi di fiori di caco da Yu.Hwan e[ENTER]un fungo tue. Da questi ci ricava l'acqua Bo, che[ENTER]riesco a vendere facilmente. Dovrò pur far[ENTER]qualcosa per vivere...
+7501	Come sta tuo marito?
+7502	Aranyo
+7503	Il mio cosiddetto marito è sposato ai suoi libri.[ENTER]Non mi guarda nemmeno più. E non sono poi tanto[ENTER]brutta.
+7504	Come vanno gli affari?
+7505	Da quando è iniziata la guerra, gli affari vanno[ENTER]male. Un tempo i sindacati dei commercianti erano[ENTER]un'unione ricca e potente, ma ora quei tempi sono[ENTER]finiti. Non possiamo più permetterci di[ENTER]continuare ad ignorare i Fanti Selvaggi, le[ENTER]Soldatesse Eid Bianche e i Soldati del Vento[ENTER]Oscuro.
+7506	Perché hai la luna storta?
+7507	Taurean:
+7508	Harang è una ragazza cattiva! La odio! Sono[ENTER]debole, e si prende spesso gioco di me!
+7509	Yonah il vasaio:
+7510	Sei un uomo, e hai i muscoli.[ENTER]Occupatene qualche volta.
+7511	Che cosa stai facendo?
+7512	Harang:
+7513	Sto aspettando Taurean. Giochiamo spesso assieme[ENTER]e tante volte combattiamo. Quel codardo! Se oggi[ENTER]non si fa vedere, giuro che glie la faccio[ENTER]pagare!
+7514	Taurean ha paura di te.
+7515	In realtà Taurean è più forte di me. Mi è venuta[ENTER]però un'idea per vincere i nostri combattimenti.[ENTER]Un saggio Ninja mi ha detto che mischiando delle[ENTER]more con dell'acqua Young si può ottenere una[ENTER]pozione che consente di attaccare più[ENTER]velocemente. Con questa pozione potrei[ENTER]sconfiggere Taurean! Se anche tu vuoi diventare[ENTER]un veloce attaccante, vai da Huhan-So con gli[ENTER]ingredienti, sicuramente ti preparerà la pozione.
+7516	Le nuove conoscenze...
+7517	Seon-Pyeong:
+7518	Amico mio, il mondo è pieno di interrogativi[ENTER]irrisolti. E io, io sono un cercatore di[ENTER]risposte, un cercatore del sapere.[ENTER]hai mai sentito parlare di armi epiche e di[ENTER]Pietre Spirituali?
+7519	Cosa stai facendo?
+7520	Faccio volentieri il vasaio. È davvero una[ENTER]soddisfazione lavorare l'argilla con le proprie[ENTER]mani ed osservare il proprio lavoro prendere[ENTER]forma... Le mie creazioni sono piuttosto[ENTER]semplici. A est, al di fuori di questo[ENTER]continente, le tecniche di modellamento sono[ENTER]ancora più avanzate. Una volta ho visto dei[ENTER]bellissimi vasi da quelle parti, e ne sono[ENTER]rimasto davvero colpito. Nei ritagli di tempo[ENTER]cerco di sperimentare anche io nuove tecniche. Ma[ENTER]non sono ancora riuscito a scoprire il segreto[ENTER]della produzione di quei vasi così perfetti.
+7521	Come già saprai io conduco ricerche su cose[ENTER]ancora del tutto ignote. In questo momento sto[ENTER]elaborando un metodo che permetta di rafforzare[ENTER]ulteriormente le armi e di migliorare il potere[ENTER]delle Pietre Spirituali.
+7522	La ricerca delle armi...
+7523	Interessante, vero? Vuoi saperne di più? Allora[ENTER]portami la giusta arma +9 di livello 65. Mi[ENTER]servono inoltre un Trattato sulla scherma e due[ENTER]Papiri consacrati. Tenterò di farne un'arma[ENTER]epica.
+7524	Tuttavia, non posso prometterti che funzionerà.
+7525	Le Pietre Spirituali...
+7526	Le Pietre Spirituali sono diffusissime. Sono in[ENTER]molti a farne uso, ma finora nessuno ha scoperto[ENTER]la loro vera forza. Durante le mie ricerche ho[ENTER]scoperto qualcosa di interessante. Se mi porti[ENTER]una Pietra Spirituale, te la posso migliorare.
+7527	Sei davvero arzillo per la tua età...
+8004	Reset status
+8015	Questo papiro ti permette di resettare tutti i[ENTER]tuoi progressi di status: VIT, INT, STR e DEX[ENTER]vengono riportati a 1. I punti liberi potranno[ENTER]essere ridistribuiti a piacere.[ENTER][ENTER]Vuoi utilizzare il papiro?
+8153	Reset abilità
+8154	Se dovessi cambiare idea, torna pure a trovarmi.
+8155	Non hai abbastanza yang, non posso aiutarti.Mi[ENTER]servono soldi per vivere.
+8159	Non hai ancora seguito nessuna dottrina! Se non[ENTER]hai ancora acquisito dei Punti Abilità, non puoi[ENTER]certo resettarli. Torna da me in caso dovessi[ENTER]compiere un errore nella tua formazione, sarò[ENTER]contenta di aiutarti.
+8161	Non segui nessuna dottrina e non possiedi dei[ENTER]punti abilità che possano essere resettati!
+8162	Ciao, sei nel posto giusto. I tuoi occhi mostrano[ENTER]tanta tristezza. Posso farti dimenticare le tue[ENTER]abilità per iniziarne altre da capo. Vuoi[ENTER]dimenticare le tue abilità per impararne altre da[ENTER]capo?[ENTER]Ti costerà %s yang.
+8164	Ha ha, è probabile che tu non stia bene? La tua[ENTER]faccia sembra chiedere aiuto.Non ti soddisfano le[ENTER]tue abilità? Grazie alla magia posso farti[ENTER]dimenticare le tue abilità.
+8165	Ciò significa che potrai scegliere altre abilità,[ENTER]ma sfortunatamente perderai tutti i punti[ENTER]acquisiti leggendo libri. Sei sicuro di voler[ENTER]ricominciare tutto da capo? Ti costa %s yang.
+8166	Reset abilità
+8618	Apri il negozio
+10928	Ovvio!
+11825	Veste Aura: trasferisci i valori
+11829	Veste Aura: evoluzione
+200	Per un'anima di drago eccellente: %s.
+201	Vuoi ottenere %s brillante?
+202	Puoi darmi le inutili anime di drago eccellenti [ENTER] e così posso renderle brillanti per te da usare nuovamente, [ENTER] basta trascinare l'anima di drago su di me [ENTER].
+203	Lavorazione
+204	Aggiungi i bonus 6 e 7
+205	L'aggiunta dell'attributo è stata completata con successo.
+206	L'operazione di incantesimo è fallita.
+207	Tempo rimasto: %s.
+208	Come funziona la trasformazione alchemica?
+209	Scegli il bonus desiderato:
+210	Forza contro i mostri +10%.
+211	È stato scelto Max HP+1000.
+212	È stato scelto Forza contro i mostri +10%.
+213	È stato scelto EXP +20%.
+4473	Igen
+2426	Mégse

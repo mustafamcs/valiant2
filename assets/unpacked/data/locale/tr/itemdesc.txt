@@ -1,0 +1,607 @@
+11901	Smokin	Erkeklerin düðünde giydiði takým elbise.
+11902	Smokin	Erkeklerin düðünde giydiði takým elbise.
+11903	Gelinlik	Bayanlarýn düðünde giydiði özel kýyafet.
+11904	Gelinlik	Bayanlarýn düðünde giydiði özel kýyafet.
+25040	Kutsama Kaðýdý	Geliþtirme baþarýsýz olduðunda eþyanýn yok olma riski ortadan kalkýp, sadece kalitesi 1 kademe düþer.
+25041	Büyülü Metal	Bir nesnenin geliþtirilmesini saðlayan bir efsanevi metal topaðý. Baþarýsýzlýk durumunda nesneye hiç bir þey olmaz.
+25042	Ritüel Taþý	Nesnelerin geliþtirilmesinde en iyi þansý sunan, gizemle ýþýldayan bir taþ. Geliþtirilen nesne ne imha edilebilir ne de kötüleþtirilebilir. Bu taþ sadece seviye 105'in üzerindeki eþyalarda çalýþýr.
+25100	Zihin Taþý Kaðýdý	Bu Kaðýt, silah ve zýrhlardan zihin taþý çýkarmaya yarar. Taþý çýkardýktan sonra izi kalýr.
+27800	Hamur	En ucuz balýk yemi.
+27801	Solucan	Balýk tutmak için yem olarak kullanýlýr.
+27803	Sudak Balýðý	Genellikle gölde yaþayan bir balýk türü.
+27805	Büyük Sudak Balýðý	Büyük þiþman sudak balýðý.
+27990	Taþ Parçasý	Küçük boyutlarda olmasý çok rahat taþýnmasýný saðlar. Farklý þekillerde kullanýlabilir.
+27992	Beyaz Ýnci	Beyaz renkli bir inci.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+27993	Mavi Ýnci	Mavi renkli bir inci.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+27994	Kankýrmýzý Ýnci	Kýrmýzý renkli bir inci.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+30006	Ork Diþi	Ork'un kötü kokulu diþi.	Biyolog görevlerinde kullanýlýr.
+30015	Þeytan Hatýrasý	Þeytanýn karanlýk hatýrasý.	Biyolog görevlerinde kullanýlýr.
+30047	Lanet Kitabý	Birilerini lanetlemekte kullanýlan özel bir kitap.	Biyolog görevlerinde kullanýlýr.
+30050	Buz Topu	Buzdan yapýlmýþ ve sýcak havada erimeyen küre.	Biyolog görevlerinde kullanýlýr.
+30165	Zelkova Dalý	Hayalet Orman'daki eski büyülü aðaçlarýn kýrýlmýþ dalý.	Biyolog görevlerinde kullanýlýr.
+30166	Tugyis Tabelasý	Devlerin antik tarihini anlatan mavi renkli eski bir tabela.	Biyolog görevlerinde kullanýlýr.
+30167	Kýr. Hayalet Aðacý Dalý	Kýzýl Orman'daki uzun köklü kýzýl söðütlerin kýrýlmýþ dalý.	Biyolog görevlerinde kullanýlýr.
+30168	Liderlerin Notlarý	Liderlerin tecrübelerini aktardýðý, çok eski ve ender bir parþömen.	Biyolog görevlerinde kullanýlýr.
+30220	Jinunggynin Ruh Taþý	Jinung aristokratlarýnýn ruhunu barýndýrdýðýna inanýlan efsanevi taþ.	Biyolog görevlerinde kullanýlýr.
+30221	Tapýnaðýn Ruh Taþý	Tapýnak yandaþlarýnýn ruhlarýný barýndýrdýðýna inanýlan efsanevi taþ.	Biyolog görevlerinde kullanýlýr.
+30222	Sagyinin Ruh Taþý	Sagyi aristokratlarýnýn ruhunu barýndýrdýðýna inanýlan efsanevi taþ.	Biyolog görevlerinde kullanýlýr.
+30223	Aurtumryunun Ruh Taþý	Aurtumryu aristokratlarýnýn ruhunu barýndýrdýðýna inanýlan efsanevi taþ.	Biyolog görevlerinde kullanýlýr.
+30224	Gyimokun Ruh Taþý	Gyimok aristokratlarýnýn ruhunu barýndýrdýðýna inanýlan efsanevi taþ.	Biyolog görevlerinde kullanýlýr.
+30225	Tugyinin Ruh Taþý	Tugyi aristokratlarýnýn ruhunu barýndýrdýðýna inanýlan efsanevi taþ.	Biyolog görevlerinde kullanýlýr.
+30226	Tugyinin Ruh Taþý	Orman aristokratlarýnýn ruhunu barýndýrdýðýna inanýlan efsanevi taþ.	Biyolog görevlerinde kullanýlýr.
+30227	Tugyinin Ruh Taþý	Lider aristokratlarýnýn ruhunu barýndýrdýðýna inanýlan efsanevi taþ.	Biyolog görevlerinde kullanýlýr.
+30228	Tugyinin Ruh Taþý	Kem aristokratlarýnýn ruhunu barýndýrdýðýna inanýlan efsanevi taþ.	Biyolog görevlerinde kullanýlýr.
+30229	Tugyinin Ruh Taþý	Bilgelik aristokratlarýnýn ruhunu barýndýrdýðýna inanýlan efsanevi taþ.	Biyolog görevlerinde kullanýlýr.
+30230	Tugyinin Ruh Taþý	Ateþ aristokratlarýnýn ruhunu barýndýrdýðýna inanýlan efsanevi taþ.	Biyolog görevlerinde kullanýlýr.
+30231	Tugyinin Ruh Taþý	Karanlýk aristokratlarýnýn ruhunu barýndýrdýðýna inanýlan efsanevi taþ.	Biyolog görevlerinde kullanýlýr.
+
+30251	Kem Göz Mücevheri	Ýçine fenalýk iþlemiþ bir elmas.	Biyolog görevlerinde kullanýlýr.
+30252	Bilgelik Mücevheri	Bu elmasýn ýþýltýsý huzur verici ve cömerttir.	Biyolog görevlerinde kullanýlýr.
+
+31080	Ateþ Ýksiri	Ateþ ile dolu büyülü bir iksir.	Biyolog görevlerinde kullanýlýr.
+31081	Kara Madde	Karanlýðýn ve kötülüðün maddeleþmiþ hali.	Biyolog görevlerinde kullanýlýr.
+
+39033	Düzeltme Kaðýdý	Baþarýlý bir þekilde en son yerleþtirilmiþ olan zihin taþý bu kaðýtla nesneden çýkartýlabilir.
+90000	Dönüþüm Belgesi	Omuz kuþaðýna veya aura giysisine emdirilmiþ olan ekipman bu kaðýtla nesneden temizlenebilir.
+39067	Parça sandýðý	Bu sandýk rastgele bir renkte parça içerir.
+39070	Gri parça	6. veya 7. bonusu eklemeye yarayan gri renkli parça.
+39071	Beyaz parça	6. veya 7. bonusu eklemeye yarayan beyaz renkli parça.
+39072	Yeþil parça	6. veya 7. bonusu eklemeye yarayan yeþil renkli parça.
+39073	Sarý parça	6. veya 7. bonusu eklemeye yarayan sarý renkli parça.
+39074	Mavi parça	6. veya 7. bonusu eklemeye yarayan mavi renkli parça.
+39075	Mor parça	6. veya 7. bonusu eklemeye yarayan mor renkli parça.
+39076	Kýrmýzý parça	6. veya 7. bonusu eklemeye yarayan kýrmýzý renkli parça.
+39077	Gökkuþaðý parçasý	6. veya 7. bonusu eklemeye yarayan lacivert renkli parça.
+49001	Genel Aura Giysisi	Belirli bir emiþ oraný ile takýlarýn deðerini aura giysisine aktarabilirsin. Auranýn buz runikleri ile Aura giysisini yükseltebilirsin.
+49002	Sade Aura Giysisi	Belirli bir emiþ oraný ile takýlarýn deðerini aura giysisine aktarabilirsin. Auranýn buz runikleri ile Aura giysisini yükseltebilirsin.
+49003	Soylu Aura Giysisi	Belirli bir emiþ oraný ile takýlarýn deðerini aura giysisine aktarabilirsin. Auranýn buz runikleri ile Aura giysisini yükseltebilirsin.
+49004	Iþýltýlý Aura Giysisi	Belirli bir emiþ oraný ile takýlarýn deðerini aura giysisine aktarabilirsin. Auranýn buz runikleri ile Aura giysisini yükseltebilirsin.
+49005	Gösteriþli Aura Giysisi	Belirli bir emiþ oraný ile takýlarýn deðerini aura giysisine aktarabilirsin. Auranýn buz runikleri ile Aura giysisini yükseltebilirsin.
+49006	Parlak Aura Giysisi	Belirli bir emiþ oraný ile takýlarýn deðerini aura giysisine aktarabilirsin.
+49990	Auranýn Buz Runiði	Aura giysini yükseltmek için gerekli olan malzeme. Aura giysini yükseltmek için Teovahdan'a git.
+49991	Auranýn Buz Runiði	Aura giysini yükseltmek için gerekli olan malzeme. Aura giysini yükseltmek için Teovahdan'a git.
+
+50267	Altýn Okey Sandýðý	Okey oyununda 400 veya daha fazla puan kazandýðýn için bu yüksek seviye ödülü kazandýn.
+50268	Gümüþ Okey Sandýðý	Okey oyununda 300-399 arasý puan kazandýðýn için bu orta seviye ödülü kazandýn.
+50269	Bronz Okey Sandýðý	Okey oyununda 299 veya daha az puan kazandýðýn için bu düþük seviye ödülü kazandýn.
+50928	Altýn kral ganimeti	Kralý yakala'da 550 veya daha fazla puan kazandýðýn için bu yüksek seviye ödülü kazandýn.
+50929	Gümüþ kral ganimeti	Kralý yakala'da 400 - 549 arasý puan kazandýðýn için bu orta seviye ödülü kazandýn.
+50930	Bronz kral ganimeti	Kralý yakala'da 399 veya daha az puan kazandýðýn için bu düþük seviye ödülü kazandýn.
+83041	Altýn kahin sandýðý	Kahin yarýþmasý'nda 7 veya daha fazla puan kazandýðýn için bu yüksek seviye ödülü kazandýn.
+83042	Gümüþ kahin sandýðý	Kahin yarýþmasý'nda 4 - 6 arasý puan kazandýðýn için bu orta seviye ödülü kazandýn.
+83043	Bronz kahin sandýðý	Kahin yarýþmasý'nda 3 veya daha az puan kazandýðýn için bu düþük seviye ödülü kazandýn.
+200100	Harf Eventi Sandýðý	Harf eventi'nde tüm harfleri topladýðýn için bu nadir ödülü kazandýn.
+50265	Futbol Topu Sandýðý	Futbol topu eventi'nde 20 adet futbol topu topladýðýn için bu nadir ödülü kazandýn.
+
+50401	Üç Yönlü Kesme Klavuzu	Üç yönlü kesme becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50402	Kýlýç Çevirme Klavuzu	Kýlýç çevirme becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50403	Öfke Klavuzu	Öfke becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50404	Hava Kýlýcý Klavuzu	Hava kýlýcý becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50405	Hamle Klavuzu	Hamle becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50406	Yaþama Ýsteði Kitabý	Yaþama isteðini baþarýyla tamamlamak için kullanýlýr. Kitap okunduktan sonra kaybolur.
+50416	Ruh Vuruþu Klavuzu	Ruh vuruþu becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50417	Þiddetli Vuruþ Klavuzu	Þiddetli vuruþ becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50418	Güçlü Vuruþ Klavuzu	Güçlü vuruþ becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50419	Güçlü Beden Klavuzu	Güçlü beden becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50420	Kýlýç Darbesi Klavuzu	Kýlýç darbesi becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50421	Kýlýç Çemberi Kitabý	Kýlýç çemberini baþarýyla tamamlamak için kullanýlýr. Kitap okunduktan sonra kaybolur.
+50431	Suikast Klavuzu	Suikast becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50432	Hýzlý Saldýrý Klavuzu	Hýzlý saldýrý becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50433	Býçak Çevirme Klavuzu	Býçak çevirme becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50434	Kamuflaj Klavuzu	Kamuflaj becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50435	Zehirli Bulut Klavuzu	Zehirli bulut becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50436	Sinsi Zehir Kitabý	Sinsi zehri baþarýyla tamamlamak için kullanýlýr. Kitap okunduktan sonra kaybolur.
+50446	Tekrarlanan Atýþ Klavuzu	Tekrarlanan atýþ becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50447	Ok Yaðmuru Klavuzu	Ok yaðmuru becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50448	Ateþli Ok Klavuzu	Ateþli ok becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50449	Hafif Adým Klavuzu	Hafif adým becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50450	Zehirli Ok Klavuzu	Zehirli ok becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50451	Kývýlcým Vuruþu Kitabý	Kývýlcým vuruþu baþarýyla tamamlamak için kullanýlýr. Kitap okunduktan sonra kaybolur.
+50461	Parmak Darbesi Klavuzu	Parmak darbesi becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50462	Ejderha Dönüþü Klavuzu	Ejderha dönüþü becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50463	Büyülü Keskinlik Klavuzu	Büyülü keskinlik becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50464	Dehþet Klavuzu	Dehþet becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50465	Büyülü Zýrh Klavuzu	Büyülü zýrh becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50466	Büyü Çözme Klavuzu	Büyü çözme becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50476	Karanlýk Vuruþ Klavuzu	Karanlýk vuruþ becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50477	Ateþ Vuruþ Klavuzu	Ateþ vuruþ becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50478	Ateþ Hayaleti Klavuzu	Ateþ hayaleti becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50479	Karanlýk Koruma Klavuzu	Karanlýk koruma becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50480	Hayalet Vuruþ Klavuzu	Hayalet vuruþ becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50481	Karanlýk Küre Klavuzu	Karanlýk küre becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50491	Uçan Týlsým Klavuzu	Uçan týlsým becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50492	Ejderha darbesi kitabý	Bu kitabýn okumasý ejderha darbesi becerisinde ustalaþmayý saðlar. Kitap okunduktan sonra yok olur.
+50493	Ejder Kükremesi Klavuzu	Ejder kükremesi becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50494	Kutsama Klavuzu	Kutsama becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50495	Yansýtma Klavuzu	Yansýtma becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50496	Ejderha Yardýmý Kitabý	Ejderha yardýmý becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50506	Þimþek Atmak Klavuzu	Þimþek atma becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50507	Þimþek Çaðýrma Klavuzu	Þimþek çaðýrma becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50508	Þimþek Pençesi Klavuzu	Þimþek pençesi becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50509	Ýyileþtirme Klavuzu	Ýyileþtirme becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50510	Hýz Klavuzu	Hýz becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+50511	Yüksek Saldýrý Klavuzu	Saldýrý becerisinde ustalaþmak için kullanýlýr. Kitap okunduktan sonra yok olur.
+
+50513	Ruh Taþý	Grandmaster becerilerini artýran efsanevi taþ. Kullanýldýktan sonra yok olur.
+
+18900	Fosil Aðaç Gövdesi	Kullanan kiþilere ekstra güç kazandýran meteor parçasý. Kemerlere eklenebilir.
+918900	Fosil Aðaç Gövdesi	Kullanan kiþilere ekstra güç kazandýran meteor parçasý. Kemerlere eklenebilir.
+
+50621	Elmas	Bu deðerli mücevher aksesuarlara cevher slotu açmak için kullanýlýr.
+50623	Fosil Aðaç Gövdesi	Aksesuarlara dayanýklýlýk kazandýran deðerli bir odun. Tahta aksesuarlara eklenebilir.
+50624	Bakýr	Bazen bronz ve bozuk para yapýmýnda kullanýlýr | Bakýr aksesuarlara eklenebilir.
+50625	Gümüþ	Mücevher yapýmýnda kullanýlan parlak bir soy metal. Gümüþ aksesuarlara eklenebilir.
+50626	Altýn	Mücevher yapýmýnda kullanýlýr. | Altýn aksesuarlara eklenebilir.
+50627	YeþimTaþý	5000 yýlý aþkýn süredir kullanýlan deðerli bir mineral.  Yeþim Taþý aksesuarlara eklenebilir.
+50628	Abanoz	Tüm odunlarýn en parlak ve güçlüsü.| Abanoz aksesuarlara eklenebilir.
+50629	Ýnci	Zarif þekilde parýldayan, denizlerin mücevheridir. Ýnci aksesuarlara eklenebilir.
+50630	Beyaz Altýn	Dayanýklý, beyazlaþtýrýlmýþ bu altýn mücevher. Beyaz Altýn aksesuarlara eklenebilir.
+50631	Kristal	Farklý renklerde olabilen kristal kuvars.  Kristal aksesuarlara eklenebilir.
+50632	Ametist	Mor kuartz.| Ametist aksesuarlara eklenebilir.
+50633	Cennetin Gözyaþý	Cennetten düþen damlanýn kristalleþmiþ hali.  Cennetin Gözü aksesuarlara eklenebilir.
+50634	Ruh Kristali	Bu kristal ruh kadar saf.  Ruh Kristali aksesuarlara eklenebilir.
+50635	Yakut	Özenle yontulmuþ bir kýrmýzý cevher.  Yakut aksesuarlara eklenebilir.
+50636	Grena	Özenle yontulmuþ turuncu bir cevher.  Grena aksesuarlara eklenebilir.
+50637	Zümrüt	Özenle yontulmuþ bir yeþil cevher.  Zümrüt aksesuarlara eklenebilir.
+50638	Safir	Özenle yontulmuþ bir mavi cevher.  Safir aksesuarlara eklenebilir.
+50639	Turmalin	Gözleri büyüleyen bu cevher gökkuþaðý renklerinde ýþýldýyor.  Turmalin aksesuarlara eklenebilir.
+50640	Kara Ejderha	Gözleri karartan karanlýk bir büyünün enerjisini barýndýrýyor. Kara Ejderha aksesuarlara eklenebilir.
+50641	Kyanit	Özenle yontulmuþ bir mor cevher. Kyanit aksesuarlara eklenebilir.
+
+950623	Fosil Aðaç Gövdesi	Aksesuarlara dayanýklýlýk kazandýran kalýcý deðerli bir odun. Tahta aksesuarlara eklenebilir.
+950624	Bakýr	Bazen kalýcý bronz ve bozuk para yapýmýnda kullanýlýr. | Bakýr aksesuarlara eklenebilir.
+950625	Gümüþ	Mücevher yapýmýnda kullanýlan kalýcý parlak bir soy metal. Gümüþ aksesuarlara eklenebilir.
+950626	Altýn	Kalýcý mücevher yapýmýnda kullanýlýr. | Altýn aksesuarlara eklenebilir.
+950627	YeþimTaþý	5000 yýlý aþkýn süredir kullanýlan deðerli kalýcý bir mineral.  Yeþim Taþý aksesuarlara eklenebilir.
+950628	Abanoz	Tüm odunlarýn kalýcý en parlak ve güçlüsü.| Abanoz aksesuarlara eklenebilir.
+950629	Ýnci	Zarif þekilde parýldayan, kalýcý denizlerin mücevheridir. Ýnci aksesuarlara eklenebilir.
+950630	Beyaz Altýn	Dayanýklý, beyazlaþtýrýlmýþ altýndan kalýcý mücevher. Beyaz Altýn aksesuarlara eklenebilir.
+950631	Kristal	Farklý renklerde olabilen kalýcý kristal kuvars.  Kristal aksesuarlara eklenebilir.
+950632	Ametist	Kalýcý mor kuartz.| Ametist aksesuarlara eklenebilir.
+950633	Cennetin Gözyaþý	Cennetten düþen damlanýn kalýcý kristalleþmiþ hali.  Cennetin Gözü aksesuarlara eklenebilir.
+950634	Ruh Kristali	Bu kristal kalýcý bir ruh kadar saf.  Ruh Kristali aksesuarlara eklenebilir.
+950635	Yakut	Özenle yontulmuþ kalýcý bir kýrmýzý cevher.  Yakut aksesuarlara eklenebilir.
+950636	Grena	Özenle yontulmuþ kalýcý turuncu bir cevher.  Grena aksesuarlara eklenebilir.
+950637	Zümrüt	Özenle yontulmuþ kalýcý bir yeþil cevher.  Zümrüt aksesuarlara eklenebilir.
+950638	Safir	Özenle yontulmuþ kalýcý bir mavi cevher.  Safir aksesuarlara eklenebilir.
+950639	Turmalin	Gözleri büyüleyen bu kalýcý cevher gökkuþaðý renklerinde ýþýldýyor.  Turmalin aksesuarlara eklenebilir.
+950640	Kara Ejderha	Gözleri karartan karanlýk bir büyünün kalýcý enerjisini barýndýrýyor. Kara Ejderha aksesuarlara eklenebilir.
+950641	Kyanit	Özenle yontulmuþ kalýcý bir mor cevher. Kyanit aksesuarlara eklenebilir.
+
+51511	Cor Diamas	Beyaz Cor Draconis. Rastgele bir ejderha elmasý içerir.
+51512	Cor Rubinum	Kýrmýzý Cor Draconis. Rastgele bir ejderha yakutu içerir.
+51513	Cor Jadeit	Yeþil Cor Draconis. Rastgele bir ejderha yeþimi içerir.
+51514	Cor Saphirum	Mavi Cor Draconis. Rastgele bir ejderha safiri içerir.
+51515	Cor Granatum	Turuncu renkli Cor Draconis. Rastgele bir ejderha grenasý içerir.
+51516	Cor Atrum	Siyah Cor Draconis. Rastgele bir ejderha oniksi içerir.
+
+55401	Maymun Yumurtasý	Petinin yumurtadan çýkmasýný istiyorsan sað fare tuþu ile yumurtayý týkla.
+55701	Küçük Maymun	Petini sað fare tuþu ile çaðýr ve ardýndan P tuþu ile pet kullanýcý ara birimini görüntüle.
+
+70005	Tecrübe yüzüðü (1 sa.)	60 dakika boyunca %50 daha fazla tecrübe toplamaný saðlar. 90 seviye altýnda kullanýlabilir.
+970005	Tecrübe yüzüðü (1 sa.)	60 dakika boyunca %50 daha fazla tecrübe toplamaný saðlar. 90 seviye ve üstü seviyelerde kullanýlabilir.
+
+70038	Cesaret Pelerini	Gerçek savaþçýlar taþýdýklarý renkli pelerin ile tüm yaratýklarýn dikkatini kendi üzerlerine çeker ve böylelikle kahramanlýklarýný kanýtlarlar.
+70039	Demircinin El Kitabý	Eski demircilerin ruhlarýný barýndýran kitap. Kullanýlýrsa, yükseltme baþarýsý oranýný arttýrýr. 90 seviye ve üzeri seviye itemlerde kullanýlabilir.
+
+70043	Hýrsýzýn eldivenleri	Nesne elde etme þansýný iki katýna çýkarýr. 90 seviye altýnda kullanýlabilir.
+970043	Hýrsýzýn eldivenleri	Nesne elde etme þansýný iki katýna çýkarýr. 90 seviye ve üstü seviyelerde kullanýlabilir.
+
+70102	Zen Fasulye	Kötü sýralamayý azaltýr.
+
+71001	Kötü Ruh Kovma Kaðýdý	Öðrenme baþarýsýz olursa, kötü ruh lanetinden korunmanýzý saðlar.
+71002	Statü Sýfýrlama Kaðýdý	Statü puanlarýný sýfýrlayarak karakterinizi baþka yönde geliþtirmenizi saðlar.
+71054	Krallýklarýn Ýzi	Bir karakter baþka bir krallýða kaçabilir, yani krallýk deðiþtirebilir.
+
+71032	Ejderha Parþömeni	Geliþtirme iþlemi baþarýsýz olduðunda bir eþyanýn kalitesi bir basamak düþer. Ayrýca geliþtirme ihtimali %10 artar. 90 seviyenin altýndaki itemlerde kullanýlabilir.
+70058	Iþýnlama yüzüðü	Bu yüzük seni istediðin bir yere ýþýnlar.
+72726	Güneþ Özütü	Kullanýldýðýnda sol üst köþedeki efektleriniz kýsmýnda gider, süresizdir ve sýnýrsýzdýr. Kapatmak açmak için efektine týklamanýz yeterlidir.
+72730	Ay Özütü	Kullanýldýðýnda sol üst köþedeki efektleriniz kýsmýnda gider, süresizdir ve sýnýrsýzdýr. Kapatmak açmak için efektine týklamanýz yeterlidir.
+71107	Yaþam Meyvesi	Sýralama puanýný 2.000 arttýrýr.
+30629	Biyolog Süre Saati	Topladýðýnýz araþtýrma nesnelerinin bekleme süresini sýfýrlar, böylece teslim edilmeleri kolaylaþýr.
+71035	Araþtýrmacýnýn Özütü	Topladýðýnýz araþtýrma nesnelerinin kalitesini arttýrýr, böylece kabul edilmeleri kolaylaþýr.
+
+71083	Taþ Sanatý Kitabý	Kýrýk taþý eklentiden silerek, boþ ekleme alaný oluþturur.
+71084	Efsun Nesnesi	Nesnelerinden birinin bonuslarýný siler ve yenilerini ekler. Sadece 1-5 bonuslarý için geçerlidir.
+71085	Arttýrma Kaðýdý	Sana ait olan eþyalarýn birine yeni bonus ekler.
+
+71094	Münzevi Tavsiyesi	Bir sonraki kitabý (ya da ruh taþýný) okurken yeteneðini geliþtirme þansýný iki buçuk katýna çýkarýr.
+
+71151	Yeþil Efsun	Nesnelerinden birinin bonuslarýný siler ve yenilerini ekler. Yalnýzca 40.seviye ve altýndaki zýrh ve silaha uygulanabilir.
+71153	Bilgelik Ýksiri	Bu iksirle bir saatlik oyun süresinde %100 daha fazla deneyim toplarsýn.
+71154	Yükseliþ Ýksiri	Bu iksirle bir saatlik oyun süresinde %100 daha fazla deneyim toplarsýn.			Ticareti yok.
+
+72346	Kutsama	6. veya 7. bonusu deðiþtirir.
+72351	Küçük Kutsama	Düþük bir ihtimalle 6. veya 7. bonusu deðiþtirir.
+
+79505	Okey Koleksiyon Kartý	24 okey koleksiyon kartý topladýðýnda sað týklayarak bir okey kart seti elde edersin.
+79506	Okey Kart Seti	Bu kart setiyle bir okey turu baþlatabilirsin. Kart seti oyun baþlangýcýndan sonra otomatik olarak envanterinden silinir.
+79512	Tarot kartý	24 tarot kartý topladýðýnda sað týklayarak bir tarot seti elde edersin.
+79513	Tarot seti	Bu kart setiyle bir kahin yarýþmasýný baþlatabilirsin. Kart seti oyun baþlangýcýndan sonra otomatik olarak envanterinden silinir.
+79603	Kral kartý	25 kral kartý topladýðýnda sað týklayarak bir kral destesi elde edersin.
+79604	Kral destesi	Bu kart destesiyle bir kral turu baþlatabilirsin. Kart destesi oyun baþlangýcýndan sonra otomatik olarak envanterinden silinir.
+
+80008	Altýn Parçasý	Ýþlenmemiþ altýn. Maðazada yüksek fiyata satýlabilir.
+80014	EP kuponu (100)	100 Ejderha Parasý deðerinde kupon. Bu eþyanýn ticareti var.
+80015	EP kuponu (500)	500 Ejderha Parasý deðerinde kupon. Bu eþyanýn ticareti var.
+80016	EP kuponu (1000)	1000 Ejderha Parasý deðerinde kupon. Bu eþyanýn ticareti var.
+80017	EP kuponu (50)	50 Ejderha Parasý deðerinde kupon. Bu eþyanýn ticareti var.
+80019	Ýnce Kumaþ	Bu malzemeyle omuz kuþaðý satýn alýnabilir.
+
+85001	Hakim Kuþaðý (basit)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %1'ini emer.
+85002	Hakim Kuþaðý (zarif)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %5'ini emer.
+85003	Hakim Kuþaðý (asil)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %10'unu emer.
+85004	Hakim Kuþaðý(kiþiye öz.)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %11~25'ini emer.
+85005	Usta Kuþaðý (basit)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %1'ini emer.
+85006	Usta Kuþaðý (zarif)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %5'ini emer.
+85007	Usta Kuþaðý (asil)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %10'unu emer.
+85008	Usta Kuþaðý (kiþiye öz.)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %11~25'ini emer.
+85011	Bey Kuþaðý (basit)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %1'ini emer.
+85012	Bey Kuþaðý (zarif)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %5'ini emer.
+85013	Bey Kuþaðý (soylu)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %10'unu emer.
+85014	Bey Kuþaðý (kiþiye özel)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %11~25'ini emer.
+85015	Kral Kuþaðý (basit)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %1'ini emer.
+85016	Kral Kuþaðý (zarif)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %5'ini emer.
+85017	Kral Kuþaðý (soylu)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %10'unu emer.
+85018	Kral Kuþaðý (kiþiye öze)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %11~25'ini emer.
+85021	Yýldönümü kuþaðý (basit)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %1'ini emer.
+85022	Yýldönümü kuþaðý (zarif)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %5'ini emer.
+85023	Yýl dönümü kuþaðý (asil)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %10'unu emer.
+85024	Yýldön. kuþaðý (kiþ. ö.)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %11~25'ini emer.
+86001	Zi Bandý (basit)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %1'ini emer.
+86002	Zi Bandý (zarif)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %5'ini emer.
+86003	Zi Bandý (asil)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %10'unu emer.
+86004	Zi Bandý (kiþiye özel)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %11~25'ini emer.
+86005	Chou Bandý (basit)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %1'ini emer.
+86006	Chou Bandý (zarif)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %5'ini emer.
+86007	Chou Bandý (asil)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %10'unu emer.
+86008	Chou Bandý (kiþiye özel)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %11~25'ini emer.
+86011	Yin Bandý (basit)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %1'ini emer.
+86012	Yin Bandý (zarif)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %5'ini emer.
+86013	Yin Bandý (asil)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %10'unu emer.
+86014	Yin Bandý (kiþiye özel)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %11~25'ini emer.
+86015	Mao Bandý (basit)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %1'ini emer.
+86016	Mao Bandý (zarif)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %5'ini emer.
+86017	Mao Bandý (asil)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %10'unu emer.
+86018	Mao Bandý (kiþiye özel)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %11~25'ini emer.
+86021	Chen Bandý (basit)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %1'ini emer.
+86022	Chen Bandý (zarif)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %5'ini emer.
+86023	Chen Bandý (asil)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %10'unu emer.
+86024	Chen Bandý (kiþiye özel)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %11~25'ini emer.
+86025	Si Bandý (basit)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %1'ini emer.
+86026	Si Bandý (zarif)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %5'ini emer.
+86027	Si Bandý (asil)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %10'unu emer.
+86028	Si Bandý (kiþiye özel)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %11~25'ini emer.
+86031	Wu Bandý (basit)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %1'ini emer.
+86032	Wu Bandý (zarif)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %5'ini emer.
+86033	Wu Bandý (asil)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %10'unu emer.
+86034	Wu Bandý (kiþiye özel)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %11~25'ini emer.
+86035	Wei Bandý (basit)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %1'ini emer.
+86036	Wei Bandý (zarif)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %5'ini emer.
+86037	Wei Bandý (asil)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %10'unu emer.
+86038	Wei Bandý (kiþiye özel)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %11~25'ini emer.
+86041	Shen Bandý (basit)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %1'ini emer.
+86042	Shen Bandý (zarif)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %5'ini emer.
+86043	Shen Bandý (asil)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %10'unu emer.
+86044	Shen Bandý (kiþiye özel)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %11~25'ini emer.
+86045	Yu Bandý (basit)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %1'ini emer.
+86046	Yu Bandý (zarif)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %5'ini emer.
+86047	Yu Bandý (asil)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %10'unu emer.
+86048	Yu Bandý (kiþiye özel)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %11~25'ini emer.
+86051	Xu Bandý (basit)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %1'ini emer.
+86052	Xu Bandý (zarif)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %5'ini emer.
+86053	Xu Bandý (asil)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %10'unu emer.
+86054	Xu Bandý (kiþiye özel)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %11~25'ini emer.
+86055	Hai Bandý (basit)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %1'ini emer.
+86056	Hai Bandý (zarif)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %5'ini emer.
+86057	Hai Bandý (asil)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %10'unu emer.
+86058	Hai Bandý (kiþiye özel)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %11~25'ini emer.
+86061	Kalp kuþaðý (basit)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %1'ini emer.
+86062	Kalp kuþaðý (zarif)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %5'ini emer.
+86063	Kalp kuþaðý (asil)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %10'unu emer.
+86064	Kalp kuþaðý (kiþiye öz.)	Bu kuþak kullandýðýn silah veya zýrha ait bonusun %11~25'ini emer.
+
+100002	Süre Özütü (B)	Bir ejderha taþý simyasýna 6 saat süre ekler.
+
+100300	Yeþil Ejderha Fasulyesi	Büyülü fasulye, ejderha taþý seviyesini yükseltmek için kullanýlýr. Yükseltme baþarýsýz olabilir.
+100400	Mavi Ejderha Fasulyesi	Büyülü fasulye, ejderha taþýnýn baþarýyla bir seviye geliþtirme þansýný %5 artýrýr.
+100500	Pembe Ejderha Fasulyesi	Büyülü fasulye, ejderha taþýnýn baþarýyla bir seviye geliþtirme þansýný %10 artýrýr.
+
+93100	Battle Pass		Bu eþya bir çok ödül içeren sezonluk görevleri aktif eder.
+
+200000	Beceri Kitabý Sandýðý	Ýçerisinde becerileri geliþtirmeye yarayan beceri kitaplarýný barýndýrýr.
+200001	Bedensel Beceri Kitabý Sandýðý	Ýçerisinde bedensel savaþçý becerilerini geliþtirmeye yarayan beceri kitaplarýný barýndýrýr.
+200002	Zihinsel Beceri Kitabý Sandýðý	Ýçerisinde zihinsel savaþçý becerilerini geliþtirmeye yarayan beceri kitaplarýný barýndýrýr.
+200003	Yakýn Dövüþ Beceri Kitabý Sandýðý	Ýçerisinde yakýn dövüþ ninja becerilerini geliþtirmeye yarayan beceri kitaplarýný barýndýrýr.
+200004	Uzak Dövüþ Beceri Kitabý Sandýðý	Ýçerisinde uzak dövüþ ninja becerilerini geliþtirmeye yarayan beceri kitaplarýný barýndýrýr.
+200005	Büyülü Silah Beceri Kitabý Sandýðý	Ýçerisinde büyülü silah sura becerilerini geliþtirmeye yarayan beceri kitaplarýný barýndýrýr.
+200006	Kara Büyü Beceri Kitabý Sandýðý	Ýçerisinde kara büyü sura becerilerini geliþtirmeye yarayan beceri kitaplarýný barýndýrýr.
+200007	Ejderha Gücü Beceri Kitabý Sandýðý	Ýçerisinde ejderha gücü þaman becerilerini geliþtirmeye yarayan beceri kitaplarýný barýndýrýr.
+200008	Ýyileþtirme Beceri Kitabý Sandýðý	Ýçerisinde iyileþtirme þaman becerilerini geliþtirmeye yarayan beceri kitaplarýný barýndýrýr.
+200009	Eðitim Sandýðý	Ýçerisinde becerileri geliþtirmeye yarayan yardýmcý nesneleri barýndýrýr.
+200011	Cor Draconis Sandýðý	Ýçerisinde ejderha taþý simyalarýný barýndýrýr.
+200012	Hazine Sandýðý	Ýçerisinde çok deðerli malzemeler barýndýrýr.
+200013	Efsun Nesnesi Sandýðý (10k)	Ýçerisinde 10000 adet efsun nesnesi barýndýrýr.
+200014	Ýstiridye	Ýçerisinde inciler yada taþ parçasý olabilir.
+200015	Altýn Ýstiridye	Ýçerisinde renkli inciler yada taþ parçasý olabilir.
+200016	Altýn Balýk Sandýðý (K)	Ýçerisinde sýradan balýklarý barýndýrýr.
+200017	Altýn Balýk Sandýðý (B)	Ýçerisinde çok ender bulunan balýklarý barýndýrýr.
+200018	Pasif Beceri Kitabý Sandýðý	Ýçerisinde pasif becerileri geliþtirmeye yarayan beceri kitaplarýný barýndýrýr.
+200019	Elysium Sandýðý	Ýçerisinde çok deðerli malzemeler barýndýrýr.
+200020	Efsanevi Cor Sandýðý	Ýçerisinde efsanevi kalite ejderha taþý simyalarýný barýndýrýr.
+200021	Pet Kitabý Sandýðý	Ýçerisinde pet beceri kitaplarýný barýndýrýr.
+200022	Yükseltme Sandýðý	Ýçerisinde orta yükseltme malzemelerini barýndýrýr.
+200022	Yükseltme Sandýðý	Ýçerisinde orta seviye yükseltme malzemelerini barýndýrýr.
+200023	Geliþmiþ Yükseltme Sandýðý	Ýçerisinde yüksek seviye yükseltme malzemelerini barýndýrýr.
+
+200200	Safir Kristali	Safirden oluþan sýradan bir kristal.	Ekipmanlarýn üretilmesinde ve arýndýrýlmasýnda kullanýlýr.
+200202	Safir Kristali	Zümrütten oluþan ender bir kristal.	Ekipmanlarýn üretilmesinde ve arýndýrýlmasýnda kullanýlýr.
+200204	Safir Kristali	Yakuttan oluþan nadir bir kristal.	Ekipmanlarýn üretilmesinde ve arýndýrýlmasýnda kullanýlýr.
+200206	Zindan Parþomeni (Düþük)	Düþük seviye zindanlara giriþ yapabilmen için gereken biletleri satýn almaný saðlar.
+200207	Zindan Parþomeni (Orta)	Orta seviye zindanlara giriþ yapabilmen için gereken biletleri satýn almaný saðlar.
+200208	Zindan Parþomeni (Yüksek)	Yüksek seviye zindanlara giriþ yapabilmen için gereken biletleri satýn almaný saðlar.
+200209	Ekipman Kuponu	Kadim bir ustanýn ekipman üretiminde kullandýðý ilk þablon.	Ekipmanlarýn ilk satýn alýmlarýnda, üretilmesinde ve arýndýrýlmasýnda kullanýlýr.
+200210	Valleycoin	Antik çaðlarda kullanýlan madeni bir para.	Genel olarak NPC'lerden alýþ-veriþ yaparken, ve ekipmanlarýn üretilmesinde kullanýlýr.
+200211	Kazma Geliþtirme Taþý	Çok bilinmeyen, siyah bir taþ.	Kazmalarýn arýndýrýlmasýnda kullanýlýr.
+200212	Olta Geliþtirme Taþý	Kýrýk bir olta parçasý.	Oltalarýn arýndýrýlmasýnda kullanýlýr.
+200213	Cevher Parçasý (Düþük)	Madencilikte elde edilen sýradan cevher parçasý.	Cevher Satýcýsý'ndan düþük seviye cevher alýrken kullanýlýr.
+200214	Cevher Parçasý (Yüksek)	Madencilikte elde edilen ender cevher parçasý.	Cevher Satýcýsý'ndan yüksek seviye cevher alýrken kullanýlýr.
+200215	Elysium Parasý	Elysium'a özel bulunan ve ender rastlanan bir para.	Elysium Market'inden güçlenmeni saðlayacak eþyalar satýn alabilirsin.
+200216	Hindiba	Bahar havasýný hissettiren ferah ve sarý renkli bir çiçek.	Huahn-So'dan bitkisel sular satýn almak için kullanýlýr.
+200217	Biyolog Parþomeni	Biyolog Chaegirab'dan biyolog malzemeleri satýn almak için kullanýlan antik bir parþomen.
+200218	Craft Parasý	Ekipman geliþimlerinde ve üretimlerinde kullanýlan gümüþ para.	Ekipmanlarýn üretilmesinde ve arýndýrýlmasýnda kullanýlýr.
+200221	Ejderha Pulu	Ejderha pullarý bilinen en þiddetli malzemeler arasýnda yer alýyor.	Ekipmanlarýn üretilmesinde ve arýndýrýlmasýnda kullanýlýr.
+200222	Ejderha Pençesi	Bu ürkütücü pençeyi görünce anýlar canlanýyor...	Ekipmanlarýn üretilmesinde ve arýndýrýlmasýnda kullanýlýr.
+200223	Alev Taþý	Alev ile magmanýn kristalize edilmiþ hali.	Ekipmanlarýn üretilmesinde ve arýndýrýlmasýnda kullanýlýr.
+200224	Buz Alevi Taþý	Soðuk ile buzun kristalize edilmiþ hali.	Ekipmanlarýn üretilmesinde ve arýndýrýlmasýnda kullanýlýr.
+200225	Mitril	Düþen göktaþýndan geriye kalan yalnýzca küçük bir parça.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200226	Titandiyoksit	Prizmatik kristal.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200227	Akik	Yýldýz gibi parýldayan, karanlýðýn içindeki gizemli bir mineral.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200228	Ay Taþý	Damla þeklindeki deðerli taþ bir kývýlcým ay ýþýðýný içinde taþýr.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200229	Yeþil Aksesuar Planý	Kadim bir ustanýn aksesuar üretiminde kullandýðý eski bir taslak.	Ekipmanlarýn üretilmesinde kullanýlýr.
+200230	Aðýr Kemerler	Sarmalanmýþ ince bir ip.	Ekipmanlarýn üretilmesinde kullanýlýr.
+200231	Yeþil Ekipman Planý	Kadim bir ustanýn ekipman üretiminde kullandýðý eski bir taslak.	Ekipmanlarýn üretilmesinde kullanýlýr.
+200232	Saðlam Ýpler	Sarmalanmýþ kalýn bir halat.	Ekipmanlarýn üretilmesinde kullanýlýr.
+200233	Büyülü Troll Kristali	Büyülü Troll'ün gücünü barýndýran bir kristal.	Ekipmanlarýn üretilmesinde ve arýndýrýlmasýnda kullanýlýr.
+200234	Büyülü Troll Taþý	Büyülü Troll'ün anýlarýný içerisinde barýndýran bir taþ.	Ekipmanlarýn üretilmesinde ve arýndýrýlmasýnda kullanýlýr.
+200235	Kraliçe Meley'in Kanadý	Meley'in kopmuþ kanadý.	Ekipmanlarýn üretilmesinde ve arýndýrýlmasýnda kullanýlýr.
+200236	Floraun'un Boynuzu	Floraun'un kýrýlan boynuzu.	Ekipmanlarýn üretilmesinde ve arýndýrýlmasýnda kullanýlýr.
+200237	Zodyak Zýrh Planý	Kadim bir ustanýn zodyak zýrhlarýný üretirken kullandýðý eski bir taslak.	Ekipmanlarýn üretilmesinde ve arýndýrýlmasýnda kullanýlýr.
+200238	Zodyak Silah Planý	Kadim bir ustanýn zodyak silahlarýný üretirken kullandýðý eski bir taslak.	Ekipmanlarýn üretilmesinde ve arýndýrýlmasýnda kullanýlýr.
+200239	Zodyak Aksesuar Planý	Kadim bir ustanýn zodyak aksesuarlarýný üretirken kullandýðý eski bir taslak.	Ekipmanlarýn üretilmesinde ve arýndýrýlmasýnda kullanýlýr.
+200240	Alastor'un Kalbi	Alastor'un buzlarla kaplý kalbi.	Ekipmanlarýn üretilmesinde ve arýndýrýlmasýnda kullanýlýr.
+200241	Atlantis Kristali	Poseidon'un tanrýsal gücünün kaynaðý.	Ekipmanlarýn üretilmesinde ve arýndýrýlmasýnda kullanýlýr.
+200242	Akrep Kuyruðu	Akrep Kral'ýn koparýlan kuyruðu.	Ekipmanlarýn üretilmesinde ve arýndýrýlmasýnda kullanýlýr.
+200243	Ejderha Kafatasý	Ýskelet Ejderha'nýn kesilen kafatasý.	Ekipmanlarýn üretilmesinde ve arýndýrýlmasýnda kullanýlýr.
+200244	Kara Ejderha Zýrh Planý	Kadim bir ustanýn kara ejderha zýrhlarýný üretirken kullandýðý eski bir taslak.	Ekipmanlarýn üretilmesinde ve arýndýrýlmasýnda kullanýlýr.
+200245	Kara Ejderha Silah Planý	Kadim bir ustanýn kara ejderha silahlarýný üretirken kullandýðý eski bir taslak.	Ekipmanlarýn üretilmesinde ve arýndýrýlmasýnda kullanýlýr.
+200246	Kara Ejderha Aksesuar Planý	Kadim bir ustanýn kara ejderha aksesuarlarýný üretirken kullandýðý eski bir taslak.	Ekipmanlarýn üretilmesinde ve arýndýrýlmasýnda kullanýlýr.
+
+200265	Yeþil Ýnci	Yeþil renkli bir inci.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200266	Pembe Ýnci	Pembe renkli bir inci.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200267	Altýn Ýnci	Altýn renkli bir inci.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200268	Iþýltýlý Ýnci	Göz kamaþtýran renkte bir inci.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200269	Lacivert Ýnci	Lacivert renkli bir inci.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200270	Mor Ýnci	Mor renkli bir inci.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200271	Siyah Ýnci	Göz karartýcý renkte bir inci.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200272	Yeþil Ýþlemeli	Yeþil renkli bir iþleme.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200273	Pembe Ýþlemeli	Pembe renkli bir iþleme.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200274	Altýn Ýþlemeli	Altýn renkli bir iþleme.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200275	Iþýltýlý Ýþlemeli	Göz kamaþtýran renkte bir iþleme.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200276	Lacivert Ýþlemeli	Lacivert renkli bir iþleme.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200277	Mor Ýþlemeli	Mor renkli bir iþleme.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200278	Siyah Ýþlemeli	Göz karartýcý renkte bir iþleme.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200279	Yeþil Ýplik	Yeþil renkli bir iplik.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200280	Pembe Ýplik	Pembe renkli bir iplik.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200281	Altýn Ýplik	Altýn renkli bir iplik.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200282	Iþýltýlý Ýplik	Göz kamaþtýran renkte bir iplik.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200283	Lacivert Ýplik	Lacivert renkli bir iplik.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200284	Mor Ýplik	Mor renkli bir iplik.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200285	Siyah Ýplik	Göz karartýcý renkte bir iplik.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200286	Yeþil Kumaþ	Yeþil renkli bir kumaþ.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200287	Pembe Kumaþ	Pembe renkli bir kumaþ.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200288	Altýn Kumaþ	Altýn renkli bir kumaþ.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200289	Iþýltýlý Kumaþ	Göz kamaþtýran renkte bir kumaþ.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200290	Lacivert Kumaþ	Lacivert renkli bir kumaþ.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200291	Mor Kumaþ	Mor renkli bir kumaþ.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200292	Siyah Kumaþ	Göz karartýcý renkte bir kumaþ.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200293	Yeþil Boya	Yeþil renkli bir boya.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200294	Pembe Boya	Pembe renkli bir boya.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200295	Altýn Boya	Altýn renkli bir boya.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200296	Iþýltýlý Boya	Göz kamaþtýran renkte bir boya.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200297	Lacivert Boya	Lacivert renkli bir boya.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200298	Mor Boya	Mor renkli bir boya.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+200299	Siyah Boya	Göz karartýcý renkte bir boya.	Ekipmanlarýn arýndýrýlmasýnda kullanýlýr.
+
+55107	Pet Beceri Slot Açýcý	Bu nesne ile petinin bir sonraki beceri slotunu açabilirsin.
+
+55120	Genç Pet Kitabý	Bu kitap ile petini bir sonraki seviyeye (Yabani) yükseltebilirsin.
+55121	Yabani Pet Kitabý	Bu kitap ile petini bir sonraki seviyeye (Cesur) yükseltebilirsin.
+55122	Cesur Pet Kitabý	Bu kitap ile petini bir sonraki seviyeye (Kahraman) yükseltebilirsin.
+55125	Pet Tip Deðiþtirici	Bu nesne ile petinin tipini deðiþtirebilirsin.
+55127	Pet Efsunlayýcý	Bu nesne ile petinin özelliklerini deðiþtirebilirsin.
+55128	Pet Yýldýzý	Bu nesne ile petinin yýldýz seviyesini arttýrabilirsin.
+55130	Pet Skin (Azrail)	Bu nesne ile petinin Azrail görünümünü aktifleþtirebilirsin.
+55131	Pet Skin (Baashido)	Bu nesne ile petinin Baashido görünümünü aktifleþtirebilirsin.
+55132	Pet Skin (Meley)	Bu nesne ile petinin Meley görünümünü aktifleþtirebilirsin.
+55133	Pet Skin (Alastor)	Bu nesne ile petinin Alastor görünümünü aktifleþtirebilirsin.
+55134	Pet Skin (Exedyar)	Bu nesne ile petinin Exedyar görünümünü aktifleþtirebilirsin.
+55140	Pet EXP Yüzüðü	Bu yüzük ile petinin EXP kazanmasýný arttýrabilirsin.
+55150	Pet Kitabý (Savaþçý)	Bu kitap ile petinin Savaþçý direnç becerisini yükseltebilirsin.
+55151	Pet Kitabý (Sura)	Bu kitap ile petinin Sura direnç becerisini yükseltebilirsin.
+55152	Pet Kitabý (Ninja)	Bu kitap ile petinin Ninja direnç becerisini yükseltebilirsin.
+55153	Pet Kitabý (Þaman)	Bu kitap ile petinin Þaman direnç becerisini yükseltebilirsin.
+55154	Pet Kitabý (Berserker)	Bu kitap ile petinin Berserker becerisini yükseltebilirsin.
+55155	Pet Kitabý (Yarý Ýnsan)	Bu kitap ile petinin Yarý Ýnsan becerisini yükseltebilirsin.
+55156	Pet Kitabý (Delici Vuruþ)	Bu kitap ile petinin Delici Vuruþ becerisini yükseltebilirsin.
+55157	Pet Kitabý (Kritik Vuruþ)	Bu kitap ile petinin Kritik Vuruþ becerisini yükseltebilirsin.
+55158	Pet Kitabý (HP Absorbe)	Bu kitap ile petinin HP Absorbe becerisini yükseltebilirsin.
+55159	Pet Kitabý (Bloklama Þansý)	Bu kitap ile petinin Bloklama becerisini yükseltebilirsin.
+55160	Pet Kitabý (Canavar)	Bu kitap ile petinin Canavar becerisini yükseltebilirsin.
+55161	Pet Kitabý (Metin)	Bu kitap ile petinin Metin becerisini yükseltebilirsin.
+55162	Pet Kitabý (Patron)	Bu kitap ile petinin Patron becerisini yükseltebilirsin.
+55163	Pet Kitabý (Canavar Savunmasý)	Bu kitap ile petinin Canavar Savunma becerisini yükseltebilirsin.
+55164	Pet Kitabý (Yang Düþme)	Bu kitap ile petinin Yang Düþme becerisini yükseltebilirsin.
+
+37000	Premium Kullanýcý (7g)	Aktifleþtirildiðinde, 7 gün boyunca premium kullanýcý olmaný saðlar.
+37001	Premium Kullanýcý (14g)	Aktifleþtirildiðinde, 14 gün boyunca premium kullanýcý olmaný saðlar.
+37002	Premium Kullanýcý (30g)	Aktifleþtirildiðinde, 30 gün boyunca premium kullanýcý olmaný saðlar.
+37003	Premium Kullanýcý (Kalýcý)	Aktifleþtirildiðinde, kalýcý olarak premium kullanýcý olmaný saðlar.
+37004	Premium Kullanýcý (7g)	Aktifleþtirildiðinde, 7 gün boyunca premium kullanýcý olmaný saðlar.			Ticareti yok.
+37005	Premium Kullanýcý (14g)	Aktifleþtirildiðinde, 14 gün boyunca premium kullanýcý olmaný saðlar.			Ticareti yok.
+37006	Premium Kullanýcý (30g)	Aktifleþtirildiðinde, 30 gün boyunca premium kullanýcý olmaný saðlar.			Ticareti yok.
+37007	Premium Kullanýcý (Kalýcý)	Aktifleþtirildiðinde, kalýcý olarak premium kullanýcý olmaný saðlar.			Ticareti yok.
+	
+37008	Premium Oto Toplama (7g)	Aktifleþtirildiðinde, 7 gün boyunca eþyalarý otomatik toplamaný saðlar.
+37009	Premium Oto Toplama (14g)	Aktifleþtirildiðinde, 14 gün boyunca eþyalarý otomatik toplamaný saðlar.
+37010	Premium Oto Toplama (30g)	Aktifleþtirildiðinde, 30 gün boyunca eþyalarý otomatik toplamaný saðlar.
+37011	Premium Oto Toplama (Kalýcý)	Aktifleþtirildiðinde, kalýcý olarak eþyalarý otomatik toplamaný saðlar.
+37012	Premium Oto Toplama (7g)	Aktifleþtirildiðinde, 7 gün boyunca eþyalarý otomatik toplamaný saðlar.			Ticareti yok.
+37013	Premium Oto Toplama (14g)	Aktifleþtirildiðinde, 14 gün boyunca eþyalarý otomatik toplamaný saðlar.			Ticareti yok.
+37014	Premium Oto Toplama (30g)	Aktifleþtirildiðinde, 30 gün boyunca eþyalarý otomatik toplamaný saðlar.			Ticareti yok.
+37015	Premium Oto Toplama (Kalýcý)	Aktifleþtirildiðinde, kalýcý olarak eþyalarý otomatik toplamaný saðlar.			Ticareti yok.
+	
+37016	Premium Metin Ýþaretleyici (7g)	Aktifleþtirildiðinde, 7 gün boyunca iþaretlenecek metin sayýsýný 6'e yükseltir.
+37017	Premium Metin Ýþaretleyici (14g)	Aktifleþtirildiðinde, 14 gün boyunca iþaretlenecek metin sayýsýný 6'e yükseltir.
+37018	Premium Metin Ýþaretleyici (30g)	Aktifleþtirildiðinde, 30 gün boyunca iþaretlenecek metin sayýsýný 6'e yükseltir.
+37019	Premium Metin Ýþaretleyici (Kalýcý)	Aktifleþtirildiðinde, kalýcý olarak iþaretlenecek metin sayýsýný 6'e yükseltir.
+37020	Premium Metin Ýþaretleyici (7g)	Aktifleþtirildiðinde, 7 gün boyunca iþaretlenecek metin sayýsýný 6'e yükseltir.			Ticareti yok.
+37021	Premium Metin Ýþaretleyici (14g)	Aktifleþtirildiðinde, 14 gün boyunca iþaretlenecek metin sayýsýný 6'e yükseltir.			Ticareti yok.
+37022	Premium Metin Ýþaretleyici (30g)	Aktifleþtirildiðinde, 30 gün boyunca iþaretlenecek metin sayýsýný 6'e yükseltir.			Ticareti yok.
+37023	Premium Metin Ýþaretleyici (Kalýcý)	Aktifleþtirildiðinde, kalýcý olarak iþaretlenecek metin sayýsýný 6'e yükseltir.			Ticareti yok.
+	
+24050	Binek Ýsim Ýzi (7g)	Aktifleþtirildiðinde, 7 gün boyunca bineðine yeni bir isim vermeni ve ekstra bonus kazanmaný saðlar.
+24051	Binek Ýsim Ýzi (14g)	Aktifleþtirildiðinde, 14 gün boyunca bineðine yeni bir isim vermeni ve ekstra bonus kazanmaný saðlar.
+24052	Binek Ýsim Ýzi (7g)	Aktifleþtirildiðinde, 7 gün boyunca bineðine yeni bir isim vermeni ve ekstra bonus kazanmaný saðlar.			Ticareti yok.
+24053	Binek Ýsim Ýzi (14g)	Aktifleþtirildiðinde, 14 gün boyunca bineðine yeni bir isim vermeni ve ekstra bonus kazanmaný saðlar.			Ticareti yok.
+24054	Pet Ýsim Ýzi (7g)	Aktifleþtirildiðinde, 7 gün boyunca petine yeni bir isim vermeni ve ekstra bonus kazanmaný saðlar.
+24055	Pet Ýsim Ýzi (14g)	Aktifleþtirildiðinde, 14 gün boyunca petine yeni bir isim vermeni ve ekstra bonus kazanmaný saðlar.
+24056	Pet Ýsim Ýzi (7g)	Aktifleþtirildiðinde, 7 gün boyunca petine yeni bir isim vermeni ve ekstra bonus kazanmaný saðlar.			Ticareti yok.
+24057	Pet Ýsim Ýzi (14g)	Aktifleþtirildiðinde, 14 gün boyunca petine yeni bir isim vermeni ve ekstra bonus kazanmaný saðlar.			Ticareti yok.
+24058	Buffi Ýsim Ýzi (7g)	Aktifleþtirildiðinde, 7 gün boyunca buffine yeni bir isim vermeni ve iyileþtirme becerilerini aktifleþtirmeni saðlar.
+24059	Buffi Ýsim Ýzi (14g)Aktifleþtirildiðinde, 14 gün boyunca buffine yeni bir isim vermeni ve iyileþtirme becerilerini aktifleþtirmeni saðlar.
+24060	Buffi Ýsim Ýzi (7g)	Aktifleþtirildiðinde, 7 gün boyunca buffine yeni bir isim vermeni ve iyileþtirme becerilerini aktifleþtirmeni saðlar.			Ticareti yok.
+24061	Buffi Ýsim Ýzi (14g)Aktifleþtirildiðinde, 14 gün boyunca buffine yeni bir isim vermeni ve iyileþtirme becerilerini aktifleþtirmeni saðlar.			Ticareti yok.
+
+64000	Binek Ýsim Ýzi (2g)	Aktifleþtirildiðinde, 2 gün boyunca bineðine yeni bir isim vermeni ve ekstra bonus kazanmaný saðlar.
+64001	Pet Ýsim Ýzi (2g)	Aktifleþtirildiðinde, 2 gün boyunca petine yeni bir isim vermeni ve ekstra bonus kazanmaný saðlar.
+64002	Buffi Ýsim Ýzi (2g)	Aktifleþtirildiðinde, 2 gün boyunca buffine yeni bir isim vermeni ve iyileþtirme becerilerini aktifleþtirmeni saðlar.
+
+24102	Eldiven Arttýrma Nesnesi	Eldiven ekipmanlarýna yeni bir bonus eklemek için kullanýlan nadir bir nesne.
+24103	Eldiven Efsun Nesnesi	Eldiven ekipmanlarýndaki bonusu deðiþtirmek için kullanýlan nadir bir nesne.
+24104	Týlsým Arttýrma Nesnesi	Týlsým ekipmanlarýna yeni bir bonus eklemek için kullanýlan nadir bir nesne.
+24105	Týlsým Efsun Nesnesi	Týlsým ekipmanlarýndaki bonusu deðiþtirmek için kullanýlan nadir bir nesne.
+
+200400	Ateþ Parþomeni	Ateþ elementinin gücünün aktarýldýðý gizemli parþömen.
+200401	Ateþ Kristali	Ateþ elementinin gücünden oluþan parlak bir kristal.
+200402	Ateþ Týlsým Sandukasý	Ateþ elementini kontrol eden týlsýmýn barýndýrýldýðý eski bir sandýk.
+200403	Buz Parþomeni	Buz elementinin gücünün aktarýldýðý gizemli parþömen.
+200404	Buz Kristali	Buz elementinin gücünden oluþan parlak bir kristal.
+200405	Buz Týlsým Sandukasý	Buz elementini kontrol eden týlsýmýn barýndýrýldýðý eski bir sandýk.
+200406	Toprak Parþomeni	Toprak elementinin gücünün aktarýldýðý gizemli parþömen.
+200407	Toprak Kristali	Toprak elementinin gücünden oluþan parlak bir kristal.
+200408	Toprak Týlsým Sandukasý	Toprak elementini kontrol eden týlsýmýn barýndýrýldýðý eski bir sandýk.
+200409	Karanlýk Parþomeni	Karanlýk elementinin gücünün aktarýldýðý gizemli parþömen.
+200410	Karanlýk Kristali	Karanlýk elementinin gücünden oluþan parlak bir kristal.
+200411	Karanlýk Týlsým Sandukasý	Karanlýk elementini kontrol eden týlsýmýn barýndýrýldýðý eski bir sandýk.
+200412	Rüzgar Parþomeni	Rüzgar elementinin gücünün aktarýldýðý gizemli parþömen.
+200413	Rüzgar Kristali	Rüzgar elementinin gücünden oluþan parlak bir kristal.
+200414	Rüzgar Týlsým Sandukasý	Rüzgar elementini kontrol eden týlsýmýn barýndýrýldýðý eski bir sandýk.
+200415	Þimþek Parþomeni	Þimþek elementinin gücünün aktarýldýðý gizemli parþömen.
+200416	Þimþek Kristali	Þimþek elementinin gücünden oluþan parlak bir kristal.
+200417	Þimþek Týlsým Sandukasý	Þimþek elementini kontrol eden týlsýmýn barýndýrýldýðý eski bir sandýk.
+200418	Element Parþomeni	Element güçlerinin aktarýldýðý gizemli parþömen.
+200419	Element Kristali	Elementlerin gücünden oluþan parlak bir kristal.
+200420	Element Týlsým Sandukasý	Elementleri kontrol eden týlsýmýn barýndýrýldýðý eski bir sandýk.
+
+200500	Zehirli Lusifer Bileti	Zehirli Þeytan Kulesi'ne girmek için gereken bilet.
+200501	Barones Bileti	Barones'in Yuvasýna girmek için gereken bilet.
+200502	Sihirli Cin Bileti	Cin Maðarasý'na girmek için gereken bilet.
+200503	Buz Timsahý Bileti	Buz Diyarý'na girmek için gereken bilet.
+200504	Gölge Azrail Bileti	Þeytan Katakombu'na girmek için gereken bilet.
+200505	Beran Setaou Bileti	Beran-Setaou'nun Odasý'na girmek için gereken bilet.
+200506	Razadör Bileti	Razadör'ün Kalesi'ne girmek için gereken bilet.
+200507	Naga Bileti	Naga Tapýnaðý'na girmek için gereken bilet.
+200508	Kristal Kurt Bileti	Safir Maðarasý'na girmek için gereken bilet.
+200509	Jotun Thrym Bileti	Ochao Tapýnaðý'na girmek için gereken bilet.
+200510	Odin Bileti	Odin'in Kalesi'ne girmek için gereken bilet.
+200511	Büyülü Troll Bileti	Büyülü Troll Maðarasý'na girmek için gereken bilet.
+200512	Meley Bileti	Kraliçe Meley'in Ýni'ne girmek için gereken bilet.
+200513	Floraun Bileti	Floraun'un Bahçesi'ne girmek için gereken bilet.
+200514	Alastor Bileti	Alastor'un Maðarasý'na girmek için gereken bilet.
+200515	Poseidon Bileti	Kayýp Þehir Atlantis'e girmek için gereken bilet.
+200516	Akrep Kral Bileti	Kurak Akrep Harabeleri'ne girmek için gereken bilet.
+200517	Ýskelet Ejderha Bileti	Ýskelet Ejderha Salonu'na girmek için gereken bilet.
+200518	Akzadur Bileti	Kral Akzadur'un Odasý girmek için gereken bilet.
+200519	Yýlan Kraliçesi Bileti	Yýlan Tapýnaðý'na girmek için gereken bilet.
+
+200540	Zehirli Lusifer Mührü	Zehirli Mührü açmak için sað týk ile kullanmalýsýn.
+200541	Barones Mührü	Örümcek Sütununu açmak için sað týk ile kullanmalýsýn.
+200542	Sihirli Cin Mührü	Sihirli Mührü açmak için sað týk ile kullanmalýsýn.
+200543	Buz Timsahý Mührü	Buz Mührünü açmak için sað týk ile kullanmalýsýn.
+200544	Gölge Azrail Mührü	Kabus Mührünü açmak için sað týk ile kullanmalýsýn.
+200545	Beran Setaou Mührü	Mavi Ejderha Mührünü açmak için sað týk ile kullanmalýsýn.
+200546	Razadör Mührü	Alev Sütununu açmak için sað týk ile kullanmalýsýn.
+200547	Naga Mührü	Buzlu Sütunu açmak için sað týk ile kullanmalýsýn.
+200548	Kristal Kurt Mührü	Safir Sütunu açmak için sað týk ile kullanmalýsýn.
+200549	Jotun Thrym Mührü	Orman Sütunu açmak için sað týk ile kullanmalýsýn.
+200550	Odin Mührü	Asgard Mührünü açmak için sað týk ile kullanmalýsýn.
+200551	Büyülü Troll Mührü	Büyülü Mührü açmak için sað týk ile kullanmalýsýn.
+200552	Meley Mührü	Kýzýl Ejderha Sütununu açmak için sað týk ile kullanmalýsýn.
+200553	Floraun Mührü	Orman Mührünü açmak için sað týk ile kullanmalýsýn.
+200554	Alastor Mührü	Kuzey Sütununu açmak için sað týk ile kullanmalýsýn.
+200555	Poseidon Mührü	Atlantis Mührünü açmak için sað týk ile kullanmalýsýn.
+200556	Akrep Kral Mührü	Akrep Mührünü açmak için sað týk ile kullanmalýsýn.
+200557	Ýskelet Ejderha Mührü	Ýskelet Mührünü açmak için sað týk ile kullanmalýsýn.
+200558	Akzadur Mührü	Ejderha Kralý Mührünü açmak için sað týk ile kullanmalýsýn.
+200559	Yýlan Kraliçesi Mührü	Yýlan Mührünü açmak için sað týk ile kullanmalýsýn.
+
+200300	Çark Bileti	Kader çarkýný ücretsiz olarak çevirmek için gereken bilettir. Etkinlik sürecinde yeterli miktarda toplayarak kader çarkýný kullanabilirsin.
+200301	E Harfi	E Harfi. Etkinlik sürecinde diðer harfleri toplayarak Demirci'den sandýk üretebilirsin.
+200302	L Harfi	L Harfi. Etkinlik sürecinde diðer harfleri toplayarak Demirci'den sandýk üretebilirsin.
+200303	Y Harfi	Y Harfi. Etkinlik sürecinde diðer harfleri toplayarak Demirci'den sandýk üretebilirsin.
+200304	S Harfi	S Harfi. Etkinlik sürecinde diðer harfleri toplayarak Demirci'den sandýk üretebilirsin.
+200305	I Harfi	I Harfi. Etkinlik sürecinde diðer harfleri toplayarak Demirci'den sandýk üretebilirsin.
+200306	U Harfi	U Harfi. Etkinlik sürecinde diðer harfleri toplayarak Demirci'den sandýk üretebilirsin.
+200307	M Harfi	M Harfi. Etkinlik sürecinde diðer harfleri toplayarak Demirci'den sandýk üretebilirsin.
+
+200600	Premium Paketi (30 Gün)	30 günlük premium nesneleri içerisinde bulunduran efsanevi bir sandýk. Nesne marketten elde edebilirsin.
+200601	Premium Paketi (Kalýcý)	Kalýcý premium nesneleri içerisinde bulunduran efsanevi bir sandýk. Nesne marketten elde edebilirsin.
+200602	Canavar Paketi	Seni, canavarlara karþý daha güçlü hale getirecek eþyalarý içerisinde bulunduran efsanevi bir sandýk. Nesne marketten elde edebilirsin.
+200603	Metin Paketi	Seni, metinlere ve patronlara karþý daha güçlü hale getirecek eþyalarý içerisinde bulunduran efsanevi bir sandýk. Nesne marketten elde edebilirsin.
+200604	Buffi Paketi	Kalýcý buffi ve buffi isim izini içerisinde bulunduran efsanevi bir sandýk. Nesne marketten elde edebilirsin.
+200605	Güçlendirici Paketi (14 Gün)	14 günlük, %15 özellik güçlendirmesi saðlayan güçlendiricileri içerisinde bulunduran efsanevi bir sandýk. Nesne marketten elde edebilirsin.
+200606	Geliþim Paketi	Karakterini daha hýzlý geliþtirmeni saðlayan eþyalarý içerisinde bulunduran efsanevi bir sandýk. Nesne marketten elde edebilirsin.
+
+200610	Premium Paketi (30 Gün)	30 günlük premium nesneleri içerisinde bulunduran efsanevi bir sandýk. Nesne marketten elde edebilirsin.			Ticareti yok.
+200611	Premium Paketi (Kalýcý)	Kalýcý premium nesneleri içerisinde bulunduran efsanevi bir sandýk. Nesne marketten elde edebilirsin.			Ticareti yok.
+200612	Canavar Paketi	Seni, canavarlara karþý daha güçlü hale getirecek eþyalarý içerisinde bulunduran efsanevi bir sandýk. Nesne marketten elde edebilirsin.			Ticareti yok.
+200613	Metin Paketi	Seni, metinlere ve patronlara karþý daha güçlü hale getirecek eþyalarý içerisinde bulunduran efsanevi bir sandýk. Nesne marketten elde edebilirsin.			Ticareti yok.
+200614	Buffi Paketi	Kalýcý buffi ve buffi isim izini içerisinde bulunduran efsanevi bir sandýk. Nesne marketten elde edebilirsin.			Ticareti yok.
+200615	Güçlendirici Paketi (14 Gün)	14 günlük, %15 özellik güçlendirmesi saðlayan güçlendiricileri içerisinde bulunduran efsanevi bir sandýk. Nesne marketten elde edebilirsin.			Ticareti yok.
+200616	Geliþim Paketi	Karakterini daha hýzlý geliþtirmeni saðlayan eþyalarý içerisinde bulunduran efsanevi bir sandýk. Nesne marketten elde edebilirsin.			Ticareti yok.
+
+24600	Zihin Taþý Sembolü	Kullanýldýðýnda, zihin taþý ekleme þansýný bir kereliðine %100 e çýkarýr.
+24601	6/7 Efsun Süre Hýzlandýrýcý (%25)	Kullanýldýðýnda, 6-7.efsun eklerken beklenen süreyi %25 azaltýr.
+24602	6/7 Efsun Süre Hýzlandýrýcý (%50)	Kullanýldýðýnda, 6-7.efsun eklerken beklenen süreyi %50 azaltýr.
+
+24140	1.Efsun Temizleyici	Kostüme sürüklendiðinde, 1.efsun slotundaki efsunu temizler.
+24141	2.Efsun Temizleyici	Kostüme sürüklendiðinde, 2.efsun slotundaki efsunu temizler.
+24142	3.Efsun Temizleyici	Kostüme sürüklendiðinde, 3.efsun slotundaki efsunu temizler.
+24143	4.Efsun Temizleyici	Kostüme sürüklendiðinde, 4.efsun slotundaki efsunu temizler.
+24144	5.Efsun Temizleyici	Kostüme sürüklendiðinde, 5.efsun slotundaki efsunu temizler.
+
+24000	Bilgelik Ruh Taþý	Perfect Master becerini Sage Master seviyesine çýkarmak için kullanýlan, yüce bilgenin gücünü barýndýran bir ruh taþý.
+24002	Canavar Avcýsý Beceri Kitabý	Canavar Avcýsý becerini geliþtirmek için kullanýlan ender bir kitap.
+24003	Metin Avcýsý Beceri Kitabý	Metin Avcýsý becerini geliþtirmek için kullanýlan ender bir kitap.
+24004	Öfkeli Savaþçý Beceri Kitabý	Öfkeli Savaþçý becerini geliþtirmek için kullanýlan ender bir kitap.
+24005	Ýnsan Avcýsý Beceri Kitabý	Ýnsan Avcýsý becerini geliþtirmek için kullanýlan ender bir kitap.
+24006	Zihin Odaðý Beceri Kitabý	Zihin Odaðý becerini geliþtirmek için kullanýlan ender bir kitap.
+24007	Ejderha Kalbi Beceri Kitabý	Ejderha Kalbi becerini geliþtirmek için kullanýlan ender bir kitap.
+24008	Herboloji Beceri Kitabý	Herboloji becerini geliþtirmek için kullanýlan ender bir kitap.
+24009	Nesne Yaratma Beceri Kitabý	Nesne Yaratma becerini geliþtirmek için kullanýlan ender bir kitap.
+24010	Liderlik Beceri Kitabý	Liderlik becerini geliþtirmek için kullanýlan ender bir kitap.
+24011	Madencilik Beceri Kitabý	Madencilik becerini geliþtirmek için kullanýlan ender bir kitap.
+24012	Balýkçýlýk Beceri Kitabý	Balýkçýlýk becerini geliþtirmek için kullanýlan ender bir kitap.
+24013	Bilgelik Ruh Kovma Kaðýdý	Bilgelik Ruh Taþý'ný kullandýðýnda gelen kötücül ruhlarý kovan bilgenin güçlü kaðýdý.
+24014	Bilgelik Münzevi Takviyesi	Bilgelik Ruh Taþý'nýn kullanýmýnda yüce bilgenin takviye gücünü barýndýrýyor.

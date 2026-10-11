@@ -1,0 +1,281 @@
+"ARENA_TALK_1";
+"A párbaj véget ért, mert harcosod eltûnt. ";
+
+"ARENA_TALK_2";
+"Nincsenek korlátozások az elixírek használatában itt. ";
+
+"ARENA_TALK_3 %d";
+"%d elixírt használhatsz. ";
+
+"ARENA_TALK_4";
+"A harc 10 másodpercen belül kezdõdik. ";
+
+"ARENA_TALK_5";
+"A párbaj elkezdõdött. ";
+
+"ARENA_TALK_6";
+"A párbaj egy aréna probléma miatt ért véget. ";
+
+"ARENA_TALK_7";
+"A párbaj idõ letelte miatt ért véget. ";
+
+"ARENA_TALK_8";
+"10 másodpercen belül a városba teleportálnak. ";
+
+"ARENA_TALK_9";
+"A párbaj egy probléma miatt az arénával ért véget. ";
+
+"ARENA_TALK_10";
+"A párbaj egy probléma miatt harcosoddal ért véget. ";
+
+"ARENA_TALK_11 %s";
+"%s megnyerte a párbajt. ";
+
+"ARENA_TALK_12 %s";
+"%s nyert. ";
+
+"ARENA_TALK_13";
+"A következõ kör 10 másodpercen belül kezdõdik. ";
+
+"ARENA_TALK_14";
+"A harcosok szétváltak. A párbaj véget ért. ";
+
+"ARENA_TALK_15";
+"Beléptél egy harcba. A kilépés megszakadt. ";
+
+"ARENA_TALK_16";
+"Még 4 perc van hátra a szörnyek támadásáig. ";
+
+"ARENA_TALK_17";
+"Még 1 perc van hátra a szörnyek támadásáig. ";
+
+"ARENA_TALK_18";
+"A szörnyek elkezdték támadni a várat.";
+
+"Your time is up, can deliver the next item.";
+"A várási idõd lejárt, átadhatod a következõ tárgyat.";
+
+"It clears my mind. I feel something lightening my chest.";
+"Kiderül a fejem. Valami megkönnyebbült a mellkasomon.";
+
+"Your alignment is increased %d";
+"A beállításod nõtt %d-vel.";
+
+"cItem 5485 %s owner %s";
+"cItem 5485 %s tulajdonosa %s";
+
+"cItem 5486 %s wtf %s";
+"cItem 5486 %s mi az %s";
+
+"SKILL_TALKING_2";
+"Ez a módszer sokkal bonyolultabb, mint gondoltam.";
+
+"CMD_TALK_3 %s %s";
+"A klán %s által elfoglalta %s-t. ";
+
+"Shutdown in %d";
+"Leállás %d másodperc múlva.";
+
+"The game will shut down after %d seconds.";
+"A játék leáll %d másodpercen belül.";
+
+"You roll %d. (%d-%d)";
+"%d-öt dobtál. (%d-%d)";
+
+"%s rolled the dice, resulting in %d. (%d-%d)";
+"%s kockával dobott, ami %d lett. (%d-%d)";
+
+"An error has occured, report this error to authoroties. Fish #s parameter";
+"Hiba történt, kérlek jelentsd ezt a hatóságoknak. Hal #s paraméter";
+
+"An error has occured, report this error to authoroties. Fish #not arg";
+"Hiba történt, kérlek jelentsd ezt a hatóságoknak. Hal #not arg";
+
+"Cannot set stat under initial stat";
+"Nem lehet beállítani a statisztikát a kezdeti állapot alá";
+
+"syntax: offshop_change_shop_name <player-id> <new-name>";
+"szintaxis: offshop_change_shop_name <játékos-id> <új-név>";
+
+"syntax: offshop_force_close_shop <player-id>";
+"szintaxis: offshop_force_close_shop <játékos-id>";
+
+"Cannot find shop by id %u";
+"Nem található bolt ezen az azonosítón: %u";
+
+"shop's name changed.";
+"A bolt neve megváltozott.";
+
+"shop closed successfully.";
+"A bolt sikeresen bezárva.";
+
+"BATTLEPASS_NOT_COMPLETED_ALL_NORMAL_MISSIONS";
+"Még nem végezted el az összes normál harci passzban szereplõ küldetést!";
+
+"BATTLEPASS_NOT_COMPLETED_ALL_PREMIUM_MISSIONS";
+"Még nem végezted el az összes prémium harci passzban szereplõ küldetést!";
+
+"BATTLEPASS_NOT_COMPLETED_ALL_EVENT_MISSIONS";
+"Még nem végezted el az összes esemény harci passzban szereplõ küldetést!";
+
+"BATTLEPASS_ALREADY_EARNED_BATTLEPASS_REWARD";
+"Már igényelted a jutalmat a harci passzban!";
+
+"BATTLEPASS_COMPLETE_NORMAL_MISSION";
+"Sikeresen teljesítetted egy küldetést a harci passzban!";
+
+"BATTLEPASS_COMPLETE_PREMIUM_MISSION";
+"Sikeresen teljesítetted egy prémium harci passz küldetést!";
+
+"BATTLEPASS_COMPLETE_EVENT_MISSION";
+"Sikeresen teljesítetted egy esemény harci passz küldetést!";
+
+"BATTLEPASS_NOW_IS_ACTIVATED_PREMIUM_BATTLEPASS";
+"A prémium harci passzodat aktiválták a jelenlegi szezonra. Sok szerencsét!";
+
+"BATTLEPASS_NOW_IS_ACTIVATED_PREMIUM_BATTLEPASS_OWN";
+"A prémium harci passzod aktiváltad a jelenlegi szezonra. Sok szerencsét!";
+
+"BATTLEPASS_CMDGM_ACTIVATE_PREMIUM_TO_PLAYER";
+"A prémium harci passzt aktiváltad a jelenlegi szezonra a következõ játékoson: %s.";
+
+"BATTLEPASS_CMDGM_DEACTIVATE_PREMIUM_PLAYER";
+"A prémium harci passzodat deaktiválták.";
+
+"BATTLEPASS_CMDGM_DEACTIVATE_PREMIUM_TO_PLAYER";
+"A prémium harci passzt deaktiváltad a következõ játékoson: %s.";
+
+"BATTLEPASS_CMDGM_DEACTIVATE_PREMIUM_OWN";
+"A prémium harci passz hozzáférést deaktiváltad.";
+
+"BATTLEPASS_NEXT_REFRESH_RANKLIST_TIME";
+"Nem frissítheted a ranglistát %d másodpercig.";
+
+"Current remaining number of participants: %d";
+"Jelenleg még %d résztvevõ maradt.";
+
+"You can post new comment in: %02d mins and %02d secs";
+"Új hozzászólást küldhetsz be: %02d perc %02d másodperc múlva";
+
+"GUILD_TALK_14 %d";
+"<Klán> A játékost meghívható %d nap múlva.";
+
+"GUILD_TALK_17 %d";
+"<Klán> Tagok meghívhatók %d nap múlva a beállítás után.";
+
+"GUILD_TALK_10 %s %s";
+"%s hadat üzent a(z) %s klánnak!";
+
+"GUILD_TALK_5 %s %s";
+"A klánháborúban a(z) %s klán gyõzött a(z) %s klán ellen.";
+
+"GUILD_TALK_6 %s %s";
+"A(z) %s és %s közötti csata döntetlen lett.";
+
+"GUILD_TALK_7 %s %s";
+"A(z) %s és %s klán közötti klánháború elkezdõdött.";
+
+"GUILD_TALK_8 %s %s";
+"A(z) %s és %s klán közötti klánháború 1 percen belül kezdõdik!";
+
+"GUILD_TALK_5";
+"<Klán> A klánháborút megszakították.";
+
+"GUILD_TALK_1 %d";
+"<Klán> A rangod nõtt %d ponttal.";
+
+"GUILD_TALK_2";
+"Háborút üzentél ennek a klánnak.";
+
+"GUILD_TALK_3";
+"A Klánháború nem indítható, amíg a szerver offline.";
+
+"%s is not online.";
+"%s nincs jelenleg online.";
+
+"Critical server error. The server will reboot automatically.";
+"Kritikus szerverhiba. A szerver automatikusan újraindul.";
+
+"You will be disconnected in 10 seconds.";
+"10 másodperc múlva lekapcsolódsz.";
+
+"You can connect again after 5 minutes.";
+"5 perc múlva újra csatlakozhatsz.";
+
+"The number of bets is invalid, please try again.";
+"A tétek száma érvénytelen, kérlek próbáld újra.";
+
+"Failed.";
+"Sikertelen.";
+
+"Success.";
+"Siker.";
+
+"Pet type changed new type : %d";
+"Kedvenced típusa megváltozott új típusra: %d";
+
+"Bonuschange of %s (Slot: %d) successfully finished.";
+"%s bónuszváltoztatása (Hely: %d) sikeresen befejezõdött.";
+
+"OX_TALK_1";
+"Igaz.";
+
+"OX_TALK_2";
+"Kérdés.";
+
+"OX_TALK_3";
+"Menj az O-ra, ha igaz, menj az X-re, ha hamis.";
+
+"OX_TALK_4";
+"A résztvevõket, akik rosszul válaszolnak, 5 másodpercen belül teleportáljuk.";
+
+"OX_TALK_5";
+"Nem (X)";
+
+"OX_TALK_6";
+"Igen (O)";
+
+"OX_TALK_7";
+"Helyes válasz:";
+
+"OX_TALK_8";
+"10 másodpercen belül megkapod az eredményt.";
+
+"OX_TALK_9";
+"Hibás";
+
+"OX_TALK_10 %d";
+"Összes kérdés száma: %d";
+
+"OX_TALK_11";
+"Készen állsz a következõ kérdésre?";
+
+"%s wants to fight with you.";
+"%s meg akar veled küzdeni.";
+
+"Everyone will be teleported to the town.";
+"Mindenkit a városba teleportálnak.";
+
+"TRANSLATE_CLOSE_QUESTNPC";
+"Bezárás";
+
+"You can join the guild war as a spectator.";
+"Szemlélõként csatlakozhatsz a klánháborúhoz.";
+
+"If you are a spectator <End View> gomb to exit will appear.";
+"Ha szemlélõ vagy, megjelenik a <Kilépés nézetbõl> gomb.";
+
+"No other guild members participated in the Guild War.";
+"Más klántagok nem vettek részt a Klánháborúban.";
+
+"If no one logs in within 1 minute, the guild battle will end automatically.";
+"Ha senki sem jelentkezik be 1 percen belül, a klánháború automatikusan véget ér.";
+
+"The guild battle ended early and it was decided as a draw. (less than 5 minutes)";
+"A klánháború korán ért véget, és döntetlen lett. (kevesebb mint 5 perc)";
+
+"The wedding will be over soon.";
+"Az esküvõ hamarosan véget ér.";
+
+"When the wedding is over, you will be sent to the village.";
+"Amikor az esküvõ véget ér, a faluba küldenek téged.";

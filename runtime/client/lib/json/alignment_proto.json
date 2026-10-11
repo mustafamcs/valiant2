@@ -1,0 +1,213 @@
+{
+	"alignment":
+	[
+		{
+			"level" : 1,
+			"min_point": 1000,
+			"max_point": 4000,
+			"bonus":
+			[
+				{
+					"type" : "MAX_HP",
+					"value" : 500
+				}
+			]
+		},
+		{
+			"level" : 2,
+			"min_point" : 4000,
+			"max_point" : 8000,
+			"bonus":
+			[
+				{
+					"type" : "MAX_HP",
+					"value" : 750
+				},
+				{
+					"type" : "ATT_MONSTER",
+					"value" : 1
+				}
+			]
+		},
+		{
+			"level" : 3,
+			"min_point" : 8000,
+			"max_point" : 12000,
+			"bonus":
+			[
+				{
+					"type" : "MAX_HP",
+					"value" : 1000
+				},
+				{
+					"type" : "ATT_MONSTER",
+					"value" : 2
+				}
+			]
+		},
+		{
+			"level" : 4,
+			"min_point" : 12000,
+			"max_point" : 20000,
+			"bonus":
+			[
+				{
+					"type" : "MAX_HP",
+					"value" : 1250
+				},
+				{
+					"type" : "ATT_MONSTER",
+					"value" : 3
+				},
+				{
+					"type" : "ATT_STONE",
+					"value" : 1
+				},
+				{
+					"type" : "ATT_HALF_HUMANS",
+					"value" : 1
+				}
+			]
+		},
+		{
+			"level" : 5,
+			"min_point" : 20000,
+			"max_point" : 30000,
+			"bonus":
+			[
+				{
+					"type" : "MAX_HP",
+					"value" : 1500
+				},
+				{
+					"type" : "ATT_MONSTER",
+					"value" : 4
+				},
+				{
+					"type" : "ATT_STONE",
+					"value" : 2
+				},
+				{
+					"type" : "ATT_BOSS",
+					"value" : 1
+				},
+				{
+					"type" : "ATT_HALF_HUMANS",
+					"value" : 2
+				}
+			]
+		},
+		{
+			"level" : 6,
+			"min_point" : 30000,
+			"max_point" : 50000,
+			"bonus":
+			[
+				{
+					"type" : "MAX_HP",
+					"value" : 2000
+				},
+				{
+					"type" : "ATT_MONSTER",
+					"value" : 6
+				},
+				{
+					"type" : "ATT_STONE",
+					"value" : 3
+				},
+				{
+					"type" : "ATT_BOSS",
+					"value" : 2
+				},
+				{
+					"type" : "ATT_HALF_HUMANS",
+					"value" : 4
+				}
+			]
+		},
+		{
+			"level" : 7,
+			"min_point" : 50000,
+			"max_point" : 75000,
+			"bonus":
+			[
+				{
+					"type" : "MAX_HP",
+					"value" : 2500
+				},
+				{
+					"type" : "ATT_MONSTER",
+					"value" : 8
+				},
+				{
+					"type" : "ATT_STONE",
+					"value" : 4
+				},
+				{
+					"type" : "ATT_BOSS",
+					"value" : 3
+				},
+				{
+					"type" : "ATT_HALF_HUMANS",
+					"value" : 6
+				}
+			]
+		},
+		{
+			"level" : 8,
+			"min_point" : 75000,
+			"max_point" : 100000,
+			"bonus":
+			[
+				{
+					"type" : "MAX_HP",
+					"value" : 3000
+				},
+				{
+					"type" : "ATT_MONSTER",
+					"value" : 10
+				},
+				{
+					"type" : "ATT_STONE",
+					"value" : 5
+				},
+				{
+					"type" : "ATT_BOSS",
+					"value" : 4
+				},
+				{
+					"type" : "ATT_HALF_HUMANS",
+					"value" : 8
+				}
+			]
+		},
+		{
+			"level" : 9,
+			"min_point" : 100000,
+			"max_point" : 100001,
+			"bonus":
+			[
+				{
+					"type" : "MAX_HP",
+					"value" : 3500
+				},
+				{
+					"type" : "ATT_MONSTER",
+					"value" : 10
+				},
+				{
+					"type" : "ATT_STONE",
+					"value" : 5
+				},
+				{
+					"type" : "ATT_BOSS",
+					"value" : 5
+				},
+				{
+					"type" : "ATT_HALF_HUMANS",
+					"value" : 10
+				}
+			]
+		}
+	]
+}

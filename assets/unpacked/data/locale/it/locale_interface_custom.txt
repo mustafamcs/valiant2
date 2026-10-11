@@ -1,0 +1,340 @@
+DRAGONSOUL_GRADE_0	Grezzo
+DRAGONSOUL_GRADE_1	Tagliato
+DRAGONSOUL_GRADE_2	Raro
+DRAGONSOUL_GRADE_3	Antico
+DRAGONSOUL_GRADE_4	Leggendario
+DRAGONSOUL_GRADE_5	Mitico
+LOGIN_PIN	PIN
+LOGIN_ID	ID di accesso
+LOGIN_PW	Password
+SPECIAL_INVENTORY_TITLE	Inventario Speciale
+SPECIAL_STORAGE_ARRANGE	Organizza l'Inventario
+DRAGONSOUL_NEWREFINE	Raffina
+DO_ALL_REFINE	Raffina Veloce
+REFINE_ALL_PAGES	Raffina Tutte le Pagine
+INVENTORY_PAGE_BUTTON_TOOLTIP_5	5° Inventario
+SPLIT_ITEMS_WINDOW_TITLE	Dividi Oggetti
+
+HIDE_COSTUME	Nascondi Costume
+
+GAMEOPTION_CAT_02	Impostazioni Grafiche
+GAMEOPTION_CAT_03	Impostazioni Audio
+
+GAMEOPTION_CAT_02_SUBCAT_1	Interfaccia
+GAMEOPTION_CAT_02_SUBCAT_2	Prestazioni
+
+GAMEOPTION_OUTLINE_TEXT	Ombra del Testo
+GAMEOPTION_AFFECT_TEXT	Icone di Effetto
+GAMEOPTION_HIGHLIGHT_TEXT	Nuova Animazione dell'Oggetto
+GAMEOPTION_ENTITY_RANGE	Distanza Oggetti
+
+GAMEOPTION_ENTITY_RANGE0	Corta
+GAMEOPTION_ENTITY_RANGE1	Media
+GAMEOPTION_ENTITY_RANGE2	Lunga
+
+GAMEOPTION_HIDE_TEXT	Nascondi Modelli
+GAMEOPTION_HIDE_NPC	NPC
+GAMEOPTION_HIDE_PET	Animale Domestico
+GAMEOPTION_HIDE_MOUNT	Montura
+GAMEOPTION_HIDE_SHOPS	Negozi
+GAMEOPTION_WINDOW_ANIMATIONS	Animazioni Finestre
+GAMEOPTION_ANIMATIONS_OFF	Disattiva
+GAMEOPTION_ANIMATIONS1	Tipo 1
+GAMEOPTION_ANIMATIONS2	Tipo 2
+GAMEOPTION_ANIMATIONS3	Tipo 3
+GAMEOPTION_ANIMATIONS4	Tipo 4
+GAMEOPTION_ANIMATIONS5	Tipo 5
+GAMEOPTION_ANIMATIONS6	Tipo 6
+GAMEOPTION_ANIMATIONS7	Tipo 7
+
+GAMEOPTION_FONT_WARNING	Riavvia il client per vedere le modifiche.
+
+GAMEOPTION_EFFECT_TEXT	Effetti
+
+GAMEOPTION_STONE_SCALE	Scala Pietre Metin
+GAMEOPTION_DAMAGE_SCALE	Scala Immagine Danno
+GAMEOPTION_OBJECT_SCALE	Distanza Oggetti
+
+GAMEOPTION_DAMAGE_TYPE	Immagine Danno
+GAMEOPTION_DAMAGE_TYPE0	Normale
+GAMEOPTION_DAMAGE_TYPE1	Punti
+GAMEOPTION_DAMAGE_TYPE2	Lettera
+
+GAMEOPTION_DAMAGE_RENEWED_TYPE	Design del Danno
+GAMEOPTION_DAMAGE_RENEWED_TYPE0	Normale
+GAMEOPTION_DAMAGE_RENEWED_TYPE1	Nuovo
+
+GAMEOPTION_EVENT_MINI_ICON	Icona Mini Calendario Eventi
+
+GAMEOPTION_LOADING_TYPE	Tipo Schermata di Caricamento
+GAMEOPTION_LOADING_TYPE_BUTTON	Nuova
+GAMEOPTION_LOADING_TYPE_BUTTON2	Vecchia
+
+MINIMAP_BUTTON_01	Ricerca Oggetto
+MINIMAP_BUTTON_02	Biologia
+MINIMAP_BUTTON_03	Classifica
+HIDE_COSTUME	Nascondi Costume
+
+SEND_WHISPER_ADMIN_INFO	Inserisci il messaggio da inviare ai giocatori.
+SEND_WHISPER_ADMIN_TITLE	Gestore Messaggi di Gruppo
+
+OPTION_FOV	Campo Visivo
+
+OPTION_SKYBOX	Immagine Skybox
+OPTION_SKYBOX_0	Normale
+OPTION_SKYBOX_1	Modalità 1
+OPTION_SKYBOX_2	Modalità 2
+OPTION_SKYBOX_3	Modalità 3
+OPTION_SKYBOX_4	Modalità 4
+OPTION_SKYBOX_5	Modalità 5
+OPTION_SKYBOX_6	Modalità 6
+OPTION_SKYBOX_7	Modalità 7
+
+CHARACTER_STATS_PAGE	Statistiche
+STATICS_01	Danno Massimo Giocatore
+STATICS_02	Danno Massimo Mostro
+STATICS_03	Danno Massimo Metinstone
+STATICS_04	Danno Massimo Boss
+STATICS_05	Mostri Uccisi
+STATICS_06	Metinstone Distrutti
+STATICS_07	Boss Uccisi
+STATICS_08	Giocatori Uccisi
+STATICS_09	Oggetti Raffinati e Realizzati
+STATICS_10	Dungeon Completati
+STATICS_11	Pesci Catturati
+STATICS_12	Minerali Estratti con Successo
+STATICS_13	Casse Aperte
+STATICS_14	Cambiatori di Attributo Usati
+STATICS_15	Punti Battaglia
+STATICS_16	Allineamento
+STATICS_17	Tempo di Gioco
+
+PLAYER_IS_ONLINE_NOW	%s è ora online.
+
+PET_ATTR_CHANGE_ITEM_TEXT	Cambia Attributo
+PET_ATTR_CHANGE_TITLE	Cambia Tipo di Animale Domestico
+PET_ATTR_CONFIRMATION	Cambia
+PET_ATTR_DETERMINE_TITLE	Nuovo Tipo di Animale Domestico
+PET_ATTR_OK	OK
+PET_CHANGE_TEXT	Animale Domestico
+PET_FEED_TITLE	Nutri
+PET_FFED_BUTTON_TEXT	Nutri
+PET_HATCHING_BUTTON	Assegna un nome
+PET_HATCHING_NIK	Nome Animale
+PET_HATCHING_WINDOW_TITLE	Incubazione
+PET_INFORMATION_ABILITIES	Bonus
+PET_INFORMATION_AGE	Età
+PET_INFORMATION_COSTUME_BONUS	Bonus da Costume
+PET_INFORMATION_DEFENCE	Difesa
+PET_INFORMATION_EVOL_BUTTON	Evolvi
+PET_INFORMATION_EXP	Esperienza
+PET_INFORMATION_EXP_BUTTON	Esperienza Oggetto
+PET_INFORMATION_HP	Punti Vita
+PET_INFORMATION_LEVEL	Livello
+PET_INFORMATION_LIFE	Durata
+PET_INFORMATION_LIFETIME_BUTTON	Nutri
+PET_INFORMATION_LIFE_TIME	Tempo di Vita
+PET_INFORMATION_SKILL	Abilità
+PET_INFORMATION_SP	Forza
+PET_INFORMATION_TITLE	Animale Domestico
+PET_NAME_CHANGE_BUTTON	Cambia
+PET_NAME_CHANGE_WINDOW_TITLE	Dai un nome al tuo compagno
+PET_SYSTEM_FEED	Nutri
+PET_SYSTEM_PET_NAME	Nome Compagno
+PET_SYSTEM_HATCH	Schiusura
+PET_SYSTEM_LEVEL	Livello
+PET_SYSTEM_EXP	Esperienza
+PET_SYSTEM_EXP22	Epico (16)
+PET_SYSTEM_AGE	Età
+PET_SYSTEM_DURATION	Durata
+PET_SYSTEM_EVOLVE	Evolvi
+PET_SYSTEM_ITEM_EXP	Esperienza Oggetto
+PET_SYSTEM_BONUSES	Bonus
+PET_SYSTEM_INCUBATOR	Incubatrice
+PET_SYSTEM_HP	PV (Percentuale)
+PET_SYSTEM_DEF	Forza PvM (Percentuale)
+PET_SYSTEM_ATTACK	Forza (Percentuale)
+PET_BESLE	Nutri
+SELECT_JOB_TITLE	Seleziona Gruppo di Abilità
+
+SKILL_COLOR_TITLE	Scegli il colore
+SKILL_COLOR_PRESET_TITLE	Preset Salvati
+SKILL_COLOR_PRESET_SELECT	Seleziona
+SKILL_COLOR_PRESET_SAVE	Salva il tuo preset
+SKILL_COLOR_PRESET_CLEAR	Cancella
+SKILL_COLOR_CUSTOM_COLOR_CODE_TITLE	Codice Colore Personalizzato
+SKILL_COLOR_DEFAULT	Colore Predefinito
+SKILL_COLOR_CHANGE	Cambia colore
+SKILL_COLOR_CANCEL	Annulla
+
+AURA_ACCEPT	Raffina
+AURA_ACCEPT2	Raffina (x10)
+AURA_ACCEPT_REFINE_MAX_ABS	L'Aura ha già il massimo tasso di assorbimento, non puoi potenziarla ulteriormente!
+AURA_ACCEPT_REFINE_ITEM	Non hai i materiali necessari.
+AURA_DRAIN_PER	Tasso Assorbimento %.1f%%
+AURA_LEVEL_STEP	Lv %d (Livello %d)
+AURA_TITLE_ABSORB	Trasferisci i bonus dell'equipaggiamento al costume dell'aura.
+AURA_TITLE_EVOLUTION	Evoluzione
+AURA_TITLE_GROWTH	Aggiorna il costume dell'aura
+AURA_TOOLTIP_EXP	EXP (%%%d / %%100)
+AURA_TOOLTIP_LEVEL	Lv %d (Livello %d) (Tasso Assorbimento %%%.1f)
+AURA_TOOLTIP_NEED_YANG	10.000.000 Yang
+AURA_TOOLTIP_NEED_YANG2	20.000.000 Yang
+AURA_TOOLTIP_NEXT	Successivo
+AURA_TOOLTIP_NOW	Adesso
+AURA_TOOLTIP_RESOURCE	Risorsa
+AURA_TOOLTIP_RESOURCE_ITEM	%s * %d
+ACCE_FAILURE_CLEAN_TYPE_EROR	Questo oggetto può essere utilizzato solo per la fascia da spalla o il costume dell'aura.
+
+EXTENDET_BATTLE_PASS_TITLE	BattlePass
+EXTENDET_BATTLE_PASS_RANK_ICON_RANK	Classifica
+EXTENDET_BATTLE_PASS_RANK_ICON_NAME	Nome Giocatore
+EXTENDET_BATTLE_PASS_RANK_ICON_TIME	Tempo Rimasto
+EXTENDET_BATTLE_PASS_NO_PLANNED_NORMAL_BATTLEPASS	Il Pass Battaglia è attualmente inattivo.
+EXTENDET_BATTLE_PASS_PLANNED_NEXT_NORMAL_BATTLEPASS	Al momento non sono pianificati biglietti per il Pass Battaglia.
+EXTENDET_BATTLE_PASS_TIME_TO_NEXT_NORMAL_BATTLEPASS	Tempo rimanente fino all'inizio del prossimo Pass Battaglia: %s
+EXTENDET_BATTLE_PASS_NO_PLANNED_PREMIUM_BATTLEPASS	Il Pass Battaglia Premium è attualmente inattivo.
+EXTENDET_BATTLE_PASS_PLANNED_NEXT_PREMIUM_BATTLEPASS	Al momento non sono pianificati biglietti per il Pass Battaglia Premium.
+EXTENDET_BATTLE_PASS_TIME_TO_NEXT_PREMIUM_BATTLEPASS	Tempo rimanente fino all'inizio del prossimo Pass Battaglia Premium: %s
+EXTENDET_BATTLE_PASS_NO_PLANNED_EVENT_BATTLEPASS	Il Pass Battaglia dell'Evento attualmente non è attivo.
+EXTENDET_BATTLE_PASS_PLANNED_NEXT_EVENT_BATTLEPASS	Al momento non sono pianificati biglietti per il Pass Battaglia dell'Evento.
+EXTENDET_BATTLE_PASS_TIME_TO_NEXT_EVENT_BATTLEPASS	Tempo rimanente fino all'inizio del prossimo Pass Battaglia dell'Evento: %s
+EXTENDET_BATTLE_PASS_SEASON_TITLE	Informazioni sul Pass Battaglia
+EXTENDET_BATTLE_PASS_SEASON_NAME	Stagione: %s
+EXTENDET_BATTLE_PASS_SEASON_TOTAL_MISSIONS	Missioni Totali: %d
+EXTENDET_BATTLE_PASS_SEASON_CURRENT_MISSIONS	Stato di completamento: %d / %d
+EXTENDET_BATTLE_PASS_SEASON_DATE_FROM	Data di inizio
+EXTENDET_BATTLE_PASS_SEASON_DATE_TO	Data di fine
+EXTENDET_BATTLE_PASS_SEASON_REST_TIME	Tempo rimanente: %s
+EXTENDET_BATTLE_PASS_SEASON_PROGRESS	Progresso
+EXTENDET_BATTLE_PASS_MISSION_MISSION_NAME	Nome Missione
+EXTENDET_BATTLE_PASS_MISSION_NAME	Nome Missione
+EXTENDET_BATTLE_PASS_MISSION_STATUS	Stato Missione
+EXTENDET_BATTLE_PASS_MISSION_INFO	Informazioni
+EXTENDET_BATTLE_PASS_MISSION_STATUS_IN_PROGRESS	|cfffeff7d|H|h In corso!|h|r
+EXTENDET_BATTLE_PASS_MISSION_STATUS_FINISH	|cff82ff7d|H|hCompletata!|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION	Informazioni:
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_MONSTER	Mostro: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_MINLEVEL	Livello Min.: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_ITEM	Oggetto: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_ORE	Minerale: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_FISH	Pesce: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_MAPNAME	Mappa: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_GUILDWARTYPE	Guerra di Gilda: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_PET_MINTYPE	Tipo Animale Min.: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_DUNGEON	Prova: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_MINIGAME	Minigioco: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_COUNT	Rimanenti: |cfffeff7d|H|h%s|h|r / |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_COUNT_GOLD	Rimanenti: |cfffeff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_PERCENT	Completata |cfffeff7d|H|h%.2f%%|h|r
+EXTENDET_BATTLE_PASS_DESCRIPTION	Descrizione:
+EXTENDET_BATTLE_PASS_MISSION_COMPLEDET	Completata
+EXTENDET_BATTLE_PASS_NONE_COND_TITLE_MOB	Mostro
+EXTENDET_BATTLE_PASS_NONE_COND_TITLE_ITEM	Oggetto
+EXTENDET_BATTLE_PASS_NONE_COND_TITLE_FISH	Pesce
+EXTENDET_BATTLE_PASS_NONE_COND_TITLE_DUNGEON	Completa dungeon
+EXTENDET_BATTLE_PASS_NONE_COND_TITLE_MINIGAME	Minigiochi
+EXTENDET_BATTLE_PASS_TYPENAME_1	Distruggi %s
+EXTENDET_BATTLE_PASS_TYPENAME_1_DESC_1	Uccidi %sx %s.
+EXTENDET_BATTLE_PASS_TYPENAME_1_DESC_2	Uccidi %sx
+EXTENDET_BATTLE_PASS_TYPENAME_2	Uccidi %s giocatori!
+EXTENDET_BATTLE_PASS_TYPENAME_2_DESC_1	Uccidi %s giocatori! (Almeno livello %s)
+EXTENDET_BATTLE_PASS_TYPENAME_2_DESC_2	Uccidi %s giocatori! (Nessun limite di livello)
+EXTENDET_BATTLE_PASS_TYPENAME_3	Attacca mostri
+EXTENDET_BATTLE_PASS_TYPENAME_3_DESC_1	Raggiungi il massimo danno a %s %s.
+EXTENDET_BATTLE_PASS_TYPENAME_3_DESC_2	Infliggi un totale di %s di danni ai mostri. (valido per tutte le creature)
+EXTENDET_BATTLE_PASS_TYPENAME_4	Attacca giocatori
+EXTENDET_BATTLE_PASS_TYPENAME_4_DESC_1	Raggiungi un totale di %s di danno ai giocatori di almeno livello %d. I giocatori di qualsiasi regno contano.
+EXTENDET_BATTLE_PASS_TYPENAME_4_DESC_2	Raggiungi un totale di %s di danno ai giocatori. I giocatori di qualsiasi regno contano.
+EXTENDET_BATTLE_PASS_TYPENAME_5	Usa %s
+EXTENDET_BATTLE_PASS_TYPENAME_5_DESC_1	Devi usare %sx %s per completare questa missione.
+EXTENDET_BATTLE_PASS_TYPENAME_5_DESC_2	Devi usare o aprire un oggetto %sx per completare questa missione.
+EXTENDET_BATTLE_PASS_TYPENAME_6	Vendi %s
+EXTENDET_BATTLE_PASS_TYPENAME_6_DESC_1	Vendi %sx %s agli NPC per completare questa missione.
+EXTENDET_BATTLE_PASS_TYPENAME_6_DESC_2	Vendi %sx oggetti agli NPC per completare questa missione.
+EXTENDET_BATTLE_PASS_TYPENAME_7	Crea %s
+EXTENDET_BATTLE_PASS_TYPENAME_7_DESC_1	Per completare questa missione, devi creare %sx %s
+EXTENDET_BATTLE_PASS_TYPENAME_7_DESC_2	Per completare questa missione, devi creare %sx (qualsiasi oggetto)
+EXTENDET_BATTLE_PASS_TYPENAME_8	Aggiorna %s
+EXTENDET_BATTLE_PASS_TYPENAME_8_DESC_1	Per completare questa missione, devi aggiornare %sx al livello successivo di %s.
+EXTENDET_BATTLE_PASS_TYPENAME_8_DESC_2	Per completare questa missione, devi aggiornare %s al livello successivo.
+EXTENDET_BATTLE_PASS_TYPENAME_9	Distruggi %s
+EXTENDET_BATTLE_PASS_TYPENAME_9_DESC_1	Distruggi %sx %s per completare questa missione.
+EXTENDET_BATTLE_PASS_TYPENAME_9_DESC_2	Distruggi %s per completare questa missione.
+EXTENDET_BATTLE_PASS_TYPENAME_10_1	Raccogli %s
+EXTENDET_BATTLE_PASS_TYPENAME_10_2	Minerali
+EXTENDET_BATTLE_PASS_TYPENAME_10_1_DESC_1	Devi raccogliere %sx %s per completare questa missione.
+EXTENDET_BATTLE_PASS_TYPENAME_10_2_DESC_1	Devi estrarre %sx %s per completare questa missione.
+EXTENDET_BATTLE_PASS_TYPENAME_10_DESC_2	Devi raccogliere %s oggetti per completare questa missione.
+EXTENDET_BATTLE_PASS_TYPENAME_11	Cattura %s
+EXTENDET_BATTLE_PASS_TYPENAME_11_DESC_1	Tira fuori dall'acqua %sx %s per completare questa missione.
+EXTENDET_BATTLE_PASS_TYPENAME_11_DESC_2	Tira fuori dall'acqua %sx qualsiasi pesce per completare questa missione.
+EXTENDET_BATTLE_PASS_TYPENAME_12	Cuoci %s
+EXTENDET_BATTLE_PASS_TYPENAME_12_DESC_1	Griglia %sx %s attorno al falò per completare questa missione.
+EXTENDET_BATTLE_PASS_TYPENAME_12_DESC_2	Griglia %sx qualsiasi pesce attorno al falò per completare questa missione.
+EXTENDET_BATTLE_PASS_TYPENAME_13	Raccogli %s
+EXTENDET_BATTLE_PASS_TYPENAME_13_DESC_1	Uccidi %sx %s per completare questa missione.
+EXTENDET_BATTLE_PASS_TYPENAME_13_DESC_2	Uccidi qualsiasi pesce %s volte per completare questa missione.
+EXTENDET_BATTLE_PASS_TYPENAME_14	Raccogli %s Esperienza
+EXTENDET_BATTLE_PASS_TYPENAME_14_DESC_1	Per completare questa missione, devi ottenere %s EXP da %s.
+EXTENDET_BATTLE_PASS_TYPENAME_14_DESC_2	Ottieni %s EXP da qualsiasi mostro per completare questa missione.
+EXTENDET_BATTLE_PASS_TYPENAME_15	Raccogli %s yang
+EXTENDET_BATTLE_PASS_TYPENAME_15_DESC_1	Per completare questa missione, devi ottenere %s Yang dalle creature sulla mappa %s.
+EXTENDET_BATTLE_PASS_TYPENAME_15_DESC_2	Devi raccogliere %s Yang dai mostri per completare questa missione.
+EXTENDET_BATTLE_PASS_TYPENAME_16	Unisciti alla Guerra di Gilda
+EXTENDET_BATTLE_PASS_TYPENAME_16_DESC_1	Completa %sx con la guerra di gilda %s.
+EXTENDET_BATTLE_PASS_TYPENAME_16_DESC_2	Completa %sx una guerra di gilda di qualsiasi tipo.
+EXTENDET_BATTLE_PASS_TYPENAME_17	Dona Esperienza a una gilda
+EXTENDET_BATTLE_PASS_TYPENAME_17_DESC_1	Dona %s Esperienza a una gilda.
+EXTENDET_BATTLE_PASS_TYPENAME_18	Crea %s gaya
+EXTENDET_BATTLE_PASS_TYPENAME_18_DESC_1	Crea %s gaya
+EXTENDET_BATTLE_PASS_TYPENAME_19	Acquista nel Negozio Gaya
+EXTENDET_BATTLE_PASS_TYPENAME_19_DESC_1	Acquista oggetti dal Negozio Gaya per un valore totale di %s gaya.
+EXTENDET_BATTLE_PASS_TYPENAME_20	Incanta un Animale %s volte
+EXTENDET_BATTLE_PASS_TYPENAME_20_DESC_1	Incanta un animale %sx %s. L'animale deve raggiungere almeno il tipo di animale %s.
+EXTENDET_BATTLE_PASS_TYPENAME_20_DESC_2	Incanta un animale %sx.
+EXTENDET_BATTLE_PASS_TYPENAME_21	%s
+EXTENDET_BATTLE_PASS_TYPENAME_21_DESC_1	Per completare %s, devi completare %sx dungeon.
+EXTENDET_BATTLE_PASS_TYPENAME_21_DESC_2	Completa qualsiasi dungeon %sx volte.
+EXTENDET_BATTLE_PASS_TYPENAME_22	Gioca a %s
+EXTENDET_BATTLE_PASS_TYPENAME_22_DESC_1	Gioca e completa %sx il mini-gioco %s.
+EXTENDET_BATTLE_PASS_TYPENAME_22_DESC_2	Completa qualsiasi minigioco %sx volte.
+EXTENDET_BATTLE_PASS_MAP_NAME_BY_IDX_64	Valle di Seungryong
+EXTENDET_BATTLE_PASS_MAP_NAME_BY_IDX_65	Tempio di Hwang
+EXTENDET_BATTLE_PASS_MAP_NAME_BY_IDX_72	Caverna 1
+EXTENDET_BATTLE_PASS_GUILDWAR_TYPE_NAME_1	Area Battaglia Gilda
+EXTENDET_BATTLE_PASS_GUILDWAR_TYPE_NAME_2	Arena Battaglia Gilda
+EXTENDET_BATTLE_PASS_GUILDWAR_TYPE_NAME_3	Battaglia Gilda delle Bandiere
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_1	Completa la Torre del Diavolo
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_2	Uccidi il Drago Blu
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_3	Completa il Catacombe del Diavolo
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_4	Uccidi il Drago Rosso
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_5	Uccidi Nemere
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_6	Uccidi la Regina Ragno
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_7	Uccidi Meley
+EXTENDET_BATTLE_PASS_MINIGAME_NAME_1	Carta Okey
+EXTENDET_BATTLE_PASS_MINIGAME_NAME_2	Catch The King
+EXTENDET_BATTLE_PASS_MINIGAME_NAME_3	Yutnori
+EXTENDET_BATTLE_PASS_MINIGAME_NAME_4	Black 'n White
+EXTENDET_BATTLE_PASS_MINIGAME_NAME_5	Pesca
+EXTENDET_BATTLE_PASS_SEND_SHOUT	Urla %s volte!
+EXTENDET_BATTLE_PASS_SEND_SHOUT2	%s: Per completare la missione devi urlare %sx volte!
+EXTENDET_BATTLE_PASS_SEND_SHOUT3	Invia un messaggio di urlo %sx volte e completa la missione!
+
+EXTENDET_BATTLE_PASS_MINING	Estrai minerali!
+EXTENDET_BATTLE_PASS_MINING2	%s: Per completare la missione devi estrarre minerali %sx volte!
+EXTENDET_BATTLE_PASS_MINING3	Estrai minerali %sx volte e completa la missione!
+
+EXTENDET_BATTLE_PASS_DAMAGE_METIN	Infliggi un totale di %s danni ai Metin!
+EXTENDET_BATTLE_PASS_DAMAGE_METIN2	%s: Per completare la missione devi infliggere %sx danni ai Metin!
+EXTENDET_BATTLE_PASS_DAMAGE_METIN3	Infliggi %sx danni ai Metin e completa la missione!
+
+EXTENDET_BATTLE_PASS_DAMAGE_METIN_REACH	Raggiungi %s danni ai Metin!
+EXTENDET_BATTLE_PASS_DAMAGE_METIN_REACH2	%s: Per completare la missione devi raggiungere %sx danni ai Metin!
+EXTENDET_BATTLE_PASS_DAMAGE_METIN_REACH3	Raggiungi %sx danni ai Metin e completa la missione!
+
+OPTION_BLOCK_WARP_REQUEST	Richiesta di Trasporto
+NEW_EXCHANGE_YOU	Tu
+
+GLOBAL_RANKING_TITLE	Classifica Giocatori
+

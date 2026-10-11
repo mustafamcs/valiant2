@@ -1,0 +1,75 @@
+ice_land_dungeon={["start"]=0,setting= function ()return { 
+[ "floor_cordinat" ] = { 
+{ 8749 , 9197 } , 
+{ 8749 , 9197 } , 
+{ 8749 , 9197 } , 
+{ 8749 , 9197 } , 
+{ 8749 , 9197 } , 
+} , 
+[ "map_index" ] = 309 , 
+[ "mob_vnum" ] = { 40033 , 40032 , 40034 , 40035 } , 
+[ "totem_item_vnum" ] = 200543 , 
+[ "totem_cordinat" ] = { 
+{ 638 , 393 } , 
+{ 711 , 393 } , 
+{ 711 , 455 } , 
+{ 638 , 455 } , 
+} , 
+} 
+end ,spawn_totem= function ()local setting = ice_land_dungeon . setting ( ) 
+local totemCord = setting . totem_cordinat local t1 = d . spawn_mob_ac_dir ( setting . mob_vnum [ 2 ] , totemCord [ 1 ] [ 1 ] , totemCord [ 1 ] [ 2 ] , 0 ) 
+local t2 = d . spawn_mob_ac_dir ( setting . mob_vnum [ 2 ] , totemCord [ 2 ] [ 1 ] , totemCord [ 2 ] [ 2 ] , 0 ) 
+local t3 = d . spawn_mob_ac_dir ( setting . mob_vnum [ 2 ] , totemCord [ 3 ] [ 1 ] , totemCord [ 3 ] [ 2 ] , 0 ) 
+local t4 = d . spawn_mob_ac_dir ( setting . mob_vnum [ 2 ] , totemCord [ 4 ] [ 1 ] , totemCord [ 4 ] [ 2 ] , 0 ) 
+d . setf ( "totem_vid1" , t1 ) 
+d . setf ( "totem_vid2" , t2 ) 
+d . setf ( "totem_vid3" , t3 ) 
+d . setf ( "totem_vid4" , t4 ) 
+d . setf ( "totemCount" , 4 ) 
+end ,purge_totem= function ()local totemCount = d . getf ( "totemCount" ) 
+if totemCount == 4 then 
+d . purge_vid ( d . getf ( "totem_vid1" ) ) 
+elseif totemCount == 3 then 
+d . purge_vid ( d . getf ( "totem_vid2" ) ) 
+elseif totemCount == 2 then 
+d . purge_vid ( d . getf ( "totem_vid3" ) ) 
+elseif totemCount == 1 then 
+d . purge_vid ( d . getf ( "totem_vid4" ) ) 
+ice_land_dungeon . NextFloor ( ) 
+end 
+d . setf ( "totemCount" , totemCount - 1 ) 
+end ,set_regen= function (level)local regenList = { 
+[ 1 ] = "data/dungeon/ice_land/regen_slot.txt" , 
+[ 2 ] = "data/dungeon/ice_land/regen_metin.txt" , 
+[ 3 ] = "data/dungeon/ice_land/regen_totem_slot.txt" , 
+[ 4 ] = "data/dungeon/ice_land/regen_mini_boss.txt" , 
+[ 5 ] = "data/dungeon/ice_land/regen_boss.txt" } 
+d . set_regen_file ( regenList [ level ] ) 
+if level == 3 then 
+ice_land_dungeon . spawn_totem ( ) 
+end 
+end ,make_dungeon= function ()pc . setf ( "dungeon" , "floor" , 1 ) 
+ice_land_dungeon . set_regen ( 1 ) 
+pc . chat ( 503 ) 
+server_timer ( "ice_landdungeon_finish_15" , 5 * 60 , d . get_map_index ( ) ) 
+end ,clear_timer= function ()clear_server_timer ( "ice_landdungeon_finish_15" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "ice_landdungeon_finish_10" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "ice_landdungeon_finish_5" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "ice_landdungeon_finish_1" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "ice_landdungeon_time_out" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "ice_landdungeon_exit" , get_server_timer_arg ( ) ) 
+clear_server_timer ( "ice_landdungeon_floor_up" , get_server_timer_arg ( ) ) 
+cleartimer ( "ice_landdungeon_level" ) 
+end ,GetMapIndex= function ()local setting = ice_land_dungeon . setting ( ) 
+return setting . map_index end ,InDungeon= function ()if pc . get_map_index ( ) >= ( ice_land_dungeon . GetMapIndex ( ) * 10000 ) and pc . get_map_index ( ) <= ( ( ice_land_dungeon . GetMapIndex ( ) * 10000 ) + 9999 ) then 
+return true 
+end 
+return false 
+end ,NextFloor= function ()d . kill_all ( ) 
+d . kill_all ( ) 
+d . clear_regen ( ) 
+d . zodiac_notice_clear ( ) 
+pc . zodiac_chat ( 510 ) 
+timer ( "ice_landdungeon_level" , 5 ) 
+pc . setf ( "dungeon" , "floor" , pc . getf ( "dungeon" , "floor" ) + 1 ) 
+end }

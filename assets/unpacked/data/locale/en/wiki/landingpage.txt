@@ -1,0 +1,70 @@
+
+[BANNER_IMG = d:/ymir work/ui/game/wiki/guide_wall.tga]
+[CENTER_ALIGN;FONT_SIZE=30]Temel Bilgiler
+[CENTER_ALIGN]Burada en önemli kýsayol tuþlarýný bulabilirsiniz!
+
+[X_PADDING=135;FONT_SIZE=15]* Depoyu aç
+
+[X_PADDING=135;FONT_SIZE=15]* Ejderha Taþý Simyasýný aç
+
+[X_PADDING=135;FONT_SIZE=15]* Pazar aramada item isimi alanýný temizler
+
+[X_PADDING=135;FONT_SIZE=15]* Pazar aramada öðe adýný tamamlar
+
+[X_PADDING=135;FONT_SIZE=15]* Görev Zamanlayýcýsýný Aç
+
+[X_PADDING=135;FONT_SIZE=15]* Efsun Botunu Aç
+
+[X_PADDING=135;FONT_SIZE=15]* Kamera Aracýný açýn
+
+[X_PADDING=135;FONT_SIZE=15]* Bineðinize binmek ve inmek için
+
+[X_PADDING=135;FONT_SIZE=15]* Bineðinize binmek ve inmek için
+
+[X_PADDING=135;FONT_SIZE=15]* ýlk Ejderha Taþý Simya sayfasýný etkinleþtirir ve devre dýþý býrakýr
+
+[X_PADDING=135;FONT_SIZE=15]* ýlk Ejderha Taþý Simya sayfasýný etkinleþtirir ve devre dýþý býrakýr
+
+[X_PADDING=135;FONT_SIZE=15]* Çevreyi yeniden yükler
+
+[X_PADDING=135;FONT_SIZE=15]* Seçili Sandýktan X parçasýný aç
+
+[X_PADDING=135;FONT_SIZE=15]* Ayný anda 10 Statü verdirir
+
+[X_PADDING=135;FONT_SIZE=15]* Öðeyi Depolama, Ticaret Penceresi ve Maðazaya daha hýzlý taþýr
+
+[X_PADDING=135;FONT_SIZE=15]* Tüm iþaretli Öðeleri bir Maðazaya satar
+
+[X_PADDING=135;FONT_SIZE=15]* Seçilen öðeyi hemen arar
+
+
+[IMG=d:/ymir work/ui/game/wiki/emoji/u.tga; Y=70; X=10]
+[IMG=d:/ymir work/ui/game/wiki/emoji/o.tga; Y=97; X=10]
+[IMG=d:/ymir work/ui/game/wiki/emoji/esc.tga; Y=125; X=10]
+[IMG=d:/ymir work/ui/game/wiki/emoji/tab.tga; Y=150; X=10]
+[IMG=d:/ymir work/ui/game/wiki/emoji/f6.tga; Y=178; X=10]
+[IMG=d:/ymir work/ui/game/wiki/emoji/f7.tga; Y=205; X=10]
+[IMG=d:/ymir work/ui/game/wiki/emoji/f10.tga; Y=232; X=10]
+[IMG=d:/ymir work/ui/game/wiki/emoji/ctrl.tga; Y=259; X=10]
+[IMG=d:/ymir work/ui/game/wiki/emoji/g.tga; Y=259; X=60]
+[IMG=d:/ymir work/ui/game/wiki/emoji/ctrl.tga; Y=287; X=10]
+[IMG=d:/ymir work/ui/game/wiki/emoji/h.tga; Y=287; X=60]
+[IMG=d:/ymir work/ui/game/wiki/emoji/ctrl.tga; Y=313; X=10]
+[IMG=d:/ymir work/ui/game/wiki/emoji/o.tga; Y=313; X=60]
+[IMG=d:/ymir work/ui/game/wiki/emoji/ctrl.tga; Y=341; X=10]
+[IMG=d:/ymir work/ui/game/wiki/emoji/p.tga; Y=341; X=60]
+[IMG=d:/ymir work/ui/game/wiki/emoji/ctrl.tga; Y=368; X=10]
+[IMG=d:/ymir work/ui/game/wiki/emoji/f5.tga; Y=368; X=60]
+[IMG=d:/ymir work/ui/game/wiki/emoji/ctrl.tga; Y=368; X=10]
+[IMG=d:/ymir work/ui/game/wiki/emoji/f5.tga; Y=368; X=60]
+[IMG=d:/ymir work/ui/game/wiki/emoji/ctrl.tga; Y=395; X=10]
+[IMG=d:/ymir work/ui/game/wiki/emoji/mouse_right.tga; Y=392; X=60]
+[IMG=d:/ymir work/ui/game/wiki/emoji/ctrl.tga; Y=420; X=10]
+[IMG=d:/ymir work/ui/game/wiki/emoji/key_lceft.tga; Y=420; X=60]
+[IMG=d:/ymir work/ui/game/wiki/emoji/ctrl.tga; Y=449; X=10]
+[IMG=d:/ymir work/ui/game/wiki/emoji/key_lceft.tga; Y=448; X=60]
+[IMG=d:/ymir work/ui/game/wiki/emoji/ctrl.tga; Y=476; X=10]
+[IMG=d:/ymir work/ui/game/wiki/emoji/key_lceft.tga; Y=476; X=60]
+[IMG=d:/ymir work/ui/game/wiki/emoji/ctrl.tga; Y=504; X=10]
+[IMG=d:/ymir work/ui/game/wiki/emoji/shift.tga; Y=504; X=60]
+[IMG=d:/ymir work/ui/game/wiki/emoji/mouse_right.tga; Y=503; X=110]

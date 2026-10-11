@@ -1,0 +1,281 @@
+"ARENA_TALK_1";
+"The duel ended because your warrior disappeared. ";
+
+"ARENA_TALK_2";
+"There are no restrictions on elixirs here. ";
+
+"ARENA_TALK_3 %d";
+"You can use %d elixirs. ";
+
+"ARENA_TALK_4";
+"The battle will start within 10 seconds. ";
+
+"ARENA_TALK_5";
+"The duel has begun. ";
+
+"ARENA_TALK_6";
+"The duel ended due to a problem in the arena. ";
+
+"ARENA_TALK_7";
+"The duel has ended due to time running out. ";
+
+"ARENA_TALK_8";
+"You will be teleported to the town within 10 seconds. ";
+
+"ARENA_TALK_9";
+"The duel has ended due to an issue with the arena. ";
+
+"ARENA_TALK_10";
+"The duel has ended due to a problem with your warrior. ";
+
+"ARENA_TALK_11 %s";
+"%s won the duel. ";
+
+"ARENA_TALK_12 %s";
+"%s won. ";
+
+"ARENA_TALK_13";
+"The next round will start within 10 seconds. ";
+
+"ARENA_TALK_14";
+"The fighters have separated. The duel has ended. ";
+
+"ARENA_TALK_15";
+"You have entered a battle. Exit is canceled. ";
+
+"ARENA_TALK_16";
+"4 minutes left for the monsters to attack. ";
+
+"ARENA_TALK_17";
+"1 minute left for the monsters to attack. ";
+
+"ARENA_TALK_18";
+"The monsters have started attacking the castle.";
+
+"Your time is up, can deliver the next item.";
+"Your waiting time has ended, you can deliver the next item.";
+
+"It clears my mind. I feel something lightening my chest.";
+"It clears my mind. Now you can concentrate better.";
+
+"Your alignment is increased %d";
+"Your alignment has increased by %d.";
+
+"cItem 5485 %s owner %s";
+"cItem 5485 %s owner %s";
+
+"cItem 5486 %s wtf %s";
+"cItem 5486 %s wtf %s";
+
+"SKILL_TALKING_2";
+"This method is much more complicated than I thought.";
+
+"CMD_TALK_3 %s %s";
+"The guild %s has been captured by %s. ";
+
+"Shutdown in %d";
+"Shutdown in %d seconds.";
+
+"The game will shut down after %d seconds.";
+"The game will shut down in %d seconds.";
+
+"You roll %d. (%d-%d)";
+"You rolled %d. (%d-%d)";
+
+"%s rolled the dice, resulting in %d. (%d-%d)";
+"%s rolled the dice, resulting in %d. (%d-%d)";
+
+"An error has occured, report this error to authoroties. Fish #s parameter";
+"An error has occurred, please report this error to the authorities. Fish #s parameter";
+
+"An error has occured, report this error to authoroties. Fish #not arg";
+"An error has occurred, please report this error to the authorities. Fish #not arg";
+
+"Cannot set stat under initial stat";
+"Cannot set stat under initial stat";
+
+"syntax: offshop_change_shop_name <player-id> <new-name>";
+"syntax: offshop_change_shop_name <player-id> <new-name>";
+
+"syntax: offshop_force_close_shop <player-id>";
+"syntax: offshop_force_close_shop <player-id>";
+
+"Cannot find shop by id %u";
+"Cannot find shop by id %u";
+
+"shop's name changed.";
+"shop's name changed.";
+
+"shop closed successfully.";
+"shop closed successfully.";
+
+"BATTLEPASS_NOT_COMPLETED_ALL_NORMAL_MISSIONS";
+"You have not completed all the missions in the Normal Battle Pass yet!";
+
+"BATTLEPASS_NOT_COMPLETED_ALL_PREMIUM_MISSIONS";
+"You have not completed all the missions in the Premium Battle Pass yet!";
+
+"BATTLEPASS_NOT_COMPLETED_ALL_EVENT_MISSIONS";
+"You have not completed all the missions in the Event Battle Pass yet!";
+
+"BATTLEPASS_ALREADY_EARNED_BATTLEPASS_REWARD";
+"You have already claimed your reward for this Battle Pass!";
+
+"BATTLEPASS_COMPLETE_NORMAL_MISSION";
+"You have successfully completed a mission in the Battle Pass!";
+
+"BATTLEPASS_COMPLETE_PREMIUM_MISSION";
+"You have successfully completed a mission in the Premium Battle Pass!";
+
+"BATTLEPASS_COMPLETE_EVENT_MISSION";
+"You have successfully completed a mission in the Event Battle Pass!";
+
+"BATTLEPASS_NOW_IS_ACTIVATED_PREMIUM_BATTLEPASS";
+"Your access to the Premium Battle Pass for the current season has been activated. Good luck!";
+
+"BATTLEPASS_NOW_IS_ACTIVATED_PREMIUM_BATTLEPASS_OWN";
+"You have activated access to the Premium Battle Pass for the current season. Good luck!";
+
+"BATTLEPASS_CMDGM_ACTIVATE_PREMIUM_TO_PLAYER";
+"You have activated the Premium Battle Pass for the current season on %s.";
+
+"BATTLEPASS_CMDGM_DEACTIVATE_PREMIUM_PLAYER";
+"Your Premium Battle Pass has been deactivated.";
+
+"BATTLEPASS_CMDGM_DEACTIVATE_PREMIUM_TO_PLAYER";
+"You have deactivated the Premium Battle Pass on %s.";
+
+"BATTLEPASS_CMDGM_DEACTIVATE_PREMIUM_OWN";
+"You have deactivated access to the Premium Battle Pass.";
+
+"BATTLEPASS_NEXT_REFRESH_RANKLIST_TIME";
+"You cannot refresh the ranking list for %d seconds.";
+
+"Current remaining number of participants: %d";
+"Current remaining number of participants: %d";
+
+"You can post new comment in: %02d mins and %02d secs";
+"You can post a new comment in: %02d mins and %02d secs";
+
+"GUILD_TALK_14 %d";
+"<Guild> Player can be invited after %d days.";
+
+"GUILD_TALK_17 %d";
+"<Guild> You can invite members within %d days after the adjustment.";
+
+"GUILD_TALK_10 %s %s";
+"%s has declared war against %s guild!";
+
+"GUILD_TALK_5 %s %s";
+"In the guild battle, %s guild emerged victorious against %s guild.";
+
+"GUILD_TALK_6 %s %s";
+"The battle between %s and %s ended in a draw.";
+
+"GUILD_TALK_7 %s %s";
+"The guild battle between %s and %s has begun.";
+
+"GUILD_TALK_8 %s %s";
+"The guild battle between %s and %s will start within a minute!";
+
+"GUILD_TALK_5";
+"<Guild> The guild battle has been canceled.";
+
+"GUILD_TALK_1 %d";
+"<Guild> Ranking has increased to %d Points.";
+
+"GUILD_TALK_2";
+"You have declared war on this Guild.";
+
+"GUILD_TALK_3";
+"Guild War cannot start while the server is offline.";
+
+"%s is not online.";
+"%s is not in the game.";
+
+"Critical server error. The server will reboot automatically.";
+"Critical server error. The server will restart automatically.";
+
+"You will be disconnected in 10 seconds.";
+"You will be disconnected in 10 seconds.";
+
+"You can connect again after 5 minutes.";
+"You can reconnect after 5 minutes.";
+
+"The number of bets is invalid, please try again.";
+"The number of bets is invalid, please try again.";
+
+"Failed.";
+"Failed.";
+
+"Success.";
+"Success.";
+
+"Pet type changed new type : %d";
+"Pet type changed to new type: %d";
+
+"Bonuschange of %s (Slot: %d) successfully finished.";
+"Bonus change of %s (Slot: %d) successfully completed.";
+
+"OX_TALK_1";
+"True.";
+
+"OX_TALK_2";
+"Question.";
+
+"OX_TALK_3";
+"Go to O if it's true, go to X if it's false.";
+
+"OX_TALK_4";
+"Participants who answer incorrectly will be teleported in 5 seconds.";
+
+"OX_TALK_5";
+"No (X)";
+
+"OX_TALK_6";
+"Yes (O)";
+
+"OX_TALK_7";
+"Correct answer:";
+
+"OX_TALK_8";
+"You will receive the result within 10 seconds.";
+
+"OX_TALK_9";
+"Wrong";
+
+"OX_TALK_10 %d";
+"Total number of questions: %d";
+
+"OX_TALK_11";
+"Are you ready for the next question?";
+
+"%s wants to fight with you.";
+"%s wants to challenge you to a fight.";
+
+"Everyone will be teleported to the town.";
+"Everyone will be teleported to the town.";
+
+"TRANSLATE_CLOSE_QUESTNPC";
+"Close";
+
+"You can join the guild war as a spectator.";
+"You can join the guild war as a spectator.";
+
+"If you are a spectator <End View> button to exit will appear.";
+"If you are a spectator, you can exit by clicking the <End View> button.";
+
+"No other guild members participated in the Guild War.";
+"No other guild members participated in the Guild War.";
+
+"If no one logs in within 1 minute, the guild battle will end automatically.";
+"If no one logs in within 1 minute, the guild battle will end automatically.";
+
+"The guild battle ended early and it was decided as a draw. (less than 5 minutes)";
+"The guild battle ended early and resulted in a draw (lasting less than 5 minutes).";
+
+"The wedding will be over soon.";
+"The wedding will be over soon.";
+
+"When the wedding is over, you will be sent to the village.";
+"When the wedding is over, you will be sent to the village.";

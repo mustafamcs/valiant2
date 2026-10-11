@@ -1,0 +1,3 @@
+say_title_center ( mob_name ( 20001 ) ) 
+say_reward_center ( locale_quest ( 962 ) ) 
+ds . open_refine_window ( ) 

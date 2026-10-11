@@ -1,0 +1,2052 @@
+Group	lykos
+{
+	Mob	191
+	Type	drop
+	1	71151	20	200 // Efsun Nesnesi
+	2	200000	5	200 // Beceri Kitabi Sandigi
+	3	80008	20	200 // 150.000 yang bar
+	4	200012	1	15 // Hazine Sandigi
+}
+Group	scrofa
+{
+	Mob	192
+	Type	drop
+	1	71151	20	200 // Efsun Nesnesi
+	2	200000	5	200 // Beceri Kitabi Sandigi
+	3	80008	20	200 // 150.000 yang bar
+	4	200012	1	15 // Hazine Sandigi
+}
+Group	bera
+{
+	Mob	193
+	Type	drop
+	1	71151	20	200 // Efsun Nesnesi
+	2	200000	5	200 // Beceri Kitabi Sandigi
+	3	80008	20	200 // 150.000 yang bar
+	4	200012	1	15 // Hazine Sandigi
+}
+Group	tigris
+{
+	Mob	194
+	Type	drop
+	1	71151	20	200 // Efsun Nesnesi
+	2	200000	5	200 // Beceri Kitabi Sandigi
+	3	80008	20	200 // 150.000 yang bar
+	4	200012	1	15 // Hazine Sandigi
+}
+Group	mahon
+{
+	Mob	491
+	Type	drop
+	1	71151	30	200 // Efsun Nesnesi
+	2	200000	8	200 // Beceri Kitabi Sandigi
+	3	200009	4	200 // Egitim Sandigi
+	4	80008	25	200 // 150.000 yang bar
+	5	200012	1	17 // Hazine Sandigi
+}
+Group	bo
+{
+	Mob	492
+	Type	drop
+	1	71151	30	200 // Efsun Nesnesi
+	2	200000	8	200 // Beceri Kitabi Sandigi
+	3	200009	4	200 // Egitim Sandigi
+	4	80008	25	200 // 150.000 yang bar
+	5	200012	1	17 // Hazine Sandigi
+}
+Group	goo-pae
+{
+	Mob	493
+	Type	drop
+	1	71151	30	200 // Efsun Nesnesi
+	2	200000	8	200 // Beceri Kitabi Sandigi
+	3	200009	4	200 // Egitim Sandigi
+	4	80008	25	200 // 150.000 yang bar
+	5	200012	1	17 // Hazine Sandigi
+}
+Group	chuong
+{
+	Mob	494
+	Type	drop
+	1	71151	30	200 // Efsun Nesnesi
+	2	200000	8	200 // Beceri Kitabi Sandigi
+	3	200009	4	200 // Egitim Sandigi
+	4	80008	25	200 // 150.000 yang bar
+	5	200012	1	17 // Hazine Sandigi
+}
+Group	ork_reisi
+{
+	Mob	691
+	Type	drop
+	1	71084	30	200 // Efsun Nesnesi
+	2	200000	10	200 // Beceri Kitabi Sandigi
+	3	200009	6	200 // Egitim Sandigi
+	4	25040	5	40 // Kutsama Kagidi
+	5	50513	1	40 // Ruh Tasi
+	6	200012	1	20 // Hazine Sandigi
+	7	200216	10	200 // Hindiba
+	8	200210	3	40 // ValleyCoin
+	9	80008	30	200 // 150.000 yang bar
+	10	200209	1	5 // Ekipman Kuponu
+	11	200200	5	200 // Jadeit Parcasi
+}
+Group	col_kaplumbagasi
+{
+	Mob	2191
+	Type	drop
+	1	71084	40	200 // Efsun Nesnesi
+	2	200000	10	200 // Beceri Kitabi Sandigi
+	3	200009	6	200 // Egitim Sandigi
+	4	25040	5	40 // Kutsama Kagidi
+	5	50513	1	40 // Ruh Tasi
+	6	200012	1	21 // Hazine Sandigi
+	7	200216	12	200 // Hindiba
+	8	200011	5	40 // Cor Draconis Sandigi
+	9	200210	6	40 // ValleyCoin
+	10	80008	35	200 // 150.000 yang bar
+	11	200209	1	5 // Ekipman Kuponu
+	12	200200	6	200 // Jadeit Parcasi
+}
+Group	elit_karanlik_lider
+{
+	Mob	793
+	Type	drop
+	1	71084	50	200 // Efsun Nesnesi
+	2	200000	12	200 // Beceri Kitabi Sandigi
+	3	200009	8	200 // Egitim Sandigi
+	4	25040	6	40 // Kutsama Kagidi
+	5	50513	1	40 // Ruh Tasi
+	6	200012	1	22 // Hazine Sandigi
+	7	200216	14	200 // Hindiba
+	8	200011	6	40 // Cor Draconis Sandigi
+	9	200210	7	40 // ValleyCoin
+	10	80008	35	200 // 150.000 yang bar
+	11	200209	1	6 // Ekipman Kuponu
+	12	200200	7	200 // Jadeit Parcasi
+}
+Group	dokuz_kuyruk
+{
+	Mob	1901
+	Type	drop
+	1	71084	60	200 // Efsun Nesnesi
+	2	200000	12	200 // Beceri Kitabi Sandigi
+	3	200009	8	200 // Egitim Sandigi
+	4	25040	8	40 // Kutsama Kagidi
+	5	50513	1	40 // Ruh Tasi
+	6	200012	1	23 // Hazine Sandigi
+	7	200216	16	200 // Hindiba
+	8	200011	8	40 // Cor Draconis Sandigi
+	9	200210	8	40 // ValleyCoin
+	10	80008	40	200 // 150.000 yang bar
+	11	200209	1	6 // Ekipman Kuponu
+	12	200200	8	200 // Jadeit Parcasi
+}
+Group	kralice_orumcek
+{
+	Mob	2091
+	Type	drop
+	1	71084	60	200 // Efsun Nesnesi
+	2	200000	12	200 // Beceri Kitabi Sandigi
+	3	200009	8	200 // Egitim Sandigi
+	4	25040	8	40 // Kutsama Kagidi
+	5	50513	1	40 // Ruh Tasi
+	6	200012	1	23 // Hazine Sandigi
+	7	200216	16	200 // Hindiba
+	8	200011	8	40 // Cor Draconis Sandigi
+	9	200210	8	40 // ValleyCoin
+	10	80008	40	200 // 150.000 yang bar
+	11	200209	1	6 // Ekipman Kuponu
+	12	200200	8	200 // Jadeit Parcasi
+}
+Group	alev_kral
+{
+	Mob	2206
+	Type	drop
+	1	71084	70	200 // Efsun Nesnesi
+	2	200000	15	200 // Beceri Kitabi Sandigi
+	3	200009	10	200 // Egitim Sandigi
+	4	25040	10	40 // Kutsama Kagidi
+	5	50513	1	40 // Ruh Tasi
+	6	200012	1	24 // Hazine Sandigi
+	7	200216	18	200 // Hindiba
+	8	200011	10	40 // Cor Draconis Sandigi
+	9	200210	3	40 // ValleyCoin
+	10	80008	40	200 // 150.000 yang bar
+	11	200209	1	7 // Ekipman Kuponu
+	12	200200	10	200 // Jadeit Parcasi
+}
+Group	guclu_buz_cadisi
+{
+	Mob	1192
+	Type	drop
+	1	71084	80	200 // Efsun Nesnesi
+	2	200000	18	200 // Beceri Kitabi Sandigi
+	3	200009	12	200 // Egitim Sandigi
+	4	25040	12	40 // Kutsama Kagidi
+	5	50513	2	40 // Ruh Tasi
+	6	200012	1	25 // Hazine Sandigi
+	7	200216	20	200 // Hindiba
+	8	200011	12	40 // Cor Draconis Sandigi
+	9	200210	12	40 // ValleyCoin
+	10	80008	45	200 // 150.000 yang bar
+	11	200209	1	8 // Ekipman Kuponu
+	12	200200	12	200 // Jadeit Parcasi
+	13	200014	4	40 // İstiridye
+	14	80019	8	40 // Ince Kumas
+}
+Group	general
+{
+	Mob	2495
+	Type	drop
+	1	71084	100	200 // Efsun Nesnesi
+	2	200000	20	200 // Beceri Kitabi Sandigi
+	3	200009	15	200 // Egitim Sandigi
+	4	25040	15	40 // Kutsama Kagidi
+	5	50513	2	40 // Ruh Tasi
+	6	200012	1	25 // Hazine Sandigi
+	7	200216	20	200 // Hindiba
+	8	200011	14	40 // Cor Draconis Sandigi
+	9	200210	15	40 // ValleyCoin
+	10	80008	50	200 // 150.000 yang bar
+	11	200209	1	8 // Ekipman Kuponu
+	12	200200	15	200 // Jadeit Parcasi
+	13	200014	5	40 // İstiridye
+	14	80019	10	40 // Ince Kumas
+}
+Group	dev_hayalet_agac
+{
+	Mob	2306
+	Type	drop
+	1	71084	80	200 // Efsun Nesnesi
+	2	200000	18	200 // Beceri Kitabi Sandigi
+	3	200009	12	200 // Egitim Sandigi
+	4	25040	12	40 // Kutsama Kagidi
+	5	50513	2	40 // Ruh Tasi
+	6	200012	1	25 // Hazine Sandigi
+	7	200216	20	200 // Hindiba
+	8	200011	12	40 // Cor Draconis Sandigi
+	9	200210	12	40 // ValleyCoin
+	10	80008	45	200 // 150.000 yang bar
+	11	200209	1	8 // Ekipman Kuponu
+	12	200200	12	200 // Jadeit Parcasi
+	13	200014	4	40 // İstiridye
+	14	80019	8	40 // Ince Kumas
+}
+Group	hayalet_agac_lordu
+{
+	Mob	2307
+	Type	drop
+	1	71084	100	200 // Efsun Nesnesi
+	2	200000	20	200 // Beceri Kitabi Sandigi
+	3	200009	15	200 // Egitim Sandigi
+	4	25040	15	40 // Kutsama Kagidi
+	5	50513	2	40 // Ruh Tasi
+	6	200012	1	25 // Hazine Sandigi
+	7	200216	20	200 // Hindiba
+	8	200011	14	40 // Cor Draconis Sandigi
+	9	200210	15	40 // ValleyCoin
+	10	80008	50	200 // 150.000 yang bar
+	11	200209	1	8 // Ekipman Kuponu
+	12	200200	15	200 // Jadeit Parcasi
+	13	200014	5	40 // İstiridye
+	14	80019	10	40 // Ince Kumas
+}
+Group	lemur_muhafizi
+{
+	Mob	3391
+	Type	drop
+	1	71084	150	200 // Efsun Nesnesi
+	2	200000	30	200 // Beceri Kitabi Sandigi
+	3	200009	20	200 // Egitim Sandigi
+	4	25040	20	40 // Kutsama Kagidi
+	5	50513	3	40 // Ruh Tasi
+	6	200012	1	30 // Hazine Sandigi
+	7	200216	30	200 // Hindiba
+	8	200011	16	40 // Cor Draconis Sandigi
+	9	200210	20	40 // ValleyCoin
+	10	80008	75	200 // 150.000 yang bar
+	11	200202	18	200 // Ametist Parcasi
+	12	200200	12	200 // Jadeit Parcasi
+	13	200014	6	40 // İstiridye
+	14	80019	12	40 // Ince Kumas
+}
+Group	en_tai_hukumdari
+{
+	Mob	6407
+	Type	drop
+	1	71084	250	200 // Efsun Nesnesi
+	2	200000	40	200 // Beceri Kitabi Sandigi
+	3	200009	25	200 // Egitim Sandigi
+	4	25040	25	40 // Kutsama Kagidi
+	5	50513	3	40 // Ruh Tasi
+	6	200012	1	35 // Hazine Sandigi
+	7	200216	40	200 // Hindiba
+	8	200011	18	40 // Cor Draconis Sandigi
+	9	200210	25	40 // ValleyCoin
+	10	80008	120	200 // 150.000 yang bar
+	11	200202	20	200 // Ametist Parcasi
+	12	200200	10	200 // Jadeit Parcasi
+	13	200015	7	40 // Altin İstiridye
+	14	80019	14	40 // Ince Kumas
+	15	25041	1	10 // Buyulu Metal
+}
+Group	yesil_ejderha
+{
+	Mob	41006
+	Type	drop
+	1	71084	300	200 // Efsun Nesnesi
+	2	200000	50	200 // Beceri Kitabi Sandigi
+	3	200009	30	200 // Egitim Sandigi
+	4	25040	30	40 // Kutsama Kagidi
+	5	50513	4	40 // Ruh Tasi
+	6	200012	1	35 // Hazine Sandigi
+	7	200216	50	200 // Hindiba
+	8	200011	20	40 // Cor Draconis Sandigi
+	9	200210	30	40 // ValleyCoin
+	10	80008	200	200 // 150.000 yang bar
+	11	200204	20	200 // Ametist Parcasi
+	12	200202	10	200 // Jadeit Parcasi
+	13	200015	10	40 // Altin İstiridye
+	14	80019	20	40 // Ince Kumas
+	15	25041	1	15 // Buyulu Metal
+}
+Group	uzuntu_metini
+{
+	Mob	8001
+	Type	drop
+	1	71151	4	200 // Yeşil Efsun
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	80008	1	200 // 150.000 yang bar
+}
+Group	dovus_metini
+{
+	Mob	8002
+	Type	drop
+	1	71151	4	200 // Yeşil Efsun
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	80008	1	200 // 150.000 yang bar
+}
+Group	savas_metini
+{
+	Mob	8003
+	Type	drop
+	1	71151	4	200 // Yeşil Efsun
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	80008	1	200 // 150.000 yang bar
+}
+Group	hirs_metini
+{
+	Mob	8004
+	Type	drop
+	1	71151	4	200 // Yeşil Efsun
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	80008	1	200 // 150.000 yang bar
+}
+Group	siyah_metin
+{
+	Mob	8005
+	Type	drop
+	1	71151	6	200 // Yeşil Efsun
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	200009	1	200 // Egitim Sandigi
+	4	80008	1	200 // 150.000 yang bar
+	5	80008	1	30 // 150.000 yang bar
+}
+Group	karanlik_metin
+{
+	Mob	8006
+	Type	drop
+	1	71151	6	200 // Yeşil Efsun
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	200009	1	200 // Egitim Sandigi
+	4	80008	1	200 // 150.000 yang bar
+	5	80008	1	40 // 150.000 yang bar
+}
+Group	kiskanclik_metini
+{
+	Mob	8007
+	Type	drop
+	1	71151	6	200 // Yeşil Efsun
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	200009	1	200 // Egitim Sandigi
+	4	80008	1	200 // 150.000 yang bar
+	5	80008	1	50 // 150.000 yang bar
+}
+Group	ruh_metini
+{
+	Mob	8008
+	Type	drop
+	1	71084	8	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	200009	1	200 // Egitim Sandigi
+	4	25040	1	30 // Kutsama Kagidi
+	5	50513	1	3 // Ruh Tasi
+	6	200012	1	1 // Hazine Sandigi
+	7	200216	1	200 // Hindiba
+	8	200210	1	25 // ValleyCoin
+	9	80008	1	200 // 150.000 yang bar
+	10	80008	2	8 // 150.000 yang bar
+	11	200209	1	3 // Ekipman Kuponu
+	12	200200	1	200 // Jadeit Parcasi
+	13	200200	1	10 // Jadeit Parcasi
+	14	200206	1	200 // Zindan Parsomeni (Düşük)
+	15	200217	1	200 // Biyolog Kitabi
+}
+Group	golge_metini
+{
+	Mob	8009
+	Type	drop
+	1	71084	9	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	200009	1	200 // Egitim Sandigi
+	4	25040	1	30 // Kutsama Kagidi
+	5	50513	1	4 // Ruh Tasi
+	6	200012	1	1.10 // Hazine Sandigi
+	7	200216	1	200 // Hindiba
+	8	200216	1	10 // Hindiba
+	9	200210	1	25 // ValleyCoin
+	10	80008	1	200 // 150.000 yang bar
+	11	80008	2	10 // 150.000 yang bar
+	12	80008	3	5 // 150.000 yang bar
+	13	200209	1	3.10 // Ekipman Kuponu
+	14	200200	1	200 // Jadeit Parcasi
+	15	200200	1	10 // Jadeit Parcasi
+	16	200206	1	200 // Zindan Parsomeni (Düşük)
+	17	200217	1	200 // Biyolog Kitabi
+}
+Group	dayaniklilik_metini
+{
+	Mob	8010
+	Type	drop
+	1	71084	10	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	200009	1	200 // Egitim Sandigi
+	4	25040	1	30 // Kutsama Kagidi
+	5	50513	1	5 // Ruh Tasi
+	6	200012	1	1.20 // Hazine Sandigi
+	7	200216	1	200 // Hindiba
+	8	200216	1	12 // Hindiba
+	9	200011	1	10 // Cor Draconis Sandigi
+	10	200210	1	25 // ValleyCoin
+	11	80008	1	200 // 150.000 yang bar
+	12	80008	2	15 // 150.000 yang bar
+	13	80008	3	7 // 150.000 yang bar
+	14	200209	1	3.20 // Ekipman Kuponu
+	15	200200	1	200 // Jadeit Parcasi
+	16	200200	1	12 // Jadeit Parcasi
+	17	200206	1	200 // Zindan Parsomeni (Düşük)
+	18	200217	1	200 // Biyolog Kitabi
+}
+Group	seytan_metini
+{
+	Mob	8011
+	Type	drop
+	1	71084	11	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	200009	1	200 // Egitim Sandigi
+	4	25040	1	30 // Kutsama Kagidi
+	5	50513	1	6 // Ruh Tasi
+	6	200012	1	1.30 // Hazine Sandigi
+	7	200216	1	200 // Hindiba
+	8	200216	1	14 // Hindiba
+	9	200011	1	12 // Cor Draconis Sandigi
+	10	200210	1	25 // ValleyCoin
+	11	80008	1	200 // 150.000 yang bar
+	12	80008	2	25 // 150.000 yang bar
+	13	80008	3	8 // 150.000 yang bar
+	14	200209	1	3.30 // Ekipman Kuponu
+	15	200200	1	200 // Jadeit Parcasi
+	16	200200	1	14 // Jadeit Parcasi
+	17	200206	1	200 // Zindan Parsomeni (Düşük)
+	18	200217	2	200 // Biyolog Kitabi
+}
+Group	lanet_metini
+{
+	Mob	8012
+	Type	drop
+	1	71084	12	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	200009	1	200 // Egitim Sandigi
+	4	25040	1	30 // Kutsama Kagidi
+	5	50513	1	8 // Ruh Tasi
+	6	200012	1	1.40 // Hazine Sandigi
+	7	200216	1	200 // Hindiba
+	8	200216	1	16 // Hindiba
+	9	200011	1	14 // Cor Draconis Sandigi
+	10	200210	1	25 // ValleyCoin
+	11	80008	1	200 // 150.000 yang bar
+	12	80008	2	35 // 150.000 yang bar
+	13	80008	3	8 // 150.000 yang bar
+	14	80008	4	2 // 150.000 yang bar
+	15	200209	1	3.40 // Ekipman Kuponu
+	16	200200	1	200 // Jadeit Parcasi
+	17	200200	1	16 // Jadeit Parcasi
+	18	200206	1	200 // Zindan Parsomeni (Düşük)
+	19	200206	1	10 // Zindan Parsomeni (Düşük)
+	20	200217	2	200 // Biyolog Kitabi
+}
+Group	olum_metini
+{
+	Mob	8013
+	Type	drop
+	1	71084	15	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	200009	1	200 // Egitim Sandigi
+	4	25040	1	30 // Kutsama Kagidi
+	5	50513	1	10 // Ruh Tasi
+	6	200012	1	1.50 // Hazine Sandigi
+	7	200216	1	200 // Hindiba
+	8	200216	1	18 // Hindiba
+	9	200011	1	16 // Cor Draconis Sandigi
+	10	200210	1	25 // ValleyCoin
+	11	80008	1	200 // 150.000 yang bar
+	12	80008	2	45 // 150.000 yang bar
+	13	80008	3	10 // 150.000 yang bar
+	14	80008	4	2 // 150.000 yang bar
+	15	200209	1	3.50 // Ekipman Kuponu
+	16	200200	1	200 // Jadeit Parcasi
+	17	200200	1	18 // Jadeit Parcasi
+	18	200206	1	200 // Zindan Parsomeni (Düşük)
+	19	200206	1	10 // Zindan Parsomeni (Düşük)
+	20	200217	2	200 // Biyolog Kitabi
+}
+Group	katil_metini
+{
+	Mob	8014
+	Type	drop
+	1	71084	15	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	200009	1	200 // Egitim Sandigi
+	4	25040	1	30 // Kutsama Kagidi
+	5	50513	1	12 // Ruh Tasi
+	6	200012	1	1.60 // Hazine Sandigi
+	7	200216	1	200 // Hindiba
+	8	200216	1	20 // Hindiba
+	9	200011	1	18 // Cor Draconis Sandigi
+	10	200210	1	25 // ValleyCoin
+	11	80008	1	200 // 150.000 yang bar
+	12	80008	2	65 // 150.000 yang bar
+	13	80008	3	10 // 150.000 yang bar
+	14	80008	4	2 // 150.000 yang bar
+	15	200209	1	3.50 // Ekipman Kuponu
+	16	200200	1	200 // Jadeit Parcasi
+	17	200200	1	20 // Jadeit Parcasi
+	18	200207	1	200 // Zindan Parsomeni (Orta)
+	19	200207	1	10 // Zindan Parsomeni (Orta)
+	20	200217	2	200 // Biyolog Kitabi
+}
+Group	pung_ma_metini
+{
+	Mob	8024
+	Type	drop
+	1	71084	18	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	2	200000	1	30 // Beceri Kitabi Sandigi
+	3	200009	1	200 // Egitim Sandigi
+	4	25040	1	34 // Kutsama Kagidi
+	5	50513	1	14 // Ruh Tasi
+	6	200012	1	1.70 // Hazine Sandigi
+	7	200216	1	200 // Hindiba
+	8	200216	1	22 // Hindiba
+	9	200011	1	20 // Cor Draconis Sandigi
+	10	200210	1	25 // ValleyCoin
+	11	80008	2	200 // 150.000 yang bar
+	12	80008	3	35 // 150.000 yang bar
+	13	80008	4	10 // 150.000 yang bar
+	14	80008	6	2 // 150.000 yang bar
+	15	200200	1	200 // Jadeit Parcasi
+	16	200200	1	200 // Jadeit Parcasi
+	17	200200	1	10 // Jadeit Parcasi
+	18	70005	1	3 // Tec
+	19	70043	1	3 // Hirsiz
+	20	200014	1	20 // istiridye
+	21	80019	1	10 // Ince Kumas
+	22	200207	1	200 // Zindan Parsomeni (Orta)
+	23	200207	1	10 // Zindan Parsomeni (Orta)
+	24	200217	3	200 // Biyolog Kitabi
+}
+Group	ma_an_metini
+{
+	Mob	8025
+	Type	drop
+	1	71084	18	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	2	200000	1	22 // Beceri Kitabi Sandigi
+	3	200009	1	200 // Egitim Sandigi
+	4	25040	1	34 // Kutsama Kagidi
+	5	50513	1	16 // Ruh Tasi
+	6	200012	1	1.80 // Hazine Sandigi
+	7	200216	1	200 // Hindiba
+	8	200216	1	24 // Hindiba
+	9	200011	1	20 // Cor Draconis Sandigi
+	10	200210	1	25 // ValleyCoin
+	11	80008	2	200 // 150.000 yang bar
+	12	80008	3	36 // 150.000 yang bar
+	13	80008	4	10 // 150.000 yang bar
+	14	80008	6	2 // 150.000 yang bar
+	15	200200	1	200 // Jadeit Parcasi
+	16	200200	1	200 // Jadeit Parcasi
+	17	200200	1	14 // Jadeit Parcasi
+	18	70005	1	3 // Tec
+	19	70043	1	3 // Hirsiz
+	20	200014	1	25 // istiridye
+	21	80019	1	12 // Ince Kumas
+	22	200207	1	200 // Zindan Parsomeni (Orta)
+	23	200207	1	10 // Zindan Parsomeni (Orta)
+	24	200217	3	200 // Biyolog Kitabi
+}
+Group	tu_young_metini
+{
+	Mob	8026
+	Type	drop
+	1	71084	20	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	2	200000	1	24 // Beceri Kitabi Sandigi
+	3	200009	1	200 // Egitim Sandigi
+	4	25040	1	34 // Kutsama Kagidi
+	5	50513	1	18 // Ruh Tasi
+	6	200012	1	1.90 // Hazine Sandigi
+	7	200216	1	200 // Hindiba
+	8	200216	1	27 // Hindiba
+	9	200011	1	22 // Cor Draconis Sandigi
+	10	200210	1	30 // ValleyCoin
+	11	80008	2	200 // 150.000 yang bar
+	12	80008	3	38 // 150.000 yang bar
+	13	80008	4	10 // 150.000 yang bar
+	14	80008	6	2 // 150.000 yang bar
+	15	200200	1	200 // Jadeit Parcasi
+	16	200200	1	200 // Jadeit Parcasi
+	17	200200	1	17 // Jadeit Parcasi
+	18	70005	1	4 // Tec
+	19	70043	1	4 // Hirsiz
+	20	200014	1	30 // istiridye
+	21	80019	1	15 // Ince Kumas
+	22	200207	1	200 // Zindan Parsomeni (Orta)
+	23	200207	1	10 // Zindan Parsomeni (Orta)
+	24	200217	4	200 // Biyolog Kitabi
+}
+Group	jeon_un_metini
+{
+	Mob	8027
+	Type	drop
+	1	71084	20	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	2	200000	1	26 // Beceri Kitabi Sandigi
+	3	200009	1	200 // Egitim Sandigi
+	4	25040	1	34 // Kutsama Kagidi
+	5	50513	1	20 // Ruh Tasi
+	6	200012	1	2 // Hazine Sandigi
+	7	200216	1	200 // Hindiba
+	8	200216	1	30 // Hindiba
+	9	200011	1	25 // Cor Draconis Sandigi
+	10	200210	1	30 // ValleyCoin
+	11	80008	2	200 // 150.000 yang bar
+	12	80008	3	40 // 150.000 yang bar
+	13	80008	4	10 // 150.000 yang bar
+	14	80008	6	2 // 150.000 yang bar
+	15	200200	1	200 // Jadeit Parcasi
+	16	200200	1	200 // Jadeit Parcasi
+	17	200200	1	20 // Jadeit Parcasi
+	18	70005	1	4 // Tec
+	19	70043	1	4 // Hirsiz
+	20	200014	1	40 // istiridye
+	21	80019	1	15 // Ince Kumas
+	22	200207	1	200 // Zindan Parsomeni (Orta)
+	23	200207	1	10 // Zindan Parsomeni (Orta)
+	24	200217	4	200 // Biyolog Kitabi
+}
+Group	namertlik_metni
+{
+	Mob	8056
+	Type	drop
+	1	71084	25	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	200000	1	20 // Beceri Kitabi Sandigi
+	4	200009	1	200 // Egitim Sandigi
+	5	25040	1	36 // Kutsama Kagidi
+	6	50513	1	25 // Ruh Tasi
+	7	200012	1	2.50 // Hazine Sandigi
+	8	200022	1	3 // Yukseltme Sandigi
+	9	200216	1	200 // Hindiba
+	10	200216	1	40 // Hindiba
+	11	200216	1	10 // Hindiba
+	12	200011	1	200 // Cor Draconis Sandigi
+	13	200011	1	5 // Cor Draconis Sandigi
+	14	200210	1	35	// ValleyCoin
+	15	80008	3	200 // 150.000 yang bar
+	16	80008	3	20 // 150.000 yang bar
+	17	80008	2	10 // 150.000 yang bar
+	18	80008	4	2 // 150.000 yang bar
+	19	200202	1	200 // Ametist Parcasi
+	20	200202	1	30 // Ametist Parcasi
+	21	200200	1	200 // Jadeit Parcasi
+	22	70005	1	5 // Tec
+	23	70043	1	5 // Hirsiz
+	24	200014	1	25 // istiridye
+	25	80019	1	20 // Ince Kumas
+	26	200208	1	200 // Zindan Parsomeni (Yuksek)
+	27	200208	1	15 // Zindan Parsomeni (Yuksek)
+	28	200217	6	200 // Biyolog Kitabi
+}
+Group	buyulu_metni
+{
+	Mob	8059
+	Type	drop
+	1	71084	30	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	200000	1	60 // Beceri Kitabi Sandigi
+	4	200009	1	200 // Egitim Sandigi
+	5	25040	1	38 // Kutsama Kagidi
+	6	50513	1	30 // Ruh Tasi
+	7	200012	1	3 // Hazine Sandigi
+	8	200022	1	4 // Yukseltme Sandigi
+	9	200216	1	200 // Hindiba
+	10	200216	1	70 // Hindiba
+	11	200011	1	200 // Cor Draconis Sandigi
+	12	200011	1	25 // Cor Draconis Sandigi
+	13	200210	1	40 // ValleyCoin
+	14	80008	3	200 // 150.000 yang bar
+	15	80008	3	25 // 150.000 yang bar
+	16	80008	2	10 // 150.000 yang bar
+	17	80008	4	2 // 150.000 yang bar
+	18	200202	1	200 // Ametist Parcasi
+	19	200202	1	70 // Ametist Parcasi
+	20	200200	1	25 // Jadeit Parcasi
+	21	80019	1	20 // Ince Kumas
+	22	200015	1	4 // Altin Istiridye
+	23	25041	1	0.20 // Buyulu Metal
+	24	200208	1	200 // Zindan Parsomeni (Yuksek)
+	25	200208	1	30 // Zindan Parsomeni (Yuksek)
+	26	200217	8	200 // Biyolog Kitabi
+}
+Group	dinozor_metni
+{
+	Mob	41005
+	Type	drop
+	1	71084	40	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	200000	1	200 // Beceri Kitabi Sandigi
+	4	200000	1	10 // Beceri Kitabi Sandigi
+	5	200009	1	200 // Egitim Sandigi
+	6	25040	1	40 // Kutsama Kagidi
+	7	50513	1	30 // Ruh Tasi
+	8	200012	1	3 // Hazine Sandigi
+	9	200023	1	3 // Gelismis Yukseltme Sandigi
+	10	200216	1	200 // Hindiba
+	11	200216	1	200 // Hindiba
+	12	200216	1	10 // Hindiba
+	13	200011	1	200 // Cor Draconis Sandigi
+	14	200011	1	70 // Cor Draconis Sandigi
+	15	200011	1	5 // Cor Draconis Sandigi
+	16	200210	1	40 // ValleyCoin
+	17	80008	4	200 // 150.000 yang bar
+	18	80008	4	25 // 150.000 yang bar
+	19	80008	3	10 // 150.000 yang bar
+	20	80008	5	2 // 150.000 yang bar
+	21	200204	1	200 // Yakut Parcasi
+	22	200204	1	70 // Yakut Parcasi
+	23	200202	1	30 // Ametist Parcasi
+	24	80019	1	20 // Ince Kumas
+	25	200015	1	6 // Altin Istiridye
+	26	25041	1	0.35 // Buyulu Metal
+	27	200208	1	200 // Zindan Parsomeni (Yuksek)
+	28	200208	1	50 // Zindan Parsomeni (Yuksek)
+	29	200217	10	200 // Biyolog Kitabi
+}
+Group	zehirli_metin
+{
+	Mob	40006
+	Type	drop
+	1	71084	20	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	2	200000	1	26 // Beceri Kitabi Sandigi
+	3	200009	1	200 // Egitim Sandigi
+	4	25040	1	34 // Kutsama Kagidi
+	5	50513	1	20 // Ruh Tasi
+	6	200012	1	2 // Hazine Sandigi
+	7	200216	1	200 // Hindiba
+	8	200216	1	30 // Hindiba
+	9	200011	1	25 // Cor Draconis Sandigi
+	10	200210	1	30 // ValleyCoin
+	11	80008	2	200 // 150.000 yang bar
+	12	80008	3	40 // 150.000 yang bar
+	13	80008	4	10 // 150.000 yang bar
+	14	80008	6	2 // 150.000 yang bar
+	15	200200	1	200 // Jadeit Parcasi
+	16	200200	1	200 // Jadeit Parcasi
+	17	200200	1	25 // Jadeit Parcasi
+	18	70005	1	4 // Tec
+	19	70043	1	4 // Hirsiz
+	20	200014	1	40 // istiridye
+	21	80019	1	15 // Ince Kumas
+	22	200207	1	200 // Zindan Parsomeni (Orta)
+	23	200207	1	10 // Zindan Parsomeni (Orta)
+	24	200217	4	200 // Biyolog Kitabi
+}
+Group	zehirli_seytan_krali
+{
+	Mob	40007
+	Type	drop
+	1	200067	1	200 // Lusifer Sandigi
+	2	50513	1	40 // Ruh Tasi
+	3	25040	5	20 // Kutsama Kagidi
+	4	71084	100	40 // Efsun Nesnesi
+	5	200012	1	2.50 // Hazine Sandigi
+	6	200210	3	40 // ValleyCoin
+	7	30193	1	20 // Parmak Kemikleri
+}
+Group	zehirli_lusifer
+{
+	Mob	40008
+	Type	drop
+	1	200067	2	200 // Lusifer Sandigi
+	2	50513	1	10 // Ruh Tasi
+	3	25040	10	20 // Kutsama Kagidi
+	4	71084	200	40 // Efsun Nesnesi
+	5	200012	1	3 // Hazine Sandigi
+	6	200210	5	40 // ValleyCoin
+	7	200500	1	10 // Lusifer Bileti
+	8	30193	1	200 // Parmak Kemikleri
+	9	30193	1	15 // Parmak Kemikleri
+	10	200409	1	20 // Tilsim Parsomeni
+	11	200410	1	20 // Tilsim Kristali
+	12	200411	1	20 // Tilsim Sandukasi
+}
+Group	orumcek_metin
+{
+	Mob	40015
+	Type	drop
+	1	71084	20	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	2	200000	1	26 // Beceri Kitabi Sandigi
+	3	200009	1	200 // Egitim Sandigi
+	4	25040	1	34 // Kutsama Kagidi
+	5	50513	1	20 // Ruh Tasi
+	6	200012	1	2 // Hazine Sandigi
+	7	200216	1	200 // Hindiba
+	8	200216	1	30 // Hindiba
+	9	200011	1	25 // Cor Draconis Sandigi
+	10	200210	1	30 // ValleyCoin
+	11	80008	2	200 // 150.000 yang bar
+	12	80008	3	40 // 150.000 yang bar
+	13	80008	4	10 // 150.000 yang bar
+	14	80008	6	2 // 150.000 yang bar
+	15	200200	1	200 // Jadeit Parcasi
+	16	200200	1	200 // Jadeit Parcasi
+	17	200200	1	25 // Jadeit Parcasi
+	18	70005	1	4 // Tec
+	19	70043	1	4 // Hirsiz
+	20	200014	1	40 // istiridye
+	21	80019	1	15 // Ince Kumas
+	22	200207	1	200 // Zindan Parsomeni (Orta)
+	23	200207	1	10 // Zindan Parsomeni (Orta)
+	24	200217	4	200 // Biyolog Kitabi
+}
+Group	orumcek_baronu
+{
+	Mob	40016
+	Type	drop
+	1	200068	1	200 // Barones Sandigi
+	2	50513	1	20 // Ruh Tasi
+	3	25040	5	20 // Kutsama Kagidi
+	4	71084	100	40 // Efsun Nesnesi
+	5	200012	1	2.50 // Hazine Sandigi
+	6	200210	3	40 // ValleyCoin
+}
+Group	orumcek_barones
+{
+	Mob	40017
+	Type	drop
+	1	200068	2	200 // Barones Sandigi
+	2	55401	1	10 // Pet Yumurtasi
+	3	50513	1	40 // Ruh Tasi
+	4	25040	10	20 // Kutsama Kagidi
+	5	71084	225	40 // Efsun Nesnesi
+	6	200012	1	3.05 // Hazine Sandigi
+	7	200210	5	40 // ValleyCoin
+	8	200501	1	10 // Barones Bileti
+	9	200215	1	50 // Elysium Parasi
+	10	200412	1	20 // Tilsim Parsomeni
+	11	200413	1	20 // Tilsim Kristali
+	12	200414	1	20 // Tilsim Sandukasi
+}
+Group	cin_metni
+{
+	Mob	40024
+	Type	drop
+	1	71084	20	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	2	200000	1	26 // Beceri Kitabi Sandigi
+	3	200009	1	200 // Egitim Sandigi
+	4	25040	1	34 // Kutsama Kagidi
+	5	50513	1	20 // Ruh Tasi
+	6	200012	1	2 // Hazine Sandigi
+	7	200216	1	200 // Hindiba
+	8	200216	1	30 // Hindiba
+	9	200011	1	25 // Cor Draconis Sandigi
+	10	200210	1	30 // ValleyCoin
+	11	80008	2	200 // 150.000 yang bar
+	12	80008	3	40 // 150.000 yang bar
+	13	80008	4	10 // 150.000 yang bar
+	14	80008	6	2 // 150.000 yang bar
+	15	200200	1	200 // Jadeit Parcasi
+	16	200200	1	200 // Jadeit Parcasi
+	17	200200	1	25 // Jadeit Parcasi
+	18	70005	1	4 // Tec
+	19	70043	1	4 // Hirsiz
+	20	200014	1	40 // istiridye
+	21	80019	1	15 // Ince Kumas
+	22	200207	1	200 // Zindan Parsomeni (Orta)
+	23	200207	1	10 // Zindan Parsomeni (Orta)
+	24	200217	4	200 // Biyolog Kitabi
+}
+Group	sihirli_ork_boss
+{
+	Mob	40025
+	Type	drop
+	1	200069	1	200 // Cin Sandigi
+	2	50513	1	40 // Ruh Tasi
+	3	25040	5	20 // Kutsama Kagidi
+	4	71084	100	40 // Efsun Nesnesi
+	5	200012	1	2.50 // Hazine Sandigi
+	6	200210	3	40 // ValleyCoin
+}
+Group	sihirli_cin
+{
+	Mob	40026
+	Type	drop
+	1	200069	2	200 // Cin Sandigi
+	2	50513	1	40 // Ruh Tasi
+	3	25040	10	20 // Kutsama Kagidi
+	4	71084	250	40 // Efsun Nesnesi
+	5	200012	1	3.10 // Hazine Sandigi
+	6	200210	5	40 // ValleyCoin
+	7	200502	1	10 // Cin Bileti
+	8	200215	1	50 // Elysium Parasi
+	9	200406	1	20 // Tilsim Parsomeni
+	10	200407	1	20 // Tilsim Kristali
+	11	200408	1	20 // Tilsim Sandukasi
+}
+Group	buz_diyari_metni
+{
+	Mob	40033
+	Type	drop
+	1	71084	20	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	2	200000	1	26 // Beceri Kitabi Sandigi
+	3	200009	1	200 // Egitim Sandigi
+	4	25040	1	34 // Kutsama Kagidi
+	5	50513	1	20 // Ruh Tasi
+	6	200012	1	2 // Hazine Sandigi
+	7	200216	1	200 // Hindiba
+	8	200216	1	30 // Hindiba
+	9	200011	1	25 // Cor Draconis Sandigi
+	10	200210	1	30 // ValleyCoin
+	11	80008	2	200 // 150.000 yang bar
+	12	80008	3	40 // 150.000 yang bar
+	13	80008	4	10 // 150.000 yang bar
+	14	80008	6	2 // 150.000 yang bar
+	15	200200	1	200 // Jadeit Parcasi
+	16	200200	1	200 // Jadeit Parcasi
+	17	200200	1	25 // Jadeit Parcasi
+	18	70005	1	4 // Tec
+	19	70043	1	4 // Hirsiz
+	20	200014	1	40 // istiridye
+	21	80019	1	15 // Ince Kumas
+	22	200207	1	200 // Zindan Parsomeni (Orta)
+	23	200207	1	10 // Zindan Parsomeni (Orta)
+	24	200217	4	200 // Biyolog Kitabi
+}
+Group	buz_golemi
+{
+	Mob	40034
+	Type	drop
+	1	200070	1	200 // Cin Sandigi
+	2	50513	1	40 // Ruh Tasi
+	3	25040	5	20 // Kutsama Kagidi
+	4	71084	100	40 // Efsun Nesnesi
+	5	200012	1	2.50 // Hazine Sandigi
+	6	200210	3	40 // ValleyCoin
+	7	200011	3	40 // Cor Draconis Sandigi
+}
+Group	buz_timsahi
+{
+	Mob	40035
+	Type	drop
+	1	200070	2	200 // Buz Timsahi Sandigi
+	2	50513	1	40 // Ruh Tasi
+	3	25040	10	20 // Kutsama Kagidi
+	4	71084	275	40 // Efsun Nesnesi
+	5	200012	1	3.10 // Hazine Sandigi
+	6	200210	5	40 // ValleyCoin
+	7	200503	1	10 // Buz Timsahi Bileti
+	8	200215	1	50 // Elysium Parasi
+	9	200011	5	40 // Cor Draconis Sandigi
+	10	55120	1	15 // Genc Pet Kitabi
+	11	200403	1	20 // Tilsim Parsomeni
+	12	200404	1	20 // Tilsim Kristali
+	13	200405	1	20 // Tilsim Sandukasi
+}
+Group	kabus_azrail_metni
+{
+	Mob	40042
+	Type	drop
+	1	71084	20	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	2	200000	1	26 // Beceri Kitabi Sandigi
+	3	200009	1	200 // Egitim Sandigi
+	4	25040	1	34 // Kutsama Kagidi
+	5	50513	1	20 // Ruh Tasi
+	6	200012	1	2 // Hazine Sandigi
+	7	200216	1	200 // Hindiba
+	8	200216	1	30 // Hindiba
+	9	200011	1	25 // Cor Draconis Sandigi
+	10	200210	1	30 // ValleyCoin
+	11	80008	2	200 // 150.000 yang bar
+	12	80008	3	40 // 150.000 yang bar
+	13	80008	4	10 // 150.000 yang bar
+	14	80008	6	2 // 150.000 yang bar
+	15	200200	1	200 // Jadeit Parcasi
+	16	200200	1	200 // Jadeit Parcasi
+	17	200200	1	25 // Jadeit Parcasi
+	18	70005	1	4 // Tec
+	19	70043	1	4 // Hirsiz
+	20	200014	1	40 // istiridye
+	21	80019	1	15 // Ince Kumas
+	22	200207	1	200 // Zindan Parsomeni (Orta)
+	23	200207	1	10 // Zindan Parsomeni (Orta)
+	24	200217	4	200 // Biyolog Kitabi
+}
+Group	kabus_kharoon
+{
+	Mob	40043
+	Type	drop
+	1	200071	1	200 // Cin Sandigi
+	2	50513	1	40 // Ruh Tasi
+	3	25040	5	20 // Kutsama Kagidi
+	4	71084	100	200 // Efsun Nesnesi
+	5	200012	1	2.50 // Hazine Sandigi
+	6	200210	3	40 // ValleyCoin
+	7	200011	3	40 // Cor Draconis Sandigi
+	8	30193	1	20 // Parmak Kemikleri
+}
+Group	kabus_azrail
+{
+	Mob	40044
+	Type	drop
+	1	200071	2	200 // Azrail Sandigi
+	2	55130	1	3.5 // Pet Skin
+	3	50513	2	40 // Ruh Tasi
+	4	25040	10	20 // Kutsama Kagidi
+	5	71084	275	40 // Efsun Nesnesi
+	6	200012	1	3.10 // Hazine Sandigi
+	7	200210	5	40 // ValleyCoin
+	8	200504	1	10 // Azrail Bileti
+	9	200215	1	50 // Elysium Parasi
+	10	30193	1	200 // Parmak Kemikleri
+	11	30193	1	15 // Parmak Kemikleri
+	12	200011	5	40 // Cor Draconis Sandigi
+	13	55120	1	15 // Genc Pet Kitabi
+	14	200409	1	20 // Tilsim Parsomeni
+	15	200410	1	20 // Tilsim Kristali
+	16	200411	1	20 // Tilsim Sandukasi
+}
+Group	mavi_ejderha_metni
+{
+	Mob	40051
+	Type	drop
+	1	71084	25	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	200000	1	45 // Beceri Kitabi Sandigi
+	4	200009	1	200 // Egitim Sandigi
+	5	25040	1	36 // Kutsama Kagidi
+	6	50513	1	25 // Ruh Tasi
+	7	200012	1	2.50 // Hazine Sandigi
+	8	200022	1	3 // Yukseltme Sandigi
+	9	200216	1	200 // Hindiba
+	10	200216	1	50 // Hindiba
+	11	200216	1	10 // Hindiba
+	12	200011	1	200 // Cor Draconis Sandigi
+	13	200011	1	20 // Cor Draconis Sandigi
+	14	200210	1	35	// ValleyCoin
+	15	80008	3	200 // 150.000 yang bar
+	16	80008	3	20 // 150.000 yang bar
+	17	80008	2	10 // 150.000 yang bar
+	18	80008	4	2 // 150.000 yang bar
+	19	200202	1	200 // Ametist Parcasi
+	20	200202	1	30 // Ametist Parcasi
+	21	200200	1	200 // Jadeit Parcasi
+	22	70005	1	5 // Tec
+	23	70043	1	5 // Hirsiz
+	24	200014	1	25 // istiridye
+	25	80019	1	20 // Ince Kumas
+	26	200208	1	200 // Zindan Parsomeni (Yuksek)
+	27	200208	1	15 // Zindan Parsomeni (Yuksek)
+	28	200217	6	200 // Biyolog Kitabi
+}
+Group	general
+{
+	Mob	40052
+	Type	drop
+	1	200072	1	200 // Cin Sandigi
+	2	50513	1	40 // Ruh Tasi
+	3	25040	5	20 // Kutsama Kagidi
+	4	71084	100	40 // Efsun Nesnesi
+	5	200012	1	2.50 // Hazine Sandigi
+	6	200210	3	40 // ValleyCoin
+	7	200011	3	40 // Cor Draconis Sandigi
+}
+Group	mavi_ejderha
+{
+	Mob	40053
+	Type	drop
+	1	200072	2	200 // Mavi Ejderha Sandigi
+	2	50513	1	40 // Ruh Tasi
+	3	25040	10	20 // Kutsama Kagidi
+	4	71084	300	40 // Efsun Nesnesi
+	5	200012	1	3.10 // Hazine Sandigi
+	6	200210	8	40 // ValleyCoin
+	7	200505	1	10 // Mavi Ejderha Bileti
+	8	200215	1	50 // Elysium Parasi
+	9	200221	1	100 //Ejderha Pulu
+	10	200222	1	100 //Ejderha Pençesi
+	11	200011	7	40 // Cor Draconis Sandigi
+	12	55120	1	15 // Genc Pet Kitabi
+	13	200415	1	20 // Tilsim Parsomeni
+	14	200416	1	20 // Tilsim Kristali
+	15	200417	1	20 // Tilsim Sandukasi
+}
+Group	razador_metni
+{
+	Mob	40060
+	Type	drop
+	1	71084	25	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	200000	1	45 // Beceri Kitabi Sandigi
+	4	200009	1	200 // Egitim Sandigi
+	5	25040	1	36 // Kutsama Kagidi
+	6	50513	1	25 // Ruh Tasi
+	7	200012	1	2.50 // Hazine Sandigi
+	8	200022	1	3 // Yukseltme Sandigi
+	9	200216	1	200 // Hindiba
+	10	200216	1	50 // Hindiba
+	11	200216	1	10 // Hindiba
+	12	200011	1	200 // Cor Draconis Sandigi
+	13	200011	1	20 // Cor Draconis Sandigi
+	14	200210	1	35	// ValleyCoin
+	15	80008	3	200 // 150.000 yang bar
+	16	80008	3	20 // 150.000 yang bar
+	17	80008	2	10 // 150.000 yang bar
+	18	80008	4	2 // 150.000 yang bar
+	19	200202	1	200 // Ametist Parcasi
+	20	200202	1	30 // Ametist Parcasi
+	21	200200	1	200 // Jadeit Parcasi
+	22	70005	1	5 // Tec
+	23	70043	1	5 // Hirsiz
+	24	200014	1	25 // istiridye
+	25	80019	1	20 // Ince Kumas
+	26	200208	1	200 // Zindan Parsomeni (Yuksek)
+	27	200208	1	15 // Zindan Parsomeni (Yuksek)
+	28	200217	6	200 // Biyolog Kitabi
+}
+Group	ignator
+{
+	Mob	40061
+	Type	drop
+	1	200073	1	200 // Razador Sandigi
+	2	50513	1	40 // Ruh Tasi
+	3	25040	7	20 // Kutsama Kagidi
+	4	71084	125	40 // Efsun Nesnesi
+	5	200012	1	3 // Hazine Sandigi
+	6	200210	5	40 // ValleyCoin
+	7	200011	5	40 // Cor Draconis Sandigi
+}
+Group	razador
+{
+	Mob	40062
+	Type	drop
+	1	200073	2	200 // Razador Sandigi
+	2	49990	1	15 // Auranin Buz Runigi
+	3	55125	1	2 // Pet Tip Belirleyici
+	4	50513	2	40 // Ruh Tasi
+	5	25040	10	20 // Kutsama Kagidi
+	6	71084	350	40 // Efsun Nesnesi
+	7	200012	1	3.50 // Hazine Sandigi
+	8	200210	10	40 // ValleyCoin
+	9	200506	1	10 // Razador Bileti
+	10	200215	1	50 // Elysium Parasi
+	11	200223	1	40 // Alev Tasi
+	12	200011	10	40 // Cor Draconis Sandigi
+	13	200021	1	15 // Pet Kitabi Sandigi
+	14	55121	1	15 // Yabani Pet Kitabi
+	15	200400	1	30 // Tilsim Parsomeni
+	16	200401	1	30 // Tilsim Kristali
+	17	200402	1	30 // Tilsim Sandukasi
+}
+Group	naga_metni
+{
+	Mob	40069
+	Type	drop
+	1	71084	25	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	200000	1	45 // Beceri Kitabi Sandigi
+	4	200009	1	200 // Egitim Sandigi
+	5	25040	1	36 // Kutsama Kagidi
+	6	50513	1	25 // Ruh Tasi
+	7	200012	1	2.50 // Hazine Sandigi
+	8	200022	1	3 // Yukseltme Sandigi
+	9	200216	1	200 // Hindiba
+	10	200216	1	50 // Hindiba
+	11	200216	1	10 // Hindiba
+	12	200011	1	200 // Cor Draconis Sandigi
+	13	200011	1	20 // Cor Draconis Sandigi
+	14	200210	1	35	// ValleyCoin
+	15	80008	3	200 // 150.000 yang bar
+	16	80008	3	20 // 150.000 yang bar
+	17	80008	2	10 // 150.000 yang bar
+	18	80008	4	2 // 150.000 yang bar
+	19	200202	1	200 // Ametist Parcasi
+	20	200202	1	30 // Ametist Parcasi
+	21	200200	1	200 // Jadeit Parcasi
+	22	70005	1	5 // Tec
+	23	70043	1	5 // Hirsiz
+	24	200014	1	25 // istiridye
+	25	80019	1	20 // Ince Kumas
+	26	200208	1	200 // Zindan Parsomeni (Yuksek)
+	27	200208	1	15 // Zindan Parsomeni (Yuksek)
+	28	200217	6	200 // Biyolog Kitabi
+}
+Group	naga_yari_boss
+{
+	Mob	40070
+	Type	drop
+	1	200074	1	200 // Naga Sandigi
+	2	50513	1	40 // Ruh Tasi
+	3	25040	7	20 // Kutsama Kagidi
+	4	71084	125	40 // Efsun Nesnesi
+	5	200012	1	3 // Hazine Sandigi
+	6	200210	5	40 // ValleyCoin
+	7	200011	5	40 // Cor Draconis Sandigi
+}
+Group	naga_kralicesi
+{
+	Mob	40071
+	Type	drop
+	1	200074	2	200 // Naga Sandigi
+	2	49990	1	15 // Auranin Buz Runigi
+	3	55125	1	2 // Pet Tip Belirleyici
+	4	50513	2	40 // Ruh Tasi
+	5	25040	10	20 // Kutsama Kagidi
+	6	71084	350	40 // Efsun Nesnesi
+	7	200012	1	3.50 // Hazine Sandigi
+	8	200210	10	40 // ValleyCoin
+	9	200507	1	10 // Naga Bileti
+	10	200215	1	50 // Elysium Parasi
+	11	200224	1	40 // Alev Tasi
+	12	200011	10	40 // Cor Draconis Sandigi
+	13	200021	1	15 // Pet Kitabi Sandigi
+	14	55121	1	15 // Yabani Pet Kitabi
+	15	200403	1	30 // Tilsim Parsomeni
+	16	200404	1	30 // Tilsim Kristali
+	17	200405	1	30 // Tilsim Sandukasi
+}
+Group	safir_metni
+{
+	Mob	40078
+	Type	drop
+	1	71084	25	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	200000	1	45 // Beceri Kitabi Sandigi
+	4	200009	1	200 // Egitim Sandigi
+	5	25040	1	36 // Kutsama Kagidi
+	6	50513	1	25 // Ruh Tasi
+	7	200012	1	2.50 // Hazine Sandigi
+	8	200022	1	3 // Yukseltme Sandigi
+	9	200216	1	200 // Hindiba
+	10	200216	1	50 // Hindiba
+	11	200216	1	10 // Hindiba
+	12	200011	1	200 // Cor Draconis Sandigi
+	13	200011	1	20 // Cor Draconis Sandigi
+	14	200210	1	35	// ValleyCoin
+	15	80008	3	200 // 150.000 yang bar
+	16	80008	3	20 // 150.000 yang bar
+	17	80008	2	10 // 150.000 yang bar
+	18	80008	4	2 // 150.000 yang bar
+	19	200202	1	200 // Ametist Parcasi
+	20	200202	1	30 // Ametist Parcasi
+	21	200200	1	200 // Jadeit Parcasi
+	22	70005	1	5 // Tec
+	23	70043	1	5 // Hirsiz
+	24	200014	1	25 // istiridye
+	25	80019	1	20 // Ince Kumas
+	26	200208	1	200 // Zindan Parsomeni (Yuksek)
+	27	200208	1	15 // Zindan Parsomeni (Yuksek)
+	28	200217	6	200 // Biyolog Kitabi
+}
+Group	safir_dinozor
+{
+	Mob	40079
+	Type	drop
+	1	200075	1	200 // Safir Kurt Sandigi
+	2	50513	1	40 // Ruh Tasi
+	3	25040	7	20 // Kutsama Kagidi
+	4	71084	125	40 // Efsun Nesnesi
+	5	200012	1	3 // Hazine Sandigi
+	6	200210	5	40 // ValleyCoin
+	7	200011	5	40 // Cor Draconis Sandigi
+}
+Group	safir_kurt
+{
+	Mob	40080
+	Type	drop
+	1	200075	2	200 // Safir Kurt Sandigi
+	2	49990	1	15 // Auranin Buz Runigi
+	3	55127	1	2 // Pet Efsunlayici
+	4	50513	2	40 // Ruh Tasi
+	5	25040	10	20 // Kutsama Kagidi
+	6	71084	400	40 // Efsun Nesnesi
+	7	200012	1	3.50 // Hazine Sandigi
+	8	200210	12	40 // ValleyCoin
+	9	200508	1	10 // Safir Kurt Bileti
+	10	200215	1	50 // Elysium Parasi
+	11	200011	10	40 // Cor Draconis Sandigi
+	12	200021	1	15 // Pet Kitabi Sandigi
+	13	55121	1	15 // Yabani Pet Kitabi
+	14	200415	1	30 // Tilsim Parsomeni
+	15	200416	1	30 // Tilsim Kristali
+	16	200417	1	30 // Tilsim Sandukasi
+}
+Group	jotun_metni
+{
+	Mob	40087
+	Type	drop
+	1	71084	25	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	200000	1	45 // Beceri Kitabi Sandigi
+	4	200009	1	200 // Egitim Sandigi
+	5	25040	1	36 // Kutsama Kagidi
+	6	50513	1	25 // Ruh Tasi
+	7	200012	1	2.50 // Hazine Sandigi
+	8	200022	1	3 // Yukseltme Sandigi
+	9	200216	1	200 // Hindiba
+	10	200216	1	50 // Hindiba
+	11	200216	1	10 // Hindiba
+	12	200011	1	200 // Cor Draconis Sandigi
+	13	200011	1	20 // Cor Draconis Sandigi
+	14	200210	1	35	// ValleyCoin
+	15	80008	3	200 // 150.000 yang bar
+	16	80008	3	20 // 150.000 yang bar
+	17	80008	2	10 // 150.000 yang bar
+	18	80008	4	2 // 150.000 yang bar
+	19	200202	1	200 // Ametist Parcasi
+	20	200202	1	30 // Ametist Parcasi
+	21	200200	1	200 // Jadeit Parcasi
+	22	70005	1	5 // Tec
+	23	70043	1	5 // Hirsiz
+	24	200014	1	25 // istiridye
+	25	80019	1	20 // Ince Kumas
+	26	200208	1	200 // Zindan Parsomeni (Yuksek)
+	27	200208	1	15 // Zindan Parsomeni (Yuksek)
+	28	200217	6	200 // Biyolog Kitabi
+}
+Group	bagjanamu
+{
+	Mob	40088
+	Type	drop
+	1	200076	1	200 // Jotun Sandigi
+	2	50513	1	40 // Ruh Tasi
+	3	25040	7	20 // Kutsama Kagidi
+	4	71084	125	40 // Efsun Nesnesi
+	5	200012	1	3 // Hazine Sandigi
+	6	200210	5	40 // ValleyCoin
+	7	200011	5	40 // Cor Draconis Sandigi
+}
+Group	jotun_thrym
+{
+	Mob	40089
+	Type	drop
+	1	200076	2	200 // Jotun Sandigi
+	2	49990	1	15 // Auranin Buz Runigi
+	3	55127	1	2 // Pet Efsunlayici
+	4	50513	2	40 // Ruh Tasi
+	5	25040	10	20 // Kutsama Kagidi
+	6	71084	400	40 // Efsun Nesnesi
+	7	200012	1	3.50 // Hazine Sandigi
+	8	200210	12	40 // ValleyCoin
+	9	200509	1	10 // Jotun Bileti
+	10	200215	1	50 // Elysium Parasi
+	11	200011	10	40 // Cor Draconis Sandigi
+	12	200021	1	15 // Pet Kitabi Sandigi
+	13	55121	1	15 // Yabani Pet Kitabi
+	14	200412	1	30 // Tilsim Parsomeni
+	15	200413	1	30 // Tilsim Kristali
+	16	200414	1	30 // Tilsim Sandukasi
+}
+Group	odin_metni
+{
+	Mob	40096
+	Type	drop
+	1	71084	30	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	200000	1	60 // Beceri Kitabi Sandigi
+	4	200009	1	200 // Egitim Sandigi
+	5	25040	1	38 // Kutsama Kagidi
+	6	50513	1	30 // Ruh Tasi
+	7	200012	1	3 // Hazine Sandigi
+	8	200022	1	4 // Yukseltme Sandigi
+	9	200216	1	200 // Hindiba
+	10	200216	1	70 // Hindiba
+	11	200011	1	200 // Cor Draconis Sandigi
+	12	200011	1	40 // Cor Draconis Sandigi
+	13	200210	1	40 // ValleyCoin
+	14	80008	3	200 // 150.000 yang bar
+	15	80008	3	25 // 150.000 yang bar
+	16	80008	2	10 // 150.000 yang bar
+	17	80008	4	2 // 150.000 yang bar
+	18	200202	1	200 // Ametist Parcasi
+	19	200202	1	70 // Ametist Parcasi
+	20	200200	1	25 // Jadeit Parcasi
+	21	80019	1	20 // Ince Kumas
+	22	200015	1	5 // Altin Istiridye
+	23	25041	1	0.60 // Buyulu Metal
+	24	200208	1	200 // Zindan Parsomeni (Yuksek)
+	25	200208	1	30 // Zindan Parsomeni (Yuksek)
+	26	200217	8	200 // Biyolog Kitabi
+}
+Group	olaf
+{
+	Mob	40097
+	Type	drop
+	1	200077	1	200 // Odin Sandigi
+	2	50513	1	40 // Ruh Tasi
+	3	25040	7	20 // Kutsama Kagidi
+	4	71084	125	40 // Efsun Nesnesi
+	5	200012	1	3 // Hazine Sandigi
+	6	200210	5	40 // ValleyCoin
+	7	200011	5	40 // Cor Draconis Sandigi
+}
+Group	odin
+{
+	Mob	40098
+	Type	drop
+	1	200077	2	200 // Odin Sandigi
+	2	49990	1	15 // Auranin Buz Runigi
+	3	55131	1	3.5 // Pet Skin
+	4	50513	2	40 // Ruh Tasi
+	5	25040	10	20 // Kutsama Kagidi
+	6	71084	450	40 // Efsun Nesnesi
+	7	200012	1	3.50 // Hazine Sandigi
+	8	200210	15	40 // ValleyCoin
+	9	200510	1	10 // Odin Bileti
+	10	200215	1	50 // Elysium Parasi
+	11	200011	10	40 // Cor Draconis Sandigi
+	12	200021	1	15 // Pet Kitabi Sandigi
+	13	55122	1	15 // Cesur Pet Kitabi
+	14	200406	1	30 // Tilsim Parsomeni
+	15	200407	1	30 // Tilsim Kristali
+	16	200408	1	30 // Tilsim Sandukasi
+}
+Group	troll_metni
+{
+	Mob	40105
+	Type	drop
+	1	71084	30	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	200000	1	60 // Beceri Kitabi Sandigi
+	4	200009	1	200 // Egitim Sandigi
+	5	25040	1	38 // Kutsama Kagidi
+	6	50513	1	30 // Ruh Tasi
+	7	200012	1	3 // Hazine Sandigi
+	8	200022	1	4 // Yukseltme Sandigi
+	9	200216	1	200 // Hindiba
+	10	200216	1	70 // Hindiba
+	11	200011	1	200 // Cor Draconis Sandigi
+	12	200011	1	40 // Cor Draconis Sandigi
+	13	200210	1	40 // ValleyCoin
+	14	80008	3	200 // 150.000 yang bar
+	15	80008	3	25 // 150.000 yang bar
+	16	80008	2	10 // 150.000 yang bar
+	17	80008	4	2 // 150.000 yang bar
+	18	200202	1	200 // Ametist Parcasi
+	19	200202	1	70 // Ametist Parcasi
+	20	200200	1	25 // Jadeit Parcasi
+	21	80019	1	20 // Ince Kumas
+	22	200015	1	5 // Altin Istiridye
+	23	25041	1	0.60 // Buyulu Metal
+	24	200208	1	200 // Zindan Parsomeni (Yuksek)
+	25	200208	1	30 // Zindan Parsomeni (Yuksek)
+	26	200217	8	200 // Biyolog Kitabi
+}
+Group	buyulu_goril
+{
+	Mob	40106
+	Type	drop
+	1	200078	1	200 // Troll Sandigi
+	2	50513	1	40 // Ruh Tasi
+	3	25040	7	20 // Kutsama Kagidi
+	4	71084	125	40 // Efsun Nesnesi
+	5	200012	1	3 // Hazine Sandigi
+	6	200210	5	40 // ValleyCoin
+	7	200011	5	40 // Cor Draconis Sandigi
+}
+Group	troll_boss
+{
+	Mob	40107
+	Type	drop
+	1	200078	2	200 // Troll Sandigi
+	2	49990	1	15 // Auranin Buz Runigi
+	3	50513	2	40 // Ruh Tasi
+	4	25040	10	20 // Kutsama Kagidi
+	5	71084	450	40 // Efsun Nesnesi
+	6	200012	1	3.50 // Hazine Sandigi
+	7	200210	15	40 // ValleyCoin
+	8	200511	1	10 // Troll Bileti
+	9	200215	1	50 // Elysium Parasi
+	10	200233	1	15 // Buyulu Troll Kristali
+	11	200234	1	15 // Buyulu Troll Taşi
+	12	200011	12	40 // Cor Draconis Sandigi
+	13	200021	1	15 // Pet Kitabi Sandigi
+	14	55122	1	15 // Cesur Pet Kitabi
+	15	200409	1	30 // Tilsim Parsomeni
+	16	200410	1	30 // Tilsim Kristali
+	17	200411	1	30 // Tilsim Sandukasi
+	18	39067	1	5 // Parca Sandigi
+}
+Group	meley_metni
+{
+	Mob	40114
+	Type	drop
+	1	71084	30	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	200000	1	60 // Beceri Kitabi Sandigi
+	4	200009	1	200 // Egitim Sandigi
+	5	25040	1	38 // Kutsama Kagidi
+	6	50513	1	30 // Ruh Tasi
+	7	200012	1	3 // Hazine Sandigi
+	8	200022	1	4 // Yukseltme Sandigi
+	9	200216	1	200 // Hindiba
+	10	200216	1	70 // Hindiba
+	11	200011	1	200 // Cor Draconis Sandigi
+	12	200011	1	40 // Cor Draconis Sandigi
+	13	200210	1	40 // ValleyCoin
+	14	80008	3	200 // 150.000 yang bar
+	15	80008	3	25 // 150.000 yang bar
+	16	80008	2	10 // 150.000 yang bar
+	17	80008	4	2 // 150.000 yang bar
+	18	200202	1	200 // Ametist Parcasi
+	19	200202	1	70 // Ametist Parcasi
+	20	200200	1	25 // Jadeit Parcasi
+	21	80019	1	20 // Ince Kumas
+	22	200015	1	5 // Altin Istiridye
+	23	25041	1	0.60 // Buyulu Metal
+	24	200208	1	200 // Zindan Parsomeni (Yuksek)
+	25	200208	1	30 // Zindan Parsomeni (Yuksek)
+	26	200217	8	200 // Biyolog Kitabi
+}
+Group	kirmizi_ejderha
+{
+	Mob	40115
+	Type	drop
+	1	200079	1	200 // Meley Sandigi
+	2	50513	2	40 // Ruh Tasi
+	3	25040	8	20 // Kutsama Kagidi
+	4	71084	150	40 // Efsun Nesnesi
+	5	200012	1	3.50 // Hazine Sandigi
+	6	200210	7	40 // ValleyCoin
+	7	200011	7	40 // Cor Draconis Sandigi
+}
+Group	meley_boss
+{
+	Mob	40116
+	Type	drop
+	1	200079	2	200 // Meley Sandigi
+	2	49990	1	15 // Auranin Buz Runigi
+	3	55132	1	3.5 // Pet Skin
+	4	50513	3	40 // Ruh Tasi
+	5	25040	10	20 // Kutsama Kagidi
+	6	71084	450	40 // Efsun Nesnesi
+	7	200012	1	3.50 // Hazine Sandigi
+	8	200210	15	40 // ValleyCoin
+	9	200512	1	10 // Meley Bileti
+	10	200215	1	50 // Elysium Parasi
+	11	200235	1	15 // Kraliçe Meley'in Kanadi
+	12	200011	12	40 // Cor Draconis Sandigi
+	13	200021	1	15 // Pet Kitabi Sandigi
+	14	55122	1	15 // Cesur Pet Kitabi
+	15	200400	1	40 // Tilsim Parsomeni
+	16	200401	1	40 // Tilsim Kristali
+	17	200402	1	40 // Tilsim Sandukasi
+	18	39067	1	5 // Parca Sandigi
+}
+Group	floraun_metni
+{
+	Mob	40123
+	Type	drop
+	1	71084	30	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	200000	1	60 // Beceri Kitabi Sandigi
+	4	200009	1	200 // Egitim Sandigi
+	5	25040	1	38 // Kutsama Kagidi
+	6	50513	1	30 // Ruh Tasi
+	7	200012	1	3 // Hazine Sandigi
+	8	200022	1	4 // Yukseltme Sandigi
+	9	200216	1	200 // Hindiba
+	10	200216	1	70 // Hindiba
+	11	200011	1	200 // Cor Draconis Sandigi
+	12	200011	1	40 // Cor Draconis Sandigi
+	13	200210	1	40 // ValleyCoin
+	14	80008	3	200 // 150.000 yang bar
+	15	80008	3	25 // 150.000 yang bar
+	16	80008	2	10 // 150.000 yang bar
+	17	80008	4	2 // 150.000 yang bar
+	18	200202	1	200 // Ametist Parcasi
+	19	200202	1	70 // Ametist Parcasi
+	20	200200	1	25 // Jadeit Parcasi
+	21	80019	1	20 // Ince Kumas
+	22	200015	1	5 // Altin Istiridye
+	23	25041	1	0.60 // Buyulu Metal
+	24	200208	1	200 // Zindan Parsomeni (Yuksek)
+	25	200208	1	30 // Zindan Parsomeni (Yuksek)
+	26	200217	8	200 // Biyolog Kitabi
+}
+Group	orman_perisi
+{
+	Mob	40124
+	Type	drop
+	1	200080	1	200 // Floraun Sandigi
+	2	50513	2	40 // Ruh Tasi
+	3	25040	8	20 // Kutsama Kagidi
+	4	71084	150	40 // Efsun Nesnesi
+	5	200012	1	3.50 // Hazine Sandigi
+	6	200210	7	40 // ValleyCoin
+	7	200011	7	40 // Cor Draconis Sandigi
+}
+Group	floraun
+{
+	Mob	40125
+	Type	drop
+	1	200080	2	200 // Floraun Sandigi
+	2	49990	1	15 // Auranin Buz Runigi
+	3	55128	1	2 // Pet Yildizi
+	4	50513	3	40 // Ruh Tasi
+	5	25040	10	20 // Kutsama Kagidi
+	6	71084	450	40 // Efsun Nesnesi
+	7	200012	1	3.50 // Hazine Sandigi
+	8	200210	15	40 // ValleyCoin
+	9	200513	1	10 // Floraun Bileti
+	10	200215	1	50 // Elysium Parasi
+	11	200236	1	15 // Floraun'in Boynuzu
+	12	200011	12	40 // Cor Draconis Sandigi
+	13	200021	1	15 // Pet Kitabi Sandigi
+	14	55122	1	15 // Cesur Pet Kitabi
+	15	200412	1	40 // Tilsim Parsomeni
+	16	200413	1	40 // Tilsim Kristali
+	17	200414	1	40 // Tilsim Sandukasi
+	18	39067	1	5 // Parca Sandigi
+}
+Group	alastor_metni
+{
+	Mob	40132
+	Type	drop
+	1	71084	30	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	200000	1	60 // Beceri Kitabi Sandigi
+	4	200009	1	200 // Egitim Sandigi
+	5	25040	1	38 // Kutsama Kagidi
+	6	50513	1	30 // Ruh Tasi
+	7	200012	1	3 // Hazine Sandigi
+	8	200022	1	4 // Yukseltme Sandigi
+	9	200216	1	200 // Hindiba
+	10	200216	1	70 // Hindiba
+	11	200011	1	200 // Cor Draconis Sandigi
+	12	200011	1	40 // Cor Draconis Sandigi
+	13	200210	1	40 // ValleyCoin
+	14	80008	3	200 // 150.000 yang bar
+	15	80008	3	25 // 150.000 yang bar
+	16	80008	2	10 // 150.000 yang bar
+	17	80008	4	2 // 150.000 yang bar
+	18	200202	1	200 // Ametist Parcasi
+	19	200202	1	70 // Ametist Parcasi
+	20	200200	1	25 // Jadeit Parcasi
+	21	80019	1	20 // Ince Kumas
+	22	200015	1	5 // Altin Istiridye
+	23	25041	1	0.60 // Buyulu Metal
+	24	200208	1	200 // Zindan Parsomeni (Yuksek)
+	25	200208	1	30 // Zindan Parsomeni (Yuksek)
+	26	200217	8	200 // Biyolog Kitabi
+}
+Group	kuzey_bekcisi
+{
+	Mob	40133
+	Type	drop
+	1	200081	1	200 // Alastor Sandigi
+	2	50513	2	40 // Ruh Tasi
+	3	25040	8	20 // Kutsama Kagidi
+	4	71084	150	40 // Efsun Nesnesi
+	5	200012	1	3.50 // Hazine Sandigi
+	6	200210	7	40 // ValleyCoin
+	7	200011	7	40 // Cor Draconis Sandigi
+}
+Group	alastor
+{
+	Mob	40134
+	Type	drop
+	1	200081	2	200 // Alastor Sandigi
+	2	49991	1	15 // Auranin Ates Runigi
+	3	55133	1	3.5 // Pet Skin
+	4	50513	3	40 // Ruh Tasi
+	5	25040	10	20 // Kutsama Kagidi
+	6	71084	500	40 // Efsun Nesnesi
+	7	200012	1	3.50 // Hazine Sandigi
+	8	200210	20	40 // ValleyCoin
+	9	200514	1	10 // Alastor Bileti
+	10	200215	1	50 // Elysium Parasi
+	11	200240	1	15 // Alastor'un Kalbi
+	12	200011	12	40 // Cor Draconis Sandigi
+	13	200021	1	15 // Pet Kitabi Sandigi
+	14	55122	1	15 // Cesur Pet Kitabi
+	15	200403	1	40 // Tilsim Parsomeni
+	16	200404	1	40 // Tilsim Kristali
+	17	200405	1	40 // Tilsim Sandukasi
+	18	39067	1	5 // Parca Sandigi
+}
+Group	atlantis_metni
+{
+	Mob	40141
+	Type	drop
+	1	71084	40	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	200000	1	200 // Beceri Kitabi Sandigi
+	4	200000	1	30 // Beceri Kitabi Sandigi
+	5	200009	1	200 // Egitim Sandigi
+	6	25040	1	40 // Kutsama Kagidi
+	7	50513	1	30 // Ruh Tasi
+	8	200012	1	3 // Hazine Sandigi
+	9	200023	1	3 // Gelismis Yukseltme Sandigi
+	10	200216	1	200 // Hindiba
+	11	200216	1	200 // Hindiba
+	12	200216	1	10 // Hindiba
+	13	200011	1	200 // Cor Draconis Sandigi
+	14	200011	1	200 // Cor Draconis Sandigi
+	15	200011	1	10 // Cor Draconis Sandigi
+	16	200210	1	40 // ValleyCoin
+	17	80008	4	200 // 150.000 yang bar
+	18	80008	4	25 // 150.000 yang bar
+	19	80008	3	10 // 150.000 yang bar
+	20	80008	5	2 // 150.000 yang bar
+	21	200204	1	200 // Yakut Parcasi
+	22	200204	1	70 // Yakut Parcasi
+	23	200202	1	30 // Ametist Parcasi
+	24	80019	1	20 // Ince Kumas
+	25	200015	1	8 // Altin Istiridye
+	26	25041	1	0.60 // Buyulu Metal
+	27	200208	1	200 // Zindan Parsomeni (Yuksek)
+	28	200208	1	50 // Zindan Parsomeni (Yuksek)
+	29	200217	10	200 // Biyolog Kitabi
+}
+Group	poseidon_yaveri
+{
+	Mob	40142
+	Type	drop
+	1	200082	1	200 // Poseidon Sandigi
+	2	50513	2	40 // Ruh Tasi
+	3	25040	8	20 // Kutsama Kagidi
+	4	71084	150	40 // Efsun Nesnesi
+	5	200012	1	3.50 // Hazine Sandigi
+	6	200210	7	40 // ValleyCoin
+	7	200011	7	40 // Cor Draconis Sandigi
+}
+Group	poseidon
+{
+	Mob	40143
+	Type	drop
+	1	200082	2	200 // Poseidon Sandigi
+	2	49991	1	15 // Auranin Ates Runigi
+	3	55128	1	2 // Pet Yildizi
+	4	50513	3	40 // Ruh Tasi
+	5	25040	10	20 // Kutsama Kagidi
+	6	71084	500	40 // Efsun Nesnesi
+	7	200012	1	3.50 // Hazine Sandigi
+	8	200210	20	40 // ValleyCoin
+	9	200515	1	10 // Poseidon Bileti
+	10	200215	1	50 // Elysium Parasi
+	11	200241	1	15 // Poseidon Kristali
+	12	200011	12	40 // Cor Draconis Sandigi
+	13	200021	1	15 // Pet Kitabi Sandigi
+	14	55122	1	15 // Cesur Pet Kitabi
+	15	200415	1	40 // Tilsim Parsomeni
+	16	200416	1	40 // Tilsim Kristali
+	17	200417	1	40 // Tilsim Sandukasi
+	18	39067	1	5 // Parca Sandigi
+}
+Group	akrep_metni
+{
+	Mob	40150
+	Type	drop
+	1	71084	40	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	200000	1	200 // Beceri Kitabi Sandigi
+	4	200000	1	30 // Beceri Kitabi Sandigi
+	5	200009	1	200 // Egitim Sandigi
+	6	25040	1	40 // Kutsama Kagidi
+	7	50513	1	30 // Ruh Tasi
+	8	200012	1	3 // Hazine Sandigi
+	9	200023	1	3 // Gelismis Yukseltme Sandigi
+	10	200216	1	200 // Hindiba
+	11	200216	1	200 // Hindiba
+	12	200216	1	10 // Hindiba
+	13	200011	1	200 // Cor Draconis Sandigi
+	14	200011	1	200 // Cor Draconis Sandigi
+	15	200011	1	10 // Cor Draconis Sandigi
+	16	200210	1	40 // ValleyCoin
+	17	80008	4	200 // 150.000 yang bar
+	18	80008	4	25 // 150.000 yang bar
+	19	80008	3	10 // 150.000 yang bar
+	20	80008	5	2 // 150.000 yang bar
+	21	200204	1	200 // Yakut Parcasi
+	22	200204	1	70 // Yakut Parcasi
+	23	200202	1	30 // Ametist Parcasi
+	24	80019	1	20 // Ince Kumas
+	25	200015	1	8 // Altin Istiridye
+	26	25041	1	0.60 // Buyulu Metal
+	27	200208	1	200 // Zindan Parsomeni (Yuksek)
+	28	200208	1	50 // Zindan Parsomeni (Yuksek)
+	29	200217	10	200 // Biyolog Kitabi
+}
+Group	akrep_yaveri
+{
+	Mob	40151
+	Type	drop
+	1	200083	1	200 // Akrep Sandigi
+	2	50513	2	40 // Ruh Tasi
+	3	25040	10	20 // Kutsama Kagidi
+	4	71084	200	40 // Efsun Nesnesi
+	5	200012	1	4 // Hazine Sandigi
+	6	200210	10	40 // ValleyCoin
+	7	200011	10	40 // Cor Draconis Sandigi
+}
+Group	kral_akrep
+{
+	Mob	40152
+	Type	drop
+	1	200083	2	200 // Akrep Sandigi
+	2	49991	1	15 // Auranin Ates Runigi
+	3	50513	3	40 // Ruh Tasi
+	4	25040	10	20 // Kutsama Kagidi
+	5	71084	500	40 // Efsun Nesnesi
+	6	200012	1	3.50 // Hazine Sandigi
+	7	200210	20	40 // ValleyCoin
+	8	200516	1	10 // Akrep Bileti
+	9	200215	1	50 // Elysium Parasi
+	10	200242	1	15 // Akrep Kuyruğu
+	11	200011	12	40 // Cor Draconis Sandigi
+	12	200021	1	15 // Pet Kitabi Sandigi
+	13	55122	1	15 // Cesur Pet Kitabi
+	14	200406	1	40 // Tilsim Parsomeni
+	15	200407	1	40 // Tilsim Kristali
+	16	200408	1	40 // Tilsim Sandukasi
+	17	39067	1	5 // Parca Sandigi
+}
+Group	iskelet_metni
+{
+	Mob	40159
+	Type	drop
+	1	71084	40	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	200000	1	200 // Beceri Kitabi Sandigi
+	4	200000	1	30 // Beceri Kitabi Sandigi
+	5	200009	1	200 // Egitim Sandigi
+	6	25040	1	40 // Kutsama Kagidi
+	7	50513	1	30 // Ruh Tasi
+	8	200012	1	3 // Hazine Sandigi
+	9	200023	1	3 // Gelismis Yukseltme Sandigi
+	10	200216	1	200 // Hindiba
+	11	200216	1	200 // Hindiba
+	12	200216	1	10 // Hindiba
+	13	200011	1	200 // Cor Draconis Sandigi
+	14	200011	1	200 // Cor Draconis Sandigi
+	15	200011	1	10 // Cor Draconis Sandigi
+	16	200210	1	40 // ValleyCoin
+	17	80008	4	200 // 150.000 yang bar
+	18	80008	4	25 // 150.000 yang bar
+	19	80008	3	10 // 150.000 yang bar
+	20	80008	5	2 // 150.000 yang bar
+	21	200204	1	200 // Yakut Parcasi
+	22	200204	1	70 // Yakut Parcasi
+	23	200202	1	30 // Ametist Parcasi
+	24	80019	1	20 // Ince Kumas
+	25	200015	1	8 // Altin Istiridye
+	26	25041	1	0.60 // Buyulu Metal
+	27	200208	1	200 // Zindan Parsomeni (Yuksek)
+	28	200208	1	50 // Zindan Parsomeni (Yuksek)
+	29	200217	10	200 // Biyolog Kitabi
+}
+Group	iskelet_yaveri
+{
+	Mob	40160
+	Type	drop
+	1	200084	1	200 // Iskelet Sandigi
+	2	50513	2	40 // Ruh Tasi
+	3	25040	10	20 // Kutsama Kagidi
+	4	71084	200	40 // Efsun Nesnesi
+	5	200012	1	4 // Hazine Sandigi
+	6	200210	10	40 // ValleyCoin
+	7	200011	10	40 // Cor Draconis Sandigi
+}
+Group	iskelet_ejderha
+{
+	Mob	40161
+	Type	drop
+	1	200084	2	200 // Iskelet Sandigi
+	2	49991	1	15 // Auranin Ates Runigi
+	3	50513	3	40 // Ruh Tasi
+	4	25040	10	20 // Kutsama Kagidi
+	5	71084	500	40 // Efsun Nesnesi
+	6	200012	1	3.50 // Hazine Sandigi
+	7	200210	20	40 // ValleyCoin
+	8	200517	1	10 // Iskelet Bileti
+	9	200215	1	50 // Elysium Parasi
+	10	200243	1	15 // Iskelet Kafatasi
+	11	200011	12	40 // Cor Draconis Sandigi
+	12	200021	1	15 // Pet Kitabi Sandigi
+	13	55122	1	15 // Cesur Pet Kitabi
+	14	200409	1	40 // Tilsim Parsomeni
+	15	200410	1	40 // Tilsim Kristali
+	16	200411	1	40 // Tilsim Sandukasi
+	17	39067	1	5 // Parca Sandigi
+}
+Group	akzadur_metni
+{
+	Mob	40168
+	Type	drop
+	1	71084	40	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	200000	1	200 // Beceri Kitabi Sandigi
+	4	200000	1	30 // Beceri Kitabi Sandigi
+	5	200009	1	200 // Egitim Sandigi
+	6	25040	1	40 // Kutsama Kagidi
+	7	50513	1	30 // Ruh Tasi
+	8	200012	1	3 // Hazine Sandigi
+	9	200023	1	3 // Gelismis Yukseltme Sandigi
+	10	200216	1	200 // Hindiba
+	11	200216	1	200 // Hindiba
+	12	200216	1	10 // Hindiba
+	13	200011	1	200 // Cor Draconis Sandigi
+	14	200011	1	200 // Cor Draconis Sandigi
+	15	200011	1	10 // Cor Draconis Sandigi
+	16	200210	1	40 // ValleyCoin
+	17	80008	4	200 // 150.000 yang bar
+	18	80008	4	25 // 150.000 yang bar
+	19	80008	3	10 // 150.000 yang bar
+	20	80008	5	2 // 150.000 yang bar
+	21	200204	1	200 // Yakut Parcasi
+	22	200204	1	70 // Yakut Parcasi
+	23	200202	1	30 // Ametist Parcasi
+	24	80019	1	20 // Ince Kumas
+	25	200015	1	8 // Altin Istiridye
+	26	25041	1	0.60 // Buyulu Metal
+	27	200208	1	200 // Zindan Parsomeni (Yuksek)
+	28	200208	1	50 // Zindan Parsomeni (Yuksek)
+	29	200217	10	200 // Biyolog Kitabi
+}
+Group	akzadur_yaveri
+{
+	Mob	40169
+	Type	drop
+	1	200085	1	200 // Akzadur Sandigi
+	2	50513	2	40 // Ruh Tasi
+	3	25040	10	20 // Kutsama Kagidi
+	4	71084	200	40 // Efsun Nesnesi
+	5	200012	1	4 // Hazine Sandigi
+	6	200210	10	40 // ValleyCoin
+	7	200011	10	40 // Cor Draconis Sandigi
+}
+Group	akzadur
+{
+	Mob	40170
+	Type	drop
+	1	200085	2	200 // Akzadur Sandigi
+	2	49991	1	15 // Auranin Ates Runigi
+	3	55134	1	15 // Akzadur Pet Skin
+	4	50513	3	40 // Ruh Tasi
+	5	25040	10	20 // Kutsama Kagidi
+	6	71084	500	40 // Efsun Nesnesi
+	7	200012	1	3.50 // Hazine Sandigi
+	8	200210	20	40 // ValleyCoin
+	9	200518	1	10 // Akzadur Bileti
+	10	200215	1	50 // Elysium Parasi
+	11	200011	12	40 // Cor Draconis Sandigi
+	12	200021	1	15 // Pet Kitabi Sandigi
+	13	55122	1	15 // Cesur Pet Kitabi
+	14	200400	1	40 // Tilsim Parsomeni
+	15	200401	1	40 // Tilsim Kristali
+	16	200402	1	40 // Tilsim Sandukasi
+	17	39067	1	5 // Parca Sandigi
+}
+Group	yilan_metni
+{
+	Mob	40177
+	Type	drop
+	1	71084	40	200 // Efsun Nesnesi
+	2	200000	1	200 // Beceri Kitabi Sandigi
+	3	200000	1	200 // Beceri Kitabi Sandigi
+	4	200000	1	30 // Beceri Kitabi Sandigi
+	5	200009	1	200 // Egitim Sandigi
+	6	25040	1	40 // Kutsama Kagidi
+	7	50513	1	30 // Ruh Tasi
+	8	200012	1	3 // Hazine Sandigi
+	9	200023	1	3 // Gelismis Yukseltme Sandigi
+	10	200216	1	200 // Hindiba
+	11	200216	1	200 // Hindiba
+	12	200216	1	10 // Hindiba
+	13	200011	1	200 // Cor Draconis Sandigi
+	14	200011	1	200 // Cor Draconis Sandigi
+	15	200011	1	10 // Cor Draconis Sandigi
+	16	200210	1	40 // ValleyCoin
+	17	80008	4	200 // 150.000 yang bar
+	18	80008	4	25 // 150.000 yang bar
+	19	80008	3	10 // 150.000 yang bar
+	20	80008	5	2 // 150.000 yang bar
+	21	200204	1	200 // Yakut Parcasi
+	22	200204	1	70 // Yakut Parcasi
+	23	200202	1	30 // Ametist Parcasi
+	24	80019	1	20 // Ince Kumas
+	25	200015	1	8 // Altin Istiridye
+	26	25041	1	0.60 // Buyulu Metal
+	27	200208	1	200 // Zindan Parsomeni (Yuksek)
+	28	200208	1	50 // Zindan Parsomeni (Yuksek)
+	29	200217	10	200 // Biyolog Kitabi
+}
+Group	yilan_kral
+{
+	Mob	40178
+	Type	drop
+	1	200086	1	200 // Yilan Sandigi
+	2	50513	2	40 // Ruh Tasi
+	3	25040	10	20 // Kutsama Kagidi
+	4	71084	200	40 // Efsun Nesnesi
+	5	200012	1	4 // Hazine Sandigi
+	6	200210	10	40 // ValleyCoin
+	7	200011	10	40 // Cor Draconis Sandigi
+}
+Group	yilan_kralicesi
+{
+	Mob	40179
+	Type	drop
+	1	200086	2	200 // Yilan Sandigi
+	2	49991	1	15 // Auranin Ates Runigi
+	3	50513	3	40 // Ruh Tasi
+	4	25040	10	20 // Kutsama Kagidi
+	5	71084	500	40 // Efsun Nesnesi
+	6	200012	1	3.50 // Hazine Sandigi
+	7	200210	20	40 // ValleyCoin
+	8	200519	1	10 // Yilan Bileti
+	9	200215	1	50 // Elysium Parasi
+	10	200011	12	40 // Cor Draconis Sandigi
+	11	200021	1	15 // Pet Kitabi Sandigi
+	12	55122	1	15 // Cesur Pet Kitabi
+	13	200412	1	40 // Tilsim Parsomeni
+	14	200413	1	40 // Tilsim Kristali
+	15	200414	1	40 // Tilsim Sandukasi
+	16	39067	1	5 // Parca Sandigi
+}

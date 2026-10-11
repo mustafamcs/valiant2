@@ -1,0 +1,17 @@
+local floor = pc . getf ( "dungeon" , "floor" ) 
+local setting = akzadur_dungeon . setting ( ) 
+local floorCordinat = setting . floor_cordinat [ floor ] 
+pc . goto ( floorCordinat [ 1 ] , floorCordinat [ 2 ] ) 
+akzadur_dungeon . set_regen ( floor ) 
+d . zodiac_notice_clear ( ) 
+if floor == 1 then 
+pc . zodiac_chat ( 514 ) 
+elseif floor == 2 then 
+pc . zodiac_chat ( 515 ) 
+elseif floor == 3 then 
+pc . zodiac_chat ( 516 ) 
+elseif floor == 4 then 
+pc . zodiac_chat ( 517 ) 
+elseif floor == 5 then 
+pc . zodiac_chat ( 518 ) 
+end 

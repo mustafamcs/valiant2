@@ -1,0 +1,14 @@
+﻿  grammar.c
+  libconfig.c
+  scanctx.c
+  scanner.c
+  strbuf.c
+  strvec.c
+  util.c
+  wincompat.c
+  Kod Üretiliyor...
+  libconfigcpp.cc
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1371,5): warning MSB8012: TargetPath(C:\Users\Zumzum\Documents\GitHub\mclwork\svn\OtherTools\LibConfig\Debug\libconfig++.dll), Linker OutputFile özellik değeriyle (C:\Users\Zumzum\Documents\GitHub\mclwork\svn\OtherTools\LibConfig\Debug\libconfig++_d.dll) eşleşmiyor. Bu, projenin yanlış oluşturulmasına neden olabilir. Bunu düzeltmek için, $(OutDir), $(TargetName) ve $(TargetExt) özellik değerlerinin %(Link.OutputFile) içinde belirtilen değerle eşleştiğinden emin olun.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1373,5): warning MSB8012: TargetName(libconfig++), Linker OutputFile özellik değeriyle (libconfig++_d) eşleşmiyor. Bu, projenin yanlış oluşturulmasına neden olabilir. Bunu düzeltmek için, $(OutDir), $(TargetName) ve $(TargetExt) özellik değerlerinin %(Link.OutputFile) içinde belirtilen değerle eşleştiğinden emin olun.
+     C:\Users\Zumzum\Documents\GitHub\mclwork\svn\OtherTools\LibConfig\Debug\libconfig++.lib kitaplığı ve C:\Users\Zumzum\Documents\GitHub\mclwork\svn\OtherTools\LibConfig\Debug\libconfig++.exp nesnesi oluşturuluyor
+  libconfig++.vcxproj -> C:\Users\Zumzum\Documents\GitHub\mclwork\svn\OtherTools\LibConfig\Debug\libconfig++.dll

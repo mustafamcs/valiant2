@@ -1,0 +1,4 @@
+if skeleton_dragon_dungeon . InDungeon ( ) then if pc . getf ( "dungeon" , "complete" ) == 1 then 
+skeleton_dragon_dungeon . clear_timer ( ) 
+end 
+ return end 

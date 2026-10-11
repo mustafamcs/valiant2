@@ -1,0 +1,337 @@
+19	Czym jest szarfa?
+20	Czym jest szarfa?
+21	Szarfa oferuje Ci dwie mo¿liwoœci: kombinacjê i[ENTER]absorpcjê.[ENTER][ENTER]Kombinowaæ mo¿esz jedynie szarfy o tym samym[ENTER]stopniu. Dwa po³¹czone ze sob¹ szarfy mog¹[ENTER]stworzyæ lepsz¹ szarfê.[ENTER][ENTER]Przy absorpcji bonusy broni lub zbroi przechodz¹[ENTER]w pewnym stopniu na szarfê.[ENTER][ENTER]Stopieñ absorpcji (%) zale¿y od stopnia szarfy.[ENTER]Podczas absorpcji bonusów wybrana broñ lub zbroja[ENTER]ulega zniszczeniu.
+22	Kombinacja
+23	Chcesz po³¹czyæ dwie szarfy?
+24	Absorpcja bonusów
+25	Chcesz absorbowaæ bonusy z Twojej broni lub zbroi?
+39	Zamknij
+114	Informacja:
+126	Je¿eli jesteœ teraz w jakimœ zwi¹zku, to nie[ENTER]mo¿esz zmieniæ swojego Królestwa - zmiana ta jest[ENTER]dostêpna tylko dla graczy niezarêczonych.
+127	Je¿eli chcesz zmieniæ Królestwo, weŸ rozwód.
+128	Nie mo¿esz zmieniæ Królestwa, je¿eli jesteœ[ENTER]przemieniony.
+129	U¿yj tego przedmiotu gdy nie bêdziesz[ENTER]przemieniony.
+130	Nie mo¿esz zmieniæ Królestwa, poniewa¿ jesteœ[ENTER]cz³onkiem gildii.
+131	U¿yj tego przedmiotu gdy nie bêdziesz ju¿[ENTER]cz³onkiem gildii.
+132	Nie mo¿esz zmieniæ Królestwa, posiadasz za ma³o[ENTER]Yang!
+133	U¿yj tego przedmiotu gdy bêdziesz mia³ co[ENTER]najmniej 500 000 Yang.
+134	Do którego Królestwa chcesz siê przenieœæ?
+135	Shinsoo
+139	Czy na pewno chcesz zmieniæ Królestwo? Nie[ENTER]bêdziesz móg³ tego cofn¹æ...
+140	Zmieñ Królestwo:
+141	Proszê siê wylogowaæ i ponownie zalogowaæ, aby[ENTER]dokoñczyæ proces.
+143	Wybra³eœ to samo Królestwo, do którego teraz[ENTER]nale¿ysz. Nie mia³eœ zamiaru zmieniæ Królestwa?
+144	Wybrane Królestwo.[ENTER][ENTER]Jesteœ w gildii. Co najmniej jedna z Twoich[ENTER]postaci na tym serwerze jest aktualnie w gildii.
+145	Wybrane Królestwo.[ENTER]Masz mê¿a/¿onê.[ENTER]Co najmniej jedna z Twoich postaci na tym[ENTER]serwerze jest aktualnie w zwi¹zku.
+147	Dziêki temu przedmiotowi mo¿esz zmieniæ swoje[ENTER]Królestwo.
+148	Nie mo¿esz u¿yæ tego przedmiotu!
+149	Swoje Królestwo mo¿esz zmieniæ gdy:
+150	GM - Wyzerowaæ czas?
+151	Czas oczekiwania zosta³ wyzerowany.
+152	Wszystkie zarêczone postacie nie mog¹ zmieniæ[ENTER]swojego Królestwa.
+153	Aktualnie nie mo¿esz u¿yæ tego przedmiotu.
+689	Starsza Pani:
+961	Uszlachetnianie Smoczych Kamieni
+962	Chcesz uszlachetniæ swój Smoczy Kamieñ? Nie ma[ENTER]sprawy. Musisz jednak wiedzieæ, i¿ proces ten[ENTER]mo¿e siê nie powieœæ.[ENTER]S³ysza³em jednak, ¿e za obracaj¹c¹ siê monet¹[ENTER]mo¿na znaleŸæ tzw. Smocze Fasole, które podwy¿sz¹[ENTER]szanse na pomyœlne uszlachetnienie.
+1278	Stra¿nik Wioski
+1294	Stra¿nik Wioski:
+1298	UNKNOWN KEY [%s]
+1301	Otwórz sklep
+1408	Starsza Pani:
+1692	GM: Zarejestruj ponownie
+1693	GM: SprawdŸ informacje o gildii
+1694	pc.has_guild: %s
+1695	Czy chcesz opuœciæ gildiê, do której nale¿ysz?[ENTER]Zgadujê, ¿e nie znalaz³eœ w niej ¿adnych[ENTER]przyjació³. To twoja decyzja.[ENTER]Czy na pewno chcesz opuœciæ gildiê?
+1696	Dobrze.[ENTER][ENTER]Usunê Ciê z tej gildii.
+1697	Co?![DELAY value;150] [/DELAY][ENTER][ENTER]Tyle czasu zajê³o mi jej stworzenie, a teraz tak[ENTER]po prostu chcesz j¹ rozwi¹zaæ? Ca³e doœwiadczenie[ENTER]i wspomnienia z ni¹ zwi¹zane znikn¹ na zawsze![ENTER]Czy na pewno chcesz rozwi¹zaæ gildiê?
+1698	W porz¹dku.[ENTER][ENTER]Rozwi¹¿ê gildiê, której jesteœ liderem.
+1699	Za³ó¿ gildiê.
+1700	Za³ó¿ gildiê.
+1701	Nie mo¿esz za³o¿yæ gildii przez pierwsze dni po[ENTER]opuszczeniu poprzedniej.
+1702	za³ó¿...
+1703	Proszê wpisaæ nazwê gracza, o którym chcesz[ENTER]dostaæ informacje.
+1704	Ju¿ rozwi¹za³eœ gildiê! W ci¹gu kilku[ENTER]najbli¿szych dni, nie mo¿esz za³o¿yæ nowej.
+1705	Czy chcesz za³o¿yæ gildiê?[ENTER]Mo¿esz tego dokonaæ dopiero gdy osi¹gniesz 40.[ENTER]poziom postaci. Dodatkowo, musisz zap³aciæ[ENTER]200.000 Yang.
+1706	Masz za ma³o Yang!
+1707	Twój poziom postaci jest za niski!
+1710	Taki gracz nie istnieje.
+1711	SprawdŸ wczeœniejsze daty re-rejestracji.
+1712	Gracz opuœci³ gildê: %s dzieñ/dni temu
+1714	Czas do rozwi¹zania: %s d.
+1716	Najwczeœniejsza mo¿liwoœæ powtórzenia: %s godz.
+1718	Natychmiastowe ustanowienie
+1719	Natychmiastowa rejestracja mo¿liwa.
+1749	Pozycja twoja Gildii w rankingu jest nastêpuj¹ca:[ENTER][DELAY value;0][ENTER]|Nazwa |Punkty |Zwyciêstwa |Remisy |Pora¿ki[ENTER]%s[/DELAY][ENTER]
+1750	Ranking 8 przoduj¹cych gildii oraz wyniki z ich[ENTER]wojen gildii:[ENTER][DELAY value;0][ENTER]|Nazwa |Punkty |Zwyciêstwa |Remisy |Pora¿ki[ENTER]%s[/DELAY][ENTER]
+1751	Ranking twojej Gildii to %s.
+1752	Iloœæ Punktów: %s
+1911	%s, czy chcesz wzi¹æ udzia³ w wojnie?
+2090	Stajenny:
+2191	Nowe Zdjêcie Konia
+2192	Zgubi³eœ Ksiêgê Wojskowego Konia![ENTER]Mogê daæ Ci now¹ za 500.000 Yang.
+2193	Oto nowa Ksiêga Wojskowego Konia![ENTER]Tym razem spróbuj jej nie zgubiæ!
+2194	Aby móc przywo³ywaæ swojego Konia, musisz[ENTER]ukoñczyæ kurs Jazdy Konnej dla Pocz¹tkuj¹cych.
+2195	Koñ zosta³ przywo³any.
+2196	Przywo³anie Konia dla pocz¹tkuj¹cych nie powiod³o[ENTER]siê. Mo¿esz zwiêkszyæ szansê na pomyœlne[ENTER]przywo³anie poprzez trening swoich umiejêtnoœci.
+2197	Masz za ma³o Punktów Energii. Aby przywo³aæ[ENTER]Konia, potrzebujesz ich co najmniej 100.
+2198	Je¿eli chcesz przywo³aæ Konia Bojowego,[ENTER]potrzebujesz Ksiêgi Opancerzonego Konia.
+2200	Aby móc przywo³aæ Konia, musisz najpierw ukoñczyæ[ENTER]kurs Jazdy Konnej!
+2201	Aby móc przywo³aæ Zwyk³ego Konia, musisz posiadaæ[ENTER]Zdjêcie Konia.
+2202	Zgubi³eœ Zdjêcie Konia?![ENTER]Mogê daæ Ci nowe za 400.000 Yang.
+2203	Koñ zosta³ przywo³any.
+2204	Przywo³anie Konia bojowego nie powiod³o siê.[ENTER]Mo¿esz zwiêkszyæ szansê na pomyœlne przywo³anie[ENTER]poprzez trening swoich umiejêtnoœci.
+2205	Masz za ma³o Punktów Energii. Aby przywo³aæ[ENTER]Konia, potrzebujesz ich co najmniej 200.
+2206	Je¿eli chcesz przywo³aæ Konia Wojskowego,[ENTER]potrzebujesz Ksiêgi Wojskowego Konia.
+2207	Aby móc przywo³aæ Konia, musisz najpierw ukoñczyæ[ENTER]kurs Jazdy Konnej!
+2208	Je¿eli chcesz przywo³aæ Konia Bojowego,[ENTER]potrzebujesz Ksiêgi Opancerzonego Konia.
+2209	Koñ zosta³ przywo³any.
+2210	Nie uda³o siê - przywo³anie Konia Wojskowego nie[ENTER]powiod³o siê.[ENTER]Mo¿esz podwy¿szyæ szanse na pomyœlne przywo³anie[ENTER]Konia æwicz¹c Umiejêtnoœæ Przywo³ywania Koni.
+2211	Masz za ma³o Punktów Energii. Aby przywo³aæ[ENTER]Konia, potrzebujesz ich co najmniej 300.
+2213	Oto nowe Zdjêcie Konia.[ENTER]Tym razem spróbuj go nie zgubiæ..
+2215	Masz za ma³o Yang.
+2216	Nowa Ksiêga Opanc. Konia
+2217	Zgubi³eœ Ksiêgê Opancerzonego Konia![ENTER]Mogê daæ Ci now¹ za 500.000 Yang.
+2218	Oto nowa Ksiêga Opancerzonego Konia.[ENTER]Spróbuj tym razem jej nie zgubiæ.
+2219	Masz za ma³o Yang!
+2220	Nowa Ksiêga Wojskowego Konia
+2263	Tak.
+2316	Tylko gracze posiadaj¹cy co najmniej 50. poziom[ENTER]mog¹ zmieniæ p³eæ.
+2317	%s
+2318	GM - Czy wyzerowaæ czas?
+2319	Zmiana p³ci:
+2320	Ten przedmiot zmienia p³eæ twojej postaci. P³eæ[ENTER]mo¿esz zmieniaæ co 3 dni.
+2321	Czy na pewno przemyœla³eœ to dok³adnie?[ENTER]Czy na pewno chcesz zmieniæ swoj¹ p³eæ?[ENTER]Nastêpnie zostaniesz automatycznie przeniesiony[ENTER]do miasta.
+2322	Zmiana p³ci zakoñczona. Wszystkie twoje zdolnoœci[ENTER]i umiejêtnoœci zosta³y zachowane.
+2323	Zmiana p³ci zosta³a anulowana.
+2324	Zdejmij kostium, fryzurê i zbrojê.
+2325	Spróbuj u¿yæ tego przedmiotu gdy twoja postaæ[ENTER]osi¹gnie co najmniej 50. poziom.
+2326	Poœlubieni gracze nie mog¹ zmieniæ p³ci. Mog¹[ENTER]tego dokonaæ jedynie gracze niepoœlubieni.
+2327	Je¿eli aktualnie jesteœ w jakimœ zwi¹zku, to nie[ENTER]mo¿esz zmieniæ p³ci. Tylko gracze stanu wolnego[ENTER]mog¹ zmieniæ swoj¹ p³eæ.
+2328	Je¿eli chcesz zmieniæ p³eæ, najpierw weŸ rozwód.
+2329	Nie mo¿esz zmieniæ p³ci kiedy jesteœ przemieniony.
+2331	Swoj¹ p³eæ mo¿esz zmieniæ tylko raz na trzy dni!
+2332	Mo¿esz ponownie zmieniæ za:
+2594	Rozwi¹¿ Gildiê
+2617	Poproœ o zezwolenie na udzia³
+2618	Poka¿ listê Bitew Gildii
+2619	Obecnie odbywaj¹ siê nastêpuj¹ce Wojny Gildii:[ENTER]Jeœli chcesz byæ obserwatorem, wybierz któr¹œ z[ENTER]pozycji.
+2620	W tej chwili nie ma ¿adnych wojen.
+2621	Wojna siê ju¿ skoñczy³a.
+2622	Opuœæ gildiê.
+2625	Tak
+4298	Poka¿ wynik mojej Gildii
+4299	Poka¿ ranking mojej Gildii
+4300	Poka¿ ranking Gildii (top 1-8)
+4473	Tak
+6491	Chcê wzi¹æ Œlub
+6492	Garnitur
+6493	Lista ceremonii Œlubnych
+6494	Aktualnie nie odbywaj¹ siê ¿adne ceremonie Œlubne.
+6496	Jesteœ goœciem na Weselu.[ENTER]Baw siê dobrze!
+6497	Atrament jeszcze nie wysech³![ENTER]Dajcie sobie wiêcej czasu.
+6499	Jeœli chcesz wzi¹æ œlub, musisz mieæ na sobie[ENTER]Smoking.
+6500	Suknia Œlubna
+6501	Je¿eli chcesz wzi¹æ Œlub, musisz mieæ na sobie[ENTER]Sukniê Œlubn¹
+6502	To oczywiste, ¿e potrzebujesz trochê Yang na ten[ENTER]œlub. Jednak nie masz wystarczaj¹cej iloœci.[ENTER]Zbierz co najmniej 1 milion Yang.
+6503	Potrzebujesz 1.000.000 Yang.
+6504	Jesteœ ju¿ wystarczaj¹co dojrza³y.[ENTER]No i w koñcu ³adnie wygl¹dasz. Kogo chcesz[ENTER]poœlubiæ?
+6505	Wpisz nazwê osoby, z któr¹ chcesz wzi¹æ œlub.
+6506	Jesteœ w takim szoku, ¿e nawet nie potrafisz[ENTER]wpisaæ nazwy? Spróbuj ponownie...
+6507	Jesteœ tak podekscytowany, ¿e nie potrafisz podaæ[ENTER]imienia? Spróbuj ponownie.
+6508	Aktualnie trwa inny œlub.[ENTER]Proszê, poczekaj chwilkê lub przyjdŸ póŸniej!
+6509	%s nie jest online.
+6510	Twój partner musi byæ blisko, abym mog³a zaj¹c[ENTER]siê wasz¹ ceremoni¹. PrzyprowadŸ tu swojego[ENTER]partnera.
+6511	%s jest za daleko.
+6512	Nie twoje imiê... musisz podaæ imiê wybranej[ENTER]osoby...
+6513	Wpisz nazwê twojego partnera.
+6514	Przykro mi.[ENTER][ENTER]Nie mo¿esz wzi¹æ Œlubu z osob¹ tej samej p³ci.
+6515	Tylko osoby z tego samego Królestwa mog¹ wzi¹æ[ENTER]Œlub.
+6516	Osoba z któr¹ zamierzasz wzi¹æ œlub jest ju¿[ENTER]poœlubiona, wiedzia³eœ o tym? ZnajdŸ samotn¹[ENTER]osobê.
+6517	%s jest ju¿ aktualnie w zwi¹zku.
+6518	Ta osoba nie jest jeszcze odpowiednio dojrza³a.[ENTER]Twój partner musi mieæ co najmniej 25. poziom[ENTER]postaci!
+6519	Jesteœ za m³ody aby wzi¹æ œlub... Nie jesteœ[ENTER]jeszcze gotów. M³odzi ludzie bardzo szybko siê[ENTER]rozwodz¹. Nie popieram tego. Wróæ gdy bêdziesz[ENTER]mia³ wiêcej doœwiadczenia.
+6520	Wy dwoje nie pasujecie do siebie. A jeœli do[ENTER]siebie nie pasujecie, to nie mogê zezwoliæ na ten[ENTER]œlub. Ró¿nica poziomów nie mo¿e byæ wiêksza ni¿[ENTER]15, dlatego nie mo¿ecie wzi¹æ œlubu.
+6521	Teraz, proszê wymieniæ obr¹czki.
+6522	Starsza Pani:[ENTER]Œlub to bardzo wa¿ny krok w ¿yciu.[ENTER]Czy twój partner nie móg³ chocia¿ kupiæ Obr¹czki?
+6523	Twój partner równie¿ musi mieæ Obr¹czkê.
+6524	Twój partner nie jest odpowiednio ubrany.[ENTER]Czy nie jesteœ za¿enowany stoj¹c obok takiej[ENTER]osoby?
+6525	Twój partner musi mieæ na sobie Smoking.
+6526	Twoja partnerka musi mieæ na sobie Sukniê Œlubn¹.
+6528	Tak wiêc... jesteœmy gotowi. Mo¿emy zaczynaæ.[ENTER]Wyœlê was na wyspê kochanków. ¯yczê wam, by wasze[ENTER]ma³¿eñstwo by³o d³ugie i szczêœliwe. Gratulacje![ENTER]Zostaniecie przeniesieni na Wyspê automatycznie.
+6529	Twój partner nie chce Ciê poœlubiæ.[ENTER]Warto to wyjaœniæ, teraz...
+6530	Powrót na Wyspê Kochanków
+6531	Informacja:
+6532	Czemu wci¹¿ tu stoisz? Twój partner têskni za[ENTER]Tob¹. Wyœlê Ciê do niego.
+6533	Pozwolenie na Œlub.
+6534	Organizator Œlubu:
+6535	Rozmawiam z twoim partnerem, sekundkê.
+6536	Bêdê Wam pomaga³a przy Œlubie.[ENTER]Na pocz¹tek wpisz imiê swojego partnera.
+6537	Takiego imienia nie mam w rozpisce, przejrzysz[ENTER]jeszcze raz swoje oœwiadczenie?
+6538	Wybacz. PrzyjdŸ tu z partnerem.[ENTER]Muszê przekazaæ mu kilka informacji i przepytaæ[ENTER]go.
+6539	%s musi byæ bli¿ej.
+6540	Proszê, nie wpisuj swojego imienia.[ENTER][ENTER]To musi byæ imiê wybranej przez Ciebie osoby.
+6542	Œluby s¹ mo¿liwe od poziomu 25.
+6543	Coœ mi tu nie pasuje. To nie jest ta osoba.[ENTER]Czy mo¿esz to sprawdziæ?
+6544	Twój partner nie jest gotowy na ma³¿eñstwo.[ENTER]Porozmawiajcie ze sob¹.
+6545	Dobrze, przygotowania zakoñczone. Ceremonia mo¿e[ENTER]siê zacz¹æ.
+6546	To bêdzie piêkny Œlub!
+6547	Rozpocznij Marsz Weselny
+6548	Zakoñcz Marsz Weselny
+6549	Noc
+6550	Œnieg
+6551	Zakoñczenie Œlubu
+6552	Poczekaj chwilkê, rozmawiam z twoim partnerem.
+6553	Co? Chcesz wzi¹æ Œlub bez Obr¹czki?
+6554	Czy chcesz kontynuowaæ Œlub?
+6555	Tak
+6557	Twój partner musi tak¿e wyraziæ zgodê na[ENTER]kontynuacjê.[ENTER]Œlub nie mo¿e byæ kontynuowany, poniewa¿ twój[ENTER]partner nie jest online.
+6558	Musimy czekaæ na zgodê twojego partnera.[ENTER]Jeszcze jej nie mamy.
+6560	Twój partner nie wyrazi³ zgody!
+6561	Rozwód
+6562	Rozwód
+6563	Nie mo¿esz siê rozwieœæ legalnie pod nieobecnoœæ[ENTER]partnera. Wróæ z partnerem! Rozwód jest spraw¹[ENTER]maj¹tkow¹ , nieprawda¿..?
+6564	Pierœcionek Zarêczynowy
+6565	Aby wzi¹æ legalny rozwód, potrzebujesz 500.000[ENTER]Yang i zgody od twojego partnera.[ENTER]Czy naprawdê chcesz to zrobiæ?
+6567	Przynieœ Obr¹czkê Œlubn¹.
+6568	Niech twój partner przyniesie tutaj Obr¹czkê.
+6569	Nie staæ Ciê na rozwód. Masz za ma³o Yang!
+6570	Aby wzi¹æ rozwód, potrzebujesz %s Yang.
+6571	Potrzebujesz 500.000 Yang na rozwód.
+6572	Czy naprawdê chcesz wzi¹æ rozwód?[ENTER]To mo¿e byæ wielki b³¹d. Naprawdê tego chcesz?
+6574	Zmieniam zdanie. Nie chcê braæ rozwodu.
+6575	Musisz zdobyæ Pierœcionek Zarêczynowy.[ENTER]Dopiero wtedy bêdziesz móg³ wzi¹æ Œlub.
+6576	To na pewno lepsza droga. ¯yczê Ci d³ugiego ¿ycia[ENTER]w pokoju.
+6577	Wzi¹³eœ rozwód.
+6579	Rozwód zosta³ przeprowadzony.[ENTER]Jesteœcie teraz rozwiedzeni.
+6580	Wasze dokumenty nie s¹ kompletne. Proszê,[ENTER]przyjdŸcie póŸniej.
+6581	Rozwód zosta³ anulowany.
+6582	Twój partner nie chce rozwodu. Wyjaœnijcie to[ENTER]sobie.
+6583	Zdejmij Obr¹czkê Œlubn¹.
+6584	Zdejmij Obr¹czkê Œlubn¹.
+6585	Powinieneœ zapomnieæ o z³ych wspomnieniach. Tak[ENTER]szybko, jak to tylko mo¿liwe.
+6586	Obr¹czka Œlubna zosta³a zdjêta.
+6587	Naprawdê chcesz wzi¹æ Œlub w takim stroju?[ENTER]Bierzesz œlub raz w ¿yciu, wiêc powinieneœ byæ[ENTER]przynajmniej stosownie ubrany.
+6588	Rozwód Jednostronny
+6589	Stra¿nik Wioski:
+6590	Potrzebujesz 1 miliona Yang aby rozwieœæ siê[ENTER]jednostronnie. Czy na pewno chcesz tego dokonaæ?
+6592	Nie masz wystarczaj¹cej iloœci Yang na rozwód.[ENTER]Potrzebujesz tylu Yang, ile mia³eœ na Œlub.[ENTER]Wiec, mo¿e zechcesz rozwa¿yæ to ponownie...
+6593	Czy teraz ju¿ naprawdê chcesz siê rozwieœæ?[ENTER]Zastanów siê g³êboko
+6594	Tak, chcê.
+6596	W porz¹dku...[ENTER]Mo¿e to bêdzie lepsza droga.[ENTER]PrzyjdŸ jak powa¿nie siê zastanowisz, ale wpierw[ENTER]musisz to potraktowaæ na serio.
+6597	Jeœli jesteœ pewien, dobrze: zaczynamy![ENTER]¯yczê Ci wszystkiego co najlepsze![ENTER][ENTER]Jednostronny Rozwód zosta³ przeprowadzony.
+7443	B¹dŸ cicho i zachowaj dyscyplinê. Zachowuj siê i[ENTER]nie sprawiaj ¿adnych k³opotów. Powinieneœ[ENTER]szanowaæ ludzi w Metin2. Zrozumia³eœ?
+7444	Jestem ju¿ naprawdê starym cz³owiekiem jednak[ENTER]nadal jestem zdrowy i sprawny, poniewa¿ znam[ENTER]pewien sekret. Odkry³em, ¿e mikstura zrobiona z[ENTER]korzeni Gango i Grzybów Tue wyd³u¿a ¿ycie.[ENTER]Jeœli chcia³byœ j¹ wypróbowaæ, zanieœ potrzebne[ENTER]materia³y do Yu-Hwan. Jestem pewny, ¿e z chêci¹[ENTER]przygotuje Ci tak¹ miksturê.
+7445	Wygl¹dasz na silnego...
+7446	Od wielu pokoleñ, sekret wielkiej si³y jest[ENTER]przekazywany w mojej rodzinie z pokolenia na[ENTER]pokolenie. Mój ojciec powiedzia³ mi kiedyœ, ¿e[ENTER]jeœli we w³aœciwy sposób przygotuje siê Pokrzywê,[ENTER]to mo¿na otrzymaæ miksturê zwiêkszaj¹c¹ si³ê na[ENTER]krótki okres czasu. Z tego co wiem, Baek-Go zna[ENTER]tê recepturê. Musisz tylko dostarczyæ mu[ENTER]odpowiednie sk³adniki.
+7447	Sz³a dzieweczka do laseczka. Do zielonego...
+7448	Muzyk Yu-Hwan:
+7449	...do zielonego, do zielonego. Napotka³a[ENTER]myœliweczka ...[ENTER]Lubisz œpiewaæ? Œpiewam sobie czasem w[ENTER]samotnoœci, dziêki temu nie myœlê o wojnie.[ENTER]Ale bez Królestwa, które mnie ochroni, nie bêdê[ENTER]móg³ robiæ tego co lubiê.
+7450	Dlaczego czytasz tak du¿o?
+7451	Mol Ksi¹¿kowy Soon:
+7452	Oh, poszukiwacz przygód. Œwiat to jedno wielkie[ENTER]wyzwanie, tylko maj¹c wiedzê mo¿na przetrwaæ.[ENTER]Zawsze szanuj swoje ksi¹¿ki. Pomog¹ Ci w z³ych[ENTER]czasach. Mo¿esz mi wierzyæ!
+7453	Masz dzieci?
+7454	Co za cudowny zapach...
+7455	W³aœciwie nie chcia³em dzieci, ale... Od czasu do[ENTER]czas zbieram kwiaty Kaki, poniewa¿ zwiêkszaj¹ one[ENTER]magiczn¹ energiê. Baek-Go odkry³ sposób na[ENTER]wytwarzanie z nich mikstur. Potrzebuje on tylko[ENTER]jeden kwiat Kaki, aby przyrz¹dziæ 100 mikstur.[ENTER]Niestety kwiaty Kaki maj¹ tak¿e efekty uboczne,[ENTER]je¿eli kobieta ma na sobie naszyjnik z tych[ENTER]kwiatów, to urodzi syna. Mówi¹c miêdzy nami, moja[ENTER]¿ona wykorzysta³a to bezwstydnie.
+7456	Co z Twoj¹ nog¹?
+7457	Handu-Up:
+7458	Znowu siê zaczê³o. Ostatnio podczas wyprawy[ENTER]potknê³am siê o Korzeñ Gango i skrêci³am kostkê.[ENTER]Na szczêœcie znam uzdrawiacza Baek-Go, który[ENTER]opatrzy³ mi kostkê. Powiedzia³ mi, ¿e z korzeni[ENTER]Gango mo¿na przygotowaæ mikstury, które s¹ w[ENTER]stanie uleczyæ niewielkie rany. A wiêc zrobi³am[ENTER]herbatkê ze sprawcy mojej skrêconej kostki i tym[ENTER]sposobem naprawi³ szkody jakie wyrz¹dzi³...
+7459	Kim jesteœ?
+7460	Wonda-Rim:
+7461	Jestem Wonda-Rim, bratanek Chaegiraba. Mój wujek[ENTER]jest bardzo s³awnym biologiem! Znasz go? Zajmuje[ENTER]siê sporz¹dzaniem mikstur z przeró¿nych zió³.[ENTER]Odkry³, ¿e jeœli zmiesza siê 100 Wód Bo z Morw¹,[ENTER]to mo¿na otrzymaæ bardzo siln¹ ochronê przed[ENTER]magi¹. Z tego co wiem, Huahn-So jest w stanie[ENTER]przygotowaæ tak¹ miksturê. Wystarczy, ¿e dasz mu[ENTER]odpowiednie sk³adniki.
+7462	Dlaczego masz tyle blizn?
+7463	Zdrajca Balso:
+7464	Chyba nie jestem najlepszym wojownikiem, poniewa¿[ENTER]czêsto by³em ranny podczas walk. Poprosi³em[ENTER]kiedyœ Yu-Hwann, aby sporz¹dzi³ dla mnie miksturê[ENTER]chroni¹c¹ moje cia³o przed atakami innych.[ENTER]Przygotowa³ miksturê z Pokrzywy i Bzu, ale nie[ENTER]dzia³a ona tak jak chcia³em. A mo¿e po prostu[ENTER]jestem kiepskim wojownikiem. S¹dzê jednak, ¿e[ENTER]Tobie taka mikstura na pewno pomo¿e w walkach.
+7465	W³aœciciel Restauracji, Octavio:
+7466	Dlaczego nazywaj¹ Ciê zdrajc¹?
+7467	Kiedyœ uciek³em przed wojn¹ i do³¹czy³em do Gangu[ENTER]Czarnego Wiatru. Moi towarzysze nigdy mi tego nie[ENTER]wybaczyli. Z biegiem czasu przekona³em siê o[ENTER]bestialskich metodach wojowników Czarnego Wiatru.[ENTER]Zabijali niewinnych ludzi. Nie mog³em ju¿ d³u¿ej[ENTER]tego znieœæ i natychmiast odszed³em. Co za[ENTER]okropnoœæ!
+7468	Masz na sumieniu niewinnych ludzi? W takim razie[ENTER]w pe³ni zas³ugujesz na to, by Ciê nazwano[ENTER]zdrajc¹. To ty odebra³eœ im mo¿liwoœæ spokojnego[ENTER]¿ycia.
+7469	To œwiat bezprawia. Postanowi³em jednak, ¿e nie[ENTER]uczyniê ju¿ niczego z³ego. Nie chcê, aby mnie[ENTER]ludzie nazywali zdrajc¹.[ENTER][ENTER][ENTER]Masz dla mnie trochê Yang?
+7470	To Ciebie nazywaj¹ mêdrcem?
+7471	Mêdrzec Uriel:
+7472	Jest tak wiele rzeczy do nauczenia siê w tym[ENTER]szerokim œwiecie. Ignorancja wyposa¿ona w si³ê[ENTER]militarn¹, to z³a kombinacja. Nie chcesz ¿yæ, jak[ENTER]Ci ignoranccy ¿o³nierze, prawda? Wiedza to si³a!
+7473	Powiedziano mi, ¿e jesteœ uzdrawiaczem. Czy to prawda?
+7474	Robiê co mogê. Niestety, w tym niebezpiecznym[ENTER]œwiecie coraz wiêcej jest rannych. Nie mamy[ENTER]wystarczaj¹cej iloœci leków ani pomocników.[ENTER]Nasta³y ciê¿kie czasy! Czy jest jakaœ szansa, ¿e[ENTER]mi póŸniej pomo¿esz?
+7475	Jak tam ³owy?
+7476	Witaj! Nasza Restauracja jest czêœci¹ wielkiego[ENTER]miêdzynarodowego kompleksu. WejdŸ i sprawdŸ nas.
+7477	£owca Yang-Shin:
+7478	Hmm, od czasu upadku Kamieni Metin, zwierzêta[ENTER]sta³y siê dzikie. W dzisiejszych czasach,[ENTER]zabójcze mo¿e byæ nawet polowanie na kury.[ENTER]Nasta³y niebezpieczne czasy dla wszystkich[ENTER]£owców. Na szczêœcie nale¿ê do grona najlepszych!
+7479	Sk¹d bierze siê Twoja celnoœæ strza³ów?
+7480	W strzelaniu z ³uku jestem nie do pokonania. A to[ENTER]wszystko dlatego, ¿e znam specjaln¹ recepturê,[ENTER]hehe! Jeœli zmieszasz Sok z Kwiatu Brzoskwini i[ENTER]Bez, otrzymasz wspania³¹ miksturê.[ENTER]Mo¿e ona zwiêkszyæ celnoœæ Twoich ciosów. Jeœli[ENTER]chcesz j¹ wypróbowaæ, zanieœ sk³adniki do Yu-Hwan[ENTER]i poproœ go o przyrz¹dzenie odpowiedniego naparu.
+7481	Och, jaki piêkny wianek z kwiatów...
+7482	Dawniej zawsze zbiera³am Kwiaty Brzoskwiñ z moim[ENTER]bratem, dzisiaj muszê to robiæ sama. Kwiaty s¹[ENTER]nie tylko piêkne i pachn¹ce, ale te¿ posiadaj¹[ENTER]szczególne dzia³anie. Jeœli zaniesiesz Kwiat[ENTER]Brzoskwini do Baek-Go, to sporz¹dzi on z niego[ENTER]miksturê, która uczyni Ciê bardzo zwinnym!
+7483	Gdzie jest twój brat?
+7484	Ostatnio mój brat du¿o podró¿uje. Bardzo siê o[ENTER]niego martwiê.
+7485	Sprzedajesz Ciastka Ry¿owe?
+7486	Yu-Rang, Sprzedawca Tortów:
+7487	Pomimo, ¿e jest to du¿a restauracja, dekoracja[ENTER]jest ca³kiem prosta.
+7488	Podczas wojny ciê¿ko jest sprzedawaæ Ciastka[ENTER]Ry¿owe. Dziêki bandytom, straciliœmy wiêkszoœæ[ENTER]klientów. Nie wiem ile jeszcze poci¹gnê ten[ENTER]interes.
+7489	Kto kupuje u Ciebie?
+7490	Najwiêcej Ciastek Ry¿owych sprzedajê podczas[ENTER]moich podró¿y. Pewnego dnia tajemniczy rycerz w[ENTER]czerni stan¹³ przede mn¹ i chcia³ kupiæ ciastko.[ENTER]Okaza³o siê jednak, ¿e nie ma Yang. W zamian za[ENTER]ciastko, da³ mi pewn¹ recepturê. Receptura ta[ENTER]opisywa³a krok po kroku przygotowaæ Wodê Zin.[ENTER]Mikstura jest w stanie poprawiæ Si³ê Ataku.[ENTER]Sprzeda³am j¹ Huahn-Son. Jeœli zaniesiesz[ENTER]Huahn-Son Wodê Sim i Ró¿ê Alpejsk¹ na pewno z[ENTER]chêci¹ sporz¹dzi tak¹ miksturê dla Ciebie.
+7491	Dlaczego spogl¹dasz tak smutno?
+7492	Oh, kto by pomyœla³, ¿e nasze s³odkie marzenia[ENTER]m³odej pary zostan¹ tak bezlitoœnie zniszczone.[ENTER]Mój biedny m¹¿... poleg³ na polu bitwy![ENTER]Proszê, pomœcij jego œmieræ.
+7493	Wielu ginie podczas wojny...
+7494	Coraz wiêcej mê¿czyzn ginie na wojnie, wiêc my,[ENTER]kobiety z wioski, postanowi³yœmy poprosiæ[ENTER]Huahn-So aby stworzy³ lepsze mikstury uleczaj¹ce.[ENTER]Po bardzo d³ugich badaniach i eksperymentach[ENTER]uda³o mu siê znaleŸæ sposób na wyprodukowanie[ENTER]mikstury, która zwiêksza obronê - dziêki temu[ENTER]zu¿ywa siê mniej zwyk³ych mikstur leczniczych.[ENTER]IdŸ i z nim porozmawiaj. Na pewno Ci pomo¿e.[ENTER]Odkryt¹ miksturê nazwa³ Wod¹ SamBo. Aby j¹[ENTER]wyprodukowaæ potrzebuje Wodê Dok i Ró¿ê Alpejsk¹.
+7495	Och, co za s³odki brzd¹c...
+7496	Ah-Yu:
+7497	Znowu zaczyna krzyczeæ...[ENTER]Ju¿ nie wiem czy chce trochê s³odyczy czy.... och[ENTER]nie!
+7498	Opowiedz mi trochê o ceramice.
+7499	Co u was s³ychaæ?
+7500	Moje dziecko! Jestem taka nerwowa... Teraz, kiedy[ENTER]mój m¹¿ poleg³ na wojnie, muszê siê odnaleŸæ....[ENTER]Próbujê utrzymaæ mnie i moje dziecko sama. To[ENTER]dziêki Wodzie Bo mogê zapewniæ utrzymanie mojej[ENTER]rodzinie. Muszê dostarczyæ do Yu-Hwan 100 Soków z[ENTER]Kwiatów Kaki i jeden Grzyb Tue. Za dostarczenie[ENTER]tych sk³adników dostanê Wodê Bo, któr¹ bêdê mog³a[ENTER]sprzedaæ. Muszê jakoœ dostarczyæ te materia³y...
+7501	Co s³ychaæ u Twojego mê¿a?
+7502	Aranyo:
+7503	Mój tak zwany m¹¿ o¿eni³ siê z w³asnymi[ENTER]ksi¹¿kami. On ledwie na mnie spogl¹da.[ENTER]A ja nie jestem brzydk¹ kobiet¹.
+7504	Jak tam Twoje interesy?
+7505	Od czasu rozpoczêcia wojny, bardzo trudno na[ENTER]siebie zarobiæ. Zwi¹zek Handlowy kiedyœ by³[ENTER]bardzo potê¿ny, ale jego czasy œwietnoœci minê³y.[ENTER]Nie mo¿emy ju¿ d³u¿ej ignorowaæ dzikusów,[ENTER]Zaprzysiê¿onych ¯o³nierzy i ¯o³nierzy Czarnego[ENTER]Wiatru tak jak by³o do tej pory.
+7506	Dlaczego jesteœ w z³ym nastroju?
+7507	Taurean:
+7508	Harang to niedobra dziewczyna![ENTER]Nienawidzê jej! Jestem s³aby, a ona czêsto mnie[ENTER]zaczepia!
+7509	Garncarz Yonah:
+7510	Jesteœ facetem i masz miêœnie.[ENTER]Poæwicz je trochê!
+7511	Co robisz?
+7512	Harang:
+7513	Czekam na Taurean! Czêsto bawimy siê razem i[ENTER]walczymy ze sob¹. Co za tchórz! Jeœli nie[ENTER]przyjdzie sam, to oberwie po uszach!
+7514	Taurean boi siê Ciebie.
+7515	Taurean jest silniejszy ode mnie, dlatego te¿[ENTER]wymyœli³am sposób na pokonanie go w walce. Wiem[ENTER]od pewnego m¹drego ninja, ¿e jeœli pomieszam Wodê[ENTER]Young z Morw¹, to otrzymam miksturê, która[ENTER]umo¿liwia szybsze zadawanie ciosów. Z tak¹[ENTER]mikstur¹ jestem w stanie pokonaæ Taurean, nawet,[ENTER]jeœli jest silniejszy. Jeœli chcia³byœ szybciej[ENTER]zadawaæ ciosy, to udaj siê do Huahn-So z[ENTER]odpowiednimi sk³adnikami i poproœ go, aby[ENTER]przygotowa³ tak¹ miksturê dla Ciebie.
+7516	Nowy wgl¹d...
+7517	Seon-Pyeong:
+7518	Mój przyjacielu, œwiat jest pe³en pytañ bez[ENTER]odpowiedzi. A ja jestem cz³owiekiem poszukuj¹cym[ENTER]odpowiedzi i nowej wiedzy. Czy s³ysza³eœ kiedyœ o[ENTER]epickich broniach i Kamieniach Duszy?
+7519	Co ty robisz?
+7520	Garncarstwo to wdziêczne zajêcie. Lubiê wyrabiaæ[ENTER]z glinki ró¿ne przedmioty, nadawaæ im kszta³t i[ENTER]obserwowaæ jak one powstaj¹... Wyrabiam proste[ENTER]rzeczy. Na wschodzie, poza tym kontynentem s¹[ENTER]metody produkcji du¿o dalej rozwiniête. Raz[ENTER]widzia³em przedmioty wykonane z gliny przez[ENTER]garncarza stamt¹d i by³em pod wra¿eniem. Nadal[ENTER]badam ich przedmioty. Chcê wiedzieæ jakich[ENTER]sztuczek oni u¿ywaj¹.
+7521	Prawdopodobnie ju¿ wiesz, ¿e na co dzieñ zajmujê[ENTER]siê studiowaniem wyj¹tkowych rzeczy. Obecnie[ENTER]badam metodê ulepszania broni i Kamieni Duszy.
+7522	Badania dotycz¹ce broni...
+7523	Interesuj¹ce, nieprawda¿? Czy chcesz wiedzieæ[ENTER]wiêcej? W takim razie przynieœ mi najprawdziwsz¹[ENTER]broñ +9 na poziomie 65.[ENTER]Bêdê równie¿ potrzebowa³ Broszury Szermierki i[ENTER]dwóch Zwojów B³ogos³awieñstwa. Z tych sk³adników[ENTER]spróbujê wytworzyæ epick¹ broñ.
+7524	Jednak nie mogê obiecaæ, ¿e to zadzia³a.
+7525	Kamienie Duszy...
+7526	Kamienie Duszy s¹ powszechnie u¿ywane, ale mimo[ENTER]to, wiêkszoœæ osób nie zna ich prawdziwej mocy.[ENTER]Dziêki moim badaniom dowiedzia³em siê o nich[ENTER]znacznie wiêcej! Je¿eli przyniesiesz mi Kamieñ[ENTER]Duszy, mogê go dla Ciebie ulepszyæ.
+7527	Wygl¹dasz na silnego i zdrowego jak na Twoje lata...
+8004	Reset Statusu
+8015	Dziêki temu zwojowi mo¿esz cofn¹æ wszystkie[ENTER]dotychczasowe rozwiniêcia statusu. Dotyczy to[ENTER]wszystkich twoich parametrów: WIT, INT, SI£ oraz[ENTER]ZRÊ zostan¹ zresetowane na 1. Uzyskane w ten[ENTER]sposób punkty mo¿esz porozdawaæ na nowo.[ENTER][ENTER]Czy chcesz u¿yæ zwoju?
+8153	Reset umiejêtnoœci.
+8154	Je¿eli w przysz³oœci zmienisz zdanie, po prostu[ENTER]do mnie wróæ.
+8155	Masz za ma³o Yang. Nie mogê Ci pomoc.[ENTER]Przecie¿ muszê z czegoœ ¿yæ!
+8159	Nie rozpocz¹³eœ jeszcze treningu! Jeœli nie[ENTER]wyda³eœ jeszcze ¿adnych Punktów Umiejêtnoœci, nie[ENTER]mo¿esz ich cofn¹æ. PrzyjdŸ ponownie, jak[ENTER]pope³nisz jakiœ b³¹d w rozwijaniu swoich[ENTER]umiejêtnoœci, a z mi³¹ chêci¹ ci pomogê.
+8161	Nie pod¹¿asz za ¿adn¹ profesj¹ i nie posiadasz[ENTER]punktów umiejêtnoœci, które mo¿na by cofn¹æ!
+8162	Witaj, przyszed³eœ we w³aœciwe miejsce.[ENTER]W twoich oczach widzê du¿o smutku.[ENTER]Pozwalam ludziom zapomnieæ o ich przesz³oœci,[ENTER]mog¹ zacz¹æ jeszcze raz...[ENTER]Czy chcesz zresetowaæ swoje umiejêtnoœci?[ENTER]Kosztuje to %s Yang.
+8164	Ha ha, czy¿byœ nie czu³ siê najlepiej?[ENTER]Wygl¹dasz na kogoœ, kto potrzebuje pomocy.[ENTER]Nie jesteœ zadowolony ze swoich umiejêtnoœci?[ENTER]Znam magiczny sposób, którym mogê Ci pomoc.[ENTER]Mogê zresetowaæ twoje umiejêtnoœci.
+8165	Oznacza to, ¿e bêdziesz móg³ wybraæ inne[ENTER]umiejêtnoœci. Jednak decyduj¹c siê na reset,[ENTER]stracisz punkty zyskane dziêki Ksiêgom[ENTER]Umiejêtnoœci.[ENTER]Czy na pewno chcesz zacz¹æ wszystko od nowa?[ENTER]Koszt to %s Yang.
+8166	Reset Umiejêtnoœci
+8618	Otwórz sklep
+10928	Jasne!
+11825	Szata aury: przenieœ parametry
+11829	Szata aury: rozwój
+200	Dla doskonalej duszy smoka: %s.
+201	Chcesz zdobyc genialne %s?
+202	Mozesz mi dac nieuzyteczne doskonale dusze smoka [ENTER], a ja moge je uczynic genialnymi, abys mógl ponownie z nich skorzystac, [ENTER] po prostu przeciagnij dusze smoka nade mna [ENTER].
+203	Tworzenie
+204	Dodaj bonusy 6 i 7
+205	Dodawanie atrybutu zakonczone powodzeniem.
+206	Operacja zaklecia nie powiodla sie.
+207	Zostal czas: %s.
+208	Jak dziala przemiana alchemiczna?
+209	Wybierz zadany bonus:
+210	Silne przeciwko potworom +10%.
+211	Max HP+1000 jest wybrane.
+212	Silne przeciwko potworom +10% jest wybrane.
+213	EXP +20% jest wybrane.
+4473	Tak
+2426	Anuluj

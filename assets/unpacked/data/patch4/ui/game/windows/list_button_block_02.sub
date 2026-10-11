@@ -1,0 +1,7 @@
+title subImage
+version 1.0
+image "new_buttons.dds"
+left 21
+top 0
+right 42
+bottom 19

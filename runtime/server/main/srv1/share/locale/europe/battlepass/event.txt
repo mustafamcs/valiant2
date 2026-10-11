@@ -1,0 +1,69 @@
+ Group BattlePass
+{
+	#--#	BattlePassName	BattlePassID	StartTime	EndTime
+	1	event_2021_advent_event	1	1672849467	1672849467
+}
+
+Group event_2021_advent_event
+{
+	Group Reward
+	{
+		#--#	ItemVnum	ItemCount
+		1	80014	1
+	}
+
+	Group Mission_1
+	{
+		#--#	InfoDesc	InfoName
+		1	type	BP_ITEM_COLLECT
+		2	item_vnum	50010
+		3	count	200
+		#--#	Rewards
+		4	80014	1
+	}
+	Group Mission_2
+	{
+		#--#	InfoDesc	InfoName
+		1	type	BP_ITEM_COLLECT
+		2	item_vnum	50010
+		3	count	200
+		#--#	Rewards
+		4	80014	1
+	}
+	Group Mission_3
+	{
+		#--#	InfoDesc	InfoName
+		1	type	BP_ITEM_COLLECT
+		2	item_vnum	71144
+		3	count	50
+		#--#	Rewards
+		4	80014	1
+	}
+	Group Mission_4
+	{
+		#--#	InfoDesc	InfoName
+		1	type	EXP_COLLECT
+		2	mob_vnum	1107
+		3	value	2000000
+		#--#	Rewards
+		4	80014	1
+	}
+	Group Mission_5
+	{
+		#--#	InfoDesc	InfoName
+		1	type	KILL_MONSTER
+		2	mob_vnum	1901
+		3	value	20
+		#--#	Rewards
+		4	80014	1
+	}
+	Group Mission_6
+	{
+		#--#	InfoDesc	InfoName
+		1	type	BP_ITEM_USE
+		2	item_vnum	71144
+		3	count	50
+		#--#	Rewards
+		4	80014	1
+	}
+}

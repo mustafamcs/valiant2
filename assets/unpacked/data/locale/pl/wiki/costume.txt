@@ -1,0 +1,67 @@
+
+[BANNER_IMG = d:/ymir work/ui/game/wiki/skins.tga]
+[CENTER_ALIGN;FONT_SIZE=30]Görünüm ve Kostüm Kýlavuzu
+
+[COLOR=0xffd700;FONT_SIZE=18]ýçerik listesi:
+
+[X_PADDING=5;FONT_SIZE=14]* 1. Temel bilgiler
+[X_PADDING=5;FONT_SIZE=14]* 2. Takviye
+
+
+[IMG=d:/ymir work/ui/game/wiki/divider_long.tga; Y=160; CENTER_ALIGN]
+
+
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]1. Temel Bilgiler
+
+[CENTER_ALIGN;FONT_SIZE=14]Ava2 dünyasýnda hem oyun içinde hem de eþya dükkanýnda kozmetik ürünleri alabilirsiniz.
+[CENTER_ALIGN;FONT_SIZE=14]Fark sadece kozmetiklerin süresinde yatmaktadýr. 15 günlük kozmetik
+[CENTER_ALIGN;FONT_SIZE=14]Sehirdeki Red Gems NPC'sinde bulunabilir.
+
+[CENTER_ALIGN;FONT_SIZE=14]Tüm Ava2 Görünümlerine, Kostümlerine ve saç stillerine özel bonuslar eklenebilir,
+[CENTER_ALIGN;FONT_SIZE=14]hem kalýcý hem de geçici. Hepsinde ekleyebileceðiniz 3 Yuva var
+[CENTER_ALIGN;FONT_SIZE=14]Takviyeler.
+
+
+[IMG=d:/ymir work/ui/game/wiki/emoji/costume.tga; Y=350; CENTER_ALIGN]
+
+
+[IMG=d:/ymir work/ui/game/wiki/divider_long.tga; Y=650; CENTER_ALIGN]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[CENTER_ALIGN;FONT_SIZE=18;COLOR=58ADFF]2. Reinforcements
+
+[CENTER_ALIGN;FONT_SIZE=14]A large number of bonuses are available to customize skins and outfits to 
+[CENTER_ALIGN;FONT_SIZE=14]your liking. All of them can be obtained from chests that you will find by 
+[CENTER_ALIGN;FONT_SIZE=14]killing bosses. The higher the level of the boss, the higher the probability of 
+[CENTER_ALIGN;FONT_SIZE=14]obtaining better quality reinforcements.
+
+[CENTER_ALIGN;FONT_SIZE=14]In essence there are 3 kinds of Reinforcements, those of weapon skin, hairstyles 
+[CENTER_ALIGN;FONT_SIZE=14]and costumes, and there are 3 grades for each of them: Red Reinforcements give 
+[CENTER_ALIGN;FONT_SIZE=14]a high Bonus, Green Reinforcements give a medium bonus and blue Reinforcements 
+[CENTER_ALIGN;FONT_SIZE=14]give a small bonus.
+
+[CENTER_ALIGN;FONT_SIZE=14]You can also get Red Reinforcements in the item shop.

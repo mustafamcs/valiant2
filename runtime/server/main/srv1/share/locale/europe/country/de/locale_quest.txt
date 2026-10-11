@@ -1,0 +1,337 @@
+19	Was ist ein Schulterband?
+20	Was ist ein Schulterband?
+21	Mit dem Schulterband hast du zwei Möglichkeiten:[ENTER]Kombination und Aufnahme.[ENTER][ENTER]Die Kombination kannst du nur zwischen Bändern[ENTER]desselben Grades durchführen. Zwei miteinander[ENTER]kombinierte Bänder können ein hochwertigeres Band[ENTER]ergeben.[ENTER][ENTER]Bei der Aufnahme werden Boni von einer Waffe oder[ENTER]Rüstung zu verschiedenen Prozentsätzen auf das[ENTER]Schulterband übertragen.[ENTER][ENTER]Die Aufnahmerate (%) ist dabei abhängig vom Grad[ENTER]des Bandes. Bei der Aufnahme von Boni wird die[ENTER]gewählte Waffe oder Rüstung zerstört.
+22	Kombination
+23	Möchtest du zwei Bänder kombinieren?
+24	Aufnahme von Boni
+25	Möchtest du Boni von deiner Waffe oder Rüstung[ENTER]aufnehmen?
+39	Schließen
+114	Information:
+126	Wenn du heiratest, ist es dir nicht mehr möglich,[ENTER]das Reich zu wechseln. Nur unverheiratete Spieler[ENTER]sind dazu in der Lage.
+127	Wenn du das Reich wechseln willst, musst du dich[ENTER]scheiden lassen.
+128	Du bist nicht in der Lage, dein Reich zu[ENTER]wechseln, während du verwandelt bist.
+129	Benutze dieses Item erst, wenn du nicht mehr[ENTER]verwandelt bist.
+130	Du bist nicht in der Lage, dein Reich zu[ENTER]wechseln, wenn du Mitglied einer Gilde bist.
+131	Benutze dieses Item erst, wenn du aus deiner[ENTER]Gilde ausgetreten bist.
+132	Du kannst dein Reich nicht wechseln, da du nicht[ENTER]genügend Yang besitzt.
+133	Benutze dieses Item erst, wenn du im Besitz von[ENTER]500.000 Yang bist.
+134	In welches Reich möchtest du wechseln?
+135	Shinsoo
+139	Überlege dir gut, ob du das Reich wirklich[ENTER]wechseln willst. Du kannst diese Entscheidung[ENTER]nicht rückgängig machen.
+140	Reichswechsel:
+141	Bitte logge dich einmal komplett aus und wieder[ENTER]ein, damit der Vorgang abgeschlossen werden kann.
+143	Du hast das Reich ausgewählt, in dem du dich[ENTER]bereits befindest. Lag es nicht in deiner Absicht[ENTER]zu wechseln?
+144	Das Reich ist gewählt.[ENTER]Bisher warst du Mitglied einer Gilde. Denke[ENTER]daran, dass diese Gilde im neuen Reich fehlen[ENTER]wird.
+145	Das Reich ist gewählt.[ENTER]Bisher warst du mit einem Ehepartner verheiratet.[ENTER]Denke daran, dass dies im neuen Reich nicht mehr[ENTER]der Fall sein wird.
+147	Mit diesem Item kannst du dein Reich wechseln.
+148	Du kannst dieses Item nicht benutzen!
+149	Du kannst das Reich nur einmal wechseln.
+150	GM - Soll die Zeitsperre auf Null gesetzt werden?
+151	Die benötigte Zeit wurde auf Null gesetzt.
+152	Verheiratete Spieler können das Reich nicht[ENTER]wechseln.
+153	Du kannst diesen Gegenstand derzeit nicht[ENTER]verwenden.
+689	Alte Frau:
+961	Drachenstein-Veredelung
+962	Du möchtest einen Drachenstein veredeln? Nur zu.[ENTER]Vorher solltest du jedoch wissen, dass dieser[ENTER]Prozess auch fehlschlagen kann.[ENTER]Ich habe gehört, dass die sogenannten[ENTER]Drachenbohnen, die man hinter der drehenden Münze[ENTER]findet, die Chancen verbessert.
+1278	Wächter des Dorfplatzes
+1294	Wächter des Dorfplatzes:
+1298	inaktiver key [%s]
+1301	Laden öffnen
+1408	Alte Frau:
+1692	GM: Wiedereinschreibung
+1693	GM: Gildeninformation ansehen
+1694	pc.has_guild: %s
+1695	Du wünschst aus der Gilde auszutreten, der du[ENTER]angehörst? Ich vermute, du hast nur wenig Kontakt[ENTER]zu den anderen Abenteurern geschlossen.[ENTER]Aber nun, es liegt an dir. Du bist also sicher,[ENTER]dass du aus der Gilde austreten möchtest?
+1696	Deine Entscheidung steht also fest. Ich werde[ENTER]dich aus der Gilde streichen.
+1697	Was?[DELAY value;150] [/DELAY][ENTER][ENTER]Ich habe sie mit viel Mühe erstellt, und jetzt[ENTER]willst du sie auflösen? All die Erfahrung und all[ENTER]die Erinnerungen an gemeinsame Kämpfe gehen für[ENTER]immer verloren![ENTER]Bist du dir sicher?
+1698	Nun gut. Ich werde die Gilde auflösen, der du[ENTER]vorstehst.
+1699	Gilde gründen
+1700	Gilde gründen
+1701	In den ersten Tagen nach Verlassen deiner Gilde[ENTER]kannst du keine neue Gilde gründen.
+1702	gründen
+1703	Bitte den Namen des Benutzers eingeben, über den[ENTER]Informationen gewünscht werden.
+1704	Du hast bereits eine Gilde aufgelöst![ENTER]In den nächsten Tagen kannst du keine neue Gilde[ENTER]gründen.
+1705	Du wünschst eine Gilde zu gründen?[ENTER]Dies steht dir erst frei, wenn du Level 40[ENTER]erreicht hast. Zudem kostet es dich 200.000 Yang.[ENTER]Möchtest du eine Gilde gründen?
+1706	Du besitzt nicht genügend Yang!
+1707	Dein Level ist zu niedrig, um eine Gilde zu[ENTER]gründen.
+1710	Dieser Benutzer existiert nicht.
+1711	Überprüfe das früheste Datum für die[ENTER]Wiedereinschreibung.
+1712	Aus der Gilde ausgetreten vor: %s Tag(en)
+1714	Zeit bis zum Auflösen: %s Tag(e)
+1716	Früheste Möglichkeit, den Versuch zu wiederholen:[ENTER]%s Std.
+1718	Sofortige Anpassung
+1719	Sofortige Einschreibung möglich.
+1749	Hier siehst du den Rang deiner Gilde im Vergleich[ENTER]mit den Gilden, die in der Tabelle über und unter[ENTER]dir platziert sind:[ENTER][DELAY value;0][ENTER]|Name|Punkte|Siege|Remis|Niederlagen[ENTER]%s[/DELAY][ENTER]
+1750	Hier siehst du die acht bestplatzierten Gilden[ENTER]und ihre Gildenkriegsergebnisse:[ENTER][DELAY value;0][ENTER]|Name|Punkte|Siege|Remis|Niederlagen[ENTER]%s[/DELAY][ENTER]
+1751	Deine Gilde belegt in der Tabelle Platz %s.
+1752	Der Punktestand deiner Gilde beträgt %s.
+1911	%s Möchtest du an einem Kampf teilnehmen?
+2090	Stallbursche:
+2191	Neues Pferdebild
+2192	Du hast das Militär-Pferdebuch verloren![ENTER]Die Gebühr für die Neuausgabe beträgt 500.000[ENTER]Yang.
+2193	Dies ist das neu ausgegebene Militär-Pferdebuch.[ENTER]Verliere es nicht wieder.
+2194	Um das Anfängerpferd rufen zu können, musst du[ENTER]zuerst die Qualifikationsprüfung bestehen.
+2195	Das Anfängerpferd wurde gerufen.
+2196	Es hat nicht funktioniert - das Anfängerpferd[ENTER]konnte nicht gerufen werden.[ENTER]Du kannst deine Chancen, das Pferd erfolgreich zu[ENTER]rufen, verbessern, indem du die Pferderuf-[ENTER]Fertigkeit übst.
+2197	Deine mentale Kraft reicht nicht aus.[ENTER]Um das Anfängerpferd herbeirufen zu können,[ENTER]benötigst du mindestens 100 Manapunkte.
+2198	Um das Pferd für fortgeschrittene Reiter[ENTER]herbeirufen zu können, benötigst du das[ENTER]Waffen-Pferdebuch.
+2200	Um das Pferd rufen zu können, musst du zuerst die[ENTER]Qualifikationsprüfung bestehen.
+2201	Um ein Anfängerpferd herbeirufen zu können,[ENTER]benötigst du das Pferdebild.
+2202	Du hast das Pferdebild verloren! Gegen eine[ENTER]Gebühr von 400.000 Yang gebe ich dir ein neues.
+2203	Das Pferd für Reiter fortgeschrittenen Könnens[ENTER]wurde gerufen.
+2204	Es hat nicht funktioniert - das Kampfpferd konnte[ENTER]nicht gerufen werden.[ENTER]Du kannst deine Chancen, das Pferd erfolgreich zu[ENTER]rufen, verbessern, indem du die Pferderuf-[ENTER]Fertigkeit übst.
+2205	Deine mentale Kraft reicht nicht aus, um ein[ENTER]Pferd für fortgeschrittene Reiter herbeizurufen.[ENTER]Du benötigst dazu mindestens 200 Manapunkte.
+2206	Um das Pferd für Reitexperten herbeirufen zu[ENTER]können, benötigst du das Militär-Pferdebuch.
+2207	Um das Pferd für fortgeschrittene Reiter rufen zu[ENTER]können, musst du zuerst die Qualifikationsprüfung[ENTER]bestehen.
+2208	Um das Pferd für fortgeschrittene Reiter[ENTER]herbeirufen zu können, benötigst du das[ENTER]Waffen-Pferdebuch.
+2209	Das Pferd für Reitexperten wurde gerufen.
+2210	Es hat nicht funktioniert - das Militärpferd[ENTER]konnte nicht gerufen werden.[ENTER]Du kannst deine Chancen, das Pferd erfolgreich zu[ENTER]rufen, verbessern, indem du die Pferderuf-[ENTER]Fertigkeit übst.
+2211	Deine mentale Kraft reicht nicht aus. Um ein[ENTER]Pferd für Reitexperten herbeirufen zu können,[ENTER]benötigst du mindestens 300 Manapunkte.
+2213	Dies ist das neue Pferdebild. Verliere es nicht[ENTER]wieder.
+2215	Du besitzt nicht genug Yang.
+2216	Neues Waffen-Pferdebuch
+2217	Du hast das Waffen-Pferdebuch verloren![ENTER]Gegen eine Gebühr von 500.000 Yang gebe ich dir[ENTER]ein neues.
+2218	Dies ist das neu ausgegebene Waffen-Pferdebuch.[ENTER]Verliere es nicht wieder.
+2219	Du besitzt nicht genug Yang.
+2220	Neues Militär-Pferdebuch
+2263	Ja.
+2316	Nur Spieler, die mindestens Level 50 erreicht[ENTER]haben, können ihr Geschlecht ändern.
+2317	%s
+2318	GM - Soll die Zeitsperre auf Null gesetzt werden?
+2319	Geschlechtswechsel:
+2320	Mit diesem Item kannst du das Geschlecht deines[ENTER]Spielcharakters wechseln. Zwischen zwei Wechseln[ENTER]muss eine Zeitspanne von mindestens 3 Tagen[ENTER]liegen.
+2321	Hast du dir diesen Schritt gut überlegt?[ENTER]Willst du wirklich dein Geschlecht ändern?[ENTER]Anschließend wirst du automatisch in die Stadt[ENTER]teleportiert.
+2322	Dein Geschlecht wurde gewechselt. Alle[ENTER]Fertigkeiten und Fähigkeiten bleiben bestehen.
+2323	Der Geschlechtswechsel wurde abgebrochen.
+2324	Bitte lege Kostüm, Frisur und Rüstung ab.
+2325	Du kannst dieses Item erst benutzen, wenn du[ENTER]mindestens Level 50 erreicht hast.
+2326	Verheiratete Spieler können das Geschlecht nicht[ENTER]wechseln. Diese Option steht nur unverheirateten[ENTER]Spielern offen.
+2327	Wenn du jetzt heiratest, kannst du dein[ENTER]Geschlecht nicht mehr wechseln. Diese Option[ENTER]steht nur unverheirateten Spielern offen.
+2328	Wenn du dein Geschlecht wechseln willst, musst du[ENTER]dich zuvor scheiden lassen.
+2329	Du kannst dein Geschlecht nicht wechseln, während[ENTER]du verwandelt bist.
+2331	Du kannst dein Geschlecht nur alle 3 Tage[ENTER]wechseln.
+2332	Du kannst erst wieder wechseln:
+2594	Gilde auflösen
+2617	Erlaubnis für Beitritt erbitten
+2618	Liste der Gildenkämpfe einsehen
+2619	Die folgenden Gildenkriege finden derzeit statt:[ENTER]Wenn du zusehen möchtest, wähle einen davon aus.
+2620	Momentan nimmt keine Gilde an einem Kampf teil.
+2621	Die Kämpfe sind bereits vorbei.
+2622	Aus der Gilde austreten.
+2625	Ja
+4298	Punktestand der eigenen Gilde anzeigen
+4299	Rang der eigenen Gilde anzeigen
+4300	Die besten Gilden anzeigen (Ränge 1-8)
+4473	Ja
+6491	Ich möchte heiraten.
+6492	Smoking
+6493	Liste der Hochzeiten
+6494	Es findet zurzeit keine Hochzeit statt.
+6496	Du bist Hochzeitgast! Viel Spaß!
+6497	Die Tinte ist doch nicht einmal trocken![ENTER]Lass dir ein wenig mehr Zeit.
+6499	Wenn du heiraten möchtest, musst du einen Smoking[ENTER]tragen.
+6500	Brautkleid
+6501	Wenn du heiraten möchtest, musst du ein[ENTER]Brautkleid anziehen.
+6502	Nur mit Liebe allein lässt sich leider keine[ENTER]Hochzeit arrangieren, du benötigst auch etwas[ENTER]Yang. Deine Ersparnisse reichen bisher aber nicht[ENTER]aus. Wenn du eine Million Yang gespart hast,[ENTER]werde ich gerne die Zeremonie planen.
+6503	Du benötigst eine Million Yang.
+6504	Ja, das richtige Alter hast du, ebenfalls den[ENTER]entschlossenen Gesichtsausdruck. Wen möchtest du[ENTER]heiraten?
+6505	Bitte gib den Namen der Person an, die du zu[ENTER]heiraten wünschst.
+6506	Bist du so aufgeregt, dass du nicht einmal den[ENTER]Namen niederschreiben kannst? Versuche es noch[ENTER]einmal.
+6507	Du weißt also den Namen der Person nicht, die du[ENTER]zu heiraten wünschst? Du bist dir aber sicher,[ENTER]dass du eine Hochzeit möchtest?
+6508	Derzeit findet eine andere Hochzeit statt. Bitte[ENTER]warte einen Moment oder komme später wieder!
+6509	%s ist nicht online.
+6510	Dein Partner muss in der Nähe sein, damit ich die[ENTER]Zeremonie durchführen kann.[ENTER]Bringe ihn also bitte her.
+6511	%s befindet sich zu weit weg.
+6512	Hier benötige ich nicht deinen Namen, sondern den[ENTER]deines Partners.
+6513	Gib hier den Namen deines Partners an.
+6514	Tut mir leid, aber gleichgeschlechtliche Paare[ENTER]kann ich nicht trauen.
+6515	Es können nur Paare aus demselben Reich heiraten.
+6516	Die Person die du zu heiraten wünschst, ist[ENTER]bereits verheiratet. Wusstest du das nicht? Du[ENTER]solltest dir einen ledigen Partner suchen.
+6517	%s ist verheiratet.
+6518	Die Person ist noch nicht bereit für die Ehe.[ENTER]Dein Partner sollte mindestens Level 25 besitzen.
+6519	Bist du nicht noch zu jung, um zu heiraten? Man[ENTER]braucht viel Verantwortungen für das Eheleben und[ENTER]dazu scheinst du mir noch nicht reif genug. Junge[ENTER]Leute lassen sich zu schnell scheiden, daher[ENTER]werde ich es nicht genehmigen. Du solltest[ENTER]zunächst noch Erfahrungen sammeln.
+6520	Es tut mir leid, aber ich kann euch beide nicht[ENTER]trauen. Ihr passt nicht zueinander, da eure[ENTER]Erfahrungs-Differenz mehr als 15 Level beträgt.
+6521	Nun tauscht die Ringe.
+6522	Die Heiraten ist eine wichtige Angelegenheit im[ENTER]Leben, da hätte dein Partner doch wenigstens[ENTER]einen Ehering mitbringen können?
+6523	Dein Partner muss ebenfalls einen Ehering bei[ENTER]sich haben.
+6524	Dein Partner trägt gar kein Hochzeitsgewand![ENTER]Ist dir das nicht peinlich?
+6525	Dein Partner muss einen Smoking tragen.
+6526	Deine Partnerin muss ein Brautkleid tragen.
+6528	Nun ist es so weit: Ihr zwei habt den Bund der[ENTER]Ehe geschlossen und könnt nun ein wenig Zeit[ENTER]miteinder verbringen. Ich werde euch zu der Insel[ENTER]der Liebenen schicken. Eine lange und glückliche[ENTER]Ehe wünsche ich euch, meine Gratulation.[ENTER]Demnächst wirst du automatisch zur Insel der[ENTER]Liebenen geschickt.
+6529	Dein Partner hat anscheinend nicht die Absicht,[ENTER]dich zu heiraten. Vielleicht solltest du das[ENTER]zunächst klären.
+6530	Zurück zum Hochzeitsraum
+6531	Information:
+6532	Warum bist du immer noch hier?[ENTER]Dein Partner wartet bereits sehnsüchtig auf dich.[ENTER]Du solltest rasch folgen.
+6533	Genehmigung für die Hochzeit
+6534	Hochzeitsplanerin:
+6535	Ich spreche mit deinem Partner. Gedulde dich[ENTER]bitte einen Moment.
+6536	Ich bin hier, um den reibungslosen Ablauf eurer[ENTER]Zeremonie zu gewährleisten. Zunächst notiere hier[ENTER]unten den Namen deines Partners.
+6537	Dieser Name ist nicht registriert.[ENTER]Überprüfe bitte deine Angaben.
+6538	Hole bitte deinen Partner her. Ich muss mit ihm[ENTER]reden, um einige Dinge zu prüfen.
+6539	%s ist noch zu weit entfernt.
+6540	Du musst den Name deines Partners schreiben,[ENTER]nicht deinen eigenen.
+6542	Eine Hochzeit kann erst ab Level 25 durchgeführt[ENTER]werden.
+6543	Hier stimmt was nicht - das ist nicht die Person,[ENTER]die mir angekündigt wurde.
+6544	Dein Partner scheint noch nicht bereit für die[ENTER]Hochzeit zu sein. Klärt das untereinander.
+6545	Nun sind alle Vorbereitungen getroffen. Die[ENTER]Zeremonie kann beginnen.
+6546	Das wird eine wunderschöne Hochzeit!
+6547	Beginn des Hochzeitsmarsches
+6548	Hochzeitsmarsch beenden
+6549	Nacht
+6550	Schnee
+6551	Ende der Hochzeit
+6552	Bitte warte einen Moment, ich spreche gerade mit[ENTER]deinem Partner.
+6553	Du möchtest ohne Ring heiraten?
+6554	Möchtest du die Hochzeit fortsetzen?
+6555	Ja
+6557	Dein Partner muss mit dem Abbruch der Hochzeit[ENTER]einverstanden sein. Sie kann jetzt nicht beendet[ENTER]werden, da dein Partner nicht online ist.
+6558	Ohne die Zustimmung deines Partners können wir[ENTER]die Zeremonie nicht durchführen. Du musst dich[ENTER]daher ein wenig gedulden.
+6560	Dein Partner möchte nicht.
+6561	Scheidung
+6562	Scheidung
+6563	Es ist nicht möglich, in Abwesenheit deines[ENTER]Partners eine Scheidung durchzuführen. Ihr müsst[ENTER]noch einmal zusammen wiederkommen.
+6564	Verlobungsring
+6565	Für die rechtmäßige Scheidung benötigst du[ENTER]500.000 Yang und das Einverständnis deines[ENTER]Partners.[ENTER]Willst du dich wirklich scheiden lassen?
+6567	Den Ehering bitte.
+6568	Auch dein Partner muss seinen Ring hier bei sich[ENTER]haben.
+6569	Die Summe reicht leider nicht, um die Scheidung[ENTER]durchzuführen.
+6570	Um sich scheiden zu lassen, benötigt man %s Yang.
+6571	Man benötigt 500.000 Yang für eine Scheidung.
+6572	Willst du dich wirklich scheiden lassen?[ENTER]Das ist eine Entscheidung, die man nicht[ENTER]leichtfertig fällen sollte.
+6574	Ich habe meine Meinung geändert.[ENTER]Ich möchte mich nicht scheiden lassen.
+6575	Du musst erst einen Verlobungsring besorgen.[ENTER]Dann darfst du heiraten.
+6576	Es ist besser auf diese Weise. Ich wünsche dir[ENTER]ein langes und schönes Leben.
+6577	Die Scheidung ist vollzogen.
+6579	Die Scheidung ist vollzogen.[ENTER]Ihr seid nun geschieden.
+6580	Diese Unterlagen sind nicht vollständig.[ENTER]Du musst daher noch einmal wiederkommen.
+6581	Die Scheidung wird für ungültig erklärt.
+6582	Der Partner verweigert die Scheidung.[ENTER]Ihr solltet dies zunächst klären.
+6583	Ehering wegstecken
+6584	Ehering wegstecken
+6585	Unangenehme Erinnerungen sollte man schnell[ENTER]hinter sich lassen.
+6586	Der Ehering wurde weggesteckt.
+6587	Willst du wirklich so heiraten? Das ist eine[ENTER]wichtige Situation in deinem Leben, du solltest[ENTER]dich daher ein wenig festlicher kleiden.
+6588	Einseitige Scheidung
+6589	Wächter des Dorfplatzes:
+6590	Du benötigst eine Million Yang für die einseitige[ENTER]Scheidung. Bist du sicher, dass du dich scheiden[ENTER]lassen willst?
+6592	Deine Ersparnisse reichen nicht aus für eine[ENTER]Scheidung. Du benötigst dazu genauso viel Yang[ENTER]wie für deine Hochzeit.
+6593	Bist du dir sicher, dass du dich scheiden lassen[ENTER]willst?
+6594	Ja, ich will.
+6596	Nun, womöglich ist es besser so. Wenn du sicher[ENTER]bist, dass du es wirklich möchtest, dann komme[ENTER]noch einmal wieder.
+6597	Da du dir sicher bist, werde ich die Scheidung[ENTER]nun vollziehen. Ich wünsche euch dennoch alles[ENTER]Gute für die Zukunft.
+7443	Stillgestanden und Haltung bewahren![ENTER]Benimm dich und fange keinen Streit an. Du[ENTER]solltest Respekt gegenüber deinen Mitmenschen[ENTER]haben. Verstanden?
+7444	Ich bin ein sehr alter Mann, aber ich bin immer[ENTER]noch kräftig und gesund, denn ich habe ein[ENTER]besonderes Geheimnis.[ENTER]Ich habe herausgefunden, dass ein Trank aus[ENTER]Gango-Wurzelsaft und Tue-Pilzen das Leben[ENTER]verlängert. Wenn du diesen Trank auch mal[ENTER]probieren willst, solltest du mit den Zutaten zu[ENTER]Yu-Hwan gehen. Er wird dir sicher einen Trank[ENTER]brauen.
+7445	Du siehst ziemlich stark aus...
+7446	Seit vielen Jahren wird in unserer Familie das[ENTER]Geheimnis der Stärke weitergeben. Wenn man die[ENTER]Glockenblume auf richtige Art und Weise zu einem[ENTER]Trank verarbeitet, erzählte mein Vater, kann[ENTER]dieser Trank dir für kurze Zeit Stärke verleihen.[ENTER]Soweit ich weiß, kann Baek-Go diesen Trank[ENTER]herstellen. Du musst ihm nur eine Glockenblume[ENTER]bringen.
+7447	Im Frühtau zu Berge wir ziehn, fallera...
+7448	Yu-Hwan, der Musiker:
+7449	...es grünen alle Wälder, alle Höhn, fallera...[ENTER]Bist du auch ein Musikfreund? Ich singe in aller[ENTER]Abgeschiedenheit, um nicht in den Krieg[ENTER]verwickelt zu werden. Aber ohne ein Land, das[ENTER]mich beschützt, kann ich dieser Muße nicht[ENTER]frönen.
+7450	Warum liest du so viel?
+7451	Soon, der Bücherwurm:
+7452	Oh, Abenteurer! Die Welt ist voller Probleme. Nur[ENTER]mit dem nötigen Wissen kann man überleben.[ENTER]Darum halte deine Bücher immer in Ehren. In[ENTER]schlechten Zeiten – und die Zeiten sind[ENTER]heutzutage immer schlecht – werden sie dir[ENTER]weiterhelfen. Das kannst du mir ruhig glauben!
+7453	Hast du eigentlich Kinder?
+7454	Hier riecht es aber gut...
+7455	Eigentlich wollte ich keine Kinder, aber...[ENTER]Ich sammle immer mal wieder Kakiblüten, weil man[ENTER]mit ihnen – bei richtiger Zubereitung – die[ENTER]magische Energie stärken kann. Baek-Go hat das[ENTER]herausgefunden. Er braucht nur eine einzige[ENTER]Blüte, um daraus 100 Tränke herzustellen.[ENTER]Leider hat die Kakiblüte auch eine Nebenwirkung.[ENTER]Wenn eine Frau eine Kette aus diesen Blüte um den[ENTER]Hals trägt, dann bekommt sie einen Sohn. Im[ENTER]Vertrauen: Meine Frau hat das schamlos[ENTER]ausgenutzt.
+7456	Was ist mit deinem Fuß?
+7457	Handu-Up:
+7458	Es geht schon wieder. Beim Spazierengehen[ENTER]stolperte ich über eine Gango-Wurzel und[ENTER]verstauchte mir den Fuß. Zum Glück kenne ich den[ENTER]Heilkundigen Baek-Go. Er hat mich behandelt und[ENTER]mir einen Tipp gegeben: Zum Heilen kleinerer[ENTER]Wunden kann man aus eben dieser Gango-Wurzel[ENTER]einen Trank brauen. Also habe ich den kleinen[ENTER]Übeltäter in Tee verwandelt und er hat den[ENTER]Schaden, den er angerichtet hatte, auch wieder[ENTER]beseitigt...
+7459	Wer bist du?
+7460	Wonda-Rim:
+7461	Ich bin Wonda-Rim, der Neffe von Chaegirab. Mein[ENTER]Onkel ist eine Berühmtheit! Kennst du ihn? Er[ENTER]experimentiert viel mit Tränken und Kräutern.[ENTER]Dabei hat er herausgefunden, dass man einen sehr[ENTER]mächtigen Schutz gegen magische Energie erhält,[ENTER]wenn man 100 Bo-Wasser mit einer Maulbeere[ENTER]mischt. Soweit ich weiß, kann Huahn-So solche[ENTER]Tränke herstellen, wenn du ihm die Zutaten[ENTER]bringst.
+7462	Warum hast du so viele Narben?
+7463	Verräter Balso:
+7464	Ich bin kein guter Kämpfer und wurde im Krieg[ENTER]ständig verletzt. Irgendwann fragte ich Yu-Hwan,[ENTER]ob er nicht einen Trank für mich herstellen kann,[ENTER]der meinen Körper vor Verletzungen schützt. Er[ENTER]braute mir etwas aus Glockenblumensaft und[ENTER]Flieder, doch leider war der Schutz nicht[ENTER]ausreichend. Vielleicht lag es auch an meiner[ENTER]Unfähigkeit. Dir wird der Trank in deinen Kämpfen[ENTER]sicher helfen.
+7465	Octavio, der Restaurantbesitzer:
+7466	Warum nennt man dich Verräter?
+7467	Ich bin einst vor dem Krieg geflohen und habe[ENTER]mich der Schwarzwindbande angeschlossen. Meine[ENTER]Kameraden haben mir das nie verziehen. Später[ENTER]stellte ich fest, dass die Schwarzwindkrieger[ENTER]unschuldige Menschen töten. Da habe ich mich[ENTER]sofort von ihnen getrennt. Es war furchtbar!
+7468	Du hast unschuldige Menschen auf dem Gewissen?[ENTER]Dann führst du deinen Titel zurecht. Du hast sie[ENTER]darum gebracht, ein gutes Leben zu führen.
+7469	Es ist eine gesetzlose Welt. Aber ich habe[ENTER]beschlossen, nichts Schlechtes mehr zu tun,[ENTER]niemals. Die Leute sollten mich nicht als[ENTER]Verräter bezeichnen.[ENTER]Hast du etwas Yang für mich?
+7470	Man nennt dich den Gelehrten?
+7471	Uriel, der Gelehrte:
+7472	In dieser weiten Welt gibt es so unglaublich viel[ENTER]zu lernen. Unwissenheit verbunden mit[ENTER]militärischer Macht ist besonders gefährlich. Du[ENTER]willst doch nicht wie diese unwissenden Soldaten[ENTER]leben, oder? Wissen ist Macht!
+7473	Man sagte mir, du seist Heilkundiger?
+7474	Ich tue, was ich kann. Aber in dieser[ENTER]gefährlichen Welt gibt es jeden Tag mehr[ENTER]Verletzte. Wir haben viel zu wenig Arzneien und[ENTER]an Helfern mangelt es auch. Die Zeiten sind hart![ENTER]Vielleicht kannst du mir später ein wenig zur[ENTER]Hand gehen?
+7475	Wie läuft das Jagdgeschäft?
+7476	Willkommen! Unser traditioneller Familienbetrieb[ENTER]ist so erfolgreich, dass wir weltweit Restaurants[ENTER]eröffnen konnten. Wenn dir der Sinn nach etwas[ENTER]Leckerem steht, dann komm vorbei und iss bei uns.
+7477	Yang-Shin, der Jäger:
+7478	Hmm, seit die Metinsteine fallen, sind die Tiere[ENTER]wild geworden. Heutzutage riskiert man schon beim[ENTER]Hühnerfangen sein Leben. Es ist eine gefährliche[ENTER]Zeit für einen Jäger. Zum Glück bin ich einer der[ENTER]Besten!
+7479	Woher rührt deine Treffsicherheit?
+7480	Mit dem Bogen bin ich unschlagbar, denn ich habe[ENTER]ein spezielles Rezept, hehe! Wenn du[ENTER]Pfirsichblütensaft mit Flieder mischst, bekommst[ENTER]du einen Trank, der deine Treffsicherheit erhöht.[ENTER]Bringe Yu-Hwan die Zutaten, dann braut er dir[ENTER]bestimmt diesen Trank.
+7481	So ein schöner Blumenkranz...
+7482	Früher habe ich immer mit meinem Bruder[ENTER]Pfirsichblüten gesammelt. Heute muss ich das[ENTER]alleine machen. Die Blüten sehen aber nicht nur[ENTER]hübsch aus, sie haben auch eine besondere[ENTER]Wirkung: Wenn man eine Pfirsichblüte zu Baek-Go[ENTER]bringt, braut er daraus einen Trank, der einen[ENTER]sehr leichtfüßig macht!
+7483	Wo ist dein Bruder?
+7484	In letzter Zeit ist mein Bruder viel unterwegs.[ENTER]Ich sehe ihn kaum noch und mache mir große Sorgen[ENTER]um ihn.
+7485	Du verkaufst Reiskuchen?
+7486	Yu-Rang, die Reiskuchenverkäuferin:
+7487	Obwohl es ein großes Restaurant ist, ist die[ENTER]Einrichtung überraschend einfach.
+7488	In Kriegszeiten ist es schwierig, Reiskuchen[ENTER]herzustellen. Außerdem habe ich wegen der[ENTER]Banditen viele Kunden verloren. Ich weiß nicht[ENTER]mehr, wovon ich leben soll.
+7489	Wer kauft bei dir?
+7490	Die meisten Kuchen verkaufe ich an Durchreisende.[ENTER]Einmal kam ein geheimnisvoller Reiter in Schwarz,[ENTER]der kein Yang hatte. Als Bezahlung gab er mir ein[ENTER]Rezept, mit dem man Zin-Wasser herstellen kann.[ENTER]Das ist ein Trank, der deine Angriffskraft[ENTER]verbessert. Ich habe das Rezept an Huahn-So[ENTER]verkauft. Wenn du Huahn-So ein Sim-Wasser und[ENTER]eine Alpenrose bringst, wird er dir Zin-Wasser[ENTER]herstellen.
+7491	Warum schaust du so traurig?
+7492	Oh, wer konnte ahnen, dass unsere süßen Träume so[ENTER]schnell so unbarmherzig zerstört werden würden...[ENTER]Mein armer Mann, er fiel im Krieg! … Bitte räche[ENTER]seinen Tod.
+7493	Es fallen sehr viele im Krieg...
+7494	Da wir immer mehr Männer im Krieg verlieren,[ENTER]haben wir Frauen aus dem Dorf uns zusammen getan[ENTER]und Huahn-So gebeten, einen besseren Heiltrank[ENTER]herzustellen.[ENTER]Nach langer Forschung hat er einen Trank[ENTER]entwickelt, der statt dessen die Verteidigung[ENTER]erhöht, so dass weniger Heiltränke benötigt[ENTER]werden. Geh zu ihm. Er kann dir diesen Trank, den[ENTER]er SamBo-Wasser nennt, bestimmt herstellen. Er[ENTER]benötigt dafür ein Dok-Wasser und eine Alpenrose.
+7495	Das ist aber ein süßer Fratz...
+7496	Ah-Yu:
+7497	Es schreit schon wieder...[ENTER]Ob es etwas Leckeres will oder ... oh nein!
+7498	Erzähl mir etwas über das Töpfern.
+7499	Wie geht es euch beiden?
+7500	Da mein Mann im Krieg gefallen ist, muss ich[ENTER]sehen, wo ich bleibe. Ich versuche, mich und das[ENTER]Kind zu ernähren. Mit dem Bo-Wasser habe ich eine[ENTER]Möglichkeit gefunden, meinen Lebensunterhalt[ENTER]etwas aufzubessern. Ich muss Yu-Hwan 100[ENTER]Kakiblütensäfte und einen Tue-Pilz bringen.[ENTER]Daraus braut er Bo-Wasser, das ich gut verkaufen[ENTER]kann. Irgendwie muss ich ja über die Runden[ENTER]kommen.
+7501	Wie geht es deinem Ehemann?
+7502	Aranyo:
+7503	Mein so genannter Ehemann ist mit seinen Büchern[ENTER]verheiratet. Er schaut mich nicht mal mehr an.[ENTER]Und ich bin keine hässliche Frau.
+7504	Wie läuft das Geschäft?
+7505	Seit der Krieg ausgebrochen ist, laufen die[ENTER]Geschäfte schlecht. Die Gewerkschaft der Händler[ENTER]war einmal eine reiche und mächtige Vereinigung,[ENTER]aber diese Zeiten sind vorbei. Wir können es uns[ENTER]nicht mehr leisten, die Wilden, die Weißer-Eid[ENTER]Kriegerinnen und die Schwarzwindbande zu[ENTER]ignorieren, wie wir es früher taten.
+7506	Warum so schlecht gelaunt?
+7507	Taurean:
+7508	Harang ist ein böses Mädchen![ENTER]Ich hasse sie! Ich bin schwach, und sie macht mir[ENTER]zu oft das Leben schwer!
+7509	Yonah, der Töpfer:
+7510	Du bist ein Mann und hast Muskeln.[ENTER]Trainiere sie ein bisschen!
+7511	Was machst du gerade?
+7512	Harang:
+7513	Ich warte auf Taurean. Wir spielen oft[ENTER]miteinander und häufig kämpfen wir auch. Dieser[ENTER]Feigling! Wenn er heute nicht freiwillig kommt,[ENTER]werde ich ihn fertig machen!
+7514	Taurean hat Angst vor dir.
+7515	Taurean ist eigentlich stärker als ich. Deshalb[ENTER]habe ich mir etwas einfallen lassen, wie ich[ENTER]unsere Kämpfe trotzdem gewinnen kann. Von einem[ENTER]weisen Ninja erfuhr ich, dass man Young-Wasser[ENTER]mit einer Maulbeere mischen kann. Daraus entsteht[ENTER]ein Trank, der einen schneller zuschlagen lässt.[ENTER]Damit kann ich Taurean besiegen! Wenn du auch ein[ENTER]schneller Angreifer werden willst, dann geh mit[ENTER]den Zutaten zu Huahn-So. Er wird dir den Trank[ENTER]sicher herstellen.
+7516	Die neuen Erkenntnisse...
+7517	Seon-Pyeong:
+7518	Mein Freund, die Welt ist voller ungelöster[ENTER]Fragen. Und ich, ich bin ein Sucher der[ENTER]Antworten, ein Sucher des Wissen.[ENTER]Hast du schon einmal von epischen Waffen und[ENTER]Geiststeinen gehört?
+7519	Was tust du gerade?
+7520	Ich bin gerne Töpfer. Es ist sehr befriedigend,[ENTER]den Ton mit den eigenen Händen zu formen und das[ENTER]Werk beim Entstehen zu beobachten...[ENTER]Ich stelle meist nur einfache Sachen her. Im[ENTER]Osten, außerhalb dieses Kontinents, sind die[ENTER]Herstellungsmethoden viel weiter entwickelt. Ich[ENTER]habe einmal Töpferwaren von dort gesehen und war[ENTER]ganz begeistert. Manchmal, wenn ich etwas Zeit[ENTER]habe, versuche ich mich an Experimenten. Aber ich[ENTER]habe immer noch nicht herausgefunden, welchen[ENTER]Trick sie anwenden.
+7521	Du weißt ja bereits, dass ich nach noch[ENTER]unbekanntem Wissen forsche. Im Moment untersuche[ENTER]ich eine Methode, Waffen über das Normalmögliche[ENTER]hinaus zu verstärken und auch die Macht der[ENTER]Geiststeine zu vervollkommnen.
+7522	Die Waffenforschung...
+7523	Interessant, nicht wahr? Willst du mehr darüber[ENTER]wissen? Dann bring mir die richtige 65er Waffe[ENTER]+9.[ENTER]Außerdem brauche ich noch ein Traktat zur[ENTER]Fechtkunst und zwei Segensschriftrollen. Ich[ENTER]werde versuchen, dir daraus eine epische Waffe[ENTER]herzustellen.
+7524	Allerdings kann ich dir nicht versprechen, dass[ENTER]es funktioniert.
+7525	Die Geiststeine...
+7526	Geiststeine sind weit verbreitet. Viele nutzen[ENTER]sie, aber bisher hat noch niemand ihre wahre[ENTER]Macht erkannt. Doch ich habe während meiner[ENTER]Nachforschungen neue Erkenntnisse gewonnen.[ENTER]Wenn du mir einen Geiststein bringst, kann ich[ENTER]ihn für dich verbessern.
+7527	Du bist sehr rüstig für dein Alter...
+8004	Status zurücksetzen
+8015	Diese Schriftrolle ermöglicht es dir, all deine[ENTER]bisherigen Status-Steigerungen rückgängig zu[ENTER]machen. Dein ganzer Status ist davon betroffen:[ENTER]VIT, INT, STR und DEX werden auf 1 zurückgesetzt.[ENTER]Die dadurch freigewordenen Punkte kannst du nach[ENTER]Belieben neu verteilen.[ENTER][ENTER]Willst du die Rolle jetzt benutzen?
+8153	Fertigkeiten zurücksetzen
+8154	Wie du willst.[ENTER]Wenn du es dir doch einmal anders überlegen[ENTER]solltest, komm einfach vorbei.
+8155	Du hast nicht genügend Yang.[ENTER]Tut mir leid, aber so kann ich dir nicht helfen.[ENTER]Ich muss schließlich auch von irgendetwas leben.
+8159	Du hast noch keine Lehre begonnen! Solange du[ENTER]keine Fertigkeitspunkte ausgibst, kannst du sie[ENTER]auch nicht zurücksetzen. Komm wieder, wenn du bei[ENTER]deiner Ausbildung einen Fehler gemacht hast, dann[ENTER]helfe ich dir gern.
+8161	Du folgst keiner Lehre und hast keine[ENTER]Fertigkeitspunkte, die zurückgesetzt werden[ENTER]könnten!
+8162	Oje, was ist los? Ich lese große Sorge in deinen[ENTER]Augen... Warte, ich kann dir helfen. Ich lasse[ENTER]dich deine bisherige Laufbahn vergessen und du[ENTER]beginnst einfach eine neue Lehre. Was hältst du[ENTER]davon?[ENTER]Es kostet dich nur %s Yang.
+8164	Jetzt sieh sich einer dieses finstere Gesicht an![ENTER]Geht es dir nicht gut?[ENTER]Wenn du wegen deiner Lehre unzufrieden bist: Ich[ENTER]könnte dir helfen, wie von Zauberhand alles zu[ENTER]vergessen, was damit zu tun hat.
+8165	Das bedeutet, dass all deine Fertigkeiten[ENTER]zurückgesetzt werden und du die Punkte neu[ENTER]verteilen kannst. Nur die Punkte, die du durch[ENTER]das Lesen von Büchern erworben hast, kann ich dir[ENTER]leider nicht zurückgeben, sie gehen dabei[ENTER]verloren. Möchtest du das? Alles vergessen und[ENTER]von vorne anfangen?[ENTER]Dann brauche ich %s Yang von dir.
+8166	Skills zurücksetzen
+8618	Laden öffnen
+10928	Klar!
+11825	Auragewand: Werte übertragen
+11829	Auragewand: Entwicklung
+200	Für eine ausgezeichnete Drachenseele: %s.
+201	Möchten Sie eine glänzende %s erhalten?
+202	Sie können mir die nutzlosen, ausgezeichneten Drachenseelen geben [ENTER], damit ich sie für Sie glänzend machen kann, um sie erneut zu verwenden, [ENTER] ziehen Sie einfach die Drachenseele über mich [ENTER].
+203	Herstellung
+204	Füge Boni 6 und 7 hinzu.
+205	Das Hinzufügen des Attributs wurde erfolgreich abgeschlossen.
+206	Der Verzauberungsvorgang ist fehlgeschlagen.
+207	Verbleibende Zeit: %s.
+208	Wie funktioniert die alchemistische Transformation?
+209	Wählen Sie den gewünschten Bonus aus:
+210	Stark gegen Monster +10%.
+211	Maximales HP+1000 wurde ausgewählt.
+212	Stark gegen Monster +10% wurde ausgewählt.
+213	EXP +20% wurde ausgewählt.
+4473	Ja
+2426	Abbrechen

@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{dc9282c7-bdf5-49b5-aa31-dd491da541f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Workplace">
+      <UniqueIdentifier>{4b3f2ce6-591c-4758-94ae-b2c7bc1207fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\acce_absorbwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\acce_combinewindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\acceptguildwardialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\atlaswindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\attachstonedialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\attr67adddialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\aura_absorbwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\aura_levelupwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\battlepassextendedwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\buildguildbuildingwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\changegradenamedialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\changepassworddialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\characterdetailswindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\characterwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\chestdropwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\connectingdialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\createcharacterwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\cuberenewalwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\declareguildwardialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\dragonsoulrefinewindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\dragonsoulwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\energybar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\equipmentdialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\exchangedialog_new.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\expandedmoneytaskbar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\expandedtaskbar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\fishinggamewindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\fishingwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\gameoptiondialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\gamewindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\giftbox.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\guildwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\guildwindow_baseinfopage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\guildwindow_boardpage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\guildwindow_gradepage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\guildwindow_guildinfopage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\guildwindow_guildinfopage_eu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\guildwindow_guildinfopage_jp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\guildwindow_guildskillpage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\guildwindow_memberpage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\helpwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\helpwindow2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\inputdialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\inputdialogwithdescription.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\inputdialogwithdescription2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\inventorywindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\itemquestiondialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\loadingwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\loginwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\maintenance.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\maintenancewindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\mallwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\map_info.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\marklistwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\messengerwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\minigamebnwgamepage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\minigamebnwwaitingpage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\minigamecatchkinggamepage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\minigamecatchkingsimplewaitingpage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\minigamecatchkingwaitingpage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\minigamerumigamepage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\minigamerumiwaitingpage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\minimap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\miningrenewal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\moneyinputdialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\mousebuttonwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\movechanneldialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\multiplebuydialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\musiclistwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\offlineshopinputdialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\offlineshopmoneydialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\offlineshopwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\partybonusdistributewindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\partymemberinfoboard.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\passworddialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\pethatchingwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\petinformationwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\petminiinformationwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\pickitemdialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\pickmoneydialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\popupdialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\popupdialog2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\privateshopbuilder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\pytimer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\questdialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\questiondialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\questiondialog2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\questiondialogitem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\refinedialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\rendertargetwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\restartdialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\rightmousebuttonwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\safeboxwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\selectcharacterwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\selectempirewindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\selectitemwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\selectjobwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\shopdialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\skillcolorwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\skillpointresetdialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\systemdialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\taskbar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\webwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Workplace\UiScriptLib\cyTemp\whisperdialog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

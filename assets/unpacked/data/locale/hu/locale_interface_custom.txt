@@ -1,0 +1,341 @@
+DRAGONSOUL_GRADE_0	Nyers
+DRAGONSOUL_GRADE_1	Metszett
+DRAGONSOUL_GRADE_2	Ritka
+DRAGONSOUL_GRADE_3	Antik
+DRAGONSOUL_GRADE_4	Legendás
+DRAGONSOUL_GRADE_5	Mitikus
+LOGIN_PIN	Pin kód
+LOGIN_ID	Bejelentkezési azonosító
+LOGIN_PW	Jelszó
+SPECIAL_INVENTORY_TITLE	Speciális Raktár
+SPECIAL_STORAGE_ARRANGE	Raktár Rendezése
+DRAGONSOUL_NEWREFINE	Felsooktatás
+DO_ALL_REFINE	Gyors Felsooktatás
+REFINE_ALL_PAGES	Minden Oldal Felsooktatása
+INVENTORY_PAGE_BUTTON_TOOLTIP_5	5. Raktár
+SPLIT_ITEMS_WINDOW_TITLE	Tárgyak Szétválasztása
+
+HIDE_COSTUME	Kosztüm Elrejtése
+
+GAMEOPTION_CAT_02	Grafikai Beállítások
+GAMEOPTION_CAT_03	Hangbeállítások
+
+GAMEOPTION_CAT_02_SUBCAT_1	Felület
+GAMEOPTION_CAT_02_SUBCAT_2	Teljesítmény
+
+GAMEOPTION_OUTLINE_TEXT	Szöveg Árnyék
+GAMEOPTION_AFFECT_TEXT	Ikon Hatás
+GAMEOPTION_HIGHLIGHT_TEXT	Új Tárgy Animáció
+GAMEOPTION_ENTITY_RANGE	Tárgyak Távolsága
+
+GAMEOPTION_ENTITY_RANGE0	Rövid
+GAMEOPTION_ENTITY_RANGE1	Közepes
+GAMEOPTION_ENTITY_RANGE2	Hosszú
+
+GAMEOPTION_HIDE_TEXT	Modellek Elrejtése
+GAMEOPTION_HIDE_NPC	NPC
+GAMEOPTION_HIDE_PET	Háziállat
+GAMEOPTION_HIDE_MOUNT	Montúra
+GAMEOPTION_HIDE_SHOPS	Boltok
+GAMEOPTION_WINDOW_ANIMATIONS	Ablak Animációk
+GAMEOPTION_ANIMATIONS_OFF	Ki
+GAMEOPTION_ANIMATIONS1	Típus 1
+GAMEOPTION_ANIMATIONS2	Típus 2
+GAMEOPTION_ANIMATIONS3	Típus 3
+GAMEOPTION_ANIMATIONS4	Típus 4
+GAMEOPTION_ANIMATIONS5	Típus 5
+GAMEOPTION_ANIMATIONS6	Típus 6
+GAMEOPTION_ANIMATIONS7	Típus 7
+
+GAMEOPTION_FONT_WARNING	Indítsd újra a kliens programot a változtatások érvényesítéséhez.
+
+GAMEOPTION_EFFECT_TEXT	Hatások
+
+GAMEOPTION_STONE_SCALE	Metinko Méretezés
+GAMEOPTION_DAMAGE_SCALE	Sérülés Kép Méretezés
+GAMEOPTION_OBJECT_SCALE	Tárgyak Távolsága
+
+GAMEOPTION_DAMAGE_TYPE	Sérülés Kép
+GAMEOPTION_DAMAGE_TYPE0	Általános
+GAMEOPTION_DAMAGE_TYPE1	Pontszeru
+GAMEOPTION_DAMAGE_TYPE2	Betus
+
+GAMEOPTION_DAMAGE_RENEWED_TYPE	Sérülés Kinézet
+GAMEOPTION_DAMAGE_RENEWED_TYPE0	Általános
+GAMEOPTION_DAMAGE_RENEWED_TYPE1	Új
+
+GAMEOPTION_EVENT_MINI_ICON	Eseménynaptár Kis Ikon
+
+GAMEOPTION_LOADING_TYPE	Töltoképernyo Típusa
+GAMEOPTION_LOADING_TYPE_BUTTON	Új
+GAMEOPTION_LOADING_TYPE_BUTTON2	Régi
+
+MINIMAP_BUTTON_01	Tárgy Keresés
+MINIMAP_BUTTON_02	Biológia
+MINIMAP_BUTTON_03	Rangsor
+HIDE_COSTUME	Kosztüm Elrejtése
+
+SEND_WHISPER_ADMIN_INFO	Írd be az üzenetet a játékosoknak.
+SEND_WHISPER_ADMIN_TITLE	Tömeges Üzenet Kezelo
+
+OPTION_FOV	Látómezo
+
+OPTION_SKYBOX	Égbolt Kép
+OPTION_SKYBOX_0	Normál
+OPTION_SKYBOX_1	Mód 1
+OPTION_SKYBOX_2	Mód 2
+OPTION_SKYBOX_3	Mód 3
+OPTION_SKYBOX_4	Mód 4
+OPTION_SKYBOX_5	Mód 5
+OPTION_SKYBOX_6	Mód 6
+OPTION_SKYBOX_7	Mód 7
+
+CHARACTER_STATS_PAGE	Statisztika
+STATICS_01	Max. Játékos Sebzés
+STATICS_02	Max. Szörny Sebzés
+STATICS_03	Max. Metinko Sebzés
+STATICS_04	Max. Fonök Sebzés
+STATICS_05	Megölt Szörnyek
+STATICS_06	Megsemmisített Metinko
+STATICS_07	Megölt Fonökök
+STATICS_08	Megölt Játékosok
+STATICS_09	Felületkezelt és Készített Tárgyak
+STATICS_10	Végigvitt Fosztogatások
+STATICS_11	Elkapott Halak
+STATICS_12	Sikerrel Bányászott Érc
+STATICS_13	Kinyitott Ládák
+STATICS_14	Használt Attribútum Változtatók
+STATICS_15	Harc Pont
+STATICS_16	Elfoglal
+STATICS_17	Játékido
+
+PLAYER_IS_ONLINE_NOW	%s most online.
+
+PET_ATTR_CHANGE_ITEM_TEXT	Attribútum Változtatás
+PET_ATTR_CHANGE_TITLE	Háziállat Típus Változtatás
+PET_ATTR_CONFIRMATION	Változtatás
+PET_ATTR_DETERMINE_TITLE	Új Háziállat Típus
+PET_ATTR_OK	OK
+PET_CHANGE_TEXT	Háziállat
+PET_FEED_TITLE	Táplálás
+PET_FFED_BUTTON_TEXT	Táplálás
+PET_HATCHING_BUTTON	Nevezés
+PET_HATCHING_NIK	Háziállat Név
+PET_HATCHING_WINDOW_TITLE	Kikeltetés
+PET_INFORMATION_ABILITIES	Bónuszok
+PET_INFORMATION_AGE	Kor
+PET_INFORMATION_COSTUME_BONUS	Kosztüm Bónusz
+PET_INFORMATION_DEFENCE	Védelem
+PET_INFORMATION_EVOL_BUTTON	Evolúció
+PET_INFORMATION_EXP	Tapasztalat
+PET_INFORMATION_EXP_BUTTON	Tárgy Tapasztalat
+PET_INFORMATION_HP	HP
+PET_INFORMATION_LEVEL	Szint
+PET_INFORMATION_LIFE Élettartam
+PET_INFORMATION_LIFETIME_BUTTON	Táplálás
+PET_INFORMATION_LIFE_TIME	Ido
+PET_INFORMATION_SKILL	Készség
+PET_INFORMATION_SP	ERO
+PET_INFORMATION_TITLE	Háziállat
+PET_NAME_CHANGE_BUTTON	Változtatás
+PET_NAME_CHANGE_WINDOW_TITLE	Háziállat Nevezése
+PET_SYSTEM_FEED	Táplálás
+PET_SYSTEM_PET_NAME	Háziállat Neve
+PET_SYSTEM_HATCH	Kikelés
+PET_SYSTEM_LEVEL	Szint
+PET_SYSTEM_EXP	Tapasztalat
+PET_SYSTEM_EXP22	Legenda (16)
+PET_SYSTEM_AGE	Kor
+PET_SYSTEM_DURATION	Idotartam
+PET_SYSTEM_EVOLVE	Evolúció
+PET_SYSTEM_ITEM_EXP	Tárgy Tapasztalat
+PET_SYSTEM_BONUSES	Bónuszok
+PET_SYSTEM_INCUBATOR	Inkubátor
+PET_SYSTEM_HP	HP (Százalék)
+PET_SYSTEM_DEF	PvM ERO (Százalék)
+PET_SYSTEM_ATTACK	ERO (Százalék)
+PET_BESLE	Táplálás
+SELECT_JOB_TITLE	Válassz Készség Csoportot
+
+SKILL_COLOR_TITLE	Szín Kiválasztása
+SKILL_COLOR_PRESET_TITLE	Mentett Elobeállítások
+SKILL_COLOR_PRESET_SELECT	Kiválasztás
+SKILL_COLOR_PRESET_SAVE	Mentés Elobeállításként
+SKILL_COLOR_PRESET_CLEAR	Törlés
+SKILL_COLOR_CUSTOM_COLOR_CODE_TITLE	Színkód
+SKILL_COLOR_DEFAULT	Alapértelmezett Szín
+SKILL_COLOR_CHANGE	Szín Változtatása
+SKILL_COLOR_CANCEL	Mégse
+
+AURA_ACCEPT	Rafinálás
+AURA_ACCEPT2	Rafinálás (x10)
+AURA_ACCEPT_REFINE_MAX_ABS	Az aura már elérte a maximális felszívódási arányát, többet nem lehet fejleszteni!
+AURA_ACCEPT_REFINE_ITEM	Nincsenek szükséges anyagok.
+AURA_DRAIN_PER	Szívódási arány: %.1f%%
+AURA_LEVEL_STEP	%d. szint (Szint %d)
+AURA_TITLE_ABSORB	Felszerelési bónuszok átvitele az aura jelmezre.
+AURA_TITLE_EVOLUTION	Evolúció
+AURA_TITLE_GROWTH	Aura jelmez fejlesztése
+AURA_TOOLTIP_EXP	Tapasztalat (%%%d / %%100)
+AURA_TOOLTIP_LEVEL	%d. szint (Szint %d) (Szívódási arány: %%%.1f)
+AURA_TOOLTIP_NEED_YANG	10.000.000 Yang
+AURA_TOOLTIP_NEED_YANG2	20.000.000 Yang
+AURA_TOOLTIP_NEXT	Következo
+AURA_TOOLTIP_NOW	Jelenleg
+AURA_TOOLTIP_RESOURCE	Eszköz
+AURA_TOOLTIP_RESOURCE_ITEM	%s * %d
+ACCE_FAILURE_CLEAN_TYPE_EROR	Ezt az elemet csak vállpánt vagy aura jelmez használhatja.
+
+EXTENDET_BATTLE_PASS_TITLE	Harcipassz
+EXTENDET_BATTLE_PASS_RANK_ICON_RANK	Rangsor
+EXTENDET_BATTLE_PASS_RANK_ICON_NAME	Játékos Név
+EXTENDET_BATTLE_PASS_RANK_ICON_TIME	Hátralévo Ido
+EXTENDET_BATTLE_PASS_NO_PLANNED_NORMAL_BATTLEPASS	A harcipassz jelenleg inaktív.
+EXTENDET_BATTLE_PASS_PLANNED_NEXT_NORMAL_BATTLEPASS	Jelenleg nincsenek tervezett harcipassz jegyek.
+EXTENDET_BATTLE_PASS_TIME_TO_NEXT_NORMAL_BATTLEPASS	A következo harcipassz indulásig hátralévo ido: %s
+EXTENDET_BATTLE_PASS_NO_PLANNED_PREMIUM_BATTLEPASS	A prémium harcipassz jelenleg inaktív.
+EXTENDET_BATTLE_PASS_PLANNED_NEXT_PREMIUM_BATTLEPASS	Jelenleg nincsenek tervezett prémium harcipassz jegyek.
+EXTENDET_BATTLE_PASS_TIME_TO_NEXT_PREMIUM_BATTLEPASS	A következo prémium harcipassz indulásig hátralévo ido: %s
+EXTENDET_BATTLE_PASS_NO_PLANNED_EVENT_BATTLEPASS	Az esemény harcipassz jelenleg inaktív.
+EXTENDET_BATTLE_PASS_PLANNED_NEXT_EVENT_BATTLEPASS	Jelenleg nincsenek tervezett esemény harcipassz jegyek.
+EXTENDET_BATTLE_PASS_TIME_TO_NEXT_EVENT_BATTLEPASS	Az esemény harcipassz indulásáig hátralévo ido: %s
+EXTENDET_BATTLE_PASS_SEASON_TITLE	Szezonos Harcipassz Információ
+EXTENDET_BATTLE_PASS_SEASON_NAME	Szezon: %s
+EXTENDET_BATTLE_PASS_SEASON_TOTAL_MISSIONS	Összes küldetés: %d
+EXTENDET_BATTLE_PASS_SEASON_CURRENT_MISSIONS	Elvégzett küldetések állapota: %d / %d
+EXTENDET_BATTLE_PASS_SEASON_DATE_FROM	Kezdési dátum
+EXTENDET_BATTLE_PASS_SEASON_DATE_TO	Befejezési dátum
+EXTENDET_BATTLE_PASS_SEASON_REST_TIME	Hátralévo ido: %s
+EXTENDET_BATTLE_PASS_SEASON_PROGRESS	Elorehaladás
+EXTENDET_BATTLE_PASS_MISSION_MISSION_NAME	Küldetés Neve
+EXTENDET_BATTLE_PASS_MISSION_NAME	Küldetés Neve
+EXTENDET_BATTLE_PASS_MISSION_STATUS	Küldetés Állapota
+EXTENDET_BATTLE_PASS_MISSION_INFO	Információ
+EXTENDET_BATTLE_PASS_MISSION_STATUS_IN_PROGRESS	|cfffeff7d|H|h Folyamatban!|h|r
+EXTENDET_BATTLE_PASS_MISSION_STATUS_FINISH	|cff82ff7d|H|hBefejezve!|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION	Információ:
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_MONSTER	Szörny: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_MINLEVEL	Min. Szint: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_ITEM	Tárgy: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_ORE	Érc: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_FISH	Hal: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_MAPNAME	Térkép: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_GUILDWARTYPE	Szövetségi Háború: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_PET_MINTYPE	Min. Kisállat Típus: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_DUNGEON	Dungeon: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_MINIGAME	Mini Játék: |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_COUNT	Hátralévo: |cfffeff7d|H|h%s|h|r / |cff82ff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_COUNT_GOLD	Hátralévo: |cfffeff7d|H|h%s|h|r
+EXTENDET_BATTLE_PASS_MISSION_INFORMATION_PERCENT	Befejezve |cfffeff7d|H|h%.2f%%|h|r
+EXTENDET_BATTLE_PASS_DESCRIPTION	Leírás:
+EXTENDET_BATTLE_PASS_MISSION_COMPLEDET	Befejezve
+EXTENDET_BATTLE_PASS_NONE_COND_TITLE_MOB	Szörny
+EXTENDET_BATTLE_PASS_NONE_COND_TITLE_ITEM	Tárgy
+EXTENDET_BATTLE_PASS_NONE_COND_TITLE_FISH	Hal
+EXTENDET_BATTLE_PASS_NONE_COND_TITLE_DUNGEON	Dungeonok teljesítése
+EXTENDET_BATTLE_PASS_NONE_COND_TITLE_MINIGAME	Mini Játékok
+EXTENDET_BATTLE_PASS_TYPENAME_1	Megsemmisít %s
+EXTENDET_BATTLE_PASS_TYPENAME_1_DESC_1	Ölj meg %sx %s-t.
+EXTENDET_BATTLE_PASS_TYPENAME_1_DESC_2	Ölj meg %sx
+EXTENDET_BATTLE_PASS_TYPENAME_2	Ölj meg %s játékost!
+EXTENDET_BATTLE_PASS_TYPENAME_2_DESC_1	Ölj meg %s játékost! (Legalább %s szint)
+EXTENDET_BATTLE_PASS_TYPENAME_2_DESC_2	Ölj meg %s játékost! (Nincs szint korlátozás)
+EXTENDET_BATTLE_PASS_TYPENAME_3	Támadj szörnyeket
+EXTENDET_BATTLE_PASS_TYPENAME_3_DESC_1	Érj el maximális sebzést %s %s.
+EXTENDET_BATTLE_PASS_TYPENAME_3_DESC_2	Összesen %s sebzést okozz szörnyeknek. (Érvényes minden lényre)
+EXTENDET_BATTLE_PASS_TYPENAME_4	Támadj Játékosokat
+EXTENDET_BATTLE_PASS_TYPENAME_4_DESC_1	Elérj egy összesített sebzést %s játékosoknál legalább %d szinttel. Az összes birodalom játékosai számítanak.
+EXTENDET_BATTLE_PASS_TYPENAME_4_DESC_2	Elérj egy összesített sebzést %s játékosoknál. Az összes birodalom játékosai számítanak.
+EXTENDET_BATTLE_PASS_TYPENAME_5	Használj %s-t
+EXTENDET_BATTLE_PASS_TYPENAME_5_DESC_1	A feladat befejezéséhez használnod kell %sx %s-t.
+EXTENDET_BATTLE_PASS_TYPENAME_5_DESC_2	A feladat befejezéséhez használj vagy nyiss meg %sx tárgyat.
+EXTENDET_BATTLE_PASS_TYPENAME_6	Eladj %s-t
+EXTENDET_BATTLE_PASS_TYPENAME_6_DESC_1	Elad %sx %s-t NPC-knek a feladat befejezéséhez.
+EXTENDET_BATTLE_PASS_TYPENAME_6_DESC_2	Eladj %sx tárgyakat NPC-ktol a feladat befejezéséhez.
+EXTENDET_BATTLE_PASS_TYPENAME_7	Készíts %s-t
+EXTENDET_BATTLE_PASS_TYPENAME_7_DESC_1	A feladat befejezéséhez készíts %sx %s-t.
+EXTENDET_BATTLE_PASS_TYPENAME_7_DESC_2	A feladat befejezéséhez készíts %sx (bármilyen tárgyat).
+EXTENDET_BATTLE_PASS_TYPENAME_8	Frissítsd %s-t
+EXTENDET_BATTLE_PASS_TYPENAME_8_DESC_1	A feladat befejezéséhez frissítsd %sx %s-t a következo szintre.
+EXTENDET_BATTLE_PASS_TYPENAME_8_DESC_2	A feladat befejezéséhez frissítsd %s-t a következo szintre.
+EXTENDET_BATTLE_PASS_TYPENAME_9	Megsemmisít %s-t
+EXTENDET_BATTLE_PASS_TYPENAME_9_DESC_1	Megsemmisít %sx %s-t a feladat befejezéséhez.
+EXTENDET_BATTLE_PASS_TYPENAME_9_DESC_2	Megsemmisít %s-t a feladat befejezéséhez.
+EXTENDET_BATTLE_PASS_TYPENAME_10_1	Gyujts %s-t
+EXTENDET_BATTLE_PASS_TYPENAME_10_2	Áss ki %s-t
+EXTENDET_BATTLE_PASS_TYPENAME_10_1_DESC_1	Ehhez be kell gyujtened %sx %s-t.
+EXTENDET_BATTLE_PASS_TYPENAME_10_2_DESC_1	A feladat befejezéséhez ki kell bányásznod %sx %s-t.
+EXTENDET_BATTLE_PASS_TYPENAME_10_DESC_2	Ehhez be kell gyujtened %s tárgyat.
+EXTENDET_BATTLE_PASS_TYPENAME_11	Fogj %s-t
+EXTENDET_BATTLE_PASS_TYPENAME_11_DESC_1	Húzz ki %sx %s-t a vízbol a feladat befejezéséhez.
+EXTENDET_BATTLE_PASS_TYPENAME_11_DESC_2	Húzz ki %sx bármilyen halat a vízbol a feladat befejezéséhez.
+EXTENDET_BATTLE_PASS_TYPENAME_12	Fozz %s-t
+EXTENDET_BATTLE_PASS_TYPENAME_12_DESC_1	Sütögess %sx %s-t a tábortuz körül a feladat befejezéséhez.
+EXTENDET_BATTLE_PASS_TYPENAME_12_DESC_2	Bu görevi tamamlamak için herhangi bir balýðý kamp ateþinde %sx adet ýzgara yapýn.
+EXTENDET_BATTLE_PASS_TYPENAME_13	Gyujts %s-t
+EXTENDET_BATTLE_PASS_TYPENAME_13_DESC_1	Ölj meg %sx %s-t a feladat befejezéséhez.
+EXTENDET_BATTLE_PASS_TYPENAME_13_DESC_2	Ölj meg bármilyen halat %s alkalommal a feladat befejezéséhez.
+EXTENDET_BATTLE_PASS_TYPENAME_14	Gyujts %s tapasztalatot
+EXTENDET_BATTLE_PASS_TYPENAME_14_DESC_1	A feladat befejezéséhez szerezz %s EXP-t a(z) %s-tól.
+EXTENDET_BATTLE_PASS_TYPENAME_14_DESC_2	Szerezz %s EXP-t bármilyen szörnytol a feladat befejezéséhez.
+EXTENDET_BATTLE_PASS_TYPENAME_15	Gyujts %s yangot
+EXTENDET_BATTLE_PASS_TYPENAME_15_DESC_1	A feladat befejezéséhez szerezz %s Yangot a lényektol a(z) %s térképen.
+EXTENDET_BATTLE_PASS_TYPENAME_15_DESC_2	Szerezz %s Yangot szörnyektol a feladat befejezéséhez.
+EXTENDET_BATTLE_PASS_TYPENAME_16	Csatlakozz a Lonca Háborúhoz
+EXTENDET_BATTLE_PASS_TYPENAME_16_DESC_1	Végezz %sx %s típusú lonca háborút.
+EXTENDET_BATTLE_PASS_TYPENAME_16_DESC_2	Végezz %sx bármilyen típusú lonca háborút.
+EXTENDET_BATTLE_PASS_TYPENAME_17	ADOMÁNYOZZ EXP-t a loncának
+EXTENDET_BATTLE_PASS_TYPENAME_17_DESC_1	Adományozz %s EXP-t a loncának.
+EXTENDET_BATTLE_PASS_TYPENAME_18	Készíts %s gaya-t
+EXTENDET_BATTLE_PASS_TYPENAME_18_DESC_1	Készíts %s gaya-t
+EXTENDET_BATTLE_PASS_TYPENAME_19	Vásárolj a Gaya Boltban
+EXTENDET_BATTLE_PASS_TYPENAME_19_DESC_1	Vásárolj Gaya Boltban összesen %s gaya értéku tárgyat.
+EXTENDET_BATTLE_PASS_TYPENAME_20	Varázsold el a Petet %s-szer
+EXTENDET_BATTLE_PASS_TYPENAME_20_DESC_1	Varázsold el a Petet %sx. A Petnek legalább %s szintunek kell lennie.
+EXTENDET_BATTLE_PASS_TYPENAME_20_DESC_2	Varázsold el a Petet %sx.
+EXTENDET_BATTLE_PASS_TYPENAME_21	%s
+EXTENDET_BATTLE_PASS_TYPENAME_21_DESC_1	A feladat befejezéséhez végezd el %sx %s dungeon-t.
+EXTENDET_BATTLE_PASS_TYPENAME_21_DESC_2	Végezz el bármilyen dungeon-t %sx alkalommal.
+EXTENDET_BATTLE_PASS_TYPENAME_22	Játsz %s-t
+EXTENDET_BATTLE_PASS_TYPENAME_22_DESC_1	Játsz és fejezd be %sx a Mini Játékot: %s.
+EXTENDET_BATTLE_PASS_TYPENAME_22_DESC_2	Végezz el bármilyen mini játékot %sx alkalommal.
+EXTENDET_BATTLE_PASS_MAP_NAME_BY_IDX_64	Seungryong-völgy
+EXTENDET_BATTLE_PASS_MAP_NAME_BY_IDX_65	Hwang-templom
+EXTENDET_BATTLE_PASS_MAP_NAME_BY_IDX_72	Menfo-barlang 1
+
+EXTENDET_BATTLE_PASS_GUILDWAR_TYPE_NAME_1	Lonca Háború Terület
+EXTENDET_BATTLE_PASS_GUILDWAR_TYPE_NAME_2	Lonca Háború Aréna
+EXTENDET_BATTLE_PASS_GUILDWAR_TYPE_NAME_3	Zászlós Lonca Háború
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_1	Complete Þeytan Kulesi
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_2	Kill Mavi Ejderha
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_3	Complete Devil's Catacomb
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_4	Kill Kýrmýzý Ejderha
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_5	Kill Nemere
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_6	Kill Örümcek Barones
+EXTENDET_BATTLE_PASS_DUNGEON_NAME_7	Kill Meley
+EXTENDET_BATTLE_PASS_MINIGAME_NAME_1	Okey Kártya
+EXTENDET_BATTLE_PASS_MINIGAME_NAME_2	Fogd el a Királyt
+EXTENDET_BATTLE_PASS_MINIGAME_NAME_3	Yutnori
+EXTENDET_BATTLE_PASS_MINIGAME_NAME_4	Fekete-fehér
+EXTENDET_BATTLE_PASS_MINIGAME_NAME_5	Horgászat
+EXTENDET_BATTLE_PASS_SEND_SHOUT	Kiáltás %s alkalommal!
+EXTENDET_BATTLE_PASS_SEND_SHOUT2	%s: A feladat befejezéséhez %sx alkalommal kell kiáltanod!
+EXTENDET_BATTLE_PASS_SEND_SHOUT3	Küldj kiáltó üzenetet %sx alkalommal és fejezd be a feladatot!
+
+EXTENDET_BATTLE_PASS_MINING	Bányászati feladat!
+EXTENDET_BATTLE_PASS_MINING2	%s: A feladat befejezéséhez %sx alkalommal kell bányásznod!
+EXTENDET_BATTLE_PASS_MINING3	Bányászd ki %sx alkalommal és fejezd be a feladatot!
+
+EXTENDET_BATTLE_PASS_DAMAGE_METIN	Számolj összesen %s sebzést Metinekkel!
+EXTENDET_BATTLE_PASS_DAMAGE_METIN2	%s: A feladat befejezéséhez %sx sebzést kell okoznod Metinekkel!
+EXTENDET_BATTLE_PASS_DAMAGE_METIN3	Okozz %sx sebzést Metineknek és fejezd be a feladatot!
+
+EXTENDET_BATTLE_PASS_DAMAGE_METIN_REACH	Érj el %s sebzést Metinekkel!
+EXTENDET_BATTLE_PASS_DAMAGE_METIN_REACH2	%s: A feladat befejezéséhez el kell érned %sx sebzést Metinekkel!
+EXTENDET_BATTLE_PASS_DAMAGE_METIN_REACH3	Érj el %sx sebzést Metinekkel és fejezd be a feladatot!
+
+OPTION_BLOCK_WARP_REQUEST	Váltás Kérés
+NEW_EXCHANGE_YOU	Te
+
+GLOBAL_RANKING_TITLE	Játékos Rangsor
+

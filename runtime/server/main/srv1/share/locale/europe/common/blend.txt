@@ -1,0 +1,412 @@
+#MARKALAR
+
+# Hp Markasi
+section
+	item_vnum	71027
+	apply_type	MAX_HP_PCT
+	apply_value	10	10	10	10	10
+	apply_duration	1800	1800	1800	1800	1800
+end
+
+# Saldiri Markasi
+section
+	item_vnum	71028
+	apply_type	MALL_ATTBONUS
+	apply_value	10	10	10	10	10
+	apply_duration	1800	1800	1800	1800	1800
+end
+
+# Zeka Markasi
+section
+	item_vnum	71029
+	apply_type	MAX_SP_PCT
+	apply_value	10	10	10	10	10
+	apply_duration	1800	1800	1800	1800	1800
+end
+
+# Savunma Markasi
+section
+	item_vnum	71030
+	apply_type	MALL_DEFBONUS
+	apply_value	10	10	10	10	10
+	apply_duration	1800	1800	1800	1800	1800
+end
+
+#MARKALAR END
+# Iksirler
+# Yesil iksir
+section
+	item_vnum	27102
+	apply_type	ATTACK_SPEED
+	apply_value	15	15	15	15	15
+	apply_duration	1800	1800	1800	1800	1800
+end
+
+# Mor iksir
+section
+	item_vnum	27105
+	apply_type	MOVE_SPEED
+	apply_value	15	15	15	15	15
+	apply_duration	1800	1800	1800	1800	1800
+end
+
+# Iksirler End
+# Kritik / Delici
+# Kritik
+
+section
+	item_vnum	71044
+	apply_type	CRITICAL_PCT
+	apply_value	15	15	15	15	15
+	apply_duration	1800	1800	1800	1800	1800
+end
+
+# Delici
+section
+	item_vnum	71045
+	apply_type	PENETRATE_PCT
+	apply_value	15	15	15	15	15
+	apply_duration	1800	1800	1800	1800	1800
+end
+# Kritik / Delici End
+
+
+# Au∮o取▼
+section
+	item_vnum	50821
+	apply_type	CRITICAL_PCT
+	apply_value	15	15	15	15	15
+	apply_duration	1800	1800	1800	1800	1800
+end
+
+# E∫∮o取▼
+section
+	item_vnum	50822
+	apply_type	PENETRATE_PCT
+	apply_value	15	15	15	15	15
+	apply_duration	1800	1800	1800	1800	1800
+end
+
+# E昌∮o取▼
+section
+	item_vnum	50823
+	apply_type	ATTACK_SPEED
+	apply_value	5	5	5	5	5
+	apply_duration	1800	1800	1800	1800	1800
+end
+
+# 昆i∮o取▼
+section
+	item_vnum	50824
+	apply_type	RESIST_MAGIC
+	apply_value	15	15	15	15	15
+	apply_duration	1800	1800	1800	1800	1800
+end
+
+# A∮∮o取▼
+section
+	item_vnum	50825
+	apply_type	ATT_BONUS
+	apply_value	90	90	90	90	90
+	apply_duration	1800	1800	1800	1800	1800
+end
+
+# 易e∮o取▼
+section
+	item_vnum	50826
+	apply_type	DEF_BONUS
+	apply_value	150	150	150	150	150
+	apply_duration	1800	1800	1800	1800	1800
+end
+
+# 易e∮o取▼
+section
+	item_vnum	50827
+	apply_type	ATT_BONUS_TO_MONSTER
+	apply_value	5	5	5	5	5
+	apply_duration	1800	1800	1800	1800	1800
+end
+
+# 易e∮o取▼
+section
+	item_vnum	50828
+	apply_type	ATTBONUS_STONE
+	apply_value	5	5	5	5	5
+	apply_duration	1800	1800	1800	1800	1800
+end
+
+section
+	item_vnum	50829
+	apply_type	ATTBONUS_BOSS
+	apply_value	5	5	5	5	5
+	apply_duration	1800	1800	1800	1800	1800
+end
+
+section
+	item_vnum	50830
+	apply_type	RESIST_ICE
+	apply_value	5	5	5	5	5
+	apply_duration	1800	1800	1800	1800	1800
+end
+
+section
+	item_vnum	50831
+	apply_type	RESIST_FIRE
+	apply_value	5	5	5	5	5
+	apply_duration	1800	1800	1800	1800	1800
+end
+
+section
+	item_vnum	50832
+	apply_type	RESIST_WIND
+	apply_value	5	5	5	5	5
+	apply_duration	1800	1800	1800	1800	1800
+end
+
+section
+	item_vnum	50833
+	apply_type	RESIST_DARK
+	apply_value	5	5	5	5	5
+	apply_duration	1800	1800	1800	1800	1800
+end
+
+section
+	item_vnum	50834
+	apply_type	RESIST_ELEC
+	apply_value	5	5	5	5	5
+	apply_duration	1800	1800	1800	1800	1800
+end
+
+section
+	item_vnum	50835
+	apply_type	RESIST_EARTH
+	apply_value	5	5	5	5	5
+	apply_duration	1800	1800	1800	1800	1800
+end
+
+# A屆▽aE?
+section
+	item_vnum	51002
+	apply_type	ENERGY
+	apply_value	7	7	7	7	7
+	apply_duration	1800	1800	1800	1800	1800
+end
+
+# Au∮o取▼ (I)
+section
+	item_vnum	950821
+	apply_type	CRITICAL_PCT
+	apply_value	20	20	20	20	20
+	apply_duration	0	0	0	0	0
+end
+
+# E∫∮o取▼ (I)
+section
+	item_vnum	950822
+	apply_type	PENETRATE_PCT
+	apply_value	20	20	20	20	20
+	apply_duration	0	0	0	0	0
+end
+
+# E昌∮o取▼ (I)
+section
+	item_vnum	950823
+	apply_type	ATTACK_SPEED
+	apply_value	10	10	10	10	10
+	apply_duration	0	0	0	0	0
+end
+
+# 昆i∮o取▼ (I)
+section
+	item_vnum	950824
+	apply_type	RESIST_MAGIC
+	apply_value	20	20	20	20	20
+	apply_duration	0	0	0	0	0
+end
+
+# A∮∮o取▼ (I)
+section
+	item_vnum	950825
+	apply_type	ATT_BONUS
+	apply_value	120	120	120	120	120
+	apply_duration	0	0	0	0	0
+end
+
+# 易e∮o取▼ (I)
+section
+	item_vnum	950826
+	apply_type	DEF_BONUS
+	apply_value	200	200	200	200	200
+	apply_duration	0	0	0	0	0
+end
+
+# 易e∮o取▼
+section
+	item_vnum	950827
+	apply_type	ATT_BONUS_TO_MONSTER
+	apply_value	10	10	10	10	10
+	apply_duration	0	0	0	0	0
+end
+
+# 易e∮o取▼
+section
+	item_vnum	950828
+	apply_type	ATTBONUS_STONE
+	apply_value	10	10	10	10	10
+	apply_duration	0	0	0	0	0
+end
+
+section
+	item_vnum	950829
+	apply_type	ATTBONUS_BOSS
+	apply_value	10	10	10	10	10
+	apply_duration	0	0	0	0	0
+end
+
+section
+	item_vnum	950830
+	apply_type	RESIST_ICE
+	apply_value	10	10	10	10	10
+	apply_duration	0	0	0	0	0
+end
+
+section
+	item_vnum	950831
+	apply_type	RESIST_FIRE
+	apply_value	10	10	10	10	10
+	apply_duration	0	0	0	0	0
+end
+
+section
+	item_vnum	950832
+	apply_type	RESIST_WIND
+	apply_value	10	10	10	10	10
+	apply_duration	0	0	0	0	0
+end
+
+section
+	item_vnum	950833
+	apply_type	RESIST_DARK
+	apply_value	10	10	10	10	10
+	apply_duration	0	0	0	0	0
+end
+
+section
+	item_vnum	950834
+	apply_type	RESIST_ELEC
+	apply_value	10	10	10	10	10
+	apply_duration	0	0	0	0	0
+end
+
+section
+	item_vnum	950835
+	apply_type	RESIST_EARTH
+	apply_value	10	10	10	10	10
+	apply_duration	0	0	0	0	0
+end
+
+# A屆▽aE? (I)
+section
+	item_vnum	951002
+	apply_type	ENERGY
+	apply_value	10	10	10	10	10
+	apply_duration	0	0	0	0	0
+end
+
+## Dragon God Medals
+
+# ０e卦AAC ∮岩╱i (I)
+section
+	item_vnum	939017
+	apply_type	MAX_HP_PCT
+	apply_value	15	15	15	15	15
+	apply_duration	0	0	0	0	0
+end
+
+# ０e卦AAC ﹉帚﹉? (I)
+section
+	item_vnum	939018
+	apply_type	MALL_ATTBONUS
+	apply_value	15	15	15	15	15
+	apply_duration	0	0	0	0	0
+end
+
+# ０e卦AAC Ao╞E (I)
+section
+	item_vnum	939019
+	apply_type	MAX_SP_PCT
+	apply_value	15	15	15	15	15
+	apply_duration	0	0	0	0	0
+end
+
+# ０e卦AAC 易屆取i (I)
+section
+	item_vnum	939020
+	apply_type	MALL_DEFBONUS
+	apply_value	15	15	15	15	15
+	apply_duration	0	0	0	0	0
+end
+
+# A使╱Ｙ芋卹AAAC Aa (I)
+section
+	item_vnum	939024
+	apply_type	CRITICAL_PCT
+	apply_value	20	20	20	20	20
+	apply_duration	0	0	0	0	0
+end
+
+# ﹉uAeAC Aa (I)
+section
+	item_vnum	939025
+	apply_type	PENETRATE_PCT
+	apply_value	20	20	20	20	20
+	apply_duration	0	0	0	0	0
+end
+
+# 昆i∮o易﹉取aE (I)
+section
+	item_vnum	927209
+	apply_type	ATTACK_SPEED
+	apply_value	25	25	25	25	25
+	apply_duration	0	0	0	0	0
+end
+
+# 足╱Ｄo∮o易﹉取aE (I)
+section
+	item_vnum	927212
+	apply_type	MOVE_SPEED
+	apply_value	25	25	25	25	25
+	apply_duration	0	0	0	0	0
+end
+
+# Zin Suyu
+section
+	item_vnum	50817
+	apply_type	ATT_BONUS
+	apply_value	35	35	35	35	35
+	apply_duration	1800	1800	1800	1800	1800
+end
+
+# Sambo suyu
+section
+	item_vnum	50818
+	apply_type	DEF_BONUS
+	apply_value	35	35	35	35	35
+	apply_duration	1800	1800	1800	1800	1800
+end
+
+# Zin Suyu
+section
+	item_vnum	950817
+	apply_type	ATT_BONUS
+	apply_value	50	50	50	50	50
+	apply_duration	0	0	0	0	0
+end
+
+# Sambo suyu
+section
+	item_vnum	950818
+	apply_type	DEF_BONUS
+	apply_value	50	50	50	50	50
+	apply_duration	0	0	0	0	0
+end

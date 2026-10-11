@@ -1,0 +1,281 @@
+"ARENA_TALK_1";
+"Il duello e terminato perche il tuo guerriero e scomparso.";
+
+"ARENA_TALK_2";
+"Qui non ci sono restrizioni sugli elisir.";
+
+"ARENA_TALK_3 %d";
+"Puoi usare %d elisir.";
+
+"ARENA_TALK_4";
+"La battaglia iniziera tra 10 secondi.";
+
+"ARENA_TALK_5";
+"E iniziato il duello.";
+
+"ARENA_TALK_6";
+"Il duello e terminato a causa di un problema nell'arena.";
+
+"ARENA_TALK_7";
+"E terminato il duello a causa del tempo scaduto.";
+
+"ARENA_TALK_8";
+"Sarai teletrasportato alla citta entro 10 secondi.";
+
+"ARENA_TALK_9";
+"Il duello e terminato a causa di un problema con l'arena.";
+
+"ARENA_TALK_10";
+"Il duello e terminato a causa di un problema con il tuo guerriero.";
+
+"ARENA_TALK_11 %s";
+"%s ha vinto il duello.";
+
+"ARENA_TALK_12 %s";
+"%s ha vinto.";
+
+"ARENA_TALK_13";
+"La prossima sfida iniziera tra 10 secondi.";
+
+"ARENA_TALK_14";
+"I combattenti si sono separati. Il duello e terminato.";
+
+"ARENA_TALK_15";
+"Sei entrato in una battaglia. L'uscita e annullata.";
+
+"ARENA_TALK_16";
+"4 minuti rimasti per l'attacco dei mostri.";
+
+"ARENA_TALK_17";
+"1 minuto rimasto per l'attacco dei mostri.";
+
+"ARENA_TALK_18";
+"I mostri hanno iniziato l'attacco al castello.";
+
+"Your time is up, can deliver the next item.";
+"Il tuo tempo e scaduto, puoi consegnare il prossimo oggetto.";
+
+"It clears my mind. I feel something lightening my chest.";
+"Mi libera la mente. Ora puoi concentrarti meglio.";
+
+"Your alignment is increased %d";
+"La tua allineamento e aumentato di %d.";
+
+"cItem 5485 %s owner %s";
+"cItem 5485 %s proprietario %s";
+
+"cItem 5486 %s wtf %s";
+"cItem 5486 %s wtf %s";
+
+"SKILL_TALKING_2";
+"Questo metodo e molto piu complicato di quanto pensassi.";
+
+"CMD_TALK_3 %s %s";
+"La gilda %s e stata catturata da %s.";
+
+"Shutdown in %d";
+"Spegnimento in %d secondi.";
+
+"The game will shut down after %d seconds.";
+"Il gioco si spegnera tra %d secondi.";
+
+"You roll %d. (%d-%d)";
+"Hai lanciato %d. (%d-%d)";
+
+"%s rolled the dice, resulting in %d. (%d-%d)";
+"%s ha lanciato i dadi, ottenendo %d. (%d-%d)";
+
+"An error has occured, report this error to authoroties. Fish #s parameter";
+"Si e verificato un errore, per favore segnala questo errore alle autorita. Parametro Fish #s";
+
+"An error has occured, report this error to authoroties. Fish #not arg";
+"Si e verificato un errore, per favore segnala questo errore alle autorita. Parametro Fish #not arg";
+
+"Cannot set stat under initial stat";
+"Non puoi impostare la statistica al di sotto della statistica iniziale";
+
+"syntax: offshop_change_shop_name <player-id> <new-name>";
+"sintassi: offshop_change_shop_name <ID-giocatore> <nuovo-nome>";
+
+"syntax: offshop_force_close_shop <player-id>";
+"sintassi: offshop_force_close_shop <ID-giocatore>";
+
+"Cannot find shop by id %u";
+"Impossibile trovare il negozio con ID %u";
+
+"shop's name changed.";
+"Il nome del negozio e stato cambiato.";
+
+"shop closed successfully.";
+"Il negozio e stato chiuso con successo.";
+
+"BATTLEPASS_NOT_COMPLETED_ALL_NORMAL_MISSIONS";
+"Non hai completato tutte le missioni nel Battle Pass normale ancora!";
+
+"BATTLEPASS_NOT_COMPLETED_ALL_PREMIUM_MISSIONS";
+"Non hai completato tutte le missioni nel Battle Pass premium ancora!";
+
+"BATTLEPASS_NOT_COMPLETED_ALL_EVENT_MISSIONS";
+"Non hai completato tutte le missioni nel Battle Pass evento ancora!";
+
+"BATTLEPASS_ALREADY_EARNED_BATTLEPASS_REWARD";
+"Hai gia reclamato la tua ricompensa per questo Battle Pass!";
+
+"BATTLEPASS_COMPLETE_NORMAL_MISSION";
+"Hai completato con successo una missione nel Battle Pass!";
+
+"BATTLEPASS_COMPLETE_PREMIUM_MISSION";
+"Hai completato con successo una missione nel Battle Pass premium!";
+
+"BATTLEPASS_COMPLETE_EVENT_MISSION";
+"Hai completato con successo una missione nel Battle Pass evento!";
+
+"BATTLEPASS_NOW_IS_ACTIVATED_PREMIUM_BATTLEPASS";
+"Il tuo accesso al Battle Pass premium per la stagione attuale e stato attivato. Buona fortuna!";
+
+"BATTLEPASS_NOW_IS_ACTIVATED_PREMIUM_BATTLEPASS_OWN";
+"Hai attivato l'accesso al Battle Pass premium per la stagione attuale. Buona fortuna!";
+
+"BATTLEPASS_CMDGM_ACTIVATE_PREMIUM_TO_PLAYER";
+"Hai attivato il Battle Pass premium per la stagione attuale su %s.";
+
+"BATTLEPASS_CMDGM_DEACTIVATE_PREMIUM_PLAYER";
+"Il tuo Battle Pass premium e stato disattivato.";
+
+"BATTLEPASS_CMDGM_DEACTIVATE_PREMIUM_TO_PLAYER";
+"Hai disattivato il Battle Pass premium su %s.";
+
+"BATTLEPASS_CMDGM_DEACTIVATE_PREMIUM_OWN";
+"Hai disattivato l'accesso al Battle Pass premium.";
+
+"BATTLEPASS_NEXT_REFRESH_RANKLIST_TIME";
+"Non puoi aggiornare la lista dei punteggi per %d secondi.";
+
+"Current remaining number of participants: %d";
+"Numero attuale rimanente di partecipanti: %d";
+
+"You can post new comment in: %02d mins and %02d secs";
+"Puoi pubblicare un nuovo commento tra: %02d minuti e %02d secondi";
+
+"GUILD_TALK_14 %d";
+"<Gilda> I giocatori possono essere invitati dopo %d giorni.";
+
+"GUILD_TALK_17 %d";
+"<Gilda> Puoi invitare i membri entro %d giorni dopo l'aggiustamento.";
+
+"GUILD_TALK_10 %s %s";
+"%s ha dichiarato guerra alla gilda %s!";
+
+"GUILD_TALK_5 %s %s";
+"Nella battaglia di gilda, la gilda %s ha vinto contro la gilda %s.";
+
+"GUILD_TALK_6 %s %s";
+"La battaglia tra %s e %s e finita in pareggio.";
+
+"GUILD_TALK_7 %s %s";
+"La battaglia di gilda tra %s e %s e iniziata.";
+
+"GUILD_TALK_8 %s %s";
+"La battaglia di gilda tra %s e %s iniziera tra un minuto!";
+
+"GUILD_TALK_5";
+"<Gilda> La battaglia di gilda e stata cancellata.";
+
+"GUILD_TALK_1 %d";
+"<Gilda> Il ranking e aumentato a %d Punti.";
+
+"GUILD_TALK_2";
+"Hai dichiarato guerra a questa Gilda.";
+
+"GUILD_TALK_3";
+"La Guerra di Gilda non puo iniziare mentre il server e offline.";
+
+"%s is not online.";
+"%s non e online.";
+
+"Critical server error. The server will reboot automatically.";
+"Errore critico del server. Il server si riavviera automaticamente.";
+
+"You will be disconnected in 10 seconds.";
+"Sarai disconnesso tra 10 secondi.";
+
+"You can connect again after 5 minutes.";
+"Puoi riconnetterti dopo 5 minuti.";
+
+"The number of bets is invalid, please try again.";
+"Il numero di scommesse non e valido, per favore riprova.";
+
+"Failed.";
+"Fallito.";
+
+"Success.";
+"Successo.";
+
+"Pet type changed new type : %d";
+"Tipo del pet cambiato a: %d";
+
+"Bonuschange of %s (Slot: %d) successfully finished.";
+"Cambio bonus di %s (Slot: %d) completato con successo.";
+
+"OX_TALK_1";
+"Vero.";
+
+"OX_TALK_2";
+"Domanda.";
+
+"OX_TALK_3";
+"Vai su O se e vero, vai su X se e falso.";
+
+"OX_TALK_4";
+"I partecipanti che rispondono in modo errato saranno teletrasportati tra 5 secondi.";
+
+"OX_TALK_5";
+"No (X)";
+
+"OX_TALK_6";
+"Si (O)";
+
+"OX_TALK_7";
+"Risposta corretta:";
+
+"OX_TALK_8";
+"Riceverai il risultato entro 10 secondi.";
+
+"OX_TALK_9";
+"Sbagliato";
+
+"OX_TALK_10 %d";
+"Numero totale di domande: %d";
+
+"OX_TALK_11";
+"Sei pronto per la prossima domanda?";
+
+"%s wants to fight with you.";
+"%s vuole combattere con te.";
+
+"Everyone will be teleported to the town.";
+"Tutti verranno teletrasportati al villaggio.";
+
+"TRANSLATE_CLOSE_QUESTNPC";
+"Chiudi";
+
+"You can join the guild war as a spectator.";
+"Puoi unirti alla guerra di gilda come spettatore.";
+
+"If you are a spectator <End View> button to exit will appear.";
+"Se sei uno spettatore, apparira il pulsante <Fine vista> per uscire.";
+
+"No other guild members participated in the Guild War.";
+"Altri membri della gilda non hanno partecipato alla Guerra di Gilda.";
+
+"If no one logs in within 1 minute, the guild battle will end automatically.";
+"Se nessuno effettua l'accesso entro 1 minuto, la battaglia di gilda terminera automaticamente.";
+
+"The guild battle ended early and it was decided as a draw. (less than 5 minutes)";
+"La battaglia di gilda e terminata in anticipo ed e stata decisa come pareggio (meno di 5 minuti).";
+
+"The wedding will be over soon.";
+"Le nozze termineranno presto.";
+
+"When the wedding is over, you will be sent to the village.";
+"Quando le nozze saranno terminate, sarai inviato al villaggio.";

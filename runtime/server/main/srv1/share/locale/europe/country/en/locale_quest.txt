@@ -1,0 +1,338 @@
+19	What is a Shoulder Sash?
+20	What is a Shoulder Sash?
+21	The Shoulder Sash gives you two options:[ENTER]Combination and Absorption.[ENTER][ENTER]You can only carry out combination between two[ENTER]sashes of the same grade. Two combined sashes can[ENTER]generate a higher grade sash.[ENTER][ENTER]In absorption, bonuses are taken from a weapon or[ENTER]armour piece at various percentage rates and are[ENTER]then applied onto the Shoulder Sash.[ENTER][ENTER]The absorption rate (%) is then dependant on the[ENTER]grade of the sash. When absorbing bonuses, the[ENTER]selected weapon or armour piece will be[ENTER]destroyed.
+22	Combination
+23	Would you like to combine two sashes?
+24	Absorption of bonuses
+25	Do you want to absorb bonuses from your weapon or[ENTER]armour?
+39	Close
+114	Information:
+126	If you marry, you cannot change kingdoms. Only[ENTER]players who are not married are able to change[ENTER]kingdoms.
+127	You have to get divorced if you want to change[ENTER]kingdoms.
+128	You cannot change kingdoms while you are still[ENTER]transformed.
+129	Only use this item when you are not transformed[ENTER]any more.
+130	You cannot change kingdoms while you are a member[ENTER]of a guild.
+131	You can only use this item when you have left the[ENTER]guild.
+132	You cannot change kingdoms because you do not[ENTER]have enough Yang.
+133	Don't use this item until you own 500,000 Yang.
+134	Into which kingdom would you like to change?
+135	Shinsoo
+139	Do you really want to change kingdoms? Once you[ENTER]have done it, you cannot undo it.
+140	Change Kingdom:
+141	Please log yourself out completely and log[ENTER]yourself in again to complete the process.
+143	You have chosen the kingdom that you are already[ENTER]in. Didn't you want to change kingdoms?
+144	You have chosen a kingdom.[ENTER]Up until now you have been a member of a guild,[ENTER]please note that this guild will not be in your[ENTER]new kingdom.
+145	Your kingdom has been chosen.[ENTER]Up until now you have been married.[ENTER]Please note that your spouse will not be in your[ENTER]new kingdom.
+147	With this item you can change kingdoms.
+148	You cannot use this item!
+149	You can only change kingdoms once.
+150	GM - Should the time-out be set to zero?
+151	The required time has been set to zero.
+152	Married players cannot change kingdoms.
+153	You cannot use this item at the moment.
+689	Old Lady:
+961	Dragon Stone Refinement
+962	You would like to refine a Dragon Stone? Fair[ENTER]enough. You should know however, that this[ENTER]process can fail. I have heard that these Dragon[ENTER]Beans that you can find behind the spinning coin[ENTER]improve the chances of success.
+1278	Guardian
+1294	Guardian:
+1298	UNKNOWN KEY [%s]
+1301	Open the shop
+1408	Old Lady:
+1692	GM: register again
+1693	GM: check guild information
+1694	pc.has_guild: %s
+1695	Do you want to leave the guild you belong to? I[ENTER]assume that you didn't make any real friends[ENTER]there. But it's your decision. Are you sure you[ENTER]want to leave the guild?
+1696	Okay, so your decision is final. I'm going take[ENTER]you out of the guild.
+1697	What?[DELAY value;150] [/DELAY][ENTER][ENTER]I put a lot of effort into creating it, and now[ENTER]you want to disband the guild? All the experience[ENTER]and memories of your friends will be lost[ENTER]forever![ENTER]Do you really want to disband it?
+1698	Well then. I'm going to disband your guild.
+1699	Establish guild
+1700	Establish guild
+1701	You can't establish a new guild in the first few[ENTER]days after leaving your old one.
+1702	establish
+1703	Please enter the name of the user you want[ENTER]information about.
+1704	You have already disbanded a guild! You cannot[ENTER]found a new guild in the next few days.
+1705	Do you want to establish a guild?[ENTER]You can only found a guild once you've reached[ENTER]level 40 and you will have to pay 200,000 Yang.[ENTER]Do you want to found a guild?
+1706	You don't have enough Yang!
+1707	Your level is too low to establish a guild.
+1710	This user does not exist.
+1711	Check the earliest date for re-registration.
+1712	Left the guild: %s day(s) ago
+1714	Time until disbanding: %s day(s)
+1716	Earliest chance to repeat the attempt: %s hour(s)
+1718	Immediate adjustment
+1719	Immediate registration possible.
+1749	Here you can see your guild's rank in relation to[ENTER]the guilds ranked above and below you in the[ENTER]tables:[ENTER][DELAY value;0][ENTER]|Guild's name|Points|Victories|Draws|Defeats[ENTER]%s[/DELAY][ENTER]
+1750	Here you can see the eight highest ranked guilds[ENTER]and their guild statistics:[ENTER][DELAY value;0][ENTER]|Guild's name|Points|Victories|Draws|Defeats[ENTER]%s[/DELAY][ENTER]
+1751	Your guild's ranking is %s.
+1752	Guild score: %s
+1911	%s Do you want to take part in the war?
+2090	Stable Boy:
+2191	New Horse Picture
+2192	You have lost the Military Horse Book! A new copy[ENTER]costs 500,000 Yang.
+2193	This is a new version of the Military Horse Book.[ENTER]Try not to lose it again.
+2194	In order to call the beginner's horse, you have[ENTER]to pass the qualification test.
+2195	The beginner's horse has been called.
+2196	It didn't work - the beginner's horse could not[ENTER]be called. You can improve your chances of[ENTER]successfully calling the horse by training your[ENTER]horse calling skills.
+2197	Your mental strength is too low. You need a[ENTER]minimum of 100 Spell Points to call the[ENTER]beginner's horse.
+2198	To call a horse for intermediate riders, you need[ENTER]the Armed Horse Book.
+2200	You need to pass the qualification test to be[ENTER]able to call the horse.
+2201	To call the beginner's horse, you need the Horse[ENTER]Picture.
+2202	You have lost the Horse Picture! I can give you a[ENTER]new one for 400,000 Yang.
+2203	The horse for intermediate riders has been called.
+2204	It didn't work - the intermediate's horse could[ENTER]not be called. You can improve your chances of[ENTER]successfully calling the horse by training your[ENTER]horse calling skills.
+2205	Your mental strength is too low. You need a[ENTER]minimum of 200 Spell Points to call the[ENTER]intermediate's horse.
+2206	To call a horse for an expert rider, you need the[ENTER]Military Horse Book.
+2207	You have to pass the qualification test in order[ENTER]to call a horse for expert riders.
+2208	To call a horse for intermediate riders, you need[ENTER]the Armed Horse Book.
+2209	A horse for expert riders has been called.
+2210	It didn't work - the Military Horse could not be[ENTER]called. You can improve your chances of[ENTER]successfully calling the horse by training your[ENTER]horse calling skills.
+2211	Your mental strength is too low. You need a[ENTER]minimum of 300 Spell Points to call the expert's[ENTER]horse.
+2213	This is the new Horse Picture. Try not to lose it[ENTER]again.
+2215	You don't have enough Yang.
+2216	New Armed Horse Book
+2217	You have lost the Armed Horse Book! I can give[ENTER]you a new one for 500,000 Yang.
+2218	This is the new Armed Horse Book. Try not to lose[ENTER]it again.
+2219	You don't have enough Yang.
+2220	New Military Horse Book
+2263	Yes.
+2316	Only players with a minimum level of 50 can[ENTER]change their sex.
+2317	%s
+2318	GM - Should the time be set to zero?
+2319	Sex change:
+2320	This item changes the sex of your character. You[ENTER]can change it every 3 days.
+2321	Have you really considered this carefully?[ENTER]Do you really want to change your sex?[ENTER]Afterwards you will be automatically teleported[ENTER]into the city.
+2322	Your sex was changed. All skills and abilities[ENTER]will stay the same.
+2323	The sex change was cancelled.
+2324	Please unequip all costumes, hairstyles and[ENTER]armour.
+2325	Please only use this item once you have reached a[ENTER]minimum level of 50.
+2326	Married players cannot change their sex. This[ENTER]option is only open to unmarried players.
+2327	If you marry now, you will not be able to change[ENTER]your sex. Only unmarried players can change their[ENTER]sex.
+2328	If you want to change your sex, you have to get a[ENTER]divorce.
+2329	You cannot change your sex while you are[ENTER]transformed.
+2331	You can only change your sex once every three[ENTER]days.
+2332	You can only change again in:
+2594	Disband guild
+2617	Ask for permission to join
+2618	Look at the list of guild wars
+2619	The following guild wars are currently underway:[ENTER]If you want to watch, choose one of the[ENTER]participant guilds.
+2620	Currently, no guilds are taking part in wars.
+2621	The wars are already over.
+2622	Leave the guild.
+2625	Yes
+4298	Show own guild score
+4299	Show own guild ranking
+4300	Show highest-ranked guilds (Ranks 1-8)
+4473	Yes
+6491	I want to get married.
+6492	Tuxedo
+6493	List of wedding ceremonies
+6494	There are no weddings being held at the moment.
+6496	You are a wedding guest! Have fun.
+6497	The ink hasn't even dried yet! Give yourself more[ENTER]time.
+6499	If you want to get married, you need to wear a[ENTER]Tuxedo.
+6500	Wedding Dress
+6501	If you want to get married, you need to wear a[ENTER]Wedding Dress.
+6502	Love alone cannot help you to arrange a wedding,[ENTER]you need some Yang for that. Unfortunately you do[ENTER]not have enough money at the moment. When you[ENTER]have saved a million Yang, I would be happy to[ENTER]plan you ceremony.
+6503	You need to have 1 million Yang.
+6504	You are mature enough now and you also look[ENTER]determined. Whom do you want to marry?
+6505	Please enter the name of the person whom you wish[ENTER]to marry.
+6506	Are you so excited that you can't even write down[ENTER]the name? Try again.
+6507	So you don't know the name of the person you want[ENTER]to marry? Are you really sure you want to get[ENTER]married?
+6508	Another wedding is taking place right now. Please[ENTER]wait a moment, or come back later!
+6509	%s is not online
+6510	Your partner needs to be close so that I can[ENTER]conduct the ceremony. Please bring your partner[ENTER]here.
+6511	%s is too far away.
+6512	Not your name, but your partner's name.
+6513	Enter your partner's name here.
+6514	I'm sorry, but you can't marry a person of the[ENTER]same sex.
+6515	Only people from the same kingdom can marry.
+6516	The person you want to marry is already married.[ENTER]Didn't you know that? You need to find someone[ENTER]who's single.
+6517	%s is married.
+6518	This person is not mature enough for a marriage.[ENTER]Your partner needs to be at least at level 25,[ENTER]too.
+6519	Aren't you are too young to get married? You need[ENTER]a lot of responsibility for married life and you[ENTER]don't seem mature enough yet. Young people get[ENTER]divorced very quickly, so I'm afraid I'm not[ENTER]going to authorise this. Get some more experience[ENTER]first.
+6520	I'm sorry, but I cannot wed the two of you. You[ENTER]don't make a good couple because your experience[ENTER]difference is larger than 15 levels.
+6521	Now, you may exchange rings.
+6522	A wedding is a very important step in one's life.[ENTER]Couldn't your partner at least have brought a[ENTER]Wedding Ring?
+6523	Your partner needs to have a Wedding Ring, too.
+6524	Your partner isn't wearing any wedding clothes.[ENTER]Aren't you embarrassed?
+6525	Your partner needs to wear a Tuxedo.
+6526	Your partner needs to wear a Wedding Dress.
+6528	So this is it: The two of you have decided to be[ENTER]joined in holy matrimony and can now spend some[ENTER]time together. I am going to send you to Lovers'[ENTER]Island. I wish you both a long and happy[ENTER]marriage. Congratulations.[ENTER][ENTER]Shortly you will automatically be sent to Lovers'[ENTER]Island.
+6529	Your partner does not seem to want to marry you.[ENTER]Perhaps you should sort that out.
+6530	Return to the wedding room
+6531	Information:
+6532	Why are you still here? Your partner is already[ENTER]waiting for you. You should go there immediately.
+6533	Wedding Permit
+6534	Wedding Planner:
+6535	I'm talking to your partner. One moment, please.
+6536	I'm here to ensure that the ceremony is performed[ENTER]without a hitch. First of all, write down the[ENTER]name of your partner.
+6537	This name is not registered. Please check your[ENTER]information.
+6538	Please bring your partner here. I need to talk to[ENTER]your partner to clarify a few things.
+6539	%s is still too far away.
+6540	You have to write down the name of your partner,[ENTER]not your own name.
+6542	Marriage is only possible once level 25 has been[ENTER]reached.
+6543	Something's wrong, this isn't the person I was[ENTER]expecting.
+6544	Your partner does not seem to be ready for the[ENTER]wedding yet. Sort it out amongst yourselves.
+6545	Now that everything is prepared, the ceremony can[ENTER]begin!
+6546	It will be a really nice wedding!
+6547	Start of the wedding march
+6548	Stop the wedding march
+6549	Night
+6550	Snow
+6551	End of the wedding
+6552	Please wait a moment, I'm talking to your partner[ENTER]at the moment.
+6553	You want to marry without a Ring?
+6554	Do you want to continue with the wedding?
+6555	Yes
+6557	Your partner needs to agree with the cancellation[ENTER]of the wedding. It cannot be cancelled now as you[ENTER]partner is not online.
+6558	The ceremony cannot be performed until we have[ENTER]received affirmation from your partner. Have a[ENTER]little patience.
+6560	Your partner does not want to.
+6561	Divorce
+6562	Divorce
+6563	You can't get divorced in the absence of your[ENTER]partner. You have to come back here together one[ENTER]more time first.
+6564	Engagement Ring
+6565	For a legal divorce, you need 500,000 Yang and[ENTER]your partner's agreement. Do you really want to[ENTER]get divorced?
+6567	The Wedding Ring please.
+6568	Your partner also needs to have the ring here.
+6569	You don't have enough Yang for a divorce.
+6570	To get divorced, you need %s Yang.
+6571	You need 500,000 Yang for a divorce.
+6572	Do you really want to get divorced? You shouldn't[ENTER]take a decision like this lightly.
+6574	I have changed my mind. I don't want to get[ENTER]divorced.
+6575	You have to get an Engagement Ring first. Then[ENTER]you can marry.
+6576	It's better this way. I hope you have a long and[ENTER]fulfilled life.
+6577	You are now divorced.
+6579	The divorce has been carried out.[ENTER]You are now divorced.
+6580	Your documents are not complete. Please come[ENTER]again later.
+6581	The divorce has been declared invalid.
+6582	Your partner doesn't want to get divorced. You[ENTER]should sort this out amongst yourselves.
+6583	Remove Wedding Ring
+6584	Remove Wedding Ring
+6585	You should forget bad memories as quickly as[ENTER]possible.
+6586	The Wedding Ring has been removed.
+6587	Do you really want to marry like this? You only[ENTER]get married once in a lifetime, so you should[ENTER]think about dressing appropriately.
+6588	One-sided divorce
+6589	Guardian:
+6590	You need 1 million Yang for a one-sided divorce.[ENTER]Do you still want to get divorced?
+6592	You don't have enough Yang for the divorce. You[ENTER]need as much Yang for it as you paid for your[ENTER]wedding.
+6593	Are you sure that you want to get divorced?
+6594	I do.
+6596	Well, it's probably better this way. You can come[ENTER]back again once you're sure that you really want[ENTER]it.
+6597	As you are sure about this, I'm going to go ahead[ENTER]with the divorce. I wish you both all the best[ENTER]for the future.
+7443	Be quiet and maintain your discipline! Behave and[ENTER]don't start any trouble. You should respect your[ENTER]fellow men. Is that understood?
+7444	I'm a very old man, but I'm still fit and healthy[ENTER]because I have a special secret. I have found out[ENTER]that a potion made of Gango Root Juice and Tue[ENTER]Fungi can prolong your life. If you want to try[ENTER]the potion, take the ingredients to Yu-Hwan. He[ENTER]can brew the potion for you.
+7445	You look quite strong...
+7446	For many years, the secret of strength has been[ENTER]passed on in our family. My father told me that[ENTER]if you mix the bell flower into the potion in the[ENTER]right way, the potion will give you extra[ENTER]strength for a short period of time. As far as I[ENTER]know, Beak-Go can brew this potion. You just need[ENTER]to bring him a bell flower.
+7447	Go, tell it on the mountain...
+7448	Yu-Hwan, the musician:
+7449	...over the hills and everywhere... Do you also[ENTER]like music? I sing all kinds of songs in solitude[ENTER]here, so that I don't get caught up in the war.[ENTER]But without a country to protect me, I wouldn't[ENTER]be able to keep doing what I do.
+7450	Why do you read so much?
+7451	Soon, the bookworm:
+7452	Oh, adventurer! The world is full of problems.[ENTER]You can only survive with a certain amount of[ENTER]knowledge. So honour you books. In bad times -[ENTER]and nowadays the times are always bad - they will[ENTER]help you. Believe me!
+7453	Have you got children?
+7454	Mmm, it smells good here...
+7455	Actually I didn't want any children, but...[ENTER]Well I keep collecting Kaki Blossoms because if[ENTER]you prepare them properly, you can strengthen[ENTER]your magical energy with them. Baek-Go found that[ENTER]out. He only needs a single blossom to make 100[ENTER]potions. Unfortunately the Kaki Blossom also has[ENTER]a side effect. If a woman wears a necklace made[ENTER]from this blossom, she will have a son. Between[ENTER]you and me, my wife shamelessly took advantage of[ENTER]this.
+7456	What's wrong with your foot?
+7457	Handu-Up:
+7458	It's getting better. While taking a walk[ENTER]recently, I stumbled over a Gango Root and[ENTER]sprained my ankle. Luckily I know the doctor[ENTER]Baek-Go, so he treated me and gave me some[ENTER]advice: To heal small wounds you can brew a[ENTER]potion from these same Gango Roots. So I made the[ENTER]culprit roots into a tea and it cured the damage[ENTER]that it had made...
+7459	Who are you?
+7460	Wonda-Rim:
+7461	I am Wonda-Rim, Chaegirab's nephew. My uncle is[ENTER]famous! Do you know him? He experiments a lot[ENTER]with potions and herbs. Whilst doing this, he[ENTER]found out that you can get a large amount of[ENTER]protection against magical energy if you mix 100[ENTER]Bo Water with a Mulberry. As far as I know,[ENTER]Huahn-So can produce the potion if you take the[ENTER]ingredients to him.
+7462	Why have you got so many scars?
+7463	Traitor Balso:
+7464	I'm not a good fighter and I constantly got hurt[ENTER]in war. At some point I asked Yu-Hwan whether he[ENTER]could brew a potion for me that could protect my[ENTER]body from injuries. He brewed me something from[ENTER]Bellflower Juice and Lilac, but unfortunately the[ENTER]protection wasn't sufficient. Or perhaps it was[ENTER]just my own incompetency. But I'm sure the potion[ENTER]will help you.
+7465	Octavio, the restaurant owner:
+7466	Why do so many people call you a traitor?
+7467	I fled from the war and joined the Black Wind[ENTER]Gang. My comrades never forgave me for that.[ENTER]Afterwards I found out that the Black Wind[ENTER]Warriors kill innocent people, so I immediately[ENTER]left them. It was awful!
+7468	You have innocent people on your conscience? Then[ENTER]you really do deserve your name. You stopped them[ENTER]from leading a good life.
+7469	We live in a lawless world. But I have decided[ENTER]that I won't do anything bad any more, ever[ENTER]again. I don't want people to keep describing me[ENTER]as a traitor.[ENTER][ENTER]Have you got some Yang for me?
+7470	They call you the scholar?
+7471	Uriel the wise:
+7472	There are so many things to learn in this vast[ENTER]world. Ignorance paired with military power is an[ENTER]especially dangerous combination. You don't want[ENTER]to live like these ignorant soldiers, right?[ENTER]Knowledge is power!
+7473	My sources tell me that you practise medicine?
+7474	I do what I can. But there are more and more[ENTER]casualties every day in this dangerous world. We[ENTER]don't have enough medicine or helpers. Times are[ENTER]hard! Perhaps you could give me a hand later?
+7475	How's the hunting business going?
+7476	Welcome! Our traditional restaurant is so[ENTER]successful that we could open restaurants[ENTER]worldwide. If you want to have something yummy to[ENTER]eat, then come around and give our food a try.
+7477	Yang-Shin the hunter:
+7478	Hmm, ever since the Metin stones came down,[ENTER]animals have become really wild. Nowadays, you're[ENTER]already risking your life when you go out to hunt[ENTER]some chickens. It's a dangerous time for hunters.[ENTER]Luckily, I'm one of the best!
+7479	Where does your high accuracy come from?
+7480	I'm great with a bow, because I have a special[ENTER]recipe, hehe! When you mix Peach Blossom Juice[ENTER]with Lilac, you get a potion that increases your[ENTER]accuracy. Take the ingredients to Yu-Hwan, I'm[ENTER]sure he'll brew the potion for you.
+7481	Such a nice floral wreath...
+7482	I used to collect Peach Blossoms with my brother.[ENTER]But I have to do it alone today. They don't look[ENTER]very pretty, but they have a special effect.[ENTER]If you take a Peach Blossom to Baek-Go, he'll[ENTER]brew a potion from it that makes you very[ENTER]nimble-footed!
+7483	Where's your brother?
+7484	Recently my brother has been travelling a lot. I[ENTER]barely see him any more and I worry a lot about[ENTER]him.
+7485	You sell rice cakes?
+7486	Yu-Rang, the Rice Cake seller:
+7487	Although it is a big restaurant, the furnishing[ENTER]is surprisingly simple.
+7488	It is difficult to sell Rice cakes because of the[ENTER]war. Thanks to the bandits, I have lost lots of[ENTER]customers. I just don't know what I should do for[ENTER]a living any more.
+7489	Who usually buys goods from you?
+7490	I sell most of my cakes to travellers. One day, a[ENTER]mysterious cavalier dressed in black came to see[ENTER]me. As payment, he gave me a recipe that you can[ENTER]make with Zin Water. It's a potion that improves[ENTER]your attack power. I sold the recipe to Huahn-So.[ENTER]If you take some Sim Water and an Alpine Rose to[ENTER]Huahn-So, he will produce some Zin-Water for you.
+7491	Why do you look so sad?
+7492	Oh, who could have known that our sweet dreams[ENTER]would be shattered so mercilessly... My poor[ENTER]husband, he fell during battle! ... Please avenge[ENTER]his death.
+7493	So many people have fallen in the war...
+7494	We're losing more and more men in the war, so the[ENTER]women in the village gathered together and asked[ENTER]Huahn-So to create a better healing potion.[ENTER]After a lot of research, he produced a potion[ENTER]which increases defence, so that less healing[ENTER]potions have to be used. Go see him. I'm sure he[ENTER]can produce the potion, that he calls[ENTER]SamBo-Water, for you. He just needs some[ENTER]Dok-Water and a Alpine Rose to make it.
+7495	Oh, what a cute child...
+7496	Ah-Yu:
+7497	He is screaming again... I don't know whether he[ENTER]wants some sweets or... oh no!
+7498	Tell me something about pottery.
+7499	How are you two?
+7500	My child! Now that my husband has fallen in the[ENTER]war, I need to look after myself. I am trying to[ENTER]support myself and my child on my own. And thanks[ENTER]to the Bo Water, I have found a way to make a[ENTER]living. I need to bring Yu-Hwan 100 Kaki Blossom[ENTER]Juices and one Tue Fungus. He brews Bo Water from[ENTER]these things, which sells really easily. After[ENTER]all, I need to get by somehow...
+7501	How is your husband?
+7502	Aranyo:
+7503	My so-called husband is married to his books. He[ENTER]barely even looks at me any more. And I'm not an[ENTER]ugly woman.
+7504	How's business?
+7505	Since the war broke out, business has been really[ENTER]bad. The merchant's union was once a rich and[ENTER]powerful union, but those days are over now. We[ENTER]cannot keep on ignoring the wild, the white oath[ENTER]soldiers and the black wind soldiers any more.
+7506	Why are you in such a bad mood?
+7507	Taurean:
+7508	Harang is a bad girl! I hate her! I'm weak, and[ENTER]she's always picking on me!
+7509	Yonah the potter:
+7510	You're a man, and you have muscles. Work them out[ENTER]a bit!
+7511	What are you doing at the moment?
+7512	Harang:
+7513	I'm waiting for Taurean. We often play together[ENTER]and we fight a lot too. What a coward! If he[ENTER]doesn't come voluntarily, I'll give him a really[ENTER]hard time!
+7514	Taurean is scared of you.
+7515	Taurean is actually stronger than me. So now I've[ENTER]thought of a way that I can win anyway. A white[ENTER]Ninja told me that you can mix Young Water with a[ENTER]Mulberry and make a potion that makes you hit[ENTER]more quickly. Then I'll finally be able to defeat[ENTER]Taurean! If you also want to becomes a quick[ENTER]attacker, then take the the ingredients to[ENTER]Huahn-So. I'm sure he'll make the potion for you.
+7516	New insight...
+7517	Seon-Pyeong:
+7518	My friend, the world is full of unanswered[ENTER]questions. And I, am a seeker of answers and a[ENTER]seeker of knowledge. Have you ever heard of epic[ENTER]weapons and Spirit Stones?
+7519	What are you doing?
+7520	I like being a potter. It's very satisfying to[ENTER]mould clay with your own hands and to see how[ENTER]something is being created... I usually only make[ENTER]simple things. In the east, on the outskirts of[ENTER]the continent, the production methods are a lot[ENTER]more developed. I saw some pottery there once and[ENTER]I was really inspired. Sometimes, when I have the[ENTER]time, I try experimenting. But I still haven't[ENTER]found out which trick they use.
+7521	You probably already know that I research unknown[ENTER]knowledge. And at the moment I'm looking into a[ENTER]method of further reinforcing weapons and[ENTER]improving the power of the Spirit Stones.
+7522	The weapon research...
+7523	Interesting isn't it? Do you want to know more[ENTER]about it? Then please bring me the appropriate[ENTER]level 65 weapon +9. I also need a Fencing[ENTER]Pamphlet and two Blessing Scrolls. I'll try to[ENTER]make you an epic weapon out of them.
+7524	However, I can't promise that it'll work.
+7525	The Spirit Stones...
+7526	Spirit Stones are widely used, but although they[ENTER]are used a lot, most people don't really know[ENTER]what their true power is. But my research has[ENTER]helped me to find out a lot more about them. If[ENTER]you bring me another Spirit Stone, I can improve[ENTER]it for you.
+7527	You're very sprightly for your age...
+8004	Reset status
+8015	This scroll allows you to reset all your previous[ENTER]status improvements. Your whole status will be[ENTER]affected: VIT, INT, STR and DEX will all be reset[ENTER]to 1. The points you gain from this can be[ENTER]redistributed.[ENTER][ENTER]Do you want to use the scroll now?
+8153	Reset skills
+8154	Suit yourself. If you change your mind, come[ENTER]visit me again.
+8155	You don't have enough Yang. I'm sorry, but I[ENTER]can't help you. After all, I also need to make a[ENTER]living too.
+8159	You haven't started any training yet! As long you[ENTER]as you don't spend any skill points you can't[ENTER]reset them either. Come back when you have made a[ENTER]mistake during your training, then I'll be happy[ENTER]to help you.
+8161	You don't follow a lore and don't have any skill[ENTER]points you could reset!
+8162	Oh dear, what's the matter? I can see great[ENTER]sorrow in your eyes...Wait, I can help you. I can[ENTER]let people forget their skills so they can learn[ENTER]new ones. What do you think? It will only cost[ENTER]you %s Yang.
+8164	Just look at that gloomy face! Aren't you feeling[ENTER]well? If you're unhappy about your lore: I could[ENTER]help you forget everything in a flash.
+8165	This means that all your skill points will be[ENTER]reset and that you then redistribute them.[ENTER]Unfortunately I cannot give you back the points[ENTER]that you gained from reading books, they will be[ENTER]lost after resetting. Do you want to go ahead?[ENTER]Forget everything and start from the beginning[ENTER]again? Then I will need %s Yang from you.
+8166	Reset skills
+8618	Open shop
+10928	Yes!
+11825	Aura Outfit: Transmit values
+11829	Aura Outfit: Evolution
+200	For an excellent dragon soul: %s.
+201	Want to get brilliant %s?
+202	You can give me the useless excellent dragon souls [ENTER] and so I can make them brilliant for you to use again, [ENTER] just drag the dragon soul over me [ENTER].
+203	Crafting
+204	Add bonuses 6 and 7
+205	The adding attribute was completed successfully.
+206	Enchantment operation failed.
+207	Time left: %s.
+208	How to alchemical transformation?
+209	Choose the bonus you want:
+210	Strong against monsters +10%.
+211	Max HP+1000 is choosen.
+212	Strong against monsters +10% is choosen.
+213	EXP +20% is choosen.
+4473	Yes
+2426	Cancel
+

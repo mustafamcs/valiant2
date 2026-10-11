@@ -1,0 +1,573 @@
+11901	Smoking	Un costum pe care bãrbatii îl poartã la nunti.
+11902	Smoking	Un costum pe care bãrbatii îl poartã la nunti.
+11903	Rochie de Mireasã	O tinutã specialã purtatã de femei la nunti.
+11904	Rochie de Mireasã	O tinutã specialã purtatã de femei la nunti.
+22000	Pergament de Revenire la Orat	Acest pergament te teleporteazã în sat.
+22010	Pergament de Revenire din Orat	Acest pergament îti permite sã te întorci din orat sau din zona în care te afli.
+25040	Pergament de Binecuvântare Când îmbunãtãtirea etueazã, riscul ca obiectul sã disparã este eliminat ti doar calitatea acestuia scade cu 1 nivel.
+25041	Metal Fermecat	O minge de metal legendarã care permite unui obiect sã fie îmbunãtãtit la cea mai bunã formã a sa. În plus, obiectul îmbunãtãtit nu poate fi distrus sau redus la valoare.
+25042	Piatrã de Ritual	O piatrã strãlucitoare mistic care oferã cea mai bunã tansã pentru îmbunãtãtirea obiectului. Obiectul îmbunãtãtit nu poate fi distrus sau înrãutãtit. Aceastã piatrã functioneazã doar pe pietre de nivel peste 105.
+25100	Pergament pentru Piatrã Mentalã	Acest pergament este folosit pentru a îndepãrta pietrele mentale de pe arme ti armuri. O amprentã rãmâne dupã ce piatra este îndepãrtatã.
+27800	Aluat	Cele mai ieftine momeli pentru pescuit.
+27801	Râme	Folosite ca momeli pentru pescuit.
+27803	Pãstrãv	O specie de pette care trãiette în mod obitnuit în lacuri.
+27805	Pãstrãv Mare	Un pãstrãv mare ti gras.
+27990	Fragment de Piatrã	O dimensiune micã face ca transportul sã fie utor. Poate fi folosit în diferite moduri.
+27992	Perla Albã	O perlã albã purã pe care doamnele o iubesc.
+27993	Perla Albastrã	O perlã de culoare albastrã pe care doamnele o iubesc.
+27994	Perla Crem	O perlã rotie-cãrãmizie pe care doamnele o iubesc.
+30006	Dinte de Orc	Un dinte de orc care miroase urât.
+30015	Rãmãtitã de Demon	O rãmãtitã întunecatã a unui demon.
+30047	Carte de Blestem	O carte specialã folositã pentru a blestema pe cineva.
+30050	Minge de Gheatã	O sferã de gheatã care nu se topette în vremea caldã.
+30220	Piatrã a Sufletului Jinunggy	O piatrã legendarã în care se crede cã se aflã sufletele aristocratilor Jinung.
+30221	Piatrã de Sprijin a Templului	O piatrã legendarã în care se crede cã se aflã spiritul sustinãtorilor templului.
+30222	Piatrã a Sufletului Sagyi	O piatrã legendarã în care se crede cã se aflã sufletele aristocratilor Sagyi.
+30223	Piatrã a Sufletului Aurtumryu	O piatrã legendarã în care se crede cã se aflã sufletele aristocratilor Aurtumryu.
+30224	Piatrã a Sufletului Gyimok	O piatrã legendarã în care se crede cã se aflã sufletele aristocratilor Gyimok.
+30225	Piatrã a Sufletului Tugyi	O piatrã legendarã în care se crede cã se aflã sufletele aristocratilor Tugyi.
+30226	Piatrã a Sufletului Tugyi	O piatrã legendarã în care se crede cã se aflã sufletele aristocratilor pãdureni.
+30227	Piatrã a Sufletului Tugyi	O piatrã legendarã în care se crede cã se aflã sufletele aristocratilor lideri.
+30228	Piatrã a Sufletului Tugyi	O piatrã legendarã în care se crede cã se aflã sufletele aristocratilor kem.
+30229	Piatrã a Sufletului Tugyi	O piatrã legendarã în care se crede cã se aflã sufletele aristocratilor întelepti.
+30230	Piatrã a Sufletului Tugyi	O piatrã legendarã în care se crede cã se aflã sufletele aristocratilor focului.
+30231	Piatrã a Sufletului Tugyi	O piatrã legendarã în care se crede cã se aflã sufletele aristocratilor întunericului.
+30251	Gemã Ochi de Oase	Un diamant încãrcat cu malevolentã.
+30252	Gemã a Întelepciunii	Un diamant cu o strãlucire blândã ti generoasã.
+31080	Elixir de Foc	Un elixir magic plin de foc.
+31081	Materie Întunecatã	Încarnarea întunericului ti a rãului.
+39033	Pergament de Corectie	Pietrele mentale plasate cu succes pot fi îndepãrtate de pe un obiect cu acest pergament.
+90000	Certificat de Transformare	Echipamentul cu accesorii înfãturate în curele de umãr sau haine de aur poate fi curãtat de pe obiect cu acest hârtie.
+39067	Cutie de Pãrti	Aceastã cutie contine o parte de culoare aleatorie.
+39070	Parte Gri	Parte de culoare gri care adaugã al 6-lea sau al 7-lea bonus.
+39071	Parte Albã	Parte de culoare albã care adaugã al 6-lea sau al 7-lea bonus.
+39072	Parte Verde	Parte de culoare verde care adaugã al 6-lea sau al 7-lea bonus.
+39073	Parte Galbenã	Parte de culoare galbenã care adaugã al 6-lea sau al 7-lea bonus.
+39074	Parte Albastrã	Parte de culoare albastrã care adaugã al 6-lea sau al 7-lea bonus.
+39075	Parte Mov	Parte de culoare mov care adaugã al 6-lea sau al 7-lea bonus.
+39076	Parte Rotie	Parte de culoare rotie care adaugã al 6-lea sau al 7-lea bonus.
+39077	Parte Curcubeu	Parte de culoare albastru închis care adaugã al 6-lea sau al 7-lea bonus.
+49001	Costum Aura General	Puteti transfera valoarea bijuteriilor în hainele cu auriu aura cu o ratã specificã de absorbtie. Puteti îmbunãtãti costumul Aura cu rune de gheatã ale Aura.
+49002	Costum Aura Simplu	Puteti transfera valoarea bijuteriilor în hainele cu auriu aura cu o ratã specificã de absorbtie. Puteti îmbunãtãti costumul Aura cu rune de gheatã ale Aura.
+49003	Costum Aura Nobil	Puteti transfera valoarea bijuteriilor în hainele cu auriu aura cu o ratã specificã de absorbtie. Puteti îmbunãtãti costumul Aura cu rune de gheatã ale Aura.
+49004	Costum Aura Strãlucitor	Puteti transfera valoarea bijuteriilor în hainele cu auriu aura cu o ratã specificã de absorbtie. Puteti îmbunãtãti costumul Aura cu rune de gheatã ale Aura.
+49005	Costum Aura Sclipitor	Puteti transfera valoarea bijuteriilor în hainele cu auriu aura cu o ratã specificã de absorbtie. Puteti îmbunãtãti costumul Aura cu rune de gheatã ale Aura.
+49006	Costum Aura Strãlucitor	Puteti transfera valoarea bijuteriilor în hainele cu auriu aura cu o ratã specificã de absorbtie.
+49990	Runã de Gheatã a Auriului	Material necesar pentru îmbunãtãtirea costumului Aura. Mergi la Teovahdan pentru a îmbunãtãti costumul Aura.
+49991	Runã de Gheatã a Auriului	Material necesar pentru îmbunãtãtirea costumului Aura. Mergi la Teovahdan pentru a îmbunãtãti costumul Aura.
+50267	Cutie Aurie Okey	Ati obtinut aceastã recompensã de nivel înalt pentru obtinerea a 400 sau mai multe puncte în jocul Okey.
+50268	Cutie Argintie Okey	Ati obtinut aceastã recompensã de nivel mediu pentru obtinerea între 300 ti 399 de puncte în jocul Okey.
+50269	Cutie Bronz Okey	Ati obtinut aceastã recompensã de nivel scãzut pentru obtinerea a 299 sau mai putine puncte în jocul Okey.
+50928	Recompensa Regelui Aurie	Ati obtinut aceastã recompensã de nivel înalt pentru obtinerea a 550 sau mai multe puncte în jocul Catch the King.
+50929	Recompensa Regelui Argintie	Ati obtinut aceastã recompensã de nivel mediu pentru obtinerea între 400 ti 549 de puncte în jocul Catch the King.
+50930	Recompensa Regelui Bronz	Ati obtinut aceastã recompensã de nivel scãzut pentru obtinerea a 399 sau mai putine puncte în jocul Catch the King.
+83041	Cutie Vraciului Aurie	Ati obtinut aceastã recompensã de nivel înalt pentru obtinerea a 7 sau mai multe puncte în competitia Seer.
+83042	Cutie Vraciului Argintie	Ati obtinut aceastã recompensã de nivel mediu pentru obtinerea între 4 ti 6 puncte în competitia Seer.
+83043	Cutie Vraciului Bronz	Ati obtinut aceastã recompensã de nivel scãzut pentru obtinerea a 3 sau mai putine puncte în competitia Seer.
+200100	Cutie Evenimentului de Litere	Ati obtinut aceastã recompensã rarã pentru colectarea tuturor literelor în evenimentul de Litere.
+50265	Cutie Minge de Fotbal	Ati obtinut aceastã recompensã rarã pentru colectarea a 20 de mingi de fotbal în evenimentul Minge de Fotbal.
+50401	Manualul Triple Slash	Folosit pentru a stãpâni abilitatea Triple Slash. Cartea dispare dupã citire.
+50402	Manualul Sword Spin	Folosit pentru a stãpâni abilitatea Sword Spin. Cartea dispare dupã citire.
+50403	Manualul Rage	Folosit pentru a stãpâni abilitatea Rage. Cartea dispare dupã citire.
+50404	Manualul Air Blade	Folosit pentru a stãpâni abilitatea Air Blade. Cartea dispare dupã citire.
+50405	Manualul Lunge	Folosit pentru a stãpâni abilitatea Lunge. Cartea dispare dupã citire.
+50406	Carte Vointa de a Trãi	Folositã pentru a finaliza cu succes misiunea Vointa de a Trãi. Cartea dispare dupã citire.
+50416	Manualul Soul Strike	Folosit pentru a stãpâni abilitatea Soul Strike. Cartea dispare dupã citire.
+50417	Manualul Heavy Strike	Folosit pentru a stãpâni abilitatea Heavy Strike. Cartea dispare dupã citire.
+50418	Manualul Power Strike	Folosit pentru a stãpâni abilitatea Power Strike. Cartea dispare dupã citire.
+50419	Manualul Strong Body	Folosit pentru a stãpâni abilitatea Strong Body. Cartea dispare dupã citire.
+50420	Manualul Sword Blow	Folosit pentru a stãpâni abilitatea Sword Blow. Cartea dispare dupã citire.
+50421	Carte Cercul Sabiei	Folositã pentru a finaliza cu succes misiunea Cercul Sabiei. Cartea dispare dupã citire.
+50431	Manualul Assassination	Folosit pentru a stãpâni abilitatea Assassination. Cartea dispare dupã citire.
+50432	Manualul Quick Attack	Folosit pentru a stãpâni abilitatea Quick Attack. Cartea dispare dupã citire.
+50433	Manualul Knife Spin	Folosit pentru a stãpâni abilitatea Knife Spin. Cartea dispare dupã citire.
+50434	Manualul Camouflage	Folosit pentru a stãpâni abilitatea Camouflage. Cartea dispare dupã citire.
+50435	Manualul Poisonous Cloud	Folosit pentru a stãpâni abilitatea Poisonous Cloud. Cartea dispare dupã citire.
+50436	Carte Otravã în Furtunã	Folositã pentru a finaliza cu succes misiunea Otravã în Furtunã. Cartea dispare dupã citire.
+50446	Manualul Repeated Shot	Folosit pentru a stãpâni abilitatea Repeated Shot. Cartea dispare dupã citire.
+50447	Manualul Rain of Arrows	Folosit pentru a stãpâni abilitatea Rain of Arrows. Cartea dispare dupã citire.
+50448	Manualul Fiery Arrow	Folosit pentru a stãpâni abilitatea Fiery Arrow. Cartea dispare dupã citire.
+50449	Manualul Light Step	Folosit pentru a stãpâni abilitatea Light Step. Cartea dispare dupã citire.
+50450	Manualul Poisoned Arrow	Folosit pentru a stãpâni abilitatea Poisoned Arrow. Cartea dispare dupã citire.
+50451	Carte Spark Strike	Folositã pentru a finaliza cu succes misiunea Spark Strike. Cartea dispare dupã citire.
+50461	Manualul Finger Strike	Folosit pentru a stãpâni abilitatea Finger Strike. Cartea dispare dupã citire.
+50462	Manualul Dragon Transformation	Folosit pentru a stãpâni abilitatea Dragon Transformation. Cartea dispare dupã citire.
+50463	Manualul Magical Sharpness	Folosit pentru a stãpâni abilitatea Magical Sharpness. Cartea dispare dupã citire.
+50464	Manualul Terror	Folosit pentru a stãpâni abilitatea Terror. Cartea dispare dupã citire.
+50465	Manualul Magical Armor	Folosit pentru a stãpâni abilitatea Magical Armor. Cartea dispare dupã citire.
+50466	Manualul Dispel Magic	Folosit pentru a stãpâni abilitatea Dispel Magic. Cartea dispare dupã citire.
+50476	Manualul Dark Strike	Folosit pentru a stãpâni abilitatea Dark Strike. Cartea dispare dupã citire.
+50477	Manualul Fire Strike	Folosit pentru a stãpâni abilitatea Fire Strike. Cartea dispare dupã citire.
+50478	Manualul Fire Ghost	Folosit pentru a stãpâni abilitatea Fire Ghost. Cartea dispare dupã citire.
+50479	Manualul Dark Protection	Folosit pentru a stãpâni abilitatea Dark Protection. Cartea dispare dupã citire.
+50480	Manualul Ghost Strike	Folosit pentru a stãpâni abilitatea Ghost Strike. Cartea dispare dupã citire.
+50481	Manualul Dark Sphere	Folosit pentru a stãpâni abilitatea Dark Sphere. Cartea dispare dupã citire.
+50491	Manualul Flying Talisman	Folosit pentru a stãpâni abilitatea Flying Talisman. Cartea dispare dupã citire.
+50492	Carte Dragon Strike	Aceastã carte permite stãpânirea abilitãtii Dragon Strike. Cartea dispare dupã citire.
+50493	Manualul Dragon Roar	Folosit pentru a stãpâni abilitatea Dragon Roar. Cartea dispare dupã citire.
+50494	Manualul Blessing	Folosit pentru a stãpâni abilitatea Blessing. Cartea dispare dupã citire.
+50495	Manualul Reflection	Folosit pentru a stãpâni abilitatea Reflection. Cartea dispare dupã citire.
+50496	Carte Ajutorul Dragonului	Folositã pentru a stãpâni abilitatea Ajutorul Dragonului. Cartea dispare dupã citire.
+50506	Manualul Lightning Throw	Folosit pentru a stãpâni abilitatea Lightning Throw. Cartea dispare dupã citire.
+50507	Manualul Summon Lightning	Folosit pentru a stãpâni abilitatea Summon Lightning. Cartea dispare dupã citire.
+50508	Manualul Lightning Claw	Folosit pentru a stãpâni abilitatea Lightning Claw. Cartea dispare dupã citire.
+50509	Manualul Healing	Folosit pentru a stãpâni abilitatea Healing. Cartea dispare dupã citire.
+50510	Manualul Speed	Folosit pentru a stãpâni abilitatea Speed. Cartea dispare dupã citire.
+50511	Manualul High Attack	Folosit pentru a stãpâni abilitatea High Attack. Cartea dispare dupã citire.
+50513	Piatrã a Sufletului	O piatrã legendarã care îmbunãtãtette abilitãtile de Grandmaster. Dispare dupã utilizare.
+
+18900	Trunchi de Copac Fosilizat	Un fragment de meteorit care conferã putere suplimentarã utilizatorului. Poate fi adãugat la curele.
+918900	Trunchi de Copac Fosilizat	Un fragment de meteorit care conferã putere suplimentarã utilizatorului. Poate fi adãugat la curele.
+50621	Diamant	Folosit pentru a debloca sloturi pentru pietre pretioase pe bijuterii valoroase.
+50623	Trunchi Copac Fosilizat	Un lemn pretios care adaugã durabilitate la bijuterii. Poate fi adãugat la bijuteriile din lemn.
+50624	Cupru	În unele cazuri, folosit în productia de bronz ti monede. Poate fi adãugat la bijuteriile din cupru.
+50625	Argint	Un metal nobil strãlucitor folosit în fabricarea bijuteriilor. Poate fi adãugat la bijuteriile din argint.
+50626	Aur	Folosit în fabricarea bijuteriilor. Poate fi adãugat la bijuteriile din aur.
+50627	Piatrã Jad	Un mineral pretios folosit de peste 5000 de ani. Poate fi adãugat la bijuteriile din piatrã jad.
+50628	Ebonitã	Cel mai strãlucitor ti mai rezistent lemn. Poate fi adãugat la bijuteriile din ebonitã.
+50629	Perla	Strãlucind elegant, comoara mãrilor. Poate fi adãugatã la bijuteriile cu perle.
+50630	Aur Alb	O bijuterie durabilã din aur alb. Poate fi adãugatã la bijuteriile din aur alb.
+50631	Cristal	Cristal cu cuart colorat diferit. Poate fi adãugat la bijuteriile cu cristale.
+50632	Ametist	Cuart mov. Poate fi adãugat la bijuteriile cu ametist.
+50633	Lacrimã Cerescã	Picãturã cristalizatã cãzutã din cer. Poate fi adãugatã la bijuteriile cu Lacrimã Cerescã.
+50634	Cristal Suflet	Acest cristal este pur ca un suflet. Poate fi adãugat la bijuteriile cu Cristal Suflet.
+50635	Rubin	Gem rotu gravat cu grijã. Poate fi adãugat la bijuteriile cu rubin.
+50636	Granat	Gem portocaliu gravat cu grijã. Poate fi adãugat la bijuteriile cu granat.
+50637	Smarald	Gem verde gravat cu grijã. Poate fi adãugat la bijuteriile cu smarald.
+50638	Safir	Gem albastru gravat cu grijã. Poate fi adãugat la bijuteriile cu safir.
+50639	Turmalin	Acest gem strãlucitor în culori de curcubeu încântã privirile. Poate fi adãugat la bijuteriile cu turmalin.
+50640	Dragonul Negru	Contine energia unui farmec întunecat care întunecã ochii. Poate fi adãugat la bijuteriile cu Dragonul Negru.
+50641	Cianit	Gem violet gravat cu grijã. Poate fi adãugat la bijuteriile cu cianit.
+
+950623	Trunchi Copac Fosilizat	Un lemn pretios permanent care adaugã durabilitate la bijuterii. Poate fi adãugat la bijuteriile din lemn.
+950624	Cupru	În unele cazuri, folosit permanent în productia de bronz ti monede. Poate fi adãugat la bijuteriile din cupru.
+950625	Argint	Un metal nobil strãlucitor permanent folosit în fabricarea bijuteriilor. Poate fi adãugat la bijuteriile din argint.
+950626	Aur	Folosit permanent în fabricarea bijuteriilor. Poate fi adãugat la bijuteriile din aur.
+950627	Piatrã Jad	Un mineral pretios permanent folosit de peste 5000 de ani. Poate fi adãugat la bijuteriile din piatrã jad.
+950628	Ebonitã	Cel mai strãlucitor ti mai rezistent lemn, permanent. Poate fi adãugat la bijuteriile din ebonitã.
+950629	Perla	Strãlucind elegant, comoara mãrilor, permanent. Poate fi adãugatã la bijuteriile cu perle.
+950630	Aur Alb	O bijuterie durabilã din aur alb, permanent. Poate fi adãugatã la bijuteriile din aur alb.
+950631	Cristal	Cristal permanent cu cuart colorat diferit. Poate fi adãugat la bijuteriile cu cristale.
+950632	Ametist	Cuart mov permanent. Poate fi adãugat la bijuteriile cu ametist.
+950633	Lacrimã Cerescã	Picãturã cristalizatã cãzutã din cer, permanent. Poate fi adãugatã la bijuteriile cu Lacrimã Cerescã.
+950634	Cristal Suflet	Acest cristal este pur ca un suflet permanent. Poate fi adãugat la bijuteriile cu Cristal Suflet.
+950635	Rubin	Gem rotu gravat cu grijã permanent. Poate fi adãugat la bijuteriile cu rubin.
+950636	Granat	Gem portocaliu gravat cu grijã permanent. Poate fi adãugat la bijuteriile cu granat.
+950637	Smarald	Gem verde gravat cu grijã permanent. Poate fi adãugat la bijuteriile cu smarald.
+950638	Safir	Gem albastru gravat cu grijã permanent. Poate fi adãugat la bijuteriile cu safir.
+950639	Turmalin	Acest gem strãlucitor în culori de curcubeu încântã privirile permanent. Poate fi adãugat la bijuteriile cu turmalin.
+950640	Dragonul Negru	Contine energia unui farmec întunecat care întunecã ochii permanent. Poate fi adãugat la bijuteriile cu Dragonul Negru.
+950641	Cianit	Gem violet gravat cu grijã permanent. Poate fi adãugat la bijuteriile cu cianit.
+
+51511	Cor Draconis Diamant	Un Cor Draconis Alb. Contine un diamant de dragon aleator.
+51512	Cor Draconis Rubin	Un Cor Draconis Rotu. Contine un rubin de dragon aleator.
+51513	Cor Draconis Jaditã	Un Cor Draconis Verde. Contine o jaditã de dragon aleator.
+51514	Cor Draconis Safir	Un Cor Draconis Albastru. Contine un safir de dragon aleator.
+51515	Cor Draconis Granat	Un Cor Draconis Portocaliu. Contine un granat de dragon aleator.
+51516	Cor Draconis Atrum	Un Cor Draconis Negru. Contine un onix de dragon aleator.
+
+55003	Carte Pet Tânãr	Cu aceastã carte, poti crette nivelul animalului tãu de companie la urmãtorul nivel (Sãlbatic).
+55004	Carte Pet Sãlbatic	Cu aceastã carte, poti crette nivelul animalului tãu de companie la urmãtorul nivel (Curajos).
+55005	Carte Pet Curajos	Cu aceastã carte, poti crette nivelul animalului tãu de companie la urmãtorul nivel (Erou).
+55401	Ou de Maimutã	Dacã doriti ca animalul dvs. de companie sã iasã din ou, faceti clic dreapta pe ou.
+55701	Maimutã Micã	Cheamati animalul dvs. de companie cu butonul dreapta al mouse-ului, apoi afitati interfata de utilizator a animalului de companie cu tasta P.
+
+70005	Inelul de Experientã (1 orã)	Oferã 50% mai multã experientã timp de 60 de minute. Poate fi folosit sub nivelul 90.
+970005	Inelul de Experientã (1 orã)	Oferã 50% mai multã experientã timp de 60 de minute. Poate fi folosit la nivelul 90 ti peste.
+
+70038	Manta Curaj	Adevãratii rãzboinici atrag atentia tuturor creaturilor cu mantalele lor colorate ti astfel îti dovedesc eroismul.
+70039	Manualul Fierarului	O carte care contine sufletele fierarilor antici. Când este folosit, crette rata de succes la îmbunãtãtire. Poate fi folosit pe obiecte nivel 90 ti peste.
+
+70043	Mãnuti de Hot	Marette tansa de obtinere a obiectelor. Poate fi folosit sub nivelul 90.
+970043	Mãnuti de Hot	Marette tansa de obtinere a obiectelor. Poate fi folosit la nivelul 90 ti peste.
+
+70102	Boabe Zen	Reduce clasãrile slabe.
+
+71001	Hârtie de Exorcizare	Dacã învãtarea etueazã, te protejeazã de blestemul spiritelelor rele.
+71002	Hârtie de Resetare a Statului	Resetazã punctele de stare, permitându-ti sã dezvolti personajul într-o directie diferitã.
+71054	Marchiza Regatelor	Permite unui personaj sã scape într-un alt regat, schimbând regatele.
+
+71032	Pergament de Dragon	Când îmbunãtãtirea etueazã, calitatea unui obiect scade cu un nivel. De asemenea, crette tansa de îmbunãtãtire cu 10%. Poate fi folosit pe obiecte sub nivelul 90.
+70058	Inelul de Teleportare	Acest inel te teleporteazã la o locatie doritã.
+
+72726	Esenta Soarelui	Când este folositã, dispare din sectiunea efectelor din coltul superior stâng, este permanentã ti nelimitatã. Apãsând pe efect îl activeazã sau îl dezactiveazã.
+72730	Esenta Lunii	Când este folositã, dispare din sectiunea efectelor din coltul superior stâng, este permanentã ti nelimitatã. Apãsând pe efect îl activeazã sau îl dezactiveazã.
+71107	Fructul Vietii	Mãrette punctele de clasare cu 2000.
+30629	Cronometrul Biologului	Reseteazã timpul de atteptare pentru obiectele de cercetare colectate, facilitând livrarea lor.
+71035	Esenta Cercetãtorului	Mãrette calitatea obiectelor de cercetare colectate, facilitând acceptarea lor.
+
+71083	Carte de Artã în Piatrã	Îndepãrteazã atatamentele de piatrã sparte, creând spatii goale pentru atatamente.
+71084	Obiect de Înfrumusetare	Îndepãrteazã ti înlocuiette bonusurile de pe un obiect. Valabil doar pentru bonusurile 1 pânã la 5.
+71085	Hârtie de Îmbunãtãtire	Adaugã noi bonusuri obiectelor detinute.
+
+71094	Sfatul Pustnicului	Mãrette tansa ta de a-ti îmbunãtãti abilitãtile atunci când citetti urmãtoarea carte (sau piatrã suflet).
+
+200221	Scama de Dragon	Printre cele mai intense materiale se numãrã scamele de dragon.
+200222	Gheara de Dragon	Privind aceastã ghearã sinistrã îti aduci aminte...
+71151	Înfrumusetare Verde	Eliminã ti înlocuiette bonusurile de pe un obiect. Se aplicã doar la armuri ti arme de nivel 40 ti mai mic.
+71153	Elixirul Întelepciunii	Cu acest elixir, vei obtine 100% mai multã experientã în timpul unei sesiuni de joc de o orã.
+71154	Elixirul Ascensiunii	Cu acest elixir, vei obtine 100% mai multã experientã în timpul unei sesiuni de joc de o orã. Comertul nu este disponibil.
+
+72346	Binecuvântare	Îndepãrteazã ti înlocuiette bonusurile de pe un obiect. Valabil pentru bonusurile 6 ti 7 cu o probabilitate redusã.
+72351	Binecuvântare Micã	Cu o tansã micã, schimbã bonusul 6 sau 7.
+
+79505	Carte de Colectare Rummy	Colectati 24 de cãrti de colectare Rummy, apoi faceti clic dreapta pentru a obtine un set de cãrti Rummy.
+79506	Set de Cãrti Rummy	Cu acest set de cãrti, puteti începe un joc Rummy. Setul de cãrti va fi îndepãrtat automat din inventarul dvs. dupã începerea jocului.
+79512	Carte de Tarot	Colectati 24 de cãrti de tarot, apoi faceti clic dreapta pentru a obtine un set de cãrti de tarot.
+79513	Set de Cãrti de Tarot	Cu acest set de cãrti, puteti începe o competitie de ghicit în viitor. Setul de cãrti va fi îndepãrtat automat din inventarul dvs. dupã începerea jocului.
+79603	Carte de Rege	Colectati 25 de cãrti de rege, apoi faceti clic dreapta pentru a obtine un set de cãrti de rege.
+79604	Set de Cãrti de Rege	Cu acest set de cãrti, puteti începe un joc de rege. Setul de cãrti va fi îndepãrtat automat din inventarul dvs. dupã începerea jocului.
+
+80008	Fragment de Aur	Aur neprelucrat. Poate fi vândut la un pret mare în magazin.
+80014	Cupon DC (100)	Un cupon în valoare de 100 de Monede de Dragon. Acest obiect poate fi comercializat.
+80015	Cupon DC (500)	Un cupon în valoare de 500 de Monede de Dragon. Acest obiect poate fi comercializat.
+80016	Cupon DC (1000)	Un cupon în valoare de 1000 de Monede de Dragon. Acest obiect poate fi comercializat.
+80017	Cupon DC (50)	Un cupon în valoare de 50 de Monede de Dragon. Acest obiect poate fi comercializat.
+80019	Stofã Finã	Acest material este folosit pentru a produce curele de umãr.
+85001	Cureaua Judecãtorului (Simplã)	Aceastã curea preia 1% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+85002	Cureaua Judecãtorului (Fina)	Aceastã curea preia 5% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+85003	Cureaua Judecãtorului (Nobilã)	Aceastã curea preia 10% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+85004	Cureaua Judecãtorului (personalizatã)	Aceastã curea preia 11-25% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+85005	Cureaua Maestrului (Simplã)	Aceastã curea preia 1% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+85006	Cureaua Maestrului (Fina)	Aceastã curea preia 5% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+85007	Cureaua Maestrului (Nobilã)	Aceastã curea preia 10% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+85008	Cureaua Maestrului (personalizatã)	Aceastã curea preia 11-25% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+85011	Cureaua Lordului (Simplã)	Aceastã curea preia 1% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+85012	Cureaua Lordului (Fina)	Aceastã curea preia 5% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+85013	Cureaua Lordului (Nobilã)	Aceastã curea preia 10% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+85014	Cureaua Lordului (personalizatã)	Aceastã curea preia 11-25% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+85015	Cureaua Regelui (Simplã)	Aceastã curea preia 1% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+85016	Cureaua Regelui (Fina)	Aceastã curea preia 5% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+85017	Cureaua Regelui (Nobilã)	Aceastã curea preia 10% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+85018	Cureaua Regelui (personalizatã)	Aceastã curea preia 11-25% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+85021	Cureaua Aniversarului (Simplã)	Aceastã curea preia 1% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+85022	Cureaua Aniversarului (Fina)	Aceastã curea preia 5% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+85023	Cureaua Aniversarului (Nobilã)	Aceastã curea preia 10% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+85024	Cureaua Aniversarului (personalizatã)	Aceastã curea preia 11-25% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86001	Banda Zi (Simplã)	Aceastã bandã preia 1% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86002	Banda Zi (Fina)	Aceastã bandã preia 5% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86003	Banda Zi (Nobilã)	Aceastã bandã preia 10% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86004	Banda Zi (personalizatã)	Aceastã bandã preia 11-25% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86005	Banda Chou (Simplã)	Aceastã bandã preia 1% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86006	Banda Chou (Fina)	Aceastã bandã preia 5% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86007	Banda Chou (Nobilã)	Aceastã bandã preia 10% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86008	Banda Chou (personalizatã)	Aceastã bandã preia 11-25% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86011	Banda Yin (Simplã)	Aceastã bandã preia 1% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86012	Banda Yin (Fina)	Aceastã bandã preia 5% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86013	Banda Yin (Nobilã)	Aceastã bandã preia 10% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86014	Banda Yin (personalizatã)	Aceastã bandã preia 11-25% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86015	Banda Mao (Simplã)	Aceastã bandã preia 1% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86016	Banda Mao (Fina)	Aceastã bandã preia 5% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86017	Banda Mao (Nobilã)	Aceastã bandã preia 10% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86018	Banda Mao (personalizatã)	Aceastã bandã preia 11-25% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86021	Banda Chen (Simplã)	Aceastã bandã preia 1% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86022	Banda Chen (Fina)	Aceastã bandã preia 5% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86023	Banda Chen (Nobilã)	Aceastã bandã preia 10% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86024	Banda Chen (personalizatã)	Aceastã bandã preia 11-25% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86025	Banda Si (Simplã)	Aceastã bandã preia 1% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86026	Banda Si (Fina)	Aceastã bandã preia 5% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86027	Banda Si (Nobilã)	Aceastã bandã preia 10% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86028	Banda Si (personalizatã)	Aceastã bandã preia 11-25% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86031	Banda Wu (Simplã)	Aceastã bandã preia 1% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86032	Banda Wu (Fina)	Aceastã bandã preia 5% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86033	Banda Wu (Nobilã)	Aceastã bandã preia 10% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86034	Banda Wu (personalizatã)	Aceastã bandã preia 11-25% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86035	Banda Wei (Simplã)	Aceastã bandã preia 1% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86036	Banda Wei (Fina)	Aceastã bandã preia 5% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86037	Banda Wei (Nobilã)	Aceastã bandã preia 10% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86038	Banda Wei (personalizatã)	Aceastã bandã preia 11-25% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86041	Banda Shen (Simplã)	Aceastã bandã preia 1% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86042	Banda Shen (Fina)	Aceastã bandã preia 5% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86043	Banda Shen (Nobilã)	Aceastã bandã preia 10% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86044	Banda Shen (personalizatã)	Aceastã bandã preia 11-25% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86045	Banda Yu (Simplã)	Aceastã bandã preia 1% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86046	Banda Yu (Fina)	Aceastã bandã preia 5% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86047	Banda Yu (Nobilã)	Aceastã bandã preia 10% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86048	Banda Yu (personalizatã)	Aceastã bandã preia 11-25% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86051	Banda Xu (Simplã)	Aceastã bandã preia 1% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86052	Banda Xu (Fina)	Aceastã bandã preia 5% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86053	Banda Xu (Nobilã)	Aceastã bandã preia 10% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86054	Banda Xu (personalizatã)	Aceastã bandã preia 11-25% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86055	Banda Hai (Simplã)	Aceastã bandã preia 1% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86056	Banda Hai (Fina)	Aceastã bandã preia 5% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86057	Banda Hai (Nobilã)	Aceastã bandã preia 10% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86058	Banda Hai (personalizatã)	Aceastã bandã preia 11-25% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86061	Banda Inimii (Simplã)	Aceastã bandã preia 1% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86062	Banda Inimii (Fina)	Aceastã bandã preia 5% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86063	Banda Inimii (Nobilã)	Aceastã bandã preia 10% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+86064	Banda Inimii (personalizatã)	Aceastã bandã preia 11-25% din bonusurile de la arma sau armura pe care o folositi pentru absorbtie.
+
+100002	Süre Özütü (B)	Reîncarcã durata unei Piatre de Dragon.	6 ore
+
+100300	Fasolea Verde a Dragonului	Magicã, aceastã fasole mãrette nivelul Pietrei Dragonului. Procesul de întãrire poate etua.
+100400	Fasolea Albastrã a Dragonului	tansa de a îmbunãtãti cu succes Piatra Dragonului cu un nivel în plus este cu 5% mai mare.
+100500	Fasolea Roz a Dragonului	tansa de a îmbunãtãti cu succes Piatra Dragonului cu un nivel în plus este cu 10% mai mare.
+
+93100	Pataport de Bãtãlie	Acest obiect activeazã sarcini sezoniere cu recompense multiple.
+200200	Cristal de Safir	Un cristal comun fãcut din safir. Folosit în fabricarea ti rafinarea echipamentului.
+200202	Cristal de Safir	Un cristal rar fãcut din smarald. Folosit în fabricarea ti rafinarea echipamentului.
+200204	Cristal de Safir	Un cristal rar fãcut din rubin. Folosit în fabricarea ti rafinarea echipamentului.
+200206	Pergament de Dungeon (Scãzut)	Îti permite sã cumperi bilete pentru dungeon-uri de nivel scãzut.
+200207	Pergament de Dungeon (Mediu)	Îti permite sã cumperi bilete pentru dungeon-uri de nivel mediu.
+200208	Pergament de Dungeon (Înalt)	Îti permite sã cumperi bilete pentru dungeon-uri de nivel înalt.
+200209	Cupon de Echipament	Primul tablon folosit de un maestru strãvechi în crearea echipamentului. Folosit pentru achizitii initiale, fabricare ti rafinare a echipamentului.
+200210	Valleycoin	O monedã folositã în vremuri strãvechi. În general, folositã pentru comert cu NPC-uri ti fabricarea de echipamente.
+200211	Piatrã de Îmbunãtãtire a Picamerului	O piatrã neagrã misterioasã. Folositã în rafinarea picamerelor.
+200212	Piatrã de Îmbunãtãtire a Lansetei de Pescuit	O bucatã ruptã dintr-o lansetã de pescuit. Folositã în rafinarea lansetelor de pescuit.
+200213	Fragment de Minereu (Scãzut)	Un fragment obitnuit de minereu obtinut prin minare. Folosit la achizitionarea de minereu de nivel scãzut de la Negustorul de Minereu.
+200214	Fragment de Minereu (Înalt)	Un fragment rar de minereu obtinut prin minare. Folosit la achizitionarea de minereu de nivel înalt de la Negustorul de Minereu.
+200215	Moneda Elysium	O monedã rarã exclusivã pentru Elysium. Poate fi folositã pentru a achizitiona articole pentru a-ti îmbunãtãti puterea de la Piata Elysium.
+200216	Pãpãdie	O floare proaspãtã ti de culoare galbenã care aduce senzatia de primãvarã. Folositã pentru a cumpãra esente de plante de la Huahn-So.
+200217	Pergament al Biologului	Un pergament antic folosit pentru achizitionarea de materiale biologice de la Biologul Chaegirab.
+200218	Monedã de Fabricatie	O monedã de argint folositã în îmbunãtãtirea ti fabricarea echipamentului. Folositã în fabricarea ti rafinarea echipamentului.
+200221	Scamã de Dragon	Scamele de dragon sunt printre cele mai puternice materiale cunoscute. Folosite în fabricarea ti rafinarea echipamentului.
+200222	Ghearã de Dragon	Rãcoritoare la atingere, aceastã ghearã declanteazã amintiri... Folositã în fabricarea ti rafinarea echipamentului.
+200223	Piatrã a Flãcãrii	Esentã cristalizatã a flãcãrii ti magmei. Folositã în fabricarea ti rafinarea echipamentului.
+200224	Piatrã de Gheatã ti Flacãrã	Esentã cristalizatã a frigului ti ghetii. Folositã în fabricarea ti rafinarea echipamentului.
+200225	Mitralã	Doar un mic fragment rãmâne de la o meteoritã cãzutã. Folositã în rafinarea echipamentului.
+200226	Dioxid de Titan	Cristal prismatic. Folosit în rafinarea echipamentului.
+200227	Agat	Un mineral misterios care strãlucette ca stelele în întuneric. Folosit în rafinarea echipamentului.
+200228	Piatrã Lunii	O piatrã pretioasã în formã de strop care detine o scânteie a luminii lunii. Folositã în rafinarea echipamentului.
+200229	Schitã pentru Accesoriu Verde	O schitã anticã folositã de un maestru pentru a crea accesorii. Folositã în fabricarea de echipament.
+200230	Curele Grele	Un tnur subtire strâns rulat. Folosit în fabricarea de echipament.
+200231	Schitã pentru Echipament Verde	O schitã anticã folositã de un maestru pentru a crea echipament. Folositã în fabricarea de echipament.
+200232	Fire Puternice	Un fir groasã strâns rulat. Folosit în fabricarea de echipament.
+200233	Cristal Magician Troll	Un cristal infuzat cu puterea Trollului Magician. Folosit în fabricarea ti rafinarea echipamentului.
+200234	Piatrã Magician Troll	O piatrã care contine amintiri ale Trollului Magician. Folositã în fabricarea ti rafinarea echipamentului.
+200235	Aripã a Reginei Meley	Aripa tãiatã a Reginei Meley. Folositã în fabricarea ti rafinarea echipamentului.
+200236	Coarnele lui Floraun	O coarnã ruptã de la Floraun. Folositã în fabricarea ti rafinarea echipamentului.
+200237	Schitã pentru Armurã Zodiac	O schitã anticã folositã de un maestru pentru a crea armurã zodiacalã. Folositã în fabricarea ti rafinarea echipamentului.
+200238	Schitã pentru Arme Zodiac	O schitã anticã folositã de un maestru pentru a crea arme zodiacale. Folositã în fabricarea ti rafinarea echipamentului.
+200239	Schitã pentru Accesorii Zodiac	O schitã anticã folositã de un maestru pentru a crea accesorii zodiacale. Folositã în fabricarea ti rafinarea echipamentului.
+200240	Inima lui Alastor	Inima lui Alastor acoperitã de gheatã. Folositã în fabricarea ti rafinarea echipamentului.
+200241	Cristalul Atlantidei	Sursa puterii divine a lui Poseidon. Folosit în fabricarea ti rafinarea echipamentului.
+200242	Coada Scorpionului	Coada tãiatã a Regelui Scorpion. Folositã în fabricarea ti rafinarea echipamentului.
+200243	Craniumul Dragonului	Schelet. Folosit în fabricarea ti rafinarea echipamentului.
+200244	Schitã pentru Armura Dragonului Întunecat	O schitã anticã folositã de un maestru pentru a crea armura dragonului întunecat. Folositã în fabricarea ti rafinarea echipamentului.
+200245	Schitã pentru Armele Dragonului Întunecat	O schitã anticã folositã de un maestru pentru a crea armele dragonului întunecat. Folositã în fabricarea ti rafinarea echipamentului.
+200246	Schitã pentru Accesoriile Dragonului Întunecat	O schitã anticã folositã de un maestru pentru a crea accesorii dragonului întunecat. Folositã în fabricarea ti rafinarea echipamentului.
+200265	Margini Verzi	Perla cu culoare verde. Folositã pentru rafinarea echipamentului.
+200266	Perla Roz	Perla cu culoare roz. Folositã pentru rafinarea echipamentului.
+200267	Perla Aurie	Perla cu culoare aurie. Folositã pentru rafinarea echipamentului.
+200268	Perla Strãlucitoare	Perla care strãlucette cu strãlucirea sa. Folositã pentru rafinarea echipamentului.
+200269	Perla de Marinã	Perla cu culoare de marinã. Folositã pentru rafinarea echipamentului.
+200270	Perla Mov	Perla cu culoare mov. Folositã pentru rafinarea echipamentului.
+200271	Perla Neagrã	Perla cu o culoare întunecatã ti fascinantã. Folositã pentru rafinarea echipamentului.
+200272	Broderie Verde	Broderie cu culoare verde. Folositã pentru rafinarea echipamentului.
+200273	Broderie Roz	Broderie cu culoare roz. Folositã pentru rafinarea echipamentului.
+200274	Broderie Aurie	Broderie cu culoare aurie. Folositã pentru rafinarea echipamentului.
+200275	Broderie Strãlucitoare	Broderie cu culori orbitoare. Folositã pentru rafinarea echipamentului.
+200276	Broderie de Marinã	Broderie cu culoare de marinã. Folositã pentru rafinarea echipamentului.
+200277	Broderie Mov	Broderie cu culoare mov. Folositã pentru rafinarea echipamentului.
+200278	Broderie Neagrã	Broderie întunecatã ti captivantã. Folositã pentru rafinarea echipamentului.
+200279	Chingã Verde	Chingã cu culoare verde. Folositã pentru rafinarea echipamentului.
+200280	Chingã Roz	Chingã cu culoare roz. Folositã pentru rafinarea echipamentului.
+200281	Chingã Aurie	Chingã cu culoare aurie. Folositã pentru rafinarea echipamentului.
+200282	Chingã Strãlucitoare	Chingã cu culori orbitoare. Folositã pentru rafinarea echipamentului.
+200283	Chingã de Marinã	Chingã cu culoare de marinã. Folositã pentru rafinarea echipamentului.
+200284	Chingã Mov	Chingã cu culoare mov. Folositã pentru rafinarea echipamentului.
+200285	Chingã Neagrã	Chingã întunecatã ti captivantã. Folositã pentru rafinarea echipamentului.
+200286	tesãturã Verde	tesãturã cu culoare verde. Folositã pentru rafinarea echipamentului.
+200287	tesãturã Roz	tesãturã cu culoare roz. Folositã pentru rafinarea echipamentului.
+200288	tesãturã Aurie	tesãturã cu culoare aurie. Folositã pentru rafinarea echipamentului.
+200289	tesãturã Strãlucitoare	tesãturã cu culori orbitoare. Folositã pentru rafinarea echipamentului.
+200290	tesãturã de Marinã	tesãturã cu culoare de marinã. Folositã pentru rafinarea echipamentului.
+200291	tesãturã Mov	tesãturã cu culoare mov. Folositã pentru rafinarea echipamentului.
+200292	tesãturã Neagrã	tesãturã întunecatã ti captivantã. Folositã pentru rafinarea echipamentului.
+200293	Vopsea Verde	Vopsea cu culoare verde. Folositã pentru rafinarea echipamentului.
+200294	Vopsea Roz	Vopsea cu culoare roz. Folositã pentru rafinarea echipamentului.
+200295	Vopsea Aurie	Vopsea cu culoare aurie. Folositã pentru rafinarea echipamentului.
+200296	Vopsea Strãlucitoare	Vopsea cu culori orbitoare. Folositã pentru rafinarea echipamentului.
+200297	Vopsea de Marinã	Vopsea cu culoare de marinã. Folositã pentru rafinarea echipamentului.
+200298	Vopsea Mov	Vopsea cu culoare mov. Folositã pentru rafinarea echipamentului.
+200299	Vopsea Neagrã	Vopsea întunecatã ti captivantã. Folositã pentru rafinarea echipamentului.
+
+55107	Deschizãtor Slot Abilitãti Pet	Cu acest obiect, puteti debloca urmãtorul slot de abilitate pentru animalul dvs. de companie.
+
+55120	Kitabã Pet Tânãr	Cu aceastã carte, puteti crette nivelul animalului dvs. de companie la urmãtorul stadiu (Sãlbatic).
+55121	Kitabã Pet Curajos	Cu aceastã carte, puteti crette nivelul animalului dvs. de companie la urmãtorul stadiu (Curajos).
+55122	Kitabã Pet Eroic	Cu aceastã carte, puteti crette nivelul animalului dvs. de companie la urmãtorul stadiu (Eroic).
+55125	Modificator Tip Pet	Cu acest obiect, puteti schimba tipul animalului dvs. de companie.
+55127	Încântãtor Pet	Cu acest obiect, puteti schimba atributele animalului dvs. de companie.
+55128	Steaua Pet	Cu acest obiect, puteti crette nivelul de stea al animalului dvs. de companie.
+55130	Skin Pet (Azrail)	Cu acest obiect, puteti activa aspectul Azrail al animalului dvs. de companie.
+55131	Skin Pet (Baashido)	Cu acest obiect, puteti activa aspectul Baashido al animalului dvs. de companie.
+55132	Skin Pet (Meley)	Cu acest obiect, puteti activa aspectul Meley al animalului dvs. de companie.
+55133	Skin Pet (Alastor)	Cu acest obiect, puteti activa aspectul Alastor al animalului dvs. de companie.
+55134	Skin Pet (Exedyar)	Cu acest obiect, puteti activa aspectul Exedyar al animalului dvs. de companie.
+55140	Cretterea EXP a Pet-ului	Cu acest inel, puteti crette câttigul de EXP al animalului dvs. de companie.
+55150	Kitabã Pet (Rãzboinic)	Cu aceastã carte, puteti îmbunãtãti abilitatea de rezistentã a animalului dvs. de companie la Rãzboinic.
+55151	Kitabã Pet (Sura)	Cu aceastã carte, puteti îmbunãtãti abilitatea de rezistentã a animalului dvs. de companie la Sura.
+55152	Kitabã Pet (Ninja)	Cu aceastã carte, puteti îmbunãtãti abilitatea de rezistentã a animalului dvs. de companie la Ninja.
+55153	Kitabã Pet (taman)	Cu aceastã carte, puteti îmbunãtãti abilitatea de rezistentã a animalului dvs. de companie la taman.
+55154	Kitabã Pet (Berserker)	Cu aceastã carte, puteti îmbunãtãti abilitatea de Berserker a animalului dvs. de companie.
+55155	Kitabã Pet (Omul-Half)	Cu aceastã carte, puteti îmbunãtãti abilitatea de Om-Half a animalului dvs. de companie.
+55156	Kitabã Pet (Loviturã Întepãtoare)	Cu aceastã carte, puteti îmbunãtãti abilitatea de Loviturã Întepãtoare a animalului dvs. de companie.
+55157	Kitabã Pet (Loviturã Criticã)	Cu aceastã carte, puteti îmbunãtãti abilitatea de Loviturã Criticã a animalului dvs. de companie.
+55158	Kitabã Pet (Absorbtie HP)	Cu aceastã carte, puteti îmbunãtãti abilitatea de Absorbtie HP a animalului dvs. de companie.
+55159	Kitabã Pet (Blocare)	Cu aceastã carte, puteti îmbunãtãti abilitatea de Blocare a animalului dvs. de companie.
+55160	Kitabã Pet (Monstru)	Cu aceastã carte, puteti îmbunãtãti abilitatea de Monstru a animalului dvs. de companie.
+55161	Kitabã Pet (Metin)	Cu aceastã carte, puteti îmbunãtãti abilitatea de Metin a animalului dvs. de companie.
+55162	Kitabã Pet (tef)	Cu aceastã carte, puteti îmbunãtãti abilitatea de tef a animalului dvs. de companie.
+55163	Kitabã Pet (Apãrare Monstru)	Cu aceastã carte, puteti îmbunãtãti abilitatea de Apãrare Monstru a animalului dvs. de companie.
+55164	Kitabã Pet (Scãdere Yang)	Cu aceastã carte, puteti îmbunãtãti abilitatea de Scãdere Yang a animalului dvs. de companie.
+
+37000	Utilizator Premium (7z)	La activare, vã oferã statutul de utilizator premium pentru 7 zile.
+37001	Utilizator Premium (14z)	La activare, vã oferã statutul de utilizator premium pentru 14 zile.
+37002	Utilizator Premium (30z)	La activare, vã oferã statutul de utilizator premium pentru 30 zile.
+37003	Utilizator Premium (Permanent)	La activare, vã oferã statutul de utilizator premium permanent.
+37004	Utilizator Premium (7z)	La activare, vã oferã statutul de utilizator premium pentru 7 zile.		Fãrã schimb.
+37005	Utilizator Premium (14z)	La activare, vã oferã statutul de utilizator premium pentru 14 zile.	Fãrã schimb.
+37006	Utilizator Premium (30z)	La activare, vã oferã statutul de utilizator premium pentru 30 zile.	Fãrã schimb.
+37007	Utilizator Premium (Permanent)	La activare, vã oferã statutul de utilizator premium permanent.	Fãrã schimb.
+37008	Plimbare Automatã Premium (7z)	La activare, vã permite sã colectati automat obiectele pentru 7 zile.
+37009	Plimbare Automatã Premium (14z)	La activare, vã permite sã colectati automat obiectele pentru 14 zile.
+37010	Plimbare Automatã Premium (30z)	La activare, vã permite sã colectati automat obiectele pentru 30 zile.
+37011	Plimbare Automatã Premium (Permanent)	La activare, permite colectarea automatã a obiectelor permanent.
+37012	Plimbare Automatã Premium (7z)	La activare, vã permite sã colectati automat obiectele pentru 7 zile.	Fãrã schimb.
+37013	Plimbare Automatã Premium (14z)	La activare, vã permite sã colectati automat obiectele pentru 14 zile.	Fãrã schimb.
+37014	Plimbare Automatã Premium (30z)	La activare, vã permite sã colectati automat obiectele pentru 30 zile.	Fãrã schimb.
+37015	Plimbare Automatã Premium (Permanent)	La activare, permite colectarea automatã a obiectelor permanent.	Fãrã schimb.
+
+37016	Marcator Metin Premium (7z)	La activare, crette numãrul de metine marcate la 6 timp de 7 zile.
+37017	Marcator Metin Premium (14z)	La activare, crette numãrul de metine marcate la 6 timp de 14 zile.
+37018	Marcator Metin Premium (30z)	La activare, crette numãrul de metine marcate la 6 timp de 30 zile.
+37019	Marcator Metin Premium (Permanent)	La activare, crette permanent numãrul de metine marcate la 6.
+37020	Marcator Metin Premium (7z)	La activare, crette numãrul de metine marcate la 6 timp de 7 zile.	Negociabil.
+37021	Marcator Metin Premium (14z)	La activare, crette numãrul de metine marcate la 6 timp de 14 zile.	Negociabil.
+37022	Marcator Metin Premium (30z)	La activare, crette numãrul de metine marcate la 6 timp de 30 zile.	Negociabil.
+37023	Marcator Metin Premium (Permanent)	La activare, crette permanent numãrul de metine marcate la 6.	Negociabil.
+
+24050	Etichetã Nume Monturã (7z)	La activare, vã permite sã dati o nouã denumire monturii dvs. ti sã obtineti bonusuri extra timp de 7 zile.
+24051	Etichetã Nume Monturã (14z)	La activare, vã permite sã dati o nouã denumire monturii dvs. ti sã obtineti bonusuri extra timp de 14 zile.
+24052	Etichetã Nume Monturã (7z)	La activare, vã permite sã dati o nouã denumire monturii dvs. ti sã obtineti bonusuri extra timp de 7 zile.	Fãrã schimb.
+24053	Etichetã Nume Monturã (14z)	La activare, vã permite sã dati o nouã denumire monturii dvs. ti sã obtineti bonusuri extra timp de 14 zile.	Fãrã schimb.
+24054	Etichetã Nume Pet (7z)	La activare, vã permite sã dati o nouã denumire animalului dvs. de companie ti sã obtineti bonusuri extra timp de 7 zile.
+24055	Etichetã Nume Pet (14z)	La activare, vã permite sã dati o nouã denumire animalului dvs. de companie ti sã obtineti bonusuri extra timp de 14 zile.
+24056	Etichetã Nume Pet (7z)	La activare, vã permite sã dati o nouã denumire animalului dvs. de companie ti sã obtineti bonusuri extra timp de 7 zile.	Fãrã schimb.
+24057	Etichetã Nume Pet (14z)	La activare, vã permite sã dati o nouã denumire animalului dvs. de companie ti sã obtineti bonusuri extra timp de 14 zile.	Fãrã schimb.
+24058	Etichetã Nume Buff (7z)	La activare, vã permite sã dati un nou nume buff-ului dvs. ti sã activati abilitãti de vindecare timp de 7 zile.
+24059	Etichetã Nume Buff (14z)	La activare, vã permite sã dati un nou nume buff-ului dvs. ti sã activati abilitãti de vindecare timp de 14 zile.
+24060	Etichetã Nume Buff (7z)	La activare, vã permite sã dati un nou nume buff-ului dvs. ti sã activati abilitãti de vindecare timp de 7 zile.	Fãrã schimb.
+24061	Etichetã Nume Buff (14z)	La activare, vã permite sã dati un nou nume buff-ului dvs. ti sã activati abilitãti de vindecare timp de 14 zile.	Fãrã schimb.
+
+64000	Etichetã Nume Monturã (2z)	La activare, vã permite sã dati o nouã denumire monturii dvs. ti sã obtineti bonusuri extra timp de 2 zile.
+64001	Etichetã Nume Pet (2z)	La activare, vã permite sã dati o nouã denumire animalului dvs. de companie ti sã obtineti bonusuri extra timp de 2 zile.
+64002	Etichetã Nume Buff (2z)	La activare, vã permite sã dati un nou nume buff-ului dvs. ti sã activati abilitãti de vindecare timp de 2 zile.
+
+24102	Obiect de Îmbunãtãtire Mãnuti	Un obiect rar folosit pentru a adãuga un nou bonus echipamentului de mãnuti.
+24103	Obiect de Farmec pentru Mãnuti	Un obiect rar folosit pentru a schimba bonusul de pe echipamentul de mãnuti.
+24104	Obiect de Îmbunãtãtire pentru Talisman	Un obiect rar folosit pentru a adãuga un nou bonus echipamentului de talisman.
+24105	Obiect de Farmec pentru Talisman	Un obiect rar folosit pentru a schimba bonusul de pe echipamentul de talisman.
+
+200400	Pergament de Foc	Un pergament misterios care transferã puterea elementului de foc.
+200401	Cristal de Foc	Un cristal strãlucitor compus din puterea elementului de foc.
+200402	Cufãr Talisman de Foc	O ladã anticã care contine talismanul care controleazã elementul de foc.
+200403	Pergament de Gheatã	Un pergament misterios care transferã puterea elementului de gheatã.
+200404	Cristal de Gheatã	Un cristal strãlucitor compus din puterea elementului de gheatã.
+200405	Cufãr Talisman de Gheatã	O ladã anticã care contine talismanul care controleazã elementul de gheatã.
+200406	Pergament de Pãmânt	Un pergament misterios care transferã puterea elementului de pãmânt.
+200407	Cristal de Pãmânt	Un cristal strãlucitor compus din puterea elementului de pãmânt.
+200408	Cufãr Talisman de Pãmânt	O ladã anticã care contine talismanul care controleazã elementul de pãmânt.
+200409	Pergament de Întuneric	Un pergament misterios care transferã puterea elementului întunecat.
+200410	Cristal Întunecat	Un cristal strãlucitor compus din puterea elementului întunecat.
+200411	Cufãr Talisman Întunecat	O ladã anticã care contine talismanul care controleazã elementul întunecat.
+200412	Pergament de Vânt	Un pergament misterios care transferã puterea elementului vânt.
+200413	Cristal de Vânt	Un cristal strãlucitor compus din puterea elementului vânt.
+200414	Cufãr Talisman de Vânt	O ladã anticã care contine talismanul care controleazã elementul vânt.
+200415	Pergament de Fulger	Un pergament misterios care transferã puterea elementului fulger.
+200416	Cristal de Fulger	Un cristal strãlucitor compus din puterea elementului fulger.
+200417	Cufãr Talisman de Fulger	O ladã anticã care contine talismanul care controleazã elementul fulger.
+200418	Pergament de Element	Un pergament misterios care transferã puterea elementelor.
+200419	Cristal de Element	Un cristal strãlucitor compus din puterea elementelor.
+200420	Cufãr Talisman de Element	O ladã anticã care contine talismanul care controleazã elementele.
+200500	Bilet Lucifer Otrãvitor	Un bilet necesar pentru a intra în Turnul Diavolului Otrãvitor.
+200501	Bilet Barones	Un bilet necesar pentru a intra în Ascunzãtoarea Barones.
+200502	Bilet Geniu Magic	Un bilet necesar pentru a intra în Pettera Geniului.
+200503	Bilet Crocodil de Gheatã	Un bilet necesar pentru a intra în tinutul de Gheatã.
+200504	Bilet Azrael Întunecat	Un bilet necesar pentru a intra în Catacombele Diavolului.
+200505	Bilet Beran Setaou	Un bilet necesar pentru a intra în Sala lui Beran-Setaou.
+200506	Bilet Razador	Un bilet necesar pentru a intra în Fortãreata lui Razador.
+200507	Bilet Naga	Un bilet necesar pentru a intra în Templul Naga.
+200508	Bilet Lup de Cristal	Un bilet necesar pentru a intra în Pettera Safirului.
+200509	Bilet Jotun Thrym	Un bilet necesar pentru a intra în Templul Ochao.
+200510	Bilet Odin	Un bilet necesar pentru a intra în Castelul lui Odin.
+200511	Bilet Troli Magic	Un bilet necesar pentru a intra în Pettera Troli Magic.
+200512	Bilet Meley	Un bilet necesar pentru a intra în Cuibul Reginei Meley.
+200513	Bilet Floraun	Un bilet necesar pentru a intra în Grãdina lui Floraun.
+200514	Bilet Alastor	Un bilet necesar pentru a intra în Pettera lui Alastor.
+200515	Bilet Poseidon	Un bilet necesar pentru a intra în Oratul Pierdut al Atlantidei.
+200516	Bilet Regele Scorpion	Un bilet necesar pentru a intra în Ruinele Scorpionului Arid.
+200517	Bilet Dragon Schelet	Un bilet necesar pentru a intra în Camera Dragonului Schelet.
+200518	Bilet Akzadur	Un bilet necesar pentru a intra în Camera Regelui Akzadur.
+200519	Bilet Regina terpi	Un bilet necesar pentru a intra în Templul Reginei terpi.
+200540	Pecete Lucifer Otrãvitoare	Dati clic dreapta pentru a utiliza ti deschide Pecetea Otrãvitoare.
+200541	Pecete Barones	Dati clic dreapta pentru a utiliza ti deschide Pecetea Pãianjenului.
+200542	Pecete Geniu Magic	Dati clic dreapta pentru a utiliza ti deschide Pecetea Magicã.
+200543	Pecete Crocodil de Gheatã	Dati clic dreapta pentru a utiliza ti deschide Pecetea de Gheatã.
+200544	Pecete Azrael Întunecat	Dati clic dreapta pentru a utiliza ti deschide Pecetea Cotmarului.
+200545	Pecete Beran Setaou	Dati clic dreapta pentru a utiliza ti deschide Pecetea Dragonului Albastru.
+200546	Pecete Razador	Dati clic dreapta pentru a utiliza ti deschide Pecetea Flãcãrii.
+200547	Pecete Naga	Dati clic dreapta pentru a utiliza ti deschide Pecetea Înghetului.
+200548	Pecete Lup de Cristal	Dati clic dreapta pentru a utiliza ti deschide Pecetea Safirului.
+200549	Pecete Jotun Thrym	Dati clic dreapta pentru a utiliza ti deschide Pecetea Pãdurii.
+200550	Pecete Odin	Dati clic dreapta pentru a utiliza ti deschide Pecetea Asgardului.
+200551	Pecete Troli Magic	Dati clic dreapta pentru a utiliza ti deschide Pecetea Magicã.
+200552	Pecete Meley	Dati clic dreapta pentru a utiliza ti deschide Pecetea Dragonului Rotu.
+200553	Pecete Floraun	Dati clic dreapta pentru a utiliza ti deschide Pecetea Pãdurii.
+200554	Pecete Alastor	Dati clic dreapta pentru a utiliza ti deschide Pecetea Nordului.
+200555	Pecete Poseidon	Dati clic dreapta pentru a utiliza ti deschide Pecetea Atlantidei.
+200556	Pecete Regele Scorpion	Dati clic dreapta pentru a utiliza ti deschide Pecetea Scorpionului.
+200557	Pecete Dragon Schelet	Dati clic dreapta pentru a utiliza ti deschide Pecetea Scheletului.
+200558	Pecete Akzadur	Dati clic dreapta pentru a utiliza ti deschide Pecetea Regelui Dragon.
+200559	Pecete Regina terpi	Dati clic dreapta pentru a utiliza ti deschide Pecetea tarpelui.
+
+200300	Bilet Roatã	Un bilet necesar pentru a roti Roata Destinului gratuit. Colectati suficiente în timpul procesului evenimentului pentru a folosi Roata Destinului.
+200301	Litera E	O literã E. Colectati alte litere în timpul procesului evenimentului pentru a confectiona un cot din partea Fierarului.
+200302	Litera L	O literã L. Colectati alte litere în timpul procesului evenimentului pentru a confectiona un cot din partea Fierarului.
+200303	Litera Y	O literã Y. Colectati alte litere în timpul procesului evenimentului pentru a confectiona un cot din partea Fierarului.
+200304	Litera S	O literã S. Colectati alte litere în timpul procesului evenimentului pentru a confectiona un cot din partea Fierarului.
+200305	Litera I	O literã I. Colectati alte litere în timpul procesului evenimentului pentru a confectiona un cot din partea Fierarului.
+200306	Litera U	O literã U. Colectati alte litere în timpul procesului evenimentului pentru a confectiona un cot din partea Fierarului.
+200307	Litera M	O literã M. Colectati alte litere în timpul procesului evenimentului pentru a confectiona un cot din partea Fierarului.
+
+200600	Pachet Premium (30 de Zile)	O ladã legendarã continând obiecte premium valabile timp de 30 de zile. Obtinut din magazinul de obiecte.
+200601	Pachet Premium (Permanent)	O ladã legendarã continând obiecte premium permanente. Obtinut din magazinul de obiecte.
+200602	Pachet Monttri	O ladã legendarã continând obiecte care te fac mai puternic împotriva monttrilor. Obtinut din magazinul de obiecte.
+200603	Pachet Metin	O ladã legendarã continând obiecte care te fac mai puternic împotriva metinilor ti tefilor. Obtinut din magazinul de obiecte.
+200604	Pachet Bufã	O ladã legendarã continând buff-uri permanente ti etichete pentru nume de buff. Obtinut din magazinul de obiecte.
+200605	Pachet Boostere (14 Zile)	O ladã legendarã continând boostere care oferã un bonus de 15% timp de 14 zile. Obtinut din magazinul de obiecte.
+200606	Pachet Dezvoltare	O ladã legendarã continând obiecte care te ajutã sã-ti dezvolti personajul mai rapid. Obtinut din magazinul de obiecte.
+
+200610	Pachet Premium (30 de Zile)	O ladã legendarã continând obiecte premium valabile timp de 30 de zile. Obtinut din magazinul de obiecte.	Fãrã schimb.
+200611	Pachet Premium (Permanent)	O ladã legendarã continând obiecte premium permanente. Obtinut din magazinul de obiecte.	Fãrã schimb.
+200612	Pachet Monttri	O ladã legendarã continând obiecte care te fac mai puternic împotriva monttrilor. Obtinut din magazinul de obiecte.	Fãrã schimb.
+200613	Pachet Metin	O ladã legendarã continând obiecte care te fac mai puternic împotriva metinilor ti tefilor. Obtinut din magazinul de obiecte.	Fãrã schimb.
+200614	Pachet Bufã	O ladã legendarã continând buff-uri permanente ti etichete pentru nume de buff. Obtinut din magazinul de obiecte.	Fãrã schimb.
+200615	Pachet Boostere (14 Zile)	O ladã legendarã continând boostere care oferã un bonus de 15% timp de 14 zile. Obtinut din magazinul de obiecte.	Fãrã schimb.
+200616	Pachet Dezvoltare	O ladã legendarã continând obiecte care te ajutã sã-ti dezvolti personajul mai rapid. Obtinut din magazinul de obiecte.	Fãrã schimb.
+
+24600	Simbol Pietre Mintale	Când este utilizat, crette tansa de adãugare a unei pietre mintale cu 100% pentru o singurã utilizare.
+24601	Booster Vitezã Încântare 6/7 (25%)	Când este utilizat, reduce timpul estimat pentru adãugarea încântãrilor 6-7 cu 25%.
+24602	Booster Vitezã Încântare 6/7 (50%)	Când este utilizat, reduce timpul estimat pentru adãugarea încântãrilor 6-7 cu 50%.
+
+24140	Curãtitor Încântare 1	Când este trãgat pe un costum, curãtã slotul de încântare 1.
+24141	Curãtitor Încântare 2	Când este trãgat pe un costum, curãtã slotul de încântare 2.
+24142	Curãtitor Încântare 3	Când este trãgat pe un costum, curãtã slotul de încântare 3.
+24143	Curãtitor Încântare 4	Când este trãgat pe un costum, curãtã slotul de încântare 4.
+24144	Curãtitor Încântare 5	Când este trãgat pe un costum, curãtã slotul de încântare 5.
+
+24000	Piatrã a Sufletului Întelept	O piatrã a sufletului încãrcatã cu puterea unui mare întelept, folositã pentru a îmbunãtãti abilitatea Maestru Perfect la nivelul de Maestru Întelept.
+24002	Carte Abilitate Vânãtor de Monttri	O carte mai putin obitnuitã folositã pentru a îmbunãtãti abilitatea Vânãtor de Monttri.
+24003	Carte Abilitate Vânãtor de Metin	O carte mai putin obitnuitã folositã pentru a îmbunãtãti abilitatea Vânãtor de Metin.
+24004	Carte Abilitate Rãzboinic Furios	O carte mai putin obitnuitã folositã pentru a îmbunãtãti abilitatea Rãzboinic Furios.
+24005	Carte Abilitate Vânãtor de Oameni	O carte mai putin obitnuitã folositã pentru a îmbunãtãti abilitatea Vânãtor de Oameni.
+24006	Carte Abilitate Concentrare Mentalã	O carte mai putin obitnuitã folositã pentru a îmbunãtãti abilitatea Concentrare Mentalã.
+24007	Carte Abilitate Inimã de Dragon	O carte mai putin obitnuitã folositã pentru a îmbunãtãti abilitatea Inimã de Dragon.
+24008	Carte Abilitate Herbarie	O carte mai putin obitnuitã folositã pentru a îmbunãtãti abilitatea Herbarie.
+24009	Carte Abilitate Confectionare Obiecte	O carte mai putin obitnuitã folositã pentru a îmbunãtãti abilitatea Confectionare Obiecte.
+24010	Carte Abilitate Conducere	O carte mai putin obitnuitã folositã pentru a îmbunãtãti abilitatea Conducere.
+24011	Carte Abilitate Minerit	O carte mai putin obitnuitã folositã pentru a îmbunãtãti abilitatea Minerit.
+24012	Carte Abilitate Pescuit	O carte mai putin obitnuitã folositã pentru a îmbunãtãti abilitatea Pescuit.
+24013	Hârtie Expulzare Suflet Întelept	O hârtie puternicã care înlãturã spiritele malefice atunci când folosetti Piatra Sufletului Întelept.
+24014	Stimulent Eremitet Suflet Întelept	Contine puterea de întãrire a unui mare întelept atunci când folosetti Piatra Sufletului Întelept.

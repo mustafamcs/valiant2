@@ -1,0 +1,591 @@
+11901	Smoking	Ein Anzug, den Männer bei Hochzeiten tragen.
+11902	Smoking	Ein Anzug, den Männer bei Hochzeiten tragen.
+11903	Hochzeitskleid	Ein besonderes Kleidungsstück, das Frauen bei Hochzeiten tragen.
+11904	Hochzeitskleid	Ein besonderes Kleidungsstück, das Frauen bei Hochzeiten tragen.
+22000	Rückkehrrollenschrift zur Stadt	Diese Schriftrolle teleportiert dich ins Dorf zurück.
+22010	Rückkehrrollenschrift aus der Stadt	Diese Schriftrolle ermöglicht dir die Rückkehr aus der Stadt oder aus dem Gebiet, in dem du dich befindest.
+25040	Segenrollenschrift	Bei einem Fehlschlag der Verstärkung wird das Risiko des Verschwindens des Gegenstands beseitigt und nur seine Qualität sinkt um 1 Stufe.
+25041	Verzaubertes Metall	Eine legendäre Metallkugel, die es ermöglicht, einen Gegenstand in seine beste Form zu verstärken. Außerdem kann der verstärkte Gegenstand nicht zerstört oder im Wert gemindert werden.
+25042	Ritualstein	Ein mystisch schimmernder Stein, der die beste Chance für eine Gegenstandsverstärkung bietet. Der verstärkte Gegenstand kann nicht zerstört oder verschlechtert werden. Dieser Stein funktioniert nur bei Steinen über Stufe 105.
+25100	Geiststeinschrift	Diese Schriftrolle wird verwendet, um Geiststeine von Waffen und Rüstungen zu entfernen. Ein Abdruck bleibt zurück, nachdem der Stein entfernt wurde.
+27800	Teig	Der billigste Köder zum Fischen.
+27801	Wurm	Als Köder zum Angeln verwendet.
+27803	Barsch	Eine Fischart, die typischerweise in Seen lebt.
+27805	Großer Barsch	Ein großer, pummeliger Barsch.
+27990	Steinfragment	Durch seine geringe Größe leicht zu tragen. Kann auf verschiedene Arten verwendet werden.
+27992	Weißer Perle	Eine reine weiße Perle, die Frauen lieben.
+27993	Blaue Perle	Blau gefärbte Perle, die Frauen lieben.
+27994	Purpurrote Perle	Purpurrote Perle, die Frauen lieben.
+30006	Orkzahn	Ein übel riechender Zahn eines Orks.
+30015	Dämonenüberrest	Ein dunkler Überrest eines Dämons.
+30047	Fluchbuch	Ein besonderes Buch, um jemanden zu verfluchen.
+30050	Eiskugel	Eine aus Eis gefertigte Kugel, die bei heißem Wetter nicht schmilzt.
+30220	Jinunggys Seelenstein	Ein legendärer Stein, der glaubt, die Seelen von Jinung-Adligen zu enthalten.
+30221	Tempelunterstützungsstein	Ein legendärer Stein, der glaubt, die Geister von Tempelunterstützern zu enthalten.
+30222	Sagyis Seelenstein	Ein legendärer Stein, der glaubt, die Seelen von Sagyi-Adligen zu enthalten.
+30223	Aurtumryus Seelenstein	Ein legendärer Stein, der glaubt, die Seelen von Aurtumryu-Adligen zu enthalten.
+30224	Gyimoks Seelenstein	Ein legendärer Stein, der glaubt, die Seelen von Gyimok-Adligen zu enthalten.
+30225	Tugyis Seelenstein	Ein legendärer Stein, der glaubt, die Seelen von Tugyi-Adligen zu enthalten.
+30226	Tugyis Seelenstein	Ein legendärer Stein, der glaubt, die Seelen von Wald-Adligen zu enthalten.
+30227	Tugyis Seelenstein	Ein legendärer Stein, der glaubt, die Seelen von Anführer-Adligen zu enthalten.
+30228	Tugyis Seelenstein	Ein legendärer Stein, der glaubt, die Seelen von Kem-Adligen zu enthalten.
+30229	Tugyis Seelenstein	Ein legendärer Stein, der glaubt, die Seelen von Weisheits-Adligen zu enthalten.
+30230	Tugyis Seelenstein	Ein legendärer Stein, der glaubt, die Seelen von Feuer-Adligen zu enthalten.
+30231	Tugyis Seelenstein	Ein legendärer Stein, der glaubt, die Seelen von Dunkel-Adligen zu enthalten.
+30251	Knochenaugenstein	Ein Diamant, der mit Bosheit durchdrungen ist.
+30252	Weisheitsdiamant	Ein Diamant mit beruhigendem und großzügigem Glanz.
+31080	Feuerelexier	Ein magisches Elixier, gefüllt mit Feuer.
+31081	Dunkle Materie	Die Verkörperung der Dunkelheit und des Bösen.
+39033	Korrekturschriftrolle	Erfolgreich platzierte Geiststeine können mit dieser Schriftrolle von einem Gegenstand entfernt werden.
+90000	Transformationszertifikat	Ausrüstung mit in Schultergurte oder Aura-Outfit eingebetteter Ausrüstung kann von dem Gegenstand mit diesem Papier gereinigt werden.
+39067	Teiltruhe	Diese Truhe enthält ein zufällig gefärbtes Teil.
+39070	Graues Teil	Grau gefärbtes Teil, das den 6. oder 7. Bonus hinzufügt.
+39071	Weißes Teil	Weiß gefärbtes Teil, das den 6. oder 7. Bonus hinzufügt.
+39072	Grünes Teil	Grün gefärbtes Teil, das den 6. oder 7. Bonus hinzufügt.
+39073	Gelbes Teil	Gelb gefärbtes Teil, das den 6. oder 7. Bonus hinzufügt.
+39074	Blaues Teil	Blau gefärbtes Teil, das den 6. oder 7. Bonus hinzufügt.
+39075	Lila Teil	Lila gefärbtes Teil, das den 6. oder 7. Bonus hinzufügt.
+39076	Rotes Teil	Rot gefärbtes Teil, das den 6. oder 7. Bonus hinzufügt.
+39077	Regenbogen-Teil	Marineblaues Teil, das den 6. oder 7. Bonus hinzufügt.
+49001	Allgemeines Aura-Outfit	Du kannst den Wert von Schmuck in ein Aura-Outfit übertragen, mit einer spezifischen Absorptionsrate. Du kannst das Aura-Outfit mit Eissymbolen der Aura aufrüsten.
+49002	Einfaches Aura-Outfit	Du kannst den Wert von Schmuck in ein Aura-Outfit übertragen, mit einer spezifischen Absorptionsrate. Du kannst das Aura-Outfit mit Eissymbolen der Aura aufrüsten.
+49003	Adliges Aura-Outfit	Du kannst den Wert von Schmuck in ein Aura-Outfit übertragen, mit einer spezifischen Absorptionsrate. Du kannst das Aura-Outfit mit Eissymbolen der Aura aufrüsten.
+49004	Glanzendes Aura-Outfit	Du kannst den Wert von Schmuck in ein Aura-Outfit übertragen, mit einer spezifischen Absorptionsrate. Du kannst das Aura-Outfit mit Eissymbolen der Aura aufrüsten.
+49005	Prunkvolles Aura-Outfit	Du kannst den Wert von Schmuck in ein Aura-Outfit übertragen, mit einer spezifischen Absorptionsrate. Du kannst das Aura-Outfit mit Eissymbolen der Aura aufrüsten.
+49006	Helles Aura-Outfit	Du kannst den Wert von Schmuck in ein Aura-Outfit übertragen, mit einer spezifischen Absorptionsrate.
+49990	Eissymbol der Aura	Material zum Aufrüsten des Aura-Outfits. Gehe zu Teovahdan, um das Aura-Outfit aufzurüsten.
+49991	Eissymbol der Aura	Material zum Aufrüsten des Aura-Outfits. Gehe zu Teovahdan, um das Aura-Outfit aufzurüsten.
+50267	Goldene Okey-Truhe	Du hast diese hochstufige Belohnung verdient, indem du 400 oder mehr Punkte im Okey-Spiel erzielt hast.
+50268	Silberne Okey-Truhe	Du hast diese mittelstufige Belohnung verdient, indem du zwischen 300 und 399 Punkte im Okey-Spiel erzielt hast.
+50269	Bronzene Okey-Truhe	Du hast diese niederstufige Belohnung verdient, indem du 299 oder weniger Punkte im Okey-Spiel erzielt hast.
+50928	Goldene Königsbeute	Du hast diese hochstufige Belohnung verdient, indem du 550 oder mehr Punkte im "Fang den König"-Spiel erzielt hast.
+50929	Silberne Königsbeute	Du hast diese mittelstufige Belohnung verdient, indem du zwischen 400 und 549 Punkte im "Fang den König"-Spiel erzielt hast.
+50930	Bronzene Königsbeute	Du hast diese niederstufige Belohnung verdient, indem du 399 oder weniger Punkte im "Fang den König"-Spiel erzielt hast.
+83041	Goldene Sehertruhe	Du hast diese hochstufige Belohnung verdient, indem du 7 oder mehr Punkte im Seher-Wettbewerb erzielt hast.
+83042	Silberne Sehertruhe	Du hast diese mittelstufige Belohnung verdient, indem du zwischen 4 und 6 Punkte im Seher-Wettbewerb erzielt hast.
+83043	Bronzene Sehertruhe	Du hast diese niederstufige Belohnung verdient, indem du 3 oder weniger Punkte im Seher-Wettbewerb erzielt hast.
+200100	Brief-Event-Truhe	Du hast diese seltene Belohnung verdient, indem du alle Buchstaben im Brief-Event gesammelt hast.
+50265	Fußballtruhe	Du hast diese seltene Belohnung verdient, indem du 20 Fußbälle im Fußball-Event gesammelt hast.
+50401	Dreifachschlitz-Anleitung	Zur Meisterung der Dreifachschlitz-Fertigkeit verwendet. Das Buch verschwindet nach dem Lesen.
+50402	Schwertwirbel-Anleitung	Zur Meisterung der Schwertwirbel-Fertigkeit verwendet. Das Buch verschwindet nach dem Lesen.
+50403	Wut-Anleitung	Zur Meisterung der Wut-Fertigkeit verwendet. Das Buch verschwindet nach dem Lesen.
+50404	Luftklingen-Anleitung	Zur Meisterung der Luftklingen-Fertigkeit verwendet. Das Buch verschwindet nach dem Lesen.
+50405	Ansturm-Anleitung	Zur Meisterung der Ansturm-Fertigkeit verwendet. Das Buch verschwindet nach dem Lesen.
+50406	Wille-zum-Leben-Buch	Zur erfolgreichen Absolvierung der Wille-zum-Leben-Quest verwendet. Das Buch verschwindet nach dem Lesen.
+50416	Seelenschlag-Anleitung	Zur Meisterung der Seelenschlag-Fertigkeit verwendet. Das Buch verschwindet nach dem Lesen.
+50417	Schwerer Schlag-Anleitung	Zur Meisterung der Schwerer-Schlag-Fertigkeit verwendet. Das Buch verschwindet nach dem Lesen.
+50418	Kraftschlag-Anleitung	Zur Meisterung der Kraftschlag-Fertigkeit verwendet. Das Buch verschwindet nach dem Lesen.
+50419	Starke Körper-Anleitung	Zur Meisterung der Starke-Körper-Fertigkeit verwendet. Das Buch verschwindet nach dem Lesen.
+50420	Schwerthieb-Anleitung	Zur Meisterung der Schwerthieb-Fertigkeit verwendet. Das Buch verschwindet nach dem Lesen.
+50421	Schwertkreis-Buch	Zur erfolgreichen Absolvierung der Schwertkreis-Quest verwendet. Das Buch verschwindet nach dem Lesen.
+50431	Meuchelmord-Anleitung	Zur Meisterung der Meuchelmord-Fertigkeit verwendet. Das Buch verschwindet nach dem Lesen.
+50432	Schneller Angriff-Anleitung	Zur Meisterung der Schneller-Angriff-Fertigkeit verwendet. Das Buch verschwindet nach dem Lesen.
+50433	Messerdreh-Anleitung	Zur Meisterung der Messerdreh-Fertigkeit verwendet. Das Buch verschwindet nach dem Lesen.
+50434	Tarnung-Anleitung	Zur Meisterung der Tarnung-Fertigkeit verwendet. Das Buch verschwindet nach dem Lesen.
+50435	Giftige Wolke-Anleitung	Zur Meisterung der Giftige-Wolke-Fertigkeit verwendet. Das Buch verschwindet nach dem Lesen.
+50436	Heimliches Gift-Buch	Zur erfolgreichen Absolvierung der Heimliches-Gift-Quest verwendet. Das Buch verschwindet nach dem Lesen.
+50446	Wiederholter Schuss-Anleitung	Zur Meisterung der Wiederholter-Schuss-Fertigkeit verwendet. Das Buch verschwindet nach dem Lesen.
+50447	Pfeilregen-Anleitung	Zur Meisterung der Pfeilregen-Fertigkeit verwendet. Das Buch verschwindet nach dem Lesen.
+50448	Feuerpfeil-Anleitung	Zur Meisterung der Feuerpfeil-Fertigkeit verwendet. Das Buch verschwindet nach dem Lesen.
+50449	Leichter Schritt-Anleitung	Zur Meisterung der Leichter-Schritt-Fertigkeit verwendet. Das Buch verschwindet nach dem Lesen.
+50450	Vergifteter Pfeil-Anleitung	Zur Meisterung der Vergifteter-Pfeil-Fertigkeit verwendet. Das Buch verschwindet nach dem Lesen.
+50451	Funkenangriff-Buch	Zur erfolgreichen Absolvierung der Funkenangriff-Quest verwendet. Das Buch verschwindet nach dem Lesen.
+
+50461	Finger Strike Manual	Verwendet, um die Finger Strike Fähigkeit zu meistern. Das Buch verschwindet nach dem Lesen.
+50462	Drachenverwandlungshandbuch	Verwendet, um die Drachenverwandlungsfähigkeit zu meistern. Das Buch verschwindet nach dem Lesen.
+50463	Magische Schärfe Anleitung	Verwendet, um die magische Schärfefähigkeit zu meistern. Das Buch verschwindet nach dem Lesen.
+50464	Schreckenshandbuch	Verwendet, um die Schreckensfähigkeit zu meistern. Das Buch verschwindet nach dem Lesen.
+50465	Magisches Rüstungshandbuch	Verwendet, um die magische Rüstungsfähigkeit zu meistern. Das Buch verschwindet nach dem Lesen.
+50466	Magie Aufheben Anleitung	Verwendet, um die Magie Aufheben Fähigkeit zu meistern. Das Buch verschwindet nach dem Lesen.
+50476	Dunkler Schlag Anleitung	Verwendet, um die Dunkler Schlag Fähigkeit zu meistern. Das Buch verschwindet nach dem Lesen.
+50477	Feuerschlag Anleitung	Verwendet, um die Feuerschlag Fähigkeit zu meistern. Das Buch verschwindet nach dem Lesen.
+50478	Feuergeist Anleitung	Verwendet, um die Feuergeist Fähigkeit zu meistern. Das Buch verschwindet nach dem Lesen.
+50479	Dunkler Schutz Anleitung	Verwendet, um die Dunkler Schutz Fähigkeit zu meistern. Das Buch verschwindet nach dem Lesen.
+50480	Geisterschlag Anleitung	Verwendet, um die Geisterschlag Fähigkeit zu meistern. Das Buch verschwindet nach dem Lesen.
+50481	Dunkle Kugel Anleitung	Verwendet, um die Dunkle Kugel Fähigkeit zu meistern. Das Buch verschwindet nach dem Lesen.
+50491	Fliegender Talisman Anleitung	Verwendet, um die Fliegender Talisman Fähigkeit zu meistern. Das Buch verschwindet nach dem Lesen.
+50492	Drachenschlag Buch	Dieses Buch ermöglicht die Meisterschaft der Drachenschlag Fähigkeit. Das Buch verschwindet nach dem Lesen.
+50493	Drachenbrüllen Anleitung	Verwendet, um die Drachenbrüllen Fähigkeit zu meistern. Das Buch verschwindet nach dem Lesen.
+50494	Segensanleitung	Verwendet, um die Segensfähigkeit zu meistern. Das Buch verschwindet nach dem Lesen.
+50495	Reflexionsanleitung	Verwendet, um die Reflexionsfähigkeit zu meistern. Das Buch verschwindet nach dem Lesen.
+50496	Drachenhilfe Buch	Verwendet, um die Drachenhilfe Fähigkeit zu meistern. Das Buch verschwindet nach dem Lesen.
+50506	Blitzwurf Anleitung	Verwendet, um die Blitzwurf Fähigkeit zu meistern. Das Buch verschwindet nach dem Lesen.
+50507	Blitz beschwören Anleitung	Verwendet, um die Blitz beschwören Fähigkeit zu meistern. Das Buch verschwindet nach dem Lesen.
+50508	Blitzklaue Anleitung	Verwendet, um die Blitzklaue Fähigkeit zu meistern. Das Buch verschwindet nach dem Lesen.
+50509	Heilungsanleitung	Verwendet, um die Heilungsfähigkeit zu meistern. Das Buch verschwindet nach dem Lesen.
+50510	Schnelligkeitsanleitung	Verwendet, um die Schnelligkeitsfähigkeit zu meistern. Das Buch verschwindet nach dem Lesen.
+50511	Hoher Angriff Anleitung	Verwendet, um die Hoher Angriff Fähigkeit zu meistern. Das Buch verschwindet nach dem Lesen.
+50513	Seelenstein	Ein legendärer Stein, der Großmeisterfähigkeiten verstärkt. Er verschwindet nach dem Gebrauch.
+
+18900	Fossiler Baumstamm	Ein Meteoritenfragment, das dem Benutzer zusätzliche Kraft verleiht. Kann Gürteln hinzugefügt werden.
+918900	Fossiler Baumstamm	Ein Meteoritenfragment, das dem Benutzer zusätzliche Kraft verleiht. Kann Gürteln hinzugefügt werden.
+
+50621	Diamant	Verwendet, um Edelsteinplätze an wertvollen Accessoires freizuschalten.
+50623	Fossiler Baumstamm	Ein kostbares Holz, das Accessoires Haltbarkeit verleiht. Kann Holzaccessoires hinzugefügt werden.
+50624	Kupfer	Wird manchmal in der Bronze- und Münzherstellung verwendet. Kann Kupferaccessoires hinzugefügt werden.
+50625	Silber	Ein glänzendes Edelmetall, das in der Schmuckherstellung verwendet wird. Kann Silberaccessoires hinzugefügt werden.
+50626	Gold	Wird in der Schmuckherstellung verwendet. Kann Goldaccessoires hinzugefügt werden.
+50627	Jade	Ein kostbares Mineral, das seit über 5000 Jahren verwendet wird. Kann Jade-Accessoires hinzugefügt werden.
+50628	Ebenholz	Das glänzendste und stärkste aller Hölzer. Kann Ebenholz-Accessoires hinzugefügt werden.
+50629	Perle	Elegant glänzend, das Juwel der Meere. Kann Perlenaccessoires hinzugefügt werden.
+50630	Weißgold	Robustes, weißes Goldjuwel. Kann Weißgold-Accessoires hinzugefügt werden.
+50631	Kristall	Verschiedenfarbiger Kristallquarz. Kann Kristallaccessoires hinzugefügt werden.
+50632	Amethyst	Lila Quarz. Kann Amethyst-Accessoires hinzugefügt werden.
+50633	Himmetsträne	Kristallisierter Tropfen, der vom Himmel gefallen ist. Kann Himmetsträne-Accessoires hinzugefügt werden.
+50634	Seelenkristall	Dieser Kristall ist so rein wie eine Seele. Kann Seelenkristall-Accessoires hinzugefügt werden.
+50635	Rubin	Sorgfältig geschnittener roter Edelstein. Kann Rubin-Accessoires hinzugefügt werden.
+50636	Granat	Sorgfältig geschnittener oranger Edelstein. Kann Granat-Accessoires hinzugefügt werden.
+50637	Smaragd	Sorgfältig geschnittener grüner Edelstein. Kann Smaragd-Accessoires hinzugefügt werden.
+50638	Saphir	Sorgfältig geschnittener blauer Edelstein. Kann Saphir-Accessoires hinzugefügt werden.
+50639	Turmalin	Dieser Edelstein, der mit Regenbogenfarben funkelt, verzaubert die Augen. Kann Turmalin-Accessoires hinzugefügt werden.
+50640	Schwarzer Drache	Enthält die Energie eines dunklen Zaubers, der die Augen verdunkelt. Kann Schwarzer Drache-Accessoires hinzugefügt werden.
+50641	Kyanit	Sorgfältig geschnittener lila Edelstein. Kann Kyanit-Accessoires hinzugefügt werden.
+950623	Fossil Tree Trunk	Ein wertvolles dauerhaftes Holz, das Accessoires Haltbarkeit verleiht. Kann Holzaccessoires hinzugefügt werden.
+950624	Kupfer	Wird manchmal in der dauerhaften Bronze- und Münzherstellung verwendet. Kann Kupferaccessoires hinzugefügt werden.
+950625	Silber	Ein dauerhaftes glänzendes Edelmetall, das in der Schmuckherstellung verwendet wird. Kann Silberaccessoires hinzugefügt werden.
+950626	Gold	Wird in der dauerhaften Schmuckherstellung verwendet. Kann Goldaccessoires hinzugefügt werden.
+950627	Jade Stone	Ein wertvolles dauerhaftes Mineral, das seit über 5000 Jahren verwendet wird. Kann Jade-Accessoires hinzugefügt werden.
+950628	Ebenholz	Das glänzendste und stärkste aller Hölzer, dauerhaft. Kann Ebenholz-Accessoires hinzugefügt werden.
+950629	Perle	Elegant glänzend, das Juwel der Meere, dauerhaft. Kann Perlenaccessoires hinzugefügt werden.
+950630	Weißgold	Ein dauerhaftes, gebleichtes Goldjuwel. Kann Weißgold-Accessoires hinzugefügt werden.
+950631	Kristall	Verschiedenfarbiger permanenter Kristallquarz. Kann Kristallaccessoires hinzugefügt werden.
+950632	Amethyst	Permanenter lila Quarz. Kann Amethyst-Accessoires hinzugefügt werden.
+950633	Himmetsträne	Kristallisierter Tropfen, der vom Himmel gefallen ist, dauerhaft. Kann Himmetsträne-Accessoires hinzugefügt werden.
+950634	Seelenkristall	Dieser Kristall ist so rein wie eine permanente Seele. Kann Seelenkristall-Accessoires hinzugefügt werden.
+950635	Rubin	Sorgfältig geschnittener permanenter roter Edelstein. Kann Rubin-Accessoires hinzugefügt werden.
+950636	Granat	Sorgfältig geschnittener permanenter oranger Edelstein. Kann Granat-Accessoires hinzugefügt werden.
+950637	Smaragd	Sorgfältig geschnittener permanenter grüner Edelstein. Kann Smaragd-Accessoires hinzugefügt werden.
+950638	Saphir	Sorgfältig geschnittener permanenter blauer Edelstein. Kann Saphir-Accessoires hinzugefügt werden.
+950639	Turmalin	Dieser permanente Edelstein, der mit Regenbogenfarben funkelt, verzaubert die Augen. Kann Turmalin-Accessoires hinzugefügt werden.
+950640	Schwarzer Drache	Enthält die Energie eines dunklen Zaubers, der die Augen verdunkelt, dauerhaft. Kann Schwarzer Drache-Accessoires hinzugefügt werden.
+950641	Kyanit	Sorgfältig geschnittener permanenter lila Edelstein. Kann Kyanit-Accessoires hinzugefügt werden.
+
+51511	Cor Draconis Diamant	Ein Weißer Cor Draconis. Enthält einen zufälligen Drachendiamanten.
+51512	Cor Draconis Rubin	Ein Roter Cor Draconis. Enthält einen zufälligen Drachenrubin.
+51513	Cor Draconis Jadeit	Ein Grüner Cor Draconis. Enthält einen zufälligen Drachenjadeit.
+51514	Cor Draconis Saphir	Ein Blauer Cor Draconis. Enthält einen zufälligen Drachensaphir.
+51515	Cor Draconis Granat	Ein Oranger Cor Draconis. Enthält einen zufälligen Drachengranat.
+51516	Cor Draconis Atrum	Ein Schwarzer Cor Draconis. Enthält einen zufälligen Drachenonyx.
+
+55003	Jungtier-Buch	Mit diesem Buch kannst du dein Haustier auf das nächste Level (Wild) bringen.
+55004	Wildtier-Buch	Mit diesem Buch kannst du dein Haustier auf das nächste Level (Tapfer) bringen.
+55005	Tapferkeitsbuch	Mit diesem Buch kannst du dein Haustier auf das nächste Level (Held) bringen.
+
+55401	Äffchenei	Wenn du möchtest, dass dein Haustier aus dem Ei schlüpft, klicke mit der rechten Maustaste auf das Ei.
+55701	Kleiner Affe	Rufe dein Haustier mit der rechten Maustaste und zeige dann die Haustier-Benutzeroberfläche mit der Taste P.
+
+70005	Erfahrungsring (1 Std.)	Gewährt 60 Minuten lang 50 % mehr Erfahrung. Kann unter Stufe 90 verwendet werden.
+970005	Erfahrungsring (1 Std.)	Gewährt 60 Minuten lang 50 % mehr Erfahrung. Kann ab Stufe 90 verwendet werden.
+
+70038	Mutumhang	Wahre Krieger ziehen mit ihren bunten Umhängen die Aufmerksamkeit aller Kreaturen auf sich und beweisen so ihren Heldenmut.
+70039	Schmiedehandbuch	Ein Buch, das die Seelen alter Schmiede enthält. Bei Verwendung erhöht es die Upgrade-Erfolgsrate. Kann auf Gegenständen ab Stufe 90 verwendet werden.
+
+70043	Diebeshandschuhe	Verdopple die Chance, Gegenstände zu erhalten. Kann unter Stufe 90 verwendet werden.
+970043	Diebeshandschuhe	Verdopple die Chance, Gegenstände zu erhalten. Kann ab Stufe 90 verwendet werden.
+
+70102	Zenbohne	Verringert schlechte Platzierungen.
+
+71001	Exorzismuspapier	Wenn das Lernen fehlschlägt, schützt es dich vor dem Fluch böser Geister.
+71002	Statusrücksetzungspapier	Setzt Statuspunkte zurück, sodass du deinen Charakter in eine andere Richtung entwickeln kannst.
+71054	Königszeichen	Ermöglicht einem Charakter, in ein anderes Königreich zu fliehen und die Königreiche zu wechseln.
+
+71032	Drachenpergament	Wenn die Verbesserung fehlschlägt, fällt die Qualität eines Gegenstands um eine Stufe. Erhöht außerdem die Verbesserungschance um 10 %. Kann auf Gegenständen unter Stufe 90 verwendet werden.
+70058	Teleportationsring	Dieser Ring teleportiert dich an einen gewünschten Ort.
+
+72726	Sonnenessenz	Bei Verwendung verschwindet sie aus dem Effekte-Bereich oben links, sie ist dauerhaft und unbegrenzt. Durch Klicken auf den Effekt kannst du ihn ein- oder ausschalten.
+72730	Mondessenz	Bei Verwendung verschwindet sie aus dem Effekte-Bereich oben links, sie ist dauerhaft und unbegrenzt. Durch Klicken auf den Effekt kannst du ihn ein- oder ausschalten.
+71107	Lebensfrucht	Erhöht die Ranglistenpunkte um 2.000.
+30629	Biologentimer	Setzt die Wartezeit für gesammelte Forschungsgegenstände zurück und macht sie leichter zu liefern.
+71035	Forscheressenz	Erhöht die Qualität gesammelter Forschungsgegenstände und erleichtert ihre Annahme.
+
+71083	Steinkunstbuch	Entfernt defekte Steinanlagen und schafft leere Anlagenplätze.
+71084	Verzauberungsgegenstand	Entfernt und ersetzt Boni von einem Gegenstand. Nur für Boni 1 bis 5 gültig.
+71085	Verbesserungspapier	Fügt deinen besessenen Gegenständen neue Boni hinzu.
+
+71094	Einsiedlers Rat	Verdoppelt deine Chance, deine Fähigkeiten beim Lesen des nächsten Buches (oder Seelensteins) zu verbessern.
+
+200221	Drachenschuppe	Unter den intensivsten Materialien sind Drachenschuppen.
+200222	Drachenklaue	Diese unheilvolle Klaue ruft Erinnerungen hervor...
+71151	Grüne Verzauberung	Entfernt und ersetzt Boni von einem Gegenstand. Gilt nur für Rüstungen und Waffen der Stufe 40 und darunter.
+71153	Elixier der Weisheit	Mit diesem Elixier erhältst du während einer einstündigen Spielsitzung 100 % mehr Erfahrung.
+71154	Elixier des Aufstiegs	Mit diesem Elixier erhältst du während einer einstündigen Spielsitzung 100 % mehr Erfahrung. Handel ist nicht verfügbar.
+
+72346	Segnung	Entfernt und ersetzt Boni von einem Gegenstand. Gültig für Boni 6 und 7 mit geringer Wahrscheinlichkeit.
+72351	Kleine Segnung	Mit geringer Chance ändert den 6. oder 7. Bonus.
+
+79505	Rummy-Sammelkarte	Sammle 24 Rummy-Sammelkarten und klicke dann mit der rechten Maustaste, um ein Rummy-Kartenset zu erhalten.
+79506	Rummy-Kartenset	Mit diesem Kartenset kannst du ein Rummy-Spiel beginnen. Das Kartenset wird automatisch aus deinem Inventar entfernt, nachdem das Spiel gestartet wurde.
+79512	Tarotkarte	Sammle 24 Tarotkarten und klicke dann mit der rechten Maustaste, um ein Tarotkartenset zu erhalten.
+79513	Tarotkartenset	Mit diesem Kartenset kannst du einen Wahrsagewettbewerb starten. Das Kartenset wird automatisch aus deinem Inventar entfernt, nachdem das Spiel gestartet wurde.
+79603	Königskarte	Sammle 25 Königskarten und klicke dann mit der rechten Maustaste, um ein Königsdeck zu erhalten.
+79604	Königsdeck	Mit diesem Kartendeck kannst du ein Königsspiel starten. Das Kartendeck wird automatisch aus deinem Inventar entfernt, nachdem das Spiel gestartet wurde.
+
+80008	Goldfragment	Unverarbeitetes Gold. Kann im Laden zu einem hohen Preis verkauft werden.
+80014	EP-Gutschein (100)	Ein Gutschein im Wert von 100 Drachenmünzen. Dieser Gegenstand ist handelbar.
+80015	EP-Gutschein (500)	Ein Gutschein im Wert von 500 Drachenmünzen. Dieser Gegenstand ist handelbar.
+80016	EP-Gutschein (1000)	Ein Gutschein im Wert von 1000 Drachenmünzen. Dieser Gegenstand ist handelbar.
+80017	EP-Gutschein (50)	Ein Gutschein im Wert von 50 Drachenmünzen. Dieser Gegenstand ist handelbar.
+80019	Feiner Stoff	Dieses Material wird zur Herstellung von Schultergurten verwendet.
+85001	Richtergürtel (Einfach)	Dieser Gürtel nimmt 1 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+85002	Richtergürtel (Fein)	Dieser Gürtel nimmt 5 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+85003	Richtergürtel (Edel)	Dieser Gürtel nimmt 10 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+85004	Richtergürtel (Angepasst)	Dieser Gürtel nimmt 11-25 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+85005	Meistergürtel (Einfach)	Dieser Gürtel nimmt 1 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+85006	Meistergürtel (Fein)	Dieser Gürtel nimmt 5 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+85007	Meistergürtel (Edel)	Dieser Gürtel nimmt 10 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+85008	Meistergürtel (Angepasst)	Dieser Gürtel nimmt 11-25 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+85011	Herrengürtel (Einfach)	Dieser Gürtel nimmt 1 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+85012	Herrengürtel (Fein)	Dieser Gürtel nimmt 5 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+85013	Herrengürtel (Edel)	Dieser Gürtel nimmt 10 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+85014	Herrengürtel (Angepasst)	Dieser Gürtel nimmt 11-25 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+85015	Königsgürtel (Einfach)	Dieser Gürtel nimmt 1 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+85016	Königsgürtel (Fein)	Dieser Gürtel nimmt 5 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+85017	Königsgürtel (Edel)	Dieser Gürtel nimmt 10 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+85018	Königsgürtel (Angepasst)	Dieser Gürtel nimmt 11-25 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+85021	Jubiläumsgürtel (Einfach)	Dieser Gürtel nimmt 1 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+85022	Jubiläumsgürtel (Fein)	Dieser Gürtel nimmt 5 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+85023	Jubiläumsgürtel (Edel)	Dieser Gürtel nimmt 10 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+85024	Jubiläumsgürtel (Angepasst)	Dieser Gürtel nimmt 11-25 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86001	Zi-Band (Einfach)	Dieser Gürtel nimmt 1 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86002	Zi-Band (Fein)	Dieser Gürtel nimmt 5 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86003	Zi-Band (Edel)	Dieser Gürtel nimmt 10 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86004	Zi-Band (Angepasst)	Dieser Gürtel nimmt 11-25 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86005	Chou-Band (Einfach)	Dieser Gürtel nimmt 1 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86006	Chou-Band (Fein)	Dieser Gürtel nimmt 5 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86007	Chou-Band (Edel)	Dieser Gürtel nimmt 10 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86008	Chou-Band (Angepasst)	Dieser Gürtel nimmt 11-25 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86011	Yin-Band (Einfach)	Dieser Gürtel nimmt 1 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86012	Yin-Band (Fein)	Dieser Gürtel nimmt 5 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86013	Yin-Band (Edel)	Dieser Gürtel nimmt 10 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86014	Yin-Band (Angepasst)	Dieser Gürtel nimmt 11-25 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86015	Mao-Band (Einfach)	Dieser Gürtel nimmt 1 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86016	Mao-Band (Fein)	Dieser Gürtel nimmt 5 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86017	Mao-Band (Edel)	Dieser Gürtel nimmt 10 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86018	Mao-Band (Angepasst)	Dieser Gürtel nimmt 11-25 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86021	Chen-Band (Einfach)	Dieser Gürtel nimmt 1 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86022	Chen-Band (Fein)	Dieser Gürtel nimmt 5 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86023	Chen-Band (Edel)	Dieser Gürtel nimmt 10 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86024	Chen-Band (Angepasst)	Dieser Gürtel nimmt 11-25 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86025	Si-Band (Einfach)	Dieser Gürtel nimmt 1 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86026	Si-Band (Fein)	Dieser Gürtel nimmt 5 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86027	Si-Band (Edel)	Dieser Gürtel nimmt 10 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86028	Si-Band (Angepasst)	Dieser Gürtel nimmt 11-25 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86031	Wu-Band (Einfach)	Dieser Gürtel nimmt 1 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86032	Wu-Band (Fein)	Dieser Gürtel nimmt 5 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86033	Wu-Band (Edel)	Dieser Gürtel nimmt 10 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86034	Wu-Band (Angepasst)	Dieser Gürtel nimmt 11-25 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86035	Wei-Band (Einfach)	Dieser Gürtel nimmt 1 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86036	Wei-Band (Fein)	Dieser Gürtel nimmt 5 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86037	Wei-Band (Edel)	Dieser Gürtel nimmt 10 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86038	Wei-Band (Angepasst)	Dieser Gürtel nimmt 11-25 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86041	Shen-Band (Einfach)	Dieser Gürtel nimmt 1 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86042	Shen-Band (Fein)	Dieser Gürtel nimmt 5 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86043	Shen-Band (Edel)	Dieser Gürtel nimmt 10 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86044	Shen-Band (Angepasst)	Dieser Gürtel nimmt 11-25 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86045	Yu-Band (Einfach)	Dieser Gürtel nimmt 1 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86046	Yu-Band (Fein)	Dieser Gürtel nimmt 5 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86047	Yu-Band (Edel)	Dieser Gürtel nimmt 10 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86048	Yu-Band (Angepasst)	Dieser Gürtel nimmt 11-25 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86051	Xu-Band (Einfach)	Dieser Gürtel nimmt 1 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86052	Xu-Band (Fein)	Dieser Gürtel nimmt 5 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86053	Xu-Band (Edel)	Dieser Gürtel nimmt 10 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86054	Xu-Band (Angepasst)	Dieser Gürtel nimmt 11-25 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86055	Hai-Band (Einfach)	Dieser Gürtel nimmt 1 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86056	Hai-Band (Fein)	Dieser Gürtel nimmt 5 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86057	Hai-Band (Edel)	Dieser Gürtel nimmt 10 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86058	Hai-Band (Angepasst)	Dieser Gürtel nimmt 11-25 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86061	Herz-Band (Einfach)	Dieser Gürtel nimmt 1 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86062	Herz-Band (Fein)	Dieser Gürtel nimmt 5 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86063	Herz-Band (Edel)	Dieser Gürtel nimmt 10 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+86064	Herz-Band (Angepasst)	Dieser Gürtel nimmt 11-25 % der Boni von der Waffe oder Rüstung, die du für die Absorption verwendest.
+100002	Süre Özütü (B)	Füllt die Dauer eines Drachensteins auf.	6 Stunden
+100300	Grüne Drachenbohne	Die magische Bohne erhöht das Level deines Drachensteins. Der Stärkungsprozess kann fehlschlagen.
+100400	Blaue Drachenbohne	Die Chance auf eine erfolgreiche Verbesserung des Drachensteins um eine Stufe ist um 5 % höher.
+100500	Rosa Drachenbohne	Die Chance auf eine erfolgreiche Verbesserung des Drachensteins um eine Stufe ist um 10 % höher.
+93100	Battle Pass		Dieser Gegenstand aktiviert saisonale Aufgaben mit mehreren Belohnungen.
+200000	Fertigkeitsbuchkiste		Enthält Fertigkeitsbücher zur Verbesserung von Fertigkeiten.
+200001	Physische Fertigkeitsbuchkiste	Enthält Fertigkeitsbücher zur Verbesserung physischer Fertigkeiten.
+200002	Mentale Fertigkeitsbuchkiste	Enthält Fertigkeitsbücher zur Verbesserung mentaler Fertigkeiten.
+200003	Körperliche Fertigkeitsbuchkiste	Enthält Fertigkeitsbücher zur Verbesserung körperlicher Fertigkeiten.
+200004	Fernkampf-Fertigkeitsbuchkiste	Enthält Fertigkeitsbücher zur Verbesserung von Fernkampffertigkeiten.
+200005	Magische Waffen Fertigkeitsbuchkiste	Enthält Fertigkeitsbücher zur Verbesserung magischer Waffen Fertigkeiten.
+200006	Dunkle Magie Fertigkeitsbuchkiste	Enthält Fertigkeitsbücher zur Verbesserung dunkler Magie Fertigkeiten.
+200007	Drachenkraft Fertigkeitsbuchkiste	Enthält Fertigkeitsbücher zur Verbesserung von Drachenkraft Fertigkeiten.
+200008	Heilungs Fertigkeitsbuchkiste	Enthält Fertigkeitsbücher zur Verbesserung von Heilungsfertigkeiten.
+200009	Trainingskiste		Enthält Hilfsmittel zur Verbesserung von Fertigkeiten.
+200011	Cor Draconis Kiste	Enthält Materialien für die Drachenstein-Alchemie.
+200012	Schatzkiste		Enthält äußerst wertvolle Materialien.
+200013	Verzauberungsgegenstand-Kiste (10k)	Enthält 10.000 Verzauberungsgegenstände.
+200014	Auster		Kann Perlen oder Steinfragmente enthalten.
+200015	Goldene Auster		Kann farbige Perlen oder Steinfragmente enthalten.
+200016	Goldene Fischkiste (Gewöhnlich)	Enthält gewöhnliche Fische.
+200017	Goldene Fischkiste (Selten)	Enthält extrem seltene Fische.
+200018	Passive Fertigkeitsbuchkiste	Enthält Fertigkeitsbücher zur Verbesserung passiver Fertigkeiten.
+200019	Elysium Kiste		Enthält äußerst wertvolle Materialien.
+200020	Legendäre Cor Kiste	Enthält legendäre Drachenstein-Alchemie-Materialien.
+200021	Pet-Buchkiste		Enthält Fertigkeitsbücher für Haustiere.
+200022	Aufrüstungskiste		Enthält Materialien zur mittleren Stufenaufwertung.
+200023	Fortschrittliche Aufrüstung	Enthält Materialien zur hochstufigen Aufrüstung.
+200200	Saphirkristall	Ein gewöhnlicher Kristall aus Saphir. Wird zur Herstellung und Verfeinerung von Ausrüstung verwendet.
+200202	Saphirkristall	Ein seltener Kristall aus Smaragd. Wird zur Herstellung und Verfeinerung von Ausrüstung verwendet.
+200204	Saphirkristall	Ein seltener Kristall aus Rubin. Wird zur Herstellung und Verfeinerung von Ausrüstung verwendet.
+200206	Verliespergament (Niedrig)	Ermöglicht den Kauf von Tickets für niedrigstufige Verliese.
+200207	Verliespergament (Mittel)	Ermöglicht den Kauf von Tickets für mittelstufige Verliese.
+200208	Verliespergament (Hoch)	Ermöglicht den Kauf von Tickets für hochstufige Verliese.
+200209	Ausrüstungsgutschein	Die erste Vorlage, die von einem alten Meister in der Ausrüstungsherstellung verwendet wurde. Wird für Erstanschaffungen, Herstellung und Verfeinerung von Ausrüstung verwendet.
+200210	Talermünze	Eine Münze, die in der Antike verwendet wurde. Wird normalerweise zum Handeln mit NPCs und zur Ausrüstungsherstellung verwendet.
+200211	Spitzhacken-Veredelungsstein	Ein mysteriöser schwarzer Stein. Wird zur Verfeinerung von Spitzhacken verwendet.
+200212	Angelruten-Veredelungsstein	Ein zerbrochenes Stück einer Angelrute. Wird zur Verfeinerung von Angelruten verwendet.
+200213	Erzfragment (Niedrig)	Ein gewöhnliches Erzfragment, das beim Abbau gewonnen wird. Wird beim Kauf von niedrigstufigem Erz vom Erzhändler verwendet.
+200214	Erzfragment (Hoch)	Ein seltenes Erzfragment, das beim Abbau gewonnen wird. Wird beim Kauf von hochstufigem Erz vom Erzhändler verwendet.
+200215	Elysium-Münze	Eine seltene Währung, die exklusiv für Elysium ist. Kann verwendet werden, um Gegenstände zur Stärkung deiner Macht auf dem Elysium-Markt zu kaufen.
+200216	Löwenzahn	Eine frische und gelbfarbene Blume, die das Gefühl des Frühlings vermittelt. Wird verwendet, um Kräuteressenzen von Huahn-So zu kaufen.
+200217	Biologen-Pergament	Ein altes Pergament, das verwendet wird, um Biologenmaterialien von Biologe Chaegirab zu kaufen.
+200218	Handwerksmünze	Silbermünze zur Ausrüstungsverstärkung und -herstellung. Wird bei der Ausrüstungsherstellung und -verfeinerung verwendet.
+200221	Drachenschuppe	Drachenschuppen gehören zu den potentesten Materialien, die bekannt sind. Wird zur Ausrüstungsherstellung und -verfeinerung verwendet.
+200222	Drachenklaue	Berührt man sie, fühlt es sich kalt an und löst Erinnerungen aus... Wird zur Ausrüstungsherstellung und -verfeinerung verwendet.
+200223	Flammenstein	Kristallisierte Essenz von Feuer und Magma. Wird zur Ausrüstungsherstellung und -verfeinerung verwendet.
+200224	Eisflammenstein	Kristallisierte Essenz von Kälte und Eis. Wird zur Ausrüstungsherstellung und -verfeinerung verwendet.
+200225	Mithril	Es bleibt nur ein kleines Fragment von einem gefallenen Meteoriten übrig. Wird zur Verfeinerung von Ausrüstung verwendet.
+200226	Titandioxid	Prisma-Kristall. Wird zur Verfeinerung von Ausrüstung verwendet.
+200227	Achat	Ein geheimnisvolles Mineral, das im Dunkeln wie Sterne funkelt. Wird zur Verfeinerung von Ausrüstung verwendet.
+200228	Mondstein	Ein kostbarer tropfenförmiger Stein, der einen Funken Mondlicht enthält. Wird zur Verfeinerung von Ausrüstung verwendet.
+200229	Grüner Zubehör-Blaupause	Eine alte Blaupause, die von einem Meister verwendet wird, um Zubehör herzustellen. Wird zur Ausrüstungsherstellung verwendet.
+200230	Schwere Gürtel	Ein eng gewundener dünner Faden. Wird zur Ausrüstungsherstellung verwendet.
+200231	Grüne Ausrüstungs-Blaupause	Eine alte Blaupause, die von einem Meister verwendet wird, um Ausrüstung herzustellen. Wird zur Ausrüstungsherstellung verwendet.
+200232	Starke Fäden	Ein eng gewundenes dickes Seil. Wird zur Ausrüstungsherstellung verwendet.
+200233	Magischer Trollkristall	Ein Kristall, der mit der Kraft des magischen Trolls durchdrungen ist. Wird zur Ausrüstungsherstellung und -verfeinerung verwendet.
+200234	Magischer Trollstein	Ein Stein, der Erinnerungen an den magischen Troll enthält. Wird zur Ausrüstungsherstellung und -verfeinerung verwendet.
+200235	Königin Meleys Flügel	Meleys abgetrennter Flügel. Wird zur Ausrüstungsherstellung und -verfeinerung verwendet.
+200236	Florauns Horn	Ein zerbrochenes Horn von Floraun. Wird zur Ausrüstungsherstellung und -verfeinerung verwendet.
+200237	Zodiac-Rüstungs-Blaupause	Eine alte Blaupause, die von einem Meister verwendet wird, um Zodiak-Rüstung herzustellen. Wird zur Ausrüstungsherstellung und -verfeinerung verwendet.
+200238	Zodiac-Waffen-Blaupause	Eine alte Blaupause, die von einem Meister verwendet wird, um Zodiak-Waffen herzustellen. Wird zur Ausrüstungsherstellung und -verfeinerung verwendet.
+200239	Zodiac-Zubehör-Blaupause	Eine alte Blaupause, die von einem Meister verwendet wird, um
+200240	Alastors Herz	Alastors Herz, von Eis bedeckt. Wird zur Ausrüstungsherstellung und -verfeinerung verwendet.
+200241	Atlantis-Kristall	Die Quelle von Poseidons göttlicher Kraft. Wird zur Ausrüstungsherstellung und -verfeinerung verwendet.
+200242	Skorpionschwanz	Der abgetrennte Schwanz des Skorpionkönigs. Wird zur Ausrüstungsherstellung und -verfeinerung verwendet.
+200243	Drachenschädel	Der abgetrennte Schädel des Skelettdrachen. Wird zur Ausrüstungsherstellung und -verfeinerung verwendet.
+200244	Dunkle Drachenrüstungs-Blaupause	Eine alte Blaupause, die von einem Meister verwendet wird, um dunkle Drachenrüstung herzustellen. Wird zur Ausrüstungsherstellung und -verfeinerung verwendet.
+200245	Dunkle Drachenwaffen-Blaupause	Eine alte Blaupause, die von einem Meister verwendet wird, um dunkle Drachenwaffen herzustellen. Wird zur Ausrüstungsherstellung und -verfeinerung verwendet.
+200246	Dunkle Drachenzubehör-Blaupause	Eine alte Blaupause, die von einem Meister verwendet wird, um dunkles Drachenzubehör herzustellen. Wird zur Ausrüstungsherstellung und -verfeinerung verwendet.
+
+200265	Grüne Perle	Eine grün gefärbte Perle. Wird zur Verfeinerung von Ausrüstung verwendet.
+200266	Rosa Perle	Eine rosa gefärbte Perle. Wird zur Verfeinerung von Ausrüstung verwendet.
+200267	Goldene Perle	Eine gold gefärbte Perle. Wird zur Verfeinerung von Ausrüstung verwendet.
+200268	Funkelnde Perle	Eine Perle, die mit ihrer Brillanz blendet. Wird zur Verfeinerung von Ausrüstung verwendet.
+200269	Marineblaue Perle	Eine marineblaue Perle. Wird zur Verfeinerung von Ausrüstung verwendet.
+200270	Lila Perle	Eine lila gefärbte Perle. Wird zur Verfeinerung von Ausrüstung verwendet.
+200271	Schwarze Perle	Eine Perle mit einer dunklen, faszinierenden Farbe. Wird zur Verfeinerung von Ausrüstung verwendet.
+200272	Grüne Stickerei	Eine grün gefärbte Stickerei. Wird zur Verfeinerung von Ausrüstung verwendet.
+200273	Rosa Stickerei	Eine rosa gefärbte Stickerei. Wird zur Verfeinerung von Ausrüstung verwendet.
+200274	Goldene Stickerei	Eine gold gefärbte Stickerei. Wird zur Verfeinerung von Ausrüstung verwendet.
+200275	Funkelnde Stickerei	Eine blendend gefärbte Stickerei. Wird zur Verfeinerung von Ausrüstung verwendet.
+200276	Marineblaue Stickerei	Eine marineblaue Stickerei. Wird zur Verfeinerung von Ausrüstung verwendet.
+200277	Lila Stickerei	Eine lila gefärbte Stickerei. Wird zur Verfeinerung von Ausrüstung verwendet.
+200278	Schwarze Stickerei	Eine dunkle und fesselnde Stickerei. Wird zur Verfeinerung von Ausrüstung verwendet.
+200279	Grüner Faden	Ein grün gefärbter Faden. Wird zur Verfeinerung von Ausrüstung verwendet.
+200280	Rosa Faden	Ein rosa gefärbter Faden. Wird zur Verfeinerung von Ausrüstung verwendet.
+200281	Goldener Faden	Ein gold gefärbter Faden. Wird zur Verfeinerung von Ausrüstung verwendet.
+200282	Funkelnder Faden	Ein blendend gefärbter Faden. Wird zur Verfeinerung von Ausrüstung verwendet.
+200283	Marineblauer Faden	Ein marineblau gefärbter Faden. Wird zur Verfeinerung von Ausrüstung verwendet.
+200284	Lila Faden	Ein lila gefärbter Faden. Wird zur Verfeinerung von Ausrüstung verwendet.
+200285	Schwarzer Faden	Ein dunkler und fesselnder Faden. Wird zur Verfeinerung von Ausrüstung verwendet.
+200286	Grünes Gewebe	Ein grün gefärbtes Gewebe. Wird zur Verfeinerung von Ausrüstung verwendet.
+200287	Rosa Gewebe	Ein rosa gefärbtes Gewebe. Wird zur Verfeinerung von Ausrüstung verwendet.
+200288	Goldenes Gewebe	Ein gold gefärbtes Gewebe. Wird zur Verfeinerung von Ausrüstung verwendet.
+200289	Funkelndes Gewebe	Ein blendend gefärbtes Gewebe. Wird zur Verfeinerung von Ausrüstung verwendet.
+200290	Marineblaues Gewebe	Ein marineblau gefärbtes Gewebe. Wird zur Verfeinerung von Ausrüstung verwendet.
+200291	Lila Gewebe	Ein lila gefärbtes Gewebe. Wird zur Verfeinerung von Ausrüstung verwendet.
+200292	Schwarzes Gewebe	Ein dunkles und fesselndes Gewebe. Wird zur Verfeinerung von Ausrüstung verwendet.
+200293	Grüne Farbe	Eine grün gefärbte Farbe. Wird zur Verfeinerung von Ausrüstung verwendet.
+200294	Rosa Farbe	Eine rosa gefärbte Farbe. Wird zur Verfeinerung von Ausrüstung verwendet.
+200295	Goldene Farbe	Eine gold gefärbte Farbe. Wird zur Verfeinerung von Ausrüstung verwendet.
+200296	Funkelnde Farbe	Eine blendend gefärbte Farbe. Wird zur Verfeinerung von Ausrüstung verwendet.
+200297	Marineblaue Farbe	Eine marineblau gefärbte Farbe. Wird zur Verfeinerung von Ausrüstung verwendet.
+200298	Lila Farbe	Eine lila gefärbte Farbe. Wird zur Verfeinerung von Ausrüstung verwendet.
+200299	Schwarze Farbe	Eine dunkle und fesselnde Farbe. Wird zur Verfeinerung von Ausrüstung verwendet.
+
+55107	Haustier-Fertigkeitsslot-Öffner	Mit diesem Gegenstand kannst du den nächsten Fertigkeitsslot für dein Haustier freischalten.
+55120	Genç Pet Buch	Mit diesem Buch kannst du dein Haustier auf die nächste Stufe (Wild) bringen.
+55121	Yabani Pet Buch	Mit diesem Buch kannst du dein Haustier auf die nächste Stufe (Tapfer) bringen.
+55122	Cesur Pet Buch	Mit diesem Buch kannst du dein Haustier auf die nächste Stufe (Heroisch) bringen.
+55125	Pet Typ Veränderer	Du kannst den Typ deines Haustiers mit diesem Gegenstand ändern.
+55127	Pet Verzauberer	Du kannst die Attribute deines Haustiers mit diesem Gegenstand verändern.
+55128	Pet Stern	Du kannst das Sternlevel deines Haustiers mit diesem Gegenstand erhöhen.
+55130	Pet Haut (Azrail)	Du kannst das Erscheinungsbild deines Haustiers in Azrail verwandeln.
+55131	Pet Haut (Baashido)	Du kannst das Erscheinungsbild deines Haustiers in Baashido verwandeln.
+55132	Pet Haut (Meley)	Du kannst das Erscheinungsbild deines Haustiers in Meley verwandeln.
+55133	Pet Haut (Alastor)	Du kannst das Erscheinungsbild deines Haustiers in Alastor verwandeln.
+55134	Pet Haut (Exedyar)	Du kannst das Erscheinungsbild deines Haustiers in Exedyar verwandeln.
+55140	Pet EXP Ring	Du kannst die EXP deines Haustiers mit diesem Ring erhöhen.
+55150	Pet Buch (Krieger)	Mit diesem Buch kannst du die Widerstands-Fertigkeit deines Haustiers verstärken.
+55151	Pet Buch (Sura)	Mit diesem Buch kannst du die Widerstands-Fertigkeit deines Haustiers verstärken.
+55152	Pet Buch (Ninja)	Mit diesem Buch kannst du die Widerstands-Fertigkeit deines Haustiers verstärken.
+55153	Pet Buch (Schamane)	Mit diesem Buch kannst du die Widerstands-Fertigkeit deines Haustiers verstärken.
+55154	Pet Buch (Berserker)	Mit diesem Buch kannst du die Berserker-Fertigkeit deines Haustiers verstärken.
+55155	Pet Buch (Halb Mensch)	Mit diesem Buch kannst du die Halb Mensch-Fertigkeit deines Haustiers verstärken.
+55156	Pet Buch (Durchdringender Schlag)	Mit diesem Buch kannst du die Durchdringender Schlag-Fertigkeit deines Haustiers verstärken.
+55157	Pet Buch (Kritischer Schlag)	Mit diesem Buch kannst du die Kritischer Schlag-Fertigkeit deines Haustiers verstärken.
+55158	Pet Buch (HP Absorbieren)	Mit diesem Buch kannst du die HP Absorbieren-Fertigkeit deines Haustiers verstärken.
+55159	Pet Buch (Blocken)	Mit diesem Buch kannst du die Blocken-Fertigkeit deines Haustiers verstärken.
+55160	Pet Buch (Monster)	Mit diesem Buch kannst du die Monster-Fertigkeit deines Haustiers verstärken.
+55161	Pet Buch (Metin)	Mit diesem Buch kannst du die Metin-Fertigkeit deines Haustiers verstärken.
+55162	Pet Buch (Boss)	Mit diesem Buch kannst du die Boss-Fertigkeit deines Haustiers verstärken.
+55163	Pet Buch (Monsterverteidigung)	Mit diesem Buch kannst du die Monsterverteidigung-Fertigkeit deines Haustiers verstärken.
+55164	Pet Buch (Yang-Fall)	Mit diesem Buch kannst du die Yang-Fall-Fertigkeit deines Haustiers verstärken.
+
+37000	Premium Benutzer (7 Tage)	Wenn aktiviert, gewährleistet dir für 7 Tage den Premium-Benutzerstatus.
+37001	Premium Benutzer (14 Tage)	Wenn aktiviert, gewährleistet dir für 14 Tage den Premium-Benutzerstatus.
+37002	Premium Benutzer (30 Tage)	Wenn aktiviert, gewährleistet dir für 30 Tage den Premium-Benutzerstatus.
+37003	Premium Benutzer (Dauerhaft)	Wenn aktiviert, gewährleistet dir dauerhaft den Premium-Benutzerstatus.
+37004	Premium Benutzer (7 Tage)	Wenn aktiviert, gewährleistet dir für 7 Tage den Premium-Benutzerstatus.		Kein Handel.
+37005	Premium Benutzer (14 Tage)	Wenn aktiviert, gewährleistet dir für 14 Tage den Premium-Benutzerstatus.		Kein Handel.
+37006	Premium Benutzer (30 Tage)	Wenn aktiviert, gewährleistet dir für 30 Tage den Premium-Benutzerstatus.		Kein Handel.
+37007	Premium Benutzer (Dauerhaft)	Wenn aktiviert, gewährleistet dir dauerhaft den Premium-Benutzerstatus.		Kein Handel.
+37008	Premium Automatische Beute (7 Tage)	Wenn aktiviert, kannst du automatisch Gegenstände für 7 Tage sammeln.
+37009	Premium Automatische Beute (14 Tage)	Wenn aktiviert, kannst du automatisch Gegenstände für 14 Tage sammeln.
+37010	Premium Automatische Beute (30 Tage)	Wenn aktiviert, kannst du automatisch Gegenstände für 30 Tage sammeln.
+37011	Premium Automatische Beute (Dauerhaft)	Wenn aktiviert, kannst du dauerhaft automatisch Gegenstände sammeln.
+37012	Premium Automatische Beute (7 Tage)	Wenn aktiviert, kannst du automatisch Gegenstände für 7 Tage sammeln.		Kein Handel.
+37013	Premium Automatische Beute (14 Tage)	Wenn aktiviert, kannst du automatisch Gegenstände für 14 Tage sammeln.		Kein Handel.
+37014	Premium Automatische Beute (30 Tage)	Wenn aktiviert, kannst du automatisch Gegenstände für 30 Tage sammeln.		Kein Handel.
+37015	Premium Automatische Beute (Dauerhaft)	Wenn aktiviert, kannst du dauerhaft automatisch Gegenstände sammeln.		Kein Handel.
+
+37016	Premium Metin Markierer (7 Tage)	Wenn aktiviert, erhöht die Anzahl der markierten Metins für 7 Tage auf 6.
+37017	Premium Metin Markierer (14 Tage)	Wenn aktiviert, erhöht die Anzahl der markierten Metins für 14 Tage auf 6.
+37018	Premium Metin Markierer (30 Tage)	Wenn aktiviert, erhöht die Anzahl der markierten Metins für 30 Tage auf 6.
+37019	Premium Metin Markierer (Dauerhaft)	Wenn aktiviert, erhöht dauerhaft die Anzahl der markierten Metins auf 6.
+37020	Premium Metin Markierer (7 Tage)	Wenn aktiviert, erhöht die Anzahl der markierten Metins für 7 Tage auf 6.	Nicht handelbar.
+37021	Premium Metin Markierer (14 Tage)	Wenn aktiviert, erhöht die Anzahl der markierten Metins für 14 Tage auf 6.	Nicht handelbar.
+37022	Premium Metin Markierer (30 Tage)	Wenn aktiviert, erhöht die Anzahl der markierten Metins für 30 Tage auf 6.	Nicht handelbar.
+37023	Premium Metin Markierer (Dauerhaft)	Wenn aktiviert, erhöht dauerhaft die Anzahl der markierten Metins auf 6.	Nicht handelbar.
+
+24050	Mount Namensschild (7 Tage)	Wenn aktiviert, kannst du deinem Reittier für 7 Tage einen neuen Namen geben und zusätzliche Boni erhalten.
+24051	Mount Namensschild (14 Tage)	Wenn aktiviert, kannst du deinem Reittier für 14 Tage einen neuen Namen geben und zusätzliche Boni erhalten.
+24052	Mount Namensschild (7 Tage)	Wenn aktiviert, kannst du deinem Reittier für 7 Tage einen neuen Namen geben und zusätzliche Boni erhalten.		Kein Handel.
+24053	Mount Namensschild (14 Tage)	Wenn aktiviert, kannst du deinem Reittier für 14 Tage einen neuen Namen geben und zusätzliche Boni erhalten.		Kein Handel.
+24054	Pet Namensschild (7 Tage)	Wenn aktiviert, kannst du deinem Haustier für 7 Tage einen neuen Namen geben und zusätzliche Boni erhalten.
+24055	Pet Namensschild (14 Tage)	Wenn aktiviert, kannst du deinem Haustier für 14 Tage einen neuen Namen geben und zusätzliche Boni erhalten.
+24056	Pet Namensschild (7 Tage)	Wenn aktiviert, kannst du deinem Haustier für 7 Tage einen neuen Namen geben und zusätzliche Boni erhalten.		Kein Handel.
+24057	Pet Namensschild (14 Tage)	Wenn aktiviert, kannst du deinem Haustier für 14 Tage einen neuen Namen geben und zusätzliche Boni erhalten.		Kein Handel.
+24058	Buff Namensschild (7 Tage)	Wenn aktiviert, kannst du deinem Buff für 7 Tage einen neuen Namen geben und Heilungsfertigkeiten aktivieren.
+24059	Buff Namensschild (14 Tage)	Wenn aktiviert, kannst du deinem Buff für 14 Tage einen neuen Namen geben und Heilungsfertigkeiten aktivieren.
+24060	Buff Namensschild (7 Tage)	Wenn aktiviert, kannst du deinem Buff für 7 Tage einen neuen Namen geben und Heilungsfertigkeiten aktivieren.		Kein Handel.
+24061	Buff Namensschild (14 Tage)	Wenn aktiviert, kannst du deinem Buff für 14 Tage einen neuen Namen geben und Heilungsfertigkeiten aktivieren.		Kein Handel.
+
+64000	Mount Namensschild (2 Tage)	Wenn aktiviert, kannst du deinem Reittier für 2 Tage einen neuen Namen geben und zusätzliche Boni erhalten.
+64001	Pet Namensschild (2 Tage)	Wenn aktiviert, kannst du deinem Haustier für 2 Tage einen neuen Namen geben und zusätzliche Boni erhalten.
+64002	Buff Namensschild (2 Tage)	Wenn aktiviert, kannst du deinem Buff für 2 Tage einen neuen Namen geben und Heilungsfertigkeiten aktivieren.
+
+24102	Handschuh Verbesserungsgegenstand	Ein seltener Gegenstand, der verwendet wird, um einen neuen Bonus zur Handschuh-Ausrüstung hinzuzufügen.
+24103	Handschuh Verzauberungsgegenstand	Ein seltener Gegenstand, der verwendet wird, um den Bonus an Handschuh-Ausrüstung zu ändern.
+24104	Talisman Verbesserungsgegenstand	Ein seltener Gegenstand, der verwendet wird, um einen neuen Bonus zur Talisman-Ausrüstung hinzuzufügen.
+24105	Talisman Verzauberungsgegenstand	Ein seltener Gegenstand, der verwendet wird, um den Bonus an Talisman-Ausrüstung zu ändern.
+200400	Feuerrolle	Eine geheimnisvolle Rolle, die die Kraft des Feuerelements überträgt.
+200401	Feuerkristall	Ein leuchtender Kristall, der aus der Kraft des Feuerelements besteht.
+200402	Feuertalisman Truhe	Eine alte Truhe, die den Talisman enthält, der das Feuerelement kontrolliert.
+200403	Eisrolle	Eine geheimnisvolle Rolle, die die Kraft des Eiselements überträgt.
+200404	Eiskristall	Ein leuchtender Kristall, der aus der Kraft des Eiselements besteht.
+200405	Eistalisman Truhe	Eine alte Truhe, die den Talisman enthält, der das Eiselement kontrolliert.
+200406	Erdenrolle	Eine geheimnisvolle Rolle, die die Kraft des Erdelements überträgt.
+200407	Erdenkristall	Ein leuchtender Kristall, der aus der Kraft des Erdelements besteht.
+200408	Erdenkristall Truhe	Eine alte Truhe, die den Talisman enthält, der das Erdelement kontrolliert.
+200409	Dunkelrolle	Eine geheimnisvolle Rolle, die die Kraft des Dunkelelements überträgt.
+200410	Dunkelkristall	Ein leuchtender Kristall, der aus der Kraft des Dunkelelements besteht.
+200411	Dunkeltalisman Truhe	Eine alte Truhe, die den Talisman enthält, der das Dunkelelement kontrolliert.
+200412	Windrolle	Eine geheimnisvolle Rolle, die die Kraft des Windelements überträgt.
+200413	Windkristall	Ein leuchtender Kristall, der aus der Kraft des Windelements besteht.
+200414	Windtalisman Truhe	Eine alte Truhe, die den Talisman enthält, der das Windelement kontrolliert.
+200415	Blitzrolle	Eine geheimnisvolle Rolle, die die Kraft des Blitzelements überträgt.
+200416	Blitzkristall	Ein leuchtender Kristall, der aus der Kraft des Blitzelements besteht.
+200417	Blitztalisman Truhe	Eine alte Truhe, die den Talisman enthält, der das Blitzelement kontrolliert.
+200418	Elementrolle	Eine geheimnisvolle Rolle, die die Kraft der Elemente überträgt.
+200419	Elementkristall	Ein leuchtender Kristall, der aus der Kraft der Elemente besteht.
+200420	Elementtalisman Truhe	Eine alte Truhe, die den Talisman enthält, der die Elemente kontrolliert.
+200500	Giftiger Lucifer Ticket	Ein Ticket, um den Giftigen Teufelsturm zu betreten.
+200501	Barones Ticket	Ein Ticket, um Barones' Versteck zu betreten.
+200502	Magischer Genie Ticket	Ein Ticket, um die Höhle des Genies zu betreten.
+200503	Eis Krokodil Ticket	Ein Ticket, um das Eisland zu betreten.
+200504	Schatten Azrael Ticket	Ein Ticket, um das Teufelskatakomben zu betreten.
+200505	Beran Setaou Ticket	Ein Ticket, um den Raum von Beran-Setaou zu betreten.
+200506	Razador Ticket	Ein Ticket, um die Festung von Razador zu betreten.
+200507	Naga Ticket	Ein Ticket, um den Naga Tempel zu betreten.
+200508	Kristall Wolf Ticket	Ein Ticket, um die Saphirhöhle zu betreten.
+200509	Jotun Thrym Ticket	Ein Ticket, um den Ochao Tempel zu betreten.
+200510	Odin Ticket	Ein Ticket, um Odins Schloss zu betreten.
+200511	Magischer Troll Ticket	Ein Ticket, um die Höhle der Magischen Trolle zu betreten.
+200512	Meley Ticket	Ein Ticket, um das Nest von Königin Meley zu betreten.
+200513	Floraun Ticket	Ein Ticket, um den Garten von Floraun zu betreten.
+200514	Alastor Ticket	Ein Ticket, um die Höhle von Alastor zu betreten.
+200515	Poseidon Ticket	Ein Ticket, um die verlorene Stadt Atlantis zu betreten.
+200516	Skorpion König Ticket	Ein Ticket, um die Trockenenskorpi Ruinen zu betreten.
+200517	Skelett Drache Ticket	Ein Ticket, um die Kammer des Skelett Drachen zu betreten.
+200518	Akzadur Ticket	Ein Ticket, um den Raum von König Akzadur zu betreten.
+200519	Schlangenkönigin Ticket	Ein Ticket, um den Schlangentempel zu betreten.
+200540	Giftiger Lucifer Siegel	Rechtsklick, um das Giftige Siegel zu öffnen.
+200541	Barones Siegel	Rechtsklick, um das Spinnensiegel zu öffnen.
+200542	Magischer Genie Siegel	Rechtsklick, um das Magische Siegel zu öffnen.
+200543	Eis Krokodil Siegel	Rechtsklick, um das Eissiegel zu öffnen.
+200544	Schatten Azrael Siegel	Rechtsklick, um das Albtraumsiegel zu öffnen.
+200545	Beran Setaou Siegel	Rechtsklick, um das Blaue Drachensiegel zu öffnen.
+200546	Razador Siegel	Rechtsklick, um das Flammensiegel zu öffnen.
+200547	Naga Siegel	Rechtsklick, um das Frostsiegen zu öffnen.
+200548	Kristall Wolf Siegel	Rechtsklick, um das Saphirsiegel zu öffnen.
+200549	Jotun Thrym Siegel	Rechtsklick, um das Waldsiegen zu öffnen.
+200550	Odin Siegel	Rechtsklick, um das Asgardsiegel zu öffnen.
+200551	Magischer Troll Siegel	Rechtsklick, um das Magische Siegel zu öffnen.
+200552	Meley Siegel	Rechtsklick, um das Rote Drachensiegel zu öffnen.
+200553	Floraun Siegel	Rechtsklick, um das Waldsiegen zu öffnen.
+200554	Alastor Siegel	Rechtsklick, um das Nördliche Siegel zu öffnen.
+200555	Poseidon Siegel	Rechtsklick, um das Atlantis Siegel zu öffnen.
+200556	Skorpion König Siegel	Rechtsklick, um das Skorpion Siegel zu öffnen.
+200557	Skelett Drache Siegel	Rechtsklick, um das Skelett Siegel zu öffnen.
+200558	Akzadur Siegel	Rechtsklick, um das Siegel des Drachenkönigs zu öffnen.
+200559	Schlangenkönigin Siegel	Rechtsklick, um das Schlangensiegel zu öffnen.
+200300	Rad Ticket	Ein Ticket, um das Rad des Schicksals kostenlos zu drehen. Sammle genug während des Eventprozesses, um das Rad des Schicksals zu benutzen.
+200301	Brief E	Ein Buchstabe E. Sammle andere Buchstaben während des Eventprozesses, um eine Truhe vom Schmied herzustellen.
+200302	Brief L	Ein Buchstabe L. Sammle andere Buchstaben während des Eventprozesses, um eine Truhe vom Schmied herzustellen.
+200303	Brief Y	Ein Buchstabe Y. Sammle andere Buchstaben während des Eventprozesses, um eine Truhe vom Schmied herzustellen.
+200304	Brief S	Ein Buchstabe S. Sammle andere Buchstaben während des Eventprozesses, um eine Truhe vom Schmied herzustellen.
+200305	Brief I	Ein Buchstabe I. Sammle andere Buchstaben während des Eventprozesses, um eine Truhe vom Schmied herzustellen.
+200306	Brief U	Ein Buchstabe U. Sammle andere Buchstaben während des Eventprozesses, um eine Truhe vom Schmied herzustellen.
+200307	Brief M	Ein Buchstabe M. Sammle andere Buchstaben während des Eventprozesses, um eine Truhe vom Schmied herzustellen.
+200600	Premium Paket (30 Tage)	Eine legendäre Truhe mit 30-tägigen Premium-Gegenständen. Erhältlich im Item-Shop.
+200601	Premium Paket (Dauerhaft)	Eine legendäre Truhe mit dauerhaften Premium-Gegenständen. Erhältlich im Item-Shop.
+200602	Monster Paket	Eine legendäre Truhe mit Gegenständen, die dich stärker gegen Monster machen. Erhältlich im Item-Shop.
+200603	Metin Paket	Eine legendäre Truhe mit Gegenständen, die dich stärker gegen Metins und Bosse machen. Erhältlich im Item-Shop.
+200604	Buff Paket	Eine legendäre Truhe mit permanenten Buffs und Buff-Namensschildern. Erhältlich im Item-Shop.
+200605	Booster Paket (14 Tage)	Eine legendäre Truhe mit Boostern, die einen 14-tägigen Bonus von 15% bieten. Erhältlich im Item-Shop.
+200606	Entwicklungs Paket	Eine legendäre Truhe mit Gegenständen, die dir helfen, deinen Charakter schneller zu entwickeln. Erhältlich im Item-Shop.
+200610	Premium Paket (30 Tage)	Eine legendäre Truhe mit 30-tägigen Premium-Gegenständen. Erhältlich im Item-Shop.		Kein Handel.
+200611	Premium Paket (Dauerhaft)	Eine legendäre Truhe mit dauerhaften Premium-Gegenständen. Erhältlich im Item-Shop.		Kein Handel.
+200612	Monster Paket	Eine legendäre Truhe mit Gegenständen, die dich stärker gegen Monster machen. Erhältlich im Item-Shop.		Kein Handel.
+200613	Metin Paket	Eine legendäre Truhe mit Gegenständen, die dich stärker gegen Metins und Bosse machen. Erhältlich im Item-Shop.		Kein Handel.
+200614	Buff Paket	Eine legendäre Truhe mit permanenten Buffs und Buff-Namensschildern. Erhältlich im Item-Shop.		Kein Handel.
+200615	Booster Paket (14 Tage)	Eine legendäre Truhe mit Boostern, die einen 14-tägigen Bonus von 15% bieten. Erhältlich im Item-Shop.		Kein Handel.
+200616	Entwicklungs Paket	Eine legendäre Truhe mit Gegenständen, die dir helfen, deinen Charakter schneller zu entwickeln. Erhältlich im Item-Shop.		Kein Handel.
+
+24600	Geiststein Symbol	Bei Verwendung erhöht es die Chance, einen Geiststein einmal um 100% hinzuzufügen.
+24601	6/7 Verzauberungs Geschwindigkeits Booster (25%)	Bei Verwendung reduziert es die erwartete Zeit für die Hinzufügung von 6-7 Verzauberungen um 25%.
+24602	6/7 Verzauberungs Geschwindigkeits Booster (50%)	Bei Verwendung reduziert es die erwartete Zeit für die Hinzufügung von 6-7 Verzauberungen um 50%.
+
+24140	1. Verzauberungsreiniger	Beim Ziehen auf ein Kostüm reinigt es den 1. Verzauberungsslot.
+24141	2. Verzauberungsreiniger	Beim Ziehen auf ein Kostüm reinigt es den 2. Verzauberungsslot.
+24142	3. Verzauberungsreiniger	Beim Ziehen auf ein Kostüm reinigt es den 3. Verzauberungsslot.
+24143	4. Verzauberungsreiniger	Beim Ziehen auf ein Kostüm reinigt es den 4. Verzauberungsslot.
+24144	5. Verzauberungsreiniger	Beim Ziehen auf ein Kostüm reinigt es den 5. Verzauberungsslot.
+
+24000	Weisheits-Seelenstein	Ein mit der Kraft eines großen Weisen durchdrungener Seelenstein, der verwendet wird, um die Perfekte-Meister-Fähigkeit auf das Meister-Sage-Niveau zu verbessern.
+24002	Monsterjäger Fertigkeitsbuch	Ein ungewöhnliches Buch, das dazu verwendet wird, die Monsterjäger-Fertigkeit zu verbessern.
+24003	Metinjäger Fertigkeitsbuch	Ein ungewöhnliches Buch, das dazu verwendet wird, die Metinjäger-Fertigkeit zu verbessern.
+24004	Wütender Krieger Fertigkeitsbuch	Ein ungewöhnliches Buch, das dazu verwendet wird, die Wütender-Krieger-Fertigkeit zu verbessern.
+24005	Menschjäger Fertigkeitsbuch	Ein ungewöhnliches Buch, das dazu verwendet wird, die Menschjäger-Fertigkeit zu verbessern.
+24006	Geistige Konzentration Fertigkeitsbuch	Ein ungewöhnliches Buch, das dazu verwendet wird, die Geistige-Konzentration-Fertigkeit zu verbessern.
+24007	Drachenherz Fertigkeitsbuch	Ein ungewöhnliches Buch, das dazu verwendet wird, die Drachenherz-Fertigkeit zu verbessern.
+24008	Kräuterkunde Fertigkeitsbuch	Ein ungewöhnliches Buch, das dazu verwendet wird, die Kräuterkunde-Fertigkeit zu verbessern.
+24009	Gegenstandsverarbeitung Fertigkeitsbuch	Ein ungewöhnliches Buch, das dazu verwendet wird, die Gegenstandsverarbeitung-Fertigkeiten zu verbessern.
+24010	Führung Fertigkeitsbuch	Ein ungewöhnliches Buch, das dazu verwendet wird, die Führungsfertigkeit zu verbessern.
+24011	Bergbau Fertigkeitsbuch	Ein ungewöhnliches Buch, das dazu verwendet wird, die Bergbau-Fertigkeit zu verbessern.
+24012	Angeln Fertigkeitsbuch	Ein ungewöhnliches Buch, das dazu verwendet wird, die Angel-Fertigkeit zu verbessern.
+24013	Weisheits-Seelen-Ausweisungspapier	Ein mächtiges Papier, das bösartige Geister vertreibt, wenn der Weisheits-Seelenstein verwendet wird.
+24014	Weisen-Einsiedler-Verstärkung	Enthält die Verstärkungskraft eines großen Weisen, wenn der Weisheits-Seelenstein verwendet wird.

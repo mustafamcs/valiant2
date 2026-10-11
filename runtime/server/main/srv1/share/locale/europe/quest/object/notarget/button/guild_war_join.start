@@ -1,0 +1,13 @@
+local e = guild . get_any_war ( ) 
+if e == 0 then 
+say ( locale_quest ( 2621 ) ) 
+else 
+say ( string . format ( locale_quest ( 1911 ) , guild . name ( e ) ) ) 
+local s = select ( locale_quest ( 2625 ) , locale_quest ( 39 ) ) 
+if s == 1 then 
+guild . war_enter ( e ) 
+else 
+setskin ( NOWINDOW ) 
+send_letter ( locale_quest ( 2617 ) ) 
+end 
+end 

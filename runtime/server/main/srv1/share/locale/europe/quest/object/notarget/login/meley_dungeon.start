@@ -1,0 +1,24 @@
+local setting = meley_dungeon . setting ( ) 
+local playerMapIdx = pc . get_map_index ( ) 
+local dungeonMapIdx = setting . map_index if playerMapIdx >= ( dungeonMapIdx * 10000 ) and playerMapIdx <= ( ( dungeonMapIdx * 10000 ) + 9999 ) then 
+if d . getf ( "isLoaded" ) < 1 then 
+meley_dungeon . make_dungeon ( ) 
+d . setf ( "isLoaded" , 1 ) 
+d . setInfo ( ) 
+pc . setf ( "dungeon" , "complete" , 0 ) 
+elseif pc . getf ( "dungeon" , "complete" ) == 0 then 
+local floor = pc . getf ( "dungeon" , "floor" ) 
+if floor > 1 then 
+local floorCordinat = setting . floor_cordinat [ floor ] 
+pc . goto ( floorCordinat [ 1 ] , floorCordinat [ 2 ] ) 
+end 
+end 
+elseif dungeonMapIdx == playerMapIdx then 
+if pc . getf ( "dungeon" , "complete" ) == 0 then 
+local floor = pc . getf ( "dungeon" , "floor" ) 
+if floor > 0 then 
+local floorCordinat = setting . floor_cordinat [ floor ] 
+d . turnBack ( floorCordinat [ 1 ] * 100 , floorCordinat [ 2 ] * 100 ) 
+end 
+end 
+end 

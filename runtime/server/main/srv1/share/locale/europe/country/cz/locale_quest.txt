@@ -1,0 +1,337 @@
+19	Co je šerpa?
+20	Dalganazor
+21	Šerpa ti dává dvì monosti: kombinování a[ENTER]absorpci.[ENTER][ENTER]Kombinovat lze pouze dvì šerpy stejného stupnì.[ENTER]Vısledkem kombinace dvou šerp je nová šerpa[ENTER]vyššího stupnì.[ENTER][ENTER]Pøi absorpci se ze zbranì nebo brnìní vezmou[ENTER]bonusy a pøidají se na šerpu. Pøidané bonusy jsou[ENTER]rùznì vysoká procenta bonusù pùvodních.
+22	Kombinování
+23	Pøeješ si zkombinovat šerpy?
+24	Absorpce bonusù
+25	Pøeješ si absorbovat bonusy ze zbranì èi brnìní?
+39	Zavøít
+114	Informace:
+126	Kdy se teï oeníš, nemùeš odejít do jiného[ENTER]království.[ENTER]Jenom svobodní hráèi mùou pøejít do jiného[ENTER]království.
+127	Nech se rozvést, pokud chceš jít do jiného[ENTER]království.
+128	Nemùeš jít do jiného království, kdy jsi[ENTER]promìnìn.
+129	Pouij tento pøedmìt a u nebudeš promìnìnı.
+130	Nemùeš odejít do jiného království, kdy jsi[ENTER]èlen cechu.
+131	Pouij tento pøedmìt a kdy vystoupíš z cechu.
+132	Nemùeš odejít do jiného království, protoe[ENTER]nemáš dostatek Yangù.
+133	Pouij tento pøedmìt, a kdy u sebe budeš mít[ENTER]500.000 Yangù.
+134	Do jakého království chceš jít?
+135	Shinsoo
+139	Chceš opravdu odejít do jiného království? Toto[ENTER]rozhodnutí u nemùeš zmìnit.
+140	Zmìna království:
+141	Odhlaš se a znovu pøihlaš, aby se tento proces[ENTER]mohl ukonèit.
+143	Zvolil jsi stejné království, ve kterém se právì[ENTER]nacházíš. Nechtìl jsi odejít do jiného[ENTER]království?
+144	Království bylo zvoleno.[ENTER][ENTER]Byl jsi èlenem cechu. Nezapomeò, e v novém[ENTER]království tvùj cech nebude.
+145	Království bylo zvoleno.[ENTER][ENTER]Byl jsi enatı (vdaná). Nezapomeò, e v novém[ENTER]království tvùj partner nebude.
+147	S pomocí tohoto pøedmìtu mùeš odejít do jiného[ENTER]království.
+148	Tento pøedmìt nemùeš pouít!
+149	Do jiného království smíš odejít pouze jednou.
+150	GM - Má bıt èasoví odpoèítávání vynulováno?
+151	Potøebnı èas byl vynulován.
+152	Hráèi v manelském svazku nemùou odejít do[ENTER]jiného království.
+153	Tento pøedmìt nemùeš momentálnì pouít.
+689	Staøenka:
+961	Zušlechtìní Draèího kamene
+962	Ty chceš zušlechtit Draèí kámen? Dobøe. Ovšem mìl[ENTER]bys vìdìt, e proces mùe selhat. Ale slyšel[ENTER]jsem, e Draèí fazole, které mùeš najít za[ENTER]rotující mincí, vylepšují šanci na úspìch.
+1278	Stráce návsi
+1294	Stráce návsi:
+1298	NEZNÁMÁ KLÁVESA [%s]
+1301	Otevøít stánek
+1408	Staøenka:
+1692	GM: Opìtovné zapsání
+1693	GM: Prohlédnout si informace o cechu
+1694	pc.has_guild: %s
+1695	Chceš vystoupit z cechu, kterému náleíš?[ENTER]Domnívám se, e´s tam uzavøel málo pøátelství.[ENTER]Záleí na tobì.[ENTER]Take - chceš opravdu vystoupit z cechu?
+1696	No dobrá.[ENTER][ENTER]Vyškrtnu tì ze seznamu èlenù cechu.
+1697	Coe?[DELAY value;150] [/DELAY][ENTER][ENTER]S velkou námahou jsem ho zaloil a ty ho teï[ENTER]chceš rozpustit? Všechny zkušenosti a všechny[ENTER]vzpomínky na vaše kamarády se navdy ztratí![ENTER]Chceš ho opravdu rozpustit?
+1698	No dobrá.[ENTER][ENTER]Rozpustím cech, jeho jsi náèelníkem.
+1699	Zaloit cech
+1700	Zaloit cech
+1701	Poté, co´s opustil svùj cech, nemùeš v[ENTER]následujících dnech zaloit
+1702	ádnı novı cech...
+1703	Prosím zadej jméno uivatele, jeho informace tì[ENTER]zajímají.
+1704	Ty u jsi jeden cech rozpustil![ENTER]V nejbliších dnech nemùeš zaloit ádnı novı[ENTER]cech.
+1705	Chceš zaloit cech?[ENTER][ENTER]ID na zaloení cechu dostaneš, a kdy se[ENTER]dostaneš na úroveò 40. Za zaloení cechu zaplatíš[ENTER]200 000 Yangù.[ENTER][ENTER]Chceš zaloit cech?
+1706	Nemáš dostatek Yangù!
+1707	Na to, abys zaloil cech, máš pøíliš nízkou[ENTER]úroveò.
+1710	Tento uivatel neexistuje.
+1711	Pøekontroluj datum pøeregistrace.
+1712	Odešel z cechu: pøed %s dny
+1714	Èas do rozpuštìní: %s dnù
+1716	Nejbliší doba pro opakování pokusu: %s hodin
+1718	Okamité pøizpùsobení
+1719	Mùeš se okamitì zaregistrovat.
+1749	Cechy podobné tomu tvému mají následující[ENTER]vısledky:[ENTER][DELAY value;0][ENTER]|Název cechu |Body |Vítìzství |Nerozh. |Poráky[ENTER]%s[/DELAY][ENTER]
+1750	Vısledky bojù (pozice 1-8):[ENTER][DELAY value;0][ENTER]|Název cechu |Body |Vítìzství |Nerozh. |Poráky[ENTER]%s[/DELAY][ENTER]
+1751	Umístìní tvého cechu v ebøíèku je %s.
+1752	Poèet bodù: %s
+1911	%s chceš se zúèastnit boje?
+2090	Pacholek:
+2191	Novı obrázek konì
+2192	Ztratil jsi Vojenskou knihu koní! Poplatek za[ENTER]novou èiní 500 000 Yangù.
+2193	Toto je nové vydání Vojenské knihy koní. Ne, abys[ENTER]ji znovu ztratil!
+2194	Abys mohl pøivolat konì pro zaèáteèníky, musíš[ENTER]nejdøív sloit kvalifikaèní zkoušku.
+2195	Kùò pro zaèáteèníky byl pøivolán.
+2196	Nepodaøilo se pøivolat konì pro zaèáteèníky.[ENTER]Mùeš si zvıšit šance na úspìšné pøivolání koní[ENTER]tím, e budeš trénovat schopnost volání koní.
+2197	Tvoje mentální síla nepostaèuje. Abys mohl[ENTER]pøivolat konì pro zaèáteèníky, potøebuješ[ENTER]minimálnì 100 Many.
+2198	Abys mohl pøivolat konì pro pokroèilé, potøebuješ[ENTER]Zbrojní knihu koní.
+2200	Abys mohl pøivolat konì, musíš nejdøív obstát[ENTER]kvalifikaèní zkoušku.
+2201	Abys mohl pøivolat konì pro zaèáteèníky,[ENTER]potøebuješ obrázek konì.
+2202	Ztratil jsi obrázek konì![ENTER]Za poplatek 400 000 Yangù ti dám novı.
+2203	Kùò pro pokroèilé byl zavolán.
+2204	Nepodaøilo se pøivolat konì pro pokroèilé.[ENTER]Mùeš si zvıšit šance na úspìšné pøivolání koní[ENTER]tím, e budeš trénovat schopnost volání koní.
+2205	Tvoje mentální síla nestaèí.[ENTER]Abys mohl pøivolat konì pro pokroèilé, potøebuješ[ENTER]minimálnì 200 Many.
+2206	Abys mohl pøivolat konì pro pokroèilé, potøebuješ[ENTER]Zbrojní knihu koní.
+2207	Abys mohl pøivolat konì pro pokroèilé, musíš[ENTER]nejdøív obstát kvalifikaèní zkoušku.
+2208	Abys mohl pøivolat konì pro pokroèilé, potøebuješ[ENTER]Zbrojní knihu koní.
+2209	Kùò pro pokroèilé byl pøivolán.
+2210	Nepodaøilo se pøivolat konì pro pokroèilé.[ENTER]Mùeš si zvıšit šance na úspìšné pøivolání koní[ENTER]tím, e budeš trénovat schopnost volání koní.
+2211	Tvoje mentální síla nestaèí.[ENTER]Abys mohl pøivolat konì pro pokroèilé, potøebuješ[ENTER]minimálnì 300 Many.
+2213	Tohle je novì vydanı obrázek konì. Dávej si[ENTER]pozor, a ho znova neztratíš.
+2215	Nemáš dostatek Yangù.
+2216	Nová Zbrojní kniha koní
+2217	Ztratil jsi Zbrojí knihu koní![ENTER]Za poplatek 500 000 Yangù ti dám novou.
+2218	Tady máš nové vydání Zbrojní knihy koní. Dávej na[ENTER]ni pozor, a ji zase neztratíš.
+2219	Nemáš dostatek Yangù.
+2220	Nová Vojenská kniha koní
+2263	Ano.
+2316	Jenom hráèi, kteøí mají úroveò vyšší ne 50, si[ENTER]mùou zmìnit pohlaví.
+2317	%s
+2318	GM - Má se èas vynulovat?
+2319	Zmìna pohlaví:
+2320	Tenhle pøedmìt zmìní pohlaví tvojí postavy.[ENTER]Mùeš ho mìnit kadé tøi dny.
+2321	Rozmyslel sis to dobøe?[ENTER]Chceš si opravdu zmìnit pohlaví?[ENTER]Poté budeš automaticky pøesunut do mìsta.
+2322	Pohlaví bylo zmìnìno. Tvoje dovednosti a[ENTER]schopnosti zùstanou stejné.
+2323	Zmìna pohlaví byla pøerušena.
+2324	Prosím, sundej si kostımy, úèesy a brnìní.
+2325	Prosím zkus pouít tenhle pøedmìt, a dosáhneš[ENTER]úrovnì 50.
+2326	Hráèi, kteøí jsou enatí (vdané), nemohou mìnit[ENTER]pohlaví. Tato monost je dostupná pouze svobodnım[ENTER]hráèùm.
+2327	Kdy se teï oeníš (vdáš), nemùeš si potom[ENTER]zmìnit pohlaví.[ENTER]Jenom svobodní hráèi mùou mìnit pohlaví.
+2328	Nech se rozvést, kdy si chceš nechat zmìnit[ENTER]pohlaví.
+2329	Nemùeš mìnit pohlaví, kdy jsi promìnìn.
+2331	Mùeš mìnit pohlaví jenom kadé tøi dny.
+2332	Mùeš ho zmìnit teprve a:
+2594	Zrušit cech
+2617	Vyádej si povolení pøidat se
+2618	Podívat se do seznamu cechovních bojù
+2619	Právì se konají následující války cechù: Jestli[ENTER]chceš pøihlíet, zvol si jeden z úèastnících se[ENTER]cechù.
+2620	Momentálnì se ádnı cech neúèastní ádného boje.
+2621	Boje u skonèily.
+2622	Vystoupit z cechu.
+2625	Ano
+4298	Zobrazit vısledek vlastního cechu
+4299	Zobrazit vlastní hodnost v cechu
+4300	Zobrazit nejlépe hodnocené cechy (1-8 místo)
+4473	Ano.
+6491	Já bych se chtìl oenit/vdát
+6492	Smoking
+6493	Seznam svateb
+6494	Právì se nekonají ádné svatby.
+6496	Jsi svatební host![ENTER]Hodnì zábavy.
+6497	Ještì ani nestaèil uschnout inkoust![ENTER]Nech si víc èasu.
+6499	Aby ses mohl oenit, musíš si obléct smoking.
+6500	Svatební šaty
+6501	Aby ses mohla vdát, musíš si obléct svatební šaty.
+6502	Láska sama o sobì ti nepomùe uspoøádat svatební[ENTER]obøad, budeš na to potøebovat nìjaké Yangy.[ENTER]Bohuel, momentálnì jich u sebe nemáš dost. A[ENTER]budeš mít milión Yangù, tak pøijï a já pro tebe[ENTER]ráda zorganizuji svatbu.
+6503	Potøebuješ 1 milion Yangù.
+6504	Zralı jsi na to dost a vypadáš taky dobøe![ENTER]Koho si chceš vzít?
+6505	Napiš jméno osoby, kterou si chceš vzít.
+6506	Jsi tak nervózní, e ani nedokáeš napsat to[ENTER]jméno? Zkus to znova.
+6507	Take ty ani nevíš, jak se ta osoba jmenuje...[ENTER]Hmm... jsi si jistı, e si ji chceš vzít???
+6508	Zrovna se koná jiná svatba.[ENTER]Poèkej chvilku nebo pøijï zas pozdìji!
+6509	%s není online
+6510	Tvùj partner musí bıt na blízku, abych se mohla[ENTER]postarat o tyhle záleitosti. Pøiveï partnera[ENTER]sem.
+6511	%s je moc daleko.
+6512	Ne tvoje jméno troubo...[ENTER]Jméno tvého partnera!
+6513	Napiš jméno tvého partnera.
+6514	Je mi líto.[ENTER][ENTER]Páry stejného pohlaví nemùu oddat.
+6515	Jen páry ze stejného království se mohou vzít.
+6516	Osoba, kterou sis chtìl vzít, u není svobodná.[ENTER]Copak jsi to nevìdìl?[ENTER]Najdi si svobodného partnera.
+6517	%s je vdaná/enatı.
+6518	Tahle osoba ještì není náleitì vyspìlá.[ENTER]Partner musí mít také minimálnì úroveò 25.
+6519	Jsi ještì moc mladı na to, abys ses mohl oenit.[ENTER]Je potøeba hodnì zodpovìdnosti a na to nejsi dost[ENTER]vyspìlı. Mladí lidé se moc rychle rozvádìjí.[ENTER]Proto tuto svatbu nemùu pøipustit.[ENTER]Jdi a nasbírej víc zkušeností.
+6520	Vy dva se k sobì nehodíte.[ENTER]Kdy se dva k sobì nehodí, nemohu pøipustit[ENTER]svatbu.[ENTER]Rozdíl v úrovních je vìtší ne 15.[ENTER]Proto se nemùete vzít.
+6521	Teï si vymìòte prsteny.
+6522	Staøenka:[ENTER]Manelství je tak dùleitá vìc v ivotì. Nemohl[ENTER]tvùj partner aspoò pøinést snubní prsten?
+6523	Tvùj partner taky musí mít u sebe snubní prsten.
+6524	Vdy tvùj partner není ve svatebním rouchu![ENTER]Nestydíš se s ním takhle objevit?
+6525	Tvùj partner musí bıt ve smokingu.
+6526	Tvoje partnerka musí bıt ve svatebních šatech.
+6528	Ták, jsme pøipraveni.[ENTER]Mùem zaèít. Pošlu vás na ostrov milencù. Pøeji[ENTER]vám dlouhé a šastné manelství.[ENTER]Gratuluji.[ENTER][ENTER]Brzy budeš automaticky poslán na ostrov milencù.
+6529	Tvùj partner si tì nechce vzít.[ENTER]Vyjasni si to prosím tì napøed.
+6530	Zpìt do svatební místnosti.
+6531	Informace:
+6532	Proè jsi ještì tady?[ENTER]Tvùj partner u na tebe touebnì èeká![ENTER]Rychle tì tam pošlu.
+6533	Povolení ke svatbì.
+6534	Manaerka svateb:
+6535	Promluvím si s tvım partnerem.[ENTER]Moment.
+6536	Jsem zde, abych dohlédla na øádnı prùbìh[ENTER]ceremoniálu. Nejprve napiš jméno tvého partnera.
+6537	Takové jméno není registrované.[ENTER]Zkontroluj si prosím svoje údaje.
+6538	Promiò, ale pøiveï tvého partnera sem.[ENTER]Musím ho informovat a zkontrolovat.
+6539	%s musí pøijít ještì blí.
+6540	Prosím nepiš své vlastní jméno.[ENTER][ENTER]Napiš jméno tvého partnera.
+6542	Svatba je moná od úrovnì 25.
+6543	Tady nìco není v poøádku, není to ta správná[ENTER]osoba.
+6544	Tvùj partner ještì není pøipraven na svatbu.[ENTER]Promluvte si spolu.
+6545	Teï, kdy je vše pøipraveno, mùe obøad zaèít!
+6546	Bude to opravdu pìkná svatba.
+6547	Zaèátek svatebního pochodu
+6548	Konec svatebního pochodu.
+6549	Noc
+6550	Sníh
+6551	Konec svatby
+6552	Poèkej okamik. Promluvím si s tvım partnerem.
+6553	Ty se chceš oenit bez snubního prstenu?
+6554	Chceš pokraèovat ve svatbì?
+6555	Ano
+6557	Tvùj partner musí souhlasit s ukonèením svatby.[ENTER]Svatba se teï nemùe ukonèit, protoe partner[ENTER]není online.
+6558	Ceremonie nemùe zaèít, dokud nebudeme mít[ENTER]potvrzení od tvého partnera. Mìj trochu strpení.
+6560	Tvùj partner nechce.
+6561	Rozvod
+6562	Rozvod
+6563	Bez partnera se nemùeš øádnì rozvést.[ENTER]Musíš se sem vrátit s partnerem spoleènì.
+6564	Zásnubní prsten
+6565	Pro øádnı rozvod potøebuješ 500.000 Yangù a[ENTER]souhlas tvého partnera. Opravdu se chceš rozvést?
+6567	Dones snubní prsten.
+6568	Partner musí mít u sebe snubní prsten.
+6569	Na rozvod nemáš dostatek Yangù.
+6570	Na rozvod %s je potøeba
+6571	Na rozvod je potøeba 500 000 Yangù.
+6572	Opravdu se chceš rozvést? Takováto rozhodnutí bys[ENTER]nemìl dìlat unáhlenì.
+6574	Rozmyslel jsem si to.[ENTER]Nechci se rozvádìt.
+6575	Napøed si musíš sehnat zásnubní prsten. A pak se[ENTER]mùeš oenit.
+6576	Ano, je to tak lepší.[ENTER]Pøeji ti dlouhı a krasnı ivot.
+6577	Teï jsi rozvedenı.
+6579	Rozvod byl uskuteènìn. Teï jsi rozvedenı.
+6580	Ty podklady nejsou kompletní.[ENTER]Pøijï prosím znovu pozdìji.
+6581	Rozvod byl odvolán.
+6582	Partner se nechce rozvést.[ENTER]Dohodnìte se.
+6583	Nechat zmizet snubní prsten.
+6584	Nechat zmizet snubní prsten.
+6585	Na nepøíjemné vzpomínky by se mìlo rychle[ENTER]zapomenout.
+6586	Snubní prsten zmizel.
+6587	Opravdu se chceš v tomhle enit?[ENTER]Je to jedineèná vìc v ivotì.[ENTER]A nemyslíš, e by ses na to mìl aspoò pøimìøenì[ENTER]obléct?
+6588	Jednostrannı rozvod.
+6589	Stráce návse:
+6590	Na jednostrannı rozvod potøebuješ 1 milion .[ENTER]Chceš se pøesto rozvést?
+6592	Yangy ti na rozvod nevystaèí. Potøebuješ stejnì[ENTER]tolik Yangù jak na svatbu.[ENTER]Rozmysli jsi to ještì jednou.
+6593	Jsi si jistı, e se chceš rozvést?
+6594	Ano, chci.
+6596	Dobøe.[ENTER]Nojo, moná to bude takhle lepší.[ENTER]Jestli to skuteènì chceš, tak pøijï zas.[ENTER]Ale pak bys to mìl myslet vánì.
+6597	Kdy si tím jsi opravdu jistı, tak se nech[ENTER]rozvést. Pøesto ti pøeju ti jen to nejlepší.[ENTER][ENTER]Jednostrannı rozvod byl vykonán.
+7443	Do pozoru a dret postoj.[ENTER]Chovej se slušnì a neprovokuj ádné hádky. Mìl[ENTER]bys mít respekt k bliním.[ENTER]Rozumíme si?
+7444	Jsem velmi starı mu, ale pøesto jsem èilı a[ENTER]zdravı, mám na to tajnı recept. Pøišel jsem na[ENTER]to, e lektvar ze šávy koøenu gango a hub tue[ENTER]prodluuje ivot. Jestli chceš taky ochutnat[ENTER]tento lektvar, tak jdi s tìmi pøísadami k[ENTER]Yu-Hwanovi. Urèitì ti ho uvaøí.
+7445	Vypadáš docela silnì...
+7446	Tajemství síly se v naší rodinì pøedává u po[ENTER]mnoho let. Otec mi vyprávìl, e kdy se správnım[ENTER]zpùsobem zpracuje zvonek na lektvar, tak ti dodá[ENTER]na krátkou dobu ohromnou sílu.[ENTER]Pokud vím, Beak-Go ví, jak vyrobit tento lektvar.[ENTER]Musíš mu jen donést zvonek.
+7447	Jdi, øekni to horám...
+7448	Hudebník Yu-Hwan:
+7449	A tam za hory, tam za obzory...[ENTER]lalalááá Zpívám si tady v dalekém ústraní abych[ENTER]se nezapletl do války.[ENTER]Ale bez zemì, která mì ochraòuje, mi nebude[ENTER]dopøáno vìnovat se této kratochvíli...
+7450	Proè tolik èteš?
+7451	Knihomol Soon:
+7452	Á, dobrodruh.[ENTER]Svìt je plnı problémù, a jen se znalostmi se dá[ENTER]pøeít.[ENTER]Vdy uctívej tvé knihy.[ENTER]Ve špatnıch èasech ti poradí, jak dál.[ENTER]Vìø mi!
+7453	Máš dìti?
+7454	Mmmm, pìknì to tu voní...
+7455	Momentálnì ádné dìti nechci, ale... No, sbírám[ENTER]Kakikvìty, protoe kdy se dobøe pøipraví, tak z[ENTER]nich je nápoj, co ti dodá energii. Baek-go na to[ENTER]pøišel. Potøebuje jen jeden kakikvìt na 100[ENTER]nápojù. Bohuel mají ale vedlejší úèinek. Pokud[ENTER]ena nosí náhrdelník z tìchto kvìtù, porodí syna.[ENTER]A mezi námi - moje ena toho dost zneuila.
+7456	Co máš s nohou?
+7457	Handu-Up:
+7458	Pøi poslední procházce jsem zakopl o koøen gango.[ENTER]Protoe jsem si u toho zvrtl nohu, jsem musel za[ENTER]lékaøem Baek-Go. Povìdìl mi, e se z koøenu gango[ENTER]dá vyrobit lektvar, kterı hojí malé rány.
+7459	Kdo jsi?
+7460	Wonda-Rim:
+7461	Jsem Wonda-Rim, Chaegirabùv synovec. Mùj strıc je[ENTER]úasnı! Znáš ho? Hodnì experimentuje s lektvary a[ENTER]bylinkami. Bìhem svıch pokusù zjistil, jak získat[ENTER]ochranu pøed magickou energií - smícháním 100 vod[ENTER]Bo a moruše. Pokud vím, tak Huahn-So z tìch[ENTER]ingrediencí vyrábí elixíry.
+7462	Proè si poøád tak vydìšenı?
+7463	Zrádce Balso:
+7464	Protoe jsem toho v boji moc nevydrel, zeptal[ENTER]jsem se Yu-Hwana, jestli by mi nevyrobil nìjakı[ENTER]lektvar, kterı by mì ochraòoval proti zranìní.[ENTER]Uvaøil mi lektvar ze zvonkové šávy a šeøíku.[ENTER]Bohuel to nemìlo oèekávanı úèinek. Ale tobì by[ENTER]urèitì v boji pomohl.
+7465	Hostinskı Octavio:
+7466	Proè tì tolik lidí nazıvá zrádcem?
+7467	Kdysi jsem byl èlenem bandy Èerného vìtru.[ENTER]Ale pak jsem se k jejich zloèineckım praktikám[ENTER]obrátil zády a oni mi to nikdy neodpustili.[ENTER]Zabíjejí nevinné lidi. Na to jsem se u nemohl[ENTER]dál dívat.
+7468	Tys také zabíjel nevinné lidi? Tak pak si své[ENTER]jméno zaslouíš. Vzal jsi jim monost vést dobrı[ENTER]ivot.
+7469	ijeme v krutém svìtì. Ale já u nebudu dìlat nic[ENTER]zlého. Nechci, aby si mne lidé pamatovali jako[ENTER]zrádce.[ENTER]Nemáš pro mnì náhodou pár Yangù?
+7470	Tobì øíkají uèitel?
+7471	Uèenec Uriel:
+7472	Na tomto širém svìtì je tolik vìcí, které se[ENTER]èlovìk mùe nauèit. Ignorance spojená s vojenskou[ENTER]mocí nenadìlá ádnou hodnotu.[ENTER]Pøeci nechceš ít jak ti ignorantní vojáci, nebo[ENTER]jo? Mít vìdomosti znamená mít moc!
+7473	Mé zdroje øíkají, e praktikuješ léèení?
+7474	Dìlám co mohu. Na tomto nebezpeèném svìtì je[ENTER]kadı den èím dál tím víc zranìnıch.[ENTER]A nemáme dostatek lékù ani personálu.[ENTER]Èasy jsou kruté! Mohl bys mi pozdìji pomoct?
+7475	Tak jak ti jde lov?
+7476	Vítáme![ENTER]Naše restaurace patøí k velkému internacionálnímu[ENTER]øetìzci. Jednou se k nám podívej a dej si nìco k[ENTER]jídlu.
+7477	Lovec Yang-Shin:
+7478	Hmm, od té doby co padají kameny Metin, divoèí[ENTER]nám zvíøata. V dnešní dobì èlovìk riskuje ivot i[ENTER]pøi chytání kuøat. Je to pro lovce nebezpeèná[ENTER]doba. Naštìstí, já jsem jeden z nejlepších!
+7479	Odkud se bere tvá pøesná muška?
+7480	Jsem nejlepší s lukem. Hehe.[ENTER]Protoe mám na to speciální recept![ENTER]Kdy smícháš šávu z broskvovıch kvìtù a šeøík,[ENTER]dostaneš lektvar, kterı ti zvıší pravdìpodobnost[ENTER]zásahu. Kdy doneseš Yu-Hwanovi pøísady, tak ti[ENTER]urèitì uvaøí tento skvìlı lektvar.
+7481	Pìkné kvìtiny...
+7482	Sbírávali jsme s bratrem broskvové kvìty. Teï u[ENTER]musím sama. Nejsou moc pìkné, ale mají speciální[ENTER]úèinky![ENTER]Kdy doneseš jeden kvìt Beak-Goovi, tak ti uvaøí[ENTER]lektvar, kterı ti dodá lehkonohou chùzi.
+7483	Kde je tvùj bratr?
+7484	Touto dobou je mùj bratr èasto na cestách.[ENTER]Dìlám si starosti.
+7485	Prodáváš rıové koláèe?
+7486	Prodavaèka rıovıch buchet, Yu-Rang:
+7487	I kdy to je velká restaurace, zaøízení je[ENTER]pøekvapivì jednoduché.
+7488	Kvùli válce je tìké dìlat rıové buchty. Taky[ENTER]jsem ztratila hodnì zákazníkù kvùli banditùm.[ENTER]U nevím, z èeho mám ít.
+7489	Kdo od tebe obvykle nakupuje?
+7490	Nejvíce prodávám poutníkùm. Jednoho dne pøijel[ENTER]tajemnı jezdec a chtìl ode mnì koupit rıovou[ENTER]buchtu. Nemohl zaplatit, tak mi dal namísto toho[ENTER]recept. V receptu stojí, jak uvaøit vodu Zin.[ENTER]Lektvar zvyšuje rychlost útoku. Huhan-So umí[ENTER]uvaøit takovı lektvar, kdy mu pøineseš vodu Sim[ENTER]a rododendron.
+7491	Proè vypadáš tak otrávenì?
+7492	Nemohla jsem tušit, e se naše sladké sny tak[ENTER]nemilosrdnì znièí.[ENTER]Vzlyk, vzlyk...[ENTER]Prosím pomsti smrt mého manela.
+7493	Pøíliš mnoho lidí padlo ve válce...
+7494	Protoe ve válce ztrácíme èím dál tím víc muù,[ENTER]daly jsme se my eny dohromady a poprosily[ENTER]Huahn-So, aby zlepšil vodu Dok, která zlepšuje[ENTER]obranu. Po dlouhém vızkumu zjistil, e kdy pøidá[ENTER]k vodì Dok rododendron, tak je lektvar silnìjší.[ENTER]Bì k nìmu, on ti urèitì vyrobí z tìch pøísad[ENTER]tento lektvar, kterému øíká voda SamBo.
+7495	Ach, jaké pìkné mrnì...
+7496	Ah-Yu:
+7497	Zase pìknì køièí...[ENTER]Jestli chce nìco dobrého nebo...[ENTER]ále nee!
+7498	Øekni mi nìco o hrnèíøství.
+7499	Jak se vy dvì máte?
+7500	Moje dítì! Ach...[ENTER]Manel padl ve válce. Teï se musím ohánìt, abych[ENTER]uivila sama sebe a moje dítì.[ENTER]S vodou Bo jsem našla cestu, jak trochu vylepšit[ENTER]moje ivobytí. Musím Yu-Hwangovi donést 100 šáv[ENTER]z kakikvìtù a jednu houbu tue. On z toho uvaøí[ENTER]vodu Bo, která jde dobøe na odbyt. Nìèím se pøeci[ENTER]musím uivit.
+7501	Jak se má manel?
+7502	Aranyo:
+7503	Mùj takzvanı mu je zamilovanı do jeho kníek. U[ENTER]se na mì ani nepodívá.[ENTER]A to nejsem ádná ošklivá ena.
+7504	Jak jdou obchody?
+7505	Od té doby, co propukla válka, nám kšeft moc[ENTER]nebìí. Odbory obchodníkù byly kdysi mocné. Ale[ENTER]ty èasy u pominuly.[ENTER]Divochy, váleèníky Bílé pøísahy a bandu Èerného[ENTER]vìtru u nemùeme ignorovat jako døív.
+7506	Proè máš tak špatnou náladu?
+7507	Taurean:
+7508	Harang je hrozná holka![ENTER]Nesnáším ji![ENTER]Jsem slabı a ona mi èasto ještì ztìuje ivot!
+7509	Hrnèíø Yonah:
+7510	Jsi chlap a máš svaly.[ENTER]Trochu si je potrénuj!
+7511	Co právì teï dìláš?
+7512	Harang:
+7513	Zatracenı Taurean! Èasto si spolu hrajeme a i[ENTER]bojujeme. Zbabìlec jeden! Kdy dneska nepøijde[ENTER]dobrovolnì, tak ho zmlátím!
+7514	Taurean se tì bojí.
+7515	Ráda si hraji s Taureanem. Èasto se taky pereme.[ENTER]A protoe má vlastnì velkou sílu, nìco jsem si na[ENTER]nìj vymyslela.[ENTER]Dozvìdìla jsem se toti od jednoho moudrého[ENTER]Ninji, e kdy se smíchá voda Young s moruší, tak[ENTER]vznikne lektvar, kterı zvyšuje rychlost útoku.[ENTER]Tím pádem mohu Taureana rychleji pøemoct - i kdy[ENTER]je silnìjší.[ENTER]Jestli chceš taky takovı lektvar, tak bì k[ENTER]Huhan-Soovi. On ti ho jistì vyrobí.
+7516	Novı pohled...
+7517	Seon-Pyeong:
+7518	Mùj pøíteli, svìt je plnı nezodpovìzenıch otázek.[ENTER]A já, já jsem hledaè vìdomostí. Slyšel jsi ji[ENTER]nìkdy o epickıch zbraních a Kamenech ducha?
+7519	Co dìláš?
+7520	Co se tıèe hrnèíøského zboí, tak je nejlepší[ENTER]vıroba na vıchodì kontinentu.[ENTER]Jednou jsem vidìl hrnèíøské zboí odtamtud a byl[ENTER]jsem z toho úplnì nadšenı. Ještì poøád to[ENTER]zkoumám. Nevím, jakı trik na to pouívají.
+7521	Pravdìpodobnì víš, e hledám ztracené vìdomosti.[ENTER]Momentálnì hledám metodu, jak dále vylepšit[ENTER]zbranì a zvıšit sílu Kamenù ducha.
+7522	Vızkum zbraní...
+7523	Zajímavé, e? Chceš o tom vìdìt více? Tak mi[ENTER]prosím pøines nìjakou zbraò úrovnì 65 vylepšenou[ENTER]na +9.Také budu potøebovat Strategii protiútoku a[ENTER]dva Poehnané pergameny. Pokusím se pak vyrobit[ENTER]epickou zbraò.
+7524	Bohuel ti ale nemohu slíbit, e se to povede.
+7525	Kameny ducha...
+7526	Kameny ducha jsou èasto pouívány, ale pøesto[ENTER]vìtšina lidí nezná jejich skuteènou sílu. Ale[ENTER]moje vızkumy mì pomohly zjistit o nich více.[ENTER]Pokud mi pøineseš Kámen ducha, vylepším ho.
+7527	Na svùj vìk jsi dost èilı....
+8004	Reset vlastností tìla
+8015	Tento svitek ti umoní resetovat všechny tvé[ENTER]pøedchozí vylepšení schopností. Bude mít efekt na[ENTER]všechny schopnosti: vitalita, inteligence, síla a[ENTER]pohyblivost budou resetovány na hodnotu 1. Body,[ENTER]které jsi ji získal, budeš moci znovu rozdìlit.[ENTER][ENTER]Pøeješ si nyní svitek pouít?
+8153	Resetovat schopnosti
+8154	A si to rozmyslíš, pøijï znovu.
+8155	Nemáš dostatek Yangù. Bez tìch ti nemùu pomoct.[ENTER]Z nìèeho toti také musím ít.
+8159	Ještì jsi nezaèal ádnı vıcvik! Dokud nepouiješ[ENTER]body schopností, nelze je resetovat. Vra se,[ENTER]pokud udìláš ve vıcviku chybu. Pak ti ráda[ENTER]pomohu.
+8161	Nemáš ádnı vıcvik a tudí ani body, které by[ENTER]bylo moné zresetovat!
+8162	Ahoj, u mnì jsi pøesnì správnì.[ENTER]Vidím ve tvıch oèích velké starosti.[ENTER]Umoním lidem zapomenout na jejich vıcvik, aby[ENTER]mohli zaèít znova.[ENTER]Chtìl bys zapomenout na tvùj vıcvik a zaèít[ENTER]znova? Stojí to %s Yangù.
+8164	Hohohoo, je moné, e se necítíš dobøe?[ENTER]Podle tvého vırazu v oblièeji posuzuji, e[ENTER]potøebuješ pomoc.[ENTER]Nejsi spokojen se svım vıcvikem?[ENTER]Mohl bych ti umonit zapomenout na tvùj vıcvik,[ENTER]tak lehce jako mávnutím kouzelného proutku.
+8165	To znamená, e tvoje dosavadní investice do[ENTER]vıcviku by byla zase k dispozici. Bohuel ztratíš[ENTER]všechny body, které jsi získal ètením knih.[ENTER]Chceš opravdu vše zapomenout a zaèít znova?[ENTER]To by stálo... hmm, %s Yangù.
+8166	Resetovat schopnosti
+8618	Otevøít obchod
+10928	Ano!
+11825	Kostım s aurou: Pøenos hodnot
+11829	Kostım s aurou: Evoluce
+200	Pro vynikající drakí duši: %s.
+201	Chcete získat brilantní %s?
+202	Muzete mi dát zbytecné vynikající drakí duše [ENTER] a já je pro vás mohu udelat brilantní, abyste je mohli znovu pouzít, [ENTER] stací mi pres me pretáhnout drakí duši [ENTER].
+203	Vyroba
+204	Pridat bonusy 6 a 7
+205	Pridání atributu bylo úspešne dokonceno.
+206	Operace kouzlení selhala.
+207	Zbyvající cas: %s.
+208	Jak provést alchymickou transformaci?
+209	Vyberte si pozadovany bonus:
+210	Silny proti príšerám +10%.
+211	Maximální HP+1000 je vybráno.
+212	Silny proti príšerám +10% je vybráno.
+213	EXP +20% je vybráno.
+4473	Ano
+2426	Storno

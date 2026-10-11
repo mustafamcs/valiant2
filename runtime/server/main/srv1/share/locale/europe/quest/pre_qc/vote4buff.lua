@@ -1,0 +1,28 @@
+quest vote4buff begin
+	state start begin
+		when login begin
+			cmdchat("SetVoteQuestIndex "..q.getcurrentquestindex())
+		end	
+
+		when button or info begin
+			say_title_center("Vote4Buff")
+			say("")
+			say_reward_center(locale_quest(209))
+
+			local choice = select("Max HP. +1000 ", locale_quest(210), "EXP +%20", locale_quest(39))
+
+			if choice == 1 then
+				say_reward_center(locale_quest(211))
+				pc.set_bonus_for_vote(1)
+			elseif choice == 2 then
+				say_reward_center(locale_quest(212))
+				pc.set_bonus_for_vote(2)
+			elseif choice == 3 then
+				say_reward_center(locale_quest(213))
+				pc.set_bonus_for_vote(3)
+			elseif choice == 4 then
+				return
+			end
+		end
+	end
+end
