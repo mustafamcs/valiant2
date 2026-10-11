@@ -2767,7 +2767,7 @@ public:
 	int GetIncreasedSpeed() const;
 #endif
 
-#ifdef ENABLE_FURKANA_GOTTEN
+#ifdef ENABLE_DROP_CALCULATOR
 	void DropCalculator(DWORD mobVnum, int mobCount);
 #endif
 

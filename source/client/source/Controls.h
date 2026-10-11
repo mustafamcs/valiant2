@@ -322,9 +322,9 @@ __project__ = MDproject
 //#define __USE_CYTHON__																		// Root Cython
 //#define __USE_EXTRA_CYTHON__																// Uiscript Cython
 
-//#define ENABLE_DIZCIYA_GOTTEN																// Developer Module
+//#define ENABLE_DEV_RESOURCE_DIAGNOSTICS																// Developer Module
 
-//#ifdef ENABLE_DIZCIYA_GOTTEN
+//#ifdef ENABLE_DEV_RESOURCE_DIAGNOSTICS
 //#define IMPROVED_PACKET_ENCRYPTION_REMOVE												// Dev server Removing Packet Enc
 //#else
 #undef _IMPROVED_PACKET_ENCRYPTION_													// Packed Encryption

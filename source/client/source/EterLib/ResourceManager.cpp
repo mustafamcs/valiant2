@@ -171,7 +171,7 @@ CResource* CResourceManager::GetResourcePointer(const char* c_szFileName)
 
 	const char* pcFileExt = strrchr(c_pszFile, '.');
 
-#ifdef ENABLE_DIZCIYA_GOTTEN
+#ifdef ENABLE_DEV_RESOURCE_DIAGNOSTICS
 	if (!IsFileExist(c_szFileName))
 	{
 		if (pcFileExt == NULL || (stricmp(pcFileExt, ".fnt") != 0))

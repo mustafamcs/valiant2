@@ -217,7 +217,7 @@ bool CEterPackManager::GetFromPack(CMappedFile & rMappedFile, const char * c_szF
 				return r;
 			}
 	}
-#ifdef ENABLE_DIZCIYA_GOTTEN
+#ifdef ENABLE_DEV_RESOURCE_DIAGNOSTICS
 	if (strFileName.find("mss") == std::string::npos && strFileName.find("msm") == std::string::npos)//C2Fix3
 		TraceError("CANNOT_FIND_PACK_FILE [%s]", strFileName.c_str());
 #endif

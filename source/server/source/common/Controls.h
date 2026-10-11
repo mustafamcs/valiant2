@@ -4,10 +4,12 @@ __author__ = MDproject
 __discord__ = MDproject
 __project__ = MDproject
 */
-//#define ENABLE_DIZCIYA_GOTTEN														// Dev Server
-#define ENABLE_FURKANA_GOTTEN														// Dev Server
+//#define ENABLE_DEV_COOLDOWN_BYPASS														// Dev Server
+#define ENABLE_DROP_CALCULATOR
+//#define ENABLE_DEV_OFFLINE_SHOP_DEBUG
+//#define ENABLE_DEV_FAST_RANKING_CACHE														// Dev Server
 
-//#ifdef ENABLE_DIZCIYA_GOTTEN
+//#ifdef ENABLE_DEV_COOLDOWN_BYPASS
 //#define IMPROVED_PACKET_ENCRYPTION_REMOVE											// Dev server Removing Packet Enc
 //#else
 #undef _IMPROVED_PACKET_ENCRYPTION_												// Packed Encryption
@@ -182,7 +184,7 @@ constexpr int wheelSpinWithTicketPrice{ 50 };
 
 #ifdef ENABLE_PET_SKIN
 #define ENABLE_PET_SKIN_ATTR
-#define ENABLE_HERSEYE_ATTIR														// Dızcı götten veriyor 23 cm hakan 4k izle hd.mp4
+#define ENABLE_EXTENDED_RARE_ATTRIBUTE_SETS											// Extended rare attribute sets
 #endif
 
 #define ENABLE_ACCE_COSTUME_SKIN													// Acce Costume Skin

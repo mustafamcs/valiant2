@@ -4858,11 +4858,13 @@ bool CHARACTER::UseItemEx(LPITEM item, TItemPos DestCell
 						return false;
 					}
 
+#ifdef ENABLE_EXTENDED_RARE_ATTRIBUTE_SETS
 					if (item2->GetAttributeSetIndex(true) != ATTRIBUTE_SET_RARE_COSTUME)
 					{
 						NewChatPacket(CANT_CHANGE_THE_ATTRIBUTE_OF_THIS_ITEM);
 						return false;
 					}
+#endif
 
 					if (item2->GetLimitType(0) == LIMIT_REAL_TIME || item2->GetLimitType(1) == LIMIT_REAL_TIME)
 					{
@@ -5497,7 +5499,7 @@ bool CHARACTER::UseItemEx(LPITEM item, TItemPos DestCell
 	return true;
 }
 
-#ifdef ENABLE_DIZCIYA_GOTTEN
+#ifdef ENABLE_DEV_COOLDOWN_BYPASS
 int g_nPortalLimitTime = 0;
 #else
 int g_nPortalLimitTime = 5;

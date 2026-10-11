@@ -253,7 +253,7 @@ public:
 
 	bool			GetDropPct(LPCHARACTER pkChr, LPCHARACTER pkKiller, OUT int& iDeltaPercent, OUT int& iRandRange);
 	bool			CreateDropItem(LPCHARACTER pkChr, LPCHARACTER pkKiller, std::vector<LPITEM>& vec_item);
-#ifdef ENABLE_FURKANA_GOTTEN
+#ifdef ENABLE_DROP_CALCULATOR
 	void			DropCalculator(LPCHARACTER pkChr, LPCHARACTER pkKiller, std::map<DWORD, int>& map_item, int mobCount);
 #endif
 

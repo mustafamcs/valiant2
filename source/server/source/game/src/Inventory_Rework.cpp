@@ -128,7 +128,7 @@ LPITEM CHARACTER::WindowTypeGetItem(WORD wCell, BYTE window_type) const
 BYTE CHARACTER::VnumGetWindowType(DWORD vnum) const
 {
 	TItemTable* item = ITEM_MANAGER::instance().GetTable(vnum);
-	if (!item)//Furkan'ýn proto sikmesi durumunda tecavüze karþý önlem
+	if (!item) // Guard against missing item prototypes
 		return 0;
 	BYTE window_type = 0;
 	BYTE item_type = item->bType;
@@ -343,7 +343,7 @@ bool CHARACTER::CountSpecifyItemText(DWORD vnum, int reqCount)
 	if (CountSpecifyItem(vnum) < reqCount)
 	{
 		TItemTable* item = ITEM_MANAGER::instance().GetTable(vnum);
-		if (!item)//Furkan'ýn proto sikmesi durumunda tecavuze karsi onlem
+		if (!item) // Guard against missing item prototypes
 			return false;
 
 		NewChatPacket(STRING_D184, "%s", item->szLocaleName);

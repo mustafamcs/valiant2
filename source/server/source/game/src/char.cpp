@@ -10745,7 +10745,7 @@ int CHARACTER::GetIncreasedSpeed() const
 #endif
 
 
-#ifdef ENABLE_FURKANA_GOTTEN
+#ifdef ENABLE_DROP_CALCULATOR
 void CHARACTER::DropCalculator(DWORD mobVnum, int mobCount)
 {
 	LPCHARACTER mob = CHARACTER_MANAGER::instance().SpawnMob(mobVnum, GetMapIndex(), GetX() + 50, GetY() + 50, 0);

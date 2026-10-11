@@ -1543,7 +1543,7 @@ bool CHARACTER::Damage(LPCHARACTER pAttacker, DAM_LL dam, EDamageType type) // r
 
 				if (GetMobRank() == MOB_RANK_BOSS)
 				{
-					i /= 30; //@boss hp cok calma amk
+					i /= 30; // Limit boss HP absorption
 				}
 
 				if (i)

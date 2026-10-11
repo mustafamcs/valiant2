@@ -904,7 +904,7 @@ bool CClientManager::InitializeItemRareTable()
 #if defined (ENABLE_PET_SKIN_ATTR)
 		", skin"
 #endif
-#if defined (ENABLE_HERSEYE_ATTIR)
+#if defined (ENABLE_EXTENDED_RARE_ATTRIBUTE_SETS)
 		", glove"
 		", pendant"
 		", crown"
@@ -955,7 +955,7 @@ bool CClientManager::InitializeItemRareTable()
 #if defined (ENABLE_PET_SKIN_ATTR)
 		str_to_number(t.bMaxLevelBySet[ATTRIBUTE_SET_RARE_SKIN], data[col++]);
 #endif
-#if defined (ENABLE_HERSEYE_ATTIR)
+#if defined (ENABLE_EXTENDED_RARE_ATTRIBUTE_SETS)
 		str_to_number(t.bMaxLevelBySet[ATTRIBUTE_SET_RARE_GLOVE], data[col++]);
 		str_to_number(t.bMaxLevelBySet[ATTRIBUTE_SET_RARE_PENDANT], data[col++]);
 		str_to_number(t.bMaxLevelBySet[ATTRIBUTE_SET_RARE_CROWN], data[col++]);
@@ -971,7 +971,11 @@ bool CClientManager::InitializeItemRareTable()
 		str_to_number(t.bMaxLevelBySet[ATTRIBUTE_SET_RARE_PET_AND_MOUNT], data[col++]);
 #endif
 		t.dwApplyIndex = get_apply_type(t.szApply);
+#ifdef ENABLE_EXTENDED_RARE_ATTRIBUTE_SETS
 		sys_log(1,"rare idx %d apply %s value %d %d %d %d %d glove %d pend %d ", t.dwApplyIndex, t.szApply,t.lValues[0], t.lValues[1], t.lValues[2], t.lValues[3], t.lValues[4], t.bMaxLevelBySet[ATTRIBUTE_SET_RARE_GLOVE], t.bMaxLevelBySet[ATTRIBUTE_SET_RARE_PENDANT]);
+#else
+		sys_log(1,"rare idx %d apply %s value %d %d %d %d %d", t.dwApplyIndex, t.szApply,t.lValues[0], t.lValues[1], t.lValues[2], t.lValues[3], t.lValues[4]);
+#endif
 		m_vec_itemRareTable.push_back(t);
 	}
 #else
@@ -1858,7 +1862,7 @@ bool CClientManager::InitializeRank()
 		return false;
 	}
 
-	//GM LÝST
+	//GM Lï¿½ST
 	if (m_gmListPid.empty())
 	{
 		snprintf(szFetchQuery, sizeof(szFetchQuery), "SELECT mName FROM common.gmlist");

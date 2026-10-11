@@ -28,7 +28,7 @@ int CItem::GetAttributeSetIndex()
 #ifdef ENABLE_PET_SKIN_ATTR
 			case ITEM_PET_SKIN:
 #endif
-#ifdef ENABLE_HERSEYE_ATTIR
+#ifdef ENABLE_EXTENDED_RARE_ATTRIBUTE_SETS
 			case ITEM_MOUNT_SKIN:
 			case ITEM_AURA_SKIN:
 #endif
@@ -36,7 +36,7 @@ int CItem::GetAttributeSetIndex()
 				return ATTRIBUTE_SET_RARE_SKIN;
 			}
 	
-#ifdef ENABLE_HERSEYE_ATTIR
+#ifdef ENABLE_EXTENDED_RARE_ATTRIBUTE_SETS
 			case ITEM_COSTUME:
 			{
 				switch(GetSubType())

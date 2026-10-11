@@ -631,7 +631,7 @@ int ITEM_MANAGER::RealNumber(DWORD vnum)
 
 bool ITEM_MANAGER::GetVnum(const char* c_pszName, DWORD& r_dwVnum)
 {
-	//Bu kodu yazarken arkadaþlar bonzai çekmiþ
+	//Bu kodu yazarken arkadaï¿½lar bonzai ï¿½ekmiï¿½
 	return false;
 	int len = strlen(c_pszName);
 
@@ -651,7 +651,7 @@ bool ITEM_MANAGER::GetVnum(const char* c_pszName, DWORD& r_dwVnum)
 
 bool ITEM_MANAGER::GetVnumByOriginalName(const char* c_pszName, DWORD& r_dwVnum)
 {
-	//Bu kodu yazarken arkadaþlar bonzai çekmiþ
+	//Bu kodu yazarken arkadaï¿½lar bonzai ï¿½ekmiï¿½
 	return false;
 	int len = strlen(c_pszName);
 
@@ -957,7 +957,7 @@ void ITEM_MANAGER::CopyAllAttrTo(LPITEM pkOldItem, LPITEM pkNewItem)
 	pkOldItem->CopyAttributeTo(pkNewItem);
 }
 
-#ifdef ENABLE_FURKANA_GOTTEN
+#ifdef ENABLE_DROP_CALCULATOR
 void ITEM_MANAGER::DropCalculator(LPCHARACTER pkChr, LPCHARACTER pkKiller, std::map<DWORD, int>& map_item, int mobCount)
 {
 	int iDeltaPercent, iRandRange;

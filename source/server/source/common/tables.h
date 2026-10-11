@@ -1920,7 +1920,7 @@ enum ChestRework
 enum RankingConf
 {
 	RANKING_MAX_PLAYER_COUNT = 10,
-#ifdef ENABLE_DIZCIYA_GOTTEN
+#ifdef ENABLE_DEV_FAST_RANKING_CACHE
 	CACHE_TIME = 60,
 #else
 	CACHE_TIME = 60 * 10,

@@ -290,7 +290,7 @@ EVENTFUNC(timed_event)
 	}
 	LPDESC d = ch->GetDesc();
 
-#ifdef ENABLE_DIZCIYA_GOTTEN
+#ifdef ENABLE_DEV_COOLDOWN_BYPASS
 	if (1 < 2)
 #else
 	if (info->left_second <= 0)
@@ -3664,7 +3664,7 @@ ACMD(do_skill_select)
 }
 #endif
 
-#ifdef ENABLE_FURKANA_GOTTEN
+#ifdef ENABLE_DROP_CALCULATOR
 ACMD(do_drop_calc)
 {
 	if (!ch)

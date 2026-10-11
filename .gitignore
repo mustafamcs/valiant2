@@ -61,6 +61,11 @@ runtime/server/**/*.pid
 source/client/external/projects/CRootLib/Workplace/__cython/
 source/client/external/lib/rootlib.lib
 source/client/external/lib/uiscriptlib.lib
+source/server/source/libs/libgame/lib/*.lib
+source/server/source/libs/liblua/5.0/lib/*.lib
+source/server/source/libs/libpoly/*.lib
+source/server/source/libs/libsql/*.lib
+source/server/source/libs/libthecore/lib/*.lib
 tools/client-config/obj/
 tools/client-launcher/obj/
 Thumbs.db

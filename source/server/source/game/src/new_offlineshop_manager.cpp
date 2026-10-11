@@ -1656,7 +1656,7 @@ namespace offlineshop
 			if (ch->GetMapIndex() != pos.lMapIndex)
 			{
 				ch->NewChatPacket(OFFLINESHOP_TEXT_9);
-#ifdef ENABLE_DIZCIYA_GOTTEN
+#ifdef ENABLE_DEV_OFFLINE_SHOP_DEBUG
 				ch->ChatPacket(1, "Bulundugun index %d pazar index %d", ch->GetMapIndex(), pos.lMapIndex);
 #endif
 				return true;
@@ -1729,7 +1729,7 @@ namespace offlineshop
 			if (ch->GetMapIndex() != pos.lMapIndex)
 			{
 				ch->NewChatPacket(OFFLINESHOP_TEXT_9);
-#ifdef ENABLE_DIZCIYA_GOTTEN
+#ifdef ENABLE_DEV_OFFLINE_SHOP_DEBUG
 				ch->ChatPacket(1, "Bulundugun index %d pazar index %d", ch->GetMapIndex(), pos.lMapIndex);
 #endif
 				return true;

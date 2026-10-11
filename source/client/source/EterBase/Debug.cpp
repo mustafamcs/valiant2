@@ -313,7 +313,7 @@ void OpenLogFile(bool bUseLogFIle)
 	char buffer[80];
 	time(&rawtime);
 	timeinfo = localtime(&rawtime);
-#ifdef ENABLE_DIZCIYA_GOTTEN
+#ifdef ENABLE_DEV_RESOURCE_DIAGNOSTICS
 	sprintf_s(buffer, sizeof(buffer), "./syserr/dev_log.txt");
 #else
 	strftime(buffer, sizeof(buffer), "./syserr/%Y%m%d.%H%M%S.txt", timeinfo);

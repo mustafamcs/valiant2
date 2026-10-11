@@ -325,7 +325,7 @@ ACMD(do_skill_select);
 
 ACMD(do_new_full);
 
-#ifdef ENABLE_FURKANA_GOTTEN
+#ifdef ENABLE_DROP_CALCULATOR
 ACMD(do_drop_calc);
 #endif
 
@@ -696,7 +696,7 @@ struct command_info cmd_info[] =
 	{ "31cekenkaplumbaga", do_skill_select,	0,	POS_DEAD, GM_PLAYER },
 #endif
 	{ "newfull",	do_new_full, 0, POS_DEAD,		GM_IMPLEMENTOR },
-#ifdef ENABLE_FURKANA_GOTTEN
+#ifdef ENABLE_DROP_CALCULATOR
 	{ "drop_calcute", do_drop_calc, 0, POS_DEAD,		GM_IMPLEMENTOR },
 #endif
 	{ "\n",		NULL,			0,			POS_DEAD,	GM_IMPLEMENTOR	}
