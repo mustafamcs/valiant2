@@ -49,7 +49,7 @@ Client launcher:
 runtime\client\VALIANT2.exe
 ```
 
-Launcher üzerinden oyun başlatılabilir ve client ayarları açılabilir. Tüm oyun dosyaları düzenli biçimde `runtime\client\game\` altında tutulur. Ayar aracı `metin2.cfg` içindeki tüm client ayarlarını düzenler ve her build sırasında kaynak koddan yeniden üretilir.
+Launcher üzerinden oyun başlatılabilir ve client ayarları açılabilir. Pack, müzik ve kullanıcı verileri `runtime\client\game\` altında; executable, DLL ve CEF bileşenleri `runtime\client\game\bin\` altında tutulur. Ayar aracı `metin2.cfg` içindeki tüm client ayarlarını düzenler ve her build sırasında kaynak koddan yeniden üretilir.
 
 ## Yeniden build
 

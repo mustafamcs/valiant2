@@ -24,8 +24,8 @@ runtime/server/**/stdout.txt
 database/mysql-data/
 database/legacy-export.sql
 runtime/client/VALIANT2.exe
-runtime/client/game/M2Client.exe
-runtime/client/game/config.exe
+runtime/client/game/bin/M2Client.exe
+runtime/client/game/bin/config.exe
 runtime/client/game/pack/
 runtime/server/.state/
 runtime/server/main/srv1/share/bin/db.exe

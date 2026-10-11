@@ -10,6 +10,7 @@ namespace Valiant2Launcher
     internal sealed class LauncherForm : Form
     {
         private readonly string gameDirectory = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "game");
+        private string BinaryDirectory { get { return Path.Combine(gameDirectory, "bin"); } }
         private readonly Label status = new Label { AutoSize = false, TextAlign = ContentAlignment.MiddleCenter, Dock = DockStyle.Top, Height = 45 };
         private readonly Button play = new Button { Text = "OYUNU BAŞLAT", Width = 240, Height = 50 };
         private readonly Button settings = new Button { Text = "AYARLAR", Width = 115, Height = 36 };
@@ -43,8 +44,8 @@ namespace Valiant2Launcher
 
         private void RefreshStatus()
         {
-            var required = new[] { "M2Client.exe", "config.exe", "python27.dll", "granny2.dll", "pack" };
-            var missing = required.Where(x => !File.Exists(Path.Combine(gameDirectory, x)) && !Directory.Exists(Path.Combine(gameDirectory, x))).ToArray();
+            var requiredFiles = new[] { "M2Client.exe", "config.exe", "python27.dll", "granny2.dll" };
+            var missing = requiredFiles.Where(x => !File.Exists(Path.Combine(BinaryDirectory, x))).Concat(new[] { "pack" }.Where(x => !Directory.Exists(Path.Combine(gameDirectory, x)))).ToArray();
             status.Text = missing.Length == 0 ? "Oyun hazır" : "Eksik dosyalar: " + string.Join(", ", missing);
             status.ForeColor = missing.Length == 0 ? Color.LightGreen : Color.OrangeRed;
             play.Enabled = missing.Length == 0;
@@ -70,7 +71,7 @@ namespace Valiant2Launcher
 
         private void Start(string file)
         {
-            var path = Path.Combine(gameDirectory, file);
+            var path = Path.Combine(BinaryDirectory, file);
             if (!File.Exists(path)) { MessageBox.Show(file + " bulunamadı.", "VALIANT2", MessageBoxButtons.OK, MessageBoxIcon.Error); RefreshStatus(); return; }
             Process.Start(new ProcessStartInfo(path) { WorkingDirectory = gameDirectory, UseShellExecute = true });
         }
