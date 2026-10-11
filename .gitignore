@@ -5,6 +5,13 @@ artifacts/
 logs/
 *.log
 runtime/client/syserr/
+runtime/client/GPUCache/
+runtime/client/screenshot/
+runtime/server/**/PTS.txt
+runtime/server/**/packet_info.txt
+runtime/server/**/p2p_packet_info.txt
+runtime/server/**/profile.txt
+runtime/server/**/stdout.txt
 database/mysql-data/
 database/legacy-export.sql
 runtime/client/M2Client.exe
@@ -28,6 +35,7 @@ runtime/server/**/*.pid
 **/*.ilk
 **/*.exp
 **/*.map
+**/*.bsc
 **/*.tlog
 **/*.lastbuildstate
 **/*.recipe
@@ -37,7 +45,7 @@ runtime/server/**/*.pid
 **/*.user
 **/*.pyc
 **/__pycache__/
-source/client/external/projects/CRootLib/Workplace/RootLib/cyTemp/
+**/cyTemp/
 source/client/external/projects/CRootLib/Workplace/__cython/
 source/client/external/lib/rootlib.lib
 source/client/external/lib/uiscriptlib.lib
