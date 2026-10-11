@@ -216,7 +216,7 @@ namespace Valiant2Config
     {
         public BufferedPanel()
         {
-            SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.UserPaint | ControlStyles.OptimizedDoubleBuffer | ControlStyles.ResizeRedraw, true);
+            SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.OptimizedDoubleBuffer | ControlStyles.ResizeRedraw, true);
             UpdateStyles();
         }
     }
@@ -225,7 +225,7 @@ namespace Valiant2Config
     {
         public BufferedTable()
         {
-            SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.UserPaint | ControlStyles.OptimizedDoubleBuffer | ControlStyles.ResizeRedraw, true);
+            SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.OptimizedDoubleBuffer | ControlStyles.ResizeRedraw, true);
             UpdateStyles();
         }
     }
@@ -253,16 +253,6 @@ namespace Valiant2Config
         private readonly ClientConfig config;
         private readonly Dictionary<string, Control> editors = new Dictionary<string, Control>(StringComparer.OrdinalIgnoreCase);
         private readonly DarkChoice resolution = new DarkChoice { Dock = DockStyle.Fill };
-
-        protected override CreateParams CreateParams
-        {
-            get
-            {
-                var parameters = base.CreateParams;
-                parameters.ExStyle |= 0x02000000;
-                return parameters;
-            }
-        }
 
         public ConfigForm(string path)
         {
@@ -327,7 +317,7 @@ namespace Valiant2Config
             scroll.ValueChanged += (s, e) => table.Top = -scroll.Value;
             panel.Resize += (s, e) => syncScroll();
             table.SizeChanged += (s, e) => syncScroll();
-            panel.MouseWheel += (s, e) => scroll.Value -= e.Delta / 6;
+            panel.MouseWheel += (s, e) => scroll.Value -= e.Delta / 3;
 
             var buttons = new FlowLayoutPanel { Dock = DockStyle.Bottom, Height = 58, FlowDirection = FlowDirection.RightToLeft, Padding = new Padding(10), BackColor = Color.FromArgb(29, 24, 20) };
             var save = new Button { Text = "KAYDET", Width = 110, Height = 34 };
