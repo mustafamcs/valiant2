@@ -128,7 +128,8 @@ namespace Valiant2Config
     {
         public readonly List<object> Items = new List<object>();
         private int selectedIndex = -1;
-        public int SelectedIndex { get { return selectedIndex; } set { selectedIndex = Items.Count == 0 ? -1 : Math.Max(0, Math.Min(value, Items.Count - 1)); Invalidate(); } }
+        public event EventHandler SelectedIndexChanged;
+        public int SelectedIndex { get { return selectedIndex; } set { var next = Items.Count == 0 ? -1 : Math.Max(0, Math.Min(value, Items.Count - 1)); if (selectedIndex == next) return; selectedIndex = next; Invalidate(); if (SelectedIndexChanged != null) SelectedIndexChanged(this, EventArgs.Empty); } }
         public object SelectedItem { get { return selectedIndex >= 0 && selectedIndex < Items.Count ? Items[selectedIndex] : null; } }
 
         public DarkChoice()
@@ -251,12 +252,16 @@ namespace Valiant2Config
 
         private static readonly HashSet<string> ExternalKeys = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
         {
-            "WINDOWED", "GAMMA", "SOFTWARE_CURSOR", "OBJECT_CULLING", "VISIBILITY", "USE_DEFAULT_IME", "SOFTWARE_TILING", "DECOMPRESSED_TEXTURE"
+            "WINDOWED", "GAMMA", "MUSIC_VOLUME", "VOICE_VOLUME", "SOFTWARE_CURSOR", "OBJECT_CULLING", "VISIBILITY", "USE_DEFAULT_IME", "SOFTWARE_TILING", "DECOMPRESSED_TEXTURE"
         };
         private readonly string path;
         private readonly ClientConfig config;
         private readonly Dictionary<string, Control> editors = new Dictionary<string, Control>(StringComparer.OrdinalIgnoreCase);
-        private readonly DarkChoice resolution = new DarkChoice { Dock = DockStyle.Fill };
+        private readonly List<DisplayMode> displayModes = new List<DisplayMode>();
+        private readonly DarkChoice screenSize = new DarkChoice { Dock = DockStyle.Fill };
+        private readonly DarkChoice colorDepth = new DarkChoice { Dock = DockStyle.Fill };
+        private readonly DarkChoice refreshRate = new DarkChoice { Dock = DockStyle.Fill };
+        private bool updatingDisplayModes;
 
         public ConfigForm(string path)
         {
@@ -284,8 +289,10 @@ namespace Valiant2Config
             table.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 58));
             table.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 42));
             AddHeading(table, "Ekran");
-            StyleEditor(resolution);
-            AddRow(table, "Çözünürlük", resolution);
+            StyleEditor(screenSize); StyleEditor(colorDepth); StyleEditor(refreshRate);
+            AddRow(table, "Ekran boyutu", screenSize);
+            AddRow(table, "Renk derinliği", colorDepth);
+            AddRow(table, "Yenileme hızı", refreshRate);
             LoadDisplayModes();
 
             string category = "Ekran";
@@ -391,20 +398,52 @@ namespace Valiant2Config
 
         private void LoadDisplayModes()
         {
-            var modes = new List<DisplayMode>();
             var dev = new DevMode();
             dev.Size = (short)Marshal.SizeOf(typeof(DevMode));
             for (var i = 0; EnumDisplaySettings(null, i, ref dev); i++)
             {
                 if (dev.PelsWidth < 800 || dev.PelsHeight < 600 || (dev.BitsPerPel != 16 && dev.BitsPerPel != 32)) continue;
-                if (!modes.Any(x => x.Width == dev.PelsWidth && x.Height == dev.PelsHeight && x.Bpp == dev.BitsPerPel && x.Frequency == dev.DisplayFrequency))
-                    modes.Add(new DisplayMode { Width = dev.PelsWidth, Height = dev.PelsHeight, Bpp = dev.BitsPerPel, Frequency = dev.DisplayFrequency });
+                if (!displayModes.Any(x => x.Width == dev.PelsWidth && x.Height == dev.PelsHeight && x.Bpp == dev.BitsPerPel && x.Frequency == dev.DisplayFrequency))
+                    displayModes.Add(new DisplayMode { Width = dev.PelsWidth, Height = dev.PelsHeight, Bpp = dev.BitsPerPel, Frequency = dev.DisplayFrequency });
             }
-            modes = modes.OrderBy(x => x.Width).ThenBy(x => x.Height).ThenBy(x => x.Bpp).ThenBy(x => x.Frequency).ToList();
-            foreach (var mode in modes) resolution.Items.Add(mode);
-            var selected = modes.FindIndex(x => x.Width.ToString() == config.Values["WIDTH"] && x.Height.ToString() == config.Values["HEIGHT"] && x.Bpp.ToString() == config.Values["BPP"] && x.Frequency.ToString() == config.Values["FREQUENCY"]);
-            if (selected < 0) selected = modes.FindIndex(x => x.Width.ToString() == config.Values["WIDTH"] && x.Height.ToString() == config.Values["HEIGHT"] && x.Bpp.ToString() == config.Values["BPP"]);
-            if (resolution.Items.Count > 0) resolution.SelectedIndex = selected >= 0 ? selected : 0;
+            displayModes.Sort((a, b) => a.Width != b.Width ? a.Width.CompareTo(b.Width) : a.Height.CompareTo(b.Height));
+            foreach (var size in displayModes.Select(x => x.Width + " × " + x.Height).Distinct()) screenSize.Items.Add(size);
+            var currentSize = config.Values["WIDTH"] + " × " + config.Values["HEIGHT"];
+            var selected = screenSize.Items.FindIndex(x => x.ToString() == currentSize);
+            screenSize.SelectedIndex = selected >= 0 ? selected : 0;
+            UpdateColorDepth(config.Values["BPP"], config.Values["FREQUENCY"]);
+            screenSize.SelectedIndexChanged += (s, e) => { if (!updatingDisplayModes) UpdateColorDepth(null, null); };
+            colorDepth.SelectedIndexChanged += (s, e) => { if (!updatingDisplayModes) UpdateRefreshRate(null); };
+        }
+
+        private void UpdateColorDepth(string preferredDepth, string preferredRate)
+        {
+            updatingDisplayModes = true;
+            var modes = ModesForSelectedSize();
+            colorDepth.Items.Clear();
+            foreach (var depth in modes.Select(x => x.Bpp).Distinct().OrderBy(x => x)) colorDepth.Items.Add(depth + " bit");
+            var depthIndex = colorDepth.Items.FindIndex(x => x.ToString() == preferredDepth + " bit");
+            colorDepth.SelectedIndex = depthIndex >= 0 ? depthIndex : Math.Max(0, colorDepth.Items.Count - 1);
+            UpdateRefreshRate(preferredRate);
+            updatingDisplayModes = false;
+        }
+
+        private void UpdateRefreshRate(string preferredRate)
+        {
+            var modes = ModesForSelectedSize();
+            var depth = colorDepth.SelectedItem == null ? 32 : int.Parse(colorDepth.SelectedItem.ToString().Split(' ')[0]);
+            refreshRate.Items.Clear();
+            foreach (var rate in modes.Where(x => x.Bpp == depth).Select(x => x.Frequency).Distinct().OrderBy(x => x)) refreshRate.Items.Add(rate + " Hz");
+            var rateIndex = refreshRate.Items.FindIndex(x => x.ToString() == preferredRate + " Hz");
+            refreshRate.SelectedIndex = rateIndex >= 0 ? rateIndex : Math.Max(0, refreshRate.Items.Count - 1);
+        }
+
+        private List<DisplayMode> ModesForSelectedSize()
+        {
+            if (screenSize.SelectedItem == null) return new List<DisplayMode>();
+            var parts = screenSize.SelectedItem.ToString().Split('×');
+            var width = int.Parse(parts[0].Trim()); var height = int.Parse(parts[1].Trim());
+            return displayModes.Where(x => x.Width == width && x.Height == height).ToList();
         }
 
         private static IEnumerable<string> Choices(SettingSpec spec)
@@ -424,8 +463,9 @@ namespace Valiant2Config
         private void DefaultsClick(object sender, EventArgs e)
         {
             foreach (var spec in ClientConfig.Specs.Where(x => editors.ContainsKey(x.Key))) SetEditor(spec, spec.Default);
-            var mode = resolution.Items.Cast<DisplayMode>().ToList().FindIndex(x => x.Width == 1280 && x.Height == 720 && x.Bpp == 32);
-            if (mode >= 0) resolution.SelectedIndex = mode;
+            var size = screenSize.Items.FindIndex(x => x.ToString() == "1280 × 720");
+            if (size >= 0) screenSize.SelectedIndex = size;
+            UpdateColorDepth("32", "60");
         }
 
         private void SetEditor(SettingSpec spec, string value)
@@ -441,10 +481,11 @@ namespace Valiant2Config
 
         private void SaveClick(object sender, EventArgs e)
         {
-            var mode = resolution.SelectedItem as DisplayMode;
-            if (mode == null) { MessageBox.Show("Geçerli bir çözünürlük seçin."); return; }
-            config.Values["WIDTH"] = mode.Width.ToString(); config.Values["HEIGHT"] = mode.Height.ToString();
-            config.Values["BPP"] = mode.Bpp.ToString(); config.Values["FREQUENCY"] = mode.Frequency.ToString();
+            if (screenSize.SelectedItem == null || colorDepth.SelectedItem == null || refreshRate.SelectedItem == null) { MessageBox.Show("Geçerli ekran ayarları seçin."); return; }
+            var size = screenSize.SelectedItem.ToString().Split('×');
+            config.Values["WIDTH"] = size[0].Trim(); config.Values["HEIGHT"] = size[1].Trim();
+            config.Values["BPP"] = colorDepth.SelectedItem.ToString().Split(' ')[0];
+            config.Values["FREQUENCY"] = refreshRate.SelectedItem.ToString().Split(' ')[0];
             foreach (var spec in ClientConfig.Specs.Where(x => editors.ContainsKey(x.Key)))
             {
                 var text = editors[spec.Key] as TextBox;
