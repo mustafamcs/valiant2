@@ -152,18 +152,22 @@ namespace Valiant2Config
             config = ClientConfig.Load(path);
             Text = "VALIANT2 Ayarları";
             StartPosition = FormStartPosition.CenterScreen;
-            MinimumSize = new Size(620, 600);
-            Size = new Size(760, 820);
+            MinimumSize = new Size(680, 620);
+            Size = new Size(780, 840);
+            BackColor = Color.FromArgb(18, 16, 14);
+            ForeColor = Color.FromArgb(218, 204, 170);
+            Font = new Font("Georgia", 9F);
             BuildInterface();
         }
 
         private void BuildInterface()
         {
-            var panel = new Panel { Dock = DockStyle.Fill, AutoScroll = true };
-            var table = new TableLayoutPanel { AutoSize = true, AutoSizeMode = AutoSizeMode.GrowAndShrink, ColumnCount = 2, Dock = DockStyle.Top, Padding = new Padding(16) };
+            var panel = new Panel { Dock = DockStyle.Fill, AutoScroll = true, BackColor = Color.FromArgb(18, 16, 14) };
+            var table = new TableLayoutPanel { AutoSize = true, AutoSizeMode = AutoSizeMode.GrowAndShrink, ColumnCount = 2, Dock = DockStyle.Top, Padding = new Padding(22), BackColor = Color.FromArgb(18, 16, 14), ForeColor = Color.FromArgb(218, 204, 170) };
             table.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 58));
             table.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 42));
             AddHeading(table, "Ekran");
+            StyleEditor(resolution);
             AddRow(table, "Çözünürlük", resolution);
             LoadDisplayModes();
 
@@ -190,15 +194,17 @@ namespace Valiant2Config
                     combo.SelectedIndex = selected >= 0 ? selected : 0;
                     editor = combo;
                 }
+                StyleEditor(editor);
                 editors[spec.Key] = editor;
                 AddRow(table, spec.Label, editor);
             }
             panel.Controls.Add(table);
 
-            var buttons = new FlowLayoutPanel { Dock = DockStyle.Bottom, Height = 50, FlowDirection = FlowDirection.RightToLeft, Padding = new Padding(8) };
-            var save = new Button { Text = "Kaydet", Width = 105 };
-            var cancel = new Button { Text = "İptal", Width = 105 };
-            var defaults = new Button { Text = "Varsayılanlar", Width = 115 };
+            var buttons = new FlowLayoutPanel { Dock = DockStyle.Bottom, Height = 58, FlowDirection = FlowDirection.RightToLeft, Padding = new Padding(10), BackColor = Color.FromArgb(29, 24, 20) };
+            var save = new Button { Text = "KAYDET", Width = 110, Height = 34 };
+            var cancel = new Button { Text = "İPTAL", Width = 110, Height = 34 };
+            var defaults = new Button { Text = "VARSAYILANLAR", Width = 135, Height = 34 };
+            StyleButton(save, true); StyleButton(cancel, false); StyleButton(defaults, false);
             save.Click += SaveClick;
             cancel.Click += (s, e) => Close();
             defaults.Click += DefaultsClick;
@@ -206,15 +212,35 @@ namespace Valiant2Config
             Controls.Add(panel); Controls.Add(buttons);
         }
 
+        private static void StyleEditor(Control control)
+        {
+            control.BackColor = Color.FromArgb(39, 33, 28);
+            control.ForeColor = Color.FromArgb(232, 216, 180);
+            control.Font = new Font("Georgia", 9F);
+            var combo = control as ComboBox;
+            if (combo != null) combo.FlatStyle = FlatStyle.Flat;
+        }
+
+        private static void StyleButton(Button button, bool primary)
+        {
+            button.FlatStyle = FlatStyle.Flat;
+            button.FlatAppearance.BorderColor = Color.FromArgb(174, 132, 52);
+            button.FlatAppearance.MouseOverBackColor = Color.FromArgb(105, 35, 31);
+            button.FlatAppearance.MouseDownBackColor = Color.FromArgb(70, 22, 19);
+            button.BackColor = primary ? Color.FromArgb(119, 36, 31) : Color.FromArgb(39, 33, 28);
+            button.ForeColor = Color.FromArgb(235, 214, 166);
+            button.Font = new Font("Georgia", 9F, FontStyle.Bold);
+        }
+
         private static void AddHeading(TableLayoutPanel table, string text)
         {
-            var label = new Label { Text = text, Font = new Font(SystemFonts.MessageBoxFont, FontStyle.Bold), AutoSize = true, Padding = new Padding(0, 12, 0, 4) };
+            var label = new Label { Text = "—  " + text.ToUpperInvariant() + "  —", Font = new Font("Georgia", 11F, FontStyle.Bold), ForeColor = Color.FromArgb(210, 164, 70), AutoSize = true, Padding = new Padding(0, 15, 0, 6) };
             table.Controls.Add(label); table.SetColumnSpan(label, 2);
         }
 
         private static void AddRow(TableLayoutPanel table, string text, Control control)
         {
-            table.Controls.Add(new Label { Text = text, AutoSize = true, Anchor = AnchorStyles.Left, Padding = new Padding(0, 6, 0, 0) });
+            table.Controls.Add(new Label { Text = text, AutoSize = true, Anchor = AnchorStyles.Left, ForeColor = Color.FromArgb(205, 192, 163), Padding = new Padding(0, 7, 0, 0) });
             table.Controls.Add(control);
         }
 

@@ -22,24 +22,48 @@ namespace Valiant2Launcher
             StartPosition = FormStartPosition.CenterScreen;
             FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
-            ClientSize = new Size(420, 245);
-            BackColor = Color.FromArgb(28, 30, 36);
-            ForeColor = Color.White;
+            ClientSize = new Size(520, 330);
+            BackColor = Color.FromArgb(15, 13, 12);
+            ForeColor = Color.FromArgb(218, 204, 170);
+            Font = new Font("Georgia", 9F);
+            DoubleBuffered = true;
+            Paint += PaintBackground;
             BuildInterface();
             RefreshStatus();
         }
 
         private void BuildInterface()
         {
-            var title = new Label { Text = "VALIANT2", Font = new Font("Segoe UI", 26, FontStyle.Bold), TextAlign = ContentAlignment.MiddleCenter, Dock = DockStyle.Top, Height = 72 };
-            var panel = new FlowLayoutPanel { Dock = DockStyle.Fill, FlowDirection = FlowDirection.TopDown, WrapContents = false, AutoSize = false, Padding = new Padding(85, 8, 0, 0) };
-            var secondary = new FlowLayoutPanel { Width = 250, Height = 45, FlowDirection = FlowDirection.LeftToRight };
-            play.BackColor = Color.FromArgb(47, 125, 225); play.ForeColor = Color.White; play.FlatStyle = FlatStyle.Flat;
-            settings.FlatStyle = FlatStyle.Flat; folder.FlatStyle = FlatStyle.Flat;
+            var title = new Label { Text = "V A L I A N T  II", Font = new Font("Georgia", 28, FontStyle.Bold), ForeColor = Color.FromArgb(218, 174, 76), BackColor = Color.Transparent, TextAlign = ContentAlignment.BottomCenter, Dock = DockStyle.Top, Height = 92 };
+            var subtitle = new Label { Text = "DOĞU'NUN SAVAŞI", Font = new Font("Georgia", 9, FontStyle.Italic), ForeColor = Color.FromArgb(151, 131, 94), BackColor = Color.Transparent, TextAlign = ContentAlignment.TopCenter, Dock = DockStyle.Top, Height = 34 };
+            status.BackColor = Color.FromArgb(28, 24, 21); status.Font = new Font("Georgia", 9, FontStyle.Bold); status.Height = 40;
+            var panel = new FlowLayoutPanel { Dock = DockStyle.Fill, FlowDirection = FlowDirection.TopDown, WrapContents = false, BackColor = Color.Transparent, Padding = new Padding(135, 18, 0, 0) };
+            var secondary = new FlowLayoutPanel { Width = 250, Height = 48, FlowDirection = FlowDirection.LeftToRight, BackColor = Color.Transparent };
+            StyleButton(play, true); StyleButton(settings, false); StyleButton(folder, false);
             play.Click += PlayClick; settings.Click += SettingsClick; folder.Click += FolderClick;
             secondary.Controls.Add(settings); secondary.Controls.Add(folder);
             panel.Controls.Add(play); panel.Controls.Add(secondary);
-            Controls.Add(panel); Controls.Add(status); Controls.Add(title);
+            Controls.Add(panel); Controls.Add(status); Controls.Add(subtitle); Controls.Add(title);
+        }
+
+        private static void StyleButton(Button button, bool primary)
+        {
+            button.FlatStyle = FlatStyle.Flat;
+            button.FlatAppearance.BorderSize = 1;
+            button.FlatAppearance.BorderColor = Color.FromArgb(179, 137, 55);
+            button.FlatAppearance.MouseOverBackColor = Color.FromArgb(105, 35, 31);
+            button.FlatAppearance.MouseDownBackColor = Color.FromArgb(72, 22, 20);
+            button.BackColor = primary ? Color.FromArgb(119, 36, 31) : Color.FromArgb(37, 31, 27);
+            button.ForeColor = Color.FromArgb(235, 214, 166);
+            button.Font = new Font("Georgia", primary ? 11F : 9F, FontStyle.Bold);
+            button.Margin = new Padding(4);
+        }
+
+        private void PaintBackground(object sender, PaintEventArgs e)
+        {
+            using (var brush = new System.Drawing.Drawing2D.LinearGradientBrush(ClientRectangle, Color.FromArgb(37, 31, 27), Color.FromArgb(10, 9, 8), 90F)) e.Graphics.FillRectangle(brush, ClientRectangle);
+            using (var pen = new Pen(Color.FromArgb(151, 111, 42), 2F)) e.Graphics.DrawRectangle(pen, 7, 7, ClientSize.Width - 15, ClientSize.Height - 15);
+            using (var pen = new Pen(Color.FromArgb(72, 55, 31))) e.Graphics.DrawRectangle(pen, 12, 12, ClientSize.Width - 25, ClientSize.Height - 25);
         }
 
         private void RefreshStatus()
