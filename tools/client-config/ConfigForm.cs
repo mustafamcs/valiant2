@@ -124,6 +124,94 @@ namespace Valiant2Config
         public override string ToString() { return Width + " x " + Height + "  " + Bpp + " bit  " + Frequency + " Hz"; }
     }
 
+    internal sealed class DarkChoice : Control
+    {
+        public readonly List<object> Items = new List<object>();
+        private int selectedIndex = -1;
+        public int SelectedIndex { get { return selectedIndex; } set { selectedIndex = Items.Count == 0 ? -1 : Math.Max(0, Math.Min(value, Items.Count - 1)); Invalidate(); } }
+        public object SelectedItem { get { return selectedIndex >= 0 && selectedIndex < Items.Count ? Items[selectedIndex] : null; } }
+
+        public DarkChoice()
+        {
+            Height = 28; DoubleBuffered = true; Cursor = Cursors.Hand; TabStop = true;
+            BackColor = Color.FromArgb(39, 33, 28); ForeColor = Color.FromArgb(232, 216, 180);
+        }
+
+        protected override void OnPaint(PaintEventArgs e)
+        {
+            base.OnPaint(e);
+            using (var border = new Pen(Focused ? Color.FromArgb(211, 162, 62) : Color.FromArgb(116, 88, 43))) e.Graphics.DrawRectangle(border, 0, 0, Width - 1, Height - 1);
+            var arrowWidth = 34;
+            using (var arrowBackground = new SolidBrush(Color.FromArgb(54, 42, 31))) e.Graphics.FillRectangle(arrowBackground, Width - arrowWidth, 1, arrowWidth - 1, Height - 2);
+            using (var separator = new Pen(Color.FromArgb(116, 88, 43))) e.Graphics.DrawLine(separator, Width - arrowWidth, 1, Width - arrowWidth, Height - 2);
+            TextRenderer.DrawText(e.Graphics, SelectedItem == null ? "" : SelectedItem.ToString(), Font, new Rectangle(10, 0, Width - arrowWidth - 12, Height), ForeColor, TextFormatFlags.Left | TextFormatFlags.VerticalCenter | TextFormatFlags.EndEllipsis);
+            TextRenderer.DrawText(e.Graphics, "‹", new Font("Georgia", 12, FontStyle.Bold), new Rectangle(Width - 33, 0, 15, Height), Color.FromArgb(218, 174, 76), TextFormatFlags.HorizontalCenter | TextFormatFlags.VerticalCenter);
+            TextRenderer.DrawText(e.Graphics, "›", new Font("Georgia", 12, FontStyle.Bold), new Rectangle(Width - 17, 0, 15, Height), Color.FromArgb(218, 174, 76), TextFormatFlags.HorizontalCenter | TextFormatFlags.VerticalCenter);
+        }
+
+        protected override void OnMouseDown(MouseEventArgs e)
+        {
+            base.OnMouseDown(e); Focus();
+            if (Items.Count == 0) return;
+            SelectedIndex = e.X < Width - 17 ? (selectedIndex <= 0 ? Items.Count - 1 : selectedIndex - 1) : (selectedIndex + 1) % Items.Count;
+        }
+
+        protected override void OnMouseWheel(MouseEventArgs e)
+        {
+            if (Items.Count == 0) return;
+            SelectedIndex = e.Delta > 0 ? (selectedIndex <= 0 ? Items.Count - 1 : selectedIndex - 1) : (selectedIndex + 1) % Items.Count;
+        }
+
+        protected override bool IsInputKey(Keys keyData) { return keyData == Keys.Left || keyData == Keys.Right || base.IsInputKey(keyData); }
+        protected override void OnKeyDown(KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Left) OnMouseWheel(new MouseEventArgs(MouseButtons.None, 0, 0, 0, 120));
+            else if (e.KeyCode == Keys.Right) OnMouseWheel(new MouseEventArgs(MouseButtons.None, 0, 0, 0, -120));
+            else base.OnKeyDown(e);
+        }
+    }
+
+    internal sealed class DarkScrollBar : Control
+    {
+        private int value, maximum, viewport, dragOffset;
+        private bool dragging;
+        public event EventHandler ValueChanged;
+        public int Value { get { return value; } set { var next = Math.Max(0, Math.Min(value, Math.Max(0, maximum - viewport))); if (this.value == next) return; this.value = next; Invalidate(); if (ValueChanged != null) ValueChanged(this, EventArgs.Empty); } }
+        public int Maximum { get { return maximum; } set { maximum = Math.Max(0, value); Value = this.value; Invalidate(); } }
+        public int Viewport { get { return viewport; } set { viewport = Math.Max(1, value); Value = this.value; Invalidate(); } }
+
+        public DarkScrollBar() { Width = 18; DoubleBuffered = true; BackColor = Color.FromArgb(20, 17, 15); }
+        private Rectangle Thumb
+        {
+            get
+            {
+                var track = Math.Max(1, Height - 8); var size = maximum <= viewport ? track : Math.Max(42, track * viewport / maximum);
+                var range = Math.Max(1, maximum - viewport); var top = 4 + (track - size) * value / range;
+                return new Rectangle(4, top, Width - 8, size);
+            }
+        }
+        protected override void OnPaint(PaintEventArgs e)
+        {
+            using (var line = new Pen(Color.FromArgb(81, 60, 31))) e.Graphics.DrawLine(line, Width / 2, 4, Width / 2, Height - 4);
+            var thumb = Thumb;
+            using (var fill = new SolidBrush(Color.FromArgb(105, 35, 31))) e.Graphics.FillRectangle(fill, thumb);
+            using (var border = new Pen(Color.FromArgb(196, 148, 55))) e.Graphics.DrawRectangle(border, thumb.X, thumb.Y, thumb.Width - 1, thumb.Height - 1);
+        }
+        protected override void OnMouseDown(MouseEventArgs e)
+        {
+            var thumb = Thumb;
+            if (thumb.Contains(e.Location)) { dragging = true; dragOffset = e.Y - thumb.Y; Capture = true; }
+            else Value += e.Y < thumb.Y ? -viewport : viewport;
+        }
+        protected override void OnMouseMove(MouseEventArgs e)
+        {
+            if (!dragging) return;
+            var track = Math.Max(1, Height - 8); var size = Thumb.Height; var pixels = Math.Max(1, track - size);
+            Value = (e.Y - 4 - dragOffset) * Math.Max(0, maximum - viewport) / pixels;
+        }
+        protected override void OnMouseUp(MouseEventArgs e) { dragging = false; Capture = false; }
+    }
+
     internal sealed class ConfigForm : Form
     {
         [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Ansi)]
@@ -142,12 +230,11 @@ namespace Valiant2Config
         private static extern bool EnumDisplaySettings(string deviceName, int modeNum, ref DevMode devMode);
         [DllImport("user32.dll")] private static extern bool ReleaseCapture();
         [DllImport("user32.dll")] private static extern IntPtr SendMessage(IntPtr hWnd, int message, IntPtr wParam, IntPtr lParam);
-        [DllImport("uxtheme.dll", CharSet = CharSet.Unicode)] private static extern int SetWindowTheme(IntPtr hWnd, string subAppName, string subIdList);
 
         private readonly string path;
         private readonly ClientConfig config;
         private readonly Dictionary<string, Control> editors = new Dictionary<string, Control>(StringComparer.OrdinalIgnoreCase);
-        private readonly ComboBox resolution = new ComboBox { DropDownStyle = ComboBoxStyle.DropDownList, Dock = DockStyle.Fill };
+        private readonly DarkChoice resolution = new DarkChoice { Dock = DockStyle.Fill };
 
         public ConfigForm(string path)
         {
@@ -167,8 +254,9 @@ namespace Valiant2Config
 
         private void BuildInterface()
         {
-            var panel = new Panel { Dock = DockStyle.Fill, AutoScroll = true, BackColor = Color.FromArgb(18, 16, 14) };
-            var table = new TableLayoutPanel { AutoSize = true, AutoSizeMode = AutoSizeMode.GrowAndShrink, ColumnCount = 2, Dock = DockStyle.Top, Padding = new Padding(22), BackColor = Color.FromArgb(18, 16, 14), ForeColor = Color.FromArgb(218, 204, 170) };
+            var panel = new Panel { Dock = DockStyle.Fill, AutoScroll = false, BackColor = Color.FromArgb(18, 16, 14) };
+            var scroll = new DarkScrollBar { Dock = DockStyle.Right };
+            var table = new TableLayoutPanel { AutoSize = true, AutoSizeMode = AutoSizeMode.GrowAndShrink, ColumnCount = 2, Width = ClientSize.Width - 32, Padding = new Padding(22), BackColor = Color.FromArgb(18, 16, 14), ForeColor = Color.FromArgb(218, 204, 170) };
             table.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 58));
             table.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 42));
             AddHeading(table, "Ekran");
@@ -193,7 +281,7 @@ namespace Valiant2Config
                 }
                 else
                 {
-                    var combo = new ComboBox { DropDownStyle = ComboBoxStyle.DropDownList, Dock = DockStyle.Fill };
+                    var combo = new DarkChoice { Dock = DockStyle.Fill };
                     foreach (var value in Choices(spec)) combo.Items.Add(value);
                     var selected = combo.Items.Cast<string>().ToList().FindIndex(x => x == Normalize(config.Values[spec.Key], spec.Decimals));
                     combo.SelectedIndex = selected >= 0 ? selected : 0;
@@ -204,6 +292,12 @@ namespace Valiant2Config
                 AddRow(table, spec.Label, editor);
             }
             panel.Controls.Add(table);
+            panel.Controls.Add(scroll);
+            Action syncScroll = () => { scroll.Maximum = table.Height; scroll.Viewport = panel.ClientSize.Height; table.Top = -scroll.Value; table.Width = Math.Max(300, panel.ClientSize.Width - scroll.Width); };
+            scroll.ValueChanged += (s, e) => table.Top = -scroll.Value;
+            panel.Resize += (s, e) => syncScroll();
+            table.SizeChanged += (s, e) => syncScroll();
+            panel.MouseWheel += (s, e) => scroll.Value -= e.Delta / 3;
 
             var buttons = new FlowLayoutPanel { Dock = DockStyle.Bottom, Height = 58, FlowDirection = FlowDirection.RightToLeft, Padding = new Padding(10), BackColor = Color.FromArgb(29, 24, 20) };
             var save = new Button { Text = "KAYDET", Width = 110, Height = 34 };
@@ -236,8 +330,6 @@ namespace Valiant2Config
             control.BackColor = Color.FromArgb(39, 33, 28);
             control.ForeColor = Color.FromArgb(232, 216, 180);
             control.Font = new Font("Georgia", 9F);
-            var combo = control as ComboBox;
-            if (combo != null) { combo.FlatStyle = FlatStyle.Flat; combo.DrawMode = DrawMode.OwnerDrawFixed; combo.DrawItem += DrawComboItem; combo.HandleCreated += (s, e) => SetWindowTheme(combo.Handle, "DarkMode_Explorer", null); }
             var check = control as CheckBox;
             if (check != null)
             {
@@ -248,15 +340,6 @@ namespace Valiant2Config
                 check.FlatAppearance.MouseOverBackColor = Color.FromArgb(74, 50, 35);
                 check.AutoSize = false; check.Width = 112; check.Height = 26; check.TextAlign = ContentAlignment.MiddleCenter;
             }
-        }
-
-        private static void DrawComboItem(object sender, DrawItemEventArgs e)
-        {
-            if (e.Index < 0) return;
-            var combo = (ComboBox)sender;
-            var selected = (e.State & DrawItemState.Selected) == DrawItemState.Selected;
-            using (var brush = new SolidBrush(selected ? Color.FromArgb(105, 35, 31) : Color.FromArgb(39, 33, 28))) e.Graphics.FillRectangle(brush, e.Bounds);
-            TextRenderer.DrawText(e.Graphics, combo.Items[e.Index].ToString(), combo.Font, new Rectangle(e.Bounds.X + 6, e.Bounds.Y, e.Bounds.Width - 6, e.Bounds.Height), Color.FromArgb(232, 216, 180), TextFormatFlags.VerticalCenter | TextFormatFlags.Left);
         }
 
         private static void StyleButton(Button button, bool primary)
@@ -327,7 +410,7 @@ namespace Valiant2Config
             if (text != null) { text.Text = value; return; }
             var check = editors[spec.Key] as CheckBox;
             if (check != null) { check.Checked = value == "1"; return; }
-            var combo = (ComboBox)editors[spec.Key];
+            var combo = (DarkChoice)editors[spec.Key];
             var index = combo.Items.Cast<string>().ToList().FindIndex(x => x == Normalize(value, spec.Decimals));
             combo.SelectedIndex = index >= 0 ? index : 0;
         }
@@ -342,7 +425,7 @@ namespace Valiant2Config
             {
                 var text = editors[spec.Key] as TextBox;
                 var check = editors[spec.Key] as CheckBox;
-                config.Values[spec.Key] = text != null ? (text.Text.Trim().Length == 0 ? "0" : text.Text.Trim()) : check != null ? (check.Checked ? "1" : "0") : ((ComboBox)editors[spec.Key]).SelectedItem.ToString();
+                config.Values[spec.Key] = text != null ? (text.Text.Trim().Length == 0 ? "0" : text.Text.Trim()) : check != null ? (check.Checked ? "1" : "0") : ((DarkChoice)editors[spec.Key]).SelectedItem.ToString();
             }
             try { config.Save(path); MessageBox.Show("Ayarlar kaydedildi.", "VALIANT2", MessageBoxButtons.OK, MessageBoxIcon.Information); Close(); }
             catch (Exception ex) { MessageBox.Show(ex.Message, "VALIANT2", MessageBoxButtons.OK, MessageBoxIcon.Error); }
