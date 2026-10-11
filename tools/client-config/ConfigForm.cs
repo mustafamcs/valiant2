@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
 namespace Valiant2Config
@@ -33,25 +34,25 @@ namespace Valiant2Config
             new SettingSpec("HEIGHT", "Yükseklik", "Ekran", "720", 600, 16384),
             new SettingSpec("BPP", "Renk derinliği", "Ekran", "32", 16, 32, 16),
             new SettingSpec("FREQUENCY", "Yenileme hızı / FPS", "Ekran", "60", 30, 1000),
-            new SettingSpec("WINDOWED", "Pencere modu (0/1)", "Ekran", "0", 0, 1),
+            new SettingSpec("WINDOWED", "Pencere modu", "Ekran", "0", 0, 1),
             new SettingSpec("GAMMA", "Gamma", "Ekran", "5", 1, 5),
             new SettingSpec("FIELD_OF_VIEW_RATE", "Görüş alanı oranı", "Ekran", "0.00", -1, 1, 0.05m, 2),
             new SettingSpec("MUSIC_VOLUME", "Müzik sesi", "Ses", "1.000", 0, 1, 0.05m, 3),
             new SettingSpec("VOICE_VOLUME", "Efekt sesi", "Ses", "5", 0, 5),
-            new SettingSpec("SOFTWARE_CURSOR", "Yazılımsal imleç (0/1)", "Temel", "0", 0, 1),
-            new SettingSpec("OBJECT_CULLING", "Nesne ayıklama (0/1)", "Temel", "1", 0, 1),
+            new SettingSpec("SOFTWARE_CURSOR", "Yazılımsal imleç", "Temel", "0", 0, 1),
+            new SettingSpec("OBJECT_CULLING", "Nesne ayıklama", "Temel", "1", 0, 1),
             new SettingSpec("VISIBILITY", "Görüş mesafesi seviyesi", "Temel", "3", 0, 5),
-            new SettingSpec("USE_DEFAULT_IME", "Sistem IME (0/1)", "Temel", "0", 0, 1),
+            new SettingSpec("USE_DEFAULT_IME", "Sistem IME", "Temel", "0", 0, 1),
             new SettingSpec("SOFTWARE_TILING", "Yazılımsal döşeme", "Temel", "0", 0, 2),
-            new SettingSpec("DECOMPRESSED_TEXTURE", "Açılmış dokular (0/1)", "Temel", "0", 0, 1),
-            new SettingSpec("IS_SAVE_ID", "Kullanıcı adını kaydet (0/1)", "Temel", "0", 0, 1),
+            new SettingSpec("DECOMPRESSED_TEXTURE", "Açılmış dokular", "Temel", "0", 0, 1),
+            new SettingSpec("IS_SAVE_ID", "Kullanıcı adını kaydet", "Temel", "0", 0, 1),
             new SettingSpec("SAVE_ID", "Kayıtlı kullanıcı adı", "Temel", "0"),
             new SettingSpec("SHADOW_LEVEL", "Gölge seviyesi", "Grafik", "5", 0, 5),
-            new SettingSpec("TEXT_OUTLINE", "İsim kenarlığı (0/1)", "Grafik", "1", 0, 1),
-            new SettingSpec("AFFECT_ICONS", "Etki simgeleri (0/1)", "Grafik", "1", 0, 1),
-            new SettingSpec("HIGHLIGHT_ANIMATION", "Vurgu animasyonu (0/1)", "Grafik", "1", 0, 1),
-            new SettingSpec("HIDE_EFFECTS", "Efektleri gizle (0/1)", "Grafik", "0", 0, 1),
-            new SettingSpec("HIDE_TOOLTIP_EMOJIS", "Emoji ipuçlarını gizle (0/1)", "Grafik", "1", 0, 1),
+            new SettingSpec("TEXT_OUTLINE", "İsim kenarlığı", "Grafik", "1", 0, 1),
+            new SettingSpec("AFFECT_ICONS", "Etki simgeleri", "Grafik", "1", 0, 1),
+            new SettingSpec("HIGHLIGHT_ANIMATION", "Vurgu animasyonu", "Grafik", "1", 0, 1),
+            new SettingSpec("HIDE_EFFECTS", "Efektleri gizle", "Grafik", "0", 0, 1),
+            new SettingSpec("HIDE_TOOLTIP_EMOJIS", "Emoji ipuçlarını gizle", "Grafik", "1", 0, 1),
             new SettingSpec("METINSTONE_SCALE_RATE", "Metin taşı ölçeği", "Grafik", "0.0", 0, 1, 0.1m, 1),
             new SettingSpec("DAMAGE_TEXTURE_SCALE_RATE", "Hasar yazısı ölçeği", "Grafik", "0.0", 0, 1, 0.1m, 1),
             new SettingSpec("SELECTED_SKYBOX_TYPE", "Gökyüzü tipi", "Grafik", "0", 0, 20),
@@ -59,20 +60,20 @@ namespace Valiant2Config
             new SettingSpec("FONT_TYPE", "Yazı tipi", "Grafik", "0", 0, 20),
             new SettingSpec("ENTITY_SHOW_DISTANCE", "Varlık mesafesi", "Optimizasyon", "6500", 2500, 6500, 2000),
             new SettingSpec("MAP_LOADING_DISTANCE", "Harita yükleme mesafesi", "Optimizasyon", "0.0", 0, 10000, 100, 1),
-            new SettingSpec("HIDE_PETS", "Petleri gizle (0/1)", "Gizleme", "0", 0, 1),
-            new SettingSpec("HIDE_MOUNTS", "Binekleri gizle (0/1)", "Gizleme", "0", 0, 1),
-            new SettingSpec("HIDE_SHOPS", "Pazarları gizle (0/1)", "Gizleme", "0", 0, 1),
-            new SettingSpec("HIDE_NPC", "NPC'leri gizle (0/1)", "Gizleme", "0", 0, 1),
-            new SettingSpec("VIEW_CHAT", "Sohbeti göster (0/1)", "Arayüz", "1", 0, 1),
-            new SettingSpec("ALWAYS_VIEW_NAME", "İsimleri göster (0/1)", "Arayüz", "1", 0, 1),
-            new SettingSpec("SHOW_DAMAGE", "Hasarı göster (0/1)", "Arayüz", "1", 0, 1),
-            new SettingSpec("SHOW_SALESTEXT", "Pazar yazılarını göster (0/1)", "Arayüz", "1", 0, 1),
-            new SettingSpec("SHOW_MOBAIFLAG", "Canavar tipini göster (0/1)", "Arayüz", "1", 0, 1),
-            new SettingSpec("SHOW_MOBLEVEL", "Canavar seviyesini göster (0/1)", "Arayüz", "1", 0, 1),
+            new SettingSpec("HIDE_PETS", "Petleri gizle", "Gizleme", "0", 0, 1),
+            new SettingSpec("HIDE_MOUNTS", "Binekleri gizle", "Gizleme", "0", 0, 1),
+            new SettingSpec("HIDE_SHOPS", "Pazarları gizle", "Gizleme", "0", 0, 1),
+            new SettingSpec("HIDE_NPC", "NPC'leri gizle", "Gizleme", "0", 0, 1),
+            new SettingSpec("VIEW_CHAT", "Sohbeti göster", "Arayüz", "1", 0, 1),
+            new SettingSpec("ALWAYS_VIEW_NAME", "İsimleri göster", "Arayüz", "1", 0, 1),
+            new SettingSpec("SHOW_DAMAGE", "Hasarı göster", "Arayüz", "1", 0, 1),
+            new SettingSpec("SHOW_SALESTEXT", "Pazar yazılarını göster", "Arayüz", "1", 0, 1),
+            new SettingSpec("SHOW_MOBAIFLAG", "Canavar tipini göster", "Arayüz", "1", 0, 1),
+            new SettingSpec("SHOW_MOBLEVEL", "Canavar seviyesini göster", "Arayüz", "1", 0, 1),
             new SettingSpec("DAMAGE_TYPE", "Hasar tipi", "Arayüz", "0", 0, 20),
-            new SettingSpec("DAMAGE_TYPE_RENEWED", "Yeni hasar görünümü (0/1)", "Arayüz", "0", 0, 1),
-            new SettingSpec("HIDE_EVENT_IMAGE", "Etkinlik görselini gizle (0/1)", "Arayüz", "1", 0, 1),
-            new SettingSpec("ANIMATED_LOADING", "Animasyonlu yükleme (0/1)", "Arayüz", "1", 0, 1)
+            new SettingSpec("DAMAGE_TYPE_RENEWED", "Yeni hasar görünümü", "Arayüz", "0", 0, 1),
+            new SettingSpec("HIDE_EVENT_IMAGE", "Etkinlik görselini gizle", "Arayüz", "1", 0, 1),
+            new SettingSpec("ANIMATED_LOADING", "Animasyonlu yükleme", "Arayüz", "1", 0, 1)
         };
 
         public readonly Dictionary<string, string> Values = Specs.ToDictionary(x => x.Key, x => x.Default, StringComparer.OrdinalIgnoreCase);
@@ -84,9 +85,7 @@ namespace Valiant2Config
             if (!File.Exists(path)) return config;
             foreach (var raw in File.ReadAllLines(path))
             {
-                var line = raw.Trim();
-                if (line.Length == 0) continue;
-                var parts = line.Split((char[])null, 2, StringSplitOptions.RemoveEmptyEntries);
+                var parts = raw.Trim().Split((char[])null, 2, StringSplitOptions.RemoveEmptyEntries);
                 if (parts.Length != 2) continue;
                 if (config.Values.ContainsKey(parts[0])) config.Values[parts[0]] = parts[1].Trim();
                 else config.unknown[parts[0]] = parts[1].Trim();
@@ -119,11 +118,33 @@ namespace Valiant2Config
         }
     }
 
+    internal sealed class DisplayMode
+    {
+        public int Width, Height, Bpp, Frequency;
+        public override string ToString() { return Width + " x " + Height + "  " + Bpp + " bit  " + Frequency + " Hz"; }
+    }
+
     internal sealed class ConfigForm : Form
     {
+        [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Ansi)]
+        private struct DevMode
+        {
+            [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 32)] public string DeviceName;
+            public short SpecVersion, DriverVersion, Size, DriverExtra;
+            public int Fields, PositionX, PositionY, DisplayOrientation, DisplayFixedOutput;
+            public short Color, Duplex, YResolution, TTOption, Collate;
+            [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 32)] public string FormName;
+            public short LogPixels;
+            public int BitsPerPel, PelsWidth, PelsHeight, DisplayFlags, DisplayFrequency, ICMMethod, ICMIntent, MediaType, DitherType, Reserved1, Reserved2, PanningWidth, PanningHeight;
+        }
+
+        [DllImport("user32.dll", CharSet = CharSet.Ansi)]
+        private static extern bool EnumDisplaySettings(string deviceName, int modeNum, ref DevMode devMode);
+
         private readonly string path;
         private readonly ClientConfig config;
         private readonly Dictionary<string, Control> editors = new Dictionary<string, Control>(StringComparer.OrdinalIgnoreCase);
+        private readonly ComboBox resolution = new ComboBox { DropDownStyle = ComboBoxStyle.DropDownList, Dock = DockStyle.Fill };
 
         public ConfigForm(string path)
         {
@@ -131,90 +152,136 @@ namespace Valiant2Config
             config = ClientConfig.Load(path);
             Text = "VALIANT2 Ayarları";
             StartPosition = FormStartPosition.CenterScreen;
-            MinimumSize = new Size(560, 560);
-            Size = new Size(680, 720);
+            MinimumSize = new Size(620, 600);
+            Size = new Size(760, 820);
             BuildInterface();
         }
 
         private void BuildInterface()
         {
-            var tabs = new TabControl { Dock = DockStyle.Fill };
-            foreach (var category in ClientConfig.Specs.Select(x => x.Category).Distinct())
-            {
-                var page = new TabPage(category) { AutoScroll = true };
-                var table = new TableLayoutPanel { AutoSize = true, AutoSizeMode = AutoSizeMode.GrowAndShrink, ColumnCount = 2, Dock = DockStyle.Top, Padding = new Padding(12) };
-                table.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 62));
-                table.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 38));
-                foreach (var spec in ClientConfig.Specs.Where(x => x.Category == category))
-                {
-                    var label = new Label { Text = spec.Label, AutoSize = true, Anchor = AnchorStyles.Left, Padding = new Padding(0, 7, 0, 0) };
-                    Control editor;
-                    if (spec.Text)
-                    {
-                        editor = new TextBox { Text = config.Values[spec.Key], MaxLength = 19, Dock = DockStyle.Fill };
-                    }
-                    else
-                    {
-                        decimal value;
-                        decimal.TryParse(config.Values[spec.Key], NumberStyles.Float, CultureInfo.InvariantCulture, out value);
-                        var numeric = new NumericUpDown { Minimum = spec.Minimum, Maximum = spec.Maximum, Increment = spec.Increment, DecimalPlaces = spec.Decimals, Dock = DockStyle.Fill, ThousandsSeparator = false };
-                        numeric.Value = Math.Min(spec.Maximum, Math.Max(spec.Minimum, value));
-                        editor = numeric;
-                    }
-                    editor.Tag = spec;
-                    editors[spec.Key] = editor;
-                    table.Controls.Add(label);
-                    table.Controls.Add(editor);
-                }
-                page.Controls.Add(table);
-                tabs.TabPages.Add(page);
-            }
+            var panel = new Panel { Dock = DockStyle.Fill, AutoScroll = true };
+            var table = new TableLayoutPanel { AutoSize = true, AutoSizeMode = AutoSizeMode.GrowAndShrink, ColumnCount = 2, Dock = DockStyle.Top, Padding = new Padding(16) };
+            table.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 58));
+            table.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 42));
+            AddHeading(table, "Ekran");
+            AddRow(table, "Çözünürlük", resolution);
+            LoadDisplayModes();
 
-            var buttons = new FlowLayoutPanel { Dock = DockStyle.Bottom, Height = 48, FlowDirection = FlowDirection.RightToLeft, Padding = new Padding(8) };
-            var save = new Button { Text = "Kaydet", Width = 100 };
-            var cancel = new Button { Text = "İptal", Width = 100 };
-            var defaults = new Button { Text = "Varsayılanlar", Width = 110 };
+            string category = null;
+            foreach (var spec in ClientConfig.Specs.Where(x => !new[] { "WIDTH", "HEIGHT", "BPP", "FREQUENCY" }.Contains(x.Key)))
+            {
+                if (category != spec.Category) { category = spec.Category; AddHeading(table, category); }
+                Control editor;
+                if (spec.Text)
+                {
+                    editor = new TextBox { Text = config.Values[spec.Key], MaxLength = 19, Dock = DockStyle.Fill };
+                }
+                else if (spec.Minimum == 0 && spec.Maximum == 1 && spec.Decimals == 0)
+                {
+                    var check = new CheckBox { Checked = config.Values[spec.Key] == "1", AutoSize = true, Text = config.Values[spec.Key] == "1" ? "Açık" : "Kapalı", Anchor = AnchorStyles.Left };
+                    check.CheckedChanged += (s, e) => check.Text = check.Checked ? "Açık" : "Kapalı";
+                    editor = check;
+                }
+                else
+                {
+                    var combo = new ComboBox { DropDownStyle = ComboBoxStyle.DropDownList, Dock = DockStyle.Fill };
+                    foreach (var value in Choices(spec)) combo.Items.Add(value);
+                    var selected = combo.Items.Cast<string>().ToList().FindIndex(x => x == Normalize(config.Values[spec.Key], spec.Decimals));
+                    combo.SelectedIndex = selected >= 0 ? selected : 0;
+                    editor = combo;
+                }
+                editors[spec.Key] = editor;
+                AddRow(table, spec.Label, editor);
+            }
+            panel.Controls.Add(table);
+
+            var buttons = new FlowLayoutPanel { Dock = DockStyle.Bottom, Height = 50, FlowDirection = FlowDirection.RightToLeft, Padding = new Padding(8) };
+            var save = new Button { Text = "Kaydet", Width = 105 };
+            var cancel = new Button { Text = "İptal", Width = 105 };
+            var defaults = new Button { Text = "Varsayılanlar", Width = 115 };
             save.Click += SaveClick;
             cancel.Click += (s, e) => Close();
             defaults.Click += DefaultsClick;
-            buttons.Controls.Add(save);
-            buttons.Controls.Add(cancel);
-            buttons.Controls.Add(defaults);
-            Controls.Add(tabs);
-            Controls.Add(buttons);
+            buttons.Controls.Add(save); buttons.Controls.Add(cancel); buttons.Controls.Add(defaults);
+            Controls.Add(panel); Controls.Add(buttons);
+        }
+
+        private static void AddHeading(TableLayoutPanel table, string text)
+        {
+            var label = new Label { Text = text, Font = new Font(SystemFonts.MessageBoxFont, FontStyle.Bold), AutoSize = true, Padding = new Padding(0, 12, 0, 4) };
+            table.Controls.Add(label); table.SetColumnSpan(label, 2);
+        }
+
+        private static void AddRow(TableLayoutPanel table, string text, Control control)
+        {
+            table.Controls.Add(new Label { Text = text, AutoSize = true, Anchor = AnchorStyles.Left, Padding = new Padding(0, 6, 0, 0) });
+            table.Controls.Add(control);
+        }
+
+        private void LoadDisplayModes()
+        {
+            var modes = new List<DisplayMode>();
+            var dev = new DevMode();
+            dev.Size = (short)Marshal.SizeOf(typeof(DevMode));
+            for (var i = 0; EnumDisplaySettings(null, i, ref dev); i++)
+            {
+                if (dev.PelsWidth < 800 || dev.PelsHeight < 600 || (dev.BitsPerPel != 16 && dev.BitsPerPel != 32)) continue;
+                if (!modes.Any(x => x.Width == dev.PelsWidth && x.Height == dev.PelsHeight && x.Bpp == dev.BitsPerPel && x.Frequency == dev.DisplayFrequency))
+                    modes.Add(new DisplayMode { Width = dev.PelsWidth, Height = dev.PelsHeight, Bpp = dev.BitsPerPel, Frequency = dev.DisplayFrequency });
+            }
+            modes = modes.OrderBy(x => x.Width).ThenBy(x => x.Height).ThenBy(x => x.Bpp).ThenBy(x => x.Frequency).ToList();
+            foreach (var mode in modes) resolution.Items.Add(mode);
+            var selected = modes.FindIndex(x => x.Width.ToString() == config.Values["WIDTH"] && x.Height.ToString() == config.Values["HEIGHT"] && x.Bpp.ToString() == config.Values["BPP"] && x.Frequency.ToString() == config.Values["FREQUENCY"]);
+            if (selected < 0) selected = modes.FindIndex(x => x.Width.ToString() == config.Values["WIDTH"] && x.Height.ToString() == config.Values["HEIGHT"] && x.Bpp.ToString() == config.Values["BPP"]);
+            if (resolution.Items.Count > 0) resolution.SelectedIndex = selected >= 0 ? selected : 0;
+        }
+
+        private static IEnumerable<string> Choices(SettingSpec spec)
+        {
+            if (spec.Key == "ENTITY_SHOW_DISTANCE") return new[] { "2500", "4500", "6500" };
+            var values = new List<string>();
+            for (var value = spec.Minimum; value <= spec.Maximum; value += spec.Increment) values.Add(value.ToString("F" + spec.Decimals, CultureInfo.InvariantCulture));
+            return values;
+        }
+
+        private static string Normalize(string value, int decimals)
+        {
+            decimal number;
+            return decimal.TryParse(value, NumberStyles.Float, CultureInfo.InvariantCulture, out number) ? number.ToString("F" + decimals, CultureInfo.InvariantCulture) : value;
         }
 
         private void DefaultsClick(object sender, EventArgs e)
         {
-            foreach (var spec in ClientConfig.Specs) SetEditorValue(spec, spec.Default);
+            foreach (var spec in ClientConfig.Specs.Where(x => editors.ContainsKey(x.Key))) SetEditor(spec, spec.Default);
+            var mode = resolution.Items.Cast<DisplayMode>().ToList().FindIndex(x => x.Width == 1280 && x.Height == 720 && x.Bpp == 32);
+            if (mode >= 0) resolution.SelectedIndex = mode;
         }
 
-        private void SetEditorValue(SettingSpec spec, string value)
+        private void SetEditor(SettingSpec spec, string value)
         {
             var text = editors[spec.Key] as TextBox;
             if (text != null) { text.Text = value; return; }
-            decimal number;
-            decimal.TryParse(value, NumberStyles.Float, CultureInfo.InvariantCulture, out number);
-            ((NumericUpDown)editors[spec.Key]).Value = Math.Min(spec.Maximum, Math.Max(spec.Minimum, number));
+            var check = editors[spec.Key] as CheckBox;
+            if (check != null) { check.Checked = value == "1"; return; }
+            var combo = (ComboBox)editors[spec.Key];
+            var index = combo.Items.Cast<string>().ToList().FindIndex(x => x == Normalize(value, spec.Decimals));
+            combo.SelectedIndex = index >= 0 ? index : 0;
         }
 
         private void SaveClick(object sender, EventArgs e)
         {
-            foreach (var spec in ClientConfig.Specs)
+            var mode = resolution.SelectedItem as DisplayMode;
+            if (mode == null) { MessageBox.Show("Geçerli bir çözünürlük seçin."); return; }
+            config.Values["WIDTH"] = mode.Width.ToString(); config.Values["HEIGHT"] = mode.Height.ToString();
+            config.Values["BPP"] = mode.Bpp.ToString(); config.Values["FREQUENCY"] = mode.Frequency.ToString();
+            foreach (var spec in ClientConfig.Specs.Where(x => editors.ContainsKey(x.Key)))
             {
                 var text = editors[spec.Key] as TextBox;
-                config.Values[spec.Key] = text != null ? (text.Text.Trim().Length == 0 ? "0" : text.Text.Trim()) : ((NumericUpDown)editors[spec.Key]).Value.ToString("F" + spec.Decimals, CultureInfo.InvariantCulture);
+                var check = editors[spec.Key] as CheckBox;
+                config.Values[spec.Key] = text != null ? (text.Text.Trim().Length == 0 ? "0" : text.Text.Trim()) : check != null ? (check.Checked ? "1" : "0") : ((ComboBox)editors[spec.Key]).SelectedItem.ToString();
             }
-            try
-            {
-                config.Save(path);
-                MessageBox.Show("Ayarlar kaydedildi.", "VALIANT2", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                Close();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "VALIANT2", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            try { config.Save(path); MessageBox.Show("Ayarlar kaydedildi.", "VALIANT2", MessageBoxButtons.OK, MessageBoxIcon.Information); Close(); }
+            catch (Exception ex) { MessageBox.Show(ex.Message, "VALIANT2", MessageBoxButtons.OK, MessageBoxIcon.Error); }
         }
     }
 }
