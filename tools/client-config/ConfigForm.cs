@@ -212,6 +212,24 @@ namespace Valiant2Config
         protected override void OnMouseUp(MouseEventArgs e) { dragging = false; Capture = false; }
     }
 
+    internal sealed class BufferedPanel : Panel
+    {
+        public BufferedPanel()
+        {
+            SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.UserPaint | ControlStyles.OptimizedDoubleBuffer | ControlStyles.ResizeRedraw, true);
+            UpdateStyles();
+        }
+    }
+
+    internal sealed class BufferedTable : TableLayoutPanel
+    {
+        public BufferedTable()
+        {
+            SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.UserPaint | ControlStyles.OptimizedDoubleBuffer | ControlStyles.ResizeRedraw, true);
+            UpdateStyles();
+        }
+    }
+
     internal sealed class ConfigForm : Form
     {
         [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Ansi)]
@@ -236,6 +254,16 @@ namespace Valiant2Config
         private readonly Dictionary<string, Control> editors = new Dictionary<string, Control>(StringComparer.OrdinalIgnoreCase);
         private readonly DarkChoice resolution = new DarkChoice { Dock = DockStyle.Fill };
 
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                var parameters = base.CreateParams;
+                parameters.ExStyle |= 0x02000000;
+                return parameters;
+            }
+        }
+
         public ConfigForm(string path)
         {
             this.path = path;
@@ -249,14 +277,16 @@ namespace Valiant2Config
             BackColor = Color.FromArgb(18, 16, 14);
             ForeColor = Color.FromArgb(218, 204, 170);
             Font = new Font("Georgia", 9F);
+            DoubleBuffered = true;
+            SetStyle(ControlStyles.AllPaintingInWmPaint | ControlStyles.OptimizedDoubleBuffer | ControlStyles.ResizeRedraw, true);
             BuildInterface();
         }
 
         private void BuildInterface()
         {
-            var panel = new Panel { Dock = DockStyle.Fill, AutoScroll = false, BackColor = Color.FromArgb(18, 16, 14) };
+            var panel = new BufferedPanel { Dock = DockStyle.Fill, AutoScroll = false, BackColor = Color.FromArgb(18, 16, 14) };
             var scroll = new DarkScrollBar { Dock = DockStyle.Right };
-            var table = new TableLayoutPanel { AutoSize = true, AutoSizeMode = AutoSizeMode.GrowAndShrink, ColumnCount = 2, Width = ClientSize.Width - 32, Padding = new Padding(22), BackColor = Color.FromArgb(18, 16, 14), ForeColor = Color.FromArgb(218, 204, 170) };
+            var table = new BufferedTable { AutoSize = true, AutoSizeMode = AutoSizeMode.GrowAndShrink, ColumnCount = 2, Width = ClientSize.Width - 32, Padding = new Padding(22), BackColor = Color.FromArgb(18, 16, 14), ForeColor = Color.FromArgb(218, 204, 170) };
             table.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 58));
             table.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 42));
             AddHeading(table, "Ekran");
@@ -297,7 +327,7 @@ namespace Valiant2Config
             scroll.ValueChanged += (s, e) => table.Top = -scroll.Value;
             panel.Resize += (s, e) => syncScroll();
             table.SizeChanged += (s, e) => syncScroll();
-            panel.MouseWheel += (s, e) => scroll.Value -= e.Delta / 3;
+            panel.MouseWheel += (s, e) => scroll.Value -= e.Delta / 6;
 
             var buttons = new FlowLayoutPanel { Dock = DockStyle.Bottom, Height = 58, FlowDirection = FlowDirection.RightToLeft, Padding = new Padding(10), BackColor = Color.FromArgb(29, 24, 20) };
             var save = new Button { Text = "KAYDET", Width = 110, Height = 34 };
