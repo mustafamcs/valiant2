@@ -166,36 +166,20 @@ namespace Valiant2Config
             }
             if ((DateTime.UtcNow - lastPopupClosed).TotalMilliseconds < 150) return;
             var form = FindForm(); if (form == null) return;
-            var page = selectedIndex < 0 ? 0 : selectedIndex / 12;
-            var width = Math.Max(Width, 220); var rows = Math.Min(12, Math.Max(1, Items.Count));
-            var current = new Panel { Size = new Size(width, rows * 29 + 32), BackColor = Color.FromArgb(20, 17, 15) };
+            var width = Math.Max(Width, 220);
+            var availableHeight = Math.Max(120, form.ClientSize.Height - 44);
+            var rowHeight = Math.Min(29, Math.Max(20, availableHeight / Math.Max(1, Items.Count)));
+            var current = new Panel { Size = new Size(width, rowHeight * Math.Max(1, Items.Count)), BackColor = Color.FromArgb(20, 17, 15) };
             var point = form.PointToClient(PointToScreen(new Point(0, Height)));
-            current.Location = new Point(Math.Max(2, Math.Min(point.X, form.ClientSize.Width - width - 2)), point.Y + current.Height <= form.ClientSize.Height ? point.Y : Math.Max(40, point.Y - current.Height - Height));
+            current.Location = new Point(Math.Max(2, Math.Min(point.X, form.ClientSize.Width - width - 2)), point.Y + current.Height <= form.ClientSize.Height ? point.Y : Math.Max(40, form.ClientSize.Height - current.Height - 2));
             popup = current;
             Action close = () => { if (popup != current) return; popup = null; form.Controls.Remove(current); current.Dispose(); lastPopupClosed = DateTime.UtcNow; Invalidate(); Focus(); };
-            Action build = null;
-            build = () =>
+            for (var i = Items.Count - 1; i >= 0; i--)
             {
-                current.Controls.Clear(); var start = page * 12; var end = Math.Min(Items.Count, start + 12);
-                var footer = new Panel { Dock = DockStyle.Bottom, Height = 32, BackColor = Color.FromArgb(29, 24, 20) };
-                var closeButton = PopupButton("×", DockStyle.Right, 46); closeButton.BackColor = Color.FromArgb(87, 27, 24); closeButton.Click += (s, e) => close(); footer.Controls.Add(closeButton);
-                if (Items.Count > 12)
-                {
-                    var previous = PopupButton("‹", DockStyle.Left, 46); var next = PopupButton("›", DockStyle.Right, 46);
-                    var pageText = new Label { Dock = DockStyle.Fill, Text = (page + 1) + " / " + Math.Ceiling(Items.Count / 12.0), TextAlign = ContentAlignment.MiddleCenter, ForeColor = Color.FromArgb(218, 174, 76), Font = new Font("Georgia", 9F, FontStyle.Bold) };
-                    previous.Click += (s, e) => { page = (page - 1 + (int)Math.Ceiling(Items.Count / 12.0)) % (int)Math.Ceiling(Items.Count / 12.0); build(); };
-                    next.Click += (s, e) => { page = (page + 1) % (int)Math.Ceiling(Items.Count / 12.0); build(); };
-                    footer.Controls.Add(pageText); footer.Controls.Add(previous); footer.Controls.Add(next);
-                }
-                current.Controls.Add(footer);
-                for (var i = end - 1; i >= start; i--)
-                {
-                    var index = i; var item = PopupButton(Items[i].ToString(), DockStyle.Top, width); item.Height = 29; item.TextAlign = ContentAlignment.MiddleLeft; item.BackColor = i == selectedIndex ? Color.FromArgb(105, 35, 31) : Color.FromArgb(39, 33, 28);
-                    item.Click += (s, e) => { SelectedIndex = index; close(); }; current.Controls.Add(item);
-                }
-                current.BringToFront();
-            };
-            form.Controls.Add(current); build();
+                var index = i; var item = PopupButton(Items[i].ToString(), DockStyle.Top, width); item.Height = rowHeight; item.TextAlign = ContentAlignment.MiddleLeft; item.BackColor = i == selectedIndex ? Color.FromArgb(105, 35, 31) : Color.FromArgb(39, 33, 28);
+                item.Click += (s, e) => { SelectedIndex = index; close(); }; current.Controls.Add(item);
+            }
+            form.Controls.Add(current); current.BringToFront();
         }
 
         private static Button PopupButton(string text, DockStyle dock, int width)
