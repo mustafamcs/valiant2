@@ -139,21 +139,30 @@ namespace Valiant2Config
             FormBorderStyle = FormBorderStyle.None; StartPosition = FormStartPosition.Manual; ShowInTaskbar = false; TopMost = true;
             BackColor = Color.FromArgb(20, 17, 15);
             var rows = Math.Min(PageSize, Math.Max(1, items.Count));
-            ClientSize = new Size(Math.Max(itemWidth, 220) + 4, rows * 29 + (items.Count > PageSize ? 34 : 4));
+            ClientSize = new Size(Math.Max(itemWidth, 220) + 4, rows * 29 + 34);
             var area = Screen.FromPoint(location).WorkingArea;
             Location = new Point(Math.Max(area.Left, Math.Min(location.X, area.Right - Width)), location.Y + Height <= area.Bottom ? location.Y : Math.Max(area.Top, location.Y - Height - 28));
             list = new FlowLayoutPanel { Dock = DockStyle.Fill, FlowDirection = FlowDirection.TopDown, WrapContents = false, Padding = new Padding(2), BackColor = BackColor };
+            var footer = new Panel { Dock = DockStyle.Bottom, Height = 32, BackColor = Color.FromArgb(29, 24, 20) };
+            var close = PageButton("×", DockStyle.Right);
+            close.BackColor = Color.FromArgb(87, 27, 24); close.Click += (s, e) => { DialogResult = DialogResult.Cancel; Close(); };
+            pageLabel = new Label { Dock = DockStyle.Fill, TextAlign = ContentAlignment.MiddleCenter, ForeColor = Color.FromArgb(218, 174, 76), Font = new Font("Georgia", 9F, FontStyle.Bold) };
+            footer.Controls.Add(pageLabel); footer.Controls.Add(close);
             if (items.Count > PageSize)
             {
-                var footer = new Panel { Dock = DockStyle.Bottom, Height = 32, BackColor = Color.FromArgb(29, 24, 20) };
                 var previous = PageButton("‹", DockStyle.Left); var next = PageButton("›", DockStyle.Right);
-                pageLabel = new Label { Dock = DockStyle.Fill, TextAlign = ContentAlignment.MiddleCenter, ForeColor = Color.FromArgb(218, 174, 76), Font = new Font("Georgia", 9F, FontStyle.Bold) };
                 previous.Click += (s, e) => ChangePage(-1); next.Click += (s, e) => ChangePage(1);
-                footer.Controls.Add(pageLabel); footer.Controls.Add(previous); footer.Controls.Add(next); Controls.Add(footer);
+                footer.Controls.Add(previous); footer.Controls.Add(next);
             }
-            Controls.Add(list); BuildPage();
+            Controls.Add(footer); Controls.Add(list); BuildPage();
             MouseWheel += (s, e) => ChangePage(e.Delta > 0 ? -1 : 1);
             Deactivate += (s, e) => { if (DialogResult == DialogResult.None) { DialogResult = DialogResult.Cancel; Close(); } };
+        }
+
+        protected override bool ProcessCmdKey(ref Message message, Keys keyData)
+        {
+            if (keyData == Keys.Escape) { DialogResult = DialogResult.Cancel; Close(); return true; }
+            return base.ProcessCmdKey(ref message, keyData);
         }
 
         private Button PageButton(string text, DockStyle dock)
