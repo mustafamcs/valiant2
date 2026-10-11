@@ -124,6 +124,17 @@ namespace Valiant2Config
         public override string ToString() { return Width + " x " + Height + "  " + Bpp + " bit  " + Frequency + " Hz"; }
     }
 
+    internal sealed class DarkMenuColors : ProfessionalColorTable
+    {
+        public override Color ToolStripDropDownBackground { get { return Color.FromArgb(29, 24, 20); } }
+        public override Color MenuItemSelected { get { return Color.FromArgb(105, 35, 31); } }
+        public override Color MenuItemBorder { get { return Color.FromArgb(180, 136, 51); } }
+        public override Color ImageMarginGradientBegin { get { return Color.FromArgb(29, 24, 20); } }
+        public override Color ImageMarginGradientMiddle { get { return Color.FromArgb(29, 24, 20); } }
+        public override Color ImageMarginGradientEnd { get { return Color.FromArgb(29, 24, 20); } }
+        public override Color ToolStripBorder { get { return Color.FromArgb(145, 108, 43); } }
+    }
+
     internal sealed class DarkChoice : Control
     {
         public readonly List<object> Items = new List<object>();
@@ -146,15 +157,29 @@ namespace Valiant2Config
             using (var arrowBackground = new SolidBrush(Color.FromArgb(54, 42, 31))) e.Graphics.FillRectangle(arrowBackground, Width - arrowWidth, 1, arrowWidth - 1, Height - 2);
             using (var separator = new Pen(Color.FromArgb(116, 88, 43))) e.Graphics.DrawLine(separator, Width - arrowWidth, 1, Width - arrowWidth, Height - 2);
             TextRenderer.DrawText(e.Graphics, SelectedItem == null ? "" : SelectedItem.ToString(), Font, new Rectangle(10, 0, Width - arrowWidth - 12, Height), ForeColor, TextFormatFlags.Left | TextFormatFlags.VerticalCenter | TextFormatFlags.EndEllipsis);
-            TextRenderer.DrawText(e.Graphics, "‹", new Font("Georgia", 12, FontStyle.Bold), new Rectangle(Width - 33, 0, 15, Height), Color.FromArgb(218, 174, 76), TextFormatFlags.HorizontalCenter | TextFormatFlags.VerticalCenter);
-            TextRenderer.DrawText(e.Graphics, "›", new Font("Georgia", 12, FontStyle.Bold), new Rectangle(Width - 17, 0, 15, Height), Color.FromArgb(218, 174, 76), TextFormatFlags.HorizontalCenter | TextFormatFlags.VerticalCenter);
+            TextRenderer.DrawText(e.Graphics, "▼", new Font("Segoe UI Symbol", 8, FontStyle.Bold), new Rectangle(Width - arrowWidth, 0, arrowWidth, Height), Color.FromArgb(218, 174, 76), TextFormatFlags.HorizontalCenter | TextFormatFlags.VerticalCenter);
         }
 
         protected override void OnMouseDown(MouseEventArgs e)
         {
             base.OnMouseDown(e); Focus();
-            if (Items.Count == 0) return;
-            SelectedIndex = e.X < Width - 17 ? (selectedIndex <= 0 ? Items.Count - 1 : selectedIndex - 1) : (selectedIndex + 1) % Items.Count;
+            if (Items.Count == 0 || e.Button != MouseButtons.Left) return;
+            ShowDropDown();
+        }
+
+        private void ShowDropDown()
+        {
+            var menu = new ContextMenuStrip { BackColor = Color.FromArgb(29, 24, 20), ForeColor = Color.FromArgb(232, 216, 180), Font = Font, ShowImageMargin = false, Renderer = new ToolStripProfessionalRenderer(new DarkMenuColors()) };
+            menu.MinimumSize = new Size(Width, 0);
+            for (var i = 0; i < Items.Count; i++)
+            {
+                var index = i;
+                var item = new ToolStripMenuItem(Items[i].ToString()) { BackColor = Color.FromArgb(29, 24, 20), ForeColor = Color.FromArgb(232, 216, 180), Checked = i == selectedIndex, CheckOnClick = false, AutoSize = false, Width = Math.Max(Width - 4, 120), Height = 27 };
+                item.Click += (s, e) => SelectedIndex = index;
+                menu.Items.Add(item);
+            }
+            menu.Closed += (s, e) => menu.Dispose();
+            menu.Show(this, new Point(0, Height));
         }
 
         protected override void OnMouseWheel(MouseEventArgs e)
@@ -163,54 +188,14 @@ namespace Valiant2Config
             SelectedIndex = e.Delta > 0 ? (selectedIndex <= 0 ? Items.Count - 1 : selectedIndex - 1) : (selectedIndex + 1) % Items.Count;
         }
 
-        protected override bool IsInputKey(Keys keyData) { return keyData == Keys.Left || keyData == Keys.Right || base.IsInputKey(keyData); }
+        protected override bool IsInputKey(Keys keyData) { return keyData == Keys.Up || keyData == Keys.Down || keyData == Keys.Enter || keyData == Keys.Space || base.IsInputKey(keyData); }
         protected override void OnKeyDown(KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Left) OnMouseWheel(new MouseEventArgs(MouseButtons.None, 0, 0, 0, 120));
-            else if (e.KeyCode == Keys.Right) OnMouseWheel(new MouseEventArgs(MouseButtons.None, 0, 0, 0, -120));
+            if (e.KeyCode == Keys.Up) OnMouseWheel(new MouseEventArgs(MouseButtons.None, 0, 0, 0, 120));
+            else if (e.KeyCode == Keys.Down) OnMouseWheel(new MouseEventArgs(MouseButtons.None, 0, 0, 0, -120));
+            else if (e.KeyCode == Keys.Enter || e.KeyCode == Keys.Space) ShowDropDown();
             else base.OnKeyDown(e);
         }
-    }
-
-    internal sealed class DarkScrollBar : Control
-    {
-        private int value, maximum, viewport, dragOffset;
-        private bool dragging;
-        public event EventHandler ValueChanged;
-        public int Value { get { return value; } set { var next = Math.Max(0, Math.Min(value, Math.Max(0, maximum - viewport))); if (this.value == next) return; this.value = next; Invalidate(); if (ValueChanged != null) ValueChanged(this, EventArgs.Empty); } }
-        public int Maximum { get { return maximum; } set { maximum = Math.Max(0, value); Value = this.value; Invalidate(); } }
-        public int Viewport { get { return viewport; } set { viewport = Math.Max(1, value); Value = this.value; Invalidate(); } }
-
-        public DarkScrollBar() { Width = 18; DoubleBuffered = true; BackColor = Color.FromArgb(20, 17, 15); }
-        private Rectangle Thumb
-        {
-            get
-            {
-                var track = Math.Max(1, Height - 8); var size = maximum <= viewport ? track : Math.Max(42, track * viewport / maximum);
-                var range = Math.Max(1, maximum - viewport); var top = 4 + (track - size) * value / range;
-                return new Rectangle(4, top, Width - 8, size);
-            }
-        }
-        protected override void OnPaint(PaintEventArgs e)
-        {
-            using (var line = new Pen(Color.FromArgb(81, 60, 31))) e.Graphics.DrawLine(line, Width / 2, 4, Width / 2, Height - 4);
-            var thumb = Thumb;
-            using (var fill = new SolidBrush(Color.FromArgb(105, 35, 31))) e.Graphics.FillRectangle(fill, thumb);
-            using (var border = new Pen(Color.FromArgb(196, 148, 55))) e.Graphics.DrawRectangle(border, thumb.X, thumb.Y, thumb.Width - 1, thumb.Height - 1);
-        }
-        protected override void OnMouseDown(MouseEventArgs e)
-        {
-            var thumb = Thumb;
-            if (thumb.Contains(e.Location)) { dragging = true; dragOffset = e.Y - thumb.Y; Capture = true; }
-            else Value += e.Y < thumb.Y ? -viewport : viewport;
-        }
-        protected override void OnMouseMove(MouseEventArgs e)
-        {
-            if (!dragging) return;
-            var track = Math.Max(1, Height - 8); var size = Thumb.Height; var pixels = Math.Max(1, track - size);
-            Value = (e.Y - 4 - dragOffset) * Math.Max(0, maximum - viewport) / pixels;
-        }
-        protected override void OnMouseUp(MouseEventArgs e) { dragging = false; Capture = false; }
     }
 
     internal sealed class BufferedPanel : Panel
@@ -271,8 +256,8 @@ namespace Valiant2Config
             StartPosition = FormStartPosition.CenterScreen;
             FormBorderStyle = FormBorderStyle.None;
             Padding = new Padding(2);
-            MinimumSize = new Size(680, 560);
-            Size = new Size(720, 620);
+            MinimumSize = new Size(680, 700);
+            Size = new Size(720, 760);
             BackColor = Color.FromArgb(18, 16, 14);
             ForeColor = Color.FromArgb(218, 204, 170);
             Font = new Font("Georgia", 9F);
@@ -284,8 +269,7 @@ namespace Valiant2Config
         private void BuildInterface()
         {
             var panel = new BufferedPanel { Dock = DockStyle.Fill, AutoScroll = false, BackColor = Color.FromArgb(18, 16, 14) };
-            var scroll = new DarkScrollBar { Dock = DockStyle.Right };
-            var table = new BufferedTable { AutoSize = true, AutoSizeMode = AutoSizeMode.GrowAndShrink, ColumnCount = 2, Width = ClientSize.Width - 32, Padding = new Padding(22), BackColor = Color.FromArgb(18, 16, 14), ForeColor = Color.FromArgb(218, 204, 170) };
+            var table = new BufferedTable { AutoSize = true, AutoSizeMode = AutoSizeMode.GrowAndShrink, ColumnCount = 2, Dock = DockStyle.Top, Padding = new Padding(22), BackColor = Color.FromArgb(18, 16, 14), ForeColor = Color.FromArgb(218, 204, 170) };
             table.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 58));
             table.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 42));
             AddHeading(table, "Ekran");
@@ -323,12 +307,6 @@ namespace Valiant2Config
                 AddRow(table, spec.Label, editor);
             }
             panel.Controls.Add(table);
-            panel.Controls.Add(scroll);
-            Action syncScroll = () => { scroll.Maximum = table.Height; scroll.Viewport = panel.ClientSize.Height; scroll.Visible = table.Height > panel.ClientSize.Height; if (!scroll.Visible) scroll.Value = 0; table.Top = -scroll.Value; table.Width = Math.Max(300, panel.ClientSize.Width - (scroll.Visible ? scroll.Width : 0)); };
-            scroll.ValueChanged += (s, e) => table.Top = -scroll.Value;
-            panel.Resize += (s, e) => syncScroll();
-            table.SizeChanged += (s, e) => syncScroll();
-            panel.MouseWheel += (s, e) => scroll.Value -= e.Delta / 3;
 
             var buttons = new FlowLayoutPanel { Dock = DockStyle.Bottom, Height = 58, FlowDirection = FlowDirection.RightToLeft, Padding = new Padding(10), BackColor = Color.FromArgb(29, 24, 20) };
             var save = new Button { Text = "KAYDET", Width = 110, Height = 34 };
