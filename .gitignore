@@ -4,6 +4,15 @@
 artifacts/
 logs/
 *.log
+runtime/client/metin2.cfg
+runtime/client/interface.cfg
+runtime/client/mouse.cfg
+runtime/client/channel.inf
+runtime/client/003254
+runtime/client/BGM/lastplay.inf
+runtime/client/UserData/
+runtime/client/mark/
+runtime/client/upload/
 runtime/client/syserr/
 runtime/client/GPUCache/
 runtime/client/screenshot/
