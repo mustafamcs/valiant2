@@ -41,4 +41,4 @@ if ($LASTEXITCODE -ne 0) { throw "Git LFS download failed with code $LASTEXITCOD
 & (Join-Path $root 'scripts\windows\setup-database.ps1')
 & (Join-Path $root 'scripts\windows\build-all.ps1')
 Write-Host 'VALIANT2 setup completed.'
-Write-Host 'Start the server with scripts\windows\start-server.cmd and the client with runtime\client\M2Client.exe.'
+Write-Host 'Start the server with scripts\windows\start-server.cmd and the client with runtime\client\VALIANT2.exe.'
