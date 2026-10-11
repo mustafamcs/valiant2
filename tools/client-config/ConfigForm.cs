@@ -126,31 +126,58 @@ namespace Valiant2Config
 
     internal sealed class ChoicePopup : Form
     {
+        private const int PageSize = 12;
+        private readonly IList<object> items;
+        private readonly FlowLayoutPanel list;
+        private readonly Label pageLabel;
+        private int page;
         public int SelectedIndex = -1;
 
         public ChoicePopup(IList<object> items, int selectedIndex, Point location, int itemWidth)
         {
-            FormBorderStyle = FormBorderStyle.None;
-            StartPosition = FormStartPosition.Manual;
-            ShowInTaskbar = false;
-            TopMost = true;
+            this.items = items; SelectedIndex = selectedIndex; page = selectedIndex < 0 ? 0 : selectedIndex / PageSize;
+            FormBorderStyle = FormBorderStyle.None; StartPosition = FormStartPosition.Manual; ShowInTaskbar = false; TopMost = true;
             BackColor = Color.FromArgb(20, 17, 15);
-            var rows = Math.Min(16, Math.Max(1, items.Count));
-            var columns = (int)Math.Ceiling(items.Count / (double)rows);
-            ClientSize = new Size(Math.Max(itemWidth, 180) * columns + 4, rows * 29 + 4);
-            Location = location;
-            var layout = new FlowLayoutPanel { Dock = DockStyle.Fill, FlowDirection = FlowDirection.TopDown, WrapContents = true, Padding = new Padding(2), BackColor = BackColor };
-            for (var i = 0; i < items.Count; i++)
+            var rows = Math.Min(PageSize, Math.Max(1, items.Count));
+            ClientSize = new Size(Math.Max(itemWidth, 220) + 4, rows * 29 + (items.Count > PageSize ? 34 : 4));
+            var area = Screen.FromPoint(location).WorkingArea;
+            Location = new Point(Math.Max(area.Left, Math.Min(location.X, area.Right - Width)), location.Y + Height <= area.Bottom ? location.Y : Math.Max(area.Top, location.Y - Height - 28));
+            list = new FlowLayoutPanel { Dock = DockStyle.Fill, FlowDirection = FlowDirection.TopDown, WrapContents = false, Padding = new Padding(2), BackColor = BackColor };
+            if (items.Count > PageSize)
+            {
+                var footer = new Panel { Dock = DockStyle.Bottom, Height = 32, BackColor = Color.FromArgb(29, 24, 20) };
+                var previous = PageButton("‹", DockStyle.Left); var next = PageButton("›", DockStyle.Right);
+                pageLabel = new Label { Dock = DockStyle.Fill, TextAlign = ContentAlignment.MiddleCenter, ForeColor = Color.FromArgb(218, 174, 76), Font = new Font("Georgia", 9F, FontStyle.Bold) };
+                previous.Click += (s, e) => ChangePage(-1); next.Click += (s, e) => ChangePage(1);
+                footer.Controls.Add(pageLabel); footer.Controls.Add(previous); footer.Controls.Add(next); Controls.Add(footer);
+            }
+            Controls.Add(list); BuildPage();
+            MouseWheel += (s, e) => ChangePage(e.Delta > 0 ? -1 : 1);
+            Deactivate += (s, e) => { if (DialogResult == DialogResult.None) { DialogResult = DialogResult.Cancel; Close(); } };
+        }
+
+        private Button PageButton(string text, DockStyle dock)
+        {
+            var button = new Button { Text = text, Dock = dock, Width = 48, FlatStyle = FlatStyle.Flat, BackColor = Color.FromArgb(54, 42, 31), ForeColor = Color.FromArgb(218, 174, 76), Font = new Font("Georgia", 13F, FontStyle.Bold) };
+            button.FlatAppearance.BorderColor = Color.FromArgb(116, 88, 43); return button;
+        }
+
+        private void ChangePage(int delta)
+        {
+            var count = Math.Max(1, (int)Math.Ceiling(items.Count / (double)PageSize)); page = (page + delta + count) % count; BuildPage();
+        }
+
+        private void BuildPage()
+        {
+            list.Controls.Clear(); var start = page * PageSize; var end = Math.Min(items.Count, start + PageSize);
+            for (var i = start; i < end; i++)
             {
                 var index = i;
-                var button = new Button { Text = items[i].ToString(), Width = Math.Max(itemWidth, 180) - 2, Height = 27, Margin = new Padding(0), FlatStyle = FlatStyle.Flat, BackColor = i == selectedIndex ? Color.FromArgb(105, 35, 31) : Color.FromArgb(39, 33, 28), ForeColor = Color.FromArgb(232, 216, 180), TextAlign = ContentAlignment.MiddleLeft, Font = new Font("Georgia", 9F) };
-                button.FlatAppearance.BorderColor = Color.FromArgb(116, 88, 43);
-                button.FlatAppearance.MouseOverBackColor = Color.FromArgb(105, 35, 31);
-                button.Click += (s, e) => { SelectedIndex = index; DialogResult = DialogResult.OK; Close(); };
-                layout.Controls.Add(button);
+                var button = new Button { Text = items[i].ToString(), Width = ClientSize.Width - 6, Height = 27, Margin = new Padding(0), FlatStyle = FlatStyle.Flat, BackColor = i == SelectedIndex ? Color.FromArgb(105, 35, 31) : Color.FromArgb(39, 33, 28), ForeColor = Color.FromArgb(232, 216, 180), TextAlign = ContentAlignment.MiddleLeft, Font = new Font("Georgia", 9F) };
+                button.FlatAppearance.BorderColor = Color.FromArgb(116, 88, 43); button.FlatAppearance.MouseOverBackColor = Color.FromArgb(105, 35, 31);
+                button.Click += (s, e) => { SelectedIndex = index; DialogResult = DialogResult.OK; Close(); }; list.Controls.Add(button);
             }
-            Controls.Add(layout);
-            Deactivate += (s, e) => { if (DialogResult == DialogResult.None) { DialogResult = DialogResult.Cancel; Close(); } };
+            if (pageLabel != null) pageLabel.Text = (page + 1) + " / " + Math.Max(1, (int)Math.Ceiling(items.Count / (double)PageSize));
         }
     }
 
