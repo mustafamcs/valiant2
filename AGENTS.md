@@ -144,7 +144,8 @@ Herkes  --------->  MariaDB 3306 (sadece localhost)
 
 - MariaDB (servis `MariaDB`), sadece localhost:3306. Bağlantı bilgileri `.env`'de.
 - DB'ler: `account`, `common`, `log`, `player` + panel DB (`PANEL_DB_DATABASE`).
-- Mob drop tabloları: `player.mob_drop_item` (1542 kayıt), sandık/special drop'lar paneldeki Sandik modülü üzerinden.
+- `database/bootstrap.sql` = 4 oyun DB'sinin şema+seed'i; `database/extra_tables.sql` = drop tabloları (drop_default 1542, drop_special_* 700+, drop_mob_*), biolog/fishevent/itemshop/offline_shop_sales view; `database/drop_seed.sql` = drop_default seed. Hepsi `setup-database.ps1` tarafından import edilir.
+- Panel DB (`valiant_panel`) `web\adminpanel\sql.sql`'den kurulur (users/settings/logs/item_icon vb.).
 - item_proto/mob_proto MySQL'de (txt değil).
 
 ## Tipik iş akışları
