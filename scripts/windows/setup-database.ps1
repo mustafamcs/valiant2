@@ -24,6 +24,19 @@ try {
     $sql = "CREATE USER IF NOT EXISTS '$($settings.MYSQL_USER)'@'localhost' IDENTIFIED BY '$($settings.MYSQL_PASSWORD)'; ALTER USER '$($settings.MYSQL_USER)'@'localhost' IDENTIFIED BY '$($settings.MYSQL_PASSWORD)'; GRANT ALL PRIVILEGES ON account.* TO '$($settings.MYSQL_USER)'@'localhost'; GRANT ALL PRIVILEGES ON common.* TO '$($settings.MYSQL_USER)'@'localhost'; GRANT ALL PRIVILEGES ON log.* TO '$($settings.MYSQL_USER)'@'localhost'; GRANT ALL PRIVILEGES ON player.* TO '$($settings.MYSQL_USER)'@'localhost'; FLUSH PRIVILEGES;"
     & $client.FullName --host=$($settings.MYSQL_HOST) --port=$($settings.MYSQL_PORT) --user=root --execute=$sql
     if ($LASTEXITCODE -ne 0) { throw "Database user setup failed with code $LASTEXITCODE." }
+
+    # Panel veritabani + kullanicisi (web\adminpanel\sql.sql)
+    $pdb = $settings.PANEL_DB_DATABASE; if (-not $pdb) { $pdb = 'valiant_panel' }
+    $puser = $settings.PANEL_DB_USER; if (-not $puser) { $puser = 'valiant_panel' }
+    $ppass = $settings.PANEL_DB_PASSWORD
+    $sql = "CREATE DATABASE IF NOT EXISTS ``$pdb`` CHARACTER SET utf8mb4; CREATE USER IF NOT EXISTS '$puser'@'localhost' IDENTIFIED BY '$ppass'; ALTER USER '$puser'@'localhost' IDENTIFIED BY '$ppass'; GRANT ALL PRIVILEGES ON ``$pdb``.* TO '$puser'@'localhost'; FLUSH PRIVILEGES;"
+    & $client.FullName --host=$($settings.MYSQL_HOST) --port=$($settings.MYSQL_PORT) --user=root --execute=$sql
+    if ($LASTEXITCODE -ne 0) { throw "Panel database setup failed with code $LASTEXITCODE." }
+    $panelSql = Join-Path $root 'web\adminpanel\sql.sql'
+    if (Test-Path $panelSql) {
+        Get-Content $panelSql -Raw | & $client.FullName --host=$($settings.MYSQL_HOST) --port=$($settings.MYSQL_PORT) --user=root $pdb
+        if ($LASTEXITCODE -ne 0) { throw "Panel schema import failed with code $LASTEXITCODE." }
+    }
 } finally {
     $env:MYSQL_PWD = $previousPassword
 }

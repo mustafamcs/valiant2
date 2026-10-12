@@ -6,10 +6,10 @@ use App\Controllers\BaseController;
 class Patch extends BaseController
 {
   public $viewFolder   = "";
-  private $patchDir    = "C:/patchserver/patch";
-  private $filesDir    = "C:/patchserver/patch/files";
-  private $listFile    = "C:/patchserver/patch/patchlist.json";
-  private $hashCache   = "C:/patchserver/patch/hashcache.json";
+  private $patchDir    = PatchRoot . "/patch";
+  private $filesDir    = PatchRoot . "/patch/files";
+  private $listFile    = PatchRoot . "/patch/patchlist.json";
+  private $hashCache   = PatchRoot . "/patch/hashcache.json";
 
   public function __construct()
   {
@@ -180,7 +180,7 @@ class Patch extends BaseController
     if (!IsAllowedViewModule('patchGorebilsin')) {
       return redirect()->to(base_url('YetkisizErisim'));
     }
-    $p = 'C:/patchserver/patcher/VALIANT2.exe';
+    $p = PatchRoot . '/patcher/VALIANT2.exe';
     if (is_file($p)) {
       return $this->response->download($p,null)->setFileName('VALIANT2.exe');
     }

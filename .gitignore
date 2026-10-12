@@ -72,3 +72,4 @@ Thumbs.db
 .DS_Store
 runtime/client/game/bin/syserr/
 web/adminpanel/writable/
+deploy/certs/

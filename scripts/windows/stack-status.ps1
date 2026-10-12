@@ -1,4 +1,7 @@
 # Tum servislerin saglik durumu: oyun portlari, panel, patch, nginx, izleyici.
+. (Join-Path $PSScriptRoot 'common.ps1')
+$settings = Get-EnvSettings
+$baseUrl = Get-PublicBase $settings
 $results = @()
 $tcp = {
     param($name, $port)
@@ -19,9 +22,9 @@ $results += & $tcp 'CH1 core4' 30009
 $results += & $tcp 'CH99' 30051
 $results += & $tcp 'P2P auth' 30002
 $results += & $tcp 'DB peer' 30000
-$results += & $http 'Panel' 'https://213.254.136.100/'
-$results += & $http 'Patch manifest' 'https://213.254.136.100/update/patchlist.json'
-$results += & $http 'Patcher exe' 'https://213.254.136.100/patcher/VALIANT2.exe'
+$results += & $http 'Panel' "$baseUrl/"
+$results += & $http 'Patch manifest' "$baseUrl/update/patchlist.json"
+$results += & $http 'Patcher exe' "$baseUrl/patcher/VALIANT2.exe"
 $nginx = Get-Process nginx -ErrorAction SilentlyContinue
 $results += [pscustomobject]@{ Servis = 'nginx'; Hedef = '443/80'; Durum = $(if ($nginx) { "Calisiyor ($($nginx.Count) proc)" } else { 'KAPALI' }) }
 $pw = Get-CimInstance Win32_Process -Filter "Name='pythonw.exe'" | Where-Object { $_.CommandLine -match 'patch_watch' }

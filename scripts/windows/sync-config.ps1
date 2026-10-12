@@ -28,6 +28,14 @@ Get-ChildItem $runtime -Recurse -File -Filter CONFIG | ForEach-Object {
     $text = $text -replace '(?m)^PLAYER_SQL:.*$', "PLAYER_SQL: $($settings.MYSQL_HOST) $($settings.MYSQL_USER) $($settings.MYSQL_PASSWORD) $playerDb $($settings.MYSQL_PORT)"
     $text = $text -replace '(?m)^ADMINPAGE_IP1:.*$', "ADMINPAGE_IP1: $($settings.ADMINPAGE_IP)"
     $text = $text -replace '(?m)^ADMINPAGE_PASSWORD:.*$', "ADMINPAGE_PASSWORD: $($settings.ADMINPAGE_PASSWORD)"
+    $bindIp = $settings.PUBLIC_IP; if (-not $bindIp) { $bindIp = $settings.CLIENT_SERVER_IP }
+    if ($bindIp) {
+        if ($text -match '(?m)^BIND_IP:') {
+            $text = $text -replace '(?m)^BIND_IP:.*$', "BIND_IP: $bindIp"
+        } else {
+            $text = $text.TrimEnd() + "`nBIND_IP: $bindIp`n"
+        }
+    }
     [IO.File]::WriteAllText($_.FullName, $text, [Text.UTF8Encoding]::new($false))
 }
 $serverInfoFiles = @(

@@ -42,7 +42,10 @@ Herkes  --------->  MariaDB 3306 (sadece localhost)
 | `assets\unpacked\create_*.bat` | FSArchiver ile .pak üretimi (örn. `create_root.bat` → `root.pak`) |
 | `tools\client-config` | `config.exe` kaynağı (game\bin\config.exe) |
 | `tools\client-launcher` | Eski launcher (artık kullanılmıyor, patcher aldı) |
-| `C:\patchserver` | Patch altyapısı (repo DIŞINDA) |
+| `patchserver\` | Patch altyapısı kaynakları (Patcher.cs — `@@BASE_URL@@` token'lı, file_server.py, patch_watch.py, src ikonlar). `setup.ps1`/`start-stack` bunu PATCH_ROOT'a dağıtır |
+| `deploy\nginx.conf.template` | Nginx şablonu — `__CERT_PEM__`/`__KEY_PEM__` setup'ta doldurulur |
+| `deploy\certs\` | setup.ps1'in ürettiği self-signed sertifika (git'e girmez) |
+| `C:\patchserver` | Patch deploy hedefi (`.env` PATCH_ROOT — `patchserver.json` burada, .py'ler ayarları ondan okur) |
 | `C:\patchserver\patch\files` | Oyunculara dağıtılan oyun dosyaları |
 | `C:\patchserver\patch\patchlist.json` | Manifest (version, base, files[path,size,sha256]) |
 | `C:\patchserver\patch\patcher.json` | Patcher self-update manifesti |
@@ -79,6 +82,8 @@ Herkes  --------->  MariaDB 3306 (sadece localhost)
 
 | Komut | Ne yapar |
 |---|---|
+| `common.ps1` | Paylaşılan yardımcılar — tüm scriptler `.env` okuma, php/pythonw/nginx bulma, PATCH_ROOT/PUBLIC_IP çözümü için bunu dot-source eder. Yeni script yazarken bunu kullan |
+| `setup.cmd` | **İlk kurulum** (yeni makine, tek komut): winget bağımlılıkları (Git/LFS/VS2022/PHP8.3/Python3.12/MariaDB), `.env` üretimi, nginx indir+conf+sertifika, patchserver dağıtımı, scheduled task `VALIANT2-Stack`, firewall kuralları, DB şema (oyun + panel), `build-all` + `build-patcher` |
 | `build-all.ps1 [-SkipPacks]` | config.exe + client sln + launcher + server sln + tüm pack'ler (MSBuild 2022) |
 | `build-client-packs.ps1` | `assets\unpacked\data` → runtime pack'leri (FSArchiver) |
 | `build-patcher.cmd` | `Patcher.cs` → VALIANT2.exe; runtime/client + patchserver'a kopyalar, patcher.json hash günceller |
@@ -127,6 +132,14 @@ Herkes  --------->  MariaDB 3306 (sadece localhost)
 - CSRF: POST'larda `csrf_token` alanı zorunlu; yeni controller'ları `app/Config/Filters.php`'deki CSRF whitelist'e gerekirse ekle.
 - `Routes.php` içinde `/` → `GirisYap::Index` açık.
 - Tüm panel işlemleri `LogAdd(...)` ile işlem kayıtlarına düşer.
+
+## Taşınabilirlik kuralları
+
+- Hiçbir script'te mutlak kullanıcı yolu veya sabit IP yazma: `common.ps1`'deki `Get-EnvSettings`/`Get-PublicBase`/`Get-PatchRoot`/`Get-PhpExe`/`Get-PythonwExe`/`Get-NginxExe` kullan.
+- `.env` değişkenleri: `PUBLIC_IP` (dış adres — panel/patch/BIND_IP için), `CLIENT_SERVER_IP` (client'ın bağlandığı), `PATCH_ROOT` (patch deploy dizini), `PANEL_BASE_URL`, `PANEL_DB_*`.
+- Patcher'daki `@@BASE_URL@@` ve nginx şablonundaki `__CERT_PEM__` token'ları build/setup sırasında doldurulur — elle yazma.
+- `sync-config.ps1` CONFIG'lere `BIND_IP: <PUBLIC_IP>` yazar (yoksa ekler) — IP değişince `sync-config` + `restart-server` yeterli.
+- Panel `PatchRoot` sabitini `Settings.php`'deki `PATCH_ROOT`'tan okur — controller'larda `PatchRoot . "/patch"` kullan.
 
 ## Veritabanı
 
