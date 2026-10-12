@@ -1,6 +1,6 @@
-SQL_ACCOUNT = "__FROM_ENV__"
-SQL_COMMON = "__FROM_ENV__"
-SQL_PLAYER = "__FROM_ENV__"
+SQL_ACCOUNT = "127.0.0.1 account lightwork lightymightybrocum 3306"
+SQL_COMMON = "127.0.0.1 common lightwork lightymightybrocum 3306"
+SQL_PLAYER = "127.0.0.1 player lightwork lightymightybrocum 3306"
 TABLE_POSTFIX = ""
 CLIENT_HEART_FPS = 25
 PLAYER_ID_START = 100
