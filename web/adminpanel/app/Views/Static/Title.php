@@ -83,6 +83,10 @@ if (WebTitle('Anasayfa')) {
   echo lang('NesneMarket.sayfa.nesneMarketEsya').' - '.lang('NesneMarket.sayfa.nesneMarket');
 }else if (WebTitle('NesneMarket') && WebTitle('Kategori')) {
   echo lang('NesneMarket.sayfa.kategoriler').' - '.lang('NesneMarket.sayfa.nesneMarket');
+}else if (WebTitle('Patch')) {
+  echo lang('Patch.sayfa.patch');
+}else if (WebTitle('Sandik')) {
+  echo lang('Sandik.sayfa.sandik');
 }else {
   echo lang('Hata.sayfaBulunamadi');
 }

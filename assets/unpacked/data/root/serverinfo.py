@@ -3,7 +3,6 @@ import app, localeInfo
 app.ServerName = None
 
 SERVER_NAME = "VALIANT2"
-# SERVER_IP = "193.17.4.221"
 SERVER_IP = "127.0.0.1"
 
 SERVER_NAME_2 = "DevServer"

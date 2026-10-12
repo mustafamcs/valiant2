@@ -31,7 +31,7 @@ namespace Valiant2Config
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ConfigForm(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "metin2.cfg")));
+            Application.Run(new ConfigForm(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "metin2.cfg")));
             return 0;
         }
     }

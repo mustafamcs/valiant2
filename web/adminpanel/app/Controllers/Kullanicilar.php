@@ -430,6 +430,11 @@ class Kullanicilar extends BaseController
         'npcDuzenleyebilsin'                    => (!empty($yetkiler->npcDuzenleyebilsin)?true:false),
         'npcSilebilsin'                         => (!empty($yetkiler->npcSilebilsin)?true:false),
       ],
+      'patch' =>  [
+        'patchGorebilsin'                       => (!empty($yetkiler->patchGorebilsin)?true:false),
+        'patchEkleyebilsin'                    => (!empty($yetkiler->patchEkleyebilsin)?true:false),
+        'patchSilebilsin'                      => (!empty($yetkiler->patchSilebilsin)?true:false),
+      ],
       'sandik' =>  [
         'sandikGorebilsin'                      => (!empty($yetkiler->sandikGorebilsin)?true:false),
         'sandikEkleyebilsin'                    => (!empty($yetkiler->sandikEkleyebilsin)?true:false),

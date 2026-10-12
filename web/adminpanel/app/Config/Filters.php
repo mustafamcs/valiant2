@@ -83,6 +83,8 @@ class Filters extends BaseConfig
 					'Cark/Sil',
 					'Biyolog/Ajax',
 					'Biyolog/Sil',
+					'Patch/Ajax',
+					'Patch/Sil',
 					'Sandik/Ajax',
 					'Sandik/ItemSil',
 					'Sandik/ItemDuzenle',

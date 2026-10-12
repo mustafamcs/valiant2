@@ -32,7 +32,7 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-// $routes->add('/',				 						'GirisYap::Index');
+$routes->add('/',				 						'GirisYap::Index');
 $routes->add('CikisYap', 						'GirisYap::CikisYap');
 $routes->add('OnBellekleriTemizle',	'Anasayfa::OnBellekleriTemizle');
 $routes->add('KaranlikTema/(:any)',	'Anasayfa::KaranlikTema/$1');
