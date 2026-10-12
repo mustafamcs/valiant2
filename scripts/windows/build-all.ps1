@@ -11,6 +11,8 @@ $langFile = Join-Path $runtimeClient 'UserData\lang.cfg'
 $localeFile = Join-Path $runtimeClient 'UserData\loca.cfg'
 if (!(Test-Path $langFile)) { Set-Content $langFile 'tr' -Encoding ascii -NoNewline }
 if (!(Test-Path $localeFile)) { Set-Content $localeFile '1254 tr' -Encoding ascii -NoNewline }
+$channelFile = Join-Path $runtimeClient 'channel.inf'
+if (!(Test-Path $channelFile)) { Set-Content $channelFile '1 0 0' -Encoding ascii -NoNewline }
 & (Join-Path $PSScriptRoot 'sync-config.ps1')
 & $msbuild (Join-Path $root 'tools\client-config\Valiant2Config.csproj') /t:Build /p:Configuration=Release /p:Platform=AnyCPU /v:minimal
 if ($LASTEXITCODE -ne 0) { throw "Config build failed with code $LASTEXITCODE." }

@@ -82,7 +82,18 @@ def sync():
         print("manifest v%d yayinlandi (%d dosya)" % (v, len(snap)), flush=True)
     return snap
 
+# Ilk acilista: patch deposu eksik/bosssa hemen senkronla (taze kurulum destegi)
 last = snapshot()
+_need = False
+for rel in last:
+    dst = os.path.join(FILES, rel.replace("/", os.sep))
+    if not os.path.isfile(dst):
+        _need = True
+        break
+if _need:
+    sync()
+    print("ilk senkron tamamlandi", flush=True)
+
 while True:
     time.sleep(5)
     cur = snapshot()
