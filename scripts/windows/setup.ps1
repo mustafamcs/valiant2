@@ -210,6 +210,9 @@ Write-Host ''
 & (Join-Path $PSScriptRoot 'build-all.ps1')
 & (Join-Path $PSScriptRoot 'build-patcher.ps1')
 
+# --- 9c) Uretilen dosyalari git diff'inden gizle ---
+& (Join-Path $PSScriptRoot 'git-sanitize.ps1')
+
 # --- 10) Her seyi baslat ---
 & (Join-Path $PSScriptRoot 'start-stack.ps1')
 & (Join-Path $PSScriptRoot 'start-server.ps1')

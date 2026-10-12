@@ -49,4 +49,5 @@ foreach ($file in $serverInfoFiles) {
     $text = $text -replace '(?m)^SERVER_IP_2\s*=.*$', "SERVER_IP_2 = `"$($settings.CLIENT_SERVER_IP)`""
     [IO.File]::WriteAllText($file, $text, [Text.UTF8Encoding]::new($false))
 }
+& (Join-Path $PSScriptRoot 'git-sanitize.ps1')
 Write-Host 'Configuration synchronized from .env.'

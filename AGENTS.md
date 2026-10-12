@@ -100,6 +100,7 @@ Herkes  --------->  MariaDB 3306 (sadece localhost)
 | `git-save.cmd ["mesaj"]` | `git add -A` + commit (mesaj yoksa tarihli otomatik mesaj) |
 | `git-sync.cmd` | `git pull --rebase` + `git push` (origin: github.com/mustafamcs/valiant2) |
 | `git-info.cmd` | branch + status + son 10 commit özeti |
+| `git-sanitize.ps1` | `.env`'den üretilen dosyaları (CONFIG'ler, conf.txt, start_panel.vbs) `git update-index --skip-worktree` ile diff'lerden gizler. `sync-config` ve `setup` otomatik çağırır — bu dosyaların değişiklik göstermesi NORMAL ve git'te görünmez |
 | `setup-database.ps1` | DB şema kurulumu |
 | `test-feature-flags.ps1` | bayrak açık/kapalı derleme testi |
 
@@ -139,6 +140,7 @@ Herkes  --------->  MariaDB 3306 (sadece localhost)
 - `.env` değişkenleri: `PUBLIC_IP` (dış adres — panel/patch/BIND_IP için), `CLIENT_SERVER_IP` (client'ın bağlandığı), `PATCH_ROOT` (patch deploy dizini), `PANEL_BASE_URL`, `PANEL_DB_*`. `.env` git'e girmez; setup her makinede kendisi üretir (IP'yi api.ipify/ifconfig/icanhazip'ten otomatik algılar, şifreleri rastgele basar). Sablon/örnek dosya YOK — her şey canlı üretilir.
 - Patcher `Cfg.BASE_URL` kullanır; `build-patcher.ps1` derleme anında bu sınıfı `.env`'den üretir — kaynak dosyada IP yok.
 - `sync-config.ps1` CONFIG'lere `BIND_IP: <PUBLIC_IP>` yazar (yoksa ekler) — IP değişince `sync-config` + `restart-server` yeterli.
+- Runtime CONFIG'ler repo'da `__FROM_ENV__` placeholder'ıyla durur; start/build'da `.env`'den gerçek değerler yazılır, stop'ta tekrar placeholder'a çekilir. `git-sanitize` (skip-worktree) sayesinde bu dosyalar git diff'inde görünmez — commit'leme.
 - Panel `PatchRoot` sabitini `Settings.php`'deki `PATCH_ROOT`'tan okur — controller'larda `PatchRoot . "/patch"` kullan.
 
 ## Veritabanı
