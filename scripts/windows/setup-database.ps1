@@ -28,6 +28,11 @@ try {
         Get-Content $extra -Raw | & $client.FullName --host=$($settings.MYSQL_HOST) --port=$($settings.MYSQL_PORT) --user=root player
         if ($LASTEXITCODE -ne 0) { throw "Extra tables import failed with code $LASTEXITCODE." }
     }
+    $dropSeed = Join-Path $root 'database\drop_seed.sql'
+    if (Test-Path $dropSeed) {
+        Get-Content $dropSeed -Raw | & $client.FullName --host=$($settings.MYSQL_HOST) --port=$($settings.MYSQL_PORT) --user=root player
+        if ($LASTEXITCODE -ne 0) { throw "Drop seed import failed with code $LASTEXITCODE." }
+    }
     $sql = "CREATE USER IF NOT EXISTS '$($settings.MYSQL_USER)'@'localhost' IDENTIFIED BY '$($settings.MYSQL_PASSWORD)'; ALTER USER '$($settings.MYSQL_USER)'@'localhost' IDENTIFIED BY '$($settings.MYSQL_PASSWORD)'; GRANT ALL PRIVILEGES ON account.* TO '$($settings.MYSQL_USER)'@'localhost'; GRANT ALL PRIVILEGES ON common.* TO '$($settings.MYSQL_USER)'@'localhost'; GRANT ALL PRIVILEGES ON log.* TO '$($settings.MYSQL_USER)'@'localhost'; GRANT ALL PRIVILEGES ON player.* TO '$($settings.MYSQL_USER)'@'localhost'; FLUSH PRIVILEGES;"
     & $client.FullName --host=$($settings.MYSQL_HOST) --port=$($settings.MYSQL_PORT) --user=root --execute=$sql
     if ($LASTEXITCODE -ne 0) { throw "Database user setup failed with code $LASTEXITCODE." }
