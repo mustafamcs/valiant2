@@ -21,7 +21,17 @@ if (!(Get-Command winget -ErrorAction SilentlyContinue)) { throw 'Windows Packag
 
 # --- 1) Bagimliliklar ---
 Install-Package 'Git.Git'
-Install-Package 'GitHub.GitLFS'
+# PATH'i guncelle (Git yeni kurulmussa mevcut oturumda gorulmeyebilir)
+$gitDir = "$env:ProgramFiles\Git\cmd"
+if ((Test-Path $gitDir) -and $env:Path -notlike "*$gitDir*") { $env:Path = "$gitDir;$env:Path" }
+try { Install-Package 'GitHub.GitLFS' } catch {
+    Write-Host 'Git LFS ayri kurulamadi, Git ile gelen LFS kullanilacak.'
+    $lfs = Get-Command git-lfs.exe -ErrorAction SilentlyContinue
+    if (-not $lfs) {
+        $lfs = Get-ChildItem "$env:ProgramFiles\Git" -Recurse -Filter 'git-lfs.exe' -ErrorAction SilentlyContinue | Select-Object -First 1
+    }
+    if ($lfs) { Write-Host "git-lfs bulundu: $($lfs)" }
+}
 Install-Package 'Microsoft.VCRedist.2015+.x86'
 Install-Package 'Microsoft.DotNet.Framework.DeveloperPack_4'
 Install-Package 'Microsoft.VisualStudio.2022.BuildTools' @('--override','--wait --passive --norestart --add Microsoft.VisualStudio.Workload.VCTools --includeRecommended')
