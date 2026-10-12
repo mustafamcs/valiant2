@@ -1866,8 +1866,8 @@ bool CClientManager::InitializeRank()
 
 	if (pMsg->Get()->uiNumRows == 0)
 	{
-		sys_err("Global ranking select query fail");
-		return false;
+		// No players yet — ranking is empty, this is normal on fresh install
+		return true;
 	}
 
 	//GM L�ST

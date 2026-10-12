@@ -37,6 +37,7 @@ Install-Package 'Microsoft.DotNet.Framework.DeveloperPack_4'
 Install-Package 'Microsoft.VisualStudio.2022.BuildTools' @('--override','--wait --passive --norestart --add Microsoft.VisualStudio.Workload.VCTools --includeRecommended')
 Install-Package 'PHP.PHP.8.3'
 Install-Package 'Python.Python.3.12'
+Install-Package 'Python.Python.2' # Client Cython build (C:\Python27) gerektirir
 
 # --- 2) .env (otomatik uretim — sablon yok, her sey canli) ---
 function Get-PublicIp {
@@ -61,7 +62,7 @@ if (!(Test-Path $envFile)) {
 MYSQL_HOST=127.0.0.1
 MYSQL_PORT=3306
 MYSQL_USER=valiant2
-MYSQL_PASSWORD=$(& $guid)$(& $guid)
+MYSQL_PASSWORD=$(& $guid)
 MYSQL_ACCOUNT_DATABASE=account
 MYSQL_COMMON_DATABASE=common
 MYSQL_LOG_DATABASE=log
@@ -73,7 +74,7 @@ ADMINPAGE_PASSWORD=$(& $guid)
 CLIENT_SERVER_NAME=VALIANT2
 CLIENT_SERVER_IP=$publicIp
 MARIADB_SERVICE=MariaDB
-MARIADB_ROOT_PASSWORD=$(& $guid)$(& $guid)
+MARIADB_ROOT_PASSWORD=$(& $guid)
 PANEL_DB_DATABASE=valiant_panel
 PANEL_DB_USER=valiant_panel
 PANEL_DB_PASSWORD=$(& $guid)
@@ -87,15 +88,40 @@ PATCH_ROOT=C:\patchserver
 }
 $settings = Get-EnvSettings
 
-# --- 3) MariaDB ---
+# --- 3) MariaDB (portable 11.4) ---
 $rootPassword = $settings['MARIADB_ROOT_PASSWORD']
-Install-Package 'MariaDB.Server' @('--override',"SERVICENAME=MariaDB PASSWORD=$rootPassword /qn")
+$mariaDir = 'C:\mariadb'
+if (-not (Test-Path "$mariaDir\bin\mariadbd.exe")) {
+    Write-Host 'MariaDB 11.4 portable indiriliyor...'
+    $mariaZip = Join-Path $env:TEMP 'mariadb-11.4.zip'
+    Invoke-WebRequest 'https://archive.mariadb.org/mariadb-11.4.8/winx64-packages/mariadb-11.4.8-winx64.zip' -OutFile $mariaZip -UseBasicParsing
+    Expand-Archive $mariaZip $mariaDir -Force
+    Remove-Item $mariaZip
+    # Iç klasörü düzleştir
+    $inner = Get-ChildItem $mariaDir -Directory | Select-Object -First 1
+    if ($inner -and $inner.Name -ne 'bin') {
+        Get-ChildItem $inner.FullName | Move-Item -Destination $mariaDir -Force
+        Remove-Item $inner.FullName -Recurse -Force -ErrorAction SilentlyContinue
+    }
+}
+if (-not (Get-Service -Name 'MariaDB' -ErrorAction SilentlyContinue)) {
+    Write-Host 'MariaDB veritabani olusturuluyor...'
+    & "$mariaDir\bin\mariadb-install-db.exe" --datadir="$mariaDir\data" --password="$rootPassword"
+    if ($LASTEXITCODE -ne 0) { throw 'MariaDB install-db failed.' }
+    & "$mariaDir\bin\mariadbd.exe" --install MariaDB --defaults-file="$mariaDir\data\my.ini"
+    if ($LASTEXITCODE -ne 0) { throw 'MariaDB service install failed.' }
+}
+$svc = Get-Service -Name 'MariaDB' -ErrorAction SilentlyContinue
+if ($svc -and $svc.Status -ne 'Running') { Start-Service MariaDB }
+Write-Host 'MariaDB 11.4 hazir.'
 
 # --- 4) Git LFS ---
 $git = Get-Command git.exe -ErrorAction SilentlyContinue
 if (!$git) { $env:Path = "$env:ProgramFiles\Git\cmd;$env:Path"; $git = Get-Command git.exe -ErrorAction Stop }
+Push-Location $root
 & $git.Source lfs install --local
 & $git.Source lfs pull
+Pop-Location
 if ($LASTEXITCODE -ne 0) { throw "Git LFS download failed with code $LASTEXITCODE." }
 
 # --- 5) Nginx ---

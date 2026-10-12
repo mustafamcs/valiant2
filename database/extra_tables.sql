@@ -2717,7 +2717,7 @@ SET character_set_client = @saved_cs_client;
 /*!50001 SET collation_connection      = latin1_swedish_ci */;
 /*!50001 CREATE ALGORITHM=UNDEFINED */
 /*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
-/*!50001 VIEW `offline_shop_sales` AS select `s`.`id` AS `id`,`s`.`buyer_name` AS `buyer_name`,`s`.`vnum` AS `item_vnum`,`s`.`count` AS `item_count`,`s`.`sell_price` AS `item_price`,`s`.`sell_date` AS `datetime` from `log`.`offlineshop_sold` `s` */;
+/*!50001 VIEW `offline_shop_sales` AS select `s`.`owner_id` AS `id`,`s`.`buyer_name` AS `buyer_name`,`s`.`vnum` AS `item_vnum`,`s`.`count` AS `item_count`,`s`.`sell_price` AS `item_price`,`s`.`sell_date` AS `datetime` from `log`.`offlineshop_sold` `s` */;
 /*!50001 SET character_set_client      = @saved_cs_client */;
 /*!50001 SET character_set_results     = @saved_cs_results */;
 /*!50001 SET collation_connection      = @saved_col_connection */;

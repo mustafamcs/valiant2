@@ -1320,6 +1320,7 @@ void config_init(const string & st_localeServiceName)
 		fprintf(stderr, "Can not get public ip address\n");
 		exit(1);
 	}
+	fprintf(stderr, "DEBUG: config_init completed OK\n");
 }
 
 const char* get_table_postfix()

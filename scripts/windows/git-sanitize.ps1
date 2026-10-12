@@ -15,5 +15,9 @@ $generated += Get-ChildItem (Join-Path $root 'runtime\server') -Recurse -File -F
     ForEach-Object { $_.FullName.Substring($root.Length + 1) -replace '\\','/' }
 
 foreach ($f in $generated) {
-    & $git.Source update-index --skip-worktree $f 2>$null
+    # Dosya git indeksinde yoksa (silinmis/hic eklenmemis) atla
+    $inIndex = & $git.Source ls-files $f 2>$null
+    if ($inIndex) {
+        & $git.Source update-index --skip-worktree $f 2>$null
+    }
 }

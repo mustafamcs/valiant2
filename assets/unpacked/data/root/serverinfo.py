@@ -3,10 +3,10 @@ import app, localeInfo
 app.ServerName = None
 
 SERVER_NAME = "VALIANT2"
-SERVER_IP = "127.0.0.1"
+SERVER_IP = "213.254.136.100"
 
 SERVER_NAME_2 = "DevServer"
-SERVER_IP_2 = "127.0.0.1"
+SERVER_IP_2 = "213.254.136.100"
 
 SRVS = {
 	1 : {

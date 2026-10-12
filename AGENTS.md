@@ -117,7 +117,7 @@ Herkes  --------->  MariaDB 3306 (sadece localhost)
 
 ## Bilinen kritik noktalar / tuzaklar
 
-- **`BIND_IP: 213.254.136.100`** her core CONFIG'inde zorunlu — yoksa core ilk public adaptörü duyurur (Radmin gibi sanal IP'ler oyuncuları yanlış yere warp eder; "karakter seçiminden sonra login'e atma" belirtisi).
+- **`BIND_IP`** her core CONFIG'inde zorunlu — `sync-config.ps1` makinenin internal adapter IP'sini yazar (ör. `192.168.1.205`). `0.0.0.0` KULLANMA: game.exe `g_szPublicIP[0]=='0'` kontrolü yapıyor ve "Can not get public ip address" ile `exit(1)` çağırıyor. NAT public IP (`213.254.136.100`) de yerel adaptörde olmadığı için bind başarısız olur.
 - `serverinfo.py`: `SERVER_IP=213.254.136.100` (public), `SERVER_IP_2=127.0.0.1` (DevServer). Değişince `create_root.bat` ile root.pak yeniden paketlenir — patch watcher bunu otomatik dağıtır.
 - `common.game_settings.version` = client version (`1000138964`). Client version değişirse bu satır güncellenmeli yoksa "client out of date". Server 60sn'de bir tabloyu yeniden okur.
 - PHP panel worker'ları `php -S` × 4 — Windows'ta `PHP_CLI_SERVER_WORKERS` çalışmaz, ayrı süreç + nginx upstream kullanılıyor.
@@ -125,6 +125,7 @@ Herkes  --------->  MariaDB 3306 (sadece localhost)
 - P2P/admin portları dışarıya açık ama `@` komutları `ADMINPAGE_IP1` (127.0.0.1) + parola korumalı.
 - Cloudflare Tunnel (`cloudflared`) ve Playit artık gerekmiyor — devre dışı bırakılabilir ama kurulu duruyor.
 - `C:\testclient` = izolasyonlu test client klasörü (sadece VALIANT2.exe koy, çalıştır → sıfırdan kurar).
+- **Linux symlink → Windows dosya sorunu**: git clone'da `CMD`, `CRC`, `PTS`, `VERSION`, `BANIP`, `data`, `locale`, `log` gibi dosyalar Linux'ta symlink ama Windows'ta düz metin (hedef yolu içerik olarak) olarak oluşur. game.exe bunları parse edince crash/exit yapar (ör. CMD içindeki `../share/conf/CMD` metni komut olarak parse edilip `exit(1)` çağrılır). `sync-config.ps1` her çağrıda bu dosyaları otomatik düzeltir.
 
 ## Panel notları
 
@@ -139,7 +140,7 @@ Herkes  --------->  MariaDB 3306 (sadece localhost)
 - Hiçbir script'te mutlak kullanıcı yolu veya sabit IP yazma: `common.ps1`'deki `Get-EnvSettings`/`Get-PublicBase`/`Get-PatchRoot`/`Get-PhpExe`/`Get-PythonwExe`/`Get-NginxExe` kullan.
 - `.env` değişkenleri: `PUBLIC_IP` (dış adres — panel/patch/BIND_IP için), `CLIENT_SERVER_IP` (client'ın bağlandığı), `PATCH_ROOT` (patch deploy dizini), `PANEL_BASE_URL`, `PANEL_DB_*`. `.env` git'e girmez; setup her makinede kendisi üretir (IP'yi api.ipify/ifconfig/icanhazip'ten otomatik algılar, şifreleri rastgele basar). Sablon/örnek dosya YOK — her şey canlı üretilir.
 - Patcher `Cfg.BASE_URL` kullanır; `build-patcher.ps1` derleme anında bu sınıfı `.env`'den üretir — kaynak dosyada IP yok.
-- `sync-config.ps1` CONFIG'lere `BIND_IP: <PUBLIC_IP>` yazar (yoksa ekler) — IP değişince `sync-config` + `restart-server` yeterli.
+- `sync-config.ps1` CONFIG'lere `BIND_IP: <internal_adapter_IP>` yazar (yoksa ekler), runtime dizinlerindeki Linux semlink referans dosyalarını (CMD, CRC, PTS, VERSION, BANIP vb.) düzeltir, `log` dizini + `data`/`locale` junction'larını oluşturur. IP değişince `sync-config` + `restart-server` yeterli.
 - Runtime CONFIG'ler repo'da `__FROM_ENV__` placeholder'ıyla durur; start/build'da `.env`'den gerçek değerler yazılır, stop'ta tekrar placeholder'a çekilir. `git-sanitize` (skip-worktree) sayesinde bu dosyalar git diff'inde görünmez — commit'leme.
 - Panel `PatchRoot` sabitini `Settings.php`'deki `PATCH_ROOT`'tan okur — controller'larda `PatchRoot . "/patch"` kullan.
 
@@ -149,7 +150,7 @@ Herkes  --------->  MariaDB 3306 (sadece localhost)
 - DB'ler: `account`, `common`, `log`, `player` + panel DB (`PANEL_DB_DATABASE`).
 - `database/bootstrap.sql` = 4 oyun DB'sinin şema+seed'i; `database/extra_tables.sql` = drop tabloları (drop_default 1542, drop_special_* 700+, drop_mob_*), biolog/fishevent/itemshop/offline_shop_sales view; `database/drop_seed.sql` = drop_default seed. Hepsi `setup-database.ps1` tarafından import edilir.
 - Panel DB (`valiant_panel`) `web\adminpanel\sql.sql`'den kurulur (users/settings/logs/item_icon vb.).
-- item_proto/mob_proto MySQL'de (txt değil).
+- item_proto/mob_proto MySQL'de **player** DB'sinde (db.exe DirectQuery varsayılan slot = SQL_PLAYER). skill_proto, refine_proto, item_attr, item_attr_rare, banword da player'da.
 
 ## Tipik iş akışları
 

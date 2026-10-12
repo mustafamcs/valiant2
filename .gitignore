@@ -57,8 +57,7 @@ runtime/server/**/*.pid
 **/*.user
 **/*.pyc
 **/__pycache__/
-**/cyTemp/
-source/client/external/projects/CRootLib/Workplace/__cython/
+
 source/client/external/lib/rootlib.lib
 source/client/external/lib/uiscriptlib.lib
 source/server/source/libs/libgame/lib/*.lib
@@ -73,3 +72,12 @@ Thumbs.db
 runtime/client/game/bin/syserr/
 web/adminpanel/writable/
 deploy/certs/
+
+# Runtime junction directories (created by sync-config.ps1 from symlink refs)
+runtime/server/main/srv1/auth/data/
+runtime/server/main/srv1/auth/locale/
+runtime/server/main/srv1/auth/log/
+runtime/server/main/srv1/chan/**/data/
+runtime/server/main/srv1/chan/**/locale/
+runtime/server/main/srv1/chan/**/log/
+runtime/server/main/srv1/db/log/

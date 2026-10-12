@@ -52,7 +52,7 @@ function Get-MysqlClient {
         $cmd = Get-Command $name -ErrorAction SilentlyContinue
         if ($cmd) { return $cmd.Source }
     }
-    $hit = Get-ChildItem "$env:ProgramFiles\MariaDB*\bin","C:\usr\bin" -Include 'mariadb.exe','mysql.exe' -Recurse -ErrorAction SilentlyContinue | Select-Object -First 1
+    $hit = Get-ChildItem "$env:ProgramFiles\MariaDB*\bin","C:\mariadb\bin","C:\usr\bin" -Include 'mariadb.exe','mysql.exe' -Recurse -ErrorAction SilentlyContinue | Select-Object -First 1
     if ($hit) { return $hit.FullName }
     return $null
 }

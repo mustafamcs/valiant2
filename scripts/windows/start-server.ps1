@@ -27,14 +27,19 @@ $coreDirectories | Sort-Object FullName | ForEach-Object {
 $stateDir = Join-Path $root 'runtime\server\.state'
 New-Item -ItemType Directory -Force -Path $stateDir | Out-Null
 foreach ($entry in $processes) {
-    $startInfo = [Diagnostics.ProcessStartInfo]::new($entry.File)
-    $startInfo.WorkingDirectory = $entry.WorkingDirectory
-    $startInfo.UseShellExecute = $false
-    $startInfo.CreateNoWindow = $true
-    $startInfo.WindowStyle = [Diagnostics.ProcessWindowStyle]::Hidden
-    $process = [Diagnostics.Process]::Start($startInfo)
+    $process = Start-Process -FilePath $entry.File -WorkingDirectory $entry.WorkingDirectory -WindowStyle Minimized -PassThru
     Set-Content -Path (Join-Path $stateDir "$($entry.Name).pid") -Value $process.Id -Encoding ascii
     Write-Host "$($entry.Name) started (PID $($process.Id))."
-    Start-Sleep -Seconds 2
-    if ($process.HasExited) { throw "$($entry.Name) exited with code $($process.ExitCode)." }
+    # db.exe icin port hazir olana kadar bekle (diger surec icin 3sn)
+    if ($entry.Name -eq 'valiant-db') {
+        $dbPort = 30000
+        for ($i = 0; $i -lt 30; $i++) {
+            if ($process.HasExited) { throw "$($entry.Name) exited with code $($process.ExitCode)." }
+            try { $tcp = New-Object Net.Sockets.TcpClient; $tcp.Connect('127.0.0.1', $dbPort); $tcp.Close(); Write-Host "  db port $dbPort ready."; break } catch { Start-Sleep -Seconds 1 }
+        }
+    } else {
+        # Wait a few seconds and check the process is still alive
+        Start-Sleep -Seconds 5
+        if ($process.HasExited) { throw "$($entry.Name) exited with code $($process.ExitCode)." }
+    }
 }

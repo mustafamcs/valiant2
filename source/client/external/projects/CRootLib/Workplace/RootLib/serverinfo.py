@@ -3,10 +3,10 @@ import app, localeInfo
 app.ServerName = None
 
 SERVER_NAME = "VALIANT2"
-SERVER_IP = "127.0.0.1"
+SERVER_IP = "213.254.136.100"
 
 SERVER_NAME_2 = "DevServer"
-SERVER_IP_2 = "127.0.0.1"
+SERVER_IP_2 = "213.254.136.100"
 
 SRVS = {
 	1 : {
@@ -14,12 +14,22 @@ SRVS = {
 		"HOST":SERVER_IP,
 		"AUTH":30001,
 		"CH1":30003,
+		"CH2":30011,
+		"CH3":30019,
+		"CH4":30027,
+		"CH5":30035,
+		"CH6":30043,
 	},
 	2 : {
 		"name":SERVER_NAME_2,
 		"HOST":SERVER_IP_2,
 		"AUTH":30001,
 		"CH1":30003,
+		"CH2":30011,
+		"CH3":30019,
+		"CH4":30027,
+		"CH5":30035,
+		"CH6":30043,
 	}
 }
 
@@ -37,10 +47,20 @@ STATE_DICT = {
 
 SERVER1_CHANNEL_DICT = {
 	1:{"key":11,"name":"CH1","ip":SRVS[1]["HOST"],"tcp_port":SRVS[1]["CH1"],"udp_port":SRVS[1]["CH1"],"state":STATE_NONE,},
+	2:{"key":12,"name":"CH2","ip":SRVS[1]["HOST"],"tcp_port":SRVS[1]["CH2"],"udp_port":SRVS[1]["CH2"],"state":STATE_NONE,},
+	3:{"key":13,"name":"CH3","ip":SRVS[1]["HOST"],"tcp_port":SRVS[1]["CH3"],"udp_port":SRVS[1]["CH3"],"state":STATE_NONE,},
+	4:{"key":14,"name":"CH4","ip":SRVS[1]["HOST"],"tcp_port":SRVS[1]["CH4"],"udp_port":SRVS[1]["CH4"],"state":STATE_NONE,},
+	5:{"key":15,"name":"CH5","ip":SRVS[1]["HOST"],"tcp_port":SRVS[1]["CH5"],"udp_port":SRVS[1]["CH5"],"state":STATE_NONE,},
+	6:{"key":16,"name":"CH6","ip":SRVS[1]["HOST"],"tcp_port":SRVS[1]["CH6"],"udp_port":SRVS[1]["CH6"],"state":STATE_NONE,},
 }
 
 SERVER2_CHANNEL_DICT = {
 	1:{"key":21,"name":"CH1","ip":SRVS[2]["HOST"],"tcp_port":SRVS[2]["CH1"],"udp_port":SRVS[2]["CH1"],"state":STATE_NONE,},
+	2:{"key":22,"name":"CH2","ip":SRVS[2]["HOST"],"tcp_port":SRVS[2]["CH2"],"udp_port":SRVS[2]["CH2"],"state":STATE_NONE,},
+	3:{"key":23,"name":"CH3","ip":SRVS[2]["HOST"],"tcp_port":SRVS[2]["CH3"],"udp_port":SRVS[2]["CH3"],"state":STATE_NONE,},
+	4:{"key":24,"name":"CH4","ip":SRVS[2]["HOST"],"tcp_port":SRVS[2]["CH4"],"udp_port":SRVS[2]["CH4"],"state":STATE_NONE,},
+	5:{"key":25,"name":"CH5","ip":SRVS[2]["HOST"],"tcp_port":SRVS[2]["CH5"],"udp_port":SRVS[2]["CH5"],"state":STATE_NONE,},
+	6:{"key":26,"name":"CH6","ip":SRVS[2]["HOST"],"tcp_port":SRVS[2]["CH6"],"udp_port":SRVS[2]["CH6"],"state":STATE_NONE,},
 }
 
 REGION_NAME_DICT = {
