@@ -92,6 +92,9 @@ Herkes  --------->  MariaDB 3306 (sadece localhost)
 | `restart-stack.cmd` | stack restart |
 | `stack-status.cmd` | TÜM servislerin sağlık tablosu (port + http kontrol) |
 | `publish-patch.cmd` | manifest'i elle üret + version bump (watcher zaten otomatik yapar) |
+| `git-save.cmd ["mesaj"]` | `git add -A` + commit (mesaj yoksa tarihli otomatik mesaj) |
+| `git-sync.cmd` | `git pull --rebase` + `git push` (origin: github.com/mustafamcs/valiant2) |
+| `git-info.cmd` | branch + status + son 10 commit özeti |
 | `setup-database.ps1` | DB şema kurulumu |
 | `test-feature-flags.ps1` | bayrak açık/kapalı derleme testi |
 
