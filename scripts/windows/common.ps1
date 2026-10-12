@@ -27,7 +27,7 @@ function Get-PublicBase {
 
 function Get-PatchRoot {
     param($Settings)
-    $p = $Settings['PATCH_ROOT']; if (-not $p) { $p = 'C:\patchserver' }
+    $p = $Settings['PATCH_ROOT']; if (-not $p) { $p = Join-Path $script:ProjectRoot 'runtime\patchserver' }
     return $p
 }
 
@@ -47,19 +47,35 @@ function Get-PythonwExe {
     throw 'pythonw.exe bulunamadi (winget install Python.Python.3.12)'
 }
 
+function Get-MariaDbDir {
+    # Proje icindeki portable MariaDB
+    return (Join-Path $script:ProjectRoot 'runtime\dependencies\mariadb')
+}
+
 function Get-MysqlClient {
+    # Oncelik: proje icindeki portable MariaDB
+    $projMaria = Join-Path (Get-MariaDbDir) 'bin'
+    if (Test-Path $projMaria) {
+        $hit = Get-ChildItem $projMaria -Include 'mariadb.exe','mysql.exe' -ErrorAction SilentlyContinue | Select-Object -First 1
+        if ($hit) { return $hit.FullName }
+    }
     foreach ($name in 'mariadb.exe','mysql.exe') {
         $cmd = Get-Command $name -ErrorAction SilentlyContinue
         if ($cmd) { return $cmd.Source }
     }
-    $hit = Get-ChildItem "$env:ProgramFiles\MariaDB*\bin","C:\mariadb\bin","C:\usr\bin" -Include 'mariadb.exe','mysql.exe' -Recurse -ErrorAction SilentlyContinue | Select-Object -First 1
+    $hit = Get-ChildItem "$env:ProgramFiles\MariaDB*\bin" -Include 'mariadb.exe','mysql.exe' -Recurse -ErrorAction SilentlyContinue | Select-Object -First 1
     if ($hit) { return $hit.FullName }
     return $null
 }
 
+function Get-NginxDir {
+    return (Join-Path $script:ProjectRoot 'runtime\dependencies\nginx')
+}
+
 function Get-NginxExe {
-    $hit = Get-ChildItem 'C:\nginx*' -Directory -ErrorAction SilentlyContinue | Sort-Object Name -Descending | Select-Object -First 1
-    if ($hit -and (Test-Path (Join-Path $hit.FullName 'nginx.exe'))) { return (Join-Path $hit.FullName 'nginx.exe') }
+    # Oncelik: proje icindeki nginx
+    $projNginx = Join-Path (Get-NginxDir) 'nginx.exe'
+    if (Test-Path $projNginx) { return $projNginx }
     $cmd = Get-Command nginx.exe -ErrorAction SilentlyContinue
     if ($cmd) { return $cmd.Source }
     return $null

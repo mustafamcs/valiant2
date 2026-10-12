@@ -19,7 +19,7 @@ Bu dosya tüm altyapının nasıl çalıştığını ve nasıl yönetileceğini 
 
 ```
 Oyuncu  --https-->  nginx (443/80)  --+--> panel_backend (PHP x4: 8090,8092,8093,8094)  ->  CodeIgniter admin paneli
-                                    +--> dosya sunucusu (127.0.0.1:8091 python thread)  ->  C:\patchserver\patch, C:\patchserver\patcher
+                                    +--> dosya sunucusu (127.0.0.1:8091 python thread)  ->  runtime\patchserver\patch
 Oyuncu  --tcp----->  game.exe core'lari (30001, 30003-30009, 30051)
 Panel   --socket-->  P2P portlari (30002, 30004, 30006, 30008, 30010, 30052) -> RELOAD/notice/kick
 Herkes  --------->  MariaDB 3306 (sadece localhost)
@@ -42,17 +42,17 @@ Herkes  --------->  MariaDB 3306 (sadece localhost)
 | `assets\unpacked\create_*.bat` | FSArchiver ile .pak üretimi (örn. `create_root.bat` → `root.pak`) |
 | `tools\client-config` | `config.exe` kaynağı (game\bin\config.exe) |
 | `tools\client-launcher` | Eski launcher (artık kullanılmıyor, patcher aldı) |
-| `patchserver\` | Patch altyapısı kaynakları (Patcher.cs `Cfg.BASE_URL` kullanır — derleme anında `.env`'den üretilir; file_server.py, patch_watch.py `patchserver.json` okur). `setup.ps1`/`start-stack` PATCH_ROOT'a dağıtır |
+| `patchserver\` | Patch altyapısı kaynakları (Patcher.cs, file_server.py, patch_watch.py). `setup.ps1`/`start-stack` PATCH_ROOT'a dağıtır |
 | `deploy\certs\` | setup.ps1'in ürettiği self-signed sertifika (git'e girmez) |
-| `C:\patchserver` | Patch deploy hedefi (`.env` PATCH_ROOT — `patchserver.json` burada, .py'ler ayarları ondan okur) |
-| `C:\patchserver\patch\files` | Oyunculara dağıtılan oyun dosyaları |
-| `C:\patchserver\patch\patchlist.json` | Manifest (version, base, files[path,size,sha256]) |
-| `C:\patchserver\patch\patcher.json` | Patcher self-update manifesti |
-| `C:\patchserver\patch\hashcache.json` | Panel hash önbelleği |
-| `C:\patchserver\src\Patcher.cs` | Patcher kaynak kodu |
-| `C:\patchserver\file_server.py` | /update ve /patcher için threaded dosya sunucusu (127.0.0.1:8091) |
-| `C:\patchserver\patch_watch.py` | Watcher: game klasörünü izler → patch/files senkron + manifest bump |
-| `C:\nginx-1.27.5` | Web sunucusu; conf: `conf\nginx.conf` |
+| `runtime\dependencies\mariadb` | MariaDB 11.4 portable (setup.ps1 indirir, git'e girmez) |
+| `runtime\dependencies\nginx` | nginx web sunucusu (setup.ps1 indirir, git'e girmez) |
+| `runtime\patchserver` | Patch deploy hedefi (`.env` PATCH_ROOT, git'e girmez) |
+| `runtime\patchserver\patch\files` | Oyunculara dağıtılan oyun dosyaları |
+| `runtime\patchserver\patch\patchlist.json` | Manifest (version, base, files[path,size,sha256]) |
+| `runtime\patchserver\patch\patcher.json` | Patcher self-update manifesti |
+| `runtime\patchserver\patch\hashcache.json` | Panel hash önbelleği |
+| `runtime\patchserver\file_server.py` | /update ve /patcher için threaded dosya sunucusu (127.0.0.1:8091) |
+| `runtime\patchserver\patch_watch.py` | Watcher: game klasörünü izler → patch/files senkron + manifest bump |
 
 ## Portlar
 
@@ -137,7 +137,8 @@ Herkes  --------->  MariaDB 3306 (sadece localhost)
 
 ## Taşınabilirlik kuralları
 
-- Hiçbir script'te mutlak kullanıcı yolu veya sabit IP yazma: `common.ps1`'deki `Get-EnvSettings`/`Get-PublicBase`/`Get-PatchRoot`/`Get-PhpExe`/`Get-PythonwExe`/`Get-NginxExe` kullan.
+- **Tüm bağımlılıklar proje içinde**: MariaDB → `runtime\dependencies\mariadb`, nginx → `runtime\dependencies\nginx`, patchserver → `runtime\patchserver`. Proje dışında dosya oluşturulmaz. `common.ps1`'deki `Get-MariaDbDir`/`Get-NginxDir`/`Get-PatchRoot` bu yolları verir.
+- Hiçbir script'te mutlak kullanıcı yolu veya sabit IP yazma: `common.ps1`'deki `Get-EnvSettings`/`Get-PublicBase`/`Get-PatchRoot`/`Get-PhpExe`/`Get-PythonwExe`/`Get-NginxExe`/`Get-MariaDbDir`/`Get-NginxDir` kullan.
 - `.env` değişkenleri: `PUBLIC_IP` (dış adres — panel/patch/BIND_IP için), `CLIENT_SERVER_IP` (client'ın bağlandığı), `PATCH_ROOT` (patch deploy dizini), `PANEL_BASE_URL`, `PANEL_DB_*`. `.env` git'e girmez; setup her makinede kendisi üretir (IP'yi api.ipify/ifconfig/icanhazip'ten otomatik algılar, şifreleri rastgele basar). Sablon/örnek dosya YOK — her şey canlı üretilir.
 - Patcher `Cfg.BASE_URL` kullanır; `build-patcher.ps1` derleme anında bu sınıfı `.env`'den üretir — kaynak dosyada IP yok.
 - `sync-config.ps1` CONFIG'lere `BIND_IP: <internal_adapter_IP>` yazar (yoksa ekler), runtime dizinlerindeki Linux semlink referans dosyalarını (CMD, CRC, PTS, VERSION, BANIP vb.) düzeltir, `log` dizini + `data`/`locale` junction'larını oluşturur. IP değişince `sync-config` + `restart-server` yeterli.

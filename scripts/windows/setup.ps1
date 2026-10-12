@@ -81,28 +81,26 @@ PANEL_DB_PASSWORD=$(& $guid)
 PANEL_P2P_CHANNEL_PORTS=30003,30005,30007,30009,30051
 PUBLIC_IP=$publicIp
 PANEL_BASE_URL=https://$publicIp/
-PATCH_ROOT=C:\patchserver
+PATCH_ROOT=$root\runtime\patchserver
 "@
     [IO.File]::WriteAllText($envFile, $envText, [Text.UTF8Encoding]::new($false))
     Write-Host ".env uretildi: public IP=$publicIp, sifreler rastgele."
 }
 $settings = Get-EnvSettings
 
-# --- 3) MariaDB (portable 11.4) ---
+# --- 3) MariaDB (portable 11.4) — proje icinde ---
 $rootPassword = $settings['MARIADB_ROOT_PASSWORD']
-$mariaDir = 'C:\mariadb'
+$mariaDir = Get-MariaDbDir
+New-Item -ItemType Directory -Force -Path $mariaDir | Out-Null
 if (-not (Test-Path "$mariaDir\bin\mariadbd.exe")) {
     Write-Host 'MariaDB 11.4 portable indiriliyor...'
     $mariaZip = Join-Path $env:TEMP 'mariadb-11.4.zip'
     Invoke-WebRequest 'https://archive.mariadb.org/mariadb-11.4.8/winx64-packages/mariadb-11.4.8-winx64.zip' -OutFile $mariaZip -UseBasicParsing
-    Expand-Archive $mariaZip $mariaDir -Force
-    Remove-Item $mariaZip
-    # Iç klasörü düzleştir
-    $inner = Get-ChildItem $mariaDir -Directory | Select-Object -First 1
-    if ($inner -and $inner.Name -ne 'bin') {
-        Get-ChildItem $inner.FullName | Move-Item -Destination $mariaDir -Force
-        Remove-Item $inner.FullName -Recurse -Force -ErrorAction SilentlyContinue
-    }
+    Expand-Archive $mariaZip $env:TEMP\mariadb-extract -Force
+    # Ic klasoru proje dizinine tasi
+    $inner = Get-ChildItem "$env:TEMP\mariadb-extract" -Directory | Select-Object -First 1
+    if ($inner) { Get-ChildItem $inner.FullName | Move-Item -Destination $mariaDir -Force }
+    Remove-Item $mariaZip, "$env:TEMP\mariadb-extract" -Recurse -Force -ErrorAction SilentlyContinue
 }
 if (-not (Get-Service -Name 'MariaDB' -ErrorAction SilentlyContinue)) {
     Write-Host 'MariaDB veritabani olusturuluyor...'
@@ -124,15 +122,18 @@ Push-Location $root
 Pop-Location
 if ($LASTEXITCODE -ne 0) { throw "Git LFS download failed with code $LASTEXITCODE." }
 
-# --- 5) Nginx ---
+# --- 5) Nginx — proje icinde ---
+$nginxDir = Get-NginxDir
+New-Item -ItemType Directory -Force -Path $nginxDir | Out-Null
 if (-not (Get-NginxExe)) {
     Write-Host 'nginx indiriliyor...'
     $zip = Join-Path $env:TEMP 'nginx.zip'
     Invoke-WebRequest 'https://nginx.org/download/nginx-1.27.5.zip' -OutFile $zip -UseBasicParsing
-    Expand-Archive $zip 'C:\' -Force
-    Remove-Item $zip
+    Expand-Archive $zip "$env:TEMP\nginx-extract" -Force
+    $inner = Get-ChildItem "$env:TEMP\nginx-extract" -Directory | Select-Object -First 1
+    if ($inner) { Get-ChildItem $inner.FullName | Move-Item -Destination $nginxDir -Force }
+    Remove-Item $zip, "$env:TEMP\nginx-extract" -Recurse -Force -ErrorAction SilentlyContinue
 }
-$nginxDir = Split-Path (Get-NginxExe)
 # Sertifika (yoksa Git'in openssl'i ile self-signed uret — PUBLIC_IP icin)
 $certDir = Join-Path $root 'deploy\certs'
 New-Item -ItemType Directory -Force -Path $certDir | Out-Null

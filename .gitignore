@@ -81,3 +81,7 @@ runtime/server/main/srv1/chan/**/data/
 runtime/server/main/srv1/chan/**/locale/
 runtime/server/main/srv1/chan/**/log/
 runtime/server/main/srv1/db/log/
+
+# Downloaded/generated runtime dependencies (setup.ps1 downloads these)
+runtime/dependencies/
+runtime/patchserver/
