@@ -25,34 +25,48 @@ Panel   --socket-->  P2P portlari (30002, 30004, 30006, 30008, 30010, 30052) -> 
 Herkes  --------->  MariaDB 3306 (sadece localhost)
 ```
 
-- Public IP: `213.254.136.100` (sabit, Turkcell). HTTPS sertifikası: Let's Encrypt IP sertifikası (lego, shortlived ~6 gün, otomatik yenileme: `LegoIPRenew` görevi).
-- Cloudflare KULLANILMIYOR, domain kullanılmıyor — her şey IP üzerinden.
+- Public IP `.env`'deki `PUBLIC_IP` değerinden okunur. setup.ps1 IP'yi otomatik algılar.
+- HTTPS sertifikası: setup.ps1 self-signed üretir; production'da Let's Encrypt kullanılabilir.
+- Domain gerekli değil — her şey IP üzerinden çalışır.
 
 ## Klasör haritası
 
-| Yol | İçerik |
-|---|---|
-| `C:\Users\Administrator\Desktop\VALIANT2` | Proje kökü (git repo) |
-| `runtime\client\game` | Canlı client dosyaları (patch kaynağı, watcher bunu izler) |
-| `runtime\client\VALIANT2.exe` | Patcher = launcher (oyunculara dağıtılan exe) |
-| `runtime\server\main\srv1\{auth,chan\ch1\core1-4,chan\ch99\core99,db}` | Oyun sunucusu süreç dizinleri; her birinde `CONFIG`, `syslog.txt`, `syserr.txt` |
-| `runtime\server\.state` | Süreç pid dosyaları |
-| `web\adminpanel` | CodeIgniter 4 panel |
-| `assets\unpacked\data` | Client kaynak dosyaları (pack'ler buradan üretilir) |
-| `assets\unpacked\create_*.bat` | FSArchiver ile .pak üretimi (örn. `create_root.bat` → `root.pak`) |
-| `tools\client-config` | `config.exe` kaynağı (game\bin\config.exe) |
-| `tools\client-launcher` | Eski launcher (artık kullanılmıyor, patcher aldı) |
-| `patchserver\` | Patch altyapısı kaynakları (Patcher.cs, file_server.py, patch_watch.py). `setup.ps1`/`start-stack` PATCH_ROOT'a dağıtır |
-| `deploy\certs\` | setup.ps1'in ürettiği self-signed sertifika (git'e girmez) |
-| `runtime\dependencies\mariadb` | MariaDB 11.4 portable (setup.ps1 indirir, git'e girmez) |
-| `runtime\dependencies\nginx` | nginx web sunucusu (setup.ps1 indirir, git'e girmez) |
-| `runtime\patchserver` | Patch deploy hedefi (`.env` PATCH_ROOT, git'e girmez) |
-| `runtime\patchserver\patch\files` | Oyunculara dağıtılan oyun dosyaları |
-| `runtime\patchserver\patch\patchlist.json` | Manifest (version, base, files[path,size,sha256]) |
-| `runtime\patchserver\patch\patcher.json` | Patcher self-update manifesti |
-| `runtime\patchserver\patch\hashcache.json` | Panel hash önbelleği |
-| `runtime\patchserver\file_server.py` | /update ve /patcher için threaded dosya sunucusu (127.0.0.1:8091) |
-| `runtime\patchserver\patch_watch.py` | Watcher: game klasörünü izler → patch/files senkron + manifest bump |
+```
+VALIANT2/                                       Proje kökü (git repo)
+├── assets/unpacked/data/                       Client kaynak dosyaları (pack üretimi)
+├── database/                                   SQL şema + seed dosyaları
+├── deploy/certs/                               SSL sertifikaları (git'e girmez)
+├── patchserver/                                Patch altyapısı kaynakları
+│   ├── src/Patcher.cs                            Autopatcher kaynak kodu
+│   ├── file_server.py                            HTTP dosya sunucusu
+│   └── patch_watch.py                            Dosya değişiklik izleyici
+├── runtime/
+│   ├── client/game/                            Canlı client dosyaları
+│   ├── client/VALIANT2.exe                     Patcher/Launcher
+│   ├── server/main/srv1/                       Sunucu süreç dizinleri
+│   │   ├── auth/                                 Auth core
+│   │   ├── chan/ch1/core{1-4}/                    CH1 core'ları
+│   │   ├── chan/ch99/core99/                      CH99 core
+│   │   ├── db/                                   DB peer
+│   │   └── share/                                Paylaşılan conf/data/bin
+│   ├── server/.state/                          PID dosyaları
+│   ├── dependencies/mariadb/                   MariaDB 11.4 portable (git'e girmez)
+│   ├── dependencies/nginx/                     nginx (git'e girmez)
+│   └── patchserver/                            Patch deploy hedefi (git'e girmez)
+├── scripts/windows/                            Tüm işletim scriptleri
+├── source/
+│   ├── client/                                 Client C++ kaynak + external
+│   └── server/                                 Server C++ kaynak + external
+├── tools/                                      Yardımcı araçlar
+│   ├── client-config/                            config.exe kaynağı
+│   ├── db-manager/                               DB yönetim aracı
+│   ├── dump-proto/                               Proto dönüştürücü
+│   └── pack-maker/                               Pack oluşturucu
+├── web/adminpanel/                             CodeIgniter 4 admin paneli
+├── .env                                        Ortam değişkenleri (git'e girmez)
+├── AGENTS.md                                   Bu rehber
+└── README.md                                   Proje tanıtımı
+```
 
 ## Portlar
 
@@ -70,12 +84,8 @@ Herkes  --------->  MariaDB 3306 (sadece localhost)
 
 ## Scheduled Tasks (boot'ta otomatik)
 
-- `VALIANT2-AdminPanel` → `web\adminpanel\start_panel.vbs` (4 PHP worker'ı gizli başlatır)
-- `VALIANT2-Nginx` → nginx
-- `VALIANT2-PatchFiles` → `file_server.py` (pythonw)
-- `VALIANT2-PatchWatch` → `patch_watch.py` (pythonw)
-- `LegoIPRenew` → sertifika otomatik yenileme
-- Oyun sunucusu için görev YOK — `start-server.cmd` ile başlatılır.
+- `VALIANT2-Stack` → `start-stack.cmd` (oturum açılışında: nginx + 4 PHP worker + patch sunucusu + watcher)
+- Oyun sunucusu için görev YOK — `start-server.cmd` ile elle başlatılır.
 
 ## Scriptler (scripts\windows)
 
@@ -117,14 +127,13 @@ Herkes  --------->  MariaDB 3306 (sadece localhost)
 
 ## Bilinen kritik noktalar / tuzaklar
 
-- **`BIND_IP`** her core CONFIG'inde zorunlu — `sync-config.ps1` makinenin internal adapter IP'sini yazar (ör. `192.168.1.205`). `0.0.0.0` KULLANMA: game.exe `g_szPublicIP[0]=='0'` kontrolü yapıyor ve "Can not get public ip address" ile `exit(1)` çağırıyor. NAT public IP (`213.254.136.100`) de yerel adaptörde olmadığı için bind başarısız olur.
-- `serverinfo.py`: `SERVER_IP=213.254.136.100` (public), `SERVER_IP_2=127.0.0.1` (DevServer). Değişince `create_root.bat` ile root.pak yeniden paketlenir — patch watcher bunu otomatik dağıtır.
+- **`BIND_IP`** her core CONFIG'inde zorunlu — `sync-config.ps1` makinenin internal adapter IP'sini otomatik yazar. `0.0.0.0` KULLANMA: game.exe `g_szPublicIP[0]=='0'` kontrolü ile `exit(1)` yapar. NAT public IP de yerel adaptörde olmadığı için bind başarısız olur.
+- `serverinfo.py`: `SERVER_IP=<PUBLIC_IP>`, `SERVER_IP_2=127.0.0.1`. `sync-config.ps1` IP'yi `.env`'den günceller. Değişince `create_root.bat` ile root.pak yeniden paketlenir — patch watcher bunu otomatik dağıtır.
 - `common.game_settings.version` = client version (`1000138964`). Client version değişirse bu satır güncellenmeli yoksa "client out of date". Server 60sn'de bir tabloyu yeniden okur.
 - PHP panel worker'ları `php -S` × 4 — Windows'ta `PHP_CLI_SERVER_WORKERS` çalışmaz, ayrı süreç + nginx upstream kullanılıyor.
 - nginx `limit_req_zone` 50r/s burst=100 — patch listeleme eskiden her istekte sha256 hesaplıyordu, artık `hashcache.json` cache'li.
 - P2P/admin portları dışarıya açık ama `@` komutları `ADMINPAGE_IP1` (127.0.0.1) + parola korumalı.
-- Cloudflare Tunnel (`cloudflared`) ve Playit artık gerekmiyor — devre dışı bırakılabilir ama kurulu duruyor.
-- `C:\testclient` = izolasyonlu test client klasörü (sadece VALIANT2.exe koy, çalıştır → sıfırdan kurar).
+- Cloudflare Tunnel (`cloudflared`) ve Playit artık gerekmiyor.
 - **Linux symlink → Windows dosya sorunu**: git clone'da `CMD`, `CRC`, `PTS`, `VERSION`, `BANIP`, `data`, `locale`, `log` gibi dosyalar Linux'ta symlink ama Windows'ta düz metin (hedef yolu içerik olarak) olarak oluşur. game.exe bunları parse edince crash/exit yapar (ör. CMD içindeki `../share/conf/CMD` metni komut olarak parse edilip `exit(1)` çağrılır). `sync-config.ps1` her çağrıda bu dosyaları otomatik düzeltir.
 
 ## Panel notları
