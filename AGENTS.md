@@ -82,6 +82,7 @@ Herkes  --------->  MariaDB 3306 (sadece localhost)
 | Komut | Ne yapar |
 |---|---|
 | `common.ps1` | Paylaşılan yardımcılar — tüm scriptler `.env` okuma, php/pythonw/nginx bulma, PATCH_ROOT/PUBLIC_IP çözümü için bunu dot-source eder. Yeni script yazarken bunu kullan |
+| `create-account.cmd` | İnteraktif: oyun hesabı açar (account.account, MySQL PASSWORD hash) + karaktere IMPLEMENTOR yetkisi (common.gmlist). setup.cmd içinde de sorulur |
 | `setup.cmd` | **İlk kurulum** (yeni makine, tek komut): winget bağımlılıkları (Git/LFS/VS2022/PHP8.3/Python3.12/MariaDB), `.env` üretimi, nginx indir+conf+sertifika, patchserver dağıtımı, scheduled task `VALIANT2-Stack`, firewall kuralları, DB şema (oyun + panel), `build-all` + `build-patcher` |
 | `build-all.ps1 [-SkipPacks]` | config.exe + client sln + launcher + server sln + tüm pack'ler (MSBuild 2022) |
 | `build-client-packs.ps1` | `assets\unpacked\data` → runtime pack'leri (FSArchiver) |

@@ -8,8 +8,10 @@ Get-Content (Join-Path $root '.env') | ForEach-Object {
         $settings[$key.Trim()] = $value.Trim().Trim('"').Trim("'")
     }
 }
-$client = Get-ChildItem "$env:ProgramFiles\MariaDB*\bin\mariadb.exe","$env:ProgramFiles\MariaDB*\bin\mysql.exe" -ErrorAction SilentlyContinue | Select-Object -First 1
-if (!$client) { throw 'MariaDB command-line client was not found.' }
+. (Join-Path $PSScriptRoot 'common.ps1')
+$clientPath = Get-MysqlClient
+if (!$clientPath) { throw 'MariaDB command-line client was not found.' }
+$client = Get-Item $clientPath
 $service = Get-Service -Name $settings.MARIADB_SERVICE -ErrorAction Stop
 if ($service.Status -ne 'Running') {
     Start-Service $service.Name

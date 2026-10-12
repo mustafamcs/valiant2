@@ -47,6 +47,16 @@ function Get-PythonwExe {
     throw 'pythonw.exe bulunamadi (winget install Python.Python.3.12)'
 }
 
+function Get-MysqlClient {
+    foreach ($name in 'mariadb.exe','mysql.exe') {
+        $cmd = Get-Command $name -ErrorAction SilentlyContinue
+        if ($cmd) { return $cmd.Source }
+    }
+    $hit = Get-ChildItem "$env:ProgramFiles\MariaDB*\bin","C:\usr\bin" -Include 'mariadb.exe','mysql.exe' -Recurse -ErrorAction SilentlyContinue | Select-Object -First 1
+    if ($hit) { return $hit.FullName }
+    return $null
+}
+
 function Get-NginxExe {
     $hit = Get-ChildItem 'C:\nginx*' -Directory -ErrorAction SilentlyContinue | Sort-Object Name -Descending | Select-Object -First 1
     if ($hit -and (Test-Path (Join-Path $hit.FullName 'nginx.exe'))) { return (Join-Path $hit.FullName 'nginx.exe') }

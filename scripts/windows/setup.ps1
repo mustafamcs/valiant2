@@ -202,6 +202,11 @@ if (-not (Get-NetFirewallRule -DisplayName 'VALIANT2-Public' -ErrorAction Silent
 
 # --- 9) DB + derleme ---
 & (Join-Path $PSScriptRoot 'setup-database.ps1')
+
+# --- 9b) Yonetici hesabi + GM yetkisi (istege bagli) ---
+Write-Host ''
+& (Join-Path $PSScriptRoot 'create-account.ps1')
+
 & (Join-Path $PSScriptRoot 'build-all.ps1')
 & (Join-Path $PSScriptRoot 'build-patcher.ps1')
 
