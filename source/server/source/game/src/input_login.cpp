@@ -515,6 +515,11 @@ void CInputLogin::CharacterDelete(LPDESC d, const char* data)
 	if (!c_rAccountTable.id)
 	{
 		sys_err("PlayerDelete: no login data");
+
+		TPacketGCCharacterDeleteFailure failure;
+		failure.header = HEADER_GC_CHARACTER_DELETE_FAILURE;
+		failure.error_code = CHAR_DELETE_FAIL_NO_LOGIN_DATA;
+		d->Packet(&failure, sizeof(TPacketGCCharacterDeleteFailure));
 		return;
 	}
 
@@ -523,13 +528,22 @@ void CInputLogin::CharacterDelete(LPDESC d, const char* data)
 	if (pinfo->index >= PLAYER_PER_ACCOUNT)
 	{
 		sys_err("PlayerDelete: index overflow %d, login: %s", pinfo->index, c_rAccountTable.login);
+
+		TPacketGCCharacterDeleteFailure failure;
+		failure.header = HEADER_GC_CHARACTER_DELETE_FAILURE;
+		failure.error_code = CHAR_DELETE_FAIL_INDEX_OVERFLOW;
+		d->Packet(&failure, sizeof(TPacketGCCharacterDeleteFailure));
 		return;
 	}
 
 	if (!c_rAccountTable.players[pinfo->index].dwID)
 	{
-		sys_err("PlayerDelete: Wrong Social ID index %d, login: %s", pinfo->index, c_rAccountTable.login);
-		d->Packet(encode_byte(HEADER_GC_CHARACTER_DELETE_WRONG_SOCIAL_ID), 1);
+		sys_err("PlayerDelete: no character at index %d, login: %s", pinfo->index, c_rAccountTable.login);
+
+		TPacketGCCharacterDeleteFailure failure;
+		failure.header = HEADER_GC_CHARACTER_DELETE_FAILURE;
+		failure.error_code = CHAR_DELETE_FAIL_NO_CHARACTER;
+		d->Packet(&failure, sizeof(TPacketGCCharacterDeleteFailure));
 		return;
 	}
 

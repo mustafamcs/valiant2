@@ -237,6 +237,11 @@ private:
 	bool		MirrorMobTableIntoDB();
 	bool		MirrorItemTableIntoDB();
 
+#ifdef ENABLE_DROP_FROM_TABLE
+	bool		InitializeItemDropTable();
+	void		__SendDropTables(CPeer* peerTarget = NULL);
+#endif
+
 	void		AddPeer(socket_t fd);
 	void		RemovePeer(CPeer* pPeer);
 	CPeer*		GetPeer(IDENT ident);
@@ -450,6 +455,17 @@ private:
 	std::vector<building::TLand>		m_vec_kLandTable;
 	std::vector<building::TObjectProto>	m_vec_kObjectProto;
 	std::map<DWORD, building::TObject*>	m_map_pkObjectTable;
+
+#ifdef ENABLE_DROP_FROM_TABLE
+	std::vector<TCommonDropItemTable>		m_vecCommonDropItemTable;
+	std::vector<TDropItemTable>				m_vecDropItemTable;
+	std::vector<TMobDropItemGroupKill>		m_vecMobDropItemGroupKill;
+	std::vector<TMobDropItemKill>				m_vecMobDropItemKill;
+	std::vector<TMobDropItemGroupLevel>		m_vecMobDropItemGroupLevel;
+	std::vector<TMobDropItemLevel>			m_vecMobDropItemLevel;
+	std::vector<TSpecialDropGroup>			m_vecSpecialDropGroup;
+	std::vector<TSpecialDropItem>			m_vecSpecialDropItem;
+#endif
 
 	bool					m_bShutdowned;
 

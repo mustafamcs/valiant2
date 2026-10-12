@@ -70,3 +70,5 @@ tools/client-config/obj/
 tools/client-launcher/obj/
 Thumbs.db
 .DS_Store
+runtime/client/game/bin/syserr/
+web/adminpanel/writable/

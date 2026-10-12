@@ -1195,14 +1195,20 @@ void CClientManager::__QUERY_PLAYER_CREATE(CPeer* peer, DWORD dwHandle, TPlayerC
 void CClientManager::__QUERY_PLAYER_DELETE(CPeer* peer, DWORD dwHandle, TPlayerDeletePacket* packet)
 {
 	if (!packet->login[0] || !packet->player_id || packet->account_index >= PLAYER_PER_ACCOUNT)
+	{
+		peer->EncodeHeader(HEADER_DG_PLAYER_DELETE_FAILED, dwHandle, 2);
+		peer->EncodeBYTE(packet->account_index);
+		peer->EncodeBYTE(CHAR_DELETE_FAIL_NO_LOGIN_DATA);
 		return;
+	}
 
 	CLoginData* ld = GetLoginDataByLogin(packet->login);
 
 	if (!ld)
 	{
-		peer->EncodeHeader(HEADER_DG_PLAYER_DELETE_FAILED, dwHandle, 1);
+		peer->EncodeHeader(HEADER_DG_PLAYER_DELETE_FAILED, dwHandle, 2);
 		peer->EncodeBYTE(packet->account_index);
+		peer->EncodeBYTE(CHAR_DELETE_FAIL_NO_LOGIN_DATA);
 		return;
 	}
 
@@ -1213,8 +1219,9 @@ void CClientManager::__QUERY_PLAYER_DELETE(CPeer* peer, DWORD dwHandle, TPlayerD
 	{
 		if (strlen(r.social_id) < 7 || strncmp(packet->private_code, r.social_id + strlen(r.social_id) - 7, 7))
 		{
-			peer->EncodeHeader(HEADER_DG_PLAYER_DELETE_FAILED, dwHandle, 1);
+			peer->EncodeHeader(HEADER_DG_PLAYER_DELETE_FAILED, dwHandle, 2);
 			peer->EncodeBYTE(packet->account_index);
+			peer->EncodeBYTE(CHAR_DELETE_FAIL_WRONG_PRIVATE_CODE);
 			return;
 		}
 
@@ -1225,22 +1232,25 @@ void CClientManager::__QUERY_PLAYER_DELETE(CPeer* peer, DWORD dwHandle, TPlayerD
 
 			if (pTab->level >= m_iPlayerDeleteLevelLimit)
 			{
-				peer->EncodeHeader(HEADER_DG_PLAYER_DELETE_FAILED, dwHandle, 1);
+				peer->EncodeHeader(HEADER_DG_PLAYER_DELETE_FAILED, dwHandle, 2);
 				peer->EncodeBYTE(packet->account_index);
+				peer->EncodeBYTE(CHAR_DELETE_FAIL_LEVEL_LIMIT_UPPER);
 				return;
 			}
 
 			if (pTab->level < m_iPlayerDeleteLevelLimitLower)
 			{
-				peer->EncodeHeader(HEADER_DG_PLAYER_DELETE_FAILED, dwHandle, 1);
+				peer->EncodeHeader(HEADER_DG_PLAYER_DELETE_FAILED, dwHandle, 2);
 				peer->EncodeBYTE(packet->account_index);
+				peer->EncodeBYTE(CHAR_DELETE_FAIL_LEVEL_LIMIT_LOWER);
 				return;
 			}
 #ifdef ENABLE_OFFLINE_SHOP
 			if (IsUsingOfflineshopSystem(packet->player_id))
 			{
-				peer->EncodeHeader(HEADER_DG_PLAYER_DELETE_FAILED, dwHandle, 1);
+				peer->EncodeHeader(HEADER_DG_PLAYER_DELETE_FAILED, dwHandle, 2);
 				peer->EncodeBYTE(packet->account_index);
+				peer->EncodeBYTE(CHAR_DELETE_FAIL_OFFLINE_SHOP);
 				return;
 			}
 #endif
@@ -1277,15 +1287,17 @@ void CClientManager::__RESULT_PLAYER_DELETE(CPeer* peer, SQLMsg* msg)
 
 		if (deletedLevelLimit >= m_iPlayerDeleteLevelLimit)
 		{
-			peer->EncodeHeader(HEADER_DG_PLAYER_DELETE_FAILED, pi->dwHandle, 1);
+			peer->EncodeHeader(HEADER_DG_PLAYER_DELETE_FAILED, pi->dwHandle, 2);
 			peer->EncodeBYTE(pi->account_index);
+			peer->EncodeBYTE(CHAR_DELETE_FAIL_LEVEL_LIMIT_UPPER);
 			return;
 		}
 
 		if (deletedLevelLimit < m_iPlayerDeleteLevelLimitLower)
 		{
-			peer->EncodeHeader(HEADER_DG_PLAYER_DELETE_FAILED, pi->dwHandle, 1);
+			peer->EncodeHeader(HEADER_DG_PLAYER_DELETE_FAILED, pi->dwHandle, 2);
 			peer->EncodeBYTE(pi->account_index);
+			peer->EncodeBYTE(CHAR_DELETE_FAIL_LEVEL_LIMIT_LOWER);
 			return;
 		}
 
@@ -1297,8 +1309,9 @@ void CClientManager::__RESULT_PLAYER_DELETE(CPeer* peer, SQLMsg* msg)
 
 		if (pIns->Get()->uiAffectedRows == 0 || pIns->Get()->uiAffectedRows == (uint32_t)-1)
 		{
-			peer->EncodeHeader(HEADER_DG_PLAYER_DELETE_FAILED, pi->dwHandle, 1);
+			peer->EncodeHeader(HEADER_DG_PLAYER_DELETE_FAILED, pi->dwHandle, 2);
 			peer->EncodeBYTE(pi->account_index);
+			peer->EncodeBYTE(CHAR_DELETE_FAIL_DB_ERROR);
 			return;
 		}
 
@@ -1341,8 +1354,9 @@ void CClientManager::__RESULT_PLAYER_DELETE(CPeer* peer, SQLMsg* msg)
 		std::unique_ptr<SQLMsg> pMsg(CDBManager::instance().DirectQuery(queryStr));
 		if (pMsg->Get()->uiAffectedRows == 0 || pMsg->Get()->uiAffectedRows == (uint32_t)-1)
 		{
-			peer->EncodeHeader(HEADER_DG_PLAYER_DELETE_FAILED, pi->dwHandle, 1);
+			peer->EncodeHeader(HEADER_DG_PLAYER_DELETE_FAILED, pi->dwHandle, 2);
 			peer->EncodeBYTE(pi->account_index);
+			peer->EncodeBYTE(CHAR_DELETE_FAIL_DB_ERROR);
 			return;
 		}
 
@@ -1374,8 +1388,9 @@ void CClientManager::__RESULT_PLAYER_DELETE(CPeer* peer, SQLMsg* msg)
 	}
 	else
 	{
-		peer->EncodeHeader(HEADER_DG_PLAYER_DELETE_FAILED, pi->dwHandle, 1);
+		peer->EncodeHeader(HEADER_DG_PLAYER_DELETE_FAILED, pi->dwHandle, 2);
 		peer->EncodeBYTE(pi->account_index);
+		peer->EncodeBYTE(CHAR_DELETE_FAIL_DB_ERROR);
 	}
 }
 

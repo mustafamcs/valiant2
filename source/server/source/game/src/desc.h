@@ -217,6 +217,9 @@ protected:
 
 	bool			m_bDestroyed;
 	bool			m_bChannelStatusRequested;
+#ifdef ENABLE_ADMINPAGE_TEXT
+	bool			m_bAdminTextAuthed = false;
+#endif
 
 #ifdef _IMPROVED_PACKET_ENCRYPTION_
 	Cipher cipher_;
@@ -231,6 +234,10 @@ public:
 	LPEVENT			m_pkDisconnectEvent;
 
 public:
+#ifdef ENABLE_ADMINPAGE_TEXT
+	bool			IsAdminTextAuthed() const { return m_bAdminTextAuthed; }
+	void			SetAdminTextAuthed(bool b) { m_bAdminTextAuthed = b; }
+#endif
 	void SetLogin(const std::string& login) { m_Login = login; }
 	void SetLogin(const char* login) { m_Login = login; }
 	const std::string& GetLogin() { return m_Login; }

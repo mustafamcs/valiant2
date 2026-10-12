@@ -7,3 +7,5 @@
 - Her desteklenen özellik bayrağı hem açık hem kapalı durumda derlenebilir olmalı; paket yapıları veya ağ protokolünü etkileyen bayraklar iki tarafta aynı anda test edilmelidir.
 - Değişiklik sonrası ilgili client/server derlemesi, runtime dağıtımı ve temiz `syserr` smoke testi yapılır.
 - Hassas bilgiler yalnız kök `.env` dosyasında tutulur ve yanıtlarda açıklanmaz.
+
+- Bekleme gerektiren komutlarda bekleme süresi en fazla 20 saniye tutulur; uzun süren işlemler arka planda çalıştırılıp kısa aralıklarla kontrol edilir.

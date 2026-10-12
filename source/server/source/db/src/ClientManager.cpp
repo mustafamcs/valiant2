@@ -510,7 +510,105 @@ void CClientManager::QUERY_BOOT(CPeer* peer, TPacketGDBoot* p)
 	SendItemShopData(peer);
 #endif
 
+#ifdef ENABLE_DROP_FROM_TABLE
+	__SendDropTables(peer);
+#endif
 }
+
+#ifdef ENABLE_DROP_FROM_TABLE
+void CClientManager::__SendDropTables(CPeer* peerTarget)
+{
+	TPacketDGDropTables dropPacket;
+
+	dropPacket.dwCommonDropCount				= (DWORD)m_vecCommonDropItemTable.size();
+	dropPacket.dwCommonDropTableSize			= (DWORD)sizeof(TCommonDropItemTable);
+
+	dropPacket.dwDropItemCount					= (DWORD)m_vecDropItemTable.size();
+	dropPacket.dwDropItemTableSize				= (DWORD)sizeof(TDropItemTable);
+
+	dropPacket.dwMobDropItemKillGroupCount		= (DWORD)m_vecMobDropItemGroupKill.size();
+	dropPacket.dwMobDropItemKillGroupTableSize	= (DWORD)sizeof(TMobDropItemGroupKill);
+	dropPacket.dwMobDropItemKillCount			= (DWORD)m_vecMobDropItemKill.size();
+	dropPacket.dwMobDropItemKillTableSize		= (DWORD)sizeof(TMobDropItemKill);
+
+	dropPacket.dwMobDropItemLevelGroupCount		= (DWORD)m_vecMobDropItemGroupLevel.size();
+	dropPacket.dwMobDropItemLevelGroupTableSize	= (DWORD)sizeof(TMobDropItemGroupLevel);
+	dropPacket.dwMobDropItemLevelCount			= (DWORD)m_vecMobDropItemLevel.size();
+	dropPacket.dwMobDropItemLevelTableSize		= (DWORD)sizeof(TMobDropItemLevel);
+
+	dropPacket.dwSpecialDropGroupCount			= (DWORD)m_vecSpecialDropGroup.size();
+	dropPacket.dwSpecialDropGroupTableSize		= (DWORD)sizeof(TSpecialDropGroup);
+	dropPacket.dwSpecialDropItemCount			= (DWORD)m_vecSpecialDropItem.size();
+	dropPacket.dwSpecialDropItemTableSize		= (DWORD)sizeof(TSpecialDropItem);
+
+	const DWORD dwDataSize =
+		sizeof(TPacketDGDropTables) +
+		sizeof(TCommonDropItemTable)	* m_vecCommonDropItemTable.size() +
+		sizeof(TDropItemTable)		* m_vecDropItemTable.size() +
+		sizeof(TMobDropItemGroupKill)	* m_vecMobDropItemGroupKill.size() +
+		sizeof(TMobDropItemKill)		* m_vecMobDropItemKill.size() +
+		sizeof(TMobDropItemGroupLevel)* m_vecMobDropItemGroupLevel.size() +
+		sizeof(TMobDropItemLevel)		* m_vecMobDropItemLevel.size() +
+		sizeof(TSpecialDropGroup)		* m_vecSpecialDropGroup.size() +
+		sizeof(TSpecialDropItem)		* m_vecSpecialDropItem.size();
+
+	if (!peerTarget)
+	{
+		for (itertype(m_peerList) it = m_peerList.begin(); it != m_peerList.end(); ++it)
+		{
+			CPeer* peer = *it;
+			if (!peer)
+				continue;
+
+			peer->EncodeHeader(HEADER_DG_MOB_DROP_TABLE_LOAD, 0, dwDataSize);
+			peer->Encode(&dropPacket, sizeof(dropPacket));
+
+			if (!m_vecCommonDropItemTable.empty())
+				peer->Encode(&m_vecCommonDropItemTable[0], m_vecCommonDropItemTable.size() * sizeof(TCommonDropItemTable));
+			if (!m_vecDropItemTable.empty())
+				peer->Encode(&m_vecDropItemTable[0], m_vecDropItemTable.size() * sizeof(TDropItemTable));
+			if (!m_vecMobDropItemGroupKill.empty())
+				peer->Encode(&m_vecMobDropItemGroupKill[0], m_vecMobDropItemGroupKill.size() * sizeof(TMobDropItemGroupKill));
+			if (!m_vecMobDropItemKill.empty())
+				peer->Encode(&m_vecMobDropItemKill[0], m_vecMobDropItemKill.size() * sizeof(TMobDropItemKill));
+			if (!m_vecMobDropItemGroupLevel.empty())
+				peer->Encode(&m_vecMobDropItemGroupLevel[0], m_vecMobDropItemGroupLevel.size() * sizeof(TMobDropItemGroupLevel));
+			if (!m_vecMobDropItemLevel.empty())
+				peer->Encode(&m_vecMobDropItemLevel[0], m_vecMobDropItemLevel.size() * sizeof(TMobDropItemLevel));
+			if (!m_vecSpecialDropGroup.empty())
+				peer->Encode(&m_vecSpecialDropGroup[0], m_vecSpecialDropGroup.size() * sizeof(TSpecialDropGroup));
+			if (!m_vecSpecialDropItem.empty())
+				peer->Encode(&m_vecSpecialDropItem[0], m_vecSpecialDropItem.size() * sizeof(TSpecialDropItem));
+		}
+	}
+	else
+	{
+		CPeer* peer = peerTarget;
+		if (!peer)
+			return;
+
+		peer->EncodeHeader(HEADER_DG_MOB_DROP_TABLE_LOAD, 0, dwDataSize);
+		peer->Encode(&dropPacket, sizeof(dropPacket));
+
+		if (!m_vecCommonDropItemTable.empty())
+			peer->Encode(&m_vecCommonDropItemTable[0], m_vecCommonDropItemTable.size() * sizeof(TCommonDropItemTable));
+		if (!m_vecDropItemTable.empty())
+			peer->Encode(&m_vecDropItemTable[0], m_vecDropItemTable.size() * sizeof(TDropItemTable));
+		if (!m_vecMobDropItemGroupKill.empty())
+			peer->Encode(&m_vecMobDropItemGroupKill[0], m_vecMobDropItemGroupKill.size() * sizeof(TMobDropItemGroupKill));
+		if (!m_vecMobDropItemKill.empty())
+			peer->Encode(&m_vecMobDropItemKill[0], m_vecMobDropItemKill.size() * sizeof(TMobDropItemKill));
+		if (!m_vecMobDropItemGroupLevel.empty())
+			peer->Encode(&m_vecMobDropItemGroupLevel[0], m_vecMobDropItemGroupLevel.size() * sizeof(TMobDropItemGroupLevel));
+		if (!m_vecMobDropItemLevel.empty())
+			peer->Encode(&m_vecMobDropItemLevel[0], m_vecMobDropItemLevel.size() * sizeof(TMobDropItemLevel));
+		if (!m_vecSpecialDropGroup.empty())
+			peer->Encode(&m_vecSpecialDropGroup[0], m_vecSpecialDropGroup.size() * sizeof(TSpecialDropGroup));
+		if (!m_vecSpecialDropItem.empty())
+			peer->Encode(&m_vecSpecialDropItem[0], m_vecSpecialDropItem.size() * sizeof(TSpecialDropItem));
+	}
+}
+#endif
 
 void CClientManager::SendPartyOnSetup(CPeer* pkPeer)
 {
@@ -1805,7 +1903,7 @@ void CClientManager::QUERY_AUTH_LOGIN(CPeer* pkPeer, DWORD dwHandle, TPacketGDAu
 	}
 
 /*
-	bResult = 0 hesap aktif görünüyor
+	bResult = 0 hesap aktif gï¿½rï¿½nï¿½yor
 	bResult = 1 oyuna giris yapabilir
 	bResult = 2 hwid bulunurken bir hata olustu
 	bResult = 3 bilgisayar ile hesabin hwid leri eslesmiyor
@@ -2318,6 +2416,13 @@ void CClientManager::ProcessPackets(CPeer* peer)
 		case HEADER_GD_RELOAD_PROTO:
 			QUERY_RELOAD_PROTO();
 			break;
+
+#ifdef ENABLE_DROP_FROM_TABLE
+		case HEADER_GD_MOB_DROP_TABLE_REQUEST_RELOAD:
+			if (!InitializeItemDropTable())
+				sys_err("cannot reload drop information from table!");
+			break;
+#endif
 
 		case HEADER_GD_CHANGE_NAME:
 			QUERY_CHANGE_NAME(peer, dwHandle, (TPacketGDChangeName*)data);

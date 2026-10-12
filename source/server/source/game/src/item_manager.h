@@ -283,6 +283,9 @@ public:
 	static void		CopyAllAttrTo(LPITEM pkOldItem, LPITEM pkNewItem);
 
 	const CSpecialItemGroup* GetSpecialItemGroup(DWORD dwVnum);
+#ifdef ENABLE_DROP_FROM_TABLE
+	void			RegisterSpecialDropInfo(TSpecialDropGroup* pGroups, DWORD dwGroupCount, TSpecialDropItem* pItems, DWORD dwItemCount);
+#endif
 	const CSpecialAttrGroup* GetSpecialAttrGroup(DWORD dwVnum);
 
 	const std::vector<TItemTable>& GetTable() { return m_vec_prototype; }

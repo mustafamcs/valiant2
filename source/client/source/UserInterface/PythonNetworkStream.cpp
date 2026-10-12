@@ -58,7 +58,8 @@ public:
 		Set(HEADER_GC_PLAYER_CREATE_SUCCESS, CNetworkPacketHeaderMap::TPacketType(sizeof(TPacketGCPlayerCreateSuccess), STATIC_SIZE_PACKET));
 		Set(HEADER_GC_PLAYER_CREATE_FAILURE, CNetworkPacketHeaderMap::TPacketType(sizeof(TPacketGCCreateFailure), STATIC_SIZE_PACKET));
 		Set(HEADER_GC_PLAYER_DELETE_SUCCESS, CNetworkPacketHeaderMap::TPacketType(sizeof(TPacketGCBlank), STATIC_SIZE_PACKET));
-		Set(HEADER_GC_PLAYER_DELETE_WRONG_SOCIAL_ID, CNetworkPacketHeaderMap::TPacketType(sizeof(TPacketGCBlank), STATIC_SIZE_PACKET));
+		
+		Set(HEADER_GC_CHARACTER_DELETE_FAILURE, CNetworkPacketHeaderMap::TPacketType(sizeof(TPacketGCCharacterDeleteFailure), STATIC_SIZE_PACKET));
 
 		Set(HEADER_GC_STUN, CNetworkPacketHeaderMap::TPacketType(sizeof(TPacketGCStun), STATIC_SIZE_PACKET));
 		Set(HEADER_GC_DEAD, CNetworkPacketHeaderMap::TPacketType(sizeof(TPacketGCDead), STATIC_SIZE_PACKET));

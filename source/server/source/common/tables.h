@@ -119,6 +119,9 @@ enum GameToDBPackets
 #ifdef ENABLE_EXTENDED_BATTLE_PASS
 	HEADER_GD_SAVE_EXT_BATTLE_PASS			= 92,
 #endif
+#ifdef ENABLE_DROP_FROM_TABLE
+	HEADER_GD_MOB_DROP_TABLE_REQUEST_RELOAD	= 93,
+#endif
 	HEADER_GD_SETUP							= 0xff,
 
 };
@@ -228,6 +231,9 @@ enum DbToGamePackets
 #endif
 #ifdef ENABLE_EXTENDED_BATTLE_PASS
 	HEADER_DG_EXT_BATTLE_PASS_LOAD			= 88,
+#endif
+#ifdef ENABLE_DROP_FROM_TABLE
+	HEADER_DG_MOB_DROP_TABLE_LOAD			= 89,
 #endif
 	HEADER_DG_MAP_LOCATIONS					= 0xfe,
 	HEADER_DG_P2P							= 0xff,
@@ -858,6 +864,19 @@ typedef struct SPlayerCreatePacket
 	BYTE		account_index;
 	TPlayerTable	player_table;
 } TPlayerCreatePacket;
+
+enum ECharacterDeleteFailureCode
+{
+	CHAR_DELETE_FAIL_WRONG_PRIVATE_CODE	= 0,
+	CHAR_DELETE_FAIL_LEVEL_LIMIT_UPPER	= 1,
+	CHAR_DELETE_FAIL_LEVEL_LIMIT_LOWER	= 2,
+	CHAR_DELETE_FAIL_OFFLINE_SHOP		= 3,
+	CHAR_DELETE_FAIL_DB_ERROR			= 4,
+	CHAR_DELETE_FAIL_NO_LOGIN_DATA		= 5,
+	CHAR_DELETE_FAIL_INDEX_OVERFLOW		= 6,
+	CHAR_DELETE_FAIL_NO_CHARACTER		= 7,
+	CHAR_DELETE_FAIL_UNKNOWN			= 8,
+};
 
 typedef struct SPlayerDeletePacket
 {
@@ -2408,6 +2427,108 @@ typedef struct SExtBattlePassTimeTable
 	DWORD	dwStartTime;
 	DWORD	dwEndTime;
 } TExtBattlePassTimeTable;
+#endif
+
+#ifdef ENABLE_DROP_FROM_TABLE
+//common drop
+typedef struct SCommonDropItemTable
+{
+	BYTE		bRank;
+	DWORD		dwItemVnum;
+	int			iLevelStart;
+	int			iLevelEnd;
+	int			iDropPct;
+} TCommonDropItemTable;
+
+//default drop
+typedef struct SDropItemTable
+{
+	DWORD		dwMobVnum;
+	DWORD		dwItemVnum;
+	int			iCount;
+	int			iProb;
+} TDropItemTable;
+
+//mob drop item group by kill
+typedef struct SMobDropItemGroupKill
+{
+	DWORD		dwGroupID;
+	DWORD		dwMobVnum;
+	int			iKill;
+} TMobDropItemGroupKill;
+
+typedef struct SMobDropItemKill
+{
+	DWORD		dwGroupID;
+	DWORD		dwItemVnum;
+	int			iCount;
+	int			iPartPct;
+} TMobDropItemKill;
+
+//mob drop item group by level
+typedef struct SMobDropItemGroupLevel
+{
+	DWORD		dwGroupID;
+	DWORD		dwMobVnum;
+	int			iLevelStart;
+	int			iLevelEnd;
+} TMobDropItemGroupLevel;
+
+typedef struct SMobDropItemLevel
+{
+	DWORD		dwGroupID;
+	DWORD		dwItemVnum;
+	int			iCount;
+	int			iDropPct;
+} TMobDropItemLevel;
+
+//special item group (chest drops)
+typedef struct SSpecialDropGroup
+{
+	DWORD	dwVnum;
+	int		iType;
+} TSpecialDropGroup;
+
+typedef struct SSpecialDropItem
+{
+	DWORD	dwGroupVnum;
+	DWORD	dwItemVnum;
+	int		iCount;
+	int		iProb;
+	int		iRare;
+} TSpecialDropItem;
+
+typedef struct SPacketDGDropTables
+{
+	//common drop
+	DWORD	dwCommonDropCount;
+	DWORD	dwCommonDropTableSize;
+
+	//default drop
+	DWORD	dwDropItemCount;
+	DWORD	dwDropItemTableSize;
+
+	//mob drop item kill
+	DWORD	dwMobDropItemKillGroupCount;
+	DWORD	dwMobDropItemKillGroupTableSize;
+
+	DWORD	dwMobDropItemKillCount;
+	DWORD	dwMobDropItemKillTableSize;
+
+	//mob drop item level
+	DWORD	dwMobDropItemLevelGroupCount;
+	DWORD	dwMobDropItemLevelGroupTableSize;
+
+	DWORD	dwMobDropItemLevelCount;
+	DWORD	dwMobDropItemLevelTableSize;
+
+	//special item group (chest drops)
+	DWORD	dwSpecialDropGroupCount;
+	DWORD	dwSpecialDropGroupTableSize;
+
+	DWORD	dwSpecialDropItemCount;
+	DWORD	dwSpecialDropItemTableSize;
+} TPacketDGDropTables;
 #endif
 
 #pragma pack()

@@ -6,6 +6,9 @@ __project__ = MDproject
 */
 //#define ENABLE_DEV_COOLDOWN_BYPASS														// Dev Server
 #define ENABLE_DROP_CALCULATOR
+#define ENABLE_DROP_FROM_TABLE														// Drop system reads from MySQL tables (panel)
+#define ENABLE_PROTO_FROM_DB														// Item/Mob proto from MySQL (panel)
+#define ENABLE_ADMINPAGE_TEXT														// Admin page @-text commands (panel p2p socket)
 //#define ENABLE_DEV_OFFLINE_SHOP_DEBUG
 //#define ENABLE_DEV_FAST_RANKING_CACHE														// Dev Server
 

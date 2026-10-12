@@ -2662,6 +2662,10 @@ ACMD(do_reload)
 
 			case 'd':
 			{
+#ifdef ENABLE_DROP_FROM_TABLE
+				ch->ChatPacket(CHAT_TYPE_INFO, "Reloading drop tables from DB.");
+				db_clientdesc->DBPacket(HEADER_GD_MOB_DROP_TABLE_REQUEST_RELOAD, 0, NULL, 0);
+#endif
 				char szMOBDropItemFileName[256];
 				char szSpecialItemGroupFileName[256];
 

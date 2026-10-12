@@ -333,6 +333,7 @@ enum GameToClientPackets
 	HEADER_GC_MINI_GAME_CATCH_KING		= 135,
 #endif
 	HEADER_GC_SPECIFIC_EFFECT2			= 136,
+	HEADER_GC_CHARACTER_DELETE_FAILURE	= 137,
 	HEADER_GC_KEY_AGREEMENT_COMPLETED	= 250,
 	HEADER_GC_KEY_AGREEMENT				= 251,
 	HEADER_GC_HANDSHAKE_OK				= 252,
@@ -1235,6 +1236,12 @@ typedef struct command_player_delete
 	BYTE        index;
 	char		szPrivateCode[PRIVATE_CODE_LENGTH];
 } TPacketCGDestroyCharacter;
+
+typedef struct packet_character_delete_failure
+{
+	BYTE        header;
+	BYTE        error_code;
+} TPacketGCCharacterDeleteFailure;
 
 typedef struct packet_player_delete_success
 {

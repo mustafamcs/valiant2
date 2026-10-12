@@ -67,6 +67,9 @@
 
 #ifdef ENABLE_EXTENDED_BATTLE_PASS
 #include "battlepass_manager.h"
+#ifdef ENABLE_DROP_FROM_TABLE
+#include "mob_drop_manager.h"
+#endif
 #endif
 
 bool GetServerLocation(TAccountTable& rTab, BYTE bEmpire)
@@ -361,12 +364,19 @@ void CInputDB::PlayerDeleteSuccess(LPDESC d, const char* data)
 	d->GetAccountTable().players[account_index].dwID = 0;
 }
 
-void CInputDB::PlayerDeleteFail(LPDESC d)
+void CInputDB::PlayerDeleteFail(LPDESC d, const char* data)
 {
 	if (!d)
 		return;
 
-	d->Packet(encode_byte(HEADER_GC_CHARACTER_DELETE_WRONG_SOCIAL_ID), 1);
+	BYTE account_index = decode_byte(data);
+	BYTE error_code = decode_byte(data + 1);
+
+	TPacketGCCharacterDeleteFailure failure;
+	failure.header = HEADER_GC_CHARACTER_DELETE_FAILURE;
+	failure.error_code = error_code;
+
+	d->Packet(&failure, sizeof(TPacketGCCharacterDeleteFailure));
 	//d->Packet(encode_byte(account_index),			1);
 
 	//d->GetAccountTable().players[account_index].dwID = 0;
@@ -2274,7 +2284,7 @@ int CInputDB::Analyze(LPDESC d, BYTE bHeader, const char* c_pData)
 		break;
 
 	case HEADER_DG_PLAYER_DELETE_FAILED:
-		PlayerDeleteFail(DESC_MANAGER::instance().FindByHandle(m_dwHandle));
+		PlayerDeleteFail(DESC_MANAGER::instance().FindByHandle(m_dwHandle), c_pData);
 		break;
 
 	case HEADER_DG_ITEM_LOAD:
@@ -2573,6 +2583,16 @@ int CInputDB::Analyze(LPDESC d, BYTE bHeader, const char* c_pData)
 #ifdef ENABLE_EXTENDED_BATTLE_PASS
 	case HEADER_DG_EXT_BATTLE_PASS_LOAD:
 		ExtBattlePassLoad(DESC_MANAGER::instance().FindByHandle(m_dwHandle), c_pData);
+		break;
+#endif
+
+#ifdef ENABLE_DROP_FROM_TABLE
+	case HEADER_DG_MOB_DROP_TABLE_LOAD:
+		if (!MOB_DROP_MANAGER::instance().RegisterDropInfo((TPacketDGDropTables*)c_pData, c_pData + sizeof(TPacketDGDropTables)))
+		{
+			sys_err("CANNOT REGISTER DROP INFO!");
+			return -1;
+		}
 		break;
 #endif
 

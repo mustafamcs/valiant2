@@ -17,6 +17,10 @@
 #include "../../common/Controls.h"
 #include "desc_client.h"
 #include "utils.h"
+#ifdef ENABLE_ADMINPAGE_TEXT
+#include "cmd.h"
+#include "cube.h"
+#endif
 
 bool IsEmptyAdminPage()
 {
@@ -46,6 +50,131 @@ CInputProcessor::CInputProcessor() : m_pPacketInfo(NULL), m_iBufferLeft(0)
 	if (!m_pPacketInfo)
 		BindPacketInfo(&m_packetInfoCG);
 }
+
+#ifdef ENABLE_ADMINPAGE_TEXT
+static void AdminTextReplyUserCount(LPDESC d)
+{
+	int aiEmpire[EMPIRE_MAX_NUM] = { 0, };
+	int iTotal = 0;
+
+	const DESC_MANAGER::DESC_SET& f = DESC_MANAGER::instance().GetClientSet();
+	for (auto* pkDesc : f)
+	{
+		if (!pkDesc->GetCharacter())
+			continue;
+		++iTotal;
+		const int iEmpire = pkDesc->GetEmpire();
+		if (iEmpire >= 0 && iEmpire < EMPIRE_MAX_NUM)
+			++aiEmpire[iEmpire];
+	}
+
+	char szBuf[64];
+	const int iLen = snprintf(szBuf, sizeof(szBuf), "%d %d %d %d\n",
+		iTotal, aiEmpire[1], aiEmpire[2], aiEmpire[3]);
+	d->Packet(szBuf, iLen);
+}
+
+static void ProcessAdminTextLine(LPDESC d, const char* c_pszText)
+{
+	if (!d->IsAdminTextAuthed())
+	{
+		if (!strcmp(c_pszText, "USER_COUNT"))
+		{
+			AdminTextReplyUserCount(d);
+			return;
+		}
+
+		if (g_stAdminPagePassword == c_pszText)
+		{
+			d->SetAdminTextAuthed(true);
+			d->Packet("SUCCESS\n", 8);
+			sys_log(0, "ADMINPAGE: authenticated from %s", inet_ntoa(d->GetAddr().sin_addr));
+		}
+		else
+		{
+			d->Packet("FAIL\n", 5);
+			sys_log(0, "ADMINPAGE: bad password from %s", inet_ntoa(d->GetAddr().sin_addr));
+		}
+		return;
+	}
+
+	char szCommand[64] = { 0, };
+	char szArg[256] = { 0, };
+
+	if (sscanf(c_pszText, "%63s %255[^\n]", szCommand, szArg) < 1)
+		return;
+
+	if (!strcmp(szCommand, "USER_COUNT"))
+	{
+		AdminTextReplyUserCount(d);
+	}
+	else if (!strcmp(szCommand, "NOTICE"))
+	{
+		if (*szArg)
+			BroadcastNotice(szArg);
+		d->Packet("SUCCESS\n", 8);
+	}
+	else if (!strcmp(szArg, "RELOAD"))
+	{
+		switch (LOWER(szCommand[0]))
+		{
+			case 'p':
+				db_clientdesc->DBPacket(HEADER_GD_RELOAD_PROTO, 0, NULL, 0);
+#ifdef ENABLE_DROP_FROM_TABLE
+				db_clientdesc->DBPacket(HEADER_GD_MOB_DROP_TABLE_REQUEST_RELOAD, 0, NULL, 0);
+#endif
+				break;
+			case 'a':
+				db_clientdesc->DBPacket(HEADER_GD_RELOAD_ADMIN, 0, NULL, 0);
+				break;
+#ifdef ENABLE_DROP_FROM_TABLE
+			case 'd':
+				db_clientdesc->DBPacket(HEADER_GD_MOB_DROP_TABLE_REQUEST_RELOAD, 0, NULL, 0);
+				break;
+#endif
+			case 'q':
+				quest::CQuestManager::instance().Reload();
+				break;
+			case 'f':
+				fishing::Initialize();
+				break;
+			case 'c':
+				Cube_init();
+				break;
+			case 'u':
+				LoadStateUserCount();
+				break;
+#ifdef ENABLE_ITEMSHOP
+			case 'i':
+			{
+				BYTE subIndex = ITEMSHOP_RELOAD;
+				db_clientdesc->DBPacketHeader(HEADER_GD_ITEMSHOP, 0, sizeof(BYTE));
+				db_clientdesc->Packet(&subIndex, sizeof(BYTE));
+				break;
+			}
+#endif
+			default:
+				d->Packet("FAIL\n", 5);
+				return;
+		}
+		sys_log(0, "ADMINPAGE: RELOAD %s requested by %s", szCommand, inet_ntoa(d->GetAddr().sin_addr));
+		d->Packet("SUCCESS\n", 8);
+	}
+	else if (!strcmp(szArg, "DC"))
+	{
+		LPDESC pkDesc = *szCommand ? DESC_MANAGER::instance().FindByLoginName(szCommand) : NULL;
+		if (pkDesc)
+		{
+			DESC_MANAGER::instance().DestroyDesc(pkDesc);
+			d->Packet("SUCCESS\n", 8);
+		}
+		else
+			d->Packet("FAIL\n", 5);
+	}
+	else
+		d->Packet("FAIL\n", 5);
+}
+#endif
 
 void CInputProcessor::BindPacketInfo(CPacketInfo* pPacketInfo)
 {
@@ -94,6 +223,36 @@ bool CInputProcessor::Process(LPDESC lpDesc, const void* c_pvOrig, int iBytes, i
 	BYTE	bLastHeader = 0;
 	int		iLastPacketLen = 0;
 	int		iPacketLen;
+
+#ifdef ENABLE_ADMINPAGE_TEXT
+	if (iBytes > 0 && *c_pData == '@'
+		&& lpDesc->IsPhase(PHASE_HANDSHAKE)
+		&& IsAdminPage(inet_ntoa(lpDesc->GetAddr().sin_addr)))
+	{
+		const char* p = c_pData;
+		const char* pEnd = c_pData + iBytes;
+
+		while (p < pEnd)
+		{
+			const char* nl = (const char*)memchr(p, '\n', pEnd - p);
+			if (!nl)
+				break;
+
+			std::string line(p, nl - p);
+			if (!line.empty() && line.back() == '\r')
+				line.pop_back();
+
+			p = nl + 1;
+			r_iBytesProceed = (int)(p - c_pData);
+
+			if (!line.empty() && line[0] == '@')
+				ProcessAdminTextLine(lpDesc, line.c_str() + 1);
+		}
+
+		m_iBufferLeft = 0;
+		return true;
+	}
+#endif
 
 	if (!m_pPacketInfo)
 	{

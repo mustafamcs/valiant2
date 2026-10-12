@@ -250,7 +250,7 @@ protected:
 	void		LoginSuccess(DWORD dwHandle, const char* data);
 	void		PlayerCreateFailure(LPDESC d, BYTE bType);
 	void		PlayerDeleteSuccess(LPDESC d, const char* data);
-	void		PlayerDeleteFail(LPDESC d);
+	void		PlayerDeleteFail(LPDESC d, const char* data);
 	void		PlayerLoad(LPDESC d, const char* data);
 	void		PlayerCreateSuccess(LPDESC d, const char* data);
 	void		Boot(const char* data);

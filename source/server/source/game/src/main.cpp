@@ -87,6 +87,9 @@
 #endif
 #ifdef ENABLE_BOSS_REGEN
 #include "BossRegen.h"
+#ifdef ENABLE_DROP_FROM_TABLE
+#include "mob_drop_manager.h"
+#endif
 #endif
 extern void WriteVersion();
 //extern const char * _malloc_options;
@@ -398,6 +401,9 @@ int main(int argc, char** argv)
 #endif
 #ifdef ENABLE_DUNGEON_INFO
 	CDungeonInfo dungeonInfo;
+#endif
+#ifdef ENABLE_DROP_FROM_TABLE
+	MOB_DROP_MANAGER mobDropManager;
 #endif
 	if (!start(argc, argv)) {
 		CleanUpForEarlyExit();

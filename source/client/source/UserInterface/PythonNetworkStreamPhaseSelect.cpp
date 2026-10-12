@@ -86,7 +86,7 @@ void CPythonNetworkStream::SelectPhase()
 			return;
 		break;
 
-	case HEADER_GC_PLAYER_DELETE_WRONG_SOCIAL_ID:
+	case HEADER_GC_CHARACTER_DELETE_FAILURE:
 		if (__RecvPlayerDestroyFailurePacket())
 			return;
 		break;
@@ -273,11 +273,11 @@ bool CPythonNetworkStream::__RecvPlayerDestroySuccessPacket()
 
 bool CPythonNetworkStream::__RecvPlayerDestroyFailurePacket()
 {
-	TPacketGCBlank packet_blank;
-	if (!Recv(sizeof(TPacketGCBlank), &packet_blank))
+	TPacketGCCharacterDeleteFailure packet_failure;
+	if (!Recv(sizeof(TPacketGCCharacterDeleteFailure), &packet_failure))
 		return false;
 
-	PyCallClassMemberFunc(m_apoPhaseWnd[PHASE_WINDOW_SELECT], "OnDeleteFailure", Py_BuildValue("()"));
+	PyCallClassMemberFunc(m_apoPhaseWnd[PHASE_WINDOW_SELECT], "OnDeleteFailure", Py_BuildValue("(i)", packet_failure.error_code));
 	return true;
 }
 

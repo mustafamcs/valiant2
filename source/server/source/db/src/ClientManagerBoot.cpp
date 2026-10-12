@@ -209,6 +209,14 @@ bool CClientManager::InitializeTables()
 		return false;
 	}
 
+#ifdef ENABLE_DROP_FROM_TABLE
+	if (!InitializeItemDropTable())
+	{
+		sys_err("InitializeItemDropTable FAILED");
+		return false;
+	}
+#endif
+
 	if (!InitializeSkillTable())
 	{
 		sys_err("InitializeSkillTable FAILED");
@@ -2055,5 +2063,300 @@ void CClientManager::SendRank(CPeer* pkPeer)
 			ForwardPacket(HEADER_DG_GLOBAL_RANKING, buff2.read_peek(), buff2.size());
 		}
 	}
+}
+#endif
+#ifdef ENABLE_DROP_FROM_TABLE
+bool CClientManager::InitializeItemDropTable()
+{
+	if (!m_vecCommonDropItemTable.empty())
+	{
+		m_vecCommonDropItemTable.clear();
+		sys_log(0, "CLEANED m_vecCommonDropItemTable (Reloading table)");
+	}
+	if (!m_vecDropItemTable.empty())
+	{
+		m_vecDropItemTable.clear();
+		sys_log(0, "CLEANED m_vecDropItemTable (Reloading table)");
+	}
+	if (!m_vecMobDropItemGroupKill.empty())
+	{
+		m_vecMobDropItemGroupKill.clear();
+		sys_log(0, "CLEANED m_vecMobDropItemGroupKill (Reloading table)");
+	}
+	if (!m_vecMobDropItemKill.empty())
+	{
+		m_vecMobDropItemKill.clear();
+		sys_log(0, "CLEANED m_vecMobDropItemKill (Reloading table)");
+	}
+	if (!m_vecMobDropItemGroupLevel.empty())
+	{
+		m_vecMobDropItemGroupLevel.clear();
+		sys_log(0, "CLEANED m_vecMobDropItemGroupLevel (Reloading table)");
+	}
+	if (!m_vecMobDropItemLevel.empty())
+	{
+		m_vecMobDropItemLevel.clear();
+		sys_log(0, "CLEANED m_vecMobDropItemLevel (Reloading table)");
+	}
+
+	const DWORD dwScale = MAX(1000000 / DROP_TABLE_SCALE, 1);
+
+	// common drop
+	{
+		char szQuery[] = "SELECT `rank`, `item_vnum`, `level_start`, `level_end`, `prob` FROM `drop_common`";
+		std::unique_ptr<SQLMsg> pMsg(CDBManager::instance().DirectQuery(szQuery));
+
+		if (!pMsg.get() || !pMsg->Get())
+		{
+			sys_err("cannot run query [%s] FAILED", szQuery);
+			return false;
+		}
+
+		MYSQL_ROW	row;
+		SQLResult*	pResult = pMsg->Get();
+
+		m_vecCommonDropItemTable.reserve((size_t)pResult->uiNumRows);
+
+		while ((row = mysql_fetch_row(pResult->pSQLResult)))
+		{
+			int col = 0;
+			TCommonDropItemTable commonDropTable;
+			str_to_number(commonDropTable.bRank, row[col++]);
+			str_to_number(commonDropTable.dwItemVnum, row[col++]);
+			str_to_number(commonDropTable.iLevelStart, row[col++]);
+			str_to_number(commonDropTable.iLevelEnd, row[col++]);
+			str_to_number(commonDropTable.iDropPct, row[col++]);
+			commonDropTable.iDropPct *= dwScale;
+			m_vecCommonDropItemTable.push_back(commonDropTable);
+		}
+
+		sys_log(0, "LOADED %u COMMON DROP ITEM TABLES", m_vecCommonDropItemTable.size());
+	}
+
+	// default drop
+	{
+		char szQuery[] = "SELECT `mob_vnum`, `item_vnum`, `count`, `prob` FROM `drop_default`";
+		std::unique_ptr<SQLMsg> pMsg(CDBManager::instance().DirectQuery(szQuery));
+
+		if (!pMsg.get() || !pMsg->Get())
+		{
+			sys_err("cannot run query [%s] FAILED", szQuery);
+			return false;
+		}
+
+		MYSQL_ROW	row;
+		SQLResult*	pResult = pMsg->Get();
+
+		m_vecDropItemTable.reserve((size_t)pResult->uiNumRows);
+
+		while ((row = mysql_fetch_row(pResult->pSQLResult)))
+		{
+			int col = 0;
+			TDropItemTable dropItemTable;
+			str_to_number(dropItemTable.dwMobVnum, row[col++]);
+			str_to_number(dropItemTable.dwItemVnum, row[col++]);
+			str_to_number(dropItemTable.iCount, row[col++]);
+			str_to_number(dropItemTable.iProb, row[col++]);
+			dropItemTable.iProb *= dwScale;
+			m_vecDropItemTable.push_back(dropItemTable);
+		}
+
+		sys_log(0, "LOADED %u Default Drop Table", m_vecDropItemTable.size());
+	}
+
+	// mob drop item group kill
+	{
+		char szQuery[] = "SELECT `group_id`, `mob_vnum`, `kill_per_drop` FROM `drop_mob_group_kill`";
+		std::unique_ptr<SQLMsg> pMsg(CDBManager::instance().DirectQuery(szQuery));
+
+		if (!pMsg.get() || !pMsg->Get())
+		{
+			sys_err("cannot run query [%s] FAILED", szQuery);
+			return false;
+		}
+
+		MYSQL_ROW	row;
+		SQLResult*	pResult = pMsg->Get();
+
+		m_vecMobDropItemGroupKill.reserve((size_t)pResult->uiNumRows);
+
+		while ((row = mysql_fetch_row(pResult->pSQLResult)))
+		{
+			int col = 0;
+			TMobDropItemGroupKill mobDropItemGroup;
+			str_to_number(mobDropItemGroup.dwGroupID, row[col++]);
+			str_to_number(mobDropItemGroup.dwMobVnum, row[col++]);
+			str_to_number(mobDropItemGroup.iKill, row[col++]);
+			m_vecMobDropItemGroupKill.push_back(mobDropItemGroup);
+		}
+
+		sys_log(0, "LOADED %u MobItemGroupKill Table", m_vecMobDropItemGroupKill.size());
+	}
+
+	// mob drop item kill
+	{
+		char szQuery[] = "SELECT `group_id`, `item_vnum`, `count`, `part_prob` FROM `drop_mob_item_kill`";
+		std::unique_ptr<SQLMsg> pMsg(CDBManager::instance().DirectQuery(szQuery));
+
+		if (!pMsg.get() || !pMsg->Get())
+		{
+			sys_err("cannot run query [%s] FAILED", szQuery);
+			return false;
+		}
+
+		MYSQL_ROW	row;
+		SQLResult*	pResult = pMsg->Get();
+
+		m_vecMobDropItemKill.reserve((size_t)pResult->uiNumRows);
+
+		while ((row = mysql_fetch_row(pResult->pSQLResult)))
+		{
+			int col = 0;
+			TMobDropItemKill mobDropItemKill;
+			str_to_number(mobDropItemKill.dwGroupID, row[col++]);
+			str_to_number(mobDropItemKill.dwItemVnum, row[col++]);
+			str_to_number(mobDropItemKill.iCount, row[col++]);
+			str_to_number(mobDropItemKill.iPartPct, row[col++]);
+			m_vecMobDropItemKill.push_back(mobDropItemKill);
+		}
+
+		sys_log(0, "LOADED %u MobItemKill Table", m_vecMobDropItemKill.size());
+	}
+
+	// mob drop item group level
+	{
+		char szQuery[] = "SELECT `group_id`, `mob_vnum`, `level_start`, `level_end` FROM `drop_mob_group_level`";
+		std::unique_ptr<SQLMsg> pMsg(CDBManager::instance().DirectQuery(szQuery));
+
+		if (!pMsg.get() || !pMsg->Get())
+		{
+			sys_err("cannot run query [%s] FAILED", szQuery);
+			return false;
+		}
+
+		MYSQL_ROW	row;
+		SQLResult*	pResult = pMsg->Get();
+
+		m_vecMobDropItemGroupLevel.reserve((size_t)pResult->uiNumRows);
+
+		while ((row = mysql_fetch_row(pResult->pSQLResult)))
+		{
+			int col = 0;
+			TMobDropItemGroupLevel mobDropItemGroup;
+			str_to_number(mobDropItemGroup.dwGroupID, row[col++]);
+			str_to_number(mobDropItemGroup.dwMobVnum, row[col++]);
+			str_to_number(mobDropItemGroup.iLevelStart, row[col++]);
+			str_to_number(mobDropItemGroup.iLevelEnd, row[col++]);
+			m_vecMobDropItemGroupLevel.push_back(mobDropItemGroup);
+		}
+
+		sys_log(0, "LOADED %u MobItemGroupLevel Table", m_vecMobDropItemGroupLevel.size());
+	}
+
+	// mob drop item level
+	{
+		char szQuery[] = "SELECT `group_id`, `item_vnum`, `count`, `prob` FROM `drop_mob_item_level`";
+		std::unique_ptr<SQLMsg> pMsg(CDBManager::instance().DirectQuery(szQuery));
+
+		if (!pMsg.get() || !pMsg->Get())
+		{
+			sys_err("cannot run query [%s] FAILED", szQuery);
+			return false;
+		}
+
+		MYSQL_ROW	row;
+		SQLResult*	pResult = pMsg->Get();
+
+		m_vecMobDropItemLevel.reserve((size_t)pResult->uiNumRows);
+
+		while ((row = mysql_fetch_row(pResult->pSQLResult)))
+		{
+			int col = 0;
+			TMobDropItemLevel mobDropItemLevel;
+			str_to_number(mobDropItemLevel.dwGroupID, row[col++]);
+			str_to_number(mobDropItemLevel.dwItemVnum, row[col++]);
+			str_to_number(mobDropItemLevel.iCount, row[col++]);
+			str_to_number(mobDropItemLevel.iDropPct, row[col++]);
+			mobDropItemLevel.iDropPct *= dwScale;
+			m_vecMobDropItemLevel.push_back(mobDropItemLevel);
+		}
+
+		sys_log(0, "LOADED %u MobItemLevel Table", m_vecMobDropItemLevel.size());
+	}
+
+	if (!m_vecSpecialDropGroup.empty())
+		m_vecSpecialDropGroup.clear();
+	if (!m_vecSpecialDropItem.empty())
+		m_vecSpecialDropItem.clear();
+
+	// special item group (chest drops)
+	{
+		char szQuery[] = "SELECT `vnum`, `type` FROM `drop_special_group`";
+		std::unique_ptr<SQLMsg> pMsg(CDBManager::instance().DirectQuery(szQuery));
+
+		if (!pMsg.get() || !pMsg->Get())
+		{
+			sys_err("cannot run query [%s] FAILED", szQuery);
+			return false;
+		}
+
+		MYSQL_ROW	row;
+		SQLResult*	pResult = pMsg->Get();
+
+		while ((row = mysql_fetch_row(pResult->pSQLResult)))
+		{
+			int col = 0;
+			TSpecialDropGroup group;
+			str_to_number(group.dwVnum, row[col++]);
+			group.iType = 0;
+
+			const std::string stType = row[col++] ? row[col - 1] : "";
+			if (stType == "pct") group.iType = 1;
+			else if (stType == "quest") group.iType = 2;
+			else if (stType == "special") group.iType = 3;
+#ifdef ENABLE_CHEST_OPEN_RENEWAL
+			else if (stType == "const") group.iType = 4;
+			else if (stType == "stone") group.iType = 5;
+			else if (stType == "newpct") group.iType = 6;
+			else if (stType == "norm") group.iType = 7;
+#endif
+			m_vecSpecialDropGroup.push_back(group);
+		}
+
+		sys_log(0, "LOADED %u SpecialDropGroup Table", m_vecSpecialDropGroup.size());
+	}
+
+	{
+		char szQuery[] = "SELECT `group_vnum`, `item_vnum`, `count`, `prob`, `rare` FROM `drop_special_item` ORDER BY `group_vnum`, `idx`";
+		std::unique_ptr<SQLMsg> pMsg(CDBManager::instance().DirectQuery(szQuery));
+
+		if (!pMsg.get() || !pMsg->Get())
+		{
+			sys_err("cannot run query [%s] FAILED", szQuery);
+			return false;
+		}
+
+		MYSQL_ROW	row;
+		SQLResult*	pResult = pMsg->Get();
+
+		while ((row = mysql_fetch_row(pResult->pSQLResult)))
+		{
+			int col = 0;
+			TSpecialDropItem item;
+			str_to_number(item.dwGroupVnum, row[col++]);
+			str_to_number(item.dwItemVnum, row[col++]);
+			str_to_number(item.iCount, row[col++]);
+			str_to_number(item.iProb, row[col++]);
+			str_to_number(item.iRare, row[col++]);
+			m_vecSpecialDropItem.push_back(item);
+		}
+
+		sys_log(0, "LOADED %u SpecialDropItem Table", m_vecSpecialDropItem.size());
+	}
+
+	if (!m_peerList.empty())
+		__SendDropTables();
+
+	return true;
 }
 #endif

@@ -24,6 +24,9 @@
 #include "cube.h"
 #else
 #include "cuberenewal.h"
+#ifdef ENABLE_DROP_FROM_TABLE
+#include "mob_drop_manager.h"
+#endif
 #endif
 
 ITEM_MANAGER::ITEM_MANAGER()
@@ -758,6 +761,10 @@ bool ITEM_MANAGER::CreateDropItemVector(LPCHARACTER pkChr, LPCHARACTER pkKiller,
 		}
 	}
 
+#ifdef ENABLE_DROP_FROM_TABLE
+	MOB_DROP_MANAGER::instance().MakeDropItems(pkChr, pkKiller, vec_item);
+#endif
+
 	return vec_item.size();
 }
 #endif
@@ -848,6 +855,9 @@ bool ITEM_MANAGER::CreateDropItem(LPCHARACTER pkChr, LPCHARACTER pkKiller, std::
 	}
 
 	CreateQuestDropItem(pkChr, pkKiller, vec_item, iDeltaPercent, iRandRange);
+#ifdef ENABLE_DROP_FROM_TABLE
+	MOB_DROP_MANAGER::instance().MakeDropItems(pkChr, pkKiller, vec_item);
+#endif
 #ifdef ENABLE_EVENT_MANAGER
 	CHARACTER_MANAGER::Instance().CheckEventForDrop(pkChr, pkKiller, vec_item);
 #endif
@@ -994,5 +1004,55 @@ void ITEM_MANAGER::DropCalculator(LPCHARACTER pkChr, LPCHARACTER pkKiller, std::
 		}
 	}
 
+}
+#endif
+#ifdef ENABLE_DROP_FROM_TABLE
+void ITEM_MANAGER::RegisterSpecialDropInfo(TSpecialDropGroup* pGroups, DWORD dwGroupCount, TSpecialDropItem* pItems, DWORD dwItemCount)
+{
+	for (auto& it : m_map_pkSpecialItemGroup)
+		M2_DELETE(it.second);
+	m_map_pkSpecialItemGroup.clear();
+
+	for (auto& it : m_map_pkQuestItemGroup)
+		M2_DELETE(it.second);
+	m_map_pkQuestItemGroup.clear();
+	m_ItemToSpecialGroup.clear();
+
+	if (!dwGroupCount || !pGroups)
+		return;
+
+	std::map<DWORD, CSpecialItemGroup*> mapGroup;
+	for (DWORD i = 0; i < dwGroupCount; ++i)
+	{
+		TSpecialDropGroup* pGroup = &pGroups[i];
+		CSpecialItemGroup* pkGroup = M2_NEW CSpecialItemGroup(pGroup->dwVnum, (BYTE)pGroup->iType);
+
+		if (pGroup->iType == CSpecialItemGroup::QUEST)
+		{
+			quest::CQuestManager::instance().RegisterNPCVnum(pGroup->dwVnum);
+			m_map_pkQuestItemGroup.insert(std::make_pair(pGroup->dwVnum, pkGroup));
+		}
+		else
+		{
+			m_map_pkSpecialItemGroup.insert(std::make_pair(pGroup->dwVnum, pkGroup));
+		}
+
+		mapGroup.insert(std::make_pair(pGroup->dwVnum, pkGroup));
+	}
+
+	for (DWORD i = 0; i < dwItemCount; ++i)
+	{
+		TSpecialDropItem* pItem = &pItems[i];
+		auto it = mapGroup.find(pItem->dwGroupVnum);
+		if (it == mapGroup.end())
+			continue;
+
+		it->second->AddItem(pItem->dwItemVnum, pItem->iCount, pItem->iProb, pItem->iRare);
+
+		if (pItem->dwGroupVnum < 30000)
+			m_ItemToSpecialGroup[pItem->dwItemVnum] = pItem->dwGroupVnum;
+	}
+
+	sys_log(0, "SPECIAL_DROP: %u groups, %u items registered", dwGroupCount, dwItemCount);
 }
 #endif

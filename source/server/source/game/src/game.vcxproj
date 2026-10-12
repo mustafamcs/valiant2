@@ -222,6 +222,7 @@
     <ClCompile Include="login_data.cpp" />
     <ClCompile Include="lzo_manager.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="mob_drop_manager.cpp" />
     <ClCompile Include="maintenance.cpp" />
     <ClCompile Include="map_location.cpp" />
     <ClCompile Include="MarkConvert.cpp" />
@@ -378,6 +379,7 @@
     <ClInclude Include="map_location.h" />
     <ClInclude Include="MarkImage.h" />
     <ClInclude Include="MarkManager.h" />
+    <ClInclude Include="mob_drop_manager.h" />
     <ClInclude Include="marriage.h" />
     <ClInclude Include="messenger_manager.h" />
     <ClInclude Include="minigame_bnw.h" />
