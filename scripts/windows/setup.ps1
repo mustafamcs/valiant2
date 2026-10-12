@@ -28,25 +28,54 @@ Install-Package 'Microsoft.VisualStudio.2022.BuildTools' @('--override','--wait 
 Install-Package 'PHP.PHP.8.3'
 Install-Package 'Python.Python.3.12'
 
-# --- 2) .env ---
+# --- 2) .env (otomatik uretim — sablon yok, her sey canli) ---
+function Get-PublicIp {
+    foreach ($svc in 'https://api.ipify.org','https://ifconfig.me/ip','https://icanhazip.com') {
+        try {
+            $ip = (Invoke-WebRequest $svc -UseBasicParsing -TimeoutSec 5).Content.Trim()
+            if ($ip -match '^\d{1,3}(\.\d{1,3}){3}$') { return $ip }
+        } catch {}
+    }
+    # Fallback: disariya giden ag arayuzunun IPv4 adresi
+    $ip = (Get-NetIPAddress -AddressFamily IPv4 | Where-Object { $_.IPAddress -notmatch '^(127\.|169\.254\.)' -and $_.PrefixOrigin -ne 'WellKnown' } | Select-Object -First 1).IPAddress
+    if ($ip) { return $ip }
+    return '127.0.0.1'
+}
+
 $envFile = Join-Path $root '.env'
 if (!(Test-Path $envFile)) {
-    $dbPassword = ([guid]::NewGuid().ToString('N') + [guid]::NewGuid().ToString('N'))
-    $adminPassword = [guid]::NewGuid().ToString('N')
-    $rootPassword = ([guid]::NewGuid().ToString('N') + [guid]::NewGuid().ToString('N'))
-    $panelDbPass = [guid]::NewGuid().ToString('N')
-    $content = Get-Content (Join-Path $root '.env.example') -Raw
-    $content = $content -replace '(?m)^MYSQL_PASSWORD=.*$', "MYSQL_PASSWORD=$dbPassword"
-    $content = $content -replace '(?m)^ADMINPAGE_PASSWORD=.*$', "ADMINPAGE_PASSWORD=$adminPassword"
-    $content = $content -replace '(?m)^MARIADB_ROOT_PASSWORD=.*$', "MARIADB_ROOT_PASSWORD=$rootPassword"
-    $content = $content -replace '(?m)^PANEL_DB_PASSWORD=.*$', "PANEL_DB_PASSWORD=$panelDbPass"
-    [IO.File]::WriteAllText($envFile, $content, [Text.UTF8Encoding]::new($false))
-    Write-Host ".env uretildi (rastgele sifrelerle)."
+    $publicIp = Get-PublicIp
+    Write-Host "Algilanan public IP: $publicIp"
+    $guid = { [guid]::NewGuid().ToString('N') }
+    $envText = @"
+MYSQL_HOST=127.0.0.1
+MYSQL_PORT=3306
+MYSQL_USER=valiant2
+MYSQL_PASSWORD=$(& $guid)$(& $guid)
+MYSQL_ACCOUNT_DATABASE=account
+MYSQL_COMMON_DATABASE=common
+MYSQL_LOG_DATABASE=log
+MYSQL_PLAYER_DATABASE=player
+SERVER_DB_HOST=127.0.0.1
+SERVER_DB_PORT=30000
+ADMINPAGE_IP=127.0.0.1
+ADMINPAGE_PASSWORD=$(& $guid)
+CLIENT_SERVER_NAME=VALIANT2
+CLIENT_SERVER_IP=$publicIp
+MARIADB_SERVICE=MariaDB
+MARIADB_ROOT_PASSWORD=$(& $guid)$(& $guid)
+PANEL_DB_DATABASE=valiant_panel
+PANEL_DB_USER=valiant_panel
+PANEL_DB_PASSWORD=$(& $guid)
+PANEL_P2P_CHANNEL_PORTS=30003,30005,30007,30009,30051
+PUBLIC_IP=$publicIp
+PANEL_BASE_URL=https://$publicIp/
+PATCH_ROOT=C:\patchserver
+"@
+    [IO.File]::WriteAllText($envFile, $envText, [Text.UTF8Encoding]::new($false))
+    Write-Host ".env uretildi: public IP=$publicIp, sifreler rastgele."
 }
 $settings = Get-EnvSettings
-if (-not $settings.PUBLIC_IP -or $settings.PUBLIC_IP -eq '127.0.0.1') {
-    Write-Host 'NOT: .env icindeki PUBLIC_IP su an 127.0.0.1 — disaridan erisim icin gercek IP/domain yazip sync-config calistirin.'
-}
 
 # --- 3) MariaDB ---
 $rootPassword = $settings['MARIADB_ROOT_PASSWORD']
@@ -79,10 +108,71 @@ if (-not (Test-Path $certPem)) {
     & $openssl.FullName req -x509 -newkey rsa:2048 -nodes -keyout $keyPem -out $certPem -days 3650 -subj "/CN=$cn"
     Write-Host "Self-signed sertifika uretildi ($cn). Public IP ile Let's Encrypt icin lego kullanilabilir."
 }
-# nginx.conf'i sablon + sertifika yollariyla yaz
-$tpl = Get-Content (Join-Path $root 'deploy\nginx.conf.template') -Raw
-$tpl = $tpl -replace '__CERT_PEM__', ($certPem -replace '\\','/') -replace '__KEY_PEM__', ($keyPem -replace '\\','/')
-[IO.File]::WriteAllText((Join-Path $nginxDir 'conf\nginx.conf'), $tpl, [Text.UTF8Encoding]::new($false))
+# nginx.conf'u canli degerlerle yaz (sablon dosyasi yok)
+$certF = $certPem -replace '\\','/'; $keyF = $keyPem -replace '\\','/'
+$nginxConf = @"
+worker_processes  1;
+
+events {
+    worker_connections  8192;
+}
+
+http {
+    include       mime.types;
+    default_type  application/octet-stream;
+    sendfile        on;
+    server_tokens   off;
+
+    limit_req_zone `$binary_remote_addr zone=panel:10m rate=50r/s;
+
+    upstream panel_backend {
+        server 127.0.0.1:8090;
+        server 127.0.0.1:8092;
+        server 127.0.0.1:8093;
+        server 127.0.0.1:8094;
+    }
+
+    server {
+        listen 80;
+        server_name _;
+        return 301 https://`$host`$request_uri;
+    }
+
+    server {
+        listen 443 ssl;
+        server_name _;
+
+        ssl_certificate     $certF;
+        ssl_certificate_key $keyF;
+        ssl_protocols       TLSv1.2 TLSv1.3;
+
+        limit_req zone=panel burst=100 nodelay;
+
+        location /patcher/ {
+            proxy_pass http://127.0.0.1:8091;
+            proxy_set_header Host `$host;
+            proxy_read_timeout 600s;
+        }
+
+        location /update/ {
+            proxy_pass http://127.0.0.1:8091;
+            proxy_set_header Host `$host;
+            proxy_read_timeout 600s;
+            proxy_buffering off;
+        }
+
+        location / {
+            proxy_pass http://panel_backend;
+            proxy_set_header Host `$host;
+            proxy_set_header X-Real-IP `$remote_addr;
+            proxy_set_header X-Forwarded-For `$proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto https;
+            proxy_read_timeout 60s;
+        }
+    }
+}
+"@
+[IO.File]::WriteAllText((Join-Path $nginxDir 'conf\nginx.conf'), $nginxConf, [Text.UTF8Encoding]::new($false))
 & (Join-Path $nginxDir 'nginx.exe') -t -p $nginxDir
 if ($LASTEXITCODE -ne 0) { throw 'nginx.conf testi basarisiz.' }
 

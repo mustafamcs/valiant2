@@ -42,8 +42,7 @@ Herkes  --------->  MariaDB 3306 (sadece localhost)
 | `assets\unpacked\create_*.bat` | FSArchiver ile .pak üretimi (örn. `create_root.bat` → `root.pak`) |
 | `tools\client-config` | `config.exe` kaynağı (game\bin\config.exe) |
 | `tools\client-launcher` | Eski launcher (artık kullanılmıyor, patcher aldı) |
-| `patchserver\` | Patch altyapısı kaynakları (Patcher.cs — `@@BASE_URL@@` token'lı, file_server.py, patch_watch.py, src ikonlar). `setup.ps1`/`start-stack` bunu PATCH_ROOT'a dağıtır |
-| `deploy\nginx.conf.template` | Nginx şablonu — `__CERT_PEM__`/`__KEY_PEM__` setup'ta doldurulur |
+| `patchserver\` | Patch altyapısı kaynakları (Patcher.cs `Cfg.BASE_URL` kullanır — derleme anında `.env`'den üretilir; file_server.py, patch_watch.py `patchserver.json` okur). `setup.ps1`/`start-stack` PATCH_ROOT'a dağıtır |
 | `deploy\certs\` | setup.ps1'in ürettiği self-signed sertifika (git'e girmez) |
 | `C:\patchserver` | Patch deploy hedefi (`.env` PATCH_ROOT — `patchserver.json` burada, .py'ler ayarları ondan okur) |
 | `C:\patchserver\patch\files` | Oyunculara dağıtılan oyun dosyaları |
@@ -136,8 +135,8 @@ Herkes  --------->  MariaDB 3306 (sadece localhost)
 ## Taşınabilirlik kuralları
 
 - Hiçbir script'te mutlak kullanıcı yolu veya sabit IP yazma: `common.ps1`'deki `Get-EnvSettings`/`Get-PublicBase`/`Get-PatchRoot`/`Get-PhpExe`/`Get-PythonwExe`/`Get-NginxExe` kullan.
-- `.env` değişkenleri: `PUBLIC_IP` (dış adres — panel/patch/BIND_IP için), `CLIENT_SERVER_IP` (client'ın bağlandığı), `PATCH_ROOT` (patch deploy dizini), `PANEL_BASE_URL`, `PANEL_DB_*`.
-- Patcher'daki `@@BASE_URL@@` ve nginx şablonundaki `__CERT_PEM__` token'ları build/setup sırasında doldurulur — elle yazma.
+- `.env` değişkenleri: `PUBLIC_IP` (dış adres — panel/patch/BIND_IP için), `CLIENT_SERVER_IP` (client'ın bağlandığı), `PATCH_ROOT` (patch deploy dizini), `PANEL_BASE_URL`, `PANEL_DB_*`. `.env` git'e girmez; setup her makinede kendisi üretir (IP'yi api.ipify/ifconfig/icanhazip'ten otomatik algılar, şifreleri rastgele basar). Sablon/örnek dosya YOK — her şey canlı üretilir.
+- Patcher `Cfg.BASE_URL` kullanır; `build-patcher.ps1` derleme anında bu sınıfı `.env`'den üretir — kaynak dosyada IP yok.
 - `sync-config.ps1` CONFIG'lere `BIND_IP: <PUBLIC_IP>` yazar (yoksa ekler) — IP değişince `sync-config` + `restart-server` yeterli.
 - Panel `PatchRoot` sabitini `Settings.php`'deki `PATCH_ROOT`'tan okur — controller'larda `PatchRoot . "/patch"` kullan.
 

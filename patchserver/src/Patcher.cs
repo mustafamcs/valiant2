@@ -32,7 +32,7 @@ public class PatcherInfo {
 }
 
 public class PatcherForm : Form {
-    const string BASE_URL = "@@BASE_URL@@";
+    const string BASE_URL = Cfg.BASE_URL;
     const string MANIFEST_URL = BASE_URL + "/update/patchlist.json";
     const string PATCHER_INFO_URL = BASE_URL + "/update/patcher.json";
     const int PATCHER_VERSION = 1;
@@ -69,10 +69,10 @@ public class PatcherForm : Form {
         var line = new Panel { Location = new Point(60, 168), Size = new Size(Width - 120, 1), BackColor = Color.FromArgb(90, 72, 40) };
         var sub = new Label { Text = "AUTO PATCHER", ForeColor = GOLD,
             Font = new Font("Georgia", 11, FontStyle.Bold), AutoSize = true, Location = new Point(38, 182) };
-        var news = new Label { Text = "@@BASE_URL@@", ForeColor = DIM,
+        var news = new Label { Text = BASE_URL, ForeColor = DIM,
             Font = new Font("Georgia", 9, FontStyle.Underline), AutoSize = true, Location = new Point(38, 208),
             Cursor = Cursors.Hand };
-        news.Click += (s, e) => { try { Process.Start("@@BASE_URL@@"); } catch { } };
+        news.Click += (s, e) => { try { Process.Start(BASE_URL); } catch { } };
         news.MouseEnter += (s, e) => news.ForeColor = GOLD_HI;
         news.MouseLeave += (s, e) => news.ForeColor = DIM;
 
