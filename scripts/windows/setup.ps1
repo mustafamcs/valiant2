@@ -216,7 +216,7 @@ if ($LASTEXITCODE -ne 0) { throw 'nginx.conf testi basarisiz.' }
 # --- 6) Patchserver dagitimi ---
 $patchRoot = Get-PatchRoot $settings
 New-Item -ItemType Directory -Force -Path "$patchRoot\patch\files", "$patchRoot\patcher" | Out-Null
-Copy-Item (Join-Path $root 'patchserver\*') $patchRoot -Recurse -Force
+Copy-Item (Join-Path $root 'source\patchserver\*') $patchRoot -Recurse -Force
 @{
     game_dir    = (Join-Path $root 'runtime\client\game')
     patch_dir   = "$patchRoot\patch"

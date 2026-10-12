@@ -12,10 +12,6 @@ VALIANT2/
 │   ├── bootstrap.sql           #   account/common/log/player DB semasi
 │   ├── extra_tables.sql        #   Drop tablolari, biolog, fishevent...
 │   └── drop_seed.sql           #   Varsayilan drop verileri
-├── patchserver/                # Patch altyapisi kaynaklari
-│   ├── src/Patcher.cs          #   Autopatcher (VALIANT2.exe) kaynak kodu
-│   ├── file_server.py          #   HTTP dosya sunucusu (8091)
-│   └── patch_watch.py          #   Dosya degisiklik izleyici
 ├── runtime/
 │   ├── client/                 # Client calisma ortami
 │   │   ├── game/               #   Oyun dosyalari, pack'ler, bin/
@@ -34,7 +30,11 @@ VALIANT2/
 │   └── ...                     #   Diger scriptler (asagida tablo)
 ├── source/
 │   ├── client/                 # Client C++ kaynak kodu + external
-│   └── server/                 # Server C++ kaynak kodu + external
+│   ├── server/                 # Server C++ kaynak kodu + external
+│   └── patchserver/            # Patch altyapisi kaynaklari
+│       ├── src/Patcher.cs      #   Autopatcher (C#)
+│       ├── file_server.py      #   HTTP dosya sunucusu
+│       └── patch_watch.py      #   Dosya degisiklik izleyici
 ├── tools/                      # Yardimci araclar
 │   ├── client-config/          #   config.exe (ayar araci)
 │   ├── client-launcher/        #   Eski launcher (artik patcher aldigi icin referans)

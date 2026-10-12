@@ -42,7 +42,7 @@ if (-not (Get-Process nginx -ErrorAction SilentlyContinue)) {
 
 # --- Patch altyapisi ---
 $pythonw = Get-PythonwExe
-$patchScripts = Join-Path $root 'patchserver'
+$patchScripts = Join-Path $root 'source\patchserver'
 New-Item -ItemType Directory -Force -Path "$patchRoot\patch\files", "$patchRoot\patcher" | Out-Null
 
 # Dosya sunucusu ve watcher'i patchRoot'a kur (guncel kaynaktan)

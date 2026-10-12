@@ -36,10 +36,6 @@ VALIANT2/                                       Proje kökü (git repo)
 ├── assets/unpacked/data/                       Client kaynak dosyaları (pack üretimi)
 ├── database/                                   SQL şema + seed dosyaları
 ├── deploy/certs/                               SSL sertifikaları (git'e girmez)
-├── patchserver/                                Patch altyapısı kaynakları
-│   ├── src/Patcher.cs                            Autopatcher kaynak kodu
-│   ├── file_server.py                            HTTP dosya sunucusu
-│   └── patch_watch.py                            Dosya değişiklik izleyici
 ├── runtime/
 │   ├── client/game/                            Canlı client dosyaları
 │   ├── client/VALIANT2.exe                     Patcher/Launcher
@@ -56,7 +52,11 @@ VALIANT2/                                       Proje kökü (git repo)
 ├── scripts/windows/                            Tüm işletim scriptleri
 ├── source/
 │   ├── client/                                 Client C++ kaynak + external
-│   └── server/                                 Server C++ kaynak + external
+│   ├── server/                                 Server C++ kaynak + external
+│   └── patchserver/                            Patch altyapısı kaynakları
+│       ├── src/Patcher.cs                        Autopatcher (C#) kaynak kodu
+│       ├── file_server.py                        HTTP dosya sunucusu (Python)
+│       └── patch_watch.py                        Dosya değişiklik izleyici (Python)
 ├── tools/                                      Yardımcı araçlar
 │   ├── client-config/                            config.exe kaynağı
 │   ├── db-manager/                               DB yönetim aracı

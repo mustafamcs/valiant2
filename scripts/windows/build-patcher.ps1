@@ -1,13 +1,13 @@
 # VALIANT2 AutoPatcher (VALIANT2.exe) derler, runtime + patch sunucusuna dagitir,
 # self-update manifestini (patcher.json) gunceller.
-# Kaynak: <repo>\patchserver\src\Patcher.cs — BASE_URL derleme aninda .env'den uretilen Cfg sinifindan gelir.
+# Kaynak: <repo>\source\patchserver\src\Patcher.cs — BASE_URL derleme aninda .env'den uretilen Cfg sinifindan gelir.
 $ErrorActionPreference = 'Stop'
 . (Join-Path $PSScriptRoot 'common.ps1')
 $settings = Get-EnvSettings
 $root = $script:ProjectRoot
 $patchRoot = Get-PatchRoot $settings
 $baseUrl = Get-PublicBase $settings
-$src = Join-Path $root 'patchserver\src'
+$src = Join-Path $root 'source\patchserver\src'
 $csc = 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe'
 
 foreach ($d in @("$patchRoot\patcher", "$patchRoot\patch\files")) { New-Item -ItemType Directory -Force -Path $d | Out-Null }
