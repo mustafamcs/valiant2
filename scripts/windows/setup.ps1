@@ -205,7 +205,10 @@ if (-not (Get-NetFirewallRule -DisplayName 'VALIANT2-Public' -ErrorAction Silent
 & (Join-Path $PSScriptRoot 'build-all.ps1')
 & (Join-Path $PSScriptRoot 'build-patcher.ps1')
 
+# --- 10) Her seyi baslat ---
+& (Join-Path $PSScriptRoot 'start-stack.ps1')
+& (Join-Path $PSScriptRoot 'start-server.ps1')
+
 Write-Host ''
-Write-Host 'VALIANT2 setup completed.'
-Write-Host "Web altyapisi: $PSScriptRoot\start-stack.cmd   Oyun: $PSScriptRoot\start-server.cmd"
+Write-Host 'VALIANT2 setup completed — stack ve oyun sunucusu baslatildi.'
 Write-Host "Durum kontrolu: $PSScriptRoot\stack-status.cmd"
