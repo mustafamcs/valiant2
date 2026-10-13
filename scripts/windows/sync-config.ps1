@@ -28,12 +28,10 @@ Get-ChildItem $runtime -Recurse -File -Filter CONFIG | ForEach-Object {
     $text = $text -replace '(?m)^PLAYER_SQL:.*$', "PLAYER_SQL: $($settings.MYSQL_HOST) $($settings.MYSQL_USER) $($settings.MYSQL_PASSWORD) $playerDb $($settings.MYSQL_PORT)"
     $text = $text -replace '(?m)^ADMINPAGE_IP1:.*$', "ADMINPAGE_IP1: $($settings.ADMINPAGE_IP)"
     $text = $text -replace '(?m)^ADMINPAGE_PASSWORD:.*$', "ADMINPAGE_PASSWORD: $($settings.ADMINPAGE_PASSWORD)"
-    # BIND_IP: internal IP (adapter IP for socket bind; public IP is announced via serverinfo.py)
-    # game.exe treats "0" prefix as "no IP" and exits, so we cannot use 0.0.0.0
-    $bindIp = $null
-    try {
-        $bindIp = (Get-NetIPAddress -AddressFamily IPv4 | Where-Object { $_.IPAddress -ne '127.0.0.1' -and $_.PrefixOrigin -ne 'WellKnown' } | Select-Object -First 1).IPAddress
-    } catch {}
+    # BIND_IP: public IP — server announces this to clients for channel connect.
+    # Must be the external IP so remote clients can reach the game core.
+    $bindIp = $settings.PUBLIC_IP
+    if (-not $bindIp) { $bindIp = $settings.CLIENT_SERVER_IP }
     if (-not $bindIp) { $bindIp = '127.0.0.1' }
     if ($text -match '(?m)^BIND_IP:') {
         $text = $text -replace '(?m)^BIND_IP:.*$', "BIND_IP: $bindIp"
