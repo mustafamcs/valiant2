@@ -24,7 +24,7 @@ define('SqlPassword',     $__get('PANEL_DB_PASSWORD')); // panel kullanici sifre
 define('Metin2Host',      $__get('MYSQL_HOST', '127.0.0.1')); // oyun veritabani host
 define('Metin2User',      $__get('MYSQL_USER')); // oyun veritabani kullanici
 define('Metin2Password',  $__get('MYSQL_PASSWORD')); // oyun veritabani sifre
-define('ENVIRONMENT',     'development'); // development ve ya production
+define('ENVIRONMENT',     'production'); // development ve ya production
 define('versionKey',      'v1.02'); // versiyon sabiti
 define('PatchRoot',       rtrim($__get('PATCH_ROOT', dirname(__DIR__, 2) . '/runtime/patchserver'), '/\\')); // patch sunucusu koku
 
