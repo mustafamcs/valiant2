@@ -38,43 +38,56 @@ class GirisYap extends BaseController
     if ($validation->withRequest($this->request)->run()){
       $girisYapModel  = model('Giris_yap_model');
       $db             = \Config\Database::connect();
-      $kontrol        = $girisYapModel->Kontrol($request->getPost('name'),$db);
-      if ($kontrol){
-        if (!password_verify($request->getPost('password'),$kontrol->user_password)) {
-          LogAdd(lang('GirisYap.kayit.bilgilerHatali'),'#',$kontrol->user_id);
-          responseResult('error',lang('GirisYap.cikti.bilgilerHatali'));
-        }else if($kontrol->user_status=="0") {
-          responseResult('error',lang('GirisYap.cikti.hesapBanli'));
-        }
-        $rememberMeToken = CreateToken('BeniHatirla',$db);
-        if ($request->getPost('remember')){
-          $data = [
-            'user_token'        => $rememberMeToken,
-            'user_login_date'   => date('Y-m-d H:i:s'),
-            'user_end_session'  => "0",
-          ];
-          $girisYapModel->Guncelle($data,$kontrol->user_id,$db);
-          setcookie(cookieKey,$rememberMeToken,time()+MONTH,'/','');
-        }else {
-          $data = [
-            'user_login_date'  => date('Y-m-d H:i:s'),
-            'user_end_session' => "0",
-          ];
-          $girisYapModel->Guncelle($data,$kontrol->user_id,$db);
-        }
-        session()->set('user_role',json_decode($kontrol->user_role));
-        session()->set('user_id',$kontrol->user_id);
-        session()->set('is_admin',($kontrol->user_rank=="9"?true:false));
-        $alert = [
-          'type' => "success",
-          'text' => lang('GirisYap.cikti.girisBasarili')
-        ];
-        session()->setFlashdata('alert',$alert);
-        LogAdd(lang('GirisYap.kayit.girisBasarili'),'#',$kontrol->user_id);
-        responseResult('success',lang('GirisYap.cikti.girisBasarili'));
-      }else{
+      $dbGame         = \Config\Database::connect('metin2');
+      $loginName      = $request->getPost('name');
+      $loginPass      = $request->getPost('password');
+      // 1) Oyun hesabini kontrol et (account.account)
+      $accountRow = $girisYapModel->KontrolAccount($loginName,$dbGame);
+      if (!$accountRow){
         responseResult('error',lang('GirisYap.cikti.bilgilerHatali'));
       }
+      // 2) Sifre dogrulama (MySQL PASSWORD())
+      if (!$girisYapModel->SifreDogrula($loginName,$loginPass,$dbGame)){
+        responseResult('error',lang('GirisYap.cikti.bilgilerHatali'));
+      }
+      // 3) Hesap banlı mi?
+      if ($accountRow->status !== 'OK'){
+        responseResult('error',lang('GirisYap.cikti.hesapBanli'));
+      }
+      // 4) GM seviyesi IMPLEMENTOR mu? (common.gmlist)
+      $gmRow = $girisYapModel->GMKontrol($loginName,$dbGame);
+      if (!$gmRow){
+        responseResult('error','Bu panele sadece IMPLEMENTOR yetkisine sahip hesaplar girebilir.');
+      }
+      // 5) Panel users tablosunda karsilik yoksa otomatik olustur
+      $kontrol = $girisYapModel->OtoKayit($loginName,$db);
+      // 6) Token + session
+      $rememberMeToken = CreateToken('BeniHatirla',$db);
+      if ($request->getPost('remember')){
+        $data = [
+          'user_token'        => $rememberMeToken,
+          'user_login_date'   => date('Y-m-d H:i:s'),
+          'user_end_session'  => "0",
+        ];
+        $girisYapModel->Guncelle($data,$kontrol->user_id,$db);
+        setcookie(cookieKey,$rememberMeToken,time()+MONTH,'/','');
+      }else {
+        $data = [
+          'user_login_date'  => date('Y-m-d H:i:s'),
+          'user_end_session' => "0",
+        ];
+        $girisYapModel->Guncelle($data,$kontrol->user_id,$db);
+      }
+      session()->set('user_role',json_decode($kontrol->user_role));
+      session()->set('user_id',$kontrol->user_id);
+      session()->set('is_admin',true);
+      $alert = [
+        'type' => "success",
+        'text' => lang('GirisYap.cikti.girisBasarili')
+      ];
+      session()->setFlashdata('alert',$alert);
+      LogAdd(lang('GirisYap.kayit.girisBasarili'),'#',$kontrol->user_id);
+      responseResult('success',lang('GirisYap.cikti.girisBasarili'));
     }else {
       responseResult('error',$validation->getErrors());
     }
