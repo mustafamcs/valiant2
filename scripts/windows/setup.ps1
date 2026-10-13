@@ -156,39 +156,87 @@ if (-not (Get-NginxExe)) {
     if ($inner) { Get-ChildItem $inner.FullName | Move-Item -Destination $nginxDir -Force }
     Remove-Item $zip, "$env:TEMP\nginx-extract" -Recurse -Force -ErrorAction SilentlyContinue
 }
-# Sertifika (yoksa Git'in openssl'i ile self-signed uret — PUBLIC_IP icin)
+# SSL sertifika — Let's Encrypt IP sertifikasi (lego, shortlived profil)
 $certDir = Join-Path $root 'deploy\certs'
 New-Item -ItemType Directory -Force -Path $certDir | Out-Null
 $certPem = Join-Path $certDir 'cert.pem'; $keyPem = Join-Path $certDir 'key.pem'
+$legoDir = Join-Path $root 'runtime\dependencies\lego'
+$legoExe = Join-Path $legoDir 'lego.exe'
+$legoStore = Join-Path $certDir 'lego'
+$cn = if ($settings.PUBLIC_IP) { $settings.PUBLIC_IP } else { 'localhost' }
+# lego indir (yoksa)
+if (-not (Test-Path $legoExe)) {
+    $legoVer = '5.3.1'
+    $legoZip = Join-Path $env:TEMP 'lego.zip'
+    $legoUrl = "https://github.com/go-acme/lego/releases/download/v${legoVer}/lego_v${legoVer}_windows_amd64.zip"
+    Write-Host "lego indiriliyor ($legoVer)..."
+    Invoke-WebRequest $legoUrl -OutFile $legoZip -UseBasicParsing
+    New-Item -ItemType Directory -Force -Path $legoDir | Out-Null
+    Expand-Archive $legoZip -DestinationPath $legoDir -Force
+    Remove-Item $legoZip -ErrorAction SilentlyContinue
+}
 if (-not (Test-Path $certPem)) {
-    $openssl = Get-ChildItem "$env:ProgramFiles\Git\usr\bin\openssl.exe" -ErrorAction SilentlyContinue | Select-Object -First 1
-    if (-not $openssl) { throw 'openssl bulunamadi (Git kurulumuyla gelmeli)' }
-    $cn = if ($settings.PUBLIC_IP) { $settings.PUBLIC_IP } else { 'localhost' }
-    # SAN ile sertifika uret — IP adresi icin subjectAltName gerekli
-    $sanConf = Join-Path $certDir 'san.cnf'
-    @"
+    # nginx durdur (80 portu lazim)
+    Get-Process nginx -ErrorAction SilentlyContinue | Stop-Process -Force
+    Start-Sleep -Seconds 2
+    Write-Host "Let's Encrypt IP sertifikasi aliniyor ($cn)..."
+    & $legoExe run --email="admin@valiant2.com" --accept-tos --http --http.address=":80" --domains="$cn" --path="$legoStore" --profile="shortlived"
+    if ($LASTEXITCODE -eq 0) {
+        $legoCert = Join-Path $legoStore "certificates\$cn.crt"
+        $legoKey  = Join-Path $legoStore "certificates\$cn.key"
+        Copy-Item $legoCert $certPem -Force
+        Copy-Item $legoKey  $keyPem  -Force
+        Write-Host "Let's Encrypt sertifikasi alindi ve deploy edildi."
+    } else {
+        Write-Host "Let's Encrypt basarisiz — self-signed fallback..."
+        $openssl = Get-ChildItem "$env:ProgramFiles\Git\usr\bin\openssl.exe" -ErrorAction SilentlyContinue | Select-Object -First 1
+        if ($openssl) {
+            $sanConf = Join-Path $certDir 'san.cnf'
+            @"
 [req]
 default_bits=2048
 prompt=no
 default_md=sha256
 distinguished_name=dn
-req_extensions=v3_req
 x509_extensions=v3_req
 [dn]
 CN=$cn
 [v3_req]
 subjectAltName=IP:$cn,DNS:localhost,IP:127.0.0.1
-basicConstraints=CA:TRUE
 "@ | Set-Content $sanConf -Encoding ASCII
-    & $openssl.FullName req -x509 -newkey rsa:2048 -nodes -keyout $keyPem -out $certPem -days 3650 -config $sanConf
-    Remove-Item $sanConf -ErrorAction SilentlyContinue
-    # Sertifikayi Windows guvenlir sertifika deposuna ekle (tarayici uyarisi kalkar)
-    try {
-        Import-Certificate -FilePath $certPem -CertStoreLocation 'Cert:\LocalMachine\Root' | Out-Null
-        Write-Host "Self-signed sertifika uretildi ve Windows Trust Store'a eklendi ($cn)."
-    } catch {
-        Write-Host "Self-signed sertifika uretildi ($cn). Trust Store'a eklenemedi — tarayici uyarisi verebilir."
+            & $openssl.FullName req -x509 -newkey rsa:2048 -nodes -keyout $keyPem -out $certPem -days 3650 -config $sanConf
+            Remove-Item $sanConf -ErrorAction SilentlyContinue
+            Write-Host "Self-signed sertifika uretildi ($cn)."
+        }
     }
+}
+# Otomatik yenileme gorevi (her 4 gunde, sertifika 6 gun gecerli)
+$renewScript = Join-Path $root 'scripts\windows\renew-cert.ps1'
+@"
+`$root = Split-Path (Split-Path `$PSScriptRoot)
+. (Join-Path `$root 'scripts\windows\common.ps1')
+`$settings = Get-EnvSettings
+`$cn = `$settings.PUBLIC_IP
+`$legoExe = Join-Path `$root 'runtime\dependencies\lego\lego.exe'
+`$legoStore = Join-Path `$root 'deploy\certs\lego'
+`$certDir = Join-Path `$root 'deploy\certs'
+Get-Process nginx -ErrorAction SilentlyContinue | Stop-Process -Force
+Start-Sleep 2
+& `$legoExe run --email='admin@valiant2.com' --accept-tos --http --http.address=':80' --domains=`$cn --path=`$legoStore --profile='shortlived' --renew-force
+if (`$LASTEXITCODE -eq 0) {
+    Copy-Item (Join-Path `$legoStore "certificates\`$cn.crt") (Join-Path `$certDir 'cert.pem') -Force
+    Copy-Item (Join-Path `$legoStore "certificates\`$cn.key") (Join-Path `$certDir 'key.pem') -Force
+}
+& (Join-Path `$root 'scripts\windows\start-stack.ps1')
+"@ | Set-Content $renewScript -Encoding UTF8
+$taskName = 'LegoIPRenew'
+$existTask = Get-ScheduledTask -TaskName $taskName -ErrorAction SilentlyContinue
+if (-not $existTask) {
+    $action  = New-ScheduledTaskAction -Execute 'powershell.exe' -Argument "-NoProfile -ExecutionPolicy Bypass -File `"$renewScript`""
+    $trigger = New-ScheduledTaskTrigger -Daily -DaysInterval 4 -At '04:00'
+    $principal = New-ScheduledTaskPrincipal -UserId 'SYSTEM' -LogonType ServiceAccount -RunLevel Highest
+    Register-ScheduledTask -TaskName $taskName -Action $action -Trigger $trigger -Principal $principal -Description 'Renew Let''s Encrypt IP certificate (shortlived)' | Out-Null
+    Write-Host "Sertifika yenileme gorevi olusturuldu ($taskName)."
 }
 # nginx.conf'u canli degerlerle yaz (sablon dosyasi yok)
 $certF = $certPem -replace '\\','/'; $keyF = $keyPem -replace '\\','/'
