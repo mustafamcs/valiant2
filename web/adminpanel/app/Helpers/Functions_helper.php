@@ -522,7 +522,7 @@ function ResponseResult($type,$message,$response=[])
 }
 function Permalink($str, $options = array())
 {
-  $str = mb_convert_encoding((string)$str, 'UTF-8', mb_list_encodings());
+  $str = mb_convert_encoding((string)$str, 'UTF-8', 'ISO-8859-9');
   $defaults = array(
     'delimiter' => '-',
     'limit' => null,

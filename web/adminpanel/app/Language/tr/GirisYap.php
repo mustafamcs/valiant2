@@ -10,6 +10,7 @@ $languageArray = [
     'girisYapilmisLutfenSayfayiYenile' 	=> "Giriş yapılmıştır.Lütfen sayfayı yenileyiniz.",
     'bilgilerHatali' 										=> "Girdiğiniz bilgiler hatalı.Lütfen kontrol ediniz.",
     'hesapBanli' 												=> "Hesabınız engellenmiştir.",
+    'yetkisizGiris'                     => "Bu panele sadece IMPLEMENTOR yetkisine sahip hesaplar girebilir.",
     'girisBasarili' 										=> "Başarıyla giriş yaptınız.",
   ],
   'kayit' => [

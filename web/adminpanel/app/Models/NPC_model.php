@@ -91,7 +91,7 @@ class NPC_model
 
   public function Query($query,$db)
   {
-    header('Content-Type: text/html; charset=latin5');
+    header('Content-Type: text/html; charset=utf-8');
     return $db->query($query)->getResult();
   }
 

@@ -10,13 +10,13 @@ class Esya_model
 
   public function AjaxAra($query,$db)
   {
-    header('Content-Type: text/html; charset=latin5');
+    header('Content-Type: text/html; charset=utf-8');
     return $db->query($query)->getResult();
   }
 
   public function EsyaAra($search)
   {
-    header('Content-Type: text/html; charset=latin5');
+    header('Content-Type: text/html; charset=utf-8');
     $db = \Config\Database::connect('metin2');
     return $db->query("SELECT * FROM player.item_proto
     WHERE vnum LIKE '%".addslashes(addcslashes(mb_convert_encoding($search, 'ISO-8859-9' ,"UTF-8"),'%'))."%'

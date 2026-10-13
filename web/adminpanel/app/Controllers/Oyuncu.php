@@ -405,7 +405,7 @@ class Oyuncu extends BaseController
     }else {
       $viewData['karakterDetay']  = $karakterKontrol;
       $viewData['mapIndex']       = $this->oyuncuModel->MapIndex($karakterKontrol->map_index);
-      LogAdd(lang('Oyuncu.kayit.karakterDetayGirildi',['name' => $karakterKontrol->name]),'Oyuncu/Karakter/'.$karakterKontrol->id,session('user_id'));
+      LogAdd(lang('Oyuncu.kayit.karakterDetayGirildi',['name' => mb_convert_encoding($karakterKontrol->name, 'UTF-8', 'ISO-8859-9')]),'Oyuncu/Karakter/'.$karakterKontrol->id,session('user_id'));
     }
     $viewData['viewFolder'] = $this->viewFolder;
     $viewData = array_merge(ConstantHeader(),$viewData);
@@ -445,7 +445,7 @@ class Oyuncu extends BaseController
         $result = $this->oyuncuModel->KarakterGuncelle($data,$kontrol->id,$db);
         if ($result) {
           DeleteFileCache('KarakterDetay-'.$kontrol->id);
-          LogAdd(lang('Oyuncu.kayit.karakterKurtarildi',['name' => $kontrol->name]),'Oyuncu/Karakter/'.$kontrol->id,session('user_id'));
+          LogAdd(lang('Oyuncu.kayit.karakterKurtarildi',['name' => mb_convert_encoding($kontrol->name, 'UTF-8', 'ISO-8859-9')]),'Oyuncu/Karakter/'.$kontrol->id,session('user_id'));
           responseResult('success',lang('Oyuncu.cikti.karakterKurtarildi'));
         }else {
           responseResult('error',lang('Genel.bilinmeyenHata'));
@@ -477,7 +477,7 @@ class Oyuncu extends BaseController
             @SendServer($kontrol->login,"DC",$value);
           }
         }
-        LogAdd(lang('Oyuncu.kayit.karakterDusuruldu',['name' => $kontrol->name]),'Oyuncu/Karakter/'.$kontrol->id,session('user_id'));
+        LogAdd(lang('Oyuncu.kayit.karakterDusuruldu',['name' => mb_convert_encoding($kontrol->name, 'UTF-8', 'ISO-8859-9')]),'Oyuncu/Karakter/'.$kontrol->id,session('user_id'));
         responseResult('success',lang('Oyuncu.cikti.karakterDusuruldu'));
       }
     }else {
@@ -719,7 +719,7 @@ class Oyuncu extends BaseController
         ];
         $result = $this->oyuncuModel->EsyaEkle($data,$db);
         if ($result) {
-          $text = lang('Oyuncu.kayit.esyaGonderildi',['name' => $kontrol->name, 'item' => mb_convert_encoding($esya->locale_name, 'UTF-8' ,"ISO-8859-9"), 'count' => $request->getPost('count')]);
+          $text = lang('Oyuncu.kayit.esyaGonderildi',['name' => mb_convert_encoding($kontrol->name, 'UTF-8', 'ISO-8859-9'), 'item' => mb_convert_encoding($esya->locale_name, 'UTF-8' ,"ISO-8859-9"), 'count' => $request->getPost('count')]);
           LogAdd($text,'Oyuncu/Karakter/'.$kontrol->id,session('user_id'));
           responseResult('success',$text);
         }else {

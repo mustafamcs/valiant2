@@ -282,7 +282,7 @@ class Kayitlar extends BaseController
     $data = [];
     foreach ($yaz as $key => $value) {
       $sub_array = [];
-      $sub_array[] = $value->name;
+      $sub_array[] = mb_convert_encoding($value->name, 'UTF-8', 'ISO-8859-9');
       $sub_array[] = $value->level.' Lv.';
       $sub_array[] = $value->playtime.' dakika';
       $sub_array[] = DateDMYHMS($value->time);

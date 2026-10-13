@@ -73,7 +73,7 @@ class Nesne_market_model
 
   public function KategoriAra($search)
   {
-    header('Content-Type: text/html; charset=latin5');
+    header('Content-Type: text/html; charset=utf-8');
     $db = \Config\Database::connect('metin2');
     return $db->query("SELECT * FROM player.itemshop_category
     WHERE cat_name LIKE '%".addslashes(addcslashes(mb_convert_encoding($search, 'ISO-8859-9' ,"UTF-8"),'%'))."%'

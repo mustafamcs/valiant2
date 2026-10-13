@@ -57,7 +57,7 @@ class GirisYap extends BaseController
       // 4) GM seviyesi IMPLEMENTOR mu? (common.gmlist)
       $gmRow = $girisYapModel->GMKontrol($loginName,$dbGame);
       if (!$gmRow){
-        responseResult('error','Bu panele sadece IMPLEMENTOR yetkisine sahip hesaplar girebilir.');
+        responseResult('error',lang('GirisYap.cikti.yetkisizGiris'));
       }
       // 5) Panel users tablosunda karsilik yoksa otomatik olustur
       $kontrol = $girisYapModel->OtoKayit($loginName,$db);
