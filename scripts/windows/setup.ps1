@@ -164,8 +164,31 @@ if (-not (Test-Path $certPem)) {
     $openssl = Get-ChildItem "$env:ProgramFiles\Git\usr\bin\openssl.exe" -ErrorAction SilentlyContinue | Select-Object -First 1
     if (-not $openssl) { throw 'openssl bulunamadi (Git kurulumuyla gelmeli)' }
     $cn = if ($settings.PUBLIC_IP) { $settings.PUBLIC_IP } else { 'localhost' }
-    & $openssl.FullName req -x509 -newkey rsa:2048 -nodes -keyout $keyPem -out $certPem -days 3650 -subj "/CN=$cn"
-    Write-Host "Self-signed sertifika uretildi ($cn). Public IP ile Let's Encrypt icin lego kullanilabilir."
+    # SAN ile sertifika uret — IP adresi icin subjectAltName gerekli
+    $sanConf = Join-Path $certDir 'san.cnf'
+    @"
+[req]
+default_bits=2048
+prompt=no
+default_md=sha256
+distinguished_name=dn
+req_extensions=v3_req
+x509_extensions=v3_req
+[dn]
+CN=$cn
+[v3_req]
+subjectAltName=IP:$cn,DNS:localhost,IP:127.0.0.1
+basicConstraints=CA:TRUE
+"@ | Set-Content $sanConf -Encoding ASCII
+    & $openssl.FullName req -x509 -newkey rsa:2048 -nodes -keyout $keyPem -out $certPem -days 3650 -config $sanConf
+    Remove-Item $sanConf -ErrorAction SilentlyContinue
+    # Sertifikayi Windows guvenlir sertifika deposuna ekle (tarayici uyarisi kalkar)
+    try {
+        Import-Certificate -FilePath $certPem -CertStoreLocation 'Cert:\LocalMachine\Root' | Out-Null
+        Write-Host "Self-signed sertifika uretildi ve Windows Trust Store'a eklendi ($cn)."
+    } catch {
+        Write-Host "Self-signed sertifika uretildi ($cn). Trust Store'a eklenemedi — tarayici uyarisi verebilir."
+    }
 }
 # nginx.conf'u canli degerlerle yaz (sablon dosyasi yok)
 $certF = $certPem -replace '\\','/'; $keyF = $keyPem -replace '\\','/'
