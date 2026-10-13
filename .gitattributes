@@ -1,6 +1,10 @@
 # Text normalization
 * text=auto
 
+# ── Latin5/binary locale files (must NOT be re-encoded) ──
+assets/unpacked/data/locale/tr/*.txt -text
+assets/unpacked/data/locale/tr/**/*.txt -text
+
 # ── Git LFS: Binary game assets ──────────────────────────
 *.pak  filter=lfs diff=lfs merge=lfs -text
 *.epk  filter=lfs diff=lfs merge=lfs -text
