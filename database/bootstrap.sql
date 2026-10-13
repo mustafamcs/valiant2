@@ -2984,7 +2984,7 @@ CREATE TABLE `player` (
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
-/*!50003 CREATE*/ /*!50017 DEFINER=`lightwork`@`localhost`*/ /*!50003 TRIGGER player.MakeCharacter_copy1 BEFORE INSERT ON player.player FOR EACH ROW SET NEW.name=IF(NEW.name REGEXP '[^A-Za-z0-9]',NULL,NEW.name) */;;
+/*!50003 CREATE*/ /*!50017 DEFINER=`root`@`localhost`*/ /*!50003 TRIGGER player.MakeCharacter_copy1 BEFORE INSERT ON player.player FOR EACH ROW SET NEW.name=IF(NEW.name REGEXP '[^A-Za-z0-9]',NULL,NEW.name) */;;
 DELIMITER ;
 /*!50003 SET sql_mode              = @saved_sql_mode */ ;
 /*!50003 SET character_set_client  = @saved_cs_client */ ;
@@ -3106,7 +3106,7 @@ CREATE TABLE `player_deleted` (
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
-/*!50003 CREATE*/ /*!50017 DEFINER=`lightwork`@`localhost`*/ /*!50003 TRIGGER player.MakeCharacter_copy1_copy1 BEFORE INSERT ON player.player_deleted FOR EACH ROW SET NEW.name=IF(NEW.name REGEXP '[^A-Za-z0-9]',NULL,NEW.name) */;;
+/*!50003 CREATE*/ /*!50017 DEFINER=`root`@`localhost`*/ /*!50003 TRIGGER player.MakeCharacter_copy1_copy1 BEFORE INSERT ON player.player_deleted FOR EACH ROW SET NEW.name=IF(NEW.name REGEXP '[^A-Za-z0-9]',NULL,NEW.name) */;;
 DELIMITER ;
 /*!50003 SET sql_mode              = @saved_sql_mode */ ;
 /*!50003 SET character_set_client  = @saved_cs_client */ ;
