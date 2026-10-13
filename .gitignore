@@ -10,12 +10,16 @@
 Thumbs.db
 
 # ── Build artifacts ───────────────────────────────────────
-**/Debug/
+# NOTE: Do NOT use **/Debug/ — on case-insensitive Windows it also
+# matches source/*/include/boost/preprocessor/debug/ etc.
+**/[Dd]ebug/
+!**/include/**/[Dd]ebug/
 **/Release/
 **/Distribute/
 **/OBJDIR/
 **/x64/
 **/x86/
+!**/include/**/x86/
 artifacts/
 **/*.obj
 **/*.pch

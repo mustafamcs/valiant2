@@ -56,8 +56,10 @@ function Get-MysqlClient {
     # Oncelik: proje icindeki portable MariaDB
     $projMaria = Join-Path (Get-MariaDbDir) 'bin'
     if (Test-Path $projMaria) {
-        $hit = Get-ChildItem $projMaria -Include 'mariadb.exe','mysql.exe' -ErrorAction SilentlyContinue | Select-Object -First 1
-        if ($hit) { return $hit.FullName }
+        foreach ($name in 'mariadb.exe','mysql.exe') {
+            $exe = Join-Path $projMaria $name
+            if (Test-Path $exe) { return $exe }
+        }
     }
     foreach ($name in 'mariadb.exe','mysql.exe') {
         $cmd = Get-Command $name -ErrorAction SilentlyContinue

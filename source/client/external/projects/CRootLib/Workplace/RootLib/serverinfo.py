@@ -2,11 +2,11 @@ import app, localeInfo
 
 app.ServerName = None
 
-SERVER_NAME = "VALIANT2"
-SERVER_IP = "213.254.136.100"
+SERVER_NAME = "ELYSIUM"
+SERVER_IP = "192.168.1.13"
 
 SERVER_NAME_2 = "DevServer"
-SERVER_IP_2 = "213.254.136.100"
+SERVER_IP_2 = "193.223.107.118"
 
 SRVS = {
 	1 : {
