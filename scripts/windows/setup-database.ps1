@@ -21,19 +21,21 @@ $previousPassword = $env:MYSQL_PWD
 $env:MYSQL_PWD = $settings.MARIADB_ROOT_PASSWORD
 try {
     # --force: allow re-run when tables already exist
-    # --default-character-set=utf8mb4: preserve Turkish/special characters
-    $charsetArg = '--default-character-set=utf8mb4'
+    # --default-character-set=binary: bootstrap.sql contains mixed encodings
+    #   (utf8mb4 for most tables, latin5 for proto data — SET NAMES markers handle switching)
+    $charsetArg = '--default-character-set=binary'
     $dump = Join-Path $root 'database\bootstrap.sql'
-    Get-Content $dump -Raw | & $client.FullName --host=$($settings.MYSQL_HOST) --port=$($settings.MYSQL_PORT) --user=root --force $charsetArg
+    # Use cmd /c with input redirection to avoid PowerShell encoding mangling
+    & cmd.exe /c "`"$($client.FullName)`" --host=$($settings.MYSQL_HOST) --port=$($settings.MYSQL_PORT) --user=root --force $charsetArg < `"$dump`""
     if ($LASTEXITCODE -ne 0) { throw "Database import failed with code $LASTEXITCODE." }
     $extra = Join-Path $root 'database\extra_tables.sql'
     if (Test-Path $extra) {
-        Get-Content $extra -Raw | & $client.FullName --host=$($settings.MYSQL_HOST) --port=$($settings.MYSQL_PORT) --user=root --force $charsetArg player
+        & cmd.exe /c "`"$($client.FullName)`" --host=$($settings.MYSQL_HOST) --port=$($settings.MYSQL_PORT) --user=root --force --default-character-set=utf8mb4 player < `"$extra`""
         if ($LASTEXITCODE -ne 0) { throw "Extra tables import failed with code $LASTEXITCODE." }
     }
     $dropSeed = Join-Path $root 'database\drop_seed.sql'
     if (Test-Path $dropSeed) {
-        Get-Content $dropSeed -Raw | & $client.FullName --host=$($settings.MYSQL_HOST) --port=$($settings.MYSQL_PORT) --user=root --force $charsetArg player
+        & cmd.exe /c "`"$($client.FullName)`" --host=$($settings.MYSQL_HOST) --port=$($settings.MYSQL_PORT) --user=root --force --default-character-set=utf8mb4 player < `"$dropSeed`""
         if ($LASTEXITCODE -ne 0) { throw "Drop seed import failed with code $LASTEXITCODE." }
     }
     $sql = "CREATE USER IF NOT EXISTS '$($settings.MYSQL_USER)'@'localhost' IDENTIFIED BY '$($settings.MYSQL_PASSWORD)'; ALTER USER '$($settings.MYSQL_USER)'@'localhost' IDENTIFIED BY '$($settings.MYSQL_PASSWORD)'; GRANT ALL PRIVILEGES ON account.* TO '$($settings.MYSQL_USER)'@'localhost'; GRANT ALL PRIVILEGES ON common.* TO '$($settings.MYSQL_USER)'@'localhost'; GRANT ALL PRIVILEGES ON log.* TO '$($settings.MYSQL_USER)'@'localhost'; GRANT ALL PRIVILEGES ON player.* TO '$($settings.MYSQL_USER)'@'localhost'; FLUSH PRIVILEGES;"
@@ -49,7 +51,7 @@ try {
     if ($LASTEXITCODE -ne 0) { throw "Panel database setup failed with code $LASTEXITCODE." }
     $panelSql = Join-Path $root 'web\adminpanel\sql.sql'
     if (Test-Path $panelSql) {
-        Get-Content $panelSql -Raw | & $client.FullName --host=$($settings.MYSQL_HOST) --port=$($settings.MYSQL_PORT) --user=root --force $charsetArg $pdb
+        & cmd.exe /c "`"$($client.FullName)`" --host=$($settings.MYSQL_HOST) --port=$($settings.MYSQL_PORT) --user=root --force --default-character-set=utf8mb4 $pdb < `"$panelSql`""
         # --force: tables already exist is not fatal on re-run
     }
 } finally {
