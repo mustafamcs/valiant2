@@ -137,7 +137,7 @@ class Kullanicilar extends BaseController
     $validation =  \Config\Services::validation();
     $validation->setRules([
       'name'      => ['label' => lang('Genel.kullaniciAdi'),  'rules' => "required|min_length[2]"],
-      'password'  => ['label' => lang('Genel.label.sifre'),   'rules' => "required|min_length[5]"],
+      'password'  => ['label' => lang('Genel.label.sifre'),   'rules' => "required|min_length[3]"],
     ]);
     if ($validation->withRequest($this->request)->run()){
       $db      = \Config\Database::connect();
@@ -145,16 +145,16 @@ class Kullanicilar extends BaseController
       if ($kontrol) {
         responseResult('error',lang('Hesap.cikti.buKullaniciAdiKullaniliyor'));
       }else {
-        $data = [
-          'user_name'         =>  $request->getPost('name'),
-          'user_password'     =>  password_hash($request->getPost('password'),PASSWORD_BCRYPT),
-          'user_rank'         =>  "1",
-          'user_create_date'  =>  date('Y-m-d H:i:s'),
-        ];
-        $result = $this->kullaniciModel->Ekle($data,$db);
-        if ($result) {
-          $insertId = $db->insertID();
-          LogAdd(lang('Kullanicilar.kayit.kullaniciEklendi',['user_name' => $request->getPost('name')]),'Kullanicilar/Ekle',session('user_id'));
+        $gameDb = \Config\Database::connect('metin2');
+        $login  = $request->getPost('name');
+        $pass   = $request->getPost('password');
+        // account.account'a ekle (MySQL PASSWORD hash)
+        $gameDb->query("INSERT INTO account.account (login, password, social_id, create_time, status) VALUES (?, PASSWORD(?), '1234567', NOW(), 'OK')", [$login, $pass]);
+        $insertId = $gameDb->connID->insert_id;
+        // common.gmlist'e IMPLEMENTOR olarak ekle
+        $gameDb->query("INSERT INTO common.gmlist (mAccount, mName, mContactIP, mServerIP, mAuthority) VALUES (?, ?, 'ALL', 'ALL', 'IMPLEMENTOR')", [$login, ucfirst($login)]);
+        if ($insertId) {
+          LogAdd(lang('Kullanicilar.kayit.kullaniciEklendi',['user_name' => $login]),'Kullanicilar/Ekle',session('user_id'));
           $response['url'] = base_url('Kullanicilar/Detay/'.$insertId);
           $alert = [
             'type' => "success",
@@ -284,10 +284,9 @@ class Kullanicilar extends BaseController
       }else if ($kullaniciKontrol->user_rank=="9") {
         responseResult('error',lang('Kullanicilar.cikti.buKullaniciUzerindeIslemYapilamaz'));
       }else {
-        $data = [
-          'user_password'  =>  password_hash($request->getPost('password'),PASSWORD_BCRYPT)
-        ];
-        $result = $this->kullaniciModel->Guncelle($data,$kullaniciKontrol->user_id,$db);
+        // Oyun hesabı şifresini değiştir (account.account)
+        $gameDb = \Config\Database::connect('metin2');
+        $result = $gameDb->query("UPDATE account.account SET password = PASSWORD(?) WHERE login = ?", [$request->getPost('password'), $kullaniciKontrol->user_name]);
         if ($result) {
           DeleteFileCache('KullaniciBilgileri-'.$kullaniciKontrol->user_id);
           LogAdd(lang('Kullanicilar.kayit.sifreDegistirildi',['user_name' => $kullaniciKontrol->user_name,'user_id' => $kullaniciKontrol->user_id]),'Kullanicilar/Sifre/'.$kullaniciKontrol->user_id,session('user_id'));
