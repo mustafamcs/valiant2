@@ -22272,26 +22272,26 @@ UNLOCK TABLES;
 -- ── Test hesaplari (test1..test20, sifre: 123, IMPLEMENTOR) ──────────
 USE `account`;
 INSERT INTO `account` (`login`,`password`,`social_id`,`email`,`status`) VALUES
-('test1',PASSWORD('123'),'0000000','test1@test.com','OK'),
-('test2',PASSWORD('123'),'0000000','test2@test.com','OK'),
-('test3',PASSWORD('123'),'0000000','test3@test.com','OK'),
-('test4',PASSWORD('123'),'0000000','test4@test.com','OK'),
-('test5',PASSWORD('123'),'0000000','test5@test.com','OK'),
-('test6',PASSWORD('123'),'0000000','test6@test.com','OK'),
-('test7',PASSWORD('123'),'0000000','test7@test.com','OK'),
-('test8',PASSWORD('123'),'0000000','test8@test.com','OK'),
-('test9',PASSWORD('123'),'0000000','test9@test.com','OK'),
-('test10',PASSWORD('123'),'0000000','test10@test.com','OK'),
-('test11',PASSWORD('123'),'0000000','test11@test.com','OK'),
-('test12',PASSWORD('123'),'0000000','test12@test.com','OK'),
-('test13',PASSWORD('123'),'0000000','test13@test.com','OK'),
-('test14',PASSWORD('123'),'0000000','test14@test.com','OK'),
-('test15',PASSWORD('123'),'0000000','test15@test.com','OK'),
-('test16',PASSWORD('123'),'0000000','test16@test.com','OK'),
-('test17',PASSWORD('123'),'0000000','test17@test.com','OK'),
-('test18',PASSWORD('123'),'0000000','test18@test.com','OK'),
-('test19',PASSWORD('123'),'0000000','test19@test.com','OK'),
-('test20',PASSWORD('123'),'0000000','test20@test.com','OK');
+('test1',PASSWORD('123'),'1234567','test1@test.com','OK'),
+('test2',PASSWORD('123'),'1234567','test2@test.com','OK'),
+('test3',PASSWORD('123'),'1234567','test3@test.com','OK'),
+('test4',PASSWORD('123'),'1234567','test4@test.com','OK'),
+('test5',PASSWORD('123'),'1234567','test5@test.com','OK'),
+('test6',PASSWORD('123'),'1234567','test6@test.com','OK'),
+('test7',PASSWORD('123'),'1234567','test7@test.com','OK'),
+('test8',PASSWORD('123'),'1234567','test8@test.com','OK'),
+('test9',PASSWORD('123'),'1234567','test9@test.com','OK'),
+('test10',PASSWORD('123'),'1234567','test10@test.com','OK'),
+('test11',PASSWORD('123'),'1234567','test11@test.com','OK'),
+('test12',PASSWORD('123'),'1234567','test12@test.com','OK'),
+('test13',PASSWORD('123'),'1234567','test13@test.com','OK'),
+('test14',PASSWORD('123'),'1234567','test14@test.com','OK'),
+('test15',PASSWORD('123'),'1234567','test15@test.com','OK'),
+('test16',PASSWORD('123'),'1234567','test16@test.com','OK'),
+('test17',PASSWORD('123'),'1234567','test17@test.com','OK'),
+('test18',PASSWORD('123'),'1234567','test18@test.com','OK'),
+('test19',PASSWORD('123'),'1234567','test19@test.com','OK'),
+('test20',PASSWORD('123'),'1234567','test20@test.com','OK');
 
 USE `common`;
 INSERT INTO `gmlist` (`mAccount`,`mName`,`mContactIP`,`mServerIP`,`mAuthority`) VALUES
