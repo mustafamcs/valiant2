@@ -27,7 +27,7 @@ $coreDirectories | Sort-Object FullName | ForEach-Object {
 $stateDir = Join-Path $root 'runtime\server\.state'
 New-Item -ItemType Directory -Force -Path $stateDir | Out-Null
 foreach ($entry in $processes) {
-    $process = Start-Process -FilePath $entry.File -WorkingDirectory $entry.WorkingDirectory -WindowStyle Minimized -PassThru
+    $process = Start-Process -FilePath $entry.File -WorkingDirectory $entry.WorkingDirectory -WindowStyle Hidden -PassThru
     Set-Content -Path (Join-Path $stateDir "$($entry.Name).pid") -Value $process.Id -Encoding ascii
     Write-Host "$($entry.Name) started (PID $($process.Id))."
     # db.exe icin port hazir olana kadar bekle (diger surec icin 3sn)
