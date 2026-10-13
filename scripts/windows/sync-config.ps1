@@ -59,6 +59,15 @@ $shareConf = Join-Path $runtime 'share\conf'
 $shareData = Join-Path $runtime 'share\data'
 $shareLocale = Join-Path $runtime 'share\locale'
 
+# locale/turkey → locale/europe junction (LOCALE=turkey, dosyalar europe altinda)
+$turkeyLocale = Join-Path $shareLocale 'turkey'
+if (-not (Test-Path $turkeyLocale)) {
+    $europeLocale = Join-Path $shareLocale 'europe'
+    if (Test-Path $europeLocale) {
+        New-Item -ItemType Junction -Path $turkeyLocale -Target $europeLocale -ErrorAction SilentlyContinue | Out-Null
+    }
+}
+
 $coreDirs = @(
     (Join-Path $runtime 'auth'),
     (Join-Path $runtime 'db')

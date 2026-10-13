@@ -94,6 +94,7 @@ runtime/server/main/srv1/chan/**/data/
 runtime/server/main/srv1/chan/**/locale/
 runtime/server/main/srv1/chan/**/log/
 runtime/server/main/srv1/db/log/
+runtime/server/main/srv1/share/locale/turkey/
 
 # ── Downloaded dependencies (setup.ps1 installs these) ───
 runtime/dependencies/
