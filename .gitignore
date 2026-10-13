@@ -10,16 +10,19 @@
 Thumbs.db
 
 # ── Build artifacts ───────────────────────────────────────
-# NOTE: Do NOT use **/Debug/ — on case-insensitive Windows it also
-# matches source/*/include/boost/preprocessor/debug/ etc.
-**/[Dd]ebug/
-!**/include/**/[Dd]ebug/
-**/Release/
+# Only ignore Debug/Release/x86 under source/ and tools/ (build output).
+# Do NOT use **/Debug/ — it also blocks boost/preprocessor/debug/
+# and web/adminpanel/system/Debug/ (CodeIgniter) on case-insensitive Windows.
+source/**/Debug/
+source/**/Release/
+tools/**/Debug/
+tools/**/Release/
 **/Distribute/
 **/OBJDIR/
-**/x64/
-**/x86/
-!**/include/**/x86/
+source/**/x64/
+source/**/x86/
+tools/**/x64/
+tools/**/x86/
 artifacts/
 **/*.obj
 **/*.pch

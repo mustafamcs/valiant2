@@ -36,6 +36,28 @@ Install-Package 'Microsoft.VCRedist.2015+.x86'
 Install-Package 'Microsoft.DotNet.Framework.DeveloperPack_4'
 Install-Package 'Microsoft.VisualStudio.2022.BuildTools' @('--override','--wait --passive --norestart --add Microsoft.VisualStudio.Workload.VCTools --includeRecommended')
 Install-Package 'PHP.PHP.8.3'
+
+# PHP uzantilari (curl, intl, mbstring, openssl, pdo_mysql, mysqli, gd, fileinfo)
+$phpExe = Get-PhpExe
+if ($phpExe) {
+    $phpDir = Split-Path $phpExe
+    $phpIni = Join-Path $phpDir 'php.ini'
+    if (!(Test-Path $phpIni)) {
+        $prod = Join-Path $phpDir 'php.ini-production'
+        if (Test-Path $prod) { Copy-Item $prod $phpIni }
+    }
+    if (Test-Path $phpIni) {
+        $content = Get-Content $phpIni -Raw
+        $extDir = (Join-Path $phpDir 'ext') -replace '\\','/'
+        $content = $content -replace ';\s*extension_dir\s*=\s*"ext"', "extension_dir = `"$extDir`""
+        foreach ($ext in 'curl','intl','mbstring','openssl','pdo_mysql','mysqli','gd','fileinfo') {
+            $content = $content -replace ";\s*extension=$ext", "extension=$ext"
+        }
+        Set-Content $phpIni $content -NoNewline
+        Write-Host 'PHP uzantilari etkinlestirildi.'
+    }
+}
+
 Install-Package 'Python.Python.3.12'
 Install-Package 'Python.Python.2' # Client Cython build (C:\Python27) gerektirir
 
