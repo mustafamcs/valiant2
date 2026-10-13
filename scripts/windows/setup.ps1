@@ -337,6 +337,12 @@ if (-not (Get-NetFirewallRule -DisplayName 'VALIANT2-Public' -ErrorAction Silent
 Write-Host ''
 & (Join-Path $PSScriptRoot 'create-account.ps1')
 
+# --- 9c) Bozuk symlink referanslarini duzelt (Git/Windows uyumsuzlugu) ---
+$pyExe = (Get-Command python -ErrorAction SilentlyContinue).Source
+if ($pyExe) {
+    & $pyExe (Join-Path $PSScriptRoot 'fix-symlinks.py')
+}
+
 & (Join-Path $PSScriptRoot 'build-all.ps1')
 & (Join-Path $PSScriptRoot 'build-patcher.ps1')
 
