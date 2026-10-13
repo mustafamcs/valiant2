@@ -22269,4 +22269,51 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*M!100616 SET NOTE_VERBOSITY=@OLD_NOTE_VERBOSITY */;
 
+-- ── Test hesaplari (test1..test20, sifre: 123, IMPLEMENTOR) ──────────
+USE `account`;
+INSERT INTO `account` (`login`,`password`,`social_id`,`email`,`status`) VALUES
+('test1',PASSWORD('123'),'0000000','test1@test.com','OK'),
+('test2',PASSWORD('123'),'0000000','test2@test.com','OK'),
+('test3',PASSWORD('123'),'0000000','test3@test.com','OK'),
+('test4',PASSWORD('123'),'0000000','test4@test.com','OK'),
+('test5',PASSWORD('123'),'0000000','test5@test.com','OK'),
+('test6',PASSWORD('123'),'0000000','test6@test.com','OK'),
+('test7',PASSWORD('123'),'0000000','test7@test.com','OK'),
+('test8',PASSWORD('123'),'0000000','test8@test.com','OK'),
+('test9',PASSWORD('123'),'0000000','test9@test.com','OK'),
+('test10',PASSWORD('123'),'0000000','test10@test.com','OK'),
+('test11',PASSWORD('123'),'0000000','test11@test.com','OK'),
+('test12',PASSWORD('123'),'0000000','test12@test.com','OK'),
+('test13',PASSWORD('123'),'0000000','test13@test.com','OK'),
+('test14',PASSWORD('123'),'0000000','test14@test.com','OK'),
+('test15',PASSWORD('123'),'0000000','test15@test.com','OK'),
+('test16',PASSWORD('123'),'0000000','test16@test.com','OK'),
+('test17',PASSWORD('123'),'0000000','test17@test.com','OK'),
+('test18',PASSWORD('123'),'0000000','test18@test.com','OK'),
+('test19',PASSWORD('123'),'0000000','test19@test.com','OK'),
+('test20',PASSWORD('123'),'0000000','test20@test.com','OK');
+
+USE `common`;
+INSERT INTO `gmlist` (`mAccount`,`mName`,`mContactIP`,`mServerIP`,`mAuthority`) VALUES
+('test1','Test1','ALL','ALL','IMPLEMENTOR'),
+('test2','Test2','ALL','ALL','IMPLEMENTOR'),
+('test3','Test3','ALL','ALL','IMPLEMENTOR'),
+('test4','Test4','ALL','ALL','IMPLEMENTOR'),
+('test5','Test5','ALL','ALL','IMPLEMENTOR'),
+('test6','Test6','ALL','ALL','IMPLEMENTOR'),
+('test7','Test7','ALL','ALL','IMPLEMENTOR'),
+('test8','Test8','ALL','ALL','IMPLEMENTOR'),
+('test9','Test9','ALL','ALL','IMPLEMENTOR'),
+('test10','Test10','ALL','ALL','IMPLEMENTOR'),
+('test11','Test11','ALL','ALL','IMPLEMENTOR'),
+('test12','Test12','ALL','ALL','IMPLEMENTOR'),
+('test13','Test13','ALL','ALL','IMPLEMENTOR'),
+('test14','Test14','ALL','ALL','IMPLEMENTOR'),
+('test15','Test15','ALL','ALL','IMPLEMENTOR'),
+('test16','Test16','ALL','ALL','IMPLEMENTOR'),
+('test17','Test17','ALL','ALL','IMPLEMENTOR'),
+('test18','Test18','ALL','ALL','IMPLEMENTOR'),
+('test19','Test19','ALL','ALL','IMPLEMENTOR'),
+('test20','Test20','ALL','ALL','IMPLEMENTOR');
+
 -- Dump completed on 2026-10-11  9:32:55
