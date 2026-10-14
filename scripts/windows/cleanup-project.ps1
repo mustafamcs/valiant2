@@ -22,6 +22,12 @@ Get-ChildItem $root -Recurse -Force -Directory -ErrorAction SilentlyContinue |
     Where-Object { $_.Name -in @('GPUCache','Debug','OBJDIR','__pycache__','cyTemp') -and -not (Get-ChildItem $_.FullName -Force -ErrorAction SilentlyContinue) } |
     Sort-Object { $_.FullName.Length } -Descending |
     Remove-Item -Force -ErrorAction SilentlyContinue
+Get-ChildItem "$root\assets\unpacked\data" -Directory -Recurse -Force -ErrorAction SilentlyContinue |
+    Where-Object { $_.Name -match '(?i)(\s-\s*Copy|\s-\s*Kopya|Yeni klas)' } |
+    Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
+Get-ChildItem "$root\assets","$root\source","$root\tools","$root\web" -File -Recurse -Force -ErrorAction SilentlyContinue |
+    Where-Object { $_.Name -match '(?i)(\s-\s*Copy|\s-\s*Kopya|Yeni Metin Belgesi)' } |
+    Remove-Item -Force -ErrorAction SilentlyContinue
 Remove-Item (Join-Path $root '.lego'), (Join-Path $root 'logs'), (Join-Path $root 'deploy'), (Join-Path $root 'assets\unpacked\logs'), (Join-Path $root 'runtime\patchserver\src'), (Join-Path $root 'source\patchserver\src\VALIANT2.exe'), (Join-Path $root 'tools\client-config\config.exe'), (Join-Path $root 'web\adminpanel\start_panel.vbs') -Recurse -Force -ErrorAction SilentlyContinue
 [pscustomobject]@{ DeletedFiles=$count; FreedMB=[math]::Round($bytes/1MB,2) } | Format-List
 if ($RestartServer -or $serverWasRunning) { & (Join-Path $PSScriptRoot 'start-server.ps1') }
