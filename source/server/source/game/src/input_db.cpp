@@ -157,6 +157,23 @@ void CInputDB::LoginSuccess(DWORD dwHandle, const char* data)
 
 	bool bFound = GetServerLocation(*pTab, pTab->bEmpire);
 
+	if (d->GetHostName() && !strcmp(d->GetHostName(), "127.0.0.1"))
+	{
+		for (int i = 0; i < PLAYER_PER_ACCOUNT; ++i)
+		{
+			if (pTab->players[i].dwID != 0)
+				pTab->players[i].lAddr = inet_addr("127.0.0.1");
+		}
+	}
+	else if (d->GetHostName() && g_szInternalIP[0] != '0' && (!strncmp(d->GetHostName(), "192.168.", 8) || !strncmp(d->GetHostName(), "10.", 3)))
+	{
+		for (int i = 0; i < PLAYER_PER_ACCOUNT; ++i)
+		{
+			if (pTab->players[i].dwID != 0)
+				pTab->players[i].lAddr = inet_addr(g_szInternalIP);
+		}
+	}
+
 	d->BindAccountTable(pTab);
 
 	if (!bFound)
@@ -235,6 +252,10 @@ void CInputDB::PlayerCreateSuccess(LPDESC d, const char* data)
 	if (!g_stProxyIP.empty())
 		pack.player.lAddr = inet_addr(g_stProxyIP.c_str());
 #endif
+	if (d->GetHostName() && !strcmp(d->GetHostName(), "127.0.0.1"))
+		pack.player.lAddr = inet_addr("127.0.0.1");
+	else if (d->GetHostName() && g_szInternalIP[0] != '0' && (!strncmp(d->GetHostName(), "192.168.", 8) || !strncmp(d->GetHostName(), "10.", 3)))
+		pack.player.lAddr = inet_addr(g_szInternalIP);
 	d->Packet(&pack, sizeof(TPacketGCPlayerCreateSuccess));
 
 	TPlayerItem t;
@@ -1327,7 +1348,8 @@ void CInputDB::P2P(const char* c_pData)
 	if (false == DESC_MANAGER::instance().IsP2PDescExist(p->szHost, p->wPort))
 	{
 		LPCLIENT_DESC pkDesc = NULL;
-		pkDesc = DESC_MANAGER::instance().CreateConnectionDesc(main_fdw, p->szHost, p->wPort, PHASE_P2P, false);
+		const char* szConnectHost = (!strcmp(p->szHost, g_szPublicIP)) ? "127.0.0.1" : p->szHost;
+		pkDesc = DESC_MANAGER::instance().CreateConnectionDesc(main_fdw, szConnectHost, p->wPort, PHASE_P2P, false);
 		mgr.RegisterConnector(pkDesc);
 		pkDesc->SetP2P(p->szHost, p->wPort, p->bChannel);
 	}

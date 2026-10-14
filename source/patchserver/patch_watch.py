@@ -1,12 +1,14 @@
 import os, json, time, shutil, hashlib
+from concurrent.futures import ThreadPoolExecutor
 
-# Ayarlar script'in yanindaki patchserver.json'dan okunur (setup.ps1 uretir).
 _cfg = os.path.join(os.path.dirname(os.path.abspath(__file__)), "patchserver.json")
 if os.path.isfile(_cfg):
-    _d = json.load(open(_cfg))
+    with open(_cfg, "r", encoding="utf-8-sig") as _fh:
+        _d = json.load(_fh)
     GAME = _d["game_dir"]
     FILES = os.path.join(_d["patch_dir"], "files")
     LIST = os.path.join(_d["patch_dir"], "patchlist.json")
+    CACHE = os.path.join(_d["patch_dir"], "hashcache_py.json")
     BASE = _d["base_url"] + "/update/files/"
 else:
     raise SystemExit("patchserver.json bulunamadi - once setup.cmd calistir")
@@ -14,6 +16,24 @@ else:
 EXCLUDE_DIRS = {"userdata", "logs", "upload", "syserr", "screenshot"}
 EXCLUDE_FILES = {"metin2.cfg", "mouse.cfg"}
 INCLUDE_USERDATA = {"lang.cfg", "loca.cfg"}
+
+def load_cache():
+    if os.path.isfile(CACHE):
+        try:
+            with open(CACHE, "r", encoding="utf-8-sig") as fh:
+                return json.load(fh)
+        except Exception:
+            pass
+    return {}
+
+def save_cache(c):
+    try:
+        tmp = CACHE + ".tmp"
+        with open(tmp, "w", encoding="utf-8") as fh:
+            json.dump(c, fh)
+        os.replace(tmp, CACHE)
+    except Exception:
+        pass
 
 def snapshot():
     out = {}
@@ -35,24 +55,40 @@ def snapshot():
             out[rel] = (st.st_size, st.st_mtime)
     return out
 
+def _hash_one(args):
+    rel, cache = args
+    p = os.path.join(FILES, rel.replace("/", os.sep))
+    st = os.stat(p)
+    key = "%s|%d|%d" % (rel, st.st_size, int(st.st_mtime * 1000))
+    if key in cache:
+        return rel, st.st_size, cache[key], key
+    h = hashlib.sha256()
+    with open(p, "rb") as fh:
+        for chunk in iter(lambda: fh.read(1 << 20), b""):
+            h.update(chunk)
+    digest = h.hexdigest()
+    return rel, st.st_size, digest, key
+
 def rebuild(files):
+    cache = load_cache()
+    new_cache = {}
     entries = []
-    for rel in sorted(files):
-        p = os.path.join(FILES, rel.replace("/", os.sep))
-        h = hashlib.sha256()
-        with open(p, "rb") as fh:
-            for chunk in iter(lambda: fh.read(1 << 20), b""):
-                h.update(chunk)
-        entries.append({"path": rel, "size": os.path.getsize(p), "sha256": h.hexdigest()})
+    workers = max(4, os.cpu_count() or 8)
+    with ThreadPoolExecutor(max_workers=workers) as ex:
+        for rel, size, digest, key in ex.map(_hash_one, [(r, cache) for r in sorted(files)]):
+            new_cache[key] = digest
+            entries.append({"path": rel, "size": size, "sha256": digest})
+    save_cache(new_cache)
     ver = 0
     if os.path.isfile(LIST):
         try:
-            ver = int(json.load(open(LIST)).get("version", 0))
+            with open(LIST, "r", encoding="utf-8-sig") as fh:
+                ver = int(json.load(fh).get("version", 0))
         except Exception:
             pass
     tmp = LIST + ".tmp"
-    json.dump({"version": ver + 1, "base": BASE, "files": entries},
-              open(tmp, "w"), indent=4)
+    with open(tmp, "w", encoding="utf-8") as fh:
+        json.dump({"version": ver + 1, "base": BASE, "files": entries}, fh, indent=4)
     os.replace(tmp, LIST)
     return ver + 1
 
@@ -67,7 +103,6 @@ def sync():
             os.makedirs(os.path.dirname(dst), exist_ok=True)
             shutil.copy2(src, dst)
             changed = True
-    # deleted files
     for dp, dn, fn in os.walk(FILES):
         for f in fn:
             p = os.path.join(dp, f)
@@ -82,7 +117,6 @@ def sync():
         print("manifest v%d yayinlandi (%d dosya)" % (v, len(snap)), flush=True)
     return snap
 
-# Ilk acilista: patch deposu eksik/bosssa hemen senkronla (taze kurulum destegi)
 last = snapshot()
 _need = False
 for rel in last:
@@ -95,10 +129,10 @@ if _need:
     print("ilk senkron tamamlandi", flush=True)
 
 while True:
-    time.sleep(5)
+    time.sleep(2)
     cur = snapshot()
     if cur != last:
-        time.sleep(10)  # debounce
+        time.sleep(2)
         cur = snapshot()
         sync()
         last = cur

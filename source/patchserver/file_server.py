@@ -1,10 +1,11 @@
 import os, json
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
-# Ayarlar script'in yanindaki patchserver.json'dan okunur (setup.ps1 uretir).
+# Ayarlar script'in yanindaki patchserver.json'dan okunur (utf-8-sig ile BOM olsa dahi sorunsuz okur).
 _cfg = os.path.join(os.path.dirname(os.path.abspath(__file__)), "patchserver.json")
 if os.path.isfile(_cfg):
-    _d = json.load(open(_cfg))
+    with open(_cfg, "r", encoding="utf-8-sig") as _fh:
+        _d = json.load(_fh)
     ROOT_UPDATE = _d["patch_dir"]
     ROOT_PATCHER = _d["patcher_dir"]
 else:
@@ -32,7 +33,7 @@ class H(BaseHTTPRequestHandler):
         size = os.path.getsize(p)
         ext = os.path.splitext(p)[1].lower()
         ctype = "application/octet-stream"
-        if ext == ".json": ctype = "application/json"
+        if ext == ".json": ctype = "application/json; charset=utf-8"
         elif ext == ".exe": ctype = "application/x-msdownload"
         self.send_response(200)
         self.send_header("Content-Type", ctype)

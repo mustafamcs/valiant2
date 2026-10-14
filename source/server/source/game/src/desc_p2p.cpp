@@ -42,7 +42,7 @@ bool DESC_P2P::Setup(LPFDWATCH fdw, socket_t fd, const char* host, WORD wPort)
 
 	m_iMinInputBufferLen = 1024 * 1024;
 #ifdef ENABLE_PORT_SECURITY
-	if (strcmp(host, g_szPublicIP)) // refuse if remote host != public ip (only the same machine must be able to connect in here)
+	if (strcmp(host, g_szPublicIP) && strcmp(host, "127.0.0.1") && (g_szInternalIP[0] == '0' || strcmp(host, g_szInternalIP))) // allow public IP, localhost, and internal LAN IP
 	{
 		SetPhase(PHASE_CLOSE);
 		return true;

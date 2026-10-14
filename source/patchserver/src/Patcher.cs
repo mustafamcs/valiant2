@@ -125,6 +125,7 @@ public class PatcherForm : Form {
         MouseDown += (s, e) => { if (e.Button == MouseButtons.Left) { NativeDrag(); } };
 
         ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | (SecurityProtocolType)0x3000;
+        ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
         Load += async (s, e) => await Run();
     }
 
@@ -173,6 +174,7 @@ public class PatcherForm : Form {
     }
 
     static T Json<T>(string s) {
+        if (!string.IsNullOrEmpty(s)) s = s.TrimStart('\uFEFF', '\u200B', ' ', '\t', '\r', '\n');
         var ser = new DataContractJsonSerializer(typeof(T));
         using (var ms = new MemoryStream(Encoding.UTF8.GetBytes(s)))
             return (T)ser.ReadObject(ms);
@@ -200,9 +202,16 @@ public class PatcherForm : Form {
         if (!IsDisposed == false) return;
         try {
             SetStatus("Güncellemeler kontrol ediliyor...");
-            var manifest = Json<Manifest>(DownloadString(MANIFEST_URL + "?t=" + DateTime.Now.Ticks));
+            string activeBase = BASE_URL;
+            Manifest manifest;
+            try {
+                manifest = Json<Manifest>(DownloadString(MANIFEST_URL + "?t=" + DateTime.Now.Ticks));
+            } catch {
+                activeBase = "https://127.0.0.1";
+                manifest = Json<Manifest>(DownloadString(activeBase + "/update/patchlist.json?t=" + DateTime.Now.Ticks));
+            }
             remoteVersion = manifest.version;
-            var baseUrl = string.IsNullOrEmpty(manifest.baseUrl) ? BASE_URL + "/update/files/" : manifest.baseUrl;
+            var baseUrl = (activeBase == "https://127.0.0.1") ? "https://127.0.0.1/update/files/" : (string.IsNullOrEmpty(manifest.baseUrl) ? activeBase + "/update/files/" : manifest.baseUrl);
             if (!baseUrl.EndsWith("/")) baseUrl += "/";
             var root = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "game") + "\\";
 

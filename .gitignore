@@ -40,6 +40,8 @@ artifacts/
 **/__pycache__/
 tools/client-config/obj/
 tools/client-launcher/obj/
+tools/control-center/obj/
+ekran-goruntuleri/
 
 # ── Build output libraries ────────────────────────────────
 source/client/external/lib/rootlib.lib

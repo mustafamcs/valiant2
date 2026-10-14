@@ -534,8 +534,8 @@ static int __Pyx_InitStrings(__Pyx_StringTabEntry *t); /*proto*/
 int __pyx_module_is_main_serverInfo = 0;
 
 /* Implementation of 'serverInfo' */
-static char __pyx_k_1[] = "192.168.1.13";
-static char __pyx_k_2[] = "193.223.107.118";
+static char __pyx_k_1[] = "213.254.136.100";
+static char __pyx_k_2[] = "127.0.0.1";
 static char __pyx_k_3[] = "|cFFdadada";
 static char __pyx_k_4[] = "CHANNEL_STATUS_NOT_KNOWN";
 static char __pyx_k_5[] = "|cFFffffff";
@@ -566,8 +566,8 @@ static char __pyx_k__mark[] = "mark";
 static char __pyx_k__name[] = "name";
 static char __pyx_k__port[] = "port";
 static char __pyx_k__state[] = "state";
-static char __pyx_k__ELYSIUM[] = "ELYSIUM";
 static char __pyx_k__channel[] = "channel";
+static char __pyx_k__VALIANT2[] = "VALIANT2";
 static char __pyx_k____main__[] = "__main__";
 static char __pyx_k____test__[] = "__test__";
 static char __pyx_k__tcp_port[] = "tcp_port";
@@ -615,7 +615,6 @@ static PyObject *__pyx_n_s__CHANNEL_STATUS_BUSY;
 static PyObject *__pyx_n_s__CHANNEL_STATUS_FULL;
 static PyObject *__pyx_n_s__CLIENT_VERSION;
 static PyObject *__pyx_n_s_cp949__DevServer;
-static PyObject *__pyx_n_s_cp949__ELYSIUM;
 static PyObject *__pyx_n_s_cp949__HOST;
 static PyObject *__pyx_n_s__MARKADDR_DICT;
 static PyObject *__pyx_n_s__REGION_DICT;
@@ -628,6 +627,7 @@ static PyObject *__pyx_n_s__SRVS;
 static PyObject *__pyx_n_s__STATE_DICT;
 static PyObject *__pyx_n_s__STATE_NONE;
 static PyObject *__pyx_n_s__ServerName;
+static PyObject *__pyx_n_s_cp949__VALIANT2;
 static PyObject *__pyx_n_s____main__;
 static PyObject *__pyx_n_s____test__;
 static PyObject *__pyx_n_s__app;
@@ -721,7 +721,6 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s__CHANNEL_STATUS_FULL, __pyx_k__CHANNEL_STATUS_FULL, sizeof(__pyx_k__CHANNEL_STATUS_FULL), 0, 0, 1, 1},
   {&__pyx_n_s__CLIENT_VERSION, __pyx_k__CLIENT_VERSION, sizeof(__pyx_k__CLIENT_VERSION), 0, 0, 1, 1},
   {&__pyx_n_s_cp949__DevServer, __pyx_k__DevServer, sizeof(__pyx_k__DevServer), "cp949", 0, 1, 1},
-  {&__pyx_n_s_cp949__ELYSIUM, __pyx_k__ELYSIUM, sizeof(__pyx_k__ELYSIUM), "cp949", 0, 1, 1},
   {&__pyx_n_s_cp949__HOST, __pyx_k__HOST, sizeof(__pyx_k__HOST), "cp949", 0, 1, 1},
   {&__pyx_n_s__MARKADDR_DICT, __pyx_k__MARKADDR_DICT, sizeof(__pyx_k__MARKADDR_DICT), 0, 0, 1, 1},
   {&__pyx_n_s__REGION_DICT, __pyx_k__REGION_DICT, sizeof(__pyx_k__REGION_DICT), 0, 0, 1, 1},
@@ -734,6 +733,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s__STATE_DICT, __pyx_k__STATE_DICT, sizeof(__pyx_k__STATE_DICT), 0, 0, 1, 1},
   {&__pyx_n_s__STATE_NONE, __pyx_k__STATE_NONE, sizeof(__pyx_k__STATE_NONE), 0, 0, 1, 1},
   {&__pyx_n_s__ServerName, __pyx_k__ServerName, sizeof(__pyx_k__ServerName), 0, 0, 1, 1},
+  {&__pyx_n_s_cp949__VALIANT2, __pyx_k__VALIANT2, sizeof(__pyx_k__VALIANT2), "cp949", 0, 1, 1},
   {&__pyx_n_s____main__, __pyx_k____main__, sizeof(__pyx_k____main__), 0, 0, 1, 1},
   {&__pyx_n_s____test__, __pyx_k____test__, sizeof(__pyx_k____test__), 0, 0, 1, 1},
   {&__pyx_n_s__app, __pyx_k__app, sizeof(__pyx_k__app), 0, 0, 1, 1},
@@ -874,7 +874,7 @@ PyMODINIT_FUNC PyInit_serverInfo(void)
 
   /* "serverInfo.py":3
  * # -*- coding: cp949 -*-
- * #-1077661598
+ * #-116616648
  * import app, localeInfo             # <<<<<<<<<<<<<<
  * 
  * app.ServerName = None
@@ -893,7 +893,7 @@ PyMODINIT_FUNC PyInit_serverInfo(void)
  * 
  * app.ServerName = None             # <<<<<<<<<<<<<<
  * 
- * SERVER_NAME = "ELYSIUM"
+ * SERVER_NAME = "VALIANT2"
  */
   __pyx_t_1 = __Pyx_GetName(__pyx_m, __pyx_n_s__app); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 5; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_t_1);
@@ -903,26 +903,26 @@ PyMODINIT_FUNC PyInit_serverInfo(void)
   /* "serverInfo.py":7
  * app.ServerName = None
  * 
- * SERVER_NAME = "ELYSIUM"             # <<<<<<<<<<<<<<
- * SERVER_IP = "192.168.1.13"
+ * SERVER_NAME = "VALIANT2"             # <<<<<<<<<<<<<<
+ * SERVER_IP = "213.254.136.100"
  * 
  */
-  if (PyObject_SetAttr(__pyx_m, __pyx_n_s__SERVER_NAME, ((PyObject *)__pyx_n_s_cp949__ELYSIUM)) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 7; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  if (PyObject_SetAttr(__pyx_m, __pyx_n_s__SERVER_NAME, ((PyObject *)__pyx_n_s_cp949__VALIANT2)) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 7; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "serverInfo.py":8
  * 
- * SERVER_NAME = "ELYSIUM"
- * SERVER_IP = "192.168.1.13"             # <<<<<<<<<<<<<<
+ * SERVER_NAME = "VALIANT2"
+ * SERVER_IP = "213.254.136.100"             # <<<<<<<<<<<<<<
  * 
  * SERVER_NAME_2 = "DevServer"
  */
   if (PyObject_SetAttr(__pyx_m, __pyx_n_s__SERVER_IP, ((PyObject *)__pyx_kp_s_cp949_1)) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 8; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "serverInfo.py":10
- * SERVER_IP = "192.168.1.13"
+ * SERVER_IP = "213.254.136.100"
  * 
  * SERVER_NAME_2 = "DevServer"             # <<<<<<<<<<<<<<
- * SERVER_IP_2 = "193.223.107.118"
+ * SERVER_IP_2 = "127.0.0.1"
  * 
  */
   if (PyObject_SetAttr(__pyx_m, __pyx_n_s__SERVER_NAME_2, ((PyObject *)__pyx_n_s_cp949__DevServer)) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 10; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -930,14 +930,14 @@ PyMODINIT_FUNC PyInit_serverInfo(void)
   /* "serverInfo.py":11
  * 
  * SERVER_NAME_2 = "DevServer"
- * SERVER_IP_2 = "193.223.107.118"             # <<<<<<<<<<<<<<
+ * SERVER_IP_2 = "127.0.0.1"             # <<<<<<<<<<<<<<
  * 
  * SRVS = {
  */
   if (PyObject_SetAttr(__pyx_m, __pyx_n_s__SERVER_IP_2, ((PyObject *)__pyx_kp_s_cp949_2)) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 11; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "serverInfo.py":13
- * SERVER_IP_2 = "193.223.107.118"
+ * SERVER_IP_2 = "127.0.0.1"
  * 
  * SRVS = {             # <<<<<<<<<<<<<<
  * 	1 : {
@@ -2057,7 +2057,7 @@ PyMODINIT_FUNC PyInit_serverInfo(void)
 
   /* "serverInfo.py":1
  * # -*- coding: cp949 -*-             # <<<<<<<<<<<<<<
- * #-1077661598
+ * #-116616648
  * import app, localeInfo
  */
   __pyx_t_1 = PyDict_New(); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1; __pyx_clineno = __LINE__; goto __pyx_L1_error;}

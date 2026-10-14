@@ -1,5 +1,5 @@
 # Oyun hesabi olusturur ve karaktere IMPLEMENTOR (GM) yetkisi verir.
-# Kullanim: create-account.cmd  (interaktif) — hesap yoksa olusturur, varsa sifre/yetki gunceller.
+# Kullanim: create-account.cmd  (interaktif) - hesap yoksa olusturur, varsa sifre/yetki gunceller.
 $ErrorActionPreference = 'Stop'
 . (Join-Path $PSScriptRoot 'common.ps1')
 $settings = Get-EnvSettings

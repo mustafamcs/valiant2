@@ -59,10 +59,12 @@ VALIANT2/                                       Proje kökü (git repo)
 │       └── patch_watch.py                        Dosya değişiklik izleyici (Python)
 ├── tools/                                      Yardımcı araçlar
 │   ├── client-config/                            config.exe kaynağı
+│   ├── control-center/                           VALIANT2-ControlCenter.exe kaynağı (C# WinForms)
 │   ├── db-manager/                               DB yönetim aracı
 │   ├── dump-proto/                               Proto dönüştürücü
 │   └── pack-maker/                               Pack oluşturucu
 ├── web/adminpanel/                             CodeIgniter 4 admin paneli
+├── VALIANT2-ControlCenter.exe                  Masaüstü tümleşik yönetim ve kurulum paneli
 ├── .env                                        Ortam değişkenleri (git'e girmez)
 ├── AGENTS.md                                   Bu rehber
 └── README.md                                   Proje tanıtımı
@@ -97,6 +99,7 @@ VALIANT2/                                       Proje kökü (git repo)
 | `build-all.ps1 [-SkipPacks]` | config.exe + client sln + launcher + server sln + tüm pack'ler (MSBuild 2022) |
 | `build-client-packs.ps1` | `assets\unpacked\data` → runtime pack'leri (FSArchiver) |
 | `build-patcher.cmd` | `Patcher.cs` → VALIANT2.exe; runtime/client + patchserver'a kopyalar, patcher.json hash günceller |
+| `build-control-center.cmd` | `tools\control-center` → kök dizine `VALIANT2-ControlCenter.exe` derler (dahili .NET 4 `csc.exe` kullanır) |
 | `sync-config.ps1` | .env'den runtime CONFIG dosyalarını üretir (build-all içinde otomatik çağrılır) |
 | `start-server.cmd [-Minimal]` | MariaDB kontrol + db + auth + core'ları başlatır (pid .state'e yazar) |
 | `stop-server.cmd` | pid dosyalarından hepsini durdurur |

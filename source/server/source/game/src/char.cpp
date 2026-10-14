@@ -5919,6 +5919,13 @@ bool CHARACTER::WarpSet(long x, long y, long lPrivateMapIndex, long lMapIndex, l
 	p.lX = x;
 	p.lY = y;
 	p.lAddr = lAddr;
+	if (GetDesc() && GetDesc()->GetHostName())
+	{
+		if (!strcmp(GetDesc()->GetHostName(), "127.0.0.1"))
+			p.lAddr = inet_addr("127.0.0.1");
+		else if (g_szInternalIP[0] != '0' && (!strncmp(GetDesc()->GetHostName(), "192.168.", 8) || !strncmp(GetDesc()->GetHostName(), "10.", 3)))
+			p.lAddr = inet_addr(g_szInternalIP);
+	}
 	p.wPort = wPort;
 
 #ifdef ENABLE_SWITCHBOT
