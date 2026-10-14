@@ -25,6 +25,8 @@ bool CPythonNetworkStream::SendSafeBoxMoneyPacket(BYTE byState, DWORD dwMoney)
 
 bool CPythonNetworkStream::SendSafeBoxCheckinPacket(TItemPos InventoryPos, BYTE bySafeBoxPos)
 {
+	__PlayInventoryItemDropSound(InventoryPos);
+
 	TPacketCGSafeboxCheckin kSafeboxCheckin;
 	kSafeboxCheckin.bHeader = HEADER_CG_SAFEBOX_CHECKIN;
 	kSafeboxCheckin.ItemPos = InventoryPos;
@@ -37,6 +39,8 @@ bool CPythonNetworkStream::SendSafeBoxCheckinPacket(TItemPos InventoryPos, BYTE 
 
 bool CPythonNetworkStream::SendSafeBoxCheckoutPacket(BYTE bySafeBoxPos, TItemPos InventoryPos)
 {
+	__PlaySafeBoxItemDropSound(bySafeBoxPos);
+
 	TPacketCGSafeboxCheckout kSafeboxCheckout;
 	kSafeboxCheckout.bHeader = HEADER_CG_SAFEBOX_CHECKOUT;
 	kSafeboxCheckout.bSafePos = bySafeBoxPos;
@@ -53,6 +57,8 @@ bool CPythonNetworkStream::SendSafeBoxItemMovePacket(BYTE bySourcePos, BYTE byTa
 bool CPythonNetworkStream::SendSafeBoxItemMovePacket(BYTE bySourcePos, BYTE byTargetPos, BYTE byCount)
 #endif
 {
+	__PlaySafeBoxItemDropSound(bySourcePos);
+
 	TPacketCGItemMove kItemMove;
 	kItemMove.header = HEADER_CG_SAFEBOX_ITEM_MOVE;
 	kItemMove.pos = TItemPos(INVENTORY, bySourcePos);
@@ -131,6 +137,8 @@ bool CPythonNetworkStream::RecvSafeBoxSizePacket()
 // Mall
 bool CPythonNetworkStream::SendMallCheckoutPacket(TItemPos InventoryPos)
 {
+	__PlayMallItemDropSound(0);
+
 	TPacketCGMallCheckout kMallCheckoutPacket;
 	kMallCheckoutPacket.bHeader = HEADER_CG_MALL_CHECKOUT;
 	kMallCheckoutPacket.bMallPos = false;
@@ -566,6 +574,8 @@ bool CPythonNetworkStream::SendItemUsePacket(TItemPos pos
 			return true;
 	}
 
+	__PlayInventoryItemUseSound(pos);
+
 	TPacketCGItemUse itemUsePacket;
 	itemUsePacket.header = HEADER_CG_ITEM_USE;
 	itemUsePacket.pos = pos;
@@ -729,6 +739,8 @@ bool CPythonNetworkStream::SendItemMovePacket(TItemPos pos, TItemPos change_pos,
 			return true;
 	}
 
+	__PlayInventoryItemDropSound(pos);
+
 	TPacketCGItemMove	itemMovePacket;
 	itemMovePacket.header = HEADER_CG_ITEM_MOVE;
 	itemMovePacket.pos = pos;
@@ -741,6 +753,46 @@ bool CPythonNetworkStream::SendItemMovePacket(TItemPos pos, TItemPos change_pos,
 	}
 
 	return SendSequence();
+}
+
+void CPythonNetworkStream::__PlayInventoryItemUseSound(TItemPos uSlotPos)
+{
+	IAbstractPlayer& rkPlayer = IAbstractPlayer::GetSingleton();
+	DWORD dwItemID = rkPlayer.GetItemIndex(uSlotPos);
+
+	CPythonItem& rkItem = CPythonItem::Instance();
+	rkItem.PlayUseSound(dwItemID);
+}
+
+void CPythonNetworkStream::__PlayInventoryItemDropSound(TItemPos uSlotPos)
+{
+	IAbstractPlayer& rkPlayer = IAbstractPlayer::GetSingleton();
+	DWORD dwItemID = rkPlayer.GetItemIndex(uSlotPos);
+
+	CPythonItem& rkItem = CPythonItem::Instance();
+	rkItem.PlayDropSound(dwItemID);
+}
+
+void CPythonNetworkStream::__PlaySafeBoxItemDropSound(UINT uSlotPos)
+{
+	DWORD dwItemID;
+	CPythonSafeBox& rkSafeBox = CPythonSafeBox::Instance();
+	if (!rkSafeBox.GetSlotItemID(uSlotPos, &dwItemID))
+		return;
+
+	CPythonItem& rkItem = CPythonItem::Instance();
+	rkItem.PlayDropSound(dwItemID);
+}
+
+void CPythonNetworkStream::__PlayMallItemDropSound(UINT uSlotPos)
+{
+	DWORD dwItemID;
+	CPythonSafeBox& rkSafeBox = CPythonSafeBox::Instance();
+	if (!rkSafeBox.GetSlotMallItemID(uSlotPos, &dwItemID))
+		return;
+
+	CPythonItem& rkItem = CPythonItem::Instance();
+	rkItem.PlayDropSound(dwItemID);
 }
 
 bool CPythonNetworkStream::SendItemPickUpPacket(DWORD vid)

@@ -638,6 +638,7 @@ protected:
 #endif
 	);
 	void ProcessMotionEventSpecialAttacking(int iMotionEventIndex, const CRaceMotionData::TMotionEventData* c_pData);
+	void ProcessMotionEventSound(const CRaceMotionData::TMotionEventData* c_pData);
 	void ProcessMotionEventFly(const CRaceMotionData::TMotionEventData* c_pData
 #ifdef ENABLE_SKILL_COLOR_SYSTEM
 		, DWORD * dwSkillColor = nullptr

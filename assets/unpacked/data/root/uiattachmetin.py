@@ -144,6 +144,7 @@ class AttachMetinDialog(ui.ScriptWindow):
 				net.SendItemUseToItemPacket(self.metinItemPos, self.targetItemPos)
 		else:
 			net.SendItemUseToItemPacket(self.metinItemPos, self.targetItemPos)
+		snd.PlaySound("sound/ui/metinstone_insert.wav")
 		self.Close()
 
 	def Close(self):

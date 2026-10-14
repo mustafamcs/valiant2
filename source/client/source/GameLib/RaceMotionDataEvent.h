@@ -237,6 +237,28 @@ namespace NMotionEvent
 		}
 	} TMotionEventDataAttacking;
 
+	// Sound
+	typedef struct SMotionEventDataSound : public SMotionEventData
+	{
+		std::string strSoundFileName;
+
+		SMotionEventDataSound() {}
+		virtual ~SMotionEventDataSound() {}
+
+		void Save(FILE* File, int iTabs)
+		{
+			PrintfTabs(File, iTabs, "\n");
+			PrintfTabs(File, iTabs, "SoundFileName        \"%s\"\n", strSoundFileName.c_str());
+		}
+		bool Load(CTextFileLoader& rTextFileLoader)
+		{
+			if (!rTextFileLoader.GetTokenString("soundfilename", &strSoundFileName))
+				return false;
+
+			return true;
+		}
+	} TMotionEventDataSound;
+
 	// Character Show
 	typedef struct SMotionEventDataCharacterShow : public SMotionEventData
 	{

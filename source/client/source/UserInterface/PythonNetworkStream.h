@@ -752,6 +752,11 @@ protected:
 	bool __IsPlayerAttacking();
 	bool __IsEquipItemInSlot(TItemPos Cell);
 
+	void __PlayInventoryItemUseSound(TItemPos uSlotPos);
+	void __PlayInventoryItemDropSound(TItemPos uSlotPos);
+	void __PlaySafeBoxItemDropSound(UINT uSlotPos);
+	void __PlayMallItemDropSound(UINT uSlotPos);
+
 	void __ShowMapName(LONG lLocalX, LONG lLocalY);
 
 	void __LeaveOfflinePhase() {}

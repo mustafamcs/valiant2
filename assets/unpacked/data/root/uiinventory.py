@@ -1,5 +1,5 @@
 import ui, player, mouseModule, net, app, item, player, chat, uiScriptLocale, uiAttachMetin, uiCommon, uiPrivateShopBuilder ,localeInfo \
-	,constInfo ,ime ,wndMgr, uiPickItem, uiToolTip, blend_table, extraInfo
+	,constInfo ,ime ,wndMgr, uiPickItem, uiToolTip, blend_table, extraInfo, snd
 
 if app.ENABLE_ACCE_COSTUME_SYSTEM:
 	import acce
@@ -650,6 +650,7 @@ class InventoryWindow(ui.ScriptWindow):
 		if self.sellingSlotitemIndex == player.GetItemIndex(self.sellingSlotNumber):
 			if self.sellingSlotitemCount == player.GetItemCount(self.sellingSlotNumber):
 				net.SendShopSellPacketNew(self.sellingSlotNumber, self.questionDialog.count, player.INVENTORY)
+				snd.PlaySound("sound/ui/money.wav")
 		self.OnCloseQuestionDialog()
 
 	def OnDetachMetinFromItem(self):
@@ -807,6 +808,7 @@ class InventoryWindow(ui.ScriptWindow):
 				selectedItemVNum = player.GetItemIndex(itemSlotIndex)
 				itemCount = player.GetItemCount(itemSlotIndex)
 				mouseModule.mouseController.AttachObject(self, player.SLOT_TYPE_INVENTORY, itemSlotIndex, selectedItemVNum, itemCount)
+				snd.PlaySound("sound/ui/pick.wav")
 
 				if self.__IsUsableItemToItem(selectedItemVNum, itemSlotIndex):
 					self.wndItem.SetUseMode(True)

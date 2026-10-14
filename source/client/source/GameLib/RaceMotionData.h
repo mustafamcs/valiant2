@@ -207,6 +207,7 @@ public:
 	typedef struct NMotionEvent::SMotionEventDataEffect			TMotionEffectEventData;
 	typedef struct NMotionEvent::SMotionEventDataFly			TMotionFlyEventData;
 	typedef struct NMotionEvent::SMotionEventDataAttack			TMotionAttackingEventData;
+	typedef struct NMotionEvent::SMotionEventDataSound			TMotionSoundEventData;
 	typedef struct NMotionEvent::SMotionEventDataCharacterShow	TMotionCharacterShowEventData;
 	typedef struct NMotionEvent::SMotionEventDataCharacterHide	TMotionCharacterHideEventData;
 	typedef struct NMotionEvent::SMotionEventDataWarp			TMotionWarpEventData;

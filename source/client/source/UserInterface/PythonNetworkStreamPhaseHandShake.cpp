@@ -93,6 +93,8 @@ void CPythonNetworkStream::SetHandShakePhase()
 	m_phaseProcessFunc.Set(this, &CPythonNetworkStream::HandShakePhase);
 	m_phaseLeaveFunc.Set(this, &CPythonNetworkStream::__LeaveHandshakePhase);
 	SetGameOnline();
+
+	PyCallClassMemberFunc(m_apoPhaseWnd[PHASE_WINDOW_LOGIN], "OnHandShake", Py_BuildValue("()"));
 }
 
 bool CPythonNetworkStream::RecvHandshakePacket()

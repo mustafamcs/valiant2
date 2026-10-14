@@ -1999,11 +1999,13 @@ class GameWindow(ui.ScriptWindow):
     # END_OF_ITEM_MALL
 
     def RefineSuceededMessage(self):
+        snd.PlaySound("sound/ui/make_soket.wav")
         self.PopupMessage(localeInfo.REFINE_SUCCESS)
         if app.ENABLE_REFINE_RENEWAL:
             self.interface.CheckRefineDialog(False)
 
     def RefineFailedMessage(self):
+        snd.PlaySound("sound/ui/jaeryun_fail.wav")
         self.PopupMessage(localeInfo.REFINE_FAILURE)
         if app.ENABLE_REFINE_RENEWAL:
             self.interface.CheckRefineDialog(True)

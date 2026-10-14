@@ -11,6 +11,7 @@ import uiCommon
 import mouseModule
 import localeInfo
 import constInfo
+import snd
 
 class ShopDialog(ui.ScriptWindow):
 
@@ -364,10 +365,12 @@ class ShopDialog(ui.ScriptWindow):
 	if app.ENABLE_SPECIAL_STORAGE:
 		def OnSellItem(self, slotPos, count, type):
 			net.SendShopSellPacketNew(slotPos, count, type)
+			snd.PlaySound("sound/ui/money.wav")
 			self.OnCloseQuestionDialog()
 	else:
 		def OnSellItem(self, slotPos, count):
 			net.SendShopSellPacketNew(slotPos, count)
+			snd.PlaySound("sound/ui/money.wav")
 			self.OnCloseQuestionDialog()
 
 	def OnCloseQuestionDialog(self):
@@ -444,6 +447,7 @@ class ShopDialog(ui.ScriptWindow):
 
 				mouseModule.mouseController.AttachObject(self, type, selectedSlotPos, selectedItemID, itemCount)
 				mouseModule.mouseController.SetCallBack("INVENTORY", ui.__mem_func__(self.DropToInventory))
+				snd.PlaySound("sound/ui/pick.wav")
 
 	def DropToInventory(self):
 		attachedSlotPos = mouseModule.mouseController.GetAttachedSlotNumber()

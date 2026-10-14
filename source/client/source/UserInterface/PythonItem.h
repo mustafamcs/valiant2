@@ -20,6 +20,29 @@ public:
 		VNUM_MONEY = 1,
 	};
 
+	enum
+	{
+		USESOUND_NONE,
+		USESOUND_DEFAULT,
+		USESOUND_ARMOR,
+		USESOUND_WEAPON,
+		USESOUND_BOW,
+		USESOUND_ACCESSORY,
+		USESOUND_POTION,
+		USESOUND_PORTAL,
+		USESOUND_NUM,
+	};
+
+	enum
+	{
+		DROPSOUND_DEFAULT,
+		DROPSOUND_ARMOR,
+		DROPSOUND_WEAPON,
+		DROPSOUND_BOW,
+		DROPSOUND_ACCESSORY,
+		DROPSOUND_NUM
+	};
+
 	typedef struct SGroundItemInstance
 	{
 		DWORD					dwVirtualNumber;
@@ -38,6 +61,12 @@ public:
 
 		DWORD					dwEffectInstanceIndex;
 		std::string				stOwnership;
+
+		DWORD					eDropSoundType;
+
+		static void __PlayDropSound(DWORD eItemType, const D3DXVECTOR3& c_rv3Pos);
+		static std::string ms_astDropSoundFileName[DROPSOUND_NUM];
+
 		SGroundItemInstance() {}
 		virtual ~SGroundItemInstance() {}
 	} TGroundItemInstance;
@@ -64,6 +93,13 @@ public:
 	void	Destroy();
 	void	Create();
 	void	GetInfo(std::string* pstInfo);
+
+	void	PlayUseSound(DWORD dwItemID);
+	void	PlayDropSound(DWORD dwItemID);
+	void	PlayUsePotionSound();
+
+	void	SetUseSoundFileName(DWORD eItemType, const std::string& c_rstFileName);
+	void	SetDropSoundFileName(DWORD eItemType, const std::string& c_rstFileName);
 
 	void	DeleteAllItems();
 
@@ -97,6 +133,8 @@ public:
 
 protected:
 	DWORD	__Pick(const POINT& c_rkPtMouse);
+	DWORD	__GetUseSoundType(const CItemData& c_rkItemData);
+	DWORD	__GetDropSoundType(const CItemData& c_rkItemData);
 protected:
 	TGroundItemInstanceMap				m_GroundItemInstanceMap;
 	CMemoryPoolNew<TGroundItemInstance>	m_GroundItemInstancePool;
@@ -106,6 +144,7 @@ protected:
 
 	int m_nMouseX;
 	int m_nMouseY;
+	std::string m_astUseSoundFileName[USESOUND_NUM];
 	std::vector<CItemData*> m_NoGradeNameItemData;
 
 #ifdef ENABLE_DS_SET_BONUS

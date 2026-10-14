@@ -9,12 +9,23 @@
 #endif
 #include "pythonitem.h"
 #include "PythonTextTail.h"
+#include "../MilesLib/SoundManager.h"
 #ifdef ENABLE_QUICK_PICKUP
 #include "PythonPlayer.h"
 #endif
 
 const float c_fDropStartHeight = 100.0f;
 const float c_fDropTime = 0.5f;
+
+std::string CPythonItem::TGroundItemInstance::ms_astDropSoundFileName[DROPSOUND_NUM];
+
+void CPythonItem::TGroundItemInstance::__PlayDropSound(DWORD eItemType, const D3DXVECTOR3& c_rv3Pos)
+{
+	if (eItemType >= DROPSOUND_NUM)
+		return;
+
+	CSoundManager::Instance().PlaySound3D(c_rv3Pos.x, c_rv3Pos.y, c_rv3Pos.z, ms_astDropSoundFileName[eItemType].c_str());
+}
 
 void CPythonItem::GetInfo(std::string* pstInfo)
 {
@@ -50,6 +61,8 @@ bool CPythonItem::TGroundItemInstance::Update()
 			v3EndPosition.z + qAdjust.z);
 		//ThingInstance.Update();
 		bAnimEnded = true;
+
+		__PlayDropSound(eDropSoundType, v3EndPosition);
 	}
 	else
 	{
@@ -110,6 +123,131 @@ void CPythonItem::Render()
 	}
 }
 
+void CPythonItem::SetUseSoundFileName(DWORD eItemType, const std::string& c_rstFileName)
+{
+	if (eItemType >= USESOUND_NUM)
+		return;
+
+	m_astUseSoundFileName[eItemType] = c_rstFileName;
+}
+
+void CPythonItem::SetDropSoundFileName(DWORD eItemType, const std::string& c_rstFileName)
+{
+	if (eItemType >= DROPSOUND_NUM)
+		return;
+
+	TGroundItemInstance::ms_astDropSoundFileName[eItemType] = c_rstFileName;
+}
+
+void CPythonItem::PlayUseSound(DWORD dwItemID)
+{
+	CItemData* pkItemData;
+	if (!CItemManager::Instance().GetItemDataPointer(dwItemID, &pkItemData))
+		return;
+
+	DWORD eItemType = __GetUseSoundType(*pkItemData);
+	if (eItemType == USESOUND_NONE)
+		return;
+	if (eItemType >= USESOUND_NUM)
+		return;
+
+	CSoundManager::Instance().PlaySound2D(m_astUseSoundFileName[eItemType].c_str());
+}
+
+void CPythonItem::PlayDropSound(DWORD dwItemID)
+{
+	CItemData* pkItemData;
+	if (!CItemManager::Instance().GetItemDataPointer(dwItemID, &pkItemData))
+		return;
+
+	DWORD eItemType = __GetDropSoundType(*pkItemData);
+	if (eItemType >= DROPSOUND_NUM)
+		return;
+
+	CSoundManager::Instance().PlaySound2D(TGroundItemInstance::ms_astDropSoundFileName[eItemType].c_str());
+}
+
+void CPythonItem::PlayUsePotionSound()
+{
+	CSoundManager::Instance().PlaySound2D(m_astUseSoundFileName[USESOUND_POTION].c_str());
+}
+
+DWORD CPythonItem::__GetDropSoundType(const CItemData& c_rkItemData)
+{
+	switch (c_rkItemData.GetType())
+	{
+		case CItemData::ITEM_TYPE_WEAPON:
+			switch (c_rkItemData.GetWeaponType())
+			{
+				case CItemData::WEAPON_BOW:
+					return DROPSOUND_BOW;
+				case CItemData::WEAPON_ARROW:
+					return DROPSOUND_DEFAULT;
+				default:
+					return DROPSOUND_WEAPON;
+			}
+		case CItemData::ITEM_TYPE_ARMOR:
+			switch (c_rkItemData.GetSubType())
+			{
+				case CItemData::ARMOR_NECK:
+				case CItemData::ARMOR_EAR:
+					return DROPSOUND_ACCESSORY;
+				case CItemData::ARMOR_BODY:
+					return DROPSOUND_ARMOR;
+				default:
+					return DROPSOUND_DEFAULT;
+			}
+		default:
+			return DROPSOUND_DEFAULT;
+	}
+
+	return DROPSOUND_DEFAULT;
+}
+
+DWORD CPythonItem::__GetUseSoundType(const CItemData& c_rkItemData)
+{
+	switch (c_rkItemData.GetType())
+	{
+		case CItemData::ITEM_TYPE_WEAPON:
+			switch (c_rkItemData.GetWeaponType())
+			{
+				case CItemData::WEAPON_BOW:
+					return USESOUND_BOW;
+				case CItemData::WEAPON_ARROW:
+					return USESOUND_DEFAULT;
+				default:
+					return USESOUND_WEAPON;
+			}
+		case CItemData::ITEM_TYPE_ARMOR:
+			switch (c_rkItemData.GetSubType())
+			{
+				case CItemData::ARMOR_NECK:
+				case CItemData::ARMOR_EAR:
+					return USESOUND_ACCESSORY;
+				case CItemData::ARMOR_BODY:
+					return USESOUND_ARMOR;
+				default:
+					return USESOUND_DEFAULT;
+			}
+		case CItemData::ITEM_TYPE_USE:
+			switch (c_rkItemData.GetSubType())
+			{
+				case CItemData::USE_ABILITY_UP:
+					return USESOUND_POTION;
+				case CItemData::USE_POTION:
+					return USESOUND_NONE;
+				case CItemData::USE_TALISMAN:
+					return USESOUND_PORTAL;
+				default:
+					return USESOUND_DEFAULT;
+			}
+		default:
+			return USESOUND_DEFAULT;
+	}
+
+	return USESOUND_DEFAULT;
+}
+
 #ifdef ENABLE_EXTENDED_ITEMNAME_ON_GROUND
 void CPythonItem::CreateItem(DWORD dwVirtualID, DWORD dwVirtualNumber, float x, float y, float z, bool bDrop, long alSockets[ITEM_SOCKET_SLOT_MAX_NUM], TPlayerItemAttribute aAttrs[ITEM_ATTRIBUTE_SLOT_MAX_NUM])
 #else
@@ -158,6 +296,8 @@ void CPythonItem::CreateItem(DWORD dwVirtualID, DWORD dwVirtualNumber, float x, 
 		CEffectManager& rem = CEffectManager::Instance();
 		pGroundItemInstance->dwEffectInstanceIndex =
 			rem.CreateEffect(m_dwDropItemEffectID, D3DXVECTOR3(x, -y, z), D3DXVECTOR3(0, 0, 0));
+
+		pGroundItemInstance->eDropSoundType = __GetDropSoundType(*pItemData);
 	}
 
 	D3DXVECTOR3 normal;
@@ -574,6 +714,20 @@ void CPythonItem::Destroy()
 void CPythonItem::Create()
 {
 	CEffectManager::Instance().RegisterEffect2("d:/ymir work/effect/etc/dropitem/dropitem.mse", &m_dwDropItemEffectID);
+
+	SetUseSoundFileName(USESOUND_DEFAULT, "sound/ui/drop.wav");
+	SetUseSoundFileName(USESOUND_ACCESSORY, "sound/ui/equip_ring_amulet.wav");
+	SetUseSoundFileName(USESOUND_ARMOR, "sound/ui/equip_metal_armor.wav");
+	SetUseSoundFileName(USESOUND_BOW, "sound/ui/equip_bow.wav");
+	SetUseSoundFileName(USESOUND_WEAPON, "sound/ui/equip_metal_weapon.wav");
+	SetUseSoundFileName(USESOUND_POTION, "sound/ui/eat_potion.wav");
+	SetUseSoundFileName(USESOUND_PORTAL, "sound/ui/potal_scroll.wav");
+
+	SetDropSoundFileName(DROPSOUND_DEFAULT, "sound/ui/drop.wav");
+	SetDropSoundFileName(DROPSOUND_ACCESSORY, "sound/ui/equip_ring_amulet.wav");
+	SetDropSoundFileName(DROPSOUND_ARMOR, "sound/ui/equip_metal_armor.wav");
+	SetDropSoundFileName(DROPSOUND_BOW, "sound/ui/equip_bow.wav");
+	SetDropSoundFileName(DROPSOUND_WEAPON, "sound/ui/equip_metal_weapon.wav");
 }
 
 #ifdef ENABLE_DS_SET_BONUS

@@ -517,16 +517,16 @@ class EncyclopediaofGame(ui.BoardWithTitleBar):
 				{'item' : self.CreateCategorySubItem(nonplayer.GetMonsterName(20013), lambda arg = ("Cube#8"): self.__SelectType(arg)),},
 			)
 		},
-		# {
-			# 'item' : self.CreateCategoryItem(localeInfo.WIKI_SYSTEM2, lambda arg = ("System#"): self.__EmptyFunction(arg)), 
-			# 'children' : (
+		{
+			'item' : self.CreateCategoryItem(localeInfo.WIKI_SYSTEM2, lambda arg = ("System#"): self.__EmptyFunction(arg)),
+			'children' : (
+				{'item' : self.CreateCategorySubItem(localeInfo.WIKI_PETS, lambda arg = ("System#4"): self.__SelectType(arg)),},
 				# {'item' : self.CreateCategorySubItem(localeInfo.WIKI_COSTUME, lambda arg = ("System#2"): self.__SelectType(arg)),},
-				# {'item' : self.CreateCategorySubItem(localeInfo.WIKI_PETS, lambda arg = ("System#4"): self.__SelectType(arg)),},
 				# {'item' : self.CreateCategorySubItem(localeInfo.WIKI_BIOLOGO, lambda arg = ("System#5"): self.__SelectType(arg)),},
 				# {'item' : self.CreateCategorySubItem(localeInfo.WIKI_ALCHEMY, lambda arg = ("System#7"): self.__SelectType(arg)),},
 				# {'item' : self.CreateCategorySubItem(localeInfo.WIKI_EVENTS, lambda arg = ("System#8"): self.__SelectType(arg)),},
-			# )
-		# },
+			)
+		},
 		# {
 			# 'item' : self.CreateCategoryItem(localeInfo.WIKI_GUIDES, lambda arg = ("System#"): self.__EmptyFunction(arg)), 
 			# 'children' : (
@@ -1986,7 +1986,7 @@ class ArticleGUI(WikiUI.DefaultWikiImage):
 			# 1 : "wiki/bonus67.txt",
 			# 2 : "wiki/costume.txt",
 			# 3 : "wiki/drops.txt",
-			# 4 : "wiki/pets.txt",
+			4 : "wiki/pets.txt",
 			# 5 : "wiki/biologist.txt",
 			# 6 : "wiki/gamerules.txt",
 			# 7 : "wiki/alchemy.txt",

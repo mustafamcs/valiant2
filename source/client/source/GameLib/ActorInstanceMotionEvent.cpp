@@ -83,6 +83,7 @@ void CActorInstance::MotionEventProcess(DWORD dwcurFrame, int iIndex, const CRac
 		break;
 
 	case CRaceMotionData::MOTION_EVENT_TYPE_SOUND:
+		ProcessMotionEventSound(c_pData);
 		break;
 
 	case CRaceMotionData::MOTION_EVENT_TYPE_FLY:
@@ -325,6 +326,16 @@ void CActorInstance::ProcessMotionEventSpecialAttacking(int iMotionEventIndex, c
 		rSphereInstance.v3Position.z = m_z + c_rSphereData.v3Position.z;
 		rSphereInstance.v3LastPosition = rSphereInstance.v3Position;
 	}
+}
+
+void CActorInstance::ProcessMotionEventSound(const CRaceMotionData::TMotionEventData* c_pData)
+{
+	if (CRaceMotionData::MOTION_EVENT_TYPE_SOUND != c_pData->iType)
+		return;
+
+	const CRaceMotionData::TMotionSoundEventData* c_pSoundData = (const CRaceMotionData::TMotionSoundEventData*)c_pData;
+
+	CSoundManager::Instance().PlaySound3D(m_x, m_y, m_z, c_pSoundData->strSoundFileName.c_str());
 }
 
 void CActorInstance::ProcessMotionEventFly(const CRaceMotionData::TMotionEventData* c_pData

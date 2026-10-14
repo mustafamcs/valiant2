@@ -1,4 +1,4 @@
-import ui, shop, mouseModule, player, chr, net, uiCommon, localeInfo, chat, item, systemSetting, player, app
+import ui, shop, mouseModule, player, chr, net, uiCommon, localeInfo, chat, item, systemSetting, player, app, snd
 
 g_isBuildingPrivateShop = False
 g_itemPriceDict={}
@@ -273,6 +273,7 @@ class PrivateShopBuilder(ui.ScriptWindow):
 
 		isAttached = mouseModule.mouseController.isAttached()
 		if isAttached:
+			snd.PlaySound("sound/ui/loginfail.wav")
 			mouseModule.mouseController.DeattachObject()
 
 		else:
@@ -281,6 +282,7 @@ class PrivateShopBuilder(ui.ScriptWindow):
 
 			invenType, invenPos = self.itemStock[selectedSlotPos]
 			shop.DelPrivateShopItemStock(invenType, invenPos)
+			snd.PlaySound("sound/ui/drop.wav")
 
 			if app.WJ_ENABLE_TRADABLE_ICON:
 				self.interface.SetCanMouseSlot(invenPos, invenType)
@@ -323,6 +325,7 @@ class PrivateShopBuilder(ui.ScriptWindow):
 
 		shop.AddPrivateShopItemStock(attachedInvenType, sourceSlotPos, targetSlotPos, price)
 		self.itemStock[targetSlotPos] = (attachedInvenType, sourceSlotPos)
+		snd.PlaySound("sound/ui/drop.wav")
 
 		self.Refresh()
 

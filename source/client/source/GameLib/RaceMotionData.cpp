@@ -431,6 +431,7 @@ bool CRaceMotionData::LoadMotionData(const char* c_szFileName)
 					m_hasSplashEvent = TRUE;
 					break;
 				case MOTION_EVENT_TYPE_SOUND:
+					pData = new TMotionSoundEventData;
 					break;
 				case MOTION_EVENT_TYPE_CHARACTER_SHOW:
 					pData = new TMotionCharacterShowEventData;

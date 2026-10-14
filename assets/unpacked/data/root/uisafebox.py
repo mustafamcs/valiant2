@@ -7,6 +7,7 @@ import safebox
 import chat
 import localeInfo
 import item
+import snd
 if app.ENABLE_OFFLINE_SHOP:
 	import uiOfflineShop
 
@@ -500,6 +501,7 @@ class SafeboxWindow(ui.ScriptWindow):
 							chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.CANNOT_DOING_PRIVATE_SHOP_OPEN)
 							return
 					net.SendSafeboxSaveMoneyPacket(mouseModule.mouseController.GetAttachedItemCount())
+					snd.PlaySound("sound/ui/money.wav")
 				else:
 					if app.ENABLE_OFFLINE_SHOP:
 						if uiOfflineShop.IsBuildingShop():
@@ -518,6 +520,7 @@ class SafeboxWindow(ui.ScriptWindow):
 			if player.SLOT_TYPE_INVENTORY == attachedSlotType:
 				if player.ITEM_MONEY == mouseModule.mouseController.GetAttachedItemIndex():
 					net.SendSafeboxSaveMoneyPacket(mouseModule.mouseController.GetAttachedItemCount())
+					snd.PlaySound("sound/ui/money.wav")
 				else:
 					attachedSlotPos = mouseModule.mouseController.GetRealAttachedSlotNumber()
 					net.SendSafeboxCheckinPacket(attachedSlotPos, selectedSlotPos)
@@ -535,6 +538,7 @@ class SafeboxWindow(ui.ScriptWindow):
 			else:
 				selectedItemID = safebox.GetItemID(selectedSlotPos)
 				mouseModule.mouseController.AttachObject(self, player.SLOT_TYPE_SAFEBOX, selectedSlotPos, selectedItemID)
+				snd.PlaySound("sound/ui/pick.wav")
 
 	def BindInterface(self, interface):
 		from _weakref import proxy

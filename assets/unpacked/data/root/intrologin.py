@@ -129,7 +129,13 @@ class LoginWindow(ui.ScriptWindow):
 		if self.connectingDialog:
 			self.connectingDialog.Close()
 		self.connectingDialog = None
+		snd.PlaySound("sound/ui/loginfail.wav")
 		self.PopupNotifyMessage(localeInfo.LOGIN_CONNECT_FAILURE, self.EmptyFunc)
+
+	def OnHandShake(self):
+		snd.PlaySound("sound/ui/loginok.wav")
+		if self.IsShow():
+			self.PopupDisplayMessage(localeInfo.LOGIN_CONNECT_SUCCESS)
 
 	def OnLoginStart(self):
 		self.PopupDisplayMessage(localeInfo.LOGIN_PROCESSING)
@@ -144,6 +150,7 @@ class LoginWindow(ui.ScriptWindow):
 			loginFailureMsg = localeInfo.LOGIN_FAILURE_UNKNOWN  + error
 
 		loginFailureFunc=self.loginFailureFuncDict.get(error, self.SetPasswordEditLineFocus)
+		snd.PlaySound("sound/ui/loginfail.wav")
 		self.PopupNotifyMessage(loginFailureMsg, loginFailureFunc)
 
 	def __DisconnectAndInputPassword(self):
