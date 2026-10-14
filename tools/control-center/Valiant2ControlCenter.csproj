@@ -43,11 +43,9 @@
     <Compile Include="ControlCenterForm.cs" />
     <Compile Include="Pages\DashboardPage.cs" />
     <Compile Include="Pages\SetupWizardPage.cs" />
-    <Compile Include="Pages\ServerManagerPage.cs" />
     <Compile Include="Pages\BuildPackPage.cs" />
     <Compile Include="Pages\DatabaseGmPage.cs" />
     <Compile Include="Pages\ConfigGitPage.cs" />
-    <Compile Include="Pages\LogViewerPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="..\..\source\patchserver\src\logo.png">

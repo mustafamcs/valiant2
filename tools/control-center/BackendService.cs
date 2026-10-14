@@ -828,7 +828,7 @@ namespace Valiant2ControlCenter
 
             // 5. Nginx + SSL
             string nginxExe = Path.Combine(ProjectRoot, @"runtime\dependencies\nginx\nginx.exe");
-            string certPem = Path.Combine(ProjectRoot, @"deploy\certs\cert.pem");
+            string certPem = Path.Combine(ProjectRoot, @"runtime\dependencies\nginx\certs\cert.pem");
             steps.Add(new SetupStepState
             {
                 Id = "nginx",

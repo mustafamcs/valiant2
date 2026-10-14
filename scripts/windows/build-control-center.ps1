@@ -26,11 +26,9 @@ $sources = @(
     (Join-Path $srcDir 'ControlCenterForm.cs'),
     (Join-Path $srcDir 'Pages\DashboardPage.cs'),
     (Join-Path $srcDir 'Pages\SetupWizardPage.cs'),
-    (Join-Path $srcDir 'Pages\ServerManagerPage.cs'),
     (Join-Path $srcDir 'Pages\BuildPackPage.cs'),
     (Join-Path $srcDir 'Pages\DatabaseGmPage.cs'),
-    (Join-Path $srcDir 'Pages\ConfigGitPage.cs'),
-    (Join-Path $srcDir 'Pages\LogViewerPage.cs')
+    (Join-Path $srcDir 'Pages\ConfigGitPage.cs')
 )
 
 # csc.exe Turkce karakterleri ve sembolleri dogru okumasi icin UTF-8 BOM garanti et

@@ -103,16 +103,23 @@ foreach ($dir in $coreDirs) {
         if ($c -and $c.Trim() -match '^\.\./') { [IO.File]::WriteAllText($cmdFile, '', [Text.UTF8Encoding]::new($false)) }
     }
 
-    # CRC, VERSION: copy from share/conf if reference
-    foreach ($fname in @('CRC','VERSION')) {
+    # CRC, VERSION, item_names.txt, item_proto.txt, mob_names.txt, mob_proto.txt: copy from share/conf if reference
+    foreach ($fname in @('CRC','VERSION','item_names.txt','item_proto.txt','mob_names.txt','mob_proto.txt')) {
         $f = Join-Path $dir $fname
         if ((Test-Path $f) -and -not (Test-Path $f -PathType Container)) {
             $c = (Get-Content $f -Raw -ErrorAction SilentlyContinue)
             if ($c -and $c.Trim() -match '^\.\./') {
                 $src = Join-Path $shareConf $fname
-                if (Test-Path $src) { Copy-Item $src $f -Force } else { [IO.File]::WriteAllText($f, '', [Text.UTF8Encoding]::new($false)) }
+                if (Test-Path $src) { Copy-Item $src $f -Force } else { Write-Utf8NoBom $f '' }
             }
         }
+    }
+
+    # cores: Linux core dump symlink text file -> remove on Windows
+    $coresFile = Join-Path $dir 'cores'
+    if ((Test-Path $coresFile) -and -not (Test-Path $coresFile -PathType Container)) {
+        $c = (Get-Content $coresFile -Raw -ErrorAction SilentlyContinue)
+        if ($c -and $c.Trim() -match '^\.\./') { Remove-Item $coresFile -Force -ErrorAction SilentlyContinue }
     }
 
     # PTS, state_user_count, srv1-*: empty if reference
@@ -146,9 +153,14 @@ foreach ($dir in $coreDirs) {
         New-Item -ItemType Directory -Path $logPath -Force | Out-Null
     }
 
-    # data, locale: must be directory junctions (skip db dir - it has no data/locale)
+    # data, locale, mark: must be directory junctions (skip db dir - it has no data/locale)
     if ($dir -notmatch '\\db$') {
-        foreach ($junc in @(@{Name='data';Target=$shareData}, @{Name='locale';Target=$shareLocale})) {
+        $juncList = @(@{Name='data';Target=$shareData}, @{Name='locale';Target=$shareLocale})
+        if ($dir -match '\\chan\\') {
+            $chanMark = Join-Path $runtime 'chan\mark'
+            if (Test-Path $chanMark) { $juncList += @{Name='mark';Target=$chanMark} }
+        }
+        foreach ($junc in $juncList) {
             $jp = Join-Path $dir $junc.Name
             if ((Test-Path $jp) -and -not (Test-Path $jp -PathType Container)) {
                 Remove-Item $jp -Force
@@ -159,6 +171,9 @@ foreach ($dir in $coreDirs) {
         }
     }
 }
+
+# Kok dizinde veya unpacked icinde olusabilecek gereksiz artik klasorleri temizle
+Remove-Item (Join-Path $root '.lego'), (Join-Path $root 'logs'), (Join-Path $root 'assets\unpacked\logs') -Recurse -Force -ErrorAction SilentlyContinue
 
 & (Join-Path $PSScriptRoot 'git-sanitize.ps1')
 Write-Host 'Configuration synchronized from .env.'

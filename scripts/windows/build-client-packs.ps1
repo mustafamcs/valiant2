@@ -77,6 +77,7 @@ try {
     }
 } finally {
     Pop-Location
+    Remove-Item (Join-Path $assets 'logs'), (Join-Path $root 'logs') -Recurse -Force -ErrorAction SilentlyContinue
 }
 $sw.Stop()
 $el = [math]::Round($sw.Elapsed.TotalSeconds, 2)

@@ -35,7 +35,6 @@ Herkes  --------->  MariaDB 3306 (sadece localhost)
 VALIANT2/                                       Proje kökü (git repo)
 ├── assets/unpacked/data/                       Client kaynak dosyaları (pack üretimi)
 ├── database/                                   SQL şema + seed dosyaları
-├── deploy/certs/                               SSL sertifikaları (git'e girmez)
 ├── runtime/
 │   ├── client/game/                            Canlı client dosyaları
 │   ├── client/VALIANT2.exe                     Patcher/Launcher
@@ -47,7 +46,7 @@ VALIANT2/                                       Proje kökü (git repo)
 │   │   └── share/                                Paylaşılan conf/data/bin
 │   ├── server/.state/                          PID dosyaları
 │   ├── dependencies/mariadb/                   MariaDB 11.4 portable (git'e girmez)
-│   ├── dependencies/nginx/                     nginx (git'e girmez)
+│   ├── dependencies/nginx/                     nginx + SSL sertifikaları (git'e girmez)
 │   └── patchserver/                            Patch deploy hedefi (git'e girmez)
 ├── scripts/windows/                            Tüm işletim scriptleri
 ├── source/

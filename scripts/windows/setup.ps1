@@ -134,8 +134,8 @@ if (-not (Get-NginxExe)) {
     if ($inner) { Get-ChildItem $inner.FullName | Move-Item -Destination $nginxDir -Force }
     Remove-Item $zip, "$env:TEMP\nginx-extract" -Recurse -Force -ErrorAction SilentlyContinue
 }
-# SSL sertifika - Let's Encrypt IP sertifikasi (lego, shortlived profil)
-$certDir = Join-Path $root 'deploy\certs'
+# SSL sertifika - Let's Encrypt IP sertifikasi (lego, shortlived profil) -> runtime\dependencies\nginx\certs altinda
+$certDir = Join-Path $nginxDir 'certs'
 New-Item -ItemType Directory -Force -Path $certDir | Out-Null
 $certPem = Join-Path $certDir 'cert.pem'; $keyPem = Join-Path $certDir 'key.pem'
 $legoDir = Join-Path $root 'runtime\dependencies\lego'
@@ -197,8 +197,8 @@ $renewText = @"
 `$settings = Get-EnvSettings
 `$cn = `$settings.PUBLIC_IP
 `$legoExe = Join-Path `$root 'runtime\dependencies\lego\lego.exe'
-`$legoStore = Join-Path `$root 'deploy\certs\lego'
-`$certDir = Join-Path `$root 'deploy\certs'
+`$certDir = Join-Path (Get-NginxDir) 'certs'
+`$legoStore = Join-Path `$certDir 'lego'
 Get-Process nginx -ErrorAction SilentlyContinue | Stop-Process -Force
 Start-Sleep 2
 & `$legoExe run --email='admin@valiant2.com' --accept-tos --http --http.address=':80' --domains=`$cn --path=`$legoStore --profile='shortlived' --renew-force
@@ -289,7 +289,9 @@ if ($LASTEXITCODE -ne 0) { throw 'nginx.conf testi basarisiz.' }
 # --- 6) Patchserver dagitimi ---
 $patchRoot = Get-PatchRoot $settings
 New-Item -ItemType Directory -Force -Path "$patchRoot\patch\files", "$patchRoot\patcher" | Out-Null
-Copy-Item (Join-Path $root 'source\patchserver\*') $patchRoot -Recurse -Force
+foreach ($f in 'file_server.py','patch_watch.py') {
+    Copy-Item (Join-Path $root "source\patchserver\$f") (Join-Path $patchRoot $f) -Force
+}
 $patchCfgJson = @{
     game_dir    = (Join-Path $root 'runtime\client\game')
     patch_dir   = "$patchRoot\patch"

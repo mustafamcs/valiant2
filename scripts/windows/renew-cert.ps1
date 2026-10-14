@@ -3,8 +3,8 @@ $root = Split-Path (Split-Path $PSScriptRoot)
 $settings = Get-EnvSettings
 $cn = $settings.PUBLIC_IP
 $legoExe = Join-Path $root 'runtime\dependencies\lego\lego.exe'
-$legoStore = Join-Path $root 'deploy\certs\lego'
-$certDir = Join-Path $root 'deploy\certs'
+$certDir = Join-Path (Get-NginxDir) 'certs'
+$legoStore = Join-Path $certDir 'lego'
 Get-Process nginx -ErrorAction SilentlyContinue | Stop-Process -Force
 Start-Sleep 2
 & $legoExe run --email='admin@valiant2.com' --accept-tos --http --http.address=':80' --domains=$cn --path=$legoStore --profile='shortlived' --renew-force

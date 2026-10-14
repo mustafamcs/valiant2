@@ -184,7 +184,6 @@ namespace Valiant2ControlCenter.Pages
             await backend.RunPowerShellInlineAsync("Mevcut Kurulum Bileşenleri Kaldırılıyor", @"
 $root = '" + backend.ProjectRoot.Replace("'", "''") + @"'
 Remove-Item (Join-Path $root 'runtime\dependencies\nginx') -Recurse -Force -ErrorAction SilentlyContinue
-Remove-Item (Join-Path $root 'deploy\certs\cert.pem'), (Join-Path $root 'deploy\certs\key.pem') -Force -ErrorAction SilentlyContinue
 Remove-Item (Join-Path $root 'runtime\patchserver\patchserver.json') -Force -ErrorAction SilentlyContinue
 $turkeyJunc = Join-Path $root 'runtime\server\main\srv1\share\locale\turkey'
 if (Test-Path $turkeyJunc) { & cmd.exe /c ""rmdir `""$turkeyJunc`"""" 2>$null }
@@ -319,7 +318,7 @@ if (-not (Get-NginxExe)) {
     if ($inner) { Get-ChildItem $inner.FullName | Move-Item -Destination $nginxDir -Force }
     Remove-Item $zip, ""$env:TEMP\nginx-extract"" -Recurse -Force -ErrorAction SilentlyContinue
 }
-$certDir = Join-Path $root 'deploy\certs'; New-Item -ItemType Directory -Force -Path $certDir | Out-Null
+$certDir = Join-Path $nginxDir 'certs'; New-Item -ItemType Directory -Force -Path $certDir | Out-Null
 $certPem = Join-Path $certDir 'cert.pem'; $keyPem = Join-Path $certDir 'key.pem'
 $cn = if ($settings.PUBLIC_IP) { $settings.PUBLIC_IP } else { '127.0.0.1' }
 if (-not (Test-Path $certPem)) {
@@ -374,7 +373,7 @@ Write-Utf8NoBom (Join-Path $nginxDir 'conf\nginx.conf') $nginxConf
 . '" + System.IO.Path.Combine(backend.ScriptsDir, "common.ps1") + @"'
 $root = $script:ProjectRoot; $settings = Ensure-ValidEnvForMachine; $patchRoot = Get-PatchRoot $settings
 New-Item -ItemType Directory -Force -Path ""$patchRoot\patch\files"", ""$patchRoot\patcher"" | Out-Null
-Copy-Item (Join-Path $root 'source\patchserver\*') $patchRoot -Recurse -Force
+foreach ($f in 'file_server.py','patch_watch.py') { Copy-Item (Join-Path $root ""source\patchserver\$f"") (Join-Path $patchRoot $f) -Force }
 $patchCfgJson = @{ game_dir = (Join-Path $root 'runtime\client\game'); patch_dir = ""$patchRoot\patch""; patcher_dir = ""$patchRoot\patcher""; base_url = (Get-PublicBase $settings) } | ConvertTo-Json
 Write-Utf8NoBom (Join-Path $patchRoot 'patchserver.json') $patchCfgJson
 $cmd = Join-Path $root 'scripts\windows\start-stack.cmd'

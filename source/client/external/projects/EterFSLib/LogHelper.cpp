@@ -23,7 +23,9 @@ namespace FileSystem
 
 			sinks.push_back(std::make_shared<spdlog::sinks::stdout_color_sink_mt>());
 			sinks.push_back(std::make_shared<spdlog::sinks::msvc_sink_mt>());
+#if defined(_DEBUG)
 			sinks.push_back(std::make_shared<spdlog::sinks::basic_file_sink_mt>(m_stFileName.c_str()));
+#endif
 
 			m_pkLoggerImpl = std::make_shared<spdlog::logger>(m_stLoggerName.c_str(), sinks.begin(), sinks.end());
 			m_pkLoggerImpl->set_error_handler(LogErrorHandler);
