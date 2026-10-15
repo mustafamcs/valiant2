@@ -65,7 +65,7 @@ try {
 
         if ($toBuild.Count -eq 0) {
             Write-Host "Tum $($dirs.Count) client pack arsivi guncel (degisen dosya yok)."
-        } elseif ($toBuild.Count -ge 10) {
+        } elseif ($toBuild.Count -ge 50) {
             Write-Host "Toplu pack uretimi baslatildi ($($toBuild.Count) arsiv, 32 thread)..."
             & $archiver 'config.json' 'all' > $null
             if ($LASTEXITCODE -ne 0) { throw "FSArchiver failed with code $LASTEXITCODE." }

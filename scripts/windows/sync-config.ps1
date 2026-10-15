@@ -122,15 +122,29 @@ $coreDirs = @(
 foreach ($dir in $coreDirs) {
     if (-not (Test-Path $dir)) { continue }
 
-    # CMD: if file content looks like a relative path reference, empty it
-    $cmdFile = Join-Path $dir 'CMD'
-    if ((Test-Path $cmdFile) -and -not (Test-Path $cmdFile -PathType Container)) {
-        $c = (Get-Content $cmdFile -Raw -ErrorAction SilentlyContinue)
-        if ($c -and $c.Trim() -match '^\.\./') { [IO.File]::WriteAllText($cmdFile, '', [Text.UTF8Encoding]::new($false)) }
+    # CMD, CRC, VERSION: copy from share/conf if reference or missing in game/auth cores
+    foreach ($fname in @('CMD','CRC','VERSION')) {
+        $f = Join-Path $dir $fname
+        if ((Test-Path $f) -and -not (Test-Path $f -PathType Container)) {
+            $c = if ((Get-Item $f).Length -lt 500) { Get-Content $f -Raw -ErrorAction SilentlyContinue } else { $null }
+            if ($c -and $c.Trim() -match '^\.\./') {
+                if ($fname -eq 'CMD') { Write-Utf8NoBom $f '' }
+                else {
+                    $src = Join-Path $shareConf $fname
+                    if (Test-Path $src) { Copy-Item $src $f -Force } else { Write-Utf8NoBom $f '' }
+                }
+            }
+        } elseif ($dir -notmatch '\\db$' -and -not (Test-Path $f)) {
+            if ($fname -eq 'CMD') { Write-Utf8NoBom $f '' }
+            else {
+                $src = Join-Path $shareConf $fname
+                if (Test-Path $src) { Copy-Item $src $f -Force } else { Write-Utf8NoBom $f '' }
+            }
+        }
     }
 
-    # CRC, VERSION, item_names.txt, item_proto.txt, mob_names.txt, mob_proto.txt: copy from share/conf if reference or missing in db
-    foreach ($fname in @('CRC','VERSION','item_names.txt','item_proto.txt','mob_names.txt','mob_proto.txt')) {
+    # item_names.txt, item_proto.txt, mob_names.txt, mob_proto.txt: copy from share/conf if reference or missing in db
+    foreach ($fname in @('item_names.txt','item_proto.txt','mob_names.txt','mob_proto.txt')) {
         $f = Join-Path $dir $fname
         if ((Test-Path $f) -and -not (Test-Path $f -PathType Container)) {
             $c = if ((Get-Item $f).Length -lt 500) { Get-Content $f -Raw -ErrorAction SilentlyContinue } else { $null }
@@ -138,30 +152,26 @@ foreach ($dir in $coreDirs) {
                 $src = Join-Path $shareConf $fname
                 if (Test-Path $src) { Copy-Item $src $f -Force } else { Write-Utf8NoBom $f '' }
             }
-        } elseif ($dir -match '\\db$' -and $fname -match '\.txt$' -and -not (Test-Path $f)) {
+        } elseif ($dir -match '\\db$' -and -not (Test-Path $f)) {
             $src = Join-Path $shareConf $fname
             if (Test-Path $src) { Copy-Item $src $f -Force }
         }
     }
 
-    # cores: Linux core dump symlink text file -> remove on Windows
+    # cores & srv1-*: Linux symlink leftovers -> remove on Windows
     $coresFile = Join-Path $dir 'cores'
     if ((Test-Path $coresFile) -and -not (Test-Path $coresFile -PathType Container)) {
-        $c = (Get-Content $coresFile -Raw -ErrorAction SilentlyContinue)
-        if ($c -and $c.Trim() -match '^\.\./') { Remove-Item $coresFile -Force -ErrorAction SilentlyContinue }
+        Remove-Item $coresFile -Force -ErrorAction SilentlyContinue
     }
+    Get-ChildItem $dir -File -Filter 'srv1-*' -ErrorAction SilentlyContinue | Remove-Item -Force -ErrorAction SilentlyContinue
 
-    # PTS, state_user_count, srv1-*: empty if reference
+    # PTS, state_user_count: empty if reference
     foreach ($fname in @('PTS','state_user_count')) {
         $f = Join-Path $dir $fname
         if ((Test-Path $f) -and -not (Test-Path $f -PathType Container)) {
             $c = (Get-Content $f -Raw -ErrorAction SilentlyContinue)
             if ($c -and $c.Trim() -match '^\.\./') { [IO.File]::WriteAllText($f, '', [Text.UTF8Encoding]::new($false)) }
         }
-    }
-    Get-ChildItem $dir -File -Filter 'srv1-*' -ErrorAction SilentlyContinue | ForEach-Object {
-        $c = (Get-Content $_.FullName -Raw -ErrorAction SilentlyContinue)
-        if ($c -and $c.Trim() -match '^\.\./') { [IO.File]::WriteAllText($_.FullName, '', [Text.UTF8Encoding]::new($false)) }
     }
 
     # BANIP: empty if contains a path reference

@@ -39,7 +39,6 @@ artifacts/
 **/*.pyc
 **/__pycache__/
 tools/client-config/obj/
-tools/client-launcher/obj/
 tools/control-center/obj/
 ekran-goruntuleri/
 
@@ -98,6 +97,17 @@ runtime/server/**/p2p_packet_info.txt
 runtime/server/**/profile.txt
 runtime/server/**/stdout.txt
 runtime/server/**/usage.txt
+runtime/server/**/state_user_count
+runtime/server/**/srv1-*
+runtime/server/main/srv1/auth/BANIP
+runtime/server/main/srv1/auth/CMD
+runtime/server/main/srv1/auth/CRC
+runtime/server/main/srv1/auth/VERSION
+runtime/server/main/srv1/chan/**/BANIP
+runtime/server/main/srv1/chan/**/CMD
+runtime/server/main/srv1/chan/**/CRC
+runtime/server/main/srv1/chan/**/VERSION
+runtime/server/main/srv1/db/BANIP
 
 # ── Server junction directories (sync-config.ps1) ────────
 runtime/server/main/srv1/auth/data/

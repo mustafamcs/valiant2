@@ -63,10 +63,9 @@ namespace Valiant2ControlCenter.Pages
             AddFullWidthBtn(buildCard, "✦ AUTOPATCHER DERLE & DAĞIT", ButtonStyle.Success, ref y, () =>
                 backend.RunPowerShellScriptAsync("Autopatcher Derle & Dağıt", "build-patcher.ps1"));
 
-            AddFullWidthBtn(buildCard, "⚙ CONFIG & LAUNCHER DERLE", ButtonStyle.Secondary, ref y, async () =>
+            AddFullWidthBtn(buildCard, "⚙ CLIENT CONFIG (config.exe) DERLE", ButtonStyle.Secondary, ref y, async () =>
             {
                 await BuildSingleSolution("Client Config (config.exe)", @"tools\client-config\Valiant2Config.csproj", "Release", "AnyCPU");
-                await BuildSingleSolution("Client Launcher", @"tools\client-launcher\Valiant2Launcher.csproj", "Release", "AnyCPU");
             });
 
             var btnDump = Theme.CreateButton("📜 DUMP_PROTO", ButtonStyle.Secondary, 140, 28);

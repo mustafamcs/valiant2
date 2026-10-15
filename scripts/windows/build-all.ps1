@@ -29,9 +29,6 @@ if ($LASTEXITCODE -ne 0) { throw "Config build failed with code $LASTEXITCODE." 
 & $msbuild (Join-Path $root 'source\client\Antrum_Client_Global.sln') /t:Build /p:Configuration=Release /p:Platform=Win32 @msbCommon
 if ($LASTEXITCODE -ne 0) { throw "Client build failed with code $LASTEXITCODE." }
 
-& $msbuild (Join-Path $root 'tools\client-launcher\Valiant2Launcher.csproj') /t:Build /p:Configuration=Release /p:Platform=AnyCPU @msbCommon
-if ($LASTEXITCODE -ne 0) { throw "Launcher build failed with code $LASTEXITCODE." }
-
 # Eger oyun sunucusu calisiyorsa game.exe / db.exe kilitli olmamasi icin gecici durdur, bitince otomatik baslat
 $serverWasRunning = [bool](Get-Process -Name 'game','db' -ErrorAction SilentlyContinue)
 if ($serverWasRunning) {
