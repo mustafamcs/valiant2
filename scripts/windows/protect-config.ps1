@@ -14,7 +14,6 @@ Get-ChildItem $runtime -Recurse -File -Filter CONFIG | ForEach-Object {
 }
 $serverInfoFiles = @(
     (Join-Path $root 'assets\unpacked\data\root\serverinfo.py'),
-    (Join-Path $root 'source\client\external\projects\CRootLib\Workplace\RootLib\serverinfo.py'),
     (Join-Path $root 'source\client\external\projects\CRootLib\Workplace\__cython\root_modules\serverinfo.py')
 )
 foreach ($f in $serverInfoFiles) {

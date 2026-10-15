@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mysql2Proto", "Mysql2Proto\Mysql2Proto.vcxproj", "{DBCC99BC-1D68-4271-AC99-62EBBE37890F}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lzo", "lzo\lzo.vcxproj", "{3AE0E6E6-B750-4769-9A6E-0D47012F1B40}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lzo", "..\dump-proto\lzo\lzo.vcxproj", "{3AE0E6E6-B750-4769-9A6E-0D47012F1B40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -63,11 +63,14 @@ runtime/server/main/srv1/share/bin/db.exe
 runtime/server/main/srv1/share/bin/game.exe
 runtime/server/main/srv1/share/locale/europe/quest/qc.exe
 source/client/external/projects/CRootLib/Workplace/RootLib/cyTemp/
+source/client/external/projects/CRootLib/Workplace/RootLib/*.py
 source/client/external/projects/CUiScriptLib/Workplace/UiScriptLib/cyTemp/
+source/client/external/projects/CUiScriptLib/Workplace/UiScriptLib/*.py
 source/client/external/projects/UserInterface/ElysiumClient.exe
 source/client/external/projects/UserInterface/M2Client.exe
 source/patchserver/src/VALIANT2.exe
 source/server/source/game/game.exe
+source/server/external/include/boost/
 
 # ── Client runtime (user-generated, not source) ──────────
 runtime/client/game/metin2.cfg
@@ -103,7 +106,13 @@ runtime/server/main/srv1/auth/log/
 runtime/server/main/srv1/chan/**/data/
 runtime/server/main/srv1/chan/**/locale/
 runtime/server/main/srv1/chan/**/log/
+runtime/server/main/srv1/chan/**/mark/
 runtime/server/main/srv1/db/log/
+runtime/server/main/srv1/db/item_names.txt
+runtime/server/main/srv1/db/item_proto.txt
+runtime/server/main/srv1/db/mob_names.txt
+runtime/server/main/srv1/db/mob_proto.txt
+runtime/server/main/srv1/share/locale/europe/quest/pre_qc/
 runtime/server/main/srv1/share/locale/turkey/
 runtime/server/main/srv1/share/data/monster/bear_1/
 runtime/server/main/srv1/share/data/monster/christmas_pet1/

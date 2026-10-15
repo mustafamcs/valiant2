@@ -65,7 +65,6 @@ function Repair-AllBomFiles {
         (Join-Path $root 'runtime\patchserver\patch\patcher.json'),
         (Join-Path $root 'runtime\patchserver\patch\hashcache.json'),
         (Join-Path $root 'assets\unpacked\data\root\serverinfo.py'),
-        (Join-Path $root 'source\client\external\projects\CRootLib\Workplace\RootLib\serverinfo.py'),
         (Join-Path $root 'source\client\external\projects\CRootLib\Workplace\__cython\root_modules\serverinfo.py')
     )
     foreach ($d in (Get-ServerCoreDirs)) {

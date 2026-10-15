@@ -125,7 +125,7 @@
     <ClInclude Include="utils.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\lzo\lzo.vcxproj">
+    <ProjectReference Include="..\..\dump-proto\lzo\lzo.vcxproj">
       <Project>{3ae0e6e6-b750-4769-9a6e-0d47012f1b40}</Project>
     </ProjectReference>
   </ItemGroup>

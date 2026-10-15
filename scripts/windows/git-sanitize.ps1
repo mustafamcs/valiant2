@@ -10,7 +10,6 @@ try {
     $generated = @(
         'runtime/server/main/srv1/db/conf.txt',
         'assets/unpacked/data/root/serverinfo.py',
-        'source/client/external/projects/CRootLib/Workplace/RootLib/serverinfo.py',
         'source/client/external/projects/CRootLib/Workplace/__cython/root_modules/serverinfo.py'
     )
     foreach ($d in (Get-ServerCoreDirs)) {

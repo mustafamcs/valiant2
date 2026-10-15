@@ -68,7 +68,7 @@
     </PreBuildEvent>
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)../../libs/liblua/5.0/include;$(ProjectDir)../../libmysql/6.0.2/win32;$(ProjectDir)../../libdevil/;$(ProjectDir)../../libxtrap/include;$(ProjectDir)../../../external/include;$(ProjectDir)../../../Extern;$(ProjectDir)../../libserverkey;$(ProjectDir)../../../external/openssl/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)../../libs/liblua/5.0/include;$(ProjectDir)../../libmysql/6.0.2/win32;$(ProjectDir)../../libdevil/;$(ProjectDir)../../libxtrap/include;$(ProjectDir)../../../external/include;$(ProjectDir)../../../../client/external/include;$(ProjectDir)../../../Extern;$(ProjectDir)../../libserverkey;$(ProjectDir)../../../external/openssl/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;__WIN32__;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_USE_32BIT_TIME_T;_WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>false</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -104,7 +104,7 @@
       <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
       <Optimization>MaxSpeed</Optimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)../../libs/liblua/5.0/include;$(ProjectDir)../../libmysql/6.0.2/win32;$(ProjectDir)../../libdevil/;$(ProjectDir)../../libxtrap/include;$(ProjectDir)../../../external/include;$(ProjectDir)../../../Extern;$(ProjectDir)../../libserverkey;$(ProjectDir)../../../external/openssl/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)../../libs/liblua/5.0/include;$(ProjectDir)../../libmysql/6.0.2/win32;$(ProjectDir)../../libdevil/;$(ProjectDir)../../libxtrap/include;$(ProjectDir)../../../external/include;$(ProjectDir)../../../../client/external/include;$(ProjectDir)../../../Extern;$(ProjectDir)../../libserverkey;$(ProjectDir)../../../external/openssl/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;__WIN32__;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;_USE_32BIT_TIME_T;_WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>

@@ -45,7 +45,6 @@ foreach ($dir in $coreDirs) {
 }
 $serverInfoFiles = @(
     (Join-Path $root 'assets\unpacked\data\root\serverinfo.py'),
-    (Join-Path $root 'source\client\external\projects\CRootLib\Workplace\RootLib\serverinfo.py'),
     (Join-Path $root 'source\client\external\projects\CRootLib\Workplace\__cython\root_modules\serverinfo.py')
 )
 foreach ($file in $serverInfoFiles) {
@@ -88,6 +87,13 @@ if (-not (Test-Path $turkeyLocale)) {
     }
 }
 
+# Server boost include -> Client boost include junction (14.900+ baslik dosyasinin iki kez tutulmasini onler)
+$srvBoost = Join-Path $root 'source\server\external\include\boost'
+$cliBoost = Join-Path $root 'source\client\external\include\boost'
+if (-not (Test-Path $srvBoost) -and (Test-Path $cliBoost)) {
+    New-Item -ItemType Junction -Path $srvBoost -Target $cliBoost -ErrorAction SilentlyContinue | Out-Null
+}
+
 # share/data/monster altindaki Linux dizin symlink referans dosyalarini (orn. minidungeon_pawn -> defensewave_pawn) Junction'a cevir
 $monsterDir = Join-Path $shareData 'monster'
 if (Test-Path $monsterDir) {
@@ -123,15 +129,18 @@ foreach ($dir in $coreDirs) {
         if ($c -and $c.Trim() -match '^\.\./') { [IO.File]::WriteAllText($cmdFile, '', [Text.UTF8Encoding]::new($false)) }
     }
 
-    # CRC, VERSION, item_names.txt, item_proto.txt, mob_names.txt, mob_proto.txt: copy from share/conf if reference
+    # CRC, VERSION, item_names.txt, item_proto.txt, mob_names.txt, mob_proto.txt: copy from share/conf if reference or missing in db
     foreach ($fname in @('CRC','VERSION','item_names.txt','item_proto.txt','mob_names.txt','mob_proto.txt')) {
         $f = Join-Path $dir $fname
         if ((Test-Path $f) -and -not (Test-Path $f -PathType Container)) {
-            $c = (Get-Content $f -Raw -ErrorAction SilentlyContinue)
+            $c = if ((Get-Item $f).Length -lt 500) { Get-Content $f -Raw -ErrorAction SilentlyContinue } else { $null }
             if ($c -and $c.Trim() -match '^\.\./') {
                 $src = Join-Path $shareConf $fname
                 if (Test-Path $src) { Copy-Item $src $f -Force } else { Write-Utf8NoBom $f '' }
             }
+        } elseif ($dir -match '\\db$' -and $fname -match '\.txt$' -and -not (Test-Path $f)) {
+            $src = Join-Path $shareConf $fname
+            if (Test-Path $src) { Copy-Item $src $f -Force }
         }
     }
 

@@ -28,7 +28,7 @@ if __file__ in pys:
 pys = [checkCapName(x) for x in pys]
 
 import cythonizer
-moduleLst = cythonizer.run(pys, forceRecompile=True)
+moduleLst = cythonizer.run(pys, forceRecompile=False)
 moduleNameLst = []
 sourceFileLst = []
 

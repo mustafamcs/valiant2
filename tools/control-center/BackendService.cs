@@ -285,7 +285,6 @@ namespace Valiant2ControlCenter
                 Path.Combine(ProjectRoot, @"runtime\patchserver\patch\patcher.json"),
                 Path.Combine(ProjectRoot, @"runtime\patchserver\patch\hashcache.json"),
                 Path.Combine(ProjectRoot, @"assets\unpacked\data\root\serverinfo.py"),
-                Path.Combine(ProjectRoot, @"source\client\external\projects\CRootLib\Workplace\RootLib\serverinfo.py"),
                 Path.Combine(ProjectRoot, @"source\client\external\projects\CRootLib\Workplace\__cython\root_modules\serverinfo.py")
             };
             foreach (var t in fixedTargets) StripUtf8BomIfPresent(t);
