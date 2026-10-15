@@ -927,9 +927,9 @@ namespace Valiant2ControlCenter
             var matches = Regex.Matches(content, @"""dir""\s*:\s*""([^""]+)""\s*,\s*""file""\s*:\s*""([^""]+)""");
             foreach (Match m in matches)
             {
-                string dir = m.Groups[1].Value; // e.g. data/root
-                string fileRel = m.Groups[2].Value; // e.g. ../../runtime/client/game/pack/root.pak
-                string packName = dir.StartsWith("data/") ? dir.Substring(5) : dir;
+                string dir = m.Groups[1].Value; // e.g. data/dungeons/dmap_crystal
+                string fileRel = m.Groups[2].Value; // e.g. ../../runtime/client/game/pack/dmap_crystal.pak
+                string packName = Path.GetFileName(dir.TrimEnd('/', '\\'));
                 string fullPak = Path.GetFullPath(Path.Combine(ProjectRoot, @"assets\unpacked", fileRel.Replace('/', '\\')));
                 var fi = new FileInfo(fullPak);
                 result.Add(new PackEntryInfo

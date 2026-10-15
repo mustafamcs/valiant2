@@ -8,7 +8,7 @@ $archiver = Join-Path $assets 'FSArchiver.exe'
 $runtimePack = Join-Path $root 'runtime\client\game\pack'
 New-Item -ItemType Directory -Force -Path $runtimePack | Out-Null
 
-$normArchive = $Archive -replace '^data[/\\]', ''
+$normArchive = if ($Archive -eq 'all') { 'all' } else { Split-Path -Leaf ($Archive -replace '^data[/\\]', '') }
 
 if (-not ('FastPackChecker' -as [type])) {
     Add-Type -TypeDefinition @"
@@ -29,7 +29,7 @@ public static class FastPackChecker {
         var result = new ConcurrentBag<string>();
         Parallel.For(0, dirs.Length, i => {
             string dirRel = dirs[i];
-            string packName = dirRel.StartsWith("data/") ? dirRel.Substring(5) : dirRel;
+            string packName = Path.GetFileName(dirRel.TrimEnd('/', '\\'));
             string pakFull = Path.GetFullPath(Path.Combine(assetsDir, pakRels[i].Replace('/', '\\')));
             if (!File.Exists(pakFull)) {
                 result.Add(packName);
@@ -51,14 +51,20 @@ public static class FastPackChecker {
 
 Push-Location $assets
 try {
+    $cfgList = Get-Content (Join-Path $assets 'config.json') -Raw | ConvertFrom-Json
+    $expectedPaks = @{}
+    foreach ($c in $cfgList) {
+        $expectedPaks[(Split-Path -Leaf $c.file).ToLower()] = $true
+    }
+    Get-ChildItem $runtimePack -File -Filter '*.pak' -ErrorAction SilentlyContinue | Where-Object { -not $expectedPaks.ContainsKey($_.Name.ToLower()) } | Remove-Item -Force -ErrorAction SilentlyContinue
+
     if ($normArchive -eq 'all' -and -not $Force) {
-        $cfgList = Get-Content (Join-Path $assets 'config.json') -Raw | ConvertFrom-Json
         $dirs = [string[]]@($cfgList | ForEach-Object { $_.dir })
         $paks = [string[]]@($cfgList | ForEach-Object { $_.file })
         $toBuild = @([FastPackChecker]::FindOutdatedPacks($assets, $dirs, $paks))
 
         if ($toBuild.Count -eq 0) {
-            Write-Host "Tum 47 client pack arsivi guncel (degisen dosya yok)."
+            Write-Host "Tum $($dirs.Count) client pack arsivi guncel (degisen dosya yok)."
         } elseif ($toBuild.Count -ge 10) {
             Write-Host "Toplu pack uretimi baslatildi ($($toBuild.Count) arsiv, 32 thread)..."
             & $archiver 'config.json' 'all' > $null
