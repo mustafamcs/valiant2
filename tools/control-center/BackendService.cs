@@ -207,7 +207,7 @@ namespace Valiant2ControlCenter
                         using (var client = new TcpClient())
                         {
                             var ar = client.BeginConnect(testIp, p, null, null);
-                            if (ar.AsyncWaitHandle.WaitOne(450)) return true;
+                            if (ar.AsyncWaitHandle.WaitOne(1200) && client.Connected) return true;
                         }
                     }
                     catch { }
@@ -222,8 +222,16 @@ namespace Valiant2ControlCenter
                 using (var client = new TcpClient())
                 {
                     var ar = client.BeginConnect(testIp, 30001, null, null);
-                    bool ok = ar.AsyncWaitHandle.WaitOne(450);
-                    return ok && listener.Pending();
+                    bool ok = ar.AsyncWaitHandle.WaitOne(1200);
+                    if (ok)
+                    {
+                        for (int w = 0; w < 10; w++)
+                        {
+                            if (client.Connected || listener.Pending()) return true;
+                            Thread.Sleep(20);
+                        }
+                    }
+                    return false;
                 }
             }
             catch { return false; }
@@ -339,10 +347,20 @@ namespace Valiant2ControlCenter
                 }
                 var env = LoadEnv();
                 bool changed = false;
-                if (!env.ContainsKey("PATCH_ROOT") || !string.Equals(env["PATCH_ROOT"], expectedPatchRoot, StringComparison.OrdinalIgnoreCase))
+                var expectedPaths = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
                 {
-                    env["PATCH_ROOT"] = expectedPatchRoot;
-                    changed = true;
+                    { "PROJECT_ROOT", ProjectRoot },
+                    { "PATCH_ROOT", expectedPatchRoot },
+                    { "NGINX_DIR", Path.Combine(ProjectRoot, @"runtime\dependencies\nginx") },
+                    { "MARIADB_DIR", Path.Combine(ProjectRoot, @"runtime\dependencies\mariadb") }
+                };
+                foreach (var kv in expectedPaths)
+                {
+                    if (!env.ContainsKey(kv.Key) || !string.Equals(env[kv.Key], kv.Value, StringComparison.OrdinalIgnoreCase))
+                    {
+                        env[kv.Key] = kv.Value;
+                        changed = true;
+                    }
                 }
                 string curIp = env.ContainsKey("PUBLIC_IP") ? env["PUBLIC_IP"] : "";
                 if (!IsIpReachableOnThisMachine(curIp))
@@ -455,6 +473,7 @@ namespace Valiant2ControlCenter
         {
             var orderedKeys = new[]
             {
+                "PROJECT_ROOT",
                 "MYSQL_HOST", "MYSQL_PORT", "MYSQL_USER", "MYSQL_PASSWORD",
                 "MYSQL_ACCOUNT_DATABASE", "MYSQL_COMMON_DATABASE", "MYSQL_LOG_DATABASE", "MYSQL_PLAYER_DATABASE",
                 "SERVER_DB_HOST", "SERVER_DB_PORT",
@@ -462,7 +481,8 @@ namespace Valiant2ControlCenter
                 "CLIENT_SERVER_NAME", "CLIENT_SERVER_IP",
                 "MARIADB_SERVICE", "MARIADB_ROOT_PASSWORD",
                 "PANEL_DB_DATABASE", "PANEL_DB_USER", "PANEL_DB_PASSWORD",
-                "PANEL_P2P_CHANNEL_PORTS", "PUBLIC_IP", "PANEL_BASE_URL", "PATCH_ROOT"
+                "PANEL_P2P_CHANNEL_PORTS", "PUBLIC_IP", "PANEL_BASE_URL", "PATCH_ROOT",
+                "NGINX_DIR", "MARIADB_DIR"
             };
 
             var sb = new StringBuilder();
@@ -517,7 +537,10 @@ namespace Valiant2ControlCenter
                 { "PANEL_P2P_CHANNEL_PORTS", getOr("PANEL_P2P_CHANNEL_PORTS", "30003,30005,30007,30009,30051") },
                 { "PUBLIC_IP", detectedIp },
                 { "PANEL_BASE_URL", "https://" + detectedIp + "/" },
-                { "PATCH_ROOT", Path.Combine(ProjectRoot, @"runtime\patchserver") }
+                { "PROJECT_ROOT", ProjectRoot },
+                { "PATCH_ROOT", Path.Combine(ProjectRoot, @"runtime\patchserver") },
+                { "NGINX_DIR", Path.Combine(ProjectRoot, @"runtime\dependencies\nginx") },
+                { "MARIADB_DIR", Path.Combine(ProjectRoot, @"runtime\dependencies\mariadb") }
             };
             return d;
         }

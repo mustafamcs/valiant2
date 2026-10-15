@@ -118,7 +118,7 @@ public:
 
 	int GetOneIndex() const
 	{
-		int n = number(1, m_vecProbs.back());
+		int n = static_cast<int>(number(1, m_vecProbs.back()));
 		itertype(m_vecProbs) it = lower_bound(m_vecProbs.begin(), m_vecProbs.end(), n);
 		return std::distance(m_vecProbs.begin(), it);
 	}

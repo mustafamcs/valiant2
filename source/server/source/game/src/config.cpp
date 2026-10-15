@@ -122,7 +122,7 @@ int g_clientVersion[2] = { 0, };
 
 bool is_string_true(const char* string)
 {
-	bool	result = 0;
+	int	result = 0;
 	if (isnhdigit(*string))
 	{
 		str_to_number(result, string);

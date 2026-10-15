@@ -53,6 +53,8 @@ source/server/source/libs/libsql/*.lib
 source/server/source/libs/libthecore/lib/*.lib
 
 # ── Build output binaries (compiled by build-all) ────────
+VALIANT2-ControlCenter.exe
+VALIANT2-ControlCenter.new.exe
 runtime/client/VALIANT2.exe
 runtime/client/game/bin/M2Client.exe
 runtime/client/game/bin/config.exe
@@ -60,6 +62,12 @@ runtime/client/game/pack/
 runtime/server/main/srv1/share/bin/db.exe
 runtime/server/main/srv1/share/bin/game.exe
 runtime/server/main/srv1/share/locale/europe/quest/qc.exe
+source/client/external/projects/CRootLib/Workplace/RootLib/cyTemp/
+source/client/external/projects/CUiScriptLib/Workplace/UiScriptLib/cyTemp/
+source/client/external/projects/UserInterface/ElysiumClient.exe
+source/client/external/projects/UserInterface/M2Client.exe
+source/patchserver/src/VALIANT2.exe
+source/server/source/game/game.exe
 
 # ── Client runtime (user-generated, not source) ──────────
 runtime/client/game/metin2.cfg
@@ -97,6 +105,42 @@ runtime/server/main/srv1/chan/**/locale/
 runtime/server/main/srv1/chan/**/log/
 runtime/server/main/srv1/db/log/
 runtime/server/main/srv1/share/locale/turkey/
+runtime/server/main/srv1/share/data/monster/bear_1/
+runtime/server/main/srv1/share/data/monster/christmas_pet1/
+runtime/server/main/srv1/share/data/monster/christmas_pet2/
+runtime/server/main/srv1/share/data/monster/dog_young2/
+runtime/server/main/srv1/share/data/monster/easter_2020_cow/
+runtime/server/main/srv1/share/data/monster/fire_knight1/
+runtime/server/main/srv1/share/data/monster/fire_tiger_boss1/
+runtime/server/main/srv1/share/data/monster/halloween_2017_volcano_beast/
+runtime/server/main/srv1/share/data/monster/halloween_2018_cerberos/
+runtime/server/main/srv1/share/data/monster/halloween_2019_bat/
+runtime/server/main/srv1/share/data/monster/ice_snow_giant_man1/
+runtime/server/main/srv1/share/data/monster/ice_snow_giant_man2/
+runtime/server/main/srv1/share/data/monster/ice_snow_golem1/
+runtime/server/main/srv1/share/data/monster/ice_snow_golem2/
+runtime/server/main/srv1/share/data/monster/ice_snow_insect1/
+runtime/server/main/srv1/share/data/monster/ice_snow_insect2/
+runtime/server/main/srv1/share/data/monster/ice_snow_man1/
+runtime/server/main/srv1/share/data/monster/ice_snow_man2/
+runtime/server/main/srv1/share/data/monster/ice_snow_monster1/
+runtime/server/main/srv1/share/data/monster/lion_young2/
+runtime/server/main/srv1/share/data/monster/metinstone_09/
+runtime/server/main/srv1/share/data/monster/metinstone_11/
+runtime/server/main/srv1/share/data/monster/metinstone_17/
+runtime/server/main/srv1/share/data/monster/metinstone_egg02/
+runtime/server/main/srv1/share/data/monster/minidungeon_pawn/
+runtime/server/main/srv1/share/data/monster/pig_young2/
+runtime/server/main/srv1/share/data/monster/ramadan_2020_sphinx/
+runtime/server/main/srv1/share/data/monster/reddragon_fly/
+runtime/server/main/srv1/share/data/monster/reddragon_human_boss/
+runtime/server/main/srv1/share/data/monster/scorpion_stone1/
+runtime/server/main/srv1/share/data/monster/ten_warrior_monster/
+runtime/server/main/srv1/share/data/monster/tiger_young2/
+runtime/server/main/srv1/share/data/monster/trent_magic2/
+runtime/server/main/srv1/share/data/monster/zombie_god_stone/
+runtime/server/main/srv1/share/data/monster/zombie_key_stone/
+runtime/server/main/srv1/share/data/monster/zombie_security_stone/
 
 # ── Downloaded dependencies (setup.ps1 installs these) ───
 runtime/dependencies/

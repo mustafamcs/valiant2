@@ -73,7 +73,7 @@ public:
 			return 0;
 
 		// ADD_MOB_GROUP_GROUP_PROB
-		int n = number(1, m_vec_iProbs.back());
+		int n = static_cast<int>(number(1, m_vec_iProbs.back()));
 		itertype(m_vec_iProbs) it = lower_bound(m_vec_iProbs.begin(), m_vec_iProbs.end(), n);
 
 		return m_vec_dwMemberVnum[std::distance(m_vec_iProbs.begin(), it)];

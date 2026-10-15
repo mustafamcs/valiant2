@@ -197,6 +197,7 @@ public class PatcherForm : Form {
     }
 
     async Task Run() {
+        if (updating) return;
         updating = true;
         await SelfUpdate();
         if (!IsDisposed == false) return;

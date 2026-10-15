@@ -959,7 +959,7 @@ struct FuncSplashDamage
 		m_pkSk->SetPointVar("chain", m_pkChr->GetChainLightningIndex());
 		m_pkChr->IncChainLightningIndex();
 
-		bool bUnderEunhyung = m_pkChr->GetAffectedEunhyung() > 0;
+		bool bUnderEunhyung = m_pkChr->GetAffectedEunhyung();
 
 		m_pkSk->SetPointVar("ek", m_pkChr->GetAffectedEunhyung() * 1. / 100);
 		//m_pkChr->ClearAffectedEunhyung();

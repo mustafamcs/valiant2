@@ -25,7 +25,13 @@ for dirpath, _dirs, filenames in os.walk(root):
                     or content.startswith('./')):
                 continue
             if content.startswith('C:/'):
-                target_abs = content.replace('/', os.sep)
+                marker = '/assets/unpacked/data/'
+                norm_c = content.replace('\\', '/')
+                if marker in norm_c:
+                    rel_part = norm_c.split(marker, 1)[1]
+                    target_abs = os.path.normpath(os.path.join(root, rel_part.replace('/', os.sep)))
+                else:
+                    target_abs = content.replace('/', os.sep)
             else:
                 target_abs = os.path.normpath(os.path.join(dirpath, content))
             if os.path.isfile(target_abs) and os.path.getsize(target_abs) > 10:

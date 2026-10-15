@@ -9,6 +9,10 @@ $root = $script:ProjectRoot
 $panel = Join-Path $root 'web\adminpanel'
 $patchRoot = Get-PatchRoot $settings
 
+Ensure-PanelWritableDirs
+Ensure-PhpConfigured
+Ensure-ValidSslCertificate $settings
+
 # --- PHP panel worker'lari (nginx upstream: 8090,8092,8093,8094) ---
 $php = Get-PhpExe
 $listeningPorts = @([Net.NetworkInformation.IPGlobalProperties]::GetIPGlobalProperties().GetActiveTcpListeners() | ForEach-Object { $_.Port })
@@ -53,9 +57,9 @@ if (-not $watcher) {
     Start-Process -FilePath $pythonw -ArgumentList ('"{0}"' -f (Join-Path $patchRoot 'patch_watch.py')) -WorkingDirectory $patchRoot -WindowStyle Hidden
 }
 
-for ($i = 0; $i -lt 40; $i++) {
+for ($i = 0; $i -lt 60; $i++) {
     $curPorts = @([Net.NetworkInformation.IPGlobalProperties]::GetIPGlobalProperties().GetActiveTcpListeners() | ForEach-Object { $_.Port })
-    if (($curPorts -contains 8090) -and ($curPorts -contains 8091)) { break }
+    if (($curPorts -contains 8090) -and ($curPorts -contains 8092) -and ($curPorts -contains 8093) -and ($curPorts -contains 8094) -and ($curPorts -contains 8091) -and ($curPorts -contains 443)) { break }
     Start-Sleep -Milliseconds 50
 }
 

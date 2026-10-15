@@ -6,9 +6,10 @@ param(
 )
 $ErrorActionPreference = 'Stop'
 $root = (Resolve-Path (Join-Path $PSScriptRoot '..\..')).Path
+. (Join-Path $PSScriptRoot 'common.ps1')
 $clientHeader = Join-Path $root 'source\client\source\Controls.h'
 $serverHeader = Join-Path $root 'source\server\source\common\Controls.h'
-$msbuild = 'C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\MSBuild.exe'
+$msbuild = Get-MsBuildExe
 $featurePattern = '^\s*#define\s+((?:ENABLE|WJ|USE)_[A-Za-z0-9_]+|__[A-Za-z0-9_]+__)\b'
 function Get-Flags([string]$path) {
     $regex = [regex]::new($featurePattern)

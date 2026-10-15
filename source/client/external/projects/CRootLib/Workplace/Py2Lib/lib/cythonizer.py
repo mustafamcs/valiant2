@@ -39,7 +39,13 @@ def run(pys, nthread = 0, outdir = "", tempdir="cyTemp", forceRecompile = False,
 			except:
 				pass
 
-		if not forceRecompile and not isChanged:
+		cFileName = os.path.splitext(tempfileName)[0] + ".c"
+		if not forceRecompile and not isChanged and os.path.exists(cFileName):
+			class _CachedMod(object):
+				def __init__(self, s):
+					self.sources = [s]
+					self.language = "c"
+			moduleLst.append(_CachedMod(tempfileName.replace("\\", "/")))
 			continue
 
 		f = open(tempfileName, "w")

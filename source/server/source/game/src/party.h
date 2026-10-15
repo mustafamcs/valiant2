@@ -462,7 +462,7 @@ struct FPartyDropDiceRoll
 
 		while (true)
 		{
-			int pickedNumber = number(10000, 99999);
+			int pickedNumber = static_cast<int>(number(10000, 99999));
 			if (pickedNumber > m_lastNumber)
 			{
 				m_lastNumber = pickedNumber;

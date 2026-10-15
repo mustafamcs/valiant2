@@ -91,6 +91,7 @@
       </PrecompiledHeader>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
       <WarningLevel>Level3</WarningLevel>
+      <DisableSpecificWarnings>4244;4267;4805;4018;4996;4005;4305;4309;4101;4477;4146;4804;4068;4065;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <CompileAs>CompileAsCpp</CompileAs>
     </ClCompile>

@@ -12,4 +12,18 @@ Get-ChildItem $runtime -Recurse -File -Filter CONFIG | ForEach-Object {
     $text = $text -replace '(?m)^ADMINPAGE_PASSWORD:.*$', 'ADMINPAGE_PASSWORD: __FROM_ENV__'
     [IO.File]::WriteAllText($_.FullName, $text, [Text.UTF8Encoding]::new($false))
 }
+$serverInfoFiles = @(
+    (Join-Path $root 'assets\unpacked\data\root\serverinfo.py'),
+    (Join-Path $root 'source\client\external\projects\CRootLib\Workplace\RootLib\serverinfo.py'),
+    (Join-Path $root 'source\client\external\projects\CRootLib\Workplace\__cython\root_modules\serverinfo.py')
+)
+foreach ($f in $serverInfoFiles) {
+    if (Test-Path $f) {
+        $txt = [IO.File]::ReadAllText($f, [Text.Encoding]::UTF8)
+        $txt = $txt -replace '(?m)^SERVER_NAME\s*=.*$', 'SERVER_NAME = "__FROM_ENV__"'
+        $txt = $txt -replace '(?m)^SERVER_IP\s*=.*$', 'SERVER_IP = "__FROM_ENV__"'
+        $txt = $txt -replace '(?m)^SERVER_IP_2\s*=.*$', 'SERVER_IP_2 = "127.0.0.1"'
+        [IO.File]::WriteAllText($f, $txt, [Text.UTF8Encoding]::new($false))
+    }
+}
 Write-Host 'Generated runtime credentials removed.'

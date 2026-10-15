@@ -1157,8 +1157,12 @@ bool SECTREE_MANAGER::ForAttrRegionRightAngle(long lMapIndex, long lCX, long lCY
 	return mode == ATTR_REGION_MODE_CHECK ? false : true;
 }
 
+#ifndef min
 #define min( l, r )	((l) < (r) ? (l) : (r))
+#endif
+#ifndef max
 #define max( l, r )	((l) < (r) ? (r) : (l))
+#endif
 
 bool SECTREE_MANAGER::ForAttrRegionFreeAngle(long lMapIndex, long lCX, long lCY, long lCW, long lCH, long lRotate, DWORD dwAttr, EAttrRegionMode mode)
 {

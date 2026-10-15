@@ -4950,10 +4950,10 @@ ACMD(do_hwidban)
 
 		while ((row = mysql_fetch_row(msg5->Get()->pSQLResult)))
 		{
-			DWORD pid;
+			DWORD pid = 0;
+			str_to_number(pid, row[0]);
 			if (pid == ch->GetPlayerID())
 				continue;
-			str_to_number(pid, row[0]);
 			v_playerList.push_back(pid);
 		}
 	}

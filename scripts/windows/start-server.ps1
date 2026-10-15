@@ -22,7 +22,7 @@ $stateDir = Join-Path $root 'runtime\server\.state'
 New-Item -ItemType Directory -Force -Path $stateDir | Out-Null
 
 # Eskiden kalma sunucu sureclerini temizle
-Get-Process -Name 'game','db' -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
+Stop-ServerProcesses
 
 # 1) Once db.exe'yi baslat ve 30000 portunu 40ms araliklarla bekle (tipik ~300ms)
 $dbEntry = @{ Name = 'valiant-db'; File = (Join-Path $bin 'db.exe'); WorkingDirectory = (Join-Path $serverRoot 'db'); Port = 30000 }

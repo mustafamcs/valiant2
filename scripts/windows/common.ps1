@@ -51,7 +51,7 @@ function Get-ServerCoreDirs {
             Get-ChildItem $_.FullName -Directory -Filter 'core*' -ErrorAction SilentlyContinue | Select-Object -ExpandProperty FullName
         }
     }
-    return ,$dirs
+    return $dirs
 }
 
 function Repair-AllBomFiles {
@@ -95,15 +95,19 @@ function Get-LocalAdapterIps {
                 ForEach-Object { $_.IPAddressToString })
         } catch {}
     }
-    return ,$ips
+    return $ips
 }
 
 function Get-ExternalWanIp {
+    if ($script:CachedWanIp) { return $script:CachedWanIp }
     [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
     foreach ($svc in 'https://api.ipify.org','https://ifconfig.me/ip','https://icanhazip.com') {
         try {
             $ip = (Invoke-WebRequest $svc -UseBasicParsing -TimeoutSec 3).Content.Trim()
-            if ($ip -match '^\d{1,3}(\.\d{1,3}){3}$') { return $ip }
+            if ($ip -match '^\d{1,3}(\.\d{1,3}){3}$') {
+                $script:CachedWanIp = $ip
+                return $ip
+            }
         } catch {}
     }
     return $null
@@ -113,7 +117,7 @@ function Test-IpReachableOnThisMachine {
     param([string]$TestIp)
     if ([string]::IsNullOrWhiteSpace($TestIp)) { return $false }
     if ($TestIp -eq '127.0.0.1') { return $true }
-    $localIps = @(Get-LocalAdapterIps)
+    $localIps = @(Get-LocalAdapterIps | ForEach-Object { [string]$_ })
     if ($localIps -contains $TestIp) { return $true }
 
     $extIp = Get-ExternalWanIp
@@ -125,9 +129,10 @@ function Test-IpReachableOnThisMachine {
             try {
                 $client = New-Object Net.Sockets.TcpClient
                 $ar = $client.BeginConnect($TestIp, $p, $null, $null)
-                $ok = $ar.AsyncWaitHandle.WaitOne(500)
+                $ok = $ar.AsyncWaitHandle.WaitOne(1500)
+                $connected = $ok -and $client.Connected
                 $client.Close()
-                if ($ok) { return $true }
+                if ($connected) { return $true }
             } catch {}
         }
     }
@@ -138,8 +143,14 @@ function Test-IpReachableOnThisMachine {
         $listener.Start()
         $client = New-Object Net.Sockets.TcpClient
         $ar = $client.BeginConnect($TestIp, 30001, $null, $null)
-        $ok = $ar.AsyncWaitHandle.WaitOne(500)
-        $hit = $ok -and $listener.Pending()
+        $ok = $ar.AsyncWaitHandle.WaitOne(1500)
+        $hit = $false
+        if ($ok) {
+            for ($w = 0; $w -lt 10; $w++) {
+                if ($client.Connected -or $listener.Pending()) { $hit = $true; break }
+                Start-Sleep -Milliseconds 20
+            }
+        }
         $client.Close()
         return [bool]$hit
     } catch {
@@ -150,7 +161,7 @@ function Test-IpReachableOnThisMachine {
 }
 
 function Resolve-SmartMachineIp {
-    $localIps = @(Get-LocalAdapterIps)
+    $localIps = @(Get-LocalAdapterIps | ForEach-Object { [string]$_ })
     $extIp = Get-ExternalWanIp
     if ($extIp) {
         if ($localIps -contains $extIp) { return [string]$extIp }
@@ -166,12 +177,16 @@ function Ensure-ValidEnvForMachine {
     param([switch]$ForceRefreshIp)
     Repair-AllBomFiles
     $envFile = Join-Path $script:ProjectRoot '.env'
+    $expectedProjectRoot = $script:ProjectRoot
     $expectedPatchRoot = Join-Path $script:ProjectRoot 'runtime\patchserver'
+    $expectedNginxDir = Join-Path $script:ProjectRoot 'runtime\dependencies\nginx'
+    $expectedMariaDir = Join-Path $script:ProjectRoot 'runtime\dependencies\mariadb'
     $guid = { [guid]::NewGuid().ToString('N') }
 
     if (-not (Test-Path $envFile)) {
         $smartIp = Resolve-SmartMachineIp
         $envText = @"
+PROJECT_ROOT=$expectedProjectRoot
 MYSQL_HOST=127.0.0.1
 MYSQL_PORT=3306
 MYSQL_USER=valiant2
@@ -195,6 +210,8 @@ PANEL_P2P_CHANNEL_PORTS=30003,30005,30007,30009,30051
 PUBLIC_IP=$smartIp
 PANEL_BASE_URL=https://$smartIp/
 PATCH_ROOT=$expectedPatchRoot
+NGINX_DIR=$expectedNginxDir
+MARIADB_DIR=$expectedMariaDir
 "@
         Write-Utf8NoBom $envFile $envText
         Write-Host ".env otomatik olusturuldu (Algilanan IP: $smartIp)."
@@ -203,9 +220,16 @@ PATCH_ROOT=$expectedPatchRoot
     $s = Get-EnvSettings
     $changed = $false
 
-    if ($s['PATCH_ROOT'] -ne $expectedPatchRoot) {
-        $s['PATCH_ROOT'] = $expectedPatchRoot
-        $changed = $true
+    foreach ($pair in @(
+        @{ Key = 'PROJECT_ROOT'; Val = $expectedProjectRoot },
+        @{ Key = 'PATCH_ROOT';   Val = $expectedPatchRoot },
+        @{ Key = 'NGINX_DIR';    Val = $expectedNginxDir },
+        @{ Key = 'MARIADB_DIR';  Val = $expectedMariaDir }
+    )) {
+        if ($s[$pair.Key] -ne $pair.Val) {
+            $s[$pair.Key] = $pair.Val
+            $changed = $true
+        }
     }
 
     $curIp = $s['PUBLIC_IP']
@@ -400,4 +424,329 @@ function Get-NginxExe {
     $cmd = Get-Command nginx.exe -ErrorAction SilentlyContinue
     if ($cmd) { return $cmd.Source }
     return $null
+}
+
+function Get-MsBuildExe {
+    $vswhere = Join-Path ${env:ProgramFiles(x86)} 'Microsoft Visual Studio\Installer\vswhere.exe'
+    if (Test-Path $vswhere) {
+        $msb = & $vswhere -latest -products * -requires Microsoft.Component.MSBuild -find 'MSBuild\**\Bin\MSBuild.exe' 2>$null | Select-Object -First 1
+        if ($msb -and (Test-Path $msb)) { return $msb }
+    }
+    $cmd = Get-Command MSBuild.exe -ErrorAction SilentlyContinue
+    if ($cmd) { return $cmd.Source }
+    throw 'MSBuild.exe bulunamadi (Visual Studio 2022 Build Tools gerekli).'
+}
+
+function Get-CscExe {
+    $fw64 = Join-Path $env:WINDIR 'Microsoft.NET\Framework64\v4.0.30319\csc.exe'
+    if (Test-Path $fw64) { return $fw64 }
+    $rtDir = [System.Runtime.InteropServices.RuntimeEnvironment]::GetRuntimeDirectory()
+    $rtCsc = Join-Path $rtDir 'csc.exe'
+    if (Test-Path $rtCsc) { return $rtCsc }
+    throw 'csc.exe (.NET Framework 4) bulunamadi.'
+}
+
+function Ensure-PanelWritableDirs {
+    $writable = Join-Path $script:ProjectRoot 'web\adminpanel\writable'
+    foreach ($sub in 'cache','logs','session','uploads','debugbar') {
+        $p = Join-Path $writable $sub
+        if (-not (Test-Path $p)) {
+            New-Item -ItemType Directory -Force -Path $p | Out-Null
+        }
+    }
+}
+
+function Ensure-PhpConfigured {
+    $phpExe = $null
+    try { $phpExe = Get-PhpExe } catch { return }
+    if (-not $phpExe) { return }
+    $phpDir = Split-Path $phpExe
+    $phpIni = Join-Path $phpDir 'php.ini'
+    if (-not (Test-Path $phpIni)) {
+        $prod = Join-Path $phpDir 'php.ini-production'
+        if (Test-Path $prod) { Copy-Item $prod $phpIni }
+    }
+    if (Test-Path $phpIni) {
+        $content = Read-TextStripBom $phpIni
+        $orig = $content
+        $extDir = (Join-Path $phpDir 'ext') -replace '\\','/'
+        $content = $content -replace ';\s*extension_dir\s*=\s*"ext"', "extension_dir = `"$extDir`""
+        # Yorum orneklerindeki (;   extension=mysqli) yanlislikla acilmissa kapat
+        $content = $content -replace '(?m)^extension=mysqli(\r?\n;\s*extension=/path/to/extension/mysqli\.so)', ';   extension=mysqli$1'
+        foreach ($ext in 'curl','intl','mbstring','openssl','pdo_mysql','mysqli','gd','fileinfo') {
+            $content = $content -replace "(?m)^;extension=$ext\b", "extension=$ext"
+        }
+        if ($content -ne $orig) {
+            Write-Utf8NoBom $phpIni $content
+        }
+    }
+}
+
+function Ensure-NginxConfig {
+    $nginxDir = Get-NginxDir
+    $confDir = Join-Path $nginxDir 'conf'
+    if (-not (Test-Path $confDir)) { return }
+    $certDir = Join-Path $nginxDir 'certs'
+    New-Item -ItemType Directory -Force -Path $certDir, (Join-Path $nginxDir 'html\.well-known\acme-challenge') | Out-Null
+    $certF = (Join-Path $certDir 'cert.pem') -replace '\\','/'
+    $keyF  = (Join-Path $certDir 'key.pem') -replace '\\','/'
+    $nginxConf = @"
+worker_processes  auto;
+
+events {
+    worker_connections  8192;
+}
+
+http {
+    include       mime.types;
+    default_type  application/octet-stream;
+    sendfile        on;
+    server_tokens   off;
+
+    limit_req_zone `$binary_remote_addr zone=panel:10m rate=50r/s;
+
+    upstream panel_backend {
+        server 127.0.0.1:8090;
+        server 127.0.0.1:8092;
+        server 127.0.0.1:8093;
+        server 127.0.0.1:8094;
+    }
+
+    server {
+        listen 80;
+        server_name _;
+
+        location ^~ /.well-known/acme-challenge/ {
+            root html;
+            default_type "text/plain";
+        }
+
+        location / {
+            return 301 https://`$host`$request_uri;
+        }
+    }
+
+    server {
+        listen 443 ssl;
+        server_name _;
+
+        ssl_certificate     $certF;
+        ssl_certificate_key $keyF;
+        ssl_protocols       TLSv1.2 TLSv1.3;
+
+        limit_req zone=panel burst=100 nodelay;
+
+        location ^~ /.well-known/acme-challenge/ {
+            root html;
+            default_type "text/plain";
+        }
+
+        location /patcher/ {
+            proxy_pass http://127.0.0.1:8091;
+            proxy_set_header Host `$host;
+            proxy_read_timeout 600s;
+        }
+
+        location /update/ {
+            proxy_pass http://127.0.0.1:8091;
+            proxy_set_header Host `$host;
+            proxy_read_timeout 600s;
+            proxy_buffering off;
+        }
+
+        location / {
+            proxy_pass http://panel_backend;
+            proxy_set_header Host `$host;
+            proxy_set_header X-Real-IP `$remote_addr;
+            proxy_set_header X-Forwarded-For `$proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto https;
+            proxy_read_timeout 60s;
+        }
+    }
+}
+"@
+    $confPath = Join-Path $confDir 'nginx.conf'
+    $oldConf = Read-TextStripBom $confPath
+    if ($oldConf.Trim() -ne $nginxConf.Trim()) {
+        Write-Utf8NoBom $confPath $nginxConf
+    }
+}
+
+function Trust-CertificateOnWindows {
+    param([string]$CertPemPath)
+    if (-not (Test-Path $CertPemPath)) { return }
+    try {
+        $cert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2($CertPemPath)
+        foreach ($loc in @([System.Security.Cryptography.X509Certificates.StoreLocation]::LocalMachine, [System.Security.Cryptography.X509Certificates.StoreLocation]::CurrentUser)) {
+            try {
+                $store = New-Object System.Security.Cryptography.X509Certificates.X509Store([System.Security.Cryptography.X509Certificates.StoreName]::Root, $loc)
+                $store.Open([System.Security.Cryptography.X509Certificates.OpenFlags]::ReadWrite)
+                $existing = $store.Certificates.Find([System.Security.Cryptography.X509Certificates.X509FindType]::FindByThumbprint, $cert.Thumbprint, $false)
+                if ($existing.Count -eq 0) {
+                    $store.Add($cert)
+                }
+                $store.Close()
+                break
+            } catch {}
+        }
+    } catch {}
+}
+
+function Reload-NginxIfRunning {
+    $nginxExe = Get-NginxExe
+    if (-not $nginxExe -or -not (Get-Process nginx -ErrorAction SilentlyContinue)) { return }
+    $nginxDir = Get-NginxDir
+    & $nginxExe -s reload -p $nginxDir 2>$null
+    if ($LASTEXITCODE -ne 0) {
+        try {
+            Start-Process -FilePath $nginxExe -ArgumentList @('-s','reload','-p',$nginxDir) -Verb RunAs -WindowStyle Hidden -Wait -ErrorAction SilentlyContinue
+        } catch {}
+    }
+}
+
+function Stop-ServerProcesses {
+    Get-Process -Name 'game','db' -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
+    if (Get-Process -Name 'game','db' -ErrorAction SilentlyContinue) {
+        try {
+            Start-Process -FilePath 'taskkill.exe' -ArgumentList '/F /IM game.exe /IM db.exe' -Verb RunAs -WindowStyle Hidden -Wait -ErrorAction SilentlyContinue
+        } catch {}
+    }
+}
+
+function Ensure-ValidSslCertificate {
+    param($Settings, [switch]$ForceRenew)
+    if (-not $Settings) { $Settings = Ensure-ValidEnvForMachine }
+    $nginxDir = Get-NginxDir
+    $certDir = Join-Path $nginxDir 'certs'
+    New-Item -ItemType Directory -Force -Path $certDir | Out-Null
+    $certPem = Join-Path $certDir 'cert.pem'
+    $keyPem  = Join-Path $certDir 'key.pem'
+    $cn = if ($Settings['PUBLIC_IP']) { $Settings['PUBLIC_IP'] } else { '127.0.0.1' }
+    $isPublicIp = ($cn -match '^\d{1,3}(\.\d{1,3}){3}$') -and ($cn -notmatch '^(127\.|10\.|192\.168\.|169\.254\.|172\.(1[6-9]|2\d|3[01])\.)')
+
+    $needsCert = $ForceRenew -or (-not (Test-Path $certPem)) -or (-not (Test-Path $keyPem))
+    if (-not $needsCert) {
+        try {
+            $cert = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2($certPem)
+            if ($cert.NotAfter -lt (Get-Date).AddDays(2)) {
+                $needsCert = $true
+            } else {
+                $sanMatch = ($cert.Subject -match [regex]::Escape($cn))
+                foreach ($ext in $cert.Extensions) {
+                    if ($ext.Oid.Value -eq '2.5.29.17') {
+                        $sanText = $ext.Format($false)
+                        if ($sanText -match [regex]::Escape($cn)) { $sanMatch = $true }
+                    }
+                }
+                if (-not $sanMatch) {
+                    $needsCert = $true
+                } elseif ($isPublicIp -and ($cert.Issuer -eq $cert.Subject)) {
+                    # Public IP icin self-signed kalmissa Let's Encrypt sertifikasina yukselt
+                    $needsCert = $true
+                }
+            }
+        } catch {
+            $needsCert = $true
+        }
+    }
+
+    if (-not $needsCert) {
+        Ensure-NginxConfig
+        return
+    }
+
+    $legoStore = Join-Path $certDir 'lego'
+    $legoCert = Join-Path $legoStore "certificates\$cn.crt"
+    $legoKey  = Join-Path $legoStore "certificates\$cn.key"
+
+    # Eger lego icinde bu IP icin zaten gecerli sertifika varsa ve ForceRenew degilse dogrudan kopyala
+    if (-not $ForceRenew -and (Test-Path $legoCert) -and (Test-Path $legoKey)) {
+        try {
+            $lc = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2($legoCert)
+            if ($lc.NotAfter -gt (Get-Date).AddDays(2)) {
+                Copy-Item $legoCert $certPem -Force
+                Copy-Item $legoKey  $keyPem  -Force
+                Ensure-NginxConfig
+                Reload-NginxIfRunning
+                return
+            }
+        } catch {}
+    }
+
+    $obtainedLe = $false
+    if ($isPublicIp) {
+        $legoDir = Join-Path $script:ProjectRoot 'runtime\dependencies\lego'
+        $legoExe = Join-Path $legoDir 'lego.exe'
+        if (-not (Test-Path $legoExe)) {
+            try {
+                $legoVer = '5.3.1'
+                $legoZip = Join-Path $env:TEMP 'lego.zip'
+                $legoUrl = "https://github.com/go-acme/lego/releases/download/v${legoVer}/lego_v${legoVer}_windows_amd64.zip"
+                Write-Host "lego indiriliyor ($legoVer)..."
+                Invoke-WebRequest $legoUrl -OutFile $legoZip -UseBasicParsing
+                New-Item -ItemType Directory -Force -Path $legoDir | Out-Null
+                Expand-Archive $legoZip -DestinationPath $legoDir -Force
+                Remove-Item $legoZip -ErrorAction SilentlyContinue
+            } catch {}
+        }
+        if (Test-Path $legoExe) {
+            Ensure-NginxConfig
+            Reload-NginxIfRunning
+            $listening80 = @([Net.NetworkInformation.IPGlobalProperties]::GetIPGlobalProperties().GetActiveTcpListeners() | ForEach-Object { $_.Port }) -contains 80
+            Write-Host "Let's Encrypt IP sertifikasi aliniyor ($cn)..."
+            $extraArgs = if ($ForceRenew -and (Test-Path $legoCert)) { @('--renew-force') } else { @() }
+            if ($listening80) {
+                # Once nginx html webroot, olmazsa panel webroot dene (nginx durdurmadan!)
+                $htmlWebroot = Join-Path $nginxDir 'html'
+                $panelWebroot = Join-Path $script:ProjectRoot 'web\adminpanel'
+                & $legoExe run --email="admin@valiant2.com" --accept-tos --http --http.webroot="$htmlWebroot" --domains="$cn" --path="$legoStore" --profile="shortlived" @extraArgs
+                if ($LASTEXITCODE -ne 0) {
+                    & $legoExe run --email="admin@valiant2.com" --accept-tos --http --http.webroot="$panelWebroot" --domains="$cn" --path="$legoStore" --profile="shortlived" @extraArgs
+                }
+                Remove-Item (Join-Path $panelWebroot '.well-known') -Recurse -Force -ErrorAction SilentlyContinue
+            } else {
+                & $legoExe run --email="admin@valiant2.com" --accept-tos --http --http.address=":80" --domains="$cn" --path="$legoStore" --profile="shortlived" @extraArgs
+            }
+            if ($LASTEXITCODE -eq 0 -and (Test-Path $legoCert) -and (Test-Path $legoKey)) {
+                Copy-Item $legoCert $certPem -Force
+                Copy-Item $legoKey  $keyPem  -Force
+                $obtainedLe = $true
+                Write-Host "Let's Encrypt sertifikasi alindi ve aktif edildi ($cn)."
+            }
+        }
+    }
+
+    if (-not $obtainedLe) {
+        Write-Host "Yerel/Self-signed SSL sertifikasi uretiliyor ($cn)..."
+        $openssl = Get-ChildItem "$env:ProgramFiles\Git\usr\bin\openssl.exe" -ErrorAction SilentlyContinue | Select-Object -First 1
+        if ($openssl) {
+            $sanEntries = @("DNS:localhost", "IP:127.0.0.1")
+            if ($cn -match '^\d{1,3}(\.\d{1,3}){3}$') {
+                if ($sanEntries -notcontains "IP:$cn") { $sanEntries = @("IP:$cn") + $sanEntries }
+            } elseif ($cn -ne 'localhost') {
+                $sanEntries = @("DNS:$cn") + $sanEntries
+            }
+            $sanConf = Join-Path $certDir 'san.cnf'
+            $sanText = @"
+[req]
+default_bits=2048
+prompt=no
+default_md=sha256
+distinguished_name=dn
+x509_extensions=v3_req
+[dn]
+CN=$cn
+[v3_req]
+subjectAltName=$($sanEntries -join ',')
+"@
+            Write-Utf8NoBom $sanConf $sanText
+            & $openssl.FullName req -x509 -newkey rsa:2048 -nodes -keyout $keyPem -out $certPem -days 3650 -config $sanConf 2>$null
+            Remove-Item $sanConf -ErrorAction SilentlyContinue
+            Trust-CertificateOnWindows $certPem
+            Write-Host "Self-signed sertifika uretildi ve Windows guvenilir kok deposuna eklendi ($cn)."
+        }
+    }
+
+    Ensure-NginxConfig
+    Reload-NginxIfRunning
 }

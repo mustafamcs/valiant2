@@ -88,6 +88,26 @@ if (-not (Test-Path $turkeyLocale)) {
     }
 }
 
+# share/data/monster altindaki Linux dizin symlink referans dosyalarini (orn. minidungeon_pawn -> defensewave_pawn) Junction'a cevir
+$monsterDir = Join-Path $shareData 'monster'
+if (Test-Path $monsterDir) {
+    Get-ChildItem $monsterDir -File -ErrorAction SilentlyContinue | Where-Object { $_.Length -gt 0 -and $_.Length -lt 500 } | ForEach-Object {
+        $refText = (Get-Content $_.FullName -Raw -ErrorAction SilentlyContinue)
+        if ($refText) {
+            $refClean = $refText.Trim() -replace '\\','/'
+            if ($refClean -match '^(C:/|\.\./|\./)') {
+                $targetLeaf = Split-Path -Leaf $refClean
+                $targetFolder = Join-Path $monsterDir $targetLeaf
+                if (Test-Path $targetFolder -PathType Container) {
+                    $linkPath = $_.FullName
+                    Remove-Item $linkPath -Force -ErrorAction SilentlyContinue
+                    New-Item -ItemType Junction -Path $linkPath -Target $targetFolder -ErrorAction SilentlyContinue | Out-Null
+                }
+            }
+        }
+    }
+}
+
 $coreDirs = @(
     (Join-Path $runtime 'auth'),
     (Join-Path $runtime 'db')

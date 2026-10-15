@@ -1,7 +1,7 @@
 @echo off
 pushd "%~dp0"
 if not exist "RootLib" mkdir "RootLib"
-if exist "..\..\..\lib\rootlib.lib" if exist "RootLib\PythonrootlibManager.cpp" (
+if exist "..\..\..\lib\rootlib.lib" if exist "RootLib\PythonrootlibManager.cpp" if exist "RootLib\cyTemp\serverInfo.c" (
     powershell -NoProfile -Command "$ref = (Get-Item 'RootLib\PythonrootlibManager.cpp').LastWriteTimeUtc; $newer = Get-ChildItem '__cython\root_modules\*.py','RootLib\serverinfo.py' -ErrorAction SilentlyContinue | Where-Object { $_.LastWriteTimeUtc -gt $ref } | Select-Object -First 1; if ($newer) { exit 1 } else { exit 0 }"
     if not errorlevel 1 (
         echo CRootLib up-to-date, skipping cythonizer.

@@ -8,7 +8,7 @@ $patchRoot = Get-PatchRoot $settings
 $baseUrl = Get-PublicBase $settings
 $src = Join-Path $root 'source\patchserver\src'
 $ico = Join-Path $root 'tools\branding\valiant2.ico'
-$csc = 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe'
+$csc = Get-CscExe
 
 foreach ($d in @("$patchRoot\patcher", "$patchRoot\patch\files")) { New-Item -ItemType Directory -Force -Path $d | Out-Null }
 
@@ -26,7 +26,7 @@ if ($LASTEXITCODE -ne 0) { throw "Patcher derleme hatasi: $LASTEXITCODE" }
 
 # Kaynak dosyayi tekrar BOM'suz UTF-8 yap (git diff temiz kalsin)
 Write-Utf8NoBom $patcherCs (Read-TextStripBom $patcherCs)
-Remove-Item "$src\VALIANT2.exe", "$patchRoot\src" -Recurse -Force -ErrorAction SilentlyContinue
+Remove-Item "$patchRoot\src" -Recurse -Force -ErrorAction SilentlyContinue
 
 Copy-Item $tempExe (Join-Path $root 'runtime\client\VALIANT2.exe') -Force
 Copy-Item $tempExe (Join-Path $patchRoot 'patcher\VALIANT2.exe') -Force

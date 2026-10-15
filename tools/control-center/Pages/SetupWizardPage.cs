@@ -250,18 +250,8 @@ if (-not (Test-Path 'C:\Python27\python.exe')) {
     if ($py27Hit) { New-Item -ItemType Junction -Path 'C:\Python27' -Target $py27Hit.DirectoryName -ErrorAction SilentlyContinue | Out-Null }
 }
 . '" + System.IO.Path.Combine(backend.ScriptsDir, "common.ps1") + @"'
-$phpExe = Get-PhpExe
-if ($phpExe) {
-    $phpDir = Split-Path $phpExe; $phpIni = Join-Path $phpDir 'php.ini'
-    if (!(Test-Path $phpIni)) { $prod = Join-Path $phpDir 'php.ini-production'; if (Test-Path $prod) { Copy-Item $prod $phpIni } }
-    if (Test-Path $phpIni) {
-        $content = Read-TextStripBom $phpIni
-        $extDir = (Join-Path $phpDir 'ext') -replace '\\','/'
-        $content = $content -replace ';\s*extension_dir\s*=\s*""ext""', ""extension_dir = `""$extDir`""""
-        foreach ($ext in 'curl','intl','mbstring','openssl','pdo_mysql','mysqli','gd','fileinfo') { $content = $content -replace "";\s*extension=$ext"", ""extension=$ext"" }
-        Write-Utf8NoBom $phpIni $content
-    }
-}
+Ensure-PhpConfigured
+Ensure-PanelWritableDirs
 ");
                     break;
                 case "env":
@@ -318,53 +308,7 @@ if (-not (Get-NginxExe)) {
     if ($inner) { Get-ChildItem $inner.FullName | Move-Item -Destination $nginxDir -Force }
     Remove-Item $zip, ""$env:TEMP\nginx-extract"" -Recurse -Force -ErrorAction SilentlyContinue
 }
-$certDir = Join-Path $nginxDir 'certs'; New-Item -ItemType Directory -Force -Path $certDir | Out-Null
-$certPem = Join-Path $certDir 'cert.pem'; $keyPem = Join-Path $certDir 'key.pem'
-$cn = if ($settings.PUBLIC_IP) { $settings.PUBLIC_IP } else { '127.0.0.1' }
-if (-not (Test-Path $certPem)) {
-    $openssl = Get-ChildItem ""$env:ProgramFiles\Git\usr\bin\openssl.exe"" -ErrorAction SilentlyContinue | Select-Object -First 1
-    if ($openssl) {
-        $sanConf = Join-Path $certDir 'san.cnf'
-        Write-Utf8NoBom $sanConf ""[req]`ndefault_bits=2048`nprompt=no`ndefault_md=sha256`ndistinguished_name=dn`nx509_extensions=v3_req`n[dn]`nCN=$cn`n[v3_req]`nsubjectAltName=IP:$cn,DNS:localhost,IP:127.0.0.1""
-        & $openssl.FullName req -x509 -newkey rsa:2048 -nodes -keyout $keyPem -out $certPem -days 3650 -config $sanConf
-        Remove-Item $sanConf -ErrorAction SilentlyContinue
-    }
-}
-$certF = $certPem -replace '\\','/'; $keyF = $keyPem -replace '\\','/'
-$nginxConf = @""
-worker_processes  auto;
-events { worker_connections 8192; }
-http {
-    include       mime.types;
-    default_type  application/octet-stream;
-    sendfile      on;
-    server_tokens off;
-    limit_req_zone `$binary_remote_addr zone=panel:10m rate=50r/s;
-    upstream panel_backend {
-        server 127.0.0.1:8090;
-        server 127.0.0.1:8092;
-        server 127.0.0.1:8093;
-        server 127.0.0.1:8094;
-    }
-    server {
-        listen 80;
-        server_name _;
-        return 301 https://`$host`$request_uri;
-    }
-    server {
-        listen 443 ssl;
-        server_name _;
-        ssl_certificate     $certF;
-        ssl_certificate_key $keyF;
-        ssl_protocols       TLSv1.2 TLSv1.3;
-        limit_req zone=panel burst=100 nodelay;
-        location /patcher/ { proxy_pass http://127.0.0.1:8091; proxy_set_header Host `$host; proxy_read_timeout 600s; }
-        location /update/ { proxy_pass http://127.0.0.1:8091; proxy_set_header Host `$host; proxy_read_timeout 600s; proxy_buffering off; }
-        location / { proxy_pass http://panel_backend; proxy_set_header Host `$host; proxy_set_header X-Real-IP `$remote_addr; proxy_set_header X-Forwarded-For `$proxy_add_x_forwarded_for; proxy_set_header X-Forwarded-Proto https; proxy_read_timeout 60s; }
-    }
-}
-""@
-Write-Utf8NoBom (Join-Path $nginxDir 'conf\nginx.conf') $nginxConf
+Ensure-ValidSslCertificate $settings
 & (Join-Path $nginxDir 'nginx.exe') -t -p $nginxDir
 ");
                     break;

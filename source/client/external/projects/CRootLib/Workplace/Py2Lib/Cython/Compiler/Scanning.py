@@ -214,7 +214,7 @@ class FileSourceDescriptor(SourceDescriptor):
         return path
 
     def get_filenametable_entry(self):
-        return self.filename
+        return os.path.basename(self.filename)
 
     def __eq__(self, other):
         return isinstance(other, FileSourceDescriptor) and self.filename == other.filename

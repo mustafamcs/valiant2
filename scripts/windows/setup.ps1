@@ -5,7 +5,9 @@ param([switch]$NonInteractive)
 $ErrorActionPreference = 'Stop'
 $principal = [Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()
 if (!$principal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
-    Start-Process powershell.exe -Verb RunAs -ArgumentList @('-NoProfile','-ExecutionPolicy','Bypass','-File',"`"$PSCommandPath`"") -Wait
+    $argList = @('-NoProfile','-ExecutionPolicy','Bypass','-File',"`"$PSCommandPath`"")
+    if ($NonInteractive) { $argList += '-NonInteractive' }
+    Start-Process powershell.exe -Verb RunAs -ArgumentList $argList -Wait
     exit $LASTEXITCODE
 }
 $root = (Resolve-Path (Join-Path $PSScriptRoot '..\..')).Path
@@ -49,27 +51,8 @@ if (-not $hasCl) {
     Install-Package 'Microsoft.VisualStudio.2022.BuildTools' @('--override','--wait --passive --norestart --add Microsoft.VisualStudio.Workload.VCTools --includeRecommended')
 }
 Install-Package 'PHP.PHP.8.3'
-
-# PHP uzantilari (curl, intl, mbstring, openssl, pdo_mysql, mysqli, gd, fileinfo)
-$phpExe = Get-PhpExe
-if ($phpExe) {
-    $phpDir = Split-Path $phpExe
-    $phpIni = Join-Path $phpDir 'php.ini'
-    if (!(Test-Path $phpIni)) {
-        $prod = Join-Path $phpDir 'php.ini-production'
-        if (Test-Path $prod) { Copy-Item $prod $phpIni }
-    }
-    if (Test-Path $phpIni) {
-        $content = Read-TextStripBom $phpIni
-        $extDir = (Join-Path $phpDir 'ext') -replace '\\','/'
-        $content = $content -replace ';\s*extension_dir\s*=\s*"ext"', "extension_dir = `"$extDir`""
-        foreach ($ext in 'curl','intl','mbstring','openssl','pdo_mysql','mysqli','gd','fileinfo') {
-            $content = $content -replace ";\s*extension=$ext", "extension=$ext"
-        }
-        Write-Utf8NoBom $phpIni $content
-        Write-Host 'PHP uzantilari etkinlestirildi.'
-    }
-}
+Ensure-PhpConfigured
+Ensure-PanelWritableDirs
 
 Install-Package 'Python.Python.3.12'
 Install-Package 'Python.Python.2' # Client Cython build (C:\Python27) gerektirir
@@ -78,6 +61,12 @@ if (-not (Test-Path 'C:\Python27\python.exe')) {
     if ($py27Hit) {
         New-Item -ItemType Junction -Path 'C:\Python27' -Target $py27Hit.DirectoryName -ErrorAction SilentlyContinue | Out-Null
     }
+}
+
+# --- 1b) Firewall (IP algilama ve Let's Encrypt oncesi portlari ac) ---
+$ports = 80,443,30001,30003,30005,30007,30009,30051
+if (-not (Get-NetFirewallRule -DisplayName 'VALIANT2-Public' -ErrorAction SilentlyContinue)) {
+    New-NetFirewallRule -DisplayName 'VALIANT2-Public' -Direction Inbound -Action Allow -Protocol TCP -LocalPort $ports | Out-Null
 }
 
 # --- 2) .env (otomatik uretim ve baska makineden tasinmissa IP/yol onarimi) ---
@@ -134,81 +123,9 @@ if (-not (Get-NginxExe)) {
     if ($inner) { Get-ChildItem $inner.FullName | Move-Item -Destination $nginxDir -Force }
     Remove-Item $zip, "$env:TEMP\nginx-extract" -Recurse -Force -ErrorAction SilentlyContinue
 }
-# SSL sertifika - Let's Encrypt IP sertifikasi (lego, shortlived profil) -> runtime\dependencies\nginx\certs altinda
-$certDir = Join-Path $nginxDir 'certs'
-New-Item -ItemType Directory -Force -Path $certDir | Out-Null
-$certPem = Join-Path $certDir 'cert.pem'; $keyPem = Join-Path $certDir 'key.pem'
-$legoDir = Join-Path $root 'runtime\dependencies\lego'
-$legoExe = Join-Path $legoDir 'lego.exe'
-$legoStore = Join-Path $certDir 'lego'
-$cn = if ($settings.PUBLIC_IP) { $settings.PUBLIC_IP } else { 'localhost' }
-# lego indir (yoksa)
-if (-not (Test-Path $legoExe)) {
-    $legoVer = '5.3.1'
-    $legoZip = Join-Path $env:TEMP 'lego.zip'
-    $legoUrl = "https://github.com/go-acme/lego/releases/download/v${legoVer}/lego_v${legoVer}_windows_amd64.zip"
-    Write-Host "lego indiriliyor ($legoVer)..."
-    Invoke-WebRequest $legoUrl -OutFile $legoZip -UseBasicParsing
-    New-Item -ItemType Directory -Force -Path $legoDir | Out-Null
-    Expand-Archive $legoZip -DestinationPath $legoDir -Force
-    Remove-Item $legoZip -ErrorAction SilentlyContinue
-}
-if (-not (Test-Path $certPem)) {
-    # nginx durdur (80 portu lazim)
-    Get-Process nginx -ErrorAction SilentlyContinue | Stop-Process -Force
-    Start-Sleep -Seconds 2
-    Write-Host "Let's Encrypt IP sertifikasi aliniyor ($cn)..."
-    & $legoExe run --email="admin@valiant2.com" --accept-tos --http --http.address=":80" --domains="$cn" --path="$legoStore" --profile="shortlived"
-    if ($LASTEXITCODE -eq 0) {
-        $legoCert = Join-Path $legoStore "certificates\$cn.crt"
-        $legoKey  = Join-Path $legoStore "certificates\$cn.key"
-        Copy-Item $legoCert $certPem -Force
-        Copy-Item $legoKey  $keyPem  -Force
-        Write-Host "Let's Encrypt sertifikasi alindi ve deploy edildi."
-    } else {
-        Write-Host "Let's Encrypt basarisiz - self-signed fallback..."
-        $openssl = Get-ChildItem "$env:ProgramFiles\Git\usr\bin\openssl.exe" -ErrorAction SilentlyContinue | Select-Object -First 1
-        if ($openssl) {
-            $sanConf = Join-Path $certDir 'san.cnf'
-            $sanText = @"
-[req]
-default_bits=2048
-prompt=no
-default_md=sha256
-distinguished_name=dn
-x509_extensions=v3_req
-[dn]
-CN=$cn
-[v3_req]
-subjectAltName=IP:$cn,DNS:localhost,IP:127.0.0.1
-"@
-            Write-Utf8NoBom $sanConf $sanText
-            & $openssl.FullName req -x509 -newkey rsa:2048 -nodes -keyout $keyPem -out $certPem -days 3650 -config $sanConf
-            Remove-Item $sanConf -ErrorAction SilentlyContinue
-            Write-Host "Self-signed sertifika uretildi ($cn)."
-        }
-    }
-}
-# Otomatik yenileme gorevi (her 4 gunde, sertifika 6 gun gecerli)
+# SSL sertifika ve nginx.conf (Let's Encrypt IP veya guvenilir yerel sertifika)
+Ensure-ValidSslCertificate $settings
 $renewScript = Join-Path $root 'scripts\windows\renew-cert.ps1'
-$renewText = @"
-`$root = Split-Path (Split-Path `$PSScriptRoot)
-. (Join-Path `$root 'scripts\windows\common.ps1')
-`$settings = Get-EnvSettings
-`$cn = `$settings.PUBLIC_IP
-`$legoExe = Join-Path `$root 'runtime\dependencies\lego\lego.exe'
-`$certDir = Join-Path (Get-NginxDir) 'certs'
-`$legoStore = Join-Path `$certDir 'lego'
-Get-Process nginx -ErrorAction SilentlyContinue | Stop-Process -Force
-Start-Sleep 2
-& `$legoExe run --email='admin@valiant2.com' --accept-tos --http --http.address=':80' --domains=`$cn --path=`$legoStore --profile='shortlived' --renew-force
-if (`$LASTEXITCODE -eq 0) {
-    Copy-Item (Join-Path `$legoStore "certificates\`$cn.crt") (Join-Path `$certDir 'cert.pem') -Force
-    Copy-Item (Join-Path `$legoStore "certificates\`$cn.key") (Join-Path `$certDir 'key.pem') -Force
-}
-& (Join-Path `$root 'scripts\windows\start-stack.ps1')
-"@
-Write-Utf8NoBom $renewScript $renewText
 $taskName = 'LegoIPRenew'
 $existTask = Get-ScheduledTask -TaskName $taskName -ErrorAction SilentlyContinue
 if (-not $existTask) {
@@ -218,71 +135,6 @@ if (-not $existTask) {
     Register-ScheduledTask -TaskName $taskName -Action $action -Trigger $trigger -Principal $principal -Description 'Renew Let''s Encrypt IP certificate (shortlived)' | Out-Null
     Write-Host "Sertifika yenileme gorevi olusturuldu ($taskName)."
 }
-# nginx.conf'u canli degerlerle yaz (sablon dosyasi yok)
-$certF = $certPem -replace '\\','/'; $keyF = $keyPem -replace '\\','/'
-$nginxConf = @"
-worker_processes  1;
-
-events {
-    worker_connections  8192;
-}
-
-http {
-    include       mime.types;
-    default_type  application/octet-stream;
-    sendfile        on;
-    server_tokens   off;
-
-    limit_req_zone `$binary_remote_addr zone=panel:10m rate=50r/s;
-
-    upstream panel_backend {
-        server 127.0.0.1:8090;
-        server 127.0.0.1:8092;
-        server 127.0.0.1:8093;
-        server 127.0.0.1:8094;
-    }
-
-    server {
-        listen 80;
-        server_name _;
-        return 301 https://`$host`$request_uri;
-    }
-
-    server {
-        listen 443 ssl;
-        server_name _;
-
-        ssl_certificate     $certF;
-        ssl_certificate_key $keyF;
-        ssl_protocols       TLSv1.2 TLSv1.3;
-
-        limit_req zone=panel burst=100 nodelay;
-
-        location /patcher/ {
-            proxy_pass http://127.0.0.1:8091;
-            proxy_set_header Host `$host;
-            proxy_read_timeout 600s;
-        }
-
-        location /update/ {
-            proxy_pass http://127.0.0.1:8091;
-            proxy_set_header Host `$host;
-            proxy_read_timeout 600s;
-            proxy_buffering off;
-        }
-
-        location / {
-            proxy_pass http://panel_backend;
-            proxy_set_header Host `$host;
-            proxy_set_header X-Real-IP `$remote_addr;
-            proxy_set_header X-Forwarded-For `$proxy_add_x_forwarded_for;
-            proxy_set_header X-Forwarded-Proto https;
-            proxy_read_timeout 60s;
-        }
-    }
-}
-"@
-[IO.File]::WriteAllText((Join-Path $nginxDir 'conf\nginx.conf'), $nginxConf, [Text.UTF8Encoding]::new($false))
 & (Join-Path $nginxDir 'nginx.exe') -t -p $nginxDir
 if ($LASTEXITCODE -ne 0) { throw 'nginx.conf testi basarisiz.' }
 
@@ -307,12 +159,6 @@ $act = New-ScheduledTaskAction -Execute $cmd -WorkingDirectory $PSScriptRoot
 $trg = New-ScheduledTaskTrigger -AtLogOn
 Register-ScheduledTask -TaskName 'VALIANT2-Stack' -Action $act -Trigger $trg -Force -Description 'VALIANT2 web/patch altyapisi' | Out-Null
 
-# --- 8) Firewall (oyun + web portlari; varsa atla) ---
-$ports = 80,443,30001,30003,30005,30007,30009,30051
-if (-not (Get-NetFirewallRule -DisplayName 'VALIANT2-Public' -ErrorAction SilentlyContinue)) {
-    New-NetFirewallRule -DisplayName 'VALIANT2-Public' -Direction Inbound -Action Allow -Protocol TCP -LocalPort $ports | Out-Null
-}
-
 # --- 9) DB + derleme ---
 & (Join-Path $PSScriptRoot 'setup-database.ps1')
 
@@ -329,10 +175,8 @@ if ($pyExe) {
 }
 
 & (Join-Path $PSScriptRoot 'build-all.ps1')
-& (Join-Path $PSScriptRoot 'build-patcher.ps1')
-& (Join-Path $PSScriptRoot 'build-control-center.ps1')
 
-# --- 9c) Uretilen dosyalari git diff'inden gizle ---
+# --- 9d) Uretilen dosyalari git diff'inden gizle ---
 & (Join-Path $PSScriptRoot 'git-sanitize.ps1')
 
 # --- 10) Her seyi baslat ---

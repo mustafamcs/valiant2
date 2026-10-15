@@ -3,12 +3,13 @@
 param([switch]$ForceKill)
 $ErrorActionPreference = 'Stop'
 $root = (Resolve-Path (Join-Path $PSScriptRoot '..\..')).Path
+. (Join-Path $PSScriptRoot 'common.ps1')
 $srcDir = Join-Path $root 'tools\control-center'
 $outExe = Join-Path $root 'VALIANT2-ControlCenter.exe'
 $ico = Join-Path $root 'tools\branding\valiant2.ico'
 $logo = Join-Path $root 'source\patchserver\src\logo.png'
 $manifest = Join-Path $srcDir 'app.manifest'
-$csc = 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe'
+$csc = Get-CscExe
 
 $runningCc = Get-Process -Name 'VALIANT2-ControlCenter' -ErrorAction SilentlyContinue
 if ($runningCc -and $ForceKill) {

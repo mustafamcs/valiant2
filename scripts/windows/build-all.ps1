@@ -5,11 +5,7 @@ $root = (Resolve-Path (Join-Path $PSScriptRoot '..\..')).Path
 . (Join-Path $PSScriptRoot 'common.ps1')
 $hw = Optimize-HardwareConfig
 $threads = $hw.MsBuildThreads
-
-$vswhere = Join-Path ${env:ProgramFiles(x86)} 'Microsoft Visual Studio\Installer\vswhere.exe'
-if (!(Test-Path $vswhere)) { throw 'Visual Studio Build Tools 2022 is not installed.' }
-$msbuild = & $vswhere -latest -products * -requires Microsoft.Component.MSBuild -find 'MSBuild\**\Bin\MSBuild.exe' | Select-Object -First 1
-if (!$msbuild) { throw 'MSBuild was not found.' }
+$msbuild = Get-MsBuildExe
 
 Write-Host "Hiper-Hizli Derleme Modu Aktif: $($hw.CpuName) ($($hw.Cores) Cekirdek / $threads Thread, $($hw.RamGb) GB RAM)"
 
@@ -40,7 +36,7 @@ if ($LASTEXITCODE -ne 0) { throw "Launcher build failed with code $LASTEXITCODE.
 $serverWasRunning = [bool](Get-Process -Name 'game','db' -ErrorAction SilentlyContinue)
 if ($serverWasRunning) {
     Write-Host 'Calisan sunucu derleme icin gecici durduruluyor...'
-    Get-Process -Name 'game','db' -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
+    Stop-ServerProcesses
 }
 
 & $msbuild (Join-Path $root 'source\server\source\AntrumServer.sln') /t:Build /p:Configuration=Release /p:Platform=Win32 @msbCommon

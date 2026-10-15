@@ -1,7 +1,7 @@
 @echo off
 pushd "%~dp0"
 if not exist "UiScriptLib" mkdir "UiScriptLib"
-if exist "..\..\..\lib\uiscriptlib.lib" if exist "UiScriptLib\PythonuiscriptlibManager.cpp" (
+if exist "..\..\..\lib\uiscriptlib.lib" if exist "UiScriptLib\PythonuiscriptlibManager.cpp" if exist "UiScriptLib\cyTemp\loginwindow.c" (
     powershell -NoProfile -Command "$ref = (Get-Item 'UiScriptLib\PythonuiscriptlibManager.cpp').LastWriteTimeUtc; $newer = Get-ChildItem '..\..\CRootLib\Workplace\__cython\uiscript_modules\*.py' -ErrorAction SilentlyContinue | Where-Object { $_.LastWriteTimeUtc -gt $ref } | Select-Object -First 1; if ($newer) { exit 1 } else { exit 0 }"
     if not errorlevel 1 (
         echo CUiScriptLib up-to-date, skipping cythonizer.

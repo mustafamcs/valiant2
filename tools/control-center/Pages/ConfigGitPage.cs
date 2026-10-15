@@ -187,6 +187,8 @@ namespace Valiant2ControlCenter.Pages
 
             backend.SaveEnv(dict);
             await backend.RunPowerShellScriptAsync("Config & IP Senkronizasyonu", "sync-config.ps1");
+            await backend.RunPowerShellInlineAsync("SSL Sertifikası Güncelleniyor",
+                ". '" + Path.Combine(backend.ScriptsDir, "common.ps1") + "'\r\n$s = Get-EnvSettings\r\nEnsure-ValidSslCertificate $s");
             await backend.RunPowerShellScriptAsync("root.pak Paketleniyor", "build-client-packs.ps1", "-Archive \"root\"");
             await backend.RunPowerShellScriptAsync("Autopatcher Derleniyor", "build-patcher.ps1");
         }

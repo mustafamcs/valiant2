@@ -4307,7 +4307,7 @@ int CInputMain::DungeonInfo(LPCHARACTER ch, const char* data, int BufferLeft)
 
 		case SUB_HEADER_CG_DUNGEON_LOGIN_REQUEST:
 		{
-			BYTE* dungeonIdx;
+			BYTE* dungeonIdx = nullptr;
 			if (!CanDecode(dungeonIdx, BufferLeft))
 				return -1;
 
@@ -4318,7 +4318,7 @@ int CInputMain::DungeonInfo(LPCHARACTER ch, const char* data, int BufferLeft)
 
 		case SUB_HEADER_CG_DUNGEON_TIME_RESET:
 		{
-			BYTE* dungeonIdx;
+			BYTE* dungeonIdx = nullptr;
 			if (!CanDecode(dungeonIdx, BufferLeft))
 				return -1;
 
@@ -4451,7 +4451,7 @@ int CInputMain::NewPet(LPCHARACTER ch, const char* data, int BufferLeft)
 
 		case SUB_CG_SKIN_CHANGE:
 		{
-			BYTE* skinIndex;
+			BYTE* skinIndex = nullptr;
 			if (!CanDecode(skinIndex, BufferLeft))
 				return -1;
 
