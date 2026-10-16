@@ -4,44 +4,79 @@ __author__ = MDproject
 __discord__ = MDproject
 __project__ = MDproject
 */
+
+/********************************************** Fixed Defines (Martysama 5.8) Start **********************************************/
+
 //#define ENABLE_DEV_COOLDOWN_BYPASS														// Dev Server
-#define ENABLE_DROP_CALCULATOR
-#define ENABLE_DROP_FROM_TABLE														// Drop system reads from MySQL tables (panel)
-#define ENABLE_PROTO_FROM_DB														// Item/Mob proto from MySQL (panel)
-#define ENABLE_ADMINPAGE_TEXT														// Admin page @-text commands (panel p2p socket)
-//#define ENABLE_DEV_OFFLINE_SHOP_DEBUG
-//#define ENABLE_DEV_FAST_RANKING_CACHE														// Dev Server
-
 //#ifdef ENABLE_DEV_COOLDOWN_BYPASS
-//#define IMPROVED_PACKET_ENCRYPTION_REMOVE											// Dev server Removing Packet Enc
+//#define IMPROVED_PACKET_ENCRYPTION_REMOVE													// Dev server Removing Packet Enc
 //#else
-#undef _IMPROVED_PACKET_ENCRYPTION_												// Packed Encryption
+#undef _IMPROVED_PACKET_ENCRYPTION_														// Packed Encryption
 //#endif
-
-enum eConfig {
-	MAP_ALLOW_LIMIT = 32, // 32 defaultfdead
-};
-#define GetGoldMultipler() (1)
-/********************************************** No Touch Defines Start **********************************************/
 
 #define __PET_SYSTEM__																		// Official Pet System
 #define __UDP_BLOCK__																		// UDP Block
 #define ENABLE_PORT_SECURITY																// Port Security
-/********************************************** End of No Touch **********************************************/
-
-
-/********************************************** General Defines Start **********************************************/
+#define ENABLE_QUEST_CATEGORY																// Official Quest Category
+#define ENABLE_D_NJGUILD																	// Guild Dungeon Stuff
 #define ENABLE_FULL_NOTICE																	// Full Notice
 #define ENABLE_NEWSTUFF																		// New Stuff from Martysama
 #define ENABLE_BELT_INVENTORY_EX															// Belt Inventory Stuff
+#define ENABLE_ITEM_ATTR_COSTUME 															// Costume Item Attr
 #define ENABLE_PLAYER_PER_ACCOUNT5															// Max player per accounts module
-#define ENABLE_OBJ_SCALLING																	// Object Scale
 #define ENABLE_DICE_SYSTEM																	// Official Dice
 #define ENABLE_EXTEND_INVEN_SYSTEM															// 5 Pages Of Inventory
-#define ENABLE_D_NJGUILD																	// Guild Dungeon Stuff
+#define ENABLE_MOUNT_COSTUME_SYSTEM 														// Mount Costume
+#define ENABLE_WEAPON_COSTUME_SYSTEM 														// Weapon Costume
+#define ENABLE_QUEST_DIE_EVENT																// Quest Die Event ??
+#define ENABLE_QUEST_BOOT_EVENT																// Quest Boot Event ??
+#define ENABLE_QUEST_DND_EVENT																// Quest Dnd Event ??
+
+enum eConfig {
+	MAP_ALLOW_LIMIT = 32, // 32 defaultfdead
+};
+
 #define ENABLE_WOLFMAN_CHARACTER															// Wolfman Stuff
-#define ENABLE_HIGHLIGHT_SYSTEM																// Highlight Items
+#ifdef ENABLE_WOLFMAN_CHARACTER
+#define USE_MOB_BLEEDING_AS_POISON															// Enable Bleeding
+#define USE_MOB_CLAW_AS_DAGGER																// Claw = Dagger Module
+// #define USE_ITEM_BLEEDING_AS_POISON
+// #define USE_ITEM_CLAW_AS_DAGGER
+//#define USE_WOLFMAN_STONES
+#define USE_WOLFMAN_BOOKS
+#endif
+
+#define ENABLE_MAGIC_REDUCTION_SYSTEM														// Magic Reduction Apply
+#ifdef ENABLE_MAGIC_REDUCTION_SYSTEM
+// #define USE_MAGIC_REDUCTION_STONES
+#endif
+
+#define ENABLE_ACCE_COSTUME_SYSTEM 															// Shoulder Sash Costume
+#ifdef ENABLE_ACCE_COSTUME_SYSTEM
+	// #define USE_ACCE_ABSORB_WITH_NO_NEGATIVE_BONUS
+#endif
+
 #define ENABLE_KILL_EVENT_FIX																// Kill Lua event 0 exp problem
+// #define ENABLE_SYSLOG_PACKET_SENT														// debug purposes
+#define ENABLE_PROTO_FROM_DB																// Item/Mob proto from MySQL (panel)
+//#define ENABLE_ITEMAWARD_REFRESH															// Item award refresh
+#define ENABLE_CHAT_COLOR_SYSTEM
+#define ENABLE_DS_GRADE_MYTH																// Myth DS
+
+/********************************************** End of Fixed Defines (Martysama 5.8) **********************************************/
+
+#define ENABLE_DROP_CALCULATOR
+#define ENABLE_DROP_FROM_TABLE																// Drop system reads from MySQL tables (panel)
+#define ENABLE_ADMINPAGE_TEXT																// Admin page @-text commands (panel p2p socket)
+//#define ENABLE_DEV_OFFLINE_SHOP_DEBUG
+//#define ENABLE_DEV_FAST_RANKING_CACHE														// Dev Server
+
+#define GetGoldMultipler() (1)
+
+
+/********************************************** General Defines Start **********************************************/
+#define ENABLE_OBJ_SCALLING																	// Object Scale
+#define ENABLE_HIGHLIGHT_SYSTEM																// Highlight Items
 #define ENABLE_TARGET_INFORMATION_SYSTEM													// Target Information System
 #define ENABLE_TARGET_INFORMATION_RENEWAL													// Target Information System
 #define ENABLE_SHOW_TARGET_HP																// Target HP Information
@@ -54,7 +89,6 @@ enum eConfig {
 #define ENABLE_EXTENDED_YANG_LIMIT															// Yang limit renewal
 #define ENABLE_SPLIT_ITEMS_FAST																// Multiple split items
 #define ENABLE_SORT_INVENTORIES																// Sort Inventories
-#define ENABLE_QUEST_CATEGORY																// Official Quest Category
 #define ENABLE_OFFLINE_SHOP																	// OfflineShop Reworked
 #define ENABLE_SHOP_AUTO_STACK																// Buy autostack for all inventories
 #define ENABLE_CHECKINOUT_UPDATE															// Storage - Exchange Check-in Out
@@ -76,8 +110,6 @@ enum eConfig {
 #endif
 
 #define ENABLE_SOCKET_LIMIT_5																//Socket Limiti
-
-#define ENABLE_MAGIC_REDUCTION_SYSTEM														// Magic Reduction Apply
 
 #define ENABLE_BIOLOG_SYSTEM																// Biolog System
 #define ENABLE_CHAR_SETTINGS																//Character settings
@@ -112,19 +144,6 @@ constexpr int wheelSpinWithTicketPrice{ 50 };
 
 
  /* KraKerYas */
-
-#ifdef ENABLE_WOLFMAN_CHARACTER
-#define USE_MOB_BLEEDING_AS_POISON															// Enable Bleeding
-#define USE_MOB_CLAW_AS_DAGGER																// Claw = Dagger Module
-// #define USE_ITEM_BLEEDING_AS_POISON
-// #define USE_ITEM_CLAW_AS_DAGGER
-//#define USE_WOLFMAN_STONES
-#define USE_WOLFMAN_BOOKS
-#endif
-
-#ifdef ENABLE_MAGIC_REDUCTION_SYSTEM
-// #define USE_MAGIC_REDUCTION_STONES
-#endif
 
 #ifdef ENABLE_OFFLINE_SHOP
 #define ENABLE_SHOPS_IN_CITIES
@@ -171,13 +190,8 @@ constexpr int wheelSpinWithTicketPrice{ 50 };
 
 /********************************************** Item Related Defines Start **********************************************/
 
-#define ENABLE_ACCE_COSTUME_SYSTEM 													// Shoulder Sash Costume
-#define ENABLE_MOUNT_COSTUME_SYSTEM 												// Mount Costume
 #define ENABLE_PET_COSTUME_SYSTEM 													// Pet Costume
-#define ENABLE_WEAPON_COSTUME_SYSTEM 												// Weapon Costume
-#define ENABLE_ITEM_ATTR_COSTUME 													// Costume Item Attr
 #define ENABLE_PLUS_SCROLL															// Create multiple upgrade scrolls with custom chances
-#define ENABLE_DS_GRADE_MYTH														// Myth DS
 #define ENABLE_DS_SET_BONUS															// Ds set bonus
 #define ENABLE_AURA_SYSTEM															// Aura System
 
@@ -198,9 +212,6 @@ constexpr int wheelSpinWithTicketPrice{ 50 };
 
 #define ENABLE_GREEN_ATTRIBUTE_CHANGER												// Green Attributes
 
-#ifdef ENABLE_ACCE_COSTUME_SYSTEM
-	// #define USE_ACCE_ABSORB_WITH_NO_NEGATIVE_BONUS
-#endif
 #define ENABLE_BOOSTER_ITEM
 #define ENABLE_PENDANT_ITEM
 #define ENABLE_GLOVE_ITEM
@@ -231,11 +242,6 @@ constexpr int wheelSpinWithTicketPrice{ 50 };
 
 /********************************************** Misc Defines Start **********************************************/
 
-#define ENABLE_QUEST_DIE_EVENT														// Quest Die Event ??
-#define ENABLE_QUEST_BOOT_EVENT														// Quest Boot Event ??
-#define ENABLE_QUEST_DND_EVENT														// Quest Dnd Event ??
-// #define ENABLE_SYSLOG_PACKET_SENT												// debug purposes
-
 #define ENABLE_CLEAR_OLD_GUILD_LANDS												// If there is a guild lands, after 3 weeks inactivity it deletes
 #define ENABLE_CHAT_FLAG_AND_PM														// Chat PM Flag System
 #define ENABLE_NO_RESET_SKILL_WHEN_GM_LEVEL_UP										// Disables reset skilling on giving levels (GM)
@@ -253,7 +259,6 @@ constexpr int wheelSpinWithTicketPrice{ 50 };
 #define WJ_ENABLE_TRADABLE_ICON														// Tradable icon stuff
 #define ENABLE_BUY_WITH_ITEMS														// Buy items with items
 #define ENABLE_MULTIPLE_BUY_ITEMS													// Multi Buy
-//#define ENABLE_ITEMAWARD_REFRESH													// item award kullan�rsak a��caz
 #define ENABLE_DEATHBLOW_ALL_RACES_FIX												// Deathblow damage implemented for lycan aswell.
 #define ENABLE_FISHING_RENEWAL														// Official Fishing System
 #define ENABLE_HIDE_COSTUME_SYSTEM													// Hide costume parts
@@ -278,7 +283,6 @@ constexpr int wheelSpinWithTicketPrice{ 50 };
 #define ENABLE_DUNGEON_MODULES														// New dungeon Modules
 #define ENABLE_BLEND_AFFECT															// New Blend System
 #define ENABLE_EXTENDED_BLEND_AFFECT												// New Blend Affect System
-#define ENABLE_CHAT_COLOR_SYSTEM
 #define ENABLE_INCREASED_MOV_SPEED_MOBS
 #define ENABLE_METIN_QUEUE
 
@@ -325,3 +329,16 @@ using QS_USHORT = unsigned short;//SyncQuickslot newpos UINT16_MAX
 #define ENABLE_ATTR_RARE_RENEWAL
 
 #define ENABLE_OFFICIAL_STUFF
+
+/********************************************** VALIANT2 Unified Modules Start **********************************************/
+#define ENABLE_QUEST_ITEM_DUPE_FIX															// Quest m_dwQuestItemVID dangling pointer & dupe fix
+#define ENABLE_MARRIAGE_CRASH_FIX															// DB Marriage Manager Use-After-Free crash fix
+#define ENABLE_PACKET_BUFFER_FIX															// Packet buffer reallocation & dangling pointer fix
+#define ENABLE_GUILD_MASTER_CRASH_FIX														// Guild ChangeMaster null iterator crash fix
+#define ENABLE_CLIENT_SAFE_GUARD_FIX														// ThingInstance & PythonWindow null-pointer guard
+#define ENABLE_CLIENT_DARK_MODE																// Windows 10/11 immersive dark mode title bar
+#define ENABLE_CRASH_MINIDUMP																// Automatic .dmp crash minidump generator
+#define ENABLE_DROP_INFO_WINDOW																// Floating item & Yang pickup tracker window
+#define ENABLE_BUY_BACK_ITEM																// Repurchase last 12 sold items from NPC
+#define ENABLE_SERVER_ANTIHACK_GUARD														// Authoritative server-side anti-cheat & hack log
+/********************************************** VALIANT2 Unified Modules End **********************************************/

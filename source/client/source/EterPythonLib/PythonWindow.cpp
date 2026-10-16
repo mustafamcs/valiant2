@@ -2156,7 +2156,11 @@ namespace UI
 			return FALSE;
 
 		m_disableVisual.SetImagePointer(static_cast<CGraphicImage*>(pResource));
+#ifdef ENABLE_CLIENT_SAFE_GUARD_FIX
+		if (m_disableVisual.IsEmpty())
+#else
 		if (m_downVisual.IsEmpty())
+#endif
 			return FALSE;
 
 		SetSize(m_disableVisual.GetWidth(), m_disableVisual.GetHeight());

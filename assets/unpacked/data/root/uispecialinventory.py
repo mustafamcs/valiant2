@@ -875,15 +875,21 @@ class SpecialInventory(ui.BoardWithTitleBar):
 					return
 			itemIndex = player.GetItemIndex(invenType, slotPos)
 			item.SelectItem(itemIndex)
-			itemQuestionDialog2 = uiCommon.ItemQuestionDialog2()
-			itemQuestionDialog2.SetText(localeInfo.ITEM_QUESTION_DIAGLOG_2.format(item.GetItemName()))
-			itemQuestionDialog2.SetText2(localeInfo.ITEM_QUESTION_DIAGLOG_3.format(localeInfo.NumberToMoneyString(item.GetISellItemPrice() * player.GetItemCount(invenType, slotPos) * 100 / 100)))
-			itemQuestionDialog2.SetDeleteAcceptEvent(lambda arg = 0: self.__AnswerDeleteItem(arg))
-			itemQuestionDialog2.SetSellAcceptEvent(lambda arg = 1: self.__AnswerDeleteItem(arg))
+			itemQuestionDialog2 = uiCommon.QuestionDialogItem()
+			ItemName = item.GetItemName()
+			if len(ItemName) > 11:
+				ItemName = ItemName[:11] + "..."
+			if (player.GetItemCount(invenType, slotPos)) > 1:
+				itemQuestionDialog2.SetMessage(localeInfo.ITEM_QUESTION_DIAGLOG_1.format((ItemName), player.GetItemCount(invenType, slotPos)))
+			else:
+				itemQuestionDialog2.SetMessage(localeInfo.ITEM_QUESTION_DIAGLOG_2.format(ItemName))
+			itemQuestionDialog2.SetMessage2(localeInfo.ITEM_QUESTION_DIAGLOG_3.format(localeInfo.NumberToMoneyString(item.GetISellItemPrice() * player.GetItemCount(invenType, slotPos) * 100 / 100)))
+			itemQuestionDialog2.SetAcceptEvent(lambda arg = 1: self.__AnswerDeleteItem(arg))
+			itemQuestionDialog2.SetDestroyEvent(lambda arg = 0: self.__AnswerDeleteItem(arg))
 			itemQuestionDialog2.SetCancelEvent(lambda arg = 2: self.__AnswerDeleteItem(arg))
-			itemQuestionDialog2.Open()
 			itemQuestionDialog2.slotPos = slotPos
 			itemQuestionDialog2.invenType = invenType
+			itemQuestionDialog2.Open(itemIndex, slotPos, "", invenType)
 			self.itemQuestionDialog2 = itemQuestionDialog2
 
 		def __AnswerDeleteItem(self, answer):

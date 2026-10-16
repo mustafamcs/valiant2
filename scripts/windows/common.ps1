@@ -603,13 +603,84 @@ function Reload-NginxIfRunning {
     }
 }
 
-function Stop-ServerProcesses {
-    Get-Process -Name 'game','db' -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
-    if (Get-Process -Name 'game','db' -ErrorAction SilentlyContinue) {
+function Stop-BuildTargetProcesses {
+    param([string[]]$ProcessNames)
+    if (-not $ProcessNames -or $ProcessNames.Count -eq 0) { return }
+    $cleanNames = @($ProcessNames | ForEach-Object { $_ -replace '\.exe$','' })
+
+    # 1. Standart durdurma
+    Get-Process -Name $cleanNames -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
+    foreach ($n in $cleanNames) {
+        if (Get-Process -Name $n -ErrorAction SilentlyContinue) {
+            & cmd.exe /c "taskkill /F /T /IM `"$n.exe`" >nul 2>&1"
+        }
+    }
+
+    # 2. Hala yasayan (ornegin farkli yetki seviyesinde acilmis) surec varsa WM_CLOSE ve ardindan RunAs taskkill dene
+    $stillAlive = @(Get-Process -Name $cleanNames -ErrorAction SilentlyContinue)
+    if ($stillAlive.Count -gt 0) {
+        foreach ($p in $stillAlive) {
+            try { $null = $p.CloseMainWindow() } catch {}
+        }
+        Start-Sleep -Milliseconds 300
+    }
+
+    $stillAlive = @(Get-Process -Name $cleanNames -ErrorAction SilentlyContinue)
+    if ($stillAlive.Count -gt 0) {
+        $imArgs = ($stillAlive | Select-Object -ExpandProperty ProcessName -Unique | ForEach-Object { "/IM `"$_.exe`"" }) -join ' '
         try {
-            Start-Process -FilePath 'taskkill.exe' -ArgumentList '/F /IM game.exe /IM db.exe' -Verb RunAs -WindowStyle Hidden -Wait -ErrorAction SilentlyContinue
+            Start-Process -FilePath 'taskkill.exe' -ArgumentList "/F /T $imArgs" -Verb RunAs -WindowStyle Hidden -Wait -ErrorAction SilentlyContinue
         } catch {}
     }
+
+    # 3. En fazla 3 saniye tamamen kapanmasini bekle
+    for ($i = 0; $i -lt 15; $i++) {
+        if (-not (Get-Process -Name $cleanNames -ErrorAction SilentlyContinue)) { break }
+        Start-Sleep -Milliseconds 200
+    }
+}
+
+function Stop-ClientProcesses {
+    Stop-BuildTargetProcesses -ProcessNames @('M2Client','VALIANT2','config','FSArchiver')
+}
+
+function Flush-ServerDatabaseCaches {
+    if (-not (Get-Process -Name 'game','db' -ErrorAction SilentlyContinue)) { return }
+    try {
+        $s = Get-EnvSettings
+        $adminPass = $s['ADMINPAGE_PASSWORD']
+        if (-not $adminPass) { $adminPass = $s['SERVER_ADMINPAGE_PASSWORD'] }
+        if ($adminPass) {
+            foreach ($port in @(30003, 30005, 30007, 30009, 30051)) {
+                try {
+                    $tcp = New-Object System.Net.Sockets.TcpClient
+                    $ar = $tcp.BeginConnect('127.0.0.1', $port, $null, $null)
+                    if ($ar.AsyncWaitHandle.WaitOne(400, $false) -and $tcp.Connected) {
+                        $stream = $tcp.GetStream()
+                        $stream.ReadTimeout = 500
+                        $stream.WriteTimeout = 500
+                        $authBytes = [Text.Encoding]::ASCII.GetBytes("@$adminPass`n")
+                        $stream.Write($authBytes, 0, $authBytes.Length)
+                        $stream.Flush()
+                        Start-Sleep -Milliseconds 60
+                        $cmdBytes = [Text.Encoding]::ASCII.GetBytes("@FLUSH_SAVE 1`n")
+                        $stream.Write($cmdBytes, 0, $cmdBytes.Length)
+                        $stream.Flush()
+                    }
+                    $tcp.Close()
+                } catch {}
+            }
+            Start-Sleep -Milliseconds 600
+        }
+    } catch {}
+}
+
+function Stop-ServerProcesses {
+    if (Get-Process -Name 'game','db' -ErrorAction SilentlyContinue) {
+        Write-Host 'Kapanis oncesi tum yazilmamis karakter/esya onbellekleri MySQL veritabanina yaziliyor (@FLUSH_SAVE)...'
+        Flush-ServerDatabaseCaches
+    }
+    Stop-BuildTargetProcesses -ProcessNames @('game','db','qc')
 }
 
 function Ensure-ValidSslCertificate {

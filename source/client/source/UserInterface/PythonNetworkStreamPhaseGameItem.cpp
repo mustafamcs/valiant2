@@ -251,7 +251,22 @@ bool CPythonNetworkStream::RecvItemSetPacket2()
 		kItemData.aAttr[j] = packet_item_set.aAttr[j];
 
 	IAbstractPlayer& rkPlayer = IAbstractPlayer::GetSingleton();
+#ifdef ENABLE_DROP_INFO_WINDOW
+	DWORD dwOldVnum2 = rkPlayer.GetItemIndex(packet_item_set.Cell);
+	DWORD dwOldCount2 = rkPlayer.GetItemCount(packet_item_set.Cell);
+#endif
 	rkPlayer.SetItemData(packet_item_set.Cell, kItemData);
+
+#ifdef ENABLE_DROP_INFO_WINDOW
+	if (packet_item_set.highlight && packet_item_set.vnum > 0)
+	{
+		int iGained = (dwOldVnum2 == packet_item_set.vnum && packet_item_set.count > dwOldCount2)
+			? static_cast<int>(packet_item_set.count - dwOldCount2)
+			: static_cast<int>(packet_item_set.count);
+		if (iGained > 0)
+			PyCallClassMemberFunc(m_apoPhaseWnd[PHASE_WINDOW_GAME], "BINARY_OnPickItem", Py_BuildValue("(ii)", packet_item_set.vnum, iGained));
+	}
+#endif
 
 	if (packet_item_set.highlight)
 		PyCallClassMemberFunc(m_apoPhaseWnd[PHASE_WINDOW_GAME], "BINARY_Highlight_Item", Py_BuildValue("(ii)", packet_item_set.Cell.window_type, packet_item_set.Cell.cell));
@@ -287,7 +302,18 @@ bool CPythonNetworkStream::RecvItemUpdatePacket()
 		return false;
 
 	IAbstractPlayer& rkPlayer = IAbstractPlayer::GetSingleton();
+#ifdef ENABLE_DROP_INFO_WINDOW
+	DWORD dwUpdVnum = rkPlayer.GetItemIndex(packet_item_update.Cell);
+	DWORD dwUpdOldCount = rkPlayer.GetItemCount(packet_item_update.Cell);
+#endif
 	rkPlayer.SetItemCount(packet_item_update.Cell, packet_item_update.count);
+#ifdef ENABLE_DROP_INFO_WINDOW
+	if (dwUpdVnum > 0 && packet_item_update.count > dwUpdOldCount)
+	{
+		PyCallClassMemberFunc(m_apoPhaseWnd[PHASE_WINDOW_GAME], "BINARY_OnPickItem",
+			Py_BuildValue("(ii)", dwUpdVnum, static_cast<int>(packet_item_update.count - dwUpdOldCount)));
+	}
+#endif
 	for (int i = 0; i < ITEM_SOCKET_SLOT_MAX_NUM; ++i)
 		rkPlayer.SetItemMetinSocket(packet_item_update.Cell, i, packet_item_update.alSockets[i]);
 	for (int j = 0; j < ITEM_ATTRIBUTE_SLOT_MAX_NUM; ++j)

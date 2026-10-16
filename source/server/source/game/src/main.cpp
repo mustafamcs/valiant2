@@ -283,6 +283,19 @@ void heartbeat(LPHEART ht, int pulse)
 		DESC_MANAGER::instance().UpdateLocalUserCount();
 	}
 
+	if (!(pulse % (passes_per_sec * 120)))
+	{
+		const DESC_MANAGER::DESC_SET& cset = DESC_MANAGER::instance().GetClientSet();
+		for (auto* pkDesc : cset)
+		{
+			if (pkDesc && pkDesc->GetCharacter())
+				pkDesc->GetCharacter()->SaveReal();
+		}
+		CHARACTER_MANAGER::instance().ProcessDelayedSave();
+		ITEM_MANAGER::instance().Update();
+		db_clientdesc->DBPacket(HEADER_GD_FLUSH_ALL_CACHE, 0, NULL, 0);
+	}
+
 #ifdef ENABLE_EXTENDED_BATTLE_PASS
 	if (!(pulse % (passes_per_sec * 1)))
 	{
@@ -341,8 +354,48 @@ static void CleanUpForEarlyExit() {
 	CancelReloadSpamEvent();
 }
 
+#if defined(_WIN32) && defined(ENABLE_CRASH_MINIDUMP)
+#include <dbghelp.h>
+static LONG WINAPI ValiantServerUnhandledExceptionFilter(EXCEPTION_POINTERS* pExceptionInfo)
+{
+	HMODULE hDbgHelp = LoadLibraryA("dbghelp.dll");
+	if (hDbgHelp)
+	{
+		typedef BOOL(WINAPI* MiniDumpWriteDumpFn)(HANDLE, DWORD, HANDLE, MINIDUMP_TYPE, PMINIDUMP_EXCEPTION_INFORMATION, PMINIDUMP_USER_STREAM_INFORMATION, PMINIDUMP_CALLBACK_INFORMATION);
+		auto pMiniDumpWriteDump = reinterpret_cast<MiniDumpWriteDumpFn>(GetProcAddress(hDbgHelp, "MiniDumpWriteDump"));
+		if (pMiniDumpWriteDump)
+		{
+			CreateDirectoryA("log", nullptr);
+			time_t now = time(nullptr);
+			struct tm tmNow{};
+			localtime_s(&tmNow, &now);
+			char szFile[256];
+			snprintf(szFile, sizeof(szFile), "log\\game_crash_%04d%02d%02d_%02d%02d%02d_p%lu.dmp",
+				tmNow.tm_year + 1900, tmNow.tm_mon + 1, tmNow.tm_mday,
+				tmNow.tm_hour, tmNow.tm_min, tmNow.tm_sec, GetCurrentProcessId());
+			HANDLE hFile = CreateFileA(szFile, GENERIC_WRITE, FILE_SHARE_READ, nullptr, CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, nullptr);
+			if (hFile != INVALID_HANDLE_VALUE)
+			{
+				MINIDUMP_EXCEPTION_INFORMATION exInfo{};
+				exInfo.ThreadId = GetCurrentThreadId();
+				exInfo.ExceptionPointers = pExceptionInfo;
+				exInfo.ClientPointers = FALSE;
+				pMiniDumpWriteDump(GetCurrentProcess(), GetCurrentProcessId(), hFile,
+					static_cast<MINIDUMP_TYPE>(MiniDumpWithIndirectlyReferencedMemory | MiniDumpScanMemory),
+					pExceptionInfo ? &exInfo : nullptr, nullptr, nullptr);
+				CloseHandle(hFile);
+			}
+		}
+	}
+	return EXCEPTION_EXECUTE_HANDLER;
+}
+#endif
+
 int main(int argc, char** argv)
 {
+#if defined(_WIN32) && defined(ENABLE_CRASH_MINIDUMP)
+	SetUnhandledExceptionFilter(ValiantServerUnhandledExceptionFilter);
+#endif
 #ifdef DEBUG_ALLOC
 	DebugAllocator::StaticSetUp();
 #endif

@@ -119,6 +119,14 @@ bool CNewChatManager::LoadLocaleStringTable(const char* c_szFileName)
 
 	return true;
 }
+
+bool CNewChatManager::IsItemGainChatID(WORD chatID) const
+{
+	return (chatID == EChatTable::YOU_GAINED_ITEM ||
+		(chatID >= EChatTable::YOU_GAINED_ITEM_INV_TYPE_01 && chatID <= EChatTable::YOU_GAINED_ITEM_INV_TYPE_05) ||
+		(chatID >= EChatTable::WINNER_ITEM_01 && chatID <= EChatTable::WINNER_ITEM_06));
+}
+
 bool CNewChatManager::FindLocaleString(WORD chatID, std::string& localeString)
 {
 	auto it = m_mapLocaleString.find(chatID);

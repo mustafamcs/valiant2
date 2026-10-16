@@ -424,6 +424,20 @@ void DESC::Packet(const void* c_pvData, int iSize)
 		}
 
 #ifdef _IMPROVED_PACKET_ENCRYPTION_
+#ifdef ENABLE_PACKET_BUFFER_FIX
+		int write_point_pos = m_lpOutputBuffer->write_point_pos;
+		if (packet_encode(m_lpOutputBuffer, c_pvData, iSize))
+		{
+			void* buf = m_lpOutputBuffer->mem_data + write_point_pos;
+			if (cipher_.activated()) {
+				cipher_.Encrypt(buf, iSize);
+			}
+		}
+		else
+		{
+			m_iPhase = PHASE_CLOSE;
+		}
+#else
 		void* buf = buffer_write_peek(m_lpOutputBuffer);
 
 		if (packet_encode(m_lpOutputBuffer, c_pvData, iSize))
@@ -436,6 +450,7 @@ void DESC::Packet(const void* c_pvData, int iSize)
 		{
 			m_iPhase = PHASE_CLOSE;
 		}
+#endif
 #else
 #ifdef IMPROVED_PACKET_ENCRYPTION_REMOVE
 		if (!m_bEncrypted)

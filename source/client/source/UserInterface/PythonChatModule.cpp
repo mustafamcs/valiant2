@@ -644,6 +644,10 @@ void initChat()
 	PyModule_AddIntConstant(poModule, "CHAT_TYPE_ZODIAC_SUB_NOTICE", CHAT_TYPE_ZODIAC_SUB_NOTICE);
 	PyModule_AddIntConstant(poModule, "CHAT_TYPE_ZODIAC_NOTICE_CLEAR", CHAT_TYPE_ZODIAC_NOTICE_CLEAR);
 #endif
+#ifdef ENABLE_DROP_INFO_WINDOW
+	PyModule_AddIntConstant(poModule, "CHAT_TYPE_ITEM_INFO", CHAT_TYPE_ITEM_INFO);
+	PyModule_AddIntConstant(poModule, "CHAT_TYPE_MONEY_INFO", CHAT_TYPE_MONEY_INFO);
+#endif
 	PyModule_AddIntConstant(poModule, "WHISPER_TYPE_CHAT", CPythonChat::WHISPER_TYPE_CHAT);
 	PyModule_AddIntConstant(poModule, "WHISPER_TYPE_SYSTEM", CPythonChat::WHISPER_TYPE_SYSTEM);
 	PyModule_AddIntConstant(poModule, "WHISPER_TYPE_GM", CPythonChat::WHISPER_TYPE_GM);

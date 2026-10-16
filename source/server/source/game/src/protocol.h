@@ -41,6 +41,25 @@ inline INT decode_4bytes(const void* a)
 
 #define DEFAULT_PACKET_BUFFER_SIZE (150*1024) //@warme015 prevent dc if there are many entities
 
+#ifdef ENABLE_PACKET_BUFFER_FIX
+inline bool __packet_encode(LPBUFFER& pbuf, const void* data, int length, const char* file, int line)
+{
+	assert(NULL != pbuf);
+	assert(NULL != data);
+
+	if (buffer_has_space(pbuf) < length)
+	{
+		buffer_adjust_size(pbuf, length);
+		if (buffer_has_space(pbuf) < length)
+		{
+			return false;
+		}
+	}
+
+	buffer_write(pbuf, data, length);
+	return true;
+}
+#else
 inline bool __packet_encode(LPBUFFER pbuf, const void* data, int length, const char* file, int line)
 {
 	assert(NULL != pbuf);
@@ -57,5 +76,6 @@ inline bool __packet_encode(LPBUFFER pbuf, const void* data, int length, const c
 	buffer_write(pbuf, data, length);
 	return true;
 }
+#endif
 
 #endif

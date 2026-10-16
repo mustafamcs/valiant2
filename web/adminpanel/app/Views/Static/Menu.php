@@ -222,6 +222,23 @@
                     </span>
                   </a>
                 <?php endif; ?>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="<?=base_url('Harita/Index')?>">
+                  <span class="nav-link-icon d-inline-block">🗺️</span>
+                  <span class="nav-link-title">Harita, Regen & Atlas Stüdyosu</span>
+                </a>
+                <a class="dropdown-item" href="<?=base_url('Arindirma/Index')?>">
+                  <span class="nav-link-icon d-inline-block">⚗️</span>
+                  <span class="nav-link-title">Arındırma (Cube) Editörü</span>
+                </a>
+                <a class="dropdown-item" href="<?=base_url('Ekonomi/Index')?>">
+                  <span class="nav-link-icon d-inline-block">📊</span>
+                  <span class="nav-link-title">Ekonomi, 360° Kaynak & Anti-Cheat</span>
+                </a>
+                <a class="dropdown-item" href="<?=base_url('Sistemler/Index')?>">
+                  <span class="nav-link-icon d-inline-block">⚙️</span>
+                  <span class="nav-link-title">Oyun Sistemleri (`Controls.h`) & Profiller</span>
+                </a>
               </div>
             </li>
           <?php endif; ?>

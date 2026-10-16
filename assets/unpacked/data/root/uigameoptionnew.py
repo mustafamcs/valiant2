@@ -72,6 +72,7 @@ class GameOptionWindow(ui.BoardWithTitleBar):
 			self.stoneScaling = None
 		if app.ENABLE_DAMAGE_SIZE_SCALE:
 			self.damageScaling = None
+		self.dropInfoTrackerButtonList = []
 
 		if app.ENABLE_ANIMATION_SELECT:
 			self.animatedWindow = None
@@ -366,6 +367,19 @@ class GameOptionWindow(ui.BoardWithTitleBar):
 					damageScaling.SetSliderPos(float(systemSetting.GetDamageTextureScale()))
 					damageScaling.SetEvent(ui.__mem_func__(self.OnDamageScaling))
 					self.damageScaling = damageScaling
+
+				try:
+					self.dropInfoTrackerButtonList = [
+						GetObject("drop_info_right_button"),
+						GetObject("drop_info_left_button"),
+						GetObject("drop_info_off_button"),
+					]
+					self.dropInfoTrackerButtonList[0].SAFE_SetEvent(self.__OnClickDropInfoTrackerMode, 1)
+					self.dropInfoTrackerButtonList[1].SAFE_SetEvent(self.__OnClickDropInfoTrackerMode, 2)
+					self.dropInfoTrackerButtonList[2].SAFE_SetEvent(self.__OnClickDropInfoTrackerMode, 0)
+					self.RefreshDropInfoTrackerButtons()
+				except:
+					pass
 
 			elif categoryIndex == 2:#Sound
 				self.ctrlSoundVolume = GetObject("sound_volume_controller")
@@ -970,6 +984,23 @@ class GameOptionWindow(ui.BoardWithTitleBar):
 				return
 			pos = float(self.damageScaling.GetSliderPos())
 			systemSetting.SetDamageTextureScale(pos)
+
+	def __OnClickDropInfoTrackerMode(self, mode):
+		constInfo.SET_DROP_INFO_TRACKER_MODE(mode)
+		self.RefreshDropInfoTrackerButtons()
+
+	def RefreshDropInfoTrackerButtons(self):
+		if not self.dropInfoTrackerButtonList or len(self.dropInfoTrackerButtonList) < 3:
+			return
+		mode = constInfo.GET_DROP_INFO_TRACKER_MODE()
+		btnIdx = 0
+		if mode == 1:
+			btnIdx = 0
+		elif mode == 2:
+			btnIdx = 1
+		else:
+			btnIdx = 2
+		self.__ClickRadioButton(self.dropInfoTrackerButtonList, btnIdx)
 
 	if app.ENABLE_HIDE_MOB_SYSTEM:
 		def __OnHideState(self, type):

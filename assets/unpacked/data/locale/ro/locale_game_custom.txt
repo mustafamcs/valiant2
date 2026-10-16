@@ -1198,3 +1198,28 @@ DUNGEON_TIME_BONUS_NAME_02	Esotericilor
 DUNGEON_TIME_BONUS_NAME_03	Diavolului
 DUNGEON_TIME_BONUS_NAME_04	Vampirilor
 DUNGEON_TIME_BONUS_NAME_05	Animalelor
+GAMEOPTION_DROP_INFO_TITLE	Urmãrire Pradã Plutitoare
+GAMEOPTION_DROP_INFO_RIGHT	Dreapta
+GAMEOPTION_DROP_INFO_LEFT	Stânga
+CHAT_FILTER_ITEM	Obiecte
+CHAT_FILTER_YANG	Yang
+BUY_BACK_ACTION	Cumpãrã
+BUY_BACK_REFRESH	Reîmprospãteazã
+BUY_BACK_EMPTY_SLOT	%d. Slot Gol
+GM_ITEM_RESTORE_BTN	Recuperare GM
+GM_ITEM_RESTORE_TITLE	Centru Recuperare Obiecte ?terse / Vândute (GM)
+GM_ITEM_RESTORE_PLAYER	Nume Jucãtor / PID:
+GM_ITEM_RESTORE_VNUM	VNUM Obiect:
+GM_ITEM_RESTORE_SEARCH	Filtreazã / Cautã
+GM_ITEM_RESTORE_ALL	Toate
+GM_ITEM_RESTORE_DEL	?terse
+GM_ITEM_RESTORE_SELL	Vândute
+GM_ITEM_RESTORE_ACTION	Recupereazã
+BUY_BACK_BUTTON	Recupereazã ?terse / Vândute
+BUY_BACK_TITLE	Recupereazã Obiecte ?terse ?i Vândute (12)
+BUY_BACK_CONFIRM_TEXT	Vrei sã recuperezi %s (x%d) pentru 200.000.000 Yang?
+BUY_BACK_TAG_DEL	[?TERS]
+BUY_BACK_TAG_SELL	[VÂNDUT]
+BUY_BACK_DESC	Recupereazã ultimele 12 obiecte pentru |cFFFFD700(Pre? Vânzare + 200 M Yang)|r:
+BUY_BACK_CONFIRM_1	Vrei sã recuperezi |cFFFFD700%s (x%d)|r
+BUY_BACK_CONFIRM_2	pentru |cFFFFD700%s|r?

@@ -23,18 +23,28 @@ if (!(Test-Path $channelFile)) { Set-Content $channelFile '1 0 0' -Encoding asci
 $env:CL = "/MP$threads"
 $msbCommon = @("/m:$threads", "/p:CL_MPCount=$threads", "/p:UseMultiToolTask=true", "/p:EnforceProcessCountAcrossBuilds=true", "/v:minimal", "/nologo")
 
+Write-Host 'Acik istemci surecleri (M2Client.exe / config.exe / VALIANT2.exe) kapatiliyor...'
+Stop-ClientProcesses
+
 & $msbuild (Join-Path $root 'tools\client-config\Valiant2Config.csproj') /t:Build /p:Configuration=Release /p:Platform=AnyCPU @msbCommon
 if ($LASTEXITCODE -ne 0) { throw "Config build failed with code $LASTEXITCODE." }
+
+Stop-ClientProcesses
+$m2Bin = Join-Path $root 'runtime\client\game\bin\M2Client.exe'
+$m2Old = "$m2Bin.old"
+if (Test-Path $m2Old) { Remove-Item $m2Old -Force -ErrorAction SilentlyContinue }
+if (Test-Path $m2Bin) {
+    try { [IO.File]::OpenWrite($m2Bin).Close() }
+    catch { Move-Item $m2Bin $m2Old -Force -ErrorAction SilentlyContinue }
+}
 
 & $msbuild (Join-Path $root 'source\client\Antrum_Client_Global.sln') /t:Build /p:Configuration=Release /p:Platform=Win32 @msbCommon
 if ($LASTEXITCODE -ne 0) { throw "Client build failed with code $LASTEXITCODE." }
 
-# Eger oyun sunucusu calisiyorsa game.exe / db.exe kilitli olmamasi icin gecici durdur, bitince otomatik baslat
+# Eger oyun sunucusu calisiyorsa game.exe / db.exe kilitli olmamasi icin zorunlu durdur, bitince otomatik baslat
 $serverWasRunning = [bool](Get-Process -Name 'game','db' -ErrorAction SilentlyContinue)
-if ($serverWasRunning) {
-    Write-Host 'Calisan sunucu derleme icin gecici durduruluyor...'
-    Stop-ServerProcesses
-}
+Write-Host 'Sunucu surecleri (game.exe + db.exe) derleme icin kapatiliyor...'
+Stop-ServerProcesses
 
 & $msbuild (Join-Path $root 'source\server\source\AntrumServer.sln') /t:Build /p:Configuration=Release /p:Platform=Win32 @msbCommon
 if ($LASTEXITCODE -ne 0) { throw "Server build failed with code $LASTEXITCODE." }
@@ -46,6 +56,7 @@ if ($serverWasRunning) {
 
 & (Join-Path $PSScriptRoot 'build-control-center.ps1')
 & (Join-Path $PSScriptRoot 'build-patcher.ps1')
+& (Join-Path $PSScriptRoot 'build-quests.ps1') -NoReload
 
 if (!$SkipPacks) {
     if ($ForcePacks) {

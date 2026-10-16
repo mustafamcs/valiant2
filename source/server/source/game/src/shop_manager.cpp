@@ -332,14 +332,15 @@ void CShopManager::Sell(LPCHARACTER ch, CELL_UINT bCell,
 	ch->UpdateExtBattlePassMissionProgress(BP_ITEM_SELL, bCount, item->GetVnum());
 #endif
 #ifdef ENABLE_ITEM_SELL_LOG
-	TItemSellLog log;
+	TItemSellLog log{};
 	memcpy(&log.alSockets, item->GetSockets(), sizeof(log.alSockets));
 	memcpy(&log.aAttr, item->GetAttributes(), sizeof(log.aAttr));
 	log.dwVnum = item->GetVnum();
 	log.dwCount = bCount;
+	log.llPrice = dwPrice;
 	log.pid = ch->GetPlayerID();
 	snprintf(log.logType, sizeof(log.logType), "SHOP_SELL");
-	DBManager::instance().DirectQuery(ItemSellLogQuery(log).c_str());
+	std::unique_ptr<SQLMsg> pShopSellMsg(DBManager::instance().DirectQuery("%s", ItemSellLogQuery(log).c_str()));
 #endif
 
 	if (bCount == item->GetCount())
@@ -349,10 +350,17 @@ void CShopManager::Sell(LPCHARACTER ch, CELL_UINT bCell,
 	else
 	{
 		item->SetCount(item->GetCount() - bCount);
+		ITEM_MANAGER::instance().FlushDelayedSave(item);
 	}
-		
 
 	ch->PointChange(POINT_GOLD, dwPrice, false);
+#ifdef ENABLE_BUY_BACK_ITEM
+	ch->SendBuyBackListPacket();
+#endif
+	ch->SaveReal();
+	db_clientdesc->DBPacketHeader(HEADER_GD_FLUSH_CACHE, 0, sizeof(DWORD));
+	DWORD dwFlushPid = ch->GetPlayerID();
+	db_clientdesc->Packet(&dwFlushPid, sizeof(DWORD));
 }
 
 bool CompareShopItemName(const SShopItemTable& lhs, const SShopItemTable& rhs)

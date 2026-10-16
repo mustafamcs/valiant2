@@ -961,6 +961,14 @@ void CGuildManager::ChangeMaster(DWORD dwGID)
 {
 	TGuildMap::iterator iter = m_mapGuild.find(dwGID);
 
+#ifdef ENABLE_GUILD_MASTER_CRASH_FIX
+	if (iter != m_mapGuild.end())
+	{
+		iter->second->Load(dwGID);
+		DBManager::instance().FuncQuery(std::bind1st(std::mem_fun(&CGuild::SendGuildDataUpdateToAllMember), iter->second),
+			"SELECT 1");
+	}
+#else
 	if (iter != m_mapGuild.end())
 	{
 		iter->second->Load(dwGID);
@@ -968,4 +976,5 @@ void CGuildManager::ChangeMaster(DWORD dwGID)
 
 	DBManager::instance().FuncQuery(std::bind1st(std::mem_fun(&CGuild::SendGuildDataUpdateToAllMember), iter->second),
 		"SELECT 1");
+#endif
 }

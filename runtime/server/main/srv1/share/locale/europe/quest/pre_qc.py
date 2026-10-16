@@ -99,11 +99,13 @@ class PreQC(object):
 				#fix bug if .quest paths contain /
 				#you should not call two quests with the same name anyway
 				fname=fname.split("/")[-1]
-			retcode = os.system("./qc %s/%s"%(self.epath, fname))
+			qc_bin = "qc.exe" if os.name == "nt" else "./qc"
+			retcode = os.system("%s %s/%s"%(qc_bin, self.epath, fname))
 			if retcode:
 				print("Error %d occured on quest %s/%s"%(retcode, self.epath, fname))
 				os._exit(0)
-		os.system("chmod -R ug+rwx object")
+		if os.name != "nt":
+			os.system("chmod -R ug+rwx object")
 
 def split_by_quat(buf):
 	p = False

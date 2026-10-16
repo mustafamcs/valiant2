@@ -21,17 +21,17 @@ std::string g_stPlayerDBName = "";
 
 BOOL g_test_server = false;
 
-int g_iPlayerCacheFlushSeconds = 60 * 7;
-int g_iItemCacheFlushSeconds = 60 * 5;
-int g_iLogoutSeconds = 60 * 10;
+int g_iPlayerCacheFlushSeconds = 120;
+int g_iItemCacheFlushSeconds = 120;
+int g_iLogoutSeconds = 60 * 5;
 int g_log = 1;
 
 // MYSHOP_PRICE_LIST
-int g_iItemPriceListTableCacheFlushSeconds = 540;
+int g_iItemPriceListTableCacheFlushSeconds = 120;
 // END_OF_MYSHOP_PRICE_LIST
 
 #ifdef ENABLE_SKILL_COLOR_SYSTEM
-int g_iSkillColorCacheFlushSeconds = 60 * 7;
+int g_iSkillColorCacheFlushSeconds = 120;
 #endif
 
 #if defined(__FreeBSD__) && defined(__FreeBSD_version) && __FreeBSD_version<1000000
@@ -51,8 +51,48 @@ void emergency_sig(int sig)
 		abort();
 }
 
+#if defined(_WIN32) && defined(ENABLE_CRASH_MINIDUMP)
+#include <dbghelp.h>
+static LONG WINAPI ValiantDbUnhandledExceptionFilter(EXCEPTION_POINTERS* pExceptionInfo)
+{
+	HMODULE hDbgHelp = LoadLibraryA("dbghelp.dll");
+	if (hDbgHelp)
+	{
+		typedef BOOL(WINAPI* MiniDumpWriteDumpFn)(HANDLE, DWORD, HANDLE, MINIDUMP_TYPE, PMINIDUMP_EXCEPTION_INFORMATION, PMINIDUMP_USER_STREAM_INFORMATION, PMINIDUMP_CALLBACK_INFORMATION);
+		auto pMiniDumpWriteDump = reinterpret_cast<MiniDumpWriteDumpFn>(GetProcAddress(hDbgHelp, "MiniDumpWriteDump"));
+		if (pMiniDumpWriteDump)
+		{
+			CreateDirectoryA("log", nullptr);
+			time_t now = time(nullptr);
+			struct tm tmNow{};
+			localtime_s(&tmNow, &now);
+			char szFile[256];
+			snprintf(szFile, sizeof(szFile), "log\\db_crash_%04d%02d%02d_%02d%02d%02d_p%lu.dmp",
+				tmNow.tm_year + 1900, tmNow.tm_mon + 1, tmNow.tm_mday,
+				tmNow.tm_hour, tmNow.tm_min, tmNow.tm_sec, GetCurrentProcessId());
+			HANDLE hFile = CreateFileA(szFile, GENERIC_WRITE, FILE_SHARE_READ, nullptr, CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, nullptr);
+			if (hFile != INVALID_HANDLE_VALUE)
+			{
+				MINIDUMP_EXCEPTION_INFORMATION exInfo{};
+				exInfo.ThreadId = GetCurrentThreadId();
+				exInfo.ExceptionPointers = pExceptionInfo;
+				exInfo.ClientPointers = FALSE;
+				pMiniDumpWriteDump(GetCurrentProcess(), GetCurrentProcessId(), hFile,
+					static_cast<MINIDUMP_TYPE>(MiniDumpWithIndirectlyReferencedMemory | MiniDumpScanMemory),
+					pExceptionInfo ? &exInfo : nullptr, nullptr, nullptr);
+				CloseHandle(hFile);
+			}
+		}
+	}
+	return EXCEPTION_EXECUTE_HANDLER;
+}
+#endif
+
 int main()
 {
+#if defined(_WIN32) && defined(ENABLE_CRASH_MINIDUMP)
+	SetUnhandledExceptionFilter(ValiantDbUnhandledExceptionFilter);
+#endif
 	WriteVersion();
 
 #if defined(__FreeBSD__) && defined(__FreeBSD_version) && __FreeBSD_version<1000000

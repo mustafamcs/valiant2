@@ -17,6 +17,8 @@
 #include "../../common/Controls.h"
 #include "desc_client.h"
 #include "utils.h"
+#include "char_manager.h"
+#include "item_manager.h"
 #ifdef ENABLE_ADMINPAGE_TEXT
 #include "cmd.h"
 #include "cube.h"
@@ -107,6 +109,27 @@ static void ProcessAdminTextLine(LPDESC d, const char* c_pszText)
 	if (!strcmp(szCommand, "USER_COUNT"))
 	{
 		AdminTextReplyUserCount(d);
+	}
+	else if (!strcmp(szCommand, "FLUSH_SAVE"))
+	{
+		const DESC_MANAGER::DESC_SET& cset = DESC_MANAGER::instance().GetClientSet();
+		for (auto* pkClientDesc : cset)
+		{
+			if (pkClientDesc && pkClientDesc->GetCharacter())
+			{
+				LPCHARACTER ch = pkClientDesc->GetCharacter();
+				ch->SaveReal();
+				DWORD dwPid = ch->GetPlayerID();
+				db_clientdesc->DBPacketHeader(HEADER_GD_FLUSH_CACHE, 0, sizeof(DWORD));
+				db_clientdesc->Packet(&dwPid, sizeof(DWORD));
+			}
+		}
+		CHARACTER_MANAGER::instance().ProcessDelayedSave();
+		ITEM_MANAGER::instance().Update();
+		db_clientdesc->DBPacket(HEADER_GD_FLUSH_ALL_CACHE, 0, NULL, 0);
+		db_clientdesc->FlushOutput();
+		sys_log(0, "ADMINPAGE: FLUSH_SAVE executed for all connected characters and items.");
+		d->Packet("SUCCESS\n", 8);
 	}
 	else if (!strcmp(szCommand, "NOTICE"))
 	{

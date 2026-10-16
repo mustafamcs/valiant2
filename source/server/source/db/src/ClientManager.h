@@ -189,6 +189,7 @@ public:
 
 	void			UpdatePlayerCache();
 	void			UpdateItemCache();
+	void			FlushAllCachesNow();
 
 	// MYSHOP_PRICE_LIST
 

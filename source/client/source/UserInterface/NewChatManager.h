@@ -21,6 +21,7 @@ public:
 	bool IsLoaded() { return m_isLoad; }
 
 	void WriteFormat(std::string& localeString, const char* format);
+	bool IsItemGainChatID(WORD chatID) const;
 
 private:
 	std::unordered_map<WORD, std::string> m_mapLocaleString;

@@ -9,6 +9,7 @@ $baseUrl = Get-PublicBase $settings
 $src = Join-Path $root 'source\patchserver\src'
 $ico = Join-Path $root 'tools\branding\valiant2.ico'
 $csc = Get-CscExe
+Stop-BuildTargetProcesses -ProcessNames @('VALIANT2')
 
 foreach ($d in @("$patchRoot\patcher", "$patchRoot\patch\files")) { New-Item -ItemType Directory -Force -Path $d | Out-Null }
 

@@ -255,6 +255,47 @@ JewelAccessoryInfosDict = {
 
 SELECTED_ITEM_VNUM = [0, 0, 0, False] # Vnum, inventory, Slot, ShowTooltip
 
+# Drop Info Tracker Mode: 0 = Kapali (Normal Sohbet), 1 = Sagda, 2 = Solda
+DROP_INFO_TRACKER_MODE = 1
+DROP_INFO_CFG_LOADED = 0
+
+def LOAD_DROP_INFO_TRACKER_MODE():
+	global DROP_INFO_TRACKER_MODE, DROP_INFO_CFG_LOADED
+	if DROP_INFO_CFG_LOADED:
+		return DROP_INFO_TRACKER_MODE
+	DROP_INFO_CFG_LOADED = 1
+	try:
+		f = open("UserData/drop_info.cfg", "r")
+		val = int(f.read().strip())
+		f.close()
+		if val in (0, 1, 2):
+			DROP_INFO_TRACKER_MODE = val
+	except:
+		pass
+	return DROP_INFO_TRACKER_MODE
+
+def GET_DROP_INFO_TRACKER_MODE():
+	return LOAD_DROP_INFO_TRACKER_MODE()
+
+def SET_DROP_INFO_TRACKER_MODE(mode):
+	global DROP_INFO_TRACKER_MODE, DROP_INFO_CFG_LOADED
+	if mode not in (0, 1, 2):
+		mode = 1
+	DROP_INFO_TRACKER_MODE = mode
+	DROP_INFO_CFG_LOADED = 1
+	try:
+		import os
+		if not os.path.exists("UserData"):
+			os.makedirs("UserData")
+		f = open("UserData/drop_info.cfg", "w")
+		f.write(str(mode))
+		f.close()
+	except:
+		pass
+	gameInst = GetGameInstance()
+	if gameInst and hasattr(gameInst, "RefreshDropInfoTrackerOption"):
+		gameInst.RefreshDropInfoTrackerOption()
+
 ##################################################################
 
 def GET_BELT_MATERIAL_VNUM(vnum, subType = 0):

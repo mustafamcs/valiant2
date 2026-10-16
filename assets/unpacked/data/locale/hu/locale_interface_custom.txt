@@ -339,3 +339,28 @@ NEW_EXCHANGE_YOU	Te
 
 GLOBAL_RANKING_TITLE	Játékos Rangsor
 
+GAMEOPTION_DROP_INFO_TITLE	Lebegõ Zsákmány Követõ
+GAMEOPTION_DROP_INFO_RIGHT	Jobb
+GAMEOPTION_DROP_INFO_LEFT	Bal
+CHAT_FILTER_ITEM	Tárgy
+CHAT_FILTER_YANG	Yang
+BUY_BACK_ACTION	Visszavesz
+BUY_BACK_REFRESH	Lista Frissítése
+BUY_BACK_EMPTY_SLOT	%d. Üres Hely
+GM_ITEM_RESTORE_BTN	GM Tárgy Visszaállítás
+GM_ITEM_RESTORE_TITLE	GM Törölt / Eladott Tárgy Visszaállító Központ
+GM_ITEM_RESTORE_PLAYER	Játékos Név / PID:
+GM_ITEM_RESTORE_VNUM	Tárgy VNUM:
+GM_ITEM_RESTORE_SEARCH	Szûrés / Keresés
+GM_ITEM_RESTORE_ALL	Összes
+GM_ITEM_RESTORE_DEL	Törölt
+GM_ITEM_RESTORE_SELL	Eladott
+GM_ITEM_RESTORE_ACTION	Visszaállít
+BUY_BACK_BUTTON	Törölt / Eladott Visszaállítás
+BUY_BACK_TITLE	Törölt és Eladott Tárgyak Visszaállítása (12)
+BUY_BACK_CONFIRM_TEXT	Vissza szeretnéd állítani: %s (x%d) 200.000.000 Yangért?
+BUY_BACK_TAG_DEL	[TÖRÖLVE]
+BUY_BACK_TAG_SELL	[ELADVA]
+BUY_BACK_DESC	Utolsó 12 tárgy visszaállítása |cFFFFD700(Eladási Ár + 200 M Yang)|r-ért:
+BUY_BACK_CONFIRM_1	Vissza szeretnéd állítani: |cFFFFD700%s (x%d)|r
+BUY_BACK_CONFIRM_2	|cFFFFD700%s|r-ért?

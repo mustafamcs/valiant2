@@ -527,6 +527,30 @@ void parse(char* filename)
 						os << t;
 						lookahead(&lexstate);
 					}
+
+					// end of '.'
+					// check if it's a function call like .locale_quest(1692)
+					if (lexstate.lookahead.token == '(')
+					{
+						int depth = 0;
+						while (lexstate.lookahead.token != ')' || depth > 1)
+						{
+							if (lexstate.lookahead.token == '(')
+								depth++;
+							else if (lexstate.lookahead.token == ')')
+								depth--;
+
+							next(&lexstate);
+							t = lexstate.t;
+							os << t;
+							lookahead(&lexstate);
+						}
+						next(&lexstate);
+						t = lexstate.t;
+						os << t;
+						lookahead(&lexstate);
+					}
+
 					current_when_argument += os.str();
 				}
 				cout << "WHEN  : " << current_when_name;

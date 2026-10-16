@@ -115,6 +115,10 @@ VALIANT2/                                       Proje kökü (git repo)
 | `git-sanitize.ps1` | `.env`'den üretilen dosyaları (CONFIG'ler, conf.txt, start_panel.vbs) `git update-index --skip-worktree` ile diff'lerden gizler. `sync-config` ve `setup` otomatik çağırır — bu dosyaların değişiklik göstermesi NORMAL ve git'te görünmez |
 | `setup-database.ps1` | DB şema kurulumu |
 | `test-feature-flags.ps1` | bayrak açık/kapalı derleme testi |
+| `build-quests.cmd` | `qc.vcxproj` → `qc.exe` derler, `quest_list` içindeki tüm Lua questleri derler ve sunucuyu günceller |
+| `verify-project.cmd` | `Controls.h` senkronu, `Packet.h` çakışması, `AtlasInfo` hizası, `Quest` listesi, `DirectQuery` güvenliği ve `.dmp`/`syserr` denetimi yapar |
+| `add-locale-string.cmd` | 8 dilin (`tr,en,de,it,ro,pl,cz,hu`) `locale_interface_custom.txt` ve `locale_game_custom.txt` dosyalarına doğru kod sayfasıyla (`CP1254`/`CP1250`) çoklu dil anahtarı ekler |
+| `flush-db.cmd` | Çalışan tüm oyun kanallarına `@FLUSH_SAVE` göndererek bellekteki tüm oyuncu/eşya önbelleklerini anında MySQL'e yazar |
 
 ## Patch sistemi akışı
 
@@ -137,6 +141,12 @@ VALIANT2/                                       Proje kökü (git repo)
 - P2P/admin portları dışarıya açık ama `@` komutları `ADMINPAGE_IP1` (127.0.0.1) + parola korumalı.
 - Cloudflare Tunnel (`cloudflared`) ve Playit artık gerekmiyor.
 - **Linux symlink → Windows dosya sorunu**: git clone'da `CMD`, `CRC`, `PTS`, `VERSION`, `BANIP`, `data`, `locale`, `log` gibi dosyalar Linux'ta symlink ama Windows'ta düz metin (hedef yolu içerik olarak) olarak oluşur. game.exe bunları parse edince crash/exit yapar (ör. CMD içindeki `../share/conf/CMD` metni komut olarak parse edilip `exit(1)` çağrılır). `sync-config.ps1` her çağrıda bu dosyaları otomatik düzeltir.
+- **`DBManager::DirectQuery` Çift Formatlama (Core Crash) Tuzağı**: `DBManager::instance().DirectQuery(const char* c_pszFormat, ...)` kendi içinde `vsnprintf` çalıştırır. Eğer sorguyu önce `snprintf(szQuery, ...)` ile hazırlayıp sonra `DirectQuery(szQuery)` şeklinde verirseniz, SQL içindeki `LIKE '%...%'` veya `DATE_FORMAT(..., '%Y-%m-%d')` içindeki `%` karakterleri ikinci kez format belirteci olarak yorumlanır ve `game.exe` anında çöker! Hazır string gönderirken **her zaman** `DirectQuery("%s", szQuery)` kullanın.
+- **`DBManager` Metod İsimleri**: `game.exe` tarafındaki `DBManager` sınıfında `AsyncQuery` metodu **yoktur** (`Query` veya `DirectQuery` vardır).
+- **Çoklu Dil (`Multi-Language`) ve Türkçe Karakter Kuralı**: `root/*.py` veya `uiscript/*.py` içine asla doğrudan UTF-8 Türkçe karakter (`"Eşya"`) veya `\xfc` kaçış dizisi yazmayın (`CGraphicTextInstance` aktif dilin kod sayfasını — `tr/en/de/it` için `CP1254`, `ro/pl/cz/hu` için `CP1250` — kullanır). Yeni metin eklerken `scripts\windows\add-locale-string.ps1` ile 8 dilin `locale_interface_custom.txt` / `locale_game_custom.txt` dosyalarına ekleyip `localeInfo.ANAHTAR` veya `uiScriptLocale.ANAHTAR` kullanın.
+- **`ItemToolTip.AddItemData` Dizi Boyutu Kuralı**: `tooltipItem.AddItemData(vnum, metinSlot, attrSlot)` çağrısında `attrSlot` listesi mutlaka `player.ATTRIBUTE_SLOT_MAX_NUM` (10) elemanlı, `metinSlot` listesi `player.METIN_SOCKET_MAX_NUM` (6) elemanlı olmalıdır. Daha kısa dizi gönderilirse `__AdjustAttrMaxWidth` içinde `IndexError` oluşur ve iç görü kutusu boş kalır.
+- **Sohbet Protokolü (`L` / `BOARD_STATE_LOG`) Alpha Kuralı**: `PythonChat.cpp` içinde `BOARD_STATE_LOG` durumunda yalnızca `UpdateLogMode(dwID)` çağrılmalıdır; `UpdateViewMode` veya `UpdateEditMode` çağrılırsa satırların alpha değeri düşer ve yazılar silik görünür.
+- **Derleme Öncesi Zorunlu Süreç Kapatma ve `@FLUSH_SAVE`**: `FSArchiver.exe` hedef `.pak` dosyası zaten varsa üzerine yazmaz (`already exist` hatası verir) ve `M2Client.exe` açıkken `.pak` dosyalarını kilitler. `build-client-packs.ps1` ve `build-all.ps1` derleme öncesi `Stop-ClientProcesses` ile istemcileri kapatıp hedef `.pak` dosyasını siler; sunucu kapatılırken veya derlenirken de `Stop-ServerProcesses` otomatik olarak `Flush-ServerDatabaseCaches` (`@FLUSH_SAVE`) çağırıp tüm önbelleği MySQL'e yazar.
 
 ## Panel notları
 

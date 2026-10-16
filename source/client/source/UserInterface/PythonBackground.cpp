@@ -137,7 +137,9 @@ void CPythonBackground::SelectViewDistanceNum(int eNum)
 
 	if (!mc_pcurEnvironmentData)
 	{
+#ifndef ENABLE_CLIENT_SAFE_GUARD_FIX
 		TraceError("CPythonBackground::SelectViewDistanceNum(int eNum=%d) mc_pcurEnvironmentData is NULL", eNum);
+#endif
 		return;
 	}
 

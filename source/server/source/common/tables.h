@@ -122,6 +122,7 @@ enum GameToDBPackets
 #ifdef ENABLE_DROP_FROM_TABLE
 	HEADER_GD_MOB_DROP_TABLE_REQUEST_RELOAD	= 93,
 #endif
+	HEADER_GD_FLUSH_ALL_CACHE				= 94,
 	HEADER_GD_SETUP							= 0xff,
 
 };
@@ -2381,6 +2382,7 @@ typedef struct SItemSellLog
 	char logType[16];
 	DWORD dwVnum;
 	DWORD dwCount;
+	int64_t llPrice;
 	long alSockets[ITEM_SOCKET_MAX_NUM];
 	TPlayerItemAttribute aAttr[ITEM_ATTRIBUTE_MAX_NUM];
 }TItemSellLog;

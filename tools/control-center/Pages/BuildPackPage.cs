@@ -63,20 +63,22 @@ namespace Valiant2ControlCenter.Pages
             AddFullWidthBtn(buildCard, "✦ AUTOPATCHER DERLE & DAĞIT", ButtonStyle.Success, ref y, () =>
                 backend.RunPowerShellScriptAsync("Autopatcher Derle & Dağıt", "build-patcher.ps1"));
 
-            AddFullWidthBtn(buildCard, "⚙ CLIENT CONFIG (config.exe) DERLE", ButtonStyle.Secondary, ref y, async () =>
-            {
-                await BuildSingleSolution("Client Config (config.exe)", @"tools\client-config\Valiant2Config.csproj", "Release", "AnyCPU");
-            });
+            AddFullWidthBtn(buildCard, "📜 QUESTLERİ DERLE & YÜKLE (qc.exe)", ButtonStyle.PrimaryGold, ref y, () =>
+                backend.RunPowerShellScriptAsync("Quest Derleme (build-quests.ps1)", "build-quests.ps1"));
 
-            var btnDump = Theme.CreateButton("📜 DUMP_PROTO", ButtonStyle.Secondary, 140, 28);
+            var btnDump = Theme.CreateButton("⚙ CONFIG.EXE", ButtonStyle.Secondary, 92, 28);
             btnDump.Location = new Point(10, y);
-            btnDump.Click += async (s, e) => await BuildSingleSolution("DumpProto", @"tools\dump-proto\DumpProto.sln", "Release", "Win32");
+            btnDump.Click += async (s, e) => await BuildSingleSolution("Client Config (config.exe)", @"tools\client-config\Valiant2Config.csproj", "Release", "AnyCPU");
 
-            var btnClean = Theme.CreateButton("� TEMİZLE", ButtonStyle.Danger, 140, 28);
-            btnClean.Location = new Point(156, y);
+            var btnVerify = Theme.CreateButton("DENETLE", ButtonStyle.Success, 94, 28);
+            btnVerify.Location = new Point(107, y);
+            btnVerify.Click += async (s, e) => await backend.RunPowerShellScriptAsync("Proje Bütünlük Denetimi", "verify-project.ps1");
+
+            var btnClean = Theme.CreateButton("TEMİZLE", ButtonStyle.Danger, 91, 28);
+            btnClean.Location = new Point(205, y);
             btnClean.Click += async (s, e) => await backend.RunPowerShellScriptAsync("Proje Temizliği", "cleanup-project.ps1");
 
-            buildCard.Controls.AddRange(new Control[] { lblBuildTitle, btnDump, btnClean });
+            buildCard.Controls.AddRange(new Control[] { lblBuildTitle, btnDump, btnVerify, btnClean });
 
             // Right Card: Pack Studio
             var packCard = new BufferedPanel
@@ -190,9 +192,11 @@ $msbuild = & $vswhere -latest -products * -requires Microsoft.Component.MSBuild 
 $srvRunning = $false
 if (${6}) {{
     $srvRunning = [bool](Get-Process -Name 'game','db' -ErrorAction SilentlyContinue)
-    if ($srvRunning) {{ Get-Process -Name 'game','db' -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue }}
+    Write-Host 'Sunucu surecleri (game.exe + db.exe) derleme icin kapatiliyor...'
+    Stop-ServerProcesses
 }} else {{
-    Get-Process -Name 'M2Client' -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
+    Write-Host 'Istemci surecleri (M2Client.exe / config.exe) derleme icin kapatiliyor...'
+    Stop-ClientProcesses
 }}
 $env:CL = ""/MP$threads""
 & $msbuild '{2}' /m:$threads /p:CL_MPCount=$threads /p:UseMultiToolTask=true /p:EnforceProcessCountAcrossBuilds=true /t:Build /p:Configuration={3} /p:Platform={4} /v:minimal /nologo

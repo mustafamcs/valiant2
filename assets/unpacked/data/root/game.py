@@ -79,6 +79,7 @@ if app.ENABLE_PM_ALL_SEND_SYSTEM:
 
 # if app.ENABLE_BOT_CONTROL:
 import uisecurity
+import uivalianttools
 
 class GameWindow(ui.ScriptWindow):
     def __init__(self, stream):
@@ -153,6 +154,18 @@ class GameWindow(ui.ScriptWindow):
         if app.ENABLE_MOVIEMODE_CAMERA:
             self.isFreeCamera = False
             self.ResetFreeCam()
+
+        self.wndDropInfoTracker = None
+        if getattr(app, "ENABLE_DROP_INFO_WINDOW", 0):
+            self.wndDropInfoTracker = uivalianttools.DropInfoTrackerWindow()
+
+        self.wndBuyBack = None
+        self.wndGmItemRestore = None
+        if getattr(app, "ENABLE_BUY_BACK_ITEM", 0):
+            self.wndBuyBack = uivalianttools.BuyBackWindow()
+            self.wndBuyBack.Hide()
+            self.wndGmItemRestore = uivalianttools.GmItemRestoreWindow()
+            self.wndGmItemRestore.Hide()
 
         self.__ServerCommand_Build()
         self.__ProcessPreservedServerCommand()
@@ -335,6 +348,18 @@ class GameWindow(ui.ScriptWindow):
                 app.SetDefaultCamera()
                 self.isFreeCamera = False
                 self.freeCam = list()
+
+        if self.wndDropInfoTracker:
+            self.wndDropInfoTracker.Hide()
+            self.wndDropInfoTracker = None
+
+        if self.wndBuyBack:
+            self.wndBuyBack.Hide()
+            self.wndBuyBack = None
+
+        if self.wndGmItemRestore:
+            self.wndGmItemRestore.Hide()
+            self.wndGmItemRestore = None
 
         try:
                 if self.wndMiningGame:
@@ -911,7 +936,30 @@ class GameWindow(ui.ScriptWindow):
         self.interface.RecvWhisper(name)
 
     def OnPickMoney(self, money):
-        chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.GAME_PICK_MONEY % (money))
+        moneyVal = int(money)
+        if getattr(app, "ENABLE_DROP_INFO_WINDOW", 0) and hasattr(chat, "CHAT_TYPE_MONEY_INFO"):
+            chat.AppendChat(chat.CHAT_TYPE_MONEY_INFO, localeInfo.GAME_PICK_MONEY % (moneyVal))
+            if self.wndDropInfoTracker and constInfo.GET_DROP_INFO_TRACKER_MODE() != 0:
+                self.wndDropInfoTracker.AddMoneyPickup(moneyVal)
+        else:
+            chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.GAME_PICK_MONEY % (moneyVal))
+
+    def BINARY_OnPickItem(self, vnum, count):
+        if getattr(app, "ENABLE_DROP_INFO_WINDOW", 0) and self.wndDropInfoTracker:
+            if constInfo.GET_DROP_INFO_TRACKER_MODE() != 0:
+                self.wndDropInfoTracker.AddItemPickup(int(vnum), int(count))
+
+    def RefreshDropInfoTrackerOption(self):
+        if self.wndDropInfoTracker:
+            self.wndDropInfoTracker.RefreshModeAndPosition()
+        if self.interface and self.interface.wndChat and hasattr(chat, "CHAT_TYPE_ITEM_INFO"):
+            chatID = self.interface.wndChat.chatID
+            if constInfo.GET_DROP_INFO_TRACKER_MODE() != 0:
+                chat.DisableChatMode(chatID, chat.CHAT_TYPE_ITEM_INFO)
+                chat.DisableChatMode(chatID, chat.CHAT_TYPE_MONEY_INFO)
+            else:
+                chat.EnableChatMode(chatID, chat.CHAT_TYPE_ITEM_INFO)
+                chat.EnableChatMode(chatID, chat.CHAT_TYPE_MONEY_INFO)
 
     def OnShopError(self, type):
         try:
@@ -1953,6 +2001,14 @@ class GameWindow(ui.ScriptWindow):
                 "RefreshDungeonTimer"				:self.RefreshDungeonTimer,
             })
 
+        if getattr(app, "ENABLE_BUY_BACK_ITEM", 0):
+            serverCommandList.update({
+                "BuyBackClear"					: self.BINARY_BuyBackClear,
+                "BuyBackItem"					: self.BINARY_BuyBackAppend,
+                "GmRestoreClear"				: self.BINARY_GmRestoreClear,
+                "GmRestoreItem"					: self.BINARY_GmRestoreAppend,
+            })
+
         self.serverCommander=stringCommander.Analyzer()
         for serverCommandItem in serverCommandList.items():
             self.serverCommander.SAFE_RegisterCallBack(
@@ -2645,7 +2701,11 @@ class GameWindow(ui.ScriptWindow):
             cmd = int(cmd)
 
             if cmd == 0:
-                self.interface.wndVoteIcon.Hide()
+                if self.interface:
+                    if self.interface.wndVoteIcon:
+                        self.interface.wndVoteIcon.Hide()
+                    if self.interface.wndTaskBar and getattr(self.interface.wndTaskBar, "Vote4BuffButton", None):
+                        self.interface.wndTaskBar.Vote4BuffButton.Hide()
                 return
 
             if self.interface:
@@ -2847,3 +2907,33 @@ class GameWindow(ui.ScriptWindow):
                 interface.wndCubeRenewal.Close()
             if interface.dlgRefineNew:
                 interface.dlgRefineNew.CancelRefine()
+
+    def BINARY_BuyBackClear(self):
+        if self.wndBuyBack:
+            self.wndBuyBack.ClearItems()
+
+    def BINARY_BuyBackAppend(self, logId, vnum, count, price, logType, sellDate, socketsStr, a0, a1, a2, a3, a4, a5, a6):
+        if self.wndBuyBack:
+            self.wndBuyBack.AppendItem(logId, vnum, count, price, logType, sellDate, socketsStr, a0, a1, a2, a3, a4, a5, a6)
+
+    def BINARY_GmRestoreClear(self):
+        if self.wndGmItemRestore:
+            self.wndGmItemRestore.ClearItems()
+
+    def BINARY_GmRestoreAppend(self, logId, pid, playerName, logType, vnum, count, price, sellDate, socketsStr, a0, a1, a2, a3, a4, a5, a6):
+        if self.wndGmItemRestore:
+            self.wndGmItemRestore.AppendItem(logId, pid, playerName, logType, vnum, count, price, sellDate, socketsStr, a0, a1, a2, a3, a4, a5, a6)
+
+    def OpenBuyBackWindow(self):
+        if self.wndBuyBack:
+            if self.wndBuyBack.IsShow():
+                self.wndBuyBack.Close()
+            else:
+                self.wndBuyBack.Open()
+
+    def OpenGmItemRestoreWindow(self):
+        if self.wndGmItemRestore:
+            if self.wndGmItemRestore.IsShow():
+                self.wndGmItemRestore.Close()
+            else:
+                self.wndGmItemRestore.Open()

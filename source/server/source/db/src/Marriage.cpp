@@ -319,7 +319,11 @@ namespace marriage
 				if (it == m_mapRunningWedding.end())
 					continue;
 
+#ifdef ENABLE_MARRIAGE_CRASH_FIX
+				TWedding w = it->second;
+#else
 				TWedding& w = it->second;
+#endif
 
 				TPacketWeddingEnd p;
 				p.dwPID1 = w.dwPID1;

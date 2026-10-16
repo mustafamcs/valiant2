@@ -670,6 +670,13 @@ class ChatWindow(ui.Window):
 		self.boardState = chat.BOARD_STATE_VIEW
 		self.chatID = chat.CreateChatSet(chat.CHAT_SET_CHAT_WINDOW)
 		chat.SetBoardState(self.chatID, chat.BOARD_STATE_VIEW)
+		if getattr(app, "ENABLE_DROP_INFO_WINDOW", 0) and hasattr(chat, "CHAT_TYPE_ITEM_INFO"):
+			if constInfo.GET_DROP_INFO_TRACKER_MODE() != 0:
+				chat.DisableChatMode(self.chatID, chat.CHAT_TYPE_ITEM_INFO)
+				chat.DisableChatMode(self.chatID, chat.CHAT_TYPE_MONEY_INFO)
+			else:
+				chat.EnableChatMode(self.chatID, chat.CHAT_TYPE_ITEM_INFO)
+				chat.EnableChatMode(self.chatID, chat.CHAT_TYPE_MONEY_INFO)
 
 		if app.ENABLE_FONT_SELECT:
 			if localeInfo.GetFontType() == 3:
@@ -887,6 +894,11 @@ class ChatWindow(ui.Window):
 		}
 		if app.ENABLE_DICE_SYSTEM:
 			CHAT_COLOR_DICT.update({chat.CHAT_TYPE_DICE_INFO : colorInfo.CHAT_RGB_DICE_INFO,})
+		if getattr(app, "ENABLE_DROP_INFO_WINDOW", 0) and hasattr(chat, "CHAT_TYPE_ITEM_INFO"):
+			CHAT_COLOR_DICT.update({
+				chat.CHAT_TYPE_ITEM_INFO : (135, 245, 175),
+				chat.CHAT_TYPE_MONEY_INFO : (255, 215, 0),
+			})
 
 		for colorItem in CHAT_COLOR_DICT.items():
 			type=colorItem[0]
@@ -1164,7 +1176,13 @@ class ChatLogWindow(ui.Window):
 		CHAT_MODE_NAME.append(localeInfo.CHAT_DICE_INFO)
 		CHAT_MODE_INDEX.append(chat.CHAT_TYPE_DICE_INFO)
 
-	CHAT_LOG_WINDOW_MINIMUM_WIDTH = 450
+	if getattr(app, "ENABLE_DROP_INFO_WINDOW", 0) and hasattr(chat, "CHAT_TYPE_ITEM_INFO"):
+		CHAT_MODE_NAME.append(localeInfo.CHAT_FILTER_ITEM)
+		CHAT_MODE_INDEX.append(chat.CHAT_TYPE_ITEM_INFO)
+		CHAT_MODE_NAME.append(localeInfo.CHAT_FILTER_YANG)
+		CHAT_MODE_INDEX.append(chat.CHAT_TYPE_MONEY_INFO)
+
+	CHAT_LOG_WINDOW_MINIMUM_WIDTH = 540
 	CHAT_LOG_WINDOW_MINIMUM_HEIGHT = 120
 
 	class ResizeButton(ui.DragButton):

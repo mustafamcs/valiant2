@@ -3685,3 +3685,54 @@ ACMD(do_drop_calc)
 
 }
 #endif
+
+#ifdef ENABLE_BUY_BACK_ITEM
+ACMD(do_buy_back_item)
+{
+	if (!ch)
+		return;
+
+	char arg1[256];
+	const char* rest = one_argument(argument, arg1, sizeof(arg1));
+
+	if (!*arg1 || !str_cmp(arg1, "list"))
+	{
+		ch->SendBuyBackListPacket();
+		return;
+	}
+
+	if (!str_cmp(arg1, "gm_list"))
+	{
+		if (!ch->IsGM())
+			return;
+		char szPlayer[128] = { 0 };
+		char szVnum[64] = { 0 };
+		char szType[64] = { 0 };
+		rest = one_argument(rest, szPlayer, sizeof(szPlayer));
+		rest = one_argument(rest, szVnum, sizeof(szVnum));
+		one_argument(rest, szType, sizeof(szType));
+		DWORD dwVnumFilter = 0;
+		if (*szVnum)
+			str_to_number(dwVnumFilter, szVnum);
+		ch->SendGmItemRestoreListPacket(szPlayer, dwVnumFilter, szType);
+		return;
+	}
+
+	if (!str_cmp(arg1, "gm_restore"))
+	{
+		if (!ch->IsGM())
+			return;
+		char szLogId[64] = { 0 };
+		one_argument(rest, szLogId, sizeof(szLogId));
+		uint64_t ullLogId = 0;
+		str_to_number(ullLogId, szLogId);
+		if (ullLogId > 0)
+			ch->GmRestoreDeletedOrSoldItem(ullLogId);
+		return;
+	}
+
+	int idx = -1;
+	str_to_number(idx, arg1);
+	ch->BuyBackSoldItem(idx);
+}
+#endif

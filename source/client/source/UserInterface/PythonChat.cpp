@@ -253,15 +253,7 @@ void CPythonChat::Update(DWORD dwID)
 		UpdateEditMode(dwID);
 		break;
 	case BOARD_STATE_LOG:
-#ifdef ENABLE_MULTI_LANGUAGE_SYSTEM
-	{
 		UpdateLogMode(dwID);
-		UpdateViewMode(dwID);
-		UpdateEditMode(dwID);
-	}
-#else
-		UpdateLogMode(dwID);
-#endif
 		break;
 	}
 
@@ -560,6 +552,9 @@ void CPythonChat::AppendChat(int iType, const char* c_szChat)
 		}
 		else
 		{
+			if (!pChatSet->CheckMode(pChatLine->iType))
+				continue;
+
 			pChatSet->m_ShowingChatLineList.push_back(pChatLine);
 			if (pChatSet->m_ShowingChatLineList.size() > CHAT_LINE_MAX_NUM)
 			{
@@ -753,6 +748,10 @@ void CPythonChat::__Initialize()
 	m_akD3DXClrChat[CHAT_TYPE_ZODIAC_NOTICE] = D3DXCOLOR(1.0f, 0.785f, 0.785f, 1.0f);
 	m_akD3DXClrChat[CHAT_TYPE_ZODIAC_SUB_NOTICE] = D3DXCOLOR(1.0f, 0.785f, 0.785f, 1.0f);
 	m_akD3DXClrChat[CHAT_TYPE_ZODIAC_NOTICE_CLEAR] = D3DXCOLOR(1.0f, 0.785f, 0.785f, 1.0f);
+#endif
+#ifdef ENABLE_DROP_INFO_WINDOW
+	m_akD3DXClrChat[CHAT_TYPE_ITEM_INFO] = D3DXCOLOR(1.0f, 0.785f, 0.785f, 1.0f);
+	m_akD3DXClrChat[CHAT_TYPE_MONEY_INFO] = D3DXCOLOR(1.0f, 0.843f, 0.0f, 1.0f);
 #endif
 }
 

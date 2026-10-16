@@ -87,6 +87,14 @@ if (WebTitle('Anasayfa')) {
   echo lang('Patch.sayfa.patch');
 }else if (WebTitle('Sandik')) {
   echo lang('Sandik.sayfa.sandik');
+}else if (WebTitle('Harita')) {
+  echo 'Harita, Regen & Atlas Stüdyosu';
+}else if (WebTitle('Arindirma')) {
+  echo 'Arındırma (Cube) Tarif Stüdyosu';
+}else if (WebTitle('Ekonomi')) {
+  echo 'Ekonomi, 360° Kaynak & Anti-Cheat Merkezi';
+}else if (WebTitle('Sistemler')) {
+  echo 'Oyun Sistemleri (Controls.h) & Profiller';
 }else {
   echo lang('Hata.sayfaBulunamadi');
 }

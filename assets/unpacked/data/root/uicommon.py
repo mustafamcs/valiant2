@@ -1483,13 +1483,35 @@ class QuestionDialogItem(ui.ScriptWindow):
 		self.GetChild("cancel").SetPosition(75, 74 + 32*ySlotCount + self.height)
 		self.GetChild("destroy").SetPosition(0, 74 + 32*ySlotCount + self.height)
 
-		self.board.SetSize(self.board.GetWidth(), self.board.GetHeight() + 30)
+		extraBuyBackHeight = 0
+		if getattr(app, "ENABLE_BUY_BACK_ITEM", 0):
+			extraBuyBackHeight = 28
+			btnBuyBack = ui.Button()
+			btnBuyBack.SetParent(self.board)
+			btnBuyBack.SetWindowHorizontalAlignCenter()
+			btnBuyBack.SetPosition(0, 100 + 32*ySlotCount + self.height)
+			btnBuyBack.SetUpVisual("d:/ymir work/ui/public/large_button_01.sub")
+			btnBuyBack.SetOverVisual("d:/ymir work/ui/public/large_button_02.sub")
+			btnBuyBack.SetDownVisual("d:/ymir work/ui/public/large_button_03.sub")
+			btnBuyBack.SetText(localeInfo.BUY_BACK_BUTTON)
+			btnBuyBack.SetEvent(ui.__mem_func__(self.__OnClickBuyBack))
+			btnBuyBack.Show()
+			self.btnBuyBack = btnBuyBack
+
+		self.SetSize(260, 100 + 32*ySlotCount + self.height + extraBuyBackHeight)
+		self.board.SetSize(self.board.GetWidth(), self.board.GetHeight() + 30 + extraBuyBackHeight)
 
 		self.titleBar.SetCloseEvent(ui.__mem_func__(self.Close))
 		
 		self.SetCenterPosition()
 		self.SetTop()
 		self.Show()
+
+	def __OnClickBuyBack(self):
+		self.Close()
+		gameInst = constInfo.GetGameInstance()
+		if gameInst and hasattr(gameInst, "OpenBuyBackWindow"):
+			gameInst.OpenBuyBackWindow()
 
 	def SetCloseEvent(self, event):
 		self.titleBar.SetCloseEvent(event)
@@ -1514,6 +1536,7 @@ class QuestionDialogItem(ui.ScriptWindow):
 		self.titleName = None
 		self.textLine = None
 		self.slotGrid = None
+		self.btnBuyBack = None
 		
 		self.tooltipItem = 0
 		self.Hide()

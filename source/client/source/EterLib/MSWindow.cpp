@@ -6,6 +6,42 @@
 CMSWindow::TWindowClassSet CMSWindow::ms_stWCSet;
 HINSTANCE CMSWindow::ms_hInstance = NULL;
 
+#ifdef ENABLE_CLIENT_DARK_MODE
+static bool IsSystemDarkMode()
+{
+	DWORD value = 1;
+	DWORD size = sizeof(value);
+	if (::RegGetValueW(HKEY_CURRENT_USER,
+			L"Software\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize",
+			L"AppsUseLightTheme", RRF_RT_REG_DWORD, nullptr, &value, &size) != ERROR_SUCCESS)
+		return false;
+
+	return value == 0;
+}
+
+static void ApplySystemTitleBarTheme(HWND hWnd)
+{
+	using DwmSetWindowAttributeFn = HRESULT(WINAPI*)(HWND, DWORD, LPCVOID, DWORD);
+	constexpr DWORD UseImmersiveDarkMode = 20;
+	constexpr DWORD UseImmersiveDarkModeBefore20H1 = 19;
+
+	static HMODULE s_dwm = ::LoadLibraryA("dwmapi.dll");
+	if (!s_dwm)
+		return;
+
+	static auto s_setAttr =
+		reinterpret_cast<DwmSetWindowAttributeFn>(
+			::GetProcAddress(s_dwm, "DwmSetWindowAttribute"));
+
+	if (!s_setAttr)
+		return;
+
+	BOOL dark = IsSystemDarkMode() ? TRUE : FALSE;
+	if (FAILED(s_setAttr(hWnd, UseImmersiveDarkMode, &dark, sizeof(dark))))
+		s_setAttr(hWnd, UseImmersiveDarkModeBefore20H1, &dark, sizeof(dark));
+}
+#endif
+
 LRESULT CALLBACK MSWindowProcedure(HWND hWnd, UINT uiMsg, WPARAM wParam, LPARAM lParam)
 {
 	CMSWindow* pWnd = (CMSWindow*)GetWindowLong(hWnd, GWL_USERDATA);
@@ -27,6 +63,17 @@ LRESULT CMSWindow::WindowProcedure(HWND hWnd, UINT uiMsg, WPARAM wParam, LPARAM 
 	case WM_ACTIVATEAPP:
 		m_isActive = (wParam == WA_ACTIVE) || (wParam == WA_CLICKACTIVE);
 		break;
+
+#ifdef ENABLE_CLIENT_DARK_MODE
+	case WM_SETTINGCHANGE:
+		if (lParam && ::lstrcmpiW((LPCWSTR)lParam, L"ImmersiveColorSet") == 0)
+		{
+			ApplySystemTitleBarTheme(hWnd);
+			::SetWindowPos(hWnd, nullptr, 0, 0, 0, 0,
+				SWP_NOMOVE | SWP_NOSIZE | SWP_NOZORDER | SWP_NOACTIVATE | SWP_FRAMECHANGED);
+		}
+		break;
+#endif
 	}
 
 	return DefWindowProc(hWnd, uiMsg, wParam, lParam);
@@ -80,6 +127,9 @@ bool CMSWindow::Create(const char* c_szName, int brush, DWORD cs, DWORD ws, HICO
 		return false;
 
 	SetWindowLong(m_hWnd, GWL_USERDATA, (DWORD)this);
+#ifdef ENABLE_CLIENT_DARK_MODE
+	ApplySystemTitleBarTheme(m_hWnd);
+#endif
 	//DestroyWindow(ImmGetDefaultIMEWnd(m_hWnd));
 
 	return true;

@@ -7,7 +7,6 @@
 
 FILE* fException;
 
-#define ENABLE_CRASH_MINIDUMP
 #ifdef ENABLE_CRASH_MINIDUMP
 #include <iomanip>
 #include <sstream>

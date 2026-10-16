@@ -328,6 +328,9 @@ ACMD(do_new_full);
 #ifdef ENABLE_DROP_CALCULATOR
 ACMD(do_drop_calc);
 #endif
+#ifdef ENABLE_BUY_BACK_ITEM
+ACMD(do_buy_back_item);
+#endif
 
 struct command_info cmd_info[] =
 {
@@ -698,6 +701,9 @@ struct command_info cmd_info[] =
 	{ "newfull",	do_new_full, 0, POS_DEAD,		GM_IMPLEMENTOR },
 #ifdef ENABLE_DROP_CALCULATOR
 	{ "drop_calcute", do_drop_calc, 0, POS_DEAD,		GM_IMPLEMENTOR },
+#endif
+#ifdef ENABLE_BUY_BACK_ITEM
+	{ "buy_back_item", do_buy_back_item, 0, POS_DEAD, GM_PLAYER },
 #endif
 	{ "\n",		NULL,			0,			POS_DEAD,	GM_IMPLEMENTOR	}
 };

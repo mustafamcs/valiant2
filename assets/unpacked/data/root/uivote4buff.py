@@ -111,8 +111,11 @@ class VoteWindow(ui.BoardWithTitleBar):
 	def ConfirmVote(self, index):
 		net.SendChatPacket("/vote_bonus {}".format(index+1))
 		self.Close()
+		if self.interface and hasattr(self.interface, "wndTaskBar") and self.interface.wndTaskBar and getattr(self.interface.wndTaskBar, "Vote4BuffButton", None):
+			self.interface.wndTaskBar.Vote4BuffButton.Hide()
 
 	def Open(self):
+		self.SetTop()
 		self.Show()
 
 	def Close(self):
@@ -135,14 +138,23 @@ class VoteImage(ui.ExpandedImageBox):
 		self.SetPosition(20, 500)
 		self.eventType = 0
 		self.VoteWindow = VoteWindow()
+		self.Hide()
 
 	def __del__(self):
 		ui.ExpandedImageBox.__del__(self)
 	def SetEventType(self, event):
 		self.eventType = event
 	def Open(self):
-		self.LoadImage("d:/ymir work/ui/game/biolog_system/icon01.png")
-		self.Show()
+		self.Hide()
+		interface = constInfo.GetInterfaceInstance()
+		if interface and hasattr(interface, "wndTaskBar") and interface.wndTaskBar and getattr(interface.wndTaskBar, "Vote4BuffButton", None):
+			interface.wndTaskBar.Vote4BuffButton.Show()
+
+	def Hide(self):
+		ui.ExpandedImageBox.Hide(self)
+		interface = constInfo.GetInterfaceInstance()
+		if interface and hasattr(interface, "wndTaskBar") and interface.wndTaskBar and getattr(interface.wndTaskBar, "Vote4BuffButton", None):
+			interface.wndTaskBar.Vote4BuffButton.Hide()
 
 	def OnMouseLeftButtonDown(self):
 		self.VoteWindow.Open()

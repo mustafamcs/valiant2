@@ -335,7 +335,11 @@ void CHARACTER::Initialize()
 
 	m_dwQuestNPCVID = 0;
 	m_dwQuestByVnum = 0;
+#ifdef ENABLE_QUEST_ITEM_DUPE_FIX
+	m_dwQuestItemVID = 0;
+#else
 	m_pQuestItem = NULL;
+#endif
 
 	m_dwUnderGuildWarInfoMessageTime = get_dword_time() - 60000;
 
@@ -6762,33 +6766,57 @@ LPCHARACTER CHARACTER::GetQuestNPC() const
 
 void CHARACTER::SetQuestItemPtr(LPITEM item)
 {
+#ifdef ENABLE_QUEST_ITEM_DUPE_FIX
+	m_dwQuestItemVID = item ? item->GetVID() : 0;
+#else
 	m_pQuestItem = item;
+#endif
 }
 
 void CHARACTER::ClearQuestItemPtr()
 {
+#ifdef ENABLE_QUEST_ITEM_DUPE_FIX
+	m_dwQuestItemVID = 0;
+#else
 	m_pQuestItem = NULL;
+#endif
 }
 
 LPITEM CHARACTER::GetQuestItemPtr() const
 {
+#ifdef ENABLE_QUEST_ITEM_DUPE_FIX
+	return m_dwQuestItemVID ? ITEM_MANAGER::instance().FindByVID(m_dwQuestItemVID) : NULL;
+#else
 	return m_pQuestItem;
+#endif
 }
 
 #ifdef ENABLE_QUEST_DND_EVENT
 void CHARACTER::SetQuestDNDItemPtr(LPITEM item)
 {
+#ifdef ENABLE_QUEST_ITEM_DUPE_FIX
+	m_dwQuestDNDItemVID = item ? item->GetVID() : 0;
+#else
 	m_pQuestDNDItem = item;
+#endif
 }
 
 void CHARACTER::ClearQuestDNDItemPtr()
 {
+#ifdef ENABLE_QUEST_ITEM_DUPE_FIX
+	m_dwQuestDNDItemVID = 0;
+#else
 	m_pQuestDNDItem = NULL;
+#endif
 }
 
 LPITEM CHARACTER::GetQuestDNDItemPtr() const
 {
+#ifdef ENABLE_QUEST_ITEM_DUPE_FIX
+	return m_dwQuestDNDItemVID ? ITEM_MANAGER::instance().FindByVID(m_dwQuestDNDItemVID) : NULL;
+#else
 	return m_pQuestDNDItem;
+#endif
 }
 #endif
 
@@ -9066,9 +9094,24 @@ void CHARACTER::HackLogAdd(bool botControl)
 			GetPlayerID());
 	}
 	DBManager::instance().DirectQuery(query);
+#ifdef ENABLE_SERVER_ANTIHACK_GUARD
+	char detailQuery[512];
+	const char* szIp = GetDesc() ? GetDesc()->GetHostName() : "0.0.0.0";
+	snprintf(detailQuery, sizeof(detailQuery),
+		"INSERT INTO log.hack_log (pid, login, name, ip, hack_type, map_index, x, y, log_date) VALUES (%u, '%s', '%s', '%s', '%s', %ld, %ld, %ld, NOW())",
+		GetPlayerID(),
+		GetDesc() ? GetDesc()->GetAccountTable().login : "",
+		GetName(),
+		szIp,
+		botControl ? "BOT_CONTROL_FAIL" : "ATTACK_SPEED_HACK",
+		GetMapIndex(),
+		GetX(),
+		GetY());
+	std::unique_ptr<SQLMsg> pHackMsg(DBManager::instance().DirectQuery("%s", detailQuery));
+#endif
 
 	Save();
-	if (GetDesc()->IsPhase(PHASE_GAME))
+	if (GetDesc() && GetDesc()->IsPhase(PHASE_GAME))
 	{
 		GetDesc()->SetPhase(PHASE_CLOSE);
 	}
@@ -10231,7 +10274,8 @@ void CHARACTER::SelectVoteBuff(BYTE buffType)
 	bonusTime = 86400;
 	AddVoteBuff(buffType, bonusTime);
 
-	DBManager::instance().DirectQuery("UPDATE account.hwid_list SET vote_buff_time = %u, vote_buff_type = %u WHERE id = %u", (get_global_time() + bonusTime), buffType, GetDesc()->GetAccountTable().descHwidID);
+	std::unique_ptr<SQLMsg> pVoteUpd(DBManager::instance().DirectQuery("UPDATE account.hwid_list SET vote_buff_time = %u, vote_buff_type = %u WHERE id = %u", (get_global_time() + bonusTime), buffType, GetDesc()->GetAccountTable().descHwidID));
+	ChatPacket(CHAT_TYPE_COMMAND, "Vote4Buff %u", 0);
 }
 #endif
 
@@ -10779,3 +10823,391 @@ void CHARACTER::TestYapcam31(BYTE value)
 	ChatPacket(1, "%d POINT_RESIST_NORMAL_DAMAGE", GetPoint(POINT_RESIST_NORMAL_DAMAGE));
 
 }
+
+#ifdef ENABLE_BUY_BACK_ITEM
+void CHARACTER::AddBuyBackItem(LPITEM pkItem, DWORD dwCount, int64_t llPrice)
+{
+	if (!pkItem || dwCount == 0)
+		return;
+	SendBuyBackListPacket();
+}
+
+void CHARACTER::SendBuyBackListPacket()
+{
+	if (!GetDesc())
+		return;
+
+	ChatPacket(CHAT_TYPE_COMMAND, "BuyBackClear");
+
+	char szQuery[1024];
+	snprintf(szQuery, sizeof(szQuery),
+		"SELECT id, vnum, count, price, log_type, REPLACE(CAST(sell_date AS CHAR), ' ', '_'), "
+		"socket0, socket1, socket2, socket3, socket4, socket5, "
+		"attr0, attrval0, attr1, attrval1, attr2, attrval2, attr3, attrval3, attr4, attrval4, attr5, attrval5, attr6, attrval6 "
+		"FROM log.item_sell_log "
+		"WHERE pid = %u AND log_type IN ('ITEM_SELL', 'SHOP_SELL', 'ITEM_DELETE') AND restored = 0 "
+		"ORDER BY id DESC LIMIT 12",
+		GetPlayerID());
+
+	std::unique_ptr<SQLMsg> pMsg(DBManager::instance().DirectQuery("%s", szQuery));
+	if (!pMsg || !pMsg->Get() || pMsg->Get()->uiNumRows == 0)
+		return;
+
+	const int64_t llBaseFee = 200000000LL;
+	MYSQL_ROW row;
+	while ((row = mysql_fetch_row(pMsg->Get()->pSQLResult)))
+	{
+		uint64_t logId = 0;
+		DWORD dwVnum = 0, dwCount = 0;
+		int64_t llSoldPrice = 0;
+		str_to_number(logId, row[0]);
+		str_to_number(dwVnum, row[1]);
+		str_to_number(dwCount, row[2]);
+		if (row[3]) str_to_number(llSoldPrice, row[3]);
+		if (llSoldPrice < 0) llSoldPrice = 0;
+		const char* szLogType = (row[4] && *row[4]) ? row[4] : "ITEM_SELL";
+		const char* szDate = (row[5] && *row[5]) ? row[5] : "-";
+
+		if (llSoldPrice == 0 && strcmp(szLogType, "ITEM_DELETE") != 0)
+		{
+			const TItemTable* pProto = ITEM_MANAGER::instance().GetTable(dwVnum);
+			if (pProto)
+			{
+				int64_t unitPrice = pProto->dwShopBuyPrice;
+				if (IS_SET(pProto->dwFlags, ITEM_FLAG_COUNT_PER_1GOLD))
+					llSoldPrice = (unitPrice == 0) ? dwCount : (dwCount / unitPrice);
+				else
+					llSoldPrice = unitPrice * static_cast<int64_t>(dwCount);
+			}
+		}
+
+		const int64_t llTotalCost = llSoldPrice + llBaseFee;
+
+		long s[6] = { 0 };
+		for (int i = 0; i < 6; ++i)
+			if (row[6 + i]) str_to_number(s[i], row[6 + i]);
+
+		int at[7] = { 0 }, av[7] = { 0 };
+		for (int i = 0; i < 7; ++i)
+		{
+			if (row[12 + i * 2]) str_to_number(at[i], row[12 + i * 2]);
+			if (row[13 + i * 2]) str_to_number(av[i], row[13 + i * 2]);
+		}
+
+		ChatPacket(CHAT_TYPE_COMMAND,
+			"BuyBackItem %llu %u %u %lld %s %s %ld:%ld:%ld:%ld:%ld:%ld %d:%d %d:%d %d:%d %d:%d %d:%d %d:%d %d:%d",
+			static_cast<unsigned long long>(logId),
+			dwVnum, dwCount, static_cast<long long>(llTotalCost), szLogType, szDate,
+			s[0], s[1], s[2], s[3], s[4], s[5],
+			at[0], av[0], at[1], av[1], at[2], av[2], at[3], av[3], at[4], av[4], at[5], av[5], at[6], av[6]);
+	}
+}
+
+void CHARACTER::BuyBackSoldItem(int idx)
+{
+	if (idx <= 0 || !CanHandleItem())
+		return;
+
+	char szQuery[1024];
+	snprintf(szQuery, sizeof(szQuery),
+		"SELECT id, vnum, count, price, log_type, "
+		"socket0, socket1, socket2, socket3, socket4, socket5, "
+		"attr0, attrval0, attr1, attrval1, attr2, attrval2, attr3, attrval3, attr4, attrval4, attr5, attrval5, attr6, attrval6 "
+		"FROM log.item_sell_log "
+		"WHERE id = %d AND pid = %u AND log_type IN ('ITEM_SELL', 'SHOP_SELL', 'ITEM_DELETE') AND restored = 0 LIMIT 1",
+		idx, GetPlayerID());
+
+	std::unique_ptr<SQLMsg> pMsg(DBManager::instance().DirectQuery("%s", szQuery));
+	if (!pMsg || !pMsg->Get() || pMsg->Get()->uiNumRows == 0)
+		return;
+
+	MYSQL_ROW row = mysql_fetch_row(pMsg->Get()->pSQLResult);
+	if (!row)
+		return;
+
+	DWORD dwVnum = 0, dwCount = 0;
+	int64_t llSoldPrice = 0;
+	str_to_number(dwVnum, row[1]);
+	str_to_number(dwCount, row[2]);
+	if (row[3]) str_to_number(llSoldPrice, row[3]);
+	if (llSoldPrice < 0) llSoldPrice = 0;
+	const char* szLogType = (row[4] && *row[4]) ? row[4] : "ITEM_SELL";
+
+	if (llSoldPrice == 0 && strcmp(szLogType, "ITEM_DELETE") != 0)
+	{
+		const TItemTable* pProto = ITEM_MANAGER::instance().GetTable(dwVnum);
+		if (pProto)
+		{
+			int64_t unitPrice = pProto->dwShopBuyPrice;
+			if (IS_SET(pProto->dwFlags, ITEM_FLAG_COUNT_PER_1GOLD))
+				llSoldPrice = (unitPrice == 0) ? dwCount : (dwCount / unitPrice);
+			else
+				llSoldPrice = unitPrice * static_cast<int64_t>(dwCount);
+		}
+	}
+
+	const int64_t llPrice = llSoldPrice + 200000000LL;
+
+	if (GetGold() < llPrice)
+	{
+		NewChatPacket(NOT_ENOUGH_YANG);
+		return;
+	}
+
+	LPITEM pkNewItem = ITEM_MANAGER::instance().CreateItem(dwVnum, dwCount);
+	if (!pkNewItem)
+		return;
+
+	int iEmptyPos = -1;
+	if (pkNewItem->IsDragonSoul())
+		iEmptyPos = GetEmptyDragonSoulInventory(pkNewItem);
+#ifdef ENABLE_SPECIAL_STORAGE
+	else if (pkNewItem->IsUpgradeItem())
+		iEmptyPos = GetEmptyUpgradeInventory(pkNewItem);
+	else if (pkNewItem->IsBook())
+		iEmptyPos = GetEmptyBookInventory(pkNewItem);
+	else if (pkNewItem->IsStone())
+		iEmptyPos = GetEmptyStoneInventory(pkNewItem);
+	else if (pkNewItem->IsChest())
+		iEmptyPos = GetEmptyChestInventory(pkNewItem);
+#endif
+	else
+		iEmptyPos = GetEmptyInventory(pkNewItem->GetSize());
+
+	if (iEmptyPos < 0)
+	{
+		M2_DESTROY_ITEM(pkNewItem);
+		NewChatPacket(NO_EMPTY_SPACE_IN_INVENTORY);
+		return;
+	}
+
+	long alSockets[ITEM_SOCKET_MAX_NUM] = { 0 };
+	for (int i = 0; i < ITEM_SOCKET_MAX_NUM && i < 6; ++i)
+		if (row[5 + i]) str_to_number(alSockets[i], row[5 + i]);
+
+	TPlayerItemAttribute aAttr[ITEM_ATTRIBUTE_MAX_NUM] = {};
+	for (int i = 0; i < ITEM_ATTRIBUTE_MAX_NUM && i < 7; ++i)
+	{
+		int bt = 0, sv = 0;
+		if (row[11 + i * 2]) str_to_number(bt, row[11 + i * 2]);
+		if (row[12 + i * 2]) str_to_number(sv, row[12 + i * 2]);
+		aAttr[i].bType = static_cast<BYTE>(bt);
+		aAttr[i].sValue = static_cast<short>(sv);
+	}
+
+	std::unique_ptr<SQLMsg> pUpd(DBManager::instance().DirectQuery("UPDATE log.item_sell_log SET restored = 1 WHERE id = %d", idx));
+
+	PointChange(POINT_GOLD, -llPrice, false);
+	pkNewItem->SetSockets(alSockets);
+	pkNewItem->SetAttributes(aAttr);
+
+	if (pkNewItem->IsDragonSoul())
+		pkNewItem->AddToCharacter(this, TItemPos(DRAGON_SOUL_INVENTORY, iEmptyPos));
+#ifdef ENABLE_SPECIAL_STORAGE
+	else if (pkNewItem->IsUpgradeItem())
+		pkNewItem->AddToCharacter(this, TItemPos(UPGRADE_INVENTORY, iEmptyPos));
+	else if (pkNewItem->IsBook())
+		pkNewItem->AddToCharacter(this, TItemPos(BOOK_INVENTORY, iEmptyPos));
+	else if (pkNewItem->IsStone())
+		pkNewItem->AddToCharacter(this, TItemPos(STONE_INVENTORY, iEmptyPos));
+	else if (pkNewItem->IsChest())
+		pkNewItem->AddToCharacter(this, TItemPos(CHEST_INVENTORY, iEmptyPos));
+#endif
+	else
+		pkNewItem->AddToCharacter(this, TItemPos(INVENTORY, iEmptyPos));
+
+	ITEM_MANAGER::instance().FlushDelayedSave(pkNewItem);
+	SaveReal();
+	db_clientdesc->DBPacketHeader(HEADER_GD_FLUSH_CACHE, 0, sizeof(DWORD));
+	DWORD dwFlushPid = GetPlayerID();
+	db_clientdesc->Packet(&dwFlushPid, sizeof(DWORD));
+	SendBuyBackListPacket();
+}
+
+void CHARACTER::SendGmItemRestoreListPacket(const char* szPlayerFilter, DWORD dwVnumFilter, const char* szTypeFilter)
+{
+	if (!GetDesc() || !IsGM())
+		return;
+
+	ChatPacket(CHAT_TYPE_COMMAND, "GmRestoreClear");
+
+	char szEscPlayer[128] = { 0 };
+	if (szPlayerFilter && *szPlayerFilter && strcmp(szPlayerFilter, "*") != 0 && strcmp(szPlayerFilter, "ALL") != 0)
+		DBManager::instance().EscapeString(szEscPlayer, sizeof(szEscPlayer), szPlayerFilter, strlen(szPlayerFilter));
+
+	std::string whereClause = "WHERE l.restored = 0 ";
+	if (*szEscPlayer)
+	{
+		char szBuf[256];
+		snprintf(szBuf, sizeof(szBuf), "AND (p.name LIKE '%%%s%%' OR l.pid = %u) ", szEscPlayer, static_cast<unsigned int>(atoi(szEscPlayer)));
+		whereClause += szBuf;
+	}
+	if (dwVnumFilter > 0)
+	{
+		char szBuf[64];
+		snprintf(szBuf, sizeof(szBuf), "AND l.vnum = %u ", dwVnumFilter);
+		whereClause += szBuf;
+	}
+	if (szTypeFilter && *szTypeFilter && strcmp(szTypeFilter, "ALL") != 0)
+	{
+		if (!strcmp(szTypeFilter, "DELETE"))
+			whereClause += "AND l.log_type = 'ITEM_DELETE' ";
+		else if (!strcmp(szTypeFilter, "SELL"))
+			whereClause += "AND l.log_type IN ('ITEM_SELL', 'SHOP_SELL') ";
+	}
+
+	char szQuery[2048];
+	snprintf(szQuery, sizeof(szQuery),
+		"SELECT l.id, l.pid, COALESCE(p.name, CONCAT('PID#', l.pid)), l.log_type, l.vnum, l.count, l.price, "
+		"REPLACE(CAST(l.sell_date AS CHAR), ' ', '_'), "
+		"l.socket0, l.socket1, l.socket2, l.socket3, l.socket4, l.socket5, "
+		"l.attr0, l.attrval0, l.attr1, l.attrval1, l.attr2, l.attrval2, l.attr3, l.attrval3, l.attr4, l.attrval4, l.attr5, l.attrval5, l.attr6, l.attrval6 "
+		"FROM log.item_sell_log l "
+		"LEFT JOIN player.player p ON p.id = l.pid "
+		"%s ORDER BY l.id DESC LIMIT 80",
+		whereClause.c_str());
+
+	std::unique_ptr<SQLMsg> pMsg(DBManager::instance().DirectQuery("%s", szQuery));
+	if (!pMsg || !pMsg->Get() || pMsg->Get()->uiNumRows == 0)
+		return;
+
+	MYSQL_ROW row;
+	while ((row = mysql_fetch_row(pMsg->Get()->pSQLResult)))
+	{
+		uint64_t logId = 0;
+		DWORD pid = 0, dwVnum = 0, dwCount = 0;
+		int64_t llPrice = 0;
+		str_to_number(logId, row[0]);
+		str_to_number(pid, row[1]);
+		const char* szPlayerName = (row[2] && *row[2]) ? row[2] : "-";
+		const char* szLogType = (row[3] && *row[3]) ? row[3] : "ITEM_SELL";
+		str_to_number(dwVnum, row[4]);
+		str_to_number(dwCount, row[5]);
+		str_to_number(llPrice, row[6]);
+		const char* szDate = (row[7] && *row[7]) ? row[7] : "-";
+
+		long s[6] = { 0 };
+		for (int i = 0; i < 6; ++i)
+			if (row[8 + i]) str_to_number(s[i], row[8 + i]);
+
+		int at[7] = { 0 }, av[7] = { 0 };
+		for (int i = 0; i < 7; ++i)
+		{
+			if (row[14 + i * 2]) str_to_number(at[i], row[14 + i * 2]);
+			if (row[15 + i * 2]) str_to_number(av[i], row[15 + i * 2]);
+		}
+
+		ChatPacket(CHAT_TYPE_COMMAND,
+			"GmRestoreItem %llu %u %s %s %u %u %lld %s %ld:%ld:%ld:%ld:%ld:%ld %d:%d %d:%d %d:%d %d:%d %d:%d %d:%d %d:%d",
+			static_cast<unsigned long long>(logId),
+			pid, szPlayerName, szLogType,
+			dwVnum, dwCount, static_cast<long long>(llPrice), szDate,
+			s[0], s[1], s[2], s[3], s[4], s[5],
+			at[0], av[0], at[1], av[1], at[2], av[2], at[3], av[3], at[4], av[4], at[5], av[5], at[6], av[6]);
+	}
+}
+
+void CHARACTER::GmRestoreDeletedOrSoldItem(uint64_t ullLogId)
+{
+	if (!IsGM() || ullLogId == 0)
+		return;
+
+	char szQuery[1024];
+	snprintf(szQuery, sizeof(szQuery),
+		"SELECT l.id, l.pid, COALESCE(p.name, ''), l.vnum, l.count, "
+		"l.socket0, l.socket1, l.socket2, l.socket3, l.socket4, l.socket5, "
+		"l.attr0, l.attrval0, l.attr1, l.attrval1, l.attr2, l.attrval2, l.attr3, l.attrval3, l.attr4, l.attrval4, l.attr5, l.attrval5, l.attr6, l.attrval6 "
+		"FROM log.item_sell_log l "
+		"LEFT JOIN player.player p ON p.id = l.pid "
+		"WHERE l.id = %llu AND l.restored = 0 LIMIT 1",
+		static_cast<unsigned long long>(ullLogId));
+
+	std::unique_ptr<SQLMsg> pMsg(DBManager::instance().DirectQuery("%s", szQuery));
+	if (!pMsg || !pMsg->Get() || pMsg->Get()->uiNumRows == 0)
+		return;
+
+	MYSQL_ROW row = mysql_fetch_row(pMsg->Get()->pSQLResult);
+	if (!row)
+		return;
+
+	DWORD targetPid = 0, dwVnum = 0, dwCount = 0;
+	str_to_number(targetPid, row[1]);
+	const char* szOwnerName = row[2] ? row[2] : "";
+	str_to_number(dwVnum, row[3]);
+	str_to_number(dwCount, row[4]);
+
+	long alSockets[ITEM_SOCKET_MAX_NUM] = { 0 };
+	for (int i = 0; i < ITEM_SOCKET_MAX_NUM && i < 6; ++i)
+		if (row[5 + i]) str_to_number(alSockets[i], row[5 + i]);
+
+	TPlayerItemAttribute aAttr[ITEM_ATTRIBUTE_MAX_NUM] = {};
+	for (int i = 0; i < ITEM_ATTRIBUTE_MAX_NUM && i < 7; ++i)
+	{
+		int bt = 0, sv = 0;
+		if (row[11 + i * 2]) str_to_number(bt, row[11 + i * 2]);
+		if (row[12 + i * 2]) str_to_number(sv, row[12 + i * 2]);
+		aAttr[i].bType = static_cast<BYTE>(bt);
+		aAttr[i].sValue = static_cast<short>(sv);
+	}
+
+	LPCHARACTER pkTarget = CHARACTER_MANAGER::instance().FindByPID(targetPid);
+	if (!pkTarget)
+		pkTarget = this;
+
+	LPITEM pkNewItem = ITEM_MANAGER::instance().CreateItem(dwVnum, dwCount);
+	if (!pkNewItem)
+		return;
+
+	int iEmptyPos = -1;
+	if (pkNewItem->IsDragonSoul())
+		iEmptyPos = pkTarget->GetEmptyDragonSoulInventory(pkNewItem);
+#ifdef ENABLE_SPECIAL_STORAGE
+	else if (pkNewItem->IsUpgradeItem())
+		iEmptyPos = pkTarget->GetEmptyUpgradeInventory(pkNewItem);
+	else if (pkNewItem->IsBook())
+		iEmptyPos = pkTarget->GetEmptyBookInventory(pkNewItem);
+	else if (pkNewItem->IsStone())
+		iEmptyPos = pkTarget->GetEmptyStoneInventory(pkNewItem);
+	else if (pkNewItem->IsChest())
+		iEmptyPos = pkTarget->GetEmptyChestInventory(pkNewItem);
+#endif
+	else
+		iEmptyPos = pkTarget->GetEmptyInventory(pkNewItem->GetSize());
+
+	if (iEmptyPos < 0)
+	{
+		M2_DESTROY_ITEM(pkNewItem);
+		NewChatPacket(NO_EMPTY_SPACE_IN_INVENTORY);
+		return;
+	}
+
+	std::unique_ptr<SQLMsg> pUpd(DBManager::instance().DirectQuery("UPDATE log.item_sell_log SET restored = 1 WHERE id = %llu", static_cast<unsigned long long>(ullLogId)));
+
+	pkNewItem->SetSockets(alSockets);
+	pkNewItem->SetAttributes(aAttr);
+
+	if (pkNewItem->IsDragonSoul())
+		pkNewItem->AddToCharacter(pkTarget, TItemPos(DRAGON_SOUL_INVENTORY, iEmptyPos));
+#ifdef ENABLE_SPECIAL_STORAGE
+	else if (pkNewItem->IsUpgradeItem())
+		pkNewItem->AddToCharacter(pkTarget, TItemPos(UPGRADE_INVENTORY, iEmptyPos));
+	else if (pkNewItem->IsBook())
+		pkNewItem->AddToCharacter(pkTarget, TItemPos(BOOK_INVENTORY, iEmptyPos));
+	else if (pkNewItem->IsStone())
+		pkNewItem->AddToCharacter(pkTarget, TItemPos(STONE_INVENTORY, iEmptyPos));
+	else if (pkNewItem->IsChest())
+		pkNewItem->AddToCharacter(pkTarget, TItemPos(CHEST_INVENTORY, iEmptyPos));
+#endif
+	else
+		pkNewItem->AddToCharacter(pkTarget, TItemPos(INVENTORY, iEmptyPos));
+
+	ITEM_MANAGER::instance().FlushDelayedSave(pkNewItem);
+	pkTarget->SaveReal();
+	db_clientdesc->DBPacketHeader(HEADER_GD_FLUSH_CACHE, 0, sizeof(DWORD));
+	DWORD dwFlushPid = pkTarget->GetPlayerID();
+	db_clientdesc->Packet(&dwFlushPid, sizeof(DWORD));
+
+	ChatPacket(CHAT_TYPE_INFO, "[GM Kurtarma] #%llu kayitli esya (%s) -> %s envanterine aktarildi ve DB'ye yazildi.",
+		static_cast<unsigned long long>(ullLogId), pkNewItem->GetName(), pkTarget->GetName());
+}
+#endif

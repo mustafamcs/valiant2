@@ -335,3 +335,28 @@ NEW_EXCHANGE_YOU	Ty
 
 GLOBAL_RANKING_TITLE	Ranking Graczy
 
+GAMEOPTION_DROP_INFO_TITLE	P³ywaj¹cy Licznik £upów
+GAMEOPTION_DROP_INFO_RIGHT	Prawa
+GAMEOPTION_DROP_INFO_LEFT	Lewa
+CHAT_FILTER_ITEM	Przedmiot
+CHAT_FILTER_YANG	Yang
+BUY_BACK_ACTION	Odkup
+BUY_BACK_REFRESH	Odœwie¿ Listê
+BUY_BACK_EMPTY_SLOT	%d. Pusty Slot
+GM_ITEM_RESTORE_BTN	Odzyskiwanie GM
+GM_ITEM_RESTORE_TITLE	Centrum Odzyskiwania Usuniêtych / Sprzedanych (GM)
+GM_ITEM_RESTORE_PLAYER	Nazwa Gracza / PID:
+GM_ITEM_RESTORE_VNUM	VNUM Przedmiotu:
+GM_ITEM_RESTORE_SEARCH	Filtruj / Szukaj
+GM_ITEM_RESTORE_ALL	Wszystko
+GM_ITEM_RESTORE_DEL	Usuniête
+GM_ITEM_RESTORE_SELL	Sprzedane
+GM_ITEM_RESTORE_ACTION	Odzyskaj
+BUY_BACK_BUTTON	Odzyskaj Usuniête / Sprzedane
+BUY_BACK_TITLE	Odzyskaj Usuniête i Sprzedane Przedmioty (12)
+BUY_BACK_CONFIRM_TEXT	Czy chcesz odzyskaæ %s (x%d) za 200.000.000 Yang?
+BUY_BACK_TAG_DEL	[USUNIÊTO]
+BUY_BACK_TAG_SELL	[SPRZEDANO]
+BUY_BACK_DESC	Odzyskaj 12 przedmiotów za |cFFFFD700(Cena Sprzeda¿y + 200 M Yang)|r:
+BUY_BACK_CONFIRM_1	Czy chcesz odzyskaæ |cFFFFD700%s (x%d)|r
+BUY_BACK_CONFIRM_2	za |cFFFFD700%s|r?

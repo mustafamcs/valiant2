@@ -338,3 +338,28 @@ NEW_EXCHANGE_YOU	Tu
 
 GLOBAL_RANKING_TITLE	Classifica Giocatori
 
+GAMEOPTION_DROP_INFO_TITLE	Tracker Bottino Fluttuante
+GAMEOPTION_DROP_INFO_RIGHT	Destra
+GAMEOPTION_DROP_INFO_LEFT	Sinistra
+CHAT_FILTER_ITEM	Oggetti
+CHAT_FILTER_YANG	Yang
+BUY_BACK_ACTION	Riacquista
+BUY_BACK_REFRESH	Aggiorna Lista
+BUY_BACK_EMPTY_SLOT	%d. Slot Vuoto
+GM_ITEM_RESTORE_BTN	Recupero GM
+GM_ITEM_RESTORE_TITLE	Centro Recupero Oggetti Eliminati / Venduti (GM)
+GM_ITEM_RESTORE_PLAYER	Nome Giocatore / PID:
+GM_ITEM_RESTORE_VNUM	VNUM Oggetto:
+GM_ITEM_RESTORE_SEARCH	Filtra / Cerca
+GM_ITEM_RESTORE_ALL	Tutti
+GM_ITEM_RESTORE_DEL	Eliminati
+GM_ITEM_RESTORE_SELL	Venduti
+GM_ITEM_RESTORE_ACTION	Recupera
+BUY_BACK_BUTTON	Recupera Eliminati / Venduti
+BUY_BACK_TITLE	Recupera Oggetti Eliminati e Venduti (12)
+BUY_BACK_CONFIRM_TEXT	Vuoi recuperare %s (x%d) per 200.000.000 Yang?
+BUY_BACK_TAG_DEL	[ELIMINATO]
+BUY_BACK_TAG_SELL	[VENDUTO]
+BUY_BACK_DESC	Recupera gli ultimi 12 oggetti per |cFFFFD700(Prezzo Vendita + 200 M Yang)|r:
+BUY_BACK_CONFIRM_1	Vuoi recuperare |cFFFFD700%s (x%d)|r
+BUY_BACK_CONFIRM_2	per |cFFFFD700%s|r?

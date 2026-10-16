@@ -527,7 +527,11 @@ void CGraphicThingInstance::RegisterModelThing(int iModelThing, CGraphicThing * 
 {
 	if (!CheckModelThingIndex(iModelThing))
 	{
+#ifdef ENABLE_CLIENT_SAFE_GUARD_FIX
+		TraceError("CGraphicThingInstance::RegisterModelThing(iModelThing=%d, pModelThing=%s)\n", iModelThing, pModelThing ? pModelThing->GetFileName() : "nullptr");
+#else
 		TraceError("CGraphicThingInstance::RegisterModelThing(iModelThing=%d, pModelThing=%s)\n", iModelThing, pModelThing->GetFileName());
+#endif
 		return;
 	}
 

@@ -1697,12 +1697,14 @@ bool CPythonNetworkStream::RecvPointChange()
 		{
 			if (PointChange.amount > 0)
 			{
+#ifdef ENABLE_DROP_INFO_WINDOW
 #ifdef ENABLE_EXTENDED_YANG_LIMIT
 				PyObject* args = PyTuple_New(1);
 				PyTuple_SetItem(args, 0, PyLong_FromLongLong(PointChange.amount));
-				// PyCallClassMemberFunc(m_apoPhaseWnd[PHASE_WINDOW_GAME], "OnPickMoney", args);
+				PyCallClassMemberFunc(m_apoPhaseWnd[PHASE_WINDOW_GAME], "OnPickMoney", args);
 #else
-				// PyCallClassMemberFunc(m_apoPhaseWnd[PHASE_WINDOW_GAME], "OnPickMoney", Py_BuildValue("(i)", PointChange.amount));
+				PyCallClassMemberFunc(m_apoPhaseWnd[PHASE_WINDOW_GAME], "OnPickMoney", Py_BuildValue("(i)", PointChange.amount));
+#endif
 #endif
 			}
 		}
@@ -6175,7 +6177,14 @@ bool CPythonNetworkStream::RecvNewChatPacket()
 		}
 		else
 		{
-			CPythonChat::Instance().AppendChat(p.chatType, localeString.c_str());
+			BYTE bActualType = p.chatType;
+#ifdef ENABLE_DROP_INFO_WINDOW
+			if (chatmgr.IsItemGainChatID(p.chatID))
+			{
+				bActualType = CHAT_TYPE_ITEM_INFO;
+			}
+#endif
+			CPythonChat::Instance().AppendChat(bActualType, localeString.c_str());
 		}
 	}
 

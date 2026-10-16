@@ -534,6 +534,13 @@ class TaskBar(ui.ScriptWindow):
 		self.AntiFarmButton = self.GetChild("FarmBlock")
 		self.AntiFarmButton.SetEvent(ui.__mem_func__(self.SetFarmBlock))
 
+		try:
+			self.Vote4BuffButton = self.GetChild("Vote4Buff")
+			self.Vote4BuffButton.SetEvent(ui.__mem_func__(self.OnClickVote4Buff))
+			self.Vote4BuffButton.Hide()
+		except:
+			self.Vote4BuffButton = None
+
 
 		self.__LoadMouseSettings()
 		self.RefreshStatus()
@@ -545,6 +552,11 @@ class TaskBar(ui.ScriptWindow):
 
 	def SetFarmBlock(self):
 		net.SendChatPacket("/set_farm_block")
+
+	def OnClickVote4Buff(self):
+		interface = constInfo.GetInterfaceInstance()
+		if interface and hasattr(interface, "wndVoteIcon") and interface.wndVoteIcon:
+			interface.wndVoteIcon.OnMouseLeftButtonDown()
 
 	def __RampageGauge_OverIn(self):
 		self.rampageGauge2.Show()

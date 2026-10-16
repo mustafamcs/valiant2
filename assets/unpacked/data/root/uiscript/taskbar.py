@@ -392,6 +392,16 @@ window = {
 			"over_image" : "d:/ymir work/ui/game/anti_exp/farm_block_1.png",
 			"down_image" : "d:/ymir work/ui/game/anti_exp/farm_block_2.png",
 		},
+		{
+			"name" : "Vote4Buff",
+			"type" : "button",
+			"x" : 158+110+60,
+			"y" : 4 + Y_ADD_POSITION,
+			"tooltip_text" : "Vote4Buff",
+			"default_image" : "d:/ymir work/ui/game/anti_exp/vote_0.png",
+			"over_image" : "d:/ymir work/ui/game/anti_exp/vote_1.png",
+			"down_image" : "d:/ymir work/ui/game/anti_exp/vote_2.png",
+		},
 
 		## QuickBar
 		{

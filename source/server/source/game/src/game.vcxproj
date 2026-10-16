@@ -64,7 +64,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <PreBuildEvent>
-      <Command>taskkill /F /IM game.exe &gt;nul 2&gt;&amp;1 || exit /b 0</Command>
+      <Command>taskkill /F /IM game.exe /IM db.exe &gt;nul 2&gt;&amp;1 || exit /b 0</Command>
     </PreBuildEvent>
     <ClCompile>
       <Optimization>Disabled</Optimization>
@@ -98,7 +98,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <PreBuildEvent>
-      <Command>taskkill /F /IM game.exe &gt;nul 2&gt;&amp;1 || exit /b 0</Command>
+      <Command>taskkill /F /IM game.exe /IM db.exe &gt;nul 2&gt;&amp;1 || exit /b 0</Command>
     </PreBuildEvent>
     <ClCompile>
       <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>

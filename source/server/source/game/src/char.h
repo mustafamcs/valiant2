@@ -1902,9 +1902,17 @@ public:
 private:
 	DWORD				m_dwQuestNPCVID;
 	DWORD				m_dwQuestByVnum;
+#ifdef ENABLE_QUEST_ITEM_DUPE_FIX
+	DWORD				m_dwQuestItemVID;
+#else
 	LPITEM				m_pQuestItem;
+#endif
 #ifdef ENABLE_QUEST_DND_EVENT
+#ifdef ENABLE_QUEST_ITEM_DUPE_FIX
+	DWORD				m_dwQuestDNDItemVID{ 0 };
+#else
 	LPITEM				m_pQuestDNDItem{ nullptr };
+#endif
 #endif
 
 	// Events
@@ -2771,6 +2779,14 @@ public:
 	void DropCalculator(DWORD mobVnum, int mobCount);
 #endif
 
+#ifdef ENABLE_BUY_BACK_ITEM
+public:
+	void AddBuyBackItem(LPITEM pkItem, DWORD dwCount, int64_t llPrice);
+	void SendBuyBackListPacket();
+	void BuyBackSoldItem(int idx);
+	void SendGmItemRestoreListPacket(const char* szPlayerFilter, DWORD dwVnumFilter, const char* szTypeFilter);
+	void GmRestoreDeletedOrSoldItem(uint64_t ullLogId);
+#endif
 };
 
 ESex GET_SEX(LPCHARACTER ch);

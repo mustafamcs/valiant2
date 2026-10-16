@@ -89,7 +89,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <PreBuildEvent>
-      <Command>taskkill /F /IM qc.exe &gt;nul 2&gt;&amp;1 || exit /b 0</Command>
+      <Command>taskkill /F /IM qc.exe /IM game.exe /IM db.exe &gt;nul 2&gt;&amp;1 || exit /b 0</Command>
     </PreBuildEvent>
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>

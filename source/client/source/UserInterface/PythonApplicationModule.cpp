@@ -2323,4 +2323,14 @@ void initapp()
 #else
 	PyModule_AddIntConstant(poModule, "ENABLE_MOVIEMODE_CAMERA", 0);
 #endif
+#ifdef ENABLE_DROP_INFO_WINDOW
+	PyModule_AddIntConstant(poModule, "ENABLE_DROP_INFO_WINDOW", 1);
+#else
+	PyModule_AddIntConstant(poModule, "ENABLE_DROP_INFO_WINDOW", 0);
+#endif
+#ifdef ENABLE_BUY_BACK_ITEM
+	PyModule_AddIntConstant(poModule, "ENABLE_BUY_BACK_ITEM", 1);
+#else
+	PyModule_AddIntConstant(poModule, "ENABLE_BUY_BACK_ITEM", 0);
+#endif
 }

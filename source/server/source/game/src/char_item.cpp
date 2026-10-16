@@ -5618,19 +5618,27 @@ bool CHARACTER::DeleteItem(TItemPos Cell)
 	NewChatPacket(ITEM_DELETED, "%s", item->GetName());
 
 #ifdef ENABLE_ITEM_SELL_LOG
-	TItemSellLog log;
+	TItemSellLog log{};
 	memcpy(&log.alSockets, item->GetSockets(), sizeof(log.alSockets));
 	memcpy(&log.aAttr, item->GetAttributes(), sizeof(log.aAttr));
 	log.dwVnum = item->GetVnum();
 	log.dwCount = item->GetCount();
+	log.llPrice = 0;
 	log.pid = GetPlayerID();
 	snprintf(log.logType, sizeof(log.logType), "ITEM_DELETE");
-	DBManager::instance().DirectQuery(ItemSellLogQuery(log).c_str());
+	std::unique_ptr<SQLMsg> pDelLogMsg(DBManager::instance().DirectQuery("%s", ItemSellLogQuery(log).c_str()));
 #endif
 #ifdef ENABLE_EXTENDED_BATTLE_PASS
 	UpdateExtBattlePassMissionProgress(BP_ITEM_DESTROY, 1, item->GetVnum());
 #endif
 	ITEM_MANAGER::instance().RemoveItem(item);
+#ifdef ENABLE_BUY_BACK_ITEM
+	SendBuyBackListPacket();
+#endif
+	SaveReal();
+	db_clientdesc->DBPacketHeader(HEADER_GD_FLUSH_CACHE, 0, sizeof(DWORD));
+	DWORD dwFlushPid = GetPlayerID();
+	db_clientdesc->Packet(&dwFlushPid, sizeof(DWORD));
 
 	return true;
 }
@@ -5684,18 +5692,26 @@ bool CHARACTER::SellItem(TItemPos Cell)
 	}
 
 #ifdef ENABLE_ITEM_SELL_LOG
-	TItemSellLog log;
+	TItemSellLog log{};
 	memcpy(&log.alSockets, item->GetSockets(), sizeof(log.alSockets));
 	memcpy(&log.aAttr, item->GetAttributes(), sizeof(log.aAttr));
 	log.dwVnum = item->GetVnum();
 	log.dwCount = item->GetCount();
+	log.llPrice = dwPrice;
 	log.pid = GetPlayerID();
 	snprintf(log.logType, sizeof(log.logType), "ITEM_SELL");
-	DBManager::instance().DirectQuery(ItemSellLogQuery(log).c_str());
+	std::unique_ptr<SQLMsg> pSellLogMsg(DBManager::instance().DirectQuery("%s", ItemSellLogQuery(log).c_str()));
 #endif
 	NewChatPacket(ITEM_IS_SOLD, "%s", item->GetName());
 	ITEM_MANAGER::instance().RemoveItem(item);
 	PointChange(POINT_GOLD, dwPrice, false);
+#ifdef ENABLE_BUY_BACK_ITEM
+	SendBuyBackListPacket();
+#endif
+	SaveReal();
+	db_clientdesc->DBPacketHeader(HEADER_GD_FLUSH_CACHE, 0, sizeof(DWORD));
+	DWORD dwFlushPid = GetPlayerID();
+	db_clientdesc->Packet(&dwFlushPid, sizeof(DWORD));
 	return true;
 }
 
@@ -8518,18 +8534,26 @@ void CHARACTER::ItemTransactionSell(std::vector<TItemTransactionsInfo>& v_item)
 		}
 		totalPrice += itemPrice;
 #ifdef ENABLE_ITEM_SELL_LOG
-		TItemSellLog log;
+		TItemSellLog log{};
 		memcpy(&log.alSockets, item->GetSockets(), sizeof(log.alSockets));
 		memcpy(&log.aAttr, item->GetAttributes(), sizeof(log.aAttr));
 		log.dwVnum = item->GetVnum();
 		log.dwCount = item->GetCount();
+		log.llPrice = itemPrice;
 		log.pid = GetPlayerID();
 		snprintf(log.logType, sizeof(log.logType), "ITEM_SELL");
-		DBManager::instance().DirectQuery(ItemSellLogQuery(log).c_str());
+		std::unique_ptr<SQLMsg> pTxSellMsg(DBManager::instance().DirectQuery("%s", ItemSellLogQuery(log).c_str()));
 #endif
 		ITEM_MANAGER::instance().RemoveItem(item);
 	}
 	PointChange(POINT_GOLD, totalPrice, false);
+#ifdef ENABLE_BUY_BACK_ITEM
+	SendBuyBackListPacket();
+#endif
+	SaveReal();
+	db_clientdesc->DBPacketHeader(HEADER_GD_FLUSH_CACHE, 0, sizeof(DWORD));
+	DWORD dwFlushPid = GetPlayerID();
+	db_clientdesc->Packet(&dwFlushPid, sizeof(DWORD));
 }
 
 void CHARACTER::ItemTransactionDelete(std::vector<TItemTransactionsInfo>& v_item)
@@ -8544,19 +8568,26 @@ void CHARACTER::ItemTransactionDelete(std::vector<TItemTransactionsInfo>& v_item
 			continue;
 
 #ifdef ENABLE_ITEM_SELL_LOG
-		TItemSellLog log;
+		TItemSellLog log{};
 		memcpy(&log.alSockets, item->GetSockets(), sizeof(log.alSockets));
 		memcpy(&log.aAttr, item->GetAttributes(), sizeof(log.aAttr));
 		log.dwVnum = item->GetVnum();
 		log.dwCount = item->GetCount();
+		log.llPrice = 0;
 		log.pid = GetPlayerID();
 		snprintf(log.logType, sizeof(log.logType), "ITEM_DELETE");
-		DBManager::instance().DirectQuery(ItemSellLogQuery(log).c_str());
+		std::unique_ptr<SQLMsg> pTxDelMsg(DBManager::instance().DirectQuery("%s", ItemSellLogQuery(log).c_str()));
 #endif
 
 		ITEM_MANAGER::instance().RemoveItem(item);
-	
 	}
+#ifdef ENABLE_BUY_BACK_ITEM
+	SendBuyBackListPacket();
+#endif
+	SaveReal();
+	db_clientdesc->DBPacketHeader(HEADER_GD_FLUSH_CACHE, 0, sizeof(DWORD));
+	DWORD dwFlushPid = GetPlayerID();
+	db_clientdesc->Packet(&dwFlushPid, sizeof(DWORD));
 }
 
 #endif

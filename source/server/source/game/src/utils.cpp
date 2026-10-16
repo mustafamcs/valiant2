@@ -362,7 +362,7 @@ bool WildCaseCmp(const char* w, const char* s)
 #ifdef ENABLE_ITEM_SELL_LOG
 std::string ItemSellLogQuery(TItemSellLog log)
 {
-	char szQuery[1024] = "INSERT INTO log.item_sell_log (pid, sell_date, log_type, vnum, count ";
+	char szQuery[1024] = "INSERT INTO log.item_sell_log (pid, sell_date, log_type, vnum, count, price, restored ";
 	size_t len = strlen(szQuery);
 
 	for (int i = 0; i < ITEM_SOCKET_MAX_NUM; i++)
@@ -375,8 +375,8 @@ std::string ItemSellLogQuery(TItemSellLog log)
 
 	len += snprintf(szQuery + len, sizeof(szQuery) - len, ") VALUES ( ");
 
-	len += snprintf(szQuery + len, sizeof(szQuery) - len, "%u, NOW(), '%s', %u, %u ",
-		log.pid, log.logType, log.dwVnum, log.dwCount);
+	len += snprintf(szQuery + len, sizeof(szQuery) - len, "%u, NOW(), '%s', %u, %u, %lld, 0 ",
+		log.pid, log.logType, log.dwVnum, log.dwCount, static_cast<long long>(log.llPrice));
 
 	for (int i = 0; i < ITEM_SOCKET_MAX_NUM; i++)
 		len += snprintf(szQuery + len, sizeof(szQuery) - len,

@@ -377,6 +377,34 @@ void CClientManager::Quit()
 	m_bShutdowned = TRUE;
 }
 
+void CClientManager::FlushAllCachesNow()
+{
+	sys_log(0, "FLUSH_ALL_CACHES_NOW: Flushing all player, item, skill color and pricelist caches to MySQL...");
+#ifdef ENABLE_SKILL_COLOR_SYSTEM
+	for (auto& kv : m_map_SkillColorCache)
+	{
+		if (kv.second)
+			kv.second->Flush();
+	}
+#endif
+	for (auto& kv : m_map_playerCache)
+	{
+		if (kv.second)
+			kv.second->Flush();
+	}
+	for (auto& kv : m_map_itemCache)
+	{
+		if (kv.second)
+			kv.second->Flush();
+	}
+	for (auto& kv : m_mapItemPriceListCache)
+	{
+		if (kv.second)
+			kv.second->Flush();
+	}
+	sys_log(0, "FLUSH_ALL_CACHES_NOW: Completed.");
+}
+
 void CClientManager::QUERY_BOOT(CPeer* peer, TPacketGDBoot* p)
 {
 	const BYTE bPacketVersion = 6;
@@ -2627,6 +2655,9 @@ void CClientManager::ProcessPackets(CPeer* peer)
 			QUERY_SAVE_EXT_BATTLE_PASS(peer, dwHandle, (TPlayerExtBattlePassMission*)data);
 			break;
 #endif
+		case HEADER_GD_FLUSH_ALL_CACHE:
+			FlushAllCachesNow();
+			break;
 		default:
 			sys_err("Unknown header (header: %d handle: %d length: %d)", header, dwHandle, dwLength);
 			break;

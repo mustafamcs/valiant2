@@ -370,3 +370,28 @@ OPTION_BLOCK_WARP_REQUEST	Iþýnlanma
 NEW_EXCHANGE_YOU	Sen
 
 GLOBAL_RANKING_TITLE	En Ýyiler Sýralama Listesi
+GAMEOPTION_DROP_INFO_TITLE	Yüzen Ganimet Takipçisi
+GAMEOPTION_DROP_INFO_RIGHT	Saðda
+GAMEOPTION_DROP_INFO_LEFT	Solda
+CHAT_FILTER_ITEM	Eþya
+CHAT_FILTER_YANG	Yang
+BUY_BACK_ACTION	Geri Al
+BUY_BACK_REFRESH	Listeyi Yenile
+BUY_BACK_EMPTY_SLOT	%d. Boþ Slot
+GM_ITEM_RESTORE_BTN	GM Eþya Kurtarma
+GM_ITEM_RESTORE_TITLE	GM Silinen / Satýlan Eþya Kurtarma Merkezi (Sýnýrsýz)
+GM_ITEM_RESTORE_PLAYER	Oyuncu Adý / PID:
+GM_ITEM_RESTORE_VNUM	Eþya VNUM:
+GM_ITEM_RESTORE_SEARCH	Filtrele / Ara
+GM_ITEM_RESTORE_ALL	Tümü
+GM_ITEM_RESTORE_DEL	Silinen
+GM_ITEM_RESTORE_SELL	Satýlan
+GM_ITEM_RESTORE_ACTION	Kurtar
+BUY_BACK_BUTTON	Silinen / Satýlanlarý Geri Al
+BUY_BACK_TITLE	Silinen & Satýlan Eþyalarý Geri Al (Son 12)
+BUY_BACK_CONFIRM_TEXT	%s (x%d) eþyasýný 200.000.000 Yang karþýlýðýnda geri almak istiyor musunuz?
+BUY_BACK_TAG_DEL	[SÝLÝNDÝ]
+BUY_BACK_TAG_SELL	[SATILDI]
+BUY_BACK_DESC	Son 12 eþyayý |cFFFFD700(Satýþ Tutarý + 200 M Yang)|r ödeyerek geri alabilirsiniz:
+BUY_BACK_CONFIRM_1	|cFFFFD700%s (x%d)|r eþyasýný
+BUY_BACK_CONFIRM_2	|cFFFFD700%s|r karþýlýðýnda geri almak istiyor musunuz?

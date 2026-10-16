@@ -5,9 +5,10 @@ __discord__ = MDproject
 __project__ = MDproject
 */
 
-/********************************************** General Defines Start **********************************************/
+/********************************************** Fixed Defines (Martysama 5.8) Start **********************************************/
 
 #define LOCALE_SERVICE_EUROPE																// Locale services set Europe
+#define ENABLE_COSTUME_SYSTEM																// Costume System
 #define ENABLE_ENERGY_SYSTEM																// Energy System
 #define ENABLE_DRAGON_SOUL_SYSTEM															// Dragon Soul System
 #define ENABLE_NEW_EQUIPMENT_SYSTEM															// Belt inventory system & rings
@@ -15,13 +16,58 @@ __project__ = MDproject
 #define ENABLE_CANSEEHIDDENTHING_FOR_GM														// GM's can see everything including invisible
 #define ENABLE_PROTOSTRUCT_AUTODETECT														// Proto autodetect
 #define ENABLE_PLAYER_PER_ACCOUNT5															// Per player per accounts
+#define ENABLE_LEVEL_IN_TRADE																// Level In Trade
 #define ENABLE_DICE_SYSTEM																	// Official Dice
 #define ENABLE_EXTEND_INVEN_SYSTEM															// 5 Pages Of Inventory
 #define ENABLE_LVL115_ARMOR_EFFECT															// 115 Level item armor effect
 #define ENABLE_SLOT_WINDOW_EX																// SlotWindow Ex
-#define ENABLE_EMOJI_SYSTEM																	// Emoji In Textline
-#define ENABLE_HIGHLIGHT_SYSTEM																// Hightlight Items
+#define ENABLE_TEXT_LEVEL_REFRESH															// Level text refresh
+#define ENABLE_USE_COSTUME_ATTR 															// Costume Item Attr
+#define ENABLE_DISCORD_RPC																	// Discord Rich Presence
+#ifdef ENABLE_DISCORD_RPC
+#define CLIENT_ID		"1140693227301769476"
+#define IMAGE_NAME		"image1"
+#define IMAGE_OVER_IN	"Metin2"
+#define WEB_URL			"www.metin2.com"
+#define BUTTON_NAME		"Join!"
+#define DISCORD_URL		"https://metin2.com"
+#endif
+
+#define WJ_SHOW_MOB_INFO																	// Show Mob Informations
+#ifdef WJ_SHOW_MOB_INFO
+#define ENABLE_SHOW_MOBAIFLAG
+#define ENABLE_SHOW_MOBLEVEL
+#endif
+
 #define ENABLE_WOLFMAN_CHARACTER															// Enable Wolfman
+#define ENABLE_MAGIC_REDUCTION_SYSTEM														// Magic Reduction Apply
+#define ENABLE_MOUNT_COSTUME_SYSTEM 														// Mount Costume
+#define ENABLE_WEAPON_COSTUME_SYSTEM 														// Weapon Costume
+
+#define ENABLE_ACCE_COSTUME_SYSTEM 															// Shoulder Sash Costume
+#ifdef ENABLE_ACCE_COSTUME_SYSTEM
+	// #define USE_ACCE_ABSORB_WITH_NO_NEGATIVE_BONUS
+#endif
+
+#define ENABLE_EMOJI_SYSTEM																	// Emoji In Textline
+#define ENABLE_HAIR_SPECULAR																// Specular for hair
+#define ENABLE_QUEST_CATEGORY																// Official Quest Category
+#define ENABLE_DS_GRADE_MYTH 																// Myth DragonSoul Update
+#define ENABLE_CHAT_COLOR_SYSTEM															// Chat Color
+// #define ENABLE_PRINT_RECV_PACKET_DEBUG 													// Debug print debug
+
+//#define ENABLE_DEV_RESOURCE_DIAGNOSTICS													// Developer Module
+//#ifdef ENABLE_DEV_RESOURCE_DIAGNOSTICS
+//#define IMPROVED_PACKET_ENCRYPTION_REMOVE													// Dev server Removing Packet Enc
+//#else
+#undef _IMPROVED_PACKET_ENCRYPTION_															// Packed Encryption
+//#endif
+
+/********************************************** End of Fixed Defines (Martysama 5.8) **********************************************/
+
+/********************************************** General Defines Start **********************************************/
+
+#define ENABLE_HIGHLIGHT_SYSTEM																// Hightlight Items
 #define ENABLE_TARGET_INFORMATION_SYSTEM													// Target Information System
 #define ENABLE_TARGET_INFORMATION_RENEWAL													// Target Information System
 #define ENABLE_SHOW_TARGET_HP																// Target HP Information
@@ -33,14 +79,12 @@ __project__ = MDproject
 #define ENABLE_SPECIAL_STORAGE																// Special Storage
 #define ENABLE_EXTENDED_COUNT_ITEMS															// Item count extended
 #define ENABLE_EXTENDED_YANG_LIMIT															// Yang limit extended
-#define ENABLE_QUEST_CATEGORY																// Official Quest Category
 #define ENABLE_OFFLINE_SHOP																	// Offlineshop Reworked
 #define ENABLE_SWITCHBOT																	// Serverside Switchbot
 #define ENABLE_CHEST_OPEN_RENEWAL															// Open Chest Renewal
 #define ENABLE_PLAYER_STATS_SYSTEM															// Character Stats
 #define ENABLE_GLOBAL_RANKING																// Global Ranking System
 #define ENABLE_POWER_RANKING
-#define ENABLE_MAGIC_REDUCTION_SYSTEM														// Magic Reduction Apply
 
 #define ENABLE_SKILLS_LEVEL_OVER_P															// Sage Skill and Legendary Skill
 #ifdef ENABLE_SKILLS_LEVEL_OVER_P
@@ -123,13 +167,7 @@ __project__ = MDproject
 
 /********************************************** Item Related Defines Start **********************************************/
 #define ENABLE_ANIMATION_WING																// Animation wing system
-#define ENABLE_COSTUME_SYSTEM																// Costume System
-#define ENABLE_ACCE_COSTUME_SYSTEM 															// Shoulder Sash Costume
-#define ENABLE_MOUNT_COSTUME_SYSTEM 														// Mount Costume
 #define ENABLE_PET_COSTUME_SYSTEM 															// Pet Costume
-#define ENABLE_WEAPON_COSTUME_SYSTEM 														// Weapon Costume
-#define ENABLE_USE_COSTUME_ATTR 															// Costume Item Attr
-#define ENABLE_DS_GRADE_MYTH 																// Myth DragonSoul Update
 #define ENABLE_DS_SET_BONUS 																// Dragon Soul Set Bonus
 #define ENABLE_AURA_SYSTEM																	// Aura System
 #define ENABLE_ITEMS_SHINING																// Shining Items
@@ -139,10 +177,6 @@ __project__ = MDproject
 #define ENABLE_ACCE_COSTUME_SKIN															// Acce Costume Skin
 #define ENABLE_CROWN_SYSTEM																	// Crown part
 #define ENABLE_AURA_SKIN																	// Aura Skin
-
-#ifdef ENABLE_ACCE_COSTUME_SYSTEM
-	// #define USE_ACCE_ABSORB_WITH_NO_NEGATIVE_BONUS
-#endif
 
 #define ENABLE_ATTR_RARE_RENEWAL
 
@@ -157,7 +191,6 @@ __project__ = MDproject
 
 /********************************************** Fix Defines Start **********************************************/
 
-#define ENABLE_TEXT_LEVEL_REFRESH															// Level text refresh
 #define ENABLE_HEAVY_EFFECT_FIX																// Heavy Effect Fix
 #define ENABLE_CONNECT_FIX																	// Connect Fix
 #define ENABLE_NO_COLLISION																	// No Collision with any kind of thing (map, mob, safezone etc)
@@ -194,8 +227,6 @@ __project__ = MDproject
 #define ENABLE_FPS_SYSTEM_LIMIT_REWORK														// FPS Limit Rework
 
 //#define ENABLE_AREA_OPTIMISATION															// Client Optimisation
-#define WJ_SHOW_MOB_INFO																	// Show Mob Informations
-#define ENABLE_LEVEL_IN_TRADE																// Level In Trade
 #define ENABLE_MINIMAP_BOSS_STONE															// Show metinstones and boss in Minimap
 #define ENABLE_WHEEL_MOUSE																	// Can use the scroll bar via windows
 #define ENABLE_NEW_WHITEMARK_MINIMAP														// New whitemark Minimap
@@ -212,7 +243,6 @@ __project__ = MDproject
 // #define ENABLE_RANDOM_METINSTONE_GENERATOR												// Guard For pixelbot
 #define ENABLE_QUICK_PICKUP																	// Pickup all items quickly
 //#define ENABLE_NO_TEXTAIL																	// Optimisation and Safety
-#define ENABLE_DISCORD_RPC																	// Discord Rich Presence
 #define ENABLE_CEF_BROWSER																	// Chromium Based Browser
 #define ENABLE_CHECKINOUT_UPDATE															// Safebox - Exchange Check-in/out
 #define WJ_ENABLE_TRADABLE_ICON																// Tradable icon
@@ -242,7 +272,6 @@ __project__ = MDproject
 #define ENABLE_SHOW_STROKE_INFO																// Show Damage Count On Target
 #define ENABLE_CHECK_EFFECT																	// Check Effect
 #define ENABLE_MONSTER_SPECULAR																// Specular
-#define ENABLE_HAIR_SPECULAR																// Specular for hair
 
 #define ENABLE_CLIENT_VERSION_AND_ONLY_GM													// Only gm mode and client version
 #define ENABLE_VOTE4BUFF																	// Vote4Buff
@@ -257,7 +286,6 @@ __project__ = MDproject
 #define ENABLE_6TH_7TH_ATTR																	// 6th 7th attr
 #define ENABLE_BOSS_SHOWER_ON_ATLAS															// Boss Shower Atlas
 #define ENABLE_BOSS_EFFECT_ON_BOSS															// Boss Effect Shower
-#define ENABLE_CHAT_COLOR_SYSTEM															// Chat Color
 #define ENABLE_TELEPORT_TO_A_FRIEND															// Teleport Friend
 #define ENABLE_ADDSTONE_NOT_FAIL_ITEM															// Teleport Friend
 
@@ -276,21 +304,7 @@ __project__ = MDproject
 #define MULTIPLE_BUY_MAX_COUNT 0
 #endif
 
-#ifdef WJ_SHOW_MOB_INFO
-#define ENABLE_SHOW_MOBAIFLAG
-#define ENABLE_SHOW_MOBLEVEL
-#endif
-
-#ifdef ENABLE_DISCORD_RPC
-#define CLIENT_ID		"1140693227301769476"
-#define IMAGE_NAME		"image1"
-#define IMAGE_OVER_IN	"Metin2"
-#define WEB_URL			"www.metin2.com"
-#define BUTTON_NAME		"Join!"
-#define DISCORD_URL		"https://metin2.com"
-#endif
 #define ENABLE_NEW_CHAT
-// #define ENABLE_PRINT_RECV_PACKET_DEBUG 													// Debug print debug
 
 /********************************************** End of Misc Defines **********************************************/
 
@@ -322,14 +336,6 @@ __project__ = MDproject
 //#define __USE_CYTHON__																		// Root Cython
 //#define __USE_EXTRA_CYTHON__																// Uiscript Cython
 
-//#define ENABLE_DEV_RESOURCE_DIAGNOSTICS																// Developer Module
-
-//#ifdef ENABLE_DEV_RESOURCE_DIAGNOSTICS
-//#define IMPROVED_PACKET_ENCRYPTION_REMOVE												// Dev server Removing Packet Enc
-//#else
-#undef _IMPROVED_PACKET_ENCRYPTION_													// Packed Encryption
-//#endif
-
 
 #ifdef ENABLE_HIGHLIGHT_SYSTEM
 #define ENABLE_HIDE_HIGHLIGHT																// For hiding highlight effect
@@ -347,6 +353,19 @@ __project__ = MDproject
 #define ENABLE_ITEM_PROTO_APPLY_LIMIT
 #define ENABLE_ITEM_TABLE_ATTR_LIMIT
 #define ENABLE_CROWN_SPECULAR
+
+/********************************************** VALIANT2 Unified Modules Start **********************************************/
+#define ENABLE_QUEST_ITEM_DUPE_FIX															// Quest m_dwQuestItemVID dangling pointer & dupe fix
+#define ENABLE_MARRIAGE_CRASH_FIX															// DB Marriage Manager Use-After-Free crash fix
+#define ENABLE_PACKET_BUFFER_FIX															// Packet buffer reallocation & dangling pointer fix
+#define ENABLE_GUILD_MASTER_CRASH_FIX														// Guild ChangeMaster null iterator crash fix
+#define ENABLE_CLIENT_SAFE_GUARD_FIX														// ThingInstance & PythonWindow null-pointer guard
+#define ENABLE_CLIENT_DARK_MODE																// Windows 10/11 immersive dark mode title bar
+#define ENABLE_CRASH_MINIDUMP																// Automatic .dmp crash minidump generator
+#define ENABLE_DROP_INFO_WINDOW																// Floating item & Yang pickup tracker window
+#define ENABLE_BUY_BACK_ITEM																// Repurchase last 12 sold items from NPC
+#define ENABLE_SERVER_ANTIHACK_GUARD														// Authoritative server-side anti-cheat & hack log
+/********************************************** VALIANT2 Unified Modules End **********************************************/
 
 /********************************************** Official Type Modules Defines **********************************************/
 
