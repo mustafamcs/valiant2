@@ -5,7 +5,7 @@ description: Generate, modify, and audit Metin2 Python 2.7 client UI code (uiscr
 
 # VALIANT2 — Metin2 UI Code Generator & Architecture Skill (`/m2ui`)
 
-Use this skill whenever creating or modifying in-game UI windows in `C:\GitHub\valiant2\assets\unpacked\data\root\` or `uiscript\`.
+Use this skill whenever creating or modifying in-game UI windows in `C:\valiant2\assets\unpacked\data\root\` or `uiscript\`.
 
 ## 1. Core Rules & Memory Safety
 - **Python 2.7 Compatibility:** Use `xrange`, `%` or `.format()` string formatting, old-style/new-style classes inheriting from `ui.ScriptWindow` or `ui.BoardWithTitleBar`.

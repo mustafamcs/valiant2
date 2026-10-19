@@ -1,0 +1,9 @@
+YPRT
+83972639600
+ambiencesoundvector		"sound/ambience/wolf.mp3"
+maxvolumeareapercentage		"0.200000"
+playinterval		"0.000000"
+playintervalvariation		"0.000000"
+playtype		"LOOP"
+propertyname		"wolf"
+propertytype		"Ambience"

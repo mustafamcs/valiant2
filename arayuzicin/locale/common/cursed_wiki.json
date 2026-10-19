@@ -1,0 +1,570 @@
+{
+ "daily_coin_limit": 8,
+ "maps": [
+  {
+   "map_index": 63,
+   "max_level": 54,
+   "coin": 91233,
+   "thresholds": [
+    250000,
+    625000,
+    1500000
+   ],
+   "bosses": [
+    35040,
+    35041,
+    35042
+   ]
+  },
+  {
+   "map_index": 64,
+   "max_level": 54,
+   "coin": 91233,
+   "thresholds": [
+    250000,
+    625000,
+    1500000
+   ],
+   "bosses": [
+    35035,
+    35036,
+    35037
+   ]
+  },
+  {
+   "map_index": 65,
+   "max_level": 64,
+   "coin": 91233,
+   "thresholds": [
+    500000,
+    1250000,
+    3000000
+   ],
+   "bosses": [
+    35049,
+    35050,
+    35051
+   ]
+  },
+  {
+   "map_index": 61,
+   "max_level": 69,
+   "coin": 91234,
+   "thresholds": [
+    500000,
+    1250000,
+    3000000
+   ],
+   "bosses": [
+    35060,
+    35061,
+    35062
+   ]
+  },
+  {
+   "map_index": 62,
+   "max_level": 79,
+   "coin": 91234,
+   "thresholds": [
+    500000,
+    1250000,
+    3000000
+   ],
+   "bosses": [
+    35063,
+    35064,
+    35065,
+    35066
+   ]
+  },
+  {
+   "map_index": 67,
+   "max_level": 82,
+   "coin": 91235,
+   "thresholds": [
+    1500000,
+    4500000,
+    12000000
+   ],
+   "bosses": [
+    39007,
+    39008,
+    39009
+   ]
+  },
+  {
+   "map_index": 68,
+   "max_level": 94,
+   "coin": 91235,
+   "thresholds": [
+    1500000,
+    4500000,
+    12000000
+   ],
+   "bosses": [
+    39010,
+    39011,
+    39012
+   ]
+  },
+  {
+   "map_index": 406,
+   "max_level": 94,
+   "coin": 91235,
+   "thresholds": [
+    1500000,
+    4500000,
+    12000000
+   ],
+   "bosses": [
+    39013,
+    39015
+   ]
+  },
+  {
+   "map_index": 73,
+   "max_level": 105,
+   "coin": 91235,
+   "thresholds": [
+    1500000,
+    4500000,
+    12000000
+   ],
+   "bosses": [
+    39016,
+    39017,
+    39018
+   ]
+  },
+  {
+   "map_index": 412,
+   "max_level": 109,
+   "coin": 91278,
+   "thresholds": [
+    1500000,
+    4500000,
+    12000000
+   ],
+   "bosses": [
+    39035,
+    39036,
+    39037,
+    39038,
+    39039,
+    39040,
+    39041,
+    39042
+   ]
+  },
+  {
+   "map_index": 353,
+   "max_level": 110,
+   "coin": 91352,
+   "thresholds": [
+    1500000,
+    4500000,
+    12000000
+   ],
+   "bosses": [
+    6445,
+    6446
+   ]
+  }
+ ],
+ "shops": {
+  "91233": [
+   {
+    "vnum": 91110,
+    "count": 50,
+    "price": 1,
+    "bound": false
+   },
+   {
+    "vnum": 91109,
+    "count": 1,
+    "price": 1,
+    "bound": false
+   },
+   {
+    "vnum": 71001,
+    "count": 2,
+    "price": 1,
+    "bound": false
+   },
+   {
+    "vnum": 71094,
+    "count": 2,
+    "price": 1,
+    "bound": false
+   },
+   {
+    "vnum": 50513,
+    "count": 1,
+    "price": 2,
+    "bound": false
+   },
+   {
+    "vnum": 27987,
+    "count": 3,
+    "price": 1,
+    "bound": false
+   },
+   {
+    "vnum": 70024,
+    "count": 1,
+    "price": 2,
+    "bound": false
+   },
+   {
+    "vnum": 91112,
+    "count": 1,
+    "price": 3,
+    "bound": false
+   },
+   {
+    "vnum": 50252,
+    "count": 5,
+    "price": 2,
+    "bound": false
+   },
+   {
+    "vnum": 70102,
+    "count": 5,
+    "price": 2,
+    "bound": false
+   },
+   {
+    "vnum": 25040,
+    "count": 3,
+    "price": 1,
+    "bound": false
+   }
+  ],
+  "91234": [
+   {
+    "vnum": 71084,
+    "count": 50,
+    "price": 1,
+    "bound": false
+   },
+   {
+    "vnum": 39016,
+    "count": 1,
+    "price": 6,
+    "bound": true
+   },
+   {
+    "vnum": 39005,
+    "count": 1,
+    "price": 6,
+    "bound": true
+   },
+   {
+    "vnum": 71001,
+    "count": 2,
+    "price": 1,
+    "bound": false
+   },
+   {
+    "vnum": 71094,
+    "count": 2,
+    "price": 1,
+    "bound": false
+   },
+   {
+    "vnum": 50513,
+    "count": 1,
+    "price": 3,
+    "bound": false
+   },
+   {
+    "vnum": 27987,
+    "count": 5,
+    "price": 1,
+    "bound": false
+   },
+   {
+    "vnum": 70024,
+    "count": 1,
+    "price": 2,
+    "bound": false
+   },
+   {
+    "vnum": 91112,
+    "count": 1,
+    "price": 3,
+    "bound": false
+   },
+   {
+    "vnum": 50252,
+    "count": 5,
+    "price": 2,
+    "bound": false
+   },
+   {
+    "vnum": 71035,
+    "count": 1,
+    "price": 3,
+    "bound": true
+   },
+   {
+    "vnum": 72347,
+    "count": 1,
+    "price": 3,
+    "bound": true
+   },
+   {
+    "vnum": 50926,
+    "count": 3,
+    "price": 1,
+    "bound": false
+   },
+   {
+    "vnum": 91133,
+    "count": 1,
+    "price": 2,
+    "bound": false
+   },
+   {
+    "vnum": 91199,
+    "count": 5,
+    "price": 1,
+    "bound": false
+   },
+   {
+    "vnum": 100300,
+    "count": 1,
+    "price": 2,
+    "bound": false
+   }
+  ],
+  "91235": [
+   {
+    "vnum": 71084,
+    "count": 50,
+    "price": 1,
+    "bound": false
+   },
+   {
+    "vnum": 39015,
+    "count": 1,
+    "price": 6,
+    "bound": true
+   },
+   {
+    "vnum": 91140,
+    "count": 1,
+    "price": 10,
+    "bound": true
+   },
+   {
+    "vnum": 71035,
+    "count": 1,
+    "price": 3,
+    "bound": true
+   },
+   {
+    "vnum": 72347,
+    "count": 1,
+    "price": 3,
+    "bound": true
+   },
+   {
+    "vnum": 50926,
+    "count": 1,
+    "price": 1,
+    "bound": false
+   },
+   {
+    "vnum": 91133,
+    "count": 1,
+    "price": 1,
+    "bound": false
+   },
+   {
+    "vnum": 91199,
+    "count": 7,
+    "price": 1,
+    "bound": false
+   },
+   {
+    "vnum": 100400,
+    "count": 1,
+    "price": 2,
+    "bound": false
+   },
+   {
+    "vnum": 27992,
+    "count": 1,
+    "price": 2,
+    "bound": true
+   },
+   {
+    "vnum": 27993,
+    "count": 1,
+    "price": 2,
+    "bound": true
+   },
+   {
+    "vnum": 27994,
+    "count": 1,
+    "price": 2,
+    "bound": true
+   },
+   {
+    "vnum": 71001,
+    "count": 2,
+    "price": 1,
+    "bound": false
+   },
+   {
+    "vnum": 71094,
+    "count": 2,
+    "price": 1,
+    "bound": false
+   },
+   {
+    "vnum": 50252,
+    "count": 5,
+    "price": 2,
+    "bound": false
+   }
+  ],
+  "91278": [
+   {
+    "vnum": 91140,
+    "count": 1,
+    "price": 5,
+    "bound": true
+   },
+   {
+    "vnum": 39015,
+    "count": 1,
+    "price": 3,
+    "bound": true
+   },
+   {
+    "vnum": 31239,
+    "count": 1,
+    "price": 3,
+    "bound": true
+   },
+   {
+    "vnum": 31240,
+    "count": 1,
+    "price": 3,
+    "bound": true
+   },
+   {
+    "vnum": 31241,
+    "count": 1,
+    "price": 3,
+    "bound": true
+   },
+   {
+    "vnum": 91438,
+    "count": 10,
+    "price": 1,
+    "bound": false
+   },
+   {
+    "vnum": 100701,
+    "count": 1,
+    "price": 1,
+    "bound": false
+   },
+   {
+    "vnum": 91133,
+    "count": 2,
+    "price": 1,
+    "bound": true
+   },
+   {
+    "vnum": 56027,
+    "count": 6,
+    "price": 2,
+    "bound": false
+   },
+   {
+    "vnum": 72347,
+    "count": 1,
+    "price": 2,
+    "bound": true
+   },
+   {
+    "vnum": 71035,
+    "count": 1,
+    "price": 1,
+    "bound": true
+   },
+   {
+    "vnum": 30610,
+    "count": 1,
+    "price": 2,
+    "bound": true
+   }
+  ],
+  "91352": [
+   {
+    "vnum": 72346,
+    "count": 1,
+    "price": 2,
+    "bound": true
+   },
+   {
+    "vnum": 72348,
+    "count": 1,
+    "price": 3,
+    "bound": true
+   },
+   {
+    "vnum": 72065,
+    "count": 1,
+    "price": 3,
+    "bound": true
+   },
+   {
+    "vnum": 71189,
+    "count": 500,
+    "price": 1,
+    "bound": false
+   },
+   {
+    "vnum": 93315,
+    "count": 5,
+    "price": 1,
+    "bound": false
+   },
+   {
+    "vnum": 93310,
+    "count": 1,
+    "price": 1,
+    "bound": false
+   },
+   {
+    "vnum": 91650,
+    "count": 1,
+    "price": 1,
+    "bound": true
+   },
+   {
+    "vnum": 93021,
+    "count": 1,
+    "price": 4,
+    "bound": true
+   },
+   {
+    "vnum": 93020,
+    "count": 1,
+    "price": 4,
+    "bound": true
+   },
+   {
+    "vnum": 30611,
+    "count": 1,
+    "price": 3,
+    "bound": true
+   }
+  ]
+ }
+}

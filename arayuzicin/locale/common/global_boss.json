@@ -1,0 +1,16 @@
+{
+	"mobs": [
+		{
+			"vnum": 1191,
+			"enabled": true,
+			"effect_file": "d:/ymir work/effect/monster2/pvp_safe_zone_circle.mse",
+			"effect_scale": 1.0
+		},
+		{
+			"vnum": 3791,
+			"enabled": true,
+			"effect_file": "d:/ymir work/effect/monster2/pvp_safe_zone_circle_earth.mse",
+			"effect_scale": 1.0
+		}
+	]
+}

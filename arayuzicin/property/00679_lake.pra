@@ -1,0 +1,9 @@
+YPRT
+83972639604
+ambiencesoundvector		"sound/ambience/lake.mp3"
+maxvolumeareapercentage		"0.600000"
+playinterval		"0.000000"
+playintervalvariation		"0.000000"
+playtype		"LOOP"
+propertyname		"lake"
+propertytype		"Ambience"

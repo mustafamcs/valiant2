@@ -1,0 +1,3030 @@
+{
+  "1": [
+    {
+      "desc": {
+        "en": "Total attack value: %.0f-%.0f",
+        "ro": "Valoare totală atac: %.0f-%.0f",
+        "tr": "Toplam Saldırı Gücü %.0f-%.0f",
+        "pt": "Valor de Ataque total: %.0f-%.0f",
+        "pl": "Totalna siła ataku: %.0f-%.0f",
+        "hu": "Teljes támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco totale %.0f-%.0f",
+        "gr": "Συνολική αξία επίθεσης %.0f-%.0f",
+        "fr": "Puissance totale de l'attaque : de %.0f à %.0f",
+        "es": "Valor total de ataque %.0f-%.0f",
+        "de": "Gesamter Angriffswert: %.0f-%.0f"
+      },
+      "min": "(1.1*MinATK + (0.1*MinATK + 1.5*STR)*SkillPoint) * 3",
+      "max": "(1.1*MaxATK + (0.1*MaxATK + 1.5*STR)*SkillPoint) * 3"
+    }
+  ],
+  "2": [
+    {
+      "desc": {
+        "en": "Attack value: %.0f-%.0f",
+        "ro": "Valoare de atac: %.0f-%.0f",
+        "tr": "Saldırı Değeri %.0f-%.0f",
+        "pt": "Valor de Ataque: %.0f-%.0f",
+        "pl": "Siła Ataku: %.0f-%.0f",
+        "hu": "Támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco %.0f-%.0f",
+        "gr": "Αξία επίθεσης %.0f-%.0f",
+        "fr": "Puissance de l'attaque : de %.0f à %.0f",
+        "es": "Valor de ataque %.0f-%.0f",
+        "de": "Angriffswert: %.0f-%.0f"
+      },
+      "min": "3*MinATK + (0.8*MinATK + STR*6 + DEX*2 + CON) * SkillPoint",
+      "max": "3*MaxATK + (0.8*MaxATK + STR*6 + DEX*2 + CON) * SkillPoint"
+    }
+  ],
+  "3": [
+    {
+      "desc": {
+        "en": "Attack speed: +%.0f%%",
+        "ro": "Viteză de atac: +%.0f%%",
+        "tr": "Saldırı Hızı +%.0f%%",
+        "pt": "Rapidez de Ataque: +%.0f%%",
+        "pl": "Szybkość ataku: +%.0f%%",
+        "hu": "Támadósebesség: +%.0f%%",
+        "it": "Velocità di attacco +%.0f%%",
+        "gr": "Ταχύτητα επίθεσης +%.0f%%",
+        "fr": "Vitesse d'attaque +%.0f%%",
+        "es": "Velocidad de ataque +%.0f%%",
+        "de": "Angriffsgeschwindigkeit: +%.0f%%"
+      },
+      "min": "25*k"
+    },
+    {
+      "desc": {
+        "en": "Movement speed: +%.0f%%",
+        "ro": "Viteză de mişcare: +%.0f%%",
+        "tr": "Hareket Hızı: +%.0f%%",
+        "pt": "Rapidez de Movimento: +%.0f%%",
+        "pl": "Szybkość ruchu: +%.0f%%",
+        "hu": "Mozgási sebesség: +%.0f%%",
+        "it": "Velocità di movimento +%.0f%%",
+        "gr": "Ταχύτητα κίνησης +%.0f%%",
+        "fr": "Vitesse de déplacement +%.0f%%",
+        "es": "Velocidad de Movimiento +%.0f%%",
+        "de": "Bewegungsgeschwindigkeit: +%.0f%%"
+      },
+      "min": "20 * SkillPoint"
+    }
+  ],
+  "4": [
+    {
+      "desc": {
+        "en": "Attack value: +%.0f",
+        "ro": "Valoarea atacului: +%.0f",
+        "tr": "Saldırı Değeri +%.0f",
+        "pt": "Valor de Ataque: +%.0f",
+        "pl": "Siła Ataku: +%.0f",
+        "hu": "Támadóérték: +%.0f",
+        "it": "Valore di attacco +%.0f",
+        "gr": "Αξία επίθεσης +%.0f",
+        "fr": "Puissance de l'attaque +%.0f",
+        "es": "Valor de ataque +%.0f",
+        "de": "Angriffswert: +%.0f"
+      },
+      "min": "(150+str+lv*3)*k"
+    }
+  ],
+  "5": [
+    {
+      "desc": {
+        "en": "Attack value: %.0f-%.0f",
+        "ro": "Valoare de atac: %.0f-%.0f",
+        "tr": "Saldırı Değeri %.0f-%.0f",
+        "pt": "Valor de Ataque: %.0f-%.0f",
+        "pl": "Siła Ataku: %.0f-%.0f",
+        "hu": "Támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco %.0f-%.0f",
+        "gr": "Αξία επίθεσης %.0f-%.0f",
+        "fr": "Puissance de l'attaque : de %.0f à %.0f",
+        "es": "Valor de ataque %.0f-%.0f",
+        "de": "Angriffswert: %.0f-%.0f"
+      },
+      "min": "2*MinATK + (MinATK + 3*DEX + 7*STR + CON)*SkillPoint",
+      "max": "2*MaxATK + (MaxATK + 3*DEX + 7*STR + CON)*SkillPoint"
+    }
+  ],
+  "6": [
+    {
+      "desc": {
+        "en": "Attack value: %.0f-%.0f",
+        "ro": "Valoare de atac: %.0f-%.0f",
+        "tr": "Saldırı Değeri %.0f-%.0f",
+        "pt": "Valor de Ataque: %.0f-%.0f",
+        "pl": "Siła Ataku: %.0f-%.0f",
+        "hu": "Támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco %.0f-%.0f",
+        "gr": "Αξία επίθεσης %.0f-%.0f",
+        "fr": "Puissance de l'attaque : de %.0f à %.0f",
+        "es": "Valor de ataque %.0f-%.0f",
+        "de": "Angriffswert: %.0f-%.0f"
+      },
+      "min": "(3*MinATK + (MinATK + 1.5*STR)*SkillPoint)*1.07",
+      "max": "(3*MaxATK + (MaxATK + 1.5*STR)*SkillPoint)*1.07"
+    }
+  ],
+  "16": [
+    {
+      "desc": {
+        "en": "Attack value: %.0f-%.0f",
+        "ro": "Valoare de atac: %.0f-%.0f",
+        "tr": "Saldırı Değeri %.0f-%.0f",
+        "pt": "Valor de Ataque: %.0f-%.0f",
+        "pl": "Siła Ataku: %.0f-%.0f",
+        "hu": "Támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco %.0f-%.0f",
+        "gr": "Αξία επίθεσης %.0f-%.0f",
+        "fr": "Puissance de l'attaque : de %.0f à %.0f",
+        "es": "Valor de ataque %.0f-%.0f",
+        "de": "Angriffswert: %.0f-%.0f"
+      },
+      "min": "2.3*MinATK + (MinATK*4 + 4*STR + CON)*SkillPoint",
+      "max": "2.3*MaxATK + (MaxATK*4 + 4*STR + CON)*SkillPoint"
+    }
+  ],
+  "17": [
+    {
+      "desc": {
+        "en": "Attack value: %.0f-%.0f",
+        "ro": "Valoare atac: %.0f-%.0f",
+        "tr": "Saldırı Değeri %.0f-%.0f",
+        "pt": "Valor de Ataque: %.0f-%.0f",
+        "pl": "Siła ataku: %.0f-%.0f",
+        "hu": "Támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco %.0f-%.0f",
+        "gr": "Αξία επίθεσης %.0f-%.0f",
+        "fr": "Puissance de l'attaque : de %.0f à %.0f",
+        "es": "Valor de ataque %.0f-%.0f",
+        "de": "Angriffswert: %.0f-%.0f"
+      },
+      "min": "2.3*MinATK + (3*MinATK + 4*STR + 3*CON)*SkillPoint",
+      "max": "2.3*MaxATK + (3*MaxATK + 4*STR + 3*CON)*SkillPoint"
+    }
+  ],
+  "18": [
+    {
+      "desc": {
+        "en": "Attack value: %.0f-%.0f",
+        "ro": "Valoare atac: %.0f-%.0f",
+        "tr": "Saldırı Değeri %.0f-%.0f",
+        "pt": "Valor de Ataque: %.0f-%.0f",
+        "pl": "Siła ataku: %.0f-%.0f",
+        "hu": "Támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco %.0f-%.0f",
+        "gr": "Αξία επίθεσης %.0f-%.0f",
+        "fr": "Puissance de l'attaque : de %.0f à %.0f",
+        "es": "Valor de ataque %.0f-%.0f",
+        "de": "Angriffswert: %.0f-%.0f"
+      },
+      "min": "2*MinATK + (2*MinATK + 2*DEX + 2*CON + 4*STR)*SkillPoint",
+      "max": "2*MaxATK + (2*MaxATK + 2*DEX + 2*CON + 4*STR)*SkillPoint"
+    },
+    {
+      "desc": {
+        "en": "Faint chance: %.0f%%",
+        "ro": "Şansă de necunoştinţă: %.0f%%",
+        "tr": "Bayılma Şansı: %.0f%%",
+        "pt": "Probabilidade de Atordoamento: %.0f%%",
+        "pl": "Szansa na omdlenie: %.0f%%",
+        "hu": "Ájulási esély: %.0f%%",
+        "it": "Probabilità di svenimento %.0f%%",
+        "gr": "Πιθανότητα λιποθυμίας %.0f%%",
+        "fr": "Chance d'étourdir : %.0f %%",
+        "es": "Probabilidad de desmayo %.0f%%",
+        "de": "Faint chance: %.0f%%"
+      },
+      "min": "(100 + 1000*SkillPoint/6)/10"
+    }
+  ],
+  "19": [
+    {
+      "desc": {
+        "en": "Defence: +%.0f",
+        "ro": "Apărare : +%.0f",
+        "tr": "Savunma : +%.0f",
+        "pt": "Defesa: +%.0f",
+        "pl": "Obrona: +%.0f",
+        "hu": "Védelem: +%.0f",
+        "it": "Difesa: +%.0f",
+        "gr": "Άμυνα: +%.0f",
+        "fr": "Défense : +%.0f",
+        "es": "Defensa : +%.0f",
+        "de": "Defence: +%.0f"
+      },
+      "min": "(200 + str*0.2 + con*0.5)*k"
+    },
+    {
+      "desc": {
+        "en": "Movement speed: -%.0f",
+        "ro": "Viteză de mişcare: -%.0f",
+        "tr": "Hareket Hızı : -%.0f",
+        "pt": "Rapidez de Movimento: -%.0f",
+        "pl": "Szybkość Ruchu: -%.0f",
+        "hu": "Mozgási sebesség: -%.0f",
+        "it": "Velocità di movimento: -%.0f",
+        "gr": "Ταχύτητα κίνησης: -%.0f",
+        "fr": "Vitesse de déplacement : -%.0f",
+        "es": "Velocidad de movimiento : -%.0f",
+        "de": "Bewegungsgeschwindigkeit: -%.0f"
+      },
+      "min": "1 + 9*SkillPoint"
+    }
+  ],
+  "20": [
+    {
+      "desc": {
+        "en": "Attack value: %.0f-%.0f",
+        "ro": "Valoare atac: %.0f-%.0f",
+        "tr": "Saldırı Değeri %.0f-%.0f",
+        "pt": "Valor de Ataque: %.0f-%.0f",
+        "pl": "Siła ataku: %.0f-%.0f",
+        "hu": "Támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco %.0f-%.0f",
+        "gr": "Αξία επίθεσης %.0f-%.0f",
+        "fr": "Puissance de l'attaque : de %.0f à %.0f",
+        "es": "Valor de ataque %.0f-%.0f",
+        "de": "Angriffswert: %.0f-%.0f"
+      },
+      "min": "2*minatk + (minatk + dex*3 + str*5 + con)*k",
+      "max": "2*maxatk + (maxatk + dex*3 + str*5 + con)*k"
+    },
+    {
+      "desc": {
+        "en": "Faint chance: %.0f%%",
+        "ro": "Şansă de necunoştinţă: %.0f%%",
+        "tr": "Bayılma Şansı: %.0f%%",
+        "pt": "Probabilidade de Atordoamento: %.0f%%",
+        "pl": "Szansa na omdlenie: %.0f%%",
+        "hu": "Ájulási esély: %.0f%%",
+        "it": "Probabilità di svenimento %.0f%%",
+        "gr": "Πιθανότητα λιποθυμίας %.0f%%",
+        "fr": "Chance d'étourdir : %.0f %%",
+        "es": "Probabilidad de desmayo %.0f%%",
+        "de": "Faint chance: %.0f%%"
+      },
+      "min": "(100+k*1000/6)/10"
+    }
+  ],
+  "21": [
+    {
+      "desc": {
+        "en": "Attack value: %.0f-%.0f",
+        "ro": "Valoare atac: %.0f-%.0f",
+        "tr": "Saldırı Değeri %.0f-%.0f",
+        "pt": "Valor de Ataque: %.0f-%.0f",
+        "pl": "Siła ataku: %.0f-%.0f",
+        "hu": "Támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco %.0f-%.0f",
+        "gr": "Αξία επίθεσης %.0f-%.0f",
+        "fr": "Puissance de l'attaque : de %.0f à %.0f",
+        "es": "Valor de ataque %.0f-%.0f",
+        "de": "Angriffswert: %.0f-%.0f"
+      },
+      "min": "(2*MinATK + (2*MinATK + 2*DEX + 2*CON + STR*4)*SkillPoint)*1.1",
+      "max": "(2*MaxATK + (2*MaxATK + 2*DEX + 2*CON + STR*4)*SkillPoint)*1.1"
+    }
+  ],
+  "31": [
+    {
+      "desc": {
+        "en": "Attack value: %.0f-%.0f",
+        "ro": "Valoare de atac: %.0f-%.0f",
+        "tr": "Saldırı Değeri %.0f-%.0f",
+        "pt": "Valor de Ataque: %.0f-%.0f",
+        "pl": "Siła Ataku %.0f-%.0f",
+        "hu": "Támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco %.0f-%.0f",
+        "gr": "Αξία επίθεσης %.0f-%.0f",
+        "fr": "Valeur d'attaque : %.0f-%.0f",
+        "es": "Valor de ataque %.0f-%.0f",
+        "de": "Angriffswert: %.0f-%.0f"
+      },
+      "min": "minatk + (1.2 * minatk + 500 + dex*12)*k",
+      "max": "maxatk + (1.2 * maxatk + 700 + dex*12)*k"
+    }
+  ],
+  "32": [
+    {
+      "desc": {
+        "en": "Attack value %.0f-%.0f",
+        "ro": "Valoare de Atac %.0f-%.0f",
+        "tr": "Saldırı Değeri %.0f-%.0f",
+        "pt": "Valor de Ataque %.0f-%.0f",
+        "pl": "Siła Ataku %.0f-%.0f",
+        "hu": "Támadóérték %.0f-%.0f",
+        "it": "Valore di attacco %.0f-%.0f",
+        "gr": "Αξία επίθεσης %.0f-%.0f",
+        "fr": "Valeur d'attaque : %.0f-%.0f",
+        "es": "Valor de ataque %.0f-%.0f",
+        "de": "Angriffswert %.0f-%.0f"
+      },
+      "min": "(minatk + (1.6* minatk + 200 + dex*7 + str*7)*k)",
+      "max": "(maxatk + (1.6* maxatk + 300 + dex*7 + str*7)*k)"
+    }
+  ],
+  "33": [
+    {
+      "desc": {
+        "en": "Attack value: %.0f-%.0f",
+        "ro": "Valoare atac: %.0f-%.0f",
+        "tr": "Saldırı Değeri %.0f-%.0f",
+        "pt": "Valor de Ataque: %.0f-%.0f",
+        "pl": "Siła Ataku %.0f-%.0f",
+        "hu": "Támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco %.0f-%.0f",
+        "gr": "Αξία επίθεσης %.0f-%.0f",
+        "fr": "Puissance de l'attaque : de %.0f à %.0f",
+        "es": "Valor de ataque %.0f-%.0f",
+        "de": "Angriffswert: %.0f-%.0f"
+      },
+      "min": "2*minatk + (0.5*minatk + dex*9 + str*7)*k",
+      "max": "2*maxatk + (0.5*maxatk + dex*9 + str*7)*k"
+    },
+    {
+      "desc": {
+        "en": "Poison chance: %.0f%%",
+        "ro": "Şansă de otrăvire: %.0f%%",
+        "tr": "Zehirlenme Olasılığı %.0f%%",
+        "pt": "Probabilidade de Envenenamento: %.0f%%",
+        "pl": "Szansa na Zatrucie: %.0f%%",
+        "hu": "Mérgezés esélye: %.0f%%",
+        "it": "Probabilità di avvelenamento %.0f%%",
+        "gr": "Πιθανότητα δηλητηρίασης %.0f%%",
+        "fr": "Chance d'empoisonner : %.0f%%",
+        "es": "Probabilidad de envenenamiento %.0f%%",
+        "de": "Vergiftungschance: %.0f%%"
+      },
+      "min": "40*k"
+    }
+  ],
+  "34": [
+    {
+      "desc": {
+        "en": "Ambush bonus damage: %.0f%%",
+        "ro": "Bonus daune ambuscadă: %.0f%%",
+        "tr": "Suikast Bonus Hasarı %.0f%%",
+        "pt": "Dano Bónus de Emboscada: %.0f%%",
+        "pl": "Bonus do Obrażeń Podczas Zasadzki: %.0f%%",
+        "hu": "Leshely bónusz sebzés: %.0f%%",
+        "it": "Bonus danni Tranello %.0f%%",
+        "gr": "Μπόνους ζημιάς ενέδρας %.0f%%",
+        "fr": "Dommages bonus d'embuscade : +%.0f %%",
+        "es": "Bonificación de daño de emboscada %.0f %%",
+        "de": "Ambush bonus damage: %.0f%%"
+      },
+      "min": "50 * SkillPoint"
+    }
+  ],
+  "35": [
+    {
+      "desc": {
+        "en": "Attack value: %.0f-%.0f",
+        "ro": "Valoare atac: %.0f-%.0f",
+        "tr": "Saldırı Değeri %.0f-%.0f",
+        "pt": "Valor de Ataque: %.0f-%.0f",
+        "pl": "Siła Ataku %.0f-%.0f",
+        "hu": "Támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco %.0f-%.0f",
+        "gr": "Αξία επίθεσης %.0f-%.0f",
+        "fr": "Puissance de l'attaque : de %.0f à %.0f",
+        "es": "Valor de ataque %.0f-%.0f",
+        "de": "Angriffswert: %.0f-%.0f"
+      },
+      "min": "lv*2+(minatk + str*3 + dex*18)*k",
+      "max": "lv*2+(maxatk + str*3 + dex*18)*k"
+    },
+    {
+      "desc": {
+        "en": "Poison chance: %.0f%%",
+        "ro": "Şansă de otrăvire: %.0f%%",
+        "tr": "Zehirlenme Olasılığı %.0f%%",
+        "pt": "Probabilidade de Envenenamento: %.0f%%",
+        "pl": "Szansa na Zatrucie: %.0f%%",
+        "hu": "Mérgezés esélye: %.0f%%",
+        "it": "Probabilità di avvelenamento %.0f%%",
+        "gr": "Πιθανότητα δηλητηρίασης %.0f%%",
+        "fr": "Chance d'empoisonner : %.0f%%",
+        "es": "Probabilidad de envenenamiento %.0f%%",
+        "de": "Vergiftungschance: %.0f%%"
+      },
+      "min": "60*k"
+    }
+  ],
+  "36": [
+    {
+      "desc": {
+        "en": "Attack value: %.0f-%.0f",
+        "ro": "Valoare atac: %.0f-%.0f",
+        "tr": "Saldırı Değeri %.0f-%.0f",
+        "pt": "Valor de Ataque: %.0f-%.0f",
+        "pl": "Siła ataku: %.0f-%.0f",
+        "hu": "Támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco %.0f-%.0f",
+        "gr": "Αξία επίθεσης %.0f-%.0f",
+        "fr": "Puissance de l'attaque : de %.0f à %.0f",
+        "es": "Valor de ataque %.0f-%.0f",
+        "de": "Angriffswert: %.0f-%.0f"
+      },
+      "min": "(lv*2+(minatk + str*3 + dex*18)*k)*1.1",
+      "max": "(lv*2+(maxatk + str*3 + dex*18)*k)*1.1"
+    },
+    {
+      "desc": {
+        "en": "Poison chance: %.0f%%",
+        "ro": "Şansă de otrăvire: %.0f%%",
+        "tr": "Zehirlenme Olasılığı %.0f%%",
+        "pt": "Probabilidade de Envenenamento: %.0f%%",
+        "pl": "Szansa na zatrucie: %.0f%%",
+        "hu": "Mérgezés esélye: %.0f%%",
+        "it": "Probabilità di avvelenamento %.0f%%",
+        "gr": "Πιθανότητα δηλητηρίασης %.0f%%",
+        "fr": "Chance d'empoisonner : %.0f%%",
+        "es": "Probabilidad de envenenamiento %.0f%%",
+        "de": "Vergiftungschance: %.0f%%"
+      },
+      "min": "60*k"
+    }
+  ],
+  "46": [
+    {
+      "desc": {
+        "en": "Total attack value: %.0f-%.0f",
+        "ro": "Valoare totală atac: %.0f-%.0f",
+        "tr": "Toplam Saldırı Gücü %.0f-%.0f",
+        "pt": "Valor de Ataque Total: %.0f-%.0f",
+        "pl": "Totalna siła ataku: %.0f-%.0f",
+        "hu": "Teljes támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco totale %.0f-%.0f",
+        "gr": "Συνολική αξία επίθεσης %.0f-%.0f",
+        "fr": "Puissance totale de l'attaque : de %.0f à %.0f",
+        "es": "Valor total de ataque %.0f-%.0f",
+        "de": "Gesamter Angriffswert: %.0f-%.0f"
+      },
+      "min": "minatk + 0.2*minatk*floor(2+k*6)+ (0.8*minatk+dex*8*ar+iq*2) *k",
+      "max": "maxatk + 0.2*maxatk*floor(2+k*6)+ (0.8*maxatk+dex*8*ar+iq*2) *k"
+    },
+    {
+      "desc": {
+        "en": "Arrows fired: %.0f",
+        "ro": "Săgeţi aprinse: %.0f",
+        "tr": "Atılan Oklar: %.0f",
+        "pt": "Flechas disparadas: %.0f",
+        "pl": "Wystrzelone strzały: %.0f",
+        "hu": "Kilőtt nyilak száma: %.0f",
+        "it": "Frecce lanciate: %.0f",
+        "gr": "Βέλη που εκτοξεύονται: %.0f",
+        "fr": "Flèches décochées : %.0f",
+        "es": "Flechas disparadas: %.0f",
+        "de": "Arrows fired: %.0f"
+      },
+      "min": "2 + floor(6 * SkillPoint)"
+    }
+  ],
+  "47": [
+    {
+      "desc": {
+        "en": "Attack value: %.0f-%.0f",
+        "ro": "Valoare atac: %.0f-%.0f",
+        "tr": "Saldırı Değeri %.0f-%.0f",
+        "pt": "Valor de Ataque: %.0f-%.0f",
+        "pl": "Siła ataku: %.0f-%.0f",
+        "hu": "Támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco %.0f-%.0f",
+        "gr": "Αξία επίθεσης %.0f-%.0f",
+        "fr": "Puissance de l'attaque : de %.0f à %.0f",
+        "es": "Valor de ataque %.0f-%.0f",
+        "de": "Angriffswert: %.0f-%.0f"
+      },
+      "min": "minatk + (1.7*minatk + dex*5 + str)*k",
+      "max": "maxatk + (1.7*maxatk + dex*5 + str)*k"
+    },
+    {
+      "desc": {
+        "en": "Max. number of targets: %.0f",
+        "ro": "Numar maxim de ţinte: %.0f",
+        "tr": "Maks. Hedef Sayısı %.0f",
+        "pt": "Quantidade Máx. de Alvos: %.0f",
+        "pl": "Maks. ilość celów: %.0f",
+        "hu": "Célpontok max. száma: %.0f",
+        "it": "N. max. di obiettivi: %.0f",
+        "gr": "Μέγιστος αριθμός στόχων: %.0f",
+        "fr": "Nombre maximum de cibles : %.0f",
+        "es": "Número máx. de objetivos: %.0f",
+        "de": "Max. number of targets: %.0f"
+      },
+      "min": "2 + floor(6 * SkillPoint)"
+    }
+  ],
+  "48": [
+    {
+      "desc": {
+        "en": "Attack value: %.0f-%.0f",
+        "ro": "Valoare atac: %.0f-%.0f",
+        "tr": "Saldırı Değeri %.0f-%.0f",
+        "pt": "Valor de Ataque: %.0f-%.0f",
+        "pl": "Siła ataku: %.0f-%.0f",
+        "hu": "Támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco %.0f-%.0f",
+        "gr": "Αξία επίθεσης %.0f-%.0f",
+        "fr": "Puissance de l'attaque : de %.0f à %.0f",
+        "es": "Valor de ataque %.0f-%.0f",
+        "de": "Angriffswert: %.0f-%.0f"
+      },
+      "min": "1.5*minatk + (2.6*minatk + 0.9*iq+100 )*k",
+      "max": "1.5*maxatk + (2.6*maxatk + 0.9*iq+300 )*k"
+    },
+    {
+      "desc": {
+        "en": "Chance of lasting fire: %.0f%%",
+        "ro": "Sansa durată de foc: %.0f%%",
+        "tr": "Sürekli Ateş Olasılığı %.0f%%",
+        "pt": "Probabilidade de Fogo Duradouro: %.0f%%",
+        "pl": "Szansa na płonięcie: %.0f%%",
+        "hu": "Esély tartós tűzre: %.0f%%",
+        "it": "Probabilità di fuoco duraturo %.0f%%",
+        "gr": "Πιθανότητα Διαρκούς Φωτιάς %.0f%%",
+        "fr": "Chance de feu durable : %.0f%%",
+        "es": "Probabilidad de fuego duradero %.0f%%",
+        "de": "Chance of lasting fire: %.0f%%"
+      },
+      "min": "(350+iq*4*k)/10"
+    }
+  ],
+  "49": [
+    {
+      "desc": {
+        "en": "Movement speed: +%.0f%%",
+        "ro": "Viteză de mişcare: +%.0f%%",
+        "tr": "Hareket Hızı: +%%%.0f",
+        "pt": "Rapidez de Movimento: +%.0f%%",
+        "pl": "Szybkość ruchu: +%.0f%%",
+        "hu": "Mozgási sebesség: +%.0f%%",
+        "it": "Velocità di movimento +%.0f%%",
+        "gr": "Ταχύτητα κίνησης +%.0f%%",
+        "fr": "Vitesse de déplacement +%.0f%%",
+        "es": "Velocidad de movimiento +%.0f %%",
+        "de": "Bewegungsgeschwindigkeit: +%.0f%%"
+      },
+      "min": "60*SkillPoint"
+    }
+  ],
+  "50": [
+    {
+      "desc": {
+        "en": "Attack value: %.0f-%.0f",
+        "ro": "Valoare atac: %.0f-%.0f",
+        "tr": "Saldırı Değeri %.0f-%.0f",
+        "pt": "Valor de Ataque: %.0f-%.0f",
+        "pl": "Siła Ataku %.0f-%.0f",
+        "hu": "Támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco %.0f-%.0f",
+        "gr": "Αξία επίθεσης %.0f-%.0f",
+        "fr": "Puissance de l'attaque : de %.0f à %.0f",
+        "es": "Valor de ataque %.0f-%.0f",
+        "de": "Angriffswert: %.0f-%.0f"
+      },
+      "min": "minatk + (1.4*minatk + 100 + dex*7 + str*4+iq*4)*k",
+      "max": "maxatk + (1.4*maxatk + 200 + dex*7 + str*4+iq*4)*k"
+    },
+    {
+      "desc": {
+        "en": "Poison chance: %.0f%%",
+        "ro": "Şansă de otrăvire: %.0f%%",
+        "tr": "Zehirlenme Olasılığı %.0f%%",
+        "pt": "Probabilidade de Envenenamento: %.0f%%",
+        "pl": "Szansa na Zatrucie: %.0f%%",
+        "hu": "Mérgezés esélye: %.0f%%",
+        "it": "Probabilità di avvelenamento %.0f%%",
+        "gr": "Πιθανότητα δηλητηρίασης %.0f%%",
+        "fr": "Chance d'empoisonner : %.0f%%",
+        "es": "Probabilidad de envenenamiento %.0f%%",
+        "de": "Vergiftungschance: %.0f%%"
+      },
+      "min": "(50+dex*6*k)/10"
+    }
+  ],
+  "51": [
+    {
+      "desc": {
+        "en": "Attack value: %.0f-%.0f",
+        "ro": "Valoare de atac: %.0f-%.0f",
+        "tr": "Saldırı Değeri %.0f-%.0f",
+        "pt": "Valor de Ataque: %.0f-%.0f",
+        "pl": "Siła Ataku %.0f-%.0f",
+        "hu": "Támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco %.0f-%.0f",
+        "gr": "Αξία επίθεσης %.0f-%.0f",
+        "fr": "Puissance de l'attaque : de %.0f à %.0f",
+        "es": "Valor de ataque %.0f-%.0f",
+        "de": "Angriffswert: %.0f-%.0f"
+      },
+      "min": "(MinATK + (1.2*MinATK + 100 + DEX*6 + STR*3+iq*3)*k)*1.2",
+      "max": "(MaxATK + (1.2*MaxATK + 200 + DEX*6 + STR*3+iq*3)*k)*1.2"
+    },
+    {
+      "desc": {
+        "en": "Poison chance: %.0f%%",
+        "ro": "Şansă de otrăvire: %.0f%%",
+        "tr": "Zehirleme Olasılığı %.0f%%",
+        "pt": "Probabilidade de Envenenamento: %.0f%%",
+        "pl": "Szansa na Zatrucie: %.0f%%",
+        "hu": "Mérgezés esélye: %.0f%%",
+        "it": "Probabilità di avvelenamento %.0f%%",
+        "gr": "Πιθανότητα δηλητηρίασης %.0f%%",
+        "fr": "Chance d'empoisonner : %.0f%%",
+        "es": "Probabilidad de envenenamiento %.0f %%",
+        "de": "Vergiftungschance: %.0f%%"
+      },
+      "min": "(50+dex*6*k)/10"
+    }
+  ],
+  "61": [
+    {
+      "desc": {
+        "en": "Attack value: %.0f-%.0f",
+        "ro": "Valoare atac: %.0f-%.0f",
+        "tr": "Saldırı Değeri %.0f-%.0f",
+        "pt": "Valor de Ataque: %.0f-%.0f",
+        "pl": "Siła ataku: %.0f-%.0f",
+        "hu": "Támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco %.0f-%.0f",
+        "gr": "Αξία επίθεσης %.0f-%.0f",
+        "fr": "Puissance de l'attaque : de %.0f à %.0f",
+        "es": "Valor de ataque %.0f-%.0f",
+        "de": "Angriffswert: %.0f-%.0f"
+      },
+      "min": "minatk + 2*lv + iq*2 + (2*minatk + str*4 + iq*14) * k",
+      "max": "maxatk + 2*lv + iq*2 + (2*maxatk + str*4 + iq*14) * k"
+    },
+    {
+      "desc": {
+        "en": "Chance of piercing hit: %.0f%%",
+        "ro": "Şansa de lovitură pătrunzătoare: %.0f%%",
+        "tr": "Delici İsabet Olasılığı %.0f%%",
+        "pt": "Probabilidade de Golpe Perfurante: %.0f%%",
+        "pl": "Szansa na przeszywający cios: %.0f%%",
+        "hu": "Esély átható találatra: %.0f%%",
+        "it": "Probabilità di colpo trafiggente %.0f%%",
+        "gr": "Πιθανότητα διατρητικού χτυπήματος %.0f%%",
+        "fr": "Chance de coup perçant : %.0f%%",
+        "es": "Probabilidad de golpes penetrantes %.0f%%",
+        "de": "Chance of piercing hit: %.0f%%"
+      },
+      "min": "1 + 9*SkillPoint"
+    }
+  ],
+  "62": [
+    {
+      "desc": {
+        "en": "Attack value: %.0f-%.0f",
+        "ro": "Valoare atac: %.0f-%.0f",
+        "tr": "Saldırı Değeri %.0f-%.0f",
+        "pt": "Valor de Ataque: %.0f-%.0f",
+        "pl": "Siła Ataku %.0f-%.0f",
+        "hu": "Támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco %.0f-%.0f",
+        "gr": "Αξία επίθεσης %.0f-%.0f",
+        "fr": "Puissance de l'attaque : de %.0f à %.0f",
+        "es": "Valor de ataque %.0f-%.0f",
+        "de": "Angriffswert: %.0f-%.0f"
+      },
+      "min": "1.1 * minatk + 2*lv + 2*iq + (1.5*minatk + str + iq*12) * k",
+      "max": "1.1 * maxatk + 2*lv + 2*iq + (1.5*maxatk + str + iq*12) * k"
+    },
+    {
+      "desc": {
+        "en": "Chance to ignore opponent's evasion: %.0f%%",
+        "ro": "Şansa de a ignora eschiva oponentului: %.0f%%",
+        "tr": "Rakibin sıyrılmasını yok sayma şansı %%%.0f",
+        "pt": "Probabilidade de ignorar Evasão do adversário: %.0f%%",
+        "pl": "Szansa na ignorowanie uniku wroga %.0f%%",
+        "hu": "Esély az ellenfél kitérésének figyelmen kívül hagyására: %.0f%%",
+        "it": "Probabilità di ignorare la schivata del nemico %.0f%%",
+        "gr": "Πιθανότητα αγνόησης αποφυγής του αντιπάλου %.0f%%",
+        "fr": "Chance d'ignorer l'esquive d'un adversaire : %.0f%%",
+        "es": "Probabilidad de ignorar la evasión del oponente %.0f%%",
+        "de": "Chance to ignore opponent's evasion: %.0f%%"
+      },
+      "min": "1 + 9*SkillPoint"
+    }
+  ],
+  "63": [
+    {
+      "desc": {
+        "en": "Attack value: +%.1f",
+        "ro": "Valoarea atacului: +%.1f",
+        "tr": "Saldırı Değeri: +%.1f",
+        "pt": "Valor de Ataque: +%.1f",
+        "pl": "Siła ataku: +%.1f",
+        "hu": "Támadóérték: +%.1f",
+        "it": "Valore di attacco +%.1f",
+        "gr": "Αξία επίθεσης +%.1f",
+        "fr": "Puissance de l'attaque : +%.1f",
+        "es": "Valor de ataque +%.1f",
+        "de": "Angriffswert: +%.1f"
+      },
+      "min": "(2.4*iq+2*lv)*k"
+    },
+    {
+      "desc": {
+        "en": "Life steal: %.0f%% of damage",
+        "ro": "Fură viaţă: %.0f%% din daune",
+        "tr": "HP çalma: Hasarın %.0f%% kadarı",
+        "pt": "Roubo de Vida: %.0f%% do dano",
+        "pl": "Złodziej Życia: %.0f%% obrażeń",
+        "hu": "Élet lopás: a sebzés %.0f%%-a",
+        "it": "Furto della vita: %.0f%% del danno",
+        "gr": "Κλέψιμο ζωής: %.0f%% της ζημιάς",
+        "fr": "Vol de vie : %.0f%% des dégâts",
+        "es": "Robo de vida: %.0f%% del daño",
+        "de": "Life steal: %.0f%% of damage"
+      },
+      "min": "10*k"
+    }
+  ],
+  "64": [
+    {
+      "desc": {
+        "en": "Opponent attack value: -%.0f%%",
+        "ro": "Valoarea atacului oponentului: -%.0f%%",
+        "tr": "Rakibin Saldırı Değeri: -%.0f%%",
+        "pt": "Valor de Ataque do adversário: -%.0f%%",
+        "pl": "Siła ataku przeciwnika: -%.0f%%",
+        "hu": "Ellenfél támadóértéke: -%.0f%%",
+        "it": "Valore di attacco dell'avversario: -%.0f%%",
+        "gr": "Αξία επίθεσης αντιπάλου: -%.0f%%",
+        "fr": "Puissance d'attaque de l'adversaire: -%.0f%%",
+        "es": "Valor de ataque del oponente: -%.0f%%",
+        "de": "Angriffswert des Gegners: -%.0f%%"
+      },
+      "min": "5 + 20*k"
+    },
+    {
+      "desc": {
+        "en": "Opponent's misses: %.0f%%",
+        "ro": "Ratările oponentului: %.0f%%",
+        "tr": "Rakibin Iskalama Oranı: %.0f%%",
+        "pt": "Falhas do adversário: %.0f%%",
+        "pl": "Pudła przeciwnika: %.0f%%",
+        "hu": "Ellenfél mellélövései: %.0f%%",
+        "it": "Colpi mancati dell'avversario: %.0f%%",
+        "gr": "Αστοχίες αντιπάλου: %.0f%%",
+        "fr": "Ratés de l'adversaire: %.0f%%",
+        "es": "Fallos del oponente: %.0f%%",
+        "de": "Fehlschläge des Gegners: %.0f%%"
+      },
+      "min": "1 + 29*k"
+    }
+  ],
+  "65": [
+    {
+      "desc": {
+        "en": "Defence: +%.0f",
+        "ro": "Apărare : +%.0f",
+        "tr": "Savunma +%.0f",
+        "pt": "Defesa: +%.0f",
+        "pl": "Obrona: +%.0f",
+        "hu": "Védelem: +%.0f",
+        "it": "Difesa +%.0f",
+        "gr": "Άμυνα +%.0f",
+        "fr": "Défense : +%.0f",
+        "es": "Defensa +%.0f",
+        "de": "Defence: +%.0f"
+      },
+      "min": "(iq+30)*k"
+    },
+    {
+      "desc": {
+        "en": "Reflected melee damage: %.1f%%",
+        "ro": "Reflectă daune fizice: %.1f%%",
+        "tr": "Yansıtılan Yakın Dövüş Hasarı: %.1f%%",
+        "pt": "Dano Corpo-a-Corpo Reflectido: %.1f%%",
+        "pl": "Odbite obrażenia walki wręcz: %.1f%%",
+        "hu": "Visszavert közelharci sebzés: %.1f%%",
+        "it": "Danno da lotta corpo a corpo riflesso: %.1f%%",
+        "gr": "Αντανάκλαση ζημιάς εξ επαφής: %.1f%%",
+        "fr": "Dégâts de corps à corps renvoyés : %.1f%%",
+        "es": "Daño reflectado de ataques físicos: %.1f%%",
+        "de": "Reflected melee damage: %.1f%%"
+      },
+      "min": "(iq/4+10)*k"
+    }
+  ],
+  "66": [
+    {
+      "desc": {
+        "en": "Magic attack value: %.0f-%.0f",
+        "ro": "Valoare atac magic: %.0f-%.0f",
+        "tr": "Büyülü Saldırı Değeri: %.0f-%.0f",
+        "pt": "Valor de Ataque Mágico: %.0f-%.0f",
+        "pl": "Magiczna siła ataku: %.0f-%.0f",
+        "hu": "Mágikus támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco magico %.0f-%.0f",
+        "gr": "Αξία επίθεσης μαγείας %.0f-%.0f",
+        "fr": "Valeur d'attaque magique : de %.0f à %.0f",
+        "es": "Valor de ataque mágico %.0f-%.0f",
+        "de": "Magic attack value: %.0f-%.0f"
+      },
+      "min": "40 + 5*lv + 2*iq + (18*iq + 7*minmtk + 50)*ar*k",
+      "max": "40 + 5*lv + 2*iq + (18*iq + 7*maxmtk + 100)*ar*k"
+    },
+    {
+      "desc": {
+        "en": "Dispel chance: %.0f%%",
+        "ro": "Şansă risipire magie: %.0f%%",
+        "tr": "Büyü Çözme Olasılığı: %.0f%%",
+        "pt": "Probabilidade de Remoção de Efeitos: %.0f%%",
+        "pl": "Szansa na rozproszenie: %.0f%%",
+        "hu": "Kioltás esélye: %.0f%%",
+        "it": "Probabilità di annullamento della magia %.0f%%",
+        "gr": "Πιθανότητα ακύρωσης ξορκιού %.0f%%",
+        "fr": "Chance de contrer un sort : %.0f%%",
+        "es": "Probabilidad de anulación de la magia %.0f%%",
+        "de": "Dispel chance: %.0f%%"
+      },
+      "min": "10+40*k"
+    }
+  ],
+  "76": [
+    {
+      "desc": {
+        "en": "Magic attack value: %.0f-%.0f",
+        "ro": "Valoare atac magic: %.0f-%.0f",
+        "tr": "Büyülü Saldırı Değeri: %.0f-%.0f",
+        "pt": "Valor de Ataque Mágico: %.0f-%.0f",
+        "pl": "Magiczna siła ataku: %.0f-%.0f",
+        "hu": "Mágikus támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco magico %.0f-%.0f",
+        "gr": "Αξία επίθεσης μαγείας %.0f-%.0f",
+        "fr": "Valeur d'attaque magique : de %.0f à %.0f",
+        "es": "Valor de ataque mágico %.0f-%.0f",
+        "de": "Magic attack value: %.0f-%.0f"
+      },
+      "min": "40 +5*lv + 2*iq + (20*iq + 7*minmtk + 50 )*ar*k",
+      "max": "40 +5*lv + 2*iq + (20*iq + 7*maxmtk + 100 )*ar*k"
+    }
+  ],
+  "77": [
+    {
+      "desc": {
+        "en": "Magic attack value: %.0f-%.0f",
+        "ro": "Valoare atac magic: %.0f-%.0f",
+        "tr": "Büyülü Saldırı Değeri: %.0f-%.0f",
+        "pt": "Valor de Ataque Mágico: %.0f-%.0f",
+        "pl": "Magiczna siła ataku: %.0f-%.0f",
+        "hu": "Mágikus támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco magico %.0f-%.0f",
+        "gr": "Αξία επίθεσης μαγείας %.0f-%.0f",
+        "fr": "Valeur d'attaque magique : de %.0f à %.0f",
+        "es": "Valor de ataque mágico %.0f-%.0f",
+        "de": "Magic attack value: %.0f-%.0f"
+      },
+      "min": "5*lv + 2*iq + (20*iq + 8*mtk + str*4 + con*2 + 180 )*k",
+      "max": "5*lv + 2*iq + (20*iq + 8*mtk + str*4 + con*2 + 200 )*k"
+    }
+  ],
+  "78": [
+    {
+      "desc": {
+        "en": "Magic attack value: %.0f-%.0f",
+        "ro": "Valoare atac magic: %.0f-%.0f",
+        "tr": "Büyülü Saldırı Değeri: %.0f-%.0f",
+        "pt": "Valor de Ataque Mágico: %.0f-%.0f",
+        "pl": "Magiczna siła ataku: %.0f-%.0f",
+        "hu": "Mágikus támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco magico %.0f-%.0f",
+        "gr": "Αξία επίθεσης μαγείας %.0f-%.0f",
+        "fr": "Valeur d'attaque magique : de %.0f à %.0f",
+        "es": "Valor de ataque mágico %.0f-%.0f",
+        "de": "Magic attack value: %.0f-%.0f"
+      },
+      "min": "30+ 2*lv + 2*iq + (18*iq + 6*minmtk + 200)*ar*k",
+      "max": "30+ 2*lv + 2*iq + (18*iq + 6*maxmtk + 500)*ar*k"
+    }
+  ],
+  "79": [
+    {
+      "desc": {
+        "en": "Damage reduction: %.0f%%",
+        "ro": "Reducerea daunelor: %.0f%%",
+        "tr": "Hasar Düşüşü %.0f%%",
+        "pt": "Redução de Dano: %.0f%%",
+        "pl": "Zmniejszenie obrażeń: %.0f%%",
+        "hu": "Sebzés csökkentés: %.0f%%",
+        "it": "Riduzione dei danni %.0f%%",
+        "gr": "Μείωση ζημιάς %.0f%%",
+        "fr": "Réduction des dommages : %.0f%%",
+        "es": "Reducción de daño %.0f%%",
+        "de": "Schaden reduction: %.0f%%"
+      },
+      "min": "(iq*0.20)*k"
+    },
+    {
+      "desc": {
+        "en": "Defence: +%.0f",
+        "ro": "Apărare : +%.0f",
+        "tr": "Savunma +%.0f",
+        "pt": "Defesa: +%.0f",
+        "pl": "Obrona: +%.0f",
+        "hu": "Védelem: +%.0f",
+        "it": "Difesa +%.0f",
+        "gr": "Άμυνα +%.0f",
+        "fr": "Défense : +%.0f",
+        "es": "Defensa +%.0f",
+        "de": "Defence: +%.0f"
+      },
+      "min": "(0.1*iq+7)*k"
+    }
+  ],
+  "80": [
+    {
+      "desc": {
+        "en": "Magic attack value: %.0f-%.0f",
+        "ro": "Valoare atac magic: %.0f-%.0f",
+        "tr": "Büyülü Saldırı Değeri: %.0f-%.0f",
+        "pt": "Valor de Ataque Mágico: %.0f-%.0f",
+        "pl": "Magiczna siła ataku: %.0f-%.0f",
+        "hu": "Mágikus támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco magico %.0f-%.0f",
+        "gr": "Αξία επίθεσης μαγείας %.0f-%.0f",
+        "fr": "Valeur d'attaque magique : de %.0f à %.0f",
+        "es": "Valor de ataque mágico %.0f-%.0f",
+        "de": "Magic attack value: %.0f-%.0f"
+      },
+      "min": "40 + 2*lv + 2*iq + (2 * con + 2 * dex + 22*iq + 6*minmtk+ 180)*ar*k",
+      "max": "40 + 2 * lv + 2*iq + (2 * con + 2 * dex + 22*iq + 6*maxmtk + 200)*ar*k"
+    },
+    {
+      "desc": {
+        "en": "Chance of slow: %.1f%%",
+        "ro": "Şansă de încetinire: %.1f%%",
+        "tr": "Yavaşlama Olasılığı: %.1f%%",
+        "pt": "Probabilidade de Abrandamento: %.1f%%",
+        "pl": "Szansa na spowolnienie: %.1f%%",
+        "hu": "Lassítás esélye: %.1f%%",
+        "it": "Probabilità di rallentare %.1f%%",
+        "gr": "Πιθανότητα επιβράδυνσης %.1f%%",
+        "fr": "Chance de ralentissement : %.1f%%",
+        "es": "Probabilidad de retardar %.1f%%",
+        "de": "Chance of slow: %.1f%%"
+      },
+      "min": "(333 + (300 * k))/10"
+    }
+  ],
+  "81": [
+    {
+      "desc": {
+        "en": "Magic attack value: %.0f-%.0f",
+        "ro": "Valoare atac magic: %.0f-%.0f",
+        "tr": "Büyülü Saldırı Değeri: %.0f-%.0f",
+        "pt": "Valor de Ataque Mágico: %.0f-%.0f",
+        "pl": "Magiczna siła ataku: %.0f-%.0f",
+        "hu": "Mágikus támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco magico %.0f-%.0f",
+        "gr": "Αξία επίθεσης μαγείας %.0f-%.0f",
+        "fr": "Valeur d'attaque magique : de %.0f à %.0f",
+        "es": "Valor de ataque mágico %.0f-%.0f",
+        "de": "Magic attack value: %.0f-%.0f"
+      },
+      "min": "120 + 6*lv + (5 * con + 5 * dex + 29*iq + 9*minmtk)*ar*k",
+      "max": "120 + 6*lv + (5 * con + 5 * dex + 29*iq + 9*maxmtk)*ar*k"
+    }
+  ],
+  "91": [
+    {
+      "desc": {
+        "en": "Magic attack value: %.0f-%.0f",
+        "ro": "Valoare atac magic: %.0f-%.0f",
+        "tr": "Büyülü Saldırı Değeri: %.0f-%.0f",
+        "pt": "Valor de Ataque Mágico: %.0f-%.0f",
+        "pl": "Magiczna siła ataku: %.0f-%.0f",
+        "hu": "Mágikus támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco magico %.0f-%.0f",
+        "gr": "Αξία επίθεσης μαγείας %.0f-%.0f",
+        "fr": "Valeur d'attaque magique : de %.0f à %.0f",
+        "es": "Valor de ataque mágico %.0f-%.0f",
+        "de": "Magic attack value: %.0f-%.0f"
+      },
+      "min": "70 + 5*lv. + (18*iq+7*str+5*minmwep+50)*ar*k",
+      "max": "70 + 5*lv + (18*iq+7*str+5*maxmwep+50)*ar*k"
+    },
+    {
+      "desc": {
+        "en": "Chance of slow: %.1f%%",
+        "ro": "Şansă de încetinire: %.1f%%",
+        "tr": "Yavaşlama Olasılığı: %.1f%%",
+        "pt": "Probabilidade de Abrandamento: %.1f%%",
+        "pl": "Szansa na spowolnienie: %.1f%%",
+        "hu": "Lassítás esélye: %.1f%%",
+        "it": "Probabilità di rallentare %.1f%%",
+        "gr": "Πιθανότητα επιβράδυνσης %.1f%%",
+        "fr": "Chance de ralentissement : %.1f%%",
+        "es": "Probabilidad de retardar %.1f%%",
+        "de": "Chance of slow: %.1f%%"
+      },
+      "min": "(3+iq*7*k)/10"
+    }
+  ],
+  "92": [
+    {
+      "desc": {
+        "en": "Magic attack value: %.0f-%.0f",
+        "ro": "Valoare atac magic: %.0f-%.0f",
+        "tr": "Büyülü Saldırı Değeri: %.0f-%.0f",
+        "pt": "Valor de Ataque Mágico: %.0f-%.0f",
+        "pl": "Magiczna siła ataku: %.0f-%.0f",
+        "hu": "Mágikus támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco magico %.0f-%.0f",
+        "gr": "Αξία επίθεσης μαγείας %.0f-%.0f",
+        "fr": "Valeur d'attaque magique : de %.0f à %.0f",
+        "es": "Valor de ataque mágico %.0f-%.0f",
+        "de": "Magic attack value: %.0f-%.0f"
+      },
+      "min": "60 + 5*lv + (16*iq+6*dex+6*minmwep+120)*ar*k",
+      "max": "60 + 5*lv + (16*iq+6*dex+6*maxmwep+120)*ar*k"
+    },
+    {
+      "desc": {
+        "en": "Chance of lasting fire: %.0f%%",
+        "ro": "Sansa durată de foc: %.0f%%",
+        "tr": "Sürekli Ateş Olasılığı %.0f%%",
+        "pt": "Probabilidade de Fogo Duradouro: %.0f%%",
+        "pl": "Szansa na płonięcie: %.0f%%",
+        "hu": "Esély tartós tűzre: %.0f%%",
+        "it": "Probabilità di fuoco duraturo %.0f%%",
+        "gr": "Πιθανότητα Διαρκούς Φωτιάς %.0f%%",
+        "fr": "Chance de feu durable : %.0f%%",
+        "es": "Probabilidad de fuego duradero %.0f%%",
+        "de": "Chance of lasting fire: %.0f%%"
+      },
+      "min": "(100+iq*5*k)/10"
+    }
+  ],
+  "93": [
+    {
+      "desc": {
+        "en": "Magic attack value: %.0f-%.0f",
+        "ro": "Valoare atac magic: %.0f-%.0f",
+        "tr": "Büyülü Saldırı Değeri: %.0f-%.0f",
+        "pt": "Valor de Ataque Mágico: %.0f-%.0f",
+        "pl": "Magiczna siła ataku: %.0f-%.0f",
+        "hu": "Mágikus támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco magico %.0f-%.0f",
+        "gr": "Αξία επίθεσης μαγείας %.0f-%.0f",
+        "fr": "Valeur d'attaque magique : de %.0f à %.0f",
+        "es": "Valor de ataque mágico %.0f-%.0f",
+        "de": "Magic attack value: %.0f-%.0f"
+      },
+      "min": "70 + 3*lv + (20*iq+3*str+10*minmwep+100)*ar*k",
+      "max": "70 + 3*lv + (20*iq+3*str+10*maxmwep+100)*ar*k"
+    },
+    {
+      "desc": {
+        "en": "Chance of lasting fire: %.0f%%",
+        "ro": "Sansa durată de foc: %.0f%%",
+        "tr": "Sürekli Ateş Olasılığı %.0f%%",
+        "pt": "Probabilidade de Fogo Duradouro: %.0f%%",
+        "pl": "Szansa na płonięcie: %.0f%%",
+        "hu": "Esély tartós tűzre: %.0f%%",
+        "it": "Probabilità di fuoco duraturo %.0f%%",
+        "gr": "Πιθανότητα Διαρκούς Φωτιάς %.0f%%",
+        "fr": "Chance de feu durable : %.0f%%",
+        "es": "Probabilidad de fuego duradero %.0f%%",
+        "de": "Chance of lasting fire: %.0f%%"
+      },
+      "min": "(100+iq*5*k)/10"
+    }
+  ],
+  "94": [
+    {
+      "desc": {
+        "en": "Melee attack resistance: %.1f%%",
+        "ro": "Rezistenţă la atac apropiat: %.1f%%",
+        "tr": "Yakın Dövüş Saldırı Direnci: %.1f%%",
+        "pt": "Resistência a Ataques Corpo-a-Corpo: %.1f%%",
+        "pl": "Odporność na atak walki wręcz: %.1f%%",
+        "hu": "Közelharci támadás ellenállás: %.1f%%",
+        "it": "Resistenza agli attacchi ravvicinati: %.1f%%",
+        "gr": "Αντίσταση σε επίθεση εξ επαφής %.1f%%",
+        "fr": "Résistance aux attaques de corps à corps : %.1f%%",
+        "es": "Resistencia contra ataque físico %.1f%%",
+        "de": "Melee attack resistance: %.1f%%"
+      },
+      "min": "1+((iq*0.4+5)*(2*k))/(k+4.19)"
+    }
+  ],
+  "95": [
+    {
+      "desc": {
+        "en": "Reflected melee damage: %.1f%%",
+        "ro": "Reflectă daune fizice: %.1f%%",
+        "tr": "Yansıtılan Yakın Dövüş Hasarı: %%%.1f",
+        "pt": "Dano corpo-a-corpo reflectido: %.1f%%",
+        "pl": "Odbite obrażenia walki wręcz: %.1f%%",
+        "hu": "Visszavert közelharci sebzés: %.1f%%",
+        "it": "Danno da lotta corpo a corpo riflesso: %.1f%%",
+        "gr": "Αντανάκλαση ζημιάς εξ επαφής: %.1f%%",
+        "fr": "Dégâts de corps à corps renvoyés : %.1f%%",
+        "es": "Daño reflectado de ataques cuerpo a cuerpo: %.1f%%",
+        "de": "Reflected melee damage: %.1f%%"
+      },
+      "min": "5+(iq*0.3)*k"
+    }
+  ],
+  "96": [
+    {
+      "desc": {
+        "en": "Chance of critical hit: +%.1f%%",
+        "ro": "Şansa unei lovituri critice: +%.1f%%",
+        "tr": "Kritik İsabet Şansı +%.1f%%",
+        "pt": "Probabilidade de Golpe Crítico: +%.1f%%",
+        "pl": "Szansa na cios krytyczny: +%.1f%%",
+        "hu": "Kritikus találat esélye: +%.1f%%",
+        "it": "Probabilità di colpo critico +%.1f%%",
+        "gr": "Πιθανότητα κρίσιμου χτυπήματος +%.1f%%",
+        "fr": "Chance de coup critique : +%.1f%%",
+        "es": "Probabilidad de golpes críticos %.1f%%",
+        "de": "Chance of critical hit: +%.1f%%"
+      },
+      "min": "1+((iq*0.4+5)*(2*k))/(k+4.19)"
+    }
+  ],
+  "106": [
+    {
+      "desc": {
+        "en": "Magic attack value: %.0f-%.0f",
+        "ro": "Valoare atac magic: %.0f-%.0f",
+        "tr": "Büyülü Saldırı Değeri: %.0f-%.0f",
+        "pt": "Valor de Ataque Mágico: %.0f-%.0f",
+        "pl": "Magiczna siła ataku: %.0f-%.0f",
+        "hu": "Mágikus támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco magico %.0f-%.0f",
+        "gr": "Αξία επίθεσης μαγείας %.0f-%.0f",
+        "fr": "Valeur d'attaque magique : de %.0f à %.0f",
+        "es": "Valor de ataque mágico %.0f-%.0f",
+        "de": "Magic attack value: %.0f-%.0f"
+      },
+      "min": "60 + 5*lv + (8*iq+2*dex+8*minmwep+iq*5)*ar*k",
+      "max": "60 + 5*lv + (8*iq+2*dex+8*maxmwep+iq*15)*ar*k"
+    }
+  ],
+  "107": [
+    {
+      "desc": {
+        "en": "Magic attack value: %.0f-%.0f",
+        "ro": "Valoare atac magic: %.0f-%.0f",
+        "tr": "Büyülü Saldırı Değeri: %.0f-%.0f",
+        "pt": "Valor de Ataque Mágico: %.0f-%.0f",
+        "pl": "Magiczna siła ataku: %.0f-%.0f",
+        "hu": "Mágikus támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco magico %.0f-%.0f",
+        "gr": "Αξία επίθεσης μαγείας %.0f-%.0f",
+        "fr": "Valeur d'attaque magique : de %.0f à %.0f",
+        "es": "Valor de ataque mágico %.0f-%.0f",
+        "de": "Magic attack value: %.0f-%.0f"
+      },
+      "min": "40 + 4*lv + (13*iq+2*str+10*minmwep+iq*5)*ar*k",
+      "max": "40 + 4*lv + (13*iq+2*str+10*maxmwep+iq*16)*ar*k"
+    },
+    {
+      "desc": {
+        "en": "Faint chance: %.0f%%",
+        "ro": "Şansă de necunoştinţă: %.0f%%",
+        "tr": "Bayılma Şansı: %.0f%%",
+        "pt": "Probabilidade de Atordoamento: %.0f%%",
+        "pl": "Szansa na omdlenie: %.0f%%",
+        "hu": "Ájulási esély: %.0f%%",
+        "it": "Probabilità di svenimento %.0f%%",
+        "gr": "Πιθανότητα λιποθυμίας %.0f%%",
+        "fr": "Chance d'étourdir : %.0f %%",
+        "es": "Probabilidad de desmayo %.0f%%",
+        "de": "Faint chance: %.0f%%"
+      },
+      "min": "(30+70*2*k)/10"
+    }
+  ],
+  "108": [
+    {
+      "desc": {
+        "en": "Magic attack value: %.0f-%.0f",
+        "ro": "Valoare de atac magic: %.0f-%.0f",
+        "tr": "Büyülü Saldırı Değeri %.0f-%.0f",
+        "pt": "Valor de Ataque Mágico: %.0f-%.0f",
+        "pl": "Magiczna Siła Ataku: %.0f-%.0f",
+        "hu": "Mágikus támadóérték: %.0f-%.0f",
+        "it": "Valore di attacco magico %.0f-%.0f",
+        "gr": "Αξία επίθεσης μαγείας %.0f-%.0f",
+        "fr": "Valeur de l'attaque magique : %.0f-%.0f",
+        "es": "Valor de ataque mágico %.0f-%.0f",
+        "de": "Magic attack value: %.0f-%.0f"
+      },
+      "min": "(50 + 5*lv + (8*iq+2*str+8*minmwep+1)*ar*k)",
+      "max": "(50 + 5*lv + (8*iq+2*str+8*maxmwep+800)*ar*k)"
+    },
+    {
+      "desc": {
+        "en": "Chance of slow: %.1f%%",
+        "ro": "Şansă de încetinire: %.1f%%",
+        "tr": "Yavaşlama Olasılığı %.1f%%",
+        "pt": "Probabilidade de Abrandamento: %.1f%%",
+        "pl": "Szansa na Spowolnienie: %.1f%%",
+        "hu": "Lassítás esélye: %.1f%%",
+        "it": "Probabilità di rallentare %.1f%%",
+        "gr": "Πιθανότητα επιβράδυνσης %.1f%%",
+        "fr": "Chance de ralentissement : %.1f %%",
+        "es": "Probabilidad de ralentizar %.1f %%",
+        "de": "Chance of slow: %.1f%%"
+      },
+      "min": "(80+iq*5*k)/10"
+    }
+  ],
+  "109": [
+    {
+      "desc": {
+        "en": "Restore HP: %.0f-%.0f",
+        "ro": "Reface PV %.0f-%.0f",
+        "tr": "Yüklenen HP: %.0f-%.0f",
+        "pt": "Recuperação de VD: %.0f-%.0f",
+        "pl": "Przywraca PŻ: %.0f-%.0f",
+        "hu": "Visszaállított TP: %.0f-%.0f",
+        "it": "Ripristino degli HP %.0f-%.0f",
+        "gr": "Αποκατάσταση HP %.0f-%.0f",
+        "fr": "Restaurer entre %.0f et %.0f PV",
+        "es": "Recuperar HP %.0f-%.0f",
+        "de": "Restore HP: %.0f-%.0f"
+      },
+      "min": "150+5*lv+(10*iq+6*minmwep+600)*(k*0.15)",
+      "max": "150+5*lv+(10*iq+6*maxmwep+800)*(k*0.15)"
+    },
+    {
+      "desc": {
+        "en": "Chance to cure negative effects: %.0f%%",
+        "ro": "Anulează efectele negative: %.0f%%",
+        "tr": "Kötü etkilere şifa verme şansı: %.0f%%",
+        "pt": "Probabilidade de Curar Efeitos Negativos: %.0f%%",
+        "pl": "Szansa na usunięcie negatywnych efektów:%.0f%%",
+        "hu": "Esély a negatív hatások törlésére: %.0f%%",
+        "it": "Probabilità di curare effetti negativi %.0f%%",
+        "gr": "Πιθανότητα θεράπευσης αρνητικών επιδράσεων %.0f%%",
+        "fr": "Chance de soigner des effets négatifs : %.0f%%",
+        "es": "Opción de cura de efectos negativos %.0f%%",
+        "de": "Chance to cure negative effects: %.0f%%"
+      },
+      "min": "20+80*k"
+    }
+  ],
+  "110": [
+    {
+      "desc": {
+        "en": "Movement speed: +%.0f%%",
+        "ro": "Viteză de mişcare: +%.0f%%",
+        "tr": "Hareket Hızı: +%.0f%%",
+        "pt": "Rapidez de Movimento: +%.0f%%",
+        "pl": "Szybkość ruchu: +%.0f%%",
+        "hu": "Mozgási sebesség: +%.0f%%",
+        "it": "Velocità di movimento +%.0f%%",
+        "gr": "Ταχύτητα κίνησης +%.0f%%",
+        "fr": "Vitesse de déplacement +%.0f%%",
+        "es": "Velocidad de movimiento +%.0f%%",
+        "de": "Bewegungsgeschwindigkeit: +%.0f%%"
+      },
+      "min": "(iq*0.2)+35*k"
+    },
+    {
+      "desc": {
+        "en": "Cooldown: -%.0f%%",
+        "ro": "Calmare: -%.0f%%",
+        "tr": "Yüklenme Süresi -%.0f%%",
+        "pt": "Tempo de Carregamento: -%.0f%%",
+        "pl": "Czas ładowania: -%.0f%%",
+        "hu": "Újratöltés: -%.0f%%",
+        "it": "Tempo di ricarica -%.0f%%",
+        "gr": "Χρόνος φόρτωσης -%.0f%%",
+        "fr": "Temps d'attente -%.0f%%",
+        "es": "Tiempo de carga -%.0f%%",
+        "de": "Cooldown: -%.0f%%"
+      },
+      "min": "3+33*k"
+    }
+  ],
+  "111": [
+    {
+      "desc": {
+        "en": "Attack value: +%.1f",
+        "ro": "Valoarea atacului: +%.0f",
+        "tr": "Saldırı Değeri: +%.1f",
+        "pt": "Valor de Ataque: +%.1f",
+        "pl": "Siła ataku: +%.1f",
+        "hu": "Támadóérték: +%.1f",
+        "it": "Valore di attacco +%.1f",
+        "gr": "Αξία επίθεσης +%.1f",
+        "fr": "Puissance de l'attaque : +%.1f",
+        "es": "Valor de ataque +%.1f",
+        "de": "Angriffswert: +%.1f"
+      },
+      "min": "13+(iq*0.8+10)*(k/3)"
+    },
+    {
+      "desc": {
+        "en": "Damage: %.2f",
+        "ro": "Pagube: %.2f",
+        "tr": "Hasar: %.2f",
+        "pt": "Dano: %.2f",
+        "pl": "Obrażenia: %.2f",
+        "hu": "Sebzés: %.2f",
+        "it": "Danno: %.2f",
+        "gr": "Ζημιά: %.2f",
+        "es": "Daño: %.2f",
+        "de": "Schaden: %.2f"
+      },
+      "min": "((iq*0.2)*k/7.42)+0.01"
+    }
+  ],
+  "143": [
+    {
+      "desc": {
+        "en": "Refine chance increased: +%.2f%%",
+        "ro": "Șansa de îmbunătățire mărită cu: +%.2f%%",
+        "tr": "Arıtma Şansı Artırıldı: +%.2f%%",
+        "pt": "Chance de refinamento aumentada: +%.2f%%",
+        "pl": "Szansa rafinacji zwiększona: +%.2f%%",
+        "hu": "Finomítási esély növelve: +%.2f%%",
+        "it": "Probabilità di raffinazione aumentata: +%.2f%%",
+        "gr": "Πιθανότητα βελτίωσης αυξημένη: +%.2f%%",
+        "fr": "Chance de raffinement augmentée: +%.2f%%",
+        "es": "Probabilidad de refinamiento aumentada: +%.2f%%",
+        "de": "Refine chance increased: +%.2f%%"
+      },
+      "min": "4 * k"
+    }
+  ],
+  "144": [
+    {
+      "desc": {
+        "en": "Critical boost: +%.0f%%",
+        "ro": "Daune Critice: +%.0f%%",
+        "tr": "Critical boost: +%.0f%%",
+        "pt": "Critical boost: +%.0f%%",
+        "pl": "Critical boost: +%.0f%%",
+        "hu": "Critical boost: +%.0f%%",
+        "it": "Critical boost: +%.0f%%",
+        "gr": "Critical boost: +%.0f%%",
+        "fr": "Critical boost: +%.0f%%",
+        "es": "Critical boost: +%.0f%%",
+        "de": "Critical boost: +%.0f%%"
+      },
+      "min": "-0.125+6.5*k"
+    }
+  ],
+  "146": [
+    {
+      "desc": {
+        "en": "HP increased: +%.0f",
+        "ro": "Puncte vitale mărite: +%.0f",
+        "tr": "HP increased: +%.0f",
+        "pt": "HP increased: +%.0f",
+        "pl": "HP increased: +%.0f",
+        "hu": "HP increased: +%.0f",
+        "it": "HP increased: +%.0f",
+        "gr": "HP increased: +%.0f",
+        "fr": "HP increased: +%.0f",
+        "es": "HP increased: +%.0f",
+        "de": "HP increased: +%.0f"
+      },
+      "min": "21.25+1583*k"
+    }
+  ],
+  "147": [
+    {
+      "desc": {
+        "en": "Strength against Monsters: +%.0f%%",
+        "ro": "Tare împotriva Monştrilor: +%.0f%%",
+        "tr": "Canavarlara Karşı Güç: +%.0f%%",
+        "pt": "Strength against Monsters: +%.0f%%",
+        "pl": "Strength against Monsters: +%.0f%%",
+        "hu": "Strength against Monsters: +%.0f%%",
+        "it": "Strength against Monsters: +%.0f%%",
+        "gr": "Strength against Monsters: +%.0f%%",
+        "fr": "Strength against Monsters: +%.0f%%",
+        "es": "Strength against Monsters: +%.0f%%",
+        "de": "Strength against Monsters: +%.0f%%"
+      },
+      "min": "-0.625+16.5*k"
+    }
+  ],
+  "152": [
+    {
+      "desc": {
+        "en": "Max. HP +%.0f%%",
+        "ro": "Creştere max. PV +%.0f%%",
+        "tr": "Maks. HP +%.0f%%",
+        "pt": "VD Máx +%.0f%%",
+        "pl": "Maks. PŻ +%.0f%%",
+        "hu": "Max. TP +%.0f%%",
+        "it": "Max HP +%.0f%%",
+        "gr": "Μέγ. HP +%.0f%%",
+        "fr": "PV max. +%.0f%%",
+        "es": "HP max. +%.0f%%",
+        "de": "Max. HP +%.0f%%"
+      },
+      "min": "k * 20"
+    }
+  ],
+  "153": [
+    {
+      "desc": {
+        "en": "Max. SP +%.0f%%",
+        "ro": "Creştere max. PM +%.0f%%",
+        "tr": "Maks. SP +%.0f%%",
+        "pt": "MN Máx. +%.0f%%",
+        "pl": "Maks. PE +%.0f%%",
+        "hu": "Max. MP +%.0f%%",
+        "it": "Max. MP +%.0f%%",
+        "gr": "Μέγ. SP +%.0f%%",
+        "fr": "PM max. +%.0f%%",
+        "es": "SP max. +%.0f%%",
+        "de": "Max. SP +%.0f%%"
+      },
+      "min": "k * 20"
+    }
+  ],
+  "154": [
+    {
+      "desc": {
+        "en": "Defence +%.1f%%",
+        "ro": "Apărare +%.1f%%",
+        "tr": "Savunma +%.1f%%",
+        "pt": "Defesa +%.1f%%",
+        "pl": "Obrona +%.1f%%",
+        "hu": "Védelem +%.1f%%",
+        "it": "Difesa +%.1f%%",
+        "gr": "Άμυνα +%.1f%%",
+        "fr": "Défense +%.1f%%",
+        "es": "Defensa +%.1f%%",
+        "de": "Defence +%.1f%%"
+      },
+      "min": "k * 10"
+    }
+  ],
+  "155": [
+    {
+      "desc": {
+        "en": "Attack and Movement Speed +%.1f",
+        "ro": "Viteză Atac şi Mişcare +%.1f",
+        "tr": "Saldırı ve Hareket Hızı +%.1f",
+        "pt": "Rapidez de Ataque e Movimento +%.1f",
+        "pl": "Szybkość ataku i ruchu zwiększona +%.1f",
+        "hu": "Támadó- és mozgási sebesség +%.1f",
+        "it": "Velocità d'attacco e movimento +%.1f",
+        "gr": "Αύξηση Ταχύτητας Κίνησης & Επίθεσης +%.1f",
+        "fr": "Vitesse de mouvement & d'attaque +%.1f",
+        "es": "Velocidad de ataque y de movimiento +%.1f",
+        "de": "Attack and Movement Speed +%.1f"
+      },
+      "min": "k * 15"
+    }
+  ],
+  "156": [
+    {
+      "desc": {
+        "en": "Critical Hit Chance +%.0f%%",
+        "ro": "Şansa Lovitură Critică +%.0f%%",
+        "tr": "Kritik Vuruş Şansı +%.0f%%",
+        "pt": "Probabilidade de Golpe Crítico +%.0f%%",
+        "pl": "szansę na cios krytyczny +%.0f%%",
+        "hu": "Kritikus csapás esélye +%.0f%%",
+        "it": "Possiblità di infliggere un colpo critico +%.0f%%",
+        "gr": "Πιθανότητα Κρίσιμου Χτυπήματος +%.0f%%",
+        "fr": "Chance de coup critique +%.0f%%",
+        "es": "Probabilidad de golpe crítico +%.0f%%",
+        "de": "Critical Hit Chance +%.0f%%"
+      },
+      "min": "k * 50"
+    }
+  ],
+  "157": [
+    {
+      "desc": {
+        "en": "Cooldown Time -%.0f%%",
+        "ro": "Timp de Calmare -%.0f%%",
+        "tr": "Yüklenme Süresi -%.0f%%",
+        "pt": "Tempo de Recarregamento -%.0f%%",
+        "pl": "Czas regeneracji -%.0f%%",
+        "hu": "Várakozási idő -%.0f%%",
+        "it": "Tempo d'attesa -%.0f%%",
+        "gr": "Χρόνος ηρεμίας -%.0f%%",
+        "fr": "Temps d'attente -%.0f%%",
+        "es": "Tiempo de carga -%.0f%%",
+        "de": "Cooldown Time -%.0f%%"
+      },
+      "min": "k * 50"
+    }
+  ],
+  "163": [
+    {
+      "desc": {
+        "en": "Attack Value +%.0f",
+        "ro": "Attack Value +%.0f",
+        "tr": "Saldırı Değeri +%.0f",
+        "pt": "Attack Value +%.0f",
+        "pl": "Attack Value +%.0f",
+        "hu": "Attack Value +%.0f",
+        "it": "Attack Value +%.0f",
+        "gr": "Attack Value +%.0f",
+        "fr": "Attack Value +%.0f",
+        "es": "Attack Value +%.0f",
+        "de": "Attack Value +%.0f"
+      },
+      "min": "0"
+    }
+  ],
+  "170": [
+    {
+      "desc": {
+        "en": "Total attack power: %.0f-%.0f",
+        "ro": "Putere totală de atac: %.0f-%.0f",
+        "tr": "Toplam Saldırı Gücü %.0f-%.0f",
+        "pt": "Poder de Ataque Total: %.0f-%.0f",
+        "pl": "Łączna Siła Ataku %.0f-%.0f",
+        "hu": "Teljes támadóerő: %.0f-%.0f",
+        "it": "Forza d'attacco complessiva %.0f-%.0f",
+        "gr": "Συνολική δύναμη επίθεσης %.0f-%.0f",
+        "fr": "Force d'attaque totale : de %.0f à %.0f",
+        "es": "Fuerza de ataque total %.0f-%.0f",
+        "de": "Total attack power: %.0f-%.0f"
+      },
+      "min": "(1.1*MinATK + (0.3*MinATK + 1.5*STR)*SkillPoint) * 3",
+      "max": "(1.1*MaxATK + (0.3*MaxATK + 1.5*STR)*SkillPoint) * 3"
+    },
+    {
+      "desc": {
+        "en": "Chance of critical attack: %.0f%%",
+        "ro": "Şansă de atac critic: %.0f%%",
+        "tr": "Kritik Saldırı Olasılığı %%%.0f",
+        "pt": "Probabilidade de Ataque Crítico: %.0f%%",
+        "pl": "Szansa na Atak Kryt. %.0f%%",
+        "hu": "Esély kritikus találatra: %.0f%%",
+        "it": "Probabilità di attacco critico %.0f%%",
+        "gr": "Πιθανότητα κρίσιμης επίθεσης %.0f%%",
+        "fr": "Chance d'attaque critique %.0f %%",
+        "es": "Probabilidad de ataque crítico %.0f %%",
+        "de": "Chance of critical attack: %.0f%%"
+      },
+      "min": "60*k"
+    },
+    {
+      "desc": {
+        "en": "Chance of Bleeding %.0f%%",
+        "ro": "Şansă de Sângerare %.0f%%",
+        "tr": "Kanama olasılığı %%%.0f",
+        "pt": "Probabilidade de Sangramento %.0f%%",
+        "pl": "Szansa na Krwawienie %.0f%%",
+        "hu": "Vérzés esélye: %.0f%%",
+        "it": "Possibilità di sanguinamento %.0f%%",
+        "gr": "Πιθανότητα αιμορραγίας %.0f%%",
+        "fr": "Chance de saignement %.0f %%",
+        "es": "Probabilidad de sangrado %.0f %%",
+        "de": "Chance of Bleeding %.0f%%"
+      },
+      "min": "5+25*k"
+    }
+  ],
+  "171": [
+    {
+      "desc": {
+        "en": "Attack power: %.0f-%.0f",
+        "ro": "Putere atac: %.0f-%.0f",
+        "tr": "Saldırı gücü %.0f-%.0f",
+        "pt": "Poder de Ataque: %.0f-%.0f",
+        "pl": "Siła ataku: %.0f-%.0f",
+        "hu": "Támadóerő: %.0f-%.0f",
+        "it": "Forza di attacco %.0f-%.0f",
+        "gr": "Δύναμη επίθεσης %.0f-%.0f",
+        "fr": "Force d'attaque : de %.0f à %.0f",
+        "es": "Fuerza de ataque %.0f-%.0f",
+        "de": "Attack power: %.0f-%.0f"
+      },
+      "min": "2*minatk + (minatk + dex*3 + str*5 + con)*k",
+      "max": "2*maxatk + (maxatk + dex*3 + str*5 + con)*k"
+    },
+    {
+      "desc": {
+        "en": "Faint chance: %.0f%%",
+        "ro": "Şansă de necunoştinţă: %.0f%%",
+        "tr": "Bayılma olasılığıı: %%%.0f",
+        "pt": "Probabilidade de Atordoamento: %.0f%%",
+        "pl": "Szansa na omdlenie: %.0f%%",
+        "hu": "Ájulási esély: %.0f%%",
+        "it": "Probabilità di svenimento %.0f%%",
+        "gr": "Πιθανότητα λιποθυμίας %.0f%%",
+        "fr": "Chance d'étourdir : %.0f %%",
+        "es": "Probabilidad de desmayo %.0f %%",
+        "de": "Faint chance: %.0f%%"
+      },
+      "min": "(30+70*2*k)/10"
+    }
+  ],
+  "172": [
+    {
+      "desc": {
+        "en": "Total attack power: %.0f-%.0f",
+        "ro": "Putere totală de atac: %.0f-%.0f",
+        "tr": "Toplam saldırı gücü %.0f-%.0f",
+        "pt": "Poder de Ataque Total: %.0f-%.0f",
+        "pl": "Łączna siła ataku: %.0f-%.0f",
+        "hu": "Teljes támadóerő: %.0f-%.0f",
+        "it": "Forza d'attacco complessiva %.0f-%.0f",
+        "gr": "Συνολική δύναμη επίθεσης %.0f-%.0f",
+        "fr": "Force d'attaque totale : de %.0f à %.0f",
+        "es": "Fuerza de ataque total %.0f-%.0f",
+        "de": "Total attack power: %.0f-%.0f"
+      },
+      "min": "(minatk + (1.6* minatk + 200 + dex*7 + str*7)*k)",
+      "max": "(maxatk + (1.6* maxatk + 200 + dex*7 + str*7)*k)"
+    }
+  ],
+  "173": [
+    {
+      "desc": {
+        "en": "Total attack power: %.0f-%.0f",
+        "ro": "Putere totală de atac: %.0f-%.0f",
+        "tr": "Toplam saldırı gücü %.0f-%.0f",
+        "pt": "Poder de Ataque Total: %.0f-%.0f",
+        "pl": "Łączna Siła Ataku %.0f-%.0f",
+        "hu": "Teljes támadóerő: %.0f-%.0f",
+        "it": "Forza d'attacco complessiva %.0f-%.0f",
+        "gr": "Συνολική δύναμη επίθεσης %.0f-%.0f",
+        "fr": "Force d'attaque totale : de %.0f à %.0f",
+        "es": "Fuerza de ataque total %.0f-%.0f",
+        "de": "Total attack power: %.0f-%.0f"
+      },
+      "min": "3*MinATK + (0.8*MinATK + STR*6 + DEX*2 + CON) * SkillPoint",
+      "max": "3*MaxATK + (0.8*MaxATK + STR*6 + DEX*2 + CON) * SkillPoint"
+    },
+    {
+      "desc": {
+        "en": "Opponent's defence: -%.0f",
+        "ro": "Apărarea oponentului: -%.0f",
+        "tr": "Düşmanın savunması: -%.0f",
+        "pt": "Defesa do Adversário: -%.0f",
+        "pl": "Obrona Przeciwnika: -%.0f",
+        "hu": "Ellenfél védelme: -%.0f",
+        "it": "Difesa dell'avversario: -%.0f",
+        "gr": "Άμυνα του αντιπάλου: -%.0f",
+        "fr": "Valeur de défense de l'adversaire : -%.0f",
+        "es": "Defensa del enemigo: -%.0f",
+        "de": "Opponent's defence: -%.0f"
+      },
+      "min": "-30*k"
+    },
+    {
+      "desc": {
+        "en": "Chance of critical attack: %.0f%%",
+        "ro": "Şansă de atac critic: %.0f%%",
+        "tr": "Kritik saldırı olasılığı %%%.0f",
+        "pt": "Probabilidade de Ataque Crítico: %.0f%%",
+        "pl": "Szansa na Atak Kryt. %.0f%%",
+        "hu": "Esély kritikus találatra: %.0f%%",
+        "it": "Probabilità di attacco critico %.0f%%",
+        "gr": "Πιθανότητα κρίσιμης επίθεσης %.0f%%",
+        "fr": "Chance d'attaque critique %.0f %%",
+        "es": "Probabilidad de ataque crítico %.0f %%",
+        "de": "Chance of critical attack: %.0f%%"
+      },
+      "min": "20"
+    },
+    {
+      "desc": {
+        "en": "Opponent's movement speed: -%.0f",
+        "ro": "Viteza de mişcare a oponentului: -%.0f",
+        "tr": "Düşmanın hareket hızı: -%.0f",
+        "pt": "Rapidez de Movimento do Adversário: -%.0f",
+        "pl": "Zwalnia Szybkość Ruchu Przeciwnika: -%.0f",
+        "hu": "Ellenfél mozgási sebessége: -%.0f",
+        "it": "Velocità di movimento dell'avversario: -%.0f",
+        "gr": "Ταχύτητα κίνησης του αντιπάλου: -%.0f",
+        "fr": "Vitesse de déplacement de l'adversaire : -%.0f",
+        "es": "Velocidad de movimiento del enemigo: -%.0f",
+        "de": "Opponent's movement speed: -%.0f"
+      },
+      "min": "-(1+9*k)"
+    }
+  ],
+  "174": [
+    {
+      "desc": {
+        "en": "Attack power: +%.0f",
+        "ro": "Putere de atac: +%.0f",
+        "tr": "Saldırı gücü +%.0f",
+        "pt": "Poder de Ataque: +%.0f",
+        "pl": "Siła Ataku: +%.0f",
+        "hu": "Támadóerő: +%.0f",
+        "it": "Forza di attacco +%.0f",
+        "gr": "Δύναμη επίθεσης +%.0f",
+        "fr": "Force d'attaque +%.0f",
+        "es": "Fuerza de ataque +%.0f",
+        "de": "Attack power: +%.0f"
+      },
+      "min": "7 + (4*iq+13)*k"
+    },
+    {
+      "desc": {
+        "en": "Chance of piercing hit: %.0f%%",
+        "ro": "Şansa de lovitură pătrunzătoare: %.0f%%",
+        "tr": "Delici isabet olasılığı %%%.0f",
+        "pt": "Probabilidade de Golpe Perfurante: %.0f%%",
+        "pl": "Szansa na Przeszywający Cios: %.0f%%",
+        "hu": "Esély átható találatra: %.0f%%",
+        "it": "Probabilità di colpo trafiggente %.0f%%",
+        "gr": "Πιθανότητα διατρητικού χτυπήματος %.0f%%",
+        "fr": "Chance de coup perçant : %.0f %%",
+        "es": "Probabilidad de golpe penetrante %.0f %%",
+        "de": "Chance of piercing hit: %.0f%%"
+      },
+      "min": "1+((iq*0.4)*k)*0.24"
+    }
+  ],
+  "175": [
+    {
+      "desc": {
+        "en": "Attack speed: +%.0f%%",
+        "ro": "Viteză de atac: +%.0f%%",
+        "tr": "Saldırı hızı +%%%.0f",
+        "pt": "Rapidez de Ataque: +%.0f%%",
+        "pl": "Szybkość ataku: +%.0f%%",
+        "hu": "Támadósebesség: +%.0f%%",
+        "it": "Velocità di attacco +%.0f%%",
+        "gr": "Ταχύτητα επίθεσης +%.0f%%",
+        "fr": "Vitesse d'attaque +%.0f %%",
+        "es": "Velocidad de ataque +%.0f %%",
+        "de": "Angriffsgeschwindigkeit: +%.0f%%"
+      },
+      "min": "20*k"
+    },
+    {
+      "desc": {
+        "en": "Evasion chance: +%.0f%%",
+        "ro": "Şansă eschivă: +%.0f%%",
+        "tr": "Sakınma olasılığı +%.0f%%",
+        "pt": "Probabilidade de Evasão: +%.0f%%",
+        "pl": "Szansa na unik +%.0f%%",
+        "hu": "Kitérés esélye: +%.0f%%",
+        "it": "Probabilità di schivata + %.0f%%",
+        "gr": "Πιθανότητα αποφυγής +%.0f%%",
+        "fr": "Chance d'esquive +%.0f %%",
+        "es": "Probabilidad de evasión +%.0f %%",
+        "de": "Ausweichen chance: +%.0f%%"
+      },
+      "min": "1+10*k"
+    }
+  ],
+  "176": [
+    {
+      "desc": {
+        "en": "Attack value: +%.0f-%.0f",
+        "ro": "Valoare de atac: +%.0f-%.0f",
+        "tr": "Saldırı değeri +%.0f-%.0f",
+        "pt": "Valor de Ataque: +%.0f-%.0f",
+        "pl": "Siła ataku +%.0f-%.0f",
+        "hu": "Támadóérték: +%.0f-%.0f",
+        "it": "Valore di attacco +%.0f-%.0f",
+        "gr": "Αξία επίθεσης +%.0f-%.0f",
+        "fr": "Puissance de l'attaque +%.0f-%.0f",
+        "es": "Valor de ataque +%.0f-%.0f",
+        "de": "Angriffswert: +%.0f-%.0f"
+      },
+      "min": "(3*minatk+(0.9*minatk+minmwep+1+str*5+dex*3+lv)*SkillPoint)",
+      "max": "(3*maxatk+(0.9*maxatk+maxmwep+1000+str*5+dex*3+lv)*SkillPoint)"
+    },
+    {
+      "desc": {
+        "en": "Precision bonus: %.0f%%",
+        "ro": "Bonus precizie: %.0f%%",
+        "tr": "Tamlık bonusu %%%.0f",
+        "pt": "Bónus de Precisão: %.0f%%",
+        "pl": "Bonus precyzji %.0f%%",
+        "hu": "Pontosság bónusz: %.0f%%",
+        "it": "Bonus Precisione %.0f%%",
+        "gr": "Μπόνους ακριβείας %.0f%%",
+        "fr": "Bonus de précision de %.0f %%",
+        "es": "Bonificación de precisión %.0f %%",
+        "de": "Precision bonus: %.0f%%"
+      },
+      "min": "0.4*k+(32*k/2)"
+    }
+  ],
+  "177": [
+    {
+      "desc": {
+        "en": "Attack value: +%.0f-%.0f",
+        "ro": "Valoare de atac: +%.0f-%.0f",
+        "tr": "Saldırı değeri +%.0f-%.0f",
+        "pt": "Valor de Ataque: +%.0f-%.0f",
+        "pl": "Siła ataku +%.0f-%.0f",
+        "hu": "Támadóérték: +%.0f-%.0f",
+        "it": "Valore di attacco +%.0f-%.0f",
+        "gr": "Αξία επίθεσης +%.0f-%.0f",
+        "fr": "Puissance de l'attaque +%.0f-%.0f",
+        "es": "Valor de ataque +%.0f-%.0f",
+        "de": "Angriffswert: +%.0f-%.0f"
+      },
+      "min": "(minatk+(1.7*minatk+minmwep+1+dex*6+lv*5)*SkillPoint)",
+      "max": "(maxatk+(1.7*maxatk+maxmwep+1000)+dex*6+lv*5)*SkillPoint)"
+    },
+    {
+      "desc": {
+        "en": "Precision bonus: %.0f%%",
+        "ro": "Bonus precizie: %.0f%%",
+        "tr": "Tamlık bonusu %%%.0f",
+        "pt": "Bónus de Precisão: %.0f%%",
+        "pl": "Bonus precyzji %.0f%%",
+        "hu": "Pontosság bónusz: %.0f%%",
+        "it": "Bonus Precisione %.0f%%",
+        "gr": "Μπόνους ακριβείας %.0f%%",
+        "fr": "Bonus de précision de %.0f %%",
+        "es": "Bonificación de precisión %.0f %%",
+        "de": "Precision bonus: %.0f%%"
+      },
+      "min": "0.4*k+(32*k/2)"
+    }
+  ],
+  "178": [
+    {
+      "desc": {
+        "en": "Attack value: +%.0f-%.0f",
+        "ro": "Valoare de atac: +%.0f-%.0f",
+        "tr": "Saldırı değeri +%.0f-%.0f",
+        "pt": "Valor de Ataque: +%.0f-%.0f",
+        "pl": "Siła ataku +%.0f-%.0f",
+        "hu": "Támadóérték: +%.0f-%.0f",
+        "it": "Valore di attacco +%.0f-%.0f",
+        "gr": "Αξία επίθεσης +%.0f-%.0f",
+        "fr": "Puissance de l'attaque +%.0f-%.0f",
+        "es": "Valor de ataque +%.0f-%.0f",
+        "de": "Angriffswert: +%.0f-%.0f"
+      },
+      "min": "(1.9*minatk+(2.6*minatk+minmwep+1))*SkillPoint)",
+      "max": "(1.9*maxatk+(2.6*maxatk+maxmwep+1))*SkillPoint)"
+    },
+    {
+      "desc": {
+        "en": "Precision bonus: %.0f%%",
+        "ro": "Bonus precizie: %.0f%%",
+        "tr": "Tamlık bonusu %%%.0f",
+        "pt": "Bónus de Precisão: %.0f%%",
+        "pl": "Bonus precyzji %.0f%%",
+        "hu": "Pontosság bónusz: %.0f%%",
+        "it": "Bonus Precisione %.0f%%",
+        "gr": "Μπόνους ακριβείας %.0f%%",
+        "fr": "Bonus de précision de %.0f %%",
+        "es": "Bonificación de precisión %.0f %%",
+        "de": "Precision bonus: %.0f%%"
+      },
+      "min": "0.4*k+(32*k/2)"
+    }
+  ],
+  "179": [
+    {
+      "desc": {
+        "en": "Attack value: +%.0f-%.0f",
+        "ro": "Valoare de atac: +%.0f-%.0f",
+        "tr": "Saldırı değeri +%.0f-%.0f",
+        "pt": "Valor de Ataque: +%.0f-%.0f",
+        "pl": "Siła ataku +%.0f-%.0f",
+        "hu": "Támadóérték: +%.0f-%.0f",
+        "it": "Valore di attacco +%.0f-%.0f",
+        "gr": "Αξία επίθεσης +%.0f-%.0f",
+        "fr": "Puissance de l'attaque +%.0f-%.0f",
+        "es": "Valor de ataque +%.0f-%.0f",
+        "de": "Angriffswert: +%.0f-%.0f"
+      },
+      "min": "(1.9*minatk+(2.6*minatk+minmwep+1))*SkillPoint)",
+      "max": "(1.9*maxatk+(2.6*maxatk+maxmwep+1))*SkillPoint)"
+    },
+    {
+      "desc": {
+        "en": "Precision bonus: %.0f%%",
+        "ro": "Bonus precizie: %.0f%%",
+        "tr": "Tamlık bonusu %%%.0f",
+        "pt": "Bónus de Precisão: %.0f%%",
+        "pl": "Bonus precyzji %.0f%%",
+        "hu": "Pontosság bónusz: %.0f%%",
+        "it": "Bonus Precisione %.0f%%",
+        "gr": "Μπόνους ακριβείας %.0f%%",
+        "fr": "Bonus de précision de %.0f %%",
+        "es": "Bonificación de precisión %.0f %%",
+        "de": "Precision bonus: %.0f%%"
+      },
+      "min": "0.4*k+(32*k/2)"
+    }
+  ],
+  "180": [
+    {
+      "desc": {
+        "en": "Magical Attack Value: +%.0f-%.0f",
+        "ro": "Valoare de atac magic: +%.0f-%.0f",
+        "tr": "Büyülü saldırı değeri +%.0f-%.0f",
+        "pt": "Valor de Ataque Mágico: +%.0f-%.0f",
+        "pl": "Magiczna siła ataku +%.0f-%.0f",
+        "hu": "Mágikus támadóérték +%.0f-%.0f",
+        "it": "Valore d'attacco magico +%.0f-%.0f",
+        "gr": "Επίθεση Μαγείας +%.0f-%.0f",
+        "fr": "Valeur d'attaque magique +%.0f-%.0f",
+        "es": "Valor de ataque mágico +%.0f-%.0f",
+        "de": "Magical Attack Value: +%.0f-%.0f"
+      },
+      "min": "(120+6*lv+(5*con+5*dex+30*iq+minmwep+1+9*mwep)*ar*SkillPoint)",
+      "max": "(120+6*lv+(5*con+5*dex+30*iq+maxmwep+1000+9*mwep)*ar*SkillPoint)"
+    },
+    {
+      "desc": {
+        "en": "Precision bonus: %.0f%%",
+        "ro": "Bonus precizie: %.0f%%",
+        "tr": "Tamlık bonusu %%%.0f",
+        "pt": "Bónus de Precisão: %.0f%%",
+        "pl": "Bonus precyzji %.0f%%",
+        "hu": "Pontosság bónusz: %.0f%%",
+        "it": "Bonus Precisione %.0f%%",
+        "gr": "Μπόνους ακριβείας %.0f%%",
+        "fr": "Bonus de précision de %.0f %%",
+        "es": "Bonificación de precisión %.0f %%",
+        "de": "Precision bonus: %.0f%%"
+      },
+      "min": "0.4*k+(32*k/2)"
+    }
+  ],
+  "181": [
+    {
+      "desc": {
+        "en": "Magic attack value: +%.0f-%.0f",
+        "ro": "Valoare de atac magic: +%.0f-%.0f",
+        "tr": "Büyülü saldırı değeri +%.0f-%.0f",
+        "pt": "Valor de Ataque Mágico: +%.0f-%.0f",
+        "pl": "Magiczna Siła Ataku +%.0f-%.0f",
+        "hu": "Mágikus támadóérték: +%.0f-%.0f",
+        "it": "Valore d'attacco magico +%.0f-%.0f",
+        "gr": "Επίθεση Μαγείας +%.0f-%.0f",
+        "fr": "Valeur d'attaque magique +%.0f-%.0f",
+        "es": "Valor de ataque mágico +%.0f-%.0f",
+        "de": "Magic attack value: +%.0f-%.0f"
+      },
+      "min": "(120+6*lv+(5*con+5*dex+30*iq+minmwep+1+9*mwep)*ar*SkillPoint)",
+      "max": "(120+6*lv+(5*con+5*dex+30*iq+maxmwep+1000+9*mwep)*ar*SkillPoint)"
+    },
+    {
+      "desc": {
+        "en": "Precision bonus: %.0f%%",
+        "ro": "Bonus precizie: %.0f%%",
+        "tr": "Tamlık bonusu %%%.0f",
+        "pt": "Bónus de Precisão: %.0f%%",
+        "pl": "Bonus Precyzji %.0f%%",
+        "hu": "Pontosság bónusz: %.0f%%",
+        "it": "Bonus Precisione %.0f%%",
+        "gr": "Μπόνους ακριβείας %.0f%%",
+        "fr": "Bonus de précision de %.0f %%",
+        "es": "Bonificación de precisión %.0f %%",
+        "de": "Precision bonus: %.0f%%"
+      },
+      "min": "0.4*k+(32*k/2)"
+    },
+    {
+      "desc": {
+        "en": "20*k",
+        "ro": "20*k",
+        "tr": "20*k",
+        "pt": "20*k",
+        "pl": "20*k",
+        "hu": "20*k",
+        "it": "20*k",
+        "gr": "20*k",
+        "fr": "20*k",
+        "es": "20*k",
+        "de": "20*k"
+      },
+      "min": "20*k"
+    }
+  ],
+  "182": [
+    {
+      "desc": {
+        "en": "Chance for protection: %.0f%%",
+        "ro": "Şansă protecţie: %.0f%%",
+        "tr": "Koruma şansı %%%.0f",
+        "pt": "Probabilidade de Proteção: %.0f%%",
+        "pl": "Szansa na ochronę %.0f%%",
+        "hu": "Esély a védelemre: %.0f%%",
+        "it": "Probabilità di protezione %.0f%%",
+        "gr": "Πιθανότητα Προστασίας %.0f%%",
+        "fr": "Chance d'obtenir une protection de %.0f %%",
+        "es": "Probabilidad de protección %.0f %%",
+        "de": "Chance for protection: %.0f%%"
+      },
+      "min": "0.4*k+(18*k)"
+    },
+    {
+      "desc": {
+        "en": "Shield duration: %.0f",
+        "ro": "Durată scut: %.0f",
+        "tr": "Kalkan süresi %.0f",
+        "pt": "Duração do Escudo: %.0f",
+        "pl": "Czas trwania tarczy %.0f",
+        "hu": "Pajzs időtartama: %.0f",
+        "it": "Durata scudo %.0f",
+        "gr": "Διάρκεια ασπίδας %.0f",
+        "fr": "Durée du bouclier : %.0f",
+        "es": "Duración de escudo %.0f",
+        "de": "Shield duration: %.0f"
+      },
+      "min": "4*k"
+    }
+  ],
+  "183": [
+    {
+      "desc": {
+        "en": "Attack value: +%.0f-%.0f",
+        "ro": "Valoare de atac: +%.0f-%.0f",
+        "tr": "Saldırı değeri +%.0f-%.0f",
+        "pt": "Valor de Ataque: +%.0f-%.0f",
+        "pl": "Siła ataku +%.0f-%.0f",
+        "hu": "Támadóérték: +%.0f-%.0f",
+        "it": "Valore di attacco +%.0f-%.0f",
+        "gr": "Αξία επίθεσης +%.0f-%.0f",
+        "fr": "Puissance de l'attaque +%.0f-%.0f",
+        "es": "Valor de ataque +%.0f-%.0f",
+        "de": "Angriffswert: +%.0f-%.0f"
+      },
+      "min": "(1.8*minatk+(minatk+dex*6+minmwep+1+str*3+lv)*SkillPoint)",
+      "max": "(1.8*maxatk+(maxatk+dex*6+maxmwep+1+str*3+lv)*SkillPoint)"
+    },
+    {
+      "desc": {
+        "en": "Precision bonus: %.0f%%",
+        "ro": "Bonus precizie: %.0f%%",
+        "tr": "Tamlık bonusu %%%.0f",
+        "pt": "Bónus de Precisão: %.0f%%",
+        "pl": "Bonus precyzji %.0f%%",
+        "hu": "Pontosság bónusz: %.0f%%",
+        "it": "Bonus Precisione %.0f%%",
+        "gr": "Μπόνους ακριβείας %.0f%%",
+        "fr": "Bonus de précision de %.0f %%",
+        "es": "Bonificación de precisión %.0f %%",
+        "de": "Precision bonus: %.0f%%"
+      },
+      "min": "0.4*k+(32*k/2)"
+    }
+  ],
+  "221": [
+    {
+      "desc": {
+        "en": "Defence against Sword Spin +%.1f%%",
+        "ro": "Apărare împotriva la Vârtejul Sabiei +%.1f%%",
+        "tr": "Kılıç çevirmeye karşı savunma +%%%.1f",
+        "pt": "Defesa contra Espada Rotativa +%.1f%%",
+        "pl": "Obrona przed Wirem Miecza +%.1f%%",
+        "hu": "Forgó kard elleni védelem +%.1f%%",
+        "it": "Resistenza al Vortice di spada +%.1f%%",
+        "gr": "Πιθανότητα άμυνας σε Στροβιλισμό σπαθιού +%.1f%%",
+        "fr": "Défense contre Moulinet à l'épée +%.1f%%",
+        "es": "Defensa contra giro de espada +%.1f%%",
+        "de": "Defence against Sword Spin +%.1f%%"
+      },
+      "min": "24*k"
+    }
+  ],
+  "222": [
+    {
+      "desc": {
+        "en": "Defence against Ambush +%.1f%%",
+        "ro": "Apărare împotriva la Ambuscadă +%.1f%%",
+        "tr": "Suikaste karşı savunma +%%%.1f",
+        "pt": "Defesa contra Emboscada +%.1f%%",
+        "pl": "Obrona przed Zasadzką +%.1f%%",
+        "hu": "Leshely elleni védelem +%.1f%%",
+        "it": "Probabilità di difesa dal Tranello +%.1f%%",
+        "gr": "Πιθανότητα άμυνας σε Ενέδρα +%.1f%%",
+        "fr": "Défense contre l'Embuscade +%.1f%%",
+        "es": "Defensa contra emboscada +%.1f%%",
+        "de": "Defence against Ambush +%.1f%%"
+      },
+      "min": "24*k"
+    }
+  ],
+  "223": [
+    {
+      "desc": {
+        "en": "Defence against Finger Strike +%.1f%%",
+        "ro": "Apărare împotriva la Lovitura Degetului +%.1f%%",
+        "tr": "Parmak darbesine karşı savunma +%%%.1f",
+        "pt": "Defesa contra Ataque do Dedo +%.1f%%",
+        "pl": "Obrona przed Uderzeniem Palcem +%.1f%%",
+        "hu": "Ujjcsapás elleni védelem +%.1f%%",
+        "it": "Probabilità di difesa dallo Schiocco di dita +%.1f%%",
+        "gr": "Πιθανότητα άμυνας σε Χτύπημα Δαχτύλου +%.1f%%",
+        "fr": "Défense contre Toucher brûlant +%.1f%%",
+        "es": "Defensa contra golpe de dedo +%.1f%%",
+        "de": "Defence against Finger Strike +%.1f%%"
+      },
+      "min": "24*k"
+    }
+  ],
+  "224": [
+    {
+      "desc": {
+        "en": "Defence against Shooting Dragon +%.1f%%",
+        "ro": "Apărare împotriva la Aruncarea Dragonului +%.1f%%",
+        "tr": "Ejderha darbesine karşı savunma +%%%.1f",
+        "pt": "Defesa contra Ataque do Dragão +%.1f%%",
+        "pl": "Obrona przed Strzelającym Smokiem +%.1f%%",
+        "hu": "Sárkány lövés elleni védelem +%.1f%%",
+        "it": "Probabilità di difesa dal Tiro del drago +%.1f%%",
+        "gr": "Πιθανότητα άμυνας σε Δρακόντεια Ριπή +%.1f%%",
+        "fr": "Défense contre Dragon chassant +%.1f%%",
+        "es": "Defensa contra disparo de dragón +%.1f%%",
+        "de": "Defence against Shooting Dragon +%.1f%%"
+      },
+      "min": "24*k"
+    }
+  ],
+  "225": [
+    {
+      "desc": {
+        "en": "Defence against Spirit Strike +%.1f%%",
+        "ro": "Apărare împotriva la Atacul Spiritului +%.1f%%",
+        "tr": "Ruh vuruşuna karşı savunma +%%%.1f",
+        "pt": "Defesa contra Ataque Espiritual +%.1f%%",
+        "pl": "Obrona przed Duchowym Uderzeniem +%.1f%%",
+        "hu": "Áthatolás elleni védelem +%.1f%%",
+        "it": "Probabilità di difesa dalla Penetrazione +%.1f%%",
+        "gr": "Πιθανότητα άμυνας σε Διάτρηση +%.1f%%",
+        "fr": "Défense contre Attaque de l'esprit +%.1f%%",
+        "es": "Defensa contra pulso espiritual +%.1f%%",
+        "de": "Defence against Spirit Strike +%.1f%%"
+      },
+      "min": "24*k"
+    }
+  ],
+  "226": [
+    {
+      "desc": {
+        "en": "Defence against Fire Arrow +%.1f%%",
+        "ro": "Apărare împotriva la Sageata de Foc +%.1f%%",
+        "tr": "Ateşli oka karşı savunma +%%%.1f",
+        "pt": "Defesa contra Flecha de Fogo +%.1f%%",
+        "pl": "Obrona przed Ognistą Strzałą +%.1f%%",
+        "hu": "Tűznyíl elleni védelem +%.1f%%",
+        "it": "Probabilità di difesa dalla Freccia di fuoco +%.1f%%",
+        "gr": "Πιθανότητα άμυνας σε Φλεγόμενο Βέλος +%.1f%%",
+        "fr": "Défense contre Flèche de feu +%.1f%%",
+        "es": "Defensa contra flecha de fuego +%.1f%%",
+        "de": "Defence against Fire Arrow +%.1f%%"
+      },
+      "min": "24*k"
+    }
+  ],
+  "227": [
+    {
+      "desc": {
+        "en": "Defence against Dark Strike +%.1f%%",
+        "ro": "Apărare împotriva la Lovitura Întunecată +%.1f%%",
+        "tr": "Karanlık vuruşa karşı savunma +%%%.1f",
+        "pt": "Defesa contra Ataque Obscuro +%.1f%%",
+        "pl": "Obrona przed Mrocznym Uderzeniem +%.1f%%",
+        "hu": "Sötét csapás elleni védelem +%.1f%%",
+        "it": "Probabilità di difesa dal Colpo oscuro +%.1f%%",
+        "gr": "Πιθανότητα άμυνας σε Σκοτεινή Επίθεση +%.1f%%",
+        "fr": "Défense contre Attaque des Ténèbres +%.1f%%",
+        "es": "Defensa contra golpe oscuro +%.1f%%",
+        "de": "Defence against Dark Strike +%.1f%%"
+      },
+      "min": "24*k"
+    }
+  ],
+  "228": [
+    {
+      "desc": {
+        "en": "Defence against Summon Lightning +%.1f%%",
+        "ro": "Apărare împotriva la Chemarea Fulgerului +%.1f%%",
+        "tr": "Şimşek çağırmaya karşı savunma +%%%.1f",
+        "pt": "Defesa contra Invocar Raio +%.1f%%",
+        "pl": "Obrona przed Przywołaniem Błyskawicy +%.1f%%",
+        "hu": "Villám könyörgés elleni védelem +%.1f%%",
+        "it": "Probabilità di difesa da Evocare i lampi +%.1f%%",
+        "gr": "Πιθανότητα άμυνας σε Έκκληση αστραπής +%.1f%%",
+        "fr": "Défense contre Invocation de foudre +%.1f%%",
+        "es": "Defensa contra llamada del relámpago +%.1f%%",
+        "de": "Defence against Summon Lightning +%.1f%%"
+      },
+      "min": "24*k"
+    }
+  ],
+  "229": [
+    {
+      "desc": {
+        "en": "Defence against Wolf's Breath +%.1f%%",
+        "ro": "Apărare împotriva la Suflul Lupului +%.1f%%",
+        "tr": "Kurt nefesine karşı savunma +%%%.1f",
+        "pt": "Defesa contra Sopro do Lobo +%.1f%%",
+        "pl": "Obrona przed Wilczym Dechem +%.1f%%",
+        "hu": "Farkaslehelet elleni védelem +%.1f%%",
+        "it": "Probabilità di difesa dal Respiro del lupo +%.1f%%",
+        "gr": "Πιθανότητα άμυνας σε Πνοή του Λύκου +%.1f%%",
+        "fr": "Défense contre Souffle de loup +%.1f%%",
+        "es": "Defensa contra aliento del lobo +%.1f%%",
+        "de": "Defence against Wolf's Breath +%.1f%%"
+      },
+      "min": "24*k"
+    }
+  ],
+  "236": [
+    {
+      "desc": {
+        "en": "Boost +%.1f%%",
+        "ro": "Ajutor +%.1f%%",
+        "tr": "Güçlendirme +%%%.1f",
+        "pt": "Reforço +%.1f%%",
+        "pl": "Dopalacz +%.1f%%",
+        "hu": "Fokozás +%.1f%%",
+        "it": "Boost +%.1f%%",
+        "gr": "Ενίσχυση +%.1f%%",
+        "fr": "Bonus +%.1f%%",
+        "es": "Potenciador +%.1f%%",
+        "de": "Boost +%.1f%%"
+      },
+      "min": "16*k"
+    }
+  ],
+  "237": [
+    {
+      "desc": {
+        "en": "Boost +%.1f%%",
+        "ro": "Ajutor +%.1f%%",
+        "tr": "Güçlendirme +%%%.1f",
+        "pt": "Reforço +%.1f%%",
+        "pl": "Dopalacz +%.1f%%",
+        "hu": "Fokozás +%.1f%%",
+        "it": "Boost +%.1f%%",
+        "gr": "Ενίσχυση +%.1f%%",
+        "fr": "Bonus +%.1f%%",
+        "es": "Potenciador +%.1f%%",
+        "de": "Boost +%.1f%%"
+      },
+      "min": "16*k"
+    }
+  ],
+  "238": [
+    {
+      "desc": {
+        "en": "Boost +%.1f%%",
+        "ro": "Ajutor +%.1f%%",
+        "tr": "Güçlendirme +%%%.1f",
+        "pt": "Reforço +%.1f%%",
+        "pl": "Dopalacz +%.1f%%",
+        "hu": "Fokozás +%.1f%%",
+        "it": "Boost +%.1f%%",
+        "gr": "Ενίσχυση +%.1f%%",
+        "fr": "Bonus +%.1f%%",
+        "es": "Potenciador +%.1f%%",
+        "de": "Boost +%.1f%%"
+      },
+      "min": "16*k"
+    }
+  ],
+  "239": [
+    {
+      "desc": {
+        "en": "Boost +%.1f%%",
+        "ro": "Ajutor +%.1f%%",
+        "tr": "Güçlendirme +%%%.1f",
+        "pt": "Reforço +%.1f%%",
+        "pl": "Dopalacz +%.1f%%",
+        "hu": "Fokozás +%.1f%%",
+        "it": "Boost +%.1f%%",
+        "gr": "Ενίσχυση +%.1f%%",
+        "fr": "Bonus +%.1f%%",
+        "es": "Potenciador +%.1f%%",
+        "de": "Boost +%.1f%%"
+      },
+      "min": "16*k"
+    }
+  ],
+  "240": [
+    {
+      "desc": {
+        "en": "Boost +%.1f%%",
+        "ro": "Ajutor +%.1f%%",
+        "tr": "Güçlendirme +%%%.1f",
+        "pt": "Reforço +%.1f%%",
+        "pl": "Dopalacz +%.1f%%",
+        "hu": "Fokozás +%.1f%%",
+        "it": "Boost +%.1f%%",
+        "gr": "Ενίσχυση +%.1f%%",
+        "fr": "Bonus +%.1f%%",
+        "es": "Potenciador +%.1f%%",
+        "de": "Boost +%.1f%%"
+      },
+      "min": "16*k"
+    }
+  ],
+  "241": [
+    {
+      "desc": {
+        "en": "Boost +%.1f%%",
+        "ro": "Ajutor +%.1f%%",
+        "tr": "Güçlendirme +%%%.1f",
+        "pt": "Reforço +%.1f%%",
+        "pl": "Dopalacz +%.1f%%",
+        "hu": "Fokozás +%.1f%%",
+        "it": "Boost +%.1f%%",
+        "gr": "Ενίσχυση +%.1f%%",
+        "fr": "Bonus +%.1f%%",
+        "es": "Potenciador +%.1f%%",
+        "de": "Boost +%.1f%%"
+      },
+      "min": "16*k"
+    }
+  ],
+  "242": [
+    {
+      "desc": {
+        "en": "Boost +%.1f%%",
+        "ro": "Ajutor +%.1f%%",
+        "tr": "Güçlendirme +%%%.1f",
+        "pt": "Reforço +%.1f%%",
+        "pl": "Dopalacz +%.1f%%",
+        "hu": "Fokozás +%.1f%%",
+        "it": "Boost +%.1f%%",
+        "gr": "Ενίσχυση +%.1f%%",
+        "fr": "Bonus +%.1f%%",
+        "es": "Potenciador +%.1f%%",
+        "de": "Boost +%.1f%%"
+      },
+      "min": "16*k"
+    }
+  ],
+  "243": [
+    {
+      "desc": {
+        "en": "Boost +%.1f%%",
+        "ro": "Ajutor +%.1f%%",
+        "tr": "Güçlendirme +%%%.1f",
+        "pt": "Reforço +%.1f%%",
+        "pl": "Dopalacz +%.1f%%",
+        "hu": "Fokozás +%.1f%%",
+        "it": "Boost +%.1f%%",
+        "gr": "Ενίσχυση +%.1f%%",
+        "fr": "Bonus +%.1f%%",
+        "es": "Potenciador +%.1f%%",
+        "de": "Boost +%.1f%%"
+      },
+      "min": "16*k"
+    }
+  ],
+  "244": [
+    {
+      "desc": {
+        "en": "Boost +%.1f%%",
+        "ro": "Ajutor +%.1f%%",
+        "tr": "Güçlendirme +%%%.1f",
+        "pt": "Reforço +%.1f%%",
+        "pl": "Dopalacz +%.1f%%",
+        "hu": "Fokozás +%.1f%%",
+        "it": "Boost +%.1f%%",
+        "gr": "Ενίσχυση +%.1f%%",
+        "fr": "Bonus +%.1f%%",
+        "es": "Potenciador +%.1f%%",
+        "de": "Boost +%.1f%%"
+      },
+      "min": "16*k"
+    }
+  ],
+  "246": [
+    {
+      "desc": {
+        "en": "Precision bonus: +%.0f",
+        "ro": "Bonus precizie: +%.0f",
+        "tr": "Tamlık bonusu: +%.0f",
+        "pt": "Bónus de Precisão: +%.0f",
+        "pl": "Bonus precyzji: +%.0f",
+        "hu": "Pontosság bónusz: +%.0f",
+        "it": "Bonus Precisione: +%.0f",
+        "gr": "Μπόνους ακριβείας: +%.0f",
+        "fr": "Bonus de précision : +%.0f",
+        "es": "Bonificación de precisión: +%.0f",
+        "de": "Precision bonus: +%.0f"
+      },
+      "min": "0.4*k+(32*k/2)"
+    }
+  ],
+  "285": [
+    {
+      "desc": {
+        "en": "Movement speed: +%.0f%%",
+        "ro": "Viteză de mişcare: +%.0f%%",
+        "tr": "Hareket Hızı: +%%%.0f",
+        "pt": "Rapidez de Movimento: +%.0f%%",
+        "pl": "Szybkość Ruchu: +%.0f%%",
+        "hu": "Mozgási sebesség: +%.0f%%",
+        "it": "Velocità di movimento: + %.0f%%",
+        "gr": "Ταχύτητα Κίνησης: +%.0f%%",
+        "fr": "Vitesse de déplacement : +%.0f%%",
+        "es": "Velocidad de movimiento: +%.0f %%",
+        "de": "Bewegungsgeschwindigkeit: +%.0f%%"
+      },
+      "min": "(4+(horselv*skilllv/100))*(skilllv/3)"
+    }
+  ],
+  "286": [
+    {
+      "desc": {
+        "en": "EXP bonus increase: +%.0f%%",
+        "ro": "Bonus EXP mărit: +%.0f%%",
+        "tr": "EXP-Bonus artırıldı: +%%%.0f",
+        "pt": "Aumento do bónus de EXP: +%.0f%%",
+        "pl": "Zwiększa bonus PD: +%.0f%%",
+        "hu": "EXP bónusz növekedés: +%.0f%%",
+        "it": "Bonus EXP: +%.0f%%",
+        "gr": "Αύξηση μπόνους ΕΜΠ: +%.0f%%",
+        "fr": "Bonus d'EXP augmenté : +%.0f%%",
+        "es": "Bonificación de EXP aumentada: +%.0f %%",
+        "de": "EXP bonus increase: +%.0f%%"
+      },
+      "min": "((horselv*skilllv/100)+1.5)+(skilllv/8)"
+    }
+  ],
+  "287": [
+    {
+      "desc": {
+        "en": "Attack speed increase: +%.0f%%",
+        "ro": "Viteză de atac mărită: +%.0f%%",
+        "tr": "Saldırı hızı artırıldı: +%%%.0f",
+        "pt": "Aumento da Rapidez de Ataque: +%.0f%%",
+        "pl": "Zwiększona szybkość ataku: +%.0f%%",
+        "hu": "Támadósebesség növekedés: +%.0f%%",
+        "it": "Velocità di attacco: +%.0f%%",
+        "gr": "Αυξημένη ταχύτητα επίθεσης: +%.0f%%",
+        "fr": "Vitesse d'attaque augmentée : +%.0f%%",
+        "es": "Velocidad de ataque aumentada: +%.0f %%",
+        "de": "Angriffsgeschwindigkeit increase: +%.0f%%"
+      },
+      "min": "(5+(horselv*skilllv/600))*(skilllv/5)"
+    }
+  ],
+  "288": [
+    {
+      "desc": {
+        "en": "Feather Walk damage: %.0f-%.0f",
+        "ro": "Daune Mers de Fulg: %.0f-%.0f",
+        "tr": "Hafif adım hasarı: %.0f-%.0f",
+        "pt": "Dano de Flutuar: %.0f-%.0f",
+        "pl": "Obrażenia od Bezszelestnego Chodu: %.0f-%.0f",
+        "hu": "Pehelykönnyű lépések sebzés: %.0f-%.0f",
+        "it": "Danno Passo piumato: %.0f-%.0f",
+        "gr": "Ζημιά από Βάδισμα Φτερού: %.0f-%.0f",
+        "fr": "Dégâts occasionnés par la foulée de plume : de %.0f à %.0f",
+        "es": "Daños de Camino pluma: %.0f-%.0f",
+        "de": "Feather Walk damage: %.0f-%.0f"
+      },
+      "min": "(horselv*(skilllv*5))/40*skilllv",
+      "max": "(horselv*(skilllv*10))/40*skilllv"
+    }
+  ],
+  "291": [
+    {
+      "desc": {
+        "en": "Strong against Half Humans: +%.0f%%",
+        "ro": "Tare împotriva Semi-Oamenilor: +%.0f%%",
+        "tr": "Yarı insanlara karşı güçlü: +%%%.0f",
+        "pt": "Forte contra Semi-Humanos +%.0f%%",
+        "pl": "Siła w walce z półludźmi: +%.0f%%",
+        "hu": "Félemberek elleni erő: +%.0f%%",
+        "it": "Forte vs Mezziuomini +%.0f%%",
+        "gr": "Δύναμη ενάντια σε Ημιανθρώπους: +%.0f%%",
+        "fr": "Force contre les demi-humains : +%.0f%%",
+        "es": "Fuerza contra mediohumanos: +%.0f %%",
+        "de": "Strong against Half Humans: +%.0f%%"
+      },
+      "min": "1+(skilllv*horselv/100)"
+    }
+  ],
+  "292": [
+    {
+      "desc": {
+        "en": "Strong against Animals: +%.0f%%",
+        "ro": "Tare împotriva Animalelor: +%.0f%%",
+        "tr": "Hayvanlara karşı güçlü: +%%%.0f",
+        "pt": "Forte contra Animais: +%.0f%%",
+        "pl": "Siła w walce ze zwierzętami: +%.0f%%",
+        "hu": "Állatok elleni erő: +%.0f%%",
+        "it": "Forte VS animali +%.0f%%",
+        "gr": "Δύναμη ενάντια σε Ζώα: +%.0f%%",
+        "fr": "Force contre les animaux : +%.0f%%",
+        "es": "Fuerza contra animales: +%.0f %%",
+        "de": "Strong against Animals: +%.0f%%"
+      },
+      "min": "1+(skilllv*horselv/100)"
+    }
+  ],
+  "293": [
+    {
+      "desc": {
+        "en": "Strong against Orcs: +%.0f%%",
+        "ro": "Tare împotriva Orcilor: +%.0f%%",
+        "tr": "Orklara karşı güçlü: +%%%.0f",
+        "pt": "Forte contra Orcs: +%.0f%%",
+        "pl": "Siła w walce z orkami: +%.0f%%",
+        "hu": "Orkok elleni erő: +%.0f%%",
+        "it": "Forte VS orchi +%.0f%%",
+        "gr": "Δύναμη ενάντια σε Ορκ: +%.0f%%",
+        "fr": "Force contre les orcs : +%.0f%%",
+        "es": "Fuerza contra orcos: +%.0f %%",
+        "de": "Strong against Orcs: +%.0f%%"
+      },
+      "min": "1+(skilllv*horselv/100)"
+    }
+  ],
+  "294": [
+    {
+      "desc": {
+        "en": "Strong against Mystics: +%.0f%%",
+        "ro": "Tare împotriva Misticilor: +%.0f%%",
+        "tr": "Mistiklere karşı güçlü: +%%%.0f",
+        "pt": "Forte contra Esotéricos: +%.0f%%",
+        "pl": "Siła w walce z mistykami: +%.0f%%",
+        "hu": "Ezoterikusok elleni erő: +%.0f%%",
+        "it": "Forte contro Esoterici +%.0f%%",
+        "gr": "Δύναμη ενάντια σε Εσώτερους: +%.0f%%",
+        "fr": "Force contre les mystiques : +%.0f%%",
+        "es": "Fuerza contra místicos +%.0f %%",
+        "de": "Strong against Mystics: +%.0f%%"
+      },
+      "min": "1+(skilllv*horselv/100)"
+    }
+  ],
+  "295": [
+    {
+      "desc": {
+        "en": "Strong against Undead: +%.0f%%",
+        "ro": "Tare împotriva Vampirilor: +%.0f%%",
+        "tr": "Ölümsüzlere karşı güçlü: +%%%.0f",
+        "pt": "Forte contra Mortos-Vivos: +%.0f%%",
+        "pl": "Siła w walce z nieumarłymi: +%.0f%%",
+        "hu": "Élőholtak elleni erő: +%.0f%%",
+        "it": "Forte VS zombie: +%.0f%%",
+        "gr": "Δύναμη ενάντια σε Απέθαντους: +%.0f%%",
+        "fr": "Force contre les morts-vivants : +%.0f%%",
+        "es": "Fuerza contra muertos vivientes: +%.0f %%",
+        "de": "Strong against Undead: +%.0f%%"
+      },
+      "min": "1+(skilllv*horselv/100)"
+    }
+  ],
+  "296": [
+    {
+      "desc": {
+        "en": "Strong against Devils: +%.0f%%",
+        "ro": "Tare împotriva Diavolului: +%.0f%%",
+        "tr": "Şeytanlara karşı güçlü: +%%%.0f",
+        "pt": "Forte contra Demónios: +%.0f%%",
+        "pl": "Siła w walce z diabłami: +%.0f%%",
+        "hu": "Ördögök elleni erő: +%.0f%%",
+        "it": "Forte contro Diavolo +%.0f%%",
+        "gr": "Δύναμη ενάντια σε Διαβόλους: +%.0f%%",
+        "fr": "Force contre le Mal : +%.0f%%",
+        "es": "Fuerza contra demonios +%.0f %%",
+        "de": "Strong against Devils: +%.0f%%"
+      },
+      "min": "1+(skilllv*horselv/100)"
+    }
+  ],
+  "297": [
+    {
+      "desc": {
+        "en": "Strong against Zodiac Monsters: +%.0f%%",
+        "ro": "Tare împotriva Monştrilor Zodiac: +%.0f%%",
+        "tr": "Zodyak canavarına karşı güçlü: +%%%.0f",
+        "pt": "Forte contra Monstros do Zodíaco: +%.0f%%",
+        "pl": "Siła w walce z potworami Zodiaku: +%.0f%%",
+        "hu": "Zodiákus szörnyek elleni erő: +%.0f%%",
+        "it": "Forte VS mostri Zodiaco: +%.0f%%",
+        "gr": "Δύναμη ενάντια σε Ζωδιακά τέρατα: +%.0f%%",
+        "fr": "Force contre les monstres du zodiaque : +%.0f%%",
+        "es": "Fuerza contra monstruos del zodíaco: +%.0f %%",
+        "de": "Strong against Zodiac Monsters: +%.0f%%"
+      },
+      "min": "1+(skilllv*horselv/100)"
+    }
+  ],
+  "298": [
+    {
+      "desc": {
+        "en": "Strong against Desert Monsters: +%.0f%%",
+        "ro": "Tare împotriva Monştrilor de Deşert: +%.0f%%",
+        "tr": "Çöl canavarına karşı güçlü: +%%%.0f",
+        "pt": "Forte contra Monstros do Deserto: +%.0f%%",
+        "pl": "Siła w walce z potworami pustyni: +%.0f%%",
+        "hu": "Sivatagi szörnyek elleni erő: +%.0f%%",
+        "it": "Forte VS mostri del deserto: +%.0f%%",
+        "gr": "Δύναμη ενάντια σε Τέρατα ερήμου: +%.0f%%",
+        "fr": "Fort contre les monstres du désert : +%.0f%%",
+        "es": "Fuerza contra monstruos del desierto: +%.0f %%",
+        "de": "Strong against Desert Monsters: +%.0f%%"
+      },
+      "min": "1+(skilllv*horselv/100)"
+    }
+  ],
+  "299": [
+    {
+      "desc": {
+        "en": "Strong against Insects: +%.0f%%",
+        "ro": "Tare împotriva Insectelor: +%.0f%%",
+        "tr": "Böceklere karşı güçlü +%%%.0f",
+        "pt": "Forte contra Insetos: +%.0f%%",
+        "pl": "Siła w walce z insektami: +%.0f%%",
+        "hu": "Rovarok elleni erő: +%.0f%%",
+        "it": "Forte VS insetti: +%.0f%%",
+        "gr": "Δύναμη ενάντια σε Έντομα: +%.0f%%",
+        "fr": "Force contre les insectes : +%.0f%%",
+        "es": "Fuerza contra insectos: +%.0f %%",
+        "de": "Strong against Insects: +%.0f%%"
+      },
+      "min": "1+(skilllv*horselv/100)"
+    }
+  ],
+  "300": [
+    {
+      "desc": {
+        "en": "Strong against All Monsters: +%.0f%%",
+        "ro": "Tare împotriva Tuturor Monştrilor: +%.0f%%",
+        "tr": "Tüm canavarlara karşı güçlü: +%%%.0f",
+        "pt": "Forte contra Todos os Monstros: +%.0f%%",
+        "pl": "Siła w walce z wszystkimi potworami: +%.0f%%",
+        "hu": "Minden szörny elleni erő: +%.0f%%",
+        "it": "Forte VS tutti i mostri: +%.0f%%",
+        "gr": "Δύναμη ενάντια σε όλα τα τέρατα: +%.0f%%",
+        "fr": "Force contre tous les monstres : +%.0f%%",
+        "es": "Fuerza contra todos los monstruos: +%.0f %%",
+        "de": "Strong against All Monsters: +%.0f%%"
+      },
+      "min": "1+(skilllv*horselv/100)"
+    }
+  ],
+  "301": [
+    {
+      "desc": {
+        "en": "Skill bonuses: +%.2f%%",
+        "ro": "Bonusuri abilitate: +%.2f%%",
+        "tr": "Bonus beceriler: +%%%.2f",
+        "pt": "Bónus das habilidades: +%.2f%%",
+        "pl": "Bonus umiejętności: +%.2f%%",
+        "hu": "Készség bónuszok: +%.2f%%",
+        "it": "Abilità bonus: +%.2f%%",
+        "gr": "Ικανότητες μπόνους: +%.2f%%",
+        "fr": "Compétences bonus : +%.2f%%",
+        "es": "Habilidades de bonificación: +%.2f %%",
+        "de": "Skill bonuses: +%.2f%%"
+      },
+      "min": "skilllv/(140-horselv)"
+    }
+  ],
+  "302": [
+    {
+      "desc": {
+        "en": "Strong against Warriors: +%.0f%%",
+        "ro": "Tare împotriva Războinicilor: +%.0f%%",
+        "tr": "Savaşçılara karşı güçlü: +%%%.0f",
+        "pt": "Forte contra Guerreiros: + %.0f%%",
+        "pl": "Siła w walce z wojownikiem: +%.0f%%",
+        "hu": "Harcosok elleni erő: +%.0f%%",
+        "it": "Forte VS guerrieri: +%.0f%%",
+        "gr": "Δύναμη ενάντια σε Πολεμιστές: +%.0f%%",
+        "fr": "Force contre les Guerriers : +%.0f%%",
+        "es": "Fuerza contra Guerreros: + %.0f %%",
+        "de": "Strong against Warriors: +%.0f%%"
+      },
+      "min": "1+(skilllv*horselv/100)"
+    }
+  ],
+  "303": [
+    {
+      "desc": {
+        "en": "Strong against Ninjas: +%.0f%%",
+        "ro": "Tare împotriva Ninja: +%.0f%%",
+        "tr": "Ninjalara karşı güçlü: +%%%.0f",
+        "pt": "Forte contra Ninjas: +%.0f%%",
+        "pl": "Siła w walce z ninja: +%.0f%%",
+        "hu": "Nindzsák elleni erő: +%.0f%%",
+        "it": "Forte VS ninja + %.0f%%.",
+        "gr": "Δύναμη ενάντια σε Νίντζα: + %.0f%%",
+        "fr": "Force contre les Ninjas : + %.0f%%",
+        "es": "Fuerza contra Ninjas: + %.0f %%",
+        "de": "Strong against Ninjas: +%.0f%%"
+      },
+      "min": "1+(skilllv*horselv/100)"
+    }
+  ],
+  "304": [
+    {
+      "desc": {
+        "en": "Strong against Suras: +%.0f%%",
+        "ro": "Tare împotriva Sura: +%.0f%%",
+        "tr": "Suralara karşı güçlü: +%%%.0f",
+        "pt": "Forte contra Suras: +%.0f%%",
+        "pl": "Siła w walce z sura: +%.0f%%",
+        "hu": "Surák elleni erő: +%.0f%%",
+        "it": "Forte VS sura +%.0f%%",
+        "gr": "Δύναμη ενάντια σε Sura: +%.0f%%",
+        "fr": "Force contre les Suras : +%.0f%%",
+        "es": "Fuerza contra Suras: +%.0f %%",
+        "de": "Strong against Suras: +%.0f%%"
+      },
+      "min": "1+(skilllv*horselv/100)"
+    }
+  ],
+  "305": [
+    {
+      "desc": {
+        "en": "Strong against Shamans: +%.0f%%",
+        "ro": "Tare împotriva Şamanilor: +%.0f%%",
+        "tr": "Şamanlara karşı güçlü: +%%%.0f",
+        "pt": "Forte contra Xamãs: +%.0f%%",
+        "pl": "Siła w walce z szamanem: +%.0f%%",
+        "hu": "Sámánok elleni erő: +%.0f%%",
+        "it": "Forte VS shamani +%.0f%%",
+        "gr": "Δύναμη ενάντια σε Σαμάνους: +%.0f%%",
+        "fr": "Force contre les Chamanes : +%.0f%%",
+        "es": "Fuerza contra Chamanes: +%.0f %%",
+        "de": "Strong against Shamans: +%.0f%%"
+      },
+      "min": "1+(skilllv*horselv/100)"
+    }
+  ],
+  "306": [
+    {
+      "desc": {
+        "en": "Strong against Lycans: +%.0f%%",
+        "ro": "Tare împotriva Lycanilor: +%.0f%%",
+        "tr": "Lycanlara karşı güçlü: +%%%.0f",
+        "pt": "Forte contra Lycans: +%.0f%%",
+        "pl": "Siła w walce z Likanami: +%.0f%%",
+        "hu": "Vérfarkasok elleni erő: +%.0f%%",
+        "it": "Forte VS lican: + %.0f%%",
+        "gr": "Δύναμη ενάντια σε Λυκανούς: + %.0f%%",
+        "fr": "Force contre les Lycans : +%.0f%%",
+        "es": "Fuerza contra Lícanos: + %.0f %%",
+        "de": "Strong against Lycans: +%.0f%%"
+      },
+      "min": "1+(skilllv*horselv/100)"
+    }
+  ],
+  "307": [
+    {
+      "desc": {
+        "en": "Sung Ma's Will (STR): +%.0f",
+        "ro": "Voinţă Sung Ma (STR): +%.0f",
+        "tr": "SungMa iradesi (STR): +%.0f",
+        "pt": "Vontade de Sung Ma (FRÇ): +%.0f",
+        "pl": "Wola SungMa: (SIŁA) +%.0f",
+        "hu": "Sung Ma akarata (ERŐ): +%.0f",
+        "it": "Volontà SungMa (STR): +%.0f",
+        "gr": "Θέληση SungMa (STR): +%.0f",
+        "fr": "Volonté de SungMa (STR) : +%.0f",
+        "es": "Voluntad de SungMa (STR): +%.0f",
+        "de": "Sung Ma's Will (STR): +%.0f"
+      },
+      "min": "3+(horselv*skilllv)*(skilllv/500)"
+    }
+  ],
+  "308": [
+    {
+      "desc": {
+        "en": "Sung Ma's Will (VIT): +%.0f",
+        "ro": "Voinţă Sung Ma (VIT): +%.0f",
+        "tr": "SungMa iradesi (VIT): +%.0f",
+        "pt": "Vontade de Sung Ma (VIT): +%.0f",
+        "pl": "Wola SungMa (WIT): +%.0f",
+        "hu": "Sung Ma akarata (VIT): +%.0f",
+        "it": "Volontà SungMa (VIT): +%.0f",
+        "gr": "Θέληση SungMa (VIT): +%.0f",
+        "fr": "Volonté de SungMa (VIT) : +%.0f",
+        "es": "Voluntad de SungMa (VIT): +%.0f",
+        "de": "Sung Ma's Will (VIT): +%.0f"
+      },
+      "min": "3+(horselv*skilllv)*(skilllv/500)"
+    }
+  ],
+  "309": [
+    {
+      "desc": {
+        "en": "Sung Ma's Will (RES): +%.0f",
+        "ro": "Voinţă Sung Ma (RES): +%.0f",
+        "tr": "SungMa iradesi (RES): +%.0f",
+        "pt": "Vontade de Sung Ma (RES): +%.0f",
+        "pl": "Wola SungMa (ODP): +%.0f",
+        "hu": "Sung Ma akarata (ELL): +%.0f",
+        "it": "Volontà SungMa (RES): +%.0f",
+        "gr": "Θέληση SungMa (RES): +%.0f",
+        "fr": "Volonté de SungMa (RES) : +%.0f",
+        "es": "Voluntad de SungMa (RES): +%.0f",
+        "de": "Sung Ma's Will (RES): +%.0f"
+      },
+      "min": "3+(horselv*skilllv)*(skilllv/500)"
+    }
+  ],
+  "310": [
+    {
+      "desc": {
+        "en": "Sung Ma's Will (INT): +%.0f",
+        "ro": "Vointă Sung Ma (INT): +%.0f",
+        "tr": "SungMa iradesi (INT): +%.0f",
+        "pt": "Vontade de Sung Ma (INT) +%.0f",
+        "pl": "Wola SungMa: (INT) +%.0f",
+        "hu": "Sung Ma akarata (INT): +%.0f",
+        "it": "Volontà SungMa (INT): +%.0f",
+        "gr": "Θέληση SungMa (INT): +%.0f",
+        "fr": "Volonté de SungMa (INT) : +%.0f",
+        "es": "Voluntad de SungMa (INT): +%.0f",
+        "de": "Sung Ma's Will (INT): +%.0f"
+      },
+      "min": "3+(horselv*skilllv)*(skilllv/500)"
+    }
+  ],
+  "311": [
+    {
+      "desc": {
+        "en": "Precision: +%.0f",
+        "ro": "Precizie: +%.0f",
+        "tr": "Tamlık bonusu: +%.0f",
+        "pt": "Precisão: +%.0f",
+        "pl": "Bonus precyzji: +%.0f",
+        "hu": "Pontosság: +%.0f",
+        "it": "Bonus Precisione: +%.0f",
+        "gr": "Μπόνους ακριβείας: +%.0f",
+        "fr": "Bonus de précision : +%.0f",
+        "es": "Bonificación de precisión: +%.0f",
+        "de": "Precision: +%.0f"
+      },
+      "min": "1+(skilllv*horselv/100)"
+    }
+  ],
+  "124": [
+    {
+      "desc": {
+        "en": "Fishing/Mining Success: +%.0f%%",
+        "ro": "Succes pescuit/minerit: +%.0f%%",
+        "tr": "Balıkçılık/Madencilik Başarısı: +%.0f%%",
+        "pt": "Sucesso pesca/mineração: +%.0f%%",
+        "pl": "Sukces łowienia/górnictwa: +%.0f%%",
+        "hu": "Horgászat/Bányászat siker: +%.0f%%",
+        "it": "Successo pesca/estrazione: +%.0f%%",
+        "gr": "Επιτυχία ψαρέματος/εξόρυξης: +%.0f%%",
+        "fr": "Succès pêche/minage : +%.0f%%",
+        "es": "Éxito pesca/minería: +%.0f%%",
+        "cz": "Šance na úlovek/těžbu: +%.0f%%",
+        "de": "Fang-/Abbau-Erfolg: +%.0f%%"
+      },
+      "min": "20 * SkillPoint"
+    },
+    {
+      "desc": {
+        "en": "Double Resource Chance: +%.0f%%",
+        "ro": "Șansă resurse duble: +%.0f%%",
+        "tr": "Çift Kaynak Şansı: +%.0f%%",
+        "pt": "Chance de recurso duplo: +%.0f%%",
+        "pl": "Szansa na podwójne zasoby: +%.0f%%",
+        "hu": "Dupla nyersanyag esély: +%.0f%%",
+        "it": "Probabilità risorse doppie: +%.0f%%",
+        "gr": "Πιθανότητα διπλών πόρων: +%.0f%%",
+        "fr": "Chance de double ressource : +%.0f%%",
+        "es": "Probabilidad de recurso doble: +%.0f%%",
+        "cz": "Šance na dvojité zdroje: +%.0f%%",
+        "de": "Doppelte Ressourcen-Chance: +%.0f%%"
+      },
+      "min": "10*k"
+    }
+  ],
+  "280": [
+    {
+      "desc": {
+        "en": "Melee attack resistance: %.1f%%",
+        "ro": "Rezistenţă la atac apropiat: %.1f%%",
+        "tr": "Yakın dövüş saldırı direnci: %.1f%%",
+        "pt": "Resistência a Ataques Corpo-a-Corpo: %.1f%%",
+        "pl": "Odporność na atak walki wręcz: %.1f%%",
+        "hu": "Közelharci támadás ellenállás: %.1f%%",
+        "it": "Resistenza agli attacchi ravvicinati: %.1f%%",
+        "gr": "Αντίσταση σε επίθεση εξ επαφής %.1f%%",
+        "fr": "Résistance aux attaques de corps à corps : %.1f%%",
+        "es": "Resistencia contra ataque físico %.1f%%",
+        "de": "Melee attack resistance: %.1f%%"
+      },
+      "min": "1+((iq*0.4+5)*(2*k))/(k+4.19)"
+    }
+  ],
+  "281": [
+    {
+      "desc": {
+        "en": "Reflected melee damage: %.1f%%",
+        "ro": "Reflectă daune fizice: %.1f%%",
+        "tr": "Yansıtılan Yakın Dövüş Hasarı: %%%.1f",
+        "pt": "Dano corpo-a-corpo reflectido: %.1f%%",
+        "pl": "Odbite obrażenia walki wręcz: %.1f%%",
+        "hu": "Visszavert közelharci sebzés: %.1f%%",
+        "it": "Danno da lotta corpo a corpo riflesso: %.1f%%",
+        "gr": "Αντανάκλαση ζημιάς εξ επαφής: %.1f%%",
+        "fr": "Dégâts de corps à corps renvoyés : %.1f%%",
+        "es": "Daño reflectado de ataques cuerpo a cuerpo: %.1f%%",
+        "de": "Reflected melee damage: %.1f%%"
+      },
+      "min": "5+(iq*0.3)*k"
+    }
+  ],
+  "282": [
+    {
+      "desc": {
+        "en": "Chance of critical hit: +%.1f%%",
+        "ro": "Şansa unei lovituri critice: +%.1f%%",
+        "tr": "Kritik İsabet Şansı +%.1f%%",
+        "pt": "Probabilidade de Golpe Crítico: +%.1f%%",
+        "pl": "Szansa na cios krytyczny: +%.1f%%",
+        "hu": "Kritikus találat esélye: +%.1f%%",
+        "it": "Probabilità di colpo critico +%.1f%%",
+        "gr": "Πιθανότητα κρίσιμου χτυπήματος +%.1f%%",
+        "fr": "Chance de coup critique : +%.1f%%",
+        "es": "Probabilidad de golpes críticos %.1f%%",
+        "de": "Chance of critical hit: +%.1f%%"
+      },
+      "min": "1+((iq*0.4+5)*(2*k))/(k+4.19)"
+    }
+  ],
+  "283": [
+    {
+      "desc": {
+        "en": "Movement speed: +%.0f%%",
+        "ro": "Viteză de mişcare: +%.0f%%",
+        "tr": "Hareket Hızı: +%.0f%%",
+        "pt": "Rapidez de Movimento: +%.0f%%",
+        "pl": "Szybkość ruchu: +%.0f%%",
+        "hu": "Mozgási sebesség: +%.0f%%",
+        "it": "Velocità di movimento +%.0f%%",
+        "gr": "Ταχύτητα κίνησης +%.0f%%",
+        "fr": "Vitesse de déplacement +%.0f%%",
+        "es": "Velocidad de movimiento +%.0f%%",
+        "de": "Bewegungsgeschwindigkeit: +%.0f%%"
+      },
+      "min": "(iq*0.2)+35*k"
+    },
+    {
+      "desc": {
+        "en": "Cooldown: -%.0f%%",
+        "ro": "Calmare: -%.0f%%",
+        "tr": "Yüklenme Süresi -%.0f%%",
+        "pt": "Tempo de Carregamento: -%.0f%%",
+        "pl": "Czas ładowania: -%.0f%%",
+        "hu": "Újratöltés: -%.0f%%",
+        "it": "Tempo di ricarica -%.0f%%",
+        "gr": "Χρόνος φόρτωσης -%.0f%%",
+        "fr": "Temps d'attente -%.0f%%",
+        "es": "Tiempo de carga -%.0f%%",
+        "de": "Cooldown: -%.0f%%"
+      },
+      "min": "3+33*k"
+    }
+  ],
+  "284": [
+    {
+      "desc": {
+        "en": "Attack value: +%.1f",
+        "ro": "Valoarea atacului: +%.0f",
+        "tr": "Saldırı Değeri: +%.1f",
+        "pt": "Valor de Ataque: +%.1f",
+        "pl": "Siła ataku: +%.1f",
+        "hu": "Támadóérték: +%.1f",
+        "it": "Valore di attacco +%.1f",
+        "gr": "Αξία επίθεσης +%.1f",
+        "fr": "Puissance de l'attaque : +%.1f",
+        "es": "Valor de ataque +%.1f",
+        "de": "Angriffswert: +%.1f"
+      },
+      "min": "13+(iq*0.8+10)*(k/3)"
+    },
+    {
+      "desc": {
+        "en": "Damage: %.2f",
+        "ro": "Pagube: %.2f",
+        "tr": "Hasar: %.2f",
+        "pt": "Dano: %.2f",
+        "pl": "Obrażenia: %.2f",
+        "hu": "Sebzés: %.2f",
+        "it": "Danno: %.2f",
+        "gr": "Ζημιά: %.2f",
+        "es": "Daño: %.2f",
+        "de": "Schaden: %.2f"
+      },
+      "min": "((iq*0.2)*k/7.42)+0.01"
+    }
+  ]
+}

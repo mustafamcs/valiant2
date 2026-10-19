@@ -1,0 +1,12 @@
+ScriptType	MapSetting
+
+CellScale	200
+HeightScale	0.500000
+
+ViewRadius	128
+
+MapSize	3	3
+BasePosition	1182500	11524900
+TextureSet	textureset\metin2_cameretemplu.txt
+Environment	horus_camere_templu.msenv
+

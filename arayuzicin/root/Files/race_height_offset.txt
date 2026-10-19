@@ -1,0 +1,2 @@
+# vnum	heightOffset  (unitati de lume, + = mai sus). Reglabil fara recompilare, doar restart client.
+20951	0.00

@@ -1,0 +1,2295 @@
+{
+ "floors": [
+  {
+   "floor": 1,
+   "name": "Shattered Anchorage",
+   "task": "SPYRAL_TASK_F1",
+   "stars": [
+    {
+     "type": "clear_time",
+     "value": 110
+    },
+    {
+     "type": "clear_time",
+     "value": 90
+    },
+    {
+     "type": "clear_time",
+     "value": 70
+    }
+   ]
+  },
+  {
+   "floor": 2,
+   "name": "Pale Reliquary",
+   "task": "SPYRAL_TASK_F2",
+   "stars": [
+    {
+     "type": "npc_hp",
+     "value": 1
+    },
+    {
+     "type": "npc_hp",
+     "value": 25
+    },
+    {
+     "type": "npc_hp",
+     "value": 40
+    }
+   ]
+  },
+  {
+   "floor": 3,
+   "name": "Windward Spire",
+   "task": "SPYRAL_TASK_F3",
+   "stars": [
+    {
+     "type": "no_death",
+     "value": 1
+    },
+    {
+     "type": "dash_count",
+     "value": 10
+    },
+    {
+     "type": "clear_time",
+     "value": 140
+    }
+   ]
+  },
+  {
+   "floor": 4,
+   "name": "Hollow Cradle",
+   "task": "SPYRAL_TASK_F4",
+   "stars": [
+    {
+     "type": "clear_time",
+     "value": 180
+    },
+    {
+     "type": "clear_time",
+     "value": 150
+    },
+    {
+     "type": "clear_time",
+     "value": 120
+    }
+   ]
+  },
+  {
+   "floor": 5,
+   "name": "Riven Sanctum",
+   "task": "SPYRAL_TASK_F5",
+   "stars": [
+    {
+     "type": "complete",
+     "value": 1
+    },
+    {
+     "type": "no_death",
+     "value": 1
+    },
+    {
+     "type": "hazard_hits",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "floor": 6,
+   "name": "Verdant Terrace",
+   "task": "SPYRAL_TASK_F6",
+   "stars": [
+    {
+     "type": "no_death",
+     "value": 1
+    },
+    {
+     "type": "survival_red",
+     "value": 2
+    },
+    {
+     "type": "survival_red",
+     "value": 0
+    }
+   ]
+  },
+  {
+   "floor": 7,
+   "name": "Throne of Dusk",
+   "task": "SPYRAL_TASK_F7",
+   "stars": [
+    {
+     "type": "duel_wins",
+     "value": 1
+    },
+    {
+     "type": "duel_wins",
+     "value": 2
+    },
+    {
+     "type": "duel_wins",
+     "value": 3
+    }
+   ]
+  }
+ ],
+ "difficulties": [
+  {
+   "id": 1,
+   "key": "easy",
+   "ticket": [
+    91662,
+    0
+   ],
+   "entry_gold": 10000000,
+   "rewards": [
+    {
+     "min_stars": 75,
+     "items": [
+      [
+       91665,
+       5
+      ]
+     ]
+    },
+    {
+     "min_stars": 100,
+     "items": [
+      [
+       91665,
+       10
+      ]
+     ]
+    },
+    {
+     "min_stars": 145,
+     "items": [
+      [
+       91665,
+       15
+      ]
+     ]
+    }
+   ],
+   "daily_coin": [
+    91665,
+    10,
+    7,
+    1,
+    2
+   ],
+   "clear_buff_pct": 5
+  },
+  {
+   "id": 2,
+   "key": "medium",
+   "ticket": [
+    91663,
+    0
+   ],
+   "entry_gold": 25000000,
+   "rewards": [
+    {
+     "min_stars": 75,
+     "items": [
+      [
+       91666,
+       5
+      ]
+     ]
+    },
+    {
+     "min_stars": 100,
+     "items": [
+      [
+       91666,
+       10
+      ]
+     ]
+    },
+    {
+     "min_stars": 145,
+     "items": [
+      [
+       91666,
+       15
+      ]
+     ]
+    }
+   ],
+   "daily_coin": [
+    91666,
+    10,
+    7,
+    1,
+    2
+   ],
+   "clear_buff_pct": 7
+  },
+  {
+   "id": 3,
+   "key": "hard",
+   "ticket": [
+    91664,
+    0
+   ],
+   "entry_gold": 50000000,
+   "rewards": [
+    {
+     "min_stars": 75,
+     "items": [
+      [
+       91667,
+       5
+      ]
+     ]
+    },
+    {
+     "min_stars": 100,
+     "items": [
+      [
+       91667,
+       10
+      ]
+     ]
+    },
+    {
+     "min_stars": 145,
+     "items": [
+      [
+       91667,
+       15
+      ]
+     ]
+    }
+   ],
+   "daily_coin": [
+    91667,
+    10,
+    7,
+    1,
+    2
+   ],
+   "clear_buff_pct": 10
+  }
+ ],
+ "perks": [
+  {
+   "id": 30,
+   "category": 3,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 1,
+   "floors": [
+    2
+   ],
+   "skill": 31
+  },
+  {
+   "id": 51,
+   "category": 3,
+   "rarity": 3,
+   "scope": "floor",
+   "classes": [
+    3
+   ],
+   "skill_group": 2,
+   "floors": [
+    2
+   ],
+   "skill": 106
+  },
+  {
+   "id": 132,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 1,
+   "floors": [
+    2
+   ],
+   "skill": 32
+  },
+  {
+   "id": 148,
+   "category": 0,
+   "rarity": 3,
+   "scope": "floor",
+   "classes": [
+    1
+   ],
+   "skill_group": 2,
+   "floors": [
+    2
+   ],
+   "skill": 48
+  },
+  {
+   "id": 161,
+   "category": 0,
+   "rarity": 3,
+   "scope": "floor",
+   "classes": [
+    2
+   ],
+   "skill_group": 1,
+   "floors": [
+    2
+   ],
+   "skill": 61
+  },
+  {
+   "id": 176,
+   "category": 0,
+   "rarity": 3,
+   "scope": "floor",
+   "classes": [
+    2
+   ],
+   "skill_group": 2,
+   "floors": [
+    2
+   ],
+   "skill": 76
+  },
+  {
+   "id": 192,
+   "category": 0,
+   "rarity": 3,
+   "scope": "floor",
+   "classes": [
+    3
+   ],
+   "skill_group": 1,
+   "floors": [
+    2
+   ],
+   "skill": 92
+  },
+  {
+   "id": 193,
+   "category": 3,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    3
+   ],
+   "skill_group": 1,
+   "floors": [
+    2
+   ],
+   "skill": 93
+  },
+  {
+   "id": 208,
+   "category": 0,
+   "rarity": 3,
+   "scope": "floor",
+   "classes": [
+    3
+   ],
+   "skill_group": 2,
+   "floors": [
+    2
+   ],
+   "skill": 108
+  },
+  {
+   "id": 209,
+   "category": 0,
+   "rarity": 3,
+   "scope": "floor",
+   "classes": [
+    2
+   ],
+   "skill_group": 1,
+   "floors": [
+    2
+   ],
+   "skill": 62
+  },
+  {
+   "id": 210,
+   "category": 0,
+   "rarity": 3,
+   "scope": "floor",
+   "classes": [
+    3
+   ],
+   "skill_group": 2,
+   "floors": [
+    2
+   ],
+   "skill": 107
+  },
+  {
+   "id": 213,
+   "category": 0,
+   "rarity": 3,
+   "scope": "floor",
+   "classes": [
+    2
+   ],
+   "skill_group": 2,
+   "floors": [
+    2
+   ],
+   "skill": 77
+  },
+  {
+   "id": 214,
+   "category": 0,
+   "rarity": 3,
+   "scope": "floor",
+   "classes": [
+    3
+   ],
+   "skill_group": 1,
+   "floors": [
+    2
+   ],
+   "skill": 93
+  },
+  {
+   "id": 301,
+   "category": 1,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 2,
+   "floors": [
+    1
+   ],
+   "skill": 0
+  },
+  {
+   "id": 302,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 2,
+   "floors": [
+    1
+   ],
+   "skill": 0
+  },
+  {
+   "id": 303,
+   "category": 2,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 2,
+   "floors": [
+    1
+   ],
+   "skill": 0
+  },
+  {
+   "id": 304,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 2,
+   "floors": [
+    2
+   ],
+   "skill": 16
+  },
+  {
+   "id": 305,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 2,
+   "floors": [
+    2
+   ],
+   "skill": 0
+  },
+  {
+   "id": 306,
+   "category": 2,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 2,
+   "floors": [
+    2
+   ],
+   "skill": 0
+  },
+  {
+   "id": 307,
+   "category": 2,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 2,
+   "floors": [
+    3
+   ],
+   "skill": 0
+  },
+  {
+   "id": 308,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 2,
+   "floors": [
+    3
+   ],
+   "skill": 0
+  },
+  {
+   "id": 309,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 2,
+   "floors": [
+    3
+   ],
+   "skill": 0
+  },
+  {
+   "id": 310,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 2,
+   "floors": [
+    4
+   ],
+   "skill": 0
+  },
+  {
+   "id": 311,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 2,
+   "floors": [
+    4
+   ],
+   "skill": 16
+  },
+  {
+   "id": 312,
+   "category": 2,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 2,
+   "floors": [
+    4
+   ],
+   "skill": 0
+  },
+  {
+   "id": 313,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 2,
+   "floors": [
+    5
+   ],
+   "skill": 18
+  },
+  {
+   "id": 314,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 2,
+   "floors": [
+    5
+   ],
+   "skill": 0
+  },
+  {
+   "id": 315,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 2,
+   "floors": [
+    5
+   ],
+   "skill": 16
+  },
+  {
+   "id": 316,
+   "category": 2,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [
+    6
+   ],
+   "skill": 0
+  },
+  {
+   "id": 317,
+   "category": 1,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [
+    6
+   ],
+   "skill": 0
+  },
+  {
+   "id": 318,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [
+    6
+   ],
+   "skill": 0
+  },
+  {
+   "id": 401,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 1,
+   "floors": [
+    1
+   ],
+   "skill": 0
+  },
+  {
+   "id": 402,
+   "category": 1,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 1,
+   "floors": [
+    1
+   ],
+   "skill": 0
+  },
+  {
+   "id": 403,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 1,
+   "floors": [
+    4
+   ],
+   "skill": 0
+  },
+  {
+   "id": 404,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 1,
+   "floors": [
+    2
+   ],
+   "skill": 2
+  },
+  {
+   "id": 405,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 1,
+   "floors": [
+    2
+   ],
+   "skill": 0
+  },
+  {
+   "id": 406,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 1,
+   "floors": [
+    2
+   ],
+   "skill": 2
+  },
+  {
+   "id": 407,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 1,
+   "floors": [
+    3
+   ],
+   "skill": 0
+  },
+  {
+   "id": 408,
+   "category": 2,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 1,
+   "floors": [
+    3
+   ],
+   "skill": 0
+  },
+  {
+   "id": 409,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 1,
+   "floors": [
+    3
+   ],
+   "skill": 0
+  },
+  {
+   "id": 410,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 1,
+   "floors": [
+    1
+   ],
+   "skill": 4
+  },
+  {
+   "id": 411,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 1,
+   "floors": [
+    4
+   ],
+   "skill": 5
+  },
+  {
+   "id": 412,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 1,
+   "floors": [
+    4
+   ],
+   "skill": 0
+  },
+  {
+   "id": 413,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 1,
+   "floors": [
+    5
+   ],
+   "skill": 1
+  },
+  {
+   "id": 414,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 1,
+   "floors": [
+    5
+   ],
+   "skill": 0
+  },
+  {
+   "id": 415,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    0
+   ],
+   "skill_group": 1,
+   "floors": [
+    5
+   ],
+   "skill": 2
+  },
+  {
+   "id": 501,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 1,
+   "floors": [
+    1
+   ],
+   "skill": 0
+  },
+  {
+   "id": 502,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 1,
+   "floors": [
+    1
+   ],
+   "skill": 0
+  },
+  {
+   "id": 503,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 1,
+   "floors": [
+    1
+   ],
+   "skill": 0
+  },
+  {
+   "id": 504,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 1,
+   "floors": [
+    2
+   ],
+   "skill": 31
+  },
+  {
+   "id": 505,
+   "category": 1,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 1,
+   "floors": [
+    3
+   ],
+   "skill": 0
+  },
+  {
+   "id": 506,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 1,
+   "floors": [
+    3
+   ],
+   "skill": 0
+  },
+  {
+   "id": 507,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 1,
+   "floors": [
+    5
+   ],
+   "skill": 33
+  },
+  {
+   "id": 508,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 1,
+   "floors": [
+    3
+   ],
+   "skill": 0
+  },
+  {
+   "id": 509,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 1,
+   "floors": [
+    4
+   ],
+   "skill": 0
+  },
+  {
+   "id": 510,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 1,
+   "floors": [
+    4
+   ],
+   "skill": 31
+  },
+  {
+   "id": 511,
+   "category": 2,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 1,
+   "floors": [
+    5
+   ],
+   "skill": 0
+  },
+  {
+   "id": 512,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 1,
+   "floors": [
+    4
+   ],
+   "skill": 0
+  },
+  {
+   "id": 513,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 1,
+   "floors": [
+    5
+   ],
+   "skill": 32
+  },
+  {
+   "id": 701,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 2,
+   "floors": [
+    1
+   ],
+   "skill": 0
+  },
+  {
+   "id": 702,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 2,
+   "floors": [
+    1
+   ],
+   "skill": 0
+  },
+  {
+   "id": 703,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 2,
+   "floors": [
+    1
+   ],
+   "skill": 0
+  },
+  {
+   "id": 704,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 2,
+   "floors": [
+    2
+   ],
+   "skill": 46
+  },
+  {
+   "id": 705,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 2,
+   "floors": [
+    2
+   ],
+   "skill": 47
+  },
+  {
+   "id": 706,
+   "category": 1,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 2,
+   "floors": [
+    3
+   ],
+   "skill": 0
+  },
+  {
+   "id": 707,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 2,
+   "floors": [
+    3
+   ],
+   "skill": 0
+  },
+  {
+   "id": 708,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 2,
+   "floors": [
+    3
+   ],
+   "skill": 0
+  },
+  {
+   "id": 709,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 2,
+   "floors": [
+    4
+   ],
+   "skill": 0
+  },
+  {
+   "id": 710,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 2,
+   "floors": [
+    4
+   ],
+   "skill": 51
+  },
+  {
+   "id": 711,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 2,
+   "floors": [
+    4
+   ],
+   "skill": 0
+  },
+  {
+   "id": 712,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 2,
+   "floors": [
+    5
+   ],
+   "skill": 0
+  },
+  {
+   "id": 713,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 2,
+   "floors": [
+    5
+   ],
+   "skill": 0
+  },
+  {
+   "id": 714,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    1
+   ],
+   "skill_group": 2,
+   "floors": [
+    5
+   ],
+   "skill": 48
+  },
+  {
+   "id": 801,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    2
+   ],
+   "skill_group": 1,
+   "floors": [
+    1
+   ],
+   "skill": 0
+  },
+  {
+   "id": 802,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    2
+   ],
+   "skill_group": 1,
+   "floors": [
+    1
+   ],
+   "skill": 0
+  },
+  {
+   "id": 803,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    2
+   ],
+   "skill_group": 1,
+   "floors": [
+    1
+   ],
+   "skill": 61
+  },
+  {
+   "id": 804,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    2
+   ],
+   "skill_group": 1,
+   "floors": [
+    2
+   ],
+   "skill": 66
+  },
+  {
+   "id": 805,
+   "category": 1,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    2
+   ],
+   "skill_group": 1,
+   "floors": [
+    3
+   ],
+   "skill": 0
+  },
+  {
+   "id": 806,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    2
+   ],
+   "skill_group": 1,
+   "floors": [
+    3
+   ],
+   "skill": 0
+  },
+  {
+   "id": 807,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    2
+   ],
+   "skill_group": 1,
+   "floors": [
+    3
+   ],
+   "skill": 0
+  },
+  {
+   "id": 808,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    2
+   ],
+   "skill_group": 1,
+   "floors": [
+    4
+   ],
+   "skill": 0
+  },
+  {
+   "id": 809,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    2
+   ],
+   "skill_group": 1,
+   "floors": [
+    4
+   ],
+   "skill": 62
+  },
+  {
+   "id": 810,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    2
+   ],
+   "skill_group": 1,
+   "floors": [
+    4
+   ],
+   "skill": 61
+  },
+  {
+   "id": 811,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    2
+   ],
+   "skill_group": 1,
+   "floors": [
+    5
+   ],
+   "skill": 0
+  },
+  {
+   "id": 812,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    2
+   ],
+   "skill_group": 1,
+   "floors": [
+    5
+   ],
+   "skill": 0
+  },
+  {
+   "id": 813,
+   "category": 1,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    2
+   ],
+   "skill_group": 1,
+   "floors": [
+    5
+   ],
+   "skill": 62
+  },
+  {
+   "id": 901,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    2
+   ],
+   "skill_group": 2,
+   "floors": [
+    1
+   ],
+   "skill": 76
+  },
+  {
+   "id": 902,
+   "category": 1,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    2
+   ],
+   "skill_group": 2,
+   "floors": [
+    1
+   ],
+   "skill": 80
+  },
+  {
+   "id": 903,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    2
+   ],
+   "skill_group": 2,
+   "floors": [
+    1
+   ],
+   "skill": 81
+  },
+  {
+   "id": 904,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    2
+   ],
+   "skill_group": 2,
+   "floors": [
+    2
+   ],
+   "skill": 0
+  },
+  {
+   "id": 905,
+   "category": 1,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    2
+   ],
+   "skill_group": 2,
+   "floors": [
+    3
+   ],
+   "skill": 0
+  },
+  {
+   "id": 906,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    2
+   ],
+   "skill_group": 2,
+   "floors": [
+    3
+   ],
+   "skill": 0
+  },
+  {
+   "id": 907,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    2
+   ],
+   "skill_group": 2,
+   "floors": [
+    3
+   ],
+   "skill": 0
+  },
+  {
+   "id": 908,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    2
+   ],
+   "skill_group": 2,
+   "floors": [
+    4
+   ],
+   "skill": 77
+  },
+  {
+   "id": 909,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    2
+   ],
+   "skill_group": 2,
+   "floors": [
+    4
+   ],
+   "skill": 81
+  },
+  {
+   "id": 910,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    2
+   ],
+   "skill_group": 2,
+   "floors": [
+    4
+   ],
+   "skill": 78
+  },
+  {
+   "id": 911,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    2
+   ],
+   "skill_group": 2,
+   "floors": [
+    5
+   ],
+   "skill": 0
+  },
+  {
+   "id": 912,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    2
+   ],
+   "skill_group": 2,
+   "floors": [
+    5
+   ],
+   "skill": 80
+  },
+  {
+   "id": 913,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    2
+   ],
+   "skill_group": 2,
+   "floors": [
+    5
+   ],
+   "skill": 80
+  },
+  {
+   "id": 1001,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    3
+   ],
+   "skill_group": 1,
+   "floors": [
+    1
+   ],
+   "skill": 91
+  },
+  {
+   "id": 1002,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    3
+   ],
+   "skill_group": 1,
+   "floors": [
+    1
+   ],
+   "skill": 0
+  },
+  {
+   "id": 1003,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    3
+   ],
+   "skill_group": 1,
+   "floors": [
+    1
+   ],
+   "skill": 0
+  },
+  {
+   "id": 1004,
+   "category": 1,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    3
+   ],
+   "skill_group": 1,
+   "floors": [
+    3
+   ],
+   "skill": 0
+  },
+  {
+   "id": 1005,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    3
+   ],
+   "skill_group": 1,
+   "floors": [
+    3
+   ],
+   "skill": 93
+  },
+  {
+   "id": 1006,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    3
+   ],
+   "skill_group": 1,
+   "floors": [
+    3
+   ],
+   "skill": 0
+  },
+  {
+   "id": 1007,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    3
+   ],
+   "skill_group": 1,
+   "floors": [
+    4
+   ],
+   "skill": 92
+  },
+  {
+   "id": 1008,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    3
+   ],
+   "skill_group": 1,
+   "floors": [
+    4
+   ],
+   "skill": 0
+  },
+  {
+   "id": 1009,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    3
+   ],
+   "skill_group": 1,
+   "floors": [
+    4
+   ],
+   "skill": 93
+  },
+  {
+   "id": 1010,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    3
+   ],
+   "skill_group": 1,
+   "floors": [
+    5
+   ],
+   "skill": 91
+  },
+  {
+   "id": 1011,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    3
+   ],
+   "skill_group": 1,
+   "floors": [
+    5
+   ],
+   "skill": 93
+  },
+  {
+   "id": 1012,
+   "category": 1,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    3
+   ],
+   "skill_group": 1,
+   "floors": [
+    5
+   ],
+   "skill": 0
+  },
+  {
+   "id": 1101,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    3
+   ],
+   "skill_group": 2,
+   "floors": [
+    1
+   ],
+   "skill": 106
+  },
+  {
+   "id": 1102,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    3
+   ],
+   "skill_group": 2,
+   "floors": [
+    1
+   ],
+   "skill": 0
+  },
+  {
+   "id": 1103,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    3
+   ],
+   "skill_group": 2,
+   "floors": [
+    1
+   ],
+   "skill": 109
+  },
+  {
+   "id": 1104,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    3
+   ],
+   "skill_group": 2,
+   "floors": [
+    3
+   ],
+   "skill": 0
+  },
+  {
+   "id": 1105,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    3
+   ],
+   "skill_group": 2,
+   "floors": [
+    3
+   ],
+   "skill": 108
+  },
+  {
+   "id": 1106,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    3
+   ],
+   "skill_group": 2,
+   "floors": [
+    3
+   ],
+   "skill": 107
+  },
+  {
+   "id": 1107,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    3
+   ],
+   "skill_group": 2,
+   "floors": [
+    4
+   ],
+   "skill": 107
+  },
+  {
+   "id": 1108,
+   "category": 1,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    3
+   ],
+   "skill_group": 2,
+   "floors": [
+    4
+   ],
+   "skill": 0
+  },
+  {
+   "id": 1109,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    3
+   ],
+   "skill_group": 2,
+   "floors": [
+    4
+   ],
+   "skill": 108
+  },
+  {
+   "id": 1110,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    3
+   ],
+   "skill_group": 2,
+   "floors": [
+    5
+   ],
+   "skill": 0
+  },
+  {
+   "id": 1111,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    3
+   ],
+   "skill_group": 2,
+   "floors": [
+    5
+   ],
+   "skill": 0
+  },
+  {
+   "id": 1112,
+   "category": 0,
+   "rarity": 3,
+   "scope": "chamber",
+   "classes": [
+    3
+   ],
+   "skill_group": 2,
+   "floors": [
+    5
+   ],
+   "skill": 0
+  },
+  {
+   "id": 1201,
+   "category": 0,
+   "rarity": 0,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1202,
+   "category": 0,
+   "rarity": 0,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1203,
+   "category": 1,
+   "rarity": 0,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1204,
+   "category": 0,
+   "rarity": 0,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1205,
+   "category": 0,
+   "rarity": 0,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1206,
+   "category": 0,
+   "rarity": 0,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1207,
+   "category": 0,
+   "rarity": 0,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1208,
+   "category": 0,
+   "rarity": 0,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1209,
+   "category": 0,
+   "rarity": 0,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1210,
+   "category": 0,
+   "rarity": 0,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1211,
+   "category": 0,
+   "rarity": 0,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1212,
+   "category": 0,
+   "rarity": 0,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1213,
+   "category": 0,
+   "rarity": 1,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1214,
+   "category": 0,
+   "rarity": 1,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1215,
+   "category": 0,
+   "rarity": 1,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1216,
+   "category": 0,
+   "rarity": 1,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1217,
+   "category": 0,
+   "rarity": 1,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1218,
+   "category": 0,
+   "rarity": 1,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1219,
+   "category": 2,
+   "rarity": 1,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1220,
+   "category": 2,
+   "rarity": 1,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1221,
+   "category": 2,
+   "rarity": 1,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1222,
+   "category": 2,
+   "rarity": 1,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1223,
+   "category": 2,
+   "rarity": 1,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1224,
+   "category": 2,
+   "rarity": 1,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1225,
+   "category": 3,
+   "rarity": 2,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1226,
+   "category": 3,
+   "rarity": 2,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1227,
+   "category": 3,
+   "rarity": 2,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1228,
+   "category": 3,
+   "rarity": 2,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1229,
+   "category": 3,
+   "rarity": 2,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  },
+  {
+   "id": 1230,
+   "category": 3,
+   "rarity": 2,
+   "scope": "chamber",
+   "classes": [],
+   "skill_group": 0,
+   "floors": [],
+   "skill": 0
+  }
+ ]
+}

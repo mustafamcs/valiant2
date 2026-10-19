@@ -1,0 +1,28 @@
+{
+	"labels": {
+		"upper": "Upper Bracket",
+		"lower": "Lower Bracket",
+		"grand": "Grand Final",
+		"round": "Round %d",
+		"final": "Final",
+		"semifinal": "Semifinal",
+		"quarterfinal": "Quarterfinal",
+		"round_of_16": "Round of 16",
+		"round_of_32": "Round of 32",
+		"upper_final": "Upper Final",
+		"small_final": "Small Final",
+		"pending": "TBD",
+		"winner_of": "Winner #%d",
+		"loser_of": "Loser #%d",
+		"page": "%s  -  %d/%d",
+		"reserve": "Reserve",
+		"no_roster": "No roster yet",
+		"captain": " (C)",
+		"level": "Lv.%d",
+		"roster_subtitle": "%s %s Team",
+		"job_warrior": "Warrior",
+		"job_assassin": "Ninja",
+		"job_sura": "Sura",
+		"job_shaman": "Shaman"
+	}
+}

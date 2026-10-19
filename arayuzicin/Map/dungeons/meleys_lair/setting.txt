@@ -1,0 +1,12 @@
+ScriptType	MapSetting
+
+CellScale	200
+HeightScale	0.500000
+
+ViewRadius	128
+
+MapSize	6	6
+BasePosition	3456000	256000
+TextureSet	textureset\horus_meley.txt
+Environment	horus_meley.msenv
+

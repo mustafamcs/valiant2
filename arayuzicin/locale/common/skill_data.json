@@ -1,0 +1,952 @@
+﻿{
+  "1": {
+    "job": "WARRIOR",
+    "attribute": "ATTACK_SKILL|NEED_TARGET|WEAPON_LIMITATION|IGNORE_BLOCK",
+    "weapon": "SWORD|TWO_HANDED",
+    "icon": "samyeon",
+    "motion_index": 1
+  },
+  "2": {
+    "job": "WARRIOR",
+    "attribute": "ATTACK_SKILL|CAN_CHANGE_DIRECTION|WEAPON_LIMITATION|IGNORE_BLOCK",
+    "weapon": "SWORD|TWO_HANDED",
+    "icon": "palbang",
+    "motion_index": 2
+  },
+  "3": {
+    "job": "WARRIOR",
+    "attribute": "STANDING_SKILL|TOGGLE",
+    "icon": "jeongwi",
+    "motion_index": 3
+  },
+  "4": {
+    "job": "WARRIOR",
+    "attribute": "STANDING_SKILL|WEAPON_LIMITATION|IGNORE_BLOCK|TOGGLE",
+    "weapon": "SWORD|TWO_HANDED",
+    "icon": "geomgyeong",
+    "motion_index": 4
+  },
+  "5": {
+    "job": "WARRIOR",
+    "attribute": "ATTACK_SKILL|NEED_TARGET|CHARGE_ATTACK|WEAPON_LIMITATION|IGNORE_BLOCK",
+    "weapon": "SWORD|TWO_HANDED",
+    "icon": "tanhwan",
+    "motion_index": 5
+  },
+  "6": {
+    "job": "WARRIOR",
+    "attribute": "ATTACK_SKILL|NEED_TARGET|WEAPON_LIMITATION|IGNORE_BLOCK",
+    "weapon": "SWORD|TWO_HANDED",
+    "icon": "gihyeol",
+    "motion_index": 6
+  },
+  "16": {
+    "job": "WARRIOR",
+    "attribute": "ATTACK_SKILL|CAN_CHANGE_DIRECTION|NEED_TARGET|WEAPON_LIMITATION|IGNORE_BLOCK",
+    "weapon": "SWORD|TWO_HANDED",
+    "icon": "gigongcham",
+    "motion_index": 16
+  },
+  "17": {
+    "job": "WARRIOR",
+    "attribute": "ATTACK_SKILL|CAN_CHANGE_DIRECTION|WEAPON_LIMITATION|IGNORE_BLOCK",
+    "weapon": "SWORD|TWO_HANDED",
+    "icon": "gyeoksan",
+    "motion_index": 17
+  },
+  "18": {
+    "job": "WARRIOR",
+    "attribute": "ATTACK_SKILL|STANDING_SKILL|IGNORE_BLOCK",
+    "icon": "daejin",
+    "motion_index": 18
+  },
+  "19": {
+    "job": "WARRIOR",
+    "attribute": "STANDING_SKILL|TOGGLE",
+    "icon": "cheongeun",
+    "motion_index": 19
+  },
+  "20": {
+    "job": "WARRIOR",
+    "attribute": "ATTACK_SKILL|CAN_CHANGE_DIRECTION|WEAPON_LIMITATION|IGNORE_BLOCK",
+    "weapon": "SWORD|TWO_HANDED",
+    "icon": "geompung",
+    "motion_index": 20
+  },
+  "21": {
+    "job": "WARRIOR",
+    "attribute": "ATTACK_SKILL|STANDING_SKILL|WEAPON_LIMITATION|IGNORE_BLOCK",
+    "weapon": "SWORD|TWO_HANDED",
+    "icon": "noegeom",
+    "motion_index": 21
+  },
+  "31": {
+    "job": "ASSASSIN",
+    "attribute": "ATTACK_SKILL|MELEE_ATTACK|NEED_TARGET|WEAPON_LIMITATION|IGNORE_BLOCK",
+    "weapon": "DAGGER|DOUBLE_SWORD|SWORD",
+    "icon": "amseup",
+    "motion_index": 1
+  },
+  "32": {
+    "job": "ASSASSIN",
+    "attribute": "ATTACK_SKILL|NEED_TARGET|WEAPON_LIMITATION|IGNORE_BLOCK",
+    "weapon": "DAGGER|DOUBLE_SWORD|SWORD",
+    "icon": "gungsin",
+    "motion_index": 2
+  },
+  "33": {
+    "job": "ASSASSIN",
+    "attribute": "ATTACK_SKILL|CAN_CHANGE_DIRECTION|WEAPON_LIMITATION|IGNORE_BLOCK",
+    "weapon": "DAGGER|DOUBLE_SWORD|SWORD",
+    "icon": "charyun",
+    "motion_index": 3
+  },
+  "34": {
+    "job": "ASSASSIN",
+    "attribute": "STANDING_SKILL",
+    "icon": "eunhyeong",
+    "motion_index": 4
+  },
+  "35": {
+    "job": "ASSASSIN",
+    "attribute": "ATTACK_SKILL|NEED_TARGET|IGNORE_BLOCK",
+    "icon": "sangong",
+    "motion_index": 5
+  },
+  "36": {
+    "job": "ASSASSIN",
+    "attribute": "ATTACK_SKILL|NEED_TARGET|WEAPON_LIMITATION|IGNORE_BLOCK",
+    "weapon": "DAGGER|DOUBLE_SWORD|SWORD",
+    "icon": "seomjeon",
+    "motion_index": 6
+  },
+  "46": {
+    "job": "ASSASSIN",
+    "attribute": "ATTACK_SKILL|NEED_TARGET|WEAPON_LIMITATION|IGNORE_BLOCK",
+    "weapon": "BOW",
+    "icon": "yeonsa",
+    "motion_index": 16,
+    "motion_loop_formula": "2 + floor(6 * SkillPoint)"
+  },
+  "47": {
+    "job": "ASSASSIN",
+    "attribute": "ATTACK_SKILL|FAN_RANGE|NEED_TARGET|WEAPON_LIMITATION|IGNORE_BLOCK",
+    "weapon": "BOW",
+    "icon": "gwangyeok",
+    "motion_index": 17,
+    "target_count_formula": "2 + floor(6 * SkillPoint)"
+  },
+  "48": {
+    "job": "ASSASSIN",
+    "attribute": "ATTACK_SKILL|NEED_TARGET|WEAPON_LIMITATION|IGNORE_BLOCK",
+    "weapon": "BOW",
+    "icon": "hwajo",
+    "motion_index": 18
+  },
+  "49": {
+    "job": "ASSASSIN",
+    "attribute": "STANDING_SKILL|WEAPON_LIMITATION|IGNORE_BLOCK",
+    "weapon": "BOW|DAGGER|SWORD",
+    "icon": "gyeonggong",
+    "motion_index": 19
+  },
+  "50": {
+    "job": "ASSASSIN",
+    "attribute": "ATTACK_SKILL|NEED_TARGET|WEAPON_LIMITATION|IGNORE_BLOCK",
+    "weapon": "BOW",
+    "icon": "gigung",
+    "motion_index": 20
+  },
+  "51": {
+    "job": "ASSASSIN",
+    "attribute": "ATTACK_SKILL|STANDING_SKILL|WEAPON_LIMITATION|IGNORE_BLOCK",
+    "weapon": "BOW|DAGGER|SWORD",
+    "icon": "seomgwang",
+    "motion_index": 21
+  },
+  "61": {
+    "job": "SURA",
+    "attribute": "ATTACK_SKILL|MELEE_ATTACK|NEED_TARGET|IGNORE_BLOCK",
+    "icon": "swaeryeong",
+    "motion_index": 1
+  },
+  "62": {
+    "job": "SURA",
+    "attribute": "ATTACK_SKILL|STANDING_SKILL|IGNORE_BLOCK",
+    "icon": "yonggwon",
+    "motion_index": 2
+  },
+  "63": {
+    "job": "SURA",
+    "attribute": "STANDING_SKILL|TOGGLE|WEAPON_LIMITATION|IGNORE_BLOCK",
+    "weapon": "SWORD",
+    "icon": "gwigeom",
+    "motion_index": 3
+  },
+  "64": {
+    "job": "SURA",
+    "attribute": "STANDING_SKILL|TOGGLE",
+    "icon": "gongpo",
+    "motion_index": 4
+  },
+  "65": {
+    "job": "SURA",
+    "attribute": "STANDING_SKILL|TOGGLE",
+    "icon": "jumagap",
+    "motion_index": 5
+  },
+  "66": {
+    "job": "SURA",
+    "attribute": "ATTACK_SKILL|NEED_TARGET|IGNORE_BLOCK",
+    "icon": "pabeop",
+    "motion_index": 6
+  },
+  "76": {
+    "job": "SURA",
+    "attribute": "ATTACK_SKILL|NEED_TARGET|IGNORE_BLOCK",
+    "icon": "maryeong",
+    "motion_index": 16
+  },
+  "77": {
+    "job": "SURA",
+    "attribute": "ATTACK_SKILL|STANDING_SKILL|IGNORE_BLOCK",
+    "icon": "hwayeom",
+    "motion_index": 17
+  },
+  "78": {
+    "job": "SURA",
+    "attribute": "ATTACK_SKILL|STANDING_SKILL|TOGGLE|IGNORE_BLOCK",
+    "icon": "muyeong",
+    "motion_index": 18
+  },
+  "79": {
+    "job": "SURA",
+    "attribute": "STANDING_SKILL|TOGGLE",
+    "icon": "heuksin",
+    "motion_index": 19
+  },
+  "80": {
+    "job": "SURA",
+    "attribute": "ATTACK_SKILL|NEED_TARGET|IGNORE_BLOCK",
+    "icon": "tusok",
+    "motion_index": 20
+  },
+  "81": {
+    "job": "SURA",
+    "attribute": "ATTACK_SKILL|NEED_TARGET|IGNORE_BLOCK",
+    "icon": "geomhwan",
+    "motion_index": 21
+  },
+  "91": {
+    "job": "SHAMAN",
+    "attribute": "ATTACK_SKILL|FAN_RANGE|NEED_TARGET|IGNORE_BLOCK",
+    "icon": "bipabu",
+    "motion_index": 1
+  },
+  "92": {
+    "job": "SHAMAN",
+    "attribute": "ATTACK_SKILL|NEED_TARGET|IGNORE_BLOCK",
+    "icon": "yongpa",
+    "motion_index": 2
+  },
+  "93": {
+    "job": "SHAMAN",
+    "attribute": "ATTACK_SKILL|NEED_TARGET|IGNORE_BLOCK",
+    "icon": "paeryong",
+    "motion_index": 3
+  },
+  "94": {
+    "job": "SHAMAN",
+    "attribute": "STANDING_SKILL|CAN_USE_FOR_ME|NEED_TARGET|ONLY_FOR_ALLIANCE",
+    "icon": "hosin",
+    "motion_index": 4
+  },
+  "95": {
+    "job": "SHAMAN",
+    "attribute": "STANDING_SKILL|CAN_USE_FOR_ME|NEED_TARGET|ONLY_FOR_ALLIANCE",
+    "icon": "boho",
+    "motion_index": 5
+  },
+  "96": {
+    "job": "SHAMAN",
+    "attribute": "STANDING_SKILL|CAN_USE_FOR_ME|NEED_TARGET|ONLY_FOR_ALLIANCE",
+    "icon": "gicheon",
+    "motion_index": 6
+  },
+  "106": {
+    "job": "SHAMAN",
+    "attribute": "ATTACK_SKILL|NEED_TARGET|IGNORE_BLOCK",
+    "icon": "noejeon",
+    "motion_index": 16
+  },
+  "107": {
+    "job": "SHAMAN",
+    "attribute": "ATTACK_SKILL|NEED_TARGET|IGNORE_BLOCK",
+    "icon": "byeorak",
+    "motion_index": 17
+  },
+  "108": {
+    "job": "SHAMAN",
+    "attribute": "ATTACK_SKILL|NEED_TARGET|IGNORE_BLOCK",
+    "icon": "pokroe",
+    "motion_index": 18
+  },
+  "109": {
+    "job": "SHAMAN",
+    "attribute": "STANDING_SKILL|CAN_USE_FOR_ME|NEED_TARGET|ONLY_FOR_ALLIANCE",
+    "icon": "jeongeop",
+    "motion_index": 19
+  },
+  "110": {
+    "job": "SHAMAN",
+    "attribute": "STANDING_SKILL|CAN_USE_FOR_ME|NEED_TARGET|ONLY_FOR_ALLIANCE",
+    "icon": "kwaesok",
+    "motion_index": 20
+  },
+  "111": {
+    "job": "SHAMAN",
+    "attribute": "STANDING_SKILL|CAN_USE_FOR_ME|NEED_TARGET|ONLY_FOR_ALLIANCE",
+    "icon": "jeungryeok",
+    "motion_index": 21
+  },
+  "121": {
+    "job": "SUPPORT",
+    "attribute": "PASSIVE",
+    "icon": "tongsol"
+  },
+  "122": {
+    "job": "SUPPORT",
+    "attribute": "CANNOT_LEVEL_UP|TOGGLE",
+    "icon": "combo"
+  },
+  "123": {
+    "job": "SUPPORT",
+    "attribute": "CANNOT_LEVEL_UP",
+    "icon": "fishing"
+  },
+  "124": {
+    "job": "SUPPORT",
+    "attribute": "PASSIVE",
+    "icon": "fish_mining"
+  },
+  "125": {
+    "job": "SUPPORT",
+    "attribute": "CANNOT_LEVEL_UP|PASSIVE",
+    "icon": "making"
+  },
+  "126": {
+    "job": "SUPPORT",
+    "attribute": "CANNOT_LEVEL_UP|PASSIVE",
+    "icon": "language1"
+  },
+  "127": {
+    "job": "SUPPORT",
+    "attribute": "CANNOT_LEVEL_UP|PASSIVE",
+    "icon": "language2"
+  },
+  "128": {
+    "job": "SUPPORT",
+    "attribute": "CANNOT_LEVEL_UP|PASSIVE",
+    "icon": "language3"
+  },
+  "129": {
+    "job": "SUPPORT",
+    "attribute": "CANNOT_LEVEL_UP|TOGGLE",
+    "icon": "polymorph"
+  },
+  "130": {
+    "job": "SUPPORT",
+    "attribute": "CANNOT_LEVEL_UP|PASSIVE",
+    "icon": "riding"
+  },
+  "131": {
+    "job": "SUPPORT",
+    "icon": "summon"
+  },
+  "132": {
+    "job": "SUPPORT",
+    "attribute": "CANNOT_LEVEL_UP|TOGGLE",
+    "icon": "autoattack"
+  },
+  "133": {
+    "job": "SUPPORT",
+    "attribute": "PASSIVE",
+    "icon": "role_proficiency"
+  },
+  "134": {
+    "job": "SUPPORT",
+    "attribute": "PASSIVE",
+    "icon": "insight"
+  },
+  "137": {
+    "job": "HORSE",
+    "attribute": "ATTACK_SKILL|HORSE_SKILL|MOVING_SKILL|WEAPON_LIMITATION",
+    "weapon": "SWORD|TWO_HANDED|DAGGER|DOUBLE_SWORD|FAN|BELL|CLAW",
+    "icon": "wildattack",
+    "motion_index": 121,
+    "grade_num": 1
+  },
+  "138": {
+    "job": "HORSE",
+    "attribute": "ATTACK_SKILL|HORSE_SKILL|SEARCH_TARGET|CHARGE_ATTACK",
+    "icon": "charge",
+    "motion_index": 122,
+    "grade_num": 1
+  },
+  "139": {
+    "job": "HORSE",
+    "attribute": "ATTACK_SKILL|HORSE_SKILL|WEAPON_LIMITATION",
+    "weapon": "SWORD|TWO_HANDED|DAGGER|DOUBLE_SWORD|BOW|FAN|BELL|CLAW",
+    "icon": "splash",
+    "motion_index": 123,
+    "grade_num": 1
+  },
+  "140": {
+    "job": "HORSE",
+    "attribute": "ATTACK_SKILL|FAN_RANGE|NEED_TARGET|HORSE_SKILL|WEAPON_LIMITATION",
+    "weapon": "BOW",
+    "icon": "wildattack",
+    "motion_index": 121,
+    "grade_num": 1,
+    "target_count_formula": "5"
+  },
+  "143": {
+    "job": "SUPPORT",
+    "attribute": "CANNOT_LEVEL_UP|PASSIVE",
+    "icon": "making"
+  },
+  "144": {
+    "job": "SUPPORT",
+    "attribute": "CANNOT_LEVEL_UP|PASSIVE",
+    "icon": "critical_boost"
+  },
+  "145": {
+    "job": "SUPPORT",
+    "attribute": "CANNOT_LEVEL_UP|PASSIVE",
+    "icon": "dragoneye"
+  },
+  "146": {
+    "job": "SUPPORT",
+    "attribute": "CANNOT_LEVEL_UP|PASSIVE",
+    "icon": "jeunghyul"
+  },
+  "147": {
+    "job": "SUPPORT",
+    "attribute": "CANNOT_LEVEL_UP|PASSIVE",
+    "icon": "chultong"
+  },
+  "148": {
+    "job": "SUPPORT",
+    "attribute": "CANNOT_LEVEL_UP|PASSIVE",
+    "icon": "penetrate_boost"
+  },
+  "149": {
+    "job": "SUPPORT",
+    "attribute": "CANNOT_LEVEL_UP|PASSIVE",
+    "icon": "herbology"
+  },
+  "150": {
+    "job": "SUPPORT",
+    "attribute": "CANNOT_LEVEL_UP|PASSIVE",
+    "icon": "skill_master_passiv"
+  },
+  "151": {
+    "job": "SUPPORT",
+    "attribute": "CANNOT_LEVEL_UP|PASSIVE",
+    "icon": "master_passive"
+  },
+  "152": {
+    "job": "GUILD",
+    "attribute": "ONLY_FOR_GUILD_WAR",
+    "icon": "gaho",
+    "motion_index": 101,
+    "grade_num": 1
+  },
+  "153": {
+    "job": "GUILD",
+    "attribute": "ONLY_FOR_GUILD_WAR",
+    "icon": "chukbok",
+    "motion_index": 102,
+    "grade_num": 1
+  },
+  "154": {
+    "job": "GUILD",
+    "attribute": "ONLY_FOR_GUILD_WAR",
+    "icon": "seonghwi",
+    "motion_index": 103,
+    "grade_num": 1
+  },
+  "155": {
+    "job": "GUILD",
+    "attribute": "ONLY_FOR_GUILD_WAR",
+    "icon": "gasok",
+    "motion_index": 104,
+    "grade_num": 1
+  },
+  "156": {
+    "job": "GUILD",
+    "attribute": "ONLY_FOR_GUILD_WAR",
+    "icon": "bunno",
+    "motion_index": 105,
+    "grade_num": 1
+  },
+  "157": {
+    "job": "GUILD",
+    "attribute": "ONLY_FOR_GUILD_WAR",
+    "icon": "jumunsul",
+    "motion_index": 106,
+    "grade_num": 1
+  },
+  "158": {
+    "job": "GUILD"
+  },
+  "159": {
+    "job": "GUILD"
+  },
+  "160": {
+    "job": "GUILD"
+  },
+  "161": {
+    "job": "GUILD"
+  },
+  "162": {
+    "job": "GUILD"
+  },
+  "163": {
+    "job": "SUPPORT",
+    "attribute": "CANNOT_LEVEL_UP|PASSIVE",
+    "icon": "attspd_to_attack"
+  },
+  "170": {
+    "job": "WOLFMAN",
+    "attribute": "ATTACK_SKILL|NEED_TARGET|WEAPON_LIMITATION|IGNORE_BLOCK",
+    "weapon": "CLAW",
+    "icon": "split_slash",
+    "motion_index": 1
+  },
+  "171": {
+    "job": "WOLFMAN",
+    "attribute": "ATTACK_SKILL|CAN_CHANGE_DIRECTION|WEAPON_LIMITATION|IGNORE_BLOCK",
+    "weapon": "CLAW",
+    "icon": "wind_death",
+    "motion_index": 2
+  },
+  "172": {
+    "job": "WOLFMAN",
+    "attribute": "ATTACK_SKILL|NEED_TARGET|WEAPON_LIMITATION|IGNORE_BLOCK",
+    "weapon": "CLAW",
+    "icon": "reef_attack",
+    "motion_index": 3
+  },
+  "173": {
+    "job": "WOLFMAN",
+    "attribute": "ATTACK_SKILL|NEED_TARGET|WEAPON_LIMITATION|IGNORE_BLOCK",
+    "weapon": "CLAW",
+    "icon": "wreckage",
+    "motion_index": 4
+  },
+  "174": {
+    "job": "WOLFMAN",
+    "attribute": "STANDING_SKILL|TOGGLE|WEAPON_LIMITATION",
+    "weapon": "CLAW",
+    "icon": "red_possession",
+    "motion_index": 5
+  },
+  "175": {
+    "job": "WOLFMAN",
+    "attribute": "STANDING_SKILL|WEAPON_LIMITATION",
+    "weapon": "CLAW",
+    "icon": "blue_possession",
+    "motion_index": 6
+  },
+  "176": {
+    "job": "WARRIOR",
+    "attribute": "ATTACK_SKILL|NEED_TARGET|WEAPON_LIMITATION|IGNORE_BLOCK|CANNOT_LEVEL_UP",
+    "weapon": "SWORD|TWO_HANDED",
+    "icon": "finish",
+    "motion_index": 9
+  },
+  "177": {
+    "job": "ASSASSIN",
+    "attribute": "ATTACK_SKILL|NEED_TARGET|WEAPON_LIMITATION|IGNORE_BLOCK|CANNOT_LEVEL_UP",
+    "weapon": "DAGGER|DOUBLE_SWORD|SWORD",
+    "icon": "ilgwangpyo",
+    "motion_index": 9
+  },
+  "178": {
+    "job": "ASSASSIN",
+    "attribute": "ATTACK_SKILL|NEED_TARGET|WEAPON_LIMITATION|IGNORE_BLOCK|CANNOT_LEVEL_UP",
+    "weapon": "BOW",
+    "icon": "pungloepo",
+    "motion_index": 24
+  },
+  "179": {
+    "job": "SURA",
+    "attribute": "ATTACK_SKILL|WEAPON_LIMITATION|MELEE_ATTACK|NEED_TARGET|IGNORE_BLOCK|CANNOT_LEVEL_UP",
+    "weapon": "SWORD",
+    "icon": "geomaggwi",
+    "motion_index": 9
+  },
+  "180": {
+    "job": "SURA",
+    "attribute": "ATTACK_SKILL|NEED_TARGET|IGNORE_BLOCK|CANNOT_LEVEL_UP",
+    "icon": "mabeobaggwi",
+    "motion_index": 24
+  },
+  "181": {
+    "job": "SHAMAN",
+    "attribute": "ATTACK_SKILL|NEED_TARGET|IGNORE_BLOCK|CANNOT_LEVEL_UP",
+    "icon": "meteo",
+    "motion_index": 9
+  },
+  "182": {
+    "job": "SHAMAN",
+    "attribute": "STANDING_SKILL|CAN_USE_FOR_ME|NEED_TARGET|ONLY_FOR_ALLIANCE|CANNOT_LEVEL_UP",
+    "icon": "cheonun",
+    "motion_index": 24
+  },
+  "183": {
+    "job": "WOLFMAN",
+    "attribute": "ATTACK_SKILL|NEED_TARGET|WEAPON_LIMITATION|IGNORE_BLOCK|CANNOT_LEVEL_UP",
+    "weapon": "CLAW",
+    "icon": "ilipungu",
+    "motion_index": 9
+  },
+  "221": {
+    "job": "PASSIVE",
+    "attribute": "PASSIVE",
+    "icon": "p_palbang"
+  },
+  "222": {
+    "job": "PASSIVE",
+    "attribute": "PASSIVE",
+    "icon": "p_amseup"
+  },
+  "223": {
+    "job": "PASSIVE",
+    "attribute": "PASSIVE",
+    "icon": "p_swaeryeong"
+  },
+  "224": {
+    "job": "PASSIVE",
+    "attribute": "PASSIVE",
+    "icon": "p_yongpa"
+  },
+  "225": {
+    "job": "PASSIVE",
+    "attribute": "PASSIVE",
+    "icon": "p_gigongcham"
+  },
+  "226": {
+    "job": "PASSIVE",
+    "attribute": "PASSIVE",
+    "icon": "p_hwajo"
+  },
+  "227": {
+    "job": "PASSIVE",
+    "attribute": "PASSIVE",
+    "icon": "p_maryeong"
+  },
+  "228": {
+    "job": "PASSIVE",
+    "attribute": "PASSIVE",
+    "icon": "p_byeorak"
+  },
+  "229": {
+    "job": "PASSIVE",
+    "attribute": "PASSIVE",
+    "icon": "p_salpoong"
+  },
+  "236": {
+    "job": "PASSIVE",
+    "attribute": "PASSIVE",
+    "icon": "pp_palbang"
+  },
+  "237": {
+    "job": "PASSIVE",
+    "attribute": "PASSIVE",
+    "icon": "pp_amseup"
+  },
+  "238": {
+    "job": "PASSIVE",
+    "attribute": "PASSIVE",
+    "icon": "pp_swaeryeong"
+  },
+  "239": {
+    "job": "PASSIVE",
+    "attribute": "PASSIVE",
+    "icon": "pp_yongpa"
+  },
+  "240": {
+    "job": "PASSIVE",
+    "attribute": "PASSIVE",
+    "icon": "pp_gigongcham"
+  },
+  "241": {
+    "job": "PASSIVE",
+    "attribute": "PASSIVE",
+    "icon": "pp_hwajo"
+  },
+  "242": {
+    "job": "PASSIVE",
+    "attribute": "PASSIVE",
+    "icon": "pp_maryeong"
+  },
+  "243": {
+    "job": "PASSIVE",
+    "attribute": "PASSIVE",
+    "icon": "pp_byeorak"
+  },
+  "244": {
+    "job": "PASSIVE",
+    "attribute": "PASSIVE",
+    "icon": "pp_salpoong"
+  },
+  "246": {
+    "job": "SUPPORT",
+    "attribute": "PASSIVE",
+    "icon": "hit_attribute"
+  },
+  "256": {
+    "job": "NONE"
+  },
+  "257": {
+    "job": "NONE"
+  },
+  "258": {
+    "job": "NONE"
+  },
+  "259": {
+    "job": "NONE"
+  },
+  "260": {
+    "job": "NONE"
+  },
+  "261": {
+    "job": "NONE"
+  },
+  "262": {
+    "job": "NONE"
+  },
+  "263": {
+    "job": "NONE"
+  },
+  "264": {
+    "job": "NONE"
+  },
+  "265": {
+    "job": "NONE"
+  },
+  "266": {
+    "job": "NONE"
+  },
+  "267": {
+    "job": "NONE"
+  },
+  "268": {
+    "job": "NONE"
+  },
+  "269": {
+    "job": "NONE"
+  },
+  "270": {
+    "job": "NONE"
+  },
+  "271": {
+    "job": "NONE"
+  },
+  "272": {
+    "job": "NONE"
+  },
+  "273": {
+    "job": "NONE"
+  },
+  "274": {
+    "job": "NONE"
+  },
+  "275": {
+    "job": "NONE"
+  },
+  "276": {
+    "job": "NONE"
+  },
+  "277": {
+    "job": "NONE"
+  },
+  "278": {
+    "job": "NONE"
+  },
+  "279": {
+    "job": "NONE"
+  },
+  "280": {
+    "job": "SHAMAN",
+    "attribute": "STANDING_SKILL|CAN_USE_FOR_ME|NEED_TARGET|ONLY_FOR_ALLIANCE",
+    "icon": "hosin",
+    "motion_index": 4
+  },
+  "281": {
+    "job": "SHAMAN",
+    "attribute": "STANDING_SKILL|CAN_USE_FOR_ME|NEED_TARGET|ONLY_FOR_ALLIANCE",
+    "icon": "boho",
+    "motion_index": 5
+  },
+  "282": {
+    "job": "SHAMAN",
+    "attribute": "STANDING_SKILL|CAN_USE_FOR_ME|NEED_TARGET|ONLY_FOR_ALLIANCE",
+    "icon": "gicheon",
+    "motion_index": 6
+  },
+  "283": {
+    "job": "SHAMAN",
+    "attribute": "STANDING_SKILL|CAN_USE_FOR_ME|NEED_TARGET|ONLY_FOR_ALLIANCE",
+    "icon": "kwaesok",
+    "motion_index": 20
+  },
+  "284": {
+    "job": "SHAMAN",
+    "attribute": "STANDING_SKILL|CAN_USE_FOR_ME|NEED_TARGET|ONLY_FOR_ALLIANCE",
+    "icon": "jeungryeok",
+    "motion_index": 21
+  },
+  "285": {
+    "job": "MOUNT_UPGRADE",
+    "attribute": "PASSIVE",
+    "icon": "mount_upgrade_skill_nimble"
+  },
+  "286": {
+    "job": "MOUNT_UPGRADE",
+    "attribute": "PASSIVE",
+    "icon": "mount_upgrade_skill_exp"
+  },
+  "287": {
+    "job": "MOUNT_UPGRADE",
+    "attribute": "PASSIVE",
+    "icon": "mount_upgrade_skill_speed"
+  },
+  "288": {
+    "job": "MOUNT_UPGRADE",
+    "attribute": "PASSIVE",
+    "icon": "mount_upgrade_skill_gyeonggong"
+  },
+  "289": {
+    "job": "MOUNT_UPGRADE",
+    "attribute": "PASSIVE",
+    "icon": "mount_upgrade_skill_invisibility"
+  },
+  "290": {
+    "job": "MOUNT_UPGRADE",
+    "attribute": "PASSIVE",
+    "icon": "mount_upgrade_skill_knockback"
+  },
+  "291": {
+    "job": "MOUNT_UPGRADE",
+    "attribute": "PASSIVE",
+    "icon": "mount_upgrade_skill_random_strong"
+  },
+  "292": {
+    "job": "MOUNT_UPGRADE",
+    "attribute": "PASSIVE",
+    "icon": "mount_upgrade_skill_random_strong"
+  },
+  "293": {
+    "job": "MOUNT_UPGRADE",
+    "attribute": "PASSIVE",
+    "icon": "mount_upgrade_skill_random_strong"
+  },
+  "294": {
+    "job": "MOUNT_UPGRADE",
+    "attribute": "PASSIVE",
+    "icon": "mount_upgrade_skill_random_strong"
+  },
+  "295": {
+    "job": "MOUNT_UPGRADE",
+    "attribute": "PASSIVE",
+    "icon": "mount_upgrade_skill_random_strong"
+  },
+  "296": {
+    "job": "MOUNT_UPGRADE",
+    "attribute": "PASSIVE",
+    "icon": "mount_upgrade_skill_random_strong"
+  },
+  "297": {
+    "job": "MOUNT_UPGRADE",
+    "attribute": "PASSIVE",
+    "icon": "mount_upgrade_skill_random_strong"
+  },
+  "298": {
+    "job": "MOUNT_UPGRADE",
+    "attribute": "PASSIVE",
+    "icon": "mount_upgrade_skill_random_strong"
+  },
+  "299": {
+    "job": "MOUNT_UPGRADE",
+    "attribute": "PASSIVE",
+    "icon": "mount_upgrade_skill_random_strong"
+  },
+  "300": {
+    "job": "MOUNT_UPGRADE",
+    "attribute": "PASSIVE",
+    "icon": "mount_upgrade_skill_random_strong"
+  },
+  "301": {
+    "job": "MOUNT_UPGRADE",
+    "attribute": "PASSIVE",
+    "icon": "mount_upgrade_skill_effect_up"
+  },
+  "302": {
+    "job": "MOUNT_UPGRADE",
+    "attribute": "PASSIVE",
+    "icon": "mount_upgrade_skill_random_strong"
+  },
+  "303": {
+    "job": "MOUNT_UPGRADE",
+    "attribute": "PASSIVE",
+    "icon": "mount_upgrade_skill_random_strong"
+  },
+  "304": {
+    "job": "MOUNT_UPGRADE",
+    "attribute": "PASSIVE",
+    "icon": "mount_upgrade_skill_random_strong"
+  },
+  "305": {
+    "job": "MOUNT_UPGRADE",
+    "attribute": "PASSIVE",
+    "icon": "mount_upgrade_skill_random_strong"
+  },
+  "306": {
+    "job": "MOUNT_UPGRADE",
+    "attribute": "PASSIVE",
+    "icon": "mount_upgrade_skill_random_strong"
+  },
+  "307": {
+    "job": "MOUNT_UPGRADE",
+    "attribute": "PASSIVE",
+    "icon": "mount_upgrade_skill_sungma_str"
+  },
+  "308": {
+    "job": "MOUNT_UPGRADE",
+    "attribute": "PASSIVE",
+    "icon": "mount_upgrade_skill_sungma_hp"
+  },
+  "309": {
+    "job": "MOUNT_UPGRADE",
+    "attribute": "PASSIVE",
+    "icon": "mount_upgrade_skill_sungma_move"
+  },
+  "310": {
+    "job": "MOUNT_UPGRADE",
+    "attribute": "PASSIVE",
+    "icon": "mount_upgrade_skill_sungma_immune"
+  },
+  "311": {
+    "job": "MOUNT_UPGRADE",
+    "attribute": "PASSIVE",
+    "icon": "mount_upgrade_skill_hit_pct"
+  },
+  "322": {
+    "job": "SUPPORT",
+    "attribute": "CANNOT_LEVEL_UP|TOGGLE",
+    "icon": "change_equipment"
+  }
+}

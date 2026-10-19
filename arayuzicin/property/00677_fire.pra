@@ -1,0 +1,9 @@
+YPRT
+83972639607
+ambiencesoundvector		"sound/ambience/fire.mp3"
+maxvolumeareapercentage		"0.001000"
+playinterval		"0.000000"
+playintervalvariation		"0.000000"
+playtype		"LOOP"
+propertyname		"fire"
+propertytype		"Ambience"

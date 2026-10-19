@@ -1,0 +1,12 @@
+ScriptType	MapSetting
+
+CellScale	200
+HeightScale	0.500000
+
+ViewRadius	128
+
+MapSize	4	3
+BasePosition	3328000	0
+TextureSet	textureset\horus_ice_dungeon.txt
+Environment	h_ice_dung.msenv
+

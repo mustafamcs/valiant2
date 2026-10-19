@@ -1,0 +1,9 @@
+YPRT
+83972639603
+ambiencesoundvector		"sound/ambience/crickets_forest.mp3"
+maxvolumeareapercentage		"0.0300000"
+playinterval		"0.000000"
+playintervalvariation		"0.000000"
+playtype		"LOOP"
+propertyname		"crickets_forest"
+propertytype		"Ambience"

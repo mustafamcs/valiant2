@@ -1,0 +1,5 @@
+GENERAL RUN elv_squid_human_run.msa 100
+GENERAL WAIT elv_squid_human_wait01.msa 40
+GENERAL WAIT1 elv_squid_human_wait02.msa 10
+GENERAL WAIT2 elv_squid_human_wait03.msa 30
+GENERAL WAIT3 elv_squid_human_wait04.msa 20

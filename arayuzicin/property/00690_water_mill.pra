@@ -1,0 +1,9 @@
+YPRT
+2293772607
+ambiencesoundvector		"sound/ambience/water_mill.wav"
+maxvolumeareapercentage		"0.300000"
+playinterval		"0.000000"
+playintervalvariation		"0.000000"
+playtype		"LOOP"
+propertyname		"water_mill"
+propertytype		"Ambience"

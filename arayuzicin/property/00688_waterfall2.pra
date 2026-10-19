@@ -1,0 +1,9 @@
+YPRT
+3397263968
+ambiencesoundvector		"sound/ambience/waterfall2.mp3"
+maxvolumeareapercentage		"0.300000"
+playinterval		"0.000000"
+playintervalvariation		"0.000000"
+playtype		"LOOP"
+propertyname		"waterfall2"
+propertytype		"Ambience"

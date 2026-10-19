@@ -1,0 +1,2940 @@
+{
+  "dungeons": {
+    "9": {
+      "name_key": "DUNGEON_NAME_9",
+      "boss_vnum": 693,
+      "camera_eye": [0, -2700, 400],
+      "camera_target": [0, 500, 178],
+      "level_limit": [35, 64],
+      "strength_bonus": ["ANIMAL"],
+      "resistance_bonus": ["WIND"],
+      "min_dps": 4000,
+      "min_dps_2": 0,
+      "pvm_skill_level": 20,
+      "recommended_biologist": 0,
+      "general_equipment": {
+        "boots": {
+          "vnum": 15006,
+          "attrs": {"MAX_HP": 1000, "CRITICAL_PCT": 5, "ATT_SPEED": 5}
+        },
+        "bracelet": {
+          "vnum": 14006,
+          "attrs": {"ATTBONUS_ANIMAL": 20, "RESIST_WIND": 10}
+        },
+        "necklace": {
+          "vnum": 16006,
+          "attrs": {"MAX_HP": 1000, "PENETRATE_PCT": 5, "CRITICAL_PCT": 5}
+        },
+        "earrings": {
+          "vnum": 17006,
+          "attrs": {"ATTBONUS_ANIMAL": 10}
+        },
+        "shield": {
+          "vnum": 13006,
+          "attrs": {"IMMUNE_STUN": 1, "ATTBONUS_ANIMAL": 10}
+        },
+        "ring1": {"vnum": 71135},
+        "mount": {"vnum": 56000},
+        "pet": {
+          "vnum": 53001,
+          "sockets": {"1": 1, "2": 10, "3": 10, "4": 10}
+        }
+      },
+      "race_equipment": {
+        "warrior": {
+          "weapon": {
+            "vnum": 3219,
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 30}
+          },
+          "armor": {
+            "vnum": 11206,
+            "attrs": {"ATT_GRADE_BONUS": 50, "RESIST_WIND": 10}
+          },
+          "helmet": {
+            "vnum": 12227,
+            "attrs": {"ATTBONUS_ANIMAL": 10}
+          }
+        },
+        "assassin": {
+          "weapon": {
+            "vnum": 1179,
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 30}
+          },
+          "armor": {
+            "vnum": 11406,
+            "attrs": {"ATT_GRADE_BONUS": 50, "RESIST_WIND": 10}
+          },
+          "helmet": {
+            "vnum": 12367,
+            "attrs": {"ATTBONUS_ANIMAL": 10}
+          }
+        },
+        "sura": {
+          "weapon": {
+            "vnum": 299,
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 30}
+          },
+          "armor": {
+            "vnum": 11606,
+            "attrs": {"ATT_GRADE_BONUS": 50, "RESIST_WIND": 10}
+          },
+          "helmet": {
+            "vnum": 12507,
+            "attrs": {"ATTBONUS_ANIMAL": 10}
+          }
+        },
+        "shaman": {
+          "weapon": {
+            "vnum": 5119,
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 30}
+          },
+          "armor": {
+            "vnum": 11806,
+            "attrs": {"ATT_GRADE_BONUS": 50, "RESIST_WIND": 10}
+          },
+          "helmet": {
+            "vnum": 12647,
+            "attrs": {"ATTBONUS_ANIMAL": 10}
+          }
+        },
+        "wolfman": {
+          "weapon": {
+            "vnum": 6127,
+            "sockets": {"0": 28437, "1": 28431, "2": 28430},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 45, "ATTBONUS_ANIMAL": 20}
+          },
+          "armor": {
+            "vnum": 21049,
+            "sockets": {"0": 28442, "1": 28438, "2": 28439},
+            "attrs": {"RESIST_WIND": 15, "ATT_GRADE_BONUS": 30}
+          },
+          "helmet": {
+            "vnum": 21149,
+            "sockets": {"0": 28430},
+            "attrs": {"RESIST_WIND": 15, "MAX_HP": 2000}
+          }
+        }
+      },
+      "recommended_bonuses": [
+        {"apply_type": "RESIST_WIND", "value": 25},
+        {"apply_type": "ATTBONUS_MONSTER", "value": 30},
+        {"apply_type": "DEF_GRADE_BONUS", "value": 140},
+        {"apply_type": "MAX_HP", "value": 7000},
+        {"apply_type": "ATTBONUS_ANIMAL", "value": 50},
+        {"apply_type": "CRITICAL_PCT", "value": 30}
+      ],
+      "recommended_skills": [
+        {
+          "skill_index": 4,
+          "skill_level": 20,
+          "apply_value": 252,
+          "races": ["warrior"]
+        },
+        {
+          "skill_index": 63,
+          "skill_level": 20,
+          "apply_value": 326,
+          "races": ["sura"]
+        },
+        {"skill_index": 94, "skill_level": 20, "apply_value": 16},
+        {"skill_index": 96, "skill_level": 20, "apply_value": 16},
+        {"skill_index": 130, "skill_level": 1}
+      ],
+      "recommended_consumables": [
+        {"vnum": 39017},
+        {"vnum": 39018},
+        {"vnum": 39019},
+        {"vnum": 39020},
+        {"vnum": 71044},
+        {"vnum": 71045}
+      ]
+    },
+    "1": {
+      "name_key": "DUNGEON_NAME_1",
+      "boss_vnum": 5164,
+      "level_limit": [55, 79],
+      "strength_bonus": ["ANIMAL"],
+      "resistance_bonus": ["WIND"],
+      "min_dps": 9000,
+      "min_dps_2": 0,
+      "pvm_skill_level": 26,
+      "recommended_biologist": 0,
+      "general_equipment": {
+        "boots": {
+          "vnum": 15066,
+          "attrs": {"CRITICAL_PCT": 10, "ATT_SPEED": 8}
+        },
+        "necklace": {
+          "vnum": 16046,
+          "attrs": {"MAX_HP": 2000, "CRITICAL_PCT": 10}
+        },
+        "bracelet": {
+          "vnum": 14006,
+          "attrs": {"RESIST_WIND": 10, "ATTBONUS_ANIMAL": 10, "MAX_HP": 1000}
+        },
+        "earrings": {
+          "vnum": 17006,
+          "attrs": {"ATTBONUS_ANIMAL": 20}
+        },
+        "shield": {
+          "vnum": 13046,
+          "attrs": {"IMMUNE_STUN": 1, "ATTBONUS_ANIMAL": 20}
+        },
+        "unique1": {"vnum": 91298},
+        "ring1": {"vnum": 71135},
+        "booster_weapon": {
+          "vnum": 91257,
+          "attrs": {"CRITICAL_PCT": 10}
+        },
+        "booster_body": {
+          "vnum": 91258,
+          "attrs": {"ELEMENTAL_RESIST": 8}
+        },
+        "booster_hair": {
+          "vnum": 91259,
+          "attrs": {"ATTBONUS_ANIMAL": 10}
+        },
+        "mount": {"vnum": 56000},
+        "pet": {
+          "vnum": 53001,
+          "sockets": {"1": 1, "2": 10, "3": 10, "4": 10}
+        }
+      },
+      "race_equipment": {
+        "warrior": {
+          "weapon": {
+            "vnum": 3219,
+            "sockets": {"0": 28337, "1": 28331},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 40}
+          },
+          "armor": {
+            "vnum": 11236,
+            "sockets": {"0": 28338, "1": 28340},
+            "attrs": {"RESIST_WIND": 15, "ATT_GRADE_BONUS": 50}
+          },
+          "helmet": {
+            "vnum": 12227,
+            "attrs": {"RESIST_WIND": 15, "ATTBONUS_ANIMAL": 20}
+          }
+        },
+        "assassin": {
+          "weapon": {
+            "vnum": 1179,
+            "sockets": {"0": 28337, "1": 28331},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 40}
+          },
+          "armor": {
+            "vnum": 11436,
+            "sockets": {"0": 28338, "1": 28340},
+            "attrs": {"RESIST_WIND": 15, "ATT_GRADE_BONUS": 50}
+          },
+          "helmet": {
+            "vnum": 12367,
+            "attrs": {"RESIST_WIND": 15, "ATTBONUS_ANIMAL": 20}
+          }
+        },
+        "sura": {
+          "weapon": {
+            "vnum": 299,
+            "sockets": {"0": 28337, "1": 28331},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 40}
+          },
+          "armor": {
+            "vnum": 11636,
+            "sockets": {"0": 28338, "1": 28340},
+            "attrs": {"RESIST_WIND": 15, "ATT_GRADE_BONUS": 50}
+          },
+          "helmet": {
+            "vnum": 12507,
+            "attrs": {"RESIST_WIND": 15, "ATTBONUS_ANIMAL": 20}
+          }
+        },
+        "shaman": {
+          "weapon": {
+            "vnum": 5119,
+            "sockets": {"0": 28337, "1": 28331},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 40}
+          },
+          "armor": {
+            "vnum": 11836,
+            "sockets": {"0": 28338, "1": 28340},
+            "attrs": {"RESIST_WIND": 15, "ATT_GRADE_BONUS": 50}
+          },
+          "helmet": {
+            "vnum": 12647,
+            "attrs": {"RESIST_WIND": 15, "ATTBONUS_ANIMAL": 20}
+          }
+        },
+        "wolfman": {
+          "weapon": {
+            "vnum": 6127,
+            "sockets": {"0": 28337, "1": 28331, "2": 28330},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 40, "ATTBONUS_ANIMAL": 20}
+          },
+          "armor": {
+            "vnum": 21049,
+            "sockets": {"0": 28338, "1": 28340, "2": 28339},
+            "attrs": {"RESIST_WIND": 15, "ATT_GRADE_BONUS": 50}
+          },
+          "helmet": {
+            "vnum": 21149,
+            "sockets": {"0": 28330},
+            "attrs": {"RESIST_WIND": 15, "MAX_HP": 2000}
+          }
+        }
+      },
+      "recommended_bonuses": [
+        {"apply_type": "RESIST_WIND", "value": 70},
+        {"apply_type": "ATTBONUS_MONSTER", "value": 40},
+        {"apply_type": "DEF_GRADE_BONUS", "value": 300},
+        {"apply_type": "MAX_HP", "value": 9500},
+        {"apply_type": "ATTBONUS_ANIMAL", "value": 80},
+        {"apply_type": "CRITICAL_PCT", "value": 60}
+      ],
+      "recommended_skills": [
+        {
+          "skill_index": 4,
+          "skill_level": 26,
+          "apply_value": 252,
+          "races": ["warrior"]
+        },
+        {
+          "skill_index": 63,
+          "skill_level": 26,
+          "apply_value": 326,
+          "races": ["sura"]
+        },
+        {"skill_index": 94, "skill_level": 26, "apply_value": 16},
+        {"skill_index": 96, "skill_level": 26, "apply_value": 16},
+        {"skill_index": 130, "skill_level": 5}
+      ],
+      "recommended_consumables": [
+        {"vnum": 39017},
+        {"vnum": 39018},
+        {"vnum": 39019},
+        {"vnum": 39020},
+        {"vnum": 71044},
+        {"vnum": 71045},
+        {"vnum": 50821},
+        {"vnum": 50823},
+        {"vnum": 50825},
+        {"vnum": 50826}
+      ]
+    },
+    "2": {
+      "name_key": "DUNGEON_NAME_2",
+      "boss_vnum": 2092,
+      "level_limit": [55, 79],
+      "strength_bonus": ["ANIMAL"],
+      "resistance_bonus": ["WIND"],
+      "min_dps": 9000,
+      "min_dps_2": 0,
+      "pvm_skill_level": 26,
+      "recommended_biologist": 0,
+      "general_equipment": {
+        "boots": {
+          "vnum": 15066,
+          "attrs": {"CRITICAL_PCT": 10, "ATT_SPEED": 8}
+        },
+        "necklace": {
+          "vnum": 16046,
+          "attrs": {"MAX_HP": 2000, "CRITICAL_PCT": 10}
+        },
+        "bracelet": {
+          "vnum": 14006,
+          "attrs": {"RESIST_WIND": 10, "ATTBONUS_ANIMAL": 10, "MAX_HP": 1000}
+        },
+        "earrings": {
+          "vnum": 17006,
+          "attrs": {"ATTBONUS_ANIMAL": 20}
+        },
+        "shield": {
+          "vnum": 13046,
+          "attrs": {"IMMUNE_STUN": 1, "ATTBONUS_ANIMAL": 20}
+        },
+        "unique1": {"vnum": 91298},
+        "ring1": {"vnum": 71135},
+        "booster_weapon": {
+          "vnum": 91257,
+          "attrs": {"CRITICAL_PCT": 10}
+        },
+        "booster_body": {
+          "vnum": 91258,
+          "attrs": {"ELEMENTAL_RESIST": 8}
+        },
+        "booster_hair": {
+          "vnum": 91259,
+          "attrs": {"ATTBONUS_ANIMAL": 10}
+        },
+        "mount": {"vnum": 56000},
+        "pet": {
+          "vnum": 53001,
+          "sockets": {"1": 1, "2": 10, "3": 10, "4": 10}
+        }
+      },
+      "race_equipment": {
+        "warrior": {
+          "weapon": {
+            "vnum": 3219,
+            "sockets": {"0": 28337, "1": 28331},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 40}
+          },
+          "armor": {
+            "vnum": 11236,
+            "sockets": {"0": 28338, "1": 28340},
+            "attrs": {"RESIST_WIND": 15, "ATT_GRADE_BONUS": 50}
+          },
+          "helmet": {
+            "vnum": 12227,
+            "attrs": {"RESIST_WIND": 15, "ATTBONUS_ANIMAL": 20}
+          }
+        },
+        "assassin": {
+          "weapon": {
+            "vnum": 1179,
+            "sockets": {"0": 28337, "1": 28331},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 40}
+          },
+          "armor": {
+            "vnum": 11436,
+            "sockets": {"0": 28338, "1": 28340},
+            "attrs": {"RESIST_WIND": 15, "ATT_GRADE_BONUS": 50}
+          },
+          "helmet": {
+            "vnum": 12367,
+            "attrs": {"RESIST_WIND": 15, "ATTBONUS_ANIMAL": 20}
+          }
+        },
+        "sura": {
+          "weapon": {
+            "vnum": 299,
+            "sockets": {"0": 28337, "1": 28331},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 40}
+          },
+          "armor": {
+            "vnum": 11636,
+            "sockets": {"0": 28338, "1": 28340},
+            "attrs": {"RESIST_WIND": 15, "ATT_GRADE_BONUS": 50}
+          },
+          "helmet": {
+            "vnum": 12507,
+            "attrs": {"RESIST_WIND": 15, "ATTBONUS_ANIMAL": 20}
+          }
+        },
+        "shaman": {
+          "weapon": {
+            "vnum": 5119,
+            "sockets": {"0": 28337, "1": 28331},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 40}
+          },
+          "armor": {
+            "vnum": 11836,
+            "sockets": {"0": 28338, "1": 28340},
+            "attrs": {"RESIST_WIND": 15, "ATT_GRADE_BONUS": 50}
+          },
+          "helmet": {
+            "vnum": 12647,
+            "attrs": {"RESIST_WIND": 15, "ATTBONUS_ANIMAL": 20}
+          }
+        },
+        "wolfman": {
+          "weapon": {
+            "vnum": 6127,
+            "sockets": {"0": 28337, "1": 28331, "2": 28330},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 40, "ATTBONUS_ANIMAL": 20}
+          },
+          "armor": {
+            "vnum": 21049,
+            "sockets": {"0": 28338, "1": 28340, "2": 28339},
+            "attrs": {"RESIST_WIND": 15, "ATT_GRADE_BONUS": 50}
+          },
+          "helmet": {
+            "vnum": 21149,
+            "sockets": {"0": 28330},
+            "attrs": {"RESIST_WIND": 15, "MAX_HP": 2000}
+          }
+        }
+      },
+      "recommended_bonuses": [
+        {"apply_type": "RESIST_WIND", "value": 55},
+        {"apply_type": "ATTBONUS_MONSTER", "value": 40},
+        {"apply_type": "DEF_GRADE_BONUS", "value": 300},
+        {"apply_type": "MAX_HP", "value": 9500},
+        {"apply_type": "ATTBONUS_ANIMAL", "value": 80},
+        {"apply_type": "CRITICAL_PCT", "value": 60}
+      ],
+      "recommended_skills": [
+        {
+          "skill_index": 4,
+          "skill_level": 26,
+          "apply_value": 252,
+          "races": ["warrior"]
+        },
+        {
+          "skill_index": 63,
+          "skill_level": 26,
+          "apply_value": 326,
+          "races": ["sura"]
+        },
+        {"skill_index": 94, "skill_level": 26, "apply_value": 16},
+        {"skill_index": 96, "skill_level": 26, "apply_value": 16},
+        {"skill_index": 130, "skill_level": 5}
+      ],
+      "recommended_consumables": [
+        {"vnum": 39017},
+        {"vnum": 39018},
+        {"vnum": 39019},
+        {"vnum": 39020},
+        {"vnum": 71044},
+        {"vnum": 71045},
+        {"vnum": 50821},
+        {"vnum": 50823},
+        {"vnum": 50825},
+        {"vnum": 50826}
+      ]
+    },
+    "3": {
+      "name_key": "DUNGEON_NAME_3",
+      "boss_vnum": 1093,
+      "camera_eye": [-300, -1800, 400],
+      "camera_target": [-5, 0, 150],
+      "level_limit": [75, 89],
+      "strength_bonus": ["UNDEAD"],
+      "resistance_bonus": ["DARK"],
+      "min_dps": 23000,
+      "min_dps_2": 0,
+      "pvm_skill_level": 59,
+      "recommended_biologist": 60,
+      "general_equipment": {
+        "boots": {
+          "vnum": 15226,
+          "attrs": {"MAX_HP": 2000, "ATT_SPEED": 8, "CRITICAL_PCT": 10}
+        },
+        "bracelet": {
+          "vnum": 14206,
+          "sockets": {"0": 50633, "1": 50633, "2": 50633},
+          "attrs": {"RESIST_DARK": 15, "ATTBONUS_UNDEAD": 20, "MAX_HP": 1000}
+        },
+        "necklace": {
+          "vnum": 16089,
+          "sockets": {"0": 50627, "1": 50627, "2": 50627},
+          "attrs": {"MAX_HP": 2000, "CRITICAL_PCT": 10}
+        },
+        "earrings": {
+          "vnum": 17109,
+          "sockets": {"0": 50628, "1": 50628, "2": 50628},
+          "attrs": {"ATTBONUS_UNDEAD": 20, "ITEM_DROP_BONUS": 20}
+        },
+        "shield": {
+          "vnum": 13046,
+          "attrs": {"ATTBONUS_UNDEAD": 20, "IMMUNE_STUN": 1}
+        },
+        "unique1": {"vnum": 91298},
+        "ring1": {"vnum": 71135},
+        "pendant_dark": {"vnum": 10295},
+        "booster_weapon": {
+          "vnum": 91257,
+          "attrs": {"CRITICAL_PCT": 10}
+        },
+        "belt": {
+          "vnum": 18006,
+          "sockets": {"0": 28430, "1": 28430, "2": 28430}
+        },
+        "booster_body": {
+          "vnum": 91258,
+          "attrs": {"ELEMENTAL_RESIST": 8}
+        },
+        "booster_hair": {
+          "vnum": 91259,
+          "attrs": {"ATTBONUS_UNDEAD": 10}
+        },
+        "mount": {"vnum": 56000},
+        "pet": {
+          "vnum": 53001,
+          "sockets": {"1": 1, "2": 10, "3": 10, "4": 10}
+        }
+      },
+      "race_equipment": {
+        "warrior": {
+          "weapon": {
+            "vnum": 3219,
+            "sockets": {"0": 28437, "1": 28431},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 40, "ATTBONUS_UNDEAD": 20}
+          },
+          "armor": {
+            "vnum": 11286,
+            "sockets": {"0": 28438, "1": 28441, "2": 28440},
+            "attrs": {"MAX_HP": 1000, "RESIST_DARK": 15, "ATT_GRADE_BONUS": 50}
+          },
+          "helmet": {
+            "vnum": 12246,
+            "attrs": {"ATTBONUS_UNDEAD": 20, "ATT_SPEED": 8, "RESIST_DARK": 15}
+          }
+        },
+        "assassin": {
+          "weapon": {
+            "vnum": 1179,
+            "sockets": {"0": 28437, "1": 28431},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 40, "ATTBONUS_UNDEAD": 20}
+          },
+          "armor": {
+            "vnum": 11486,
+            "sockets": {"0": 28438, "1": 28441, "2": 28440},
+            "attrs": {"MAX_HP": 1000, "RESIST_DARK": 15, "ATT_GRADE_BONUS": 50}
+          },
+          "helmet": {
+            "vnum": 12386,
+            "attrs": {"ATTBONUS_UNDEAD": 20, "ATT_SPEED": 8, "RESIST_DARK": 15}
+          }
+        },
+        "sura": {
+          "weapon": {
+            "vnum": 299,
+            "sockets": {"0": 28437, "1": 28431},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 40, "ATTBONUS_UNDEAD": 20}
+          },
+          "armor": {
+            "vnum": 11686,
+            "sockets": {"0": 28438, "1": 28441, "2": 28440},
+            "attrs": {"MAX_HP": 1000, "RESIST_DARK": 15, "ATT_GRADE_BONUS": 50}
+          },
+          "helmet": {
+            "vnum": 12526,
+            "attrs": {"ATTBONUS_UNDEAD": 20, "ATT_SPEED": 8, "RESIST_DARK": 15}
+          }
+        },
+        "shaman": {
+          "weapon": {
+            "vnum": 5119,
+            "sockets": {"0": 28437, "1": 28431},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 40, "ATTBONUS_UNDEAD": 20}
+          },
+          "armor": {
+            "vnum": 11886,
+            "sockets": {"0": 28438, "1": 28441, "2": 28440},
+            "attrs": {"MAX_HP": 1000, "RESIST_DARK": 15, "ATT_GRADE_BONUS": 50}
+          },
+          "helmet": {
+            "vnum": 12666,
+            "attrs": {"ATTBONUS_UNDEAD": 20, "ATT_SPEED": 8, "RESIST_DARK": 15}
+          }
+        },
+        "wolfman": {
+          "weapon": {
+            "vnum": 6127,
+            "sockets": {"0": 28437, "1": 28431, "2": 28430},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 40, "ATTBONUS_UNDEAD": 20}
+          },
+          "armor": {
+            "vnum": 21049,
+            "sockets": {"0": 28438, "1": 28441, "2": 28440},
+            "attrs": {"MAX_HP": 1000, "RESIST_DARK": 15, "ATT_GRADE_BONUS": 50}
+          },
+          "helmet": {
+            "vnum": 21149,
+            "sockets": {"0": 28430},
+            "attrs": {"RESIST_DARK": 15, "MAX_HP": 2000}
+          }
+        }
+      },
+      "alchemy": [
+        {"vnum": 115000},
+        {
+          "vnum": 125040,
+          "attrs": ["ATT_GRADE_BONUS"]
+        },
+        {"vnum": 135000},
+        {"vnum": 145000},
+        {"vnum": 155000},
+        {"vnum": 165040}
+      ],
+      "recommended_bonuses": [
+        {"apply_type": "RESIST_DARK", "value": 80},
+        {"apply_type": "ATTBONUS_MONSTER", "value": 60},
+        {"apply_type": "DEF_GRADE_BONUS", "value": 400},
+        {"apply_type": "ATTBONUS_BOSS", "value": 5},
+        {"apply_type": "MAX_HP", "value": 19000},
+        {"apply_type": "ATTBONUS_UNDEAD", "value": 100},
+        {"apply_type": "CRITICAL_PCT", "value": 80}
+      ],
+      "recommended_skills": [
+        {
+          "skill_index": 4,
+          "skill_level": 59,
+          "apply_value": 600,
+          "races": ["warrior"]
+        },
+        {
+          "skill_index": 63,
+          "skill_level": 59,
+          "apply_value": 643,
+          "races": ["sura"]
+        },
+        {"skill_index": 130, "skill_level": 11},
+        {"skill_index": 147, "skill_level": 20},
+        {"skill_index": 144, "skill_level": 20},
+        {"skill_index": 94, "skill_level": 30, "apply_value": 32},
+        {"skill_index": 96, "skill_level": 30, "apply_value": 32}
+      ],
+      "recommended_consumables": [
+        {"vnum": 39017},
+        {"vnum": 39018},
+        {"vnum": 39019},
+        {"vnum": 39020},
+        {"vnum": 71044},
+        {"vnum": 71045},
+        {"vnum": 50821},
+        {"vnum": 50823},
+        {"vnum": 50825},
+        {"vnum": 50826}
+      ]
+    },
+    "4": {
+      "name_key": "DUNGEON_NAME_4",
+      "boss_vnum": 2598,
+      "camera_eye": [0, -2500, 300],
+      "camera_target": [0, 0, 230],
+      "level_limit": [80, 94],
+      "strength_bonus": ["UNDEAD"],
+      "resistance_bonus": ["DARK"],
+      "min_dps": 34000,
+      "min_dps_2": 44000,
+      "pvm_skill_level": 40,
+      "recommended_biologist": 80,
+      "general_equipment": {
+        "boots": {
+          "vnum": 15226,
+          "attrs": {"MAX_HP": 2000, "ATT_SPEED": 8, "CRITICAL_PCT": 10}
+        },
+        "bracelet": {
+          "vnum": 14206,
+          "sockets": {"0": 50633, "1": 50633, "2": 50633},
+          "attrs": {"RESIST_DARK": 15, "ATTBONUS_UNDEAD": 20, "MAX_HP": 1000}
+        },
+        "necklace": {
+          "vnum": 16089,
+          "sockets": {"0": 50627, "1": 50627, "2": 50627},
+          "attrs": {"CRITICAL_PCT": 10, "MAX_HP": 2000}
+        },
+        "earrings": {
+          "vnum": 17189,
+          "sockets": {"0": 50628, "1": 50628, "2": 50628},
+          "attrs": {"ATTBONUS_UNDEAD": 20, "ITEM_DROP_BONUS": 20}
+        },
+        "shield": {
+          "vnum": 13046,
+          "attrs": {"IMMUNE_STUN": 1, "STR": 12, "ATTBONUS_UNDEAD": 20}
+        },
+        "unique1": {"vnum": 91193},
+        "ring1": {"vnum": 71135},
+        "belt": {
+          "vnum": 18006,
+          "sockets": {"0": 28430, "1": 28430, "2": 28430}
+        },
+        "booster_weapon": {
+          "vnum": 91257,
+          "attrs": {"CRITICAL_PCT": 10, "ALLELEMENTAL_BONUS": 5}
+        },
+        "booster_body": {
+          "vnum": 91258,
+          "attrs": {"ELEMENTAL_RESIST": 10, "ATT_GRADE_BONUS": 50}
+        },
+        "booster_hair": {
+          "vnum": 91259,
+          "attrs": {"ATTBONUS_UNDEAD": 10, "ATTBONUS_BOSS": 8}
+        },
+        "ring3": {"vnum": 91243},
+        "ring4": {"vnum": 91244},
+        "ring5": {"vnum": 91245},
+        "pendant_dark": {"vnum": 10300},
+        "sash": {
+          "vnum": 85003,
+          "absorption_rate": 10,
+          "absorbed_vnum": 2176,
+          "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 50}
+        },
+        "mount": {
+          "vnum": 56000,
+          "attrs": {"ATTBONUS_MONSTER": 4, "ATTBONUS_STONE": 3, "ATTBONUS_BOSS": 4}
+        },
+        "pet": {
+          "vnum": 53001,
+          "sockets": {"1": 2, "2": 41, "3": 35, "4": 32}
+        }
+      },
+      "race_equipment": {
+        "warrior": {
+          "weapon": {
+            "vnum": 189,
+            "sockets": {"0": 28437, "1": 28431, "2": 28430},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 45, "ATTBONUS_UNDEAD": 20}
+          },
+          "armor": {
+            "vnum": 11289,
+            "sockets": {"0": 28442, "1": 28438, "2": 28440},
+            "attrs": {"RESIST_DARK": 15, "ATT_GRADE_BONUS": 50, "MAX_HP": 2000}
+          },
+          "helmet": {
+            "vnum": 12249,
+            "attrs": {"RESIST_DARK": 15, "ATTBONUS_UNDEAD": 20}
+          }
+        },
+        "assassin": {
+          "weapon": {
+            "vnum": 1139,
+            "sockets": {"0": 28437, "1": 28431, "2": 28430},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 45, "ATTBONUS_UNDEAD": 20}
+          },
+          "armor": {
+            "vnum": 11489,
+            "sockets": {"0": 28442, "1": 28438, "2": 28440},
+            "attrs": {"RESIST_DARK": 15, "ATT_GRADE_BONUS": 50, "MAX_HP": 2000}
+          },
+          "helmet": {
+            "vnum": 12389,
+            "attrs": {"RESIST_DARK": 15, "ATTBONUS_UNDEAD": 20}
+          }
+        },
+        "sura": {
+          "weapon": {
+            "vnum": 189,
+            "sockets": {"0": 28437, "1": 28431, "2": 28430},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 45, "ATTBONUS_UNDEAD": 20}
+          },
+          "armor": {
+            "vnum": 11689,
+            "sockets": {"0": 28442, "1": 28438, "2": 28440},
+            "attrs": {"RESIST_DARK": 15, "ATT_GRADE_BONUS": 50, "MAX_HP": 2000}
+          },
+          "helmet": {
+            "vnum": 12529,
+            "attrs": {"RESIST_DARK": 15, "ATTBONUS_UNDEAD": 20}
+          }
+        },
+        "shaman": {
+          "weapon": {
+            "vnum": 5129,
+            "sockets": {"0": 28437, "1": 28431, "2": 28430},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 45, "ATTBONUS_UNDEAD": 20}
+          },
+          "armor": {
+            "vnum": 11886,
+            "sockets": {"0": 28442, "1": 28438, "2": 28440},
+            "attrs": {"RESIST_DARK": 15, "ATT_GRADE_BONUS": 50, "MAX_HP": 2000}
+          },
+          "helmet": {
+            "vnum": 12669,
+            "attrs": {"RESIST_DARK": 15, "ATTBONUS_UNDEAD": 20}
+          }
+        },
+        "wolfman": {
+          "weapon": {
+            "vnum": 6127,
+            "sockets": {"0": 28437, "1": 28431, "2": 28430},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 45, "ATTBONUS_ANIMAL": 20}
+          },
+          "armor": {
+            "vnum": 21049,
+            "sockets": {"0": 28442, "1": 28438, "2": 28439},
+            "attrs": {"RESIST_WIND": 15, "ATT_GRADE_BONUS": 30}
+          },
+          "helmet": {
+            "vnum": 21149,
+            "sockets": {"0": 28430},
+            "attrs": {"RESIST_WIND": 15, "MAX_HP": 2000}
+          }
+        }
+      },
+      "alchemy": [
+        {"vnum": 115000},
+        {
+          "vnum": 125040,
+          "attrs": ["ATT_GRADE_BONUS"]
+        },
+        {
+          "vnum": 135040,
+          "attrs": ["STRENGHT_DUNGEON"]
+        },
+        {"vnum": 145000},
+        {"vnum": 155000},
+        {
+          "vnum": 165040,
+          "attrs": ["ATTBONUS_UNDEAD"]
+        }
+      ],
+      "recommended_bonuses": [
+        {"apply_type": "RESIST_DARK", "value": 75},
+        {"apply_type": "ATTBONUS_MONSTER", "value": 70},
+        {"apply_type": "DEF_GRADE_BONUS", "value": 350},
+        {"apply_type": "ATTBONUS_BOSS", "value": 20},
+        {"apply_type": "MAX_HP", "value": 18000},
+        {"apply_type": "ATTBONUS_UNDEAD", "value": 110},
+        {"apply_type": "CRITICAL_PCT", "value": 105}
+      ],
+      "recommended_skills": [
+        {
+          "skill_index": 4,
+          "skill_level": 59,
+          "apply_value": 630,
+          "races": ["warrior"]
+        },
+        {
+          "skill_index": 3,
+          "skill_level": 30,
+          "apply_value": 5,
+          "races": ["warrior"]
+        },
+        {
+          "skill_index": 63,
+          "skill_level": 40,
+          "apply_value": 663,
+          "races": ["sura"]
+        },
+        {
+          "skill_index": 64,
+          "skill_level": 30,
+          "apply_value": 21,
+          "races": ["sura"]
+        },
+        {"skill_index": 96, "skill_level": 40, "apply_value": 32},
+        {"skill_index": 94, "skill_level": 40, "apply_value": 32},
+        {"skill_index": 147, "skill_level": 25},
+        {"_skill_index": 151, "skill_level": 0},
+        {"skill_index": 144, "skill_level": 25},
+        {"skill_index": 121, "skill_level": 25},
+        {"skill_index": 130, "skill_level": 19}
+      ],
+      "recommended_consumables": [
+        {"vnum": 39017},
+        {"vnum": 39018},
+        {"vnum": 39019},
+        {"vnum": 39020},
+        {"vnum": 71044},
+        {"vnum": 71045},
+        {"vnum": 50821},
+        {"vnum": 50823},
+        {"vnum": 50825},
+        {"vnum": 50826},
+        {"vnum": 27870},
+        {"vnum": 27880}
+      ]
+    },
+    "5": {
+      "name_key": "DUNGEON_NAME_5",
+      "boss_vnum": 2493,
+      "camera_eye": [0, -2700, 300],
+      "camera_target": [0, 0, 200],
+      "level_limit": [85, 104],
+      "strength_bonus": [],
+      "resistance_bonus": ["ELECT"],
+      "min_dps": 44000,
+      "min_dps_2": 54000,
+      "pvm_skill_level": 40,
+      "recommended_biologist": 94,
+      "general_equipment": {
+        "boots": {
+          "vnum": 15229,
+          "attrs": {"CRITICAL_PCT": 10, "MAX_HP": 2000}
+        },
+        "bracelet": {
+          "vnum": 14226,
+          "sockets": {"0": 50634, "1": 50634, "2": 50634},
+          "attrs": {"RESIST_ELEC": 15, "MAX_HP": 1000}
+        },
+        "necklace": {
+          "vnum": 16226,
+          "sockets": {"0": 50634, "1": 50634, "2": 50634},
+          "attrs": {"CRITICAL_PCT": 10, "MAX_HP": 2000}
+        },
+        "earrings": {
+          "vnum": 17226,
+          "sockets": {"0": 50634, "1": 50634, "2": 50634}
+        },
+        "shield": {
+          "vnum": 13109,
+          "attrs": {"IMMUNE_STUN": 1, "STR": 12}
+        },
+        "unique1": {"vnum": 91193},
+        "ring1": {"vnum": 71135},
+        "belt": {
+          "vnum": 18009,
+          "sockets": {"0": 28430, "1": 28430, "2": 28430}
+        },
+        "booster_weapon": {
+          "vnum": 91257,
+          "attrs": {"CRITICAL_PCT": 10, "ALLELEMENTAL_BONUS": 5}
+        },
+        "booster_body": {
+          "vnum": 91258,
+          "attrs": {"ELEMENTAL_RESIST": 10, "ATT_GRADE_BONUS": 50}
+        },
+        "booster_hair": {
+          "vnum": 91259,
+          "attrs": {"ATTBONUS_MONSTER": 8, "ATTBONUS_BOSS": 8}
+        },
+        "ring3": {"vnum": 91243},
+        "ring4": {"vnum": 91244},
+        "ring5": {"vnum": 91245},
+        "pendant_fire": {"vnum": 9610},
+        "pendant_ice": {"vnum": 9840},
+        "pendant_thunder": {"vnum": 10768},
+        "pendant_wind": {"vnum": 10530},
+        "pendant_dark": {"vnum": 10300},
+        "pendant_earth": {"vnum": 10070},
+        "sash": {
+          "vnum": 85004,
+          "absorption_rate": 16,
+          "absorbed_vnum": 2179,
+          "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 50}
+        },
+        "mount": {
+          "vnum": 56000,
+          "attrs": {"ATTBONUS_MONSTER": 5, "ATTBONUS_STONE": 3, "ATTBONUS_BOSS": 5}
+        },
+        "pet": {
+          "vnum": 53001,
+          "sockets": {"1": 3, "2": 45, "3": 45, "4": 45}
+        }
+      },
+      "race_equipment": {
+        "warrior": {
+          "weapon": {
+            "vnum": 189,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 52}
+          },
+          "armor": {
+            "vnum": 12014,
+            "sockets": {"0": 28442, "1": 28438, "2": 28540},
+            "attrs": {"RESIST_ELEC": 15, "ATT_GRADE_BONUS": 50, "MAX_HP": 2000}
+          },
+          "helmet": {
+            "vnum": 12269,
+            "attrs": {"RESIST_ELEC": 15}
+          }
+        },
+        "assassin": {
+          "weapon": {
+            "vnum": 1139,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 52}
+          },
+          "armor": {
+            "vnum": 12024,
+            "sockets": {"0": 28442, "1": 28438, "2": 28540},
+            "attrs": {"RESIST_ELEC": 15, "ATT_GRADE_BONUS": 50, "MAX_HP": 2000}
+          },
+          "helmet": {
+            "vnum": 12399,
+            "attrs": {"RESIST_ELEC": 15}
+          }
+        },
+        "sura": {
+          "weapon": {
+            "vnum": 189,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 52}
+          },
+          "armor": {
+            "vnum": 12034,
+            "sockets": {"0": 28442, "1": 28438, "2": 28540},
+            "attrs": {"RESIST_ELEC": 15, "ATT_GRADE_BONUS": 50, "MAX_HP": 2000}
+          },
+          "helmet": {
+            "vnum": 12539,
+            "attrs": {"RESIST_ELEC": 15}
+          }
+        },
+        "shaman": {
+          "weapon": {
+            "vnum": 5129,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 52}
+          },
+          "armor": {
+            "vnum": 12044,
+            "sockets": {"0": 28442, "1": 28438, "2": 28540},
+            "attrs": {"RESIST_ELEC": 15, "ATT_GRADE_BONUS": 50, "MAX_HP": 2000}
+          },
+          "helmet": {
+            "vnum": 12679,
+            "attrs": {"RESIST_ELEC": 15}
+          }
+        },
+        "wolfman": {
+          "weapon": {
+            "vnum": 6127,
+            "sockets": {"0": 28437, "1": 28431, "2": 28430},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 45, "ATTBONUS_ANIMAL": 20}
+          },
+          "armor": {
+            "vnum": 21049,
+            "sockets": {"0": 28442, "1": 28438, "2": 28439},
+            "attrs": {"RESIST_WIND": 15, "ATT_GRADE_BONUS": 30}
+          },
+          "helmet": {
+            "vnum": 21149,
+            "sockets": {"0": 28430},
+            "attrs": {"RESIST_WIND": 15, "MAX_HP": 2000}
+          }
+        }
+      },
+      "alchemy": [
+        {
+          "vnum": 115140,
+          "attrs": ["CRITICAL_PCT"]
+        },
+        {
+          "vnum": 125140,
+          "attrs": ["ATT_GRADE_BONUS"]
+        },
+        {
+          "vnum": 135140,
+          "attrs": ["STRENGHT_DUNGEON"]
+        },
+        {"vnum": 145100},
+        {"vnum": 155350},
+        {
+          "vnum": 165140,
+          "attrs": ["NORMAL_HIT_DAMAGE_BONUS"]
+        }
+      ],
+      "recommended_bonuses": [
+        {"apply_type": "ATTBONUS_MONSTER", "value": 145},
+        {
+          "apply_type": "ATTBONUS_MONSTER",
+          "value": 125,
+          "races": ["sura"]
+        },
+        {
+          "apply_type": "ATTBONUS_MONSTER",
+          "value": 125,
+          "races": ["warrior"]
+        },
+        {"apply_type": "ATTBONUS_BOSS", "value": 20},
+        {"_apply_type": "ATTBONUS_UNDEAD", "value": 100},
+        {"_apply_type": "STEAL_HP", "value": 10},
+        {"apply_type": "MAX_HP", "value": 21000},
+        {"_apply_type": "BLOCK", "value": 15},
+        {"apply_type": "RESIST_ELEC", "value": 105},
+        {"apply_type": "DEF_GRADE_BONUS", "value": 600},
+        {"apply_type": "CRITICAL_PCT", "value": 115},
+        {
+          "_apply_type": "MAGIC_ATT_GRADE",
+          "value": 50,
+          "races": ["shaman", "sura"]
+        },
+        {
+          "_apply_type": "ATT_GRADE_BONUS",
+          "value": 100,
+          "races": ["warrior", "assassin", "wolfman"]
+        }
+      ],
+      "recommended_skills": [
+        {
+          "skill_index": 4,
+          "skill_level": 59,
+          "apply_value": 671,
+          "races": ["warrior"]
+        },
+        {
+          "skill_index": 3,
+          "skill_level": 40,
+          "apply_value": 10,
+          "races": ["warrior"]
+        },
+        {
+          "skill_index": 63,
+          "skill_level": 40,
+          "apply_value": 693,
+          "races": ["sura"]
+        },
+        {"skill_index": 96, "skill_level": 40, "apply_value": 32},
+        {"skill_index": 94, "skill_level": 40, "apply_value": 32},
+        {"skill_index": 147, "skill_level": 30},
+        {"_skill_index": 151, "skill_level": 0},
+        {"skill_index": 144, "skill_level": 30},
+        {"skill_index": 121, "skill_level": 30},
+        {"skill_index": 150, "skill_level": 1},
+        {"skill_index": 130, "skill_level": 21}
+      ],
+      "recommended_consumables": [
+        {"vnum": 39017},
+        {"vnum": 39018},
+        {"vnum": 39019},
+        {"vnum": 39020},
+        {"vnum": 71044},
+        {"vnum": 71045},
+        {"vnum": 50821},
+        {"vnum": 50823},
+        {"vnum": 50825},
+        {"vnum": 50826},
+        {"vnum": 50822},
+        {"vnum": 27870},
+        {"vnum": 27886},
+        {"vnum": 27868},
+        {"vnum": 27880}
+      ]
+    },
+    "10": {
+      "name_key": "DUNGEON_NAME_NEW_10",
+      "boss_vnum": 39043,
+      "camera_eye": [-220, -3700, 1000],
+      "camera_target": [0, 500, 240],
+      "level_limit": [95, 105],
+      "strength_bonus": [],
+      "resistance_bonus": ["EARTH"],
+      "min_dps": 50000,
+      "min_dps_2": 75000,
+      "pvm_skill_level": 40,
+      "recommended_biologist": 100,
+      "general_equipment": {
+        "boots": {
+          "vnum": 15394,
+          "attrs": {"CRITICAL_PCT": 10, "MAX_HP": 2000, "ATT_SPEED": 8}
+        },
+        "bracelet": {
+          "vnum": 14626,
+          "sockets": {"0": 50634, "1": 50634, "2": 50634},
+          "attrs": {"RESIST_EARTH": 10, "MAX_HP": 2000, "PENETRATE_PCT": 10}
+        },
+        "necklace": {
+          "vnum": 16626,
+          "sockets": {"0": 50634, "1": 50634, "2": 50634},
+          "attrs": {"CRITICAL_PCT": 10, "MAX_HP": 2000}
+        },
+        "earrings": {
+          "vnum": 17229,
+          "sockets": {"0": 50634, "1": 50634, "2": 50634}
+        },
+        "shield": {
+          "vnum": 13164,
+          "attrs": {"IMMUNE_STUN": 1, "STR": 12}
+        },
+        "unique1": {"vnum": 91193},
+        "ring1": {"vnum": 71135},
+        "belt": {
+          "vnum": 18009,
+          "sockets": {"0": 28430, "1": 28430, "2": 28430}
+        },
+        "booster_weapon": {
+          "vnum": 91257,
+          "attrs": {"CRITICAL_PCT": 10, "ALLELEMENTAL_BONUS": 5}
+        },
+        "booster_body": {
+          "vnum": 91258,
+          "attrs": {"ELEMENTAL_RESIST": 10, "ATT_GRADE_BONUS": 50}
+        },
+        "booster_hair": {
+          "vnum": 91259,
+          "attrs": {"ATTBONUS_MONSTER": 8, "ATTBONUS_BOSS": 8}
+        },
+        "ring3": {"vnum": 91246},
+        "ring4": {"vnum": 91247},
+        "ring5": {"vnum": 91248},
+        "pendant_fire": {"vnum": 9610},
+        "pendant_ice": {"vnum": 9840},
+        "pendant_thunder": {"vnum": 10760},
+        "pendant_wind": {"vnum": 10530},
+        "pendant_dark": {"vnum": 10300},
+        "pendant_earth": {"vnum": 10080},
+        "sash": {
+          "vnum": 85004,
+          "absorption_rate": 20,
+          "absorbed_vnum": 2179,
+          "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 50}
+        },
+        "mount": {
+          "vnum": 56000,
+          "attrs": {"ATTBONUS_MONSTER": 5, "ATTBONUS_STONE": 3, "ATTBONUS_BOSS": 5}
+        },
+        "pet": {
+          "vnum": 53001,
+          "sockets": {"1": 4, "2": 45, "3": 45, "4": 45},
+          "skills": [
+            {"skill_id": 2, "level": 20},
+            {"skill_id": 3, "level": 20}
+          ]
+        }
+      },
+      "race_equipment": {
+        "warrior": {
+          "weapon": {
+            "vnum": 189,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 55}
+          },
+          "armor": {
+            "vnum": 12019,
+            "sockets": {"0": 28442, "1": 28438, "2": 28540},
+            "attrs": {"RESIST_EARTH": 15, "ATT_GRADE_BONUS": 50, "MAX_HP": 2000}
+          },
+          "helmet": {
+            "vnum": 12284,
+            "attrs": {"RESIST_EARTH": 10, "ATT_SPEED": 8}
+          }
+        },
+        "assassin": {
+          "weapon": {
+            "vnum": 1139,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 55}
+          },
+          "armor": {
+            "vnum": 12029,
+            "sockets": {"0": 28442, "1": 28438, "2": 28540},
+            "attrs": {"RESIST_EARTH": 15, "ATT_GRADE_BONUS": 50, "MAX_HP": 2000}
+          },
+          "helmet": {
+            "vnum": 12404,
+            "attrs": {"RESIST_EARTH": 10, "ATT_SPEED": 8}
+          }
+        },
+        "sura": {
+          "weapon": {
+            "vnum": 189,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"RESIST_EARTH": 15, "ATT_GRADE_BONUS": 50, "MAX_HP": 2000}
+          },
+          "armor": {
+            "vnum": 12039,
+            "sockets": {"0": 28442, "1": 28438, "2": 28540},
+            "attrs": {"RESIST_EARTH": 15, "ATT_GRADE_BONUS": 50, "MAX_HP": 2000}
+          },
+          "helmet": {
+            "vnum": 12544,
+            "attrs": {"RESIST_EARTH": 10, "ATT_SPEED": 8}
+          }
+        },
+        "shaman": {
+          "weapon": {
+            "vnum": 5129,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 55}
+          },
+          "armor": {
+            "vnum": 12049,
+            "sockets": {"0": 28442, "1": 28438, "2": 28540},
+            "attrs": {"RESIST_EARTH": 15, "ATT_GRADE_BONUS": 50, "MAX_HP": 2000}
+          },
+          "helmet": {
+            "vnum": 12684,
+            "attrs": {"RESIST_EARTH": 10, "ATT_SPEED": 8}
+          }
+        },
+        "wolfman": {
+          "weapon": {
+            "vnum": 6127,
+            "sockets": {"0": 28437, "1": 28431, "2": 28430},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 45, "ATTBONUS_ANIMAL": 20}
+          },
+          "armor": {
+            "vnum": 21049,
+            "sockets": {"0": 28442, "1": 28438, "2": 28439},
+            "attrs": {"RESIST_WIND": 15, "ATT_GRADE_BONUS": 30}
+          },
+          "helmet": {
+            "vnum": 21149,
+            "sockets": {"0": 28430},
+            "attrs": {"RESIST_WIND": 15, "MAX_HP": 2000}
+          }
+        }
+      },
+      "alchemy": [
+        {
+          "vnum": 115350,
+          "attrs": ["CRITICAL_PCT"]
+        },
+        {
+          "vnum": 125350,
+          "attrs": ["ATT_GRADE_BONUS"]
+        },
+        {
+          "vnum": 135350,
+          "attrs": ["STRENGHT_DUNGEON"]
+        },
+        {"vnum": 145460},
+        {
+          "vnum": 155350,
+          "attrs": ["ATTBONUS_BOSS"]
+        },
+        {
+          "vnum": 165350,
+          "attrs": ["NORMAL_HIT_DAMAGE_BONUS"]
+        }
+      ],
+      "recommended_bonuses": [
+        {"apply_type": "ATTBONUS_MONSTER", "value": 205},
+        {
+          "apply_type": "ATTBONUS_MONSTER",
+          "value": 207,
+          "races": ["sura"]
+        },
+        {
+          "apply_type": "ATTBONUS_MONSTER",
+          "value": 207,
+          "races": ["warrior"]
+        },
+        {"apply_type": "ATTBONUS_BOSS", "value": 55},
+        {"_apply_type": "ATTBONUS_UNDEAD", "value": 100},
+        {"_apply_type": "STEAL_HP", "value": 10},
+        {"apply_type": "MAX_HP", "value": 30000},
+        {"_apply_type": "BLOCK", "value": 15},
+        {"apply_type": "RESIST_EARTH", "value": 115},
+        {"apply_type": "DEF_GRADE_BONUS", "value": 880},
+        {"apply_type": "CRITICAL_BOOST_PVM", "value": 11},
+        {
+          "_apply_type": "MAGIC_ATT_GRADE",
+          "value": 50,
+          "races": ["shaman", "sura"]
+        },
+        {
+          "_apply_type": "ATT_GRADE_BONUS",
+          "value": 100,
+          "races": ["warrior", "assassin", "wolfman"]
+        }
+      ],
+      "recommended_skills": [
+        {
+          "skill_index": 4,
+          "skill_level": 59,
+          "apply_value": 671,
+          "races": ["warrior"]
+        },
+        {
+          "skill_index": 3,
+          "skill_level": 40,
+          "apply_value": 10,
+          "races": ["warrior"]
+        },
+        {
+          "skill_index": 63,
+          "skill_level": 40,
+          "apply_value": 693,
+          "races": ["sura"]
+        },
+        {"skill_index": 96, "skill_level": 40, "apply_value": 37},
+        {"skill_index": 94, "skill_level": 40, "apply_value": 37},
+        {"skill_index": 110, "skill_level": 40, "apply_value": 82},
+        {"skill_index": 111, "skill_level": 40, "apply_value": 82},
+        {"skill_index": 111, "skill_level": 40, "apply_value": 80},
+        {"skill_index": 110, "skill_level": 40, "apply_value": 80},
+        {"skill_index": 147, "skill_level": 40},
+        {"_skill_index": 151, "skill_level": 0},
+        {"skill_index": 144, "skill_level": 40},
+        {"skill_index": 121, "skill_level": 30},
+        {"skill_index": 150, "skill_level": 1},
+        {"skill_index": 149, "skill_level": 1},
+        {"skill_index": 130, "skill_level": 24}
+      ],
+      "recommended_consumables": [
+        {"vnum": 91212},
+        {"vnum": 91213},
+        {"vnum": 91214},
+        {"vnum": 91215},
+        {"vnum": 91216},
+        {"vnum": 91217},
+        {"vnum": 950821},
+        {"vnum": 950822},
+        {"vnum": 950823},
+        {"vnum": 950824},
+        {"vnum": 950825},
+        {"vnum": 950826},
+        {"vnum": 27870},
+        {"vnum": 27868},
+        {"vnum": 27880},
+        {"vnum": 27881}
+      ]
+    },
+    "6": {
+      "name_key": "DUNGEON_NAME_6",
+      "boss_vnum": 4411,
+      "camera_eye": [-2550, -8300, 500],
+      "camera_target": [400, 1000, 660],
+      "level_limit": [100, 105],
+      "strength_bonus": ["RAZADOR"],
+      "resistance_bonus": ["FIRE"],
+      "min_dps": 72000,
+      "min_dps_2": 105000,
+      "pvm_skill_level": 40,
+      "recommended_biologist": 105,
+      "general_equipment": {
+        "boots": {
+          "vnum": 15396,
+          "attrs": {"CRITICAL_PCT": 10, "MAX_HP": 2000, "ATT_SPEED": 8}
+        },
+        "bracelet": {
+          "vnum": 14629,
+          "sockets": {"0": 50634, "1": 50634, "2": 50634},
+          "attrs": {"RESIST_FIRE": 15, "MAX_HP": 2000, "PENETRATE_PCT": 10}
+        },
+        "necklace": {
+          "vnum": 16626,
+          "sockets": {"0": 50634, "1": 50634, "2": 50634},
+          "attrs": {"CRITICAL_PCT": 10, "MAX_HP": 2000}
+        },
+        "earrings": {
+          "vnum": 17626,
+          "sockets": {"0": 50634, "1": 50634, "2": 50634}
+        },
+        "shield": {
+          "vnum": 13166,
+          "attrs": {"IMMUNE_STUN": 1, "STR": 12}
+        },
+        "unique1": {"vnum": 91193},
+        "ring1": {"vnum": 71135},
+        "belt": {
+          "vnum": 18059,
+          "sockets": {"0": 28430, "1": 28430, "2": 28430}
+        },
+        "booster_weapon": {
+          "vnum": 91257,
+          "attrs": {"CRITICAL_PCT": 10, "ALLELEMENTAL_BONUS": 5}
+        },
+        "booster_body": {
+          "vnum": 91258,
+          "attrs": {"ELEMENTAL_RESIST": 10, "ATT_GRADE_BONUS": 50}
+        },
+        "booster_hair": {
+          "vnum": 91259,
+          "attrs": {"ATTBONUS_MONSTER": 8, "ATTBONUS_BOSS": 8}
+        },
+        "ring3": {"vnum": 91246},
+        "ring4": {"vnum": 91247},
+        "ring5": {"vnum": 91248},
+        "pendant_fire": {"vnum": 9625},
+        "pendant_ice": {"vnum": 9850},
+        "pendant_thunder": {"vnum": 10770},
+        "pendant_wind": {"vnum": 10540},
+        "pendant_dark": {"vnum": 10310},
+        "pendant_earth": {"vnum": 10080},
+        "sash": {
+          "vnum": 85004,
+          "absorption_rate": 25,
+          "absorbed_vnum": 2179,
+          "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 56}
+        },
+        "mount": {
+          "vnum": 56000,
+          "attrs": {"ATTBONUS_MONSTER": 5, "ATTBONUS_BOSS": 5, "NORMAL_HIT_DAMAGE_BONUS": 5}
+        },
+        "pet": {
+          "vnum": 53001,
+          "sockets": {"1": 4.5, "2": 45, "3": 45, "4": 45},
+          "skills": [
+            {"skill_id": 2, "level": 20},
+            {"skill_id": 3, "level": 20},
+            {"skill_id": 7, "level": 10}
+          ]
+        }
+      },
+      "race_equipment": {
+        "warrior": {
+          "weapon": {
+            "vnum": 189,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 55}
+          },
+          "armor": {
+            "vnum": 20006,
+            "sockets": {"0": 28442, "1": 28438, "2": 28540},
+            "attrs": {"RESIST_FIRE": 15, "ATT_GRADE_BONUS": 50, "MAX_HP": 2000}
+          },
+          "helmet": {
+            "vnum": 12286,
+            "attrs": {"RESIST_FIRE": 15, "ATT_SPEED": 8}
+          }
+        },
+        "assassin": {
+          "weapon": {
+            "vnum": 1139,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 55}
+          },
+          "armor": {
+            "vnum": 20256,
+            "sockets": {"0": 28442, "1": 28438, "2": 28540},
+            "attrs": {"RESIST_FIRE": 15, "ATT_GRADE_BONUS": 50, "MAX_HP": 2000}
+          },
+          "helmet": {
+            "vnum": 12406,
+            "attrs": {"RESIST_FIRE": 15, "ATT_SPEED": 8}
+          }
+        },
+        "sura": {
+          "weapon": {
+            "vnum": 189,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 55}
+          },
+          "armor": {
+            "vnum": 20506,
+            "sockets": {"0": 28442, "1": 28438, "2": 28540},
+            "attrs": {"RESIST_FIRE": 15, "ATT_GRADE_BONUS": 50, "MAX_HP": 2000}
+          },
+          "helmet": {
+            "vnum": 12546,
+            "attrs": {"RESIST_FIRE": 15, "ATT_SPEED": 8}
+          }
+        },
+        "shaman": {
+          "weapon": {
+            "vnum": 5129,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 55}
+          },
+          "armor": {
+            "vnum": 20756,
+            "sockets": {"0": 28442, "1": 28438, "2": 28540},
+            "attrs": {"RESIST_FIRE": 15, "ATT_GRADE_BONUS": 50, "MAX_HP": 2000}
+          },
+          "helmet": {
+            "vnum": 12686,
+            "attrs": {"RESIST_FIRE": 15, "ATT_SPEED": 8}
+          }
+        },
+        "wolfman": {
+          "weapon": {
+            "vnum": 6127,
+            "sockets": {"0": 28437, "1": 28431, "2": 28430},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 45, "ATTBONUS_ANIMAL": 20}
+          },
+          "armor": {
+            "vnum": 21049,
+            "sockets": {"0": 28442, "1": 28438, "2": 28439},
+            "attrs": {"RESIST_WIND": 15, "ATT_GRADE_BONUS": 30}
+          },
+          "helmet": {
+            "vnum": 21149,
+            "sockets": {"0": 28430},
+            "attrs": {"RESIST_WIND": 15, "MAX_HP": 2000}
+          }
+        }
+      },
+      "alchemy": [
+        {
+          "vnum": 115460,
+          "attrs": ["CRITICAL_PCT"]
+        },
+        {
+          "vnum": 125460,
+          "attrs": ["ATT_GRADE_BONUS"]
+        },
+        {
+          "vnum": 135460,
+          "attrs": ["STRENGHT_DUNGEON"]
+        },
+        {"vnum": 145350},
+        {
+          "vnum": 155350,
+          "attrs": ["ATTBONUS_BOSS"]
+        },
+        {
+          "vnum": 165350,
+          "attrs": ["NORMAL_HIT_DAMAGE_BONUS"]
+        }
+      ],
+      "recommended_bonuses": [
+        {"apply_type": "ATTBONUS_MONSTER", "value": 225},
+        {
+          "apply_type": "ATTBONUS_MONSTER",
+          "value": 155,
+          "races": ["sura"]
+        },
+        {
+          "apply_type": "ATTBONUS_MONSTER",
+          "value": 155,
+          "races": ["warrior"]
+        },
+        {"apply_type": "ATTBONUS_BOSS", "value": 80},
+        {"_apply_type": "ATTBONUS_UNDEAD", "value": 100},
+        {"_apply_type": "STEAL_HP", "value": 10},
+        {"apply_type": "MAX_HP", "value": 27000},
+        {"_apply_type": "BLOCK", "value": 15},
+        {"apply_type": "RESIST_FIRE", "value": 125},
+        {"apply_type": "DEF_GRADE_BONUS", "value": 780},
+        {"apply_type": "CRITICAL_BOOST_PVM", "value": 11},
+        {
+          "_apply_type": "MAGIC_ATT_GRADE",
+          "value": 50,
+          "races": ["shaman", "sura"]
+        },
+        {
+          "_apply_type": "ATT_GRADE_BONUS",
+          "value": 100,
+          "races": ["warrior", "assassin", "wolfman"]
+        }
+      ],
+      "recommended_skills": [
+        {
+          "skill_index": 4,
+          "skill_level": 59,
+          "apply_value": 671,
+          "races": ["warrior"]
+        },
+        {
+          "skill_index": 3,
+          "skill_level": 40,
+          "apply_value": 10,
+          "races": ["warrior"]
+        },
+        {
+          "skill_index": 63,
+          "skill_level": 40,
+          "apply_value": 693,
+          "races": ["sura"]
+        },
+        {"skill_index": 96, "skill_level": 40, "apply_value": 32},
+        {"skill_index": 94, "skill_level": 40, "apply_value": 32},
+        {"skill_index": 110, "skill_level": 40, "apply_value": 32},
+        {"skill_index": 111, "skill_level": 40, "apply_value": 32},
+        {"skill_index": 147, "skill_level": 40},
+        {"_skill_index": 151, "skill_level": 0},
+        {"skill_index": 144, "skill_level": 40},
+        {"skill_index": 121, "skill_level": 30},
+        {"skill_index": 150, "skill_level": 1},
+        {"skill_index": 149, "skill_level": 1},
+        {"skill_index": 130, "skill_level": 30}
+      ],
+      "recommended_consumables": [
+        {"vnum": 91212},
+        {"vnum": 91213},
+        {"vnum": 91214},
+        {"vnum": 91215},
+        {"vnum": 91216},
+        {"vnum": 91217},
+        {"vnum": 950821},
+        {"vnum": 950822},
+        {"vnum": 950823},
+        {"vnum": 950824},
+        {"vnum": 950825},
+        {"vnum": 950826},
+        {"vnum": 27870},
+        {"vnum": 27868},
+        {"vnum": 27886},
+        {"vnum": 27880},
+        {"vnum": 27881}
+      ]
+    },
+    "7": {
+      "name_key": "DUNGEON_NAME_7",
+      "boss_vnum": 4412,
+      "camera_eye": [-2550, -8300, 500],
+      "camera_target": [400, 1000, 660],
+      "level_limit": [100, 105],
+      "strength_bonus": ["NEMERE"],
+      "resistance_bonus": ["ICE"],
+      "min_dps": 72000,
+      "min_dps_2": 105000,
+      "pvm_skill_level": 40,
+      "recommended_biologist": 105,
+      "general_equipment": {
+        "boots": {
+          "vnum": 15396,
+          "attrs": {"CRITICAL_PCT": 10, "MAX_HP": 2000, "ATT_SPEED": 8}
+        },
+        "bracelet": {
+          "vnum": 14629,
+          "sockets": {"0": 50634, "1": 50634, "2": 50634},
+          "attrs": {"RESIST_ICE": 15, "MAX_HP": 2000, "PENETRATE_PCT": 10}
+        },
+        "necklace": {
+          "vnum": 16626,
+          "sockets": {"0": 50634, "1": 50634, "2": 50634},
+          "attrs": {"CRITICAL_PCT": 10, "MAX_HP": 2000}
+        },
+        "earrings": {
+          "vnum": 17626,
+          "sockets": {"0": 50634, "1": 50634, "2": 50634}
+        },
+        "shield": {
+          "vnum": 13166,
+          "attrs": {"IMMUNE_STUN": 1, "STR": 12}
+        },
+        "unique1": {"vnum": 91193},
+        "ring1": {"vnum": 71135},
+        "belt": {
+          "vnum": 18059,
+          "sockets": {"0": 28430, "1": 28430, "2": 28430}
+        },
+        "booster_weapon": {
+          "vnum": 91257,
+          "attrs": {"CRITICAL_PCT": 10, "ALLELEMENTAL_BONUS": 5}
+        },
+        "booster_body": {
+          "vnum": 91258,
+          "attrs": {"ELEMENTAL_RESIST": 10, "ATT_GRADE_BONUS": 50}
+        },
+        "booster_hair": {
+          "vnum": 91259,
+          "attrs": {"ATTBONUS_MONSTER": 8, "ATTBONUS_BOSS": 8}
+        },
+        "ring3": {"vnum": 91246},
+        "ring4": {"vnum": 91247},
+        "ring5": {"vnum": 91248},
+        "pendant_fire": {"vnum": 9620},
+        "pendant_ice": {"vnum": 9855},
+        "pendant_thunder": {"vnum": 10770},
+        "pendant_wind": {"vnum": 10540},
+        "pendant_dark": {"vnum": 10310},
+        "pendant_earth": {"vnum": 10080},
+        "sash": {
+          "vnum": 85004,
+          "absorption_rate": 25,
+          "absorbed_vnum": 2179,
+          "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 56}
+        },
+        "mount": {
+          "vnum": 56000,
+          "attrs": {"ATTBONUS_MONSTER": 5, "ATTBONUS_BOSS": 5, "NORMAL_HIT_DAMAGE_BONUS": 5}
+        },
+        "pet": {
+          "vnum": 53001,
+          "sockets": {"1": 4.5, "2": 45, "3": 45, "4": 45},
+          "skills": [
+            {"skill_id": 2, "level": 20},
+            {"skill_id": 3, "level": 20},
+            {"skill_id": 7, "level": 10}
+          ]
+        }
+      },
+      "race_equipment": {
+        "warrior": {
+          "weapon": {
+            "vnum": 189,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 55}
+          },
+          "armor": {
+            "vnum": 20006,
+            "sockets": {"0": 28442, "1": 28438, "2": 28540},
+            "attrs": {"RESIST_ICE": 15, "ATT_GRADE_BONUS": 50, "MAX_HP": 2000}
+          },
+          "helmet": {
+            "vnum": 12286,
+            "attrs": {"RESIST_ICE": 15, "ATT_SPEED": 8}
+          }
+        },
+        "assassin": {
+          "weapon": {
+            "vnum": 1139,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 55}
+          },
+          "armor": {
+            "vnum": 20256,
+            "sockets": {"0": 28442, "1": 28438, "2": 28540},
+            "attrs": {"RESIST_ICE": 15, "ATT_GRADE_BONUS": 50, "MAX_HP": 2000}
+          },
+          "helmet": {
+            "vnum": 12406,
+            "attrs": {"RESIST_ICE": 15, "ATT_SPEED": 8}
+          }
+        },
+        "sura": {
+          "weapon": {
+            "vnum": 189,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 55}
+          },
+          "armor": {
+            "vnum": 20506,
+            "sockets": {"0": 28442, "1": 28438, "2": 28540},
+            "attrs": {"RESIST_ICE": 15, "ATT_GRADE_BONUS": 50, "MAX_HP": 2000}
+          },
+          "helmet": {
+            "vnum": 12546,
+            "attrs": {"RESIST_ICE": 15, "ATT_SPEED": 8}
+          }
+        },
+        "shaman": {
+          "weapon": {
+            "vnum": 5129,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 55}
+          },
+          "armor": {
+            "vnum": 20756,
+            "sockets": {"0": 28442, "1": 28438, "2": 28540},
+            "attrs": {"RESIST_ICE": 15, "ATT_GRADE_BONUS": 50, "MAX_HP": 2000}
+          },
+          "helmet": {
+            "vnum": 12686,
+            "attrs": {"RESIST_ICE": 15, "ATT_SPEED": 8}
+          }
+        },
+        "wolfman": {
+          "weapon": {
+            "vnum": 6127,
+            "sockets": {"0": 28437, "1": 28431, "2": 28430},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 45, "ATTBONUS_ANIMAL": 20}
+          },
+          "armor": {
+            "vnum": 21049,
+            "sockets": {"0": 28442, "1": 28438, "2": 28439},
+            "attrs": {"RESIST_WIND": 15, "ATT_GRADE_BONUS": 30}
+          },
+          "helmet": {
+            "vnum": 21149,
+            "sockets": {"0": 28430},
+            "attrs": {"RESIST_WIND": 15, "MAX_HP": 2000}
+          }
+        }
+      },
+      "alchemy": [
+        {
+          "vnum": 115460,
+          "attrs": ["CRITICAL_PCT"]
+        },
+        {
+          "vnum": 125460,
+          "attrs": ["ATT_GRADE_BONUS"]
+        },
+        {
+          "vnum": 135460,
+          "attrs": ["STRENGHT_DUNGEON"]
+        },
+        {"vnum": 145350},
+        {
+          "vnum": 155350,
+          "attrs": ["ATTBONUS_BOSS"]
+        },
+        {
+          "vnum": 165350,
+          "attrs": ["NORMAL_HIT_DAMAGE_BONUS"]
+        }
+      ],
+      "recommended_bonuses": [
+        {"apply_type": "ATTBONUS_MONSTER", "value": 225},
+        {
+          "apply_type": "ATTBONUS_MONSTER",
+          "value": 155,
+          "races": ["sura"]
+        },
+        {
+          "apply_type": "ATTBONUS_MONSTER",
+          "value": 155,
+          "races": ["warrior"]
+        },
+        {"apply_type": "ATTBONUS_BOSS", "value": 80},
+        {"_apply_type": "ATTBONUS_UNDEAD", "value": 100},
+        {"_apply_type": "STEAL_HP", "value": 10},
+        {"apply_type": "MAX_HP", "value": 27000},
+        {"_apply_type": "BLOCK", "value": 15},
+        {"apply_type": "RESIST_ICE", "value": 125},
+        {"apply_type": "DEF_GRADE_BONUS", "value": 780},
+        {"apply_type": "CRITICAL_BOOST_PVM", "value": 11},
+        {
+          "_apply_type": "MAGIC_ATT_GRADE",
+          "value": 50,
+          "races": ["shaman", "sura"]
+        },
+        {
+          "_apply_type": "ATT_GRADE_BONUS",
+          "value": 100,
+          "races": ["warrior", "assassin", "wolfman"]
+        }
+      ],
+      "recommended_skills": [
+        {
+          "skill_index": 4,
+          "skill_level": 59,
+          "apply_value": 671,
+          "races": ["warrior"]
+        },
+        {
+          "skill_index": 3,
+          "skill_level": 40,
+          "apply_value": 10,
+          "races": ["warrior"]
+        },
+        {
+          "skill_index": 63,
+          "skill_level": 40,
+          "apply_value": 693,
+          "races": ["sura"]
+        },
+        {"skill_index": 96, "skill_level": 40, "apply_value": 32},
+        {"skill_index": 94, "skill_level": 40, "apply_value": 32},
+        {"skill_index": 110, "skill_level": 40, "apply_value": 32},
+        {"skill_index": 111, "skill_level": 40, "apply_value": 32},
+        {"skill_index": 147, "skill_level": 40},
+        {"_skill_index": 151, "skill_level": 0},
+        {"skill_index": 144, "skill_level": 40},
+        {"skill_index": 121, "skill_level": 30},
+        {"skill_index": 150, "skill_level": 1},
+        {"skill_index": 149, "skill_level": 1},
+        {"skill_index": 130, "skill_level": 30}
+      ],
+      "recommended_consumables": [
+        {"vnum": 91212},
+        {"vnum": 91213},
+        {"vnum": 91214},
+        {"vnum": 91215},
+        {"vnum": 91216},
+        {"vnum": 91217},
+        {"vnum": 950821},
+        {"vnum": 950822},
+        {"vnum": 950823},
+        {"vnum": 950824},
+        {"vnum": 950825},
+        {"vnum": 950826},
+        {"vnum": 27870},
+        {"vnum": 27868},
+        {"vnum": 27886},
+        {"vnum": 27880},
+        {"vnum": 27881}
+      ]
+    },
+    "16": {
+      "name_key": "DUNGEON_NAME_16",
+      "boss_vnum": 6438,
+      "camera_eye": [-2550, -8300, 500],
+      "camera_target": [400, 1000, 660],
+      "level_limit": [105, 110],
+      "strength_bonus": ["TREE"],
+      "resistance_bonus": ["WIND"],
+      "min_dps": 55670,
+      "min_dps_2": 76220,
+      "pvm_skill_level": 40,
+      "recommended_biologist": 105,
+      "general_equipment": {
+        "boots": {
+          "vnum": 15399,
+          "attrs": {"CRITICAL_PCT": 10, "MAX_HP": 2000, "ATT_SPEED": 8}
+        },
+        "bracelet": {
+          "vnum": 14629,
+          "sockets": {"0": 50634, "1": 50634, "2": 50634},
+          "attrs": {"MAX_HP": 2000, "ELEMENTAL_RESIST": 10}
+        },
+        "necklace": {
+          "vnum": 16629,
+          "sockets": {"0": 50634, "1": 50634, "2": 50634},
+          "attrs": {"CRITICAL_PCT": 10, "MAX_HP": 2000}
+        },
+        "earrings": {
+          "vnum": 17629,
+          "sockets": {"0": 50634, "1": 50634, "2": 50634}
+        },
+        "shield": {
+          "vnum": 13169,
+          "attrs": {"IMMUNE_STUN": 1, "STR": 12}
+        },
+        "unique1": {"vnum": 91193},
+        "ring1": {"vnum": 71135},
+        "belt": {
+          "vnum": 18059,
+          "sockets": {"0": 28430, "1": 28430, "2": 28430}
+        },
+        "booster_weapon": {
+          "vnum": 91257,
+          "attrs": {"ALLELEMENTAL_BONUS": 5, "STR": 8, "CRITICAL_PCT": 10}
+        },
+        "booster_body": {
+          "vnum": 91258,
+          "attrs": {"STEAL_HP": 8, "ATT_GRADE_BONUS": 50, "ELEMENTAL_RESIST": 10}
+        },
+        "booster_hair": {
+          "vnum": 91259,
+          "attrs": {"ATTBONUS_BOSS": 8, "ATTBONUS_MONSTER": 8, "ATT_SPEED": 8}
+        },
+        "ring3": {"vnum": 91246},
+        "ring4": {"vnum": 91247},
+        "ring5": {"vnum": 91248},
+        "pendant_fire": {"vnum": 9625},
+        "pendant_ice": {"vnum": 9855},
+        "pendant_thunder": {"vnum": 10775},
+        "pendant_wind": {"vnum": 10545},
+        "pendant_dark": {"vnum": 10315},
+        "pendant_earth": {"vnum": 10085},
+        "sash": {
+          "vnum": 85004,
+          "absorption_rate": 25,
+          "absorbed_vnum": 2179,
+          "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 56}
+        },
+        "mount": {
+          "vnum": 56000,
+          "sockets": {"0": 30},
+          "attrs": {"ATTBONUS_MONSTER": 5, "ATTBONUS_STONE": 5, "ATTBONUS_BOSS": 5, "ELEMENTAL_RESIST": 5, "NORMAL_HIT_DAMAGE_BONUS": 5}
+        },
+        "pet": {
+          "vnum": 53001,
+          "sockets": {"1": 6, "2": 50, "3": 50, "4": 50},
+          "skills": [
+            {"skill_id": 1, "level": 20},
+            {"skill_id": 2, "level": 20},
+            {"skill_id": 3, "level": 20},
+            {"skill_id": 4, "level": 20},
+            {"skill_id": 5, "level": 20},
+            {"skill_id": 6, "level": 20},
+            {"skill_id": 7, "level": 20},
+            {"skill_id": 8, "level": 20}
+          ]
+        }
+      },
+      "race_equipment": {
+        "warrior": {
+          "weapon": {
+            "vnum": 189,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 59}
+          },
+          "armor": {
+            "vnum": 20009,
+            "sockets": {"0": 28542, "1": 28538, "2": 28540},
+            "attrs": {"ATT_GRADE_BONUS": 50, "ELEMENTAL_RESIST": 10}
+          },
+          "helmet": {
+            "vnum": 12289,
+            "attrs": {"ELEMENTAL_RESIST": 10, "ATT_SPEED": 8}
+          }
+        },
+        "assassin": {
+          "weapon": {
+            "vnum": 1139,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 59}
+          },
+          "armor": {
+            "vnum": 20259,
+            "sockets": {"0": 28542, "1": 28538, "2": 28540},
+            "attrs": {"ATT_GRADE_BONUS": 50, "ELEMENTAL_RESIST": 10}
+          },
+          "helmet": {
+            "vnum": 12409,
+            "attrs": {"ELEMENTAL_RESIST": 10, "ATT_SPEED": 8}
+          }
+        },
+        "sura": {
+          "weapon": {
+            "vnum": 189,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 59}
+          },
+          "armor": {
+            "vnum": 20509,
+            "sockets": {"0": 28542, "1": 28538, "2": 28540},
+            "attrs": {"ATT_GRADE_BONUS": 50, "ELEMENTAL_RESIST": 10}
+          },
+          "helmet": {
+            "vnum": 12549,
+            "attrs": {"ELEMENTAL_RESIST": 10, "ATT_SPEED": 8}
+          }
+        },
+        "shaman": {
+          "weapon": {
+            "vnum": 5129,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 59}
+          },
+          "armor": {
+            "vnum": 20759,
+            "sockets": {"0": 28542, "1": 28538, "2": 28540},
+            "attrs": {"ATT_GRADE_BONUS": 50, "ELEMENTAL_RESIST": 10}
+          },
+          "helmet": {
+            "vnum": 12689,
+            "attrs": {"ELEMENTAL_RESIST": 10, "ATT_SPEED": 8}
+          }
+        },
+        "wolfman": {
+          "weapon": {
+            "vnum": 6129,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 59, "ATTBONUS_ANIMAL": 20}
+          },
+          "armor": {
+            "vnum": 21049,
+            "sockets": {"0": 28542, "1": 28538, "2": 28539},
+            "attrs": {"ATT_GRADE_BONUS": 50, "ELEMENTAL_RESIST": 10}
+          },
+          "helmet": {
+            "vnum": 21149,
+            "sockets": {"0": 28530},
+            "attrs": {"ELEMENTAL_RESIST": 10, "ATT_SPEED": 8}
+          }
+        }
+      },
+      "alchemy": [
+        {
+          "vnum": 115460,
+          "attrs": ["CRITICAL_PCT"]
+        },
+        {
+          "vnum": 125460,
+          "attrs": ["ATT_GRADE_BONUS"]
+        },
+        {
+          "vnum": 135460,
+          "attrs": ["STRENGHT_DUNGEON"]
+        },
+        {"vnum": 145460},
+        {
+          "vnum": 155460,
+          "attrs": ["ATTBONUS_BOSS", "RESIST_BOSS"]
+        },
+        {
+          "vnum": 165460,
+          "attrs": ["NORMAL_HIT_DAMAGE_BONUS"]
+        }
+      ],
+      "recommended_bonuses": [
+        {"apply_type": "ATTBONUS_MONSTER", "value": 285},
+        {
+          "apply_type": "ATTBONUS_MONSTER",
+          "value": 155,
+          "races": ["sura"]
+        },
+        {
+          "apply_type": "ATTBONUS_MONSTER",
+          "value": 155,
+          "races": ["warrior"]
+        },
+        {"apply_type": "ATTBONUS_BOSS", "value": 80},
+        {"apply_type": "RESIST_BOSS", "value": 12},
+        {"_apply_type": "ATTBONUS_UNDEAD", "value": 100},
+        {"_apply_type": "STEAL_HP", "value": 10},
+        {"apply_type": "MAX_HP", "value": 27000},
+        {"_apply_type": "BLOCK", "value": 15},
+        {"apply_type": "RESIST_WIND", "value": 125},
+        {"apply_type": "DEF_GRADE_BONUS", "value": 880},
+        {"apply_type": "CRITICAL_BOOST_PVM", "value": 6},
+        {
+          "_apply_type": "MAGIC_ATT_GRADE",
+          "value": 50,
+          "races": ["shaman", "sura"]
+        },
+        {
+          "_apply_type": "ATT_GRADE_BONUS",
+          "value": 100,
+          "races": ["warrior", "assassin", "wolfman"]
+        }
+      ],
+      "recommended_skills": [
+        {
+          "skill_index": 4,
+          "skill_level": 59,
+          "apply_value": 671,
+          "races": ["warrior"]
+        },
+        {
+          "skill_index": 3,
+          "skill_level": 40,
+          "apply_value": 10,
+          "races": ["warrior"]
+        },
+        {
+          "skill_index": 63,
+          "skill_level": 40,
+          "apply_value": 693,
+          "races": ["sura"]
+        },
+        {"skill_index": 96, "skill_level": 40, "apply_value": 32},
+        {"skill_index": 94, "skill_level": 40, "apply_value": 32},
+        {"skill_index": 110, "skill_level": 40, "apply_value": 32},
+        {"skill_index": 111, "skill_level": 40, "apply_value": 32},
+        {"skill_index": 147, "skill_level": 40},
+        {"_skill_index": 151, "skill_level": 0},
+        {"skill_index": 144, "skill_level": 40},
+        {"skill_index": 121, "skill_level": 30},
+        {"skill_index": 150, "skill_level": 1},
+        {"skill_index": 149, "skill_level": 1},
+        {"skill_index": 129, "skill_level": 40},
+        {"skill_index": 130, "skill_level": 30}
+      ],
+      "recommended_consumables": [
+        {"vnum": 91212},
+        {"vnum": 91213},
+        {"vnum": 91214},
+        {"vnum": 91215},
+        {"vnum": 91216},
+        {"vnum": 91217},
+        {"vnum": 950821},
+        {"vnum": 950822},
+        {"vnum": 950823},
+        {"vnum": 950824},
+        {"vnum": 950825},
+        {"vnum": 950826},
+        {"vnum": 27870},
+        {"vnum": 27868},
+        {"vnum": 27886},
+        {"vnum": 27880},
+        {"vnum": 27881}
+      ]
+    },
+    "17": {
+      "name_key": "DUNGEON_NAME_17",
+      "boss_vnum": 6502,
+      "camera_eye": [0, -2700, 400],
+      "camera_target": [0, 300, 200],
+      "level_limit": [105, 110],
+      "strength_bonus": ["DRAGON"],
+      "resistance_bonus": ["FIRE"],
+      "min_dps": 57500,
+      "min_dps_2": 78200,
+      "pvm_skill_level": 40,
+      "recommended_biologist": 108,
+      "general_equipment": {
+        "boots": {
+          "vnum": 15399,
+          "attrs": {"CRITICAL_PCT": 10, "MAX_HP": 2000, "ATT_SPEED": 8},
+          "attrs_67": {"STRENGHT_DUNGEON": 5}
+        },
+        "bracelet": {
+          "vnum": 14629,
+          "sockets": {"0": 50634, "1": 50634, "2": 50634},
+          "attrs": {"MAX_HP": 2000, "ELEMENTAL_RESIST": 10},
+          "attrs_67": {"ATTBONUS_BOSS": 5}
+        },
+        "necklace": {
+          "vnum": 16629,
+          "sockets": {"0": 50634, "1": 50634, "2": 50634},
+          "attrs": {"CRITICAL_PCT": 10, "MAX_HP": 2000}
+        },
+        "earrings": {
+          "vnum": 17629,
+          "sockets": {"0": 50634, "1": 50634, "2": 50634}
+        },
+        "shield": {
+          "vnum": 13169,
+          "attrs": {"IMMUNE_STUN": 1, "STR": 12},
+          "attrs_67": {"POLYMORPH_DAMAGE": 5}
+        },
+        "unique1": {"vnum": 91193},
+        "ring1": {"vnum": 71135},
+        "belt": {
+          "vnum": 18094,
+          "sockets": {"0": 28430, "1": 28430, "2": 28430}
+        },
+        "energy_crystal": {
+          "vnum": 93302,
+          "sockets": {"0": 3, "1": 100, "2": 8, "3": 10800},
+          "attrs": {"ATTBONUS_DRAGON": 8}
+        },
+        "booster_weapon": {
+          "vnum": 91257,
+          "attrs": {"ALLELEMENTAL_BONUS": 5, "STR": 8, "CRITICAL_PCT": 10}
+        },
+        "booster_body": {
+          "vnum": 91258,
+          "attrs": {"STEAL_HP": 8, "ATT_GRADE_BONUS": 50, "ELEMENTAL_RESIST": 10}
+        },
+        "booster_hair": {
+          "vnum": 91259,
+          "attrs": {"ATTBONUS_BOSS": 8, "ATTBONUS_MONSTER": 8, "ATT_SPEED": 8}
+        },
+        "ring3": {"vnum": 91246},
+        "ring4": {"vnum": 93334},
+        "ring5": {"vnum": 91248},
+        "pendant_fire": {"vnum": 9627},
+        "pendant_ice": {"vnum": 9857},
+        "pendant_thunder": {"vnum": 10777},
+        "pendant_wind": {"vnum": 10547},
+        "pendant_dark": {"vnum": 10317},
+        "pendant_earth": {"vnum": 10087},
+        "pendant_soul": {
+          "vnum": 91640,
+          "attrs": {"SWORD_BREAK": 4, "POLYMORPH_DAMAGE": 4, "ATTBONUS_BOSS": 2}
+        },
+        "sash": {
+          "vnum": 85004,
+          "absorption_rate": 25,
+          "absorbed_vnum": 2179,
+          "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 56}
+        },
+        "mount": {
+          "vnum": 56000,
+          "sockets": {"0": 30},
+          "attrs": {"ATTBONUS_MONSTER": 5, "ATTBONUS_STONE": 5, "ATTBONUS_BOSS": 5, "ELEMENTAL_RESIST": 5, "NORMAL_HIT_DAMAGE_BONUS": 5}
+        },
+        "pet": {
+          "vnum": 53001,
+          "sockets": {"1": 6, "2": 50, "3": 50, "4": 50},
+          "skills": [
+            {"skill_id": 1, "level": 20},
+            {"skill_id": 2, "level": 20},
+            {"skill_id": 3, "level": 20},
+            {"skill_id": 4, "level": 20},
+            {"skill_id": 5, "level": 20},
+            {"skill_id": 6, "level": 20},
+            {"skill_id": 7, "level": 20},
+            {"skill_id": 8, "level": 20},
+            {"skill_id": 10, "level": 14}
+          ]
+        }
+      },
+      "race_equipment": {
+        "warrior": {
+          "weapon": {
+            "vnum": 189,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 58, "CRITICAL_PCT": 8},
+            "attrs_67": {"ATTBONUS_BOSS": 5}
+          },
+          "armor": {
+            "vnum": 20816,
+            "sockets": {"0": 28542, "1": 28538, "2": 28540},
+            "attrs": {"ATT_GRADE_BONUS": 50, "ELEMENTAL_RESIST": 10},
+            "attrs_67": {"NORMAL_HIT_DAMAGE_BONUS": 5}
+          },
+          "helmet": {
+            "vnum": 12289,
+            "attrs": {"ELEMENTAL_RESIST": 10, "ATT_SPEED": 8},
+            "attrs_67": {"MELEE_MAGIC_ATTBONUS_PER": 5}
+          },
+          "pendant_soul": {
+            "vnum": 91640,
+            "attrs": {"SWORD_BREAK": 4, "POLYMORPH_DAMAGE": 4, "ATTBONUS_BOSS": 2}
+          }
+        },
+        "assassin": {
+          "weapon": {
+            "vnum": 1139,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 58, "CRITICAL_PCT": 8},
+            "attrs_67": {"ATTBONUS_BOSS": 5}
+          },
+          "armor": {
+            "vnum": 20826,
+            "sockets": {"0": 28542, "1": 28538, "2": 28540},
+            "attrs": {"ATT_GRADE_BONUS": 50, "ELEMENTAL_RESIST": 10},
+            "attrs_67": {"NORMAL_HIT_DAMAGE_BONUS": 5}
+          },
+          "helmet": {
+            "vnum": 12409,
+            "attrs": {"ELEMENTAL_RESIST": 10, "ATT_SPEED": 8},
+            "attrs_67": {"MELEE_MAGIC_ATTBONUS_PER": 5}
+          },
+          "pendant_soul": {
+            "vnum": 91640,
+            "attrs": {"DAGGER_BREAK": 4, "POLYMORPH_DAMAGE": 4, "ATTBONUS_BOSS": 2}
+          }
+        },
+        "sura": {
+          "weapon": {
+            "vnum": 189,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 58, "CRITICAL_PCT": 8},
+            "attrs_67": {"ATTBONUS_BOSS": 5}
+          },
+          "armor": {
+            "vnum": 20836,
+            "sockets": {"0": 28542, "1": 28538, "2": 28540},
+            "attrs": {"ATT_GRADE_BONUS": 50, "ELEMENTAL_RESIST": 10},
+            "attrs_67": {"NORMAL_HIT_DAMAGE_BONUS": 5}
+          },
+          "helmet": {
+            "vnum": 12549,
+            "attrs": {"ELEMENTAL_RESIST": 10, "ATT_SPEED": 8},
+            "attrs_67": {"MELEE_MAGIC_ATTBONUS_PER": 5}
+          },
+          "pendant_soul": {
+            "vnum": 91640,
+            "attrs": {"SWORD_BREAK": 4, "POLYMORPH_DAMAGE": 4, "ATTBONUS_BOSS": 2}
+          }
+        },
+        "shaman": {
+          "weapon": {
+            "vnum": 5129,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 58, "CRITICAL_PCT": 8},
+            "attrs_67": {"ATTBONUS_BOSS": 5}
+          },
+          "armor": {
+            "vnum": 20846,
+            "sockets": {"0": 28542, "1": 28538, "2": 28540},
+            "attrs": {"ATT_GRADE_BONUS": 50, "ELEMENTAL_RESIST": 10},
+            "attrs_67": {"NORMAL_HIT_DAMAGE_BONUS": 5}
+          },
+          "helmet": {
+            "vnum": 12689,
+            "attrs": {"ELEMENTAL_RESIST": 10, "ATT_SPEED": 8},
+            "attrs_67": {"MELEE_MAGIC_ATTBONUS_PER": 5}
+          },
+          "pendant_soul": {
+            "vnum": 91640,
+            "attrs": {"BELL_BREAK": 4, "POLYMORPH_DAMAGE": 4, "ATTBONUS_BOSS": 2}
+          }
+        },
+        "wolfman": {
+          "weapon": {
+            "vnum": 6129,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 58, "CRITICAL_PCT": 8, "ATTBONUS_ANIMAL": 20},
+            "attrs_67": {"ATTBONUS_BOSS": 5}
+          },
+          "armor": {
+            "vnum": 20956,
+            "sockets": {"0": 28542, "1": 28538, "2": 28539},
+            "attrs": {"ATT_GRADE_BONUS": 50, "ELEMENTAL_RESIST": 10},
+            "attrs_67": {"NORMAL_HIT_DAMAGE_BONUS": 5}
+          },
+          "helmet": {
+            "vnum": 21149,
+            "sockets": {"0": 28530},
+            "attrs": {"ELEMENTAL_RESIST": 10, "ATT_SPEED": 8},
+            "attrs_67": {"MELEE_MAGIC_ATTBONUS_PER": 5}
+          },
+          "pendant_soul": {
+            "vnum": 91640,
+            "attrs": {"SWORD_BREAK": 4, "POLYMORPH_DAMAGE": 4, "ATTBONUS_BOSS": 2}
+          }
+        }
+      },
+      "alchemy": [
+        {
+          "vnum": 115460,
+          "attrs": ["CRITICAL_PCT"]
+        },
+        {
+          "vnum": 125460,
+          "attrs": ["ATT_GRADE_BONUS"]
+        },
+        {
+          "vnum": 135460,
+          "attrs": ["STRENGHT_DUNGEON"]
+        },
+        {"vnum": 145460},
+        {
+          "vnum": 155460,
+          "attrs": ["ATTBONUS_BOSS", "RESIST_BOSS"]
+        },
+        {
+          "vnum": 165460,
+          "attrs": ["NORMAL_HIT_DAMAGE_BONUS"]
+        }
+      ],
+      "recommended_bonuses": [
+        {"apply_type": "ATTBONUS_MONSTER", "value": 285},
+        {
+          "apply_type": "ATTBONUS_MONSTER",
+          "value": 155,
+          "races": ["sura"]
+        },
+        {
+          "apply_type": "ATTBONUS_MONSTER",
+          "value": 155,
+          "races": ["warrior"]
+        },
+        {"apply_type": "ATTBONUS_BOSS", "value": 80},
+        {"apply_type": "RESIST_BOSS", "value": 12},
+        {"_apply_type": "ATTBONUS_UNDEAD", "value": 100},
+        {"_apply_type": "STEAL_HP", "value": 10},
+        {"apply_type": "MAX_HP", "value": 27000},
+        {"_apply_type": "BLOCK", "value": 15},
+        {"apply_type": "RESIST_FIRE", "value": 130},
+        {"apply_type": "DEF_GRADE_BONUS", "value": 880},
+        {"apply_type": "CRITICAL_BOOST_PVM", "value": 6},
+        {
+          "_apply_type": "MAGIC_ATT_GRADE",
+          "value": 50,
+          "races": ["shaman", "sura"]
+        },
+        {
+          "_apply_type": "ATT_GRADE_BONUS",
+          "value": 100,
+          "races": ["warrior", "assassin", "wolfman"]
+        }
+      ],
+      "recommended_skills": [
+        {
+          "skill_index": 4,
+          "skill_level": 59,
+          "apply_value": 671,
+          "races": ["warrior"]
+        },
+        {
+          "skill_index": 3,
+          "skill_level": 40,
+          "apply_value": 10,
+          "races": ["warrior"]
+        },
+        {
+          "skill_index": 63,
+          "skill_level": 40,
+          "apply_value": 693,
+          "races": ["sura"]
+        },
+        {"skill_index": 96, "skill_level": 40, "apply_value": 32},
+        {"skill_index": 94, "skill_level": 40, "apply_value": 32},
+        {"skill_index": 110, "skill_level": 40, "apply_value": 32},
+        {"skill_index": 111, "skill_level": 40, "apply_value": 32},
+        {"skill_index": 147, "skill_level": 40},
+        {"_skill_index": 151, "skill_level": 0},
+        {"skill_index": 144, "skill_level": 40},
+        {"skill_index": 121, "skill_level": 30},
+        {"skill_index": 150, "skill_level": 1},
+        {"skill_index": 149, "skill_level": 1},
+        {"skill_index": 129, "skill_level": 40},
+        {"skill_index": 130, "skill_level": 30}
+      ],
+      "recommended_consumables": [
+        {"vnum": 91212},
+        {"vnum": 91213},
+        {"vnum": 91214},
+        {"vnum": 91215},
+        {"vnum": 91216},
+        {"vnum": 91217},
+        {"vnum": 950821},
+        {"vnum": 950822},
+        {"vnum": 950823},
+        {"vnum": 950824},
+        {"vnum": 950825},
+        {"vnum": 950826},
+        {"vnum": 27870},
+        {"vnum": 27868},
+        {"vnum": 27886},
+        {"vnum": 27880},
+        {"vnum": 27881}
+      ]
+    },
+    "18": {
+      "name_key": "DUNGEON_NAME_18",
+      "boss_vnum": 20420,
+      "level_limit": [110, 110],
+      "strength_bonus": ["MELEY"],
+      "resistance_bonus": ["FIRE"],
+      "min_dps": 52261,
+      "min_dps_2": 80360,
+      "pvm_skill_level": 40,
+      "recommended_biologist": 110,
+      "general_equipment": {
+        "boots": {
+          "vnum": 15444,
+          "attrs": {"CRITICAL_PCT": 10, "MAX_HP": 2000, "ATT_SPEED": 8},
+          "attrs_67": {"STRENGHT_DUNGEON": 5, "ATT_GRADE_BONUS": 40}
+        },
+        "bracelet": {
+          "vnum": 14629,
+          "sockets": {"0": 50634, "1": 50634, "2": 50634},
+          "attrs": {"MAX_HP": 2000, "ELEMENTAL_RESIST": 10},
+          "attrs_67": {"CRITICAL_PCT": 5}
+        },
+        "necklace": {
+          "vnum": 16629,
+          "sockets": {"0": 50634, "1": 50634, "2": 50634},
+          "attrs": {"CRITICAL_PCT": 10, "MAX_HP": 2000},
+          "attrs_67": {"ATTBONUS_STONE": 4, "ATTBONUS_MONSTER": 4}
+        },
+        "earrings": {
+          "vnum": 17629,
+          "sockets": {"0": 50634, "1": 50634, "2": 50634},
+          "attrs_67": {"ATTBONUS_STONE": 4, "ATTBONUS_MONSTER": 4}
+        },
+        "shield": {
+          "vnum": 13169,
+          "attrs": {"IMMUNE_STUN": 1, "STR": 12},
+          "attrs_67": {"POLYMORPH_DAMAGE": 5, "ATTBONUS_MONSTER": 3}
+        },
+        "unique1": {"vnum": 91193},
+        "ring1": {"vnum": 71135},
+        "belt": {
+          "vnum": 18099,
+          "sockets": {"0": 28430, "1": 28430, "2": 28430}
+        },
+        "energy_crystal": {
+          "vnum": 93303,
+          "sockets": {"0": 4, "1": 100, "2": 2130440, "3": 36258},
+          "attrs": {"ATTBONUS_TREE": 8, "ATTBONUS_STONE": 8, "ATTBONUS_DRAGON": 8, "STRENGHT_DUNGEON": 8}
+        },
+        "booster_weapon": {
+          "vnum": 91257,
+          "attrs": {"ALLELEMENTAL_BONUS": 5, "STR": 12, "CRITICAL_PCT": 10}
+        },
+        "booster_body": {
+          "vnum": 91258,
+          "attrs": {"STEAL_HP": 8, "ATT_GRADE_BONUS": 50, "ELEMENTAL_RESIST": 10}
+        },
+        "booster_hair": {
+          "vnum": 91259,
+          "attrs": {"ATTBONUS_BOSS": 8, "ATTBONUS_MONSTER": 8, "ATT_SPEED": 8}
+        },
+        "ring3": {"vnum": 91246},
+        "ring4": {"vnum": 93334},
+        "ring5": {"vnum": 93335},
+        "pendant_fire": {"vnum": 9629},
+        "pendant_ice": {"vnum": 9859},
+        "pendant_thunder": {"vnum": 10779},
+        "pendant_wind": {"vnum": 10549},
+        "pendant_dark": {"vnum": 10319},
+        "pendant_earth": {"vnum": 10089},
+        "pendant_soul": {
+          "vnum": 91640,
+          "attrs": {"ATTBONUS_STONE": 5, "POLYMORPH_DAMAGE": 5, "SWORD_BREAK": 5}
+        },
+        "sash": {
+          "vnum": 85004,
+          "absorption_rate": 25,
+          "absorbed_vnum": 2179,
+          "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 60}
+        },
+        "mount": {
+          "vnum": 56000,
+          "sockets": {"0": 30},
+          "attrs": {"ATTBONUS_MONSTER": 5, "ATTBONUS_STONE": 5, "ATTBONUS_BOSS": 5, "ELEMENTAL_RESIST": 5, "NORMAL_HIT_DAMAGE_BONUS": 5}
+        },
+        "pet": {
+          "vnum": 53100,
+          "sockets": {"1": 6, "2": 50, "3": 50, "4": 50},
+          "skills": [
+            {"skill_id": 1, "level": 20},
+            {"skill_id": 2, "level": 20},
+            {"skill_id": 3, "level": 20},
+            {"skill_id": 4, "level": 20},
+            {"skill_id": 5, "level": 20},
+            {"skill_id": 6, "level": 20},
+            {"skill_id": 7, "level": 20},
+            {"skill_id": 8, "level": 20},
+            {"skill_id": 11, "level": 15}
+          ]
+        }
+      },
+      "race_equipment": {
+        "warrior": {
+          "weapon": {
+            "vnum": 189,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 58},
+            "attrs_67": {"STR": 12}
+          },
+          "armor": {
+            "vnum": 20769,
+            "sockets": {"0": 28542, "1": 28444, "2": 28540},
+            "attrs": {"ATT_GRADE_BONUS": 50},
+            "attrs_67": {"NORMAL_HIT_DAMAGE_BONUS": 5, "ATT_GRADE_BONUS": 50}
+          },
+          "helmet": {
+            "vnum": 12694,
+            "attrs": {"ELEMENTAL_RESIST": 10, "ATT_SPEED": 8},
+            "attrs_67": {"ATT_GRADE_BONUS": 30, "MELEE_MAGIC_ATTBONUS_PER": 5}
+          },
+          "pendant_soul": {
+            "vnum": 91640,
+            "attrs": {"ATTBONUS_STONE": 5, "POLYMORPH_DAMAGE": 5, "SWORD_BREAK": 5}
+          }
+        },
+        "assassin": {
+          "weapon": {
+            "vnum": 1139,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 58},
+            "attrs_67": {"STR": 12}
+          },
+          "armor": {
+            "vnum": 20779,
+            "sockets": {"0": 28542, "1": 28444, "2": 28540},
+            "attrs": {"ATT_GRADE_BONUS": 50},
+            "attrs_67": {"NORMAL_HIT_DAMAGE_BONUS": 5, "ATT_GRADE_BONUS": 50}
+          },
+          "helmet": {
+            "vnum": 12704,
+            "attrs": {"ELEMENTAL_RESIST": 10, "ATT_SPEED": 8},
+            "attrs_67": {"ATT_GRADE_BONUS": 30, "MELEE_MAGIC_ATTBONUS_PER": 5}
+          },
+          "pendant_soul": {
+            "vnum": 91640,
+            "attrs": {"ATTBONUS_STONE": 5, "POLYMORPH_DAMAGE": 5, "DAGGER_BREAK": 5}
+          }
+        },
+        "sura": {
+          "weapon": {
+            "vnum": 189,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 58},
+            "attrs_67": {"STR": 12}
+          },
+          "armor": {
+            "vnum": 20789,
+            "sockets": {"0": 28542, "1": 28444, "2": 28540},
+            "attrs": {"ATT_GRADE_BONUS": 50},
+            "attrs_67": {"NORMAL_HIT_DAMAGE_BONUS": 5, "ATT_GRADE_BONUS": 50}
+          },
+          "helmet": {
+            "vnum": 12714,
+            "attrs": {"ELEMENTAL_RESIST": 10, "ATT_SPEED": 8},
+            "attrs_67": {"ATT_GRADE_BONUS": 30, "MELEE_MAGIC_ATTBONUS_PER": 5}
+          },
+          "pendant_soul": {
+            "vnum": 91640,
+            "attrs": {"ATTBONUS_STONE": 5, "POLYMORPH_DAMAGE": 5, "SWORD_BREAK": 5}
+          }
+        },
+        "shaman": {
+          "weapon": {
+            "vnum": 5129,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 58},
+            "attrs_67": {"STR": 12}
+          },
+          "armor": {
+            "vnum": 20799,
+            "sockets": {"0": 28542, "1": 28444, "2": 28540},
+            "attrs": {"ATT_GRADE_BONUS": 50},
+            "attrs_67": {"NORMAL_HIT_DAMAGE_BONUS": 5, "ATT_GRADE_BONUS": 50}
+          },
+          "helmet": {
+            "vnum": 12724,
+            "attrs": {"ELEMENTAL_RESIST": 10, "ATT_SPEED": 8},
+            "attrs_67": {"ATT_GRADE_BONUS": 30, "MELEE_MAGIC_ATTBONUS_PER": 5}
+          },
+          "pendant_soul": {
+            "vnum": 91640,
+            "attrs": {"ATTBONUS_STONE": 5, "POLYMORPH_DAMAGE": 5, "BELL_BREAK": 5}
+          }
+        },
+        "wolfman": {
+          "weapon": {
+            "vnum": 6129,
+            "sockets": {"0": 28537, "1": 28531, "2": 28530},
+            "attrs": {"NORMAL_HIT_DAMAGE_BONUS": 58},
+            "attrs_67": {"STR": 12}
+          },
+          "armor": {
+            "vnum": 20959,
+            "sockets": {"0": 28542, "1": 28444, "2": 28539},
+            "attrs": {"ATT_GRADE_BONUS": 50},
+            "attrs_67": {"NORMAL_HIT_DAMAGE_BONUS": 5, "ATT_GRADE_BONUS": 50}
+          },
+          "helmet": {
+            "vnum": 21554,
+            "attrs": {"ELEMENTAL_RESIST": 10, "ATT_SPEED": 8},
+            "attrs_67": {"ATT_GRADE_BONUS": 30, "MELEE_MAGIC_ATTBONUS_PER": 5}
+          },
+          "pendant_soul": {
+            "vnum": 91640,
+            "attrs": {"ATTBONUS_STONE": 5, "POLYMORPH_DAMAGE": 5, "SWORD_BREAK": 5}
+          }
+        }
+      },
+      "alchemy": [
+        {
+          "vnum": 115460,
+          "attrs": ["CRITICAL_PCT"]
+        },
+        {
+          "vnum": 125460,
+          "attrs": ["ATT_GRADE_BONUS"]
+        },
+        {
+          "vnum": 135460,
+          "attrs": ["STRENGHT_DUNGEON", "SKILL_DEFEND_BONUS"]
+        },
+        {"vnum": 145460},
+        {
+          "vnum": 155460,
+          "attrs": ["ATTBONUS_BOSS", "RESIST_BOSS"]
+        },
+        {
+          "vnum": 165460,
+          "attrs": ["NORMAL_HIT_DAMAGE_BONUS"]
+        }
+      ],
+      "recommended_bonuses": [
+        {"apply_type": "ATTBONUS_MONSTER", "value": 300},
+        {
+          "apply_type": "ATTBONUS_MONSTER",
+          "value": 155,
+          "races": ["sura"]
+        },
+        {
+          "apply_type": "ATTBONUS_MONSTER",
+          "value": 155,
+          "races": ["warrior"]
+        },
+        {"apply_type": "ATTBONUS_BOSS", "value": 90},
+        {"apply_type": "ATTBONUS_STONE", "value": 135},
+        {"apply_type": "ATTBONUS_MELEY", "value": 21},
+        {"apply_type": "RESIST_BOSS", "value": 12},
+        {"apply_type": "SKILL_DEFEND_BONUS", "value": 12},
+        {"_apply_type": "ATTBONUS_UNDEAD", "value": 100},
+        {"_apply_type": "STEAL_HP", "value": 10},
+        {"apply_type": "MAX_HP", "value": 27000},
+        {"_apply_type": "BLOCK", "value": 15},
+        {"apply_type": "RESIST_FIRE", "value": 130},
+        {"apply_type": "DEF_GRADE_BONUS", "value": 880},
+        {"apply_type": "CRITICAL_BOOST_PVM", "value": 11},
+        {
+          "_apply_type": "MAGIC_ATT_GRADE",
+          "value": 50,
+          "races": ["shaman", "sura"]
+        },
+        {
+          "_apply_type": "ATT_GRADE_BONUS",
+          "value": 100,
+          "races": ["warrior", "assassin", "wolfman"]
+        }
+      ],
+      "recommended_skills": [
+        {
+          "skill_index": 4,
+          "skill_level": 59,
+          "apply_value": 671,
+          "races": ["warrior"]
+        },
+        {
+          "skill_index": 3,
+          "skill_level": 40,
+          "apply_value": 10,
+          "races": ["warrior"]
+        },
+        {
+          "skill_index": 63,
+          "skill_level": 40,
+          "apply_value": 693,
+          "races": ["sura"]
+        },
+        {"skill_index": 96, "skill_level": 40, "apply_value": 32},
+        {"skill_index": 94, "skill_level": 40, "apply_value": 32},
+        {"skill_index": 110, "skill_level": 40, "apply_value": 32},
+        {"skill_index": 111, "skill_level": 40, "apply_value": 32},
+        {"skill_index": 147, "skill_level": 40},
+        {"_skill_index": 151, "skill_level": 0},
+        {"skill_index": 144, "skill_level": 40},
+        {"skill_index": 121, "skill_level": 30},
+        {"skill_index": 150, "skill_level": 1},
+        {"skill_index": 149, "skill_level": 1},
+        {"skill_index": 129, "skill_level": 40},
+        {"skill_index": 130, "skill_level": 30}
+      ],
+      "recommended_consumables": [
+        {"vnum": 91212},
+        {"vnum": 91213},
+        {"vnum": 91214},
+        {"vnum": 91215},
+        {"vnum": 91216},
+        {"vnum": 91217},
+        {"vnum": 950821},
+        {"vnum": 950822},
+        {"vnum": 950823},
+        {"vnum": 950824},
+        {"vnum": 950825},
+        {"vnum": 950826},
+        {"vnum": 27870},
+        {"vnum": 27868},
+        {"vnum": 27886},
+        {"vnum": 27880},
+        {"vnum": 27881}, {"vnum": 93450}
+      ]
+    },
+    "8": {
+      "hidden": true,
+      "name_key": "DUNGEON_NAME_8",
+      "boss_vnum": 0,
+      "camera_eye": [0, -1500, 300],
+      "camera_target": [0, 0, 100],
+      "level_limit": [1, 120],
+      "strength_bonus": [],
+      "resistance_bonus": [],
+      "min_dps": 0,
+      "min_dps_2": 0,
+      "general_equipment": {},
+      "race_equipment": {}
+    },
+    "19": {
+      "name_key": "DUNGEON_NAME_ABYSS",
+      "guide": "SPYRAL_ABYSS"
+    }
+  }
+}

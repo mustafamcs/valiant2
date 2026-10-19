@@ -1,0 +1,4 @@
+GENERAL RUN Agathion_BabyFox_BattleRun_01.msa 100
+GENERAL WAIT Agathion_BabyFox_NeutralStand_01.msa 100
+GENERAL WALK Agathion_BabyFox_NeutralWalk_01.msa 100
+GENERAL WAIT Agathion_BabyFox_SpecialStand_01.msa 100

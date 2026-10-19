@@ -72,7 +72,7 @@ try {
             Get-ChildItem $runtimePack -File -Filter '*.pak*' -ErrorAction SilentlyContinue | ForEach-Object {
                 Remove-Item $_.FullName -Force -ErrorAction SilentlyContinue
             }
-            & $archiver 'config.json' 'all' > $null
+            cmd.exe /c ""$archiver" config.json all < NUL" > $null
             if ($LASTEXITCODE -ne 0) { throw "FSArchiver failed with code $LASTEXITCODE." }
         } else {
             foreach ($arc in $toBuild) {
@@ -86,7 +86,7 @@ try {
                         Move-Item $targetPak $oldPak -Force -ErrorAction SilentlyContinue
                     }
                 }
-                & $archiver 'config.json' $arc > $null
+                cmd.exe /c ""$archiver" config.json $arc < NUL" > $null
                 if ($LASTEXITCODE -ne 0) { throw "FSArchiver failed on $arc with code $LASTEXITCODE." }
             }
         }
@@ -107,7 +107,7 @@ try {
                 }
             }
         }
-        & $archiver 'config.json' $normArchive > $null
+        cmd.exe /c ""$archiver" config.json $normArchive < NUL" > $null
         if ($LASTEXITCODE -ne 0) { throw "FSArchiver failed with code $LASTEXITCODE." }
     }
 } finally {
