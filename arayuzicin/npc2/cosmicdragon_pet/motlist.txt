@@ -1,4 +1,0 @@
-GENERAL RUN cosmicdragon_pet_BattleRun_01.msa 100
-GENERAL WAIT cosmicdragon_pet_NeutralStand_01.msa 100
-GENERAL WALK cosmicdragon_pet_NeutralWalk_01.msa 100
-GENERAL WAIT cosmicdragon_pet_SpecialStand_01.msa 100

@@ -1,9 +1,0 @@
-YPRT
-73972639600
-ambiencesoundvector		"sound/ambience/wind.mp3"
-maxvolumeareapercentage		"0.0030000"
-playinterval		"0.000000"
-playintervalvariation		"0.000000"
-playtype		"LOOP"
-propertyname		"wind"
-propertytype		"Ambience"

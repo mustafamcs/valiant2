@@ -1,9 +1,0 @@
-YPRT
-83972639609
-ambiencesoundvector		"sound/ambience/emi.mp3"
-maxvolumeareapercentage		"0.010000"
-playinterval		"0.000000"
-playintervalvariation		"0.000000"
-playtype		"LOOP"
-propertyname		"emi"
-propertytype		"Ambience"

@@ -1,9 +1,0 @@
-YPRT
-83972639608
-ambiencesoundvector		"sound/ambience/handpan.mp3"
-maxvolumeareapercentage		"0.010000"
-playinterval		"0.000000"
-playintervalvariation		"0.000000"
-playtype		"LOOP"
-propertyname		"handpan"
-propertytype		"Ambience"

@@ -1,3 +1,0 @@
-GENERAL DEAD blow.msa 100
-GENERAL SPAWN drop.msa 100
-GENERAL WAIT wait.msa 100

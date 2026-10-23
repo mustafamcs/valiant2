@@ -1,8 +1,0 @@
-[DELAY value;0]
-1. Můžeš mít více kolekcí, abys tímto počtem vynásobil počet truhel.[ENTER]
-[ENTER]
-2. Lze mít až 5 Královských kolekcí.[ENTER]
-[ENTER]
-3. Královskou kolekci již nelze použít po začátku hry.[ENTER]
-[ENTER]
-4. Více detailů o hře najdeš po kliknutí na 'Pravidla'

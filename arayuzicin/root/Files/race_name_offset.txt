@@ -1,1 +1,0 @@
-# vnum	nameOffset  (unitati de lume, - = numele mai jos). Reglabil fara recompilare, doar restart client.

@@ -1,9 +1,0 @@
-YPRT
-53972639600
-ambiencesoundvector		"sound/ambience/seagull.mp3"
-maxvolumeareapercentage		"0.300000"
-playinterval		"0.000000"
-playintervalvariation		"0.000000"
-playtype		"LOOP"
-propertyname		"seagull"
-propertytype		"Ambience"
