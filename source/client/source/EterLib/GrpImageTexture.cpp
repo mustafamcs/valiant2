@@ -2,6 +2,7 @@
 #include "../eterBase/MappedFile.h"
 #include "../EterFSLib/FileSystemIncl.hpp"
 #include "GrpImageTexture.h"
+#include "GrpScreen.h"
 
 bool CGraphicImageTexture::Lock(int* pRetPitch, void** ppRetPixels, int level)
 {
@@ -228,7 +229,7 @@ bool CGraphicImageTexture::CreateFromMemoryFile(UINT bufSize, const void* c_pvBu
 			TraceError("CreateFromMemoryFile: Cannot GetImageInfo from texture");
 			return false;
 		}
-		if (FAILED(D3DXCreateTextureFromFileInMemoryEx(
+		HRESULT hrTex = D3DXCreateTextureFromFileInMemoryEx(
 			ms_lpd3dDevice,
 			c_pvBuf,
 			bufSize,
@@ -243,9 +244,34 @@ bool CGraphicImageTexture::CreateFromMemoryFile(UINT bufSize, const void* c_pvBu
 			0xffff00ff,
 			NULL, //we already have our image info, doesn't need to get it again
 			NULL,
-			&m_lpd3dTexture)))
+			&m_lpd3dTexture);
+
+		if (FAILED(hrTex) && ms_lpd3dDevice &&
+			ms_lpd3dDevice->TestCooperativeLevel() == D3DERR_DEVICENOTRESET &&
+			CScreen::RestoreDeviceNow())
 		{
-			TraceError("CreateFromMemoryFile: Cannot create texture");
+			hrTex = D3DXCreateTextureFromFileInMemoryEx(
+				ms_lpd3dDevice,
+				c_pvBuf,
+				bufSize,
+				imageInfo.Width,
+				imageInfo.Height,
+				D3DX_DEFAULT,
+				0,
+				d3dFmt,
+				D3DPOOL_MANAGED,
+				dwFilter,
+				dwFilter,
+				0xffff00ff,
+				NULL,
+				NULL,
+				&m_lpd3dTexture);
+		}
+
+		if (FAILED(hrTex))
+		{
+			HRESULT hrCoop = ms_lpd3dDevice ? ms_lpd3dDevice->TestCooperativeLevel() : 0xFFFFFFFF;
+			TraceError("CreateFromMemoryFile: Cannot create texture (hr=0x%08X, coop=0x%08X)", hrTex, hrCoop);
 			return false;
 		}
 

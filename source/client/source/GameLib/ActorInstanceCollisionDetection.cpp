@@ -31,8 +31,11 @@
 #include "../UserInterface/PythonNetworkStream.h"
 #endif
 
+#ifdef ENABLE_METIN_QUEUE
+#include "../UserInterface/StdAfx.h"
 #include "../UserInterface/PythonChat.h"
 #include "../UserInterface/PythonPlayer.h"
+#endif
 
 void CActorInstance::__InitializeCollisionData()
 {

@@ -1,4 +1,5 @@
 ﻿#pragma once
+#ifdef ENABLE_RENDER_TARGET
 #include <unordered_map>
 #include <cstdint>
 
@@ -28,3 +29,4 @@ public:
 protected:
 	std::unordered_map<int, std::shared_ptr<CRenderTarget>> m_renderTargets;
 };
+#endif

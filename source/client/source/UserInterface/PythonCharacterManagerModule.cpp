@@ -704,6 +704,8 @@ void initchrmgr()
 		{ "RegisterComboAttackNew",		chrmgrRegisterComboAttackNew,			METH_VARARGS },
 		{ "RegisterRaceName",			chrmgrRegisterRaceName,					METH_VARARGS },
 		{ "RegisterRaceSrcName",		chrmgrRegisterRaceSrcName,				METH_VARARGS },
+		{ "RegisterCacheMotionData",	chrmgrRegisterCacheMotionData,			METH_VARARGS },
+		{ "RegisterMotionData",			chrmgrRegisterMotionData,				METH_VARARGS },
 
 		// ETC
 		{ "SetAffect",					chrmgrSetAffect,						METH_VARARGS },
@@ -745,8 +747,8 @@ void initchrmgr()
 #endif
 	PyModule_AddIntConstant(poModule, "NAMECOLOR_EXTRA",CInstanceBase::NAMECOLOR_EXTRA);
 
-	// PyModule_AddIntConstant(poModule, "EFFECT_SPAWN_DISAPPEAR",CInstanceBase::EFFECT_SPAWN_DISAPPEAR); // Lightwork spawn monster lag fix.
-	// PyModule_AddIntConstant(poModule, "EFFECT_SPAWN_APPEAR",CInstanceBase::EFFECT_SPAWN_APPEAR); // Lightwork spawn monster lag fix.
+	PyModule_AddIntConstant(poModule, "EFFECT_SPAWN_DISAPPEAR",CInstanceBase::EFFECT_SPAWN_DISAPPEAR);
+	PyModule_AddIntConstant(poModule, "EFFECT_SPAWN_APPEAR",CInstanceBase::EFFECT_SPAWN_APPEAR);
 	PyModule_AddIntConstant(poModule, "EFFECT_DUST",CInstanceBase::EFFECT_DUST);
 	PyModule_AddIntConstant(poModule, "EFFECT_HORSE_DUST",CInstanceBase::EFFECT_HORSE_DUST);
 	PyModule_AddIntConstant(poModule, "EFFECT_STUN",CInstanceBase::EFFECT_STUN);
@@ -809,8 +811,10 @@ void initchrmgr()
 
 #ifdef ENABLE_ACCE_COSTUME_SYSTEM
 	PyModule_AddIntConstant(poModule, "EFFECT_ACCE_SUCCEDED",CInstanceBase::EFFECT_ACCE_SUCCEDED);
+	PyModule_AddIntConstant(poModule, "EFFECT_ACCE_SUCESS_ABSORB",CInstanceBase::EFFECT_ACCE_SUCCEDED);
 	PyModule_AddIntConstant(poModule, "EFFECT_ACCE_EQUIP",CInstanceBase::EFFECT_ACCE_EQUIP);
 	PyModule_AddIntConstant(poModule, "EFFECT_ACCE",CInstanceBase::EFFECT_ACCE);
+	PyModule_AddIntConstant(poModule, "EFFECT_ACCE_BACK",CInstanceBase::EFFECT_REFINED + CInstanceBase::EFFECT_ACCE);
 #endif
 
 #ifdef ENABLE_ITEMS_SHINING

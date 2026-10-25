@@ -1,4 +1,5 @@
 #include "stdafx.h"
+#ifdef ENABLE_MINI_GAME_BNW
 #include "utils.h"
 #include "minigame_bnw.h"
 #include "char.h"
@@ -162,4 +163,5 @@ void MinigameBnwFinished(LPCHARACTER ch)
 
 	CalculateReward(ch);
 }
+#endif
 

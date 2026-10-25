@@ -8,6 +8,8 @@ bool CPythonApplication::IsWebPageMode()
 {
 #ifdef ENABLE_CEF_BROWSER
 	return CefWebBrowser_IsVisible() ? true : false;
+#else
+	return false;
 #endif
 }
 
@@ -16,18 +18,16 @@ void CPythonApplication::ShowWebPage(const char* c_szURL, const RECT& c_rcWebPag
 #ifdef ENABLE_CEF_BROWSER
 	if (CefWebBrowser_IsVisible())
 		return;
-#endif
 
 	m_grpDevice.EnableWebBrowserMode(c_rcWebPage);
 
-#ifdef ENABLE_CEF_BROWSER
 	if (!CefWebBrowser_Show(GetWindowHandle(), c_szURL, &c_rcWebPage))
-#endif
 	{
 		TraceError("CREATE_WEBBROWSER_ERROR:%d", GetLastError());
 	}
 
 	SetCursorMode(CURSOR_MODE_HARDWARE);
+#endif
 }
 
 void CPythonApplication::MoveWebPage(const RECT& c_rcWebPage)
@@ -45,9 +45,14 @@ void CPythonApplication::MoveWebPage(const RECT& c_rcWebPage)
 
 void CPythonApplication::HideWebPage()
 {
+	if (!IsWebPageMode())
+		return;
+
 #ifdef ENABLE_CEF_BROWSER
 	if (CefWebBrowser_IsVisible())
+#endif
 	{
+#ifdef ENABLE_CEF_BROWSER
 		CefWebBrowser_Hide();
 #endif
 

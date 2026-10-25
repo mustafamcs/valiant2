@@ -3378,7 +3378,7 @@ bool CHARACTER::UseItemEx(LPITEM item, TItemPos DestCell
 									return false; // same special group control
 								}
 										
-								MAX_COUNT count = item->GetCount();
+								DWORD count = item->GetCount();
 								LPITEM pkNewItem = ITEM_MANAGER::instance().CreateItem(item->GetVnum(), count-1, 0, false);
 
 								if (!pkNewItem)
@@ -3437,8 +3437,8 @@ bool CHARACTER::UseItemEx(LPITEM item, TItemPos DestCell
 					return false;
 				}
 			}
-#endif
 			else
+#endif
 			{
 				if (!item->IsEquipped())
 					EquipItem(item);
@@ -4623,7 +4623,11 @@ bool CHARACTER::UseItemEx(LPITEM item, TItemPos DestCell
 					{
 						case APPLY_MOV_SPEED:
 						{
-							if (FindAffect(AFFECT_MOV_SPEED) || FindAffect(AFFECT_MOVE_SPEED))//@Lightwork#13
+							if (FindAffect(AFFECT_MOV_SPEED)
+#ifdef ENABLE_BLEND_AFFECT
+								|| FindAffect(AFFECT_MOVE_SPEED)
+#endif
+								)//@Lightwork#13
 								return false;
 							AddAffect(AFFECT_MOV_SPEED, POINT_MOV_SPEED, item->GetValue(2), AFF_MOV_SPEED_POTION, item->GetValue(1), 0, true);
 #ifdef ENABLE_EFFECT_EXTRAPOT
@@ -4634,7 +4638,11 @@ bool CHARACTER::UseItemEx(LPITEM item, TItemPos DestCell
 
 						case APPLY_ATT_SPEED:
 						{
-							if (FindAffect(AFFECT_ATT_SPEED) || FindAffect(AFFECT_ATTACK_SPEED))//@Lightwork#13
+							if (FindAffect(AFFECT_ATT_SPEED)
+#ifdef ENABLE_BLEND_AFFECT
+								|| FindAffect(AFFECT_ATTACK_SPEED)
+#endif
+								)//@Lightwork#13
 								return false;
 							AddAffect(AFFECT_ATT_SPEED, POINT_ATT_SPEED, item->GetValue(2), AFF_ATT_SPEED_POTION, item->GetValue(1), 0, true);
 #ifdef ENABLE_EFFECT_EXTRAPOT
@@ -5588,8 +5596,9 @@ bool CHARACTER::UseItem(TItemPos Cell, TItemPos DestCell
 
 	bool ret = UseItemEx(item, DestCell
 #ifdef ENABLE_CHEST_OPEN_RENEWAL
-		, item_open_count);
+		, item_open_count
 #endif
+	);
 #ifdef ENABLE_EXTENDED_BATTLE_PASS
 	if (ret && bpRet)
 		UpdateExtBattlePassMissionProgress(BP_ITEM_USE, item_open_count, item->GetVnum());

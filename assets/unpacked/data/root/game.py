@@ -220,7 +220,7 @@ class GameWindow(ui.ScriptWindow):
         # END_OF_UNKNOWN_UPDATE
 
         # if app.ENABLE_ULTIMATE_REGEN:
-        player.LoadBossNPC()
+        if hasattr(player, "LoadBossNPC"): player.LoadBossNPC()
 
         self.__SetQuickSlotMode()
         self.__SelectQuickPage(self.quickSlotPageIndex)
@@ -234,6 +234,11 @@ class GameWindow(ui.ScriptWindow):
         snd.FadeInMusic("BGM/enter_the_east.mp3")
 
         net.SendEnterGamePacket()
+
+        self.autoChangeTime = 0
+        if os.path.exists("autochange.cfg"):
+            os.remove("autochange.cfg")
+            self.autoChangeTime = app.GetTime() + 8
 
         # START_GAME_ERROR_EXIT
         try:
@@ -324,7 +329,7 @@ class GameWindow(ui.ScriptWindow):
         if self.interface:
             self.interface.HideAllWindows()
             self.interface.Close()
-            del self.interface
+            self.interface = None
 
         if app.ENABLE_GLOBAL_RANKING:
             if self.rankingWindow:
@@ -452,9 +457,8 @@ class GameWindow(ui.ScriptWindow):
         if app.ENABLE_EVENT_MANAGER:
             onPressKeyDict[app.DIK_F8]	= lambda : self.interface.OpenEventCalendar()
 
-        # if app.ENABLE_DUNGEON_INFO:
-        # onPressKeyDict[app.DIK_TAB]	= lambda : self.TestGui()
-        onPressKeyDict[app.DIK_TAB]	= lambda : self.ToggleBossTimerWindow()
+        if app.ENABLE_DUNGEON_INFO:
+            onPressKeyDict[app.DIK_TAB]	= lambda : self.ToggleBossTimerWindow()
 
         if app.ENABLE_IN_GAME_LOG_SYSTEM:
             onPressKeyDict[app.DIK_F6]		= lambda : self.OpenInGameLog()
@@ -462,7 +466,8 @@ class GameWindow(ui.ScriptWindow):
         if app.ENABLE_SWITCHBOT:
             onPressKeyDict[app.DIK_F5]	= lambda : self.interface.ToggleSwitchbotWindow()
 
-        onPressKeyDict[app.DIK_F7]		= lambda : self.SendOpenRanking()
+        if app.ENABLE_GLOBAL_RANKING:
+            onPressKeyDict[app.DIK_F7]		= lambda : self.SendOpenRanking()
 
         if app.ENABLE_MOVIEMODE_CAMERA:
             onPressKeyDict[app.DIK_F11]	= lambda : self.__ToggleFreeCamera()
@@ -1639,15 +1644,19 @@ class GameWindow(ui.ScriptWindow):
     def OnUpdate(self):
         app.UpdateGame()
 
+        if self.autoChangeTime and app.GetTime() >= self.autoChangeTime:
+            self.autoChangeTime = 0
+            net.ExitGame()
+
         if self.mapNameShower.IsShow():
             self.mapNameShower.Update()
 
-        if constInfo.AffectIconState == 1 and app.ENABLE_HIDE_AFFECT_ICONS:
+        if app.ENABLE_HIDE_AFFECT_ICONS and constInfo.AffectIconState == 1:
             self.AffectIconState()
             constInfo.AffectIconState = 0
 
         if app.ENABLE_AUTO_SHOUT:
-            if constInfo.AUTO_SHOUT_ACTIVATED and len(constInfo.LAST_SHOUT_MESSAGE) != 0 and chr.IsPremium():
+            if constInfo.AUTO_SHOUT_ACTIVATED and len(constInfo.LAST_SHOUT_MESSAGE) != 0 and hasattr(chr, "IsPremium") and chr.IsPremium():
                 if self.lastShoutTime <= app.GetTime():
                     self.lastShoutTime = app.GetTime() + constInfo.SHOUT_PER_SECOND
                     net.SendChatPacket(str(constInfo.LAST_SHOUT_MESSAGE), chat.CHAT_TYPE_SHOUT)
@@ -1984,9 +1993,9 @@ class GameWindow(ui.ScriptWindow):
                 "SELECT_JOB" : self.SelectJob,
             })
 
+        serverCommandList["SetVoteQuestIndex"] = self.SetVoteQuestIdx
         if app.ENABLE_VOTE4BUFF:
             serverCommandList.update({
-                "SetVoteQuestIndex" : self.SetVoteQuestIdx,
                 "Vote4Buff" : self.Vote4Buff,
             })
 
@@ -2696,6 +2705,9 @@ class GameWindow(ui.ScriptWindow):
 
             return False
 
+    def SetVoteQuestIdx(self, qidx):
+        constInfo.VOTE_QUEST_IDX = int(qidx)
+
     if app.ENABLE_VOTE4BUFF:
         def Vote4Buff(self, cmd):
             cmd = int(cmd)
@@ -2713,8 +2725,6 @@ class GameWindow(ui.ScriptWindow):
                 self.interface.wndVoteIcon.Open()
                 self.interface.wndVoteIcon.SetEventType(cmd)
 
-        def SetVoteQuestIdx(self, qidx):
-            constInfo.VOTE_QUEST_IDX = int(qidx)
 
     if app.ENABLE_EXTENDED_BATTLE_PASS:
         def BINARY_ExtOpenBattlePass(self):

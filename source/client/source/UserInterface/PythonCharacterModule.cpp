@@ -1632,6 +1632,8 @@ void initchr()
 #endif
 #ifdef ENABLE_CROWN_SYSTEM
 	PyModule_AddIntConstant(poModule, "PART_CROWN",CRaceData::PART_CROWN);
+#else
+	PyModule_AddIntConstant(poModule, "PART_CROWN",0);
 #endif
 	/////
 
@@ -1661,6 +1663,14 @@ void initchr()
 	PyModule_AddIntConstant(poModule, "AFFECT_FALLEN_CHEONGEUN",CInstanceBase::AFFECT_FALLEN_CHEONGEUN);
 	PyModule_AddIntConstant(poModule, "AFFECT_FIRE",CInstanceBase::AFFECT_FIRE);
 	PyModule_AddIntConstant(poModule, "AFFECT_CHINA_FIREWORK",CInstanceBase::AFFECT_CHINA_FIREWORK);
+	PyModule_AddIntConstant(poModule, "AFFECT_YMIR",CInstanceBase::AFFECT_YMIR);
+	PyModule_AddIntConstant(poModule, "AFFECT_DUNGEON_READY",CInstanceBase::AFFECT_DUNGEON_READY);
+	PyModule_AddIntConstant(poModule, "AFFECT_BUILDING_CONSTRUCTION_SMALL",CInstanceBase::AFFECT_BUILDING_CONSTRUCTION_SMALL);
+	PyModule_AddIntConstant(poModule, "AFFECT_BUILDING_CONSTRUCTION_LARGE",CInstanceBase::AFFECT_BUILDING_CONSTRUCTION_LARGE);
+	PyModule_AddIntConstant(poModule, "AFFECT_BUILDING_UPGRADE",CInstanceBase::AFFECT_BUILDING_UPGRADE);
+	PyModule_AddIntConstant(poModule, "AFFECT_WAR_FLAG1",CInstanceBase::AFFECT_WAR_FLAG1);
+	PyModule_AddIntConstant(poModule, "AFFECT_WAR_FLAG2",CInstanceBase::AFFECT_WAR_FLAG2);
+	PyModule_AddIntConstant(poModule, "AFFECT_WAR_FLAG3",CInstanceBase::AFFECT_WAR_FLAG3);
 #ifdef ENABLE_WOLFMAN_CHARACTER
 	PyModule_AddIntConstant(poModule, "AFFECT_BLEEDING",CInstanceBase::AFFECT_BLEEDING);
 	PyModule_AddIntConstant(poModule, "AFFECT_RED_POSSESSION",CInstanceBase::AFFECT_RED_POSSESSION);
@@ -1689,29 +1699,47 @@ void initchr()
 	PyModule_AddIntConstant(poModule, "NEW_AFFECT_DRAGON_SOUL_DECK2",CInstanceBase::NEW_AFFECT_DRAGON_SOUL_DECK2);
 #ifdef ENABLE_DS_SET_BONUS
 	PyModule_AddIntConstant(poModule, "NEW_AFFECT_DS_SET",CInstanceBase::NEW_AFFECT_DS_SET);
+#else
+	PyModule_AddIntConstant(poModule, "NEW_AFFECT_DS_SET",0);
 #endif
 
 #ifdef ENABLE_NAMING_SCROLL
 	PyModule_AddIntConstant(poModule, "NEW_AFFECT_NAMING_SCROLL_MOUNT",CInstanceBase::NEW_AFFECT_NAMING_SCROLL_MOUNT);
 	PyModule_AddIntConstant(poModule, "NEW_AFFECT_NAMING_SCROLL_PET",CInstanceBase::NEW_AFFECT_NAMING_SCROLL_PET);
 	PyModule_AddIntConstant(poModule, "NEW_AFFECT_NAMING_SCROLL_BUFFI",CInstanceBase::NEW_AFFECT_NAMING_SCROLL_BUFFI);
+#else
+	PyModule_AddIntConstant(poModule, "NEW_AFFECT_NAMING_SCROLL_MOUNT",0);
+	PyModule_AddIntConstant(poModule, "NEW_AFFECT_NAMING_SCROLL_PET",0);
+	PyModule_AddIntConstant(poModule, "NEW_AFFECT_NAMING_SCROLL_BUFFI",0);
 #endif
 #ifdef ENABLE_PREMIUM_MEMBER_SYSTEM
 	PyModule_AddIntConstant(poModule, "NEW_AFFECT_PREMIUM",CInstanceBase::NEW_AFFECT_PREMIUM);
 	PyModule_AddIntConstant(poModule, "AFFECT_PREMIUM",CInstanceBase::AFFECT_PREMIUM);
+#else
+	PyModule_AddIntConstant(poModule, "NEW_AFFECT_PREMIUM",0);
+	PyModule_AddIntConstant(poModule, "AFFECT_PREMIUM",0);
 #endif
 #ifdef ENABLE_ADDSTONE_NOT_FAIL_ITEM
 	PyModule_AddIntConstant(poModule, "NEW_AFFECT_SUCCESS_ADDSTONE",CInstanceBase::AFFECT_ADDSTONE_SUCCESS_ITEM_USED);
+#else
+	PyModule_AddIntConstant(poModule, "NEW_AFFECT_SUCCESS_ADDSTONE",0);
 #endif
 #ifdef ENABLE_EXTENDED_BATTLE_PASS
 	PyModule_AddIntConstant(poModule, "NEW_AFFECT_BATTLEPASS",CInstanceBase::NEW_AFFECT_BATTLEPASS);
 	PyModule_AddIntConstant(poModule, "AFFECT_BATTLEPASS",CInstanceBase::AFFECT_BATTLEPASS);
+#else
+	PyModule_AddIntConstant(poModule, "NEW_AFFECT_BATTLEPASS",0);
+	PyModule_AddIntConstant(poModule, "AFFECT_BATTLEPASS",0);
 #endif
 #ifdef ENABLE_METIN_QUEUE
 	PyModule_AddIntConstant(poModule, "NEW_AFFECT_METIN_QUEUE", CInstanceBase::NEW_AFFECT_METIN_QUEUE);
+#else
+	PyModule_AddIntConstant(poModule, "NEW_AFFECT_METIN_QUEUE", 0);
 #endif
 #ifdef ENABLE_VOTE4BUFF
 	PyModule_AddIntConstant(poModule, "NEW_AFFECT_VOTE4BUFF",CInstanceBase::NEW_AFFECT_VOTE4BUFF);
+#else
+	PyModule_AddIntConstant(poModule, "NEW_AFFECT_VOTE4BUFF",0);
 #endif
 #ifdef ENABLE_NEW_BLEND_AFFECT
 	PyModule_AddIntConstant(poModule, "AFFECT_BLEND_POTION_1",				CInstanceBase::AFFECT_BLEND_POTION_1);
@@ -1756,13 +1784,58 @@ void initchr()
 	PyModule_AddIntConstant(poModule, "AFFECT_FISH_ITEM_10",CInstanceBase::AFFECT_FISH_ITEM_10);
 	PyModule_AddIntConstant(poModule, "AFFECT_FISH_ITEM_11",CInstanceBase::AFFECT_FISH_ITEM_11);
 	PyModule_AddIntConstant(poModule, "AFFECT_FISH_ITEM_12",CInstanceBase::AFFECT_FISH_ITEM_12);
+#else
+	PyModule_AddIntConstant(poModule, "AFFECT_BLEND_POTION_1",				0);
+	PyModule_AddIntConstant(poModule, "AFFECT_BLEND_POTION_2",				0);
+	PyModule_AddIntConstant(poModule, "AFFECT_BLEND_POTION_3",				0);
+	PyModule_AddIntConstant(poModule, "AFFECT_BLEND_POTION_4",				0);
+	PyModule_AddIntConstant(poModule, "AFFECT_BLEND_POTION_5",				0);
+	PyModule_AddIntConstant(poModule, "AFFECT_BLEND_POTION_6",				0);
 
+	PyModule_AddIntConstant(poModule, "AFFECT_BLEND_POTION_7",				0);
+	PyModule_AddIntConstant(poModule, "AFFECT_BLEND_POTION_8",				0);
+	PyModule_AddIntConstant(poModule, "AFFECT_BLEND_POTION_9",				0);
 
+	PyModule_AddIntConstant(poModule, "AFFECT_ENERGY",						0);
+	PyModule_AddIntConstant(poModule, "AFFECT_DRAGON_GOD_1",				0);
+	PyModule_AddIntConstant(poModule, "AFFECT_DRAGON_GOD_2",				0);
+	PyModule_AddIntConstant(poModule, "AFFECT_DRAGON_GOD_3",				0);
+	PyModule_AddIntConstant(poModule, "AFFECT_DRAGON_GOD_4",				0);
+	PyModule_AddIntConstant(poModule, "AFFECT_CRITICAL",					0);
+	PyModule_AddIntConstant(poModule, "AFFECT_PENETRATE",					0);
+	PyModule_AddIntConstant(poModule, "AFFECT_ATTACK_SPEED",				0);
+	PyModule_AddIntConstant(poModule, "AFFECT_MOVE_SPEED",					0);
+	PyModule_AddIntConstant(poModule, "AFFECT_WATER_POTION_1",				0);
+	PyModule_AddIntConstant(poModule, "AFFECT_WATER_POTION_2",				0);
+
+	PyModule_AddIntConstant(poModule, "AFFECT_POTION_ELEMENT_ICE",			0);
+	PyModule_AddIntConstant(poModule, "AFFECT_POTION_ELEMENT_FIRE",			0);
+	PyModule_AddIntConstant(poModule, "AFFECT_POTION_ELEMENT_WIND",			0);
+	PyModule_AddIntConstant(poModule, "AFFECT_POTION_ELEMENT_DARK",			0);
+	PyModule_AddIntConstant(poModule, "AFFECT_POTION_ELEMENT_ELEC",			0);
+	PyModule_AddIntConstant(poModule, "AFFECT_POTION_ELEMENT_EARTH",		0);
+
+	PyModule_AddIntConstant(poModule, "AFFECT_FISH_ITEM_01",0);
+	PyModule_AddIntConstant(poModule, "AFFECT_FISH_ITEM_02",0);
+	PyModule_AddIntConstant(poModule, "AFFECT_FISH_ITEM_03",0);
+	PyModule_AddIntConstant(poModule, "AFFECT_FISH_ITEM_04",0);
+	PyModule_AddIntConstant(poModule, "AFFECT_FISH_ITEM_05",0);
+	PyModule_AddIntConstant(poModule, "AFFECT_FISH_ITEM_06",0);
+	PyModule_AddIntConstant(poModule, "AFFECT_FISH_ITEM_07",0);
+	PyModule_AddIntConstant(poModule, "AFFECT_FISH_ITEM_08",0);
+	PyModule_AddIntConstant(poModule, "AFFECT_FISH_ITEM_09",0);
+	PyModule_AddIntConstant(poModule, "AFFECT_FISH_ITEM_10",0);
+	PyModule_AddIntConstant(poModule, "AFFECT_FISH_ITEM_11",0);
+	PyModule_AddIntConstant(poModule, "AFFECT_FISH_ITEM_12",0);
 #endif
 #ifdef ENABLE_AFFECT_POLYMORPH_REMOVE
 	PyModule_AddIntConstant(poModule, "NEW_AFFECT_POLYMORPH",				CInstanceBase::NEW_AFFECT_POLYMORPH);
+#else
+	PyModule_AddIntConstant(poModule, "NEW_AFFECT_POLYMORPH",				0);
 #endif
 #ifdef ENABLE_LEADERSHIP_EXTENSION
 	PyModule_AddIntConstant(poModule, "AFFECT_PARTY_BONUS", CInstanceBase::AFFECT_PARTY_BONUS);
+#else
+	PyModule_AddIntConstant(poModule, "AFFECT_PARTY_BONUS", 0);
 #endif
 }

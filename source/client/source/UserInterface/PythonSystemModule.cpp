@@ -766,6 +766,16 @@ PyObject* systemIsLoadingAnimated(PyObject* poSelf, PyObject* poArgs)
 {
 	return Py_BuildValue("b", CPythonSystem::Instance().IsLoadingAnimated());
 }
+#else
+PyObject* systemSetLoadingWindowType(PyObject* poSelf, PyObject* poArgs)
+{
+	return Py_BuildNone();
+}
+
+PyObject* systemIsLoadingAnimated(PyObject* poSelf, PyObject* poArgs)
+{
+	return Py_BuildValue("b", false);
+}
 #endif
 
 void initsystemSetting()
@@ -899,10 +909,8 @@ void initsystemSetting()
 		{ "SetEventIconShow",			systemSetEventIconShow,			METH_VARARGS },
 		{ "IsEventIconShow",			systemIsEventIconShow,			METH_VARARGS },
 #endif
-#ifdef ENABLE_LOADING_WINDOW_RENEWAL
 		{ "SetLoadingWindowType",			systemSetLoadingWindowType,			METH_VARARGS },
 		{ "IsLoadingAnimated",			systemIsLoadingAnimated,			METH_VARARGS },
-#endif
 
 		{ NULL,							NULL,							NULL }
 	};

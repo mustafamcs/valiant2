@@ -49,6 +49,45 @@ def IsEUROPE():
 	global __IS_EUROPE
 	return __IS_EUROPE
 
+def IsYMIR():
+	return False
+
+def IsJAPAN():
+	return False
+
+def IsHONGKONG():
+	return False
+
+def IsTAIWAN():
+	return False
+
+def IsNEWCIBN():
+	return False
+
+def IsCIBN10():
+	return False
+
+def IsCANADA():
+	return False
+
+def IsBRAZIL():
+	return False
+
+def IsVIETNAM():
+	return False
+
+def IsSINGAPORE():
+	return False
+
+def IsARABIC():
+	return False
+
+def IsWE_KOREA():
+	return False
+
+def IsCHEONMA():
+	return False
+
 def LoadLocaleData():
 	app.LoadLocaleData(app.GetLocalePath())
 
@@ -340,6 +379,26 @@ STAT_MINUS_DESCRIPTION = {
 }
 
 MODE_NAME_LIST = ( PVP_OPTION_NORMAL, PVP_OPTION_REVENGE, PVP_OPTION_KILL, PVP_OPTION_PROTECT, )
+TITLE_NAME_LIST = ( PVP_LEVEL0, PVP_LEVEL1, PVP_LEVEL2, PVP_LEVEL3, PVP_LEVEL4, PVP_LEVEL5, PVP_LEVEL6, PVP_LEVEL7, PVP_LEVEL8, PVP_LEVEL9, PVP_LEVEL10, PVP_LEVEL11, PVP_LEVEL12, PVP_LEVEL13 ) if app.ENABLE_ALIGNMENT_SYSTEM else ( PVP_LEVEL5, PVP_LEVEL6, PVP_LEVEL7, PVP_LEVEL8, PVP_LEVEL9, PVP_LEVEL10, PVP_LEVEL11, PVP_LEVEL12, PVP_LEVEL13 )
+
+def GetAlignmentTitleName(alignment):
+	if alignment >= 12000:
+		return TITLE_NAME_LIST[0]
+	elif alignment >= 8000:
+		return TITLE_NAME_LIST[1]
+	elif alignment >= 4000:
+		return TITLE_NAME_LIST[2]
+	elif alignment >= 1000:
+		return TITLE_NAME_LIST[3]
+	elif alignment >= 0:
+		return TITLE_NAME_LIST[4]
+	elif alignment > -4000:
+		return TITLE_NAME_LIST[5]
+	elif alignment > -8000:
+		return TITLE_NAME_LIST[6]
+	elif alignment > -12000:
+		return TITLE_NAME_LIST[7]
+	return TITLE_NAME_LIST[8]
 
 def GetLetterImageName():
 	return "d:/ymir work/ui/design_new/buttons/quest_closed.tga"
@@ -399,7 +458,7 @@ def NumberToSecondaryCoinString(n) :
 
 	return "%s %s" % ('.'.join([ i-3<0 and str(n)[:i] or str(n)[i-3:i] for i in xrange(len(str(n))%3, len(str(n))+1, 3) if i ]), MONETARY_UNIT_JUN)
 
-if app.ENABLE_TARGET_INFORMATION_SYSTEM:
+if True:
 	def NumberToString(n) :
 		if n <= 0 :
 			return "0"
@@ -506,7 +565,17 @@ def SecondToHMS(time):
 
 	return text
 
-if app.ENABLE_WIKI:
+if True:
 	def MoneyFormat(n):
 		return "%s" % ('.'.join([ i-3<0 and str(n)[:i] or str(n)[i-3:i] for i in xrange(len(str(n))%3, len(str(n))+1, 3) if i ])) 
 
+
+if not app.ENABLE_FONT_SELECT:
+	def GetDefaultFont():
+		return UI_DEF_FONT
+	def GetFontType():
+		return 0
+	def GetChatFont():
+		return UI_DEF_FONT
+	def GetLargeFont():
+		return UI_DEF_FONT_LARGE

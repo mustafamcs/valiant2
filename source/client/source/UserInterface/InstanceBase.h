@@ -430,6 +430,14 @@ public:
 #ifdef ENABLE_LVL115_ARMOR_EFFECT
 		EFFECT_BODYARMOR_SPECIAL3,	// 5-1
 #endif
+#ifdef ENABLE_WOLFMAN_CHARACTER
+		EFFECT_CLAW_REFINED7,		// 22
+		EFFECT_CLAW_REFINED8,		// 23
+		EFFECT_CLAW_REFINED9,		// 24
+		EFFECT_CLAW_REFINED7_LEFT,	// 25
+		EFFECT_CLAW_REFINED8_LEFT,	// 26
+		EFFECT_CLAW_REFINED9_LEFT,	// 27
+#endif
 #ifdef ENABLE_ACCE_COSTUME_SYSTEM
 		EFFECT_ACCE,
 #endif
@@ -612,8 +620,8 @@ public:
 	void CreateSpecialEffect(DWORD iEffectIndex, float fScale = 1.0f);
 	void AttachSpecialEffect(DWORD effect, float fScale = 1.0f);
 #else
-	void CreateSpecialEffect(uint32_t iEffectIndex);
-	void AttachSpecialEffect(uint32_t effect);
+	void CreateSpecialEffect(DWORD iEffectIndex);
+	void AttachSpecialEffect(DWORD effect);
 #endif
 
 protected:

@@ -1678,11 +1678,11 @@ namespace UI
 		{
 #ifdef ENABLE_DUNGEON_MODULES
 			if (m_fCoolTime == 0.0f)
-				m_pImageInstance->Render(m_bEnableMask ? &m_rMaskRect : NULL);
+				m_pImageInstance->Render();
 			else
 				m_pImageInstance->RenderCoolTime((CTimer::Instance().GetCurrentSecond() - m_fCoolTimeStart) / m_fCoolTime);
 #else
-			m_pImageInstance->Render(m_bEnableMask ? &m_rMaskRect : NULL);
+			m_pImageInstance->Render();
 #endif
 		}
 	}
@@ -1940,7 +1940,26 @@ namespace UI
 
 	void CAniImageBox::AppendImage(const char* c_szFileName)
 	{
+#ifdef ENABLE_LOADING_WINDOW_RENEWAL
 		m_ImageFileNames.push(c_szFileName);
+#else
+		CResource* pResource = CResourceManager::Instance().GetResourcePointer(c_szFileName);
+		if (!pResource->IsType(CGraphicImage::Type()))
+			return;
+
+		CGraphicExpandedImageInstance* pImageInstance = CGraphicExpandedImageInstance::New();
+		pImageInstance->SetImagePointer(static_cast<CGraphicImage*>(pResource));
+
+		if (pImageInstance->IsEmpty())
+		{
+			CGraphicExpandedImageInstance::Delete(pImageInstance);
+			return;
+		}
+
+		pImageInstance->SetPosition(m_rect.left, m_rect.top);
+		m_ImageVector.push_back(pImageInstance);
+		m_bycurIndex = static_cast<BYTE>(rand() % m_ImageVector.size());
+#endif
 	}
 
 #ifdef ENABLE_NEW_PET_SYSTEM
@@ -1976,8 +1995,17 @@ namespace UI
 	};
 	void CAniImageBox::SetRenderingRect(float fLeft, float fTop, float fRight, float fBottom)
 	{
+#ifdef ENABLE_LOADING_WINDOW_RENEWAL
 		m_SetRenderingRect = std::bind(&CGraphicExpandedImageInstance::SetRenderingRect, std::placeholders::_1, fLeft, fTop, fRight, fBottom);
 		std::for_each(m_ImageVector.begin(), m_ImageVector.end(), m_SetRenderingRect);
+#else
+		FSetRenderingRect setRenderingRect;
+		setRenderingRect.fLeft = fLeft;
+		setRenderingRect.fTop = fTop;
+		setRenderingRect.fRight = fRight;
+		setRenderingRect.fBottom = fBottom;
+		std::for_each(m_ImageVector.begin(), m_ImageVector.end(), setRenderingRect);
+#endif
 	}
 
 	struct FSetRenderingMode
@@ -1990,8 +2018,14 @@ namespace UI
 	};
 	void CAniImageBox::SetRenderingMode(int iMode)
 	{
+#ifdef ENABLE_LOADING_WINDOW_RENEWAL
 		m_SetRenderingMode = std::bind(&CGraphicExpandedImageInstance::SetRenderingMode, std::placeholders::_1, iMode);
 		std::for_each(m_ImageVector.begin(), m_ImageVector.end(), m_SetRenderingMode);
+#else
+		FSetRenderingMode setRenderingMode;
+		setRenderingMode.iMode = iMode;
+		std::for_each(m_ImageVector.begin(), m_ImageVector.end(), setRenderingMode);
+#endif
 	}
 
 	void CAniImageBox::ResetFrame()
@@ -2001,6 +2035,7 @@ namespace UI
 
 	void CAniImageBox::OnUpdate()
 	{
+#ifdef ENABLE_LOADING_WINDOW_RENEWAL
 		if (!m_ImageFileNames.empty())
 		{
 			const std::string& stFileName = m_ImageFileNames.front();
@@ -2034,6 +2069,7 @@ namespace UI
 
 			m_ImageFileNames.pop();
 		}
+#endif
 
 		++m_bycurDelay;
 

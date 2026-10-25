@@ -8,6 +8,7 @@ DWORD		CScreen::ms_clearColor = 0L;
 DWORD		CScreen::ms_clearStencil = 0L;
 float		CScreen::ms_clearDepth = 1.0f;
 Frustum		CScreen::ms_frustum;
+CScreen::TRestoreDeviceCallback CScreen::ms_pfnRestoreDevice = NULL;
 
 extern bool GRAPHICS_CAPS_CAN_NOT_DRAW_LINE;
 

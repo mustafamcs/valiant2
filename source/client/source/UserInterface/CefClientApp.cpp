@@ -1,4 +1,5 @@
 #include "StdAfx.h"
+#ifdef ENABLE_CEF_BROWSER
 #include "CefClientApp.h"
 
 #include "CefClientHandler.h"
@@ -22,3 +23,4 @@ void ClientApp::OnWebKitInitialized()
 
 	CefRegisterExtension("v8/app", app_code, new ClientV8ExtensionHandler(this));
 }
+#endif

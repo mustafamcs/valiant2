@@ -197,8 +197,12 @@ bool DragonSoulTable::ReadBasicApplys()
 			}
 			if (!(at = (EApplyTypes)FN_get_apply_type(stTypeName.c_str())))
 			{
+#ifndef ENABLE_EXTRA_APPLY_BONUS
+				continue;
+#else
 				sys_err("In Group BasicApplys, %s group's apply_type %s is invalid.", m_vecDragonSoulNames[i].c_str(), stTypeName.c_str());
 				return false;
+#endif
 			}
 			if (!pRow->GetValue("apply_value", av))
 			{
@@ -251,8 +255,12 @@ bool DragonSoulTable::ReadAdditionalApplys()
 			}
 			if (!(at = (EApplyTypes)FN_get_apply_type(stTypeName.c_str())))
 			{
+#ifndef ENABLE_EXTRA_APPLY_BONUS
+				continue;
+#else
 				sys_err("In Group AdditionalApplys, %s group's apply_type %s is invalid.", m_vecDragonSoulNames[i].c_str(), stTypeName.c_str());
 				return false;
+#endif
 			}
 			if (!pRow->GetValue("apply_value", av))
 			{

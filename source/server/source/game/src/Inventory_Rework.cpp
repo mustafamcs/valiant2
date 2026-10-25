@@ -1,5 +1,4 @@
 #include "stdafx.h"
-#ifdef ENABLE_INVENTORY_REWORK
 #include "char.h"
 #include "item.h"
 #include "item_manager.h"
@@ -8,6 +7,8 @@
 #include "questmanager.h"
 #include "party.h"
 #include "utils.h"
+#include "db.h"
+#ifdef ENABLE_INVENTORY_REWORK
 
 namespace PartyPickupWindowTypeToCh
 {
@@ -637,7 +638,18 @@ bool CHARACTER::DropItemToInventory(LPITEM item)
 /**************************************************************************/
 /********************DEFAULT CODE*********************************/
 /**************************************************************************/
-/*
+#else
+static bool FN_check_item_socket(LPITEM item)
+{
+	for (int i = 0; i < ITEM_SOCKET_MAX_NUM; ++i)
+	{
+		if (item->GetSocket(i) != item->GetProto()->alSockets[i])
+			return false;
+	}
+
+	return true;
+}
+
 void CHARACTER::RemoveSpecifyItem(DWORD vnum, DWORD count)
 {
 	if (0 == count)
@@ -902,8 +914,6 @@ LPITEM CHARACTER::AutoGiveItem(DWORD dwItemVnum,
 
 	if (!p)
 		return NULL;
-
-	DBManager::instance().SendMoneyLog(MONEY_LOG_DROP, dwItemVnum, bCount);
 
 	if (p->dwFlags & ITEM_FLAG_STACKABLE && p->bType != ITEM_BLEND)
 	{
@@ -1234,6 +1244,4 @@ LPITEM CHARACTER::AutoGiveItem(DWORD dwItemVnum,
 	}
 	return item;
 }
-
-*/
 #endif

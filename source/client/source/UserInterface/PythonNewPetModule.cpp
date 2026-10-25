@@ -1,4 +1,5 @@
 #include "StdAfx.h"
+#ifdef ENABLE_NEW_PET_SYSTEM
 #include "PythonNetworkStream.h"
 
 bool CPythonNetworkStream::RecvNewPet()
@@ -158,3 +159,4 @@ void initnewpet()
 
 	PyObject* poModule = Py_InitModule("newpet", s_methods);
 }
+#endif

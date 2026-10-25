@@ -163,7 +163,12 @@ class AtlasWindow(ui.ScriptWindow):
 			return
 
 		(mouseX, mouseY) = wndMgr.GetMousePosition()
-		(bFind, sName, iPosX, iPosY, dwTextColor, dwGuildID, diRegenTime) = miniMap.GetAtlasInfo(mouseX, mouseY)
+		atlasInfo = miniMap.GetAtlasInfo(mouseX, mouseY)
+		if len(atlasInfo) == 7:
+			(bFind, sName, iPosX, iPosY, dwTextColor, dwGuildID, diRegenTime) = atlasInfo
+		else:
+			(bFind, sName, iPosX, iPosY, dwTextColor, dwGuildID) = atlasInfo
+			diRegenTime = 0
 
 		if False == bFind:
 			return
@@ -228,7 +233,12 @@ class AtlasWindow(ui.ScriptWindow):
 	if app.ENABLE_MINIMAP_TELEPORT:
 		def OnMouseLeftButtonUpEvent(self):
 			(mouseX, mouseY) = wndMgr.GetMousePosition()
-			(bFind, sName, iPosX, iPosY, dwTextColor, dwGuildID, diRegenTime) = miniMap.GetAtlasInfo(mouseX, mouseY)
+			atlasInfo = miniMap.GetAtlasInfo(mouseX, mouseY)
+		if len(atlasInfo) == 7:
+			(bFind, sName, iPosX, iPosY, dwTextColor, dwGuildID, diRegenTime) = atlasInfo
+		else:
+			(bFind, sName, iPosX, iPosY, dwTextColor, dwGuildID) = atlasInfo
+			diRegenTime = 0
 			if chr.IsGameMaster(0):
 				net.SendChatPacket("/go %s %s" % (str(iPosX), str(iPosY)))
 
@@ -436,6 +446,8 @@ class MiniMap(ui.ScriptWindow):
 
 		self.serverInfo.SetText(net.GetServerInfo())
 		self.channelInfo.SetText("CH Unknown")
+		if not app.ENABLE_CHANNEL_INFO_UPDATE:
+			self.channelInfo.Hide()
 		self.ScaleUpButton.SetEvent(ui.__mem_func__(self.ScaleUp))
 		self.ScaleDownButton.SetEvent(ui.__mem_func__(self.ScaleDown))
 		self.MiniMapHideButton.SetEvent(ui.__mem_func__(self.HideMiniMap))
@@ -521,11 +533,11 @@ class MiniMap(ui.ScriptWindow):
 		self.currentDate.SetText(time.strftime("%d/%m/%Y"))
 		self.currentHour.SetText(time.strftime("%H:%M:%S"))
 
-		rtt = app.GetRTT()
+		rtt = getattr(app, "GetRTT", lambda: 0)()
 		if rtt > 999:
 			rtt = "+999".format(rtt)
 
-		pktLossPct = app.GetPacketLossPct()
+		pktLossPct = getattr(app, "GetPacketLossPct", lambda: 0)()
 
 		if chr.IsGameMaster(0):
 			self.FPSInfo.SetText("Rps: {}, UFPS: {}".format(app.GetRenderFPS(), app.GetUpdateFPS()))
@@ -578,30 +590,35 @@ class MiniMap(ui.ScriptWindow):
 		else:
 			self.tooltipAtlasOpen.Hide()
 
-		if True == self.globalRankingButton.IsIn() and app.ENABLE_GLOBAL_RANKING:
-			self.tooltipRanking.Show()
-		else:
-			self.tooltipRanking.Hide()
+		if app.ENABLE_GLOBAL_RANKING:
+			if True == self.globalRankingButton.IsIn():
+				self.tooltipRanking.Show()
+			else:
+				self.tooltipRanking.Hide()
 
-		if True == self.shopSearchButton.IsIn() and app.ENABLE_OFFLINE_SHOP:
-			self.tooltipShopSearch.Show()
-		else:
-			self.tooltipShopSearch.Hide()
+		if app.ENABLE_OFFLINE_SHOP:
+			if True == self.shopSearchButton.IsIn():
+				self.tooltipShopSearch.Show()
+			else:
+				self.tooltipShopSearch.Hide()
 
-		if True == self.biologButton.IsIn() and app.ENABLE_BIOLOG_SYSTEM:
-			self.tooltipBiolog.Show()
-		else:
-			self.tooltipBiolog.Hide()
+		if app.ENABLE_BIOLOG_SYSTEM:
+			if True == self.biologButton.IsIn():
+				self.tooltipBiolog.Show()
+			else:
+				self.tooltipBiolog.Hide()
 
-		if app.ENABLE_EXTENDED_BATTLE_PASS and self.battlePassButton.IsIn():
-			self.tooltipBattlePass.Show()
-		else:
-			self.tooltipBattlePass.Hide()
+		if app.ENABLE_EXTENDED_BATTLE_PASS:
+			if self.battlePassButton.IsIn():
+				self.tooltipBattlePass.Show()
+			else:
+				self.tooltipBattlePass.Hide()
 
-		if app.ENABLE_DUNGEON_INFO and self.DungeonInfoButton.IsIn():
-			self.tooltipDungeonInfo.Show()
-		else:
-			self.tooltipDungeonInfo.Hide()
+		if app.ENABLE_DUNGEON_INFO:
+			if self.DungeonInfoButton.IsIn():
+				self.tooltipDungeonInfo.Show()
+			else:
+				self.tooltipDungeonInfo.Hide()
 
 	def OnRender(self):
 		(x, y) = self.GetGlobalPosition()

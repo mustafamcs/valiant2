@@ -94,7 +94,7 @@ class ShopDialog(ui.ScriptWindow):
 		self.btnSell.SetToggleUpEvent(ui.__mem_func__(self.CancelShopping))
 		self.btnSell.SetToggleDownEvent(ui.__mem_func__(self.OnSell))
 
-		# self.btnClose.SetEvent(ui.__mem_func__(self.AskClosePrivateShop))
+		self.btnClose.SetEvent(ui.__mem_func__(self.AskClosePrivateShop))
 
 		self.titleBar.SetCloseEvent(ui.__mem_func__(self.Close))
 
@@ -248,11 +248,12 @@ class ShopDialog(ui.ScriptWindow):
 				constInfo.SET_ITEM_QUESTION_DIALOG_STATUS(0)
 			if self.questionDialog:
 				self.OnCloseQuestionDialog()
-				shop.Close()
-				net.SendShopEndPacket()
+			shop.Close()
+			net.SendShopEndPacket()
+			if self.tooltipItem:
 				self.tooltipItem.HideToolTip()
-				self.Hide()
-				self.CancelShopping() # lightwork fix
+			self.Hide()
+			self.CancelShopping() # lightwork fix
 
 	def GetIndexFromSlotPos(self, slotPos):
 		return self.tabIdx * shop.SHOP_SLOT_COUNT + slotPos

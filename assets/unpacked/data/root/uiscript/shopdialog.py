@@ -1,203 +1,405 @@
-import uiScriptLocale
+import app
+if getattr(app, "ENABLE_EXTENDED_SHOP_SLOTS", 0):
+	import uiScriptLocale
 
-window = {
-	"name" : "ShopDialog",
+	window = {
+		"name" : "ShopDialog",
 
-	"x" : SCREEN_WIDTH - 525,
-	"y" : 200,
+		"x" : SCREEN_WIDTH - 525,
+		"y" : 200,
 
-	"style" : ("movable", "float",),
-
-
-	"width" : 184 + 100,
-	"height" : 332,
-
-	"children" :
-	(
-		{
-			"name" : "board",
-			"type" : "board",
-			"style" : ("attach",),
-
-			"x" : 0,
-			"y" : 0,
+		"style" : ("movable", "float",),
 
 
-			"width" : 184 + 100,
-			"height" : 332,
+		"width" : 184 + 100,
+		"height" : 332,
 
-			"children" :
-			(
-				## Title
-				{
-					"name" : "TitleBar",
-					"type" : "titlebar",
-					"style" : ("attach",),
+		"children" :
+		(
+			{
+				"name" : "board",
+				"type" : "board",
+				"style" : ("attach",),
 
-					"x" : 8,
-					"y" : 8,
-
-
-					"width" : 169 + 100,
-					"color" : "gray",
-
-					"children" :
-					(
-						{ "name":"TitleName", "type":"text", "x":84+50, "y":4, "text":uiScriptLocale.SHOP_TITLE, "text_horizontal_align":"center" },
-					),
-				},
-
-				## Item Slot
-				{
-					"name" : "ItemSlot",
-					"type" : "grid_table",
-
-					"x" : 12,
-					"y" : 34,
-
-					"start_index" : 0,
-					"x_count" : 8,
-					"y_count" : 8,
-					"x_step" : 32,
-					"y_step" : 32,
-
-					"image" : "d:/ymir work/ui/public/slot_base.sub",
-				},
-
-				# Buy
-				{
-					"name" : "BuyButton",
-					"type" : "toggle_button",
-
-					"x" : 21,
-					"y" : 295,
-
-					"width" : 61,
-					"height" : 21,
-
-					"text" : uiScriptLocale.SHOP_BUY,
-
-					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
-					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",
-					"down_image" : "d:/ymir work/ui/public/middle_button_03.sub",
-				},
-
-				# Sell
-				{
-					"name" : "SellButton",
-					"type" : "toggle_button",
+				"x" : 0,
+				"y" : 0,
 
 
-					"x" : 104 + 100,
-					"y" : 295,
+				"width" : 184 + 100,
+				"height" : 332,
 
-					"width" : 61,
-					"height" : 21,
+				"children" :
+				(
+					## Title
+					{
+						"name" : "TitleBar",
+						"type" : "titlebar",
+						"style" : ("attach",),
 
-					"text" : uiScriptLocale.SHOP_SELL,
+						"x" : 8,
+						"y" : 8,
 
-					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
-					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",
-					"down_image" : "d:/ymir work/ui/public/middle_button_03.sub",
-				},
 
-				## Close
-				{
-					"name" : "CloseButton",
-					"type" : "button",
+						"width" : 169 + 100,
+						"color" : "gray",
 
-					"x" : 0,
-					"y" : 295,
+						"children" :
+						(
+							{ "name":"TitleName", "type":"text", "x":84+50, "y":4, "text":uiScriptLocale.SHOP_TITLE, "text_horizontal_align":"center" },
+						),
+					},
 
-					"horizontal_align" : "center",
+					## Item Slot
+					{
+						"name" : "ItemSlot",
+						"type" : "grid_table",
 
-					"text" : uiScriptLocale.PRIVATE_SHOP_CLOSE_BUTTON,
+						"x" : 12,
+						"y" : 34,
 
-					"default_image" : "d:/ymir work/ui/public/large_button_01.sub",
-					"over_image" : "d:/ymir work/ui/public/large_button_02.sub",
-					"down_image" : "d:/ymir work/ui/public/large_button_03.sub",
-				},
+						"start_index" : 0,
+						"x_count" : 8,
+						"y_count" : 8,
+						"x_step" : 32,
+						"y_step" : 32,
 
-				## MiddleTab1
-				{
-					"name" : "MiddleTab1",
-					"type" : "radio_button",
+						"image" : "d:/ymir work/ui/public/slot_base.sub",
+					},
 
-					"x" : 21,
-					"y" : 295,
+					# Buy
+					{
+						"name" : "BuyButton",
+						"type" : "toggle_button",
 
-					"width" : 61,
-					"height" : 21,
+						"x" : 21,
+						"y" : 295,
 
-					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
-					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",
-					"down_image" : "d:/ymir work/ui/public/middle_button_03.sub",
-				},
+						"width" : 61,
+						"height" : 21,
 
-				## MiddleTab2
-				{
-					"name" : "MiddleTab2",
-					"type" : "radio_button",
+						"text" : uiScriptLocale.SHOP_BUY,
 
-					"x" : 104,
-					"y" : 295,
+						"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
+						"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",
+						"down_image" : "d:/ymir work/ui/public/middle_button_03.sub",
+					},
 
-					"width" : 61,
-					"height" : 21,
+					# Sell
+					{
+						"name" : "SellButton",
+						"type" : "toggle_button",
 
-					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
-					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",
-					"down_image" : "d:/ymir work/ui/public/middle_button_03.sub",
-				},
 
-				## SmallTab1
-				{
-					"name" : "SmallTab1",
-					"type" : "radio_button",
+						"x" : 104 + 100,
+						"y" : 295,
 
-					"x" : 21,
-					"y" : 295,
+						"width" : 61,
+						"height" : 21,
 
-					"width" : 43,
-					"height" : 21,
+						"text" : uiScriptLocale.SHOP_SELL,
 
-					"default_image" : "d:/ymir work/ui/public/small_button_01.sub",
-					"over_image" : "d:/ymir work/ui/public/small_button_02.sub",
-					"down_image" : "d:/ymir work/ui/public/small_button_03.sub",
-				},
+						"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
+						"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",
+						"down_image" : "d:/ymir work/ui/public/middle_button_03.sub",
+					},
 
-				## SmallTab2
-				{
-					"name" : "SmallTab2",
-					"type" : "radio_button",
+					## Close
+					{
+						"name" : "CloseButton",
+						"type" : "button",
 
-					"x" : 71,
-					"y" : 295,
+						"x" : 0,
+						"y" : 295,
 
-					"width" : 43,
-					"height" : 21,
+						"horizontal_align" : "center",
 
-					"default_image" : "d:/ymir work/ui/public/small_button_01.sub",
-					"over_image" : "d:/ymir work/ui/public/small_button_02.sub",
-					"down_image" : "d:/ymir work/ui/public/small_button_03.sub",
-				},
+						"text" : uiScriptLocale.PRIVATE_SHOP_CLOSE_BUTTON,
 
-				## SmallTab3
-				{
-					"name" : "SmallTab3",
-					"type" : "radio_button",
+						"default_image" : "d:/ymir work/ui/public/large_button_01.sub",
+						"over_image" : "d:/ymir work/ui/public/large_button_02.sub",
+						"down_image" : "d:/ymir work/ui/public/large_button_03.sub",
+					},
 
-					"x" : 120,
-					"y" : 295,
+					## MiddleTab1
+					{
+						"name" : "MiddleTab1",
+						"type" : "radio_button",
 
-					"width" : 43,
-					"height" : 21,
+						"x" : 21,
+						"y" : 295,
 
-					"default_image" : "d:/ymir work/ui/public/small_button_01.sub",
-					"over_image" : "d:/ymir work/ui/public/small_button_02.sub",
-					"down_image" : "d:/ymir work/ui/public/small_button_03.sub",
-				},
-			),
-		},
-	),
-}
+						"width" : 61,
+						"height" : 21,
+
+						"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
+						"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",
+						"down_image" : "d:/ymir work/ui/public/middle_button_03.sub",
+					},
+
+					## MiddleTab2
+					{
+						"name" : "MiddleTab2",
+						"type" : "radio_button",
+
+						"x" : 104,
+						"y" : 295,
+
+						"width" : 61,
+						"height" : 21,
+
+						"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
+						"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",
+						"down_image" : "d:/ymir work/ui/public/middle_button_03.sub",
+					},
+
+					## SmallTab1
+					{
+						"name" : "SmallTab1",
+						"type" : "radio_button",
+
+						"x" : 21,
+						"y" : 295,
+
+						"width" : 43,
+						"height" : 21,
+
+						"default_image" : "d:/ymir work/ui/public/small_button_01.sub",
+						"over_image" : "d:/ymir work/ui/public/small_button_02.sub",
+						"down_image" : "d:/ymir work/ui/public/small_button_03.sub",
+					},
+
+					## SmallTab2
+					{
+						"name" : "SmallTab2",
+						"type" : "radio_button",
+
+						"x" : 71,
+						"y" : 295,
+
+						"width" : 43,
+						"height" : 21,
+
+						"default_image" : "d:/ymir work/ui/public/small_button_01.sub",
+						"over_image" : "d:/ymir work/ui/public/small_button_02.sub",
+						"down_image" : "d:/ymir work/ui/public/small_button_03.sub",
+					},
+
+					## SmallTab3
+					{
+						"name" : "SmallTab3",
+						"type" : "radio_button",
+
+						"x" : 120,
+						"y" : 295,
+
+						"width" : 43,
+						"height" : 21,
+
+						"default_image" : "d:/ymir work/ui/public/small_button_01.sub",
+						"over_image" : "d:/ymir work/ui/public/small_button_02.sub",
+						"down_image" : "d:/ymir work/ui/public/small_button_03.sub",
+					},
+				),
+			},
+		),
+	}
+else:
+	import uiScriptLocale
+
+	window = {
+		"name" : "ShopDialog",
+
+		"x" : SCREEN_WIDTH - 400,
+		"y" : 10,
+
+		"style" : ("movable", "float",),
+
+		"width" : 184,
+		"height" : 328,
+
+		"children" :
+		(
+			{
+				"name" : "board",
+				"type" : "board",
+				"style" : ("attach",),
+
+				"x" : 0,
+				"y" : 0,
+
+				"width" : 184,
+				"height" : 328,
+
+				"children" :
+				(
+					## Title
+					{
+						"name" : "TitleBar",
+						"type" : "titlebar",
+						"style" : ("attach",),
+
+						"x" : 8,
+						"y" : 8,
+
+						"width" : 169,
+						"color" : "gray",
+
+						"children" :
+						(
+							{ "name":"TitleName", "type":"text", "x":84, "y":4, "text":uiScriptLocale.SHOP_TITLE, "text_horizontal_align":"center" },
+						),
+					},
+
+					## Item Slot
+					{
+						"name" : "ItemSlot",
+						"type" : "grid_table",
+
+						"x" : 12,
+						"y" : 34,
+
+						"start_index" : 0,
+						"x_count" : 5,
+						"y_count" : 8,
+						"x_step" : 32,
+						"y_step" : 32,
+
+						"image" : "d:/ymir work/ui/public/Slot_Base.sub",
+					},
+
+					## Buy
+					{
+						"name" : "BuyButton",
+						"type" : "toggle_button",
+
+						"x" : 21,
+						"y" : 295,
+
+						"width" : 61,
+						"height" : 21,
+
+						"text" : uiScriptLocale.SHOP_BUY,
+
+						"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
+						"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",
+						"down_image" : "d:/ymir work/ui/public/middle_button_03.sub",
+					},
+
+					## Sell
+					{
+						"name" : "SellButton",
+						"type" : "toggle_button",
+
+						"x" : 104,
+						"y" : 295,
+
+						"width" : 61,
+						"height" : 21,
+
+						"text" : uiScriptLocale.SHOP_SELL,
+
+						"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
+						"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",
+						"down_image" : "d:/ymir work/ui/public/middle_button_03.sub",
+					},
+
+					## Close
+					{
+						"name" : "CloseButton",
+						"type" : "button",
+
+						"x" : 0,
+						"y" : 295,
+
+						"horizontal_align" : "center",
+
+						"text" : uiScriptLocale.PRIVATE_SHOP_CLOSE_BUTTON,
+
+						"default_image" : "d:/ymir work/ui/public/large_button_01.sub",
+						"over_image" : "d:/ymir work/ui/public/large_button_02.sub",
+						"down_image" : "d:/ymir work/ui/public/large_button_03.sub",
+					},
+
+					## MiddleTab1
+					{
+						"name" : "MiddleTab1",
+						"type" : "radio_button",
+
+						"x" : 21,
+						"y" : 295,
+
+						"width" : 61,
+						"height" : 21,
+
+						"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
+						"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",
+						"down_image" : "d:/ymir work/ui/public/middle_button_03.sub",
+					},
+
+					## MiddleTab2
+					{
+						"name" : "MiddleTab2",
+						"type" : "radio_button",
+
+						"x" : 104,
+						"y" : 295,
+
+						"width" : 61,
+						"height" : 21,
+
+						"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
+						"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",
+						"down_image" : "d:/ymir work/ui/public/middle_button_03.sub",
+					},
+
+					## SmallTab1
+					{
+						"name" : "SmallTab1",
+						"type" : "radio_button",
+
+						"x" : 21,
+						"y" : 295,
+
+						"width" : 43,
+						"height" : 21,
+
+						"default_image" : "d:/ymir work/ui/public/small_button_01.sub",
+						"over_image" : "d:/ymir work/ui/public/small_button_02.sub",
+						"down_image" : "d:/ymir work/ui/public/small_button_03.sub",
+					},
+
+					## SmallTab2
+					{
+						"name" : "SmallTab2",
+						"type" : "radio_button",
+
+						"x" : 71,
+						"y" : 295,
+
+						"width" : 43,
+						"height" : 21,
+
+						"default_image" : "d:/ymir work/ui/public/small_button_01.sub",
+						"over_image" : "d:/ymir work/ui/public/small_button_02.sub",
+						"down_image" : "d:/ymir work/ui/public/small_button_03.sub",
+					},
+
+					## SmallTab3
+					{
+						"name" : "SmallTab3",
+						"type" : "radio_button",
+
+						"x" : 120,
+						"y" : 295,
+
+						"width" : 43,
+						"height" : 21,
+
+						"default_image" : "d:/ymir work/ui/public/small_button_01.sub",
+						"over_image" : "d:/ymir work/ui/public/small_button_02.sub",
+						"down_image" : "d:/ymir work/ui/public/small_button_03.sub",
+					},
+				),
+			},
+		),
+	}

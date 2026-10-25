@@ -199,6 +199,7 @@ public:
 	bool IsWebPageMode();
 
 public:
+	static BOOL RestoreDeviceWithResources();
 	void NotifyHack(const char* c_szFormat, ...);
 	void GetInfo(UINT eInfo, std::string* pstInfo);
 	void GetMousePosition(POINT* ppt);

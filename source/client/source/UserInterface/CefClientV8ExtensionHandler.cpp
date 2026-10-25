@@ -1,4 +1,5 @@
 #include "StdAfx.h"
+#ifdef ENABLE_CEF_BROWSER
 #include "CefClientV8ExtensionHandler.h"
 
 ClientV8ExtensionHandler::ClientV8ExtensionHandler(CefRefPtr<CefApp> app)
@@ -29,3 +30,4 @@ bool ClientV8ExtensionHandler::Execute(const CefString& name, CefRefPtr<CefV8Val
 
 	return false;
 }
+#endif

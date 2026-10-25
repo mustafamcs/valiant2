@@ -272,13 +272,12 @@ class ToolTip(ui.ThinBoard):
 		self.AlignHorizonalCenter()
 		return textLine
 
-	if app.ENABLE_OFFICAL_CHARACTER_SCREEN:
-		def SetThinBoardSize(self, width, height = 12) :#new select
-			self.toolTipWidth = width
-			self.toolTipHeight = height
+	def SetThinBoardSize(self, width, height = 12) :#new select
+		self.toolTipWidth = width
+		self.toolTipHeight = height
 
-		def ResizeToolTipText(self, x, y):
-			self.SetSize(x, y)
+	def ResizeToolTipText(self, x, y):
+		self.SetSize(x, y)
 
 	def AutoAppendTextLineNew(self, text, lineCount = 6, charLimit = 30, stepSize = 15):
 		wrapper = textwrap.TextWrapper(width=charLimit) 
@@ -869,19 +868,19 @@ class ItemToolTip(ToolTip):
 
 		self.AddItemData(itemVnum, metinSlot, attrSlot, 0, 0, window_type, slotIndex)
 
-		self.yang_tickets = { # vnum - yang karsılıgı
-			80003: 2500,
-			80004: 5000,
-			80005: 7500,
-			80006: 10000,
-			80008: 150000
-		}
-
-		getCurrentItemCount = player.GetItemCount(window_type, slotIndex)
-		if itemVnum in self.yang_tickets.keys():
-			self.AppendSpace(5)
-			self.AppendTextLine("|Eothers/shopsearchyang|e - " + "{} Yang".format(localeInfo.NumberToDecimal(self.yang_tickets[itemVnum]*getCurrentItemCount)), colorInfo.BLEND_ATTRIBUTE)
-			self.AppendSpace(3)
+		if app.ENABLE_SHOP_SEARCH:
+			self.yang_tickets = { # vnum - yang karsiligi
+				80003: 2500,
+				80004: 5000,
+				80005: 7500,
+				80006: 10000,
+				80008: 150000
+			}
+			getCurrentItemCount = player.GetItemCount(window_type, slotIndex)
+			if itemVnum in self.yang_tickets.keys():
+				self.AppendSpace(5)
+				self.AppendTextLine("|Eothers/shopsearchyang|e - " + "{} Yang".format(localeInfo.NumberToDecimal(self.yang_tickets[itemVnum]*getCurrentItemCount)), colorInfo.BLEND_ATTRIBUTE)
+				self.AppendSpace(3)
 
 		if app.ENABLE_HIDE_TOOLTIP_EMOJI and systemSetting.GetEmojiStatus():
 			# self.AppendHorizontalLine()
@@ -912,7 +911,7 @@ class ItemToolTip(ToolTip):
 					self.AppendTextLine(localeInfo.FAST_SKILL_BOOK_SYSTEM_TOOLTIP, centerAlign = False)
 					self.AppendSpace(5)
 
-			if itemVnum in blend_table.BLEND_BASE_TIME and app.ENABLE_EXTENDED_BLEND_AFFECT:
+			if app.ENABLE_EXTENDED_BLEND_AFFECT and itemVnum in blend_table.BLEND_BASE_TIME:
 				self.AppendTextLine(localeInfo.USE_CONSUMABLE_TOOLTIP, centerAlign = False)
 				self.AppendSpace(5)
 
@@ -1800,11 +1799,11 @@ class ItemToolTip(ToolTip):
 
 			if itemSubType in (item.ARMOR_WRIST, item.ARMOR_NECK, item.ARMOR_EAR):
 				self.__AppendAccessoryMetinSlotInfo(metinSlot, constInfo.GET_ACCESSORY_MATERIAL_VNUM(itemVnum, itemSubType))
-			elif itemSubType == item.ARMOR_HEAD:
+			elif getattr(app, "ENABLE_JEWELS_RENEWAL", 0) and itemSubType == item.ARMOR_HEAD:
 				self.__AppendAccessoryMetinSlotInfo(metinSlot, 24701)
-			elif itemSubType == item.ARMOR_FOOTS:
+			elif getattr(app, "ENABLE_JEWELS_RENEWAL", 0) and itemSubType == item.ARMOR_FOOTS:
 				self.__AppendAccessoryMetinSlotInfo(metinSlot, 24707)
-			elif itemSubType == item.ARMOR_SHIELD:
+			elif getattr(app, "ENABLE_JEWELS_RENEWAL", 0) and itemSubType == item.ARMOR_SHIELD:
 				self.__AppendAccessoryMetinSlotInfo(metinSlot, 24704)
 			else:
 				self.__AppendMetinSlotInfo(metinSlot)
@@ -1970,7 +1969,7 @@ class ItemToolTip(ToolTip):
 			self.AppendWearableInformation()
 
 			if app.ENABLE_ACCE_COSTUME_SYSTEM:
-				self.AppendAbsorbedItemInfo(itemVnum, int(metinSlot[aura.ABSORBED_SOCKET]), attrSlot)
+				self.AppendAbsorbedItemInfo(itemVnum, int(metinSlot[acce.ABSORBED_SOCKET]), attrSlot)
 
 			if bHasRealtimeFlag:
 				self.AppendMallItemLastTime(metinSlot[0])
@@ -2133,7 +2132,7 @@ class ItemToolTip(ToolTip):
 				self.AppendTextLine("BLEND_POTION_NO_INFO")
 
 		elif item.ITEM_TYPE_COSTUME == itemType and isCostumeMount:
-			if player.CheckAffect(chr.NEW_AFFECT_NAMING_SCROLL_MOUNT, 0):
+			if app.ENABLE_NAMING_SCROLL and player.CheckAffect(chr.NEW_AFFECT_NAMING_SCROLL_MOUNT, 0):
 				self.__AppendAffectInformation(0)
 			else:
 				self.__AppendAffectInformation()
@@ -2159,8 +2158,8 @@ class ItemToolTip(ToolTip):
 					self.AppendUniqueItemLastTime(time)
 
 		# if app.ENABLE_PET_COSTUME_SYSTEM:
-		elif item.ITEM_TYPE_PET == itemType: 
-			if player.CheckAffect(chr.NEW_AFFECT_NAMING_SCROLL_PET, 0):
+		elif app.ENABLE_PET_COSTUME_SYSTEM and item.ITEM_TYPE_PET == itemType: 
+			if app.ENABLE_NAMING_SCROLL and player.CheckAffect(chr.NEW_AFFECT_NAMING_SCROLL_PET, 0):
 				self.__AppendAffectInformation(1)
 			else:
 				self.__AppendAffectInformation()
@@ -2195,9 +2194,9 @@ class ItemToolTip(ToolTip):
 				(limitType, limitValue) = item.GetLimit(i)
 				if item.LIMIT_REAL_TIME == limitType:
 					self.AppendMallItemLastTime(metinSlot[0])
-			if itemType == item.ITEM_PENDANT:
+			if getattr(app, "ENABLE_JEWELS_RENEWAL", 0) and itemType == item.ITEM_PENDANT:
 				self.__AppendAccessoryMetinSlotInfo(metinSlot, 24713)
-			elif itemType == item.ITEM_GLOVE:
+			elif getattr(app, "ENABLE_JEWELS_RENEWAL", 0) and itemType == item.ITEM_GLOVE:
 				self.__AppendAccessoryMetinSlotInfo(metinSlot, 24716)
 
 		elif itemType == item.ITEM_BOOSTER:
@@ -2295,7 +2294,7 @@ class ItemToolTip(ToolTip):
 			self.AppendSpace(5)
 
 		# if app.ENABLE_CROWN_SYSTEM:
-		elif item.ITEM_TYPE_CROWN == itemType:
+		elif app.ENABLE_CROWN_SYSTEM and item.ITEM_TYPE_CROWN == itemType:
 			self.__AppendLimitInformation()
 			self.__AppendAffectInformation()
 			self.__AppendAttributeInformation(attrSlot)
@@ -2404,7 +2403,7 @@ class ItemToolTip(ToolTip):
 
 					self.AppendTextLine(localeInfo.CONVER_TO_CARD_SET.format(neededItemCount))
 
-				if itemVnum == 70038:
+				if getattr(app, "ENABLE_CAPE_GOLD_INFO", 0) and itemVnum == 70038:
 					capeGoldInfo = {
 						0 : 5000,
 						1 : 10000,
@@ -2567,7 +2566,7 @@ class ItemToolTip(ToolTip):
 			itemType = item.GetItemType()
 			itemSubType = item.GetItemSubType()
 
-			IsPets = (itemType == item.ITEM_TYPE_PET or itemType == item.ITEM_PET_SKIN) 
+			IsPets = ((app.ENABLE_PET_COSTUME_SYSTEM and itemType == item.ITEM_TYPE_PET) or itemType == item.ITEM_PET_SKIN) 
 			IsMounts = ((itemType == item.ITEM_TYPE_COSTUME and itemSubType == item.COSTUME_TYPE_MOUNT) or itemType == item.ITEM_MOUNT_SKIN)
 
 			IsArmor = (itemType == item.ITEM_TYPE_ARMOR and itemSubType == item.ARMOR_BODY)
@@ -2632,7 +2631,7 @@ class ItemToolTip(ToolTip):
 			itemType = item.GetItemType()
 			itemSubType = item.GetItemSubType()
 
-			IsPets = (itemType == item.ITEM_TYPE_PET or itemType == item.ITEM_PET_SKIN) 
+			IsPets = ((app.ENABLE_PET_COSTUME_SYSTEM and itemType == item.ITEM_TYPE_PET) or itemType == item.ITEM_PET_SKIN) 
 			IsMounts = ((itemType == item.ITEM_TYPE_COSTUME and itemSubType == item.COSTUME_TYPE_MOUNT) or itemType == item.ITEM_MOUNT_SKIN)
 
 			if itemType == item.ITEM_TYPE_WEAPON or\
@@ -2895,7 +2894,7 @@ class ItemToolTip(ToolTip):
 			return "UNKNOWN_TYPE[%s] %s" % (affectType, affectValue)
 
 	def __AppendAffectInformation(self, type = -1, divideRate=0):
-		if type in (0, 1):
+		if app.ENABLE_NAMING_SCROLL and type in (0, 1):
 			self.AppendTextLine(localeInfo.NAMING_SCROLL_AFFECT_TITLE.format(int(constInfo.NAMING_SCROLL_GET_BONUS_RATE(type))), self.GREEN_COLOR)
 			self.isNamingScrollActive = True
 
@@ -2904,8 +2903,10 @@ class ItemToolTip(ToolTip):
 			if app.ENABLE_ACCE_COSTUME_SYSTEM and affectType==item.APPLY_ACCEDRAIN_RATE:
 				continue
 
-			mountRate = constInfo.NAMING_SCROLL_GET_BONUS_RATE(0)
-			petRate = constInfo.NAMING_SCROLL_GET_BONUS_RATE(1)
+			mountRate = petRate = 0
+			if app.ENABLE_NAMING_SCROLL:
+				mountRate = constInfo.NAMING_SCROLL_GET_BONUS_RATE(0)
+				petRate = constInfo.NAMING_SCROLL_GET_BONUS_RATE(1)
 
 			additionalValue = -1
 
@@ -3063,7 +3064,7 @@ class ItemToolTip(ToolTip):
 	def AppendPrice(self, price):
 		self.AppendSpace(5)
 		if price == 0:
-			self.AppendTextLine(localeInfo.TOOLTIP_ITEM_FREE, self.SPECIAL_POSITIVE_COLOR2)
+			self.AppendTextLine(localeInfo.FREE_ITEM, self.SPECIAL_POSITIVE_COLOR2)
 		else:
 			self.AppendTextLine(localeInfo.TOOLTIP_BUYPRICE  % (localeInfo.NumberToMoneyString(price)), self.GetPriceColor(price))
 
@@ -3164,22 +3165,22 @@ class ItemToolTip(ToolTip):
 		end = min(metinSlot[1], ACCESSORY_SOCKET_MAX_SIZE)
 
 		permanent = 0
-		if metinSlot[2] == 62:
+		if getattr(app, "ENABLE_JEWELS_RENEWAL", 0) and metinSlot[2] == 62 and hasattr(constInfo, "JewelAccessoryInfosDict"):
 			mtrlVnum = constInfo.JewelAccessoryInfosDict[mtrlVnum]
 			permanent = 1
 
 		bonusDict = [10, 20, 40, 50]
 		permanentBonusDict = [15, 25, 55, 65]
 
-		affectType1, affectValue1 = item.GetAffect(0)
+		affectType1, affectValue1 = (item.GetAffect(0) or (0, 0)) if item.ITEM_APPLY_MAX_NUM > 0 else (0, 0)
 		affectList1=[0, max(1, affectValue1*bonusDict[0]/100), max(2, affectValue1*bonusDict[1]/100), max(3, affectValue1*bonusDict[2]/100), max(4, affectValue1*bonusDict[3]/100)]
-		affectType2, affectValue2 = item.GetAffect(1)
+		affectType2, affectValue2 = (item.GetAffect(1) or (0, 0)) if item.ITEM_APPLY_MAX_NUM > 1 else (0, 0)
 		affectList2=[0, max(1, affectValue2*bonusDict[0]/100), max(2, affectValue2*bonusDict[1]/100), max(3, affectValue2*bonusDict[2]/100), max(4, affectValue2*bonusDict[3]/100)]
-		affectType3, affectValue3 = item.GetAffect(2)
+		affectType3, affectValue3 = (item.GetAffect(2) or (0, 0)) if item.ITEM_APPLY_MAX_NUM > 2 else (0, 0)
 		affectList3=[0, max(1, affectValue3*bonusDict[0]/100), max(2, affectValue3*bonusDict[1]/100), max(3, affectValue3*bonusDict[2]/100), max(4, affectValue3*bonusDict[3]/100)]
-		affectType4, affectValue4 = item.GetAffect(3)
+		affectType4, affectValue4 = (item.GetAffect(3) or (0, 0)) if item.ITEM_APPLY_MAX_NUM > 3 else (0, 0)
 		affectList4=[0, max(1, affectValue4*bonusDict[0]/100), max(2, affectValue4*bonusDict[1]/100), max(3, affectValue4*bonusDict[2]/100), max(4, affectValue4*bonusDict[3]/100)]
-		affectType5, affectValue5 = item.GetAffect(4)
+		affectType5, affectValue5 = (item.GetAffect(4) or (0, 0)) if item.ITEM_APPLY_MAX_NUM > 4 else (0, 0)
 		affectList5=[0, max(1, affectValue5*bonusDict[0]/100), max(2, affectValue5*bonusDict[1]/100), max(3, affectValue5*bonusDict[2]/100), max(4, affectValue5*bonusDict[3]/100)]
 
 		permaAffectList1=[0, max(1, affectValue1*permanentBonusDict[0]/100), max(2, affectValue1*permanentBonusDict[1]/100), max(3, affectValue1*permanentBonusDict[2]/100), max(4, affectValue1*permanentBonusDict[3]/100)]
@@ -4039,7 +4040,7 @@ class SkillToolTip(ToolTip):
 			self.AppendSkillConditionData(skillIndex)
 			self.AppendGuildSkillData(skillIndex, skillLevel)
 
-		elif skillIndex in self.PASSIVE_SKILL_DICT and app.ENABLE_PASSIVE_SKILLS:
+		elif app.ENABLE_PASSIVE_SKILLS and skillIndex in self.PASSIVE_SKILL_DICT:
 			level_limit = 60
 			# self.skillMaxLevelEndDict = { 0: 20, 1 : 10, 2 : 10, 3 : 10, 4 : 10, 5 : 10}
 			self.skillMaxLevelEndDict = { 0: 20, 1 : 10, 2 : 10, 3 : 10, 4 : 10}
@@ -4256,7 +4257,7 @@ class SkillToolTip(ToolTip):
 				if self.HasSkillLevelDescription(skillIndex, skillLevel+skillLevelUpPoint):
 					self.AppendSpace(5)
 					if skillIndex == 141 or skillIndex == 142:
-						self.AppendTextLine(localeInfo.TOOLTIP_NEXT_SKILL_LEVEL_INT % (skillLevel+1), self.DISABLE_COLOR)
+						self.AppendTextLine(localeInfo.TOOLTIP_NEXT_SKILL_LEVEL_1 % (skillLevel+1, skillMaxLevelEnd), self.DISABLE_COLOR)
 					else:
 						self.AppendTextLine(localeInfo.TOOLTIP_NEXT_SKILL_LEVEL_1 % (skillLevel+1, skillMaxLevelEnd), self.DISABLE_COLOR)
 					self.AppendSkillLevelDescriptionNew(skillIndex, skillNextPercentage, self.DISABLE_COLOR)

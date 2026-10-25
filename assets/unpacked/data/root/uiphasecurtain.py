@@ -30,7 +30,7 @@ class PhaseCurtain(ui.Bar):
 		self.FadeInFlag = True
 
 	def SetAlpha(self, alpha):
-		if systemSetting.IsLoadingAnimated():
+		if getattr(systemSetting, "IsLoadingAnimated", lambda: 0)():
 			if constInfo.CURTAIN_ACTIVE == 0:
 				alpha = 0
 

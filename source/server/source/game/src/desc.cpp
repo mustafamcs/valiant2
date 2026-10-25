@@ -1087,4 +1087,15 @@ void DESC::NewChatPacket(WORD chatID)
 
 	Packet(buf.read_peek(), buf.size());
 }
+#else
+void DESC::NewChatPacket(WORD chatID, const char* format, ...)
+{
+	(void)chatID;
+	(void)format;
+}
+
+void DESC::NewChatPacket(WORD chatID)
+{
+	(void)chatID;
+}
 #endif

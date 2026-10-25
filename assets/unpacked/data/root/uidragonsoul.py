@@ -210,7 +210,7 @@ class DragonSoulWindow(ui.ScriptWindow):
 		if app.ENABLE_DS_GRADE_MYTH:
 			if None != self.toolTip:
 				self.toolTip.Hide()
-		if self.tooltipSlot and app.ENABLE_SLOT_TOOLTIP:
+		if app.ENABLE_SLOT_TOOLTIP and self.tooltipSlot:
 			self.tooltipSlot.Hide()
 		self.Hide()
 

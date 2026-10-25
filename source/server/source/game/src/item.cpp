@@ -31,7 +31,11 @@ CItem::CItem(DWORD dwVnum)
 	: m_dwVnum(dwVnum), m_bWindow(0), m_dwID(0), m_bEquipped(false), m_dwVID(0), m_wCell(0), m_dwCount(0), m_lFlag(0), m_dwLastOwnerPID(0),
 	m_bExchanging(false), m_pkDestroyEvent(NULL), m_pkExpireEvent(NULL), m_pkUniqueExpireEvent(NULL),
 	m_pkTimerBasedOnWearExpireEvent(NULL), m_pkRealTimeExpireEvent(NULL),
-	m_pkAccessorySocketExpireEvent(NULL), m_pkOwnershipEvent(NULL),  /* ENABLE_EXTENDED_BLEND_AFFECT */ m_pkBlendUseEvent(NULL), /* ENABLE_EXTENDED_BLEND_AFFECT*/ m_dwOwnershipPID(0), m_bSkipSave(false), m_isLocked(false),
+	m_pkAccessorySocketExpireEvent(NULL), m_pkOwnershipEvent(NULL),
+#ifdef ENABLE_EXTENDED_BLEND_AFFECT
+	m_pkBlendUseEvent(NULL),
+#endif
+	m_dwOwnershipPID(0), m_bSkipSave(false), m_isLocked(false),
 	m_dwMaskVnum(0), m_dwSIGVnum(0)
 {
 	memset(&m_alSockets, 0, sizeof(m_alSockets));
@@ -944,7 +948,11 @@ void CItem::ModifyPoints(bool bAdd)
 #endif
 
 #if defined (ENABLE_AURA_SYSTEM) || defined (ENABLE_ACCE_COSTUME_SYSTEM)
-	if (GetType() == ITEM_COSTUME && (GetSubType() == COSTUME_ACCE || GetSubType() == COSTUME_AURA))
+	if (GetType() == ITEM_COSTUME && (GetSubType() == COSTUME_ACCE
+#ifdef ENABLE_AURA_SYSTEM
+		|| GetSubType() == COSTUME_AURA
+#endif
+		))
 	{
 		TItemTable* pkItemAbsorbed = ITEM_MANAGER::instance().GetTable(GetSocket(ACCE_ABSORBED_SOCKET));
 		for (int i = 0; i < ITEM_APPLY_MAX_NUM; ++i)
@@ -1029,10 +1037,12 @@ void CItem::ModifyPoints(bool bAdd)
 				value += i < DSManager::instance().GetApplyCount(GetVnum()) ? DSManager::instance().GetBasicApplyValue(GetVnum(), ia.bType, true) : DSManager::instance().GetAdditionalApplyValue(GetVnum(), ia.bType, true);
 			}
 #endif
+#ifdef ENABLE_NAMING_SCROLL
 			if (bonusRate != -1)
 			{
 				value += value * bonusRate / 100;
 			}
+#endif
 			if (ia.bType == APPLY_SKILL)
 				m_pOwner->ApplyPoint(ia.bType, bAdd ? value : value ^ 0x00800000);
 			else

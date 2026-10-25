@@ -947,8 +947,13 @@ bool CExchange::Done()
 	{
 		if (!(item = m_apItems[i]))
 			continue;
+#ifdef ENABLE_SPECIAL_STORAGE
 		BYTE window_type = victim->VnumGetWindowType(item->GetVnum());
 		empty_pos = victim->WindowTypeToGetEmpty(window_type,item);
+#else
+		BYTE window_type = item->IsDragonSoul() ? DRAGON_SOUL_INVENTORY : INVENTORY;
+		empty_pos = item->IsDragonSoul() ? victim->GetEmptyDragonSoulInventory(item) : victim->GetEmptyInventory(item->GetSize());
+#endif
 
 		if (empty_pos < 0)
 		{

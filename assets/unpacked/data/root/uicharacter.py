@@ -26,7 +26,7 @@ if app.ENABLE_SKILL_COLOR_SYSTEM:
 SHOW_ONLY_ACTIVE_SKILL = False
 SHOW_LIMIT_SUPPORT_SKILL_LIST = []
 HIDE_SUPPORT_SKILL_POINT = True 
-BLOCK_SUPPORT_SKILL_LIST = [130, 131]
+BLOCK_SUPPORT_SKILL_LIST = [130, 131] if app.ENABLE_PASSIVE_SKILLS else []
 
 FACE_IMAGE_DICT = {
 	playerSettingModule.RACE_WARRIOR_M : "icon/face/warrior_m.tga",
@@ -259,10 +259,10 @@ class CharacterWindow(ui.ScriptWindow):
 
 	def Show(self):
 		self.__LoadWindow()
-		# if app.ENABLE_DETAILS_INTERFACE:
-		self.__InitCharacterDetailsUIButton()
-		if self.chDetailsWnd and self.isOpenedDetailsWnd:
-			self.chDetailsWnd.Show()
+		if app.ENABLE_EXTRA_APPLY_BONUS:
+			self.__InitCharacterDetailsUIButton()
+			if self.chDetailsWnd and self.isOpenedDetailsWnd:
+				self.chDetailsWnd.Show()
 		ui.ScriptWindow.Show(self)
 
 
@@ -496,6 +496,10 @@ class CharacterWindow(ui.ScriptWindow):
 		self.GetChild("Active_Skill_Point_Label").OnMouseOverIn = lambda arg = localeInfo.STAT_TOOLTIP_POINT : ui.__mem_func__(self.__ShowToolTip)(arg)
 		self.GetChild("Active_Skill_Point_Label").OnMouseOverOut = lambda : ui.__mem_func__(self.__HideToolTip)()
 
+		if not app.ENABLE_SKILLS_LEVEL_OVER_P:
+			self.GetChild("Set_Skill_Point_Label").Hide()
+		if not app.ENABLE_PASSIVE_SKILLS:
+			self.GetChild("Skill_ETC_Title_Bar").Hide()
 		self.GetChild("Set_Skill_Point_Label").OnMouseOverIn = lambda arg = localeInfo.SKILL_SET_BONUS_TOOLTIP_AVAIL_FOR_SAGE, arg2 = 50 : ui.__mem_func__(self.__ShowToolTipButton)(arg, arg2)
 		self.GetChild("Set_Skill_Point_Label").OnMouseOverOut = lambda : ui.__mem_func__(self.__HideToolTip)()
 
@@ -567,16 +571,16 @@ class CharacterWindow(ui.ScriptWindow):
 				self.questLastTimeList.append(self.GetChild("Quest_LastTime_0" + str(i)))
 				self.questLastCountList.append(self.GetChild("Quest_LastCount_0" + str(i)))
 
-		# if app.ENABLE_DETAILS_INTERFACE:
-		self.MainBoard = self.GetChild("board")
-		self.ExpandBtn = ui.MakeButton(self.MainBoard, 240, 150, "", "d:/ymir work/ui/game/belt_inventory/", "btn_minimize_normal.tga", "btn_minimize_over.tga", "btn_minimize_down.tga")
-		self.ExpandBtn.SetEvent(ui.__mem_func__(self.__ClickExpandButton))
-		self.MinimizeBtn = ui.MakeButton(self.MainBoard, 240, 150, "", "d:/ymir work/ui/game/belt_inventory/", "btn_expand_normal.tga", "btn_expand_over.tga", "btn_expand_down.tga")
-		self.MinimizeBtn.SetEvent(ui.__mem_func__(self.__ClickMinimizeButton))
-		self.ExpandBtn.ShowToolTip = lambda arg=localeInfo.DETAILS_TITLE: self.__ShowToolTipButton(arg)
-		self.ExpandBtn.HideToolTip = lambda arg=localeInfo.DETAILS_TITLE: self.__HideToolTip()
-		self.MinimizeBtn.ShowToolTip = lambda arg=localeInfo.DETAILS_TITLE: self.__ShowToolTipButton(arg)
-		self.MinimizeBtn.HideToolTip = lambda arg=localeInfo.DETAILS_TITLE: self.__HideToolTip()
+		if app.ENABLE_EXTRA_APPLY_BONUS:
+			self.MainBoard = self.GetChild("board")
+			self.ExpandBtn = ui.MakeButton(self.MainBoard, 240, 150, "", "d:/ymir work/ui/game/belt_inventory/", "btn_minimize_normal.tga", "btn_minimize_over.tga", "btn_minimize_down.tga")
+			self.ExpandBtn.SetEvent(ui.__mem_func__(self.__ClickExpandButton))
+			self.MinimizeBtn = ui.MakeButton(self.MainBoard, 240, 150, "", "d:/ymir work/ui/game/belt_inventory/", "btn_expand_normal.tga", "btn_expand_over.tga", "btn_expand_down.tga")
+			self.MinimizeBtn.SetEvent(ui.__mem_func__(self.__ClickMinimizeButton))
+			self.ExpandBtn.ShowToolTip = lambda arg=localeInfo.DETAILS_TITLE: self.__ShowToolTipButton(arg)
+			self.ExpandBtn.HideToolTip = lambda arg=localeInfo.DETAILS_TITLE: self.__HideToolTip()
+			self.MinimizeBtn.ShowToolTip = lambda arg=localeInfo.DETAILS_TITLE: self.__ShowToolTipButton(arg)
+			self.MinimizeBtn.HideToolTip = lambda arg=localeInfo.DETAILS_TITLE: self.__HideToolTip()
 
 	def GetRealRace(self):
 		race = net.GetMainActorRace()
@@ -663,7 +667,8 @@ class CharacterWindow(ui.ScriptWindow):
 			self.skillColorWndSetPosition = True
 
 	def __ClickMinimizeButton(self):			
-		self.chDetailsWnd.Hide()
+		if self.chDetailsWnd:
+			self.chDetailsWnd.Hide()
 		self.MinimizeBtn.Hide()
 		self.ExpandBtn.Show()
 
@@ -993,7 +998,13 @@ class CharacterWindow(ui.ScriptWindow):
 			self.GetChild("CSPD_Value").SetText(localeInfo.NumberToDecimalString(player.GetStatus(player.CASTING_SPEED)))
 			self.GetChild("ER_Value").SetText(localeInfo.NumberToDecimalString(player.GetStatus(player.EVADE_RATE)))
 
-			self.GetChild("BattlePoint").SetText(localeInfo.BATTLEPONT_TEXT + localeInfo.NumberToDecimal("%d" % (player.GetStatus(player.POINT_POWER_RANK))))
+			if getattr(app, "ENABLE_POWER_RANKING", 0):
+				self.GetChild("BattlePoint").SetText(localeInfo.BATTLEPONT_TEXT + localeInfo.NumberToDecimal("%d" % (player.GetStatus(player.POINT_POWER_RANK))))
+			else:
+				point, grade = player.GetAlignmentData()
+				colorList = extraInfo.TITLE_COLOR_DICT[grade]
+				self.GetChild("BattlePoint").SetPackedFontColor(ui.GenerateColor(colorList[0], colorList[1], colorList[2]))
+				self.GetChild("BattlePoint").SetText(extraInfo.TITLE_NAME_LIST[grade])
 
 		except:
 			pass
@@ -1060,34 +1071,35 @@ class CharacterWindow(ui.ScriptWindow):
 		self.toolTipAlignment.AlignHorizonalCenter()
 		self.toolTipAlignment.AppendSpace(4)
 
-		bonusCount = player.GetAlignmentBonusCount(grade)
-		BONUS_COLOR = 0xff7CCD7C
-		if grade < 9:
-			self.toolTipAlignment.AutoAppendTextLine(localeInfo.TOOLTIP_ALIGNMENT_INFO)
-			self.toolTipAlignment.AppendSpace(2)
-
-		for i in xrange(bonusCount):
-			bonusType, bonusValue = player.GetAlignmentBonusInfo(grade,i)
-			bonusText = uiToolTip.GET_AFFECT_STRING(bonusType, bonusValue)
-			self.toolTipAlignment.AutoAppendTextLine("{}".format(bonusText), BONUS_COLOR)
-			self.toolTipAlignment.AppendSpace(2)
-
-		bonusCount = player.GetAlignmentBonusCount(grade-1)
-		if bonusCount:
-			self.toolTipAlignment.AppendHorizontalLine()
-			self.toolTipAlignment.AppendSpace(4)
-			self.toolTipAlignment.AutoAppendTextLine(localeInfo.TOOLTIP_ALIGNMENT_INFO2)
-			self.toolTipAlignment.AppendSpace(4)
-			colorList = extraInfo.TITLE_COLOR_DICT[grade-1]
-			gradeColor = ui.GenerateColor(colorList[0], colorList[1], colorList[2])
-			self.toolTipAlignment.AutoAppendTextLine(extraInfo.TITLE_NAME_LIST[grade-1], gradeColor)
-			self.toolTipAlignment.AutoAppendTextLine(localeInfo.ALIGNMENT_NAME + str(self.alignmentList.get(grade-1, 0)))
-
-		for i in xrange(bonusCount):
-			bonusType, bonusValue = player.GetAlignmentBonusInfo(grade-1, i)
-			bonusText = uiToolTip.GET_AFFECT_STRING(bonusType, bonusValue)
-			self.toolTipAlignment.AutoAppendTextLine("{}".format(bonusText), 0xffFFB96D)
-			self.toolTipAlignment.AppendSpace(2)
+		if app.ENABLE_ALIGNMENT_SYSTEM:
+			bonusCount = player.GetAlignmentBonusCount(grade)
+			BONUS_COLOR = 0xff7CCD7C
+			if grade < 9:
+				self.toolTipAlignment.AutoAppendTextLine(localeInfo.TOOLTIP_ALIGNMENT_INFO)
+				self.toolTipAlignment.AppendSpace(2)
+	
+			for i in xrange(bonusCount):
+				bonusType, bonusValue = player.GetAlignmentBonusInfo(grade,i)
+				bonusText = uiToolTip.GET_AFFECT_STRING(bonusType, bonusValue)
+				self.toolTipAlignment.AutoAppendTextLine("{}".format(bonusText), BONUS_COLOR)
+				self.toolTipAlignment.AppendSpace(2)
+	
+			bonusCount = player.GetAlignmentBonusCount(grade-1)
+			if bonusCount:
+				self.toolTipAlignment.AppendHorizontalLine()
+				self.toolTipAlignment.AppendSpace(4)
+				self.toolTipAlignment.AutoAppendTextLine(localeInfo.TOOLTIP_ALIGNMENT_INFO2)
+				self.toolTipAlignment.AppendSpace(4)
+				colorList = extraInfo.TITLE_COLOR_DICT[grade-1]
+				gradeColor = ui.GenerateColor(colorList[0], colorList[1], colorList[2])
+				self.toolTipAlignment.AutoAppendTextLine(extraInfo.TITLE_NAME_LIST[grade-1], gradeColor)
+				self.toolTipAlignment.AutoAppendTextLine(localeInfo.ALIGNMENT_NAME + str(self.alignmentList.get(grade-1, 0)))
+	
+			for i in xrange(bonusCount):
+				bonusType, bonusValue = player.GetAlignmentBonusInfo(grade-1, i)
+				bonusText = uiToolTip.GET_AFFECT_STRING(bonusType, bonusValue)
+				self.toolTipAlignment.AutoAppendTextLine("{}".format(bonusText), 0xffFFB96D)
+				self.toolTipAlignment.AppendSpace(2)
 
 	def __ShowStatusMinusButtonList(self):
 		for (stateMinusKey, statusMinusButton) in self.statusMinusButtonDict.items():
@@ -1375,10 +1387,6 @@ class CharacterWindow(ui.ScriptWindow):
 		self.__UpdateQuestClock()
 		if app.ENABLE_SKILL_COLOR_SYSTEM:
 			self.__SetOnMoveWindowPos(self.skillColorWndSetPosition)
-
-		# if self.GetChild("Character_Page"):
-		# 	if self.GetChild("BattlePoint"):
-				# self.GetChild("BattlePoint").SetText(localeInfo.BATTLEPONT_TEXT + localeInfo.NumberToDecimal("%d" % (player.GetStatus(player.POINT_POWER_RANK))))
 
 	def RefreshNormalSkillCoolTime(self, skillPage, slotCount):
 

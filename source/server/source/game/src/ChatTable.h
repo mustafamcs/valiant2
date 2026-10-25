@@ -1,5 +1,4 @@
 #pragma once
-#ifdef ENABLE_NEW_CHAT
 
 enum EChatTable
 {
@@ -604,7 +603,7 @@ enum EChatTable
 	MAX_CHAT_COUNT
 };
 
-#ifdef LOCALE_SERVICE_EUROPE
+#if defined(LOCALE_SERVICE_EUROPE) && defined(ENABLE_NEW_CHAT)
 #define DEF_STR(x) #x
 extern const char* g_ChatTable[MAX_CHAT_COUNT];
 const char* g_ChatTable[MAX_CHAT_COUNT] =
@@ -1196,5 +1195,4 @@ const char* g_ChatTable[MAX_CHAT_COUNT] =
 
 };
 
-#endif
 #endif

@@ -1,4 +1,5 @@
 #include "StdAfx.h"
+#ifdef ENABLE_CEF_BROWSER
 #include "CefClientHandler.h"
 
 #include "../../external/include/cef/cef_app.h"
@@ -33,3 +34,4 @@ void ClientHandler::OnBeforeClose(CefRefPtr<CefBrowser> browser)
 		m_Browser = NULL;
 	}
 }
+#endif

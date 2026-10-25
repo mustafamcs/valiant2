@@ -425,7 +425,11 @@ int CHARACTER::ProcessAffect()
 				bEnd = true;
 		}
 
-		if (pkAff->lSPCost > 0 && pkAff->dwType != AFFECT_AUTO_HP_RECOVERY && pkAff->dwType != AFFECT_AUTO_SP_RECOVERY && pkAff->dwType != AFFECT_AUTO_PICK_UP)
+		if (pkAff->lSPCost > 0 && pkAff->dwType != AFFECT_AUTO_HP_RECOVERY && pkAff->dwType != AFFECT_AUTO_SP_RECOVERY
+#ifdef ENABLE_AUTO_PICK_UP
+			&& pkAff->dwType != AFFECT_AUTO_PICK_UP
+#endif
+			)
 		{
 			if (GetSP() < pkAff->lSPCost)
 				bEnd = true;

@@ -1,4 +1,5 @@
 ﻿#include "StdAfx.h"
+#ifdef ENABLE_RENDER_TARGET
 #include "CRenderTargetManager.h"
 #include "../EterBase/Stl.h"
 #include <memory>
@@ -65,3 +66,4 @@ std::shared_ptr<CRenderTarget> CRenderTargetManager::GetRenderTarget(const int i
 		return it->second;
 	return nullptr;
 }
+#endif

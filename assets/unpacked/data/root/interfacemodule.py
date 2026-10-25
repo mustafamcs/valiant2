@@ -410,7 +410,10 @@ class Interface(object):
 		if app.ENABLE_MINI_GAME_CATCH_KING:
 			self.wndCatchKingGame = uiMiniGameCatchKing.MiniGameCatchKing()
 
-		self.wndgameOption = uiGameOptionNew.GameOptionWindow()
+		if app.ENABLE_FONT_SELECT:
+			self.wndgameOption = uiGameOptionNew.GameOptionWindow()
+		else:
+			self.wndgameOption = None
 
 		if app.ENABLE_DISTANCE_NPC:
 			self.wndDistanceNPC = uiDistanceNPC.DistanceShoppingWindow()
@@ -514,7 +517,7 @@ class Interface(object):
 
 	def __MakeTipBoard(self):
 		# if app.__RENEWAL_NOTICE__:
-		self.tipBoard = uiTip.TipBoardNew()
+		self.tipBoard = uiTip.TipBoardNew() if app.ENABLE_DUNGEON_MODULES else uiTip.TipBoard()
 	# else:
 		# self.tipBoard = uiTip.TipBoard()
 		self.tipBoard.Hide()
@@ -952,7 +955,7 @@ class Interface(object):
 			self.wndgameOption.Destroy()
 			del self.wndgameOption
 
-		if self.wndDistanceNPC and app.ENABLE_DISTANCE_NPC:
+		if app.ENABLE_DISTANCE_NPC and self.wndDistanceNPC:
 			self.wndDistanceNPC.Hide()
 			self.wndDistanceNPC.Destroy()
 			del self.wndDistanceNPC
@@ -1029,13 +1032,13 @@ class Interface(object):
 				self.wndBattlePassExtended.Destroy()
 				del self.wndBattlePassExtended
 
-		if self.readBookWnd and app.ENABLE_FAST_SKILL_BOOK_SYSTEM:
+		if app.ENABLE_FAST_SKILL_BOOK_SYSTEM and self.readBookWnd:
 			self.readBookWnd.Close()
 			self.readBookWnd.Hide()
 			self.readBookWnd.Destroy()
 			del self.readBookWnd
 
-		if self.buffiWnd and app.ENABLE_BUFFI_SYSTEM:
+		if app.ENABLE_BUFFI_SYSTEM and self.buffiWnd:
 			self.buffiWnd.Close()
 			self.buffiWnd.Hide()
 			self.buffiWnd.Destroy()
@@ -1262,7 +1265,8 @@ class Interface(object):
 		self.wndInventory.SetTop()
 		self.dlgShop.Open(vid)
 		self.dlgShop.SetTop()
-		self.wndExpandedMoney.Show()
+		if app.ENABLE_INVENTORY_REWORK and self.wndExpandedMoney:
+			self.wndExpandedMoney.Show()
 
 	def CloseShopDialog(self):
 		self.dlgShop.Close()
@@ -1498,7 +1502,8 @@ class Interface(object):
 		if self.wndExpandedTaskBar:
 			self.wndExpandedTaskBar.Show()
 			self.wndExpandedTaskBar.SetTop()
-		self.wndExpandedMoney.Show()
+		if app.ENABLE_INVENTORY_REWORK and self.wndExpandedMoney:
+			self.wndExpandedMoney.Show()
 
 	def HideAllWindows(self):
 		if self.wndTaskBar:
@@ -1647,7 +1652,8 @@ class Interface(object):
 			if False == self.wndInventory.IsShow():
 				self.wndInventory.Show()
 				self.wndInventory.SetTop()
-				self.wndExpandedMoney.Show()
+				if app.ENABLE_INVENTORY_REWORK and self.wndExpandedMoney:
+					self.wndExpandedMoney.Show()
 				if app.ENABLE_SPECIAL_STORAGE:
 					if constInfo.SpecialInventoryMode == 1:
 						constInfo.IsSpecialInventoryOpen=1

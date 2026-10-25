@@ -484,9 +484,7 @@ void CGraphicImageInstance::Initialize()
 {
 	m_DiffuseColor.r = m_DiffuseColor.g = m_DiffuseColor.b = m_DiffuseColor.a = 1.0f;
 	m_v2Position.x = m_v2Position.y = 0.0f;
-#ifdef ENABLE_RENDER_TARGET
 	m_v2Scale.x = m_v2Scale.y = 1.0f;
-#endif
 }
 
 

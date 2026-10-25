@@ -506,6 +506,8 @@ typedef struct SPacketGGWarpCharacter
 	long map_index;
 	long addr;
 	WORD port;
+#else
+	long mapIndex;
 #endif
 } TPacketGGWarpCharacter;
 

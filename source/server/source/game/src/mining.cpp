@@ -224,7 +224,6 @@ namespace mining
 		upgradeItem->AddToGround(ch->GetMapIndex(), pos);
 		upgradeItem->StartDestroyEvent();
 		upgradeItem->SetOwnership(ch, 15);
-#endif
 		if (number(0, 100) <= MINING_UPGRADE_BOOK_DROP_PCT)
 		{
 			const LPITEM upgradeBook{ ITEM_MANAGER::instance().CreateItem(MINING_UPGRADE_BOOK_VNUM, 1) };
@@ -239,6 +238,7 @@ namespace mining
 			upgradeBook->StartDestroyEvent();
 			upgradeBook->SetOwnership(ch, 15);
 		}
+#endif
 #ifdef ENABLE_PLAYER_STATS_SYSTEM
 		ch->PointChange(POINT_MINING, iFractionCount);
 #endif

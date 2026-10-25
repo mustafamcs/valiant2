@@ -1812,10 +1812,11 @@ void CClientManager::QUERY_RELOAD_PROTO()
 			sizeof(WORD) + sizeof(TSkillTable) * m_vec_skillTable.size() +
 			sizeof(WORD) + sizeof(TBanwordTable) * m_vec_banwordTable.size() +
 			sizeof(WORD) + sizeof(TItemTable) * m_vec_itemTable.size() +
-			sizeof(WORD) + sizeof(TMobTable) * m_vec_mobTable.size() +
+			sizeof(WORD) + sizeof(TMobTable) * m_vec_mobTable.size()
 #ifdef ENABLE_RELOAD_REGEN
-			sizeof(WORD) + sizeof(TRefineTable) * m_iRefineTableSize);
+			+ sizeof(WORD) + sizeof(TRefineTable) * m_iRefineTableSize
 #endif
+		);
 
 		tmp->EncodeWORD(m_vec_skillTable.size());
 		tmp->Encode(&m_vec_skillTable[0], sizeof(TSkillTable) * m_vec_skillTable.size());

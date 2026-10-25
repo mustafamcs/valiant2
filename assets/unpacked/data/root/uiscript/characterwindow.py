@@ -1,3 +1,4 @@
+import app
 import uiScriptLocale
 
 
@@ -683,7 +684,7 @@ window = {
 							"y" : 193+52,
 							"start_index" : 101,
 							"x_count" : 6,
-							"y_count" : 2,
+							"y_count" : 2 if app.ENABLE_PASSIVE_SKILLS else 1,
 							"x_step" : 32,
 							"y_step" : 56,
 							"x_blank" : 5,

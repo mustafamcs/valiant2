@@ -1,6 +1,7 @@
 #define _cube_cpp_
 
 #include "stdafx.h"
+#ifdef ENABLE_CUBE_RENEWAL_WORLDARD
 #include "constants.h"
 #include "utils.h"
 #include "char.h"
@@ -589,3 +590,6 @@ void SendDateCubeRenewalPackets(LPCHARACTER ch, BYTE subheader, DWORD npcVNUM)
 		d->Packet(&pack, sizeof(pack));
 	}
 }
+#else
+#include "cube.cpp"
+#endif

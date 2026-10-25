@@ -643,6 +643,10 @@ void initChat()
 	PyModule_AddIntConstant(poModule, "CHAT_TYPE_ZODIAC_NOTICE", CHAT_TYPE_ZODIAC_NOTICE);
 	PyModule_AddIntConstant(poModule, "CHAT_TYPE_ZODIAC_SUB_NOTICE", CHAT_TYPE_ZODIAC_SUB_NOTICE);
 	PyModule_AddIntConstant(poModule, "CHAT_TYPE_ZODIAC_NOTICE_CLEAR", CHAT_TYPE_ZODIAC_NOTICE_CLEAR);
+#else
+	PyModule_AddIntConstant(poModule, "CHAT_TYPE_ZODIAC_NOTICE", 0);
+	PyModule_AddIntConstant(poModule, "CHAT_TYPE_ZODIAC_SUB_NOTICE", 0);
+	PyModule_AddIntConstant(poModule, "CHAT_TYPE_ZODIAC_NOTICE_CLEAR", 0);
 #endif
 #ifdef ENABLE_DROP_INFO_WINDOW
 	PyModule_AddIntConstant(poModule, "CHAT_TYPE_ITEM_INFO", CHAT_TYPE_ITEM_INFO);

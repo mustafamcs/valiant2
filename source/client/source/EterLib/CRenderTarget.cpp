@@ -1,4 +1,5 @@
 ﻿#include "StdAfx.h"
+#ifdef ENABLE_RENDER_TARGET
 #include "CRenderTarget.h"
 #include "../EterLib/Camera.h"
 #include "../EterLib/CRenderTargetManager.h"
@@ -67,7 +68,9 @@ void CRenderTarget::ResetModel()
 {
 	if (m_pModel)
 	{
+#ifdef ENABLE_WIKI
 		m_pModel->ClearWikiAffect();
+#endif
 		m_pModel.reset();
 	}
 }
@@ -248,7 +251,9 @@ void CRenderTarget::RenderModel()
 		m_pModel->Update();
 		m_pModel->Render();
 	}
+#ifdef ENABLE_WIKI
 	m_pModel->GetGraphicThingInstancePtr()->RenderAllAttachingEffectWiki();
+#endif
 
 	camera_manager.ResetToPreviousCamera();
 	python_graphic.RestoreViewport();
@@ -288,5 +293,6 @@ void CRenderTarget::Zoom(float fRatio)
 	v3Temp *= fRatio;
 	m_v3Eye = v3Temp + m_v3Target;
 }
+#endif
 
 

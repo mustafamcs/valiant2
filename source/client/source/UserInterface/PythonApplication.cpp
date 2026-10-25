@@ -499,7 +499,7 @@ bool CPythonApplication::Process()
 #ifdef ENABLE_RENDER_TARGET
 				CRenderTargetManager::Instance().ReleaseRenderTargetTextures();
 
-				if (m_pyGraphic.RestoreDevice())
+				if (m_grpDevice.RestoreDeviceWithPDT())
 				{
 					CRenderTargetManager::Instance().CreateRenderTargetTextures();
 					rkBG.CreateCharacterShadowTexture();
@@ -509,7 +509,7 @@ bool CPythonApplication::Process()
 					canRender = false;
 				}
 #else
-				if (m_pyGraphic.RestoreDevice())
+				if (m_grpDevice.RestoreDeviceWithPDT())
 				{
 					rkBG.CreateCharacterShadowTexture();
 				}
@@ -921,7 +921,7 @@ bool LoadLocaleData(const char* localePath)
 	}
 #endif
 
-#ifdef ENABLE_ACCE_COSTUME_SYSTEM
+#if defined(ENABLE_ACCE_COSTUME_SYSTEM) && defined(ENABLE_GLOBAL_SCALE)
 	char szItemScale[256]{};
 	snprintf(szItemScale, sizeof(szItemScale), "locale/common/item_scale.txt");
 
@@ -995,6 +995,27 @@ unsigned __GetWindowMode(bool windowed)
 		return WS_OVERLAPPED | WS_CAPTION | WS_SYSMENU | WS_MINIMIZEBOX;
 
 	return WS_POPUP;
+}
+
+BOOL CPythonApplication::RestoreDeviceWithResources()
+{
+	CPythonApplication& rkApp = CPythonApplication::Instance();
+	CPythonBackground& rkBG = CPythonBackground::Instance();
+
+	rkBG.ReleaseCharacterShadowTexture();
+#ifdef ENABLE_RENDER_TARGET
+	CRenderTargetManager::Instance().ReleaseRenderTargetTextures();
+#endif
+
+	if (!rkApp.m_grpDevice.RestoreDeviceWithPDT())
+		return FALSE;
+
+#ifdef ENABLE_RENDER_TARGET
+	CRenderTargetManager::Instance().CreateRenderTargetTextures();
+#endif
+	rkBG.CreateCharacterShadowTexture();
+
+	return TRUE;
 }
 
 bool CPythonApplication::Create(PyObject* poSelf, const char* c_szName, int width, int height, int Windowed)
@@ -1146,6 +1167,8 @@ bool CPythonApplication::Create(PyObject* poSelf, const char* c_szName, int widt
 	m_LightManager.Initialize();
 
 	CGraphicImageInstance::CreateSystem(32);
+	m_pyRes.PinPhaseChangeResources();
+	CScreen::SetRestoreDeviceCallback(CPythonApplication::RestoreDeviceWithResources);
 
 	STICKYKEYS sStickKeys;
 	memset(&sStickKeys, 0, sizeof(sStickKeys));

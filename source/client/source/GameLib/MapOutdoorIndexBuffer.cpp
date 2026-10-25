@@ -20,7 +20,16 @@ void CMapOutdoor::SetIndexBuffer()
 		count2[uci] = 0;
 
 		if (!m_IndexBuffer[uci].Create(dwIndexNum, D3DFMT_INDEX16))
+		{
 			TraceError("CMapOutdoor::SetIndexBuffer() IndexBuffer Create Error");
+			for (BYTE i = 0; i <= uci; ++i)
+			{
+				delete[] m_pwaIndices[i];
+				m_pwaIndices[i] = NULL;
+			}
+			memset(m_wNumIndices, 0, sizeof(m_wNumIndices));
+			return;
+		}
 	}
 
 	BYTE ucNumLineWarp = TERRAIN_PATCHSIZE + 1;
@@ -134,7 +143,12 @@ void CMapOutdoor::SetIndexBuffer()
 	{
 		m_wNumIndices[uci] = count[uci];
 		if (!m_IndexBuffer[uci].Lock((void**)&pIndices))
-			TraceError("CMapOutdoor::SetIndexBuffer() IndexBuffer Unlock Error");
+		{
+			TraceError("CMapOutdoor::SetIndexBuffer() IndexBuffer Lock Error");
+			delete[] m_pwaIndices[uci];
+			m_pwaIndices[uci] = NULL;
+			continue;
+		}
 		memcpy(pIndices, m_pwaIndices[uci], count[uci] * sizeof(WORD));
 		m_IndexBuffer[uci].Unlock();
 		delete[] m_pwaIndices[uci];

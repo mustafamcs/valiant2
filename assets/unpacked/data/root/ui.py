@@ -19,6 +19,9 @@ def RegisterToolTipWindow(type, createToolTipWindow):
 
 app.SetDefaultFontName(localeInfo.GetDefaultFont() if app.ENABLE_FONT_SELECT else localeInfo.UI_DEF_FONT)
 
+def WindowDestroy(func):
+	return func
+
 class __mem_func__:
 	class __noarg_call__:
 		def __init__(self, cls, obj, func):
@@ -62,28 +65,27 @@ class Window(object):
 		self.mouseRightButtonUpArgs = None
 		self.RegisterWindow(layer)
 		self.Hide()
-		if app.ENABLE_TARGET_INFORMATION_SYSTEM:
-			self.mouseLeftButtonDownEvent = None
-			self.mouseLeftButtonDownArgs = None
-			self.mouseLeftButtonUpEvent = None
-			self.mouseLeftButtonUpArgs = None
-			self.mouseLeftButtonDoubleClickEvent = None
-			self.mouseRightButtonDownEvent = None
-			self.mouseRightButtonDownArgs = None
-			self.moveWindowEvent = None
-			self.renderEvent = None
-			self.renderArgs = None
-		
-			self.overInEvent = None
-			self.overInArgs = None
+		self.mouseLeftButtonDownEvent = None
+		self.mouseLeftButtonDownArgs = None
+		self.mouseLeftButtonUpEvent = None
+		self.mouseLeftButtonUpArgs = None
+		self.mouseLeftButtonDoubleClickEvent = None
+		self.mouseRightButtonDownEvent = None
+		self.mouseRightButtonDownArgs = None
+		self.moveWindowEvent = None
+		self.renderEvent = None
+		self.renderArgs = None
+	
+		self.overInEvent = None
+		self.overInArgs = None
 
-			self.overOutEvent = None
-			self.overOutArgs = None
+		self.overOutEvent = None
+		self.overOutArgs = None
 
-			self.baseX = 0
-			self.baseY = 0
+		self.baseX = 0
+		self.baseY = 0
 
-			self.SetWindowName("NONAME_Window")
+		self.SetWindowName("NONAME_Window")
 
 		if app.ENABLE_QUEST_CATEGORY:
 			self.propertyList = {}
@@ -191,7 +193,7 @@ class Window(object):
 	def GetLocalPosition(self):
 		return wndMgr.GetWindowLocalPosition(self.hWnd)
 
-	if app.ENABLE_TARGET_INFORMATION_SYSTEM:
+	if True:
 		def GetLeft(self):
 			x, y = self.GetLocalPosition()
 			return x
@@ -231,7 +233,7 @@ class Window(object):
 	def SetCenterPosition(self, x = 0, y = 0):
 		self.SetPosition((wndMgr.GetScreenWidth() - self.GetWidth()) / 2 + x, (wndMgr.GetScreenHeight() - self.GetHeight()) / 2 + y)
 
-	if app.ENABLE_TARGET_INFORMATION_SYSTEM:
+	if True:
 		def SavePosition(self):
 			self.baseX = self.GetLeft()
 			self.baseY = self.GetTop()
@@ -300,7 +302,7 @@ class Window(object):
 	def IsIn(self):
 		return wndMgr.IsIn(self.hWnd)
 
-	if app.ENABLE_TARGET_INFORMATION_SYSTEM:
+	if True:
 		def SetMouseLeftButtonDownEvent(self, event, *args):
 			self.mouseLeftButtonDownEvent = event
 			self.mouseLeftButtonDownArgs = args
@@ -324,7 +326,7 @@ class Window(object):
 	def SetOnMouseLeftButtonUpEvent(self, event):
 		self.onMouseLeftButtonUpEvent = event
 
-	if app.ENABLE_TARGET_INFORMATION_SYSTEM:
+	if True:
 		def SetMouseLeftButtonDoubleClickEvent(self, event):
 			self.mouseLeftButtonDoubleClickEvent = event
 
@@ -6573,13 +6575,12 @@ class PythonScriptLoader(object):
 		if True == value.has_key("delay"):
 			window.SetDelay(value["delay"])
 
-		if app.ENABLE_NEW_PET_SYSTEM:
-			if True == value.has_key("x_scale") and True == value.has_key("y_scale"):
-				for image in value["images"]:
-					window.AppendImageScale(image, float(value["x_scale"]), float(value["y_scale"]))
-			else:
-				for image in value["images"]:
-					window.AppendImage(image)
+		if app.ENABLE_NEW_PET_SYSTEM and True == value.has_key("x_scale") and True == value.has_key("y_scale"):
+			for image in value["images"]:
+				window.AppendImageScale(image, float(value["x_scale"]), float(value["y_scale"]))
+		else:
+			for image in value["images"]:
+				window.AppendImage(image)
 
 		if value.has_key("width") and value.has_key("height"):
 			window.SetSize(value["width"], value["height"])

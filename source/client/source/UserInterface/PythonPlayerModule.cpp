@@ -1349,6 +1349,30 @@ PyObject* playerIsEquipmentSlot(PyObject* poSelf, PyObject* poArgs)
 	return Py_BuildValue("i", 0);
 }
 
+PyObject* playerIsCostumeSlot(PyObject* poSelf, PyObject* poArgs)
+{
+	int iSlotIndex;
+	if (!PyTuple_GetInteger(poArgs, 0, &iSlotIndex))
+		return Py_BadArgument();
+
+#ifdef ENABLE_COSTUME_SYSTEM
+	if (iSlotIndex == c_Equipment_CostumeBody || iSlotIndex == c_Equipment_CostumeHair
+#ifdef ENABLE_MOUNT_COSTUME_SYSTEM
+		|| iSlotIndex == c_Equipment_Mount
+#endif
+#ifdef ENABLE_ACCE_COSTUME_SYSTEM
+		|| iSlotIndex == c_Equipment_Acce
+#endif
+#ifdef ENABLE_WEAPON_COSTUME_SYSTEM
+		|| iSlotIndex == c_Equipment_CostumeWeapon
+#endif
+		)
+		return Py_BuildValue("i", 1);
+#endif
+
+	return Py_BuildValue("i", 0);
+}
+
 PyObject* playerIsDSEquipmentSlot(PyObject* poSelf, PyObject* poArgs)
 {
 	BYTE bWindowType;
@@ -2622,6 +2646,7 @@ void initPlayer()
 
 		{ "isItem",						playerisItem,						METH_VARARGS },
 		{ "IsEquipmentSlot",			playerIsEquipmentSlot,				METH_VARARGS },
+		{ "IsCostumeSlot",				playerIsCostumeSlot,				METH_VARARGS },
 		{ "IsDSEquipmentSlot",			playerIsDSEquipmentSlot,			METH_VARARGS },
 		{ "IsValuableItem",				playerIsValuableItem,				METH_VARARGS },
 		{ "IsOpenPrivateShop",			playerIsOpenPrivateShop,			METH_VARARGS },
@@ -2805,6 +2830,9 @@ void initPlayer()
 #ifdef ENABLE_SKILLS_LEVEL_OVER_P
 	PyModule_AddIntConstant(poModule, "SKILL_GRADE_SAGE_MASTER",CPythonPlayer::SKILL_SAGE_MASTER);
 	PyModule_AddIntConstant(poModule, "SKILL_GRADE_LEGENDARY_MASTER",CPythonPlayer::SKILL_LEGENDARY_MASTER);
+#else
+	PyModule_AddIntConstant(poModule, "SKILL_GRADE_SAGE_MASTER",4);
+	PyModule_AddIntConstant(poModule, "SKILL_GRADE_LEGENDARY_MASTER",5);
 #endif
 
 	PyModule_AddIntConstant(poModule, "CATEGORY_ACTIVE",CPythonPlayer::CATEGORY_ACTIVE);
@@ -2905,6 +2933,13 @@ void initPlayer()
 	PyModule_AddIntConstant(poModule, "PARTY_STATE_LEADER_SKILL_MASTER",		CPythonPlayer::PARTY_ROLE_LEADER_SKILL_MASTER);
 	PyModule_AddIntConstant(poModule, "PARTY_STATE_LEADER_BERSERKER",			CPythonPlayer::PARTY_ROLE_LEADER_BERSERKER);
 	PyModule_AddIntConstant(poModule, "PARTY_STATE_LEADER_DEFENDER",			CPythonPlayer::PARTY_ROLE_LEADER_DEFENDER);
+#else
+	PyModule_AddIntConstant(poModule, "PARTY_STATE_LEADER_ATTACKER",			0);
+	PyModule_AddIntConstant(poModule, "PARTY_STATE_LEADER_TANKER",				0);
+	PyModule_AddIntConstant(poModule, "PARTY_STATE_LEADER_BUFFER",				0);
+	PyModule_AddIntConstant(poModule, "PARTY_STATE_LEADER_SKILL_MASTER",		0);
+	PyModule_AddIntConstant(poModule, "PARTY_STATE_LEADER_BERSERKER",			0);
+	PyModule_AddIntConstant(poModule, "PARTY_STATE_LEADER_DEFENDER",			0);
 #endif
 	PyModule_AddIntConstant(poModule, "PARTY_STATE_DEFENDER",CPythonPlayer::PARTY_ROLE_DEFENDER);
 	PyModule_AddIntConstant(poModule, "PARTY_STATE_MAX_NUM",CPythonPlayer::PARTY_ROLE_MAX_NUM);
@@ -2934,6 +2969,17 @@ void initPlayer()
 	PyModule_AddIntConstant(poModule, "SKILL_INDEX_PASSIVE_UPGRADING",c_iSkillIndex_Passive_Upgrading);
 	PyModule_AddIntConstant(poModule, "SKILL_INDEX_PASSIVE_FISHING",c_iSkillIndex_Passive_Fishing);
 	PyModule_AddIntConstant(poModule, "SKILL_INDEX_PASSIVE_MAX_NUM",(c_iSkillIndex_Passive_Fishing + 1));
+#else
+	PyModule_AddIntConstant(poModule, "SKILL_INDEX_PASSIVE_MONSTER",0);
+	PyModule_AddIntConstant(poModule, "SKILL_INDEX_PASSIVE_METIN",0);
+	PyModule_AddIntConstant(poModule, "SKILL_INDEX_PASSIVE_BERSERKER",0);
+	PyModule_AddIntConstant(poModule, "SKILL_INDEX_PASSIVE_HUMAN",0);
+	PyModule_AddIntConstant(poModule, "SKILL_INDEX_PASSIVE_SKILL_COOLDOWN",0);
+	PyModule_AddIntConstant(poModule, "SKILL_INDEX_PASSIVE_DRAGON_HEARTH",0);
+	PyModule_AddIntConstant(poModule, "SKILL_INDEX_PASSIVE_HERBOLOGY",0);
+	PyModule_AddIntConstant(poModule, "SKILL_INDEX_PASSIVE_UPGRADING",0);
+	PyModule_AddIntConstant(poModule, "SKILL_INDEX_PASSIVE_FISHING",0);
+	PyModule_AddIntConstant(poModule, "SKILL_INDEX_PASSIVE_MAX_NUM",0);
 #endif
 
 #ifdef ENABLE_BUFFI_SYSTEM
@@ -2942,6 +2988,12 @@ void initPlayer()
 	PyModule_AddIntConstant(poModule, "SKILL_INDEX_3",c_iSkillIndex_Support_3);
 	PyModule_AddIntConstant(poModule, "SKILL_INDEX_4",c_iSkillIndex_Support_4);
 	PyModule_AddIntConstant(poModule, "SKILL_INDEX_5",c_iSkillIndex_Support_5);
+#else
+	PyModule_AddIntConstant(poModule, "SKILL_INDEX_1",0);
+	PyModule_AddIntConstant(poModule, "SKILL_INDEX_2",0);
+	PyModule_AddIntConstant(poModule, "SKILL_INDEX_3",0);
+	PyModule_AddIntConstant(poModule, "SKILL_INDEX_4",0);
+	PyModule_AddIntConstant(poModule, "SKILL_INDEX_5",0);
 #endif
 
 	// PK Mode
@@ -3015,6 +3067,18 @@ void initPlayer()
 	PyModule_AddIntConstant(poModule, "SPECIAL_PAGE_SIZE",c_Special_Inventory_Page_Size);
 	PyModule_AddIntConstant(poModule, "SPECIAL_PAGE_COUNT",c_Special_Inventory_Page_Count);
 	PyModule_AddIntConstant(poModule, "SPECIAL_SLOT_COUNT",c_Special_ItemSlot_Count);
+#else
+	PyModule_AddIntConstant(poModule, "SLOT_TYPE_UPGRADE_INVENTORY",-1);
+	PyModule_AddIntConstant(poModule, "SLOT_TYPE_BOOK_INVENTORY",-1);
+	PyModule_AddIntConstant(poModule, "SLOT_TYPE_STONE_INVENTORY",-1);
+	PyModule_AddIntConstant(poModule, "SLOT_TYPE_CHEST_INVENTORY",-1);
+	PyModule_AddIntConstant(poModule, "UPGRADE_INVENTORY",-1);
+	PyModule_AddIntConstant(poModule, "BOOK_INVENTORY",-1);
+	PyModule_AddIntConstant(poModule, "STONE_INVENTORY",-1);
+	PyModule_AddIntConstant(poModule, "CHEST_INVENTORY",-1);
+	PyModule_AddIntConstant(poModule, "SPECIAL_PAGE_SIZE",0);
+	PyModule_AddIntConstant(poModule, "SPECIAL_PAGE_COUNT",0);
+	PyModule_AddIntConstant(poModule, "SPECIAL_SLOT_COUNT",0);
 #endif
 
 	PyModule_AddIntConstant(poModule, "MAIN_RACE_WARRIOR_M",MAIN_RACE_WARRIOR_M);
@@ -3031,6 +3095,9 @@ void initPlayer()
 #ifdef ENABLE_SWITCHBOT
 	PyModule_AddIntConstant(poModule,  "SWITCHBOT",SWITCHBOT);
 	PyModule_AddIntConstant(poModule,  "SLOT_TYPE_SWITCHBOT",SLOT_TYPE_SWITCHBOT);
+#else
+	PyModule_AddIntConstant(poModule,  "SWITCHBOT",-1);
+	PyModule_AddIntConstant(poModule,  "SLOT_TYPE_SWITCHBOT",-1);
 #endif
 #ifdef WJ_ENABLE_TRADABLE_ICON
 	PyModule_AddIntConstant(poModule,  "ON_TOP_WND_NONE",ON_TOP_WND_NONE);
@@ -3050,6 +3117,18 @@ void initPlayer()
 #ifdef ENABLE_6TH_7TH_ATTR
 	PyModule_AddIntConstant(poModule, "ON_TOP_WND_ATTR_67",ON_TOP_WND_ATTR_67);
 #endif
+#else
+	PyModule_AddIntConstant(poModule,  "ON_TOP_WND_NONE",0);
+	PyModule_AddIntConstant(poModule,  "ON_TOP_WND_SHOP",1);
+	PyModule_AddIntConstant(poModule,  "ON_TOP_WND_EXCHANGE",2);
+	PyModule_AddIntConstant(poModule,  "ON_TOP_WND_SAFEBOX",3);
+	PyModule_AddIntConstant(poModule,  "ON_TOP_WND_PRIVATE_SHOP",4);
+	PyModule_AddIntConstant(poModule,  "ON_TOP_WND_ACCE_COMBINE",5);
+	PyModule_AddIntConstant(poModule,  "ON_TOP_WND_ACCE_ABSORB",6);
+	PyModule_AddIntConstant(poModule, "ON_TOP_WND_OFFLINE_SHOP",7);
+	PyModule_AddIntConstant(poModule, "ON_TOP_WND_DICE",8);
+	PyModule_AddIntConstant(poModule, "ON_TOP_WND_DRAGON_SOUL",9);
+	PyModule_AddIntConstant(poModule, "ON_TOP_WND_ATTR_67",10);
 #endif
 
 #ifdef ENABLE_PLAYER_STATS_SYSTEM
@@ -3070,7 +3149,26 @@ void initPlayer()
 	PyModule_AddIntConstant(poModule, "POINT_USE_ENCHANTED_ITEM",POINT_USE_ENCHANTED_ITEM);
 #ifdef ENABLE_POWER_RANKING
 	PyModule_AddIntConstant(poModule, "POINT_POWER_RANK",POINT_POWER_RANK);
+#else
+	PyModule_AddIntConstant(poModule, "POINT_POWER_RANK",0);
 #endif
+#else
+	PyModule_AddIntConstant(poModule, "POINT_MONSTER_KILLED",0);
+	PyModule_AddIntConstant(poModule, "POINT_STONE_KILLED",0);
+	PyModule_AddIntConstant(poModule, "POINT_BOSS_KILLED",0);
+	PyModule_AddIntConstant(poModule, "POINT_PLAYER_KILLED",0);
+
+	PyModule_AddIntConstant(poModule, "POINT_MONSTER_DAMAGE",0);
+	PyModule_AddIntConstant(poModule, "POINT_STONE_DAMAGE",0);
+	PyModule_AddIntConstant(poModule, "POINT_BOSS_DAMAGE",0);
+	PyModule_AddIntConstant(poModule, "POINT_PLAYER_DAMAGE",0);
+	PyModule_AddIntConstant(poModule, "POINT_OPENED_CHEST",0);
+	PyModule_AddIntConstant(poModule, "POINT_FISHING",0);
+	PyModule_AddIntConstant(poModule, "POINT_MINING",0);
+	PyModule_AddIntConstant(poModule, "POINT_COMPLATE_DUNGEON",0);
+	PyModule_AddIntConstant(poModule, "POINT_UPGRADE_ITEM",0);
+	PyModule_AddIntConstant(poModule, "POINT_USE_ENCHANTED_ITEM",0);
+	PyModule_AddIntConstant(poModule, "POINT_POWER_RANK",0);
 #endif
 
 #ifdef ENABLE_CHAR_SETTINGS
@@ -3086,6 +3184,15 @@ void initPlayer()
 #ifdef ENABLE_STOP_CHAT
 	PyModule_AddIntConstant(poModule, "SETTINGS_STOP_CHAT",CPythonPlayer::Instance().CharSettingsList::SETTINGS_STOP_CHAT);
 #endif
+#else
+	PyModule_AddIntConstant(poModule, "SETTINGS_ANTI_EXP",0);
+	PyModule_AddIntConstant(poModule, "SETTINGS_HIDE_COSTUME_HAIR",1);
+	PyModule_AddIntConstant(poModule, "SETTINGS_HIDE_COSTUME_BODY",2);
+	PyModule_AddIntConstant(poModule, "SETTINGS_HIDE_COSTUME_WEAPON",3);
+	PyModule_AddIntConstant(poModule, "SETTINGS_HIDE_COSTUME_ACCE",4);
+	PyModule_AddIntConstant(poModule, "SETTINGS_HIDE_COSTUME_AURA",5);
+	PyModule_AddIntConstant(poModule, "SETTINGS_HIDE_COSTUME_CROWN",6);
+	PyModule_AddIntConstant(poModule, "SETTINGS_STOP_CHAT",7);
 #endif
 
 #ifdef ENABLE_EVENT_MANAGER
@@ -3107,15 +3214,40 @@ void initPlayer()
 	PyModule_AddIntConstant(poModule,  "EASTER_EVENT",EASTER_EVENT);
 	PyModule_AddIntConstant(poModule,  "VALENTINES_EVENT",VALENTINES_EVENT);
 	PyModule_AddIntConstant(poModule,  "BEGGINER_EVENT",BEGGINER_EVENT);
+#else
+	PyModule_AddIntConstant(poModule,  "DOUBLE_METIN_LOOT_EVENT",0);
+	PyModule_AddIntConstant(poModule,  "DOUBLE_BOSS_LOOT_EVENT",0);
+	PyModule_AddIntConstant(poModule,  "WHELL_OF_FORTUNE_EVENT",0);
+	PyModule_AddIntConstant(poModule,  "EXP_EVENT",0);
+	PyModule_AddIntConstant(poModule,  "LETTER_EVENT",0);
+	PyModule_AddIntConstant(poModule,  "OKEY_CARD_EVENT",0);
+	PyModule_AddIntConstant(poModule,  "CATCH_KING_EVENT",0);
+	PyModule_AddIntConstant(poModule,  "BLACK_N_WHITE_EVENT",0);
+	PyModule_AddIntConstant(poModule,  "YUTNORI_EVENT",0);
+	PyModule_AddIntConstant(poModule,  "MOONLIGHT_EVENT",0);
+	PyModule_AddIntConstant(poModule,  "SOCCER_BALL_EVENT",0);
+	PyModule_AddIntConstant(poModule,  "HALLOWEEN_EVENT",0);
+	PyModule_AddIntConstant(poModule,  "RAMADAN_EVENT",0);
+	PyModule_AddIntConstant(poModule,  "SUMMER_EVENT",0);
+	PyModule_AddIntConstant(poModule,  "CHRISTMAS_EVENT",0);
+	PyModule_AddIntConstant(poModule,  "EASTER_EVENT",0);
+	PyModule_AddIntConstant(poModule,  "VALENTINES_EVENT",0);
+	PyModule_AddIntConstant(poModule,  "BEGGINER_EVENT",0);
 #endif
 
 #ifdef ENABLE_TELEPORT_TO_A_FRIEND
 	PyModule_AddIntConstant(poModule, "BLOCK_WARP_REQUEST",BLOCK_WARP_REQUEST);
+#else
+	PyModule_AddIntConstant(poModule, "BLOCK_WARP_REQUEST",0);
 #endif
 
 #ifdef ENABLE_BUFFI_SYSTEM
 	PyModule_AddIntConstant(poModule, "BUFFI_WINDOW",BUFFI_INVENTORY);
 	PyModule_AddIntConstant(poModule, "SLOT_TYPE_BUFFI",SLOT_TYPE_BUFFI_INVENTORY);
 	PyModule_AddIntConstant(poModule, "BUFFI_SLOT_COUNT",BUFFI_MAX_SLOT);
+#else
+	PyModule_AddIntConstant(poModule, "BUFFI_WINDOW",-1);
+	PyModule_AddIntConstant(poModule, "SLOT_TYPE_BUFFI",-1);
+	PyModule_AddIntConstant(poModule, "BUFFI_SLOT_COUNT",0);
 #endif
 }

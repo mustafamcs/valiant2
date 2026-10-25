@@ -86,6 +86,51 @@ def GetElementDictByName(dct, name):
 					return search
 	return None
 
+def FindElementPos(parent, name):
+	for i in range(len(parent)):
+		if parent[i]["name"] == name:
+			return i
+	return -1
+
+def FindElementRef(parent, name):
+	for i in range(len(parent)):
+		if parent[i]["name"] == name:
+			return parent[i]
+	return None
+
+def ElementAddBefore(parent, name, obj):
+	i = FindElementPos(parent, name)
+	if i != -1:
+		parent.insert(i, obj)
+
+def ElementAddAfter(parent, name, obj):
+	i = FindElementPos(parent, name)
+	if i != -1:
+		parent.insert(i+1, obj)
+
+def FindElement(name, data):
+	if 'children' in data:
+		for child in data['children']:
+			if child.get('name', '') == name:
+				return child
+		for child in data['children']:
+			res = FindElement(name, child)
+			if res:
+				return res
+	return None
+
+def ReplaceElement(name, nvalue, data):
+	value = FindElement(name, data)
+	for n, v in nvalue.items():
+		value[n] = v
+	for n in value:
+		if n not in nvalue:
+			del value[n]
+
+def AppendChildren(name, children, data):
+	value = FindElement(name, data)
+	value['children'] = value.get('children', tuple()) + children
+
 
 
 

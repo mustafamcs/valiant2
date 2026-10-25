@@ -105,6 +105,8 @@ bonus_list = [
 	],
 ]
 
+bonus_list = [[title, [b for b in items if b[0] in ItemToolTip.AFFECT_DICT]] for title, items in bonus_list]
+
 stat_list = [
     [uiScriptLocale.STATICS_01, "stats/max_player_damage.png"],
     [uiScriptLocale.STATICS_02, "stats/max_monster_damage.png"],
@@ -300,7 +302,7 @@ class CharacterDetailsUI(ui.ScriptWindow):
 				bonusImage.Show()
 				elementList["%d_%d_image"%(i,j)] = bonusImage
 
-				bonusText = ItemToolTip.AFFECT_DICT[bonus_data[j][0]](0)
+				bonusText = ItemToolTip.AFFECT_DICT.get(bonus_data[j][0], lambda x: "")(0)
 
 				disabledStr = ["%","+"]
 				newText = ""

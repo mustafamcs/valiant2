@@ -1,6 +1,7 @@
 #include "StdAfx.h"
 #include "../eterBase/Stl.h"
 #include "GrpIndexBuffer.h"
+#include "GrpScreen.h"
 #include "StateManager.h"
 
 LPDIRECT3DINDEXBUFFER9 CGraphicIndexBuffer::GetD3DIndexBuffer() const
@@ -89,15 +90,58 @@ bool CGraphicIndexBuffer::Create(int faceCount, TFace* faces)
 
 bool CGraphicIndexBuffer::CreateDeviceObjects()
 {
-	if (FAILED(ms_lpd3dDevice->CreateIndexBuffer(
+	HRESULT hr = ms_lpd3dDevice->CreateIndexBuffer(
 		m_dwBufferSize,
 		D3DUSAGE_WRITEONLY,
 		m_d3dFmt,
 		D3DPOOL_MANAGED,
 		&m_lpd3dIdxBuf,
-		NULL)
-	))
+		NULL);
+
+	if (hr == D3DERR_INVALIDCALL)
+	{
+		hr = ms_lpd3dDevice->CreateIndexBuffer(
+			m_dwBufferSize,
+			0,
+			m_d3dFmt,
+			D3DPOOL_MANAGED,
+			&m_lpd3dIdxBuf,
+			NULL);
+	}
+
+	if (FAILED(hr))
+	{
+		HRESULT hrCoop = ms_lpd3dDevice ? ms_lpd3dDevice->TestCooperativeLevel() : 0xFFFFFFFF;
+
+		if (hrCoop == D3DERR_DEVICENOTRESET && CScreen::RestoreDeviceNow())
+		{
+			hr = ms_lpd3dDevice->CreateIndexBuffer(
+				m_dwBufferSize,
+				D3DUSAGE_WRITEONLY,
+				m_d3dFmt,
+				D3DPOOL_MANAGED,
+				&m_lpd3dIdxBuf,
+				NULL);
+
+			if (hr == D3DERR_INVALIDCALL)
+			{
+				hr = ms_lpd3dDevice->CreateIndexBuffer(
+					m_dwBufferSize,
+					0,
+					m_d3dFmt,
+					D3DPOOL_MANAGED,
+					&m_lpd3dIdxBuf,
+					NULL);
+			}
+		}
+	}
+
+	if (FAILED(hr))
+	{
+		HRESULT hrCoop = ms_lpd3dDevice ? ms_lpd3dDevice->TestCooperativeLevel() : 0xFFFFFFFF;
+		TraceError("CGraphicIndexBuffer::CreateDeviceObjects: CreateIndexBuffer failed (hr=0x%08X, size=%u, coop=0x%08X)", hr, m_dwBufferSize, hrCoop);
 		return false;
+	}
 
 	return true;
 }

@@ -40,6 +40,7 @@ public:
 
 	EDeviceState	GetDeviceState();
 	bool			Reset();
+	bool			RestoreDeviceWithPDT();
 
 	void			EnableWebBrowserMode(const RECT& c_rcWebPage);
 	void			DisableWebBrowserMode();

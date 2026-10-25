@@ -1,5 +1,6 @@
 #include "StdAfx.h"
 #include "GrpDevice.h"
+#include "GrpScreen.h"
 #include "../eterBase/Stl.h"
 #include "../eterBase/Debug.h"
 
@@ -92,6 +93,9 @@ void CGraphicDevice::DisableWebBrowserMode()
 	if (!ms_lpd3dDevice)
 		return;
 
+	if (!g_isBrowserMode)
+		return;
+
 	D3DPRESENT_PARAMETERS& rkD3DPP = ms_d3dPresentParameter;
 
 	g_isBrowserMode = false;
@@ -119,6 +123,11 @@ bool CGraphicDevice::ResizeBackBuffer(UINT uWidth, UINT uHeight)
 			rkD3DPP.BackBufferWidth = uWidth;
 			rkD3DPP.BackBufferHeight = uHeight;
 
+			if (CScreen::RestoreDeviceNow())
+				return true;
+
+			__DestroyPDTVertexBufferList();
+
 			IDirect3DDevice9& rkD3DDev = *ms_lpd3dDevice;
 
 			HRESULT hr = rkD3DDev.Reset(&rkD3DPP);
@@ -128,6 +137,7 @@ bool CGraphicDevice::ResizeBackBuffer(UINT uWidth, UINT uHeight)
 			}
 
 			STATEMANAGER.SetDefaultState();
+			__CreatePDTVertexBufferList();
 		}
 	}
 
@@ -306,6 +316,33 @@ bool CGraphicDevice::Reset()
 	return true;
 }
 #endif
+
+bool CGraphicDevice::RestoreDeviceWithPDT()
+{
+	if (!ms_lpd3dDevice)
+		return false;
+
+	__DestroyPDTVertexBufferList();
+
+	HRESULT hr = ms_lpd3dDevice->Reset(&ms_d3dPresentParameter);
+	if (FAILED(hr))
+	{
+		TraceError("CGraphicDevice::RestoreDeviceWithPDT: Reset failed (hr=0x%08X, w=%u, h=%u, windowed=%d, hwnd=%p)",
+			hr, ms_d3dPresentParameter.BackBufferWidth, ms_d3dPresentParameter.BackBufferHeight,
+			ms_d3dPresentParameter.Windowed, ms_d3dPresentParameter.hDeviceWindow);
+		return false;
+	}
+
+	m_pStateManager->SetDefaultState();
+
+	if (!__CreatePDTVertexBufferList())
+	{
+		TraceError("CGraphicDevice::RestoreDeviceWithPDT: __CreatePDTVertexBufferList failed");
+		return false;
+	}
+
+	return true;
+}
 
 static LPDIRECT3DSURFACE9 s_lpStencil;
 static DWORD   s_MaxTextureWidth, s_MaxTextureHeight;

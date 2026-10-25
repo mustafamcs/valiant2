@@ -1,5 +1,5 @@
 #pragma once
-
+#ifdef ENABLE_CLIENT_OPTIMISATION
 #include "PythonItem.h"
 #include "PythonSkill.h"
 #include "InstanceBase.h"
@@ -408,3 +408,4 @@ static const std::vector<TEffectList> vecEffectList =
 	{ CInstanceBase::EFFECT_METIN_QUEUE, "", "d:/ymir work/effect/etc/myshop/2.mse", true },
 #endif
 };
+#endif

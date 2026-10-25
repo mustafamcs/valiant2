@@ -123,6 +123,9 @@ bool CMapManager::LoadMap(const std::string& c_rstrMapName, float x, float y, fl
 		return false;
 	}
 
+	RegisterEnvironmentData(0, GetMapOutdoorRef().GetEnvironmentDataName().c_str());
+	SetEnvironmentData(0);
+
 	m_pkMap->Enter();
 	return true;
 }

@@ -60,7 +60,7 @@ CShop::CShop()
 #ifdef ENABLE_EXTENDED_SHOP_SLOTS
 	m_pGrid = M2_NEW CGrid(8, 8);
 #else
-	m_pGrid = M2_NEW CGrid(5, 9);
+	m_pGrid = M2_NEW CGrid(5, 8);
 #endif
 }
 
@@ -128,7 +128,7 @@ void CShop::SetShopItems(TShopItemTable* pTable, BYTE bItemCount)
 	m_itemVector.resize(SHOP_HOST_ITEM_MAX_NUM);
 	msl::refill(m_itemVector);
 
-	for (int i = 0; i < bItemCount; ++i)
+	for (int i = 0; i < bItemCount; ++i, ++pTable)
 	{
 		LPITEM pkItem = NULL;
 		const TItemTable* item_table;
@@ -171,7 +171,7 @@ void CShop::SetShopItems(TShopItemTable* pTable, BYTE bItemCount)
 
 		if (iPos < 0)
 		{
-			sys_err("not enough shop window");
+			sys_log(0, "not enough shop window");
 			continue;
 		}
 
@@ -232,7 +232,6 @@ void CShop::SetShopItems(TShopItemTable* pTable, BYTE bItemCount)
 
 		char name[36];
 		snprintf(name, sizeof(name), "%-20s(#%-5d) (x %d)", item_table->szName, (int)item.vnum, item.count);
-		++pTable;
 	}
 }
 

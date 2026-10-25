@@ -1,4 +1,5 @@
 #pragma once
+#ifdef ENABLE_CUBE_RENEWAL_WORLDARD
 #include "Packet.h"
 
 class CPythonCubeRenewal : public CSingleton<CPythonCubeRenewal>
@@ -24,3 +25,4 @@ private:
 	TInfoStrucCubeRenewal cube_renewal_list;
 	PyObject* m_CubeRenewalHandler;
 };
+#endif

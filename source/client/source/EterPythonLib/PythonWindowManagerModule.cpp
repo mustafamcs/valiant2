@@ -2911,6 +2911,7 @@ PyObject* wndMgrSetUnusableSlotOnTopWnd(PyObject* poSelf, PyObject* poArgs)
 }
 #endif
 
+#ifdef ENABLE_SHOP_SEARCH
 PyObject* wndTextIsShowCursor(PyObject* poSelf, PyObject* poArgs)
 {
 	UI::CWindow* pWindow;
@@ -2919,6 +2920,7 @@ PyObject* wndTextIsShowCursor(PyObject* poSelf, PyObject* poArgs)
 
 	return Py_BuildValue("b", ((UI::CTextLine*)pWindow)->IsShowCursor());
 }
+#endif
 
 #ifdef ENABLE_WINDOW_ANIMATION
 PyObject* wndMgrSetWindowAnimation(PyObject* poSelf, PyObject* poArgs)
@@ -3555,7 +3557,9 @@ void initwndMgr()
 		{ "SetUsableSlotOnTopWnd",		wndMgrSetUsableSlotOnTopWnd,		METH_VARARGS },
 		{ "SetUnusableSlotOnTopWnd",	wndMgrSetUnusableSlotOnTopWnd,		METH_VARARGS },
 #endif
+#ifdef ENABLE_SHOP_SEARCH
 		{ "IsShowCursor", 				wndTextIsShowCursor,				METH_VARARGS },
+#endif
 #ifdef ENABLE_RENDER_TARGET
 		{"RegisterRenderTarget", 		wndMgrRegisterRenderTarget,			METH_VARARGS},
 		{"SetRenderTarget", 			wndRenderTargetSetRenderTarget,		METH_VARARGS},

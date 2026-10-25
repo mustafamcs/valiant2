@@ -530,9 +530,21 @@ class TaskBar(ui.ScriptWindow):
 		if app.ENABLE_CHAR_SETTINGS:
 			self.AntiExpButton = self.GetChild("AntiExp")
 			self.AntiExpButton.SetEvent(ui.__mem_func__(self.SetAntiExp))
+		else:
+			try:
+				self.GetChild("AntiExp").Hide()
+			except:
+				pass
 
 		self.AntiFarmButton = self.GetChild("FarmBlock")
 		self.AntiFarmButton.SetEvent(ui.__mem_func__(self.SetFarmBlock))
+		if not getattr(app, "ENABLE_FARM_BLOCK", 0):
+			self.AntiFarmButton.Hide()
+		if not app.ENABLE_INVENTORY_REWORK:
+			try:
+				self.GetChild("ExpandMoneyButton").Hide()
+			except:
+				pass
 
 		try:
 			self.Vote4BuffButton = self.GetChild("Vote4Buff")

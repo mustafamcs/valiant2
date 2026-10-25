@@ -57,6 +57,48 @@ PyObject* netGetPreservedServerCommand(PyObject* poSelf, PyObject* poArgs)
 	return Py_BuildValue("s", strCommand.c_str());
 }
 
+PyObject* netStartGame(PyObject* poSelf, PyObject* poArgs)
+{
+	CPythonNetworkStream& rkNetStream = CPythonNetworkStream::Instance();
+	rkNetStream.StartGame();
+	return Py_BuildNone();
+}
+
+PyObject* netIsTest(PyObject* poSelf, PyObject* poArgs)
+{
+	return Py_BuildValue("i", 0);
+}
+
+PyObject* netWarp(PyObject* poSelf, PyObject* poArgs)
+{
+	int nX;
+	if (!PyTuple_GetInteger(poArgs, 0, &nX))
+		return Py_BuildException();
+
+	int nY;
+	if (!PyTuple_GetInteger(poArgs, 1, &nY))
+		return Py_BuildException();
+
+	CPythonNetworkStream& rkNetStream = CPythonNetworkStream::Instance();
+	rkNetStream.Warp(nX, nY);
+	return Py_BuildNone();
+}
+
+PyObject* netGetFieldMusicFileName(PyObject* poSelf, PyObject* poArgs)
+{
+	return Py_BuildValue("s", "");
+}
+
+PyObject* netGetFieldMusicVolume(PyObject* poSelf, PyObject* poArgs)
+{
+	return Py_BuildValue("f", 0.0f);
+}
+
+PyObject* netSetPacketSequenceMode(PyObject* poSelf, PyObject* poArgs)
+{
+	return Py_BuildNone();
+}
+
 
 PyObject* netLoadInsultList(PyObject* poSelf, PyObject* poArgs)
 {
@@ -2083,6 +2125,12 @@ void initnet()
 
 		{ "ToggleGameDebugInfo",				netToggleGameDebugInfo,					METH_VARARGS },
 		{ "SetLoginInfo",						netSetLoginInfo,						METH_VARARGS },
+		{ "StartGame",							netStartGame,							METH_VARARGS },
+		{ "Warp",								netWarp,								METH_VARARGS },
+		{ "IsTest",								netIsTest,								METH_VARARGS },
+		{ "GetFieldMusicFileName",				netGetFieldMusicFileName,				METH_VARARGS },
+		{ "GetFieldMusicVolume",				netGetFieldMusicVolume,					METH_VARARGS },
+		{ "SetPacketSequenceMode",				netSetPacketSequenceMode,				METH_VARARGS },
 		{ "SetPhaseWindow",						netSetPhaseWindow,						METH_VARARGS },
 		{ "ClearPhaseWindow",					netClearPhaseWindow,					METH_VARARGS },
 		{ "SetServerCommandParserWindow",		netSetServerCommandParserWindow,		METH_VARARGS },

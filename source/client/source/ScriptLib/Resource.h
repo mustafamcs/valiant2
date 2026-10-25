@@ -3,6 +3,7 @@
 #include "../EffectLib/StdAfx.h"
 #include "../eterlib/Resource.h"
 #include "../eterlib/ResourceManager.h"
+#include "../eterlib/GrpImage.h"
 
 enum EResourceTypes
 {
@@ -18,7 +19,9 @@ public:
 	void Destroy();
 
 	void DumpFileList(const char* c_szFileName);
+	void PinPhaseChangeResources();
 
 protected:
 	CResourceManager m_resManager;
+	std::vector<CGraphicImage::TRef> m_pinnedResources;
 };

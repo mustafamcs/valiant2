@@ -898,12 +898,10 @@ public:
 	void			Motion(BYTE motion, LPCHARACTER victim = NULL);
 
 	void			ChatPacket(BYTE type, const char* format, ...);
-#ifdef ENABLE_NEW_CHAT
 	void			NewChatPacket(WORD chatID, const char* format, ...);
 	void			NewChatPacket(WORD chatID);
 	void			QuestChatPacket(WORD chatID, BYTE type);
 	void			QuestChatPacket(WORD chatID, BYTE type, const char* format, ...);
-#endif	
 	void			MonsterChat(BYTE bMonsterChatType);
 
 	void			ResetPoint(int iLv);

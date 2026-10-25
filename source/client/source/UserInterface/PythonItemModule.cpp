@@ -8,6 +8,36 @@
 #include "PythonNetworkStream.h"
 extern int TWOHANDED_WEWAPON_ATT_SPEED_DECREASE_VALUE;
 
+PyObject* itemSetUseSoundFileName(PyObject* poSelf, PyObject* poArgs)
+{
+	int iUseSound;
+	if (!PyTuple_GetInteger(poArgs, 0, &iUseSound))
+		return Py_BadArgument();
+
+	char* szFileName;
+	if (!PyTuple_GetString(poArgs, 1, &szFileName))
+		return Py_BadArgument();
+
+	CPythonItem& rkItem = CPythonItem::Instance();
+	rkItem.SetUseSoundFileName(iUseSound, szFileName);
+	return Py_BuildNone();
+}
+
+PyObject* itemSetDropSoundFileName(PyObject* poSelf, PyObject* poArgs)
+{
+	int iDropSound;
+	if (!PyTuple_GetInteger(poArgs, 0, &iDropSound))
+		return Py_BadArgument();
+
+	char* szFileName;
+	if (!PyTuple_GetString(poArgs, 1, &szFileName))
+		return Py_BadArgument();
+
+	CPythonItem& rkItem = CPythonItem::Instance();
+	rkItem.SetDropSoundFileName(iDropSound, szFileName);
+	return Py_BuildNone();
+}
+
 PyObject* itemSelectItem(PyObject* poSelf, PyObject* poArgs)
 {
 	int iIndex;
@@ -747,6 +777,8 @@ void initItem()
 		{ "Is1GoldItem",					itemIs1GoldItem,						METH_VARARGS },
 		{ "GetLimit",						itemGetLimit,							METH_VARARGS },
 		{ "GetAffect",						itemGetAffect,							METH_VARARGS },
+		{ "SetUseSoundFileName",			itemSetUseSoundFileName,				METH_VARARGS },
+		{ "SetDropSoundFileName",			itemSetDropSoundFileName,				METH_VARARGS },
 		{ "GetValue",						itemGetValue,							METH_VARARGS },
 		{ "GetSocket",						itemGetSocket,							METH_VARARGS },
 		{ "GetIconInstance",				itemGetIconInstance,					METH_VARARGS },
@@ -838,15 +870,23 @@ void initItem()
 #ifdef ENABLE_COSTUME_SYSTEM
 	PyModule_AddIntConstant(poModule, "EQUIPMENT_COSTUME_BODY",c_Equipment_CostumeBody);
 	PyModule_AddIntConstant(poModule, "EQUIPMENT_COSTUME_HAIR",c_Equipment_CostumeHair);
+	PyModule_AddIntConstant(poModule, "COSTUME_SLOT_START",c_Equipment_CostumeBody);
+	PyModule_AddIntConstant(poModule, "COSTUME_SLOT_BODY",c_Equipment_CostumeBody);
+	PyModule_AddIntConstant(poModule, "COSTUME_SLOT_HAIR",c_Equipment_CostumeHair);
+	PyModule_AddIntConstant(poModule, "COSTUME_SLOT_COUNT",4);
+	PyModule_AddIntConstant(poModule, "COSTUME_SLOT_END",c_Equipment_CostumeBody + 4);
 #ifdef ENABLE_WEAPON_COSTUME_SYSTEM
 	PyModule_AddIntConstant(poModule, "EQUIPMENT_COSTUME_WEAPON",c_Equipment_CostumeWeapon);
+	PyModule_AddIntConstant(poModule, "COSTUME_SLOT_WEAPON",c_Equipment_CostumeWeapon);
 #endif
 #endif
 #ifdef ENABLE_MOUNT_COSTUME_SYSTEM
 	PyModule_AddIntConstant(poModule, "EQUIPMENT_MOUNT",c_Equipment_Mount);
+	PyModule_AddIntConstant(poModule, "COSTUME_SLOT_MOUNT",c_Equipment_Mount);
 #endif
 #ifdef ENABLE_ACCE_COSTUME_SYSTEM
 	PyModule_AddIntConstant(poModule, "EQUIPMENT_ACCE",c_Equipment_Acce);
+	PyModule_AddIntConstant(poModule, "COSTUME_SLOT_ACCE",c_Equipment_Acce);
 #endif
 #ifdef ENABLE_NEW_EQUIPMENT_SYSTEM
 	PyModule_AddIntConstant(poModule, "EQUIPMENT_BELT",c_Equipment_Belt);
@@ -1175,23 +1215,53 @@ void initItem()
 	PyModule_AddIntConstant(poModule, "APPLY_ATTBONUS_EARTH",CItemData::APPLY_ATTBONUS_EARTH);
 	PyModule_AddIntConstant(poModule, "APPLY_ATTBONUS_DARK",CItemData::APPLY_ATTBONUS_DARK);
 	PyModule_AddIntConstant(poModule, "APPLY_ATTBONUS_ELEC",CItemData::APPLY_ATTBONUS_ELEC);
+#else
+	PyModule_AddIntConstant(poModule, "APPLY_ATTBONUS_STONE",0);
+	PyModule_AddIntConstant(poModule, "APPLY_ATTBONUS_BOSS",0);
+	PyModule_AddIntConstant(poModule, "APPLY_ATTBONUS_PVM_STR",0);
+	PyModule_AddIntConstant(poModule, "APPLY_ATTBONUS_PVM_AVG",0);
+	PyModule_AddIntConstant(poModule, "APPLY_ATTBONUS_PVM_BERSERKER",0);
+	PyModule_AddIntConstant(poModule, "APPLY_ATTBONUS_ELEMENT",0);
+	PyModule_AddIntConstant(poModule, "APPLY_DEFBONUS_PVM",0);
+	PyModule_AddIntConstant(poModule, "APPLY_DEFBONUS_ELEMENT",0);
+	PyModule_AddIntConstant(poModule, "APPLY_ATTBONUS_PVP",0);
+	PyModule_AddIntConstant(poModule, "APPLY_DEFBONUS_PVP",0);
+
+	PyModule_AddIntConstant(poModule, "APPLY_ATTBONUS_FIRE",0);
+	PyModule_AddIntConstant(poModule, "APPLY_ATTBONUS_ICE",0);
+	PyModule_AddIntConstant(poModule, "APPLY_ATTBONUS_WIND",0);
+	PyModule_AddIntConstant(poModule, "APPLY_ATTBONUS_EARTH",0);
+	PyModule_AddIntConstant(poModule, "APPLY_ATTBONUS_DARK",0);
+	PyModule_AddIntConstant(poModule, "APPLY_ATTBONUS_ELEC",0);
 #endif
 
 #ifdef ENABLE_AURA_SYSTEM
 	PyModule_AddIntConstant(poModule, "COSTUME_TYPE_AURA",CItemData::COSTUME_AURA);
 	PyModule_AddIntConstant(poModule, "COSTUME_SLOT_AURA",c_Costume_Slot_Aura);
+#else
+	PyModule_AddIntConstant(poModule, "COSTUME_TYPE_AURA",-1);
+	PyModule_AddIntConstant(poModule, "COSTUME_SLOT_AURA",-1);
 #endif
 #ifdef ENABLE_ACCE_COSTUME_SKIN
 	PyModule_AddIntConstant(poModule, "COSTUME_TYPE_WING",CItemData::COSTUME_WING);
 	PyModule_AddIntConstant(poModule, "COSTUME_SLOT_WING",c_Costume_Slot_Wing);
+#else
+	PyModule_AddIntConstant(poModule, "COSTUME_TYPE_WING",-1);
+	PyModule_AddIntConstant(poModule, "COSTUME_SLOT_WING",-1);
 #endif
 #ifdef ENABLE_MOUNT_SKIN
 	PyModule_AddIntConstant(poModule, "MOUNT_SKIN_SLOT",c_Mount_Skin_Slot);
 	PyModule_AddIntConstant(poModule, "ITEM_MOUNT_SKIN",CItemData::ITEM_MOUNT_SKIN);
+#else
+	PyModule_AddIntConstant(poModule, "MOUNT_SKIN_SLOT",-1);
+	PyModule_AddIntConstant(poModule, "ITEM_MOUNT_SKIN",-1);
 #endif
 #ifdef ENABLE_PET_SKIN
 	PyModule_AddIntConstant(poModule, "PET_SKIN_SLOT",c_Pet_Skin_Slot);
 	PyModule_AddIntConstant(poModule, "ITEM_PET_SKIN",CItemData::ITEM_PET_SKIN);
+#else
+	PyModule_AddIntConstant(poModule, "PET_SKIN_SLOT",-1);
+	PyModule_AddIntConstant(poModule, "ITEM_PET_SKIN",-1);
 #endif
 
 #ifdef ENABLE_ITEMS_SHINING
@@ -1200,6 +1270,12 @@ void initItem()
 	PyModule_AddIntConstant(poModule, "SHINING_ARMOR_SLOT",c_Shining_Armor);
 
 	PyModule_AddIntConstant(poModule, "ITEM_TYPE_SHINING",CItemData::ITEM_TYPE_SHINING);
+#else
+	PyModule_AddIntConstant(poModule, "SHINING_WEAPON_SLOT",-1);
+	PyModule_AddIntConstant(poModule, "SHINING_WEAPON_SLOT2",-1);
+	PyModule_AddIntConstant(poModule, "SHINING_ARMOR_SLOT",-1);
+
+	PyModule_AddIntConstant(poModule, "ITEM_TYPE_SHINING",-1);
 #endif
 
 #ifdef ENABLE_BOOSTER_ITEM
@@ -1210,16 +1286,30 @@ void initItem()
 	PyModule_AddIntConstant(poModule, "BOOSTER_SLOT_SASH",c_Booster_Sash);
 	PyModule_AddIntConstant(poModule, "BOOSTER_SLOT_PET",c_Booster_Pet);
 	PyModule_AddIntConstant(poModule, "BOOSTER_SLOT_MOUNT",c_Booster_Mount);
+#else
+	PyModule_AddIntConstant(poModule, "ITEM_BOOSTER",-1);
+	PyModule_AddIntConstant(poModule, "BOOSTER_SLOT_WEAPON",-1);
+	PyModule_AddIntConstant(poModule, "BOOSTER_SLOT_BODY",-1);
+	PyModule_AddIntConstant(poModule, "BOOSTER_SLOT_HEAD",-1);
+	PyModule_AddIntConstant(poModule, "BOOSTER_SLOT_SASH",-1);
+	PyModule_AddIntConstant(poModule, "BOOSTER_SLOT_PET",-1);
+	PyModule_AddIntConstant(poModule, "BOOSTER_SLOT_MOUNT",-1);
 #endif
 
 #ifdef ENABLE_PENDANT_ITEM
 	PyModule_AddIntConstant(poModule, "EQUIPMENT_PENDANT",c_Equipment_Pendant);
 	PyModule_AddIntConstant(poModule, "ITEM_PENDANT",CItemData::ITEM_PENDANT);
+#else
+	PyModule_AddIntConstant(poModule, "EQUIPMENT_PENDANT",-1);
+	PyModule_AddIntConstant(poModule, "ITEM_PENDANT",-1);
 #endif
 
 #ifdef ENABLE_GLOVE_ITEM
 	PyModule_AddIntConstant(poModule, "EQUIPMENT_GLOVE",c_Equipment_Glove);
 	PyModule_AddIntConstant(poModule, "ITEM_GLOVE",CItemData::ITEM_GLOVE);
+#else
+	PyModule_AddIntConstant(poModule, "EQUIPMENT_GLOVE",-1);
+	PyModule_AddIntConstant(poModule, "ITEM_GLOVE",-1);
 #endif
 
 #ifdef ENABLE_RINGS
@@ -1232,23 +1322,45 @@ void initItem()
 	PyModule_AddIntConstant(poModule, "RING_SLOT_5",c_Equipment_Rings_5);
 	PyModule_AddIntConstant(poModule, "RING_SLOT_6",c_Equipment_Rings_6);
 	PyModule_AddIntConstant(poModule, "RING_SLOT_7",c_Equipment_Rings_7);
+#else
+	PyModule_AddIntConstant(poModule, "ITEM_RINGS",-1);
+	PyModule_AddIntConstant(poModule, "RING_SLOT_0",-1);
+	PyModule_AddIntConstant(poModule, "RING_SLOT_1",-1);
+	PyModule_AddIntConstant(poModule, "RING_SLOT_2",-1);
+	PyModule_AddIntConstant(poModule, "RING_SLOT_3",-1);
+	PyModule_AddIntConstant(poModule, "RING_SLOT_4",-1);
+	PyModule_AddIntConstant(poModule, "RING_SLOT_5",-1);
+	PyModule_AddIntConstant(poModule, "RING_SLOT_6",-1);
+	PyModule_AddIntConstant(poModule, "RING_SLOT_7",-1);
 #endif
 
 #ifdef ENABLE_AURA_SKIN
 	PyModule_AddIntConstant(poModule, "ITEM_AURA_SKIN_SLOT",c_Equipment_AuraSkin);
 	PyModule_AddIntConstant(poModule, "ITEM_AURA_SKIN",CItemData::ITEM_AURA_SKIN);
+#else
+	PyModule_AddIntConstant(poModule, "ITEM_AURA_SKIN_SLOT",-1);
+	PyModule_AddIntConstant(poModule, "ITEM_AURA_SKIN",-1);
 #endif
 
 #ifdef ENABLE_DREAMSOUL
 	PyModule_AddIntConstant(poModule, "ITEM_DREAMSOUL",CItemData::ITEM_DREAMSOUL);
 	PyModule_AddIntConstant(poModule, "DREAMSOUL_SLOT_RED",c_DreamSoul_Red);
 	PyModule_AddIntConstant(poModule, "DREAMSOUL_SLOT_BLUE",c_DreamSoul_Blue);
+#else
+	PyModule_AddIntConstant(poModule, "ITEM_DREAMSOUL",-1);
+	PyModule_AddIntConstant(poModule, "DREAMSOUL_SLOT_RED",-1);
+	PyModule_AddIntConstant(poModule, "DREAMSOUL_SLOT_BLUE",-1);
 #endif
 #ifdef ENABLE_NEW_PET_SYSTEM
 	PyModule_AddIntConstant(poModule, "EQUIPMENT_NEW_PET",c_NewPet);
+#else
+	PyModule_AddIntConstant(poModule, "EQUIPMENT_NEW_PET",-1);
 #endif
 #ifdef ENABLE_EXTENDED_BLEND_AFFECT
 	PyModule_AddIntConstant(poModule, "MIN_INFINITE_DURATION", CItemData::MIN_INFINITE_DURATION);
 	PyModule_AddIntConstant(poModule, "MAX_INFINITE_DURATION", CItemData::MAX_INFINITE_DURATION);
+#else
+	PyModule_AddIntConstant(poModule, "MIN_INFINITE_DURATION", 0);
+	PyModule_AddIntConstant(poModule, "MAX_INFINITE_DURATION", 0);
 #endif
 }

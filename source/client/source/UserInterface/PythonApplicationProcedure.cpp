@@ -189,10 +189,10 @@ LRESULT CPythonApplication::WindowProcedure(HWND hWnd, UINT uiMsg, WPARAM wParam
 	case WM_MOUSEWHEEL:
 #ifdef ENABLE_CEF_BROWSER
 		if (CefWebBrowser_IsVisible())
-#endif
 		{
 		}
 		else
+#endif
 		{
 			OnMouseWheel(short(HIWORD(wParam)));
 		}
@@ -208,7 +208,7 @@ LRESULT CPythonApplication::WindowProcedure(HWND hWnd, UINT uiMsg, WPARAM wParam
 			GetClientRect(&rcWnd);
 
 			UINT uWidth = rcWnd.right - rcWnd.left;
-			UINT uHeight = rcWnd.bottom - rcWnd.left;
+			UINT uHeight = rcWnd.bottom - rcWnd.top;
 			m_grpDevice.ResizeBackBuffer(uWidth, uHeight);
 		}
 		break;
@@ -229,7 +229,7 @@ LRESULT CPythonApplication::WindowProcedure(HWND hWnd, UINT uiMsg, WPARAM wParam
 		GetClientRect(&rcWnd);
 
 		UINT uWidth = rcWnd.right - rcWnd.left;
-		UINT uHeight = rcWnd.bottom - rcWnd.left;
+		UINT uHeight = rcWnd.bottom - rcWnd.top;
 		m_grpDevice.ResizeBackBuffer(uWidth, uHeight);
 		OnSizeChange(short(LOWORD(lParam)), short(HIWORD(lParam)));
 	}

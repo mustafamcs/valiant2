@@ -191,7 +191,11 @@ bool CPythonNetworkStream::RecvMainCharacter()
 	CPythonPlayer& rkPlayer = CPythonPlayer::Instance();
 	rkPlayer.SetName(MainChrPacket.szName);
 	rkPlayer.SetMainCharacterIndex(GetMainActorVID());
+#if defined(ENABLE_CLIENT_OPTIMISATION)
 	Warp(MainChrPacket.lX, MainChrPacket.lY);/*@Lightwork6 */
+#else
+	PyCallClassMemberFunc(m_apoPhaseWnd[PHASE_WINDOW_LOAD], "LoadData", Py_BuildValue("(ii)", MainChrPacket.lX, MainChrPacket.lY));
+#endif
 	return true;
 }
 
@@ -212,7 +216,11 @@ bool CPythonNetworkStream::RecvMainCharacter2_EMPIRE()
 	CPythonPlayer& rkPlayer = CPythonPlayer::Instance();
 	rkPlayer.SetName(mainChrPacket.szName);
 	rkPlayer.SetMainCharacterIndex(GetMainActorVID());
+#if defined(ENABLE_CLIENT_OPTIMISATION)
 	Warp(mainChrPacket.lX, mainChrPacket.lY);/*@Lightwork6 */
+#else
+	PyCallClassMemberFunc(m_apoPhaseWnd[PHASE_WINDOW_LOAD], "LoadData", Py_BuildValue("(ii)", mainChrPacket.lX, mainChrPacket.lY));
+#endif
 	return true;
 }
 

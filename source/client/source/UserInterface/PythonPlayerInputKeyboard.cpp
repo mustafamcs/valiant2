@@ -91,9 +91,9 @@ void CPythonPlayer::NEW_SetMultiDirKeyState(bool isLeft, bool isRight, bool isUp
 
 		if (!NEW_MoveToDirection(fDirRot
 #ifdef ENABLE_MOVIEMODE_CAMERA
-			, isDown)
+			, isDown
 #endif
-			)
+			))
 		{
 			Tracen("CPythonPlayer::NEW_SetMultiKeyState - NEW_Move -> ERROR");
 			return;

@@ -668,6 +668,37 @@ public:
 
 	typedef SItemTable_r156 SItemTable, TItemTable;
 
+	typedef struct SItemTable_r254
+	{
+		DWORD       dwVnum;
+		DWORD       dwVnumRange;
+		char        szName[ITEM_NAME_MAX_LEN + 1];
+		char        szLocaleName[ITEM_NAME_MAX_LEN + 1];
+		BYTE        bType;
+		BYTE        bSubType;
+
+		BYTE        bWeight;
+		BYTE        bSize;
+
+		DWORD       dwAntiFlags;
+		DWORD       dwFlags;
+		DWORD       dwWearFlags;
+		DWORD       dwImmuneFlag;
+
+		int64_t     dwIBuyItemPrice;
+		int64_t     dwISellItemPrice;
+
+		TItemLimit  aLimits[ITEM_LIMIT_MAX_NUM];
+		TItemApply  aApplies[5];
+		long        alValues[ITEM_VALUES_MAX_NUM];
+		long        alSockets[ITEM_SOCKET_MAX_NUM];
+		DWORD       dwRefinedVnum;
+		WORD        wRefineSet;
+		BYTE        bAlterToMagicItemPct;
+		BYTE        bSpecular;
+		BYTE        bGainSocketPct;
+	} TItemTable_r254;
+
 #ifdef ENABLE_ACCE_COSTUME_SYSTEM
 	struct SScaleInfo
 	{
@@ -689,8 +720,11 @@ public:
 			switch (structSize)
 			{
 				case sizeof(TItemTable_r152) :
-					case sizeof(TItemTable_r156) :
-					case sizeof(TItemTable_r158) :
+				case sizeof(TItemTable_r156) :
+				case sizeof(TItemTable_r158) :
+#if !defined(ENABLE_EXTENDED_YANG_LIMIT) || !defined(ENABLE_ITEM_PROTO_APPLY_LIMIT)
+				case sizeof(TItemTable_r254) :
+#endif
 					return true;
 					break;
 			}
@@ -763,6 +797,14 @@ public:
 					ITABLE_COPY_INT(dwVnumRange);
 				}
 				break;
+#if !defined(ENABLE_EXTENDED_YANG_LIMIT) || !defined(ENABLE_ITEM_PROTO_APPLY_LIMIT)
+				case sizeof(TItemTable_r254) :
+				{
+					ITABLE_PROCESS(254);
+					ITABLE_COPY_INT(dwVnumRange);
+				}
+				break;
+#endif
 			}
 		}
 	} TItemTableAll;

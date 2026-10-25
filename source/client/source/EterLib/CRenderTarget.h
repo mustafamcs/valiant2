@@ -1,5 +1,6 @@
 ﻿#pragma once
 
+#ifdef ENABLE_RENDER_TARGET
 #include <memory>
 #include "GrpRenderTargetTexture.h"
 
@@ -58,3 +59,4 @@ private:
 	D3DXVECTOR3 m_v3Target;
 	D3DXVECTOR3 m_v3Up;
 };
+#endif

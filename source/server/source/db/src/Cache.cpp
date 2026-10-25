@@ -139,9 +139,9 @@ void CItemCache::OnFlush()
 			iValueLen += snprintf(szValues + iValueLen, sizeof(szValues) - iValueLen,
 				", %ld, %ld, %ld"
 #ifdef ENABLE_SOCKET_LIMIT_5
-				", %ld, %ld, %ld",
+				", %ld, %ld, %ld"
 #endif
-				p->alSockets[0], p->alSockets[1], p->alSockets[2]
+				, p->alSockets[0], p->alSockets[1], p->alSockets[2]
 #ifdef ENABLE_SOCKET_LIMIT_5
 				,p->alSockets[3], p->alSockets[4], p->alSockets[5]
 #endif
@@ -150,9 +150,9 @@ void CItemCache::OnFlush()
 			iUpdateLen += snprintf(szUpdate + iUpdateLen, sizeof(szUpdate) - iUpdateLen,
 				", socket0=%ld, socket1=%ld, socket2=%ld"
 #ifdef ENABLE_SOCKET_LIMIT_5
-				", socket3=%ld, socket4=%ld, socket5=%ld",
+				", socket3=%ld, socket4=%ld, socket5=%ld"
 #endif		
-				p->alSockets[0], p->alSockets[1], p->alSockets[2]
+				, p->alSockets[0], p->alSockets[1], p->alSockets[2]
 #ifdef ENABLE_SOCKET_LIMIT_5
 				, p->alSockets[3], p->alSockets[4], p->alSockets[5]
 #endif

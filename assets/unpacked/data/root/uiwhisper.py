@@ -1,6 +1,4 @@
-import ui, net, chat, player, app, localeInfo, ime, chr
-if app.ENABLE_MULTI_LANGUAGE_SYSTEM and app.ENABLE_EXTENDED_WHISPER_DETAILS:
-	import messenger, constInfo
+import ui, net, chat, player, app, localeInfo, ime, chr, messenger, constInfo
 
 class WhisperButton(ui.Button):
 	def __init__(self):
@@ -267,7 +265,10 @@ class WhisperDialog(ui.ScriptWindow):
 			self.friendButton.SetDownVisual("d:/ymir work/ui/game/ekstra/whisper/add_friend_03.png")
 			self.friendButton.SetText("")
 			self.friendButton.SetEvent(ui.__mem_func__(self.AddFriend))
-			self.friendButton.Show()
+			if app.ENABLE_EXTENDED_WHISPER_DETAILS:
+				self.friendButton.Show()
+			else:
+				self.friendButton.Hide()
 
 			self.playerShopButton = ui.Button()
 			self.playerShopButton.SetParent(self.board)
@@ -276,7 +277,10 @@ class WhisperDialog(ui.ScriptWindow):
 			self.playerShopButton.SetOverVisual("d:/ymir work/ui/game/ekstra/whisper/playershop_02.png")
 			self.playerShopButton.SetDownVisual("d:/ymir work/ui/game/ekstra/whisper/playershop_03.png")
 			self.playerShopButton.SetEvent(lambda arg = targetName : self.SearchPlayerNameOnShops(arg))
-			self.playerShopButton.Show()
+			if app.ENABLE_SHOP_SEARCH:
+				self.playerShopButton.Show()
+			else:
+				self.playerShopButton.Hide()
 		else:
 
 			self.playerShopButton = ui.Button()
@@ -286,7 +290,10 @@ class WhisperDialog(ui.ScriptWindow):
 			self.playerShopButton.SetOverVisual("d:/ymir work/ui/game/ekstra/whisper/playershop_02.png")
 			self.playerShopButton.SetDownVisual("d:/ymir work/ui/game/ekstra/whisper/playershop_03.png")
 			self.playerShopButton.SetEvent(lambda arg = targetName : self.SearchPlayerNameOnShops(arg))
-			self.playerShopButton.Show()
+			if app.ENABLE_SHOP_SEARCH:
+				self.playerShopButton.Show()
+			else:
+				self.playerShopButton.Hide()
 
 
 		if app.ENABLE_PM_ALL_SEND_SYSTEM:

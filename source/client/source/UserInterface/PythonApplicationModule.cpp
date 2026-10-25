@@ -1508,6 +1508,8 @@ void initapp()
 	PyModule_AddIntConstant(poModule, "PICK",CPythonApplication::CURSOR_SHAPE_PICK);
 #ifdef ENABLE_FISHING_RENEWAL
 	PyModule_AddIntConstant(poModule, "FISH",CPythonApplication::CURSOR_SHAPE_FISH);
+#else
+	PyModule_AddIntConstant(poModule, "FISH",CPythonApplication::CURSOR_SHAPE_NORMAL);
 #endif
 	PyModule_AddIntConstant(poModule, "DOOR",CPythonApplication::CURSOR_SHAPE_DOOR);
 	PyModule_AddIntConstant(poModule, "CHAIR",CPythonApplication::CURSOR_SHAPE_CHAIR);
@@ -1806,6 +1808,9 @@ void initapp()
 
 #ifdef ENABLE_OFFLINE_SHOP
 	PyModule_AddIntConstant(poModule, "ENABLE_OFFLINE_SHOP",1);
+#else
+	PyModule_AddIntConstant(poModule, "ENABLE_OFFLINE_SHOP",0);
+#endif
 #ifdef ENABLE_SHOP_SEARCH
 	PyModule_AddIntConstant(poModule, "ENABLE_SHOP_SEARCH",1);
 #else
@@ -1815,9 +1820,6 @@ void initapp()
 	PyModule_AddIntConstant(poModule, "ENABLE_SHOP_DECORATION",1);
 #else
 	PyModule_AddIntConstant(poModule, "ENABLE_SHOP_DECORATION",0);
-#endif
-#else
-	PyModule_AddIntConstant(poModule, "ENABLE_OFFLINE_SHOP",0);
 #endif
 
 #if defined(ENABLE_CHECKINOUT_UPDATE)
@@ -1849,6 +1851,7 @@ void initapp()
 	PyModule_AddIntConstant(poModule, "MULTIPLE_BUY_MAX_COUNT",MULTIPLE_BUY_MAX_COUNT);
 #else
 	PyModule_AddIntConstant(poModule, "ENABLE_MULTIPLE_BUY_ITEMS",0);
+	PyModule_AddIntConstant(poModule, "MULTIPLE_BUY_MAX_COUNT",MULTIPLE_BUY_MAX_COUNT);
 #endif
 
 #ifdef ENABLE_CHEST_OPEN_RENEWAL
@@ -2131,13 +2134,13 @@ void initapp()
 
 #ifdef ENABLE_WIKI
 	PyModule_AddIntConstant(poModule, "ENABLE_WIKI",1);
+#else
+	PyModule_AddIntConstant(poModule, "ENABLE_WIKI",0);
+#endif
 #if defined (ENABLE_WIKI) && defined(ENABLE_WOLFMAN_CHARACTER)
 	PyModule_AddIntConstant(poModule, "WIKI_WOLFMAN",1);
 #else
 	PyModule_AddIntConstant(poModule, "WIKI_WOLFMAN",0);
-#endif
-#else
-	PyModule_AddIntConstant(poModule, "ENABLE_WIKI",0);
 #endif
 
 #ifdef ENABLE_ATTR_RARE_RENEWAL
@@ -2187,7 +2190,36 @@ void initapp()
 	PyModule_AddIntConstant(poModule, "LOCALE_MAX_NUM", CPythonApplication::LOCALE_MAX_NUM);
 #else
 	PyModule_AddIntConstant(poModule, "ENABLE_MULTI_LANGUAGE_SYSTEM", 0);
+	PyModule_AddIntConstant(poModule, "LOCALE_DEFAULT", 0);
+	PyModule_AddIntConstant(poModule, "LOCALE_EN", 1);
+	PyModule_AddIntConstant(poModule, "LOCALE_PT", 2);
+	PyModule_AddIntConstant(poModule, "LOCALE_ES", 3);
+	PyModule_AddIntConstant(poModule, "LOCALE_FR", 4);
+	PyModule_AddIntConstant(poModule, "LOCALE_DE", 5);
+	PyModule_AddIntConstant(poModule, "LOCALE_RO", 6);
+	PyModule_AddIntConstant(poModule, "LOCALE_PL", 7);
+	PyModule_AddIntConstant(poModule, "LOCALE_IT", 8);
+	PyModule_AddIntConstant(poModule, "LOCALE_CZ", 9);
+	PyModule_AddIntConstant(poModule, "LOCALE_HU", 10);
+	PyModule_AddIntConstant(poModule, "LOCALE_TR", 11);
+	PyModule_AddIntConstant(poModule, "LOCALE_MAX_NUM", 12);
 #endif
+#ifdef ENABLE_ACCE_COSTUME_SKIN
+	PyModule_AddIntConstant(poModule, "ENABLE_ACCE_COSTUME_SKIN", 1);
+#else
+	PyModule_AddIntConstant(poModule, "ENABLE_ACCE_COSTUME_SKIN", 0);
+#endif
+#ifdef ENABLE_CROWN_SYSTEM
+	PyModule_AddIntConstant(poModule, "ENABLE_CROWN_SYSTEM", 1);
+#else
+	PyModule_AddIntConstant(poModule, "ENABLE_CROWN_SYSTEM", 0);
+#endif
+	PyModule_AddIntConstant(poModule, "ENABLE_DETAILS_INTERFACE", 0);
+	PyModule_AddIntConstant(poModule, "ENABLE_DETAILS_UI", 0);
+	PyModule_AddIntConstant(poModule, "ENABLE_DRAGON_SOUL_EFFECT", 0);
+	PyModule_AddIntConstant(poModule, "ENABLE_GEM_SYSTEM", 0);
+	PyModule_AddIntConstant(poModule, "ENABLE_ULTIMATE_REGEN", 0);
+	PyModule_AddIntConstant(poModule, "ENABLE_WINDOW_SLIDE_EFFECT", 0);
 
 #ifdef ENABLE_EXTENDED_WHISPER_DETAILS
 	PyModule_AddIntConstant(poModule, "ENABLE_EXTENDED_WHISPER_DETAILS", 1);
@@ -2332,5 +2364,73 @@ void initapp()
 	PyModule_AddIntConstant(poModule, "ENABLE_BUY_BACK_ITEM", 1);
 #else
 	PyModule_AddIntConstant(poModule, "ENABLE_BUY_BACK_ITEM", 0);
+#endif
+#ifdef ENABLE_INVENTORY_REWORK
+	PyModule_AddIntConstant(poModule, "ENABLE_INVENTORY_REWORK", 1);
+#else
+	PyModule_AddIntConstant(poModule, "ENABLE_INVENTORY_REWORK", 0);
+#endif
+#ifdef ENABLE_CHEQUE_SYSTEM
+	PyModule_AddIntConstant(poModule, "ENABLE_CHEQUE_SYSTEM", 1);
+#else
+	PyModule_AddIntConstant(poModule, "ENABLE_CHEQUE_SYSTEM", 0);
+#endif
+#ifdef ENABLE_CHANNEL_SWITCH_SYSTEM
+	PyModule_AddIntConstant(poModule, "ENABLE_MOVE_CHANNEL", 1);
+#else
+	PyModule_AddIntConstant(poModule, "ENABLE_MOVE_CHANNEL", 0);
+#endif
+	PyModule_AddIntConstant(poModule, "ENABLE_SERVER_SELECT_RENEWAL", 0);
+	PyModule_AddIntConstant(poModule, "USE_OPENID", 0);
+	PyModule_AddIntConstant(poModule, "OPENID_TEST", 0);
+	PyModule_AddIntConstant(poModule, "loggined", 0);
+	PyModule_AddIntConstant(poModule, "DISABLE_CHEQUE_DROP", 0);
+	PyModule_AddIntConstant(poModule, "DISABLE_WOLFMAN_ON_CREATE", 0);
+#ifdef ENABLE_ELEMENT_ADD
+	PyModule_AddIntConstant(poModule, "ENABLE_ELEMENTAL_TARGET", 1);
+#else
+	PyModule_AddIntConstant(poModule, "ENABLE_ELEMENTAL_TARGET", 0);
+#endif
+#ifdef ENABLE_GLOVE_ITEM
+	PyModule_AddIntConstant(poModule, "ENABLE_GLOVE_SYSTEM", 1);
+#else
+	PyModule_AddIntConstant(poModule, "ENABLE_GLOVE_SYSTEM", 0);
+#endif
+#ifdef ENABLE_HIGHLIGHT_SYSTEM
+	PyModule_AddIntConstant(poModule, "ENABLE_HIGHLIGHT_NEW_ITEM", 1);
+#else
+	PyModule_AddIntConstant(poModule, "ENABLE_HIGHLIGHT_NEW_ITEM", 0);
+#endif
+	PyModule_AddIntConstant(poModule, "ENABLE_LOCALE_COMMON", 1);
+#ifdef ENABLE_MINIMAP_TELEPORT
+	PyModule_AddIntConstant(poModule, "ENABLE_MINIMAP_TELEPORT_CLICK", 1);
+#else
+	PyModule_AddIntConstant(poModule, "ENABLE_MINIMAP_TELEPORT_CLICK", 0);
+#endif
+#ifdef ENABLE_WHEEL_MOUSE
+	PyModule_AddIntConstant(poModule, "ENABLE_MOUSEWHEEL_EVENT", 1);
+#else
+	PyModule_AddIntConstant(poModule, "ENABLE_MOUSEWHEEL_EVENT", 0);
+#endif
+	PyModule_AddIntConstant(poModule, "ENABLE_NO_DSS_QUALIFICATION", 0);
+	PyModule_AddIntConstant(poModule, "ENABLE_NO_SELL_PRICE_DIVIDED_BY_5", 0);
+#ifdef ENABLE_PENDANT_ITEM
+	PyModule_AddIntConstant(poModule, "ENABLE_PENDANT_SYSTEM", 1);
+#else
+	PyModule_AddIntConstant(poModule, "ENABLE_PENDANT_SYSTEM", 0);
+#endif
+	PyModule_AddIntConstant(poModule, "ENABLE_PET_SYSTEM_EX", 0);
+	PyModule_AddIntConstant(poModule, "ENABLE_QUIVER_SYSTEM", 0);
+	PyModule_AddIntConstant(poModule, "ENABLE_RACE_HEIGHT", 0);
+#ifdef ENABLE_SEALBIND_SYSTEM
+	PyModule_AddIntConstant(poModule, "ENABLE_SOULBIND_SYSTEM", 1);
+#else
+	PyModule_AddIntConstant(poModule, "ENABLE_SOULBIND_SYSTEM", 0);
+#endif
+	PyModule_AddIntConstant(poModule, "ENABLE_WON_EXCHANGE_WINDOW", 0);
+#ifdef ENABLE_678TH_SKILL
+	PyModule_AddIntConstant(poModule, "NEW_678TH_SKILL_ENABLE", 1);
+#else
+	PyModule_AddIntConstant(poModule, "NEW_678TH_SKILL_ENABLE", 0);
 #endif
 }

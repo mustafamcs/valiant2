@@ -559,8 +559,9 @@ namespace fishing
 			if (number(0, 100) <= uniqueItemDropChance)
 				itemVnum = 27805;
 
-			MAX_COUNT dropItemCount{ 1 };
+			DWORD dropItemCount{ 1 };
 
+#ifdef ENABLE_PASSIVE_SKILLS
 			int getSkillLevel{ ch->GetSkillLevel(SKILL_PASSIVE_FISHING) };
 			int doubleDropChance{ getSkillLevel / 2 };
 
@@ -571,9 +572,12 @@ namespace fishing
 					dropItemCount = 2;
 				}
 			}
+#endif
 
 			FishingSuccess(ch);
+#ifdef ENABLE_FISHING_RENEWAL
 			CheckFishingLevelCanIncrease(ch);
+#endif
 
 			TPacketGCFishing p;
 			p.header = HEADER_GC_FISHING;
@@ -582,17 +586,21 @@ namespace fishing
 			ch->GetDesc()->Packet(&p, sizeof(TPacketGCFishing));
 
 			ch->AutoGiveItem(itemVnum, dropItemCount, -1, true);
+#ifdef ENABLE_FISHING_RENEWAL
 			ch->AutoGiveItem(upgradeItemVnum, dropItemCount, -1, true);
+#endif
 #ifdef ENABLE_EXTENDED_BATTLE_PASS
 			ch->UpdateExtBattlePassMissionProgress(FISH_FISHING, 1, itemVnum);
 #endif
 #ifdef ENABLE_PLAYER_STATS_SYSTEM
 			ch->PointChange(POINT_FISHING, dropItemCount);
 #endif
+#ifdef ENABLE_FISHING_RENEWAL
 			if (number(0, 100) <= bookDropPct)
 			{
 				ch->AutoGiveItem(upgradeBook, dropItemCount, -1, true);
 			}
+#endif
 
 		}
 		else if (info->step > 1)

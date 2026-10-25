@@ -684,10 +684,12 @@ public:
 #ifdef ENABLE_NEW_DISTANCE_CALC
 	float				GetMonsterHitRange(uint32_t dwVnum);
 #endif
+#if defined(WJ_SHOW_MOB_INFO) || defined(ENABLE_TARGET_INFORMATION_SYSTEM)
+	DWORD				GetMonsterLevel(DWORD dwVnum);
+#endif
 #ifdef ENABLE_TARGET_INFORMATION_SYSTEM
 	HP_ULL				GetMonsterMaxHP(DWORD dwVnum);
 	DWORD				GetMonsterRaceFlag(DWORD dwVnum);
-	DWORD				GetMonsterLevel(DWORD dwVnum);
 	DWORD				GetMonsterDamage1(DWORD dwVnum);
 	DWORD				GetMonsterDamage2(DWORD dwVnum);
 	DWORD				GetMonsterExp(DWORD dwVnum);

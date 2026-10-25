@@ -569,7 +569,10 @@ ACMD(do_item)
 		}
 
 		int iEmptyPos = -1;
-		if (item->IsUpgradeItem())
+		if (item->IsDragonSoul())
+			iEmptyPos = ch->GetEmptyDragonSoulInventory(item);
+#ifdef ENABLE_SPECIAL_STORAGE
+		else if (item->IsUpgradeItem())
 			iEmptyPos = ch->GetEmptyUpgradeInventory(item);
 		else if (item->IsBook())
 			iEmptyPos = ch->GetEmptyBookInventory(item);
@@ -577,8 +580,7 @@ ACMD(do_item)
 			iEmptyPos = ch->GetEmptyStoneInventory(item);
 		else if (item->IsChest())
 			iEmptyPos = ch->GetEmptyChestInventory(item);
-		else if (item->IsDragonSoul())
-			iEmptyPos = ch->GetEmptyDragonSoulInventory(item);
+#endif
 		else
 			iEmptyPos = ch->GetEmptyInventory(item->GetSize());
 		
@@ -605,7 +607,7 @@ ACMD(do_item)
 		else
 			item->AddToCharacter(ch, TItemPos(INVENTORY, iEmptyPos));
 
-		iCount -= item->IsStackable() ? SET_MAX_COUNT : 1;
+		iCount -= item->IsStackable() ? ITEM_MAX_COUNT : 1;
 	}
 #endif
 }
@@ -941,11 +943,13 @@ ACMD(do_purge)
 
 	FuncPurge func(ch);
 
+#ifdef ENABLE_RELOAD_REGEN
 	if (*arg1 && !strcmp(arg1, "map"))
 	{
 		CHARACTER_MANAGER::instance().DestroyCharacterInMap(ch->GetMapIndex());
 	}
 	else
+#endif
 	{
 		if (*arg1 && !strcmp(arg1, "all"))
 			func.m_bAll = true;
@@ -977,8 +981,10 @@ ACMD(do_item_purge)
 		ch->ChatPacket(CHAT_TYPE_INFO, " belt");
 		return;
 	}
+#ifdef ENABLE_NEW_PET_SYSTEM
 	if (ch->GetWear(WEAR_NEW_PET))
 		return;
+#endif
 
 	int         i;
 	LPITEM      item;
@@ -1471,6 +1477,8 @@ void TransNotice(LPDESC pkDesc, const char* c_pszBuf, ...)
 
 #ifdef ENABLE_MULTI_LANGUAGE_SYSTEM
 void SendNotice(const char* c_pszBuf, bool bBigFont, ...)
+#elif defined(ENABLE_FULL_NOTICE)
+void SendNotice(const char* c_pszBuf, bool bBigFont)
 #else
 void SendNotice(const char* c_pszBuf)
 #endif
@@ -1500,6 +1508,8 @@ void SendNotice(const char* c_pszBuf)
 			d->GetCharacter()->ChatPacket((bBigFont) ? CHAT_TYPE_BIG_NOTICE : CHAT_TYPE_NOTICE, "%s", szChatBuf);
 		}
 	}
+#elif defined(ENABLE_FULL_NOTICE)
+	std::for_each(c_ref_set.begin(), c_ref_set.end(), notice_packet_func(c_pszBuf, bBigFont));
 #else
 	std::for_each(c_ref_set.begin(), c_ref_set.end(), notice_packet_func(c_pszBuf));
 #endif
@@ -4364,6 +4374,7 @@ ACMD(do_all_skill_master)
 				ch->SetSkillLevel(i, 20); // @fixme154 40 -> 20
 				break;
 
+#ifdef ENABLE_PASSIVE_SKILLS
 			case SKILL_PASSIVE_MONSTER:
 			case SKILL_PASSIVE_STONE:
 			case SKILL_PASSIVE_BERSERKER:
@@ -4372,6 +4383,10 @@ ACMD(do_all_skill_master)
 			case SKILL_PASSIVE_DRAGON_HEARTH:
 			case SKILL_PASSIVE_HERBOLOGY:
 			case SKILL_PASSIVE_UPGRADING:
+				ch->SetSkillLevel(i, SKILL_MAX_LEVEL - 10);
+				break;
+#endif
+#ifdef ENABLE_BUFFI_SYSTEM
 			case SKILL_BUFFI_1:
 			case SKILL_BUFFI_2:
 			case SKILL_BUFFI_3:
@@ -4379,6 +4394,7 @@ ACMD(do_all_skill_master)
 			case SKILL_BUFFI_5:
 				ch->SetSkillLevel(i, SKILL_MAX_LEVEL - 10);
 				break;
+#endif
 			}
 		}
 	}
@@ -5302,11 +5318,15 @@ ACMD(do_new_full)
 	bool farm = false;
 	str_to_number(farm, arg1);
 
+#ifdef ENABLE_BIOLOG_SYSTEM
 	ch->SetBiologLevel(BiologManager::instance().GetMaxLevel());
+#endif
 
 	do_all_skill_master(ch, NULL, 0, 0);
 
+#ifdef ENABLE_ALIGNMENT_SYSTEM
 	ch->UpdateAlignment(g_maxAlignment * 10);
+#endif
 
 	for (auto& vnum : GiveItemTableVnumList)
 	{

@@ -54,6 +54,44 @@ CResource* NewAttributeData(const char* c_szFileName)
 	return new CAttributeData(c_szFileName);
 }
 
+void CPythonResource::PinPhaseChangeResources()
+{
+	static const char* s_pinnedFiles[] =
+	{
+		"locale/common/ui/login.sub",
+		"locale/common/ui/select.sub",
+		"locale/common/ui/serverlist.sub",
+		"locale/common/ui/empire/title.sub",
+		"locale/common/ui/login/loginwindow.sub",
+		"locale/common/ui/login/title.sub",
+		"locale/common/ui/login/copyright.sub",
+		"locale/common/ui/login/published.sub",
+		"locale/common/ui/select/empire/background/empire_chunjo.sub",
+		"locale/common/ui/select/empire/background/empire_jinno.sub",
+		"locale/common/ui/select/empire/background/empire_sinsu.sub",
+		"locale/common/ui/select/empire/empireflag_a.sub",
+		"locale/common/ui/select/empire/empireflag_b.sub",
+		"locale/common/ui/select/empire/empireflag_c.sub",
+		"locale/common/ui/select/name_warrior.sub",
+		"locale/common/ui/select/name_assassin.sub",
+		"locale/common/ui/select/name_sura.sub",
+		"locale/common/ui/select/name_shaman.sub",
+		"locale/common/ui/select/name_wolfman.sub",
+	};
+
+	for (const char* fileName : s_pinnedFiles)
+	{
+		CResource* pResource = m_resManager.GetResourcePointer(fileName);
+		if (!pResource)
+			continue;
+
+		if (!pResource->IsType(CGraphicImage::Type()))
+			continue;
+
+		m_pinnedResources.push_back(static_cast<CGraphicImage*>(pResource));
+	}
+}
+
 void CPythonResource::DumpFileList(const char* c_szFileName)
 {
 	m_resManager.DumpFileListToTextFile(c_szFileName);

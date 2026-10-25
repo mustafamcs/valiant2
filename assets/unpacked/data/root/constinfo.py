@@ -18,7 +18,64 @@ ENABLE_REFINE_PCT = 0
 EXTRA_UI_FEATURE = 1
 #
 NEW_678TH_SKILL_ENABLE = 1
+SELECT_CHAR_NO_DELAY = 0.5
+ENABLE_ACTIVE_PET_SEAL_EFFECT = True
+ENABLE_SELF_STACK_SCROLLS = True
+CONSOLE_ENABLE = 0
+PVPMODE_TEST_ENABLE = 0
+def IS_PET_SEAL(itemVnum):
+	return False
 # EXTRA END
+
+ENABLE_SAVE_ACCOUNT = True
+if ENABLE_SAVE_ACCOUNT:
+	class SAB:
+		ST_CACHE, ST_FILE, ST_REGISTRY = xrange(3)
+		slotCount = 5
+		storeType = ST_REGISTRY
+		btnName = {
+			"Save": "SaveAccountButton_Save_%02d",
+			"Access": "SaveAccountButton_Access_%02d",
+			"Remove": "SaveAccountButton_Remove_%02d",
+		}
+		accData = {}
+		regPath = r"SOFTWARE\Metin2"
+		regName = "slot%02d_%s"
+		regValueId = "id"
+		regValuePwd = "pwd"
+		fileExt = ".do.not.share.it.txt"
+
+def DelWinRegKeyValue(keyPath, keyName):
+	try:
+		import _winreg
+		_winreg.CreateKey(_winreg.HKEY_CURRENT_USER, keyPath)
+		_tmpKey = _winreg.OpenKey(_winreg.HKEY_CURRENT_USER, keyPath, 0, _winreg.KEY_WRITE)
+		_winreg.DeleteValue(_tmpKey, keyName)
+		_winreg.CloseKey(_tmpKey)
+		return True
+	except WindowsError:
+		return False
+
+def GetWinRegKeyValue(keyPath, keyName):
+	try:
+		import _winreg
+		_tmpKey = _winreg.OpenKey(_winreg.HKEY_CURRENT_USER, keyPath, 0, _winreg.KEY_READ)
+		keyValue, keyType = _winreg.QueryValueEx(_tmpKey, keyName)
+		_winreg.CloseKey(_tmpKey)
+		return str(keyValue)
+	except WindowsError:
+		return None
+
+def SetWinRegKeyValue(keyPath, keyName, keyValue):
+	try:
+		import _winreg
+		_winreg.CreateKey(_winreg.HKEY_CURRENT_USER, keyPath)
+		_tmpKey = _winreg.OpenKey(_winreg.HKEY_CURRENT_USER, keyPath, 0, _winreg.KEY_WRITE)
+		_winreg.SetValueEx(_tmpKey, keyName, 0, _winreg.REG_SZ, keyValue)
+		_winreg.CloseKey(_tmpKey)
+		return True
+	except WindowsError:
+		return False
 
 # option
 IN_GAME_SHOP_ENABLE = 1
@@ -307,7 +364,11 @@ def IS_AUTO_POTION(itemVnum):
 	return IS_AUTO_POTION_HP(itemVnum) or IS_AUTO_POTION_SP(itemVnum)
 
 def IS_AUTO_POTION_HP(itemVnum):
-	if 72726 == itemVnum or 72730 >= itemVnum:
+	if 72723 <= itemVnum and 72726 >= itemVnum:
+		return 1
+	elif itemVnum >= 76021 and itemVnum <= 76022:
+		return 1
+	elif itemVnum == 79012:
 		return 1
 	return 0
 
@@ -458,8 +519,7 @@ if app.ENABLE_GLOBAL_RANKING:
 def waitTime(waitTime):
 	time.sleep(waitTime)
 
-if app.ENABLE_HIDE_AFFECT_ICONS:
-	AffectIconState = FALSE
+AffectIconState = FALSE
 
 if app.ENABLE_ITEM_TRANSACTIONS:
 	ITEM_INFORMATIONS_TRANSACTIONS = {}
@@ -506,8 +566,7 @@ if app.ENABLE_NEW_PET_SYSTEM:
 			return 1
 		return 0
 
-if app.ENABLE_DISTANCE_SKILL_SELECT:
-	CHOOSE_SKILL = 0
+CHOOSE_SKILL = 0
 
 ENABLE_DSS_ACTIVE_EFFECT_BUTTON = 1
 
@@ -553,11 +612,9 @@ if app.ENABLE_NAMING_SCROLL:
 				return NAMING_BONUS_RATES[type]
 		return -1
 
-if app.ENABLE_MINING_RENEWAL:
-	MINING_POINT = 0
+MINING_POINT = 0
 
-if app.ENABLE_LOADING_WINDOW_RENEWAL:
-	CURTAIN_ACTIVE = 1
+CURTAIN_ACTIVE = 1
 
 if app.ENABLE_MULTI_LANGUAGE_SYSTEM:
 	MULTI_LANGUAGE_NEED_RESTART_CLIENT = True # Enable the requirement to restart client after changing language in game
@@ -578,8 +635,7 @@ if app.ENABLE_MULTI_LANGUAGE_SYSTEM:
 	}
 
 
-if app.ENABLE_VOTE4BUFF:
-	VOTE_QUEST_IDX = 0
+VOTE_QUEST_IDX = 0
 
 if app.ENABLE_EXTENDED_BLEND_AFFECT:
 	def IS_BLEND_POTION(itemVnum):

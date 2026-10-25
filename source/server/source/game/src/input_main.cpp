@@ -577,12 +577,22 @@ int CInputMain::Chat(LPCHARACTER ch, const char* data, size_t uiBytes)
 		&& ch->FindAffect(AFFECT_PREMIUM)
 #endif
 		)
+#ifdef ENABLE_MULTI_LANGUAGE_SYSTEM
 		len = snprintf(chatbuf, sizeof(chatbuf), "|L%s|l %s |H%s%s|h(#)|h|r - Lv.%d|h|r : |cFF%s%s|r", LC_LOCALE(ch->GetLanguage()), ch->GetName(), "whisper:", ch->GetName(), ch->GetLevel(), color, buf);
+#else
+		len = snprintf(chatbuf, sizeof(chatbuf), "%s - Lv.%d : |cFF%s%s|r", ch->GetName(), ch->GetLevel(), color, buf);
+#endif
 	else
+#ifdef ENABLE_MULTI_LANGUAGE_SYSTEM
 		len = snprintf(chatbuf, sizeof(chatbuf), "|L%s|l %s |H%s%s|h(#)|h|r - Lv.%d|h|r : %s", LC_LOCALE(ch->GetLanguage()), ch->GetName(), "whisper:", ch->GetName(), ch->GetLevel(), buf);
 #else
-#ifdef ENABLE_CHAT_FLAG_AND_PM
+		len = snprintf(chatbuf, sizeof(chatbuf), "%s - Lv.%d : %s", ch->GetName(), ch->GetLevel(), buf);
+#endif
+#else
+#if defined(ENABLE_CHAT_FLAG_AND_PM) && defined(ENABLE_MULTI_LANGUAGE_SYSTEM)
 		len = snprintf(chatbuf, sizeof(chatbuf), "|L%s|l %s |H%s%s|h(#)|h|r - Lv.%d|h|r : %s", LC_LOCALE(ch->GetDesc()->GetLanguage()), ch->GetName(), "whisper:", ch->GetName(), ch->GetLevel(), buf);
+#else
+		len = snprintf(chatbuf, sizeof(chatbuf), "%s : %s", ch->GetName(), buf);
 #endif
 #endif
 

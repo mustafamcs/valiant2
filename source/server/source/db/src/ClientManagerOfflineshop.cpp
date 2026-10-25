@@ -1,4 +1,5 @@
 #include "stdafx.h"
+#ifdef ENABLE_OFFLINE_SHOP
 #include "../../common/building.h"
 #include "Main.h"
 #include "Config.h"
@@ -983,4 +984,5 @@ std::string CreateOfflineshopSelectShopItemsQuery()
 		" FROM  `player`.`offlineshop_shop_items`;");
 	return szQuery;
 }
+#endif
 

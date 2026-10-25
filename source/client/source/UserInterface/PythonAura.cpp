@@ -1,4 +1,5 @@
 #include "StdAfx.h"
+#ifdef ENABLE_AURA_SYSTEM
 #include "Packet.h"
 
 #include "PythonAura.h"
@@ -191,3 +192,4 @@ void initAura()
 	PyModule_AddIntConstant(pModule, "ICE_RUNIC2",AURA_ICE_RUNIC2);
 	PyModule_AddIntConstant(pModule, "LIMIT_RANGE",1000);
 }
+#endif

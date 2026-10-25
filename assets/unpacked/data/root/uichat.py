@@ -91,7 +91,7 @@ if app.ENABLE_CHAT_COLOR_SYSTEM:
 			if key not in xrange(len(self.PREMIUM_CHAT_COLORS)):
 				return
 
-			if not chr.IsPremium():
+			if getattr(app, "ENABLE_PREMIUM_PLAYERS", 0) and hasattr(chr, "IsPremium") and not chr.IsPremium():
 				chat.AppendChat(chat.CHAT_TYPE_INFO, localeInfo.SHOP_SEARCH_PREMIUM_NEEDED_FOR_THIS_ACTION)
 				return
 
@@ -803,7 +803,7 @@ class ChatWindow(ui.Window):
 			if self.chatColorMenu.IsShow():
 				self.chatColorMenu.Close()
 			else:
-				if not chr.IsPremium():
+				if getattr(app, "ENABLE_PREMIUM_PLAYERS", 0) and hasattr(chr, "IsPremium") and not chr.IsPremium():
 					chat.AppendChat(1, localeInfo.SHOP_SEARCH_PREMIUM_NEEDED_FOR_THIS_ACTION)
 					return
 				self.chatColorMenu.Open()
@@ -811,7 +811,7 @@ class ChatWindow(ui.Window):
 
 
 	def overEvent(self, event):
-		if not chr.IsPremium():
+		if getattr(app, "ENABLE_PREMIUM_PLAYERS", 0) and hasattr(chr, "IsPremium") and not chr.IsPremium():
 			if event=="OVERIN":
 				if self.toolTip:
 					self.toolTip.ClearToolTip()
@@ -855,7 +855,7 @@ class ChatWindow(ui.Window):
 
 
 	def overEventAutoShout(self, event):
-		if not chr.IsPremium():
+		if getattr(app, "ENABLE_PREMIUM_PLAYERS", 0) and hasattr(chr, "IsPremium") and not chr.IsPremium():
 			if event=="OVERIN":
 				if self.toolTip:
 					self.toolTip.ClearToolTip()

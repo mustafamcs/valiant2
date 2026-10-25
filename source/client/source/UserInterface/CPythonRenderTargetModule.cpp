@@ -1,4 +1,5 @@
 ﻿#include "StdAfx.h"
+#ifdef ENABLE_RENDER_TARGET
 #include "PythonApplication.h"
 
 PyObject* renderTargetSelectModel(PyObject* poSelf, PyObject* poArgs)
@@ -443,4 +444,5 @@ void initRenderTarget()
 
 	PyObject* poModule = Py_InitModule("renderTarget", s_methods);
 }
+#endif
 

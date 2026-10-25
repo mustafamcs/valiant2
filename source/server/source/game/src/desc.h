@@ -249,10 +249,8 @@ public:
 	void RawPacket(const void* c_pvData, int iSize);
 	void ChatPacket(BYTE type, const char* format, ...);
 
-#ifdef ENABLE_NEW_CHAT
 	void NewChatPacket(WORD chatID, const char* format, ...);
 	void NewChatPacket(WORD chatID);
-#endif
 
 };
 

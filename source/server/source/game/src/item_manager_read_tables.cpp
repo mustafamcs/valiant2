@@ -33,11 +33,13 @@ bool ITEM_MANAGER::ReadSpecialDropItemFile(const char* c_pszFileName
 
 	std::string stName;
 
+#ifdef ENABLE_RELOAD_REGEN
 	std::map<DWORD, CSpecialAttrGroup*> tempSpecAttr;
 	std::map<DWORD, CSpecialItemGroup*> tempSpecItem;
 	std::map<DWORD, CSpecialItemGroup*> tempSpecItemQuest;
 	if (isReloading)
 		sys_log(0, "RELOADING SpecialDrop");
+#endif
 
 	for (DWORD i = 0; i < loader.GetChildNodeCount(); ++i)
 	{
@@ -67,16 +69,16 @@ bool ITEM_MANAGER::ReadSpecialDropItemFile(const char* c_pszFileName
 				type = CSpecialItemGroup::PCT;
 			}
 #ifdef ENABLE_CHEST_OPEN_RENEWAL
-			else if (stType == "const") {//Sandýðýn içinde ne varsa atar
+			else if (stType == "const") {//Sandï¿½ï¿½ï¿½n iï¿½inde ne varsa atar
 				type = CSpecialItemGroup::CR_CONST;
 			}
-			else if (stType == "stone") {//newpct aynýsýdýr tek fark açýlma sayýsý daha yüksektir
+			else if (stType == "stone") {//newpct aynï¿½sï¿½dï¿½r tek fark aï¿½ï¿½lma sayï¿½sï¿½ daha yï¿½ksektir
 				type = CSpecialItemGroup::CR_STONE;
 			}
-			else if (stType == "newpct") {//pct türü gibidir
+			else if (stType == "newpct") {//pct tï¿½rï¿½ gibidir
 				type = CSpecialItemGroup::CR_NEW_PCT;
 			}
-			else if (stType == "norm") {//Normal sandýk açýmýyla aynýdýr
+			else if (stType == "norm") {//Normal sandï¿½k aï¿½ï¿½mï¿½yla aynï¿½dï¿½r
 				type = CSpecialItemGroup::CR_NORM;
 			}
 #endif
@@ -399,7 +401,7 @@ bool ITEM_MANAGER::ConvSpecialDropItemFile()
 						dwVnum = 0;
 					}
 					// @fixme148 BEGIN
-					else if (name == "°æÇèÄ¡")
+					else if (name == "ï¿½ï¿½ï¿½ï¿½Ä¡")
 					{
 						dwVnum = 0;
 						name = "exp";

@@ -935,8 +935,10 @@ void CInputDB::Boot(const char* data)
 	snprintf(szDragonSoulTableFileName, sizeof(szDragonSoulTableFileName),
 		"%s/common/dragon_soul_table.txt", LocaleService_GetBasePath().c_str());
 
+#ifdef ENABLE_CUBE_RENEWAL_WORLDARD
 	sys_log(0, "Initializing Informations of Cube System");
 	Cube_InformationInitialize();
+#endif
 
 	sys_log(0, "LoadLocaleFile: SpecialItemGroup: %s", szSpecialItemGroupFileName);
 	if (!ITEM_MANAGER::instance().ReadSpecialDropItemFile(szSpecialItemGroupFileName))

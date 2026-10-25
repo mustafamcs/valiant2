@@ -205,6 +205,17 @@ DWORD CPythonNonPlayer::GetMonsterColor(DWORD dwVnum)
 }
 
 
+#if defined(WJ_SHOW_MOB_INFO) || defined(ENABLE_TARGET_INFORMATION_SYSTEM)
+DWORD CPythonNonPlayer::GetMonsterLevel(DWORD dwVnum)
+{
+	const CPythonNonPlayer::TMobTable* c_pTable = GetTable(dwVnum);
+	if (!c_pTable)
+		return 0;
+
+	return c_pTable->bLevel;
+}
+#endif
+
 #ifdef ENABLE_TARGET_INFORMATION_SYSTEM
 HP_ULL CPythonNonPlayer::GetMonsterMaxHP(DWORD dwVnum)
 {
@@ -228,15 +239,6 @@ DWORD CPythonNonPlayer::GetMonsterRaceFlag(DWORD dwVnum)
 	}
 
 	return c_pTable->dwRaceFlag;
-}
-
-DWORD CPythonNonPlayer::GetMonsterLevel(DWORD dwVnum)
-{
-	const CPythonNonPlayer::TMobTable* c_pTable = GetTable(dwVnum);
-	if (!c_pTable)
-		return 0;
-
-	return c_pTable->bLevel;
 }
 
 DWORD CPythonNonPlayer::GetMonsterDamage1(DWORD dwVnum)

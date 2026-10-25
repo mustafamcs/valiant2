@@ -4253,7 +4253,11 @@ bool CPythonNetworkStream::SendBuildPrivateShopPacket(const char* c_szName, cons
 	TPacketCGMyShop packet;
 	packet.bHeader = HEADER_CG_MYSHOP;
 	strncpy(packet.szSign, c_szName, SHOP_SIGN_MAX_LEN);
+#ifdef ENABLE_EXTENDED_COUNT_ITEMS
 	packet.bCount = static_cast<MAX_COUNT>(c_rSellingItemStock.size());
+#else
+	packet.bCount = static_cast<BYTE>(c_rSellingItemStock.size());
+#endif
 	if (!Send(sizeof(packet), &packet))
 		return false;
 

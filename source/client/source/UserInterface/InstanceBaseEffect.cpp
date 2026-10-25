@@ -162,10 +162,13 @@ bool CInstanceBase::ProcessDamage() //lightwork fixed
 #ifdef ENABLE_SELECT_DAMAGE_TYPE
 	const auto selectedDamageType = CPythonSystem::Instance().GetDamageType();
 	const auto selectedDamageTypeRenewal = CPythonSystem::Instance().GetDamageTypeRenewal();
+#else
+	const int selectedDamageType = 0;
+	const int selectedDamageTypeRenewal = 0;
 #endif
 
-#ifdef ENABLE_DOT_DAMAGE
 	BYTE idxMultiplier = 0;
+#ifdef ENABLE_DOT_DAMAGE
 #ifdef ENABLE_KMT_DAMAGE
 	BYTE valIdx = 0;
 #endif

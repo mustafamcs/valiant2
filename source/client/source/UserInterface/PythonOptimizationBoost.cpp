@@ -1,4 +1,5 @@
 ﻿#include "Stdafx.h"
+#ifdef ENABLE_CLIENT_OPTIMISATION
 #include "InstanceBase.h"
 #include "PythonNetworkStream.h"
 #include "PythonPlayer.h"
@@ -818,3 +819,4 @@ void CPythonOptimizationBoost::__RegisterMisc()
 		CPythonBackground::Instance().RegisterDungeonMapName(dungeonMapName);
 	}
 }
+#endif

@@ -254,6 +254,8 @@ CGraphicFontTexture::TCharacterInfomation* CGraphicFontTexture::UpdateCharacterI
 #ifdef ENABLE_FONT_SELECT
 	int i_add = (strstr(m_fontName, "Tahoma:12") == 0) ? 1 : 0;
 	TextOutW(hDC, m_x + i_add, m_y, &keyValue, 1);
+#else
+	TextOutW(hDC, m_x, m_y, &keyValue, 1);
 #endif
 
 	int nChrX;

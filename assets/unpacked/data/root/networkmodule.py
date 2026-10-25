@@ -110,7 +110,7 @@ class MainStream(object):
 
 		self.newPhaseWindow = newPhaseWindow
 
-		if constInfo.CHOOSE_SKILL and app.ENABLE_DISTANCE_SKILL_SELECT:
+		if app.ENABLE_DISTANCE_SKILL_SELECT and constInfo.CHOOSE_SKILL:
 			constInfo.CHOOSE_SKILL = 0
 
 		if self.curPhaseWindow:
@@ -188,7 +188,7 @@ class MainStream(object):
 
 	def SetLoadingPhase(self):
 		try:
-			if systemSetting.IsLoadingAnimated() and not constInfo.CURTAIN_ACTIVE:
+			if app.ENABLE_LOADING_WINDOW_RENEWAL and systemSetting.IsLoadingAnimated() and not constInfo.CURTAIN_ACTIVE:
 				class LoadingWindow(ui.ScriptWindow):
 					def __init__(self, stream):
 						ui.Window.__init__(self)
@@ -263,7 +263,7 @@ class MainStream(object):
 	def GetConnectAddr(self):
 		return self.addr
 
-	def SetLoginInfo(self, id, pwd, clientVersion):
+	def SetLoginInfo(self, id, pwd, clientVersion = ""):
 		self.id = id
 		self.pwd = pwd
 		self.clientVersion = clientVersion

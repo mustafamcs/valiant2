@@ -2016,7 +2016,7 @@ void CSlotWindow::__CreateSlotEnableEffect()
 #endif
 {
 	__DestroySlotEnableEffect();
-	
+#ifdef ENABLE_HIGHLIGHT_SYSTEM
 	if (isDs)
 	{
 		for (int i = 0; i < 3; ++i)
@@ -2050,7 +2050,23 @@ void CSlotWindow::__CreateSlotEnableEffect()
 			pEff->Show();
 			m_apSlotActiveEffect[i] = pEff;
 		}
-	}	
+	}
+#else
+	m_pSlotActiveEffect = new CAniImageBox(NULL);
+	for (int j = 0; j <= 12; ++j)
+	{
+		char buf[64 + 1];
+#ifdef ENABLE_ACCE_COSTUME_SYSTEM
+		if (isDs)
+			sprintf_s(buf, "d:/ymir work/ui/public/slotactiveeffectsmall/%02d.sub", j);
+		else
+#endif
+			sprintf_s(buf, "d:/ymir work/ui/public/slotactiveeffect/%02d.sub", j);
+		m_pSlotActiveEffect->AppendImage(buf);
+	}
+	m_pSlotActiveEffect->SetRenderingMode(CGraphicExpandedImageInstance::RENDERING_MODE_SCREEN);
+	m_pSlotActiveEffect->Show();
+#endif
 }
 #ifdef ENABLE_HIGHLIGHT_SYSTEM
 void CSlotWindow::__CreateSlotNewItemEffect()

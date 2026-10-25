@@ -1,4 +1,5 @@
 #include "StdAfx.h"
+#ifdef ENABLE_CUBE_RENEWAL_WORLDARD
 #include "PythonCubeRenewal.h"
 #include "PythonNetworkStream.h"
 #include "Packet.h"
@@ -137,3 +138,4 @@ void intcuberenewal()
 
 	PyObject* poModule = Py_InitModule("cube_renewal", s_methods);
 }
+#endif

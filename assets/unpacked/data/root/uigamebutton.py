@@ -2,8 +2,7 @@ import app
 import ui
 import player
 import net
-if app.ENABLE_PM_ALL_SEND_SYSTEM:
-	import chr, constInfo
+import chr, constInfo
 
 class GameButtonWindow(ui.ScriptWindow):
 	def __init__(self):
@@ -37,6 +36,11 @@ class GameButtonWindow(ui.ScriptWindow):
 			if app.ENABLE_PM_ALL_SEND_SYSTEM:
 				self.gameButtonDict.update({"SEND_PM_ALL" : self.GetChild("GMSendMessageButton"),})
 				self.gameButtonDict["SEND_PM_ALL"].SetEvent(ui.__mem_func__(self.OpenSendPMAllButton))
+			else:
+				try:
+					self.GetChild("GMSendMessageButton").Hide()
+				except:
+					pass
 
 			self.gameButtonDict["EXIT_OBSERVER"].SetEvent(ui.__mem_func__(self.__OnClickExitObserver))
 

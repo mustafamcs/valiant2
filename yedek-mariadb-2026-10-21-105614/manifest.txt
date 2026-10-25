@@ -1,0 +1,16 @@
+﻿stamp=2026-10-21-105614
+dump_exit=0
+mysql_system_exit=0
+databases:
+account
+common
+information_schema
+log
+mysql
+performance_schema
+player
+sys
+valiant_panel
+files:
+all-databases.sql	8237820
+mysql-system.sql	2785592

@@ -341,7 +341,11 @@ EVENTFUNC(timed_event)
 	}
 	else
 	{
+#ifdef ENABLE_NEW_CHAT
 		ch->NewChatPacket(STRING_D8,"%d", info->left_second);
+#else
+		ch->ChatPacket(CHAT_TYPE_INFO, LC_TEXT("%d saniye sonra cikis yapilacak."), info->left_second);
+#endif
 		--info->left_second;
 	}
 
@@ -352,7 +356,11 @@ ACMD(do_cmd)
 {
 	if (ch->m_pkTimedEvent)
 	{
+#ifdef ENABLE_NEW_CHAT
 		ch->NewChatPacket(STRING_D9);
+#else
+		ch->ChatPacket(CHAT_TYPE_INFO, LC_TEXT("Islem iptal edildi."));
+#endif
 		event_cancel(&ch->m_pkTimedEvent);
 		return;
 	}
@@ -360,15 +368,27 @@ ACMD(do_cmd)
 	switch (subcmd)
 	{
 	case SCMD_LOGOUT:
+#ifdef ENABLE_NEW_CHAT
 		ch->NewChatPacket(STRING_D10);
+#else
+		ch->ChatPacket(CHAT_TYPE_INFO, LC_TEXT("Birkac saniye icinde oturumunuz kapatilacak. Lutfen bekleyin."));
+#endif
 		break;
 
 	case SCMD_QUIT:
+#ifdef ENABLE_NEW_CHAT
 		ch->NewChatPacket(STRING_D11);
+#else
+		ch->ChatPacket(CHAT_TYPE_INFO, LC_TEXT("Birkac saniye icinde oyun kapatilacak. Lutfen bekleyin."));
+#endif
 		break;
 
 	case SCMD_PHASE_SELECT:
+#ifdef ENABLE_NEW_CHAT
 		ch->NewChatPacket(STRING_D12);
+#else
+		ch->ChatPacket(CHAT_TYPE_INFO, LC_TEXT("Birkac saniye icinde karakter secimine doneceksiniz. Lutfen bekleyin."));
+#endif
 		break;
 	}
 
@@ -1506,6 +1526,98 @@ ACMD(do_cube)
 	{
 	case 'o':	// open
 		Cube_open(ch);
+		break;
+
+	default:
+		return;
+	}
+}
+#else
+ACMD(do_cube)
+{
+	if (!ch->CanDoCube())
+		return;
+
+	int cube_index = 0, inven_index = 0;
+	const char* line;
+
+	char arg1[256], arg2[256], arg3[256];
+
+	line = two_arguments(argument, arg1, sizeof(arg1), arg2, sizeof(arg2));
+	one_argument(line, arg3, sizeof(arg3));
+
+	if (0 == arg1[0])
+	{
+		return;
+	}
+
+	const std::string& strArg1 = std::string(arg1);
+
+	if (strArg1 == "r_info")
+	{
+		if (0 == arg2[0])
+			Cube_request_result_list(ch);
+		else
+		{
+			if (isdigit(*arg2))
+			{
+				int listIndex = 0, requestCount = 1;
+				str_to_number(listIndex, arg2);
+
+				if (0 != arg3[0] && isdigit(*arg3))
+					str_to_number(requestCount, arg3);
+
+				Cube_request_material_info(ch, listIndex, requestCount);
+			}
+		}
+
+		return;
+	}
+
+	switch (LOWER(arg1[0]))
+	{
+	case 'o':
+		Cube_open(ch);
+		break;
+
+	case 'c':
+		Cube_close(ch);
+		break;
+
+	case 'l':
+		Cube_show_list(ch);
+		break;
+
+	case 'a':
+	{
+		if (0 == arg2[0] || !isdigit(*arg2) ||
+			0 == arg3[0] || !isdigit(*arg3))
+			return;
+
+		str_to_number(cube_index, arg2);
+		str_to_number(inven_index, arg3);
+		Cube_add_item(ch, cube_index, inven_index);
+	}
+	break;
+
+	case 'd':
+	{
+		if (0 == arg2[0] || !isdigit(*arg2))
+			return;
+
+		str_to_number(cube_index, arg2);
+		Cube_delete_item(ch, cube_index);
+	}
+	break;
+
+	case 'm':
+		if (0 != arg2[0])
+		{
+			while (true == Cube_make(ch))
+				sys_log(1, "cube make success");
+		}
+		else
+			Cube_make(ch);
 		break;
 
 	default:

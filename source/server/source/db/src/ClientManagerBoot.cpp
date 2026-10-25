@@ -498,6 +498,9 @@ bool CClientManager::InitializeShopTable()
 		if (!data[col])
 			continue;
 
+		if (shop_table->byItemCount >= SHOP_HOST_ITEM_MAX_NUM)
+			continue;
+
 		TShopItemTable* pItem = &shop_table->items[shop_table->byItemCount];
 
 		str_to_number(pItem->vnum, data[col++]);
@@ -988,20 +991,14 @@ bool CClientManager::InitializeItemRareTable()
 	}
 #else
 	snprintf(query, sizeof(query),
-		"SELECT apply, apply+0, prob, lv1, lv2, lv3, lv4, lv5, weapon, body, wrist, foots, neck, head, shield, ear "
-#ifdef ENABLE_ITEM_ATTR_COSTUME
-		", costume_body, costume_hair"
-#if defined(ENABLE_ITEM_ATTR_COSTUME) && defined(ENABLE_WEAPON_COSTUME_SYSTEM)
-		", costume_weapon"
-#endif
-#endif
+		"SELECT apply, apply+0, prob, lv1, lv2, lv3, lv4, lv5"
 		" FROM item_attr_rare%s ORDER BY apply",
 		GetTablePostfix());
 
 	std::unique_ptr<SQLMsg> pkMsg(CDBManager::instance().DirectQuery(query));
-	SQLResult* pRes = pkMsg->Get();
+	SQLResult* pRes = pkMsg ? pkMsg->Get() : NULL;
 
-	if (!pRes->uiNumRows)
+	if (!pRes || !pRes->uiNumRows)
 	{
 		sys_err("no result from item_attr_rare");
 		return false;
@@ -1031,53 +1028,7 @@ bool CClientManager::InitializeItemRareTable()
 		str_to_number(t.lValues[2], data[col++]);
 		str_to_number(t.lValues[3], data[col++]);
 		str_to_number(t.lValues[4], data[col++]);
-		str_to_number(t.bMaxLevelBySet[ATTRIBUTE_SET_WEAPON], data[col++]);
-		str_to_number(t.bMaxLevelBySet[ATTRIBUTE_SET_BODY], data[col++]);
-		str_to_number(t.bMaxLevelBySet[ATTRIBUTE_SET_WRIST], data[col++]);
-		str_to_number(t.bMaxLevelBySet[ATTRIBUTE_SET_FOOTS], data[col++]);
-		str_to_number(t.bMaxLevelBySet[ATTRIBUTE_SET_NECK], data[col++]);
-		str_to_number(t.bMaxLevelBySet[ATTRIBUTE_SET_HEAD], data[col++]);
-		str_to_number(t.bMaxLevelBySet[ATTRIBUTE_SET_SHIELD], data[col++]);
-		str_to_number(t.bMaxLevelBySet[ATTRIBUTE_SET_EAR], data[col++]);
-#ifdef ENABLE_ITEM_ATTR_COSTUME
-		str_to_number(t.bMaxLevelBySet[ATTRIBUTE_SET_COSTUME_BODY], data[col++]);
-		str_to_number(t.bMaxLevelBySet[ATTRIBUTE_SET_COSTUME_HAIR], data[col++]);
-#if defined(ENABLE_ITEM_ATTR_COSTUME) && defined(ENABLE_WEAPON_COSTUME_SYSTEM)
-		str_to_number(t.bMaxLevelBySet[ATTRIBUTE_SET_COSTUME_WEAPON], data[col++]);
-#endif
-#endif
-
-		sys_log(0, "ITEM_RARE: %-20s %4lu { %3d %3d %3d %3d %3d } { %d %d %d %d %d %d %d"
-#ifdef ENABLE_ITEM_ATTR_COSTUME
-			" %d %d"
-#if defined(ENABLE_ITEM_ATTR_COSTUME) && defined(ENABLE_WEAPON_COSTUME_SYSTEM)
-			" %d"
-#endif
-#endif
-			" }",
-			t.szApply,
-			t.dwProb,
-			t.lValues[0],
-			t.lValues[1],
-			t.lValues[2],
-			t.lValues[3],
-			t.lValues[4],
-			t.bMaxLevelBySet[ATTRIBUTE_SET_WEAPON],
-			t.bMaxLevelBySet[ATTRIBUTE_SET_BODY],
-			t.bMaxLevelBySet[ATTRIBUTE_SET_WRIST],
-			t.bMaxLevelBySet[ATTRIBUTE_SET_FOOTS],
-			t.bMaxLevelBySet[ATTRIBUTE_SET_NECK],
-			t.bMaxLevelBySet[ATTRIBUTE_SET_HEAD],
-			t.bMaxLevelBySet[ATTRIBUTE_SET_SHIELD],
-			t.bMaxLevelBySet[ATTRIBUTE_SET_EAR]
-#ifdef ENABLE_ITEM_ATTR_COSTUME
-			, t.bMaxLevelBySet[ATTRIBUTE_SET_COSTUME_BODY]
-			, t.bMaxLevelBySet[ATTRIBUTE_SET_COSTUME_HAIR]
-#if defined(ENABLE_ITEM_ATTR_COSTUME) && defined(ENABLE_WEAPON_COSTUME_SYSTEM)
-			, t.bMaxLevelBySet[ATTRIBUTE_SET_COSTUME_WEAPON]
-#endif
-#endif
-		);
+		t.dwApplyIndex = get_apply_type(t.szApply);
 
 		m_vec_itemRareTable.push_back(t);
 	}

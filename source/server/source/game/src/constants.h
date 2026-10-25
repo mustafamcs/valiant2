@@ -207,11 +207,9 @@ extern const int IncreasePointPerSkillLevel[SKILL_MAX_LEVEL + 1];
 std::pair<BYTE,BYTE> StringApplyToPoint(const char* apply_type_string);
 #endif
 
-#ifdef ENABLE_SKILLS_LEVEL_OVER_P
 extern const int MinReadSoulStone[10];
 extern const int MaxReadSoulStone[10];
 extern const int ReadSoulStone[10];
-#endif
 #ifdef ENABLE_PASSIVE_SKILLS
 extern const int PassiveReadBook[50];
 #endif

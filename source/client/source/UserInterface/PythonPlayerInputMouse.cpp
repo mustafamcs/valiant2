@@ -94,8 +94,8 @@ void CPythonPlayer::NEW_SetMouseCameraState(int eMBS)
 							AddQueueList(pkInstPicked);
 						}
 					}
-#endif
 					else
+#endif
 					{
 						OpenCharacterMenu(pkInstPicked->GetVirtualID());
 					}				

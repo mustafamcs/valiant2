@@ -64,7 +64,11 @@ public:
 	void UnprojectPosition(float x, float y, float z, float* pfX, float* pfY, float* pfZ);
 
 	BOOL IsLostDevice();
-	BOOL RestoreDevice();
+	static BOOL RestoreDevice();
+
+	typedef BOOL (*TRestoreDeviceCallback)();
+	static void SetRestoreDeviceCallback(TRestoreDeviceCallback pfnCallback) { ms_pfnRestoreDevice = pfnCallback; }
+	static BOOL RestoreDeviceNow() { return ms_pfnRestoreDevice ? ms_pfnRestoreDevice() : FALSE; }
 
 	void BuildViewFrustum();
 
@@ -78,4 +82,5 @@ protected:
 	static float		ms_clearDepth;
 
 	static Frustum ms_frustum;
+	static TRestoreDeviceCallback ms_pfnRestoreDevice;
 };

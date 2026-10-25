@@ -14,9 +14,9 @@ function Get-DefinesFromFile([string]$path) {
     if (!(Test-Path $path)) { return $defines }
     foreach ($line in [IO.File]::ReadAllLines($path)) {
         $t = $line.Trim()
-        if ($t -match '^#define\s+([A-Za-z0-9_]+)') {
+        if ($t -cmatch '^#define\s+([A-Za-z0-9_]+)') {
             $defines[$Matches[1]] = $true
-        } elseif ($t -match '^//\s*#define\s+([A-Za-z0-9_]+)') {
+        } elseif ($t -cmatch '^//+\s*#define\s+([A-Za-z0-9_]+)') {
             if (!$defines.ContainsKey($Matches[1])) {
                 $defines[$Matches[1]] = $false
             }

@@ -28,10 +28,10 @@ static bool IS_CHEONMA = false;
 
 std::string __SECURITY_KEY_STRING__ = LSS_SECURITY_KEY;
 
-char	MULTI_LOCALE_SERVICE[256] = "YMIR";
-char	MULTI_LOCALE_PATH[256] = "locale/ymir";
-char	MULTI_LOCALE_NAME[256] = "ymir";
-int		MULTI_LOCALE_CODE = 949;
+char	MULTI_LOCALE_SERVICE[256] = "EUROPE";
+char	MULTI_LOCALE_PATH[256] = "locale/tr";
+char	MULTI_LOCALE_NAME[256] = "tr";
+int		MULTI_LOCALE_CODE = 1254;
 int		MULTI_LOCALE_REPORT_PORT = 10000;
 
 void LocaleService_LoadConfig(const char* fileName)
@@ -52,9 +52,9 @@ void LocaleService_LoadConfig(const char* fileName)
 	if (fp)
 	{
 		char	line[256];
-		char	name[256];
-		int		code;
-		int		id;
+		char	name[256] = "tr";
+		int		code = 1254;
+		int		id = 10000;
 		if (fgets(line, sizeof(line) - 1, fp))
 		{
 			line[sizeof(line) - 1] = '\0';
@@ -66,11 +66,14 @@ void LocaleService_LoadConfig(const char* fileName)
 			}
 			else
 			{
-				sscanf(line, "%d %d %s", &id, &code, name);
+				if (sscanf(line, "%d %d %s", &id, &code, name) != 3)
+					sscanf(line, "%d %s", &code, name);
 			}
 #else
-			sscanf(line, "%d %d %s", &id, &code, name);
-			MULTI_LOCALE_REPORT_PORT = id;
+			if (sscanf(line, "%d %d %s", &id, &code, name) == 3)
+				MULTI_LOCALE_REPORT_PORT = id;
+			else
+				sscanf(line, "%d %s", &code, name);
 #endif
 
 			MULTI_LOCALE_CODE = code;

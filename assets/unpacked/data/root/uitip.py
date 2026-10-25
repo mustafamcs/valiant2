@@ -699,3 +699,6 @@ class Timer(ui.ScriptWindow):
 	def OnPressExitKey(self):
 		self.Close()
 		return True
+
+if not app.ENABLE_DUNGEON_MODULES:
+	TipBoardNew = TipBoard

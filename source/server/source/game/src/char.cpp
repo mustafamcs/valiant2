@@ -1254,6 +1254,7 @@ void CHARACTER::UpdatePacket()
 	if (GetSectree() == NULL) return;
 
 	TPacketGCCharacterUpdate pack;
+	memset(&pack, 0, sizeof(pack));
 	pack.header = HEADER_GC_CHARACTER_UPDATE;
 	pack.dwVID = m_vid;
 
@@ -1286,7 +1287,7 @@ void CHARACTER::UpdatePacket()
 #else
 	pack.awPart[CHR_EQUIPPART_ARMOR] = GetPart(PART_MAIN);
 	pack.awPart[CHR_EQUIPPART_WEAPON] = GetPart(PART_WEAPON);
-	pack.awPart[CHR_EQUIPPART_HEAD] = GetPart(PART_HEAD);
+	pack.awPart[CHR_EQUIPPART_HAIR] = GetPart(PART_HAIR);
 #ifdef ENABLE_ACCE_COSTUME_SYSTEM
 	pack.awPart[CHR_EQUIPPART_ACCE] = GetPart(PART_ACCE);
 #endif
@@ -4280,6 +4281,30 @@ void CHARACTER::QuestChatPacket(WORD chatID, BYTE type)
 	buf.write(&p, sizeof(TPacketNewChat));
 
 	d->Packet(buf.read_peek(), buf.size());
+}
+#else
+void CHARACTER::NewChatPacket(WORD chatID, const char* format, ...)
+{
+	(void)chatID;
+	(void)format;
+}
+
+void CHARACTER::NewChatPacket(WORD chatID)
+{
+	(void)chatID;
+}
+
+void CHARACTER::QuestChatPacket(WORD chatID, BYTE type, const char* format, ...)
+{
+	(void)chatID;
+	(void)type;
+	(void)format;
+}
+
+void CHARACTER::QuestChatPacket(WORD chatID, BYTE type)
+{
+	(void)chatID;
+	(void)type;
 }
 #endif
 
@@ -8490,7 +8515,14 @@ void CHARACTER::CheckMount()
 	}
 #else
 	if (GetWear(WEAR_COSTUME_MOUNT))
-	
+	{
+		LPITEM mountItem = GetWear(WEAR_COSTUME_MOUNT);
+		CMountSystem* mountSystem = GetMountSystem();
+		DWORD mobVnum = 0;
+
+		if (!mountSystem || !mountItem)
+			return;
+
 		if (mountItem->GetValue(1) != 0)
 			mobVnum = mountItem->GetValue(1);
 
@@ -8766,15 +8798,21 @@ void CHARACTER::WindowCloseAll()
 
 	SetCubeNpc(nullptr);
 	CloseAcce();
+#ifdef ENABLE_AURA_SYSTEM
 	CloseAura();
+#endif
 
 	CShopManager::instance().StopShopping(this);
 	CloseMyShop();
 	CloseSafebox();
 
+#ifdef ENABLE_BOT_CONTROL
 	SetBotControl(false);
+#endif
 
+#ifdef ENABLE_OFFLINE_SHOP
 	SetOfflineShopGuest(nullptr);
+#endif
 
 	ChatPacket(CHAT_TYPE_COMMAND, "CloseAllWindows");
 }
@@ -8849,8 +8887,10 @@ bool CHARACTER::CanWarp(bool notquest, bool dead) const
 			return false;
 	}
 
+#ifdef ENABLE_OFFLINE_SHOP
 	if ((iPulse - GetOfflineShopUseTime()) < limit_time)
 		return false;
+#endif
 
 	return true;
 }
@@ -8868,17 +8908,22 @@ bool CHARACTER::IsActivateTime(BYTE type, BYTE second) const
 
 bool CHARACTER::IsOfflineShopActivateTime(BYTE second) const
 {
+#ifdef ENABLE_OFFLINE_SHOP
 	const int iPulse = thecore_pulse();
 	const int limit_time = PASSES_PER_SEC(second);
 
 	if ((iPulse - GetOfflineShopUseTime()) < limit_time)
 		return true;
+#else
+	(void)second;
+#endif
 
 	return false;
 }
 
 bool CHARACTER::IsOpenOfflineShop() const
 {
+#ifdef ENABLE_OFFLINE_SHOP
 	if (m_pkShopSafebox || m_pkShopSafebox != NULL)
 		return true;
 
@@ -8887,6 +8932,7 @@ bool CHARACTER::IsOpenOfflineShop() const
 
 	if (IsOfflineShopActivateTime(3))
 		return true;
+#endif
 
 	return false;
 }

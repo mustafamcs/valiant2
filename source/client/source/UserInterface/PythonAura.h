@@ -1,5 +1,6 @@
 #pragma once
 
+#ifdef ENABLE_AURA_SYSTEM
 class CPythonAura : public CSingleton<CPythonAura>
 {
 	public:
@@ -22,3 +23,4 @@ class CPythonAura : public CSingleton<CPythonAura>
 		TAuraResult	m_vAuraResult;
 		TAuraMaterials	m_vAuraMaterials;
 };
+#endif

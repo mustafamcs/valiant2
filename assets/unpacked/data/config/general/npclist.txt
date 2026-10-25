@@ -2830,10 +2830,37 @@
 
 41100	npc_chest2
 
+45000	plechi_lady_npc1
+45001	plechi_lady_npc4
+45002	plechi_lady_npc9
 45020	plechi_lady_npc1
 45021	plechi_lady_npc4
 45022	npc_vimeya_01
+45003	plechi_lady_npc1
+45004	plechi_lady_npc4
+45005	plechi_lady_npc9
+45006	plechi_lady_npc1
+45007	plechi_lady_npc4
+45008	plechi_lady_npc9
+45009	plechi_lady_npc1
+45010	plechi_lady_npc4
+45011	plechi_lady_npc9
+45012	plechi_lady_npc1
+45013	plechi_lady_npc4
+45014	plechi_lady_npc9
+45015	plechi_lady_npc1
+45016	plechi_lady_npc4
+45017	plechi_lady_npc9
+45018	plechi_lady_npc1
+45019	plechi_lady_npc4
+45023	plechi_lady_npc1
 45024	plechi_lady_npc9
+45025	plechi_lady_npc4
+45026	plechi_lady_npc9
+45027	plechi_lady_npc1
+45028	plechi_lady_npc4
+45029	plechi_lady_npc9
+45030	plechi_lady_npc1
 
 62	bear
 
