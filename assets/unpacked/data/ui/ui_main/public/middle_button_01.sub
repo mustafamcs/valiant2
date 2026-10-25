@@ -1,7 +1,7 @@
 title subImage
 version 1.0
-image "Public.dds"
-left 194
-top 142
-right 255
-bottom 163
+image "middle_01.png"
+left 0
+top 0
+right 59
+bottom 19
